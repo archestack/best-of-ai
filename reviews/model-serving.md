@@ -326,4 +326,4 @@ TabbyAPI is a FastAPI server exposing an OpenAI-compatible API for the ExLlamaV3
 
 <sub>GPU required · Models: EXL3 (recommended), FP16/BF16 Hugging Face models · port 5000 · [Repo](https://github.com/theroyallab/tabbyAPI) · [📖 Docs](https://theroyallab.github.io/tabbyAPI)</sub>
 
-<sub>Written from each project README and checked facts; see [how entries are written](../README.md#-how-it-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

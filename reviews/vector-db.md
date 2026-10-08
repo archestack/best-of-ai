@@ -162,4 +162,4 @@ Marqo was a vector search engine that generated embeddings and stored them in on
 
 <sub>Compose · [Repo](https://github.com/marqo-ai/marqo) · [📖 Docs](https://docs.marqo.ai) · [🌐 Site](https://www.marqo.ai)</sub>
 
-<sub>Written from each project README and checked facts; see [how entries are written](../README.md#-how-it-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

@@ -234,4 +234,4 @@ ChatGPT UI is a web client for ChatGPT-style chat that supports multiple users, 
 
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/WongSaang/chatgpt-ui) · [📖 Docs](https://wongsaang.github.io/chatgpt-ui/)</sub>
 
-<sub>Written from each project README and checked facts; see [how entries are written](../README.md#-how-it-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

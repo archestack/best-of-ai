@@ -1,18 +1,20 @@
-<p align="center"><img src="https://github.com/archestack.png" width="88" alt="Archestack" /></p>
+<p align="center"><img src="https://github.com/archestack.png" width="96" alt="Archestack" /></p>
 <h1 align="center">Best of Self-Hosted AI</h1>
-<p align="center"><strong>🏆 The leaderboard of self-hosted AI: apps you can run on your own server, ranked.</strong></p>
+<h3 align="center">Self-hosted AI, ranked. 🏆</h3>
+<p align="center">What runs on your own box, what it needs, where it breaks. No fluff, and paid never moves a rank.</p>
 <p align="center">
-  <img alt="projects" src="https://img.shields.io/badge/projects-159-5ac4bf" />
-  <img alt="categories" src="https://img.shields.io/badge/categories-14-5ac4bf" />
-  <img alt="updated" src="https://img.shields.io/badge/updated-2026-10-08-success" />
-  <img alt="data" src="https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey" />
+  <img alt="projects" src="https://img.shields.io/badge/159_projects-ff6b6b?style=for-the-badge" />
+  <img alt="stars" src="https://img.shields.io/badge/6.0M_stars_combined-ffd166?style=for-the-badge" />
+  <img alt="categories" src="https://img.shields.io/badge/14_categories-5ac4bf?style=for-the-badge" />
+  <img alt="updated" src="https://img.shields.io/badge/updated-2026-10-08-8ac926?style=for-the-badge" />
 </p>
-<p align="center">🤖 found, checked and written by bots &nbsp;·&nbsp; ✍️ every entry states strengths and weaknesses &nbsp;·&nbsp; 🧪 demo and docs links where they exist</p>
+
+> [!TIP]
+> 🤖 **Bots** find and fact-check every project &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; 🧪 **Demo links** so you can try before you deploy
+
 <p align="center">Looking for starters and templates to build your own AI app? 👉 <a href="https://github.com/archestack/best-of-ai-starters"><b>Best of AI Starters</b></a></p>
 
----
-
-## 🏆 Top 10
+## 🔥 Top 10 right now
 
 | # | Project | Category | ⭐ | 🔗 |
 |:-:|---|---|--:|---|
@@ -27,9 +29,24 @@
 | 9 | **[Langflow](https://github.com/langflow-ai/langflow)**<br><sub>Visual flow builder that deploys agents as APIs or MCP servers</sub> | 🧩 [Agent platforms](#-agent-platforms) | 156k | [📝](reviews/agent-platforms.md#langflow) [📖](https://docs.langflow.org/get-started-installation "Docs") [🌐](https://langflow.org "Website") |
 | 10 | **[Open WebUI](https://github.com/open-webui/open-webui)**<br><sub>Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG</sub> | 💬 [Chat UIs](#-chat-uis) | 154k | [📝](reviews/chat-ui.md#open-webui) [📖](https://docs.openwebui.com/ "Docs") [🌐](https://openwebui.com "Website") |
 
-<sub>Ranked by stars for now; a score that weighs maintenance, deployability and verified builds is on the way.</sub>
+<sub>Ranked by stars for now. A score that weighs maintenance, deployability and verified builds is coming, so expect the board to shuffle. 🔀</sub>
 
-## 🗂️ Contents
+## ⚡ Pick by vibe
+
+- 💬 *ChatGPT, but at home* → [Chat UIs](#-chat-uis)
+- 🧠 *Run models on my own GPU* → [Model serving](#-model-serving)
+- 🤖 *An assistant living in my Telegram or WhatsApp* → [Assistants](#-assistants)
+- 📚 *Chat with my own documents* → [RAG and knowledge](#-rag-and-knowledge)
+- 🧩 *Build agents and workflows without coding everything* → [Agent platforms](#-agent-platforms)
+- 🔀 *One API key for every provider* → [Gateways](#-gateways)
+- 💻 *Copilot, self-hosted* → [Coding](#-coding)
+- 🎙️ *Voice in, voice out, offline* → [Voice](#-voice)
+- 🎨 *Generate images and video* → [Image and video](#-image-and-video)
+- 🔎 *Search that doesn't phone home* → [Search](#-search)
+- 📈 *See what my LLM app is actually doing* → [Observability](#-observability)
+- 🛡️ *Let agents run code without wrecking my server* → [Sandboxes](#-sandboxes)
+
+## 🗂️ All categories
 
 - 🤖 [Assistants](#-assistants) · 11
 - 💬 [Chat UIs](#-chat-uis) · 13
@@ -74,7 +91,7 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 💬 Chat UIs
 
@@ -104,7 +121,7 @@ Web front-ends for local or API models, usually with user accounts, chat history
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 🧩 Agent platforms
 
@@ -133,7 +150,7 @@ Visual or code-first builders for agents and workflows, with orchestration, tool
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 📚 RAG and knowledge
 
@@ -165,7 +182,7 @@ Document Q&A, knowledge bases and enterprise search over your own files and data
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 🧠 Model serving
 
@@ -200,7 +217,7 @@ Inference engines and model servers that expose local models over an API. <sub>1
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 🔀 Gateways
 
@@ -230,7 +247,7 @@ LLM gateways and proxies for routing, caching, rate limits and cost control acro
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 🗂️ Memory
 
@@ -258,7 +275,7 @@ Long-term memory engines that store and retrieve facts for agents across session
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 🎙️ Voice
 
@@ -286,7 +303,7 @@ Speech-to-text, text-to-speech, voice agents and meeting tools that run locally.
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 🎨 Image and video
 
@@ -311,7 +328,7 @@ Generation UIs and pipelines for images and video, usually around diffusion mode
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 💻 Coding
 
@@ -337,7 +354,7 @@ Self-hosted coding assistants and agents, from editor completion to autonomous t
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 🔎 Search
 
@@ -362,7 +379,7 @@ Private search engines and AI answer engines that keep queries on your host. <su
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 📈 Observability
 
@@ -392,7 +409,7 @@ Tracing, evaluation and prompt management for LLM applications. <sub>13 projects
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 🧮 Vector databases
 
@@ -418,7 +435,7 @@ Vector stores and hybrid search engines for embeddings. <sub>9 projects · [📝
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
 ## 🛡️ Sandboxes
 
@@ -443,21 +460,22 @@ Isolated runtimes where agents execute code, browse or use tools safely. <sub>8 
 
 </details>
 
-<p align="right"><a href="#%EF%B8%8F-contents">↑ contents</a></p>
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
-## 🔧 How it works
+## 🧠 How this works
 
-- 🔎 **Found by bots** from curated lists, app stores and template galleries, then checked on GitHub: stars, last commit, license, Docker files.
-- ✍️ **Written from the README**, not from other lists: what it does, what it needs, strengths and weaknesses as checkable claims. Specs say `unknown` rather than guess.
-- 🔄 **Kept current**: entries are rewritten when the README or the latest release changes; projects quiet for 12 months are marked stale, archived ones are removed.
+- 🔎 **Found by bots** from curated lists, app stores and template galleries, then fact-checked on GitHub: stars, last commit, license, Docker files.
+- ✍️ **Written from the README**, never copied from other lists: what it does, what it needs, strengths and weaknesses as claims you can check. Specs say `unknown` rather than guess.
+- 🔄 **Kept fresh**: entries are rewritten when the README or the latest release changes; projects quiet for 12 months get marked stale, archived ones drop off.
+- 🚫 **No pay-to-rank.** Sponsors and affiliate links, if any, are labeled and never touch the order.
 
-## 📬 Submit, fix or opt out
+## 📬 Your turn
 
-➕ [Add a project](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose) · 🛠️ [Report wrong data](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose) · 🚪 [Opt out](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose) (honored within 24 hours). The README, reviews and `data/` are generated; please use the forms instead of editing them.
+➕ [Add a project](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose) · 🛠️ [Fix wrong data](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose) · 🚪 [Opt out](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose) (done within 24 hours). Everything here is generated, so use the forms instead of editing files.
 
-<details><summary>📚 Sources</summary>
+<details><summary>📚 Where candidates come from</summary>
 
-Candidates come from these lists, app stores and galleries (facts and links only, no text copied), plus community submissions: [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) · [awesome-local-llm](https://github.com/rafska/awesome-local-llm) · [compose-examples](https://github.com/Haxxnet/Compose-Examples) · [awesome-homelab](https://github.com/AwesomeHomelab/awesome-homelab) · [self-hosting-guide](https://github.com/mikeroyal/Self-Hosting-Guide) · [awesome-ai-agent-platforms](https://github.com/Agenta-AI/awesome-ai-agent-platforms) · [awesome-openclaw](https://github.com/alvinreal/awesome-openclaw) · [umbrel-apps](https://github.com/getumbrel/umbrel-apps) · [runtipi-appstore](https://github.com/runtipi/runtipi-appstore) · [casaos-appstore](https://github.com/IceWhaleTech/CasaOS-AppStore) · [dokploy-templates](https://templates.dokploy.com/meta.json) · [awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai) · [awesome-llm-services](https://github.com/av/awesome-llm-services) · [awesome-llmops](https://github.com/tensorchord/Awesome-LLMOps) · [awesome-private-ai](https://github.com/tdi/awesome-private-ai) · [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) · [awesome-llm-webapps](https://github.com/icefort-ai/awesome-llm-webapps).
+These lists, app stores and galleries (facts and links only, no text copied), plus community submissions: [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) · [awesome-local-llm](https://github.com/rafska/awesome-local-llm) · [compose-examples](https://github.com/Haxxnet/Compose-Examples) · [awesome-homelab](https://github.com/AwesomeHomelab/awesome-homelab) · [self-hosting-guide](https://github.com/mikeroyal/Self-Hosting-Guide) · [awesome-ai-agent-platforms](https://github.com/Agenta-AI/awesome-ai-agent-platforms) · [awesome-openclaw](https://github.com/alvinreal/awesome-openclaw) · [umbrel-apps](https://github.com/getumbrel/umbrel-apps) · [runtipi-appstore](https://github.com/runtipi/runtipi-appstore) · [casaos-appstore](https://github.com/IceWhaleTech/CasaOS-AppStore) · [dokploy-templates](https://templates.dokploy.com/meta.json) · [awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai) · [awesome-llm-services](https://github.com/av/awesome-llm-services) · [awesome-llmops](https://github.com/tensorchord/Awesome-LLMOps) · [awesome-private-ai](https://github.com/tdi/awesome-private-ai) · [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) · [awesome-llm-webapps](https://github.com/icefort-ai/awesome-llm-webapps).
 
 </details>
 
@@ -465,4 +483,4 @@ Candidates come from these lists, app stores and galleries (facts and links only
 
 Data (`data/`, this README, `reviews/`) is CC BY 4.0; see LICENSE-DATA. Code is MIT; see LICENSE. Project names and descriptions belong to their owners.
 
-<p align="center"><sub>Maintained by <a href="https://github.com/archestack">Archestack</a> · also see <a href="https://github.com/archestack/best-of-ai-starters">Best of AI Starters</a></sub></p>
+<p align="center"><sub>Made with 🤖 + ☕ by <a href="https://github.com/archestack">Archestack</a> · see also <a href="https://github.com/archestack/best-of-ai-starters">Best of AI Starters</a></sub></p>

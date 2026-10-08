@@ -146,4 +146,4 @@ Container or pip package exposing a shell and file management over a REST API wi
 
 <sub>no GPU · Docker · port 8000 · [Repo](https://github.com/open-webui/open-terminal)</sub>
 
-<sub>Written from each project README and checked facts; see [how entries are written](../README.md#-how-it-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

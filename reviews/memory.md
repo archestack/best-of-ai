@@ -200,4 +200,4 @@ Letta Code is an npm-installed agent harness whose agents keep memory blocks, sk
 
 <sub>no GPU · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [🧪 Demo](https://chat.letta.com) · [📖 Docs](https://docs.letta.com/letta-code/cli)</sub>
 
-<sub>Written from each project README and checked facts; see [how entries are written](../README.md#-how-it-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

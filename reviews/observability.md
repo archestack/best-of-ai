@@ -236,4 +236,4 @@ Bundles OpenTelemetry tracing for 50+ frameworks, 50+ evaluation metrics, person
 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker Compose v2.24+, PostgreSQL, ClickHouse, Redis and Temporal (bundled in compose) · Models: 100+ providers via gateway (OpenAI, Anthropic, Gemini, Bedrock, Azure, Mistral, Groq), Ollama, vLLM, LM Studio, TGI and llamafile · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [📖 Docs](https://docs.futureagi.com) · [🌐 Site](https://futureagi.com)</sub>
 
-<sub>Written from each project README and checked facts; see [how entries are written](../README.md#-how-it-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
