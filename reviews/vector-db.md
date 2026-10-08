@@ -3,7 +3,7 @@
 Vector stores and hybrid search engines for embeddings. Back to the [leaderboard](../README.md#-vector-databases).
 
 <a name="chroma"></a>
-### 🥇 87 [Chroma](https://github.com/chroma-core/chroma) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥈 79 [Chroma](https://github.com/chroma-core/chroma) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Embedding database with a four-function API for Python and JavaScript.**
 
@@ -21,7 +21,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs](https://docs.trychroma.com/) · [🌐 Site](https://www.trychroma.com/)</sub>
 
 <a name="weaviate"></a>
-### 🥈 75 [Weaviate](https://github.com/weaviate/weaviate) <sub>⭐ 17k · NOASSERTION · Oct 2026</sub>
+### 🥈 78 [Weaviate](https://github.com/weaviate/weaviate) <sub>⭐ 17k · NOASSERTION · Oct 2026</sub>
 
 **Go vector database with built-in vectorizers, hybrid search and RAG.**
 
@@ -38,26 +38,8 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [🧪 Demo](https://elysia.weaviate.io) · [📖 Docs](https://docs.weaviate.io)</sub>
 
-<a name="meilisearch"></a>
-### 🥈 70 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
-
-**Rust search engine API with full-text, vector and hybrid search.**
-
-Meilisearch is a Rust search engine with a REST API that combines full-text search (typo tolerance, facets, geosearch) with vector and hybrid search, returning results as you type. It adds API keys with fine-grained permissions, tenant tokens for multi-tenancy, conversational search and MCP and LangChain integrations. The Community Edition is MIT; sharding and S3 snapshots require the Enterprise Edition.
-
-- **+** Search-as-you-type under 50 ms with typo tolerance and faceting
-- **+** Hybrid semantic plus full-text ranking in one engine
-- **+** API keys with fine-grained permissions and tenant tokens for multi-tenancy
-- **+** REST API with official SDKs; MCP and LangChain integrations
-- **−** Sharding, S3 snapshots and search-rule previews are Enterprise Edition (BSL or commercial)
-- **−** Anonymized telemetry is on by default and must be disabled
-- **−** No port, RAM or install details in the README; docs only
-- **−** Vector search is documented under experimental features
-
-<sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [🧪 Demo](https://where2watch.meilisearch.com/) · [📖 Docs](https://www.meilisearch.com/docs) · [🌐 Site](https://www.meilisearch.com)</sub>
-
 <a name="milvus"></a>
-### 🥈 68 [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
+### 🥈 76 [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
 
 **Distributed vector database with dense, sparse and hybrid search at scale.**
 
@@ -74,8 +56,26 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 
 <sub>GPU optional · Compose · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [🧪 Demo](https://milvus.io/milvus-demos) · [📖 Docs](https://milvus.io/docs) · [🌐 Site](https://milvus.io/)</sub>
 
+<a name="meilisearch"></a>
+### 🥈 74 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
+
+**Rust search engine API with full-text, vector and hybrid search.**
+
+Meilisearch is a Rust search engine with a REST API that combines full-text search (typo tolerance, facets, geosearch) with vector and hybrid search, returning results as you type. It adds API keys with fine-grained permissions, tenant tokens for multi-tenancy, conversational search and MCP and LangChain integrations. The Community Edition is MIT; sharding and S3 snapshots require the Enterprise Edition.
+
+- **+** Search-as-you-type under 50 ms with typo tolerance and faceting
+- **+** Hybrid semantic plus full-text ranking in one engine
+- **+** API keys with fine-grained permissions and tenant tokens for multi-tenancy
+- **+** REST API with official SDKs; MCP and LangChain integrations
+- **−** Sharding, S3 snapshots and search-rule previews are Enterprise Edition (BSL or commercial)
+- **−** Anonymized telemetry is on by default and must be disabled
+- **−** No port, RAM or install details in the README; docs only
+- **−** Vector search is documented under experimental features
+
+<sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [🧪 Demo](https://where2watch.meilisearch.com/) · [📖 Docs](https://www.meilisearch.com/docs) · [🌐 Site](https://www.meilisearch.com)</sub>
+
 <a name="qdrant"></a>
-### 🥈 65 [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### 🥈 68 [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -111,7 +111,7 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector)</sub>
 
 <a name="helix-db"></a>
-### 51 [HelixDB](https://github.com/HelixDB/helix-db) <sub>⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
+### 🥉 60 [HelixDB](https://github.com/HelixDB/helix-db) <sub>⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
 
 **Rust graph database with native vector and BM25 search.**
 
@@ -128,24 +128,8 @@ HelixDB is a Rust database that combines a labeled property graph, approximate n
 
 <sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/HelixDB/helix-db) · [📖 Docs](https://docs.helix-db.com) · [🌐 Site](https://helix-db.com)</sub>
 
-<a name="marqo"></a>
-### 39 [Marqo](https://github.com/marqo-ai/marqo) <sub>⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
-
-**Vector search engine with built-in embedding, now deprecated upstream.**
-
-Marqo was a vector search engine that generated embeddings and stored them in one service, so you indexed raw text or images and queried in natural language. Its README now states the open-source project is deprecated and will receive no updates, pointing to the commercial Marqo ecommerce search platform instead. The Apache-2.0 code and docs remain available.
-
-- **+** Apache-2.0 code remains available for forks
-- **+** Docs at docs.marqo.ai still describe the API
-- **−** Open-source project declared deprecated; no further updates
-- **−** README no longer documents installation, API or supported models
-- **−** Last commit 2026-04-10
-- **−** Only the commercial platform is maintained
-
-<sub>Compose · [Repo](https://github.com/marqo-ai/marqo) · [📖 Docs](https://docs.marqo.ai) · [🌐 Site](https://www.marqo.ai)</sub>
-
 <a name="vespa"></a>
-### 34 [Vespa](https://github.com/vespa-engine/vespa) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### 42 [Vespa](https://github.com/vespa-engine/vespa) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -161,5 +145,21 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 - **−** A new release every weekday morning Monday to Thursday; versions churn
 
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs](https://docs.vespa.ai) · [🌐 Site](https://vespa.ai)</sub>
+
+<a name="marqo"></a>
+### 38 [Marqo](https://github.com/marqo-ai/marqo) <sub>⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
+
+**Vector search engine with built-in embedding, now deprecated upstream.**
+
+Marqo was a vector search engine that generated embeddings and stored them in one service, so you indexed raw text or images and queried in natural language. Its README now states the open-source project is deprecated and will receive no updates, pointing to the commercial Marqo ecommerce search platform instead. The Apache-2.0 code and docs remain available.
+
+- **+** Apache-2.0 code remains available for forks
+- **+** Docs at docs.marqo.ai still describe the API
+- **−** Open-source project declared deprecated; no further updates
+- **−** README no longer documents installation, API or supported models
+- **−** Last commit 2026-04-10
+- **−** Only the commercial platform is maintained
+
+<sub>Compose · [Repo](https://github.com/marqo-ai/marqo) · [📖 Docs](https://docs.marqo.ai) · [🌐 Site](https://www.marqo.ai)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

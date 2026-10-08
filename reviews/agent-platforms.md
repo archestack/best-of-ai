@@ -21,7 +21,7 @@ Multica is a Go and Next.js workspace on PostgreSQL 17 where humans and AI codin
 <sub>no GPU · Docker + Compose · Needs PostgreSQL 17, Docker · [Repo](https://github.com/multica-ai/multica) · [📖 Docs](https://multica.ai/docs) · [🌐 Site](https://multica.ai)</sub>
 
 <a name="activepieces"></a>
-### 🥇 81 [Activepieces](https://github.com/activepieces/activepieces) <sub>⭐ 25k · NOASSERTION · Oct 2026</sub>
+### 🥇 83 [Activepieces](https://github.com/activepieces/activepieces) <sub>⭐ 25k · NOASSERTION · Oct 2026</sub>
 
 **Zapier-style automation whose 280+ pieces double as MCP servers.**
 
@@ -38,7 +38,7 @@ Activepieces is a TypeScript workflow automation tool with a no-code builder (lo
 <sub>no GPU · Docker + Compose · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs](https://www.activepieces.com/docs) · [🌐 Site](https://activepieces.com)</sub>
 
 <a name="skyvern"></a>
-### 🥈 73 [Skyvern](https://github.com/Skyvern-AI/skyvern) <sub>⭐ 23k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 81 [Skyvern](https://github.com/Skyvern-AI/skyvern) <sub>⭐ 23k · AGPL-3.0 · Oct 2026</sub>
 
 **Browser automation agent driven by vision LLMs over Playwright.**
 
@@ -56,7 +56,7 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 <sub>no GPU · Docker + Compose · port 8080 · [Repo](https://github.com/Skyvern-AI/skyvern) · [🧪 Demo](https://app.skyvern.com) · [📖 Docs](https://www.skyvern.com/docs/) · [🌐 Site](https://www.skyvern.com)</sub>
 
 <a name="paperclip"></a>
-### 🥈 69 [Paperclip](https://github.com/paperclipai/paperclip) <sub>⭐ 99k · MIT · Oct 2026</sub>
+### 🥈 71 [Paperclip](https://github.com/paperclipai/paperclip) <sub>⭐ 99k · MIT · Oct 2026</sub>
 
 **Task manager and org chart for teams of AI agents with budgets.**
 
@@ -74,7 +74,7 @@ Paperclip is a Node.js server and React UI that coordinates external agents (Ope
 <sub>no GPU · Docker · [Repo](https://github.com/paperclipai/paperclip) · [📖 Docs](https://docs.paperclip.ing) · [🌐 Site](https://paperclip.ing)</sub>
 
 <a name="n8n"></a>
-### 🥉 61 [n8n](https://github.com/n8n-io/n8n) <sub>⭐ 207k · NOASSERTION · Oct 2026</sub>
+### 🥈 65 [n8n](https://github.com/n8n-io/n8n) <sub>⭐ 207k · NOASSERTION · Oct 2026</sub>
 
 **Visual workflow automation with code steps, AI agent nodes and 1500+ integrations.**
 
@@ -90,43 +90,8 @@ n8n is a fair-code workflow platform that runs as one Docker container (docker.n
 
 <sub>no GPU · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs](https://docs.n8n.io)</sub>
 
-<a name="langflow"></a>
-### 🥉 56 [Langflow](https://github.com/langflow-ai/langflow) <sub>⭐ 156k · MIT · Oct 2026</sub>
-
-**Visual flow builder that deploys agents as APIs or MCP servers.**
-
-Langflow is a Python 3.10 to 3.14 visual builder (uv pip install langflow, or the langflowai/langflow Docker image on port 7860) for agents and LLM workflows. Every component is editable Python, flows run in an interactive playground, and a finished flow can be served as an API, exported as JSON for Python apps or exposed as an MCP server. Multi-agent orchestration and LangSmith or LangFuse tracing are built in.
-
-- **+** Any flow becomes an API endpoint or an MCP server for MCP clients
-- **+** Component source is Python you can edit inside the builder
-- **+** One container on port 7860; no other service in the quick start
-- **+** MIT license; desktop builds for Windows and macOS
-- **−** README names no model providers, vector stores or resource needs
-- **−** No root Dockerfile or compose file; container config lives in the docs
-- **−** Enterprise-ready claim is not detailed in the README
-
-<sub>no GPU · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs](https://docs.langflow.org/get-started-installation) · [🌐 Site](https://langflow.org)</sub>
-
-<a name="dify"></a>
-### 54 [Dify](https://github.com/langgenius/dify) <sub>⭐ 158k · NOASSERTION · Oct 2026</sub>
-
-**Visual LLM app platform with workflows, RAG pipeline, agents and APIs.**
-
-Dify is an LLM app platform started with Docker Compose (dashboard on port 80) that needs 2 CPU cores and 4 GiB RAM. One canvas covers visual workflows, a prompt IDE, a RAG pipeline that ingests PDFs and PPTs, sandboxed agents using Marketplace tools, MCP servers or your own APIs, plus LLMOps tracing via Opik, Langfuse or Arize Phoenix. Hundreds of models work, including OpenAI-compatible endpoints.
-
-- **+** Workflow, RAG, agents, prompt IDE and model management in one canvas
-- **+** Hundreds of models: GPT, Mistral, Llama3 and any OpenAI-compatible API
-- **+** Observability through Opik, Langfuse and Arize Phoenix
-- **+** Every feature is exposed through an API (backend-as-a-service)
-- **−** Dify Open Source License adds conditions on top of Apache 2.0
-- **−** SSO, RBAC and support SLAs are reserved for Dify Enterprise
-- **−** Minimum 2 CPU cores and 4 GiB RAM for the Compose stack
-- **−** Dashboard binds to port 80 by default
-
-<sub>RAM ≥ 4 GB · no GPU · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [🧪 Demo](https://cloud.dify.ai) · [📖 Docs](https://docs.dify.ai) · [🌐 Site](https://dify.ai)</sub>
-
 <a name="autogpt"></a>
-### 53 [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) <sub>⭐ 188k · NOASSERTION · Oct 2026</sub>
+### 🥉 63 [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) <sub>⭐ 188k · NOASSERTION · Oct 2026</sub>
 
 **Block-based builder for agents that run on demand, schedule or trigger.**
 
@@ -143,25 +108,43 @@ AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire bl
 
 <sub>no GPU · Needs Docker · [Repo](https://github.com/Significant-Gravitas/AutoGPT) · [🧪 Demo](https://platform.agpt.co/tour) · [📖 Docs](https://docs.agpt.co)</sub>
 
-<a name="botpress"></a>
-### 52 [Botpress](https://github.com/botpress/botpress) <sub>⭐ 15k · MIT · Oct 2026</sub>
+<a name="langflow"></a>
+### 🥉 62 [Langflow](https://github.com/langflow-ai/langflow) <sub>⭐ 156k · MIT · Oct 2026</sub>
 
-**SDK, CLI and open-source integrations for the Botpress Cloud bot platform.**
+**Visual flow builder that deploys agents as APIs or MCP servers.**
 
-This repository holds the TypeScript devtools for Botpress Cloud: the @botpress/cli (bp init, bp deploy), the @botpress/sdk and typed client, every public integration on the Botpress Hub, and example bots written as code. Bots themselves are built in the hosted Botpress Studio and powered by OpenAI; the on-premise server is the separate Botpress v12 repository. Everything here is MIT.
+Langflow is a Python 3.10 to 3.14 visual builder (uv pip install langflow, or the langflowai/langflow Docker image on port 7860) for agents and LLM workflows. Every component is editable Python, flows run in an interactive playground, and a finished flow can be served as an API, exported as JSON for Python apps or exposed as an MCP server. Multi-agent orchestration and LangSmith or LangFuse tracing are built in.
 
-- **+** All public Hub integrations are open source and contributable with bp init and bp deploy
-- **+** Typed TypeScript SDK and API client for building integrations and bots as code
-- **+** MIT license for every package in the repository
-- **−** The chatbot platform (Studio, runtime) is Botpress Cloud, not something you host from here
-- **−** Self-hosted server is the separate, older Botpress v12 repository
-- **−** Bots-as-code is described as not the recommended way to build bots
-- **−** Plugins section is marked coming soon
+- **+** Any flow becomes an API endpoint or an MCP server for MCP clients
+- **+** Component source is Python you can edit inside the builder
+- **+** One container on port 7860; no other service in the quick start
+- **+** MIT license; desktop builds for Windows and macOS
+- **−** README names no model providers, vector stores or resource needs
+- **−** No root Dockerfile or compose file; container config lives in the docs
+- **−** Enterprise-ready claim is not detailed in the README
 
-<sub>no GPU · Docker · Models: OpenAI · [Repo](https://github.com/botpress/botpress) · [🧪 Demo](https://app.botpress.cloud) · [📖 Docs](https://botpress.com/docs) · [🌐 Site](https://botpress.com)</sub>
+<sub>no GPU · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs](https://docs.langflow.org/get-started-installation) · [🌐 Site](https://langflow.org)</sub>
+
+<a name="dify"></a>
+### 🥉 61 [Dify](https://github.com/langgenius/dify) <sub>⭐ 158k · NOASSERTION · Oct 2026</sub>
+
+**Visual LLM app platform with workflows, RAG pipeline, agents and APIs.**
+
+Dify is an LLM app platform started with Docker Compose (dashboard on port 80) that needs 2 CPU cores and 4 GiB RAM. One canvas covers visual workflows, a prompt IDE, a RAG pipeline that ingests PDFs and PPTs, sandboxed agents using Marketplace tools, MCP servers or your own APIs, plus LLMOps tracing via Opik, Langfuse or Arize Phoenix. Hundreds of models work, including OpenAI-compatible endpoints.
+
+- **+** Workflow, RAG, agents, prompt IDE and model management in one canvas
+- **+** Hundreds of models: GPT, Mistral, Llama3 and any OpenAI-compatible API
+- **+** Observability through Opik, Langfuse and Arize Phoenix
+- **+** Every feature is exposed through an API (backend-as-a-service)
+- **−** Dify Open Source License adds conditions on top of Apache 2.0
+- **−** SSO, RBAC and support SLAs are reserved for Dify Enterprise
+- **−** Minimum 2 CPU cores and 4 GiB RAM for the Compose stack
+- **−** Dashboard binds to port 80 by default
+
+<sub>RAM ≥ 4 GB · no GPU · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [🧪 Demo](https://cloud.dify.ai) · [📖 Docs](https://docs.dify.ai) · [🌐 Site](https://dify.ai)</sub>
 
 <a name="sim"></a>
-### 49 [Sim](https://github.com/simstudioai/sim) <sub>⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### 54 [Sim](https://github.com/simstudioai/sim) <sub>⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Workspace to build, deploy and monitor agents with 1,000+ integrations.**
 
@@ -179,7 +162,7 @@ Sim is a Next.js and Bun app on PostgreSQL that builds agents visually, by chat 
 <sub>RAM ≥ 12 GB · no GPU · Needs PostgreSQL, Docker, Sim Chat API key · Models: Ollama, vLLM · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs](https://docs.sim.ai) · [🌐 Site](https://sim.ai)</sub>
 
 <a name="fastgpt"></a>
-### 41 [FastGPT](https://github.com/labring/FastGPT) <sub>⭐ 30k · NOASSERTION · Oct 2026</sub>
+### 50 [FastGPT](https://github.com/labring/FastGPT) <sub>⭐ 30k · NOASSERTION · Oct 2026</sub>
 
 **Knowledge-base Q&A and visual workflow platform for LLM apps.**
 
@@ -197,7 +180,7 @@ FastGPT builds agents and LLM apps from a visual Flow editor on top of a knowled
 <sub>no GPU · port 3000 · [Repo](https://github.com/labring/FastGPT) · [📖 Docs](https://doc.fastgpt.io/guide/getting-started) · [🌐 Site](https://fastgpt.io)</sub>
 
 <a name="agent-zero"></a>
-### 38 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>⭐ 19k · NOASSERTION · Sep 2026</sub>
+### 46 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>⭐ 19k · NOASSERTION · Sep 2026</sub>
 
 **Agent framework that gives the model a full Linux desktop in Docker.**
 
@@ -213,5 +196,22 @@ Agent Zero runs as the agent0ai/agent-zero Docker image (port 80) and gives the 
 - **−** Maintainers point to Space Agent as the more polished product direction
 
 <sub>no GPU · Needs Docker · Models: OpenAI Codex plan (OAuth) · port 80 · [Repo](https://github.com/agent0ai/agent-zero) · [🌐 Site](https://agent-zero.ai)</sub>
+
+<a name="botpress"></a>
+### 43 [Botpress](https://github.com/botpress/botpress) <sub>⭐ 15k · MIT · Oct 2026</sub>
+
+**SDK, CLI and open-source integrations for the Botpress Cloud bot platform.**
+
+This repository holds the TypeScript devtools for Botpress Cloud: the @botpress/cli (bp init, bp deploy), the @botpress/sdk and typed client, every public integration on the Botpress Hub, and example bots written as code. Bots themselves are built in the hosted Botpress Studio and powered by OpenAI; the on-premise server is the separate Botpress v12 repository. Everything here is MIT.
+
+- **+** All public Hub integrations are open source and contributable with bp init and bp deploy
+- **+** Typed TypeScript SDK and API client for building integrations and bots as code
+- **+** MIT license for every package in the repository
+- **−** The chatbot platform (Studio, runtime) is Botpress Cloud, not something you host from here
+- **−** Self-hosted server is the separate, older Botpress v12 repository
+- **−** Bots-as-code is described as not the recommended way to build bots
+- **−** Plugins section is marked coming soon
+
+<sub>no GPU · Docker · Models: OpenAI · [Repo](https://github.com/botpress/botpress) · [🧪 Demo](https://app.botpress.cloud) · [📖 Docs](https://botpress.com/docs) · [🌐 Site](https://botpress.com)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

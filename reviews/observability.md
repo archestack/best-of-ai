@@ -3,7 +3,7 @@
 Tracing, evaluation and prompt management for LLM applications. Back to the [leaderboard](../README.md#-observability).
 
 <a name="phoenix"></a>
-### 🥈 78 [Phoenix](https://github.com/Arize-ai/phoenix) <sub>⭐ 12k · NOASSERTION · Oct 2026</sub>
+### 🥇 85 [Phoenix](https://github.com/Arize-ai/phoenix) <sub>⭐ 12k · NOASSERTION · Oct 2026</sub>
 
 **OpenTelemetry-based LLM tracing, evals and prompt playground.**
 
@@ -20,26 +20,8 @@ Collects traces through OpenInference and OpenTelemetry instrumentation for Open
 
 <sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google GenAI and ADK, AWS Bedrock, OpenRouter · port 6006 · [Repo](https://github.com/Arize-ai/phoenix) · [📖 Docs](https://arize.com/docs/phoenix/) · [🌐 Site](https://phoenix.arize.com)</sub>
 
-<a name="langfuse"></a>
-### 🥈 72 [Langfuse](https://github.com/langfuse/langfuse) <sub>⭐ 36k · NOASSERTION · Oct 2026</sub>
-
-**Tracing, prompt management and evals for LLM apps on ClickHouse.**
-
-Ingests traces of LLM calls, retrieval and agent steps via Python and JS/TS SDKs or drop-in OpenAI, LangChain, LlamaIndex, LiteLLM and Vercel AI SDK integrations, then adds prompt versioning with caching, LLM-as-a-judge and code evaluators, datasets and a playground. Stores data in ClickHouse; deploys with docker compose, Helm on Kubernetes, or Terraform for AWS, Azure and GCP. For teams debugging and evaluating LLM apps.
-
-- **+** Public OpenAPI spec, Postman collection and typed Python and JS/TS SDKs
-- **+** Prompt management with server and client caching adds no request latency
-- **+** Deployment paths from docker compose to Helm and Terraform templates
-- **+** Integrations with Dify, Flowise, Langflow, OpenWebUI, LobeChat, CrewAI, smolagents
-- **−** MIT except the ee folders; enterprise features need a commercial license
-- **−** Runs on ClickHouse plus other services; heavier than single-binary tools
-- **−** Default compose inherits Docker json-file logging with no rotation; disk can fill
-- **−** No Dockerfile at the repo root; images come from Docker Hub
-
-<sub>no GPU · Compose · Needs ClickHouse · [Repo](https://github.com/langfuse/langfuse) · [🧪 Demo](https://langfuse.com/demo) · [📖 Docs](https://langfuse.com/docs) · [🌐 Site](https://langfuse.com)</sub>
-
 <a name="latitude-llm"></a>
-### 🥈 71 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>⭐ 4.7k · MIT · Oct 2026</sub>
+### 🥈 76 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>⭐ 4.7k · MIT · Oct 2026</sub>
 
 **Agent observability that groups failures and dispatches coding agents to fix them.**
 
@@ -56,8 +38,26 @@ Captures traces, sessions and tool calls via a one-line SDK (TypeScript, Python)
 
 <sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Bedrock, Vercel AI SDK and LangChain apps, any OpenTelemetry source · [Repo](https://github.com/latitude-dev/latitude-llm) · [📖 Docs](https://docs.latitude.so) · [🌐 Site](https://latitude.so)</sub>
 
+<a name="langfuse"></a>
+### 🥈 74 [Langfuse](https://github.com/langfuse/langfuse) <sub>⭐ 36k · NOASSERTION · Oct 2026</sub>
+
+**Tracing, prompt management and evals for LLM apps on ClickHouse.**
+
+Ingests traces of LLM calls, retrieval and agent steps via Python and JS/TS SDKs or drop-in OpenAI, LangChain, LlamaIndex, LiteLLM and Vercel AI SDK integrations, then adds prompt versioning with caching, LLM-as-a-judge and code evaluators, datasets and a playground. Stores data in ClickHouse; deploys with docker compose, Helm on Kubernetes, or Terraform for AWS, Azure and GCP. For teams debugging and evaluating LLM apps.
+
+- **+** Public OpenAPI spec, Postman collection and typed Python and JS/TS SDKs
+- **+** Prompt management with server and client caching adds no request latency
+- **+** Deployment paths from docker compose to Helm and Terraform templates
+- **+** Integrations with Dify, Flowise, Langflow, OpenWebUI, LobeChat, CrewAI, smolagents
+- **−** MIT except the ee folders; enterprise features need a commercial license
+- **−** Runs on ClickHouse plus other services; heavier than single-binary tools
+- **−** Default compose inherits Docker json-file logging with no rotation; disk can fill
+- **−** No Dockerfile at the repo root; images come from Docker Hub
+
+<sub>no GPU · Compose · Needs ClickHouse · [Repo](https://github.com/langfuse/langfuse) · [🧪 Demo](https://langfuse.com/demo) · [📖 Docs](https://langfuse.com/docs) · [🌐 Site](https://langfuse.com)</sub>
+
 <a name="promptfoo"></a>
-### 🥈 65 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>⭐ 26k · MIT · Oct 2026</sub>
+### 🥈 71 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>⭐ 26k · MIT · Oct 2026</sub>
 
 **CLI for evaluating and red-teaming prompts, agents and RAG.**
 
@@ -75,7 +75,7 @@ Runs prompt and model evaluations from a YAML config via promptfoo eval, compare
 <sub>no GPU · Docker · Needs Node.js (npm) or Python (pip), LLM provider API key or Ollama · Models: OpenAI, Anthropic, Azure, Bedrock, Ollama · [Repo](https://github.com/promptfoo/promptfoo) · [📖 Docs](https://www.promptfoo.dev/docs/) · [🌐 Site](https://www.promptfoo.dev)</sub>
 
 <a name="future-agi"></a>
-### 🥉 64 [Future AGI](https://github.com/future-agi/future-agi) <sub>⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
+### 🥈 67 [Future AGI](https://github.com/future-agi/future-agi) <sub>⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
 
 **Evals, tracing, simulations, guardrails and a gateway for agents in one stack.**
 
@@ -92,62 +92,8 @@ Bundles OpenTelemetry tracing for 50+ frameworks, 50+ evaluation metrics, person
 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker Compose v2.24+, PostgreSQL, ClickHouse, Redis and Temporal (bundled in compose) · Models: 100+ providers via gateway (OpenAI, Anthropic, Gemini, Bedrock, Azure, Mistral, Groq), Ollama, vLLM, LM Studio, TGI and llamafile · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [📖 Docs](https://docs.futureagi.com) · [🌐 Site](https://futureagi.com)</sub>
 
-<a name="helicone"></a>
-### 🥉 57 [Helicone](https://github.com/Helicone/helicone) <sub>⭐ 6.2k · Apache-2.0 · Sep 2026</sub>
-
-**LLM proxy gateway with request logging, cost tracking and sessions.**
-
-Sits as an OpenAI-compatible gateway in front of 100+ models with routing and automatic fallbacks, logging every request with cost, latency and session traces, plus a playground and prompt versioning. Self-hosts via a compose script that runs six services: web app, Jawn log server, Workers proxy, Supabase, ClickHouse and MinIO. For engineers who want observability by swapping an endpoint.
-
-- **+** One-line integration: point the OpenAI SDK baseURL at the gateway
-- **+** Async logging path via OpenLLMetry for apps that cannot proxy
-- **+** Open LLM cost database covering 300+ models; MCP server for data export
-- **+** Apache-2.0; self-host compose script included
-- **−** Six-service stack including Supabase, ClickHouse, MinIO and a Cloudflare Workers proxy
-- **−** Production Helm chart is enterprise only, by contacting sales
-- **−** Manual deployment is explicitly not recommended
-- **−** README quickstart is cloud-first; self-hosting details are in external docs
-
-<sub>no GPU · Docker · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/Helicone/helicone) · [🧪 Demo](https://helicone.ai/demo) · [📖 Docs](https://docs.helicone.ai/) · [🌐 Site](https://www.helicone.ai)</sub>
-
-<a name="lmnr"></a>
-### 50 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>⭐ 3.4k · Apache-2.0 · Sep 2026</sub>
-
-**Rust-based agent tracing with SQL queries, signals and evals.**
-
-OpenTelemetry-native tracing for Vercel AI SDK, LangChain, OpenAI, Anthropic, Gemini and more with one line of SDK code, stored in ClickHouse and queried with SQL from the UI, MCP server or CLI. Signals watch every run for behaviors described in plain English and ping Slack; evals run from an SDK and CLI. docker compose up serves the UI on port 5667, for teams debugging browser and tool-using agents.
-
-- **+** Signals: describe a failure in plain English and get a Slack ping when it occurs
-- **+** SQL over traces, spans, metrics and events, also from your coding agent via MCP
-- **+** Rust backend with 20x trace compression and a realtime trace viewer
-- **+** Custom Postgres schema support for shared database deployments
-- **−** Anonymous usage telemetry is on by default; LAMINAR_TELEMETRY_DISABLED=true opts out
-- **−** Production is steered to the managed platform or the heavier docker-compose-full stack
-- **−** AI features (chat-with-trace, SQL-with-AI) need a configured LLM provider
-- **−** ClickHouse upgrades need manual container recreation and log-table truncation
-
-<sub>no GPU · Compose · Needs ClickHouse, PostgreSQL, LLM provider (optional, for AI features) · Models: Gemini, OpenAI and OpenAI-compatible gateways (LiteLLM, OpenRouter, vLLM), AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs](https://laminar.sh/docs) · [🌐 Site](https://laminar.sh)</sub>
-
-<a name="pezzo"></a>
-### 49 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
-
-**Prompt management, observability and caching for LLM apps.**
-
-Stores and versions prompts, logs requests with cost and latency, and caches LLM responses, exposed through Node.js and Python clients and a LangChain integration. Runs on PostgreSQL, ClickHouse, Redis and SuperTokens via Docker Compose, with a GraphQL API server and a console UI. For small teams that want prompt delivery without code changes.
-
-- **+** Prompts delivered from the console without redeploying application code
-- **+** Built-in response caching to cut repeated-call cost and latency
-- **+** Node.js and Python clients plus LangChain support
-- **+** Apache-2.0; infra is all open source (PostgreSQL, ClickHouse, Redis, SuperTokens)
-- **−** Last commit August 2026 with no release notes in the README
-- **−** Four backing services for a modest feature set
-- **−** README is thin; features are shown as screenshots, details only in docs
-- **−** No evaluation or dataset features mentioned
-
-<sub>no GPU · Compose · Needs PostgreSQL, ClickHouse, Redis, SuperTokens, Node.js 18+ · port 4200 · [Repo](https://github.com/pezzolabs/pezzo) · [📖 Docs](https://docs.pezzo.ai/) · [🌐 Site](https://pezzo.ai)</sub>
-
 <a name="mlflow"></a>
-### 48 [MLflow](https://github.com/mlflow/mlflow) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
+### 🥉 60 [MLflow](https://github.com/mlflow/mlflow) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
 
 **Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
 
@@ -165,7 +111,7 @@ Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ fram
 <sub>no GPU · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [🧪 Demo](https://demo.mlflow.org/) · [📖 Docs](https://mlflow.org/docs/latest) · [🌐 Site](https://mlflow.org/)</sub>
 
 <a name="openlit"></a>
-### 48 [OpenLIT](https://github.com/openlit/openlit) <sub>⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
+### 🥉 58 [OpenLIT](https://github.com/openlit/openlit) <sub>⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
 
 **OpenTelemetry-native tracing, evals, guardrails and GPU monitoring for agents.**
 
@@ -182,8 +128,26 @@ Receives OTLP on ports 4317 and 4318 from the openlit Python or TypeScript SDK, 
 
 <sub>no GPU · Compose · Needs ClickHouse · Models: OpenAI, Ollama, Anthropic, DeepSeek, Cohere · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs](https://docs.openlit.io/) · [🌐 Site](https://openlit.io)</sub>
 
+<a name="lmnr"></a>
+### 🥉 57 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>⭐ 3.4k · Apache-2.0 · Sep 2026</sub>
+
+**Rust-based agent tracing with SQL queries, signals and evals.**
+
+OpenTelemetry-native tracing for Vercel AI SDK, LangChain, OpenAI, Anthropic, Gemini and more with one line of SDK code, stored in ClickHouse and queried with SQL from the UI, MCP server or CLI. Signals watch every run for behaviors described in plain English and ping Slack; evals run from an SDK and CLI. docker compose up serves the UI on port 5667, for teams debugging browser and tool-using agents.
+
+- **+** Signals: describe a failure in plain English and get a Slack ping when it occurs
+- **+** SQL over traces, spans, metrics and events, also from your coding agent via MCP
+- **+** Rust backend with 20x trace compression and a realtime trace viewer
+- **+** Custom Postgres schema support for shared database deployments
+- **−** Anonymous usage telemetry is on by default; LAMINAR_TELEMETRY_DISABLED=true opts out
+- **−** Production is steered to the managed platform or the heavier docker-compose-full stack
+- **−** AI features (chat-with-trace, SQL-with-AI) need a configured LLM provider
+- **−** ClickHouse upgrades need manual container recreation and log-table truncation
+
+<sub>no GPU · Compose · Needs ClickHouse, PostgreSQL, LLM provider (optional, for AI features) · Models: Gemini, OpenAI and OpenAI-compatible gateways (LiteLLM, OpenRouter, vLLM), AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs](https://laminar.sh/docs) · [🌐 Site](https://laminar.sh)</sub>
+
 <a name="opik"></a>
-### 47 [Opik](https://github.com/comet-ml/opik) <sub>⭐ 22k · Apache-2.0 · Oct 2026</sub>
+### 54 [Opik](https://github.com/comet-ml/opik) <sub>⭐ 22k · Apache-2.0 · Oct 2026</sub>
 
 **Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end.**
 
@@ -200,8 +164,26 @@ Logs trace trees for LLM calls, tool executions and agent steps via Python and T
 
 <sub>no GPU · Models: any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs](https://www.comet.com/docs/opik/) · [🌐 Site](https://www.comet.com/site/products/opik/)</sub>
 
+<a name="helicone"></a>
+### 54 [Helicone](https://github.com/Helicone/helicone) <sub>⭐ 6.2k · Apache-2.0 · Sep 2026</sub>
+
+**LLM proxy gateway with request logging, cost tracking and sessions.**
+
+Sits as an OpenAI-compatible gateway in front of 100+ models with routing and automatic fallbacks, logging every request with cost, latency and session traces, plus a playground and prompt versioning. Self-hosts via a compose script that runs six services: web app, Jawn log server, Workers proxy, Supabase, ClickHouse and MinIO. For engineers who want observability by swapping an endpoint.
+
+- **+** One-line integration: point the OpenAI SDK baseURL at the gateway
+- **+** Async logging path via OpenLLMetry for apps that cannot proxy
+- **+** Open LLM cost database covering 300+ models; MCP server for data export
+- **+** Apache-2.0; self-host compose script included
+- **−** Six-service stack including Supabase, ClickHouse, MinIO and a Cloudflare Workers proxy
+- **−** Production Helm chart is enterprise only, by contacting sales
+- **−** Manual deployment is explicitly not recommended
+- **−** README quickstart is cloud-first; self-hosting details are in external docs
+
+<sub>no GPU · Docker · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/Helicone/helicone) · [🧪 Demo](https://helicone.ai/demo) · [📖 Docs](https://docs.helicone.ai/) · [🌐 Site](https://www.helicone.ai)</sub>
+
 <a name="langwatch"></a>
-### 37 [LangWatch](https://github.com/langwatch/langwatch) <sub>⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
+### 50 [LangWatch](https://github.com/langwatch/langwatch) <sub>⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
 
 **Agent observability, simulation testing, AI gateway and governance in one.**
 
@@ -219,7 +201,7 @@ Traces LLM and agent calls through OpenTelemetry and SDK integrations, runs simu
 <sub>no GPU · Needs Node.js · Models: OpenAI, Anthropic, Azure OpenAI, Vertex AI, Bedrock · [Repo](https://github.com/langwatch/langwatch) · [📖 Docs](https://langwatch.ai/docs/introduction) · [🌐 Site](https://langwatch.ai)</sub>
 
 <a name="agenta"></a>
-### 36 [Agenta](https://github.com/Agenta-AI/agenta) <sub>⭐ 4.8k · NOASSERTION · Oct 2026</sub>
+### 50 [Agenta](https://github.com/Agenta-AI/agenta) <sub>⭐ 4.8k · NOASSERTION · Oct 2026</sub>
 
 **Team workspace for building chat-driven agents that run in Slack and WhatsApp.**
 
@@ -235,5 +217,23 @@ Lets teams create agents by describing work in chat, connect tools through MCP o
 - **−** No Dockerfile or compose file at the repo root
 
 <sub>no GPU · Needs Claude Code, Pi or Codex harness, LLM API, Ollama, or a Claude or ChatGPT subscription, Composio (optional, 1,000+ app integrations) · Models: hosted models via API, Ollama, Claude and ChatGPT subscriptions · [Repo](https://github.com/Agenta-AI/agenta) · [📖 Docs](https://agenta.ai/docs/) · [🌐 Site](https://agenta.ai)</sub>
+
+<a name="pezzo"></a>
+### 38 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
+
+**Prompt management, observability and caching for LLM apps.**
+
+Stores and versions prompts, logs requests with cost and latency, and caches LLM responses, exposed through Node.js and Python clients and a LangChain integration. Runs on PostgreSQL, ClickHouse, Redis and SuperTokens via Docker Compose, with a GraphQL API server and a console UI. For small teams that want prompt delivery without code changes.
+
+- **+** Prompts delivered from the console without redeploying application code
+- **+** Built-in response caching to cut repeated-call cost and latency
+- **+** Node.js and Python clients plus LangChain support
+- **+** Apache-2.0; infra is all open source (PostgreSQL, ClickHouse, Redis, SuperTokens)
+- **−** Last commit August 2026 with no release notes in the README
+- **−** Four backing services for a modest feature set
+- **−** README is thin; features are shown as screenshots, details only in docs
+- **−** No evaluation or dataset features mentioned
+
+<sub>no GPU · Compose · Needs PostgreSQL, ClickHouse, Redis, SuperTokens, Node.js 18+ · port 4200 · [Repo](https://github.com/pezzolabs/pezzo) · [📖 Docs](https://docs.pezzo.ai/) · [🌐 Site](https://pezzo.ai)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

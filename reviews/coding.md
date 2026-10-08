@@ -2,8 +2,26 @@
 
 Self-hosted coding assistants and agents, from editor completion to autonomous task runners. Back to the [leaderboard](../README.md#-coding).
 
+<a name="archon"></a>
+### 🥇 85 [Archon](https://github.com/coleam00/Archon) <sub>⭐ 24k · MIT · Oct 2026</sub>
+
+**YAML workflow engine that runs coding agents in isolated worktrees.**
+
+Defines development processes (plan, implement, validate, review, PR) as YAML workflows and runs them through Claude Code, Codex or Pi, each run in its own git worktree. Deterministic nodes mix with AI nodes and human approval gates; runs start from the CLI, a web console, Slack, Telegram, Discord or GitHub webhooks, with state in SQLite or PostgreSQL. For teams standardizing how agents ship code.
+
+- **+** Every run isolated in a git worktree; parallel fixes without conflicts
+- **+** Bundled sdlc pack: ship, triage, investigate, plan, deliver, review, validate, upkeep
+- **+** Adapters for web, CLI, Slack, Telegram, Discord and GitHub webhooks
+- **+** Telemetry documented field by field; DO_NOT_TRACK=1 or CI=true disables it
+- **−** Requires Claude Code (or Codex, Pi) installed separately; binaries need CLAUDE_BIN_PATH
+- **−** Anonymous telemetry is on by default
+- **−** x64 quick-install binaries require AVX2; older CPUs must build from source
+- **−** Workflows from v0.11.1 and earlier no longer ship and must be copied manually
+
+<sub>no GPU · Docker + Compose · Needs Bun, Claude Code (or Codex or Pi), GitHub CLI, SQLite or PostgreSQL · Models: Claude Code, Codex, Pi · [Repo](https://github.com/coleam00/Archon) · [📖 Docs](https://archon.diy/docs/)</sub>
+
 <a name="openchamber"></a>
-### 🥈 79 [OpenChamber](https://github.com/openchamber/openchamber) <sub>⭐ 11k · MIT · Oct 2026</sub>
+### 🥇 83 [OpenChamber](https://github.com/openchamber/openchamber) <sub>⭐ 11k · MIT · Oct 2026</sub>
 
 **Multi-device workspace for running and reviewing OpenCode agent sessions.**
 
@@ -20,26 +38,8 @@ Front end over the OpenCode CLI that starts agent sessions, shows diffs and take
 
 <sub>no GPU · Docker + Compose · Needs OpenCode CLI (bundled in desktop builds), Node.js 22+ (CLI and Web) · Models: models available through OpenCode · [Repo](https://github.com/openchamber/openchamber)</sub>
 
-<a name="onlook"></a>
-### 🥈 78 [Onlook](https://github.com/onlook-dev/onlook) <sub>⭐ 27k · Apache-2.0 · Jul 2026</sub>
-
-**Visual editor that edits Next.js and Tailwind apps with AI.**
-
-Browser-based editor that loads a Next.js and Tailwind project into a web container, renders it in an iframe and maps DOM elements back to source so you can drag, restyle and edit visually or through an AI chat. Built on Next.js, tRPC, Supabase, Drizzle and the Vercel AI SDK with OpenRouter for models and CodeSandbox for sandboxes. For designers and front-end developers working on Next.js codebases.
-
-- **+** Edits map directly to code; right-click any element to open its source location
-- **+** Branching, checkpoints and a real-time code editor beside the visual canvas
-- **+** Apache-2.0 with Dockerfile and compose file for local runs
-- **+** Figma-like layers, pages, brand tokens and asset management
-- **−** Next.js plus Tailwind only; other frameworks are roadmap items, not supported
-- **−** Depends on hosted services: Supabase, OpenRouter, CodeSandbox SDK, Freestyle
-- **−** Team comments, MCP support and image references are unchecked roadmap items
-- **−** Maintainers are moving to a hosted early-access product; last commit July 2026
-
-<sub>no GPU · Docker + Compose · Needs Supabase (auth, database, storage), OpenRouter API key, CodeSandbox SDK, Bun · Models: OpenRouter-hosted models, Morph Fast Apply, Relace · [Repo](https://github.com/onlook-dev/onlook) · [🧪 Demo](https://onlook.com) · [📖 Docs](https://docs.onlook.com)</sub>
-
 <a name="open-swe"></a>
-### 🥈 77 [Open SWE](https://github.com/langchain-ai/open-swe) <sub>⭐ 11k · MIT · Oct 2026</sub>
+### 🥇 81 [Open SWE](https://github.com/langchain-ai/open-swe) <sub>⭐ 11k · MIT · Oct 2026</sub>
 
 **LangChain coding agent that plans, implements and reviews pull requests.**
 
@@ -55,24 +55,6 @@ LangGraph-based agent that investigates a repository, implements changes in a pe
 - **−** CLI mode executes commands locally as you, with no sandbox isolation
 
 <sub>no GPU · Docker + Compose · Needs LangSmith (default sandbox and tracing), GitHub App, Slack app (optional), model provider credentials · Models: configurable LLM providers · [Repo](https://github.com/langchain-ai/open-swe)</sub>
-
-<a name="archon"></a>
-### 🥈 76 [Archon](https://github.com/coleam00/Archon) <sub>⭐ 24k · MIT · Oct 2026</sub>
-
-**YAML workflow engine that runs coding agents in isolated worktrees.**
-
-Defines development processes (plan, implement, validate, review, PR) as YAML workflows and runs them through Claude Code, Codex or Pi, each run in its own git worktree. Deterministic nodes mix with AI nodes and human approval gates; runs start from the CLI, a web console, Slack, Telegram, Discord or GitHub webhooks, with state in SQLite or PostgreSQL. For teams standardizing how agents ship code.
-
-- **+** Every run isolated in a git worktree; parallel fixes without conflicts
-- **+** Bundled sdlc pack: ship, triage, investigate, plan, deliver, review, validate, upkeep
-- **+** Adapters for web, CLI, Slack, Telegram, Discord and GitHub webhooks
-- **+** Telemetry documented field by field; DO_NOT_TRACK=1 or CI=true disables it
-- **−** Requires Claude Code (or Codex, Pi) installed separately; binaries need CLAUDE_BIN_PATH
-- **−** Anonymous telemetry is on by default
-- **−** x64 quick-install binaries require AVX2; older CPUs must build from source
-- **−** Workflows from v0.11.1 and earlier no longer ship and must be copied manually
-
-<sub>no GPU · Docker + Compose · Needs Bun, Claude Code (or Codex or Pi), GitHub CLI, SQLite or PostgreSQL · Models: Claude Code, Codex, Pi · [Repo](https://github.com/coleam00/Archon) · [📖 Docs](https://archon.diy/docs/)</sub>
 
 <a name="screenshot-to-code"></a>
 ### 🥈 68 [screenshot-to-code](https://github.com/abi/screenshot-to-code) <sub>⭐ 80k · MIT · Jul 2026</sub>
@@ -92,8 +74,26 @@ Takes a screenshot, mockup, Figma export or screen recording and generates HTML 
 
 <sub>no GPU · Compose · Needs OpenAI, Anthropic or Gemini API key, Replicate API key (optional), Playwright Chromium (optional preview) · Models: Gemini 3 Flash Preview, Gemini 3.1 Pro Preview, GPT-5.5, GPT-5.4 Mini, Claude Opus 4.6/4.8 · port 5173 · [Repo](https://github.com/abi/screenshot-to-code) · [🧪 Demo](https://screenshottocode.com/)</sub>
 
+<a name="onlook"></a>
+### 🥈 68 [Onlook](https://github.com/onlook-dev/onlook) <sub>⭐ 27k · Apache-2.0 · Jul 2026</sub>
+
+**Visual editor that edits Next.js and Tailwind apps with AI.**
+
+Browser-based editor that loads a Next.js and Tailwind project into a web container, renders it in an iframe and maps DOM elements back to source so you can drag, restyle and edit visually or through an AI chat. Built on Next.js, tRPC, Supabase, Drizzle and the Vercel AI SDK with OpenRouter for models and CodeSandbox for sandboxes. For designers and front-end developers working on Next.js codebases.
+
+- **+** Edits map directly to code; right-click any element to open its source location
+- **+** Branching, checkpoints and a real-time code editor beside the visual canvas
+- **+** Apache-2.0 with Dockerfile and compose file for local runs
+- **+** Figma-like layers, pages, brand tokens and asset management
+- **−** Next.js plus Tailwind only; other frameworks are roadmap items, not supported
+- **−** Depends on hosted services: Supabase, OpenRouter, CodeSandbox SDK, Freestyle
+- **−** Team comments, MCP support and image references are unchecked roadmap items
+- **−** Maintainers are moving to a hosted early-access product; last commit July 2026
+
+<sub>no GPU · Docker + Compose · Needs Supabase (auth, database, storage), OpenRouter API key, CodeSandbox SDK, Bun · Models: OpenRouter-hosted models, Morph Fast Apply, Relace · [Repo](https://github.com/onlook-dev/onlook) · [🧪 Demo](https://onlook.com) · [📖 Docs](https://docs.onlook.com)</sub>
+
 <a name="opencode"></a>
-### 🥉 57 [opencode](https://github.com/anomalyco/opencode) <sub>⭐ 212k · MIT · Oct 2026</sub>
+### 🥉 62 [opencode](https://github.com/anomalyco/opencode) <sub>⭐ 212k · MIT · Oct 2026</sub>
 
 **Terminal coding agent with build and plan modes.**
 
@@ -109,7 +109,7 @@ Runs an AI coding agent in the terminal with two built-in agents: build (full ac
 <sub>no GPU · [Repo](https://github.com/anomalyco/opencode) · [📖 Docs](https://opencode.ai/docs) · [🌐 Site](https://opencode.ai)</sub>
 
 <a name="openhands"></a>
-### 51 [OpenHands](https://github.com/OpenHands/OpenHands) <sub>⭐ 90k · MIT · Oct 2026</sub>
+### 🥉 59 [OpenHands](https://github.com/OpenHands/OpenHands) <sub>⭐ 90k · MIT · Oct 2026</sub>
 
 **Self-hosted control center for coding agents and automations.**
 
@@ -127,7 +127,7 @@ Web UI and local stack on port 8000 that runs the OpenHands agent or any ACP-com
 <sub>no GPU · Needs Node.js 24+, uv, Docker (sandbox modes) · Models: any LLM via LLM profiles, OpenHands agent, Claude Code, Codex, Gemini · port 8000 · [Repo](https://github.com/OpenHands/OpenHands) · [📖 Docs](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
 
 <a name="background-agents"></a>
-### 47 [Background Agents](https://github.com/ColeMurray/background-agents) <sub>⭐ 3.3k · MIT · Oct 2026</sub>
+### 54 [Background Agents](https://github.com/ColeMurray/background-agents) <sub>⭐ 3.3k · MIT · Oct 2026</sub>
 
 **Background coding agents on cloud sandboxes with Slack, GitHub and Linear triggers.**
 
@@ -145,7 +145,7 @@ Runs coding sessions in cloud sandboxes coordinated by a Cloudflare Workers cont
 <sub>no GPU · Compose · Needs Cloudflare Workers, Durable Objects and D1, Sandbox provider (Modal, Daytona, E2B, OpenComputer or Vercel Sandbox), GitHub App, Slack and Linear apps (optional) · Models: Anthropic Claude (API key or subscription), OpenAI Codex via ChatGPT subscription, xAI Grok via SuperGrok, OpenCode Zen and Go, Z.AI Coding Plan · [Repo](https://github.com/ColeMurray/background-agents)</sub>
 
 <a name="tabby"></a>
-### 44 [Tabby](https://github.com/TabbyML/tabby) <sub>⭐ 34k · NOASSERTION · Jun 2026</sub>
+### 38 [Tabby](https://github.com/TabbyML/tabby) <sub>⭐ 34k · NOASSERTION · Jun 2026</sub>
 
 **Self-hosted code completion and chat server for IDEs.**
 

@@ -20,7 +20,7 @@ OpenClaw runs a local Gateway that connects one assistant to Discord, iMessage, 
 <sub>no GPU · Docker + Compose · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs](https://docs.openclaw.ai) · [🌐 Site](https://openclaw.ai)</sub>
 
 <a name="hermes-agent"></a>
-### 🥇 89 [Hermes Agent](https://github.com/NousResearch/hermes-agent) <sub>⭐ 252k · MIT · Oct 2026</sub>
+### 🥇 91 [Hermes Agent](https://github.com/NousResearch/hermes-agent) <sub>⭐ 252k · MIT · Oct 2026</sub>
 
 **Terminal and chat-app agent that writes its own skills and remembers you.**
 
@@ -38,7 +38,7 @@ Hermes Agent is a Python agent with a terminal UI and a gateway for Telegram, Di
 <sub>no GPU · Docker + Compose · Models: Nous Portal, OpenRouter, OpenAI, custom endpoint · [Repo](https://github.com/NousResearch/hermes-agent) · [📖 Docs](https://hermes-agent.nousresearch.com/docs/) · [🌐 Site](https://hermes-agent.nousresearch.com/)</sub>
 
 <a name="nanobot"></a>
-### 🥇 85 [nanobot](https://github.com/HKUDS/nanobot) <sub>⭐ 49k · MIT · Oct 2026</sub>
+### 🥇 89 [nanobot](https://github.com/HKUDS/nanobot) <sub>⭐ 49k · MIT · Oct 2026</sub>
 
 **Small Python agent runtime with bundled WebUI, TUI and chat channels.**
 
@@ -55,7 +55,7 @@ nanobot is a Python 3.11+ personal agent running as a local gateway with a bundl
 <sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/HKUDS/nanobot) · [📖 Docs](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview)</sub>
 
 <a name="zeroclaw"></a>
-### 🥇 85 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>⭐ 33k · Apache-2.0 · Oct 2026</sub>
+### 🥇 86 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>⭐ 33k · Apache-2.0 · Oct 2026</sub>
 
 **Single Rust binary agent runtime with 30+ channels and hardware access.**
 
@@ -71,44 +71,8 @@ ZeroClaw is one Rust binary that routes messages from 30+ channels (Discord, Tel
 
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site](https://www.zeroclaw.com)</sub>
 
-<a name="astrbot"></a>
-### 🥇 84 [AstrBot](https://github.com/AstrBotDevs/AstrBot) <sub>⭐ 42k · AGPL-3.0 · Oct 2026</sub>
-
-**Chatbot platform bridging LLMs to QQ, Telegram, Discord, Slack and more.**
-
-AstrBot is a Python 3.12+ chatbot platform that connects LLM providers (OpenAI-compatible, Anthropic, Gemini, DeepSeek, Ollama, LM Studio) to QQ, OneBot, Telegram, WeCom, Feishu, DingTalk, Slack, Discord, LINE, KOOK, Misskey and Mattermost. It adds a WebUI, web chat, MCP, skills, a knowledge base, personas and a code sandbox, and can hand conversations to Dify or Coze. Installs via uv or Docker.
-
-- **+** 14 officially maintained messaging adapters, including QQ, Feishu, DingTalk and WeCom
-- **+** 1000+ plugins installable from the built-in marketplace
-- **+** Agent sandbox isolates code and shell execution per session
-- **+** STT and TTS providers built in: Whisper, SenseVoice, Edge TTS, GPT-SoVITS, Azure and more
-- **−** AGPL-3.0 license
-- **−** WhatsApp adapter still marked coming soon
-- **−** Docker setup is documented only in the external docs, not the README
-- **−** Several model-provider links in the README are referral or affiliate links
-
-<sub>no GPU · Docker + Compose · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/AstrBotDevs/AstrBot) · [📖 Docs](https://astrbot.app/)</sub>
-
-<a name="khoj"></a>
-### 🥇 82 [Khoj](https://github.com/khoj-ai/khoj) <sub>⭐ 38k · AGPL-3.0 · Aug 2026</sub>
-
-**Personal assistant that chats with your documents and the web.**
-
-Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Word, Notion, images) using local or hosted LLMs such as llama3, qwen, gemma, mistral, GPT, Claude, Gemini and DeepSeek. It is reachable from a browser, Obsidian, Emacs, desktop and phone apps and WhatsApp, supports custom agents with their own knowledge and tools, and runs scheduled automations that deliver newsletters by email.
-
-- **+** Clients for browser, Obsidian, Emacs, desktop, phone and WhatsApp
-- **+** Reads PDF, Markdown, org-mode, Word, Notion and image files
-- **+** Hosted instance at app.khoj.dev to try before self-hosting
-- **+** Custom agents with their own knowledge, persona, model and tools
-- **−** AGPL-3.0 license
-- **−** README gives no hardware requirements or ports; setup lives entirely in the docs
-- **−** Maintainers now promote a newer project, Pipali, at the top of the README
-- **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
-
-<sub>Docker + Compose · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [🧪 Demo](https://app.khoj.dev) · [📖 Docs](https://docs.khoj.dev) · [🌐 Site](https://khoj.dev)</sub>
-
 <a name="ironclaw"></a>
-### 🥈 79 [IronClaw](https://github.com/nearai/ironclaw) <sub>⭐ 13k · Apache-2.0 · Sep 2026</sub>
+### 🥇 80 [IronClaw](https://github.com/nearai/ironclaw) <sub>⭐ 13k · Apache-2.0 · Sep 2026</sub>
 
 **Rust assistant that sandboxes every untrusted tool in WebAssembly.**
 
@@ -125,8 +89,44 @@ IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAss
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw)</sub>
 
+<a name="khoj"></a>
+### 🥈 72 [Khoj](https://github.com/khoj-ai/khoj) <sub>⭐ 38k · AGPL-3.0 · Aug 2026</sub>
+
+**Personal assistant that chats with your documents and the web.**
+
+Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Word, Notion, images) using local or hosted LLMs such as llama3, qwen, gemma, mistral, GPT, Claude, Gemini and DeepSeek. It is reachable from a browser, Obsidian, Emacs, desktop and phone apps and WhatsApp, supports custom agents with their own knowledge and tools, and runs scheduled automations that deliver newsletters by email.
+
+- **+** Clients for browser, Obsidian, Emacs, desktop, phone and WhatsApp
+- **+** Reads PDF, Markdown, org-mode, Word, Notion and image files
+- **+** Hosted instance at app.khoj.dev to try before self-hosting
+- **+** Custom agents with their own knowledge, persona, model and tools
+- **−** AGPL-3.0 license
+- **−** README gives no hardware requirements or ports; setup lives entirely in the docs
+- **−** Maintainers now promote a newer project, Pipali, at the top of the README
+- **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
+
+<sub>Docker + Compose · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [🧪 Demo](https://app.khoj.dev) · [📖 Docs](https://docs.khoj.dev) · [🌐 Site](https://khoj.dev)</sub>
+
+<a name="astrbot"></a>
+### 🥈 71 [AstrBot](https://github.com/AstrBotDevs/AstrBot) <sub>⭐ 42k · AGPL-3.0 · Oct 2026</sub>
+
+**Chatbot platform bridging LLMs to QQ, Telegram, Discord, Slack and more.**
+
+AstrBot is a Python 3.12+ chatbot platform that connects LLM providers (OpenAI-compatible, Anthropic, Gemini, DeepSeek, Ollama, LM Studio) to QQ, OneBot, Telegram, WeCom, Feishu, DingTalk, Slack, Discord, LINE, KOOK, Misskey and Mattermost. It adds a WebUI, web chat, MCP, skills, a knowledge base, personas and a code sandbox, and can hand conversations to Dify or Coze. Installs via uv or Docker.
+
+- **+** 14 officially maintained messaging adapters, including QQ, Feishu, DingTalk and WeCom
+- **+** 1000+ plugins installable from the built-in marketplace
+- **+** Agent sandbox isolates code and shell execution per session
+- **+** STT and TTS providers built in: Whisper, SenseVoice, Edge TTS, GPT-SoVITS, Azure and more
+- **−** AGPL-3.0 license
+- **−** WhatsApp adapter still marked coming soon
+- **−** Docker setup is documented only in the external docs, not the README
+- **−** Several model-provider links in the README are referral or affiliate links
+
+<sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/AstrBotDevs/AstrBot) · [📖 Docs](https://astrbot.app/)</sub>
+
 <a name="qwenpaw"></a>
-### 🥉 62 [QwenPaw](https://github.com/agentscope-ai/QwenPaw) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### 🥈 66 [QwenPaw](https://github.com/agentscope-ai/QwenPaw) <sub>⭐ 36k · Apache-2.0 · Oct 2026</sub>
 
 **AgentScope-based personal assistant with local Qwen models and chat channels.**
 
@@ -143,7 +143,7 @@ QwenPaw is a Python (3.11 to 3.13) assistant built on AgentScope that serves a b
 <sub>no GPU · Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/QwenPaw) · [🧪 Demo](https://platform.agentscope.io/) · [📖 Docs](https://qwenpaw.agentscope.io/)</sub>
 
 <a name="moltis"></a>
-### 54 [Moltis](https://github.com/moltis-org/moltis) <sub>⭐ 2.9k · MIT · Sep 2026</sub>
+### 🥉 59 [Moltis](https://github.com/moltis-org/moltis) <sub>⭐ 2.9k · MIT · Sep 2026</sub>
 
 **Persistent personal agent server in one Rust binary with sandboxed execution.**
 
@@ -161,7 +161,7 @@ Moltis is a single Rust binary that serves a web UI (port 13131), Telegram, Sign
 <sub>no GPU · Docker · Needs Docker, Podman or Apple Container (sandbox) · Models: OpenAI Codex, GitHub Copilot, local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs](https://docs.moltis.org/quickstart.html) · [🌐 Site](https://moltis.org)</sub>
 
 <a name="spacebot"></a>
-### 49 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>⭐ 2.4k · NOASSERTION · Sep 2026</sub>
+### 51 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>⭐ 2.4k · NOASSERTION · Sep 2026</sub>
 
 **Multi-user agent harness for Discord, Slack and Telegram communities.**
 
