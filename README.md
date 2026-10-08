@@ -20,7 +20,7 @@
 |:-:|---|---|--:|
 | 🥇 96 | **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** <sub>[📝 review](reviews/gateways.md#omniroute)</sub><br><sub>Free-tier-aware AI gateway routing coding agents across 350+ providers</sub><br><sub>[🌐 Site](https://omniroute.online)</sub> | 🔀 [Gateways](#-gateways) | 74k |
 | 🥇 94 | **[OpenClaw](https://github.com/openclaw/openclaw)** <sub>[📝 review](reviews/assistants.md#openclaw)</sub><br><sub>Personal assistant gateway that answers in Discord, Slack, WhatsApp and Telegram</sub><br><sub>[📖 Docs](https://docs.openclaw.ai) · [🌐 Site](https://openclaw.ai)</sub> | 🤖 [Assistants](#-assistants) | 392k |
-| 🥇 92 | **[MemPalace](https://github.com/MemPalace/mempalace)** <sub>[📝 review](reviews/memory.md#mempalace)</sub><br><sub>Local verbatim memory for coding agents on ChromaDB with 45 MCP tools</sub><br><sub>[📖 Docs](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site](https://mempalaceofficial.com)</sub> | 🗂️ [Memory](#-memory) | 59k |
+| 🥇 92 | **[MemPalace](https://github.com/MemPalace/mempalace)** <sub>[📝 review](reviews/memory.md#mempalace)</sub><br><sub>Local verbatim memory for coding agents on ChromaDB with 45 MCP tools</sub><br><sub>[📖 Docs](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site](https://mempalaceofficial.com)</sub> | 🗂️ [Memory](#%EF%B8%8F-memory) | 59k |
 | 🥇 92 | **[LocalAI](https://github.com/mudler/LocalAI)** <sub>[📝 review](reviews/model-serving.md#localai)</sub><br><sub>One OpenAI-compatible server for text, speech, image and video models</sub><br><sub>[📖 Docs](https://localai.io/basics/getting_started/) · [🌐 Site](https://localai.io/)</sub> | 🧠 [Model serving](#-model-serving) | 49k |
 | 🥇 91 | **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** <sub>[📝 review](reviews/assistants.md#hermes-agent)</sub><br><sub>Terminal and chat-app agent that writes its own skills and remembers you</sub><br><sub>[📖 Docs](https://hermes-agent.nousresearch.com/docs/) · [🌐 Site](https://hermes-agent.nousresearch.com/)</sub> | 🤖 [Assistants](#-assistants) | 252k |
 | 🥇 91 | **[Open WebUI](https://github.com/open-webui/open-webui)** <sub>[📝 review](reviews/chat-ui.md#open-webui)</sub><br><sub>Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG</sub><br><sub>[📖 Docs](https://docs.openwebui.com/) · [🌐 Site](https://openwebui.com)</sub> | 💬 [Chat UIs](#-chat-uis) | 154k |
@@ -40,11 +40,11 @@
 - 🧩 *Build agents and workflows without coding everything* → [Agent platforms](#-agent-platforms)
 - 🔀 *One API key for every provider* → [Gateways](#-gateways)
 - 💻 *Copilot, self-hosted* → [Coding](#-coding)
-- 🎙️ *Voice in, voice out, offline* → [Voice](#-voice)
+- 🎙️ *Voice in, voice out, offline* → [Voice](#%EF%B8%8F-voice)
 - 🎨 *Generate images and video* → [Image and video](#-image-and-video)
 - 🔎 *Search that doesn't phone home* → [Search](#-search)
 - 📈 *See what my LLM app is actually doing* → [Observability](#-observability)
-- 🛡️ *Let agents run code without wrecking my server* → [Sandboxes](#-sandboxes)
+- 🛡️ *Let agents run code without wrecking my server* → [Sandboxes](#%EF%B8%8F-sandboxes)
 
 ## 🗂️ All categories
 
@@ -54,14 +54,14 @@
 - 📚 [RAG and knowledge](#-rag-and-knowledge) · 15
 - 🧠 [Model serving](#-model-serving) · 18
 - 🔀 [Gateways](#-gateways) · 13
-- 🗂️ [Memory](#-memory) · 11
-- 🎙️ [Voice](#-voice) · 11
+- 🗂️ [Memory](#%EF%B8%8F-memory) · 11
+- 🎙️ [Voice](#%EF%B8%8F-voice) · 11
 - 🎨 [Image and video](#-image-and-video) · 8
 - 💻 [Coding](#-coding) · 9
 - 🔎 [Search](#-search) · 8
 - 📈 [Observability](#-observability) · 13
 - 🧮 [Vector databases](#-vector-databases) · 9
-- 🛡️ [Sandboxes](#-sandboxes) · 8
+- 🛡️ [Sandboxes](#%EF%B8%8F-sandboxes) · 8
 
 <sub>Legend: 🥇 80+ · 🥈 65–79 · 🥉 55–64 · number = score out of 100 ([how we rank](#-how-we-rank)) · ⭐ GitHub stars · 📝 review (strengths, weaknesses, specs) · ▶️ live demo · 📖 docs · 🌐 website · 🐳 Docker image or compose · 🎮 GPU required · ✨ GPU optional</sub>
 

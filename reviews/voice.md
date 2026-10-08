@@ -1,6 +1,6 @@
 # 🎙️ Voice — reviews
 
-Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. Back to the [leaderboard](../README.md#-voice).
+Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. Back to the [leaderboard](../README.md#%EF%B8%8F-voice).
 
 <a name="speech-to-speech"></a>
 ### 🥇 83 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>⭐ 13k · Apache-2.0 · Oct 2026</sub>

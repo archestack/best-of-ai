@@ -1,6 +1,6 @@
 # 🗂️ Memory — reviews
 
-Long-term memory engines that store and retrieve facts for agents across sessions. Back to the [leaderboard](../README.md#-memory).
+Long-term memory engines that store and retrieve facts for agents across sessions. Back to the [leaderboard](../README.md#%EF%B8%8F-memory).
 
 <a name="mempalace"></a>
 ### 🥇 92 [MemPalace](https://github.com/MemPalace/mempalace) <sub>⭐ 59k · MIT · Oct 2026</sub>

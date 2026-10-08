@@ -1,6 +1,6 @@
 # 🛡️ Sandboxes — reviews
 
-Isolated runtimes where agents execute code, browse or use tools safely. Back to the [leaderboard](../README.md#-sandboxes).
+Isolated runtimes where agents execute code, browse or use tools safely. Back to the [leaderboard](../README.md#%EF%B8%8F-sandboxes).
 
 <a name="obscura"></a>
 ### 🥈 72 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
