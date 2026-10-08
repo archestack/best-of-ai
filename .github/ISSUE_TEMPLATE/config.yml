@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Best of AI Starters
+    url: https://github.com/archestack/best-of-ai-starters
+    about: Looking for starters and templates to build your own AI app? That list is there.
