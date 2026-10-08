@@ -1719,7 +1719,7 @@ Clones a voice from a 5-second sample (zero-shot) or fine-tunes GPT and SoVITS m
 
 ### [Voicebox](https://github.com/jamiepine/voicebox) <sub>★ 56.6k · MIT · Oct 2026</sub>
 
-**Local voice studio: cloning, TTS, dictation and agent speech.**
+**Local voice studio for cloning, TTS, dictation and agent speech.**
 
 Desktop app (Tauri) and Docker service that clones voices from a short sample and generates speech through eight TTS engines, including Qwen3-TTS, Chatterbox and Kokoro, in 23 languages. Adds Whisper dictation with a global hotkey, a REST API on port 17493 and an MCP server so coding agents can speak in a cloned voice. For individuals who want ElevenLabs-style voice I/O on their own machine.
 
@@ -1919,7 +1919,7 @@ Builds generation pipelines as a visual node graph and runs them locally for ima
 
 ### [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) <sub>★ 129.3k · MIT · Oct 2026</sub>
 
-**Generates short videos from a topic: script, footage, voice, subtitles.**
+**Generates short videos from a topic with script, footage, voice and subtitles.**
 
 Takes a topic or keywords, writes a script with an LLM (OpenAI, Claude, Gemini, DeepSeek, Qwen, Ollama), pulls stock clips from Pexels, Pixabay or Coverr or generates them via video APIs, adds TTS narration (Edge TTS needs no key; Azure, ElevenLabs, Kokoro), subtitles and music, then renders 9:16, 16:9 or 1:1 videos. Usable through a WebUI, REST API, CLI or an agent skill. For creators automating short-form content.
 

@@ -4527,7 +4527,7 @@ entries:
     repo: jamiepine/voicebox
     name: Voicebox
     status: listed
-    tagline: "Local voice studio: cloning, TTS, dictation and agent speech"
+    tagline: Local voice studio for cloning, TTS, dictation and agent speech
     summary: Desktop app (Tauri) and Docker service that clones voices from a short sample and generates speech through eight TTS engines, including Qwen3-TTS, Chatterbox and Kokoro, in 23 languages. Adds Whisper dictation with a global hotkey, a REST API on port 17493 and an MCP server so coding agents can speak in a cloned voice. For individuals who want ElevenLabs-style voice I/O on their own machine.
     categories:
       - voice
@@ -5040,7 +5040,7 @@ entries:
     repo: harry0703/MoneyPrinterTurbo
     name: MoneyPrinterTurbo
     status: listed
-    tagline: "Generates short videos from a topic: script, footage, voice, subtitles"
+    tagline: Generates short videos from a topic with script, footage, voice and subtitles
     summary: Takes a topic or keywords, writes a script with an LLM (OpenAI, Claude, Gemini, DeepSeek, Qwen, Ollama), pulls stock clips from Pexels, Pixabay or Coverr or generates them via video APIs, adds TTS narration (Edge TTS needs no key; Azure, ElevenLabs, Kokoro), subtitles and music, then renders 9:16, 16:9 or 1:1 videos. Usable through a WebUI, REST API, CLI or an agent skill. For creators automating short-form content.
     categories:
       - image-video
