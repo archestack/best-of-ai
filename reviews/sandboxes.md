@@ -18,7 +18,7 @@ Headless browser engine in Rust running V8 that speaks the Chrome DevTools Proto
 - **−** README carries heavy proxy-vendor sponsorship and discount codes
 - **−** Linux binaries target glibc 2.35 or newer (Ubuntu 22.04)
 
-<sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs](https://docs.obscura.sh) · [🌐 Site](https://obscura.sh)</sub>
+<sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs ↗](https://docs.obscura.sh) · [🌐 Site ↗](https://obscura.sh)</sub>
 
 <a name="lightpanda"></a>
 ### 🥈 71 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>⭐ 36k · AGPL-3.0 · Oct 2026</sub>
@@ -36,7 +36,7 @@ Browser engine written in Zig (V8, libcurl, html5ever) with no graphical rendere
 - **−** Usage telemetry on by default; set LIGHTPANDA_DISABLE_TELEMETRY=true
 - **−** AGPL-3.0 license and a CLA for contributions
 
-<sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs](https://lightpanda.io/docs/usage/agent) · [🌐 Site](https://lightpanda.io)</sub>
+<sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io)</sub>
 
 <a name="nemoclaw"></a>
 ### 🥈 71 [NemoClaw](https://github.com/NVIDIA/NemoClaw) <sub>⭐ 23k · Apache-2.0 · Oct 2026</sub>
@@ -54,7 +54,7 @@ CLI and installer that provision OpenShell sandboxes for OpenClaw (default), Her
 - **−** README is mostly links; no architecture or resource figures in the repo itself
 - **−** Supported platforms are limited to those on the prerequisites page
 
-<sub>no GPU · Docker · Needs NVIDIA OpenShell, Inference provider (local or routed) · Models: providers configured through OpenShell routed inference · [Repo](https://github.com/NVIDIA/NemoClaw) · [📖 Docs](https://docs.nvidia.com/nemoclaw/latest/)</sub>
+<sub>no GPU · Docker · Needs NVIDIA OpenShell, Inference provider (local or routed) · Models: providers configured through OpenShell routed inference · [Repo](https://github.com/NVIDIA/NemoClaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/)</sub>
 
 <a name="steel-browser"></a>
 ### 🥈 65 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
@@ -72,7 +72,7 @@ REST API and UI on port 3000 that launches Chrome sessions with persisted cookie
 - **−** Selenium integration lacks some features of the CDP session API
 - **−** Apple Silicon compose needs DOCKER_DEFAULT_PLATFORM=linux/arm64
 
-<sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs](https://docs.steel.dev/) · [🌐 Site](https://steel.dev)</sub>
+<sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev)</sub>
 
 <a name="browser-use-web-ui"></a>
 ### 🥉 58 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>⭐ 17k · MIT · May 2026</sub>
@@ -90,7 +90,7 @@ Gradio front end over the browser-use library that takes a task, drives a Playwr
 - **−** Own-browser mode requires closing all Chrome windows and using another browser for the UI
 - **−** Gradio single-user UI; no auth or multi-user features described
 
-<sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs](https://docs.browser-use.com)</sub>
+<sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs ↗](https://docs.browser-use.com)</sub>
 
 <a name="openshell"></a>
 ### 53 [OpenShell](https://github.com/NVIDIA/OpenShell) <sub>⭐ 15k · Apache-2.0 · Oct 2026</sub>
@@ -108,7 +108,7 @@ Runs each agent in a sandbox with kernel-enforced limits on file access and syst
 - **−** Anonymous telemetry on by default; disable with OPENSHELL_TELEMETRY_ENABLED=false
 - **−** Kubernetes installs require a CNI that enforces NetworkPolicy
 
-<sub>no GPU · Needs Docker, Podman or host virtualization · Models: any provider via routed inference credentials · [Repo](https://github.com/NVIDIA/OpenShell) · [📖 Docs](https://docs.nvidia.com/openshell/latest/index.html)</sub>
+<sub>no GPU · Needs Docker, Podman or host virtualization · Models: any provider via routed inference credentials · [Repo](https://github.com/NVIDIA/OpenShell) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html)</sub>
 
 <a name="open-terminal"></a>
 ### 50 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>⭐ 3.3k · MIT · Sep 2026</sub>
@@ -144,6 +144,6 @@ Boots OCI images as hardware-isolated microVMs in under 100 ms on Linux with KVM
 - **−** No Dockerfile or compose file; it replaces containers rather than running in one
 - **−** Image pulls on first create add startup time
 
-<sub>no GPU · Needs KVM (Linux), Apple Silicon (macOS) or WHP (Windows) · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs](https://docs.microsandbox.dev/cli/overview)</sub>
+<sub>no GPU · Needs KVM (Linux), Apple Silicon (macOS) or WHP (Windows) · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev/cli/overview)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

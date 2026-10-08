@@ -18,7 +18,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 - **−** Row-based API marked coming soon
 - **−** No multi-user auth described in the README
 
-<sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs](https://docs.trychroma.com/) · [🌐 Site](https://www.trychroma.com/)</sub>
+<sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/)</sub>
 
 <a name="weaviate"></a>
 ### 🥈 78 [Weaviate](https://github.com/weaviate/weaviate) <sub>⭐ 17k · NOASSERTION · Oct 2026</sub>
@@ -36,7 +36,7 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 - **−** No RAM or sizing guidance in the README
 - **−** Both REST 8080 and gRPC 50051 must be exposed
 
-<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo](https://elysia.weaviate.io) · [📖 Docs](https://docs.weaviate.io)</sub>
+<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io)</sub>
 
 <a name="milvus"></a>
 ### 🥈 76 [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
@@ -54,7 +54,7 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 - **−** Zilliz is the major contributor and promotes its managed cloud
 - **−** Source build needs Go 1.21+, CMake, GCC 11+ and Python 3.8 to 3.11
 
-<sub>GPU optional · Compose · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [▶️ Demo](https://milvus.io/milvus-demos) · [📖 Docs](https://milvus.io/docs) · [🌐 Site](https://milvus.io/)</sub>
+<sub>GPU optional · Compose · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [▶️ Demo ↗](https://milvus.io/milvus-demos) · [📖 Docs ↗](https://milvus.io/docs) · [🌐 Site ↗](https://milvus.io/)</sub>
 
 <a name="meilisearch"></a>
 ### 🥈 74 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
@@ -72,7 +72,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 - **−** No port, RAM or install details in the README; docs only
 - **−** Vector search is documented under experimental features
 
-<sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo](https://where2watch.meilisearch.com/) · [📖 Docs](https://www.meilisearch.com/docs) · [🌐 Site](https://www.meilisearch.com)</sub>
+<sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com)</sub>
 
 <a name="qdrant"></a>
 ### 🥈 68 [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
@@ -90,7 +90,7 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 - **−** Qdrant Edge embedded mode is Python and Rust only
 - **−** Sharding and tenant isolation require upfront design
 
-<sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo](https://qdrant.to/semantic-search-demo) · [📖 Docs](https://qdrant.tech/documentation/)</sub>
+<sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo ↗](https://qdrant.to/semantic-search-demo) · [📖 Docs ↗](https://qdrant.tech/documentation/)</sub>
 
 <a name="pgvector"></a>
 ### 🥉 60 [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>
@@ -126,7 +126,7 @@ HelixDB is a Rust database that combines a labeled property graph, approximate n
 - **−** Cypher support only in source builds
 - **−** Install is a curl piped to bash script
 
-<sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/HelixDB/helix-db) · [📖 Docs](https://docs.helix-db.com) · [🌐 Site](https://helix-db.com)</sub>
+<sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/HelixDB/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com)</sub>
 
 <a name="vespa"></a>
 ### 42 [Vespa](https://github.com/vespa-engine/vespa) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
@@ -144,7 +144,7 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 - **−** C++ builds require AlmaLinux 8; Java needs JDK 17 and Maven
 - **−** A new release every weekday morning Monday to Thursday; versions churn
 
-<sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs](https://docs.vespa.ai) · [🌐 Site](https://vespa.ai)</sub>
+<sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai)</sub>
 
 <a name="marqo"></a>
 ### 38 [Marqo](https://github.com/marqo-ai/marqo) <sub>⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
@@ -160,6 +160,6 @@ Marqo was a vector search engine that generated embeddings and stored them in on
 - **−** Last commit 2026-04-10
 - **−** Only the commercial platform is maintained
 
-<sub>Compose · [Repo](https://github.com/marqo-ai/marqo) · [📖 Docs](https://docs.marqo.ai) · [🌐 Site](https://www.marqo.ai)</sub>
+<sub>Compose · [Repo](https://github.com/marqo-ai/marqo) · [📖 Docs ↗](https://docs.marqo.ai) · [🌐 Site ↗](https://www.marqo.ai)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

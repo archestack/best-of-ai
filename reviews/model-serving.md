@@ -18,7 +18,7 @@ LocalAI is a Go server on port 8080 with OpenAI, Anthropic, ElevenLabs and Ollam
 - **−** Distributed mode requires PostgreSQL and NATS
 - **−** Very wide scope (agents, biometrics, video) increases configuration surface
 
-<sub>GPU optional · Docker + Compose · Needs PostgreSQL and NATS (distributed mode only) · Models: GGUF via llama.cpp, vLLM, SGLang, transformers, MLX, diffusers, whisper.cpp backends, models from gallery, Hugging Face, Ollama registry, OCI images, YAML · port 8080 · [Repo](https://github.com/mudler/LocalAI) · [📖 Docs](https://localai.io/basics/getting_started/) · [🌐 Site](https://localai.io/)</sub>
+<sub>GPU optional · Docker + Compose · Needs PostgreSQL and NATS (distributed mode only) · Models: GGUF via llama.cpp, vLLM, SGLang, transformers, MLX, diffusers, whisper.cpp backends, models from gallery, Hugging Face, Ollama registry, OCI images, YAML · port 8080 · [Repo](https://github.com/mudler/LocalAI) · [📖 Docs ↗](https://localai.io/basics/getting_started/) · [🌐 Site ↗](https://localai.io/)</sub>
 
 <a name="ollama"></a>
 ### 🥈 79 [Ollama](https://github.com/ollama/ollama) <sub>⭐ 183k · MIT · Oct 2026</sub>
@@ -36,7 +36,7 @@ Ollama runs open-weight models locally with a CLI and a REST API on port 11434, 
 - **−** README gives no RAM or VRAM guidance per model size
 - **−** Models come from Ollama's own registry; others need import steps
 
-<sub>GPU optional · Docker · Models: Ollama library models (e.g. gemma4), GGUF via llama.cpp · port 11434 · [Repo](https://github.com/ollama/ollama) · [📖 Docs](https://docs.ollama.com/quickstart) · [🌐 Site](https://ollama.com)</sub>
+<sub>GPU optional · Docker · Models: Ollama library models (e.g. gemma4), GGUF via llama.cpp · port 11434 · [Repo](https://github.com/ollama/ollama) · [📖 Docs ↗](https://docs.ollama.com/quickstart) · [🌐 Site ↗](https://ollama.com)</sub>
 
 <a name="llama-cpp"></a>
 ### 🥉 64 [llama.cpp](https://github.com/ggml-org/llama.cpp) <sub>⭐ 131k · MIT · Oct 2026</sub>
@@ -54,7 +54,7 @@ llama.cpp is a C/C++ inference engine for LLMs and VLMs with no dependencies, bu
 - **−** Install script is curl piped to sh; otherwise build from source
 - **−** OpenVINO backend still in progress
 
-<sub>GPU optional · Models: GGUF models from Hugging Face (e.g. Qwen3.5-0.8B-GGUF) · [Repo](https://github.com/ggml-org/llama.cpp) · [🌐 Site](https://llama.app)</sub>
+<sub>GPU optional · Models: GGUF models from Hugging Face (e.g. Qwen3.5-0.8B-GGUF) · [Repo](https://github.com/ggml-org/llama.cpp) · [🌐 Site ↗](https://llama.app)</sub>
 
 <a name="mistral-rs"></a>
 ### 🥉 62 [mistral.rs](https://github.com/EricLBuehler/mistral.rs) <sub>⭐ 7.7k · MIT · Oct 2026</sub>
@@ -72,7 +72,7 @@ mistral.rs is a Rust engine whose single binary runs and serves Hugging Face, GG
 - **−** cuTile acceleration needs NVIDIA's separately installed tileiras tool
 - **−** Not affiliated with Mistral AI despite the name
 
-<sub>GPU optional · Docker · Models: Hugging Face safetensors, GGUF, UQFF, Qwen3, Gemma 4, Muse Glimmer, DiffusionGemma and 45+ architectures · port 1234 · [Repo](https://github.com/EricLBuehler/mistral.rs) · [📖 Docs](https://docs.mistralrs.dev/)</sub>
+<sub>GPU optional · Docker · Models: Hugging Face safetensors, GGUF, UQFF, Qwen3, Gemma 4, Muse Glimmer, DiffusionGemma and 45+ architectures · port 1234 · [Repo](https://github.com/EricLBuehler/mistral.rs) · [📖 Docs ↗](https://docs.mistralrs.dev/)</sub>
 
 <a name="lemonade"></a>
 ### 🥉 62 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
@@ -108,7 +108,7 @@ vLLM is a Python serving engine for Hugging Face models that batches requests co
 - **−** Heavy Python, PyTorch and CUDA dependency chain; no single binary
 - **−** Most optimized kernels target NVIDIA and AMD GPUs; CPU path is secondary
 
-<sub>GPU optional · Models: 200+ Hugging Face architectures: Llama, Qwen, Gemma, Mixtral, DeepSeek-V3, GPT-OSS, LLaVA, Qwen-VL, E5-Mistral · [Repo](https://github.com/vllm-project/vllm) · [📖 Docs](https://docs.vllm.ai) · [🌐 Site](https://vllm.ai)</sub>
+<sub>GPU optional · Models: 200+ Hugging Face architectures: Llama, Qwen, Gemma, Mixtral, DeepSeek-V3, GPT-OSS, LLaVA, Qwen-VL, E5-Mistral · [Repo](https://github.com/vllm-project/vllm) · [📖 Docs ↗](https://docs.vllm.ai) · [🌐 Site ↗](https://vllm.ai)</sub>
 
 <a name="sglang"></a>
 ### 54 [SGLang](https://github.com/sgl-project/sglang) <sub>⭐ 37k · Apache-2.0 · Oct 2026</sub>
@@ -126,7 +126,7 @@ SGLang is an inference framework for language, vision-language and diffusion mod
 - **−** No port, VRAM or model-size guidance in the README
 - **−** Trainium, Cambricon and Qualcomm support still in progress
 
-<sub>GPU optional · Models: large language, vision-language and diffusion models (see cookbook) · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs](https://docs.sglang.io/) · [🌐 Site](https://www.sglang.io/)</sub>
+<sub>GPU optional · Models: large language, vision-language and diffusion models (see cookbook) · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs ↗](https://docs.sglang.io/) · [🌐 Site ↗](https://www.sglang.io/)</sub>
 
 <a name="xinference"></a>
 ### 52 [Xinference](https://github.com/xorbitsai/inference) <sub>⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
@@ -144,7 +144,7 @@ Xinference serves LLM, embedding, rerank, speech, image and multimodal models be
 - **−** Commercial Enterprise edition exists alongside the community edition
 - **−** README gives no RAM or VRAM guidance
 
-<sub>GPU optional · Models: built-in catalog of LLM, embedding, rerank, speech, image and video models, custom models, engines: vLLM, Xllamacpp (llama.cpp), transformers, TensorRT · port 9997 · [Repo](https://github.com/xorbitsai/inference) · [📖 Docs](https://inference.readthedocs.io/) · [🌐 Site](https://xinference.co)</sub>
+<sub>GPU optional · Models: built-in catalog of LLM, embedding, rerank, speech, image and video models, custom models, engines: vLLM, Xllamacpp (llama.cpp), transformers, TensorRT · port 9997 · [Repo](https://github.com/xorbitsai/inference) · [📖 Docs ↗](https://inference.readthedocs.io/) · [🌐 Site ↗](https://xinference.co)</sub>
 
 <a name="llamafile"></a>
 ### 49 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>⭐ 26k · NOASSERTION · Sep 2026</sub>
@@ -162,7 +162,7 @@ llamafile packages llama.cpp and model weights into one executable using Cosmopo
 - **−** Pre-built llamafiles limited to Mozilla.ai's Hugging Face uploads
 - **−** One model per file; not a multi-model server
 
-<sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs](https://docs.mozilla.ai/llamafile)</sub>
+<sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs ↗](https://docs.mozilla.ai/llamafile)</sub>
 
 <a name="text-embeddings-inference"></a>
 ### 49 [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference) <sub>⭐ 5.1k · Apache-2.0 · Oct 2026</sub>
@@ -180,7 +180,7 @@ TEI is a Rust server from Hugging Face for embedding, reranker and sequence-clas
 - **−** Only CamemBERT and XLM-RoBERTa for sequence classification
 - **−** 7B embedders such as Qwen3-Embedding-8B are flagged very expensive
 
-<sub>GPU optional · Docker · Models: Qwen3-Embedding, gte-Qwen2, multilingual-e5, embeddinggemma, arctic-embed, nomic-embed, ModernBERT, jina-embeddings-v2, bge-reranker, gte rerankers · port 3000 · [Repo](https://github.com/huggingface/text-embeddings-inference) · [📖 Docs](https://huggingface.github.io/text-embeddings-inference)</sub>
+<sub>GPU optional · Docker · Models: Qwen3-Embedding, gte-Qwen2, multilingual-e5, embeddinggemma, arctic-embed, nomic-embed, ModernBERT, jina-embeddings-v2, bge-reranker, gte rerankers · port 3000 · [Repo](https://github.com/huggingface/text-embeddings-inference) · [📖 Docs ↗](https://huggingface.github.io/text-embeddings-inference)</sub>
 
 <a name="ktransformers"></a>
 ### 48 [KTransformers](https://github.com/kvcache-ai/ktransformers) <sub>⭐ 20k · Apache-2.0 · Oct 2026</sub>
@@ -198,7 +198,7 @@ KTransformers is a research framework for CPU-GPU heterogeneous inference and fi
 - **−** Fastest kernels need Intel AMX or AVX512; AVX2 support is newer
 - **−** Research project; some docs and support channels are Chinese-only
 
-<sub>GPU required · Needs SGLang (serving), LLaMA-Factory (fine-tuning) · Models: DeepSeek-V3/R1/V4-Flash, Kimi K2 to K2.6, GLM-5 to 5.3, MiniMax-M2.x/M3, Qwen3-MoE, Qwen3-Next · [Repo](https://github.com/kvcache-ai/ktransformers) · [📖 Docs](https://kvcache-ai.github.io/ktransformers/)</sub>
+<sub>GPU required · Needs SGLang (serving), LLaMA-Factory (fine-tuning) · Models: DeepSeek-V3/R1/V4-Flash, Kimi K2 to K2.6, GLM-5 to 5.3, MiniMax-M2.x/M3, Qwen3-MoE, Qwen3-Next · [Repo](https://github.com/kvcache-ai/ktransformers) · [📖 Docs ↗](https://kvcache-ai.github.io/ktransformers/)</sub>
 
 <a name="llama-swap"></a>
 ### 48 [llama-swap](https://github.com/mostlygeek/llama-swap) <sub>⭐ 5.9k · MIT · Oct 2026</sub>
@@ -234,7 +234,7 @@ Triton serves TensorRT, PyTorch, ONNX, OpenVINO, Python and RAPIDS FIL models ov
 - **−** Containers track NVIDIA's monthly NGC release cycle
 - **−** Not every backend is supported on every platform
 
-<sub>GPU optional · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python, RAPIDS FIL backends · [Repo](https://github.com/triton-inference-server/server) · [🌐 Site](https://developer.nvidia.com/nvidia-triton-inference-server)</sub>
+<sub>GPU optional · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python, RAPIDS FIL backends · [Repo](https://github.com/triton-inference-server/server) · [🌐 Site ↗](https://developer.nvidia.com/nvidia-triton-inference-server)</sub>
 
 <a name="gpustack"></a>
 ### 46 [GPUStack](https://github.com/gpustack/gpustack) <sub>⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
@@ -252,7 +252,7 @@ GPUStack is a GPU cluster manager that deploys models across on-prem, Kubernetes
 - **−** Cluster topology view is in the paid GPUStack Enterprise
 - **−** Quick start assumes an NVIDIA GPU; other vendors need extra steps
 
-<sub>GPU required · Models: catalog models (e.g. Qwen3.5-0.8B) via vLLM, SGLang, TensorRT-LLM, LLM, voice, image and video models · port 80 · [Repo](https://github.com/gpustack/gpustack) · [📖 Docs](https://docs.gpustack.ai)</sub>
+<sub>GPU required · Models: catalog models (e.g. Qwen3.5-0.8B) via vLLM, SGLang, TensorRT-LLM, LLM, voice, image and video models · port 80 · [Repo](https://github.com/gpustack/gpustack) · [📖 Docs ↗](https://docs.gpustack.ai)</sub>
 
 <a name="lmdeploy"></a>
 ### 45 [LMDeploy](https://github.com/InternLM/lmdeploy) <sub>⭐ 8.1k · Apache-2.0 · Sep 2026</sub>
@@ -270,7 +270,7 @@ LMDeploy compresses and serves LLMs and VLMs with two engines: TurboMind (CUDA, 
 - **−** No port, VRAM or web UI details in the README
 - **−** Community channels are WeChat-centric alongside Discord
 
-<sub>GPU required · Models: Llama 1-4, Qwen1.5-3.5, InternLM2/3, DeepSeek V2-V4, GLM-4/5, Mixtral, Gemma, Phi-3/4, gpt-oss, VLMs: InternVL, Qwen-VL, LLaVA, DeepSeek-VL, CogVLM, MiniCPM-V, Molmo, Gemma3, Llama4 · [Repo](https://github.com/InternLM/lmdeploy) · [📖 Docs](https://lmdeploy.readthedocs.io/en/latest/)</sub>
+<sub>GPU required · Models: Llama 1-4, Qwen1.5-3.5, InternLM2/3, DeepSeek V2-V4, GLM-4/5, Mixtral, Gemma, Phi-3/4, gpt-oss, VLMs: InternVL, Qwen-VL, LLaVA, DeepSeek-VL, CogVLM, MiniCPM-V, Molmo, Gemma3, Llama4 · [Repo](https://github.com/InternLM/lmdeploy) · [📖 Docs ↗](https://lmdeploy.readthedocs.io/en/latest/)</sub>
 
 <a name="text-generation-webui"></a>
 ### 43 [Text Generation Web UI](https://github.com/oobabooga/textgen) <sub>⭐ 48k · AGPL-3.0 · Aug 2026</sub>
@@ -306,7 +306,7 @@ TabbyAPI is a FastAPI server exposing an OpenAI-compatible API for the ExLlamaV3
 - **−** EXL3 and FP16/BF16 only; no GGUF
 - **−** AGPL-3.0 license
 
-<sub>GPU required · Models: EXL3 (recommended), FP16/BF16 Hugging Face models · port 5000 · [Repo](https://github.com/theroyallab/tabbyAPI) · [📖 Docs](https://theroyallab.github.io/tabbyAPI)</sub>
+<sub>GPU required · Models: EXL3 (recommended), FP16/BF16 Hugging Face models · port 5000 · [Repo](https://github.com/theroyallab/tabbyAPI) · [📖 Docs ↗](https://theroyallab.github.io/tabbyAPI)</sub>
 
 <a name="openllm"></a>
 ### 29 [OpenLLM](https://github.com/bentoml/OpenLLM) <sub>⭐ 13k · Apache-2.0 · May 2026</sub>

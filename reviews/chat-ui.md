@@ -18,7 +18,7 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 - **−** pip install is pinned to Python 3.11
 - **−** Data is lost unless the /app/backend/data volume is mounted
 
-<sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs](https://docs.openwebui.com/) · [🌐 Site](https://openwebui.com)</sub>
+<sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
 
 <a name="librechat"></a>
 ### 🥇 87 [LibreChat](https://github.com/LibreChat-AI/LibreChat) <sub>⭐ 45k · MIT · Oct 2026</sub>
@@ -36,7 +36,7 @@ LibreChat is a self-hosted chat platform that fronts Anthropic, OpenAI, Azure, A
 - **−** Horizontal scaling and resumable streams need Redis
 - **−** Attached code workspaces are marked highly experimental
 
-<sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Azure OpenAI, AWS Bedrock, Google · [Repo](https://github.com/LibreChat-AI/LibreChat) · [📖 Docs](https://docs.librechat.ai) · [🌐 Site](https://librechat.ai)</sub>
+<sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Azure OpenAI, AWS Bedrock, Google · [Repo](https://github.com/LibreChat-AI/LibreChat) · [📖 Docs ↗](https://docs.librechat.ai) · [🌐 Site ↗](https://librechat.ai)</sub>
 
 <a name="hermes-webui"></a>
 ### 🥇 80 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>⭐ 19k · MIT · Oct 2026</sub>
@@ -72,7 +72,7 @@ Big-AGI Open is the self-hostable web app behind big-agi.com, deployable via Doc
 - **−** README omits stack, ports and resource requirements; install guide lives in docs/
 - **−** README is mostly badges, taglines and release notes rather than specs
 
-<sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-AGI) · [🌐 Site](https://big-agi.com)</sub>
+<sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-AGI) · [🌐 Site ↗](https://big-agi.com)</sub>
 
 <a name="nextchat"></a>
 ### 🥈 74 [NextChat](https://github.com/ChatGPTNextWeb/NextChat) <sub>⭐ 89k · MIT · Oct 2026</sub>
@@ -90,7 +90,7 @@ NextChat is a Node.js web client (Docker image yidadaa/chatgpt-next-web on port 
 - **−** OPENAI_API_KEY is marked required even when another provider is used
 - **−** Local knowledge base still unchecked on the roadmap
 
-<sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/ChatGPTNextWeb/NextChat) · [▶️ Demo](https://app.nextchat.club) · [🌐 Site](https://nextchat.club)</sub>
+<sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/ChatGPTNextWeb/NextChat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club)</sub>
 
 <a name="lobehub"></a>
 ### 🥈 74 [LobeHub](https://github.com/lobehub/lobehub) <sub>⭐ 83k · NOASSERTION · Oct 2026</sub>
@@ -126,7 +126,7 @@ Chat UI is the SvelteKit app that powers HuggingChat. It talks only to OpenAI-co
 - **−** Router needs a hand-written routes JSON; no sample file ships
 - **−** README does not describe authentication or multi-user setup
 
-<sub>no GPU · Docker + Compose · Needs MongoDB · Models: OpenAI-compatible endpoints, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [▶️ Demo](https://huggingface.co/chat)</sub>
+<sub>no GPU · Docker + Compose · Needs MongoDB · Models: OpenAI-compatible endpoints, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [▶️ Demo ↗](https://huggingface.co/chat)</sub>
 
 <a name="claraverse"></a>
 ### 🥈 67 [ClaraVerse](https://github.com/claraverse-space/ClaraVerse) <sub>⭐ 3.9k · NOASSERTION · Aug 2026</sub>
@@ -144,7 +144,7 @@ ClaraVerse is a Go and React workspace (Docker Compose, port 3000) that auto-det
 - **−** 4 GB RAM minimum, 8 GB recommended
 - **−** Conversations live in browser IndexedDB by default; sync is optional
 
-<sub>RAM ≥ 4 GB · Docker + Compose · Needs MySQL, MongoDB, Redis, SearXNG, Qdrant (knowledge bases) · Models: Ollama, LM Studio, llama.cpp, OpenAI, Anthropic · port 3000 · [Repo](https://github.com/claraverse-space/ClaraVerse) · [🌐 Site](https://claraverse.space)</sub>
+<sub>RAM ≥ 4 GB · Docker + Compose · Needs MySQL, MongoDB, Redis, SearXNG, Qdrant (knowledge bases) · Models: Ollama, LM Studio, llama.cpp, OpenAI, Anthropic · port 3000 · [Repo](https://github.com/claraverse-space/ClaraVerse) · [🌐 Site ↗](https://claraverse.space)</sub>
 
 <a name="sillytavern"></a>
 ### 🥉 63 [SillyTavern](https://github.com/SillyTavern/SillyTavern) <sub>⭐ 34k · AGPL-3.0 · Sep 2026</sub>
@@ -162,7 +162,7 @@ SillyTavern is a locally installed Node.js 20+ interface for text-generation LLM
 - **−** Maintainers describe the learning curve as steep
 - **−** Installation and Docker instructions live only on the docs site
 
-<sub>no GPU · Docker · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/SillyTavern/SillyTavern) · [📖 Docs](https://docs.sillytavern.app/)</sub>
+<sub>no GPU · Docker · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/SillyTavern/SillyTavern) · [📖 Docs ↗](https://docs.sillytavern.app/)</sub>
 
 <a name="lollms-webui"></a>
 ### 🥉 61 [LoLLMs WebUI](https://github.com/ParisNeo/lollms-webui) <sub>⭐ 4.8k · Apache-2.0 · Sep 2026</sub>
@@ -198,7 +198,7 @@ AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a 
 - **−** Speech-to-text is limited to the browser built-in engine
 - **−** No root Dockerfile; container build lives under docker/
 
-<sub>no GPU · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/Mintplex-Labs/anything-llm) · [📖 Docs](https://docs.anythingllm.com) · [🌐 Site](https://anythingllm.com)</sub>
+<sub>no GPU · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/Mintplex-Labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub>
 
 <a name="onyx"></a>
 ### 🥉 56 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>⭐ 32k · NOASSERTION · Oct 2026</sub>
@@ -216,7 +216,7 @@ Onyx indexes content and permissions from 50+ apps into a hybrid vector and keyw
 - **−** Lite mode cannot index documents
 - **−** README gives no port or hardware figures for the Standard deployment
 
-<sub>RAM ≥ 1 GB · no GPU · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo](https://cloud.onyx.app/signup) · [📖 Docs](https://docs.onyx.app/) · [🌐 Site](https://www.onyx.app/)</sub>
+<sub>RAM ≥ 1 GB · no GPU · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/signup) · [📖 Docs ↗](https://docs.onyx.app/) · [🌐 Site ↗](https://www.onyx.app/)</sub>
 
 <a name="chatgpt-ui"></a>
 ### 44 [ChatGPT UI](https://github.com/WongSaang/chatgpt-ui) <sub>⭐ 1.6k · MIT · May 2026</sub>
@@ -232,6 +232,6 @@ ChatGPT UI is a web client for ChatGPT-style chat that supports multiple users, 
 - **−** Front end and server are split across two repositories
 - **−** Last commit 2026-05-11; README carries a sponsor banner for a paid AI platform
 
-<sub>no GPU · Docker + Compose · [Repo](https://github.com/WongSaang/chatgpt-ui) · [📖 Docs](https://wongsaang.github.io/chatgpt-ui/)</sub>
+<sub>no GPU · Docker + Compose · [Repo](https://github.com/WongSaang/chatgpt-ui) · [📖 Docs ↗](https://wongsaang.github.io/chatgpt-ui/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

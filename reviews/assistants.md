@@ -17,7 +17,7 @@ OpenClaw runs a local Gateway that connects one assistant to Discord, iMessage, 
 - **−** Requires Node 24.16+ or 26.1+; the repo is pnpm-only, plain npm install is unsupported
 - **−** Daily version check phones home by default; disable with update.checkOnStart: false
 
-<sub>no GPU · Docker + Compose · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs](https://docs.openclaw.ai) · [🌐 Site](https://openclaw.ai)</sub>
+<sub>no GPU · Docker + Compose · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs ↗](https://docs.openclaw.ai) · [🌐 Site ↗](https://openclaw.ai)</sub>
 
 <a name="hermes-agent"></a>
 ### 🥇 91 [Hermes Agent](https://github.com/NousResearch/hermes-agent) <sub>⭐ 252k · MIT · Oct 2026</sub>
@@ -35,7 +35,7 @@ Hermes Agent is a Python agent with a terminal UI and a gateway for Telegram, Di
 - **−** Web search, image generation, TTS and cloud browser steer toward the paid Nous Portal
 - **−** Antivirus on Windows may quarantine the bundled uv.exe; whitelisting is documented
 
-<sub>no GPU · Docker + Compose · Models: Nous Portal, OpenRouter, OpenAI, custom endpoint · [Repo](https://github.com/NousResearch/hermes-agent) · [📖 Docs](https://hermes-agent.nousresearch.com/docs/) · [🌐 Site](https://hermes-agent.nousresearch.com/)</sub>
+<sub>no GPU · Docker + Compose · Models: Nous Portal, OpenRouter, OpenAI, custom endpoint · [Repo](https://github.com/NousResearch/hermes-agent) · [📖 Docs ↗](https://hermes-agent.nousresearch.com/docs/) · [🌐 Site ↗](https://hermes-agent.nousresearch.com/)</sub>
 
 <a name="nanobot"></a>
 ### 🥇 89 [nanobot](https://github.com/HKUDS/nanobot) <sub>⭐ 49k · MIT · Oct 2026</sub>
@@ -52,7 +52,7 @@ nanobot is a Python 3.11+ personal agent running as a local gateway with a bundl
 - **−** Native TUI wheels cover macOS 13+, glibc 2.17+ Linux and Windows x64 only
 - **−** Source install requires Bun to run the terminal UI
 
-<sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/HKUDS/nanobot) · [📖 Docs](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview)</sub>
+<sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/HKUDS/nanobot) · [📖 Docs ↗](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview)</sub>
 
 <a name="zeroclaw"></a>
 ### 🥇 86 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>⭐ 33k · Apache-2.0 · Oct 2026</sub>
@@ -69,7 +69,7 @@ ZeroClaw is one Rust binary that routes messages from 30+ channels (Discord, Tel
 - **−** README states no RAM figures and no gateway port
 - **−** Unix installer places the binary under the Cargo bin directory
 
-<sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site](https://www.zeroclaw.com)</sub>
+<sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs ↗](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site ↗](https://www.zeroclaw.com)</sub>
 
 <a name="ironclaw"></a>
 ### 🥇 80 [IronClaw](https://github.com/nearai/ironclaw) <sub>⭐ 13k · Apache-2.0 · Sep 2026</sub>
@@ -105,7 +105,7 @@ Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Wor
 - **−** Maintainers now promote a newer project, Pipali, at the top of the README
 - **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
 
-<sub>Docker + Compose · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo](https://app.khoj.dev) · [📖 Docs](https://docs.khoj.dev) · [🌐 Site](https://khoj.dev)</sub>
+<sub>Docker + Compose · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev)</sub>
 
 <a name="astrbot"></a>
 ### 🥈 71 [AstrBot](https://github.com/AstrBotDevs/AstrBot) <sub>⭐ 42k · AGPL-3.0 · Oct 2026</sub>
@@ -123,7 +123,7 @@ AstrBot is a Python 3.12+ chatbot platform that connects LLM providers (OpenAI-c
 - **−** Docker setup is documented only in the external docs, not the README
 - **−** Several model-provider links in the README are referral or affiliate links
 
-<sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/AstrBotDevs/AstrBot) · [📖 Docs](https://astrbot.app/)</sub>
+<sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/AstrBotDevs/AstrBot) · [📖 Docs ↗](https://astrbot.app/)</sub>
 
 <a name="qwenpaw"></a>
 ### 🥈 66 [QwenPaw](https://github.com/agentscope-ai/QwenPaw) <sub>⭐ 36k · Apache-2.0 · Oct 2026</sub>
@@ -140,7 +140,7 @@ QwenPaw is a Python (3.11 to 3.13) assistant built on AgentScope that serves a b
 - **−** Script installer may fail behind corporate firewalls or in PowerShell Constrained Language Mode
 - **−** Channel lineup leans toward DingTalk, Lark, WeChat and QQ; no Slack or WhatsApp listed
 
-<sub>no GPU · Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/QwenPaw) · [▶️ Demo](https://platform.agentscope.io/) · [📖 Docs](https://qwenpaw.agentscope.io/)</sub>
+<sub>no GPU · Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/QwenPaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/)</sub>
 
 <a name="moltis"></a>
 ### 🥉 59 [Moltis](https://github.com/moltis-org/moltis) <sub>⭐ 2.9k · MIT · Sep 2026</sub>
@@ -158,7 +158,7 @@ Moltis is a single Rust binary that serves a web UI (port 13131), Telegram, Sign
 - **−** Source build needs just and Node.js for Tailwind on top of Rust 1.91+
 - **−** Constrained devices need a custom build with --no-default-features --features lightweight
 
-<sub>no GPU · Docker · Needs Docker, Podman or Apple Container (sandbox) · Models: OpenAI Codex, GitHub Copilot, local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs](https://docs.moltis.org/quickstart.html) · [🌐 Site](https://moltis.org)</sub>
+<sub>no GPU · Docker · Needs Docker, Podman or Apple Container (sandbox) · Models: OpenAI Codex, GitHub Copilot, local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs ↗](https://docs.moltis.org/quickstart.html) · [🌐 Site ↗](https://moltis.org)</sub>
 
 <a name="spacebot"></a>
 ### 51 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>⭐ 2.4k · NOASSERTION · Sep 2026</sub>
@@ -176,7 +176,7 @@ Spacebot is a Rust agent server built for many concurrent users: channel process
 - **−** Web search requires a Brave Search API key
 - **−** Browser automation needs headless Chrome
 
-<sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs](https://docs.spacebot.sh) · [🌐 Site](https://spacebot.sh)</sub>
+<sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs ↗](https://docs.spacebot.sh) · [🌐 Site ↗](https://spacebot.sh)</sub>
 
 <a name="picoclaw"></a>
 ### 40 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>⭐ 30k · MIT · Aug 2026</sub>
@@ -194,6 +194,6 @@ PicoClaw is a single Go binary for x86_64, ARM64, MIPS, RISC-V and LoongArch tha
 - **−** AWS Bedrock support requires a custom build with -tags bedrock
 - **−** No root Dockerfile; compose file lives under docker/ and needs a first-run bootstrap
 
-<sub>RAM ≥ 0.02 GB · no GPU · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek · port 18800 · [Repo](https://github.com/sipeed/picoclaw) · [📖 Docs](https://docs.picoclaw.io/) · [🌐 Site](https://picoclaw.io)</sub>
+<sub>RAM ≥ 0.02 GB · no GPU · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek · port 18800 · [Repo](https://github.com/sipeed/picoclaw) · [📖 Docs ↗](https://docs.picoclaw.io/) · [🌐 Site ↗](https://picoclaw.io)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

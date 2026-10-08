@@ -18,7 +18,7 @@ Async Playwright crawler (pip install crawl4ai) that renders pages in Chromium, 
 - **−** Web search and answer endpoints exist only in the paid cloud
 - **−** Runs full browsers; the docker run example allocates 1 GB shared memory
 
-<sub>no GPU · Docker + Compose · Needs Playwright Chromium (installed by crawl4ai-setup) · Models: any LiteLLM provider for LLM extraction (OpenAI, Ollama and others) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs](https://docs.crawl4ai.com/)</sub>
+<sub>no GPU · Docker + Compose · Needs Playwright Chromium (installed by crawl4ai-setup) · Models: any LiteLLM provider for LLM extraction (OpenAI, Ollama and others) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com/)</sub>
 
 <a name="gpt-researcher"></a>
 ### 🥇 83 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>⭐ 30k · Apache-2.0 · Sep 2026</sub>
@@ -36,7 +36,7 @@ Planner and execution agents generate research questions, scrape 20+ sources, fi
 - **−** Python 3.12 or later required
 - **−** Disclaimer labels the project experimental and for academic purposes
 
-<sub>no GPU · Docker + Compose · Needs OpenAI or OpenAI-compatible LLM API, Tavily API key (default retriever), TypeSafe API key (optional Jev filter) · Models: OpenAI models, any OpenAI-compatible endpoint via OPENAI_BASE_URL, Gemini 2.5 Flash Image (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs](https://docs.gptr.dev) · [🌐 Site](https://gptr.dev)</sub>
+<sub>no GPU · Docker + Compose · Needs OpenAI or OpenAI-compatible LLM API, Tavily API key (default retriever), TypeSafe API key (optional Jev filter) · Models: OpenAI models, any OpenAI-compatible endpoint via OPENAI_BASE_URL, Gemini 2.5 Flash Image (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev)</sub>
 
 <a name="morphic"></a>
 ### 🥈 79 [Morphic](https://github.com/miurla/morphic) <sub>⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
@@ -72,7 +72,7 @@ API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with 
 - **−** Agent endpoint runs the hosted spark-2 model, not a local LLM
 - **−** Proxy rotation and anti-bot handling are hosted-service features
 
-<sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo](https://firecrawl.dev/playground) · [📖 Docs](https://docs.firecrawl.dev) · [🌐 Site](https://firecrawl.dev)</sub>
+<sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev)</sub>
 
 <a name="vane"></a>
 ### 🥈 72 [Vane](https://github.com/ItzCrazyKns/Vane) <sub>⭐ 37k · MIT · Sep 2026</sub>
@@ -126,7 +126,7 @@ Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page
 - **−** Last commit May 2026; the SaaS resync was April 2026
 - **−** Default h2c port 8080 needs --http2-prior-knowledge from curl; use 8081 otherwise
 
-<sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo](https://jina.ai/reader#demo) · [📖 Docs](https://r.jina.ai/docs) · [🌐 Site](https://jina.ai/reader)</sub>
+<sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader)</sub>
 
 <a name="maestro"></a>
 ### 30 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
@@ -144,6 +144,6 @@ Planning, Research, Reflection and Writing agents run research missions over upl
 - **−** Dual-licensed AGPLv3 or commercial; proprietary use needs a paid license
 - **−** First startup takes 5 to 10 minutes while models download
 
-<sub>RAM ≥ 16 GB · GPU optional · Compose · Needs Docker Compose v2+, API key for an AI provider or an OpenAI-compatible endpoint, PostgreSQL with pgvector (in compose) · Models: OpenAI-compatible APIs, Azure OpenAI (GPT-5), BGE-M3 embeddings · port 80 · [Repo](https://github.com/murtaza-nasir/maestro) · [📖 Docs](https://murtaza-nasir.github.io/maestro/)</sub>
+<sub>RAM ≥ 16 GB · GPU optional · Compose · Needs Docker Compose v2+, API key for an AI provider or an OpenAI-compatible endpoint, PostgreSQL with pgvector (in compose) · Models: OpenAI-compatible APIs, Azure OpenAI (GPT-5), BGE-M3 embeddings · port 80 · [Repo](https://github.com/murtaza-nasir/maestro) · [📖 Docs ↗](https://murtaza-nasir.github.io/maestro/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

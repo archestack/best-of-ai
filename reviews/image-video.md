@@ -54,7 +54,7 @@ Turns a topic into a short video: an LLM (GPT, Qwen, DeepSeek, Ollama) writes th
 - **−** Last commit June 2026; update log stops at 2026-06-01
 - **−** Heavy local footprint: ComfyUI plus diffusion and TTS models
 
-<sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ATH-MaaS/Pixelle-Video) · [📖 Docs](https://aidc-ai.github.io/Pixelle-Video/zh)</sub>
+<sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ATH-MaaS/Pixelle-Video) · [📖 Docs ↗](https://aidc-ai.github.io/Pixelle-Video/zh)</sub>
 
 <a name="comfyui"></a>
 ### 🥉 60 [ComfyUI](https://github.com/Comfy-Org/ComfyUI) <sub>⭐ 137k · GPL-3.0 · Oct 2026</sub>
@@ -72,7 +72,7 @@ Builds generation pipelines as a visual node graph and runs them locally for ima
 - **−** NVIDIA 20-series and newer require PyTorch built with CUDA 13.0 or above
 - **−** Paid partner and API nodes stay on unless --offline or --disable-partner-nodes is set
 
-<sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/Comfy-Org/ComfyUI) · [📖 Docs](https://docs.comfy.org/) · [🌐 Site](https://www.comfy.org/)</sub>
+<sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/Comfy-Org/ComfyUI) · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://www.comfy.org/)</sub>
 
 <a name="fluxgym"></a>
 ### 🥉 60 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>⭐ 3.3k · MIT · Jul 2026</sub>
@@ -126,7 +126,7 @@ Local web server and React UI for image generation with a Unified Canvas (inpain
 - **−** Video generation (Wan) is API-only, not local
 - **−** Nano Banana and GPT Image require third-party API access
 
-<sub>Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/InvokeAI) · [📖 Docs](https://invoke.ai/start-here/installation/) · [🌐 Site](https://invoke.ai)</sub>
+<sub>Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/InvokeAI) · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai)</sub>
 
 <a name="biniou"></a>
 ### 49 [biniou](https://github.com/Woolverine94/biniou) <sub>⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
@@ -144,6 +144,6 @@ Gradio web UI bundling 30+ modules: llama.cpp chat and LLaVA with GGUF models, W
 - **−** Many modules need 16 GB+ RAM (Kandinsky, AnimateDiff, SVD, outpaint)
 - **−** GPL-3.0 license; macOS Intel support is experimental
 
-<sub>RAM ≥ 8 GB · GPU optional · Docker · Needs ffmpeg, git, gcc, perl, openssl · Models: GGUF LLMs via llama.cpp, LLaVA GGUF, Whisper, NLLB-200, SD 1.5/2.1/Turbo · [Repo](https://github.com/Woolverine94/biniou) · [📖 Docs](https://github.com/Woolverine94/biniou/wiki)</sub>
+<sub>RAM ≥ 8 GB · GPU optional · Docker · Needs ffmpeg, git, gcc, perl, openssl · Models: GGUF LLMs via llama.cpp, LLaVA GGUF, Whisper, NLLB-200, SD 1.5/2.1/Turbo · [Repo](https://github.com/Woolverine94/biniou) · [📖 Docs ↗](https://github.com/Woolverine94/biniou/wiki)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

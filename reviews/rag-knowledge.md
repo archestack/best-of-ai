@@ -36,7 +36,7 @@ Open Notebook collects PDFs, audio, video, web pages and Office files into noteb
 - **−** Anthropic and Groq offer no embeddings, so a second provider is needed
 - **−** UI in 14 languages but provider setup is manual per model type
 
-<sub>no GPU · Docker + Compose · Needs SurrealDB · Models: OpenAI, Anthropic, Google, Mistral, Groq, DeepSeek, xAI, OpenRouter, Cohere, Ollama, LM Studio, oMLX and any OpenAI-compatible endpoint · port 8502 · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site](https://www.open-notebook.ai)</sub>
+<sub>no GPU · Docker + Compose · Needs SurrealDB · Models: OpenAI, Anthropic, Google, Mistral, Groq, DeepSeek, xAI, OpenRouter, Cohere, Ollama, LM Studio, oMLX and any OpenAI-compatible endpoint · port 8502 · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai)</sub>
 
 <a name="ragflow"></a>
 ### 🥈 77 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>⭐ 92k · Apache-2.0 · Oct 2026</sub>
@@ -54,7 +54,7 @@ RAGFlow parses Word, slides, Excel, scans and web pages with in-process layout a
 - **−** 1.0 Go rewrite is still rc1 as of 2026-09-29
 - **−** Elasticsearch path requires vm.max_map_count >= 262144 on the host
 
-<sub>RAM ≥ 16 GB · no GPU · Docker · Needs MySQL, Elasticsearch or Infinity, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: external LLM, embedding and reranker providers set by URL and API key · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo](https://cloud.ragflow.io) · [📖 Docs](https://ragflow.io/docs/dev/) · [🌐 Site](https://ragflow.io/)</sub>
+<sub>RAM ≥ 16 GB · no GPU · Docker · Needs MySQL, Elasticsearch or Infinity, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: external LLM, embedding and reranker providers set by URL and API key · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io/)</sub>
 
 <a name="paperless-gpt"></a>
 ### 🥈 73 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>⭐ 2.7k · MIT · Oct 2026</sub>
@@ -88,7 +88,7 @@ DeepWiki-Open takes a repository URL from GitHub, GitLab or Bitbucket, analyzes 
 - **−** 2.0 is pushed as a separate download at grok-wiki.com
 - **−** No hardware guidance; single-maintainer project
 
-<sub>no GPU · Docker + Compose · [Repo](https://github.com/AsyncFuncAI/deepwiki-open) · [🌐 Site](https://grok-wiki.com)</sub>
+<sub>no GPU · Docker + Compose · [Repo](https://github.com/AsyncFuncAI/deepwiki-open) · [🌐 Site ↗](https://grok-wiki.com)</sub>
 
 <a name="private-gpt"></a>
 ### 🥈 68 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>⭐ 58k · Apache-2.0 · Oct 2026</sub>
@@ -106,7 +106,7 @@ PrivateGPT 1.0 is an API server shaped like the Anthropic Messages API, adding f
 - **−** Skills support is marked basic; structured output depends on the backend
 - **−** RBAC, LDAP, connectors and audit logs exist only in the commercial Zylon platform
 
-<sub>no GPU · Docker · Needs OpenAI-compatible inference server (Ollama, llama.cpp, vLLM) · Models: any model behind an OpenAI-compatible /v1/chat/completions endpoint · port 8080 · [Repo](https://github.com/zylon-ai/private-gpt) · [📖 Docs](https://docs.privategpt.dev/)</sub>
+<sub>no GPU · Docker · Needs OpenAI-compatible inference server (Ollama, llama.cpp, vLLM) · Models: any model behind an OpenAI-compatible /v1/chat/completions endpoint · port 8080 · [Repo](https://github.com/zylon-ai/private-gpt) · [📖 Docs ↗](https://docs.privategpt.dev/)</sub>
 
 <a name="weknora"></a>
 ### 🥈 68 [WeKnora](https://github.com/Tencent/WeKnora) <sub>⭐ 33k · NOASSERTION · Oct 2026</sub>
@@ -124,7 +124,7 @@ WeKnora turns team documents into knowledge bases with three modes: cited RAG an
 - **−** Maintainers advise against exposing it to the public internet
 - **−** Desktop app has no published installer; hardware requirements live in external docs
 
-<sub>no GPU · Compose · Needs Neo4j (optional profile), MinIO (optional profile), Langfuse (optional profile) · Models: OpenAI, DeepSeek, Qwen, Zhipu, Hunyuan, Gemini, MiniMax, NVIDIA, LiteLLM, Ollama · port 80 · [Repo](https://github.com/Tencent/WeKnora) · [📖 Docs](https://weknora.weixin.qq.com/docs/) · [🌐 Site](https://weknora.weixin.qq.com)</sub>
+<sub>no GPU · Compose · Needs Neo4j (optional profile), MinIO (optional profile), Langfuse (optional profile) · Models: OpenAI, DeepSeek, Qwen, Zhipu, Hunyuan, Gemini, MiniMax, NVIDIA, LiteLLM, Ollama · port 80 · [Repo](https://github.com/Tencent/WeKnora) · [📖 Docs ↗](https://weknora.weixin.qq.com/docs/) · [🌐 Site ↗](https://weknora.weixin.qq.com)</sub>
 
 <a name="pipeshub"></a>
 ### 🥉 62 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
@@ -142,7 +142,7 @@ PipesHub indexes Slack, Google Drive, GitHub, Microsoft 365, Notion and 50+ syst
 - **−** Audio and video are stored but not indexed yet
 - **−** Plain-HTTP cloud deployments show a white screen; TLS termination required
 
-<sub>no GPU · Docker · Needs Neo4j or ArangoDB, Qdrant, MongoDB, Redis, Kafka (larger deployments) · Models: any LLM provider, bring your own model, Ollama, local embedding server by default · port 3000 · [Repo](https://github.com/pipeshub-ai/pipeshub-ai) · [📖 Docs](https://docs.pipeshub.com/) · [🌐 Site](https://www.pipeshub.com/)</sub>
+<sub>no GPU · Docker · Needs Neo4j or ArangoDB, Qdrant, MongoDB, Redis, Kafka (larger deployments) · Models: any LLM provider, bring your own model, Ollama, local embedding server by default · port 3000 · [Repo](https://github.com/pipeshub-ai/pipeshub-ai) · [📖 Docs ↗](https://docs.pipeshub.com/) · [🌐 Site ↗](https://www.pipeshub.com/)</sub>
 
 <a name="db-gpt"></a>
 ### 🥉 60 [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) <sub>⭐ 20k · MIT · Oct 2026</sub>
@@ -160,7 +160,7 @@ DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge base
 - **−** Text2SQL fine-tune list stops at older models such as LLaMA-2 and ChatGLM2
 - **−** Default pip install bundles ChromaDB only; other vector stores need extras
 
-<sub>GPU optional · Compose · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/DB-GPT) · [📖 Docs](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site](http://dbgpt.cn/)</sub>
+<sub>GPU optional · Compose · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/DB-GPT) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/)</sub>
 
 <a name="maxkb"></a>
 ### 🥉 56 [MaxKB](https://github.com/1Panel-dev/MaxKB) <sub>⭐ 23k · GPL-3.0 · Oct 2026</sub>
@@ -196,7 +196,7 @@ Paperless-AI watches a Paperless-ngx instance, sends new documents to OpenAI, Ol
 - **−** No port, hardware or env var details in the README; see the wiki
 - **−** Paperless-ngx is adding native AI, which may supersede it
 
-<sub>no GPU · Docker + Compose · Needs Paperless-ngx · Models: Ollama (Mistral, Llama, Phi-3, Gemma-2), OpenAI, DeepSeek, OpenRouter, Perplexity, Together, LiteLLM, vLLM, Fastchat, Gemini · [Repo](https://github.com/clusterzx/paperless-ai) · [📖 Docs](https://github.com/clusterzx/paperless-ai/wiki/2.-Installation)</sub>
+<sub>no GPU · Docker + Compose · Needs Paperless-ngx · Models: Ollama (Mistral, Llama, Phi-3, Gemma-2), OpenAI, DeepSeek, OpenRouter, Perplexity, Together, LiteLLM, vLLM, Fastchat, Gemini · [Repo](https://github.com/clusterzx/paperless-ai) · [📖 Docs ↗](https://github.com/clusterzx/paperless-ai/wiki/2.-Installation)</sub>
 
 <a name="surfsense"></a>
 ### 53 [SurfSense](https://github.com/MODSetter/SurfSense) <sub>⭐ 16k · NOASSERTION · Oct 2026</sub>
@@ -214,7 +214,7 @@ SurfSense indexes local PDFs, Office files and images into SQLite, answers with 
 - **−** Hosted web app retired; export window closes 2026-10-18
 - **−** Plugins and priority support are behind a paid licence; no video overviews
 
-<sub>no GPU · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · [Repo](https://github.com/MODSetter/SurfSense) · [📖 Docs](https://www.surfsense.com/docs) · [🌐 Site](https://www.surfsense.com/)</sub>
+<sub>no GPU · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · [Repo](https://github.com/MODSetter/SurfSense) · [📖 Docs ↗](https://www.surfsense.com/docs) · [🌐 Site ↗](https://www.surfsense.com/)</sub>
 
 <a name="kotaemon"></a>
 ### 51 [Kotaemon](https://github.com/Cinnamon/kotaemon) <sub>⭐ 26k · Apache-2.0 · May 2026</sub>
@@ -232,7 +232,7 @@ Kotaemon is a Gradio web app for question answering over uploaded documents, wit
 - **−** Only PDF, HTML, MHTML and XLSX without the larger full image
 - **−** Last commit 2026-05-30; MS GraphRAG indexing works only with OpenAI or Ollama
 
-<sub>no GPU · Docker · Needs Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant (optional stores), Unstructured (optional, for .doc/.docx and more) · Models: OpenAI, Azure OpenAI, Cohere, Groq, Ollama · port 7860 · [Repo](https://github.com/Cinnamon/kotaemon) · [▶️ Demo](https://huggingface.co/spaces/cin-model/kotaemon-demo) · [📖 Docs](https://cinnamon.github.io/kotaemon/)</sub>
+<sub>no GPU · Docker · Needs Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant (optional stores), Unstructured (optional, for .doc/.docx and more) · Models: OpenAI, Azure OpenAI, Cohere, Groq, Ollama · port 7860 · [Repo](https://github.com/Cinnamon/kotaemon) · [▶️ Demo ↗](https://huggingface.co/spaces/cin-model/kotaemon-demo) · [📖 Docs ↗](https://cinnamon.github.io/kotaemon/)</sub>
 
 <a name="morphik"></a>
 ### 48 [Morphik](https://github.com/morphik-org/morphik-core) <sub>⭐ 3.7k · NOASSERTION · Oct 2026</sub>
@@ -250,7 +250,7 @@ Morphik Core is a retrieval engine for visually rich documents: it embeds page i
 - **−** README centers on the hosted dev.morphik.ai service, not self-hosting
 - **−** Parent company now focuses on back-office AI workers; Core is a side product
 
-<sub>no GPU · Compose · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [▶️ Demo](https://dev.morphik.ai) · [📖 Docs](https://dev.morphik.ai/docs) · [🌐 Site](https://morphik.ai)</sub>
+<sub>no GPU · Compose · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [▶️ Demo ↗](https://dev.morphik.ai) · [📖 Docs ↗](https://dev.morphik.ai/docs) · [🌐 Site ↗](https://morphik.ai)</sub>
 
 <a name="docling-serve"></a>
 ### 36 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>⭐ 1.9k · MIT · Oct 2026</sub>
