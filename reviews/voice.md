@@ -3,7 +3,7 @@
 Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. Back to the [leaderboard](../README.md#-voice).
 
 <a name="gpt-sovits"></a>
-### 🥇 91 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) <sub>⭐ 63k · MIT · Oct 2026</sub>
+### 🥇 89 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) <sub>⭐ 63k · MIT · Oct 2026</sub>
 
 **Few-shot voice cloning and TTS with a training web UI.**
 
@@ -21,7 +21,7 @@ Clones a voice from a 5-second sample (zero-shot) or fine-tunes GPT and SoVITS m
 <sub>GPU optional · Docker + Compose · Needs ffmpeg · Models: GPT-SoVITS v1-v5 pretrained models, UVR5 vocal separation models, Faster Whisper large-v3 (ASR), FunASR Paraformer (Chinese ASR) · [Repo](https://github.com/RVC-Boss/GPT-SoVITS) · [🧪 Demo](https://lj1995-gpt-sovits-proplus.hf.space/) · [📖 Docs](https://rentry.co/GPT-SoVITS-guide#/)</sub>
 
 <a name="voicebox"></a>
-### 🥇 88 [Voicebox](https://github.com/jamiepine/voicebox) <sub>⭐ 57k · MIT · Oct 2026</sub>
+### 🥇 87 [Voicebox](https://github.com/jamiepine/voicebox) <sub>⭐ 57k · MIT · Oct 2026</sub>
 
 **Local voice studio for cloning, TTS, dictation and agent speech.**
 
@@ -39,7 +39,7 @@ Desktop app (Tauri) and Docker service that clones voices from a short sample an
 <sub>GPU optional · Docker + Compose · Models: Qwen3-TTS 0.6B/1.7B, Qwen CustomVoice, Qwen VoiceDesign, LuxTTS, Chatterbox Multilingual · port 17493 · [Repo](https://github.com/jamiepine/voicebox) · [📖 Docs](https://docs.voicebox.sh) · [🌐 Site](https://voicebox.sh)</sub>
 
 <a name="speech-to-speech"></a>
-### 🥇 80 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### 🥈 78 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **Modular voice-agent pipeline behind an OpenAI Realtime-compatible server.**
 
@@ -57,7 +57,7 @@ Runs a VAD, speech-to-text, LLM and text-to-speech cascade and exposes it throug
 <sub>GPU optional · Docker + Compose · Needs libportaudio2, libsndfile1 · Models: Parakeet TDT, Whisper and Faster Whisper, Qwen3-ASR, Qwen3-TTS, Kokoro-82M · port 8765 · [Repo](https://github.com/huggingface/speech-to-speech)</sub>
 
 <a name="pocket-tts"></a>
-### 🥇 80 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>⭐ 9.8k · MIT · Oct 2026</sub>
+### 🥈 78 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>⭐ 9.8k · MIT · Oct 2026</sub>
 
 **100M-parameter CPU text-to-speech with streaming and voice cloning.**
 
@@ -75,7 +75,7 @@ Generates speech on CPU with a 100M-parameter model: about 200 ms to the first a
 <sub>no GPU · Docker + Compose · Models: Pocket TTS 100M, 24-layer language variants, community checkpoints via --config · port 8000 · [Repo](https://github.com/kyutai-labs/pocket-tts) · [🧪 Demo](https://kyutai.org/pocket-tts) · [📖 Docs](https://kyutai-labs.github.io/pocket-tts/)</sub>
 
 <a name="f5-tts"></a>
-### 🥈 65 [F5-TTS](https://github.com/SWivid/F5-TTS) <sub>⭐ 15k · MIT · Sep 2026</sub>
+### 🥉 61 [F5-TTS](https://github.com/SWivid/F5-TTS) <sub>⭐ 15k · MIT · Sep 2026</sub>
 
 **Flow-matching TTS and voice cloning with Gradio and CLI.**
 
@@ -111,7 +111,7 @@ Exposes OpenAI-style audio endpoints: streaming transcription and translation th
 <sub>GPU optional · Docker + Compose · Models: faster-whisper (CTranslate2 Whisper), Kokoro, Piper · [Repo](https://github.com/speaches-ai/speaches) · [📖 Docs](https://speaches.ai/) · [🌐 Site](https://speaches.ai/)</sub>
 
 <a name="speakr"></a>
-### 51 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
+### 50 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
 
 **Transcribe, summarize and search recordings with pluggable ASR and LLMs.**
 
@@ -127,24 +127,6 @@ Web app that records or ingests audio, transcribes it through a connector (self-
 - **−** Lite image downgrades Inquire semantic search to basic text search
 
 <sub>no GPU · Docker · Needs ASR service or API (WhisperX, OpenAI, Mistral, AssemblyAI, OpenASR, FunASR), LLM API (OpenAI-compatible, OpenRouter or Ollama), SQLite or PostgreSQL · Models: WhisperX, OpenAI gpt-4o-transcribe-diarize, Mistral Voxtral, AssemblyAI, VibeVoice via vLLM · port 8899 · [Repo](https://github.com/murtaza-nasir/speakr) · [📖 Docs](https://murtaza-nasir.github.io/speakr)</sub>
-
-<a name="index-tts"></a>
-### 49 [IndexTTS](https://github.com/index-tts/index-tts) <sub>⭐ 24k · NOASSERTION · Sep 2026</sub>
-
-**Zero-shot TTS with emotion, speed and pronunciation control.**
-
-Clones a voice from one reference clip and synthesizes speech in Chinese, English, Japanese, Spanish and Arabic (IndexTTS-2.5). Emotion comes from a second reference clip, an 8-value vector or the text itself; speed is set by duration_factor (0.5x to 2.0x) and pronunciation by inline Pinyin, CMU phonemes or Kana. Ships a Gradio web UI on port 7860 and a Python API; a vLLM recipe covers production serving.
-
-- **+** Emotion control via reference audio, an 8-value vector or a text description
-- **+** Inline pronunciation overrides: Pinyin, CMU phonemes and Japanese Kana
-- **+** BF16 inference with optional DeepSpeed and compiled CUDA kernels
-- **+** Published vLLM recipe for production deployment
-- **−** No Dockerfile or compose file; install is uv plus CUDA Toolkit 12.8 or newer
-- **−** Model weights (IndexTTS-2.5, IndexTTS-2) are separate multi-GB downloads
-- **−** Five languages only; no streaming API is documented in the README
-- **−** License is non-standard (GitHub reports NOASSERTION); check terms before commercial use
-
-<sub>Needs uv · Models: IndexTTS-2.5, IndexTTS-2, IndexTTS-1.5 (legacy) · port 7860 · [Repo](https://github.com/index-tts/index-tts) · [🧪 Demo](https://huggingface.co/spaces/IndexTeam/IndexTTS-2.5-Demo)</sub>
 
 <a name="openreader"></a>
 ### 48 [OpenReader](https://github.com/richardr1126/openreader) <sub>⭐ 537 · MIT · Oct 2026</sub>
@@ -163,8 +145,26 @@ Next.js server that narrates EPUB, PDF, TXT, Markdown and DOCX files with synchr
 
 <sub>no GPU · Docker · Needs OpenAI-compatible TTS server or cloud TTS API, NATS JetStream (compute worker), SQLite or PostgreSQL, SeaweedFS (embedded) or S3-compatible storage · Models: Kokoro-FastAPI, KittenTTS-FastAPI, Orpheus-FastAPI, OpenAI TTS, Replicate · [Repo](https://github.com/richardr1126/openreader) · [📖 Docs](https://docs.openreader.richardr.dev/)</sub>
 
+<a name="index-tts"></a>
+### 46 [IndexTTS](https://github.com/index-tts/index-tts) <sub>⭐ 24k · NOASSERTION · Sep 2026</sub>
+
+**Zero-shot TTS with emotion, speed and pronunciation control.**
+
+Clones a voice from one reference clip and synthesizes speech in Chinese, English, Japanese, Spanish and Arabic (IndexTTS-2.5). Emotion comes from a second reference clip, an 8-value vector or the text itself; speed is set by duration_factor (0.5x to 2.0x) and pronunciation by inline Pinyin, CMU phonemes or Kana. Ships a Gradio web UI on port 7860 and a Python API; a vLLM recipe covers production serving.
+
+- **+** Emotion control via reference audio, an 8-value vector or a text description
+- **+** Inline pronunciation overrides: Pinyin, CMU phonemes and Japanese Kana
+- **+** BF16 inference with optional DeepSpeed and compiled CUDA kernels
+- **+** Published vLLM recipe for production deployment
+- **−** No Dockerfile or compose file; install is uv plus CUDA Toolkit 12.8 or newer
+- **−** Model weights (IndexTTS-2.5, IndexTTS-2) are separate multi-GB downloads
+- **−** Five languages only; no streaming API is documented in the README
+- **−** License is non-standard (GitHub reports NOASSERTION); check terms before commercial use
+
+<sub>Needs uv · Models: IndexTTS-2.5, IndexTTS-2, IndexTTS-1.5 (legacy) · port 7860 · [Repo](https://github.com/index-tts/index-tts) · [🧪 Demo](https://huggingface.co/spaces/IndexTeam/IndexTTS-2.5-Demo)</sub>
+
 <a name="kokoro-fastapi"></a>
-### 38 [Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) <sub>⭐ 5.5k · Apache-2.0 · Oct 2026</sub>
+### 36 [Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) <sub>⭐ 5.5k · Apache-2.0 · Oct 2026</sub>
 
 **OpenAI-compatible Kokoro-82M speech API in CPU and GPU images.**
 
@@ -182,7 +182,7 @@ Serves the Kokoro-82M model behind an OpenAI-compatible /v1/audio/speech endpoin
 <sub>GPU optional · Needs espeak-ng (optional fallback) · Models: Kokoro-82M v1.0 · port 8880 · [Repo](https://github.com/remsky/Kokoro-FastAPI) · [🧪 Demo](https://huggingface.co/spaces/Remsky/FastKoko)</sub>
 
 <a name="whisperlive"></a>
-### 35 [WhisperLive](https://github.com/collabora/WhisperLive) <sub>⭐ 4.3k · MIT · Oct 2026</sub>
+### 33 [WhisperLive](https://github.com/collabora/WhisperLive) <sub>⭐ 4.3k · MIT · Oct 2026</sub>
 
 **Near-real-time Whisper transcription server over WebSocket.**
 

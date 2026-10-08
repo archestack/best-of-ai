@@ -3,7 +3,7 @@
 Tracing, evaluation and prompt management for LLM applications. Back to the [leaderboard](../README.md#-observability).
 
 <a name="phoenix"></a>
-### 🥇 82 [Phoenix](https://github.com/Arize-ai/phoenix) <sub>⭐ 12k · NOASSERTION · Oct 2026</sub>
+### 🥈 78 [Phoenix](https://github.com/Arize-ai/phoenix) <sub>⭐ 12k · NOASSERTION · Oct 2026</sub>
 
 **OpenTelemetry-based LLM tracing, evals and prompt playground.**
 
@@ -21,7 +21,7 @@ Collects traces through OpenInference and OpenTelemetry instrumentation for Open
 <sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google GenAI and ADK, AWS Bedrock, OpenRouter · port 6006 · [Repo](https://github.com/Arize-ai/phoenix) · [📖 Docs](https://arize.com/docs/phoenix/) · [🌐 Site](https://phoenix.arize.com)</sub>
 
 <a name="langfuse"></a>
-### 🥈 75 [Langfuse](https://github.com/langfuse/langfuse) <sub>⭐ 36k · NOASSERTION · Oct 2026</sub>
+### 🥈 72 [Langfuse](https://github.com/langfuse/langfuse) <sub>⭐ 36k · NOASSERTION · Oct 2026</sub>
 
 **Tracing, prompt management and evals for LLM apps on ClickHouse.**
 
@@ -39,7 +39,7 @@ Ingests traces of LLM calls, retrieval and agent steps via Python and JS/TS SDKs
 <sub>no GPU · Compose · Needs ClickHouse · [Repo](https://github.com/langfuse/langfuse) · [🧪 Demo](https://langfuse.com/demo) · [📖 Docs](https://langfuse.com/docs) · [🌐 Site](https://langfuse.com)</sub>
 
 <a name="latitude-llm"></a>
-### 🥈 73 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>⭐ 4.7k · MIT · Oct 2026</sub>
+### 🥈 71 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>⭐ 4.7k · MIT · Oct 2026</sub>
 
 **Agent observability that groups failures and dispatches coding agents to fix them.**
 
@@ -57,7 +57,7 @@ Captures traces, sessions and tool calls via a one-line SDK (TypeScript, Python)
 <sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Bedrock, Vercel AI SDK and LangChain apps, any OpenTelemetry source · [Repo](https://github.com/latitude-dev/latitude-llm) · [📖 Docs](https://docs.latitude.so) · [🌐 Site](https://latitude.so)</sub>
 
 <a name="promptfoo"></a>
-### 🥈 68 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>⭐ 26k · MIT · Oct 2026</sub>
+### 🥈 65 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>⭐ 26k · MIT · Oct 2026</sub>
 
 **CLI for evaluating and red-teaming prompts, agents and RAG.**
 
@@ -93,7 +93,7 @@ Bundles OpenTelemetry tracing for 50+ frameworks, 50+ evaluation metrics, person
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker Compose v2.24+, PostgreSQL, ClickHouse, Redis and Temporal (bundled in compose) · Models: 100+ providers via gateway (OpenAI, Anthropic, Gemini, Bedrock, Azure, Mistral, Groq), Ollama, vLLM, LM Studio, TGI and llamafile · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [📖 Docs](https://docs.futureagi.com) · [🌐 Site](https://futureagi.com)</sub>
 
 <a name="helicone"></a>
-### 🥉 61 [Helicone](https://github.com/Helicone/helicone) <sub>⭐ 6.2k · Apache-2.0 · Sep 2026</sub>
+### 🥉 57 [Helicone](https://github.com/Helicone/helicone) <sub>⭐ 6.2k · Apache-2.0 · Sep 2026</sub>
 
 **LLM proxy gateway with request logging, cost tracking and sessions.**
 
@@ -110,26 +110,8 @@ Sits as an OpenAI-compatible gateway in front of 100+ models with routing and au
 
 <sub>no GPU · Docker · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/Helicone/helicone) · [🧪 Demo](https://helicone.ai/demo) · [📖 Docs](https://docs.helicone.ai/) · [🌐 Site](https://www.helicone.ai)</sub>
 
-<a name="mlflow"></a>
-### 52 [MLflow](https://github.com/mlflow/mlflow) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
-
-**Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
-
-Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ frameworks via one-line autolog, runs evaluations with 50+ metrics and LLM judges, versions and optimizes prompts, and fronts providers through an OpenAI-compatible AI Gateway with rate limits, fallbacks and traffic splitting. Keeps the original experiment tracking, model registry and deployment tooling. For teams wanting one platform for GenAI and ML.
-
-- **+** One-line autolog for 60+ frameworks in Python, TypeScript and Java; MCP and OTel native
-- **+** Starts with uvx mlflow server; no separate database needed to begin
-- **+** AI Gateway adds credential management, guardrails and A/B traffic splitting
-- **+** Setup wizard lets Claude Code, Codex or OpenCode add tracing to a project
-- **−** README covers the quickstart; production backend store and auth setup live in docs
-- **−** Broad scope (ML tracking plus GenAI) means a large install and UI surface
-- **−** No Dockerfile or compose file at the repo root
-- **−** TypeScript and Java coverage is smaller than Python (5 TS and 2 Java frameworks listed)
-
-<sub>no GPU · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [🧪 Demo](https://demo.mlflow.org/) · [📖 Docs](https://mlflow.org/docs/latest) · [🌐 Site](https://mlflow.org/)</sub>
-
 <a name="lmnr"></a>
-### 52 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>⭐ 3.4k · Apache-2.0 · Sep 2026</sub>
+### 50 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>⭐ 3.4k · Apache-2.0 · Sep 2026</sub>
 
 **Rust-based agent tracing with SQL queries, signals and evals.**
 
@@ -146,26 +128,8 @@ OpenTelemetry-native tracing for Vercel AI SDK, LangChain, OpenAI, Anthropic, Ge
 
 <sub>no GPU · Compose · Needs ClickHouse, PostgreSQL, LLM provider (optional, for AI features) · Models: Gemini, OpenAI and OpenAI-compatible gateways (LiteLLM, OpenRouter, vLLM), AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs](https://laminar.sh/docs) · [🌐 Site](https://laminar.sh)</sub>
 
-<a name="opik"></a>
-### 50 [Opik](https://github.com/comet-ml/opik) <sub>⭐ 22k · Apache-2.0 · Oct 2026</sub>
-
-**Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end.**
-
-Logs trace trees for LLM calls, tool executions and agent steps via Python and TypeScript SDKs, OpenTelemetry or framework integrations, then runs datasets, experiments and LLM-as-a-judge metrics for hallucination, moderation and RAG quality, with online evaluation rules in production. Self-hosts with ./opik.sh (Docker Compose, UI on port 5173) or a Helm chart. For ML engineers moving agents to production.
-
-- **+** Full platform (backend, web app, evals, prompt management) under Apache-2.0
-- **+** Designed for 40M+ traces per day; online evaluation rules on production traffic
-- **+** PyTest integration gates LLM pipelines in CI
-- **+** MCP server lets Claude Code, Cursor, Codex or opencode query traces and run evals
-- **−** No Dockerfile or compose file at the repo root; install goes through opik.sh
-- **−** Multi-service stack (databases, caches, backend, frontend); not a single binary
-- **−** Guardrails and the optimizer are separate profiles and SDKs to enable
-- **−** README is heavy with Comet Cloud links and UTM tracking
-
-<sub>no GPU · Models: any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs](https://www.comet.com/docs/opik/) · [🌐 Site](https://www.comet.com/site/products/opik/)</sub>
-
 <a name="pezzo"></a>
-### 50 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
+### 49 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
 
 **Prompt management, observability and caching for LLM apps.**
 
@@ -181,6 +145,24 @@ Stores and versions prompts, logs requests with cost and latency, and caches LLM
 - **−** No evaluation or dataset features mentioned
 
 <sub>no GPU · Compose · Needs PostgreSQL, ClickHouse, Redis, SuperTokens, Node.js 18+ · port 4200 · [Repo](https://github.com/pezzolabs/pezzo) · [📖 Docs](https://docs.pezzo.ai/) · [🌐 Site](https://pezzo.ai)</sub>
+
+<a name="mlflow"></a>
+### 48 [MLflow](https://github.com/mlflow/mlflow) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
+
+**Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
+
+Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ frameworks via one-line autolog, runs evaluations with 50+ metrics and LLM judges, versions and optimizes prompts, and fronts providers through an OpenAI-compatible AI Gateway with rate limits, fallbacks and traffic splitting. Keeps the original experiment tracking, model registry and deployment tooling. For teams wanting one platform for GenAI and ML.
+
+- **+** One-line autolog for 60+ frameworks in Python, TypeScript and Java; MCP and OTel native
+- **+** Starts with uvx mlflow server; no separate database needed to begin
+- **+** AI Gateway adds credential management, guardrails and A/B traffic splitting
+- **+** Setup wizard lets Claude Code, Codex or OpenCode add tracing to a project
+- **−** README covers the quickstart; production backend store and auth setup live in docs
+- **−** Broad scope (ML tracking plus GenAI) means a large install and UI surface
+- **−** No Dockerfile or compose file at the repo root
+- **−** TypeScript and Java coverage is smaller than Python (5 TS and 2 Java frameworks listed)
+
+<sub>no GPU · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [🧪 Demo](https://demo.mlflow.org/) · [📖 Docs](https://mlflow.org/docs/latest) · [🌐 Site](https://mlflow.org/)</sub>
 
 <a name="openlit"></a>
 ### 48 [OpenLIT](https://github.com/openlit/openlit) <sub>⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
@@ -200,8 +182,26 @@ Receives OTLP on ports 4317 and 4318 from the openlit Python or TypeScript SDK, 
 
 <sub>no GPU · Compose · Needs ClickHouse · Models: OpenAI, Ollama, Anthropic, DeepSeek, Cohere · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs](https://docs.openlit.io/) · [🌐 Site](https://openlit.io)</sub>
 
+<a name="opik"></a>
+### 47 [Opik](https://github.com/comet-ml/opik) <sub>⭐ 22k · Apache-2.0 · Oct 2026</sub>
+
+**Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end.**
+
+Logs trace trees for LLM calls, tool executions and agent steps via Python and TypeScript SDKs, OpenTelemetry or framework integrations, then runs datasets, experiments and LLM-as-a-judge metrics for hallucination, moderation and RAG quality, with online evaluation rules in production. Self-hosts with ./opik.sh (Docker Compose, UI on port 5173) or a Helm chart. For ML engineers moving agents to production.
+
+- **+** Full platform (backend, web app, evals, prompt management) under Apache-2.0
+- **+** Designed for 40M+ traces per day; online evaluation rules on production traffic
+- **+** PyTest integration gates LLM pipelines in CI
+- **+** MCP server lets Claude Code, Cursor, Codex or opencode query traces and run evals
+- **−** No Dockerfile or compose file at the repo root; install goes through opik.sh
+- **−** Multi-service stack (databases, caches, backend, frontend); not a single binary
+- **−** Guardrails and the optimizer are separate profiles and SDKs to enable
+- **−** README is heavy with Comet Cloud links and UTM tracking
+
+<sub>no GPU · Models: any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs](https://www.comet.com/docs/opik/) · [🌐 Site](https://www.comet.com/site/products/opik/)</sub>
+
 <a name="langwatch"></a>
-### 41 [LangWatch](https://github.com/langwatch/langwatch) <sub>⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
+### 37 [LangWatch](https://github.com/langwatch/langwatch) <sub>⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
 
 **Agent observability, simulation testing, AI gateway and governance in one.**
 
@@ -219,7 +219,7 @@ Traces LLM and agent calls through OpenTelemetry and SDK integrations, runs simu
 <sub>no GPU · Needs Node.js · Models: OpenAI, Anthropic, Azure OpenAI, Vertex AI, Bedrock · [Repo](https://github.com/langwatch/langwatch) · [📖 Docs](https://langwatch.ai/docs/introduction) · [🌐 Site](https://langwatch.ai)</sub>
 
 <a name="agenta"></a>
-### 39 [Agenta](https://github.com/Agenta-AI/agenta) <sub>⭐ 4.8k · NOASSERTION · Oct 2026</sub>
+### 36 [Agenta](https://github.com/Agenta-AI/agenta) <sub>⭐ 4.8k · NOASSERTION · Oct 2026</sub>
 
 **Team workspace for building chat-driven agents that run in Slack and WhatsApp.**
 

@@ -3,7 +3,7 @@
 LLM gateways and proxies for routing, caching, rate limits and cost control across providers. Back to the [leaderboard](../README.md#-gateways).
 
 <a name="omniroute"></a>
-### 🥇 91 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) <sub>⭐ 74k · MIT · Oct 2026</sub>
+### 🥇 89 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) <sub>⭐ 74k · MIT · Oct 2026</sub>
 
 **Free-tier-aware AI gateway routing coding agents across 350+ providers.**
 
@@ -21,7 +21,7 @@ OmniRoute is a Node.js gateway (npm, Docker or Electron app) exposing one OpenAI
 <sub>no GPU · Docker + Compose · Models: 350+ providers incl. free tiers (OpenCode Free, Groq, Mistral) via OpenAI, Claude and Gemini-style APIs · port 20128 · [Repo](https://github.com/diegosouzapw/OmniRoute) · [🌐 Site](https://omniroute.online)</sub>
 
 <a name="litellm"></a>
-### 🥇 89 [LiteLLM](https://github.com/BerriAI/litellm) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
+### 🥇 88 [LiteLLM](https://github.com/BerriAI/litellm) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
 
 **Proxy and SDK that calls 100+ LLM providers in OpenAI format.**
 
@@ -39,7 +39,7 @@ LiteLLM is a Python AI gateway that calls 100+ providers (OpenAI, Anthropic, Gem
 <sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Gemini, Vertex AI, Bedrock, Azure, Cohere, Groq, Mistral, DeepSeek, Hugging Face, Ollama, vLLM and 100+ more · port 4000 · [Repo](https://github.com/BerriAI/litellm) · [📖 Docs](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site](https://www.litellm.ai/ai-gateway)</sub>
 
 <a name="portkey-gateway"></a>
-### 🥇 82 [Portkey Gateway](https://github.com/Portkey-AI/gateway) <sub>⭐ 13k · MIT · May 2026</sub>
+### 🥈 76 [Portkey Gateway](https://github.com/Portkey-AI/gateway) <sub>⭐ 13k · MIT · May 2026</sub>
 
 **Node.js LLM gateway with fallbacks, load balancing and guardrails.**
 
@@ -75,7 +75,7 @@ OptiLLM is an OpenAI-compatible proxy (pip or Docker, port 8000) that applies in
 <sub>GPU optional · Docker + Compose · Models: OpenAI, Cerebras, Azure OpenAI, any OpenAI-compatible endpoint, LiteLLM providers, local models via the built-in inference server · port 8000 · [Repo](https://github.com/algorithmicsuperintelligence/optillm) · [🧪 Demo](https://huggingface.co/spaces/codelion/optillm)</sub>
 
 <a name="coai"></a>
-### 🥈 70 [CoAI](https://github.com/coaidev/coai) <sub>⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
+### 🥈 65 [CoAI](https://github.com/coaidev/coai) <sub>⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
 
 **Multi-user chat site plus OpenAI-compatible proxy with billing.**
 
@@ -129,7 +129,7 @@ GoModel is a Go AI gateway (install script or container on port 8080) exposing O
 <sub>no GPU · Docker + Compose · Needs Redis, PostgreSQL, MongoDB (Compose infrastructure) · Models: OpenAI, Anthropic, xAI, Gemini, Vertex AI, Cohere, DeepSeek, Groq, Fireworks, OpenRouter, Azure OpenAI, Bedrock, Ollama, SGLang, vLLM, llm-d, ElevenLabs and any OpenAI-compatible provider · port 8080 · [Repo](https://github.com/ENTERPILOT/GoModel) · [🧪 Demo](https://demo.enterpilot.io/admin/dashboard) · [📖 Docs](https://gomodel.enterpilot.io/docs)</sub>
 
 <a name="plano"></a>
-### 🥉 59 [Plano](https://github.com/katanemo/plano) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### 🥉 56 [Plano](https://github.com/katanemo/plano) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Envoy-based data plane that routes, traces and guards agent traffic.**
 
@@ -147,7 +147,7 @@ Plano is an Envoy-based proxy for agentic apps: a YAML file declares agents (HTT
 <sub>no GPU · Docker · Needs Plano-Orchestrator routing model (hosted or local) · Models: OpenAI, Anthropic and other providers configured as model_providers · [Repo](https://github.com/katanemo/plano) · [📖 Docs](https://docs.planoai.dev)</sub>
 
 <a name="agentgateway"></a>
-### 🥉 57 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>⭐ 5.2k · Apache-2.0 · Oct 2026</sub>
+### 54 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>⭐ 5.2k · Apache-2.0 · Oct 2026</sub>
 
 **One proxy for LLM, MCP and A2A traffic with auth and RBAC.**
 
@@ -165,7 +165,7 @@ Agentgateway is a Linux Foundation proxy for agent traffic: an LLM gateway (Open
 <sub>no GPU · Docker · Models: OpenAI, Anthropic, Gemini, Bedrock and other providers; self-hosted models via inference routing · [Repo](https://github.com/agentgateway/agentgateway) · [📖 Docs](https://agentgateway.dev/docs/standalone/latest)</sub>
 
 <a name="mcp-context-forge"></a>
-### 🥉 55 [ContextForge MCP Gateway](https://github.com/IBM/mcp-context-forge) <sub>⭐ 4.6k · Apache-2.0 · Oct 2026</sub>
+### 52 [ContextForge MCP Gateway](https://github.com/IBM/mcp-context-forge) <sub>⭐ 4.6k · Apache-2.0 · Oct 2026</sub>
 
 **Registry and proxy federating MCP, A2A, REST and gRPC behind one endpoint.**
 
@@ -183,7 +183,7 @@ ContextForge is IBM's Python registry and proxy that federates MCP servers, A2A 
 <sub>no GPU · Compose · Needs PostgreSQL (production; SQLite for dev), Redis (caching and federation) · Models: A2A agents: OpenAI, Anthropic, custom · port 4444 · [Repo](https://github.com/IBM/mcp-context-forge) · [📖 Docs](https://ibm.github.io/mcp-context-forge/)</sub>
 
 <a name="higress"></a>
-### 48 [Higress](https://github.com/higress-group/higress) <sub>⭐ 9.5k · Apache-2.0 · Oct 2026</sub>
+### 42 [Higress](https://github.com/higress-group/higress) <sub>⭐ 9.5k · Apache-2.0 · Oct 2026</sub>
 
 **Envoy-based API gateway with LLM proxy plugins and MCP server hosting.**
 
@@ -201,7 +201,7 @@ Higress is a CNCF sandbox API gateway on Istio and Envoy, extended with Wasm plu
 <sub>no GPU · Models: mainstream LLM providers, domestic and international, via the ai-proxy plugin · port 8001 · [Repo](https://github.com/higress-group/higress) · [🧪 Demo](https://demo.higress.io/) · [📖 Docs](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site](https://higress.ai/en/)</sub>
 
 <a name="bifrost"></a>
-### 46 [Bifrost](https://github.com/maximhq/bifrost) <sub>⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
+### 42 [Bifrost](https://github.com/maximhq/bifrost) <sub>⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
 
 **Go AI gateway with web UI, fallbacks, budgets and semantic caching.**
 
@@ -219,7 +219,7 @@ Bifrost is a Go AI gateway that fronts 23+ providers (OpenAI, Anthropic, Bedrock
 <sub>no GPU · Models: OpenAI, Anthropic, AWS Bedrock, Google Vertex, Azure, Cerebras, Cohere, Mistral, Ollama, Groq and more · port 8080 · [Repo](https://github.com/maximhq/bifrost) · [📖 Docs](https://docs.getbifrost.ai)</sub>
 
 <a name="mcpo"></a>
-### 39 [mcpo](https://github.com/open-webui/mcpo) <sub>⭐ 4.4k · MIT · Feb 2026</sub>
+### 38 [mcpo](https://github.com/open-webui/mcpo) <sub>⭐ 4.4k · MIT · Feb 2026</sub>
 
 **Exposes any MCP server as an OpenAPI HTTP endpoint.**
 

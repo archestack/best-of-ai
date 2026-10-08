@@ -21,7 +21,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs](https://docs.trychroma.com/) · [🌐 Site](https://www.trychroma.com/)</sub>
 
 <a name="weaviate"></a>
-### 🥈 74 [Weaviate](https://github.com/weaviate/weaviate) <sub>⭐ 17k · NOASSERTION · Oct 2026</sub>
+### 🥈 75 [Weaviate](https://github.com/weaviate/weaviate) <sub>⭐ 17k · NOASSERTION · Oct 2026</sub>
 
 **Go vector database with built-in vectorizers, hybrid search and RAG.**
 
@@ -39,7 +39,7 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [🧪 Demo](https://elysia.weaviate.io) · [📖 Docs](https://docs.weaviate.io)</sub>
 
 <a name="meilisearch"></a>
-### 🥈 73 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
+### 🥈 70 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
 
 **Rust search engine API with full-text, vector and hybrid search.**
 
@@ -57,7 +57,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 <sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [🧪 Demo](https://where2watch.meilisearch.com/) · [📖 Docs](https://www.meilisearch.com/docs) · [🌐 Site](https://www.meilisearch.com)</sub>
 
 <a name="milvus"></a>
-### 🥈 69 [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
+### 🥈 68 [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
 
 **Distributed vector database with dense, sparse and hybrid search at scale.**
 
@@ -75,7 +75,7 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 <sub>GPU optional · Compose · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [🧪 Demo](https://milvus.io/milvus-demos) · [📖 Docs](https://milvus.io/docs) · [🌐 Site](https://milvus.io/)</sub>
 
 <a name="qdrant"></a>
-### 🥈 66 [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### 🥈 65 [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -93,7 +93,7 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 <sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [🧪 Demo](https://qdrant.to/semantic-search-demo) · [📖 Docs](https://qdrant.tech/documentation/)</sub>
 
 <a name="pgvector"></a>
-### 🥉 59 [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>
+### 🥉 60 [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>
 
 **PostgreSQL extension for vector similarity search with HNSW and IVFFlat.**
 
@@ -111,7 +111,7 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector)</sub>
 
 <a name="helix-db"></a>
-### 49 [HelixDB](https://github.com/HelixDB/helix-db) <sub>⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
+### 51 [HelixDB](https://github.com/HelixDB/helix-db) <sub>⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
 
 **Rust graph database with native vector and BM25 search.**
 
@@ -129,7 +129,7 @@ HelixDB is a Rust database that combines a labeled property graph, approximate n
 <sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/HelixDB/helix-db) · [📖 Docs](https://docs.helix-db.com) · [🌐 Site](https://helix-db.com)</sub>
 
 <a name="marqo"></a>
-### 36 [Marqo](https://github.com/marqo-ai/marqo) <sub>⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
+### 39 [Marqo](https://github.com/marqo-ai/marqo) <sub>⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
 
 **Vector search engine with built-in embedding, now deprecated upstream.**
 

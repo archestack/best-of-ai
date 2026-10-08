@@ -21,7 +21,7 @@ Cognee builds persistent agent memory by extracting entities, relationships and 
 <sub>no GPU · Docker + Compose · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs](https://docs.cognee.ai/) · [🌐 Site](https://cognee.ai)</sub>
 
 <a name="mempalace"></a>
-### 🥇 88 [MemPalace](https://github.com/MemPalace/mempalace) <sub>⭐ 59k · MIT · Oct 2026</sub>
+### 🥇 87 [MemPalace](https://github.com/MemPalace/mempalace) <sub>⭐ 59k · MIT · Oct 2026</sub>
 
 **Local verbatim memory for coding agents on ChromaDB with 45 MCP tools.**
 
@@ -39,7 +39,7 @@ MemPalace stores conversation history verbatim, never summarised, and retrieves 
 <sub>no GPU · Docker + Compose · Models: local embeddings (MiniLM, EmbeddingGemma), OpenAI-compatible embedding endpoints, Ollama · [Repo](https://github.com/MemPalace/mempalace) · [📖 Docs](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site](https://mempalaceofficial.com)</sub>
 
 <a name="graphiti"></a>
-### 🥇 86 [Graphiti](https://github.com/getzep/graphiti) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### 🥇 87 [Graphiti](https://github.com/getzep/graphiti) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Temporal knowledge graph framework for agent memory with REST and MCP servers.**
 
@@ -75,7 +75,7 @@ OpenViking organises everything an agent knows as a viking:// virtual filesystem
 <sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/OpenViking) · [🧪 Demo](https://openviking.ai/studio) · [📖 Docs](https://docs.openviking.ai/) · [🌐 Site](https://www.openviking.ai)</sub>
 
 <a name="mem0"></a>
-### 🥉 61 [Mem0](https://github.com/mem0ai/mem0) <sub>⭐ 67k · Apache-2.0 · Oct 2026</sub>
+### 🥉 59 [Mem0](https://github.com/mem0ai/mem0) <sub>⭐ 67k · Apache-2.0 · Oct 2026</sub>
 
 **Memory layer for agents with a self-hosted server, SDKs and CLI.**
 
@@ -93,7 +93,7 @@ Mem0 adds long-term memory to assistants and agents at user, session and agent l
 <sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [🧪 Demo](https://mem0.dev/demo) · [📖 Docs](https://docs.mem0.ai) · [🌐 Site](https://mem0.ai)</sub>
 
 <a name="agentmemory"></a>
-### 🥉 56 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥉 59 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Persistent memory server for coding agents built on the iii engine.**
 
@@ -111,7 +111,7 @@ agentmemory captures agent activity via hooks, compresses it into searchable mem
 <sub>no GPU · Compose · Needs iii-engine v0.22.1 (bundled) · Models: keyless BM25, local Xenova/all-MiniLM-L6-v2, LLM provider (optional) · port 3111 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
 
 <a name="memos"></a>
-### 54 [MemOS](https://github.com/MemTensor/MemOS) <sub>⭐ 12k · Apache-2.0 · Sep 2026</sub>
+### 🥉 55 [MemOS](https://github.com/MemTensor/MemOS) <sub>⭐ 12k · Apache-2.0 · Sep 2026</sub>
 
 **Memory operating system for agents with cubes, scheduler and hybrid retrieval.**
 
@@ -129,7 +129,7 @@ MemOS gives LLM apps and agents long-term memory via one API over graph-structur
 <sub>no GPU · Docker · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/MemTensor/MemOS) · [📖 Docs](https://memos-docs.openmem.net/home/overview/) · [🌐 Site](https://memos.openmem.net/)</sub>
 
 <a name="honcho"></a>
-### 51 [Honcho](https://github.com/plastic-labs/honcho) <sub>⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
+### 52 [Honcho](https://github.com/plastic-labs/honcho) <sub>⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory service modelling users, agents and groups as evolving peers.**
 
@@ -147,7 +147,7 @@ Honcho is a FastAPI memory server where humans and agents are peers that exchang
 <sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [🧪 Demo](https://app.honcho.dev) · [📖 Docs](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
 
 <a name="supermemory"></a>
-### 45 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>⭐ 31k · MIT · Oct 2026</sub>
+### 47 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>⭐ 31k · MIT · Oct 2026</sub>
 
 **Memory and context API with user profiles, connectors and a local server.**
 
@@ -165,7 +165,7 @@ Supermemory extracts facts from conversations, maintains per-user profiles and a
 <sub>no GPU · Models: OpenAI, Anthropic, Gemini, Groq, OpenAI-compatible endpoints · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs](https://supermemory.ai/docs)</sub>
 
 <a name="letta"></a>
-### 34 [Letta](https://github.com/letta-ai/letta-code) <sub>⭐ 3.5k · Apache-2.0 · Oct 2026</sub>
+### 35 [Letta](https://github.com/letta-ai/letta-code) <sub>⭐ 3.5k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful agent harness with git-tracked memory, channels and remote computers.**
 
@@ -183,7 +183,7 @@ Letta Code is an npm-installed agent harness whose agents keep memory blocks, sk
 <sub>no GPU · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [🧪 Demo](https://chat.letta.com) · [📖 Docs](https://docs.letta.com/letta-code/cli)</sub>
 
 <a name="engram"></a>
-### 30 [Engram](https://github.com/Gentleman-Programming/engram) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
+### 32 [Engram](https://github.com/Gentleman-Programming/engram) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Single Go binary memory for coding agents on SQLite FTS5 with MCP.**
 

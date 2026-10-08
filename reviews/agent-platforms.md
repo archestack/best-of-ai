@@ -3,7 +3,7 @@
 Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. Back to the [leaderboard](../README.md#-agent-platforms).
 
 <a name="multica"></a>
-### 🥇 85 [Multica](https://github.com/multica-ai/multica) <sub>⭐ 52k · NOASSERTION · Oct 2026</sub>
+### 🥇 88 [Multica](https://github.com/multica-ai/multica) <sub>⭐ 52k · NOASSERTION · Oct 2026</sub>
 
 **Issue board where coding agents pick up tickets and return pull requests.**
 
@@ -21,7 +21,7 @@ Multica is a Go and Next.js workspace on PostgreSQL 17 where humans and AI codin
 <sub>no GPU · Docker + Compose · Needs PostgreSQL 17, Docker · [Repo](https://github.com/multica-ai/multica) · [📖 Docs](https://multica.ai/docs) · [🌐 Site](https://multica.ai)</sub>
 
 <a name="activepieces"></a>
-### 🥈 77 [Activepieces](https://github.com/activepieces/activepieces) <sub>⭐ 25k · NOASSERTION · Oct 2026</sub>
+### 🥇 81 [Activepieces](https://github.com/activepieces/activepieces) <sub>⭐ 25k · NOASSERTION · Oct 2026</sub>
 
 **Zapier-style automation whose 280+ pieces double as MCP servers.**
 
@@ -38,7 +38,7 @@ Activepieces is a TypeScript workflow automation tool with a no-code builder (lo
 <sub>no GPU · Docker + Compose · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs](https://www.activepieces.com/docs) · [🌐 Site](https://activepieces.com)</sub>
 
 <a name="skyvern"></a>
-### 🥈 69 [Skyvern](https://github.com/Skyvern-AI/skyvern) <sub>⭐ 23k · AGPL-3.0 · Oct 2026</sub>
+### 🥈 73 [Skyvern](https://github.com/Skyvern-AI/skyvern) <sub>⭐ 23k · AGPL-3.0 · Oct 2026</sub>
 
 **Browser automation agent driven by vision LLMs over Playwright.**
 
@@ -56,7 +56,7 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 <sub>no GPU · Docker + Compose · port 8080 · [Repo](https://github.com/Skyvern-AI/skyvern) · [🧪 Demo](https://app.skyvern.com) · [📖 Docs](https://www.skyvern.com/docs/) · [🌐 Site](https://www.skyvern.com)</sub>
 
 <a name="paperclip"></a>
-### 🥈 66 [Paperclip](https://github.com/paperclipai/paperclip) <sub>⭐ 99k · MIT · Oct 2026</sub>
+### 🥈 69 [Paperclip](https://github.com/paperclipai/paperclip) <sub>⭐ 99k · MIT · Oct 2026</sub>
 
 **Task manager and org chart for teams of AI agents with budgets.**
 
@@ -91,7 +91,7 @@ n8n is a fair-code workflow platform that runs as one Docker container (docker.n
 <sub>no GPU · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs](https://docs.n8n.io)</sub>
 
 <a name="langflow"></a>
-### 53 [Langflow](https://github.com/langflow-ai/langflow) <sub>⭐ 156k · MIT · Oct 2026</sub>
+### 🥉 56 [Langflow](https://github.com/langflow-ai/langflow) <sub>⭐ 156k · MIT · Oct 2026</sub>
 
 **Visual flow builder that deploys agents as APIs or MCP servers.**
 
@@ -107,26 +107,8 @@ Langflow is a Python 3.10 to 3.14 visual builder (uv pip install langflow, or th
 
 <sub>no GPU · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs](https://docs.langflow.org/get-started-installation) · [🌐 Site](https://langflow.org)</sub>
 
-<a name="autogpt"></a>
-### 52 [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) <sub>⭐ 188k · NOASSERTION · Oct 2026</sub>
-
-**Block-based builder for agents that run on demand, schedule or trigger.**
-
-AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire blocks on a visual canvas, then run the agent on demand, on a schedule or from a trigger, with a dashboard of runs and costs and a marketplace of shared agents. It connects to 45+ platforms such as Gmail, Slack, GitHub and Notion. Self-hosting is free with your own Docker host and model API keys; the hosted platform is paid.
-
-- **+** Plain-English AutoPilot and a drag-and-connect block builder for the same agent
-- **+** Agents run on demand, on schedules or from triggers with a run and cost dashboard
-- **+** 45+ integrations including Gmail, Google Sheets, GitHub, Slack, Notion, Jira, Salesforce
-- **+** Classic standalone agent still shipped under MIT in classic/
-- **−** Platform code is Polyform Shield: no offering it as a competing hosted service
-- **−** README has no self-host commands; the single-container installer is still unreleased
-- **−** Windows self-hosting is manual-guide only
-- **−** Hosted platform charges per agent run; README is largely marketing
-
-<sub>no GPU · Needs Docker · [Repo](https://github.com/Significant-Gravitas/AutoGPT) · [🧪 Demo](https://platform.agpt.co/tour) · [📖 Docs](https://docs.agpt.co)</sub>
-
 <a name="dify"></a>
-### 52 [Dify](https://github.com/langgenius/dify) <sub>⭐ 158k · NOASSERTION · Oct 2026</sub>
+### 54 [Dify](https://github.com/langgenius/dify) <sub>⭐ 158k · NOASSERTION · Oct 2026</sub>
 
 **Visual LLM app platform with workflows, RAG pipeline, agents and APIs.**
 
@@ -143,8 +125,43 @@ Dify is an LLM app platform started with Docker Compose (dashboard on port 80) t
 
 <sub>RAM ≥ 4 GB · no GPU · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [🧪 Demo](https://cloud.dify.ai) · [📖 Docs](https://docs.dify.ai) · [🌐 Site](https://dify.ai)</sub>
 
+<a name="autogpt"></a>
+### 53 [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) <sub>⭐ 188k · NOASSERTION · Oct 2026</sub>
+
+**Block-based builder for agents that run on demand, schedule or trigger.**
+
+AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire blocks on a visual canvas, then run the agent on demand, on a schedule or from a trigger, with a dashboard of runs and costs and a marketplace of shared agents. It connects to 45+ platforms such as Gmail, Slack, GitHub and Notion. Self-hosting is free with your own Docker host and model API keys; the hosted platform is paid.
+
+- **+** Plain-English AutoPilot and a drag-and-connect block builder for the same agent
+- **+** Agents run on demand, on schedules or from triggers with a run and cost dashboard
+- **+** 45+ integrations including Gmail, Google Sheets, GitHub, Slack, Notion, Jira, Salesforce
+- **+** Classic standalone agent still shipped under MIT in classic/
+- **−** Platform code is Polyform Shield: no offering it as a competing hosted service
+- **−** README has no self-host commands; the single-container installer is still unreleased
+- **−** Windows self-hosting is manual-guide only
+- **−** Hosted platform charges per agent run; README is largely marketing
+
+<sub>no GPU · Needs Docker · [Repo](https://github.com/Significant-Gravitas/AutoGPT) · [🧪 Demo](https://platform.agpt.co/tour) · [📖 Docs](https://docs.agpt.co)</sub>
+
+<a name="botpress"></a>
+### 52 [Botpress](https://github.com/botpress/botpress) <sub>⭐ 15k · MIT · Oct 2026</sub>
+
+**SDK, CLI and open-source integrations for the Botpress Cloud bot platform.**
+
+This repository holds the TypeScript devtools for Botpress Cloud: the @botpress/cli (bp init, bp deploy), the @botpress/sdk and typed client, every public integration on the Botpress Hub, and example bots written as code. Bots themselves are built in the hosted Botpress Studio and powered by OpenAI; the on-premise server is the separate Botpress v12 repository. Everything here is MIT.
+
+- **+** All public Hub integrations are open source and contributable with bp init and bp deploy
+- **+** Typed TypeScript SDK and API client for building integrations and bots as code
+- **+** MIT license for every package in the repository
+- **−** The chatbot platform (Studio, runtime) is Botpress Cloud, not something you host from here
+- **−** Self-hosted server is the separate, older Botpress v12 repository
+- **−** Bots-as-code is described as not the recommended way to build bots
+- **−** Plugins section is marked coming soon
+
+<sub>no GPU · Docker · Models: OpenAI · [Repo](https://github.com/botpress/botpress) · [🧪 Demo](https://app.botpress.cloud) · [📖 Docs](https://botpress.com/docs) · [🌐 Site](https://botpress.com)</sub>
+
 <a name="sim"></a>
-### 46 [Sim](https://github.com/simstudioai/sim) <sub>⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### 49 [Sim](https://github.com/simstudioai/sim) <sub>⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Workspace to build, deploy and monitor agents with 1,000+ integrations.**
 
@@ -161,25 +178,8 @@ Sim is a Next.js and Bun app on PostgreSQL that builds agents visually, by chat 
 
 <sub>RAM ≥ 12 GB · no GPU · Needs PostgreSQL, Docker, Sim Chat API key · Models: Ollama, vLLM · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs](https://docs.sim.ai) · [🌐 Site](https://sim.ai)</sub>
 
-<a name="botpress"></a>
-### 45 [Botpress](https://github.com/botpress/botpress) <sub>⭐ 15k · MIT · Oct 2026</sub>
-
-**SDK, CLI and open-source integrations for the Botpress Cloud bot platform.**
-
-This repository holds the TypeScript devtools for Botpress Cloud: the @botpress/cli (bp init, bp deploy), the @botpress/sdk and typed client, every public integration on the Botpress Hub, and example bots written as code. Bots themselves are built in the hosted Botpress Studio and powered by OpenAI; the on-premise server is the separate Botpress v12 repository. Everything here is MIT.
-
-- **+** All public Hub integrations are open source and contributable with bp init and bp deploy
-- **+** Typed TypeScript SDK and API client for building integrations and bots as code
-- **+** MIT license for every package in the repository
-- **−** The chatbot platform (Studio, runtime) is Botpress Cloud, not something you host from here
-- **−** Self-hosted server is the separate, older Botpress v12 repository
-- **−** Bots-as-code is described as not the recommended way to build bots
-- **−** Plugins section is marked coming soon
-
-<sub>no GPU · Docker · Models: OpenAI · [Repo](https://github.com/botpress/botpress) · [🧪 Demo](https://app.botpress.cloud) · [📖 Docs](https://botpress.com/docs) · [🌐 Site](https://botpress.com)</sub>
-
 <a name="fastgpt"></a>
-### 37 [FastGPT](https://github.com/labring/FastGPT) <sub>⭐ 30k · NOASSERTION · Oct 2026</sub>
+### 41 [FastGPT](https://github.com/labring/FastGPT) <sub>⭐ 30k · NOASSERTION · Oct 2026</sub>
 
 **Knowledge-base Q&A and visual workflow platform for LLM apps.**
 
@@ -197,7 +197,7 @@ FastGPT builds agents and LLM apps from a visual Flow editor on top of a knowled
 <sub>no GPU · port 3000 · [Repo](https://github.com/labring/FastGPT) · [📖 Docs](https://doc.fastgpt.io/guide/getting-started) · [🌐 Site](https://fastgpt.io)</sub>
 
 <a name="agent-zero"></a>
-### 32 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>⭐ 19k · NOASSERTION · Sep 2026</sub>
+### 38 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>⭐ 19k · NOASSERTION · Sep 2026</sub>
 
 **Agent framework that gives the model a full Linux desktop in Docker.**
 

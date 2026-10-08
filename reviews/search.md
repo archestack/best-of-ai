@@ -39,7 +39,7 @@ Next.js answer engine (formerly Perplexica) that runs searches through a bundled
 <sub>no GPU · Docker + Compose · Needs SearXNG (bundled in the default image), LLM provider (Ollama, OpenAI-compatible server or cloud API) · Models: Ollama, OpenAI, Anthropic Claude, Google Gemini, Groq · port 3000 · [Repo](https://github.com/ItzCrazyKns/Vane)</sub>
 
 <a name="gpt-researcher"></a>
-### 🥈 79 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>⭐ 30k · Apache-2.0 · Sep 2026</sub>
+### 🥇 80 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>⭐ 30k · Apache-2.0 · Sep 2026</sub>
 
 **Research agent that writes cited reports from web and local documents.**
 
@@ -57,7 +57,7 @@ Planner and execution agents generate research questions, scrape 20+ sources, fi
 <sub>no GPU · Docker + Compose · Needs OpenAI or OpenAI-compatible LLM API, Tavily API key (default retriever), TypeSafe API key (optional Jev filter) · Models: OpenAI models, any OpenAI-compatible endpoint via OPENAI_BASE_URL, Gemini 2.5 Flash Image (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs](https://docs.gptr.dev) · [🌐 Site](https://gptr.dev)</sub>
 
 <a name="firecrawl"></a>
-### 🥈 73 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>⭐ 190k · AGPL-3.0 · Oct 2026</sub>
+### 🥈 72 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>⭐ 190k · AGPL-3.0 · Oct 2026</sub>
 
 **Web scraping and crawling API that returns LLM-ready markdown.**
 
@@ -75,7 +75,7 @@ API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with 
 <sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [🧪 Demo](https://firecrawl.dev/playground) · [📖 Docs](https://docs.firecrawl.dev) · [🌐 Site](https://firecrawl.dev)</sub>
 
 <a name="local-deep-research"></a>
-### 🥈 71 [Local Deep Research](https://github.com/LearningCircuit/local-deep-research) <sub>⭐ 9.2k · MIT · Oct 2026</sub>
+### 🥈 72 [Local Deep Research](https://github.com/LearningCircuit/local-deep-research) <sub>⭐ 9.2k · MIT · Oct 2026</sub>
 
 **Agentic research assistant with local LLMs, SearXNG and encrypted libraries.**
 
@@ -111,7 +111,7 @@ Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page
 <sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [🧪 Demo](https://jina.ai/reader#demo) · [📖 Docs](https://r.jina.ai/docs) · [🌐 Site](https://jina.ai/reader)</sub>
 
 <a name="morphic"></a>
-### 🥈 68 [Morphic](https://github.com/miurla/morphic) <sub>⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### 🥈 70 [Morphic](https://github.com/miurla/morphic) <sub>⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **AI search engine with generative UI and bundled SearXNG.**
 

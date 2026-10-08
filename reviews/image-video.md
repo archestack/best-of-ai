@@ -3,7 +3,7 @@
 Generation UIs and pipelines for images and video, usually around diffusion models. Back to the [leaderboard](../README.md#-image-and-video).
 
 <a name="moneyprinterturbo"></a>
-### 🥇 87 [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) <sub>⭐ 129k · MIT · Oct 2026</sub>
+### 🥇 88 [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) <sub>⭐ 129k · MIT · Oct 2026</sub>
 
 **Generates short videos from a topic with script, footage, voice and subtitles.**
 
@@ -21,7 +21,7 @@ Takes a topic or keywords, writes a script with an LLM (OpenAI, Claude, Gemini, 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs LLM API (OpenAI-compatible) or Ollama, Stock footage API (Pexels, Pixabay, Coverr) or a video generation API · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Qwen (DashScope) · [Repo](https://github.com/harry0703/MoneyPrinterTurbo)</sub>
 
 <a name="pixelle-video"></a>
-### 🥇 81 [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) <sub>⭐ 29k · Apache-2.0 · Jun 2026</sub>
+### 🥈 79 [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) <sub>⭐ 29k · Apache-2.0 · Jun 2026</sub>
 
 **Topic-to-short-video pipeline built on ComfyUI workflows and TTS.**
 
@@ -57,7 +57,7 @@ Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for Lo
 <sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss)</sub>
 
 <a name="fluxgym"></a>
-### 🥈 68 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>⭐ 3.3k · MIT · Jul 2026</sub>
+### 🥈 67 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>⭐ 3.3k · MIT · Jul 2026</sub>
 
 **Web UI for training FLUX LoRAs on 12 to 20 GB GPUs.**
 
@@ -74,26 +74,8 @@ Gradio front end (forked from AI-Toolkit) over Kohya sd-scripts that trains FLUX
 
 <sub>GPU required · Docker + Compose · Needs kohya-ss/sd-scripts (sd3 branch) · Models: Flux1-dev, Flux1-dev2pro, Flux1-schnell, custom bases via models.yaml · port 7860 · [Repo](https://github.com/cocktailpeanut/fluxgym)</sub>
 
-<a name="comfyui"></a>
-### 🥉 55 [ComfyUI](https://github.com/Comfy-Org/ComfyUI) <sub>⭐ 137k · GPL-3.0 · Oct 2026</sub>
-
-**Node-graph engine for diffusion image, video, audio and 3D models.**
-
-Builds generation pipelines as a visual node graph and runs them locally for image (SD 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image), video (Wan 2.x, LTX-Video, HunyuanVideo), audio (ACE-Step, Stable Audio) and 3D (Hunyuan3D) models, with a local API and an App Mode that exposes a workflow as a simple UI. Runs on NVIDIA, AMD, Intel, Apple Silicon and Ascend. For professionals who want control over every parameter.
-
-- **+** Asynchronous weight streaming runs large models on 4 GB VRAM plus 8 GB RAM
-- **+** Workflows saved as JSON and recoverable from generated media metadata
-- **+** Runs fully offline; --offline disables the paid API nodes
-- **+** Loads checkpoints, separate diffusion models, VAEs, text encoders, LoRAs, ControlNets
-- **−** Commits outside stable tags can break many custom nodes; stable releases roughly biweekly
-- **−** GPL-3.0 license constrains embedding in proprietary products
-- **−** NVIDIA 20-series and newer require PyTorch built with CUDA 13.0 or above
-- **−** Paid partner and API nodes stay on unless --offline or --disable-partner-nodes is set
-
-<sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/Comfy-Org/ComfyUI) · [📖 Docs](https://docs.comfy.org/) · [🌐 Site](https://www.comfy.org/)</sub>
-
 <a name="ai-toolkit"></a>
-### 53 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>⭐ 12k · MIT · Sep 2026</sub>
+### 🥉 55 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>⭐ 12k · MIT · Sep 2026</sub>
 
 **Training suite and web UI for image, video and audio diffusion models.**
 
@@ -110,8 +92,26 @@ Trains LoRA, LoKr and full fine-tunes for FLUX.1 and FLUX.2, Chroma, Qwen-Image,
 
 <sub>GPU required · Compose · Needs Node.js 20+ (UI), FFmpeg, git · Models: FLUX.1-dev, FLUX.2-dev and klein 4B/9B, Flex.1 and Flex.2, Chroma, Lumina-Image-2.0 · port 8675 · [Repo](https://github.com/ostris/ai-toolkit)</sub>
 
+<a name="comfyui"></a>
+### 54 [ComfyUI](https://github.com/Comfy-Org/ComfyUI) <sub>⭐ 137k · GPL-3.0 · Oct 2026</sub>
+
+**Node-graph engine for diffusion image, video, audio and 3D models.**
+
+Builds generation pipelines as a visual node graph and runs them locally for image (SD 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image), video (Wan 2.x, LTX-Video, HunyuanVideo), audio (ACE-Step, Stable Audio) and 3D (Hunyuan3D) models, with a local API and an App Mode that exposes a workflow as a simple UI. Runs on NVIDIA, AMD, Intel, Apple Silicon and Ascend. For professionals who want control over every parameter.
+
+- **+** Asynchronous weight streaming runs large models on 4 GB VRAM plus 8 GB RAM
+- **+** Workflows saved as JSON and recoverable from generated media metadata
+- **+** Runs fully offline; --offline disables the paid API nodes
+- **+** Loads checkpoints, separate diffusion models, VAEs, text encoders, LoRAs, ControlNets
+- **−** Commits outside stable tags can break many custom nodes; stable releases roughly biweekly
+- **−** GPL-3.0 license constrains embedding in proprietary products
+- **−** NVIDIA 20-series and newer require PyTorch built with CUDA 13.0 or above
+- **−** Paid partner and API nodes stay on unless --offline or --disable-partner-nodes is set
+
+<sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/Comfy-Org/ComfyUI) · [📖 Docs](https://docs.comfy.org/) · [🌐 Site](https://www.comfy.org/)</sub>
+
 <a name="biniou"></a>
-### 45 [biniou](https://github.com/Woolverine94/biniou) <sub>⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
+### 46 [biniou](https://github.com/Woolverine94/biniou) <sub>⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
 
 **Chat, image, audio, video and 3D generation in one CPU-friendly web UI.**
 

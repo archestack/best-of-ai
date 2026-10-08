@@ -21,7 +21,7 @@ Open Notebook collects PDFs, audio, video, web pages and Office files into noteb
 <sub>no GPU · Docker + Compose · Needs SurrealDB · Models: OpenAI, Anthropic, Google, Mistral, Groq, DeepSeek, xAI, OpenRouter, Cohere, Ollama, LM Studio, oMLX and any OpenAI-compatible endpoint · port 8502 · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site](https://www.open-notebook.ai)</sub>
 
 <a name="lightrag"></a>
-### 🥇 87 [LightRAG](https://github.com/HKUDS/LightRAG) <sub>⭐ 40k · MIT · Sep 2026</sub>
+### 🥇 86 [LightRAG](https://github.com/HKUDS/LightRAG) <sub>⭐ 40k · MIT · Sep 2026</sub>
 
 **Graph-plus-vector RAG server with web UI and Ollama-compatible API.**
 
@@ -38,8 +38,24 @@ LightRAG indexes documents into a knowledge graph plus vector store and queries 
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (recommended for production), Neo4j (optional), MongoDB (optional), Milvus (optional), OpenSearch (optional) · Models: LLM and embedding providers configured in .env, tested with open models such as Qwen3-30B-A3B · [Repo](https://github.com/HKUDS/LightRAG)</sub>
 
+<a name="deepwiki-open"></a>
+### 🥈 76 [DeepWiki-Open](https://github.com/AsyncFuncAI/deepwiki-open) <sub>⭐ 18k · MIT · Sep 2026</sub>
+
+**Generates browsable wikis and diagrams for GitHub, GitLab and Bitbucket repos.**
+
+DeepWiki-Open takes a repository URL from GitHub, GitLab or Bitbucket, analyzes the code structure, generates documentation and diagrams, organizes them into a navigable wiki and builds a codemap for guided tours. The repo ships a Dockerfile and compose file. The README now points to a 2.0 release called Grok Wiki distributed as a download from grok-wiki.com and no longer documents configuration.
+
+- **+** Works with GitHub, GitLab and Bitbucket repositories
+- **+** Produces diagrams and codemap guided tours, not only prose
+- **+** Dockerfile and docker-compose in the repo; MIT license
+- **−** README no longer documents setup, ports or supported model providers
+- **−** 2.0 is pushed as a separate download at grok-wiki.com
+- **−** No hardware guidance; single-maintainer project
+
+<sub>no GPU · Docker + Compose · [Repo](https://github.com/AsyncFuncAI/deepwiki-open) · [🌐 Site](https://grok-wiki.com)</sub>
+
 <a name="ragflow"></a>
-### 🥈 75 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>⭐ 92k · Apache-2.0 · Oct 2026</sub>
+### 🥈 74 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>⭐ 92k · Apache-2.0 · Oct 2026</sub>
 
 **RAG engine with deep document parsing, agentic retrieval and knowledge compilation.**
 
@@ -56,24 +72,8 @@ RAGFlow parses Word, slides, Excel, scans and web pages with in-process layout a
 
 <sub>RAM ≥ 16 GB · no GPU · Docker · Needs MySQL, Elasticsearch or Infinity, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: external LLM, embedding and reranker providers set by URL and API key · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [🧪 Demo](https://cloud.ragflow.io) · [📖 Docs](https://ragflow.io/docs/dev/) · [🌐 Site](https://ragflow.io/)</sub>
 
-<a name="deepwiki-open"></a>
-### 🥈 75 [DeepWiki-Open](https://github.com/AsyncFuncAI/deepwiki-open) <sub>⭐ 18k · MIT · Sep 2026</sub>
-
-**Generates browsable wikis and diagrams for GitHub, GitLab and Bitbucket repos.**
-
-DeepWiki-Open takes a repository URL from GitHub, GitLab or Bitbucket, analyzes the code structure, generates documentation and diagrams, organizes them into a navigable wiki and builds a codemap for guided tours. The repo ships a Dockerfile and compose file. The README now points to a 2.0 release called Grok Wiki distributed as a download from grok-wiki.com and no longer documents configuration.
-
-- **+** Works with GitHub, GitLab and Bitbucket repositories
-- **+** Produces diagrams and codemap guided tours, not only prose
-- **+** Dockerfile and docker-compose in the repo; MIT license
-- **−** README no longer documents setup, ports or supported model providers
-- **−** 2.0 is pushed as a separate download at grok-wiki.com
-- **−** No hardware guidance; single-maintainer project
-
-<sub>no GPU · Docker + Compose · [Repo](https://github.com/AsyncFuncAI/deepwiki-open) · [🌐 Site](https://grok-wiki.com)</sub>
-
 <a name="private-gpt"></a>
-### 🥈 71 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>⭐ 58k · Apache-2.0 · Oct 2026</sub>
+### 🥈 69 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>⭐ 58k · Apache-2.0 · Oct 2026</sub>
 
 **Anthropic-style API layer for private RAG on local inference servers.**
 
@@ -89,24 +89,6 @@ PrivateGPT 1.0 is an API server shaped like the Anthropic Messages API, adding f
 - **−** RBAC, LDAP, connectors and audit logs exist only in the commercial Zylon platform
 
 <sub>no GPU · Docker · Needs OpenAI-compatible inference server (Ollama, llama.cpp, vLLM) · Models: any model behind an OpenAI-compatible /v1/chat/completions endpoint · port 8080 · [Repo](https://github.com/zylon-ai/private-gpt) · [📖 Docs](https://docs.privategpt.dev/)</sub>
-
-<a name="paperless-gpt"></a>
-### 🥈 66 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>⭐ 2.7k · MIT · Oct 2026</sub>
-
-**LLM-powered OCR, titles, tags and document links for Paperless-ngx.**
-
-paperless-gpt attaches to Paperless-ngx and uses OpenAI, Ollama, Mistral, Azure or Anthropic models to generate titles, tags, correspondents and custom fields, link related documents by reference number, and run OCR via vision models, Google Document AI, Azure Document Intelligence or Docling. OCR output can be written back as searchable PDFs. One container on port 8080; prompts editable in the web UI.
-
-- **+** LLM or VLM OCR produces searchable PDFs with positioned text layers
-- **+** Links invoices, amendments and letters via exact reference-number lookup
-- **+** Per-document-type AI workflows with trigger tags, testable before saving
-- **+** Four OCR providers including a self-hosted Docling server
-- **−** No built-in authentication; listens on all interfaces by default
-- **−** OCR limited to 5 pages per document unless OCR_LIMIT_PAGES is raised
-- **−** PDF_REPLACE deletes the original document; flagged dangerous by the maintainer
-- **−** Requires a running Paperless-ngx 2.20.x or 3.0 beta
-
-<sub>no GPU · Docker + Compose · Needs Paperless-ngx, optional OCR: Google Document AI, Azure Document Intelligence, Docling · Models: OpenAI (gpt-4o), Ollama (qwen3:8b, minicpm-v), Mistral, Azure OpenAI, Anthropic · port 8080 · [Repo](https://github.com/icereed/paperless-gpt)</sub>
 
 <a name="weknora"></a>
 ### 🥈 65 [WeKnora](https://github.com/Tencent/WeKnora) <sub>⭐ 33k · NOASSERTION · Oct 2026</sub>
@@ -126,6 +108,24 @@ WeKnora turns team documents into knowledge bases with three modes: cited RAG an
 
 <sub>no GPU · Compose · Needs Neo4j (optional profile), MinIO (optional profile), Langfuse (optional profile) · Models: OpenAI, DeepSeek, Qwen, Zhipu, Hunyuan, Gemini, MiniMax, NVIDIA, LiteLLM, Ollama · port 80 · [Repo](https://github.com/Tencent/WeKnora) · [📖 Docs](https://weknora.weixin.qq.com/docs/) · [🌐 Site](https://weknora.weixin.qq.com)</sub>
 
+<a name="paperless-gpt"></a>
+### 🥈 65 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>⭐ 2.7k · MIT · Oct 2026</sub>
+
+**LLM-powered OCR, titles, tags and document links for Paperless-ngx.**
+
+paperless-gpt attaches to Paperless-ngx and uses OpenAI, Ollama, Mistral, Azure or Anthropic models to generate titles, tags, correspondents and custom fields, link related documents by reference number, and run OCR via vision models, Google Document AI, Azure Document Intelligence or Docling. OCR output can be written back as searchable PDFs. One container on port 8080; prompts editable in the web UI.
+
+- **+** LLM or VLM OCR produces searchable PDFs with positioned text layers
+- **+** Links invoices, amendments and letters via exact reference-number lookup
+- **+** Per-document-type AI workflows with trigger tags, testable before saving
+- **+** Four OCR providers including a self-hosted Docling server
+- **−** No built-in authentication; listens on all interfaces by default
+- **−** OCR limited to 5 pages per document unless OCR_LIMIT_PAGES is raised
+- **−** PDF_REPLACE deletes the original document; flagged dangerous by the maintainer
+- **−** Requires a running Paperless-ngx 2.20.x or 3.0 beta
+
+<sub>no GPU · Docker + Compose · Needs Paperless-ngx, optional OCR: Google Document AI, Azure Document Intelligence, Docling · Models: OpenAI (gpt-4o), Ollama (qwen3:8b, minicpm-v), Mistral, Azure OpenAI, Anthropic · port 8080 · [Repo](https://github.com/icereed/paperless-gpt)</sub>
+
 <a name="paperless-ai"></a>
 ### 🥉 61 [Paperless-AI](https://github.com/clusterzx/paperless-ai) <sub>⭐ 6.0k · MIT · Mar 2026</sub>
 
@@ -143,24 +143,6 @@ Paperless-AI watches a Paperless-ngx instance, sends new documents to OpenAI, Ol
 - **−** Paperless-ngx is adding native AI, which may supersede it
 
 <sub>no GPU · Docker + Compose · Needs Paperless-ngx · Models: Ollama (Mistral, Llama, Phi-3, Gemma-2), OpenAI, DeepSeek, OpenRouter, Perplexity, Together, LiteLLM, vLLM, Fastchat, Gemini · [Repo](https://github.com/clusterzx/paperless-ai) · [📖 Docs](https://github.com/clusterzx/paperless-ai/wiki/2.-Installation)</sub>
-
-<a name="kotaemon"></a>
-### 🥉 59 [Kotaemon](https://github.com/Cinnamon/kotaemon) <sub>⭐ 26k · Apache-2.0 · May 2026</sub>
-
-**Gradio RAG UI with hybrid retrieval, citations and multi-user login.**
-
-Kotaemon is a Gradio web app for question answering over uploaded documents, with hybrid full-text plus vector retrieval, reranking, citations shown in an in-browser PDF viewer and ReAct or ReWOO agents. It supports OpenAI, Azure, Cohere, Groq, Ollama and GGUF via llama-cpp-python, with Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant storage. Docker images come in lite, full and ollama variants on port 7860.
-
-- **+** Hybrid retriever plus reranking by default, with low-relevance warnings
-- **+** Citations open in a PDF viewer with highlights and relevance scores
-- **+** Multi-user login with private and public collections
-- **+** GraphRAG options: nano-graphrag, LightRAG or Microsoft GraphRAG
-- **−** Default login is admin/admin
-- **−** GraphRAG extras cause hnswlib version conflicts that need manual pip fixes
-- **−** Only PDF, HTML, MHTML and XLSX without the larger full image
-- **−** Last commit 2026-05-30; MS GraphRAG indexing works only with OpenAI or Ollama
-
-<sub>no GPU · Docker · Needs Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant (optional stores), Unstructured (optional, for .doc/.docx and more) · Models: OpenAI, Azure OpenAI, Cohere, Groq, Ollama · port 7860 · [Repo](https://github.com/Cinnamon/kotaemon) · [🧪 Demo](https://huggingface.co/spaces/cin-model/kotaemon-demo) · [📖 Docs](https://cinnamon.github.io/kotaemon/)</sub>
 
 <a name="db-gpt"></a>
 ### 🥉 59 [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) <sub>⭐ 20k · MIT · Oct 2026</sub>
@@ -180,8 +162,26 @@ DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge base
 
 <sub>GPU optional · Compose · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/DB-GPT) · [📖 Docs](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site](http://dbgpt.cn/)</sub>
 
+<a name="kotaemon"></a>
+### 🥉 58 [Kotaemon](https://github.com/Cinnamon/kotaemon) <sub>⭐ 26k · Apache-2.0 · May 2026</sub>
+
+**Gradio RAG UI with hybrid retrieval, citations and multi-user login.**
+
+Kotaemon is a Gradio web app for question answering over uploaded documents, with hybrid full-text plus vector retrieval, reranking, citations shown in an in-browser PDF viewer and ReAct or ReWOO agents. It supports OpenAI, Azure, Cohere, Groq, Ollama and GGUF via llama-cpp-python, with Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant storage. Docker images come in lite, full and ollama variants on port 7860.
+
+- **+** Hybrid retriever plus reranking by default, with low-relevance warnings
+- **+** Citations open in a PDF viewer with highlights and relevance scores
+- **+** Multi-user login with private and public collections
+- **+** GraphRAG options: nano-graphrag, LightRAG or Microsoft GraphRAG
+- **−** Default login is admin/admin
+- **−** GraphRAG extras cause hnswlib version conflicts that need manual pip fixes
+- **−** Only PDF, HTML, MHTML and XLSX without the larger full image
+- **−** Last commit 2026-05-30; MS GraphRAG indexing works only with OpenAI or Ollama
+
+<sub>no GPU · Docker · Needs Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant (optional stores), Unstructured (optional, for .doc/.docx and more) · Models: OpenAI, Azure OpenAI, Cohere, Groq, Ollama · port 7860 · [Repo](https://github.com/Cinnamon/kotaemon) · [🧪 Demo](https://huggingface.co/spaces/cin-model/kotaemon-demo) · [📖 Docs](https://cinnamon.github.io/kotaemon/)</sub>
+
 <a name="pipeshub"></a>
-### 🥉 58 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
+### 🥉 57 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
 
 **Permission-aware search and agent context over 50+ workplace systems.**
 
@@ -217,7 +217,7 @@ Morphik Core is a retrieval engine for visually rich documents: it embeds page i
 <sub>no GPU · Compose · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [🧪 Demo](https://dev.morphik.ai) · [📖 Docs](https://dev.morphik.ai/docs) · [🌐 Site](https://morphik.ai)</sub>
 
 <a name="maxkb"></a>
-### 43 [MaxKB](https://github.com/1Panel-dev/MaxKB) <sub>⭐ 23k · GPL-3.0 · Oct 2026</sub>
+### 42 [MaxKB](https://github.com/1Panel-dev/MaxKB) <sub>⭐ 23k · GPL-3.0 · Oct 2026</sub>
 
 **Enterprise knowledge-base agent platform with RAG, workflows and MCP tools.**
 
@@ -235,7 +235,7 @@ MaxKB runs as one Docker container (port 8080, state in one volume) with a RAG p
 <sub>no GPU · Models: OpenAI, Claude, Gemini, MiniMax, DeepSeek, Llama, Qwen as private models · port 8080 · [Repo](https://github.com/1Panel-dev/MaxKB)</sub>
 
 <a name="surfsense"></a>
-### 37 [SurfSense](https://github.com/MODSetter/SurfSense) <sub>⭐ 16k · NOASSERTION · Oct 2026</sub>
+### 39 [SurfSense](https://github.com/MODSetter/SurfSense) <sub>⭐ 16k · NOASSERTION · Oct 2026</sub>
 
 **Offline NotebookLM alternative that turns documents into decks, reports and podcasts.**
 
@@ -253,7 +253,7 @@ SurfSense indexes local PDFs, Office files and images into SQLite, answers with 
 <sub>no GPU · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · [Repo](https://github.com/MODSetter/SurfSense) · [📖 Docs](https://www.surfsense.com/docs) · [🌐 Site](https://www.surfsense.com/)</sub>
 
 <a name="docling-serve"></a>
-### 27 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>⭐ 1.8k · MIT · Oct 2026</sub>
+### 28 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>⭐ 1.8k · MIT · Oct 2026</sub>
 
 **Docling document conversion as an HTTP API with playground UI.**
 

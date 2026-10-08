@@ -20,7 +20,7 @@ OpenClaw runs a local Gateway that connects one assistant to Discord, iMessage, 
 <sub>no GPU · Docker + Compose · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs](https://docs.openclaw.ai) · [🌐 Site](https://openclaw.ai)</sub>
 
 <a name="hermes-agent"></a>
-### 🥇 88 [Hermes Agent](https://github.com/NousResearch/hermes-agent) <sub>⭐ 252k · MIT · Oct 2026</sub>
+### 🥇 89 [Hermes Agent](https://github.com/NousResearch/hermes-agent) <sub>⭐ 252k · MIT · Oct 2026</sub>
 
 **Terminal and chat-app agent that writes its own skills and remembers you.**
 
@@ -54,8 +54,25 @@ nanobot is a Python 3.11+ personal agent running as a local gateway with a bundl
 
 <sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/HKUDS/nanobot) · [📖 Docs](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview)</sub>
 
+<a name="zeroclaw"></a>
+### 🥇 85 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>⭐ 33k · Apache-2.0 · Oct 2026</sub>
+
+**Single Rust binary agent runtime with 30+ channels and hardware access.**
+
+ZeroClaw is one Rust binary that routes messages from 30+ channels (Discord, Telegram, Matrix, email, voice, webhooks, CLI) to an agent loop backed by Anthropic, OpenAI, Ollama or any OpenAI-compatible provider, with fallback chains. Tools cover shell, browser, HTTP, MCP servers and GPIO/I2C/SPI/USB on Raspberry Pi, STM32 and ESP32. Supervised autonomy, OS sandboxes and signed tool receipts gate each action.
+
+- **+** Default supervised mode: medium-risk operations need approval, high-risk ones are blocked
+- **+** Hardware peripherals on Raspberry Pi, STM32, Arduino and ESP32 via a Peripheral trait
+- **+** HTTP/WebSocket gateway plus web dashboard for chat, memory, config and cron
+- **+** Dual-licensed MIT or Apache-2.0; installs as systemd, launchctl or Windows service
+- **−** Hand-written TOML config; a minimal V3 config needs four sections before it runs
+- **−** README states no RAM figures and no gateway port
+- **−** Unix installer places the binary under the Cargo bin directory
+
+<sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site](https://www.zeroclaw.com)</sub>
+
 <a name="astrbot"></a>
-### 🥇 83 [AstrBot](https://github.com/AstrBotDevs/AstrBot) <sub>⭐ 42k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 84 [AstrBot](https://github.com/AstrBotDevs/AstrBot) <sub>⭐ 42k · AGPL-3.0 · Oct 2026</sub>
 
 **Chatbot platform bridging LLMs to QQ, Telegram, Discord, Slack and more.**
 
@@ -72,25 +89,8 @@ AstrBot is a Python 3.12+ chatbot platform that connects LLM providers (OpenAI-c
 
 <sub>no GPU · Docker + Compose · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/AstrBotDevs/AstrBot) · [📖 Docs](https://astrbot.app/)</sub>
 
-<a name="zeroclaw"></a>
-### 🥇 81 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>⭐ 33k · Apache-2.0 · Oct 2026</sub>
-
-**Single Rust binary agent runtime with 30+ channels and hardware access.**
-
-ZeroClaw is one Rust binary that routes messages from 30+ channels (Discord, Telegram, Matrix, email, voice, webhooks, CLI) to an agent loop backed by Anthropic, OpenAI, Ollama or any OpenAI-compatible provider, with fallback chains. Tools cover shell, browser, HTTP, MCP servers and GPIO/I2C/SPI/USB on Raspberry Pi, STM32 and ESP32. Supervised autonomy, OS sandboxes and signed tool receipts gate each action.
-
-- **+** Default supervised mode: medium-risk operations need approval, high-risk ones are blocked
-- **+** Hardware peripherals on Raspberry Pi, STM32, Arduino and ESP32 via a Peripheral trait
-- **+** HTTP/WebSocket gateway plus web dashboard for chat, memory, config and cron
-- **+** Dual-licensed MIT or Apache-2.0; installs as systemd, launchctl or Windows service
-- **−** Hand-written TOML config; a minimal V3 config needs four sections before it runs
-- **−** README states no RAM figures and no gateway port
-- **−** Unix installer places the binary under the Cargo bin directory
-
-<sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site](https://www.zeroclaw.com)</sub>
-
 <a name="khoj"></a>
-### 🥇 80 [Khoj](https://github.com/khoj-ai/khoj) <sub>⭐ 38k · AGPL-3.0 · Aug 2026</sub>
+### 🥇 82 [Khoj](https://github.com/khoj-ai/khoj) <sub>⭐ 38k · AGPL-3.0 · Aug 2026</sub>
 
 **Personal assistant that chats with your documents and the web.**
 
@@ -108,7 +108,7 @@ Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Wor
 <sub>Docker + Compose · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [🧪 Demo](https://app.khoj.dev) · [📖 Docs](https://docs.khoj.dev) · [🌐 Site](https://khoj.dev)</sub>
 
 <a name="ironclaw"></a>
-### 🥈 75 [IronClaw](https://github.com/nearai/ironclaw) <sub>⭐ 13k · Apache-2.0 · Sep 2026</sub>
+### 🥈 79 [IronClaw](https://github.com/nearai/ironclaw) <sub>⭐ 13k · Apache-2.0 · Sep 2026</sub>
 
 **Rust assistant that sandboxes every untrusted tool in WebAssembly.**
 
@@ -126,7 +126,7 @@ IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAss
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw)</sub>
 
 <a name="qwenpaw"></a>
-### 🥉 59 [QwenPaw](https://github.com/agentscope-ai/QwenPaw) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### 🥉 62 [QwenPaw](https://github.com/agentscope-ai/QwenPaw) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
 
 **AgentScope-based personal assistant with local Qwen models and chat channels.**
 
@@ -143,7 +143,7 @@ QwenPaw is a Python (3.11 to 3.13) assistant built on AgentScope that serves a b
 <sub>no GPU · Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/QwenPaw) · [🧪 Demo](https://platform.agentscope.io/) · [📖 Docs](https://qwenpaw.agentscope.io/)</sub>
 
 <a name="moltis"></a>
-### 🥉 55 [Moltis](https://github.com/moltis-org/moltis) <sub>⭐ 2.9k · MIT · Sep 2026</sub>
+### 54 [Moltis](https://github.com/moltis-org/moltis) <sub>⭐ 2.9k · MIT · Sep 2026</sub>
 
 **Persistent personal agent server in one Rust binary with sandboxed execution.**
 
@@ -161,7 +161,7 @@ Moltis is a single Rust binary that serves a web UI (port 13131), Telegram, Sign
 <sub>no GPU · Docker · Needs Docker, Podman or Apple Container (sandbox) · Models: OpenAI Codex, GitHub Copilot, local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs](https://docs.moltis.org/quickstart.html) · [🌐 Site](https://moltis.org)</sub>
 
 <a name="spacebot"></a>
-### 48 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>⭐ 2.4k · NOASSERTION · Sep 2026</sub>
+### 49 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>⭐ 2.4k · NOASSERTION · Sep 2026</sub>
 
 **Multi-user agent harness for Discord, Slack and Telegram communities.**
 
@@ -179,7 +179,7 @@ Spacebot is a Rust agent server built for many concurrent users: channel process
 <sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs](https://docs.spacebot.sh) · [🌐 Site](https://spacebot.sh)</sub>
 
 <a name="picoclaw"></a>
-### 35 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>⭐ 30k · MIT · Aug 2026</sub>
+### 40 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>⭐ 30k · MIT · Aug 2026</sub>
 
 **Go assistant agent that runs in under 20 MB on $10 boards.**
 

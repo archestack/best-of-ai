@@ -93,7 +93,7 @@ vLLM is a Python serving engine for Hugging Face models that batches requests co
 <sub>GPU optional · Models: 200+ Hugging Face architectures: Llama, Qwen, Gemma, Mixtral, DeepSeek-V3, GPT-OSS, LLaVA, Qwen-VL, E5-Mistral · [Repo](https://github.com/vllm-project/vllm) · [📖 Docs](https://docs.vllm.ai) · [🌐 Site](https://vllm.ai)</sub>
 
 <a name="mistral-rs"></a>
-### 53 [mistral.rs](https://github.com/EricLBuehler/mistral.rs) <sub>⭐ 7.7k · MIT · Oct 2026</sub>
+### 54 [mistral.rs](https://github.com/EricLBuehler/mistral.rs) <sub>⭐ 7.7k · MIT · Oct 2026</sub>
 
 **Rust inference server with OpenAI and Anthropic APIs and agent tools.**
 
@@ -109,6 +109,24 @@ mistral.rs is a Rust engine whose single binary runs and serves Hugging Face, GG
 - **−** Not affiliated with Mistral AI despite the name
 
 <sub>GPU optional · Docker · Models: Hugging Face safetensors, GGUF, UQFF, Qwen3, Gemma 4, Muse Glimmer, DiffusionGemma and 45+ architectures · port 1234 · [Repo](https://github.com/EricLBuehler/mistral.rs) · [📖 Docs](https://docs.mistralrs.dev/)</sub>
+
+<a name="text-embeddings-inference"></a>
+### 49 [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference) <sub>⭐ 5.1k · Apache-2.0 · Oct 2026</sub>
+
+**Rust server for embedding, reranker and classification models.**
+
+TEI is a Rust server from Hugging Face for embedding, reranker and sequence-classification models (BERT, XLM-RoBERTa, Nomic, Jina, GTE, Qwen3, ModernBERT, Gemma3) with token-based dynamic batching and Flash Attention. The router listens on port 3000 with /embed and OpenAI-compatible routes, gRPC, OpenTelemetry tracing and Prometheus metrics. Images cover CPU x86/arm64 and NVIDIA Turing through Blackwell.
+
+- **+** Token-based dynamic batching with Flash Attention, Candle and cuBLASLt
+- **+** Small images and fast boot; no graph compilation step
+- **+** Rerankers and classifiers served alongside embeddings
+- **+** OpenTelemetry tracing, Prometheus metrics, API key auth, gRPC
+- **−** No Volta support; Turing image is experimental with Flash Attention off
+- **−** GPU images need drivers compatible with CUDA 12.2 or higher
+- **−** Only CamemBERT and XLM-RoBERTa for sequence classification
+- **−** 7B embedders such as Qwen3-Embedding-8B are flagged very expensive
+
+<sub>GPU optional · Docker · Models: Qwen3-Embedding, gte-Qwen2, multilingual-e5, embeddinggemma, arctic-embed, nomic-embed, ModernBERT, jina-embeddings-v2, bge-reranker, gte rerankers · port 3000 · [Repo](https://github.com/huggingface/text-embeddings-inference) · [📖 Docs](https://huggingface.github.io/text-embeddings-inference)</sub>
 
 <a name="text-generation-webui"></a>
 ### 48 [Text Generation Web UI](https://github.com/oobabooga/textgen) <sub>⭐ 48k · AGPL-3.0 · Aug 2026</sub>
@@ -146,26 +164,8 @@ SGLang is an inference framework for language, vision-language and diffusion mod
 
 <sub>GPU optional · Models: large language, vision-language and diffusion models (see cookbook) · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs](https://docs.sglang.io/) · [🌐 Site](https://www.sglang.io/)</sub>
 
-<a name="text-embeddings-inference"></a>
-### 47 [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference) <sub>⭐ 5.1k · Apache-2.0 · Oct 2026</sub>
-
-**Rust server for embedding, reranker and classification models.**
-
-TEI is a Rust server from Hugging Face for embedding, reranker and sequence-classification models (BERT, XLM-RoBERTa, Nomic, Jina, GTE, Qwen3, ModernBERT, Gemma3) with token-based dynamic batching and Flash Attention. The router listens on port 3000 with /embed and OpenAI-compatible routes, gRPC, OpenTelemetry tracing and Prometheus metrics. Images cover CPU x86/arm64 and NVIDIA Turing through Blackwell.
-
-- **+** Token-based dynamic batching with Flash Attention, Candle and cuBLASLt
-- **+** Small images and fast boot; no graph compilation step
-- **+** Rerankers and classifiers served alongside embeddings
-- **+** OpenTelemetry tracing, Prometheus metrics, API key auth, gRPC
-- **−** No Volta support; Turing image is experimental with Flash Attention off
-- **−** GPU images need drivers compatible with CUDA 12.2 or higher
-- **−** Only CamemBERT and XLM-RoBERTa for sequence classification
-- **−** 7B embedders such as Qwen3-Embedding-8B are flagged very expensive
-
-<sub>GPU optional · Docker · Models: Qwen3-Embedding, gte-Qwen2, multilingual-e5, embeddinggemma, arctic-embed, nomic-embed, ModernBERT, jina-embeddings-v2, bge-reranker, gte rerankers · port 3000 · [Repo](https://github.com/huggingface/text-embeddings-inference) · [📖 Docs](https://huggingface.github.io/text-embeddings-inference)</sub>
-
 <a name="llamafile"></a>
-### 45 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>⭐ 26k · NOASSERTION · Sep 2026</sub>
+### 44 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>⭐ 26k · NOASSERTION · Sep 2026</sub>
 
 **Single-file executables that bundle llama.cpp with model weights.**
 
@@ -183,7 +183,7 @@ llamafile packages llama.cpp and model weights into one executable using Cosmopo
 <sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs](https://docs.mozilla.ai/llamafile)</sub>
 
 <a name="xinference"></a>
-### 45 [Xinference](https://github.com/xorbitsai/inference) <sub>⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
+### 44 [Xinference](https://github.com/xorbitsai/inference) <sub>⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
 
 **Serves LLM, embedding, speech and image models behind one OpenAI-style API.**
 
@@ -201,7 +201,7 @@ Xinference serves LLM, embedding, rerank, speech, image and multimodal models be
 <sub>GPU optional · Models: built-in catalog of LLM, embedding, rerank, speech, image and video models, custom models, engines: vLLM, Xllamacpp (llama.cpp), transformers, TensorRT · port 9997 · [Repo](https://github.com/xorbitsai/inference) · [📖 Docs](https://inference.readthedocs.io/) · [🌐 Site](https://xinference.co)</sub>
 
 <a name="ktransformers"></a>
-### 43 [KTransformers](https://github.com/kvcache-ai/ktransformers) <sub>⭐ 20k · Apache-2.0 · Oct 2026</sub>
+### 42 [KTransformers](https://github.com/kvcache-ai/ktransformers) <sub>⭐ 20k · Apache-2.0 · Oct 2026</sub>
 
 **CPU-GPU hybrid inference and fine-tuning for very large MoE models.**
 
@@ -217,24 +217,6 @@ KTransformers is a research framework for CPU-GPU heterogeneous inference and fi
 - **−** Research project; some docs and support channels are Chinese-only
 
 <sub>GPU required · Needs SGLang (serving), LLaMA-Factory (fine-tuning) · Models: DeepSeek-V3/R1/V4-Flash, Kimi K2 to K2.6, GLM-5 to 5.3, MiniMax-M2.x/M3, Qwen3-MoE, Qwen3-Next · [Repo](https://github.com/kvcache-ai/ktransformers) · [📖 Docs](https://kvcache-ai.github.io/ktransformers/)</sub>
-
-<a name="triton-inference-server"></a>
-### 40 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>⭐ 11k · BSD-3-Clause · Oct 2026</sub>
-
-**NVIDIA inference server for TensorRT, PyTorch, ONNX and more over HTTP/gRPC.**
-
-Triton serves TensorRT, PyTorch, ONNX, OpenVINO, Python and RAPIDS FIL models over HTTP/REST and gRPC (KServe v2), with concurrent execution, dynamic and sequence batching, ensembles and Business Logic Scripting. NVIDIA ships it as NGC containers (2.73.0 / 26.09) for NVIDIA GPUs, x86 and ARM CPUs, Jetson and AWS Inferentia, with C and Java in-process APIs and a metrics endpoint.
-
-- **+** Serves TensorRT, PyTorch, ONNX, OpenVINO, Python and FIL models together
-- **+** Dynamic and sequence batching, ensembles and BLS pipelines
-- **+** HTTP/REST and gRPC (KServe v2) plus C and Java in-process APIs
-- **+** Metrics for GPU utilization, throughput and latency
-- **−** No OpenAI-compatible endpoint in the README; clients speak KServe v2
-- **−** Model repository and per-model config files are hand-written
-- **−** Containers track NVIDIA's monthly NGC release cycle
-- **−** Not every backend is supported on every platform
-
-<sub>GPU optional · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python, RAPIDS FIL backends · [Repo](https://github.com/triton-inference-server/server) · [🌐 Site](https://developer.nvidia.com/nvidia-triton-inference-server)</sub>
 
 <a name="llama-swap"></a>
 ### 40 [llama-swap](https://github.com/mostlygeek/llama-swap) <sub>⭐ 5.9k · MIT · Oct 2026</sub>
@@ -254,8 +236,44 @@ llama-swap is one Go binary that proxies OpenAI and Anthropic API calls to local
 
 <sub>GPU optional · Needs an upstream inference server (llama-server, vLLM, etc.) · Models: any model served by the configured upstream (GGUF via llama-server, etc.) · port 8080 · [Repo](https://github.com/mostlygeek/llama-swap)</sub>
 
+<a name="triton-inference-server"></a>
+### 39 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>⭐ 11k · BSD-3-Clause · Oct 2026</sub>
+
+**NVIDIA inference server for TensorRT, PyTorch, ONNX and more over HTTP/gRPC.**
+
+Triton serves TensorRT, PyTorch, ONNX, OpenVINO, Python and RAPIDS FIL models over HTTP/REST and gRPC (KServe v2), with concurrent execution, dynamic and sequence batching, ensembles and Business Logic Scripting. NVIDIA ships it as NGC containers (2.73.0 / 26.09) for NVIDIA GPUs, x86 and ARM CPUs, Jetson and AWS Inferentia, with C and Java in-process APIs and a metrics endpoint.
+
+- **+** Serves TensorRT, PyTorch, ONNX, OpenVINO, Python and FIL models together
+- **+** Dynamic and sequence batching, ensembles and BLS pipelines
+- **+** HTTP/REST and gRPC (KServe v2) plus C and Java in-process APIs
+- **+** Metrics for GPU utilization, throughput and latency
+- **−** No OpenAI-compatible endpoint in the README; clients speak KServe v2
+- **−** Model repository and per-model config files are hand-written
+- **−** Containers track NVIDIA's monthly NGC release cycle
+- **−** Not every backend is supported on every platform
+
+<sub>GPU optional · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python, RAPIDS FIL backends · [Repo](https://github.com/triton-inference-server/server) · [🌐 Site](https://developer.nvidia.com/nvidia-triton-inference-server)</sub>
+
+<a name="gpustack"></a>
+### 38 [GPUStack](https://github.com/gpustack/gpustack) <sub>⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
+
+**GPU cluster manager that deploys models on vLLM, SGLang and TensorRT-LLM.**
+
+GPUStack is a GPU cluster manager that deploys models across on-prem, Kubernetes and cloud workers, configuring vLLM, SGLang, TensorRT-LLM or custom engines behind OpenAI-compatible APIs with auth, API keys and token metering. The server is one Docker container on port 80 and can run CPU-only; Linux workers join with a privileged Docker command. It supports NVIDIA, AMD, Ascend and six Chinese accelerator families.
+
+- **+** Multi-cluster: on-prem, Kubernetes and cloud GPUs under one server
+- **+** Auto-selects and tunes vLLM, SGLang or TensorRT-LLM per model
+- **+** Built-in auth, API keys, token metering, Grafana and Prometheus dashboards
+- **+** SSH-accessible GPU instances on demand for fine-tuning
+- **−** Workers are Linux-only; macOS cannot be a worker, Windows needs WSL2
+- **−** Worker container runs privileged with the Docker socket mounted
+- **−** Cluster topology view is in the paid GPUStack Enterprise
+- **−** Quick start assumes an NVIDIA GPU; other vendors need extra steps
+
+<sub>GPU required · Models: catalog models (e.g. Qwen3.5-0.8B) via vLLM, SGLang, TensorRT-LLM, LLM, voice, image and video models · port 80 · [Repo](https://github.com/gpustack/gpustack) · [📖 Docs](https://docs.gpustack.ai)</sub>
+
 <a name="openllm"></a>
-### 38 [OpenLLM](https://github.com/bentoml/OpenLLM) <sub>⭐ 13k · Apache-2.0 · May 2026</sub>
+### 36 [OpenLLM](https://github.com/bentoml/OpenLLM) <sub>⭐ 13k · Apache-2.0 · May 2026</sub>
 
 **One-command OpenAI-compatible endpoints for curated open LLMs.**
 
@@ -273,7 +291,7 @@ OpenLLM serves open LLMs as OpenAI-compatible APIs with one command: pip install
 <sub>GPU required · Models: Llama 3.1/3.2/3.3/4, Qwen2.5, Qwen2.5-Coder, QwQ, Mistral, Mistral Large, Pixtral, Phi-4, Gemma 2/3, Jamba 1.5, DeepSeek R1 · port 3000 · [Repo](https://github.com/bentoml/OpenLLM)</sub>
 
 <a name="lmdeploy"></a>
-### 37 [LMDeploy](https://github.com/InternLM/lmdeploy) <sub>⭐ 8.1k · Apache-2.0 · Sep 2026</sub>
+### 36 [LMDeploy](https://github.com/InternLM/lmdeploy) <sub>⭐ 8.1k · Apache-2.0 · Sep 2026</sub>
 
 **LLM and VLM serving toolkit with the TurboMind and PyTorch engines.**
 
@@ -290,26 +308,8 @@ LMDeploy compresses and serves LLMs and VLMs with two engines: TurboMind (CUDA, 
 
 <sub>GPU required · Models: Llama 1-4, Qwen1.5-3.5, InternLM2/3, DeepSeek V2-V4, GLM-4/5, Mixtral, Gemma, Phi-3/4, gpt-oss, VLMs: InternVL, Qwen-VL, LLaVA, DeepSeek-VL, CogVLM, MiniCPM-V, Molmo, Gemma3, Llama4 · [Repo](https://github.com/InternLM/lmdeploy) · [📖 Docs](https://lmdeploy.readthedocs.io/en/latest/)</sub>
 
-<a name="gpustack"></a>
-### 37 [GPUStack](https://github.com/gpustack/gpustack) <sub>⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
-
-**GPU cluster manager that deploys models on vLLM, SGLang and TensorRT-LLM.**
-
-GPUStack is a GPU cluster manager that deploys models across on-prem, Kubernetes and cloud workers, configuring vLLM, SGLang, TensorRT-LLM or custom engines behind OpenAI-compatible APIs with auth, API keys and token metering. The server is one Docker container on port 80 and can run CPU-only; Linux workers join with a privileged Docker command. It supports NVIDIA, AMD, Ascend and six Chinese accelerator families.
-
-- **+** Multi-cluster: on-prem, Kubernetes and cloud GPUs under one server
-- **+** Auto-selects and tunes vLLM, SGLang or TensorRT-LLM per model
-- **+** Built-in auth, API keys, token metering, Grafana and Prometheus dashboards
-- **+** SSH-accessible GPU instances on demand for fine-tuning
-- **−** Workers are Linux-only; macOS cannot be a worker, Windows needs WSL2
-- **−** Worker container runs privileged with the Docker socket mounted
-- **−** Cluster topology view is in the paid GPUStack Enterprise
-- **−** Quick start assumes an NVIDIA GPU; other vendors need extra steps
-
-<sub>GPU required · Models: catalog models (e.g. Qwen3.5-0.8B) via vLLM, SGLang, TensorRT-LLM, LLM, voice, image and video models · port 80 · [Repo](https://github.com/gpustack/gpustack) · [📖 Docs](https://docs.gpustack.ai)</sub>
-
 <a name="tabbyapi"></a>
-### 27 [TabbyAPI](https://github.com/theroyallab/tabbyAPI) <sub>⭐ 1.5k · AGPL-3.0 · Oct 2026</sub>
+### 28 [TabbyAPI](https://github.com/theroyallab/tabbyAPI) <sub>⭐ 1.5k · AGPL-3.0 · Oct 2026</sub>
 
 **OpenAI-compatible API server for ExLlamaV3 models.**
 
