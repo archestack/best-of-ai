@@ -2,62 +2,8 @@
 
 Long-term memory engines that store and retrieve facts for agents across sessions. Back to the [leaderboard](../README.md#-memory).
 
-<a name="mem0"></a>
-### 🥇 [Mem0](https://github.com/mem0ai/mem0) <sub>⭐ 67k · Apache-2.0 · Oct 2026</sub>
-
-**Memory layer for agents with a self-hosted server, SDKs and CLI.**
-
-Mem0 adds long-term memory to assistants and agents at user, session and agent level. It ships as a Python and npm library, a self-hosted server via docker compose (dashboard on port 3000, auth on by default) and a managed cloud. Memories are extracted by an LLM (gpt-5-mini by default) and retrieved with semantic, BM25 and entity matching; an optional NLP extra adds spaCy for hybrid search.
-
-- **+** Library, self-hosted server with dashboard and API keys, or managed platform share one API
-- **+** Multi-signal retrieval: semantic, BM25 keyword and entity matching with temporal reasoning
-- **+** CLI and agent skills for Claude Code, Codex, Cursor and others
-- **+** Apache-2.0; evaluation framework is open source
-- **−** Requires an LLM for extraction; OpenAI gpt-5-mini and text-embedding-3-small are the defaults
-- **−** Benchmark scores reflect the managed platform, not the open-source SDK
-- **−** Self-hosted server exposes only teasers of advanced features; all included in cloud
-- **−** Hybrid search recommends at least a 600M-parameter embedding model
-
-<sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [🧪 Demo](https://mem0.dev/demo) · [📖 Docs](https://docs.mem0.ai) · [🌐 Site](https://mem0.ai)</sub>
-
-<a name="mempalace"></a>
-### 🥈 [MemPalace](https://github.com/MemPalace/mempalace) <sub>⭐ 59k · MIT · Oct 2026</sub>
-
-**Local verbatim memory for coding agents on ChromaDB with 45 MCP tools.**
-
-MemPalace stores conversation history verbatim, never summarised, and retrieves it by scoped semantic search over a palace of wings (people, projects), rooms (topics) and drawers. It runs locally with Python 3.9+ and ChromaDB by default, exposes 45 MCP tools plus a CLI, mines Claude Code, Codex and Cursor transcripts via hooks, and needs no API key: 96.6% R@5 on LongMemEval without an LLM.
-
-- **+** Verbatim storage; nothing is summarised or paraphrased
-- **+** 96.6% R@5 on LongMemEval with no LLM or API key; results reproducible from the repo
-- **+** Pluggable backends: ChromaDB, sqlite, Rust-native, Milvus, Qdrant, pgvector
-- **+** Multi-arch Docker image; auto-save hooks for Claude Code, Codex and Cursor
-- **−** First run downloads an 80 to 300 MB embedding model; Docker needs network then
-- **−** No native Android/Termux; GPU image is x86_64-only and unpublished
-- **−** Docker image runs as uid 1000, so bind mounts must be readable by that uid
-- **−** README warns about impostor domains distributing malware
-
-<sub>no GPU · Docker + Compose · Models: local embeddings (MiniLM, EmbeddingGemma), OpenAI-compatible embedding endpoints, Ollama · [Repo](https://github.com/MemPalace/mempalace) · [📖 Docs](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site](https://mempalaceofficial.com)</sub>
-
-<a name="openviking"></a>
-### 🥉 [OpenViking](https://github.com/volcengine/OpenViking) <sub>⭐ 39k · AGPL-3.0 · Oct 2026</sub>
-
-**Context database exposing agent memory, knowledge and skills as a filesystem.**
-
-OpenViking organises everything an agent knows as a viking:// virtual filesystem of resources, memories and skills, browsed with ls, tree, read and grep, with search scoped to a subtree. Each directory carries generated summaries so agents read full content only when needed. The server needs Python 3.10+ plus an embedding model and a VLM; plugins cover Claude Code, Codex, Cursor and OpenClaw.
-
-- **+** Memory is inspectable and editable as Markdown files under viking:// URIs
-- **+** LoCoMo accuracy 80 to 83% for OpenClaw, Hermes and Claude Code at far fewer tokens
-- **+** Python, Go and TypeScript SDKs plus HTTP API; multi-tenant accounts and ACLs
-- **+** Hosted Studio playground at openviking.ai/studio; Railway one-click deploy
-- **−** AGPL-3.0 license
-- **−** Needs both an embedding model and a vision-language model from a provider
-- **−** Memory plugin installer is macOS/Linux only; Windows uses the beta desktop app
-- **−** Benchmarks were run with Volcengine Doubao models
-
-<sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/OpenViking) · [🧪 Demo](https://openviking.ai/studio) · [📖 Docs](https://docs.openviking.ai/) · [🌐 Site](https://www.openviking.ai)</sub>
-
 <a name="cognee"></a>
-### 4 [Cognee](https://github.com/topoteretes/cognee) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### 🥇 89 [Cognee](https://github.com/topoteretes/cognee) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Memory engine that turns documents and code into a knowledge graph.**
 
@@ -74,8 +20,26 @@ Cognee builds persistent agent memory by extracting entities, relationships and 
 
 <sub>no GPU · Docker + Compose · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs](https://docs.cognee.ai/) · [🌐 Site](https://cognee.ai)</sub>
 
+<a name="mempalace"></a>
+### 🥇 88 [MemPalace](https://github.com/MemPalace/mempalace) <sub>⭐ 59k · MIT · Oct 2026</sub>
+
+**Local verbatim memory for coding agents on ChromaDB with 45 MCP tools.**
+
+MemPalace stores conversation history verbatim, never summarised, and retrieves it by scoped semantic search over a palace of wings (people, projects), rooms (topics) and drawers. It runs locally with Python 3.9+ and ChromaDB by default, exposes 45 MCP tools plus a CLI, mines Claude Code, Codex and Cursor transcripts via hooks, and needs no API key: 96.6% R@5 on LongMemEval without an LLM.
+
+- **+** Verbatim storage; nothing is summarised or paraphrased
+- **+** 96.6% R@5 on LongMemEval with no LLM or API key; results reproducible from the repo
+- **+** Pluggable backends: ChromaDB, sqlite, Rust-native, Milvus, Qdrant, pgvector
+- **+** Multi-arch Docker image; auto-save hooks for Claude Code, Codex and Cursor
+- **−** First run downloads an 80 to 300 MB embedding model; Docker needs network then
+- **−** No native Android/Termux; GPU image is x86_64-only and unpublished
+- **−** Docker image runs as uid 1000, so bind mounts must be readable by that uid
+- **−** README warns about impostor domains distributing malware
+
+<sub>no GPU · Docker + Compose · Models: local embeddings (MiniLM, EmbeddingGemma), OpenAI-compatible embedding endpoints, Ollama · [Repo](https://github.com/MemPalace/mempalace) · [📖 Docs](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site](https://mempalaceofficial.com)</sub>
+
 <a name="graphiti"></a>
-### 5 [Graphiti](https://github.com/getzep/graphiti) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### 🥇 86 [Graphiti](https://github.com/getzep/graphiti) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Temporal knowledge graph framework for agent memory with REST and MCP servers.**
 
@@ -92,26 +56,44 @@ Graphiti builds context graphs where every fact has a validity window and traces
 
 <sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2 or Amazon Neptune · Models: OpenAI (default), Azure OpenAI, Anthropic, Google Gemini, Groq · [Repo](https://github.com/getzep/graphiti)</sub>
 
-<a name="supermemory"></a>
-### 6 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>⭐ 31k · MIT · Oct 2026</sub>
+<a name="openviking"></a>
+### 🥇 85 [OpenViking](https://github.com/volcengine/OpenViking) <sub>⭐ 39k · AGPL-3.0 · Oct 2026</sub>
 
-**Memory and context API with user profiles, connectors and a local server.**
+**Context database exposing agent memory, knowledge and skills as a filesystem.**
 
-Supermemory extracts facts from conversations, maintains per-user profiles and answers hybrid queries that mix RAG over documents with personal memory, through one API with npm and pip SDKs. The self-hosted path is a single binary (port 6767) with an embedded graph engine and local bge-base embeddings, usable offline with Ollama; the hosted platform adds Drive, Gmail, Notion and GitHub connectors.
+OpenViking organises everything an agent knows as a viking:// virtual filesystem of resources, memories and skills, browsed with ls, tree, read and grep, with search scoped to a subtree. Each directory carries generated summaries so agents read full content only when needed. The server needs Python 3.10+ plus an embedding model and a VLM; plugins cover Claude Code, Codex, Cursor and OpenClaw.
 
-- **+** One binary, zero config; local Xenova/bge-base-en-v1.5 embeddings need no API key
-- **+** Plugins for Claude Code, Cursor, Codex, OpenCode, OpenClaw and Hermes plus an MCP server
-- **+** Framework wrappers for Vercel AI SDK, LangChain, LangGraph, OpenAI Agents SDK and Mastra
-- **+** Open-source MemoryBench to compare memory providers
-- **−** URL ingestion uses a hosted reader service even in local mode
-- **−** Telemetry is on unless SUPERMEMORY_DISABLE_TELEMETRY=1 is set
-- **−** Connectors (Drive, Gmail, Notion, GitHub) are described for the platform, not local
-- **−** README leads with benchmark rankings; the MCP server URL points to the hosted service
+- **+** Memory is inspectable and editable as Markdown files under viking:// URIs
+- **+** LoCoMo accuracy 80 to 83% for OpenClaw, Hermes and Claude Code at far fewer tokens
+- **+** Python, Go and TypeScript SDKs plus HTTP API; multi-tenant accounts and ACLs
+- **+** Hosted Studio playground at openviking.ai/studio; Railway one-click deploy
+- **−** AGPL-3.0 license
+- **−** Needs both an embedding model and a vision-language model from a provider
+- **−** Memory plugin installer is macOS/Linux only; Windows uses the beta desktop app
+- **−** Benchmarks were run with Volcengine Doubao models
 
-<sub>no GPU · Models: OpenAI, Anthropic, Gemini, Groq, OpenAI-compatible endpoints · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs](https://supermemory.ai/docs)</sub>
+<sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/OpenViking) · [🧪 Demo](https://openviking.ai/studio) · [📖 Docs](https://docs.openviking.ai/) · [🌐 Site](https://www.openviking.ai)</sub>
+
+<a name="mem0"></a>
+### 🥉 61 [Mem0](https://github.com/mem0ai/mem0) <sub>⭐ 67k · Apache-2.0 · Oct 2026</sub>
+
+**Memory layer for agents with a self-hosted server, SDKs and CLI.**
+
+Mem0 adds long-term memory to assistants and agents at user, session and agent level. It ships as a Python and npm library, a self-hosted server via docker compose (dashboard on port 3000, auth on by default) and a managed cloud. Memories are extracted by an LLM (gpt-5-mini by default) and retrieved with semantic, BM25 and entity matching; an optional NLP extra adds spaCy for hybrid search.
+
+- **+** Library, self-hosted server with dashboard and API keys, or managed platform share one API
+- **+** Multi-signal retrieval: semantic, BM25 keyword and entity matching with temporal reasoning
+- **+** CLI and agent skills for Claude Code, Codex, Cursor and others
+- **+** Apache-2.0; evaluation framework is open source
+- **−** Requires an LLM for extraction; OpenAI gpt-5-mini and text-embedding-3-small are the defaults
+- **−** Benchmark scores reflect the managed platform, not the open-source SDK
+- **−** Self-hosted server exposes only teasers of advanced features; all included in cloud
+- **−** Hybrid search recommends at least a 600M-parameter embedding model
+
+<sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [🧪 Demo](https://mem0.dev/demo) · [📖 Docs](https://docs.mem0.ai) · [🌐 Site](https://mem0.ai)</sub>
 
 <a name="agentmemory"></a>
-### 7 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥉 56 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Persistent memory server for coding agents built on the iii engine.**
 
@@ -129,7 +111,7 @@ agentmemory captures agent activity via hooks, compresses it into searchable mem
 <sub>no GPU · Compose · Needs iii-engine v0.22.1 (bundled) · Models: keyless BM25, local Xenova/all-MiniLM-L6-v2, LLM provider (optional) · port 3111 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
 
 <a name="memos"></a>
-### 8 [MemOS](https://github.com/MemTensor/MemOS) <sub>⭐ 12k · Apache-2.0 · Sep 2026</sub>
+### 54 [MemOS](https://github.com/MemTensor/MemOS) <sub>⭐ 12k · Apache-2.0 · Sep 2026</sub>
 
 **Memory operating system for agents with cubes, scheduler and hybrid retrieval.**
 
@@ -147,7 +129,7 @@ MemOS gives LLM apps and agents long-term memory via one API over graph-structur
 <sub>no GPU · Docker · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/MemTensor/MemOS) · [📖 Docs](https://memos-docs.openmem.net/home/overview/) · [🌐 Site](https://memos.openmem.net/)</sub>
 
 <a name="honcho"></a>
-### 9 [Honcho](https://github.com/plastic-labs/honcho) <sub>⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
+### 51 [Honcho](https://github.com/plastic-labs/honcho) <sub>⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory service modelling users, agents and groups as evolving peers.**
 
@@ -164,26 +146,26 @@ Honcho is a FastAPI memory server where humans and agents are peers that exchang
 
 <sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [🧪 Demo](https://app.honcho.dev) · [📖 Docs](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
 
-<a name="engram"></a>
-### 10 [Engram](https://github.com/Gentleman-Programming/engram) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
+<a name="supermemory"></a>
+### 45 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>⭐ 31k · MIT · Oct 2026</sub>
 
-**Single Go binary memory for coding agents on SQLite FTS5 with MCP.**
+**Memory and context API with user profiles, connectors and a local server.**
 
-Engram is one Go binary that stores agent memory in a local SQLite database with FTS5 full-text search and exposes it over MCP stdio, a CLI, a local HTTP API and an interactive TUI. The engram setup command configures 14 agents including Claude Code, OpenCode, Gemini CLI, Codex, Cursor and Windsurf; memory is project-aware, can sync through Git as compressed chunks, and optionally replicates to Engram Cloud.
+Supermemory extracts facts from conversations, maintains per-user profiles and answers hybrid queries that mix RAG over documents with personal memory, through one API with npm and pip SDKs. The self-hosted path is a single binary (port 6767) with an embedded graph engine and local bge-base embeddings, usable offline with Ollama; the hosted platform adds Drive, Gmail, Notion and GitHub connectors.
 
-- **+** No Node.js, Python or Docker; one binary and one SQLite file
-- **+** engram setup targets 14 agents plus any MCP-compatible client
-- **+** Git Sync shares memory across machines without a server
-- **+** engram doctor and binary self-tests for diagnostics; MIT license
-- **−** Full-text search only; no vector or semantic retrieval mentioned
-- **−** Engram Cloud replication is optional and separate from the local store
-- **−** Project detection can halt with project_transition_conflict after git init
-- **−** Install docs for Windows and Linux live in docs/, not the README
+- **+** One binary, zero config; local Xenova/bge-base-en-v1.5 embeddings need no API key
+- **+** Plugins for Claude Code, Cursor, Codex, OpenCode, OpenClaw and Hermes plus an MCP server
+- **+** Framework wrappers for Vercel AI SDK, LangChain, LangGraph, OpenAI Agents SDK and Mastra
+- **+** Open-source MemoryBench to compare memory providers
+- **−** URL ingestion uses a hosted reader service even in local mode
+- **−** Telemetry is on unless SUPERMEMORY_DISABLE_TELEMETRY=1 is set
+- **−** Connectors (Drive, Gmail, Notion, GitHub) are described for the platform, not local
+- **−** README leads with benchmark rankings; the MCP server URL points to the hosted service
 
-<sub>no GPU · [Repo](https://github.com/Gentleman-Programming/engram) · [🌐 Site](https://engram.gentlemanprogramming.com/)</sub>
+<sub>no GPU · Models: OpenAI, Anthropic, Gemini, Groq, OpenAI-compatible endpoints · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs](https://supermemory.ai/docs)</sub>
 
 <a name="letta"></a>
-### 11 [Letta](https://github.com/letta-ai/letta-code) <sub>⭐ 3.5k · Apache-2.0 · Oct 2026</sub>
+### 34 [Letta](https://github.com/letta-ai/letta-code) <sub>⭐ 3.5k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful agent harness with git-tracked memory, channels and remote computers.**
 
@@ -199,5 +181,23 @@ Letta Code is an npm-installed agent harness whose agents keep memory blocks, sk
 - **−** Automatic dreaming is disabled on native Windows by default
 
 <sub>no GPU · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [🧪 Demo](https://chat.letta.com) · [📖 Docs](https://docs.letta.com/letta-code/cli)</sub>
+
+<a name="engram"></a>
+### 30 [Engram](https://github.com/Gentleman-Programming/engram) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
+
+**Single Go binary memory for coding agents on SQLite FTS5 with MCP.**
+
+Engram is one Go binary that stores agent memory in a local SQLite database with FTS5 full-text search and exposes it over MCP stdio, a CLI, a local HTTP API and an interactive TUI. The engram setup command configures 14 agents including Claude Code, OpenCode, Gemini CLI, Codex, Cursor and Windsurf; memory is project-aware, can sync through Git as compressed chunks, and optionally replicates to Engram Cloud.
+
+- **+** No Node.js, Python or Docker; one binary and one SQLite file
+- **+** engram setup targets 14 agents plus any MCP-compatible client
+- **+** Git Sync shares memory across machines without a server
+- **+** engram doctor and binary self-tests for diagnostics; MIT license
+- **−** Full-text search only; no vector or semantic retrieval mentioned
+- **−** Engram Cloud replication is optional and separate from the local store
+- **−** Project detection can halt with project_transition_conflict after git init
+- **−** Install docs for Windows and Linux live in docs/, not the README
+
+<sub>no GPU · [Repo](https://github.com/Gentleman-Programming/engram) · [🌐 Site](https://engram.gentlemanprogramming.com/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

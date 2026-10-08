@@ -2,26 +2,8 @@
 
 Generation UIs and pipelines for images and video, usually around diffusion models. Back to the [leaderboard](../README.md#-image-and-video).
 
-<a name="comfyui"></a>
-### 🥇 [ComfyUI](https://github.com/Comfy-Org/ComfyUI) <sub>⭐ 137k · GPL-3.0 · Oct 2026</sub>
-
-**Node-graph engine for diffusion image, video, audio and 3D models.**
-
-Builds generation pipelines as a visual node graph and runs them locally for image (SD 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image), video (Wan 2.x, LTX-Video, HunyuanVideo), audio (ACE-Step, Stable Audio) and 3D (Hunyuan3D) models, with a local API and an App Mode that exposes a workflow as a simple UI. Runs on NVIDIA, AMD, Intel, Apple Silicon and Ascend. For professionals who want control over every parameter.
-
-- **+** Asynchronous weight streaming runs large models on 4 GB VRAM plus 8 GB RAM
-- **+** Workflows saved as JSON and recoverable from generated media metadata
-- **+** Runs fully offline; --offline disables the paid API nodes
-- **+** Loads checkpoints, separate diffusion models, VAEs, text encoders, LoRAs, ControlNets
-- **−** Commits outside stable tags can break many custom nodes; stable releases roughly biweekly
-- **−** GPL-3.0 license constrains embedding in proprietary products
-- **−** NVIDIA 20-series and newer require PyTorch built with CUDA 13.0 or above
-- **−** Paid partner and API nodes stay on unless --offline or --disable-partner-nodes is set
-
-<sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/Comfy-Org/ComfyUI) · [📖 Docs](https://docs.comfy.org/) · [🌐 Site](https://www.comfy.org/)</sub>
-
 <a name="moneyprinterturbo"></a>
-### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) <sub>⭐ 129k · MIT · Oct 2026</sub>
+### 🥇 87 [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) <sub>⭐ 129k · MIT · Oct 2026</sub>
 
 **Generates short videos from a topic with script, footage, voice and subtitles.**
 
@@ -39,7 +21,7 @@ Takes a topic or keywords, writes a script with an LLM (OpenAI, Claude, Gemini, 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs LLM API (OpenAI-compatible) or Ollama, Stock footage API (Pexels, Pixabay, Coverr) or a video generation API · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Qwen (DashScope) · [Repo](https://github.com/harry0703/MoneyPrinterTurbo)</sub>
 
 <a name="pixelle-video"></a>
-### 🥉 [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) <sub>⭐ 29k · Apache-2.0 · Jun 2026</sub>
+### 🥇 81 [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) <sub>⭐ 29k · Apache-2.0 · Jun 2026</sub>
 
 **Topic-to-short-video pipeline built on ComfyUI workflows and TTS.**
 
@@ -56,26 +38,8 @@ Turns a topic into a short video: an LLM (GPT, Qwen, DeepSeek, Ollama) writes th
 
 <sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ATH-MaaS/Pixelle-Video) · [📖 Docs](https://aidc-ai.github.io/Pixelle-Video/zh)</sub>
 
-<a name="invokeai"></a>
-### 4 [InvokeAI](https://github.com/invoke-ai/InvokeAI) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
-
-**Canvas-first web UI for Stable Diffusion and Flux image generation.**
-
-Local web server and React UI for image generation with a Unified Canvas (inpainting, outpainting, brushes), a node-based workflow editor and a boards gallery with per-image metadata. Loads SD 1.5 to SD 3.5, SDXL, Flux.1 and Flux.2 variants, Qwen Image, Z-Image, Krea 2 and CogView 4 in ckpt, diffusers and some GGUF formats; Nano Banana, GPT Image and Wan are API-only. For artists iterating on images.
-
-- **+** Unified Canvas with in/outpainting, brush tools and SAM/SAM2 segmentation
-- **+** Broad model list including Flux.2 Dev and Klein, SD 3.5 Large, Qwen Image Edit
-- **+** Apache-2.0 license; serves as the base for commercial products
-- **+** Dedicated launcher application handles install and updates
-- **−** No Dockerfile or compose file at the repo root; install goes through the Launcher
-- **−** README lists features only; ports, hardware needs and env vars are in external docs
-- **−** Video generation (Wan) is API-only, not local
-- **−** Nano Banana and GPT Image require third-party API access
-
-<sub>Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/InvokeAI) · [📖 Docs](https://invoke.ai/start-here/installation/) · [🌐 Site](https://invoke.ai)</sub>
-
 <a name="kohya-ss"></a>
-### 5 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>⭐ 13k · Apache-2.0 · Jul 2026</sub>
+### 🥈 75 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>⭐ 13k · Apache-2.0 · Jul 2026</sub>
 
 **Gradio GUI and CLI for Kohya diffusion training scripts.**
 
@@ -92,26 +56,8 @@ Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for Lo
 
 <sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss)</sub>
 
-<a name="ai-toolkit"></a>
-### 6 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>⭐ 12k · MIT · Sep 2026</sub>
-
-**Training suite and web UI for image, video and audio diffusion models.**
-
-Trains LoRA, LoKr and full fine-tunes for FLUX.1 and FLUX.2, Chroma, Qwen-Image, HiDream, Z-Image, SDXL, SD 1.5, Wan 2.1 and 2.2, LTX-2 and ACE-Step from YAML configs, with a web UI on port 8675 to start, stop and monitor jobs. A manager script detects hardware, installs PyTorch, Node.js and FFmpeg inside the repo folder and keeps the install updated. For people fine-tuning current open models on NVIDIA GPUs.
-
-- **+** Supports 30 image, 12 video and 3 audio models, including FLUX.2 and LTX-2.5
-- **+** Experimental manager sets up PyTorch, Node.js and FFmpeg without system-wide installs
-- **+** UI can be locked with AI_TOOLKIT_AUTH; jobs keep running without the UI
-- **+** Layer targeting via only_if_contains and ignore_if_contains network kwargs
-- **−** NVIDIA GPU required; the example FLUX LoRA configs assume 24 GB VRAM
-- **−** No Dockerfile at the root; the manager install is marked experimental
-- **−** Pressing Ctrl+C during a checkpoint save can corrupt it
-- **−** Apple Silicon support is experimental; datasets limited to jpg, jpeg and png
-
-<sub>GPU required · Compose · Needs Node.js 20+ (UI), FFmpeg, git · Models: FLUX.1-dev, FLUX.2-dev and klein 4B/9B, Flex.1 and Flex.2, Chroma, Lumina-Image-2.0 · port 8675 · [Repo](https://github.com/ostris/ai-toolkit)</sub>
-
 <a name="fluxgym"></a>
-### 7 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>⭐ 3.3k · MIT · Jul 2026</sub>
+### 🥈 68 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>⭐ 3.3k · MIT · Jul 2026</sub>
 
 **Web UI for training FLUX LoRAs on 12 to 20 GB GPUs.**
 
@@ -128,8 +74,44 @@ Gradio front end (forked from AI-Toolkit) over Kohya sd-scripts that trains FLUX
 
 <sub>GPU required · Docker + Compose · Needs kohya-ss/sd-scripts (sd3 branch) · Models: Flux1-dev, Flux1-dev2pro, Flux1-schnell, custom bases via models.yaml · port 7860 · [Repo](https://github.com/cocktailpeanut/fluxgym)</sub>
 
+<a name="comfyui"></a>
+### 🥉 55 [ComfyUI](https://github.com/Comfy-Org/ComfyUI) <sub>⭐ 137k · GPL-3.0 · Oct 2026</sub>
+
+**Node-graph engine for diffusion image, video, audio and 3D models.**
+
+Builds generation pipelines as a visual node graph and runs them locally for image (SD 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image), video (Wan 2.x, LTX-Video, HunyuanVideo), audio (ACE-Step, Stable Audio) and 3D (Hunyuan3D) models, with a local API and an App Mode that exposes a workflow as a simple UI. Runs on NVIDIA, AMD, Intel, Apple Silicon and Ascend. For professionals who want control over every parameter.
+
+- **+** Asynchronous weight streaming runs large models on 4 GB VRAM plus 8 GB RAM
+- **+** Workflows saved as JSON and recoverable from generated media metadata
+- **+** Runs fully offline; --offline disables the paid API nodes
+- **+** Loads checkpoints, separate diffusion models, VAEs, text encoders, LoRAs, ControlNets
+- **−** Commits outside stable tags can break many custom nodes; stable releases roughly biweekly
+- **−** GPL-3.0 license constrains embedding in proprietary products
+- **−** NVIDIA 20-series and newer require PyTorch built with CUDA 13.0 or above
+- **−** Paid partner and API nodes stay on unless --offline or --disable-partner-nodes is set
+
+<sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/Comfy-Org/ComfyUI) · [📖 Docs](https://docs.comfy.org/) · [🌐 Site](https://www.comfy.org/)</sub>
+
+<a name="ai-toolkit"></a>
+### 53 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>⭐ 12k · MIT · Sep 2026</sub>
+
+**Training suite and web UI for image, video and audio diffusion models.**
+
+Trains LoRA, LoKr and full fine-tunes for FLUX.1 and FLUX.2, Chroma, Qwen-Image, HiDream, Z-Image, SDXL, SD 1.5, Wan 2.1 and 2.2, LTX-2 and ACE-Step from YAML configs, with a web UI on port 8675 to start, stop and monitor jobs. A manager script detects hardware, installs PyTorch, Node.js and FFmpeg inside the repo folder and keeps the install updated. For people fine-tuning current open models on NVIDIA GPUs.
+
+- **+** Supports 30 image, 12 video and 3 audio models, including FLUX.2 and LTX-2.5
+- **+** Experimental manager sets up PyTorch, Node.js and FFmpeg without system-wide installs
+- **+** UI can be locked with AI_TOOLKIT_AUTH; jobs keep running without the UI
+- **+** Layer targeting via only_if_contains and ignore_if_contains network kwargs
+- **−** NVIDIA GPU required; the example FLUX LoRA configs assume 24 GB VRAM
+- **−** No Dockerfile at the root; the manager install is marked experimental
+- **−** Pressing Ctrl+C during a checkpoint save can corrupt it
+- **−** Apple Silicon support is experimental; datasets limited to jpg, jpeg and png
+
+<sub>GPU required · Compose · Needs Node.js 20+ (UI), FFmpeg, git · Models: FLUX.1-dev, FLUX.2-dev and klein 4B/9B, Flex.1 and Flex.2, Chroma, Lumina-Image-2.0 · port 8675 · [Repo](https://github.com/ostris/ai-toolkit)</sub>
+
 <a name="biniou"></a>
-### 8 [biniou](https://github.com/Woolverine94/biniou) <sub>⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
+### 45 [biniou](https://github.com/Woolverine94/biniou) <sub>⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
 
 **Chat, image, audio, video and 3D generation in one CPU-friendly web UI.**
 
@@ -145,5 +127,23 @@ Gradio web UI bundling 30+ modules: llama.cpp chat and LLaVA with GGUF models, W
 - **−** GPL-3.0 license; macOS Intel support is experimental
 
 <sub>RAM ≥ 8 GB · GPU optional · Docker · Needs ffmpeg, git, gcc, perl, openssl · Models: GGUF LLMs via llama.cpp, LLaVA GGUF, Whisper, NLLB-200, SD 1.5/2.1/Turbo · [Repo](https://github.com/Woolverine94/biniou) · [📖 Docs](https://github.com/Woolverine94/biniou/wiki)</sub>
+
+<a name="invokeai"></a>
+### 43 [InvokeAI](https://github.com/invoke-ai/InvokeAI) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
+
+**Canvas-first web UI for Stable Diffusion and Flux image generation.**
+
+Local web server and React UI for image generation with a Unified Canvas (inpainting, outpainting, brushes), a node-based workflow editor and a boards gallery with per-image metadata. Loads SD 1.5 to SD 3.5, SDXL, Flux.1 and Flux.2 variants, Qwen Image, Z-Image, Krea 2 and CogView 4 in ckpt, diffusers and some GGUF formats; Nano Banana, GPT Image and Wan are API-only. For artists iterating on images.
+
+- **+** Unified Canvas with in/outpainting, brush tools and SAM/SAM2 segmentation
+- **+** Broad model list including Flux.2 Dev and Klein, SD 3.5 Large, Qwen Image Edit
+- **+** Apache-2.0 license; serves as the base for commercial products
+- **+** Dedicated launcher application handles install and updates
+- **−** No Dockerfile or compose file at the repo root; install goes through the Launcher
+- **−** README lists features only; ports, hardware needs and env vars are in external docs
+- **−** Video generation (Wan) is API-only, not local
+- **−** Nano Banana and GPT Image require third-party API access
+
+<sub>Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/InvokeAI) · [📖 Docs](https://invoke.ai/start-here/installation/) · [🌐 Site](https://invoke.ai)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

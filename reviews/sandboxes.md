@@ -2,8 +2,26 @@
 
 Isolated runtimes where agents execute code, browse or use tools safely. Back to the [leaderboard](../README.md#-sandboxes).
 
+<a name="browser-use-web-ui"></a>
+### 🥈 74 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>⭐ 17k · MIT · May 2026</sub>
+
+**Gradio UI for running browser-use agents with your own Chrome.**
+
+Gradio front end over the browser-use library that takes a task, drives a Playwright browser with an LLM (Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek or Ollama) and shows the run. Can attach to your own Chrome profile to reuse logins, keep the browser open between tasks and record video. Runs with uv and Python 3.11 on port 7788, or via docker compose with a noVNC viewer on port 6080.
+
+- **+** Own-browser mode reuses existing Chrome logins and cookies
+- **+** Docker compose includes noVNC so you can watch the agent at localhost:6080
+- **+** Persistent browser sessions keep history visible between tasks
+- **+** Supports Ollama and DeepSeek-R1 alongside cloud providers
+- **−** Changelog stops in January 2025; last commit May 2026
+- **−** Default VNC password is published in the README; change VNC_PASSWORD
+- **−** Own-browser mode requires closing all Chrome windows and using another browser for the UI
+- **−** Gradio single-user UI; no auth or multi-user features described
+
+<sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs](https://docs.browser-use.com)</sub>
+
 <a name="lightpanda"></a>
-### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>⭐ 36k · AGPL-3.0 · Oct 2026</sub>
+### 🥈 73 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>⭐ 36k · AGPL-3.0 · Oct 2026</sub>
 
 **Headless browser in Zig with CDP, MCP and an agent mode.**
 
@@ -21,7 +39,7 @@ Browser engine written in Zig (V8, libcurl, html5ever) with no graphical rendere
 <sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs](https://lightpanda.io/docs/usage/agent) · [🌐 Site](https://lightpanda.io)</sub>
 
 <a name="obscura"></a>
-### 🥈 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥈 72 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Rust headless browser with CDP, native rendering and stealth mode.**
 
@@ -38,8 +56,26 @@ Headless browser engine in Rust running V8 that speaks the Chrome DevTools Proto
 
 <sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs](https://docs.obscura.sh) · [🌐 Site](https://obscura.sh)</sub>
 
+<a name="steel-browser"></a>
+### 🥈 68 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
+
+**Browser API that manages Chrome sessions for Puppeteer, Playwright and Selenium.**
+
+REST API and UI on port 3000 that launches Chrome sessions with persisted cookies and storage, proxy chains, stealth plugins and request logging, then hands you a CDP endpoint for Puppeteer or Playwright or a WebDriver endpoint for Selenium. Quick-action endpoints return a page as HTML, markdown, screenshot or PDF. Runs from a prebuilt ghcr.io image or docker compose; Node and Python SDKs target cloud or self-hosted instances.
+
+- **+** One image serves API, UI and console debugger (ports 3000 and 9223)
+- **+** Session API persists cookies and storage; Selenium sessions via isSelenium
+- **+** Swagger UI at /documentation on the local instance
+- **+** Node and Python SDKs switch between cloud and self-host with baseURL
+- **−** Public beta; API still changing
+- **−** Runs full Chrome; needs a Chrome executable when run outside Docker
+- **−** Selenium integration lacks some features of the CDP session API
+- **−** Apple Silicon compose needs DOCKER_DEFAULT_PLATFORM=linux/arm64
+
+<sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs](https://docs.steel.dev/) · [🌐 Site](https://steel.dev)</sub>
+
 <a name="nemoclaw"></a>
-### 🥉 [NemoClaw](https://github.com/NVIDIA/NemoClaw) <sub>⭐ 23k · Apache-2.0 · Oct 2026</sub>
+### 🥈 65 [NemoClaw](https://github.com/NVIDIA/NemoClaw) <sub>⭐ 23k · Apache-2.0 · Oct 2026</sub>
 
 **NVIDIA reference stack running OpenClaw and Hermes inside OpenShell sandboxes.**
 
@@ -56,26 +92,26 @@ CLI and installer that provision OpenShell sandboxes for OpenClaw (default), Her
 
 <sub>no GPU · Docker · Needs NVIDIA OpenShell, Inference provider (local or routed) · Models: providers configured through OpenShell routed inference · [Repo](https://github.com/NVIDIA/NemoClaw) · [📖 Docs](https://docs.nvidia.com/nemoclaw/latest/)</sub>
 
-<a name="browser-use-web-ui"></a>
-### 4 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>⭐ 17k · MIT · May 2026</sub>
+<a name="open-terminal"></a>
+### 45 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>⭐ 3.3k · MIT · Sep 2026</sub>
 
-**Gradio UI for running browser-use agents with your own Chrome.**
+**REST-driven shell and file sandbox for AI agents, from Open WebUI.**
 
-Gradio front end over the browser-use library that takes a task, drives a Playwright browser with an LLM (Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek or Ollama) and shows the run. Can attach to your own Chrome profile to reuse logins, keep the browser open between tasks and record video. Runs with uv and Python 3.11 on port 7788, or via docker compose with a noVNC viewer on port 6080.
+Container or pip package exposing a shell and file management over a REST API with an API key on port 8000, so agents can run commands and code. The latest image (about 4 GB) bundles Python, Node.js, gcc, ffmpeg, LibreOffice, LaTeX and the Docker CLI behind an egress firewall; slim (430 MB) and alpine (230 MB) variants keep git, curl and jq. Integrates with Open WebUI as a terminal with a file sidebar.
 
-- **+** Own-browser mode reuses existing Chrome logins and cookies
-- **+** Docker compose includes noVNC so you can watch the agent at localhost:6080
-- **+** Persistent browser sessions keep history visible between tasks
-- **+** Supports Ollama and DeepSeek-R1 alongside cloud providers
-- **−** Changelog stops in January 2025; last commit May 2026
-- **−** Default VNC password is published in the README; change VNC_PASSWORD
-- **−** Own-browser mode requires closing all Chrome windows and using another browser for the UI
-- **−** Gradio single-user UI; no auth or multi-user features described
+- **+** API key auto-generated if unset; interactive API docs at /docs
+- **+** Extra apt, pip and npm packages installed at startup via env vars
+- **+** Four image variants from 230 MB alpine to a 4 GB full toolkit
+- **+** Office previews: DOCX and PPTX rendered to PDF when LibreOffice is present
+- **−** Multi-user mode shares one container and is explicitly not a security boundary
+- **−** Per-user isolation requires Terminals, which needs an Open WebUI Enterprise license
+- **−** Mounting the Docker socket gives the container root-equivalent host access
+- **−** Bare-metal mode runs commands directly as your user with no sandbox
 
-<sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs](https://docs.browser-use.com)</sub>
+<sub>no GPU · Docker · port 8000 · [Repo](https://github.com/open-webui/open-terminal)</sub>
 
 <a name="openshell"></a>
-### 5 [OpenShell](https://github.com/NVIDIA/OpenShell) <sub>⭐ 15k · Apache-2.0 · Oct 2026</sub>
+### 39 [OpenShell](https://github.com/NVIDIA/OpenShell) <sub>⭐ 15k · Apache-2.0 · Oct 2026</sub>
 
 **Policy-enforced sandbox runtime for autonomous agents with credential brokering.**
 
@@ -93,7 +129,7 @@ Runs each agent in a sandbox with kernel-enforced limits on file access and syst
 <sub>no GPU · Needs Docker, Podman or host virtualization · Models: any provider via routed inference credentials · [Repo](https://github.com/NVIDIA/OpenShell) · [📖 Docs](https://docs.nvidia.com/openshell/latest/index.html)</sub>
 
 <a name="microsandbox"></a>
-### 6 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
+### 38 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
 
 **Local microVMs for untrusted code with fork, snapshot and SDKs.**
 
@@ -109,41 +145,5 @@ Boots OCI images as hardware-isolated microVMs in under 100 ms on Linux with KVM
 - **−** Image pulls on first create add startup time
 
 <sub>no GPU · Needs KVM (Linux), Apple Silicon (macOS) or WHP (Windows) · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs](https://docs.microsandbox.dev/cli/overview)</sub>
-
-<a name="steel-browser"></a>
-### 7 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
-
-**Browser API that manages Chrome sessions for Puppeteer, Playwright and Selenium.**
-
-REST API and UI on port 3000 that launches Chrome sessions with persisted cookies and storage, proxy chains, stealth plugins and request logging, then hands you a CDP endpoint for Puppeteer or Playwright or a WebDriver endpoint for Selenium. Quick-action endpoints return a page as HTML, markdown, screenshot or PDF. Runs from a prebuilt ghcr.io image or docker compose; Node and Python SDKs target cloud or self-hosted instances.
-
-- **+** One image serves API, UI and console debugger (ports 3000 and 9223)
-- **+** Session API persists cookies and storage; Selenium sessions via isSelenium
-- **+** Swagger UI at /documentation on the local instance
-- **+** Node and Python SDKs switch between cloud and self-host with baseURL
-- **−** Public beta; API still changing
-- **−** Runs full Chrome; needs a Chrome executable when run outside Docker
-- **−** Selenium integration lacks some features of the CDP session API
-- **−** Apple Silicon compose needs DOCKER_DEFAULT_PLATFORM=linux/arm64
-
-<sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs](https://docs.steel.dev/) · [🌐 Site](https://steel.dev)</sub>
-
-<a name="open-terminal"></a>
-### 8 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>⭐ 3.3k · MIT · Sep 2026</sub>
-
-**REST-driven shell and file sandbox for AI agents, from Open WebUI.**
-
-Container or pip package exposing a shell and file management over a REST API with an API key on port 8000, so agents can run commands and code. The latest image (about 4 GB) bundles Python, Node.js, gcc, ffmpeg, LibreOffice, LaTeX and the Docker CLI behind an egress firewall; slim (430 MB) and alpine (230 MB) variants keep git, curl and jq. Integrates with Open WebUI as a terminal with a file sidebar.
-
-- **+** API key auto-generated if unset; interactive API docs at /docs
-- **+** Extra apt, pip and npm packages installed at startup via env vars
-- **+** Four image variants from 230 MB alpine to a 4 GB full toolkit
-- **+** Office previews: DOCX and PPTX rendered to PDF when LibreOffice is present
-- **−** Multi-user mode shares one container and is explicitly not a security boundary
-- **−** Per-user isolation requires Terminals, which needs an Open WebUI Enterprise license
-- **−** Mounting the Docker socket gives the container root-equivalent host access
-- **−** Bare-metal mode runs commands directly as your user with no sandbox
-
-<sub>no GPU · Docker · port 8000 · [Repo](https://github.com/open-webui/open-terminal)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

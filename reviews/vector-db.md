@@ -2,8 +2,44 @@
 
 Vector stores and hybrid search engines for embeddings. Back to the [leaderboard](../README.md#-vector-databases).
 
+<a name="chroma"></a>
+### 🥇 87 [Chroma](https://github.com/chroma-core/chroma) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+
+**Embedding database with a four-function API for Python and JavaScript.**
+
+Chroma is an embedding database with a four-function API (create collection, add, query, get) that tokenizes, embeds and indexes documents itself or accepts your own vectors, with metadata and document filters. It runs in-memory or persisted from the Python or JavaScript client, or as a server via chroma run; the repo ships a Dockerfile and compose file. Chroma Cloud is the hosted serverless version.
+
+- **+** Four-function API: create collection, add, query, get
+- **+** Handles tokenization, embedding and indexing; own vectors optional
+- **+** Python and JavaScript clients; chroma run for client-server mode
+- **+** Weekly tagged releases on Mondays with hotfixes in between
+- **−** README is thin: no port, resource or auth guidance
+- **−** Hosted Chroma Cloud is the headline; self-hosting detail lives in docs
+- **−** Row-based API marked coming soon
+- **−** No multi-user auth described in the README
+
+<sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs](https://docs.trychroma.com/) · [🌐 Site](https://www.trychroma.com/)</sub>
+
+<a name="weaviate"></a>
+### 🥈 74 [Weaviate](https://github.com/weaviate/weaviate) <sub>⭐ 17k · NOASSERTION · Oct 2026</sub>
+
+**Go vector database with built-in vectorizers, hybrid search and RAG.**
+
+Weaviate is a Go vector database that stores objects with their vectors and serves hybrid BM25 plus semantic search, filtering, built-in RAG and reranking through REST, gRPC and GraphQL APIs. It can vectorize data at import using modules for OpenAI, Cohere, HuggingFace, Google or a local model2vec image, or accept precomputed vectors. Docker Compose runs it on ports 8080 and 50051; production adds multi-tenancy, replication and RBAC.
+
+- **+** Vectorizes at import with OpenAI, Cohere, HuggingFace, Google or a local model2vec container
+- **+** Hybrid BM25 plus vector, image search, filtering, RAG and reranking in one query
+- **+** Multi-tenancy, replication, RBAC, horizontal scaling and vector compression
+- **+** REST, gRPC and GraphQL with Python, TypeScript, Java, Go and C# clients
+- **−** Enterprise features in wl/ need a commercial license key; one image mixes both
+- **−** Vectorization needs a module container or external API keys
+- **−** No RAM or sizing guidance in the README
+- **−** Both REST 8080 and gRPC 50051 must be exposed
+
+<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [🧪 Demo](https://elysia.weaviate.io) · [📖 Docs](https://docs.weaviate.io)</sub>
+
 <a name="meilisearch"></a>
-### 🥇 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
+### 🥈 73 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
 
 **Rust search engine API with full-text, vector and hybrid search.**
 
@@ -21,7 +57,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 <sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [🧪 Demo](https://where2watch.meilisearch.com/) · [📖 Docs](https://www.meilisearch.com/docs) · [🌐 Site](https://www.meilisearch.com)</sub>
 
 <a name="milvus"></a>
-### 🥈 [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
+### 🥈 69 [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
 
 **Distributed vector database with dense, sparse and hybrid search at scale.**
 
@@ -39,7 +75,7 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 <sub>GPU optional · Compose · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [🧪 Demo](https://milvus.io/milvus-demos) · [📖 Docs](https://milvus.io/docs) · [🌐 Site](https://milvus.io/)</sub>
 
 <a name="qdrant"></a>
-### 🥉 [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### 🥈 66 [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -56,26 +92,8 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 
 <sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [🧪 Demo](https://qdrant.to/semantic-search-demo) · [📖 Docs](https://qdrant.tech/documentation/)</sub>
 
-<a name="chroma"></a>
-### 4 [Chroma](https://github.com/chroma-core/chroma) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
-
-**Embedding database with a four-function API for Python and JavaScript.**
-
-Chroma is an embedding database with a four-function API (create collection, add, query, get) that tokenizes, embeds and indexes documents itself or accepts your own vectors, with metadata and document filters. It runs in-memory or persisted from the Python or JavaScript client, or as a server via chroma run; the repo ships a Dockerfile and compose file. Chroma Cloud is the hosted serverless version.
-
-- **+** Four-function API: create collection, add, query, get
-- **+** Handles tokenization, embedding and indexing; own vectors optional
-- **+** Python and JavaScript clients; chroma run for client-server mode
-- **+** Weekly tagged releases on Mondays with hotfixes in between
-- **−** README is thin: no port, resource or auth guidance
-- **−** Hosted Chroma Cloud is the headline; self-hosting detail lives in docs
-- **−** Row-based API marked coming soon
-- **−** No multi-user auth described in the README
-
-<sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs](https://docs.trychroma.com/) · [🌐 Site](https://www.trychroma.com/)</sub>
-
 <a name="pgvector"></a>
-### 5 [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>
+### 🥉 59 [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>
 
 **PostgreSQL extension for vector similarity search with HNSW and IVFFlat.**
 
@@ -92,44 +110,8 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector)</sub>
 
-<a name="weaviate"></a>
-### 6 [Weaviate](https://github.com/weaviate/weaviate) <sub>⭐ 17k · NOASSERTION · Oct 2026</sub>
-
-**Go vector database with built-in vectorizers, hybrid search and RAG.**
-
-Weaviate is a Go vector database that stores objects with their vectors and serves hybrid BM25 plus semantic search, filtering, built-in RAG and reranking through REST, gRPC and GraphQL APIs. It can vectorize data at import using modules for OpenAI, Cohere, HuggingFace, Google or a local model2vec image, or accept precomputed vectors. Docker Compose runs it on ports 8080 and 50051; production adds multi-tenancy, replication and RBAC.
-
-- **+** Vectorizes at import with OpenAI, Cohere, HuggingFace, Google or a local model2vec container
-- **+** Hybrid BM25 plus vector, image search, filtering, RAG and reranking in one query
-- **+** Multi-tenancy, replication, RBAC, horizontal scaling and vector compression
-- **+** REST, gRPC and GraphQL with Python, TypeScript, Java, Go and C# clients
-- **−** Enterprise features in wl/ need a commercial license key; one image mixes both
-- **−** Vectorization needs a module container or external API keys
-- **−** No RAM or sizing guidance in the README
-- **−** Both REST 8080 and gRPC 50051 must be exposed
-
-<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [🧪 Demo](https://elysia.weaviate.io) · [📖 Docs](https://docs.weaviate.io)</sub>
-
-<a name="vespa"></a>
-### 7 [Vespa](https://github.com/vespa-engine/vespa) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
-
-**Serving engine for vectors, tensors, text and ML ranking at scale.**
-
-Vespa is a serving platform that indexes vectors, tensors, text and structured data, selects a subset at query time, evaluates machine-learned ranking models over it and returns results in under 100 ms while the corpus changes, across many nodes. The Java and C++ engine builds from this repo with a release every morning Monday to Thursday. Getting started and self-hosting live in docs.vespa.ai; Vespa Cloud is the hosted option.
-
-- **+** Vectors, tensors, text and structured data queried and ranked together
-- **+** Machine-learned ranking models evaluated at serving time
-- **+** Runs hundreds of thousands of queries per second on large internet services
-- **+** Sample applications repo plus detailed docs
-- **−** README covers building, not running; install details live in docs
-- **−** Heavy platform (Java and C++ engine) sized for multi-node clusters
-- **−** C++ builds require AlmaLinux 8; Java needs JDK 17 and Maven
-- **−** A new release every weekday morning Monday to Thursday; versions churn
-
-<sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs](https://docs.vespa.ai) · [🌐 Site](https://vespa.ai)</sub>
-
 <a name="helix-db"></a>
-### 8 [HelixDB](https://github.com/HelixDB/helix-db) <sub>⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
+### 49 [HelixDB](https://github.com/HelixDB/helix-db) <sub>⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
 
 **Rust graph database with native vector and BM25 search.**
 
@@ -147,7 +129,7 @@ HelixDB is a Rust database that combines a labeled property graph, approximate n
 <sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/HelixDB/helix-db) · [📖 Docs](https://docs.helix-db.com) · [🌐 Site](https://helix-db.com)</sub>
 
 <a name="marqo"></a>
-### 9 [Marqo](https://github.com/marqo-ai/marqo) <sub>⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
+### 36 [Marqo](https://github.com/marqo-ai/marqo) <sub>⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
 
 **Vector search engine with built-in embedding, now deprecated upstream.**
 
@@ -161,5 +143,23 @@ Marqo was a vector search engine that generated embeddings and stored them in on
 - **−** Only the commercial platform is maintained
 
 <sub>Compose · [Repo](https://github.com/marqo-ai/marqo) · [📖 Docs](https://docs.marqo.ai) · [🌐 Site](https://www.marqo.ai)</sub>
+
+<a name="vespa"></a>
+### 34 [Vespa](https://github.com/vespa-engine/vespa) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+
+**Serving engine for vectors, tensors, text and ML ranking at scale.**
+
+Vespa is a serving platform that indexes vectors, tensors, text and structured data, selects a subset at query time, evaluates machine-learned ranking models over it and returns results in under 100 ms while the corpus changes, across many nodes. The Java and C++ engine builds from this repo with a release every morning Monday to Thursday. Getting started and self-hosting live in docs.vespa.ai; Vespa Cloud is the hosted option.
+
+- **+** Vectors, tensors, text and structured data queried and ranked together
+- **+** Machine-learned ranking models evaluated at serving time
+- **+** Runs hundreds of thousands of queries per second on large internet services
+- **+** Sample applications repo plus detailed docs
+- **−** README covers building, not running; install details live in docs
+- **−** Heavy platform (Java and C++ engine) sized for multi-node clusters
+- **−** C++ builds require AlmaLinux 8; Java needs JDK 17 and Maven
+- **−** A new release every weekday morning Monday to Thursday; versions churn
+
+<sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs](https://docs.vespa.ai) · [🌐 Site](https://vespa.ai)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
