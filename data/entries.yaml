@@ -34,7 +34,7 @@ entries:
     audience: Self-hosters who want one assistant reachable from every chat app they use
     confidence: 0.8
     facts:
-      stars: 391627
+      stars: 391459
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -78,7 +78,7 @@ entries:
     audience: Developers who want an always-on agent on a VPS reachable from chat apps
     confidence: 0.8
     facts:
-      stars: 252157
+      stars: 251997
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -121,7 +121,7 @@ entries:
     audience: Developers wanting a small, readable agent gateway they can extend
     confidence: 0.85
     facts:
-      stars: 48869
+      stars: 48873
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-09-15
@@ -169,7 +169,7 @@ entries:
     audience: Teams running bots on Chinese and global IM platforms
     confidence: 0.8
     facts:
-      stars: 41562
+      stars: 41565
       license: AGPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-10-01
@@ -262,7 +262,7 @@ entries:
     audience: Users wanting a local-first assistant with Qwen models and Chinese chat apps
     confidence: 0.8
     facts:
-      stars: 35510
+      stars: 35512
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-11
@@ -307,7 +307,7 @@ entries:
     audience: Tinkerers wanting an always-on agent on a Pi or home server with GPIO access
     confidence: 0.8
     facts:
-      stars: 32942
+      stars: 32943
       license: Apache-2.0
       last_commit: 2026-10-07
       last_release: 2026-09-05
@@ -359,7 +359,7 @@ entries:
     audience: Hobbyists running an agent on tiny SBCs, routers or old phones
     confidence: 0.85
     facts:
-      stars: 30018
+      stars: 30019
       license: MIT
       last_commit: 2026-08-19
       last_release: 2026-07-03
@@ -542,7 +542,7 @@ entries:
     audience: Teams and homelabs wanting a multi-user front end for local models
     confidence: 0.85
     facts:
-      stars: 154217
+      stars: 154041
       license: NOASSERTION
       last_commit: 2026-09-21
       last_release: 2026-09-21
@@ -637,7 +637,7 @@ entries:
     audience: Teams wanting a multi-agent workspace with an app-like UI
     confidence: 0.6
     facts:
-      stars: 83060
+      stars: 83063
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -695,7 +695,7 @@ entries:
     audience: Small teams and individuals wanting private document chat without extra services
     confidence: 0.85
     facts:
-      stars: 66824
+      stars: 66828
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-10-01
@@ -796,7 +796,7 @@ entries:
     audience: Hobbyists doing character and role-play chat with local or API models
     confidence: 0.8
     facts:
-      stars: 34224
+      stars: 34226
       license: AGPL-3.0
       last_commit: 2026-09-14
       last_release: 2026-09-14
@@ -845,7 +845,7 @@ entries:
     audience: Teams wanting an internal search and chat layer over company apps
     confidence: 0.8
     facts:
-      stars: 32357
+      stars: 32359
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -895,7 +895,7 @@ entries:
     audience: Hermes Agent users who want a browser UI over SSH or Tailscale
     confidence: 0.8
     facts:
-      stars: 18811
+      stars: 18814
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-08-14
@@ -1143,7 +1143,7 @@ entries:
     audience: Small groups wanting a basic shared ChatGPT-style client
     confidence: 0.4
     facts:
-      stars: 1624
+      stars: 1625
       license: MIT
       last_commit: 2026-05-11
       last_release: 2023-09-07
@@ -1186,7 +1186,7 @@ entries:
     audience: Teams automating business workflows that include LLM steps
     confidence: 0.8
     facts:
-      stars: 206886
+      stars: 206715
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -1227,7 +1227,7 @@ entries:
     audience: Non-developers and teams wanting scheduled agents over SaaS tools
     confidence: 0.7
     facts:
-      stars: 187684
+      stars: 187484
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -1273,7 +1273,7 @@ entries:
     audience: Product teams building LLM apps and RAG workflows without heavy code
     confidence: 0.85
     facts:
-      stars: 158094
+      stars: 157921
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-09-10
@@ -1312,7 +1312,7 @@ entries:
     audience: Developers prototyping agent flows who want Python under the hood
     confidence: 0.8
     facts:
-      stars: 155577
+      stars: 155402
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -1352,7 +1352,7 @@ entries:
     audience: People running several coding agents who want tickets, budgets and oversight
     confidence: 0.7
     facts:
-      stars: 98747
+      stars: 98769
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -1395,7 +1395,7 @@ entries:
     audience: Software teams delegating issues to coding agents with human review
     confidence: 0.8
     facts:
-      stars: 52196
+      stars: 52198
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-01
@@ -1481,7 +1481,7 @@ entries:
     audience: Teams building document Q&A bots and workflows, especially in Chinese markets
     confidence: 0.75
     facts:
-      stars: 29788
+      stars: 29789
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-09-30
@@ -1521,7 +1521,7 @@ entries:
     audience: Teams replacing Zapier who want their integrations exposed to LLM clients
     confidence: 0.75
     facts:
-      stars: 24952
+      stars: 24953
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -1562,7 +1562,7 @@ entries:
     audience: Developers automating form filling and data extraction on third-party sites
     confidence: 0.85
     facts:
-      stars: 23157
+      stars: 23158
       license: AGPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-10-01
@@ -1604,7 +1604,7 @@ entries:
     audience: Tinkerers who want an agent with desktop software and a shell, sandboxed
     confidence: 0.8
     facts:
-      stars: 19399
+      stars: 19398
       license: NOASSERTION
       last_commit: 2026-09-23
       last_release: 2026-09-23
@@ -1687,7 +1687,7 @@ entries:
     audience: Developers adding persistent user memory to chatbots and agents
     confidence: 0.8
     facts:
-      stars: 66824
+      stars: 66829
       license: Apache-2.0
       last_commit: 2026-10-07
       last_release: 2026-09-25
@@ -1730,7 +1730,7 @@ entries:
     audience: Coding-agent users who want local, inspectable, verbatim session memory
     confidence: 0.85
     facts:
-      stars: 59468
+      stars: 59471
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-09-16
@@ -1777,7 +1777,7 @@ entries:
     audience: Teams wanting transparent, file-like memory shared across coding agents
     confidence: 0.8
     facts:
-      stars: 39425
+      stars: 39430
       license: AGPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-10-02
@@ -1821,7 +1821,7 @@ entries:
     audience: Developers building graph-backed memory for agents and company knowledge
     confidence: 0.85
     facts:
-      stars: 31705
+      stars: 31730
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -1868,7 +1868,7 @@ entries:
     audience: Developers who want temporal graph memory and can run a graph database
     confidence: 0.85
     facts:
-      stars: 31558
+      stars: 31560
       license: Apache-2.0
       last_commit: 2026-10-07
       last_release: 2026-09-08
@@ -1959,7 +1959,7 @@ entries:
     audience: Developers who run several coding agents and want shared session memory
     confidence: 0.75
     facts:
-      stars: 29243
+      stars: 29245
       license: Apache-2.0
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -2001,7 +2001,7 @@ entries:
     audience: Teams building multi-user agent memory with graph and vector stores
     confidence: 0.75
     facts:
-      stars: 11761
+      stars: 11763
       license: Apache-2.0
       last_commit: 2026-09-22
       last_release: 2026-09-23
@@ -2086,7 +2086,7 @@ entries:
     audience: Developers wanting dependency-free local memory across coding agents
     confidence: 0.8
     facts:
-      stars: 7090
+      stars: 7092
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-10-07
@@ -2177,7 +2177,7 @@ entries:
     audience: teams building document Q&A over complex enterprise files
     confidence: 0.8
     facts:
-      stars: 91839
+      stars: 91847
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-29
@@ -2219,7 +2219,7 @@ entries:
     audience: developers building private AI apps on local models
     confidence: 0.85
     facts:
-      stars: 57562
+      stars: 57561
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-06-18
@@ -2266,7 +2266,7 @@ entries:
     audience: developers wanting graph-based RAG with a ready server
     confidence: 0.75
     facts:
-      stars: 40017
+      stars: 40019
       license: MIT
       last_commit: 2026-09-26
       last_release: 2026-09-02
@@ -2309,7 +2309,7 @@ entries:
     audience: individual researchers who want a private NotebookLM
     confidence: 0.85
     facts:
-      stars: 39957
+      stars: 39959
       license: MIT
       last_commit: 2026-10-05
       last_release: 2026-10-04
@@ -2353,7 +2353,7 @@ entries:
     audience: teams needing a self-hosted enterprise knowledge assistant
     confidence: 0.8
     facts:
-      stars: 32599
+      stars: 32603
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-09-24
@@ -2409,7 +2409,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 51
+    score: 50
   - id: maxkb
     repo: 1Panel-dev/MaxKB
     name: MaxKB
@@ -2444,7 +2444,7 @@ entries:
     audience: companies building internal Q&A bots and customer service agents
     confidence: 0.7
     facts:
-      stars: 22919
+      stars: 22921
       license: GPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-09-03
@@ -2487,7 +2487,7 @@ entries:
     audience: data teams wanting NL-to-SQL analysis with local models
     confidence: 0.8
     facts:
-      stars: 20089
+      stars: 20090
       license: MIT
       last_commit: 2026-10-04
       last_release: 2026-08-26
@@ -2612,7 +2612,7 @@ entries:
     audience: Paperless-ngx users wanting automated tagging
     confidence: 0.7
     facts:
-      stars: 5968
+      stars: 5969
       license: MIT
       last_commit: 2026-03-31
       last_release: 2025-11-04
@@ -2748,7 +2748,7 @@ entries:
     audience: Paperless-ngx users who want better OCR and auto-tagging
     confidence: 0.85
     facts:
-      stars: 2745
+      stars: 2746
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-05
@@ -2831,7 +2831,7 @@ entries:
     audience: anyone wanting local models behind a simple API
     confidence: 0.85
     facts:
-      stars: 182572
+      stars: 182397
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -2872,7 +2872,7 @@ entries:
     audience: engineers who want a lean local inference server
     confidence: 0.85
     facts:
-      stars: 130686
+      stars: 130535
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-05
@@ -2913,7 +2913,7 @@ entries:
     audience: teams serving open models to many concurrent users
     confidence: 0.85
     facts:
-      stars: 93397
+      stars: 93403
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-05
@@ -2957,7 +2957,7 @@ entries:
     audience: self-hosters wanting one API for LLM, speech and image models
     confidence: 0.85
     facts:
-      stars: 49433
+      stars: 49434
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-02
@@ -3043,7 +3043,7 @@ entries:
     audience: teams serving LLMs and VLMs at scale on mixed hardware
     confidence: 0.75
     facts:
-      stars: 36879
+      stars: 36884
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-02
@@ -3219,7 +3219,7 @@ entries:
     facts:
       stars: 11057
       license: BSD-3-Clause
-      last_commit: 2026-10-07
+      last_commit: 2026-10-08
       last_release: 2026-09-30
       has_docker: false
       has_compose: false
@@ -3302,7 +3302,7 @@ entries:
     audience: teams serving LLMs and VLMs on NVIDIA or Ascend hardware
     confidence: 0.8
     facts:
-      stars: 8104
+      stars: 8103
       license: Apache-2.0
       last_commit: 2026-09-28
       last_release: 2026-09-28
@@ -3428,7 +3428,7 @@ entries:
     audience: PC users with AMD or NVIDIA hardware wanting a local API
     confidence: 0.8
     facts:
-      stars: 5843
+      stars: 5844
       license: Apache-2.0
       last_commit: 2026-10-07
       last_release: 2026-10-07
@@ -3595,7 +3595,7 @@ entries:
     audience: developers routing coding agents across many free and paid providers
     confidence: 0.7
     facts:
-      stars: 74205
+      stars: 74229
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-09-30
@@ -3636,7 +3636,7 @@ entries:
     audience: platform teams standardizing LLM access across providers
     confidence: 0.85
     facts:
-      stars: 60372
+      stars: 60379
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -3677,7 +3677,7 @@ entries:
     audience: teams needing resilient multi-provider routing with guardrails
     confidence: 0.8
     facts:
-      stars: 13148
+      stars: 13149
       license: MIT
       last_commit: 2026-05-25
       last_release: 2026-01-12
@@ -3805,7 +3805,7 @@ entries:
     audience: teams wanting a fast self-hosted gateway with governance
     confidence: 0.85
     facts:
-      stars: 8640
+      stars: 8644
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -3888,7 +3888,7 @@ entries:
     audience: platform teams securing MCP, A2A and LLM traffic
     confidence: 0.8
     facts:
-      stars: 5236
+      stars: 5238
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-02
@@ -4099,7 +4099,7 @@ entries:
     facts:
       stars: 1226
       license: MIT
-      last_commit: 2026-10-07
+      last_commit: 2026-10-08
       last_release: 2026-10-07
       has_docker: true
       has_compose: true
@@ -4138,7 +4138,7 @@ entries:
     audience: app developers needing instant search with semantic ranking
     confidence: 0.8
     facts:
-      stars: 59519
+      stars: 59520
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-01
@@ -4220,7 +4220,7 @@ entries:
     audience: developers wanting a filter-heavy vector store with gRPC
     confidence: 0.85
     facts:
-      stars: 34978
+      stars: 34980
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-10-05
@@ -4261,7 +4261,7 @@ entries:
     audience: developers prototyping RAG who want the simplest API
     confidence: 0.8
     facts:
-      stars: 29467
+      stars: 29468
       license: Apache-2.0
       last_commit: 2026-10-06
       last_release: 2026-05-05
@@ -4303,7 +4303,7 @@ entries:
     audience: teams already on Postgres who want vectors without a new database
     confidence: 0.9
     facts:
-      stars: 23275
+      stars: 23277
       license: NOASSERTION
       last_commit: 2026-10-01
       last_release: null
@@ -4514,7 +4514,7 @@ entries:
     audience: Hobbyists and studios training custom voices locally
     confidence: 0.8
     facts:
-      stars: 62533
+      stars: 62536
       license: MIT
       last_commit: 2026-10-08
       last_release: 2025-06-06
@@ -4564,7 +4564,7 @@ entries:
     audience: Individuals wanting local voice cloning, TTS and dictation
     confidence: 0.8
     facts:
-      stars: 56650
+      stars: 56657
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-04-25
@@ -4706,7 +4706,7 @@ entries:
     audience: Teams building voice agents on the OpenAI Realtime protocol
     confidence: 0.8
     facts:
-      stars: 13396
+      stars: 13397
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-06
@@ -4749,7 +4749,7 @@ entries:
     audience: Developers adding TTS to apps without a GPU
     confidence: 0.85
     facts:
-      stars: 9826
+      stars: 9828
       license: MIT
       last_commit: 2026-10-01
       last_release: 2026-09-24
@@ -4791,7 +4791,7 @@ entries:
     audience: Self-hosters wanting an OpenAI-style TTS endpoint
     confidence: 0.85
     facts:
-      stars: 5519
+      stars: 5520
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-09-10
@@ -4884,7 +4884,7 @@ entries:
     audience: Privacy-focused teams and individuals archiving meetings
     confidence: 0.85
     facts:
-      stars: 4071
+      stars: 4073
       license: AGPL-3.0
       last_commit: 2026-10-04
       last_release: 2026-10-04
@@ -5027,7 +5027,7 @@ entries:
     audience: Visual professionals running diffusion models locally
     confidence: 0.85
     facts:
-      stars: 136610
+      stars: 136437
       license: GPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-10-05
@@ -5082,7 +5082,7 @@ entries:
     audience: Creators automating short-form video production
     confidence: 0.75
     facts:
-      stars: 129349
+      stars: 129176
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-03
@@ -5137,7 +5137,7 @@ entries:
     audience: Creators who already run ComfyUI and want automated shorts
     confidence: 0.7
     facts:
-      stars: 28753
+      stars: 28754
       license: Apache-2.0
       last_commit: 2026-06-14
       last_release: 2026-01-27
@@ -5191,7 +5191,7 @@ entries:
     audience: Artists iterating on images with a canvas workflow
     confidence: 0.7
     facts:
-      stars: 28458
+      stars: 28463
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-27
@@ -5248,7 +5248,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 70
+    score: 68
   - id: ai-toolkit
     repo: ostris/ai-toolkit
     name: AI Toolkit
@@ -5303,7 +5303,7 @@ entries:
     facts:
       stars: 12234
       license: MIT
-      last_commit: 2026-09-27
+      last_commit: 2026-10-08
       last_release: null
       has_docker: false
       has_compose: true
@@ -5407,9 +5407,9 @@ entries:
     audience: Hobbyists wanting one install for many models on modest hardware
     confidence: 0.85
     facts:
-      stars: 1153
+      stars: 1154
       license: GPL-3.0
-      last_commit: 2026-10-07
+      last_commit: 2026-10-08
       last_release: null
       has_docker: true
       has_compose: false
@@ -5445,7 +5445,7 @@ entries:
     audience: Developers wanting an open terminal coding agent
     confidence: 0.65
     facts:
-      stars: 212339
+      stars: 212179
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -5494,7 +5494,7 @@ entries:
     audience: Teams running coding agents as a shared, always-on service
     confidence: 0.8
     facts:
-      stars: 90281
+      stars: 90286
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -5544,7 +5544,7 @@ entries:
     audience: Developers prototyping UIs from designs
     confidence: 0.85
     facts:
-      stars: 80088
+      stars: 80089
       license: MIT
       last_commit: 2026-07-30
       last_release: null
@@ -5728,10 +5728,10 @@ entries:
     audience: Developers running OpenCode who want multi-device control
     confidence: 0.8
     facts:
-      stars: 11283
+      stars: 11285
       license: MIT
       last_commit: 2026-10-08
-      last_release: 2026-10-04
+      last_release: 2026-10-08
       has_docker: true
       has_compose: true
       is_template: false
@@ -5773,7 +5773,7 @@ entries:
     audience: Engineering teams building an internal coding-agent service
     confidence: 0.75
     facts:
-      stars: 10821
+      stars: 10822
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -5864,7 +5864,7 @@ entries:
     audience: Teams feeding web content to RAG pipelines and agents
     confidence: 0.7
     facts:
-      stars: 189746
+      stars: 189578
       license: AGPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-06-19
@@ -5907,7 +5907,7 @@ entries:
     audience: Developers building scrapers and RAG ingestion pipelines
     confidence: 0.85
     facts:
-      stars: 85005
+      stars: 85009
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-09-23
@@ -5955,7 +5955,7 @@ entries:
     audience: Self-hosters replacing Perplexity with local models
     confidence: 0.85
     facts:
-      stars: 37141
+      stars: 37144
       license: MIT
       last_commit: 2026-09-01
       last_release: 2026-04-10
@@ -6001,7 +6001,7 @@ entries:
     audience: Analysts and developers automating long-form research
     confidence: 0.85
     facts:
-      stars: 29953
+      stars: 29956
       license: Apache-2.0
       last_commit: 2026-09-26
       last_release: 2026-09-26
@@ -6044,7 +6044,7 @@ entries:
     audience: Developers feeding web pages and documents to LLMs
     confidence: 0.8
     facts:
-      stars: 12127
+      stars: 12128
       license: Apache-2.0
       last_commit: 2026-05-22
       last_release: null
@@ -6139,7 +6139,7 @@ entries:
     audience: Self-hosters wanting a Perplexity-style search UI
     confidence: 0.85
     facts:
-      stars: 9157
+      stars: 9156
       license: Apache-2.0
       last_commit: 2026-10-04
       last_release: 2026-09-16
@@ -6226,7 +6226,7 @@ entries:
     audience: Teams debugging and evaluating LLM apps
     confidence: 0.85
     facts:
-      stars: 35528
+      stars: 35533
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -6267,7 +6267,7 @@ entries:
     audience: Teams wanting one platform for GenAI tracing and ML tracking
     confidence: 0.85
     facts:
-      stars: 28314
+      stars: 28315
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -6315,7 +6315,7 @@ entries:
     audience: Developers testing prompts and agents before release
     confidence: 0.8
     facts:
-      stars: 25816
+      stars: 25817
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -6356,7 +6356,7 @@ entries:
     audience: ML engineers moving LLM agents to production
     confidence: 0.85
     facts:
-      stars: 22450
+      stars: 22452
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -6403,7 +6403,7 @@ entries:
     audience: Engineers experimenting with and troubleshooting LLM apps
     confidence: 0.8
     facts:
-      stars: 11755
+      stars: 11757
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -6633,7 +6633,7 @@ entries:
     audience: Teams debugging browser and tool-using agents
     confidence: 0.85
     facts:
-      stars: 3362
+      stars: 3363
       license: Apache-2.0
       last_commit: 2026-09-13
       last_release: 2026-09-13
@@ -6775,7 +6775,7 @@ entries:
     audience: Teams wanting one platform from prototype to production
     confidence: 0.8
     facts:
-      stars: 2126
+      stars: 2128
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-10-05
@@ -6826,7 +6826,7 @@ entries:
     audience: Scraping and agent teams running many headless instances
     confidence: 0.85
     facts:
-      stars: 36131
+      stars: 36133
       license: AGPL-3.0
       last_commit: 2026-10-08
       last_release: 2024-07-16
@@ -6866,9 +6866,9 @@ entries:
     audience: Scrapers and agent builders replacing headless Chrome
     confidence: 0.85
     facts:
-      stars: 28697
+      stars: 28699
       license: Apache-2.0
-      last_commit: 2026-10-07
+      last_commit: 2026-10-08
       last_release: 2026-10-04
       has_docker: true
       has_compose: false
@@ -6910,7 +6910,7 @@ entries:
     audience: People running a personal agent with kernel-enforced isolation
     confidence: 0.7
     facts:
-      stars: 22685
+      stars: 22686
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: null
@@ -7001,7 +7001,7 @@ entries:
     audience: Platform teams running fleets of autonomous agents
     confidence: 0.8
     facts:
-      stars: 15444
+      stars: 15451
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-28
@@ -7042,7 +7042,7 @@ entries:
     audience: Teams running agent-generated code and untrusted jobs locally
     confidence: 0.85
     facts:
-      stars: 8609
+      stars: 8610
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-05
@@ -7177,7 +7177,7 @@ entries:
     audience: Developers and security teams automating app pentests locally or in CI
     confidence: 0.8
     facts:
-      stars: 67255
+      stars: 67272
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-05

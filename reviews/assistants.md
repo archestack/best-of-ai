@@ -3,7 +3,7 @@
 Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. Back to the [leaderboard](../README.md#-assistants).
 
 <a name="openclaw"></a>
-### 🥇 94 [OpenClaw](https://github.com/openclaw/openclaw) <sub>⭐ 392k · MIT · Oct 2026</sub>
+### 🥇 94 [OpenClaw](https://github.com/openclaw/openclaw) <sub>⭐ 391k · MIT · Oct 2026</sub>
 
 **Personal assistant gateway that answers in Discord, Slack, WhatsApp and Telegram.**
 

@@ -217,7 +217,7 @@ SurfSense indexes local PDFs, Office files and images into SQLite, answers with 
 <sub>no GPU · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · [Repo](https://github.com/MODSetter/SurfSense) · [📖 Docs ↗](https://www.surfsense.com/docs) · [🌐 Site ↗](https://www.surfsense.com/)</sub>
 
 <a name="kotaemon"></a>
-### 51 [Kotaemon](https://github.com/Cinnamon/kotaemon) <sub>⭐ 26k · Apache-2.0 · May 2026</sub>
+### 50 [Kotaemon](https://github.com/Cinnamon/kotaemon) <sub>⭐ 26k · Apache-2.0 · May 2026</sub>
 
 **Gradio RAG UI with hybrid retrieval, citations and multi-user login.**
 

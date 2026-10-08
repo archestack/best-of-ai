@@ -91,7 +91,7 @@ n8n is a fair-code workflow platform that runs as one Docker container (docker.n
 <sub>no GPU · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io)</sub>
 
 <a name="autogpt"></a>
-### 🥉 63 [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) <sub>⭐ 188k · NOASSERTION · Oct 2026</sub>
+### 🥉 63 [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) <sub>⭐ 187k · NOASSERTION · Oct 2026</sub>
 
 **Block-based builder for agents that run on demand, schedule or trigger.**
 
@@ -109,7 +109,7 @@ AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire bl
 <sub>no GPU · Needs Docker · [Repo](https://github.com/Significant-Gravitas/AutoGPT) · [▶️ Demo ↗](https://platform.agpt.co/tour) · [📖 Docs ↗](https://docs.agpt.co)</sub>
 
 <a name="langflow"></a>
-### 🥉 62 [Langflow](https://github.com/langflow-ai/langflow) <sub>⭐ 156k · MIT · Oct 2026</sub>
+### 🥉 62 [Langflow](https://github.com/langflow-ai/langflow) <sub>⭐ 155k · MIT · Oct 2026</sub>
 
 **Visual flow builder that deploys agents as APIs or MCP servers.**
 
