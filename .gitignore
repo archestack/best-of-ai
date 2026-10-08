@@ -1,0 +1,17 @@
+# Internal: plan, agent task board, progress notes. Never commit (public repo).
+.agents/
+.claude/progress.md
+.claude/settings.local.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node / build
+node_modules/
+dist/
+.astro/
+coverage/
+*.log
+.DS_Store
