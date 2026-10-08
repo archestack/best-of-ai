@@ -92,24 +92,6 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 
 <sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo ↗](https://qdrant.to/semantic-search-demo) · [📖 Docs ↗](https://qdrant.tech/documentation/)</sub>
 
-<a name="pgvector"></a>
-### 🥉 60 [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>
-
-**PostgreSQL extension for vector similarity search with HNSW and IVFFlat.**
-
-pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit and sparsevec column types with L2, inner product, cosine, L1, Hamming and Jaccard distance operators, exact search by default and HNSW or IVFFlat indexes for approximate search. Vectors sit beside ordinary rows with ACID, joins and backups, and Postgres full-text search can be combined for hybrid retrieval. It installs via make, Docker or OS packages.
-
-- **+** Vectors live next to relational data with ACID, joins and point-in-time recovery
-- **+** HNSW and IVFFlat indexes with six distance operators
-- **+** Half-precision, binary and sparse vector types plus binary quantization
-- **+** Installs via make, Docker, Homebrew, APT, Yum; preinstalled on many hosted Postgres
-- **−** vector type capped at 2,000 dimensions (halfvec 4,000)
-- **−** Approximate indexes filter after scanning; filtered recall needs iterative scan tuning
-- **−** HNSW builds slow down sharply once the graph exceeds maintenance_work_mem
-- **−** No server of its own; capacity depends on your Postgres tuning
-
-<sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector)</sub>
-
 <a name="helix-db"></a>
 ### 🥉 60 [HelixDB](https://github.com/HelixDB/helix-db) <sub>⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
 
@@ -128,8 +110,26 @@ HelixDB is a Rust database that combines a labeled property graph, approximate n
 
 <sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/HelixDB/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com)</sub>
 
+<a name="pgvector"></a>
+### 🥉 59 [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>
+
+**PostgreSQL extension for vector similarity search with HNSW and IVFFlat.**
+
+pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit and sparsevec column types with L2, inner product, cosine, L1, Hamming and Jaccard distance operators, exact search by default and HNSW or IVFFlat indexes for approximate search. Vectors sit beside ordinary rows with ACID, joins and backups, and Postgres full-text search can be combined for hybrid retrieval. It installs via make, Docker or OS packages.
+
+- **+** Vectors live next to relational data with ACID, joins and point-in-time recovery
+- **+** HNSW and IVFFlat indexes with six distance operators
+- **+** Half-precision, binary and sparse vector types plus binary quantization
+- **+** Installs via make, Docker, Homebrew, APT, Yum; preinstalled on many hosted Postgres
+- **−** vector type capped at 2,000 dimensions (halfvec 4,000)
+- **−** Approximate indexes filter after scanning; filtered recall needs iterative scan tuning
+- **−** HNSW builds slow down sharply once the graph exceeds maintenance_work_mem
+- **−** No server of its own; capacity depends on your Postgres tuning
+
+<sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector)</sub>
+
 <a name="vespa"></a>
-### 42 [Vespa](https://github.com/vespa-engine/vespa) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### 41 [Vespa](https://github.com/vespa-engine/vespa) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 

@@ -3,9 +3,9 @@
 <h3 align="center">Self-hosted AI, ranked. 🏆</h3>
 <p align="center">What runs on your own box, what it needs, where it breaks. No fluff, and paid never moves a rank.</p>
 <p align="center">
-  <img alt="projects" src="https://img.shields.io/badge/159_projects-ff6b6b?style=for-the-badge" />
+  <img alt="projects" src="https://img.shields.io/badge/160_projects-ff6b6b?style=for-the-badge" />
   <img alt="stars" src="https://img.shields.io/badge/6.0M_stars_combined-ffd166?style=for-the-badge" />
-  <img alt="categories" src="https://img.shields.io/badge/14_categories-5ac4bf?style=for-the-badge" />
+  <img alt="categories" src="https://img.shields.io/badge/15_categories-5ac4bf?style=for-the-badge" />
   <img alt="updated" src="https://img.shields.io/badge/updated-2026--10--08-8ac926?style=for-the-badge" />
 </p>
 
@@ -44,6 +44,7 @@
 - 🎨 *Generate images and video* → [Image and video](#-image-and-video)
 - 🔎 *Search that doesn't phone home* → [Search](#-search)
 - 📈 *See what my LLM app is actually doing* → [Observability](#-observability)
+- 🔐 *Find holes in my app before someone else does* → [Security](#-security)
 - 🛡️ *Let agents run code without wrecking my server* → [Sandboxes](#%EF%B8%8F-sandboxes)
 
 ## 🗂️ All categories
@@ -61,6 +62,7 @@
 - 🔎 [Search](#-search) · 8
 - 📈 [Observability](#-observability) · 13
 - 🧮 [Vector databases](#-vector-databases) · 9
+- 🔐 [Security](#-security) · 1
 - 🛡️ [Sandboxes](#%EF%B8%8F-sandboxes) · 8
 
 <sub>Legend: 🥇 80+ · 🥈 65–79 · 🥉 55–64 · number = score out of 100 ([how we rank](#-how-we-rank)) · ⭐ GitHub stars · 📝 review (strengths, weaknesses, specs) · ▶️ live demo · 📖 docs · 🌐 website (↗ = leaves GitHub; GitHub ignores target=_blank, so Cmd/Ctrl-click for a new tab) · 🐳 Docker image or compose · 🎮 GPU required · ✨ GPU optional</sub>
@@ -422,9 +424,9 @@ Vector stores and hybrid search engines for embeddings. <sub>9 projects · [📝
 | 🥈 76 | **[Milvus](https://github.com/milvus-io/milvus)** <sub>[📝 review](reviews/vector-db.md#milvus)</sub><br><sub>Distributed vector database with dense, sparse and hybrid search at scale</sub><br><sub>[▶️ Demo ↗](https://milvus.io/milvus-demos) · [📖 Docs ↗](https://milvus.io/docs) · [🌐 Site ↗](https://milvus.io/)</sub> | 46k | Apache-2.0 | 🐳 ✨ |
 | 🥈 74 | **[Meilisearch](https://github.com/meilisearch/meilisearch)** <sub>[📝 review](reviews/vector-db.md#meilisearch)</sub><br><sub>Rust search engine API with full-text, vector and hybrid search</sub><br><sub>[▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com)</sub> | 60k | custom | 🐳 |
 | 🥈 68 | **[Qdrant](https://github.com/qdrant/qdrant)** <sub>[📝 review](reviews/vector-db.md#qdrant)</sub><br><sub>Rust vector database with payload filtering, REST and gRPC</sub><br><sub>[▶️ Demo ↗](https://qdrant.to/semantic-search-demo) · [📖 Docs ↗](https://qdrant.tech/documentation/)</sub> | 35k | Apache-2.0 | 🐳 ✨ |
-| 🥉 60 | **[pgvector](https://github.com/pgvector/pgvector)** <sub>[📝 review](reviews/vector-db.md#pgvector)</sub><br><sub>PostgreSQL extension for vector similarity search with HNSW and IVFFlat</sub> | 23k | custom | 🐳 |
 | 🥉 60 | **[HelixDB](https://github.com/HelixDB/helix-db)** <sub>[📝 review](reviews/vector-db.md#helix-db)</sub><br><sub>Rust graph database with native vector and BM25 search</sub><br><sub>[📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com)</sub> | 6.1k | Apache-2.0 | 🐳 |
-| 42 | **[Vespa](https://github.com/vespa-engine/vespa)** <sub>[📝 review](reviews/vector-db.md#vespa)</sub><br><sub>Serving engine for vectors, tensors, text and ML ranking at scale</sub><br><sub>[📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai)</sub> | 7.1k | Apache-2.0 | – |
+| 🥉 59 | **[pgvector](https://github.com/pgvector/pgvector)** <sub>[📝 review](reviews/vector-db.md#pgvector)</sub><br><sub>PostgreSQL extension for vector similarity search with HNSW and IVFFlat</sub> | 23k | custom | 🐳 |
+| 41 | **[Vespa](https://github.com/vespa-engine/vespa)** <sub>[📝 review](reviews/vector-db.md#vespa)</sub><br><sub>Serving engine for vectors, tensors, text and ML ranking at scale</sub><br><sub>[📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai)</sub> | 7.1k | Apache-2.0 | – |
 | 38 | **[Marqo](https://github.com/marqo-ai/marqo)** <sub>[📝 review](reviews/vector-db.md#marqo)</sub><br><sub>Vector search engine with built-in embedding, now deprecated upstream</sub><br><sub>[📖 Docs ↗](https://docs.marqo.ai) · [🌐 Site ↗](https://www.marqo.ai)</sub> | 5.0k | Apache-2.0 | 🐳 |
 
 <details><summary>💡 How to choose</summary>
@@ -432,6 +434,24 @@ Vector stores and hybrid search engines for embeddings. <sub>9 projects · [📝
 - If you already run Postgres, check pgvector-based options before adding a new database.
 - Hybrid search (keyword + vector) and filtering are where engines differ most.
 - Check memory use per million vectors; it decides the host size.
+
+</details>
+
+<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
+
+## 🔐 Security
+
+AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. <sub>1 projects · [📝 all reviews](reviews/security.md)</sub>
+
+| # | Project | ⭐ | 📄 | 🚀 |
+|:-:|---|--:|---|---|
+| 🥉 59 | **[Strix](https://github.com/usestrix/strix)** <sub>[📝 review](reviews/security.md#strix)</sub><br><sub>Autonomous AI pentesting agents that validate findings with working exploits</sub><br><sub>[📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai)</sub> | 67k | Apache-2.0 | – |
+
+<details><summary>💡 How to choose</summary>
+
+- Run them only against targets you own or are authorized to test; check the tool's scope controls.
+- Check which model backends are supported and whether findings stay on your host.
+- Look at how exploitation is sandboxed (containers, VMs) before pointing it at production.
 
 </details>
 
@@ -493,7 +513,7 @@ Every project gets a score out of 100 from the signals below. A signal the bots 
 
 <details><summary>📚 Where candidates come from</summary>
 
-These lists, app stores and galleries (facts and links only, no text copied), plus community submissions: [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) · [awesome-local-llm](https://github.com/rafska/awesome-local-llm) · [compose-examples](https://github.com/Haxxnet/Compose-Examples) · [awesome-homelab](https://github.com/AwesomeHomelab/awesome-homelab) · [self-hosting-guide](https://github.com/mikeroyal/Self-Hosting-Guide) · [awesome-ai-agent-platforms](https://github.com/Agenta-AI/awesome-ai-agent-platforms) · [awesome-openclaw](https://github.com/alvinreal/awesome-openclaw) · [umbrel-apps](https://github.com/getumbrel/umbrel-apps) · [runtipi-appstore](https://github.com/runtipi/runtipi-appstore) · [casaos-appstore](https://github.com/IceWhaleTech/CasaOS-AppStore) · [dokploy-templates](https://templates.dokploy.com/meta.json) · [awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai) · [awesome-llm-services](https://github.com/av/awesome-llm-services) · [awesome-llmops](https://github.com/tensorchord/Awesome-LLMOps) · [awesome-private-ai](https://github.com/tdi/awesome-private-ai) · [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) · [awesome-llm-webapps](https://github.com/icefort-ai/awesome-llm-webapps).
+These lists, app stores and galleries (facts and links only, no text copied), plus community submissions: [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) · [awesome-local-llm](https://github.com/rafska/awesome-local-llm) · [compose-examples](https://github.com/Haxxnet/Compose-Examples) · [awesome-homelab](https://github.com/AwesomeHomelab/awesome-homelab) · [self-hosting-guide](https://github.com/mikeroyal/Self-Hosting-Guide) · [awesome-ai-agent-platforms](https://github.com/Agenta-AI/awesome-ai-agent-platforms) · [awesome-openclaw](https://github.com/alvinreal/awesome-openclaw) · [umbrel-apps](https://github.com/getumbrel/umbrel-apps) · [runtipi-appstore](https://github.com/runtipi/runtipi-appstore) · [casaos-appstore](https://github.com/IceWhaleTech/CasaOS-AppStore) · [dokploy-templates](https://templates.dokploy.com/meta.json) · [gh-search-self-hosted-ai](https://github.com/search?type=repositories&q=topic%3Aself-hosted%20topic%3Aai%20stars%3A%3E300) · [gh-search-ai-agents](https://github.com/search?type=repositories&q=topic%3Aai-agents%20stars%3A%3E2000) · [gh-search-llm-apps](https://github.com/search?type=repositories&q=topic%3Allm%20topic%3Adocker%20stars%3A%3E500) · [gh-search-ai-security](https://github.com/search?type=repositories&q=topic%3Aai-security%20stars%3A%3E500) · [awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai) · [awesome-llm-services](https://github.com/av/awesome-llm-services) · [awesome-llmops](https://github.com/tensorchord/Awesome-LLMOps) · [awesome-private-ai](https://github.com/tdi/awesome-private-ai) · [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) · [awesome-llm-webapps](https://github.com/icefort-ai/awesome-llm-webapps) · [0xsojalsec-llms-local](https://github.com/0xSojalSec/LLMs-local) · [inftyai-awesome-llmops](https://github.com/InftyAI/Awesome-LLMOps) · [bradagi-awesome-cli-coding-agents](https://github.com/bradAGI/awesome-cli-coding-agents).
 
 </details>
 

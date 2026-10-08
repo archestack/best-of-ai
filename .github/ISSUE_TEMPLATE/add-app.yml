@@ -28,6 +28,7 @@ body:
         - search
         - observability
         - vector-db
+        - security
         - sandboxes
         - not sure
     validations:
