@@ -21,7 +21,7 @@ LocalAI is a Go server on port 8080 with OpenAI, Anthropic, ElevenLabs and Ollam
 <sub>GPU optional · Docker + Compose · Needs PostgreSQL and NATS (distributed mode only) · Models: GGUF via llama.cpp, vLLM, SGLang, transformers, MLX, diffusers, whisper.cpp backends, models from gallery, Hugging Face, Ollama registry, OCI images, YAML · port 8080 · [Repo](https://github.com/mudler/LocalAI) · [📖 Docs ↗](https://localai.io/basics/getting_started/) · [🌐 Site ↗](https://localai.io/)</sub>
 
 <a name="ollama"></a>
-### 🥈 79 [Ollama](https://github.com/ollama/ollama) <sub>⭐ 183k · MIT · Oct 2026</sub>
+### 🥈 79 [Ollama](https://github.com/ollama/ollama) <sub>⭐ 182k · MIT · Oct 2026</sub>
 
 **Runs open-weight models locally behind a CLI and REST API.**
 

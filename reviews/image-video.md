@@ -21,7 +21,7 @@ Takes a topic or keywords, writes a script with an LLM (OpenAI, Claude, Gemini, 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs LLM API (OpenAI-compatible) or Ollama, Stock footage API (Pexels, Pixabay, Coverr) or a video generation API · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Qwen (DashScope) · [Repo](https://github.com/harry0703/MoneyPrinterTurbo)</sub>
 
 <a name="kohya-ss"></a>
-### 🥈 70 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>⭐ 13k · Apache-2.0 · Jul 2026</sub>
+### 🥈 68 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>⭐ 13k · Apache-2.0 · Jul 2026</sub>
 
 **Gradio GUI and CLI for Kohya diffusion training scripts.**
 
@@ -57,7 +57,7 @@ Turns a topic into a short video: an LLM (GPT, Qwen, DeepSeek, Ollama) writes th
 <sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ATH-MaaS/Pixelle-Video) · [📖 Docs ↗](https://aidc-ai.github.io/Pixelle-Video/zh)</sub>
 
 <a name="comfyui"></a>
-### 🥉 60 [ComfyUI](https://github.com/Comfy-Org/ComfyUI) <sub>⭐ 137k · GPL-3.0 · Oct 2026</sub>
+### 🥉 60 [ComfyUI](https://github.com/Comfy-Org/ComfyUI) <sub>⭐ 136k · GPL-3.0 · Oct 2026</sub>
 
 **Node-graph engine for diffusion image, video, audio and 3D models.**
 
@@ -93,7 +93,7 @@ Gradio front end (forked from AI-Toolkit) over Kohya sd-scripts that trains FLUX
 <sub>GPU required · Docker + Compose · Needs kohya-ss/sd-scripts (sd3 branch) · Models: Flux1-dev, Flux1-dev2pro, Flux1-schnell, custom bases via models.yaml · port 7860 · [Repo](https://github.com/cocktailpeanut/fluxgym)</sub>
 
 <a name="ai-toolkit"></a>
-### 🥉 55 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>⭐ 12k · MIT · Sep 2026</sub>
+### 🥉 55 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>⭐ 12k · MIT · Oct 2026</sub>
 
 **Training suite and web UI for image, video and audio diffusion models.**
 
