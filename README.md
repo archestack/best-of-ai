@@ -10,7 +10,7 @@
 </p>
 
 > [!TIP]
-> 🤖 **Bots** find and fact-check every project &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; ▶️ **Demo links** so you can try before you deploy
+> 🔎 **Every project fact-checked** on GitHub before it is listed &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; ▶️ **Demo links** so you can try before you deploy
 
 <p align="center">Looking for starters and templates to build your own AI app? 👉 <a href="https://github.com/archestack/best-of-ai-starters"><b>Best of AI Starters</b></a></p>
 
@@ -29,7 +29,7 @@
 | 🥇 89 | **[MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)** <sub>[📝 review](reviews/image-video.md#moneyprinterturbo)</sub><br><sub>Generates short videos from a topic with script, footage, voice and subtitles</sub> | 🎨 [Image and video](#-image-and-video) | 129k |
 | 🥇 89 | **[LiteLLM](https://github.com/BerriAI/litellm)** <sub>[📝 review](reviews/gateways.md#litellm)</sub><br><sub>Proxy and SDK that calls 100+ LLM providers in OpenAI format</sub><br><sub>[📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub> | 🔀 [Gateways](#-gateways) | 60k |
 
-<sub>Ordered by score ([how we rank](#-how-we-rank)): adoption, freshness, how easy it is to run, and a few more signals as the bots measure them. Expect the board to shuffle. 🔀</sub>
+<sub>Ordered by score ([how we rank](#-how-we-rank)): adoption, freshness, how easy it is to run, and a few more signals as we measure them. Expect the board to shuffle. 🔀</sub>
 
 ## ⚡ Pick by vibe
 
@@ -484,7 +484,7 @@ Isolated runtimes where agents execute code, browse or use tools safely. <sub>8 
 
 ## 🏅 How we rank
 
-Every project gets a score out of 100 from the signals below. A signal the bots cannot measure yet is left out and its weight goes to the others, so nobody loses points for things we have not checked. 🥇 80+ · 🥈 65–79 · 🥉 55–64.
+Every project gets a score out of 100 from the signals below. A signal we cannot measure yet is left out and its weight goes to the others, so nobody loses points for things we have not checked. 🥇 80+ · 🥈 65–79 · 🥉 55–64.
 
 | Signal | Weight | What it looks at | Status |
 |---|--:|---|:-:|
@@ -502,7 +502,7 @@ Every project gets a score out of 100 from the signals below. A signal the bots 
 
 ## 🧠 How this works
 
-- 🔎 **Found by bots** from curated lists, app stores and template galleries, then fact-checked on GitHub: stars, last commit, license, Docker files.
+- 🔎 **Found** in curated lists, app stores and template galleries, then fact-checked on GitHub: stars, last commit, license, Docker files.
 - ✍️ **Written from the README**, never copied from other lists: what it does, what it needs, strengths and weaknesses as claims you can check. Specs say `unknown` rather than guess.
 - 🔄 **Kept fresh**: entries are rewritten when the README or the latest release changes; projects quiet for 12 months get marked stale, archived ones drop off.
 - 🚫 **No pay-to-rank.** Sponsors and affiliate links, if any, are labeled and never touch the order.
@@ -521,4 +521,4 @@ These lists, app stores and galleries (facts and links only, no text copied), pl
 
 Data (`data/`, this README, `reviews/`) is CC BY 4.0; see LICENSE-DATA. Code is MIT; see LICENSE. Project names and descriptions belong to their owners.
 
-<p align="center"><sub>Made with 🤖 + ☕ by <a href="https://github.com/archestack">Archestack</a> · see also <a href="https://github.com/archestack/best-of-ai-starters">Best of AI Starters</a></sub></p>
+<p align="center"><sub>Made with ☕ by <a href="https://github.com/archestack">Archestack</a> · see also <a href="https://github.com/archestack/best-of-ai-starters">Best of AI Starters</a></sub></p>
