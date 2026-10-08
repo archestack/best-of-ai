@@ -54,7 +54,7 @@ RAGFlow parses Word, slides, Excel, scans and web pages with in-process layout a
 - **−** 1.0 Go rewrite is still rc1 as of 2026-09-29
 - **−** Elasticsearch path requires vm.max_map_count >= 262144 on the host
 
-<sub>RAM ≥ 16 GB · no GPU · Docker · Needs MySQL, Elasticsearch or Infinity, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: external LLM, embedding and reranker providers set by URL and API key · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [🧪 Demo](https://cloud.ragflow.io) · [📖 Docs](https://ragflow.io/docs/dev/) · [🌐 Site](https://ragflow.io/)</sub>
+<sub>RAM ≥ 16 GB · no GPU · Docker · Needs MySQL, Elasticsearch or Infinity, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: external LLM, embedding and reranker providers set by URL and API key · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo](https://cloud.ragflow.io) · [📖 Docs](https://ragflow.io/docs/dev/) · [🌐 Site](https://ragflow.io/)</sub>
 
 <a name="paperless-gpt"></a>
 ### 🥈 73 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>⭐ 2.7k · MIT · Oct 2026</sub>
@@ -232,7 +232,7 @@ Kotaemon is a Gradio web app for question answering over uploaded documents, wit
 - **−** Only PDF, HTML, MHTML and XLSX without the larger full image
 - **−** Last commit 2026-05-30; MS GraphRAG indexing works only with OpenAI or Ollama
 
-<sub>no GPU · Docker · Needs Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant (optional stores), Unstructured (optional, for .doc/.docx and more) · Models: OpenAI, Azure OpenAI, Cohere, Groq, Ollama · port 7860 · [Repo](https://github.com/Cinnamon/kotaemon) · [🧪 Demo](https://huggingface.co/spaces/cin-model/kotaemon-demo) · [📖 Docs](https://cinnamon.github.io/kotaemon/)</sub>
+<sub>no GPU · Docker · Needs Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant (optional stores), Unstructured (optional, for .doc/.docx and more) · Models: OpenAI, Azure OpenAI, Cohere, Groq, Ollama · port 7860 · [Repo](https://github.com/Cinnamon/kotaemon) · [▶️ Demo](https://huggingface.co/spaces/cin-model/kotaemon-demo) · [📖 Docs](https://cinnamon.github.io/kotaemon/)</sub>
 
 <a name="morphik"></a>
 ### 48 [Morphik](https://github.com/morphik-org/morphik-core) <sub>⭐ 3.7k · NOASSERTION · Oct 2026</sub>
@@ -250,7 +250,7 @@ Morphik Core is a retrieval engine for visually rich documents: it embeds page i
 - **−** README centers on the hosted dev.morphik.ai service, not self-hosting
 - **−** Parent company now focuses on back-office AI workers; Core is a side product
 
-<sub>no GPU · Compose · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [🧪 Demo](https://dev.morphik.ai) · [📖 Docs](https://dev.morphik.ai/docs) · [🌐 Site](https://morphik.ai)</sub>
+<sub>no GPU · Compose · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [▶️ Demo](https://dev.morphik.ai) · [📖 Docs](https://dev.morphik.ai/docs) · [🌐 Site](https://morphik.ai)</sub>
 
 <a name="docling-serve"></a>
 ### 36 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>⭐ 1.9k · MIT · Oct 2026</sub>

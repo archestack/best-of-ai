@@ -54,7 +54,7 @@ GoModel is a Go AI gateway (install script or container on port 8080) exposing O
 - **−** Full Compose stack pulls in Redis, PostgreSQL, MongoDB and Prometheus
 - **−** Benchmarks against LiteLLM and Portkey are self-run
 
-<sub>no GPU · Docker + Compose · Needs Redis, PostgreSQL, MongoDB (Compose infrastructure) · Models: OpenAI, Anthropic, xAI, Gemini, Vertex AI, Cohere, DeepSeek, Groq, Fireworks, OpenRouter, Azure OpenAI, Bedrock, Ollama, SGLang, vLLM, llm-d, ElevenLabs and any OpenAI-compatible provider · port 8080 · [Repo](https://github.com/ENTERPILOT/GoModel) · [🧪 Demo](https://demo.enterpilot.io/admin/dashboard) · [📖 Docs](https://gomodel.enterpilot.io/docs)</sub>
+<sub>no GPU · Docker + Compose · Needs Redis, PostgreSQL, MongoDB (Compose infrastructure) · Models: OpenAI, Anthropic, xAI, Gemini, Vertex AI, Cohere, DeepSeek, Groq, Fireworks, OpenRouter, Azure OpenAI, Bedrock, Ollama, SGLang, vLLM, llm-d, ElevenLabs and any OpenAI-compatible provider · port 8080 · [Repo](https://github.com/ENTERPILOT/GoModel) · [▶️ Demo](https://demo.enterpilot.io/admin/dashboard) · [📖 Docs](https://gomodel.enterpilot.io/docs)</sub>
 
 <a name="optillm"></a>
 ### 🥈 70 [optillm](https://github.com/algorithmicsuperintelligence/optillm) <sub>⭐ 4.3k · Apache-2.0 · Sep 2026</sub>
@@ -72,7 +72,7 @@ OptiLLM is an OpenAI-compatible proxy (pip or Docker, port 8000) that applies in
 - **−** Decoding techniques (cot_decoding, AutoThink) need the local inference path
 - **−** Web search plugin drives Chrome through Selenium
 
-<sub>GPU optional · Docker + Compose · Models: OpenAI, Cerebras, Azure OpenAI, any OpenAI-compatible endpoint, LiteLLM providers, local models via the built-in inference server · port 8000 · [Repo](https://github.com/algorithmicsuperintelligence/optillm) · [🧪 Demo](https://huggingface.co/spaces/codelion/optillm)</sub>
+<sub>GPU optional · Docker + Compose · Models: OpenAI, Cerebras, Azure OpenAI, any OpenAI-compatible endpoint, LiteLLM providers, local models via the built-in inference server · port 8000 · [Repo](https://github.com/algorithmicsuperintelligence/optillm) · [▶️ Demo](https://huggingface.co/spaces/codelion/optillm)</sub>
 
 <a name="portkey-gateway"></a>
 ### 🥈 68 [Portkey Gateway](https://github.com/Portkey-AI/gateway) <sub>⭐ 13k · MIT · May 2026</sub>
@@ -198,7 +198,7 @@ Higress is a CNCF sandbox API gateway on Istio and Envoy, extended with Wasm plu
 - **−** AI features are Wasm plugins on a general API gateway
 - **−** Docs split across higress.ai and higress.cn
 
-<sub>no GPU · Models: mainstream LLM providers, domestic and international, via the ai-proxy plugin · port 8001 · [Repo](https://github.com/higress-group/higress) · [🧪 Demo](https://demo.higress.io/) · [📖 Docs](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site](https://higress.ai/en/)</sub>
+<sub>no GPU · Models: mainstream LLM providers, domestic and international, via the ai-proxy plugin · port 8001 · [Repo](https://github.com/higress-group/higress) · [▶️ Demo](https://demo.higress.io/) · [📖 Docs](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site](https://higress.ai/en/)</sub>
 
 <a name="bifrost"></a>
 ### 50 [Bifrost](https://github.com/maximhq/bifrost) <sub>⭐ 8.6k · Apache-2.0 · Oct 2026</sub>

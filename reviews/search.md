@@ -72,7 +72,7 @@ API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with 
 - **−** Agent endpoint runs the hosted spark-2 model, not a local LLM
 - **−** Proxy rotation and anti-bot handling are hosted-service features
 
-<sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [🧪 Demo](https://firecrawl.dev/playground) · [📖 Docs](https://docs.firecrawl.dev) · [🌐 Site](https://firecrawl.dev)</sub>
+<sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo](https://firecrawl.dev/playground) · [📖 Docs](https://docs.firecrawl.dev) · [🌐 Site](https://firecrawl.dev)</sub>
 
 <a name="vane"></a>
 ### 🥈 72 [Vane](https://github.com/ItzCrazyKns/Vane) <sub>⭐ 37k · MIT · Sep 2026</sub>
@@ -126,7 +126,7 @@ Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page
 - **−** Last commit May 2026; the SaaS resync was April 2026
 - **−** Default h2c port 8080 needs --http2-prior-knowledge from curl; use 8081 otherwise
 
-<sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [🧪 Demo](https://jina.ai/reader#demo) · [📖 Docs](https://r.jina.ai/docs) · [🌐 Site](https://jina.ai/reader)</sub>
+<sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo](https://jina.ai/reader#demo) · [📖 Docs](https://r.jina.ai/docs) · [🌐 Site](https://jina.ai/reader)</sub>
 
 <a name="maestro"></a>
 ### 30 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>

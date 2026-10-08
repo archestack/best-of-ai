@@ -53,7 +53,7 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 - **−** Windows pip install needs Rust plus VS C++ tools and the Windows SDK
 - **−** Authentication features are offered by email request; 1Password and LastPass unsupported
 
-<sub>no GPU · Docker + Compose · port 8080 · [Repo](https://github.com/Skyvern-AI/skyvern) · [🧪 Demo](https://app.skyvern.com) · [📖 Docs](https://www.skyvern.com/docs/) · [🌐 Site](https://www.skyvern.com)</sub>
+<sub>no GPU · Docker + Compose · port 8080 · [Repo](https://github.com/Skyvern-AI/skyvern) · [▶️ Demo](https://app.skyvern.com) · [📖 Docs](https://www.skyvern.com/docs/) · [🌐 Site](https://www.skyvern.com)</sub>
 
 <a name="paperclip"></a>
 ### 🥈 71 [Paperclip](https://github.com/paperclipai/paperclip) <sub>⭐ 99k · MIT · Oct 2026</sub>
@@ -106,7 +106,7 @@ AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire bl
 - **−** Windows self-hosting is manual-guide only
 - **−** Hosted platform charges per agent run; README is largely marketing
 
-<sub>no GPU · Needs Docker · [Repo](https://github.com/Significant-Gravitas/AutoGPT) · [🧪 Demo](https://platform.agpt.co/tour) · [📖 Docs](https://docs.agpt.co)</sub>
+<sub>no GPU · Needs Docker · [Repo](https://github.com/Significant-Gravitas/AutoGPT) · [▶️ Demo](https://platform.agpt.co/tour) · [📖 Docs](https://docs.agpt.co)</sub>
 
 <a name="langflow"></a>
 ### 🥉 62 [Langflow](https://github.com/langflow-ai/langflow) <sub>⭐ 156k · MIT · Oct 2026</sub>
@@ -141,7 +141,7 @@ Dify is an LLM app platform started with Docker Compose (dashboard on port 80) t
 - **−** Minimum 2 CPU cores and 4 GiB RAM for the Compose stack
 - **−** Dashboard binds to port 80 by default
 
-<sub>RAM ≥ 4 GB · no GPU · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [🧪 Demo](https://cloud.dify.ai) · [📖 Docs](https://docs.dify.ai) · [🌐 Site](https://dify.ai)</sub>
+<sub>RAM ≥ 4 GB · no GPU · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [▶️ Demo](https://cloud.dify.ai) · [📖 Docs](https://docs.dify.ai) · [🌐 Site](https://dify.ai)</sub>
 
 <a name="sim"></a>
 ### 54 [Sim](https://github.com/simstudioai/sim) <sub>⭐ 30k · Apache-2.0 · Oct 2026</sub>
@@ -212,6 +212,6 @@ This repository holds the TypeScript devtools for Botpress Cloud: the @botpress/
 - **−** Bots-as-code is described as not the recommended way to build bots
 - **−** Plugins section is marked coming soon
 
-<sub>no GPU · Docker · Models: OpenAI · [Repo](https://github.com/botpress/botpress) · [🧪 Demo](https://app.botpress.cloud) · [📖 Docs](https://botpress.com/docs) · [🌐 Site](https://botpress.com)</sub>
+<sub>no GPU · Docker · Models: OpenAI · [Repo](https://github.com/botpress/botpress) · [▶️ Demo](https://app.botpress.cloud) · [📖 Docs](https://botpress.com/docs) · [🌐 Site](https://botpress.com)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

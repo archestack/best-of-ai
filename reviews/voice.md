@@ -54,7 +54,7 @@ Generates speech on CPU with a 100M-parameter model: about 200 ms to the first a
 - **−** serve command and Docker image are CPU-only; GPU use is unsupported and manual
 - **−** Linux pip pulls CUDA PyTorch (about 3 GB) unless the CPU index is set
 
-<sub>no GPU · Docker + Compose · Models: Pocket TTS 100M, 24-layer language variants, community checkpoints via --config · port 8000 · [Repo](https://github.com/kyutai-labs/pocket-tts) · [🧪 Demo](https://kyutai.org/pocket-tts) · [📖 Docs](https://kyutai-labs.github.io/pocket-tts/)</sub>
+<sub>no GPU · Docker + Compose · Models: Pocket TTS 100M, 24-layer language variants, community checkpoints via --config · port 8000 · [Repo](https://github.com/kyutai-labs/pocket-tts) · [▶️ Demo](https://kyutai.org/pocket-tts) · [📖 Docs](https://kyutai-labs.github.io/pocket-tts/)</sub>
 
 <a name="gpt-sovits"></a>
 ### 🥈 74 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) <sub>⭐ 63k · MIT · Oct 2026</sub>
@@ -72,7 +72,7 @@ Clones a voice from a 5-second sample (zero-shot) or fine-tunes GPT and SoVITS m
 - **−** Training on Apple Silicon GPUs gives lower quality; macOS falls back to CPU
 - **−** Five model generations (v1 to v5) with different tradeoffs to choose between
 
-<sub>GPU optional · Docker + Compose · Needs ffmpeg · Models: GPT-SoVITS v1-v5 pretrained models, UVR5 vocal separation models, Faster Whisper large-v3 (ASR), FunASR Paraformer (Chinese ASR) · [Repo](https://github.com/RVC-Boss/GPT-SoVITS) · [🧪 Demo](https://lj1995-gpt-sovits-proplus.hf.space/) · [📖 Docs](https://rentry.co/GPT-SoVITS-guide#/)</sub>
+<sub>GPU optional · Docker + Compose · Needs ffmpeg · Models: GPT-SoVITS v1-v5 pretrained models, UVR5 vocal separation models, Faster Whisper large-v3 (ASR), FunASR Paraformer (Chinese ASR) · [Repo](https://github.com/RVC-Boss/GPT-SoVITS) · [▶️ Demo](https://lj1995-gpt-sovits-proplus.hf.space/) · [📖 Docs](https://rentry.co/GPT-SoVITS-guide#/)</sub>
 
 <a name="f5-tts"></a>
 ### 🥉 58 [F5-TTS](https://github.com/SWivid/F5-TTS) <sub>⭐ 15k · MIT · Sep 2026</sub>
@@ -90,7 +90,7 @@ Synthesizes speech from a reference clip and its transcript using the F5-TTS dif
 - **−** No compose file in the repo; the README's compose example assumes an NVIDIA GPU
 - **−** Base checkpoints cover Chinese and English; other languages need community models
 
-<sub>Docker · Needs ffmpeg · Models: F5-TTS v1 Base, E2 TTS, Vocos and BigVGAN vocoders · port 7860 · [Repo](https://github.com/SWivid/F5-TTS) · [🧪 Demo](https://huggingface.co/spaces/mrfakename/E2-F5-TTS)</sub>
+<sub>Docker · Needs ffmpeg · Models: F5-TTS v1 Base, E2 TTS, Vocos and BigVGAN vocoders · port 7860 · [Repo](https://github.com/SWivid/F5-TTS) · [▶️ Demo](https://huggingface.co/spaces/mrfakename/E2-F5-TTS)</sub>
 
 <a name="speakr"></a>
 ### 🥉 58 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
@@ -161,7 +161,7 @@ Clones a voice from one reference clip and synthesizes speech in Chinese, Englis
 - **−** Five languages only; no streaming API is documented in the README
 - **−** License is non-standard (GitHub reports NOASSERTION); check terms before commercial use
 
-<sub>Needs uv · Models: IndexTTS-2.5, IndexTTS-2, IndexTTS-1.5 (legacy) · port 7860 · [Repo](https://github.com/index-tts/index-tts) · [🧪 Demo](https://huggingface.co/spaces/IndexTeam/IndexTTS-2.5-Demo)</sub>
+<sub>Needs uv · Models: IndexTTS-2.5, IndexTTS-2, IndexTTS-1.5 (legacy) · port 7860 · [Repo](https://github.com/index-tts/index-tts) · [▶️ Demo](https://huggingface.co/spaces/IndexTeam/IndexTTS-2.5-Demo)</sub>
 
 <a name="kokoro-fastapi"></a>
 ### 49 [Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) <sub>⭐ 5.5k · Apache-2.0 · Oct 2026</sub>
@@ -179,7 +179,7 @@ Serves the Kokoro-82M model behind an OpenAI-compatible /v1/audio/speech endpoin
 - **−** ROCm image is experimental and amd64 only
 - **−** Apple Silicon GPU (MPS) only when run natively via uv, not in Docker
 
-<sub>GPU optional · Needs espeak-ng (optional fallback) · Models: Kokoro-82M v1.0 · port 8880 · [Repo](https://github.com/remsky/Kokoro-FastAPI) · [🧪 Demo](https://huggingface.co/spaces/Remsky/FastKoko)</sub>
+<sub>GPU optional · Needs espeak-ng (optional fallback) · Models: Kokoro-82M v1.0 · port 8880 · [Repo](https://github.com/remsky/Kokoro-FastAPI) · [▶️ Demo](https://huggingface.co/spaces/Remsky/FastKoko)</sub>
 
 <a name="whisperlive"></a>
 ### 39 [WhisperLive](https://github.com/collabora/WhisperLive) <sub>⭐ 4.3k · MIT · Oct 2026</sub>

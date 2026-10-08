@@ -90,7 +90,7 @@ NextChat is a Node.js web client (Docker image yidadaa/chatgpt-next-web on port 
 - **−** OPENAI_API_KEY is marked required even when another provider is used
 - **−** Local knowledge base still unchecked on the roadmap
 
-<sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/ChatGPTNextWeb/NextChat) · [🧪 Demo](https://app.nextchat.club) · [🌐 Site](https://nextchat.club)</sub>
+<sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/ChatGPTNextWeb/NextChat) · [▶️ Demo](https://app.nextchat.club) · [🌐 Site](https://nextchat.club)</sub>
 
 <a name="lobehub"></a>
 ### 🥈 74 [LobeHub](https://github.com/lobehub/lobehub) <sub>⭐ 83k · NOASSERTION · Oct 2026</sub>
@@ -126,7 +126,7 @@ Chat UI is the SvelteKit app that powers HuggingChat. It talks only to OpenAI-co
 - **−** Router needs a hand-written routes JSON; no sample file ships
 - **−** README does not describe authentication or multi-user setup
 
-<sub>no GPU · Docker + Compose · Needs MongoDB · Models: OpenAI-compatible endpoints, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [🧪 Demo](https://huggingface.co/chat)</sub>
+<sub>no GPU · Docker + Compose · Needs MongoDB · Models: OpenAI-compatible endpoints, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [▶️ Demo](https://huggingface.co/chat)</sub>
 
 <a name="claraverse"></a>
 ### 🥈 67 [ClaraVerse](https://github.com/claraverse-space/ClaraVerse) <sub>⭐ 3.9k · NOASSERTION · Aug 2026</sub>
@@ -216,7 +216,7 @@ Onyx indexes content and permissions from 50+ apps into a hybrid vector and keyw
 - **−** Lite mode cannot index documents
 - **−** README gives no port or hardware figures for the Standard deployment
 
-<sub>RAM ≥ 1 GB · no GPU · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [🧪 Demo](https://cloud.onyx.app/signup) · [📖 Docs](https://docs.onyx.app/) · [🌐 Site](https://www.onyx.app/)</sub>
+<sub>RAM ≥ 1 GB · no GPU · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo](https://cloud.onyx.app/signup) · [📖 Docs](https://docs.onyx.app/) · [🌐 Site](https://www.onyx.app/)</sub>
 
 <a name="chatgpt-ui"></a>
 ### 44 [ChatGPT UI](https://github.com/WongSaang/chatgpt-ui) <sub>⭐ 1.6k · MIT · May 2026</sub>

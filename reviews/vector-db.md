@@ -36,7 +36,7 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 - **−** No RAM or sizing guidance in the README
 - **−** Both REST 8080 and gRPC 50051 must be exposed
 
-<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [🧪 Demo](https://elysia.weaviate.io) · [📖 Docs](https://docs.weaviate.io)</sub>
+<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo](https://elysia.weaviate.io) · [📖 Docs](https://docs.weaviate.io)</sub>
 
 <a name="milvus"></a>
 ### 🥈 76 [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
@@ -54,7 +54,7 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 - **−** Zilliz is the major contributor and promotes its managed cloud
 - **−** Source build needs Go 1.21+, CMake, GCC 11+ and Python 3.8 to 3.11
 
-<sub>GPU optional · Compose · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [🧪 Demo](https://milvus.io/milvus-demos) · [📖 Docs](https://milvus.io/docs) · [🌐 Site](https://milvus.io/)</sub>
+<sub>GPU optional · Compose · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [▶️ Demo](https://milvus.io/milvus-demos) · [📖 Docs](https://milvus.io/docs) · [🌐 Site](https://milvus.io/)</sub>
 
 <a name="meilisearch"></a>
 ### 🥈 74 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
@@ -72,7 +72,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 - **−** No port, RAM or install details in the README; docs only
 - **−** Vector search is documented under experimental features
 
-<sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [🧪 Demo](https://where2watch.meilisearch.com/) · [📖 Docs](https://www.meilisearch.com/docs) · [🌐 Site](https://www.meilisearch.com)</sub>
+<sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo](https://where2watch.meilisearch.com/) · [📖 Docs](https://www.meilisearch.com/docs) · [🌐 Site](https://www.meilisearch.com)</sub>
 
 <a name="qdrant"></a>
 ### 🥈 68 [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
@@ -90,7 +90,7 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 - **−** Qdrant Edge embedded mode is Python and Rust only
 - **−** Sharding and tenant isolation require upfront design
 
-<sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [🧪 Demo](https://qdrant.to/semantic-search-demo) · [📖 Docs](https://qdrant.tech/documentation/)</sub>
+<sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo](https://qdrant.to/semantic-search-demo) · [📖 Docs](https://qdrant.tech/documentation/)</sub>
 
 <a name="pgvector"></a>
 ### 🥉 60 [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>

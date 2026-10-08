@@ -105,7 +105,7 @@ Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Wor
 - **−** Maintainers now promote a newer project, Pipali, at the top of the README
 - **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
 
-<sub>Docker + Compose · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [🧪 Demo](https://app.khoj.dev) · [📖 Docs](https://docs.khoj.dev) · [🌐 Site](https://khoj.dev)</sub>
+<sub>Docker + Compose · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo](https://app.khoj.dev) · [📖 Docs](https://docs.khoj.dev) · [🌐 Site](https://khoj.dev)</sub>
 
 <a name="astrbot"></a>
 ### 🥈 71 [AstrBot](https://github.com/AstrBotDevs/AstrBot) <sub>⭐ 42k · AGPL-3.0 · Oct 2026</sub>
@@ -140,7 +140,7 @@ QwenPaw is a Python (3.11 to 3.13) assistant built on AgentScope that serves a b
 - **−** Script installer may fail behind corporate firewalls or in PowerShell Constrained Language Mode
 - **−** Channel lineup leans toward DingTalk, Lark, WeChat and QQ; no Slack or WhatsApp listed
 
-<sub>no GPU · Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/QwenPaw) · [🧪 Demo](https://platform.agentscope.io/) · [📖 Docs](https://qwenpaw.agentscope.io/)</sub>
+<sub>no GPU · Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/QwenPaw) · [▶️ Demo](https://platform.agentscope.io/) · [📖 Docs](https://qwenpaw.agentscope.io/)</sub>
 
 <a name="moltis"></a>
 ### 🥉 59 [Moltis](https://github.com/moltis-org/moltis) <sub>⭐ 2.9k · MIT · Sep 2026</sub>

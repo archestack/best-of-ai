@@ -72,7 +72,7 @@ OpenViking organises everything an agent knows as a viking:// virtual filesystem
 - **−** Memory plugin installer is macOS/Linux only; Windows uses the beta desktop app
 - **−** Benchmarks were run with Volcengine Doubao models
 
-<sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/OpenViking) · [🧪 Demo](https://openviking.ai/studio) · [📖 Docs](https://docs.openviking.ai/) · [🌐 Site](https://www.openviking.ai)</sub>
+<sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/OpenViking) · [▶️ Demo](https://openviking.ai/studio) · [📖 Docs](https://docs.openviking.ai/) · [🌐 Site](https://www.openviking.ai)</sub>
 
 <a name="memos"></a>
 ### 🥈 66 [MemOS](https://github.com/MemTensor/MemOS) <sub>⭐ 12k · Apache-2.0 · Sep 2026</sub>
@@ -126,7 +126,7 @@ Mem0 adds long-term memory to assistants and agents at user, session and agent l
 - **−** Self-hosted server exposes only teasers of advanced features; all included in cloud
 - **−** Hybrid search recommends at least a 600M-parameter embedding model
 
-<sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [🧪 Demo](https://mem0.dev/demo) · [📖 Docs](https://docs.mem0.ai) · [🌐 Site](https://mem0.ai)</sub>
+<sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo](https://mem0.dev/demo) · [📖 Docs](https://docs.mem0.ai) · [🌐 Site](https://mem0.ai)</sub>
 
 <a name="honcho"></a>
 ### 🥉 61 [Honcho](https://github.com/plastic-labs/honcho) <sub>⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
@@ -144,7 +144,7 @@ Honcho is a FastAPI memory server where humans and agents are peers that exchang
 - **−** Background reasoning is asynchronous; new messages are not reflected immediately
 - **−** README mixes marketing claims (Pareto frontier, data moats) with the technical content
 
-<sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [🧪 Demo](https://app.honcho.dev) · [📖 Docs](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
+<sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo](https://app.honcho.dev) · [📖 Docs](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
 
 <a name="supermemory"></a>
 ### 54 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>⭐ 31k · MIT · Oct 2026</sub>
@@ -198,6 +198,6 @@ Letta Code is an npm-installed agent harness whose agents keep memory blocks, sk
 - **−** AgentFile export/import removed; agent registry imports no longer supported
 - **−** Automatic dreaming is disabled on native Windows by default
 
-<sub>no GPU · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [🧪 Demo](https://chat.letta.com) · [📖 Docs](https://docs.letta.com/letta-code/cli)</sub>
+<sub>no GPU · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [▶️ Demo](https://chat.letta.com) · [📖 Docs](https://docs.letta.com/letta-code/cli)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

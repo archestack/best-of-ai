@@ -54,7 +54,7 @@ Ingests traces of LLM calls, retrieval and agent steps via Python and JS/TS SDKs
 - **−** Default compose inherits Docker json-file logging with no rotation; disk can fill
 - **−** No Dockerfile at the repo root; images come from Docker Hub
 
-<sub>no GPU · Compose · Needs ClickHouse · [Repo](https://github.com/langfuse/langfuse) · [🧪 Demo](https://langfuse.com/demo) · [📖 Docs](https://langfuse.com/docs) · [🌐 Site](https://langfuse.com)</sub>
+<sub>no GPU · Compose · Needs ClickHouse · [Repo](https://github.com/langfuse/langfuse) · [▶️ Demo](https://langfuse.com/demo) · [📖 Docs](https://langfuse.com/docs) · [🌐 Site](https://langfuse.com)</sub>
 
 <a name="promptfoo"></a>
 ### 🥈 71 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>⭐ 26k · MIT · Oct 2026</sub>
@@ -108,7 +108,7 @@ Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ fram
 - **−** No Dockerfile or compose file at the repo root
 - **−** TypeScript and Java coverage is smaller than Python (5 TS and 2 Java frameworks listed)
 
-<sub>no GPU · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [🧪 Demo](https://demo.mlflow.org/) · [📖 Docs](https://mlflow.org/docs/latest) · [🌐 Site](https://mlflow.org/)</sub>
+<sub>no GPU · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [▶️ Demo](https://demo.mlflow.org/) · [📖 Docs](https://mlflow.org/docs/latest) · [🌐 Site](https://mlflow.org/)</sub>
 
 <a name="openlit"></a>
 ### 🥉 58 [OpenLIT](https://github.com/openlit/openlit) <sub>⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
@@ -180,7 +180,7 @@ Sits as an OpenAI-compatible gateway in front of 100+ models with routing and au
 - **−** Manual deployment is explicitly not recommended
 - **−** README quickstart is cloud-first; self-hosting details are in external docs
 
-<sub>no GPU · Docker · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/Helicone/helicone) · [🧪 Demo](https://helicone.ai/demo) · [📖 Docs](https://docs.helicone.ai/) · [🌐 Site](https://www.helicone.ai)</sub>
+<sub>no GPU · Docker · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/Helicone/helicone) · [▶️ Demo](https://helicone.ai/demo) · [📖 Docs](https://docs.helicone.ai/) · [🌐 Site](https://www.helicone.ai)</sub>
 
 <a name="langwatch"></a>
 ### 50 [LangWatch](https://github.com/langwatch/langwatch) <sub>⭐ 4.9k · Apache-2.0 · Oct 2026</sub>

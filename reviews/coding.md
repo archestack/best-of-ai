@@ -72,7 +72,7 @@ Takes a screenshot, mockup, Figma export or screen recording and generates HTML 
 - **−** Replicate key must be set in backend/.env, not in the UI
 - **−** Docker setup has no hot reload; file changes need a rebuild
 
-<sub>no GPU · Compose · Needs OpenAI, Anthropic or Gemini API key, Replicate API key (optional), Playwright Chromium (optional preview) · Models: Gemini 3 Flash Preview, Gemini 3.1 Pro Preview, GPT-5.5, GPT-5.4 Mini, Claude Opus 4.6/4.8 · port 5173 · [Repo](https://github.com/abi/screenshot-to-code) · [🧪 Demo](https://screenshottocode.com/)</sub>
+<sub>no GPU · Compose · Needs OpenAI, Anthropic or Gemini API key, Replicate API key (optional), Playwright Chromium (optional preview) · Models: Gemini 3 Flash Preview, Gemini 3.1 Pro Preview, GPT-5.5, GPT-5.4 Mini, Claude Opus 4.6/4.8 · port 5173 · [Repo](https://github.com/abi/screenshot-to-code) · [▶️ Demo](https://screenshottocode.com/)</sub>
 
 <a name="onlook"></a>
 ### 🥈 68 [Onlook](https://github.com/onlook-dev/onlook) <sub>⭐ 27k · Apache-2.0 · Jul 2026</sub>
@@ -90,7 +90,7 @@ Browser-based editor that loads a Next.js and Tailwind project into a web contai
 - **−** Team comments, MCP support and image references are unchecked roadmap items
 - **−** Maintainers are moving to a hosted early-access product; last commit July 2026
 
-<sub>no GPU · Docker + Compose · Needs Supabase (auth, database, storage), OpenRouter API key, CodeSandbox SDK, Bun · Models: OpenRouter-hosted models, Morph Fast Apply, Relace · [Repo](https://github.com/onlook-dev/onlook) · [🧪 Demo](https://onlook.com) · [📖 Docs](https://docs.onlook.com)</sub>
+<sub>no GPU · Docker + Compose · Needs Supabase (auth, database, storage), OpenRouter API key, CodeSandbox SDK, Bun · Models: OpenRouter-hosted models, Morph Fast Apply, Relace · [Repo](https://github.com/onlook-dev/onlook) · [▶️ Demo](https://onlook.com) · [📖 Docs](https://docs.onlook.com)</sub>
 
 <a name="opencode"></a>
 ### 🥉 62 [opencode](https://github.com/anomalyco/opencode) <sub>⭐ 212k · MIT · Oct 2026</sub>
@@ -160,6 +160,6 @@ Serves code completion and chat to VS Code, Vim and JetBrains extensions from on
 - **−** Model list and hardware guidance live only in the external docs
 - **−** Building from source needs Rust, protobuf and OpenBLAS
 
-<sub>GPU optional · Models: StarCoder-1B, Qwen2-1.5B-Instruct, CodeLlama 7B, CodeGemma, CodeQwen · port 8080 · [Repo](https://github.com/TabbyML/tabby) · [🧪 Demo](https://tabby.tabbyml.com) · [📖 Docs](https://tabby.tabbyml.com/docs/welcome/)</sub>
+<sub>GPU optional · Models: StarCoder-1B, Qwen2-1.5B-Instruct, CodeLlama 7B, CodeGemma, CodeQwen · port 8080 · [Repo](https://github.com/TabbyML/tabby) · [▶️ Demo](https://tabby.tabbyml.com) · [📖 Docs](https://tabby.tabbyml.com/docs/welcome/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
