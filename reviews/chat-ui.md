@@ -147,7 +147,7 @@ NextChat is a Node.js web client (Docker image yidadaa/chatgpt-next-web on port 
 <sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;9 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (62) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;9 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (62) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · AGPL-3.0 · Sep 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 

@@ -39,20 +39,20 @@ Defines development processes (plan, implement, validate, review, PR) as YAML wo
 <a name="openhands"></a>
 ### 🥉 [OpenHands](https://github.com/openhands/openhands) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 90k · MIT · Oct 2026</sub>
 
-**Web control center for running and automating coding agents.**
+**Web control center for running coding agents and scheduled automations.**
 
-Agent Canvas is a web UI for starting conversations with coding agents and scheduling automations. It runs the OpenHands agent by default and can drive Claude Code, Codex, Gemini or any ACP-compatible agent. It connects to one or more Agent Server backends (local, Docker, VM, or OpenHands Cloud) and switches between them from the same frontend.
+Agent Canvas is a web frontend that starts and manages conversations with coding agents. It runs the OpenHands agent by default and can drive Claude Code, Codex, Gemini CLI, Pi, OpenCode, or any ACP-compatible agent. It connects to one or more Agent Server backends (local, Docker, VM, or OpenHands Cloud) and pairs with an Automation Server for scheduled and webhook-triggered runs.
 
-- **+** Works with OpenHands, Claude Code, Codex, Gemini, or any ACP agent
-- **+** Switch between local, Docker, VM and cloud backends from one UI
-- **+** Automations run on a schedule or on webhook events, with Slack and GitHub integrations
+- **+** Switches between local, remote and cloud Agent Server backends from one UI
+- **+** Works with third-party agents through ACP, not only OpenHands
 - **+** Option to run each conversation in its own Docker container
+- **+** Automations can run on a schedule or on webhook events
 - **−** Marked beta in the README
-- **−** Default npm and source installs give the agent full filesystem access
-- **−** Automations need a separate Automation Server repo alongside the Agent Server
-- **−** RAM and GPU requirements are not stated
+- **−** Non-sandboxed install gives the agent full filesystem access
+- **−** Needs Node.js 24+ and uv for non-Docker installs
+- **−** Automation and agent server live in separate repositories
 
-<sub>Docker · Needs Node.js 24+, uv, Docker (optional sandbox) · Models: any LLM (configured via LLM profiles) · port 8000 · [Repo](https://github.com/openhands/openhands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
+<sub>Docker · Needs Node.js 24+, uv, Docker (optional) · Models: Any LLM (via LLM profiles) · port 8000 · [Repo](https://github.com/openhands/openhands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
 
 <a name="openchamber"></a>
 ### #&#8288;4 [OpenChamber](https://github.com/openchamber/openchamber) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
@@ -127,7 +127,7 @@ Runs coding sessions in cloud sandboxes coordinated by a Cloudflare Workers cont
 <sub>no GPU · Compose · Needs Cloudflare Workers, Durable Objects and D1, Sandbox provider (Modal, Daytona, E2B, OpenComputer or Vercel Sandbox), GitHub App, Slack and Linear apps (optional) · Models: Anthropic Claude (API key or subscription), OpenAI Codex via ChatGPT subscription, xAI Grok via SuperGrok, OpenCode Zen and Go, Z.AI Coding Plan · [Repo](https://github.com/colemurray/background-agents)</sub>
 
 <a name="onlook"></a>
-### #&#8288;8 [Onlook](https://github.com/onlook-dev/onlook) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (54) · Freshness: recent (78) · Maintenance: weak (11) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;8 [Onlook](https://github.com/onlook-dev/onlook) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (53) · Freshness: recent (78) · Maintenance: weak (11) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Jul 2026</sub>
 
 **Visual editor that edits Next.js and Tailwind apps with AI.**
 

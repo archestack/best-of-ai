@@ -39,7 +39,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 <sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com)</sub>
 
 <a name="chroma"></a>
-### 🥉 [Chroma](https://github.com/chroma-core/chroma) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: patchy (37) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [Chroma](https://github.com/chroma-core/chroma) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: patchy (37) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Embedding database with a four-function API for Python and JavaScript.**
 
@@ -111,7 +111,7 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io)</sub>
 
 <a name="helix-db"></a>
-### #&#8288;7 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
 
 **Rust graph database with native vector and BM25 search.**
 
@@ -145,21 +145,5 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 - **−** A new release every weekday morning Monday to Thursday; versions churn
 
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai)</sub>
-
-<a name="marqo"></a>
-### #&#8288;9 [Marqo](https://github.com/marqo-ai/marqo) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (10) · Freshness: recent (76) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
-
-**Vector search engine with built-in embedding, now deprecated upstream.**
-
-Marqo was a vector search engine that generated embeddings and stored them in one service, so you indexed raw text or images and queried in natural language. Its README now states the open-source project is deprecated and will receive no updates, pointing to the commercial Marqo ecommerce search platform instead. The Apache-2.0 code and docs remain available.
-
-- **+** Apache-2.0 code remains available for forks
-- **+** Docs at docs.marqo.ai still describe the API
-- **−** Open-source project declared deprecated; no further updates
-- **−** README no longer documents installation, API or supported models
-- **−** Last commit 2026-04-10
-- **−** Only the commercial platform is maintained
-
-<sub>Compose · [Repo](https://github.com/marqo-ai/marqo) · [📖 Docs ↗](https://docs.marqo.ai) · [🌐 Site ↗](https://www.marqo.ai)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

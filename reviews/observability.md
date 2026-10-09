@@ -39,7 +39,7 @@ Phoenix collects traces from LLM applications through OpenTelemetry/OpenInferenc
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Google GenAI, AWS Bedrock, OpenRouter · [Repo](https://github.com/arize-ai/phoenix) · [📖 Docs ↗](https://arize.com/docs/phoenix/) · [🌐 Site ↗](https://phoenix.arize.com)</sub>
 
 <a name="promptfoo"></a>
-### 🥉 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Oct 2026</sub>
+### 🥉 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Oct 2026</sub>
 
 **CLI for evaluating and red-teaming prompts, agents and RAG.**
 
@@ -57,7 +57,7 @@ Runs prompt and model evaluations from a YAML config via promptfoo eval, compare
 <sub>no GPU · Docker · Needs Node.js (npm) or Python (pip), LLM provider API key or Ollama · Models: OpenAI, Anthropic, Azure, Bedrock, Ollama · [Repo](https://github.com/promptfoo/promptfoo) · [📖 Docs ↗](https://www.promptfoo.dev/docs/) · [🌐 Site ↗](https://www.promptfoo.dev)</sub>
 
 <a name="mlflow"></a>
-### #&#8288;4 [MLflow](https://github.com/mlflow/mlflow) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [MLflow](https://github.com/mlflow/mlflow) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Oct 2026</sub>
 
 **Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
 
@@ -129,7 +129,7 @@ Future AGI is a Django and Go platform that traces agents over OpenTelemetry, sc
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs PostgreSQL, ClickHouse, Redis, Temporal, Docker Compose v2.24+ · Models: OpenAI-compatible providers (100+ via gateway) · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [▶️ Demo ↗](https://www.youtube.com/watch?v=6keOTAOUUWI) · [📖 Docs ↗](https://docs.futureagi.com) · [🌐 Site ↗](https://futureagi.com)</sub>
 
 <a name="langwatch"></a>
-### #&#8288;8 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
 
 **Agent observability, simulation testing, AI gateway and governance in one.**
 
@@ -183,7 +183,7 @@ OpenTelemetry-native tracing for Vercel AI SDK, LangChain, OpenAI, Anthropic, Ge
 <sub>no GPU · Compose · Needs ClickHouse, PostgreSQL, LLM provider (optional, for AI features) · Models: Gemini, OpenAI and OpenAI-compatible gateways (LiteLLM, OpenRouter, vLLM), AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs ↗](https://laminar.sh/docs) · [🌐 Site ↗](https://laminar.sh)</sub>
 
 <a name="agenta"></a>
-### #&#8288;11 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Oct 2026</sub>
+### #&#8288;11 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Oct 2026</sub>
 
 **Team workspace for building chat-driven agents that run in Slack and WhatsApp.**
 
