@@ -129,7 +129,7 @@ Synthesizes speech from a reference clip and its transcript using the F5-TTS dif
 <sub>Docker · Needs ffmpeg · Models: F5-TTS v1 Base, E2 TTS, Vocos and BigVGAN vocoders · port 7860 · [Repo](https://github.com/swivid/f5-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/mrfakename/E2-F5-TTS)</sub>
 
 <a name="openreader"></a>
-### #&#8288;8 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 539 · MIT · Oct 2026</sub>
+### #&#8288;8 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 540 · MIT · Oct 2026</sub>
 
 **Reads EPUB, PDF and DOCX aloud with synced word highlighting.**
 
