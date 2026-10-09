@@ -1,27 +1,9 @@
-# 🔎 Search reviews · Best of Self-Hosted AI
+# 🔎 Search reviews · Best of Open-Source AI
 
 Private search engines and AI answer engines that keep queries on your host. Back to the [leaderboard](../README.md#-search).
 
-<a name="crawl4ai"></a>
-### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
-
-**Python crawler that turns pages into LLM-ready markdown, with a Docker API.**
-
-Async Playwright crawler (pip install crawl4ai) that renders pages in Chromium, Firefox or WebKit and emits clean or filtered markdown, with CSS, XPath and regex extraction needing no LLM, or LLM extraction via any LiteLLM provider. Deep crawling (BFS, DFS, priority-scored) and adaptive crawling are built in. A Docker server on port 11235 exposes /md, /html, /crawl, /screenshot, /pdf and MCP behind an API token.
-
-- **+** Structured extraction with CSS, XPath or regex schemas needs no LLM or API key
-- **+** Docker server with REST, streaming crawl, MCP, dashboard and playground; amd64 and arm64
-- **+** Deep crawl strategies with crash recovery via resume_state
-- **+** Persistent browser profiles, CDP remote browsers and an undetected-browser adapter
-- **−** Apache-2.0 but requires attribution (badge or text) in your project
-- **−** Docker server answers only inside the container until CRAWL4AI_API_TOKEN is set
-- **−** Web search and answer endpoints exist only in the paid cloud
-- **−** Runs full browsers; the docker run example allocates 1 GB shared memory
-
-<sub>no GPU · Docker + Compose · Needs Playwright Chromium (installed by crawl4ai-setup) · Models: any LiteLLM provider for LLM extraction (OpenAI, Ollama and others) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com/)</sub>
-
 <a name="morphic"></a>
-### 🥈 [Morphic](https://github.com/miurla/morphic) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **Search engine that answers with citations and renders rich inline components.**
 
@@ -38,44 +20,8 @@ Morphic runs web searches and returns cited answers, rendering inline components
 
 <sub>Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Supabase Auth (optional) · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic)</sub>
 
-<a name="firecrawl"></a>
-### 🥉 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: patchy (45) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 190k · AGPL-3.0 · Oct 2026</sub>
-
-**Web scraping and crawling API that returns LLM-ready markdown.**
-
-API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with endpoints for search, scrape, crawl, map, batch scrape, page interaction and a prompt-driven agent. Handles JS-rendered pages and parses hosted PDFs and DOCX. SDKs for Python, Node, Go, Java, Elixir, Rust and Ruby plus an MCP server and CLI, for teams feeding web content to RAG pipelines and agents.
-
-- **+** Seven SDKs plus CLI and MCP server; SDKs poll async crawl jobs automatically
-- **+** Crawl, map and batch-scrape endpoints return job IDs for large sites
-- **+** Scrape supports actions (click, scroll, write, wait) before extraction
-- **+** Compose file at the repo root for self-hosting
-- **−** README is written around the hosted API and keys; self-hosting lives in separate docs
-- **−** AGPL-3.0 license; network use of a modified version triggers source obligations
-- **−** Agent endpoint runs the hosted spark-2 model, not a local LLM
-- **−** Proxy rotation and anti-bot handling are hosted-service features
-
-<sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev)</sub>
-
-<a name="gpt-researcher"></a>
-### #&#8288;4 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Sep 2026</sub>
-
-**Research agent that writes cited reports from web and local documents.**
-
-Planner and execution agents generate research questions, scrape 20+ sources, filter passages (Jev by default, BM25 fallback with no key) and write cited reports over 2,000 words, exportable to PDF and Word. Runs as a FastAPI server on port 8000 with a static or Next.js frontend, or as a pip package; local PDF, Office, CSV and Markdown files can be sources. For analysts automating long-form research.
-
-- **+** Deep Research mode: tree-like exploration, about 5 minutes and $0.40 per run on o3-mini
-- **+** Hybrid retrievers: Tavily plus MCP servers such as GitHub as research sources
-- **+** Works with any OpenAI-compatible endpoint via OPENAI_BASE_URL
-- **+** Multi-agent LangGraph and AG2 variants produce 5-6 page PDF, DOCX and Markdown reports
-- **−** Default setup needs OpenAI and Tavily API keys
-- **−** Jev context filtering needs a TYPESAFE_API_KEY; the fallback is keyword BM25
-- **−** Python 3.12 or later required
-- **−** Disclaimer labels the project experimental and for academic purposes
-
-<sub>no GPU · Docker + Compose · Needs OpenAI or OpenAI-compatible LLM API, Tavily API key (default retriever), TypeSafe API key (optional Jev filter) · Models: OpenAI models, any OpenAI-compatible endpoint via OPENAI_BASE_URL, Gemini 2.5 Flash Image (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev)</sub>
-
 <a name="local-deep-research"></a>
-### #&#8288;5 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (30) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
+### 🥈 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
 
 **Agentic research assistant with local LLMs, SearXNG and encrypted libraries.**
 
@@ -92,8 +38,26 @@ Runs multi-step research across the web, academic engines and your own documents
 
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, SQLCipher (bundled wheels) · Models: Ollama models (e.g. gpt-oss:20b, Qwen3.6-27B), any OpenAI-compatible endpoint · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research)</sub>
 
+<a name="gpt-researcher"></a>
+### 🥉 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Sep 2026</sub>
+
+**Research agent that writes cited reports from web and local documents.**
+
+Planner and execution agents generate research questions, scrape 20+ sources, filter passages (Jev by default, BM25 fallback with no key) and write cited reports over 2,000 words, exportable to PDF and Word. Runs as a FastAPI server on port 8000 with a static or Next.js frontend, or as a pip package; local PDF, Office, CSV and Markdown files can be sources. For analysts automating long-form research.
+
+- **+** Deep Research mode: tree-like exploration, about 5 minutes and $0.40 per run on o3-mini
+- **+** Hybrid retrievers: Tavily plus MCP servers such as GitHub as research sources
+- **+** Works with any OpenAI-compatible endpoint via OPENAI_BASE_URL
+- **+** Multi-agent LangGraph and AG2 variants produce 5-6 page PDF, DOCX and Markdown reports
+- **−** Default setup needs OpenAI and Tavily API keys
+- **−** Jev context filtering needs a TYPESAFE_API_KEY; the fallback is keyword BM25
+- **−** Python 3.12 or later required
+- **−** Disclaimer labels the project experimental and for academic purposes
+
+<sub>no GPU · Docker + Compose · Needs OpenAI or OpenAI-compatible LLM API, Tavily API key (default retriever), TypeSafe API key (optional Jev filter) · Models: OpenAI models, any OpenAI-compatible endpoint via OPENAI_BASE_URL, Gemini 2.5 Flash Image (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev)</sub>
+
 <a name="vane"></a>
-### #&#8288;6 [Vane](https://github.com/itzcrazykns/vane) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
+### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
 
 **Self-hosted answer engine with cited sources over SearXNG.**
 
@@ -110,26 +74,8 @@ Next.js answer engine (formerly Perplexica) that runs searches through a bundled
 
 <sub>no GPU · Docker + Compose · Needs SearXNG (bundled in the default image), LLM provider (Ollama, OpenAI-compatible server or cloud API) · Models: Ollama, OpenAI, Anthropic Claude, Google Gemini, Groq · port 3000 · [Repo](https://github.com/itzcrazykns/vane)</sub>
 
-<a name="jina-reader"></a>
-### #&#8288;7 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (41) · Freshness: active (82) · Maintenance: weak (15) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
-
-**Converts any URL or search query into LLM-friendly markdown.**
-
-Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page with headless Chrome or curl-impersonate, parses PDFs and Office files, and returns markdown, text, HTML, screenshots or JSON controlled by request headers (engine, timeout, token limits). The ghcr.io image bundles Chrome, LibreOffice and CJK fonts, serves HTTP/1.1 on 8081 and h2c on 8080, and runs stateless or with S3-compatible caching.
-
-- **+** Prebuilt image with Chrome, LibreOffice and CJK fonts; stateless by default
-- **+** Fine-grained headers: x-respond-timing, x-max-tokens, x-token-budget, x-target-selector
-- **+** Optional VLM captions for images without alt text
-- **+** Semantic markdown chunking by heading or block level
-- **−** Hosted proxy pool, rate limiting and MongoDB storage layer are not in the OSS branch
-- **−** Needs non-redistributable assets (MaxMind GeoLite2, Source Han Sans) fetched at build
-- **−** Last commit May 2026; the SaaS resync was April 2026
-- **−** Default h2c port 8080 needs --http2-prior-knowledge from curl; use 8081 otherwise
-
-<sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader)</sub>
-
 <a name="maestro"></a>
-### #&#8288;8 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (1) · Freshness: recent (63) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
+### #&#8288;5 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (1) · Freshness: recent (63) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
 
 **Multi-agent research platform that writes long reports from documents and web.**
 
@@ -146,4 +92,4 @@ Planning, Research, Reflection and Writing agents run research missions over upl
 
 <sub>RAM ≥ 16 GB · GPU optional · Compose · Needs Docker Compose v2+, API key for an AI provider or an OpenAI-compatible endpoint, PostgreSQL with pgvector (in compose) · Models: OpenAI-compatible APIs, Azure OpenAI (GPT-5), BGE-M3 embeddings · port 80 · [Repo](https://github.com/murtaza-nasir/maestro) · [📖 Docs ↗](https://murtaza-nasir.github.io/maestro/)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

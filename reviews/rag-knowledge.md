@@ -1,4 +1,4 @@
-# 📚 RAG and knowledge reviews · Best of Self-Hosted AI
+# 📚 RAG and knowledge reviews · Best of Open-Source AI
 
 Document Q&A, knowledge bases and enterprise search over your own files and data. Back to the [leaderboard](../README.md#-rag-and-knowledge).
 
@@ -75,7 +75,7 @@ WeKnora turns team documents into knowledge bases with three modes: cited RAG an
 <sub>no GPU · Docker + Compose · Needs Neo4j (optional profile), MinIO (optional profile), Langfuse (optional profile) · Models: OpenAI, DeepSeek, Qwen, Zhipu, Hunyuan, Gemini, MiniMax, NVIDIA, LiteLLM, Ollama · port 80 · [Repo](https://github.com/tencent/weknora) · [📖 Docs ↗](https://weknora.weixin.qq.com/docs/) · [🌐 Site ↗](https://weknora.weixin.qq.com)</sub>
 
 <a name="surfsense"></a>
-### #&#8288;5 [SurfSense](https://github.com/modsetter/surfsense) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · custom license · Oct 2026</sub>
+### #&#8288;5 [SurfSense](https://github.com/modsetter/surfsense) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · custom license · Oct 2026</sub>
 
 **Offline NotebookLM alternative that turns documents into decks, reports and podcasts.**
 
@@ -93,7 +93,7 @@ SurfSense indexes local PDFs, Office files and images into SQLite, answers with 
 <sub>no GPU · Docker + Compose · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · [Repo](https://github.com/modsetter/surfsense) · [📖 Docs ↗](https://www.surfsense.com/docs) · [🌐 Site ↗](https://www.surfsense.com/)</sub>
 
 <a name="maxkb"></a>
-### #&#8288;6 [MaxKB](https://github.com/1panel-dev/maxkb) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;6 [MaxKB](https://github.com/1panel-dev/maxkb) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · GPL-3.0 · Oct 2026</sub>
 
 **Enterprise knowledge-base agent platform with RAG, workflows and MCP tools.**
 
@@ -129,7 +129,7 @@ PrivateGPT 1.0 is an API server shaped like the Anthropic Messages API, adding f
 <sub>no GPU · Docker · Needs OpenAI-compatible inference server (Ollama, llama.cpp, vLLM) · Models: any model behind an OpenAI-compatible /v1/chat/completions endpoint · port 8080 · [Repo](https://github.com/zylon-ai/private-gpt) · [📖 Docs ↗](https://docs.privategpt.dev/)</sub>
 
 <a name="pipeshub"></a>
-### #&#8288;8 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
 
 **Permission-aware search and agent context over 50+ workplace systems.**
 
@@ -163,7 +163,7 @@ DeepWiki-Open takes a repository URL from GitHub, GitLab or Bitbucket, analyzes 
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/asyncfuncai/deepwiki-open) · [🌐 Site ↗](https://grok-wiki.com)</sub>
 
 <a name="db-gpt"></a>
-### #&#8288;10 [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Oct 2026</sub>
+### #&#8288;10 [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Oct 2026</sub>
 
 **Agentic data assistant that writes SQL and code over your databases.**
 
@@ -253,7 +253,7 @@ Morphik Core is a retrieval engine for visually rich documents: it embeds page i
 <sub>no GPU · Docker + Compose · Compose runs Redis, PostgreSQL, Ollama · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [▶️ Demo ↗](https://dev.morphik.ai) · [📖 Docs ↗](https://dev.morphik.ai/docs) · [🌐 Site ↗](https://morphik.ai)</sub>
 
 <a name="paperless-ai"></a>
-### #&#8288;15 [Paperless-AI](https://github.com/clusterzx/paperless-ai) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (26) · Freshness: recent (61) · Maintenance: weak (18) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Mar 2026</sub>
+### #&#8288;15 [Paperless-AI](https://github.com/clusterzx/paperless-ai) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (27) · Freshness: recent (61) · Maintenance: weak (18) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Mar 2026</sub>
 
 **Auto-tags Paperless-ngx documents and adds RAG chat over the archive.**
 
@@ -270,4 +270,4 @@ Paperless-AI watches a Paperless-ngx instance, sends new documents to OpenAI, Ol
 
 <sub>no GPU · Docker + Compose · Needs Paperless-ngx · Models: Ollama (Mistral, Llama, Phi-3, Gemma-2), OpenAI, DeepSeek, OpenRouter, Perplexity, Together, LiteLLM, vLLM, Fastchat, Gemini · [Repo](https://github.com/clusterzx/paperless-ai) · [📖 Docs ↗](https://github.com/clusterzx/paperless-ai/wiki/2.-Installation)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

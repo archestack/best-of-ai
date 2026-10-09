@@ -1,4 +1,4 @@
-# 💬 Chat UIs reviews · Best of Self-Hosted AI
+# 💬 Chat UIs reviews · Best of Open-Source AI
 
 Web front-ends for local or API models, usually with user accounts, chat history and file upload. Back to the [leaderboard](../README.md#-chat-uis).
 
@@ -20,26 +20,8 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 
 <sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub)</sub>
 
-<a name="open-webui"></a>
-### 🥈 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 154k · custom license · Sep 2026</sub>
-
-**Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG.**
-
-Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollama and any OpenAI-compatible API such as LM Studio, vLLM, OpenRouter or Groq. It bundles RAG over 9 vector databases with hybrid BM25 search, web search through 20+ providers, image generation via ComfyUI, AUTOMATIC1111, DALL-E or Gemini, MCP and OpenAPI tool servers, and per-user roles with LDAP, OAuth and SCIM provisioning.
-
-- **+** Images tagged :ollama and :cuda bundle Ollama or CUDA acceleration in one container
-- **+** RBAC, user groups, LDAP/AD, OAuth SSO and SCIM 2.0 provisioning built in
-- **+** 9 vector databases incl. ChromaDB, PGVector, Qdrant, Milvus and Elasticsearch
-- **+** Redis-backed sessions and WebSockets for multi-worker, multi-node deployments
-- **−** Custom Open WebUI License requires keeping the Open WebUI branding visible
-- **−** Enterprise plan pitched at the top of the README; Terminals isolation is enterprise-only
-- **−** pip install is pinned to Python 3.11
-- **−** Data is lost unless the /app/backend/data volume is mounted
-
-<sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
-
 <a name="anything-llm"></a>
-### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
+### 🥈 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
 
 **Document chat and agent app with built-in RAG, MCP and multi-user support.**
 
@@ -56,8 +38,26 @@ AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a 
 
 <sub>no GPU · Docker + Compose · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub>
 
+<a name="open-webui"></a>
+### 🥉 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 154k · custom license · Sep 2026</sub>
+
+**Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG.**
+
+Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollama and any OpenAI-compatible API such as LM Studio, vLLM, OpenRouter or Groq. It bundles RAG over 9 vector databases with hybrid BM25 search, web search through 20+ providers, image generation via ComfyUI, AUTOMATIC1111, DALL-E or Gemini, MCP and OpenAPI tool servers, and per-user roles with LDAP, OAuth and SCIM provisioning.
+
+- **+** Images tagged :ollama and :cuda bundle Ollama or CUDA acceleration in one container
+- **+** RBAC, user groups, LDAP/AD, OAuth SSO and SCIM 2.0 provisioning built in
+- **+** 9 vector databases incl. ChromaDB, PGVector, Qdrant, Milvus and Elasticsearch
+- **+** Redis-backed sessions and WebSockets for multi-worker, multi-node deployments
+- **−** Custom Open WebUI License requires keeping the Open WebUI branding visible
+- **−** Enterprise plan pitched at the top of the README; Terminals isolation is enterprise-only
+- **−** pip install is pinned to Python 3.11
+- **−** Data is lost unless the /app/backend/data volume is mounted
+
+<sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
+
 <a name="big-agi"></a>
-### #&#8288;4 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;4 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Multi-model chat workspace with Beam side-by-side model comparison.**
 
@@ -93,7 +93,7 @@ Hermes WebUI is a Python server with a vanilla JS frontend (no build step) that 
 <sub>Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [🌐 Site ↗](https://hermes-agent.nousresearch.com/)</sub>
 
 <a name="librechat"></a>
-### #&#8288;6 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 45k · MIT · Oct 2026</sub>
+### #&#8288;6 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 45k · MIT · Oct 2026</sub>
 
 **Multi-provider ChatGPT-style app with agents, MCP, code interpreter and auth.**
 
@@ -234,4 +234,4 @@ ChatGPT UI is a web client for ChatGPT-style chat that supports multiple users, 
 
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/wongsaang/chatgpt-ui) · [📖 Docs ↗](https://wongsaang.github.io/chatgpt-ui/)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

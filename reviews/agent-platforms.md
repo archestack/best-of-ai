@@ -1,26 +1,26 @@
-# 🧩 Agent platforms reviews · Best of Self-Hosted AI
+# 🧩 Agent platforms reviews · Best of Open-Source AI
 
 Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. Back to the [leaderboard](../README.md#-agent-platforms).
 
-<a name="n8n"></a>
-### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 207k · custom license · Oct 2026</sub>
+<a name="langflow"></a>
+### 🥇 [Langflow](https://github.com/langflow-ai/langflow) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 155k · MIT · Oct 2026</sub>
 
-**Visual workflow automation with code steps, AI agent nodes and 1500+ integrations.**
+**Visual flow builder that deploys agents as APIs or MCP servers.**
 
-n8n is a fair-code workflow platform that runs as one Docker container (docker.n8n.io/n8nio/n8n, port 5678) and combines a visual canvas with JavaScript, Python and npm code nodes. AI agent and workflow nodes connect to OpenAI, Anthropic, Google or open-source models, with human-approval steps and observability, and 1500+ integrations plus 9,000+ templates cover the rest of the stack.
+Langflow is a Python 3.10 to 3.14 visual builder (uv pip install langflow, or the langflowai/langflow Docker image on port 7860) for agents and LLM workflows. Every component is editable Python, flows run in an interactive playground, and a finished flow can be served as an API, exported as JSON for Python apps or exposed as an MCP server. Multi-agent orchestration and LangSmith or LangFuse tracing are built in.
 
-- **+** 1500+ integrations and 9,000+ ready-made workflow templates
-- **+** Code nodes run JavaScript or Python and can pull npm packages
-- **+** Single container on port 5678 with one data volume
-- **+** Switch model providers without rebuilding the workflow
-- **−** Sustainable Use License (fair-code, source-available), not an OSI license
-- **−** Some features require a separate n8n Enterprise License
-- **−** README states no database, RAM or CPU requirements
+- **+** Any flow becomes an API endpoint or an MCP server for MCP clients
+- **+** Component source is Python you can edit inside the builder
+- **+** One container on port 7860; no other service in the quick start
+- **+** MIT license; desktop builds for Windows and macOS
+- **−** README names no model providers, vector stores or resource needs
+- **−** No root Dockerfile or compose file; container config lives in the docs
+- **−** Enterprise-ready claim is not detailed in the README
 
-<sub>no GPU · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io)</sub>
+<sub>no GPU · Docker + Compose · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs ↗](https://docs.langflow.org/get-started-installation) · [🌐 Site ↗](https://langflow.org)</sub>
 
 <a name="dify"></a>
-### 🥈 [Dify](https://github.com/langgenius/dify) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 158k · custom license · Oct 2026</sub>
+### 🥈 [Dify](https://github.com/langgenius/dify) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 158k · custom license · Oct 2026</sub>
 
 **Visual LLM app platform with workflows, RAG pipeline, agents and APIs.**
 
@@ -37,43 +37,8 @@ Dify is an LLM app platform started with Docker Compose (dashboard on port 80) t
 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [▶️ Demo ↗](https://cloud.dify.ai) · [📖 Docs ↗](https://docs.dify.ai) · [🌐 Site ↗](https://dify.ai)</sub>
 
-<a name="langflow"></a>
-### 🥉 [Langflow](https://github.com/langflow-ai/langflow) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 155k · MIT · Oct 2026</sub>
-
-**Visual flow builder that deploys agents as APIs or MCP servers.**
-
-Langflow is a Python 3.10 to 3.14 visual builder (uv pip install langflow, or the langflowai/langflow Docker image on port 7860) for agents and LLM workflows. Every component is editable Python, flows run in an interactive playground, and a finished flow can be served as an API, exported as JSON for Python apps or exposed as an MCP server. Multi-agent orchestration and LangSmith or LangFuse tracing are built in.
-
-- **+** Any flow becomes an API endpoint or an MCP server for MCP clients
-- **+** Component source is Python you can edit inside the builder
-- **+** One container on port 7860; no other service in the quick start
-- **+** MIT license; desktop builds for Windows and macOS
-- **−** README names no model providers, vector stores or resource needs
-- **−** No root Dockerfile or compose file; container config lives in the docs
-- **−** Enterprise-ready claim is not detailed in the README
-
-<sub>no GPU · Docker + Compose · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs ↗](https://docs.langflow.org/get-started-installation) · [🌐 Site ↗](https://langflow.org)</sub>
-
-<a name="sim"></a>
-### #&#8288;4 [Sim](https://github.com/simstudioai/sim) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
-
-**Workspace to build, deploy and monitor agents with 1,000+ integrations.**
-
-Sim is a Next.js and Bun app on PostgreSQL that builds agents visually, by chat or in code, with monitoring, schedules and logs. The npx sim-setup wizard (Node.js 20+ and Docker) provisions the database, secrets and images and serves port 3000. Tables, files and knowledge bases share the workspace, 1,000+ integrations such as Slack, Notion and HubSpot are available, and local models run via Ollama or vLLM.
-
-- **+** Built-in tables, file store and knowledge bases alongside workflows and chat
-- **+** 1,000+ integrations including Slack, Notion, HubSpot, Salesforce and databases
-- **+** Local models via Ollama and vLLM; Apache-2.0 license
-- **+** sim-setup wizard adds email, storage, sandbox, jobs, cache or knowledge later
-- **−** Chat is a Sim-managed service; self-hosted installs need a Chat API key from sim.ai
-- **−** Setup prompt in the README notes the Compose stack needs 12 GB+ RAM
-- **−** Background jobs use Trigger.dev and remote code execution uses E2B
-- **−** Self-hosting goes through an npx wizard rather than a documented compose file
-
-<sub>RAM ≥ 12 GB · no GPU · Docker + Compose · Needs PostgreSQL, Docker, Sim Chat API key · Models: Ollama, vLLM · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs ↗](https://docs.sim.ai) · [🌐 Site ↗](https://sim.ai)</sub>
-
 <a name="autogpt"></a>
-### #&#8288;5 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: hard (17) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 187k · custom license · Oct 2026</sub>
+### 🥉 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: hard (17) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 187k · custom license · Oct 2026</sub>
 
 **Block-based builder for agents that run on demand, schedule or trigger.**
 
@@ -90,8 +55,26 @@ AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire bl
 
 <sub>no GPU · Needs Docker · [Repo](https://github.com/significant-gravitas/autogpt) · [▶️ Demo ↗](https://platform.agpt.co/tour) · [📖 Docs ↗](https://docs.agpt.co)</sub>
 
+<a name="sim"></a>
+### #&#8288;4 [Sim](https://github.com/simstudioai/sim) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+
+**Workspace to build, deploy and monitor agents with 1,000+ integrations.**
+
+Sim is a Next.js and Bun app on PostgreSQL that builds agents visually, by chat or in code, with monitoring, schedules and logs. The npx sim-setup wizard (Node.js 20+ and Docker) provisions the database, secrets and images and serves port 3000. Tables, files and knowledge bases share the workspace, 1,000+ integrations such as Slack, Notion and HubSpot are available, and local models run via Ollama or vLLM.
+
+- **+** Built-in tables, file store and knowledge bases alongside workflows and chat
+- **+** 1,000+ integrations including Slack, Notion, HubSpot, Salesforce and databases
+- **+** Local models via Ollama and vLLM; Apache-2.0 license
+- **+** sim-setup wizard adds email, storage, sandbox, jobs, cache or knowledge later
+- **−** Chat is a Sim-managed service; self-hosted installs need a Chat API key from sim.ai
+- **−** Setup prompt in the README notes the Compose stack needs 12 GB+ RAM
+- **−** Background jobs use Trigger.dev and remote code execution uses E2B
+- **−** Self-hosting goes through an npx wizard rather than a documented compose file
+
+<sub>RAM ≥ 12 GB · no GPU · Docker + Compose · Needs PostgreSQL, Docker, Sim Chat API key · Models: Ollama, vLLM · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs ↗](https://docs.sim.ai) · [🌐 Site ↗](https://sim.ai)</sub>
+
 <a name="multica"></a>
-### #&#8288;6 [Multica](https://github.com/multica-ai/multica) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 52k · custom license · Oct 2026</sub>
+### #&#8288;5 [Multica](https://github.com/multica-ai/multica) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 52k · custom license · Oct 2026</sub>
 
 **Issue board where AI coding agents take assignments like teammates.**
 
@@ -108,26 +91,8 @@ Multica is a workspace where issues are assigned to AI coding agents, which run 
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL 17, Docker, agent CLI (Claude Code, Codex, etc.) · Models: Claude Code, OpenAI Codex, Cursor Agent, GitHub Copilot CLI, OpenCode · [Repo](https://github.com/multica-ai/multica) · [📖 Docs ↗](https://multica.ai/docs) · [🌐 Site ↗](https://multica.ai)</sub>
 
-<a name="activepieces"></a>
-### #&#8288;7 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
-
-**Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
-
-Activepieces is a no-code workflow builder with loops, branches, auto retries, HTTP calls and npm-backed code steps, and flows are versioned. Integrations are called pieces: TypeScript npm packages, 280+ of which are exposed as MCP servers for Claude Desktop, Cursor or Windsurf. It also has AI pieces for several providers, human-in-the-loop approvals, and chat and form triggers.
-
-- **+** Pieces are open-source TypeScript npm packages with hot reloading for local development
-- **+** 280+ pieces usable as MCP servers from Claude Desktop, Cursor or Windsurf
-- **+** Flows are versioned and support loops, branches and auto retries
-- **+** Built-in approval, delay, chat and form triggers for human-in-the-loop flows
-- **−** Enterprise features sit under a separate commercial license, not MIT
-- **−** README does not state RAM, CPU or database requirements
-- **−** Automation-first; AI agents are one feature rather than the core design
-- **−** README claims of 200+ and 280+ pieces are inconsistent
-
-<sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com)</sub>
-
 <a name="paperclip"></a>
-### #&#8288;8 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 99k · MIT · Oct 2026</sub>
+### #&#8288;6 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 99k · MIT · Oct 2026</sub>
 
 **Task manager and org chart for teams of AI agents with budgets.**
 
@@ -145,7 +110,7 @@ Paperclip is a Node.js server and React UI that coordinates external agents (Ope
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/paperclipai/paperclip) · [📖 Docs ↗](https://docs.paperclip.ing) · [🌐 Site ↗](https://paperclip.ing)</sub>
 
 <a name="skyvern"></a>
-### #&#8288;9 [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Oct 2026</sub>
 
 **Browser automation agent driven by vision LLMs over Playwright.**
 
@@ -163,7 +128,7 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · port 8080 · [Repo](https://github.com/skyvern-ai/skyvern) · [▶️ Demo ↗](https://app.skyvern.com) · [📖 Docs ↗](https://www.skyvern.com/docs/) · [🌐 Site ↗](https://www.skyvern.com)</sub>
 
 <a name="agent-zero"></a>
-### #&#8288;10 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Sep 2026</sub>
+### #&#8288;8 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Sep 2026</sub>
 
 **Agent framework that gives the model a full Linux desktop in Docker.**
 
@@ -181,7 +146,7 @@ Agent Zero runs as the agent0ai/agent-zero Docker image (port 80) and gives the 
 <sub>no GPU · Docker + Compose · Needs Docker · Models: OpenAI Codex plan (OAuth) · port 80 · [Repo](https://github.com/agent0ai/agent-zero) · [🌐 Site ↗](https://agent-zero.ai)</sub>
 
 <a name="fastgpt"></a>
-### #&#8288;11 [FastGPT](https://github.com/labring/fastgpt) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Oct 2026</sub>
+### #&#8288;9 [FastGPT](https://github.com/labring/fastgpt) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Oct 2026</sub>
 
 **Knowledge-base Q&A and visual workflow platform for LLM apps.**
 
@@ -199,7 +164,7 @@ FastGPT builds agents and LLM apps from a visual Flow editor on top of a knowled
 <sub>no GPU · Compose · port 3000 · [Repo](https://github.com/labring/fastgpt) · [📖 Docs ↗](https://doc.fastgpt.io/guide/getting-started) · [🌐 Site ↗](https://fastgpt.io)</sub>
 
 <a name="botpress"></a>
-### #&#8288;12 [Botpress](https://github.com/botpress/botpress) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (22) · Freshness: recent (70) · Maintenance: patchy (40) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Oct 2026</sub>
+### #&#8288;10 [Botpress](https://github.com/botpress/botpress) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (22) · Freshness: recent (70) · Maintenance: patchy (40) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Oct 2026</sub>
 
 **SDK, CLI and open-source integrations for the Botpress Cloud bot platform.**
 
@@ -215,4 +180,4 @@ This repository holds the TypeScript devtools for Botpress Cloud: the @botpress/
 
 <sub>no GPU · Docker · Models: OpenAI · [Repo](https://github.com/botpress/botpress) · [▶️ Demo ↗](https://app.botpress.cloud) · [📖 Docs ↗](https://botpress.com/docs) · [🌐 Site ↗](https://botpress.com)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

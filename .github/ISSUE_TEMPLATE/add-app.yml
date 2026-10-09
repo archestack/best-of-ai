@@ -17,26 +17,34 @@ body:
       options:
         - assistants
         - chat-ui
+        - desktop-apps
         - agent-platforms
+        - automation
         - rag-knowledge
-        - model-serving
-        - gateways
-        - memory
+        - search
         - voice
         - image-video
-        - coding
-        - search
+        - security
+        - agent-frameworks
+        - memory
+        - model-serving
+        - models
+        - training
+        - ml-frameworks
+        - gateways
         - observability
         - vector-db
-        - security
         - sandboxes
+        - data-tools
+        - mcp-servers
+        - learning
         - not sure
     validations:
       required: true
   - type: textarea
     id: what
     attributes:
-      label: What does it do, in one or two sentences?
+      label: What does it do, or what do you get when you clone it?
       description: Concrete capability, not a slogan. The entry is written from the README anyway; this helps the reviewer.
     validations:
       required: true
@@ -60,7 +68,7 @@ body:
     attributes:
       label: Checks
       options:
-        - label: It has a Dockerfile, a compose file, or documented server install steps.
+        - label: Its main job is AI: an app, a library, a model, infrastructure for AI apps, or learning material.
           required: true
         - label: It has an open-source license file.
           required: true

@@ -1,4 +1,4 @@
-# 🧮 Vector databases reviews · Best of Self-Hosted AI
+# 🧮 Vector databases reviews · Best of Open-Source AI
 
 Vector stores and hybrid search engines for embeddings. Back to the [leaderboard](../README.md#-vector-databases).
 
@@ -39,7 +39,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 <sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com)</sub>
 
 <a name="chroma"></a>
-### 🥉 [Chroma](https://github.com/chroma-core/chroma) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: patchy (37) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [Chroma](https://github.com/chroma-core/chroma) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: patchy (37) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Embedding database with a four-function API for Python and JavaScript.**
 
@@ -75,7 +75,7 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 <sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo ↗](https://qdrant.to/semantic-search-demo) · [📖 Docs ↗](https://qdrant.tech/documentation/)</sub>
 
 <a name="pgvector"></a>
-### #&#8288;5 [pgvector](https://github.com/pgvector/pgvector) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (58) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · custom license · Oct 2026</sub>
+### #&#8288;5 [pgvector](https://github.com/pgvector/pgvector) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (58) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · custom license · Oct 2026</sub>
 
 **PostgreSQL extension for vector similarity search with HNSW and IVFFlat.**
 
@@ -111,7 +111,7 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io)</sub>
 
 <a name="helix-db"></a>
-### #&#8288;7 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
 
 **Rust graph database with native vector and BM25 search.**
 
@@ -129,7 +129,7 @@ HelixDB is a Rust database that combines a labeled property graph, approximate n
 <sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com)</sub>
 
 <a name="vespa"></a>
-### #&#8288;8 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -146,4 +146,4 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

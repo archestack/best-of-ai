@@ -1,4 +1,4 @@
-# 🎙️ Voice reviews · Best of Self-Hosted AI
+# 🎙️ Voice reviews · Best of Open-Source AI
 
 Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. Back to the [leaderboard](../README.md#%EF%B8%8F-voice).
 
@@ -21,7 +21,7 @@ Desktop app (Tauri) and Docker service that clones voices from a short sample an
 <sub>GPU optional · Docker + Compose · Models: Qwen3-TTS 0.6B/1.7B, Qwen CustomVoice, Qwen VoiceDesign, LuxTTS, Chatterbox Multilingual · port 17493 · [Repo](https://github.com/jamiepine/voicebox) · [📖 Docs ↗](https://docs.voicebox.sh) · [🌐 Site ↗](https://voicebox.sh)</sub>
 
 <a name="speech-to-speech"></a>
-### 🥈 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **Modular voice-agent pipeline exposed through the OpenAI Realtime API.**
 
@@ -39,7 +39,7 @@ Runs a VAD, STT, LLM and TTS cascade, with each stage in its own thread and ever
 <sub>RAM ≥ 16 GB · GPU optional · Docker + Compose · Needs OpenAI-compatible LLM server (optional), PortAudio and libsndfile on Ubuntu · Models: Parakeet TDT, Qwen3-TTS, Whisper, Kokoro-82M, Transformers LLMs · port 8765 · [Repo](https://github.com/huggingface/speech-to-speech) · [📖 Docs ↗](https://github.com/huggingface/speech-to-speech/blob/main/docs/configuration.md)</sub>
 
 <a name="pocket-tts"></a>
-### 🥉 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Oct 2026</sub>
+### 🥉 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Oct 2026</sub>
 
 **100M-parameter CPU text-to-speech with streaming and voice cloning.**
 
@@ -93,7 +93,7 @@ Clones a voice from one reference clip and synthesizes speech in Chinese, Englis
 <sub>Needs uv · Models: IndexTTS-2.5, IndexTTS-2, IndexTTS-1.5 (legacy) · port 7860 · [Repo](https://github.com/index-tts/index-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/IndexTeam/IndexTTS-2.5-Demo)</sub>
 
 <a name="gpt-sovits"></a>
-### #&#8288;6 [GPT-SoVITS](https://github.com/rvc-boss/gpt-sovits) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: widely used (92) · Freshness: recent (74) · Maintenance: patchy (34) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 63k · MIT · Oct 2026</sub>
+### #&#8288;6 [GPT-SoVITS](https://github.com/rvc-boss/gpt-sovits) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: widely used (93) · Freshness: recent (74) · Maintenance: patchy (34) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 63k · MIT · Oct 2026</sub>
 
 **Few-shot voice cloning and TTS with a training web UI.**
 
@@ -146,7 +146,7 @@ Next.js server that narrates EPUB, PDF, TXT, Markdown and DOCX files with synchr
 <sub>no GPU · Docker · Needs OpenAI-compatible TTS server or cloud TTS API, NATS JetStream (compute worker), SQLite or PostgreSQL, SeaweedFS (embedded) or S3-compatible storage · Models: Kokoro-FastAPI, KittenTTS-FastAPI, Orpheus-FastAPI, OpenAI TTS, Replicate · [Repo](https://github.com/richardr1126/openreader) · [📖 Docs ↗](https://docs.openreader.richardr.dev/)</sub>
 
 <a name="speakr"></a>
-### #&#8288;9 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;9 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
 
 **Transcribe, summarize and search recordings with pluggable ASR and LLMs.**
 
@@ -199,4 +199,4 @@ Exposes OpenAI-style audio endpoints: streaming transcription and translation th
 
 <sub>GPU optional · Docker + Compose · Models: faster-whisper (CTranslate2 Whisper), Kokoro, Piper · [Repo](https://github.com/speaches-ai/speaches) · [📖 Docs ↗](https://speaches.ai/) · [🌐 Site ↗](https://speaches.ai/)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

@@ -1,9 +1,9 @@
-# 🧠 Model serving reviews · Best of Self-Hosted AI
+# 🧠 Model serving reviews · Best of Open-Source AI
 
 Inference engines and model servers that expose local models over an API. Back to the [leaderboard](../README.md#-model-serving).
 
 <a name="localai"></a>
-### 🥇 [LocalAI](https://github.com/mudler/localai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
+### 🥇 [LocalAI](https://github.com/mudler/localai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 
 **One OpenAI-compatible server for text, speech, image and video models.**
 
@@ -39,7 +39,7 @@ llama.cpp is a C/C++ inference engine for LLMs and VLMs with no dependencies, bu
 <sub>GPU optional · Docker · Models: GGUF models from Hugging Face (e.g. Qwen3.5-0.8B-GGUF) · [Repo](https://github.com/ggml-org/llama.cpp) · [🌐 Site ↗](https://llama.app)</sub>
 
 <a name="vllm"></a>
-### 🥉 [vLLM](https://github.com/vllm-project/vllm) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 93k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [vLLM](https://github.com/vllm-project/vllm) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 93k · Apache-2.0 · Oct 2026</sub>
 
 **High-throughput LLM serving engine with OpenAI and Anthropic APIs.**
 
@@ -111,7 +111,7 @@ SGLang is a Python inference framework for serving large language, vision-langua
 <sub>Docker + Compose · Models: LLMs, vision-language models, diffusion models · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs ↗](https://docs.sglang.io/) · [🌐 Site ↗](https://www.sglang.io/)</sub>
 
 <a name="lemonade"></a>
-### #&#8288;7 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
 
 **Local AI server that targets GPUs and AMD NPUs with OpenAI-style APIs.**
 
@@ -165,7 +165,7 @@ llama-swap is one Go binary that proxies OpenAI and Anthropic API calls to local
 <sub>GPU optional · Docker · Needs an upstream inference server (llama-server, vLLM, etc.) · Models: any model served by the configured upstream (GGUF via llama-server, etc.) · port 8080 · [Repo](https://github.com/mostlygeek/llama-swap)</sub>
 
 <a name="xinference"></a>
-### #&#8288;10 [Xinference](https://github.com/xorbitsai/inference) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [Xinference](https://github.com/xorbitsai/inference) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
 
 **Serves LLM, embedding, speech and image models behind one OpenAI-compatible API.**
 
@@ -183,7 +183,7 @@ Xinference is a Python library and server that runs language, embedding, speech 
 <sub>GPU optional · Models: vLLM, ggml, llama.cpp (xllamacpp), TensorRT, embedding models · port 9997 · [Repo](https://github.com/xorbitsai/inference) · [📖 Docs ↗](https://inference.readthedocs.io/) · [🌐 Site ↗](https://xinference.co)</sub>
 
 <a name="mistral-rs"></a>
-### #&#8288;11 [mistral.rs](https://github.com/ericlbuehler/mistral.rs) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (74) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Oct 2026</sub>
+### #&#8288;11 [mistral.rs](https://github.com/ericlbuehler/mistral.rs) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (74) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Oct 2026</sub>
 
 **Rust inference server with OpenAI and Anthropic APIs and agent tools.**
 
@@ -201,7 +201,7 @@ mistral.rs is a Rust engine whose single binary runs and serves Hugging Face, GG
 <sub>GPU optional · Docker · Models: Hugging Face safetensors, GGUF, UQFF, Qwen3, Gemma 4, Muse Glimmer, DiffusionGemma and 45+ architectures · port 1234 · [Repo](https://github.com/ericlbuehler/mistral.rs) · [📖 Docs ↗](https://docs.mistralrs.dev/)</sub>
 
 <a name="text-generation-webui"></a>
-### #&#8288;12 [Text Generation Web UI](https://github.com/oobabooga/textgen) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: weak (12) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;12 [Text Generation Web UI](https://github.com/oobabooga/textgen) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: weak (12) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · AGPL-3.0 · Aug 2026</sub>
 
 **Local LLM chat UI and API with five switchable loader backends.**
 
@@ -237,7 +237,7 @@ KTransformers is a research framework for CPU-GPU heterogeneous inference and fi
 <sub>GPU required · Docker · Needs SGLang (serving), LLaMA-Factory (fine-tuning) · Models: DeepSeek-V3/R1/V4-Flash, Kimi K2 to K2.6, GLM-5 to 5.3, MiniMax-M2.x/M3, Qwen3-MoE, Qwen3-Next · [Repo](https://github.com/kvcache-ai/ktransformers) · [📖 Docs ↗](https://kvcache-ai.github.io/ktransformers/)</sub>
 
 <a name="triton-inference-server"></a>
-### #&#8288;14 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · BSD-3-Clause · Oct 2026</sub>
+### #&#8288;14 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · BSD-3-Clause · Oct 2026</sub>
 
 **NVIDIA inference server for TensorRT, PyTorch, ONNX and more over HTTP/gRPC.**
 
@@ -255,7 +255,7 @@ Triton serves TensorRT, PyTorch, ONNX, OpenVINO, Python and RAPIDS FIL models ov
 <sub>GPU optional · Docker · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python, RAPIDS FIL backends · [Repo](https://github.com/triton-inference-server/server) · [🌐 Site ↗](https://developer.nvidia.com/nvidia-triton-inference-server)</sub>
 
 <a name="gpustack"></a>
-### #&#8288;15 [GPUStack](https://github.com/gpustack/gpustack) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;15 [GPUStack](https://github.com/gpustack/gpustack) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
 
 **GPU cluster manager that deploys models on vLLM, SGLang and TensorRT-LLM.**
 
@@ -290,26 +290,8 @@ LMDeploy compresses and serves LLMs and VLMs with two engines: TurboMind (CUDA, 
 
 <sub>GPU required · Docker · Models: Llama 1-4, Qwen1.5-3.5, InternLM2/3, DeepSeek V2-V4, GLM-4/5, Mixtral, Gemma, Phi-3/4, gpt-oss, VLMs: InternVL, Qwen-VL, LLaVA, DeepSeek-VL, CogVLM, MiniCPM-V, Molmo, Gemma3, Llama4 · [Repo](https://github.com/internlm/lmdeploy) · [📖 Docs ↗](https://lmdeploy.readthedocs.io/en/latest/)</sub>
 
-<a name="text-embeddings-inference"></a>
-### #&#8288;17 [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: patchy (49) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · Apache-2.0 · Oct 2026</sub>
-
-**Rust server for embedding, reranker and classification models.**
-
-TEI is a Rust server from Hugging Face for embedding, reranker and sequence-classification models (BERT, XLM-RoBERTa, Nomic, Jina, GTE, Qwen3, ModernBERT, Gemma3) with token-based dynamic batching and Flash Attention. The router listens on port 3000 with /embed and OpenAI-compatible routes, gRPC, OpenTelemetry tracing and Prometheus metrics. Images cover CPU x86/arm64 and NVIDIA Turing through Blackwell.
-
-- **+** Token-based dynamic batching with Flash Attention, Candle and cuBLASLt
-- **+** Small images and fast boot; no graph compilation step
-- **+** Rerankers and classifiers served alongside embeddings
-- **+** OpenTelemetry tracing, Prometheus metrics, API key auth, gRPC
-- **−** No Volta support; Turing image is experimental with Flash Attention off
-- **−** GPU images need drivers compatible with CUDA 12.2 or higher
-- **−** Only CamemBERT and XLM-RoBERTa for sequence classification
-- **−** 7B embedders such as Qwen3-Embedding-8B are flagged very expensive
-
-<sub>GPU optional · Docker · Models: Qwen3-Embedding, gte-Qwen2, multilingual-e5, embeddinggemma, arctic-embed, nomic-embed, ModernBERT, jina-embeddings-v2, bge-reranker, gte rerankers · port 3000 · [Repo](https://github.com/huggingface/text-embeddings-inference) · [📖 Docs ↗](https://huggingface.github.io/text-embeddings-inference)</sub>
-
 <a name="llamafile"></a>
-### #&#8288;18 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Oct 2026</sub>
+### #&#8288;17 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Oct 2026</sub>
 
 **Single-file executables that bundle llama.cpp with model weights.**
 
@@ -325,6 +307,24 @@ llamafile packages llama.cpp and model weights into one executable using Cosmopo
 - **−** One model per file; not a multi-model server
 
 <sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs ↗](https://docs.mozilla.ai/llamafile)</sub>
+
+<a name="text-embeddings-inference"></a>
+### #&#8288;18 [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: patchy (49) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · Apache-2.0 · Oct 2026</sub>
+
+**Rust server for embedding, reranker and classification models.**
+
+TEI is a Rust server from Hugging Face for embedding, reranker and sequence-classification models (BERT, XLM-RoBERTa, Nomic, Jina, GTE, Qwen3, ModernBERT, Gemma3) with token-based dynamic batching and Flash Attention. The router listens on port 3000 with /embed and OpenAI-compatible routes, gRPC, OpenTelemetry tracing and Prometheus metrics. Images cover CPU x86/arm64 and NVIDIA Turing through Blackwell.
+
+- **+** Token-based dynamic batching with Flash Attention, Candle and cuBLASLt
+- **+** Small images and fast boot; no graph compilation step
+- **+** Rerankers and classifiers served alongside embeddings
+- **+** OpenTelemetry tracing, Prometheus metrics, API key auth, gRPC
+- **−** No Volta support; Turing image is experimental with Flash Attention off
+- **−** GPU images need drivers compatible with CUDA 12.2 or higher
+- **−** Only CamemBERT and XLM-RoBERTa for sequence classification
+- **−** 7B embedders such as Qwen3-Embedding-8B are flagged very expensive
+
+<sub>GPU optional · Docker · Models: Qwen3-Embedding, gte-Qwen2, multilingual-e5, embeddinggemma, arctic-embed, nomic-embed, ModernBERT, jina-embeddings-v2, bge-reranker, gte rerankers · port 3000 · [Repo](https://github.com/huggingface/text-embeddings-inference) · [📖 Docs ↗](https://huggingface.github.io/text-embeddings-inference)</sub>
 
 <a name="tabbyapi"></a>
 ### #&#8288;19 [TabbyAPI](https://github.com/theroyallab/tabbyapi) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (57) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Oct 2026</sub>
@@ -362,4 +362,4 @@ OpenLLM serves open LLMs as OpenAI-compatible APIs with one command: pip install
 
 <sub>GPU required · Models: Llama 3.1/3.2/3.3/4, Qwen2.5, Qwen2.5-Coder, QwQ, Mistral, Mistral Large, Pixtral, Phi-4, Gemma 2/3, Jamba 1.5, DeepSeek R1 · port 3000 · [Repo](https://github.com/bentoml/openllm)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

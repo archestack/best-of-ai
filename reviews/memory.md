@@ -1,9 +1,9 @@
-# 🗂️ Memory reviews · Best of Self-Hosted AI
+# 🗂️ Memory reviews · Best of Open-Source AI
 
 Long-term memory engines that store and retrieve facts for agents across sessions. Back to the [leaderboard](../README.md#%EF%B8%8F-memory).
 
 <a name="hindsight"></a>
-### 🥇 [hindsight](https://github.com/vectorize-io/hindsight) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Oct 2026</sub>
+### 🥇 [hindsight](https://github.com/vectorize-io/hindsight) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Oct 2026</sub>
 
 **Agent memory server with retain, recall and reflect operations.**
 
@@ -75,7 +75,7 @@ agentmemory captures what a coding agent does across sessions, stores it as sear
 <sub>no GPU · Docker + Compose · Needs Node.js 20+, iii-engine v0.22.1 · Models: Xenova/all-MiniLM-L6-v2 (local embeddings) · port 3113 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
 
 <a name="mem0"></a>
-### #&#8288;5 [Mem0](https://github.com/mem0ai/mem0) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [Mem0](https://github.com/mem0ai/mem0) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · Apache-2.0 · Oct 2026</sub>
 
 **Memory layer for agents with a self-hosted server, SDKs and CLI.**
 
@@ -111,7 +111,7 @@ Cognee builds persistent agent memory by extracting entities, relationships and 
 <sub>no GPU · Docker + Compose · Compose runs Neo4j, PostgreSQL, Redis · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs ↗](https://docs.cognee.ai/) · [🌐 Site ↗](https://cognee.ai)</sub>
 
 <a name="graphiti"></a>
-### #&#8288;7 [Graphiti](https://github.com/getzep/graphiti) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Graphiti](https://github.com/getzep/graphiti) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Temporal knowledge graph framework for agent memory with REST and MCP servers.**
 
@@ -147,7 +147,7 @@ MemOS gives LLM apps and agents long-term memory via one API over graph-structur
 <sub>no GPU · Docker + Compose · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/)</sub>
 
 <a name="supermemory"></a>
-### #&#8288;9 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;9 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Memory and context API with user profiles, connectors and a local server.**
 
@@ -165,7 +165,7 @@ Supermemory extracts facts from conversations, maintains per-user profiles and a
 <sub>no GPU · Models: OpenAI, Anthropic, Gemini, Groq, OpenAI-compatible endpoints · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs ↗](https://supermemory.ai/docs)</sub>
 
 <a name="honcho"></a>
-### #&#8288;10 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;10 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory service modelling users, agents and groups as evolving peers.**
 
@@ -183,7 +183,7 @@ Honcho is a FastAPI memory server where humans and agents are peers that exchang
 <sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
 
 <a name="engram"></a>
-### #&#8288;11 [Engram](https://github.com/gentleman-programming/engram) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;11 [Engram](https://github.com/gentleman-programming/engram) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Single Go binary memory for coding agents on SQLite FTS5 with MCP.**
 
@@ -218,4 +218,4 @@ Letta Code is an npm-installed agent harness whose agents keep memory blocks, sk
 
 <sub>no GPU · Docker · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com/letta-code/cli)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
