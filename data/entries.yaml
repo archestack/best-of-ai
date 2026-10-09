@@ -1,5 +1,5 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
-updated_at: 2026-10-08
+updated_at: 2026-10-09
 entries:
   - id: openclaw
     repo: openclaw/openclaw
@@ -34,15 +34,15 @@ entries:
     audience: Self-hosters who want one assistant reachable from every chat app they use
     confidence: 0.8
     facts:
-      stars: 391459
+      stars: 391479
       license: MIT
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-08
       has_docker: true
       has_compose: true
       is_template: false
       language: null
-    score: 94
+    score: 87
   - id: hermes-agent
     repo: NousResearch/hermes-agent
     name: Hermes Agent
@@ -78,15 +78,15 @@ entries:
     audience: Developers who want an always-on agent on a VPS reachable from chat apps
     confidence: 0.8
     facts:
-      stars: 251999
+      stars: 252045
       license: MIT
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-08
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 91
+    score: 83
   - id: nanobot
     repo: HKUDS/nanobot
     name: nanobot
@@ -121,7 +121,7 @@ entries:
     audience: Developers wanting a small, readable agent gateway they can extend
     confidence: 0.85
     facts:
-      stars: 48874
+      stars: 48876
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-09-15
@@ -129,7 +129,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 89
+    score: 86
   - id: astrbot
     repo: AstrBotDevs/AstrBot
     name: AstrBot
@@ -169,7 +169,7 @@ entries:
     audience: Teams running bots on Chinese and global IM platforms
     confidence: 0.8
     facts:
-      stars: 41566
+      stars: 41568
       license: AGPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-10-01
@@ -177,7 +177,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 71
+    score: 68
   - id: khoj
     repo: khoj-ai/khoj
     name: Khoj
@@ -218,7 +218,7 @@ entries:
     audience: Individuals who want a private second brain over their notes and files
     confidence: 0.7
     facts:
-      stars: 37602
+      stars: 37605
       license: AGPL-3.0
       last_commit: 2026-08-02
       last_release: 2026-03-26
@@ -226,7 +226,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 72
+    score: 64
   - id: qwenpaw
     repo: agentscope-ai/QwenPaw
     name: QwenPaw
@@ -262,7 +262,7 @@ entries:
     audience: Users wanting a local-first assistant with Qwen models and Chinese chat apps
     confidence: 0.8
     facts:
-      stars: 35512
+      stars: 35513
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-11
@@ -270,7 +270,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 66
+    score: 74
   - id: zeroclaw
     repo: zeroclaw-labs/zeroclaw
     name: ZeroClaw
@@ -309,13 +309,13 @@ entries:
     facts:
       stars: 32943
       license: Apache-2.0
-      last_commit: 2026-10-07
+      last_commit: 2026-10-09
       last_release: 2026-09-05
       has_docker: true
       has_compose: true
       is_template: false
       language: Rust
-    score: 86
+    score: 81
   - id: picoclaw
     repo: sipeed/picoclaw
     name: PicoClaw
@@ -359,7 +359,7 @@ entries:
     audience: Hobbyists running an agent on tiny SBCs, routers or old phones
     confidence: 0.85
     facts:
-      stars: 30019
+      stars: 30018
       license: MIT
       last_commit: 2026-08-19
       last_release: 2026-07-03
@@ -367,7 +367,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 40
+    score: 48
   - id: ironclaw
     repo: nearai/ironclaw
     name: IronClaw
@@ -409,7 +409,7 @@ entries:
       has_compose: true
       is_template: false
       language: Rust
-    score: 80
+    score: 73
   - id: moltis
     repo: moltis-org/moltis
     name: Moltis
@@ -445,7 +445,7 @@ entries:
     audience: Solo self-hosters wanting a hardened always-on agent on a Mac mini or Pi
     confidence: 0.8
     facts:
-      stars: 2886
+      stars: 2887
       license: MIT
       last_commit: 2026-09-22
       last_release: 2026-09-14
@@ -495,7 +495,7 @@ entries:
     audience: Teams and communities running one agent for many people
     confidence: 0.75
     facts:
-      stars: 2407
+      stars: 2408
       license: NOASSERTION
       last_commit: 2026-09-25
       last_release: 2026-05-07
@@ -503,7 +503,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 51
+    score: 53
   - id: open-webui
     repo: open-webui/open-webui
     name: Open WebUI
@@ -542,7 +542,7 @@ entries:
     audience: Teams and homelabs wanting a multi-user front end for local models
     confidence: 0.85
     facts:
-      stars: 154042
+      stars: 154058
       license: NOASSERTION
       last_commit: 2026-09-21
       last_release: 2026-09-21
@@ -550,7 +550,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 91
+    score: 83
   - id: nextchat
     repo: ChatGPTNextWeb/NextChat
     name: NextChat
@@ -594,7 +594,7 @@ entries:
     audience: Individuals who want a fast single-container chat front end for API keys
     confidence: 0.85
     facts:
-      stars: 88834
+      stars: 88835
       license: MIT
       last_commit: 2026-10-08
       last_release: 2025-07-29
@@ -602,7 +602,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 74
+    score: 64
   - id: lobehub
     repo: lobehub/lobehub
     name: LobeHub
@@ -645,7 +645,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 74
+    score: 72
   - id: anything-llm
     repo: Mintplex-Labs/anything-llm
     name: AnythingLLM
@@ -695,7 +695,7 @@ entries:
     audience: Small teams and individuals wanting private document chat without extra services
     confidence: 0.85
     facts:
-      stars: 66829
+      stars: 66836
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-10-01
@@ -703,7 +703,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 56
+    score: 61
   - id: librechat
     repo: LibreChat-AI/LibreChat
     name: LibreChat
@@ -747,7 +747,7 @@ entries:
     audience: Teams wanting one authenticated front end across many model vendors
     confidence: 0.85
     facts:
-      stars: 45412
+      stars: 45422
       license: MIT
       last_commit: 2026-10-06
       last_release: null
@@ -755,7 +755,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 87
+    score: 77
   - id: sillytavern
     repo: SillyTavern/SillyTavern
     name: SillyTavern
@@ -796,7 +796,7 @@ entries:
     audience: Hobbyists doing character and role-play chat with local or API models
     confidence: 0.8
     facts:
-      stars: 34226
+      stars: 34230
       license: AGPL-3.0
       last_commit: 2026-09-14
       last_release: 2026-09-14
@@ -804,7 +804,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 63
+    score: 60
   - id: onyx
     repo: onyx-dot-app/onyx
     name: Onyx
@@ -845,15 +845,15 @@ entries:
     audience: Teams wanting an internal search and chat layer over company apps
     confidence: 0.8
     facts:
-      stars: 32359
+      stars: 32362
       license: NOASSERTION
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-07
       has_docker: false
       has_compose: false
       is_template: false
       language: null
-    score: 56
+    score: 61
   - id: hermes-webui
     repo: nesquena/hermes-webui
     name: Hermes WebUI
@@ -895,7 +895,7 @@ entries:
     audience: Hermes Agent users who want a browser UI over SSH or Tailscale
     confidence: 0.8
     facts:
-      stars: 18814
+      stars: 18821
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-08-14
@@ -903,7 +903,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 80
+    score: 75
   - id: huggingface-chat-ui
     repo: huggingface/chat-ui
     name: HuggingChat UI
@@ -942,7 +942,7 @@ entries:
     audience: Developers who want the HuggingChat front end on their own endpoint
     confidence: 0.85
     facts:
-      stars: 10975
+      stars: 10976
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-05-11
@@ -950,7 +950,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 72
+    score: 59
   - id: big-agi
     repo: enricoros/big-AGI
     name: big-AGI
@@ -998,7 +998,7 @@ entries:
     audience: Power users comparing several models side by side with their own keys
     confidence: 0.75
     facts:
-      stars: 7139
+      stars: 7140
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-08-21
@@ -1006,7 +1006,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 76
+    score: 68
   - id: lollms-webui
     repo: ParisNeo/lollms-webui
     name: LoLLMs WebUI
@@ -1060,7 +1060,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 61
+    score: 51
   - id: claraverse
     repo: claraverse-space/ClaraVerse
     name: ClaraVerse
@@ -1105,7 +1105,7 @@ entries:
     audience: Self-hosters who want agents and workflows beyond a plain chat UI
     confidence: 0.8
     facts:
-      stars: 3903
+      stars: 3902
       license: NOASSERTION
       last_commit: 2026-08-03
       last_release: 2026-05-31
@@ -1113,7 +1113,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 67
+    score: 59
   - id: chatgpt-ui
     repo: WongSaang/chatgpt-ui
     name: ChatGPT UI
@@ -1151,7 +1151,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 44
+    score: 28
   - id: n8n
     repo: n8n-io/n8n
     name: n8n
@@ -1186,7 +1186,7 @@ entries:
     audience: Teams automating business workflows that include LLM steps
     confidence: 0.8
     facts:
-      stars: 206715
+      stars: 206730
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -1194,7 +1194,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 65
+    score: 78
   - id: autogpt
     repo: Significant-Gravitas/AutoGPT
     name: AutoGPT
@@ -1227,7 +1227,7 @@ entries:
     audience: Non-developers and teams wanting scheduled agents over SaaS tools
     confidence: 0.7
     facts:
-      stars: 187484
+      stars: 187485
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -1235,7 +1235,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 63
+    score: 66
   - id: dify
     repo: langgenius/dify
     name: Dify
@@ -1273,7 +1273,7 @@ entries:
     audience: Product teams building LLM apps and RAG workflows without heavy code
     confidence: 0.85
     facts:
-      stars: 157922
+      stars: 157931
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-09-10
@@ -1312,7 +1312,7 @@ entries:
     audience: Developers prototyping agent flows who want Python under the hood
     confidence: 0.8
     facts:
-      stars: 155402
+      stars: 155403
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -1320,7 +1320,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 62
+    score: 75
   - id: paperclip
     repo: paperclipai/paperclip
     name: Paperclip
@@ -1352,7 +1352,7 @@ entries:
     audience: People running several coding agents who want tickets, budgets and oversight
     confidence: 0.7
     facts:
-      stars: 98771
+      stars: 98858
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -1360,7 +1360,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 71
+    score: 64
   - id: multica
     repo: multica-ai/multica
     name: Multica
@@ -1395,7 +1395,7 @@ entries:
     audience: Software teams delegating issues to coding agents with human review
     confidence: 0.8
     facts:
-      stars: 52198
+      stars: 52207
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-01
@@ -1403,7 +1403,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 88
+    score: 78
   - id: sim
     repo: simstudioai/sim
     name: Sim
@@ -1448,7 +1448,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 54
+    score: 63
   - id: fastgpt
     repo: labring/FastGPT
     name: FastGPT
@@ -1481,7 +1481,7 @@ entries:
     audience: Teams building document Q&A bots and workflows, especially in Chinese markets
     confidence: 0.75
     facts:
-      stars: 29789
+      stars: 29790
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-09-30
@@ -1521,7 +1521,7 @@ entries:
     audience: Teams replacing Zapier who want their integrations exposed to LLM clients
     confidence: 0.75
     facts:
-      stars: 24953
+      stars: 24957
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -1529,7 +1529,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 83
+    score: 70
   - id: skyvern
     repo: Skyvern-AI/skyvern
     name: Skyvern
@@ -1562,15 +1562,15 @@ entries:
     audience: Developers automating form filling and data extraction on third-party sites
     confidence: 0.85
     facts:
-      stars: 23158
+      stars: 23159
       license: AGPL-3.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-01
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 81
+    score: 73
   - id: agent-zero
     repo: agent0ai/agent-zero
     name: Agent Zero
@@ -1604,7 +1604,7 @@ entries:
     audience: Tinkerers who want an agent with desktop software and a shell, sandboxed
     confidence: 0.8
     facts:
-      stars: 19398
+      stars: 19399
       license: NOASSERTION
       last_commit: 2026-09-23
       last_release: 2026-09-23
@@ -1612,7 +1612,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 46
+    score: 61
   - id: botpress
     repo: botpress/botpress
     name: Botpress
@@ -1652,7 +1652,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 43
+    score: 35
   - id: mem0
     repo: mem0ai/mem0
     name: Mem0
@@ -1687,7 +1687,7 @@ entries:
     audience: Developers adding persistent user memory to chatbots and agents
     confidence: 0.8
     facts:
-      stars: 66830
+      stars: 66843
       license: Apache-2.0
       last_commit: 2026-10-07
       last_release: 2026-09-25
@@ -1695,7 +1695,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 62
+    score: 67
   - id: mempalace
     repo: MemPalace/mempalace
     name: MemPalace
@@ -1730,7 +1730,7 @@ entries:
     audience: Coding-agent users who want local, inspectable, verbatim session memory
     confidence: 0.85
     facts:
-      stars: 59472
+      stars: 59484
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-09-16
@@ -1738,7 +1738,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 92
+    score: 84
   - id: openviking
     repo: volcengine/OpenViking
     name: OpenViking
@@ -1777,7 +1777,7 @@ entries:
     audience: Teams wanting transparent, file-like memory shared across coding agents
     confidence: 0.8
     facts:
-      stars: 39430
+      stars: 39439
       license: AGPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-10-02
@@ -1785,7 +1785,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 85
+    score: 80
   - id: cognee
     repo: topoteretes/cognee
     name: Cognee
@@ -1821,7 +1821,7 @@ entries:
     audience: Developers building graph-backed memory for agents and company knowledge
     confidence: 0.85
     facts:
-      stars: 31734
+      stars: 31761
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -1829,7 +1829,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 89
+    score: 81
   - id: graphiti
     repo: getzep/graphiti
     name: Graphiti
@@ -1868,7 +1868,7 @@ entries:
     audience: Developers who want temporal graph memory and can run a graph database
     confidence: 0.85
     facts:
-      stars: 31560
+      stars: 31568
       license: Apache-2.0
       last_commit: 2026-10-07
       last_release: 2026-09-08
@@ -1876,7 +1876,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 87
+    score: 79
   - id: supermemory
     repo: supermemoryai/supermemory
     name: Supermemory
@@ -1915,15 +1915,15 @@ entries:
     audience: Product developers who want memory plus RAG behind one API
     confidence: 0.8
     facts:
-      stars: 31162
+      stars: 31165
       license: MIT
-      last_commit: 2026-10-07
+      last_commit: 2026-10-08
       last_release: 2026-08-17
       has_docker: false
       has_compose: false
       is_template: false
       language: null
-    score: 54
+    score: 59
   - id: agentmemory
     repo: rohitg00/agentmemory
     name: agentmemory
@@ -1959,7 +1959,7 @@ entries:
     audience: Developers who run several coding agents and want shared session memory
     confidence: 0.75
     facts:
-      stars: 29245
+      stars: 29249
       license: Apache-2.0
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -1967,7 +1967,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 65
+    score: 70
   - id: memos
     repo: MemTensor/MemOS
     name: MemOS
@@ -2009,7 +2009,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 66
+    score: 65
   - id: honcho
     repo: plastic-labs/honcho
     name: Honcho
@@ -2046,7 +2046,7 @@ entries:
     audience: Developers building agents that must model individual users over time
     confidence: 0.8
     facts:
-      stars: 7536
+      stars: 7538
       license: AGPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-10-01
@@ -2054,7 +2054,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 61
+    score: 59
   - id: engram
     repo: Gentleman-Programming/engram
     name: Engram
@@ -2086,7 +2086,7 @@ entries:
     audience: Developers wanting dependency-free local memory across coding agents
     confidence: 0.8
     facts:
-      stars: 7092
+      stars: 7096
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-10-07
@@ -2094,7 +2094,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 44
+    score: 50
   - id: letta
     repo: letta-ai/letta-code
     name: Letta
@@ -2130,15 +2130,15 @@ entries:
     audience: Developers who want agents that keep learning across sessions and devices
     confidence: 0.75
     facts:
-      stars: 3548
+      stars: 3550
       license: Apache-2.0
       last_commit: 2026-10-08
-      last_release: 2026-10-08
+      last_release: 2026-10-09
       has_docker: false
       has_compose: false
       is_template: false
       language: null
-    score: 42
+    score: 48
   - id: ragflow
     repo: infiniflow/ragflow
     name: RAGFlow
@@ -2177,7 +2177,7 @@ entries:
     audience: teams building document Q&A over complex enterprise files
     confidence: 0.8
     facts:
-      stars: 91847
+      stars: 91859
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-29
@@ -2185,7 +2185,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 77
+    score: 74
   - id: private-gpt
     repo: zylon-ai/private-gpt
     name: PrivateGPT
@@ -2219,7 +2219,7 @@ entries:
     audience: developers building private AI apps on local models
     confidence: 0.85
     facts:
-      stars: 57561
+      stars: 57562
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-06-18
@@ -2227,7 +2227,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 68
+    score: 65
   - id: lightrag
     repo: HKUDS/LightRAG
     name: LightRAG
@@ -2266,7 +2266,7 @@ entries:
     audience: developers wanting graph-based RAG with a ready server
     confidence: 0.75
     facts:
-      stars: 40019
+      stars: 40021
       license: MIT
       last_commit: 2026-09-26
       last_release: 2026-09-02
@@ -2274,7 +2274,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 91
+    score: 84
   - id: open-notebook
     repo: lfnovo/open-notebook
     name: Open Notebook
@@ -2309,7 +2309,7 @@ entries:
     audience: individual researchers who want a private NotebookLM
     confidence: 0.85
     facts:
-      stars: 39959
+      stars: 39969
       license: MIT
       last_commit: 2026-10-05
       last_release: 2026-10-04
@@ -2317,7 +2317,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 90
+    score: 83
   - id: weknora
     repo: Tencent/WeKnora
     name: WeKnora
@@ -2353,7 +2353,7 @@ entries:
     audience: teams needing a self-hosted enterprise knowledge assistant
     confidence: 0.8
     facts:
-      stars: 32603
+      stars: 32646
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-09-24
@@ -2444,7 +2444,7 @@ entries:
     audience: companies building internal Q&A bots and customer service agents
     confidence: 0.7
     facts:
-      stars: 22921
+      stars: 22926
       license: GPL-3.0
       last_commit: 2026-10-08
       last_release: 2026-09-03
@@ -2452,7 +2452,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 56
+    score: 69
   - id: db-gpt
     repo: eosphoros-ai/DB-GPT
     name: DB-GPT
@@ -2487,7 +2487,7 @@ entries:
     audience: data teams wanting NL-to-SQL analysis with local models
     confidence: 0.8
     facts:
-      stars: 20090
+      stars: 20091
       license: MIT
       last_commit: 2026-10-04
       last_release: 2026-08-26
@@ -2495,7 +2495,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 60
+    score: 57
   - id: deepwiki-open
     repo: AsyncFuncAI/deepwiki-open
     name: DeepWiki-Open
@@ -2534,7 +2534,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 70
+    score: 58
   - id: surfsense
     repo: MODSetter/SurfSense
     name: SurfSense
@@ -2569,7 +2569,7 @@ entries:
     audience: individuals handling documents that cannot leave the machine
     confidence: 0.8
     facts:
-      stars: 16335
+      stars: 16337
       license: NOASSERTION
       last_commit: 2026-10-04
       last_release: 2026-10-04
@@ -2577,7 +2577,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 53
+    score: 56
   - id: paperless-ai
     repo: clusterzx/paperless-ai
     name: Paperless-AI
@@ -2612,7 +2612,7 @@ entries:
     audience: Paperless-ngx users wanting automated tagging
     confidence: 0.7
     facts:
-      stars: 5969
+      stars: 5970
       license: MIT
       last_commit: 2026-03-31
       last_release: 2025-11-04
@@ -2620,7 +2620,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 54
+    score: 41
   - id: pipeshub
     repo: pipeshub-ai/pipeshub-ai
     name: PipesHub
@@ -2668,7 +2668,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 62
+    score: 59
   - id: morphik
     repo: morphik-org/morphik-core
     name: Morphik
@@ -2701,7 +2701,7 @@ entries:
     audience: developers needing visual document search via API
     confidence: 0.7
     facts:
-      stars: 3716
+      stars: 3717
       license: NOASSERTION
       last_commit: 2026-10-05
       last_release: null
@@ -2756,7 +2756,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 73
+    score: 63
   - id: docling-serve
     repo: docling-project/docling-serve
     name: Docling Serve
@@ -2797,7 +2797,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 36
+    score: 51
   - id: ollama
     repo: ollama/ollama
     name: Ollama
@@ -2831,7 +2831,7 @@ entries:
     audience: anyone wanting local models behind a simple API
     confidence: 0.85
     facts:
-      stars: 182398
+      stars: 182418
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -2839,7 +2839,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 79
+    score: 77
   - id: llama-cpp
     repo: ggml-org/llama.cpp
     name: llama.cpp
@@ -2872,7 +2872,7 @@ entries:
     audience: engineers who want a lean local inference server
     confidence: 0.85
     facts:
-      stars: 130535
+      stars: 130549
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-05
@@ -2880,7 +2880,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 64
+    score: 71
   - id: vllm
     repo: vllm-project/vllm
     name: vLLM
@@ -2913,15 +2913,15 @@ entries:
     audience: teams serving open models to many concurrent users
     confidence: 0.85
     facts:
-      stars: 93403
+      stars: 93414
       license: Apache-2.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-05
       has_docker: false
       has_compose: false
       is_template: false
       language: null
-    score: 60
+    score: 67
   - id: localai
     repo: mudler/LocalAI
     name: LocalAI
@@ -2957,7 +2957,7 @@ entries:
     audience: self-hosters wanting one API for LLM, speech and image models
     confidence: 0.85
     facts:
-      stars: 49435
+      stars: 49440
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-02
@@ -2965,7 +2965,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 92
+    score: 86
   - id: text-generation-webui
     repo: oobabooga/textgen
     name: Text Generation Web UI
@@ -3002,7 +3002,7 @@ entries:
     audience: hobbyists running local models with a full-featured UI
     confidence: 0.85
     facts:
-      stars: 47725
+      stars: 47727
       license: AGPL-3.0
       last_commit: 2026-08-17
       last_release: 2026-05-20
@@ -3010,7 +3010,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 43
+    score: 45
   - id: sglang
     repo: sgl-project/sglang
     name: SGLang
@@ -3043,15 +3043,15 @@ entries:
     audience: teams serving LLMs and VLMs at scale on mixed hardware
     confidence: 0.75
     facts:
-      stars: 36884
+      stars: 36891
       license: Apache-2.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-02
       has_docker: false
       has_compose: false
       is_template: false
       language: null
-    score: 54
+    score: 64
   - id: llamafile
     repo: mozilla-ai/llamafile
     name: llamafile
@@ -3084,9 +3084,9 @@ entries:
     audience: people who want a model that runs with zero setup
     confidence: 0.8
     facts:
-      stars: 26201
+      stars: 26205
       license: NOASSERTION
-      last_commit: 2026-09-30
+      last_commit: 2026-10-08
       last_release: 2026-09-15
       has_docker: false
       has_compose: false
@@ -3132,7 +3132,7 @@ entries:
     audience: researchers running huge MoE models on limited GPUs
     confidence: 0.75
     facts:
-      stars: 19571
+      stars: 19572
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-15
@@ -3140,7 +3140,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 48
+    score: 53
   - id: openllm
     repo: bentoml/OpenLLM
     name: OpenLLM
@@ -3184,7 +3184,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 29
+    score: 34
   - id: triton-inference-server
     repo: triton-inference-server/server
     name: Triton Inference Server
@@ -3225,7 +3225,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 46
+    score: 59
   - id: xinference
     repo: xorbitsai/inference
     name: Xinference
@@ -3268,7 +3268,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 52
+    score: 65
   - id: lmdeploy
     repo: InternLM/lmdeploy
     name: LMDeploy
@@ -3310,7 +3310,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 45
+    score: 50
   - id: mistral-rs
     repo: EricLBuehler/mistral.rs
     name: mistral.rs
@@ -3386,7 +3386,7 @@ entries:
     audience: home-lab users juggling several local models on one GPU
     confidence: 0.85
     facts:
-      stars: 5898
+      stars: 5902
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-03
@@ -3394,7 +3394,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 48
+    score: 63
   - id: lemonade
     repo: lemonade-sdk/lemonade
     name: Lemonade
@@ -3430,13 +3430,13 @@ entries:
     facts:
       stars: 5844
       license: Apache-2.0
-      last_commit: 2026-10-07
+      last_commit: 2026-10-08
       last_release: 2026-10-07
       has_docker: true
       has_compose: false
       is_template: false
       language: null
-    score: 62
+    score: 59
   - id: gpustack
     repo: gpustack/gpustack
     name: GPUStack
@@ -3472,13 +3472,13 @@ entries:
     facts:
       stars: 5796
       license: Apache-2.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-07-31
       has_docker: false
       has_compose: false
       is_template: false
       language: null
-    score: 46
+    score: 58
   - id: text-embeddings-inference
     repo: huggingface/text-embeddings-inference
     name: Text Embeddings Inference
@@ -3562,7 +3562,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 32
+    score: 45
   - id: omniroute
     repo: diegosouzapw/OmniRoute
     name: OmniRoute
@@ -3595,7 +3595,7 @@ entries:
     audience: developers routing coding agents across many free and paid providers
     confidence: 0.7
     facts:
-      stars: 74230
+      stars: 74324
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-09-30
@@ -3603,7 +3603,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 96
+    score: 91
   - id: litellm
     repo: BerriAI/litellm
     name: LiteLLM
@@ -3636,15 +3636,15 @@ entries:
     audience: platform teams standardizing LLM access across providers
     confidence: 0.85
     facts:
-      stars: 60380
+      stars: 60395
       license: NOASSERTION
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-08
       has_docker: true
       has_compose: true
       is_template: false
       language: null
-    score: 89
+    score: 87
   - id: portkey-gateway
     repo: Portkey-AI/gateway
     name: Portkey Gateway
@@ -3677,7 +3677,7 @@ entries:
     audience: teams needing resilient multi-provider routing with guardrails
     confidence: 0.8
     facts:
-      stars: 13149
+      stars: 13153
       license: MIT
       last_commit: 2026-05-25
       last_release: 2026-01-12
@@ -3685,7 +3685,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 68
+    score: 57
   - id: higress
     repo: higress-group/higress
     name: Higress
@@ -3726,7 +3726,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 51
+    score: 64
   - id: coai
     repo: coaidev/coai
     name: CoAI
@@ -3772,7 +3772,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 55
+    score: 45
   - id: bifrost
     repo: maximhq/bifrost
     name: Bifrost
@@ -3805,7 +3805,7 @@ entries:
     audience: teams wanting a fast self-hosted gateway with governance
     confidence: 0.85
     facts:
-      stars: 8644
+      stars: 8648
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -3813,7 +3813,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 50
+    score: 57
   - id: plano
     repo: katanemo/plano
     name: Plano
@@ -3855,7 +3855,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 63
+    score: 56
   - id: agentgateway
     repo: agentgateway/agentgateway
     name: agentgateway
@@ -3888,15 +3888,15 @@ entries:
     audience: platform teams securing MCP, A2A and LLM traffic
     confidence: 0.8
     facts:
-      stars: 5238
+      stars: 5243
       license: Apache-2.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-02
       has_docker: true
       has_compose: false
       is_template: false
       language: null
-    score: 59
+    score: 57
   - id: mcp-context-forge
     repo: IBM/mcp-context-forge
     name: ContextForge MCP Gateway
@@ -3931,7 +3931,7 @@ entries:
     audience: enterprises centralizing MCP tools and agents behind one gateway
     confidence: 0.85
     facts:
-      stars: 4586
+      stars: 4587
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-28
@@ -3939,7 +3939,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 63
+    score: 74
   - id: mcpo
     repo: open-webui/mcpo
     name: mcpo
@@ -3972,7 +3972,7 @@ entries:
     audience: Open WebUI users exposing MCP tools over HTTP
     confidence: 0.85
     facts:
-      stars: 4394
+      stars: 4395
       license: MIT
       last_commit: 2026-02-27
       last_release: 2026-02-27
@@ -3980,7 +3980,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 35
+    score: 32
   - id: optillm
     repo: algorithmicsuperintelligence/optillm
     name: optillm
@@ -4014,7 +4014,7 @@ entries:
     audience: developers squeezing more reasoning accuracy from existing models
     confidence: 0.85
     facts:
-      stars: 4308
+      stars: 4309
       license: Apache-2.0
       last_commit: 2026-09-28
       last_release: 2026-09-28
@@ -4022,7 +4022,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 70
+    score: 60
   - id: metamcp
     repo: metatool-ai/metamcp
     name: MetaMCP
@@ -4063,7 +4063,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 53
+    score: 40
   - id: gomodel
     repo: ENTERPILOT/GoModel
     name: GoModel
@@ -4105,7 +4105,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 73
+    score: 65
   - id: meilisearch
     repo: meilisearch/meilisearch
     name: Meilisearch
@@ -4138,7 +4138,7 @@ entries:
     audience: app developers needing instant search with semantic ranking
     confidence: 0.8
     facts:
-      stars: 59520
+      stars: 59523
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-01
@@ -4146,7 +4146,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 74
+    score: 72
   - id: milvus
     repo: milvus-io/milvus
     name: Milvus
@@ -4187,7 +4187,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 76
+    score: 78
   - id: qdrant
     repo: qdrant/qdrant
     name: Qdrant
@@ -4220,7 +4220,7 @@ entries:
     audience: developers wanting a filter-heavy vector store with gRPC
     confidence: 0.85
     facts:
-      stars: 34980
+      stars: 34982
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-10-05
@@ -4228,7 +4228,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 68
+    score: 65
   - id: chroma
     repo: chroma-core/chroma
     name: Chroma
@@ -4261,15 +4261,15 @@ entries:
     audience: developers prototyping RAG who want the simplest API
     confidence: 0.8
     facts:
-      stars: 29468
+      stars: 29469
       license: Apache-2.0
-      last_commit: 2026-10-06
+      last_commit: 2026-10-09
       last_release: 2026-05-05
       has_docker: true
       has_compose: true
       is_template: false
       language: null
-    score: 79
+    score: 72
   - id: pgvector
     repo: pgvector/pgvector
     name: pgvector
@@ -4303,7 +4303,7 @@ entries:
     audience: teams already on Postgres who want vectors without a new database
     confidence: 0.9
     facts:
-      stars: 23277
+      stars: 23279
       license: NOASSERTION
       last_commit: 2026-10-01
       last_release: null
@@ -4311,7 +4311,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 59
+    score: 54
   - id: weaviate
     repo: weaviate/weaviate
     name: Weaviate
@@ -4349,13 +4349,13 @@ entries:
     facts:
       stars: 16875
       license: NOASSERTION
-      last_commit: 2026-10-07
+      last_commit: 2026-10-08
       last_release: 2026-10-07
       has_docker: true
       has_compose: true
       is_template: false
       language: null
-    score: 78
+    score: 68
   - id: vespa
     repo: vespa-engine/vespa
     name: Vespa
@@ -4439,7 +4439,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 60
+    score: 57
   - id: marqo
     repo: marqo-ai/marqo
     name: Marqo
@@ -4477,7 +4477,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 38
+    score: 31
   - id: gpt-sovits
     repo: RVC-Boss/GPT-SoVITS
     name: GPT-SoVITS
@@ -4514,7 +4514,7 @@ entries:
     audience: Hobbyists and studios training custom voices locally
     confidence: 0.8
     facts:
-      stars: 62536
+      stars: 62540
       license: MIT
       last_commit: 2026-10-08
       last_release: 2025-06-06
@@ -4522,7 +4522,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 74
+    score: 67
   - id: voicebox
     repo: jamiepine/voicebox
     name: Voicebox
@@ -4564,7 +4564,7 @@ entries:
     audience: Individuals wanting local voice cloning, TTS and dictation
     confidence: 0.8
     facts:
-      stars: 56657
+      stars: 56678
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-04-25
@@ -4572,7 +4572,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 82
+    score: 72
   - id: index-tts
     repo: index-tts/index-tts
     name: IndexTTS
@@ -4616,7 +4616,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 51
+    score: 56
   - id: f5-tts
     repo: SWivid/F5-TTS
     name: F5-TTS
@@ -4706,7 +4706,7 @@ entries:
     audience: Teams building voice agents on the OpenAI Realtime protocol
     confidence: 0.8
     facts:
-      stars: 13397
+      stars: 13399
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-06
@@ -4714,7 +4714,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 83
+    score: 75
   - id: pocket-tts
     repo: kyutai-labs/pocket-tts
     name: Pocket TTS
@@ -4749,7 +4749,7 @@ entries:
     audience: Developers adding TTS to apps without a GPU
     confidence: 0.85
     facts:
-      stars: 9828
+      stars: 9834
       license: MIT
       last_commit: 2026-10-01
       last_release: 2026-09-24
@@ -4757,7 +4757,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 79
+    score: 72
   - id: kokoro-fastapi
     repo: remsky/Kokoro-FastAPI
     name: Kokoro-FastAPI
@@ -4799,7 +4799,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 49
+    score: 64
   - id: whisperlive
     repo: collabora/WhisperLive
     name: WhisperLive
@@ -4843,7 +4843,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 39
+    score: 52
   - id: speakr
     repo: murtaza-nasir/speakr
     name: Speakr
@@ -4884,7 +4884,7 @@ entries:
     audience: Privacy-focused teams and individuals archiving meetings
     confidence: 0.85
     facts:
-      stars: 4073
+      stars: 4074
       license: AGPL-3.0
       last_commit: 2026-10-04
       last_release: 2026-10-04
@@ -4892,7 +4892,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 58
+    score: 50
   - id: speaches
     repo: speaches-ai/speaches
     name: Speaches
@@ -4927,7 +4927,7 @@ entries:
     audience: Self-hosters replacing OpenAI audio endpoints
     confidence: 0.7
     facts:
-      stars: 3705
+      stars: 3706
       license: MIT
       last_commit: 2026-04-18
       last_release: 2025-12-27
@@ -4935,7 +4935,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 54
+    score: 48
   - id: openreader
     repo: richardr1126/openreader
     name: OpenReader
@@ -4976,7 +4976,7 @@ entries:
     audience: Self-hosters who want audiobooks from their own documents
     confidence: 0.8
     facts:
-      stars: 537
+      stars: 539
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-09-30
@@ -4984,7 +4984,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 56
+    score: 51
   - id: comfyui
     repo: Comfy-Org/ComfyUI
     name: ComfyUI
@@ -5027,15 +5027,15 @@ entries:
     audience: Visual professionals running diffusion models locally
     confidence: 0.85
     facts:
-      stars: 136437
+      stars: 136451
       license: GPL-3.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-05
       has_docker: false
       has_compose: false
       is_template: false
       language: null
-    score: 60
+    score: 67
   - id: moneyprinterturbo
     repo: harry0703/MoneyPrinterTurbo
     name: MoneyPrinterTurbo
@@ -5082,7 +5082,7 @@ entries:
     audience: Creators automating short-form video production
     confidence: 0.75
     facts:
-      stars: 129176
+      stars: 129198
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-03
@@ -5090,7 +5090,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 89
+    score: 79
   - id: pixelle-video
     repo: ATH-MaaS/Pixelle-Video
     name: Pixelle-Video
@@ -5137,7 +5137,7 @@ entries:
     audience: Creators who already run ComfyUI and want automated shorts
     confidence: 0.7
     facts:
-      stars: 28754
+      stars: 28757
       license: Apache-2.0
       last_commit: 2026-06-14
       last_release: 2026-01-27
@@ -5145,7 +5145,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 67
+    score: 59
   - id: invokeai
     repo: invoke-ai/InvokeAI
     name: InvokeAI
@@ -5191,7 +5191,7 @@ entries:
     audience: Artists iterating on images with a canvas workflow
     confidence: 0.7
     facts:
-      stars: 28463
+      stars: 28479
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-27
@@ -5199,7 +5199,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 53
+    score: 58
   - id: kohya-ss
     repo: bmaltais/kohya_ss
     name: Kohya's GUI
@@ -5240,7 +5240,7 @@ entries:
     audience: Hobbyists and studios training LoRAs and fine-tunes
     confidence: 0.8
     facts:
-      stars: 12617
+      stars: 12616
       license: Apache-2.0
       last_commit: 2026-07-10
       last_release: 2026-07-09
@@ -5248,7 +5248,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 68
+    score: 60
   - id: ai-toolkit
     repo: ostris/ai-toolkit
     name: AI Toolkit
@@ -5309,7 +5309,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 55
+    score: 49
   - id: fluxgym
     repo: cocktailpeanut/fluxgym
     name: FluxGym
@@ -5354,7 +5354,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 60
+    score: 44
   - id: biniou
     repo: Woolverine94/biniou
     name: biniou
@@ -5445,7 +5445,7 @@ entries:
     audience: Developers wanting an open terminal coding agent
     confidence: 0.65
     facts:
-      stars: 212179
+      stars: 212202
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -5453,7 +5453,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 62
+    score: 70
   - id: openhands
     repo: OpenHands/OpenHands
     name: OpenHands
@@ -5494,15 +5494,15 @@ entries:
     audience: Teams running coding agents as a shared, always-on service
     confidence: 0.8
     facts:
-      stars: 90288
+      stars: 90304
       license: MIT
-      last_commit: 2026-10-08
-      last_release: 2026-10-06
+      last_commit: 2026-10-09
+      last_release: 2026-10-08
       has_docker: false
       has_compose: false
       is_template: false
       language: null
-    score: 59
+    score: 72
   - id: screenshot-to-code
     repo: abi/screenshot-to-code
     name: screenshot-to-code
@@ -5544,7 +5544,7 @@ entries:
     audience: Developers prototyping UIs from designs
     confidence: 0.85
     facts:
-      stars: 80090
+      stars: 80097
       license: MIT
       last_commit: 2026-07-30
       last_release: null
@@ -5552,7 +5552,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 68
+    score: 60
   - id: tabby
     repo: TabbyML/tabby
     name: Tabby
@@ -5591,7 +5591,7 @@ entries:
     audience: Teams wanting an on-premises Copilot alternative
     confidence: 0.8
     facts:
-      stars: 33906
+      stars: 33907
       license: NOASSERTION
       last_commit: 2026-06-30
       last_release: 2026-01-25
@@ -5599,7 +5599,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 38
+    score: 51
   - id: onlook
     repo: onlook-dev/onlook
     name: Onlook
@@ -5638,7 +5638,7 @@ entries:
     audience: Designers and front-end developers on Next.js codebases
     confidence: 0.8
     facts:
-      stars: 26890
+      stars: 26891
       license: Apache-2.0
       last_commit: 2026-07-22
       last_release: 2025-07-17
@@ -5646,7 +5646,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 68
+    score: 56
   - id: archon
     repo: coleam00/Archon
     name: Archon
@@ -5685,7 +5685,7 @@ entries:
     audience: Teams standardizing how AI agents ship code
     confidence: 0.8
     facts:
-      stars: 23645
+      stars: 23646
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-09-25
@@ -5693,7 +5693,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 85
+    score: 80
   - id: openchamber
     repo: openchamber/openchamber
     name: OpenChamber
@@ -5728,7 +5728,7 @@ entries:
     audience: Developers running OpenCode who want multi-device control
     confidence: 0.8
     facts:
-      stars: 11285
+      stars: 11295
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -5736,7 +5736,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 83
+    score: 75
   - id: open-swe
     repo: langchain-ai/open-swe
     name: Open SWE
@@ -5775,13 +5775,13 @@ entries:
     facts:
       stars: 10822
       license: MIT
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-07
       has_docker: true
       has_compose: true
       is_template: false
       language: null
-    score: 81
+    score: 74
   - id: background-agents
     repo: ColeMurray/background-agents
     name: Background Agents
@@ -5823,7 +5823,7 @@ entries:
     audience: Single-tenant engineering orgs running agents in cloud sandboxes
     confidence: 0.8
     facts:
-      stars: 3345
+      stars: 3346
       license: MIT
       last_commit: 2026-10-08
       last_release: null
@@ -5831,7 +5831,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 54
+    score: 51
   - id: firecrawl
     repo: firecrawl/firecrawl
     name: Firecrawl
@@ -5864,15 +5864,15 @@ entries:
     audience: Teams feeding web content to RAG pipelines and agents
     confidence: 0.7
     facts:
-      stars: 189579
+      stars: 189633
       license: AGPL-3.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-06-19
       has_docker: false
       has_compose: true
       is_template: false
       language: null
-    score: 74
+    score: 66
   - id: crawl4ai
     repo: unclecode/crawl4ai
     name: Crawl4AI
@@ -5907,7 +5907,7 @@ entries:
     audience: Developers building scrapers and RAG ingestion pipelines
     confidence: 0.85
     facts:
-      stars: 85009
+      stars: 85031
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-09-23
@@ -5915,7 +5915,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 87
+    score: 82
   - id: vane
     repo: ItzCrazyKns/Vane
     name: Vane
@@ -5955,7 +5955,7 @@ entries:
     audience: Self-hosters replacing Perplexity with local models
     confidence: 0.85
     facts:
-      stars: 37145
+      stars: 37161
       license: MIT
       last_commit: 2026-09-01
       last_release: 2026-04-10
@@ -5963,7 +5963,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 72
+    score: 57
   - id: gpt-researcher
     repo: assafelovic/gpt-researcher
     name: GPT Researcher
@@ -6001,7 +6001,7 @@ entries:
     audience: Analysts and developers automating long-form research
     confidence: 0.85
     facts:
-      stars: 29956
+      stars: 29960
       license: Apache-2.0
       last_commit: 2026-09-26
       last_release: 2026-09-26
@@ -6009,7 +6009,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 83
+    score: 73
   - id: jina-reader
     repo: jina-ai/reader
     name: Jina Reader
@@ -6044,7 +6044,7 @@ entries:
     audience: Developers feeding web pages and documents to LLMs
     confidence: 0.8
     facts:
-      stars: 12128
+      stars: 12127
       license: Apache-2.0
       last_commit: 2026-05-22
       last_release: null
@@ -6052,7 +6052,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 65
+    score: 52
   - id: local-deep-research
     repo: LearningCircuit/local-deep-research
     name: Local Deep Research
@@ -6089,7 +6089,7 @@ entries:
     audience: Privacy-focused researchers running everything locally
     confidence: 0.85
     facts:
-      stars: 9165
+      stars: 9169
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-08-28
@@ -6097,7 +6097,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 72
+    score: 67
   - id: morphic
     repo: miurla/morphic
     name: Morphic
@@ -6139,7 +6139,7 @@ entries:
     audience: Self-hosters wanting a Perplexity-style search UI
     confidence: 0.85
     facts:
-      stars: 9156
+      stars: 9158
       license: Apache-2.0
       last_commit: 2026-10-04
       last_release: 2026-09-16
@@ -6147,7 +6147,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 79
+    score: 69
   - id: maestro
     repo: murtaza-nasir/maestro
     name: MAESTRO
@@ -6193,7 +6193,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 30
+    score: 25
   - id: langfuse
     repo: langfuse/langfuse
     name: Langfuse
@@ -6226,7 +6226,7 @@ entries:
     audience: Teams debugging and evaluating LLM apps
     confidence: 0.85
     facts:
-      stars: 35533
+      stars: 35538
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -6234,7 +6234,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 74
+    score: 69
   - id: mlflow
     repo: mlflow/mlflow
     name: MLflow
@@ -6267,15 +6267,15 @@ entries:
     audience: Teams wanting one platform for GenAI tracing and ML tracking
     confidence: 0.85
     facts:
-      stars: 28315
+      stars: 28317
       license: Apache-2.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-07
       has_docker: false
       has_compose: false
       is_template: false
       language: null
-    score: 60
+    score: 65
   - id: promptfoo
     repo: promptfoo/promptfoo
     name: promptfoo
@@ -6315,9 +6315,9 @@ entries:
     audience: Developers testing prompts and agents before release
     confidence: 0.8
     facts:
-      stars: 25817
+      stars: 25820
       license: MIT
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-10-08
       has_docker: true
       has_compose: false
@@ -6356,7 +6356,7 @@ entries:
     audience: ML engineers moving LLM agents to production
     confidence: 0.85
     facts:
-      stars: 22452
+      stars: 22464
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -6403,15 +6403,15 @@ entries:
     audience: Engineers experimenting with and troubleshooting LLM apps
     confidence: 0.8
     facts:
-      stars: 11757
+      stars: 11762
       license: NOASSERTION
-      last_commit: 2026-10-08
-      last_release: 2026-10-08
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
       has_docker: true
       has_compose: true
       is_template: false
       language: null
-    score: 85
+    score: 80
   - id: helicone
     repo: Helicone/helicone
     name: Helicone
@@ -6448,7 +6448,7 @@ entries:
     audience: Engineers wanting LLM observability by swapping an endpoint
     confidence: 0.8
     facts:
-      stars: 6207
+      stars: 6208
       license: Apache-2.0
       last_commit: 2026-09-16
       last_release: 2025-08-21
@@ -6456,7 +6456,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 54
+    score: 46
   - id: langwatch
     repo: langwatch/langwatch
     name: LangWatch
@@ -6503,7 +6503,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 50
+    score: 55
   - id: agenta
     repo: Agenta-AI/agenta
     name: Agenta
@@ -6586,7 +6586,7 @@ entries:
     audience: Teams operating AI agents in production
     confidence: 0.8
     facts:
-      stars: 4715
+      stars: 4716
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -6594,7 +6594,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 76
+    score: 70
   - id: lmnr
     repo: lmnr-ai/lmnr
     name: Laminar
@@ -6633,7 +6633,7 @@ entries:
     audience: Teams debugging browser and tool-using agents
     confidence: 0.85
     facts:
-      stars: 3363
+      stars: 3364
       license: Apache-2.0
       last_commit: 2026-09-13
       last_release: 2026-09-13
@@ -6641,7 +6641,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 57
+    score: 52
   - id: pezzo
     repo: pezzolabs/pezzo
     name: Pezzo
@@ -6686,7 +6686,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 38
+    score: 30
   - id: openlit
     repo: openlit/openlit
     name: OpenLIT
@@ -6775,7 +6775,7 @@ entries:
     audience: Teams wanting one platform from prototype to production
     confidence: 0.8
     facts:
-      stars: 2128
+      stars: 2129
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-10-05
@@ -6783,7 +6783,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 67
+    score: 59
   - id: lightpanda
     repo: lightpanda-io/browser
     name: Lightpanda
@@ -6826,15 +6826,15 @@ entries:
     audience: Scraping and agent teams running many headless instances
     confidence: 0.85
     facts:
-      stars: 36133
+      stars: 36138
       license: AGPL-3.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2024-07-16
       has_docker: true
       has_compose: false
       is_template: false
       language: null
-    score: 71
+    score: 66
   - id: obscura
     repo: h4ckf0r0day/obscura
     name: Obscura
@@ -6866,7 +6866,7 @@ entries:
     audience: Scrapers and agent builders replacing headless Chrome
     confidence: 0.85
     facts:
-      stars: 28699
+      stars: 28701
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-04
@@ -6910,9 +6910,9 @@ entries:
     audience: People running a personal agent with kernel-enforced isolation
     confidence: 0.7
     facts:
-      stars: 22686
+      stars: 22684
       license: Apache-2.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: null
       has_docker: true
       has_compose: false
@@ -6967,7 +6967,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 58
+    score: 48
   - id: openshell
     repo: NVIDIA/OpenShell
     name: OpenShell
@@ -7001,7 +7001,7 @@ entries:
     audience: Platform teams running fleets of autonomous agents
     confidence: 0.8
     facts:
-      stars: 15451
+      stars: 15480
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-28
@@ -7009,7 +7009,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 53
+    score: 61
   - id: microsandbox
     repo: superradcompany/microsandbox
     name: microsandbox
@@ -7050,7 +7050,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 45
+    score: 53
   - id: steel-browser
     repo: steel-dev/steel-browser
     name: Steel Browser
@@ -7084,7 +7084,7 @@ entries:
     audience: Developers building web agents on Puppeteer, Playwright or Selenium
     confidence: 0.85
     facts:
-      stars: 7756
+      stars: 7757
       license: Apache-2.0
       last_commit: 2026-10-06
       last_release: 2026-08-25
@@ -7092,7 +7092,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 65
+    score: 58
   - id: open-terminal
     repo: open-webui/open-terminal
     name: Open Terminal
@@ -7124,7 +7124,7 @@ entries:
     audience: Open WebUI users and agent builders needing a command sandbox
     confidence: 0.85
     facts:
-      stars: 3282
+      stars: 3285
       license: MIT
       last_commit: 2026-09-23
       last_release: 2026-09-23
@@ -7132,7 +7132,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 50
+    score: 48
   - id: strix
     repo: usestrix/strix
     name: Strix
@@ -7177,7 +7177,7 @@ entries:
     audience: Developers and security teams automating app pentests locally or in CI
     confidence: 0.8
     facts:
-      stars: 67275
+      stars: 67321
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-05
@@ -7185,4 +7185,4 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 59
+    score: 64

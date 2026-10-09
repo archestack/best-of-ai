@@ -3,7 +3,7 @@
 Web front-ends for local or API models, usually with user accounts, chat history and file upload. Back to the [leaderboard](../README.md#-chat-uis).
 
 <a name="open-webui"></a>
-### 🥇 91 [Open WebUI](https://github.com/open-webui/open-webui) <sub>⭐ 154k · NOASSERTION · Sep 2026</sub>
+### 🥇 83 [Open WebUI](https://github.com/open-webui/open-webui) <sub>⭐ 154k · NOASSERTION · Sep 2026</sub>
 
 **Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG.**
 
@@ -21,7 +21,7 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 <sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
 
 <a name="librechat"></a>
-### 🥇 87 [LibreChat](https://github.com/LibreChat-AI/LibreChat) <sub>⭐ 45k · MIT · Oct 2026</sub>
+### 🥈 77 [LibreChat](https://github.com/LibreChat-AI/LibreChat) <sub>⭐ 45k · MIT · Oct 2026</sub>
 
 **Multi-provider ChatGPT-style app with agents, MCP, code interpreter and auth.**
 
@@ -39,7 +39,7 @@ LibreChat is a self-hosted chat platform that fronts Anthropic, OpenAI, Azure, A
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Azure OpenAI, AWS Bedrock, Google · [Repo](https://github.com/LibreChat-AI/LibreChat) · [📖 Docs ↗](https://docs.librechat.ai) · [🌐 Site ↗](https://librechat.ai)</sub>
 
 <a name="hermes-webui"></a>
-### 🥇 80 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>⭐ 19k · MIT · Oct 2026</sub>
+### 🥈 75 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>⭐ 19k · MIT · Oct 2026</sub>
 
 **Browser front end for Hermes Agent with sessions, files and voice input.**
 
@@ -56,8 +56,26 @@ Hermes WebUI is a Python plus vanilla JavaScript web app (no build step, port 87
 
 <sub>no GPU · Docker + Compose · Needs Hermes Agent · Models: OpenAI, Anthropic, Google, DeepSeek, Nous Portal · port 8787 · [Repo](https://github.com/nesquena/hermes-webui)</sub>
 
+<a name="lobehub"></a>
+### 🥈 72 [LobeHub](https://github.com/lobehub/lobehub) <sub>⭐ 83k · NOASSERTION · Oct 2026</sub>
+
+**Agent workspace with builder, groups, scheduling and 10,000+ MCP skills.**
+
+LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, Alibaba Cloud or Docker Compose. It centres on an Agent Builder, Agent Groups that work a task in parallel, Pages for co-writing, scheduled runs, projects and shared workspaces, plus structured editable memory and an IM gateway, with 10,000+ tools and MCP-compatible plugins. An OpenAI API key is required to start.
+
+- **+** One-click deploy buttons for Vercel, Zeabur, Sealos, RepoCloud and Alibaba Cloud
+- **+** 10,000+ tools and MCP-compatible plugins for agents
+- **+** Agent Groups, scheduled runs, projects and team workspaces
+- **+** Memory is structured and editable rather than a hidden store
+- **−** OPENAI_API_KEY is a required environment variable
+- **−** Docker setup runs a curl-piped script from lobe.li before docker compose up
+- **−** README recommends a third-party API reseller through an affiliate link
+- **−** README states no ports, databases or hardware requirements
+
+<sub>no GPU · Docker · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub)</sub>
+
 <a name="big-agi"></a>
-### 🥈 76 [big-AGI](https://github.com/enricoros/big-AGI) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
+### 🥈 68 [big-AGI](https://github.com/enricoros/big-AGI) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Multi-model chat workspace with Beam side-by-side model comparison.**
 
@@ -75,7 +93,7 @@ Big-AGI Open is the self-hostable web app behind big-agi.com, deployable via Doc
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-AGI) · [🌐 Site ↗](https://big-agi.com)</sub>
 
 <a name="nextchat"></a>
-### 🥈 74 [NextChat](https://github.com/ChatGPTNextWeb/NextChat) <sub>⭐ 89k · MIT · Oct 2026</sub>
+### 🥉 64 [NextChat](https://github.com/ChatGPTNextWeb/NextChat) <sub>⭐ 89k · MIT · Oct 2026</sub>
 
 **Lightweight Next.js chat client for OpenAI, Claude, Gemini and DeepSeek APIs.**
 
@@ -92,98 +110,8 @@ NextChat is a Node.js web client (Docker image yidadaa/chatgpt-next-web on port 
 
 <sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/ChatGPTNextWeb/NextChat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club)</sub>
 
-<a name="lobehub"></a>
-### 🥈 74 [LobeHub](https://github.com/lobehub/lobehub) <sub>⭐ 83k · NOASSERTION · Oct 2026</sub>
-
-**Agent workspace with builder, groups, scheduling and 10,000+ MCP skills.**
-
-LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, Alibaba Cloud or Docker Compose. It centres on an Agent Builder, Agent Groups that work a task in parallel, Pages for co-writing, scheduled runs, projects and shared workspaces, plus structured editable memory and an IM gateway, with 10,000+ tools and MCP-compatible plugins. An OpenAI API key is required to start.
-
-- **+** One-click deploy buttons for Vercel, Zeabur, Sealos, RepoCloud and Alibaba Cloud
-- **+** 10,000+ tools and MCP-compatible plugins for agents
-- **+** Agent Groups, scheduled runs, projects and team workspaces
-- **+** Memory is structured and editable rather than a hidden store
-- **−** OPENAI_API_KEY is a required environment variable
-- **−** Docker setup runs a curl-piped script from lobe.li before docker compose up
-- **−** README recommends a third-party API reseller through an affiliate link
-- **−** README states no ports, databases or hardware requirements
-
-<sub>no GPU · Docker · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub)</sub>
-
-<a name="huggingface-chat-ui"></a>
-### 🥈 72 [HuggingChat UI](https://github.com/huggingface/chat-ui) <sub>⭐ 11k · Apache-2.0 · Oct 2026</sub>
-
-**SvelteKit chat front end behind HuggingChat for OpenAI-compatible endpoints.**
-
-Chat UI is the SvelteKit app that powers HuggingChat. It talks only to OpenAI-compatible APIs set through OPENAI_BASE_URL, discovering models from the /models endpoint, so llama.cpp server, Ollama, OpenRouter, Poe or the HF router all work. Chat history, users and settings live in MongoDB 6/7, MCP servers can supply tools, and a heuristic Omni router picks per-message routes with fallbacks.
-
-- **+** chat-ui-db Docker image bundles MongoDB; one container on port 3000
-- **+** MCP tool calls surfaced as OpenAI function calling with per-model overrides
-- **+** Same codebase as the public HuggingChat deployment
-- **+** Apache-2.0 license
-- **−** OpenAI-compatible endpoints only; legacy provider integrations and GGUF discovery removed
-- **−** Embeddings and web-search helpers were removed from this branch
-- **−** Router needs a hand-written routes JSON; no sample file ships
-- **−** README does not describe authentication or multi-user setup
-
-<sub>no GPU · Docker + Compose · Needs MongoDB · Models: OpenAI-compatible endpoints, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [▶️ Demo ↗](https://huggingface.co/chat)</sub>
-
-<a name="claraverse"></a>
-### 🥈 67 [ClaraVerse](https://github.com/claraverse-space/ClaraVerse) <sub>⭐ 3.9k · NOASSERTION · Aug 2026</sub>
-
-**Private AI workspace with chat, agent crews, workflows and Telegram.**
-
-ClaraVerse is a Go and React workspace (Docker Compose, port 3000) that auto-detects Ollama and LM Studio and also uses OpenAI, Claude, Gemini or any OpenAI-compatible endpoint. It combines chat with Crew multi-agent teams with human review, a visual workflow builder with 200+ integrations, layered AES-256-GCM encrypted memory, knowledge bases, a Telegram channel and the claracli terminal agent.
-
-- **+** Auto-detects Ollama and LM Studio every 2 minutes and imports their models
-- **+** Per-user AES-256-GCM encrypted memory with pinned and decaying recall tiers
-- **+** 150+ built-in integrations shared across chat, workflows, crew and routines
-- **+** AGPL-3.0 with no branding clause or user cap
-- **−** Full stack runs MySQL, MongoDB, Redis, SearXNG, Qdrant and an embeddings sidecar
-- **−** Single-container mode cannot use knowledge bases or search_knowledge
-- **−** 4 GB RAM minimum, 8 GB recommended
-- **−** Conversations live in browser IndexedDB by default; sync is optional
-
-<sub>RAM ≥ 4 GB · Docker + Compose · Needs MySQL, MongoDB, Redis, SearXNG, Qdrant (knowledge bases) · Models: Ollama, LM Studio, llama.cpp, OpenAI, Anthropic · port 3000 · [Repo](https://github.com/claraverse-space/ClaraVerse) · [🌐 Site ↗](https://claraverse.space)</sub>
-
-<a name="sillytavern"></a>
-### 🥉 63 [SillyTavern](https://github.com/SillyTavern/SillyTavern) <sub>⭐ 34k · AGPL-3.0 · Sep 2026</sub>
-
-**Local chat front end for role-play across many LLM backends.**
-
-SillyTavern is a locally installed Node.js 20+ interface for text-generation LLMs, image generators and TTS, aimed at character and role-play chat. One UI covers KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI, OpenAI, OpenRouter, Claude and Mistral, with Visual Novel Mode, AUTOMATIC1111 and ComfyUI image generation, WorldInfo lorebooks and third-party extensions. No hosted service, no tracking.
-
-- **+** Runs on anything that can run Node.js 20; no GPU needed for the UI itself
-- **+** Backends: KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI, OpenAI, OpenRouter, Claude, Mistral
-- **+** WorldInfo lorebooks and deep prompt controls for long-form character chat
-- **+** No hosted service and no telemetry; 300+ contributors over 3 years
-- **−** AGPL-3.0 license
-- **−** Single-user local tool; no accounts or team features
-- **−** Maintainers describe the learning curve as steep
-- **−** Installation and Docker instructions live only on the docs site
-
-<sub>no GPU · Docker · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/SillyTavern/SillyTavern) · [📖 Docs ↗](https://docs.sillytavern.app/)</sub>
-
-<a name="lollms-webui"></a>
-### 🥉 61 [LoLLMs WebUI](https://github.com/ParisNeo/lollms-webui) <sub>⭐ 4.8k · Apache-2.0 · Sep 2026</sub>
-
-**Single-user web UI for local and remote LLMs with many personalities.**
-
-LoLLMs WebUI is a Python 3.11 web app (port 9600) fronting local models via HF transformers, GGUF/GGML, ExLlama v2, Ollama and vLLM bindings plus OpenAI, Anthropic and OpenRouter APIs. It adds 500+ personalities, cost/speed-based routing, and hooks into Stable Diffusion, ComfyUI, DALL-E, video and musicgen services. The authors say it is in minimal support, to be replaced by the newer lollms project.
-
-- **+** Bindings for local GGUF, ExLlama v2 and transformers plus Ollama, vLLM and hosted APIs
-- **+** Image, video and music generation integrations in one UI
-- **+** Smart routing picks cheaper or faster models by prompt complexity
-- **+** Apache-2.0 license
-- **−** Maintainers state it is in minimal support, to be replaced by ParisNeo/lollms
-- **−** No built-in authentication; designed for local use only
-- **−** Docker image must be built locally; no published image in the README
-- **−** Manual install needs submodules plus a per-binding install script
-
-<sub>Docker + Compose · Models: Hugging Face transformers, GGUF/GGML, ExLlama v2, Ollama, vLLM · port 9600 · [Repo](https://github.com/ParisNeo/lollms-webui)</sub>
-
 <a name="anything-llm"></a>
-### 🥉 56 [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) <sub>⭐ 67k · MIT · Oct 2026</sub>
+### 🥉 61 [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) <sub>⭐ 67k · MIT · Oct 2026</sub>
 
 **Document chat and agent app with built-in RAG, MCP and multi-user support.**
 
@@ -201,7 +129,7 @@ AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a 
 <sub>no GPU · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/Mintplex-Labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub>
 
 <a name="onyx"></a>
-### 🥉 56 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>⭐ 32k · NOASSERTION · Oct 2026</sub>
+### 🥉 61 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>⭐ 32k · NOASSERTION · Oct 2026</sub>
 
 **Team knowledge chat that indexes 50+ apps for RAG and agents.**
 
@@ -218,8 +146,80 @@ Onyx indexes content and permissions from 50+ apps into a hybrid vector and keyw
 
 <sub>RAM ≥ 1 GB · no GPU · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/signup) · [📖 Docs ↗](https://docs.onyx.app/) · [🌐 Site ↗](https://www.onyx.app/)</sub>
 
+<a name="sillytavern"></a>
+### 🥉 60 [SillyTavern](https://github.com/SillyTavern/SillyTavern) <sub>⭐ 34k · AGPL-3.0 · Sep 2026</sub>
+
+**Local chat front end for role-play across many LLM backends.**
+
+SillyTavern is a locally installed Node.js 20+ interface for text-generation LLMs, image generators and TTS, aimed at character and role-play chat. One UI covers KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI, OpenAI, OpenRouter, Claude and Mistral, with Visual Novel Mode, AUTOMATIC1111 and ComfyUI image generation, WorldInfo lorebooks and third-party extensions. No hosted service, no tracking.
+
+- **+** Runs on anything that can run Node.js 20; no GPU needed for the UI itself
+- **+** Backends: KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI, OpenAI, OpenRouter, Claude, Mistral
+- **+** WorldInfo lorebooks and deep prompt controls for long-form character chat
+- **+** No hosted service and no telemetry; 300+ contributors over 3 years
+- **−** AGPL-3.0 license
+- **−** Single-user local tool; no accounts or team features
+- **−** Maintainers describe the learning curve as steep
+- **−** Installation and Docker instructions live only on the docs site
+
+<sub>no GPU · Docker · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/SillyTavern/SillyTavern) · [📖 Docs ↗](https://docs.sillytavern.app/)</sub>
+
+<a name="huggingface-chat-ui"></a>
+### 🥉 59 [HuggingChat UI](https://github.com/huggingface/chat-ui) <sub>⭐ 11k · Apache-2.0 · Oct 2026</sub>
+
+**SvelteKit chat front end behind HuggingChat for OpenAI-compatible endpoints.**
+
+Chat UI is the SvelteKit app that powers HuggingChat. It talks only to OpenAI-compatible APIs set through OPENAI_BASE_URL, discovering models from the /models endpoint, so llama.cpp server, Ollama, OpenRouter, Poe or the HF router all work. Chat history, users and settings live in MongoDB 6/7, MCP servers can supply tools, and a heuristic Omni router picks per-message routes with fallbacks.
+
+- **+** chat-ui-db Docker image bundles MongoDB; one container on port 3000
+- **+** MCP tool calls surfaced as OpenAI function calling with per-model overrides
+- **+** Same codebase as the public HuggingChat deployment
+- **+** Apache-2.0 license
+- **−** OpenAI-compatible endpoints only; legacy provider integrations and GGUF discovery removed
+- **−** Embeddings and web-search helpers were removed from this branch
+- **−** Router needs a hand-written routes JSON; no sample file ships
+- **−** README does not describe authentication or multi-user setup
+
+<sub>no GPU · Docker + Compose · Needs MongoDB · Models: OpenAI-compatible endpoints, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [▶️ Demo ↗](https://huggingface.co/chat)</sub>
+
+<a name="claraverse"></a>
+### 🥉 59 [ClaraVerse](https://github.com/claraverse-space/ClaraVerse) <sub>⭐ 3.9k · NOASSERTION · Aug 2026</sub>
+
+**Private AI workspace with chat, agent crews, workflows and Telegram.**
+
+ClaraVerse is a Go and React workspace (Docker Compose, port 3000) that auto-detects Ollama and LM Studio and also uses OpenAI, Claude, Gemini or any OpenAI-compatible endpoint. It combines chat with Crew multi-agent teams with human review, a visual workflow builder with 200+ integrations, layered AES-256-GCM encrypted memory, knowledge bases, a Telegram channel and the claracli terminal agent.
+
+- **+** Auto-detects Ollama and LM Studio every 2 minutes and imports their models
+- **+** Per-user AES-256-GCM encrypted memory with pinned and decaying recall tiers
+- **+** 150+ built-in integrations shared across chat, workflows, crew and routines
+- **+** AGPL-3.0 with no branding clause or user cap
+- **−** Full stack runs MySQL, MongoDB, Redis, SearXNG, Qdrant and an embeddings sidecar
+- **−** Single-container mode cannot use knowledge bases or search_knowledge
+- **−** 4 GB RAM minimum, 8 GB recommended
+- **−** Conversations live in browser IndexedDB by default; sync is optional
+
+<sub>RAM ≥ 4 GB · Docker + Compose · Needs MySQL, MongoDB, Redis, SearXNG, Qdrant (knowledge bases) · Models: Ollama, LM Studio, llama.cpp, OpenAI, Anthropic · port 3000 · [Repo](https://github.com/claraverse-space/ClaraVerse) · [🌐 Site ↗](https://claraverse.space)</sub>
+
+<a name="lollms-webui"></a>
+### 51 [LoLLMs WebUI](https://github.com/ParisNeo/lollms-webui) <sub>⭐ 4.8k · Apache-2.0 · Sep 2026</sub>
+
+**Single-user web UI for local and remote LLMs with many personalities.**
+
+LoLLMs WebUI is a Python 3.11 web app (port 9600) fronting local models via HF transformers, GGUF/GGML, ExLlama v2, Ollama and vLLM bindings plus OpenAI, Anthropic and OpenRouter APIs. It adds 500+ personalities, cost/speed-based routing, and hooks into Stable Diffusion, ComfyUI, DALL-E, video and musicgen services. The authors say it is in minimal support, to be replaced by the newer lollms project.
+
+- **+** Bindings for local GGUF, ExLlama v2 and transformers plus Ollama, vLLM and hosted APIs
+- **+** Image, video and music generation integrations in one UI
+- **+** Smart routing picks cheaper or faster models by prompt complexity
+- **+** Apache-2.0 license
+- **−** Maintainers state it is in minimal support, to be replaced by ParisNeo/lollms
+- **−** No built-in authentication; designed for local use only
+- **−** Docker image must be built locally; no published image in the README
+- **−** Manual install needs submodules plus a per-binding install script
+
+<sub>Docker + Compose · Models: Hugging Face transformers, GGUF/GGML, ExLlama v2, Ollama, vLLM · port 9600 · [Repo](https://github.com/ParisNeo/lollms-webui)</sub>
+
 <a name="chatgpt-ui"></a>
-### 44 [ChatGPT UI](https://github.com/WongSaang/chatgpt-ui) <sub>⭐ 1.6k · MIT · May 2026</sub>
+### 28 [ChatGPT UI](https://github.com/WongSaang/chatgpt-ui) <sub>⭐ 1.6k · MIT · May 2026</sub>
 
 **Multi-user ChatGPT-style web client with pluggable databases.**
 
