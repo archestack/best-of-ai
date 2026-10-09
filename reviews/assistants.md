@@ -3,7 +3,7 @@
 Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. Back to the [leaderboard](../README.md#-assistants).
 
 <a name="nanobot"></a>
-### 🥇 [nanobot](https://github.com/hkuds/nanobot) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
+### 🥇 [nanobot](https://github.com/hkuds/nanobot) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 
 **Small Python agent runtime with bundled WebUI, TUI and chat channels.**
 
@@ -162,7 +162,7 @@ Moltis is a single Rust binary that serves a web UI (port 13131), Telegram, Sign
 <sub>no GPU · Docker + Compose · Needs Docker, Podman or Apple Container (sandbox) · Models: OpenAI Codex, GitHub Copilot, local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs ↗](https://docs.moltis.org/quickstart.html) · [🌐 Site ↗](https://moltis.org)</sub>
 
 <a name="khoj"></a>
-### #&#8288;10 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (63) · Freshness: active (99) · Maintenance: weak (19) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;10 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (64) · Freshness: active (99) · Maintenance: weak (19) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
 
 **Personal assistant that chats with your documents and the web.**
 

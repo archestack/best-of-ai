@@ -147,7 +147,7 @@ MemOS gives LLM apps and agents long-term memory via one API over graph-structur
 <sub>no GPU · Docker + Compose · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/)</sub>
 
 <a name="supermemory"></a>
-### #&#8288;9 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;9 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Memory and context API with user profiles, connectors and a local server.**
 
@@ -201,7 +201,7 @@ Engram is one Go binary that stores agent memory in a local SQLite database with
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/gentleman-programming/engram) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/)</sub>
 
 <a name="letta"></a>
-### #&#8288;12 [Letta](https://github.com/letta-ai/letta-code) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [Letta](https://github.com/letta-ai/letta-code) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful agent harness with git-tracked memory, channels and remote computers.**
 

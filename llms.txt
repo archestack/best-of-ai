@@ -12,14 +12,14 @@ Every entry is written from the project README and checked facts: tagline, summa
 - [Agent platforms reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/agent-platforms.md): Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. 12 projects.
 - [RAG and knowledge reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/rag-knowledge.md): Document Q&A, knowledge bases and enterprise search over your own files and data. 15 projects.
 - [Model serving reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/model-serving.md): Inference engines and model servers that expose local models over an API. 20 projects.
-- [Gateways reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/gateways.md): LLM gateways and proxies for routing, caching, rate limits and cost control across providers. 13 projects.
+- [Gateways reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/gateways.md): LLM gateways and proxies for routing, caching, rate limits and cost control across providers. 14 projects.
 - [Memory reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/memory.md): Long-term memory engines that store and retrieve facts for agents across sessions. 12 projects.
 - [Voice reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/voice.md): Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. 11 projects.
 - [Image and video reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/image-video.md): Generation UIs and pipelines for images and video, usually around diffusion models. 8 projects.
 - [Coding reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/coding.md): Self-hosted coding assistants and agents, from editor completion to autonomous task runners. 9 projects.
 - [Search reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/search.md): Private search engines and AI answer engines that keep queries on your host. 8 projects.
 - [Observability reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/observability.md): Tracing, evaluation and prompt management for LLM applications. 13 projects.
-- [Vector databases reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/vector-db.md): Vector stores and hybrid search engines for embeddings. 9 projects.
+- [Vector databases reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/vector-db.md): Vector stores and hybrid search engines for embeddings. 8 projects.
 - [Security reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/security.md): AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. 1 projects.
 - [Sandboxes reviews](https://github.com/archestack/best-of-selfhosted-ai/blob/main/reviews/sandboxes.md): Isolated runtimes where agents execute code, browse or use tools safely. 8 projects.
 

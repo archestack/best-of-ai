@@ -165,7 +165,7 @@ llama-swap is one Go binary that proxies OpenAI and Anthropic API calls to local
 <sub>GPU optional · Docker · Needs an upstream inference server (llama-server, vLLM, etc.) · Models: any model served by the configured upstream (GGUF via llama-server, etc.) · port 8080 · [Repo](https://github.com/mostlygeek/llama-swap)</sub>
 
 <a name="xinference"></a>
-### #&#8288;10 [Xinference](https://github.com/xorbitsai/inference) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [Xinference](https://github.com/xorbitsai/inference) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
 
 **Serves LLM, embedding, speech and image models behind one OpenAI-compatible API.**
 
@@ -183,7 +183,7 @@ Xinference is a Python library and server that runs language, embedding, speech 
 <sub>GPU optional · Models: vLLM, ggml, llama.cpp (xllamacpp), TensorRT, embedding models · port 9997 · [Repo](https://github.com/xorbitsai/inference) · [📖 Docs ↗](https://inference.readthedocs.io/) · [🌐 Site ↗](https://xinference.co)</sub>
 
 <a name="mistral-rs"></a>
-### #&#8288;11 [mistral.rs](https://github.com/ericlbuehler/mistral.rs) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (74) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Oct 2026</sub>
+### #&#8288;11 [mistral.rs](https://github.com/ericlbuehler/mistral.rs) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (74) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Oct 2026</sub>
 
 **Rust inference server with OpenAI and Anthropic APIs and agent tools.**
 
@@ -290,26 +290,8 @@ LMDeploy compresses and serves LLMs and VLMs with two engines: TurboMind (CUDA, 
 
 <sub>GPU required · Docker · Models: Llama 1-4, Qwen1.5-3.5, InternLM2/3, DeepSeek V2-V4, GLM-4/5, Mixtral, Gemma, Phi-3/4, gpt-oss, VLMs: InternVL, Qwen-VL, LLaVA, DeepSeek-VL, CogVLM, MiniCPM-V, Molmo, Gemma3, Llama4 · [Repo](https://github.com/internlm/lmdeploy) · [📖 Docs ↗](https://lmdeploy.readthedocs.io/en/latest/)</sub>
 
-<a name="llamafile"></a>
-### #&#8288;17 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Oct 2026</sub>
-
-**Single-file executables that bundle llama.cpp with model weights.**
-
-llamafile packages llama.cpp and model weights into one executable using Cosmopolitan Libc, so a downloaded .llamafile runs on Linux, macOS, Windows and BSD across CPU architectures with no install and serves a local web UI and API. Since 0.10 it tracks upstream llama.cpp closely for newer models, and whisperfile applies the same packaging to speech-to-text. Maintained by Mozilla.ai.
-
-- **+** Single file, no installation, runs across OSes and CPU architectures
-- **+** 0.10 build system tracks upstream llama.cpp for recent model support
-- **+** Can run external GGUF weights with the bare llamafile binary
-- **+** whisperfile gives single-file transcription and translation
-- **−** Windows cannot run executables above 4 GB; larger models need external weights
-- **−** 0.10.x dropped some classic features; older releases remain for those
-- **−** Pre-built llamafiles limited to Mozilla.ai's Hugging Face uploads
-- **−** One model per file; not a multi-model server
-
-<sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs ↗](https://docs.mozilla.ai/llamafile)</sub>
-
 <a name="text-embeddings-inference"></a>
-### #&#8288;18 [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: patchy (49) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;17 [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: patchy (49) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · Apache-2.0 · Oct 2026</sub>
 
 **Rust server for embedding, reranker and classification models.**
 
@@ -326,23 +308,41 @@ TEI is a Rust server from Hugging Face for embedding, reranker and sequence-clas
 
 <sub>GPU optional · Docker · Models: Qwen3-Embedding, gte-Qwen2, multilingual-e5, embeddinggemma, arctic-embed, nomic-embed, ModernBERT, jina-embeddings-v2, bge-reranker, gte rerankers · port 3000 · [Repo](https://github.com/huggingface/text-embeddings-inference) · [📖 Docs ↗](https://huggingface.github.io/text-embeddings-inference)</sub>
 
+<a name="llamafile"></a>
+### #&#8288;18 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Oct 2026</sub>
+
+**Single-file executables that bundle llama.cpp with model weights.**
+
+llamafile packages llama.cpp and model weights into one executable using Cosmopolitan Libc, so a downloaded .llamafile runs on Linux, macOS, Windows and BSD across CPU architectures with no install and serves a local web UI and API. Since 0.10 it tracks upstream llama.cpp closely for newer models, and whisperfile applies the same packaging to speech-to-text. Maintained by Mozilla.ai.
+
+- **+** Single file, no installation, runs across OSes and CPU architectures
+- **+** 0.10 build system tracks upstream llama.cpp for recent model support
+- **+** Can run external GGUF weights with the bare llamafile binary
+- **+** whisperfile gives single-file transcription and translation
+- **−** Windows cannot run executables above 4 GB; larger models need external weights
+- **−** 0.10.x dropped some classic features; older releases remain for those
+- **−** Pre-built llamafiles limited to Mozilla.ai's Hugging Face uploads
+- **−** One model per file; not a multi-model server
+
+<sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs ↗](https://docs.mozilla.ai/llamafile)</sub>
+
 <a name="tabbyapi"></a>
 ### #&#8288;19 [TabbyAPI](https://github.com/theroyallab/tabbyapi) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (57) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Oct 2026</sub>
 
-**OpenAI-compatible API server for ExLlamaV3 models.**
+**OpenAI-compatible API server for running ExLlamaV3 models.**
 
-TabbyAPI is a FastAPI server exposing an OpenAI-compatible API for the ExLlamaV3 backend, serving EXL3 and FP16/BF16 models with continuous batching via paged attention on NVIDIA Ampere or newer, speculative decoding, constrained output and tool calling. A CUDA Docker image runs on port 5000 and needs --shm-size=8g. The maintainers call it a hobby project not meant for production.
+TabbyAPI is a FastAPI server that loads and serves LLMs through the ExLlamaV3 backend, exposing an OpenAI-compatible HTTP API. It supports runtime model loading and unloading, HuggingFace downloads, embedding models, constrained output (JSON schema, regex, EBNF), and tool calling. The README describes it as a hobby project for a small user base, not for production servers.
 
-- **+** Official API server for ExLlamaV3 with EXL3 quantized models
-- **+** Continuous batching with paged attention; speculative decoding via draft models
-- **+** JSON schema, regex and EBNF constrained output plus OpenAI-style tool calling
-- **+** Optional embeddings stack in the latest-extras image
-- **−** Marked hobby project, rolling release, not for production servers
-- **−** NVIDIA only; batching needs Ampere or newer; Docker needs --shm-size=8g
-- **−** EXL3 and FP16/BF16 only; no GGUF
-- **−** AGPL-3.0 license
+- **+** Continuous batching with paged attention on Nvidia Ampere and newer GPUs
+- **+** Speculative decoding with draft models; JSON schema, regex and EBNF constraints
+- **+** Load, unload and download models at runtime without restarting the server
+- **+** Published Docker images for CUDA 12.8, CUDA 13 and ROCm
+- **−** README says it is not meant for production servers
+- **−** Only EXL3 and FP16/BF16 models; no GGUF support listed
+- **−** Rolling release with no tagged releases; dependencies may need reinstalling
+- **−** AGPL-3.0 license may restrict use in some network services
 
-<sub>GPU required · Docker + Compose · Models: EXL3 (recommended), FP16/BF16 Hugging Face models · port 5000 · [Repo](https://github.com/theroyallab/tabbyapi) · [📖 Docs ↗](https://theroyallab.github.io/tabbyAPI)</sub>
+<sub>GPU required · Docker + Compose · Needs ExLlamaV3, NVIDIA container toolkit (Docker) · Models: EXL3, FP16, BF16 · port 5000 · [Repo](https://github.com/theroyallab/tabbyapi) · [📖 Docs ↗](https://theroyallab.github.io/tabbyAPI)</sub>
 
 <a name="openllm"></a>
 ### #&#8288;20 [OpenLLM](https://github.com/bentoml/openllm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (44) · Freshness: recent (59) · Maintenance: weak (25) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
