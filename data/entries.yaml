@@ -1,6 +1,53 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
 updated_at: 2026-10-09
 entries:
+  - id: exo
+    repo: exo-explore/exo
+    name: exo
+    status: listed
+    tagline: Distributed LLM inference across Macs and other devices, MLX-based
+    summary: exo joins devices on a network into one inference cluster, splitting a model across them with pipeline or tensor parallelism based on a live view of topology. It uses MLX for inference and exposes OpenAI Chat Completions, Claude Messages, OpenAI Responses and Ollama-compatible APIs plus a built-in dashboard on port 52415. On Macs with Thunderbolt 5 and macOS 26.2 or later, it can use RDMA between nodes.
+    categories:
+      - model-serving
+    strengths:
+      - Runs models too large for one machine by sharding across devices
+      - Devices discover each other automatically, no manual cluster config
+      - Serves OpenAI, Claude Messages, Responses and Ollama-style APIs
+      - Tensor parallelism reported up to 1.8x on 2 devices, 3.2x on 4
+    weaknesses:
+      - On Linux, inference currently runs on CPU only; GPU support is in development
+      - RDMA needs macOS 26.2+, Thunderbolt 5, a Recovery-mode setting and identical OS versions
+      - Source install needs Rust nightly, Node and uv; no Docker image detected
+      - Models are MLX-format; GGUF support is not mentioned in the README
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - uv
+        - Node.js 18+
+        - Rust nightly
+        - MLX
+        - macmon (macOS)
+      model_support:
+        - MLX
+        - HuggingFace custom models
+      web_port: 52415
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/exo-explore/exo/blob/main/docs/api.md
+    audience: Self-hosters pooling several Macs to run large models
+    confidence: 0.85
+    facts:
+      stars: 47791
+      license: Apache-2.0
+      last_commit: 2026-08-25
+      last_release: 2026-04-23
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 64
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
@@ -34,7 +81,7 @@ entries:
     audience: Self-hosters who want one assistant reachable from every chat app they use
     confidence: 0.8
     facts:
-      stars: 391505
+      stars: 391504
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -78,7 +125,7 @@ entries:
     audience: Developers who want an always-on agent on a VPS reachable from chat apps
     confidence: 0.8
     facts:
-      stars: 252097
+      stars: 252096
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -121,7 +168,7 @@ entries:
     audience: Developers wanting a small, readable agent gateway they can extend
     confidence: 0.85
     facts:
-      stars: 48888
+      stars: 48889
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-09-15
@@ -542,7 +589,7 @@ entries:
     audience: Teams and homelabs wanting a multi-user front end for local models
     confidence: 0.85
     facts:
-      stars: 154078
+      stars: 154079
       license: NOASSERTION
       last_commit: 2026-09-21
       last_release: 2026-09-21
@@ -594,7 +641,7 @@ entries:
     audience: Individuals who want a fast single-container chat front end for API keys
     confidence: 0.85
     facts:
-      stars: 88836
+      stars: 88837
       license: MIT
       last_commit: 2026-10-08
       last_release: 2025-07-29
@@ -747,7 +794,7 @@ entries:
     audience: Teams wanting one authenticated front end across many model vendors
     confidence: 0.85
     facts:
-      stars: 45425
+      stars: 45426
       license: MIT
       last_commit: 2026-10-06
       last_release: null
@@ -858,41 +905,44 @@ entries:
     repo: nesquena/hermes-webui
     name: Hermes WebUI
     status: listed
-    tagline: Browser front end for Hermes Agent with sessions, files and voice input
-    summary: "Hermes WebUI is a Python plus vanilla JavaScript web app (no build step, port 8787) that runs an installed Hermes Agent in-process and shows it in a three-panel layout: sessions and projects, streaming chat, and a workspace file browser. It mirrors the CLI feature set, imports Hermes CLI sessions from SQLite, adds Web Speech voice input, profiles, passkey and OIDC login, and ships a Nix flake and Docker images."
+    tagline: Browser UI for Hermes Agent with sessions and file browser
+    summary: "Hermes WebUI is a Python server with a vanilla JS frontend (no build step) that gives Hermes Agent a three-panel browser interface: sessions sidebar, streaming chat over SSE, and a workspace file browser with editing. It runs the Hermes agent in-process using the existing HERMES_HOME config, and is typically reached over an SSH tunnel. It is a front end for Hermes Agent, not a standalone chat client."
     categories:
       - chat-ui
+      - agent-platforms
     strengths:
-      - No build step, framework or bundler; Python and vanilla JS only
-      - CLI sessions from the Hermes SQLite store appear in the sidebar and can be continued
-      - Optional password, passkey (WebAuthn) and native OIDC login
-      - Nix flake, NixOS module and single- or multi-container Docker deploys
+      - No build step; plain Python server and vanilla JS frontend
+      - "Optional auth: password, passkeys/WebAuthn, or native OIDC login"
+      - Inline tool call cards and approval prompts for dangerous shell commands
+      - Ships bootstrap.py, ctl.sh daemon wrapper, Docker, and a Nix module
     weaknesses:
-      - Requires a Hermes Agent install; the bootstrap runs its installer if missing
-      - Password auth is off by default
-      - Native Windows is not supported by the bootstrap; Linux, macOS or WSL2 only
-      - Stop procedure differs per launch method; only ctl.sh writes a PID file
+      - Requires Hermes Agent; the UI does not work standalone
+      - Native Windows unsupported by bootstrap; Linux, macOS, or WSL2 only
+      - OIDC state is held in process memory; multi-instance needs sticky sessions
+      - Gateway-backed chat is optional; full agent-loop delegation is not yet shipped
     specs:
       ram_min_gb: null
-      gpu: none
+      gpu: unknown
       external_deps:
         - Hermes Agent
+        - Python 3
       model_support:
         - OpenAI
         - Anthropic
         - Google
         - DeepSeek
-        - Nous Portal
         - OpenRouter
+        - Nous Portal
         - MiniMax
         - Xiaomi MiMo
         - Z.AI
+        - custom OpenAI-compatible endpoints
       web_port: 8787
     links:
       demo: null
-      website: null
+      website: https://hermes-agent.nousresearch.com/
       docs: null
-    audience: Hermes Agent users who want a browser UI over SSH or Tailscale
+    audience: Hermes Agent users who want a browser interface instead of the CLI
     confidence: 0.8
     facts:
       stars: 18823
@@ -1186,7 +1236,7 @@ entries:
     audience: Teams automating business workflows that include LLM steps
     confidence: 0.8
     facts:
-      stars: 206758
+      stars: 206759
       license: NOASSERTION
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -1227,7 +1277,7 @@ entries:
     audience: Non-developers and teams wanting scheduled agents over SaaS tools
     confidence: 0.7
     facts:
-      stars: 187489
+      stars: 187488
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -1273,7 +1323,7 @@ entries:
     audience: Product teams building LLM apps and RAG workflows without heavy code
     confidence: 0.85
     facts:
-      stars: 157960
+      stars: 157962
       license: NOASSERTION
       last_commit: 2026-10-09
       last_release: 2026-09-10
@@ -1352,7 +1402,7 @@ entries:
     audience: People running several coding agents who want tickets, budgets and oversight
     confidence: 0.7
     facts:
-      stars: 98945
+      stars: 98946
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-06
@@ -1395,7 +1445,7 @@ entries:
     audience: Software teams delegating issues to coding agents with human review
     confidence: 0.8
     facts:
-      stars: 52233
+      stars: 52234
       license: NOASSERTION
       last_commit: 2026-10-09
       last_release: 2026-10-01
@@ -1448,7 +1498,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 71
+    score: 70
   - id: fastgpt
     repo: labring/fastgpt
     name: FastGPT
@@ -1521,7 +1571,7 @@ entries:
     audience: Teams replacing Zapier who want their integrations exposed to LLM clients
     confidence: 0.75
     facts:
-      stars: 24960
+      stars: 24961
       license: NOASSERTION
       last_commit: 2026-10-09
       last_release: 2026-10-07
@@ -1821,7 +1871,7 @@ entries:
     audience: Developers building graph-backed memory for agents and company knowledge
     confidence: 0.85
     facts:
-      stars: 31803
+      stars: 31804
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -1915,7 +1965,7 @@ entries:
     audience: Product developers who want memory plus RAG behind one API
     confidence: 0.8
     facts:
-      stars: 31166
+      stars: 31167
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-08-17
@@ -1959,7 +2009,7 @@ entries:
     audience: Developers who run several coding agents and want shared session memory
     confidence: 0.75
     facts:
-      stars: 29252
+      stars: 29253
       license: Apache-2.0
       last_commit: 2026-10-09
       last_release: 2026-10-06
@@ -2177,7 +2227,7 @@ entries:
     audience: teams building document Q&A over complex enterprise files
     confidence: 0.8
     facts:
-      stars: 91882
+      stars: 91883
       license: Apache-2.0
       last_commit: 2026-10-09
       last_release: 2026-09-29
@@ -2353,7 +2403,7 @@ entries:
     audience: teams needing a self-hosted enterprise knowledge assistant
     confidence: 0.8
     facts:
-      stars: 32716
+      stars: 32719
       license: NOASSERTION
       last_commit: 2026-10-09
       last_release: 2026-09-24
@@ -2831,7 +2881,7 @@ entries:
     audience: anyone wanting local models behind a simple API
     confidence: 0.85
     facts:
-      stars: 182435
+      stars: 182436
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -2872,7 +2922,7 @@ entries:
     audience: engineers who want a lean local inference server
     confidence: 0.85
     facts:
-      stars: 130573
+      stars: 130574
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-05
@@ -3043,7 +3093,7 @@ entries:
     audience: teams serving LLMs and VLMs at scale on mixed hardware
     confidence: 0.75
     facts:
-      stars: 36903
+      stars: 36904
       license: Apache-2.0
       last_commit: 2026-10-09
       last_release: 2026-10-02
@@ -3132,7 +3182,7 @@ entries:
     audience: researchers running huge MoE models on limited GPUs
     confidence: 0.75
     facts:
-      stars: 19574
+      stars: 19575
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-09-15
@@ -3184,7 +3234,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 39
+    score: 38
   - id: triton-inference-server
     repo: triton-inference-server/server
     name: Triton Inference Server
@@ -3268,7 +3318,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 63
+    score: 62
   - id: lmdeploy
     repo: internlm/lmdeploy
     name: LMDeploy
@@ -3310,7 +3360,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 55
+    score: 54
   - id: mistral-rs
     repo: ericlbuehler/mistral.rs
     name: mistral.rs
@@ -3595,7 +3645,7 @@ entries:
     audience: developers routing coding agents across many free and paid providers
     confidence: 0.7
     facts:
-      stars: 74401
+      stars: 74403
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-09-30
@@ -3636,7 +3686,7 @@ entries:
     audience: platform teams standardizing LLM access across providers
     confidence: 0.85
     facts:
-      stars: 60411
+      stars: 60412
       license: NOASSERTION
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -3677,7 +3727,7 @@ entries:
     audience: teams needing resilient multi-provider routing with guardrails
     confidence: 0.8
     facts:
-      stars: 13153
+      stars: 13154
       license: MIT
       last_commit: 2026-05-25
       last_release: 2026-01-12
@@ -3805,7 +3855,7 @@ entries:
     audience: teams wanting a fast self-hosted gateway with governance
     confidence: 0.85
     facts:
-      stars: 8658
+      stars: 8659
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -4608,7 +4658,7 @@ entries:
     audience: Developers needing controllable multilingual voice cloning
     confidence: 0.75
     facts:
-      stars: 24370
+      stars: 24371
       license: NOASSERTION
       last_commit: 2026-09-29
       last_release: 2026-08-13
@@ -4708,7 +4758,7 @@ entries:
     facts:
       stars: 13400
       license: Apache-2.0
-      last_commit: 2026-10-08
+      last_commit: 2026-10-09
       last_release: 2026-09-06
       has_docker: true
       has_compose: true
@@ -5027,7 +5077,7 @@ entries:
     audience: Visual professionals running diffusion models locally
     confidence: 0.85
     facts:
-      stars: 136519
+      stars: 136521
       license: GPL-3.0
       last_commit: 2026-10-09
       last_release: 2026-10-05
@@ -5082,7 +5132,7 @@ entries:
     audience: Creators automating short-form video production
     confidence: 0.75
     facts:
-      stars: 129241
+      stars: 129242
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-03
@@ -5137,7 +5187,7 @@ entries:
     audience: Creators who already run ComfyUI and want automated shorts
     confidence: 0.7
     facts:
-      stars: 28771
+      stars: 28773
       license: Apache-2.0
       last_commit: 2026-06-14
       last_release: 2026-01-27
@@ -5445,7 +5495,7 @@ entries:
     audience: Developers wanting an open terminal coding agent
     confidence: 0.65
     facts:
-      stars: 212248
+      stars: 212251
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -5494,7 +5544,7 @@ entries:
     audience: Teams running coding agents as a shared, always-on service
     confidence: 0.8
     facts:
-      stars: 90323
+      stars: 90322
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -5544,7 +5594,7 @@ entries:
     audience: Developers prototyping UIs from designs
     confidence: 0.85
     facts:
-      stars: 80105
+      stars: 80108
       license: MIT
       last_commit: 2026-07-30
       last_release: null
@@ -5864,7 +5914,7 @@ entries:
     audience: Teams feeding web content to RAG pipelines and agents
     confidence: 0.7
     facts:
-      stars: 189683
+      stars: 189684
       license: AGPL-3.0
       last_commit: 2026-10-09
       last_release: 2026-06-19
@@ -5907,7 +5957,7 @@ entries:
     audience: Developers building scrapers and RAG ingestion pipelines
     confidence: 0.85
     facts:
-      stars: 85045
+      stars: 85046
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-09-23
@@ -6009,7 +6059,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 63
+    score: 62
   - id: jina-reader
     repo: jina-ai/reader
     name: Jina Reader
@@ -6356,7 +6406,7 @@ entries:
     audience: ML engineers moving LLM agents to production
     confidence: 0.85
     facts:
-      stars: 22465
+      stars: 22466
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -6403,7 +6453,7 @@ entries:
     audience: Engineers experimenting with and troubleshooting LLM apps
     confidence: 0.8
     facts:
-      stars: 11762
+      stars: 11763
       license: NOASSERTION
       last_commit: 2026-10-09
       last_release: 2026-10-09
@@ -6448,7 +6498,7 @@ entries:
     audience: Engineers wanting LLM observability by swapping an endpoint
     confidence: 0.8
     facts:
-      stars: 6209
+      stars: 6210
       license: Apache-2.0
       last_commit: 2026-09-16
       last_release: 2025-08-21
@@ -6826,7 +6876,7 @@ entries:
     audience: Scraping and agent teams running many headless instances
     confidence: 0.85
     facts:
-      stars: 36148
+      stars: 36149
       license: AGPL-3.0
       last_commit: 2026-10-09
       last_release: 2026-10-02
@@ -7042,7 +7092,7 @@ entries:
     audience: Teams running agent-generated code and untrusted jobs locally
     confidence: 0.85
     facts:
-      stars: 8615
+      stars: 8616
       license: Apache-2.0
       last_commit: 2026-10-09
       last_release: 2026-10-05
@@ -7177,7 +7227,7 @@ entries:
     audience: Developers and security teams automating app pentests locally or in CI
     confidence: 0.8
     facts:
-      stars: 67372
+      stars: 67373
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-05

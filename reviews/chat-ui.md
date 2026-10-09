@@ -39,7 +39,7 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 <sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
 
 <a name="anything-llm"></a>
-### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
+### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
 
 **Document chat and agent app with built-in RAG, MCP and multi-user support.**
 
@@ -77,20 +77,20 @@ Big-AGI Open is the self-hostable web app behind big-agi.com, deployable via Doc
 <a name="hermes-webui"></a>
 ### #&#8288;5 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
-**Browser front end for Hermes Agent with sessions, files and voice input.**
+**Browser UI for Hermes Agent with sessions and file browser.**
 
-Hermes WebUI is a Python plus vanilla JavaScript web app (no build step, port 8787) that runs an installed Hermes Agent in-process and shows it in a three-panel layout: sessions and projects, streaming chat, and a workspace file browser. It mirrors the CLI feature set, imports Hermes CLI sessions from SQLite, adds Web Speech voice input, profiles, passkey and OIDC login, and ships a Nix flake and Docker images.
+Hermes WebUI is a Python server with a vanilla JS frontend (no build step) that gives Hermes Agent a three-panel browser interface: sessions sidebar, streaming chat over SSE, and a workspace file browser with editing. It runs the Hermes agent in-process using the existing HERMES_HOME config, and is typically reached over an SSH tunnel. It is a front end for Hermes Agent, not a standalone chat client.
 
-- **+** No build step, framework or bundler; Python and vanilla JS only
-- **+** CLI sessions from the Hermes SQLite store appear in the sidebar and can be continued
-- **+** Optional password, passkey (WebAuthn) and native OIDC login
-- **+** Nix flake, NixOS module and single- or multi-container Docker deploys
-- **−** Requires a Hermes Agent install; the bootstrap runs its installer if missing
-- **−** Password auth is off by default
-- **−** Native Windows is not supported by the bootstrap; Linux, macOS or WSL2 only
-- **−** Stop procedure differs per launch method; only ctl.sh writes a PID file
+- **+** No build step; plain Python server and vanilla JS frontend
+- **+** Optional auth: password, passkeys/WebAuthn, or native OIDC login
+- **+** Inline tool call cards and approval prompts for dangerous shell commands
+- **+** Ships bootstrap.py, ctl.sh daemon wrapper, Docker, and a Nix module
+- **−** Requires Hermes Agent; the UI does not work standalone
+- **−** Native Windows unsupported by bootstrap; Linux, macOS, or WSL2 only
+- **−** OIDC state is held in process memory; multi-instance needs sticky sessions
+- **−** Gateway-backed chat is optional; full agent-loop delegation is not yet shipped
 
-<sub>no GPU · Docker + Compose · Needs Hermes Agent · Models: OpenAI, Anthropic, Google, DeepSeek, Nous Portal · port 8787 · [Repo](https://github.com/nesquena/hermes-webui)</sub>
+<sub>Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [🌐 Site ↗](https://hermes-agent.nousresearch.com/)</sub>
 
 <a name="librechat"></a>
 ### #&#8288;6 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 45k · MIT · Oct 2026</sub>
@@ -111,7 +111,7 @@ LibreChat is a self-hosted chat platform that fronts Anthropic, OpenAI, Azure, A
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Azure OpenAI, AWS Bedrock, Google · [Repo](https://github.com/librechat-ai/librechat) · [📖 Docs ↗](https://docs.librechat.ai) · [🌐 Site ↗](https://librechat.ai)</sub>
 
 <a name="onyx"></a>
-### #&#8288;7 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · NOASSERTION · Oct 2026</sub>
+### #&#8288;7 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · NOASSERTION · Oct 2026</sub>
 
 **Team knowledge chat that indexes 50+ apps for RAG and agents.**
 
@@ -129,7 +129,7 @@ Onyx indexes content and permissions from 50+ apps into a hybrid vector and keyw
 <sub>RAM ≥ 1 GB · no GPU · Compose · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/signup) · [📖 Docs ↗](https://docs.onyx.app/) · [🌐 Site ↗](https://www.onyx.app/)</sub>
 
 <a name="nextchat"></a>
-### #&#8288;8 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (90) · Freshness: recent (79) · Maintenance: weak (27) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### #&#8288;8 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (91) · Freshness: recent (79) · Maintenance: weak (27) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Lightweight Next.js chat client for OpenAI, Claude, Gemini and DeepSeek APIs.**
 
