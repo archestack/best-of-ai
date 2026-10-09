@@ -1,4 +1,4 @@
-# 💻 Coding — reviews
+# 💻 Coding reviews · Best of Self-Hosted AI
 
 Self-hosted coding assistants and agents, from editor completion to autonomous task runners. Back to the [leaderboard](../README.md#-coding).
 
@@ -52,7 +52,7 @@ Web UI and local stack on port 8000 that runs the OpenHands agent or any ACP-com
 - **−** No Dockerfile or compose file in the repo; the image is prebuilt on ghcr.io
 - **−** Spread across four repos (Canvas, SDK, TypeScript client, automation)
 
-<sub>no GPU · Needs Node.js 24+, uv, Docker (sandbox modes) · Models: any LLM via LLM profiles, OpenHands agent, Claude Code, Codex, Gemini · port 8000 · [Repo](https://github.com/openhands/openhands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
+<sub>no GPU · Docker · Needs Node.js 24+, uv, Docker (sandbox modes) · Models: any LLM via LLM profiles, OpenHands agent, Claude Code, Codex, Gemini · port 8000 · [Repo](https://github.com/openhands/openhands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
 
 <a name="openchamber"></a>
 ### [🥈 67](../README.md#-how-we-rank "Score 67/100 (silver, 65-79). Adoption 32 · Freshness 100 · Maintenance 96 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [OpenChamber](https://github.com/openchamber/openchamber) <sub>⭐ 11k · MIT · Oct 2026</sub>
@@ -160,6 +160,6 @@ Serves code completion and chat to VS Code, Vim and JetBrains extensions from on
 - **−** Model list and hardware guidance live only in the external docs
 - **−** Building from source needs Rust, protobuf and OpenBLAS
 
-<sub>GPU optional · Models: StarCoder-1B, Qwen2-1.5B-Instruct, CodeLlama 7B, CodeGemma, CodeQwen · port 8080 · [Repo](https://github.com/tabbyml/tabby) · [▶️ Demo ↗](https://tabby.tabbyml.com) · [📖 Docs ↗](https://tabby.tabbyml.com/docs/welcome/)</sub>
+<sub>GPU optional · Docker · Models: StarCoder-1B, Qwen2-1.5B-Instruct, CodeLlama 7B, CodeGemma, CodeQwen · port 8080 · [Repo](https://github.com/tabbyml/tabby) · [▶️ Demo ↗](https://tabby.tabbyml.com) · [📖 Docs ↗](https://tabby.tabbyml.com/docs/welcome/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

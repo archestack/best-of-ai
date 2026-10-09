@@ -1,4 +1,4 @@
-# 🎨 Image and video — reviews
+# 🎨 Image and video reviews · Best of Self-Hosted AI
 
 Generation UIs and pipelines for images and video, usually around diffusion models. Back to the [leaderboard](../README.md#-image-and-video).
 
@@ -54,7 +54,7 @@ Local web server and React UI for image generation with a Unified Canvas (inpain
 - **−** Video generation (Wan) is API-only, not local
 - **−** Nano Banana and GPT Image require third-party API access
 
-<sub>Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/invokeai) · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai)</sub>
+<sub>Docker + Compose · Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/invokeai) · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai)</sub>
 
 <a name="ai-toolkit"></a>
 ### [🥉 55](../README.md#-how-we-rank "Score 55/100 (bronze, 55-64). Adoption 35 · Freshness 100 · Maintenance 53 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>⭐ 12k · MIT · Oct 2026</sub>
@@ -72,7 +72,7 @@ Trains LoRA, LoKr and full fine-tunes for FLUX.1 and FLUX.2, Chroma, Qwen-Image,
 - **−** Pressing Ctrl+C during a checkpoint save can corrupt it
 - **−** Apple Silicon support is experimental; datasets limited to jpg, jpeg and png
 
-<sub>GPU required · Compose · Needs Node.js 20+ (UI), FFmpeg, git · Models: FLUX.1-dev, FLUX.2-dev and klein 4B/9B, Flex.1 and Flex.2, Chroma, Lumina-Image-2.0 · port 8675 · [Repo](https://github.com/ostris/ai-toolkit)</sub>
+<sub>GPU required · Docker + Compose · Needs Node.js 20+ (UI), FFmpeg, git · Models: FLUX.1-dev, FLUX.2-dev and klein 4B/9B, Flex.1 and Flex.2, Chroma, Lumina-Image-2.0 · port 8675 · [Repo](https://github.com/ostris/ai-toolkit)</sub>
 
 <a name="kohya-ss"></a>
 ### [52](../README.md#-how-we-rank "Score 52/100. Adoption 42 · Freshness 100 · Maintenance 9 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>⭐ 13k · Apache-2.0 · Jul 2026</sub>

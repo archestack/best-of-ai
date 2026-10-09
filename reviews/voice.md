@@ -1,4 +1,4 @@
-# 🎙️ Voice — reviews
+# 🎙️ Voice reviews · Best of Self-Hosted AI
 
 Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. Back to the [leaderboard](../README.md#%EF%B8%8F-voice).
 
@@ -72,7 +72,7 @@ Serves the Kokoro-82M model behind an OpenAI-compatible /v1/audio/speech endpoin
 - **−** ROCm image is experimental and amd64 only
 - **−** Apple Silicon GPU (MPS) only when run natively via uv, not in Docker
 
-<sub>GPU optional · Needs espeak-ng (optional fallback) · Models: Kokoro-82M v1.0 · port 8880 · [Repo](https://github.com/remsky/kokoro-fastapi) · [▶️ Demo ↗](https://huggingface.co/spaces/Remsky/FastKoko)</sub>
+<sub>GPU optional · Docker + Compose · Needs espeak-ng (optional fallback) · Models: Kokoro-82M v1.0 · port 8880 · [Repo](https://github.com/remsky/kokoro-fastapi) · [▶️ Demo ↗](https://huggingface.co/spaces/Remsky/FastKoko)</sub>
 
 <a name="index-tts"></a>
 ### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 68 · Freshness 100 · Maintenance 78 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [IndexTTS](https://github.com/index-tts/index-tts) <sub>⭐ 24k · NOASSERTION · Sep 2026</sub>
@@ -179,7 +179,7 @@ Streams audio from a microphone, file, RTSP or HLS source to a server on port 90
 - **−** TensorRT backend requires building engines and is recommended only via Docker
 - **−** Diarization needs the optional pyannote.audio dependency
 
-<sub>GPU optional · Needs PortAudio (client microphone input) · Models: Whisper via faster-whisper (CTranslate2), Whisper TensorRT-LLM engines, OpenVINO Whisper models · port 9090 · [Repo](https://github.com/collabora/whisperlive)</sub>
+<sub>GPU optional · Docker · Needs PortAudio (client microphone input) · Models: Whisper via faster-whisper (CTranslate2), Whisper TensorRT-LLM engines, OpenVINO Whisper models · port 9090 · [Repo](https://github.com/collabora/whisperlive)</sub>
 
 <a name="speaches"></a>
 ### [43](../README.md#-how-we-rank "Score 43/100. Adoption 11 · Freshness 70 · Maintenance 7 · Easy to run 67 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [Speaches](https://github.com/speaches-ai/speaches) <sub>⭐ 3.7k · MIT · Apr 2026</sub>

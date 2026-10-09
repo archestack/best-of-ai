@@ -1,4 +1,4 @@
-# 📚 RAG and knowledge — reviews
+# 📚 RAG and knowledge reviews · Best of Self-Hosted AI
 
 Document Q&A, knowledge bases and enterprise search over your own files and data. Back to the [leaderboard](../README.md#-rag-and-knowledge).
 
@@ -54,7 +54,7 @@ RAGFlow parses Word, slides, Excel, scans and web pages with in-process layout a
 - **−** 1.0 Go rewrite is still rc1 as of 2026-09-29
 - **−** Elasticsearch path requires vm.max_map_count >= 262144 on the host
 
-<sub>RAM ≥ 16 GB · no GPU · Docker · Needs MySQL, Elasticsearch or Infinity, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: external LLM, embedding and reranker providers set by URL and API key · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io/)</sub>
+<sub>RAM ≥ 16 GB · no GPU · Docker + Compose · Needs MySQL, Elasticsearch or Infinity, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: external LLM, embedding and reranker providers set by URL and API key · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io/)</sub>
 
 <a name="weknora"></a>
 ### [🥈 68](../README.md#-how-we-rank "Score 68/100 (silver, 65-79). Adoption 70 · Freshness 100 · Maintenance 89 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [WeKnora](https://github.com/tencent/weknora) <sub>⭐ 33k · NOASSERTION · Oct 2026</sub>
@@ -72,7 +72,25 @@ WeKnora turns team documents into knowledge bases with three modes: cited RAG an
 - **−** Maintainers advise against exposing it to the public internet
 - **−** Desktop app has no published installer; hardware requirements live in external docs
 
-<sub>no GPU · Compose · Needs Neo4j (optional profile), MinIO (optional profile), Langfuse (optional profile) · Models: OpenAI, DeepSeek, Qwen, Zhipu, Hunyuan, Gemini, MiniMax, NVIDIA, LiteLLM, Ollama · port 80 · [Repo](https://github.com/tencent/weknora) · [📖 Docs ↗](https://weknora.weixin.qq.com/docs/) · [🌐 Site ↗](https://weknora.weixin.qq.com)</sub>
+<sub>no GPU · Docker + Compose · Needs Neo4j (optional profile), MinIO (optional profile), Langfuse (optional profile) · Models: OpenAI, DeepSeek, Qwen, Zhipu, Hunyuan, Gemini, MiniMax, NVIDIA, LiteLLM, Ollama · port 80 · [Repo](https://github.com/tencent/weknora) · [📖 Docs ↗](https://weknora.weixin.qq.com/docs/) · [🌐 Site ↗](https://weknora.weixin.qq.com)</sub>
+
+<a name="surfsense"></a>
+### [🥈 68](../README.md#-how-we-rank "Score 68/100 (silver, 65-79). Adoption 41 · Freshness 100 · Maintenance 91 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [SurfSense](https://github.com/modsetter/surfsense) <sub>⭐ 16k · NOASSERTION · Oct 2026</sub>
+
+**Offline NotebookLM alternative that turns documents into decks, reports and podcasts.**
+
+SurfSense indexes local PDFs, Office files and images into SQLite, answers with citations and turns sources into summaries, flashcards, quizzes, mind maps, editable pptx/docx/xlsx and offline podcasts (Kokoro-82M). It runs a local Qwen3 (six sizes from 0.5 GB) or any OpenAI-compatible API, egress off by default. The supported path is a desktop installer; the Docker stack is community-supported.
+
+- **+** Parser, retrieval model and podcast voice ship in the installer; works with networking off
+- **+** Egress panel off by default, no telemetry or crash reporting
+- **+** Produces editable pptx, docx and xlsx files rather than chat only
+- **+** No account required; keys stored in the OS keychain
+- **−** Primary product is a desktop app, not a server
+- **−** Self-hosted Docker stack has no SLA and no hosted service behind it
+- **−** Hosted web app retired; export window closes 2026-10-18
+- **−** Plugins and priority support are behind a paid licence; no video overviews
+
+<sub>no GPU · Docker + Compose · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · [Repo](https://github.com/modsetter/surfsense) · [📖 Docs ↗](https://www.surfsense.com/docs) · [🌐 Site ↗](https://www.surfsense.com/)</sub>
 
 <a name="maxkb"></a>
 ### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 55 · Freshness 100 · Maintenance 96 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [MaxKB](https://github.com/1panel-dev/maxkb) <sub>⭐ 23k · GPL-3.0 · Oct 2026</sub>
@@ -110,24 +128,6 @@ PrivateGPT 1.0 is an API server shaped like the Anthropic Messages API, adding f
 
 <sub>no GPU · Docker · Needs OpenAI-compatible inference server (Ollama, llama.cpp, vLLM) · Models: any model behind an OpenAI-compatible /v1/chat/completions endpoint · port 8080 · [Repo](https://github.com/zylon-ai/private-gpt) · [📖 Docs ↗](https://docs.privategpt.dev/)</sub>
 
-<a name="surfsense"></a>
-### [🥉 58](../README.md#-how-we-rank "Score 58/100 (bronze, 55-64). Adoption 41 · Freshness 100 · Maintenance 91 · Easy to run 17 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [SurfSense](https://github.com/modsetter/surfsense) <sub>⭐ 16k · NOASSERTION · Oct 2026</sub>
-
-**Offline NotebookLM alternative that turns documents into decks, reports and podcasts.**
-
-SurfSense indexes local PDFs, Office files and images into SQLite, answers with citations and turns sources into summaries, flashcards, quizzes, mind maps, editable pptx/docx/xlsx and offline podcasts (Kokoro-82M). It runs a local Qwen3 (six sizes from 0.5 GB) or any OpenAI-compatible API, egress off by default. The supported path is a desktop installer; the Docker stack is community-supported.
-
-- **+** Parser, retrieval model and podcast voice ship in the installer; works with networking off
-- **+** Egress panel off by default, no telemetry or crash reporting
-- **+** Produces editable pptx, docx and xlsx files rather than chat only
-- **+** No account required; keys stored in the OS keychain
-- **−** Primary product is a desktop app, not a server
-- **−** Self-hosted Docker stack has no SLA and no hosted service behind it
-- **−** Hosted web app retired; export window closes 2026-10-18
-- **−** Plugins and priority support are behind a paid licence; no video overviews
-
-<sub>no GPU · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · [Repo](https://github.com/modsetter/surfsense) · [📖 Docs ↗](https://www.surfsense.com/docs) · [🌐 Site ↗](https://www.surfsense.com/)</sub>
-
 <a name="pipeshub"></a>
 ### [🥉 57](../README.md#-how-we-rank "Score 57/100 (bronze, 55-64). Adoption 17 · Freshness 100 · Maintenance 83 · Easy to run 33 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
 
@@ -144,7 +144,7 @@ PipesHub indexes Slack, Google Drive, GitHub, Microsoft 365, Notion and 50+ syst
 - **−** Audio and video are stored but not indexed yet
 - **−** Plain-HTTP cloud deployments show a white screen; TLS termination required
 
-<sub>no GPU · Docker · Needs Neo4j or ArangoDB, Qdrant, MongoDB, Redis, Kafka (larger deployments) · Models: any LLM provider, bring your own model, Ollama, local embedding server by default · port 3000 · [Repo](https://github.com/pipeshub-ai/pipeshub-ai) · [📖 Docs ↗](https://docs.pipeshub.com/) · [🌐 Site ↗](https://www.pipeshub.com/)</sub>
+<sub>no GPU · Docker + Compose · Needs Neo4j or ArangoDB, Qdrant, MongoDB, Redis, Kafka (larger deployments) · Models: any LLM provider, bring your own model, Ollama, local embedding server by default · port 3000 · [Repo](https://github.com/pipeshub-ai/pipeshub-ai) · [📖 Docs ↗](https://docs.pipeshub.com/) · [🌐 Site ↗](https://www.pipeshub.com/)</sub>
 
 <a name="deepwiki-open"></a>
 ### [🥉 55](../README.md#-how-we-rank "Score 55/100 (bronze, 55-64). Adoption 46 · Freshness 100 · Maintenance 39 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>⭐ 18k · MIT · Sep 2026</sub>
@@ -178,7 +178,7 @@ DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge base
 - **−** Text2SQL fine-tune list stops at older models such as LLaMA-2 and ChatGLM2
 - **−** Default pip install bundles ChromaDB only; other vector stores need extras
 
-<sub>GPU optional · Compose · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/db-gpt) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/)</sub>
+<sub>GPU optional · Docker + Compose · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/db-gpt) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/)</sub>
 
 <a name="paperless-gpt"></a>
 ### [52](../README.md#-how-we-rank "Score 52/100. Adoption 7 · Freshness 100 · Maintenance 79 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>⭐ 2.7k · MIT · Oct 2026</sub>
@@ -214,7 +214,7 @@ Docling Serve wraps the Docling document converter in a FastAPI service: POST a 
 - **−** ROCm image is not published; build it yourself
 - **−** Slim images without bundled weights are only announced
 
-<sub>GPU optional · Models: bundled Docling parsing models · port 5001 · [Repo](https://github.com/docling-project/docling-serve)</sub>
+<sub>GPU optional · Docker · Models: bundled Docling parsing models · port 5001 · [Repo](https://github.com/docling-project/docling-serve)</sub>
 
 <a name="kotaemon"></a>
 ### [50](../README.md#-how-we-rank "Score 50/100. Adoption 60 · Freshness 89 · Maintenance 3 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Kotaemon](https://github.com/cinnamon/kotaemon) <sub>⭐ 26k · Apache-2.0 · May 2026</sub>
@@ -250,7 +250,7 @@ Morphik Core is a retrieval engine for visually rich documents: it embeds page i
 - **−** README centers on the hosted dev.morphik.ai service, not self-hosting
 - **−** Parent company now focuses on back-office AI workers; Core is a side product
 
-<sub>no GPU · Compose · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [▶️ Demo ↗](https://dev.morphik.ai) · [📖 Docs ↗](https://dev.morphik.ai/docs) · [🌐 Site ↗](https://morphik.ai)</sub>
+<sub>no GPU · Docker + Compose · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [▶️ Demo ↗](https://dev.morphik.ai) · [📖 Docs ↗](https://dev.morphik.ai/docs) · [🌐 Site ↗](https://morphik.ai)</sub>
 
 <a name="paperless-ai"></a>
 ### [38](../README.md#-how-we-rank "Score 38/100. Adoption 27 · Freshness 61 · Maintenance 18 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Paperless-AI](https://github.com/clusterzx/paperless-ai) <sub>⭐ 6.0k · MIT · Mar 2026</sub>

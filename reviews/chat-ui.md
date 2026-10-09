@@ -1,4 +1,4 @@
-# 💬 Chat UIs — reviews
+# 💬 Chat UIs reviews · Best of Self-Hosted AI
 
 Web front-ends for local or API models, usually with user accounts, chat history and file upload. Back to the [leaderboard](../README.md#-chat-uis).
 
@@ -18,7 +18,7 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 - **−** README recommends a third-party API reseller through an affiliate link
 - **−** README states no ports, databases or hardware requirements
 
-<sub>no GPU · Docker · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub)</sub>
+<sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub)</sub>
 
 <a name="open-webui"></a>
 ### [🥈 76](../README.md#-how-we-rank "Score 76/100 (silver, 65-79). Adoption 97 · Freshness 100 · Maintenance 96 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Open WebUI](https://github.com/open-webui/open-webui) <sub>⭐ 154k · NOASSERTION · Sep 2026</sub>
@@ -37,6 +37,24 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 - **−** Data is lost unless the /app/backend/data volume is mounted
 
 <sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
+
+<a name="anything-llm"></a>
+### [🥈 76](../README.md#-how-we-rank "Score 76/100 (silver, 65-79). Adoption 80 · Freshness 100 · Maintenance 93 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>⭐ 67k · MIT · Oct 2026</sub>
+
+**Document chat and agent app with built-in RAG, MCP and multi-user support.**
+
+AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a workspace and chats over them with any of 40+ LLM providers, from llama.cpp, Ollama and LM Studio to OpenAI, Anthropic, Bedrock and Gemini. It ships a native embedder, LanceDB by default plus 8 other vector stores, a no-code agent builder, MCP support, scheduled tasks, model routing and a developer API.
+
+- **+** LanceDB embedded by default; PGVector, Qdrant, Milvus, Chroma, Weaviate, Pinecone optional
+- **+** Native embedder and audio transcription run locally with no extra service
+- **+** Multi-user instance with per-user permissions in the Docker build
+- **+** Embeddable website chat widget and a full developer API
+- **−** Anonymous telemetry to PostHog is on by default; opt out with DISABLE_TELEMETRY=true
+- **−** Multi-user support and the embed widget are Docker-only, not in the desktop app
+- **−** Speech-to-text is limited to the browser built-in engine
+- **−** No root Dockerfile; container build lives under docker/
+
+<sub>no GPU · Docker + Compose · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub>
 
 <a name="big-agi"></a>
 ### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 27 · Freshness 100 · Maintenance 70 · Easy to run 83 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [big-AGI](https://github.com/enricoros/big-agi) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
@@ -74,24 +92,6 @@ Hermes WebUI is a Python plus vanilla JavaScript web app (no build step, port 87
 
 <sub>no GPU · Docker + Compose · Needs Hermes Agent · Models: OpenAI, Anthropic, Google, DeepSeek, Nous Portal · port 8787 · [Repo](https://github.com/nesquena/hermes-webui)</sub>
 
-<a name="anything-llm"></a>
-### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 80 · Freshness 100 · Maintenance 93 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>⭐ 67k · MIT · Oct 2026</sub>
-
-**Document chat and agent app with built-in RAG, MCP and multi-user support.**
-
-AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a workspace and chats over them with any of 40+ LLM providers, from llama.cpp, Ollama and LM Studio to OpenAI, Anthropic, Bedrock and Gemini. It ships a native embedder, LanceDB by default plus 8 other vector stores, a no-code agent builder, MCP support, scheduled tasks, model routing and a developer API.
-
-- **+** LanceDB embedded by default; PGVector, Qdrant, Milvus, Chroma, Weaviate, Pinecone optional
-- **+** Native embedder and audio transcription run locally with no extra service
-- **+** Multi-user instance with per-user permissions in the Docker build
-- **+** Embeddable website chat widget and a full developer API
-- **−** Anonymous telemetry to PostHog is on by default; opt out with DISABLE_TELEMETRY=true
-- **−** Multi-user support and the embed widget are Docker-only, not in the desktop app
-- **−** Speech-to-text is limited to the browser built-in engine
-- **−** No root Dockerfile; container build lives under docker/
-
-<sub>no GPU · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub>
-
 <a name="librechat"></a>
 ### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 72 · Freshness 100 · Maintenance 84 · Easy to run 33 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [LibreChat](https://github.com/librechat-ai/librechat) <sub>⭐ 45k · MIT · Oct 2026</sub>
 
@@ -126,7 +126,7 @@ Onyx indexes content and permissions from 50+ apps into a hybrid vector and keyw
 - **−** Lite mode cannot index documents
 - **−** README gives no port or hardware figures for the Standard deployment
 
-<sub>RAM ≥ 1 GB · no GPU · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/signup) · [📖 Docs ↗](https://docs.onyx.app/) · [🌐 Site ↗](https://www.onyx.app/)</sub>
+<sub>RAM ≥ 1 GB · no GPU · Compose · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/signup) · [📖 Docs ↗](https://docs.onyx.app/) · [🌐 Site ↗](https://www.onyx.app/)</sub>
 
 <a name="nextchat"></a>
 ### [🥉 64](../README.md#-how-we-rank "Score 64/100 (bronze, 55-64). Adoption 90 · Freshness 79 · Maintenance 27 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>⭐ 89k · MIT · Oct 2026</sub>
@@ -162,7 +162,7 @@ SillyTavern is a locally installed Node.js 20+ interface for text-generation LLM
 - **−** Maintainers describe the learning curve as steep
 - **−** Installation and Docker instructions live only on the docs site
 
-<sub>no GPU · Docker · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/sillytavern/sillytavern) · [📖 Docs ↗](https://docs.sillytavern.app/)</sub>
+<sub>no GPU · Docker + Compose · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/sillytavern/sillytavern) · [📖 Docs ↗](https://docs.sillytavern.app/)</sub>
 
 <a name="huggingface-chat-ui"></a>
 ### [🥉 57](../README.md#-how-we-rank "Score 57/100 (bronze, 55-64). Adoption 35 · Freshness 100 · Maintenance 38 · Easy to run 50 · Agent-ready 55 (each out of 100, weighted). Click for how we rank.") [HuggingChat UI](https://github.com/huggingface/chat-ui) <sub>⭐ 11k · Apache-2.0 · Oct 2026</sub>

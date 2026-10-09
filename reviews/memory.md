@@ -1,4 +1,4 @@
-# 🗂️ Memory — reviews
+# 🗂️ Memory reviews · Best of Self-Hosted AI
 
 Long-term memory engines that store and retrieve facts for agents across sessions. Back to the [leaderboard](../README.md#%EF%B8%8F-memory).
 
@@ -21,7 +21,7 @@ MemPalace stores conversation history verbatim, never summarised, and retrieves 
 <sub>no GPU · Docker + Compose · Models: local embeddings (MiniLM, EmbeddingGemma), OpenAI-compatible embedding endpoints, Ollama · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com)</sub>
 
 <a name="openviking"></a>
-### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 77 · Freshness 100 · Maintenance 89 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [OpenViking](https://github.com/volcengine/openviking) <sub>⭐ 39k · AGPL-3.0 · Oct 2026</sub>
+### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 77 · Freshness 100 · Maintenance 88 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [OpenViking](https://github.com/volcengine/openviking) <sub>⭐ 39k · AGPL-3.0 · Oct 2026</sub>
 
 **Context database exposing agent memory, knowledge and skills as a filesystem.**
 
@@ -54,7 +54,7 @@ agentmemory captures agent activity via hooks, compresses it into searchable mem
 - **−** Uses four ports (3111, 3112, 3113, 49134)
 - **−** LLM observation compression is off until AGENTMEMORY_AUTO_COMPRESS=true
 
-<sub>no GPU · Compose · Needs iii-engine v0.22.1 (bundled) · Models: keyless BM25, local Xenova/all-MiniLM-L6-v2, LLM provider (optional) · port 3111 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
+<sub>no GPU · Docker + Compose · Needs iii-engine v0.22.1 (bundled) · Models: keyless BM25, local Xenova/all-MiniLM-L6-v2, LLM provider (optional) · port 3111 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
 
 <a name="cognee"></a>
 ### [🥈 74](../README.md#-how-we-rank "Score 74/100 (silver, 65-79). Adoption 68 · Freshness 100 · Maintenance 84 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Cognee](https://github.com/topoteretes/cognee) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
@@ -126,7 +126,7 @@ MemOS gives LLM apps and agents long-term memory via one API over graph-structur
 - **−** LLM, embedder and vector DB keys must be filled in .env before start
 - **−** Benchmark table lists scores without comparison baselines in the README
 
-<sub>no GPU · Docker · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/)</sub>
+<sub>no GPU · Docker + Compose · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/)</sub>
 
 <a name="supermemory"></a>
 ### [🥉 64](../README.md#-how-we-rank "Score 64/100 (bronze, 55-64). Adoption 58 · Freshness 100 · Maintenance 91 · Easy to run 33 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [Supermemory](https://github.com/supermemoryai/supermemory) <sub>⭐ 31k · MIT · Oct 2026</sub>
@@ -180,7 +180,7 @@ Engram is one Go binary that stores agent memory in a local SQLite database with
 - **−** Project detection can halt with project_transition_conflict after git init
 - **−** Install docs for Windows and Linux live in docs/, not the README
 
-<sub>no GPU · [Repo](https://github.com/gentleman-programming/engram) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/)</sub>
+<sub>no GPU · Docker + Compose · [Repo](https://github.com/gentleman-programming/engram) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/)</sub>
 
 <a name="letta"></a>
 ### [53](../README.md#-how-we-rank "Score 53/100. Adoption 6 · Freshness 100 · Maintenance 82 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Letta](https://github.com/letta-ai/letta-code) <sub>⭐ 3.5k · Apache-2.0 · Oct 2026</sub>
@@ -198,6 +198,6 @@ Letta Code is an npm-installed agent harness whose agents keep memory blocks, sk
 - **−** AgentFile export/import removed; agent registry imports no longer supported
 - **−** Automatic dreaming is disabled on native Windows by default
 
-<sub>no GPU · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com/letta-code/cli)</sub>
+<sub>no GPU · Docker · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com/letta-code/cli)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
