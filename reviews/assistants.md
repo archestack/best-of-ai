@@ -3,7 +3,7 @@
 Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. Back to the [leaderboard](../README.md#-assistants).
 
 <a name="openclaw"></a>
-### 🥇 94 [OpenClaw](https://github.com/openclaw/openclaw) <sub>⭐ 391k · MIT · Oct 2026</sub>
+### 🥇 87 [OpenClaw](https://github.com/openclaw/openclaw) <sub>⭐ 391k · MIT · Oct 2026</sub>
 
 **Personal assistant gateway that answers in Discord, Slack, WhatsApp and Telegram.**
 
@@ -19,8 +19,25 @@ OpenClaw runs a local Gateway that connects one assistant to Discord, iMessage, 
 
 <sub>no GPU · Docker + Compose · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs ↗](https://docs.openclaw.ai) · [🌐 Site ↗](https://openclaw.ai)</sub>
 
+<a name="nanobot"></a>
+### 🥇 86 [nanobot](https://github.com/HKUDS/nanobot) <sub>⭐ 49k · MIT · Oct 2026</sub>
+
+**Small Python agent runtime with bundled WebUI, TUI and chat channels.**
+
+nanobot is a Python 3.11+ personal agent running as a local gateway with a bundled WebUI on 127.0.0.1:8765, a terminal UI, and connectors for Telegram, Discord, Slack, WeChat, Feishu, Teams, email, Mattermost and Linear. Tools cover files, shell, web search, MCP servers, cron automations, image generation and subagents, with long-term memory and an OpenAI-compatible API. Deploys via pip, Docker Compose or Render.
+
+- **+** WebUI ships inside the PyPI wheel; no separate frontend build needed
+- **+** Exposes a Python SDK and an OpenAI-compatible API for integrations
+- **+** Groups up to four conversations in one workbench and shares context between them
+- **+** First-run WebUI binds to localhost only; not exposed to the LAN by default
+- **−** Channels and automations stop when local clients exit unless gateway --background is used
+- **−** Native TUI wheels cover macOS 13+, glibc 2.17+ Linux and Windows x64 only
+- **−** Source install requires Bun to run the terminal UI
+
+<sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/HKUDS/nanobot) · [📖 Docs ↗](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview)</sub>
+
 <a name="hermes-agent"></a>
-### 🥇 91 [Hermes Agent](https://github.com/NousResearch/hermes-agent) <sub>⭐ 252k · MIT · Oct 2026</sub>
+### 🥇 83 [Hermes Agent](https://github.com/NousResearch/hermes-agent) <sub>⭐ 252k · MIT · Oct 2026</sub>
 
 **Terminal and chat-app agent that writes its own skills and remembers you.**
 
@@ -37,25 +54,8 @@ Hermes Agent is a Python agent with a terminal UI and a gateway for Telegram, Di
 
 <sub>no GPU · Docker + Compose · Models: Nous Portal, OpenRouter, OpenAI, custom endpoint · [Repo](https://github.com/NousResearch/hermes-agent) · [📖 Docs ↗](https://hermes-agent.nousresearch.com/docs/) · [🌐 Site ↗](https://hermes-agent.nousresearch.com/)</sub>
 
-<a name="nanobot"></a>
-### 🥇 89 [nanobot](https://github.com/HKUDS/nanobot) <sub>⭐ 49k · MIT · Oct 2026</sub>
-
-**Small Python agent runtime with bundled WebUI, TUI and chat channels.**
-
-nanobot is a Python 3.11+ personal agent running as a local gateway with a bundled WebUI on 127.0.0.1:8765, a terminal UI, and connectors for Telegram, Discord, Slack, WeChat, Feishu, Teams, email, Mattermost and Linear. Tools cover files, shell, web search, MCP servers, cron automations, image generation and subagents, with long-term memory and an OpenAI-compatible API. Deploys via pip, Docker Compose or Render.
-
-- **+** WebUI ships inside the PyPI wheel; no separate frontend build needed
-- **+** Exposes a Python SDK and an OpenAI-compatible API for integrations
-- **+** Groups up to four conversations in one workbench and shares context between them
-- **+** First-run WebUI binds to localhost only; not exposed to the LAN by default
-- **−** Channels and automations stop when local clients exit unless gateway --background is used
-- **−** Native TUI wheels cover macOS 13+, glibc 2.17+ Linux and Windows x64 only
-- **−** Source install requires Bun to run the terminal UI
-
-<sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/HKUDS/nanobot) · [📖 Docs ↗](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview)</sub>
-
 <a name="zeroclaw"></a>
-### 🥇 86 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>⭐ 33k · Apache-2.0 · Oct 2026</sub>
+### 🥇 81 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>⭐ 33k · Apache-2.0 · Oct 2026</sub>
 
 **Single Rust binary agent runtime with 30+ channels and hardware access.**
 
@@ -71,8 +71,25 @@ ZeroClaw is one Rust binary that routes messages from 30+ channels (Discord, Tel
 
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs ↗](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site ↗](https://www.zeroclaw.com)</sub>
 
+<a name="qwenpaw"></a>
+### 🥈 74 [QwenPaw](https://github.com/agentscope-ai/QwenPaw) <sub>⭐ 36k · Apache-2.0 · Oct 2026</sub>
+
+**AgentScope-based personal assistant with local Qwen models and chat channels.**
+
+QwenPaw is a Python (3.11 to 3.13) assistant built on AgentScope that serves a browser Console on 127.0.0.1:8088 and connects to DingTalk, Lark, WeChat, Discord, Telegram, iMessage and QQ. It bundles a local runtime for QwenPaw-Flash models (2B, 4B, 9B) and also uses Ollama, LM Studio or 14+ cloud providers, with three-layer memory via ReMe, a kernel-level sandbox, MCP and A2A connectors, skills and plugins.
+
+- **+** Runs without an API key using bundled QwenPaw-Flash 2B, 4B or 9B models
+- **+** Memory stored as readable, editable, linked Markdown through ReMe
+- **+** Docker image on Docker Hub and Alibaba ACR; config, secrets and backups in separate volumes
+- **+** Self-hosted multi-user Hub since v2.2.0
+- **−** Desktop app is beta, unnotarized on macOS; first launch takes 10 to 60 seconds
+- **−** Script installer may fail behind corporate firewalls or in PowerShell Constrained Language Mode
+- **−** Channel lineup leans toward DingTalk, Lark, WeChat and QQ; no Slack or WhatsApp listed
+
+<sub>no GPU · Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/QwenPaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/)</sub>
+
 <a name="ironclaw"></a>
-### 🥇 80 [IronClaw](https://github.com/nearai/ironclaw) <sub>⭐ 13k · Apache-2.0 · Sep 2026</sub>
+### 🥈 73 [IronClaw](https://github.com/nearai/ironclaw) <sub>⭐ 13k · Apache-2.0 · Sep 2026</sub>
 
 **Rust assistant that sandboxes every untrusted tool in WebAssembly.**
 
@@ -89,26 +106,8 @@ IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAss
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw)</sub>
 
-<a name="khoj"></a>
-### 🥈 72 [Khoj](https://github.com/khoj-ai/khoj) <sub>⭐ 38k · AGPL-3.0 · Aug 2026</sub>
-
-**Personal assistant that chats with your documents and the web.**
-
-Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Word, Notion, images) using local or hosted LLMs such as llama3, qwen, gemma, mistral, GPT, Claude, Gemini and DeepSeek. It is reachable from a browser, Obsidian, Emacs, desktop and phone apps and WhatsApp, supports custom agents with their own knowledge and tools, and runs scheduled automations that deliver newsletters by email.
-
-- **+** Clients for browser, Obsidian, Emacs, desktop, phone and WhatsApp
-- **+** Reads PDF, Markdown, org-mode, Word, Notion and image files
-- **+** Hosted instance at app.khoj.dev to try before self-hosting
-- **+** Custom agents with their own knowledge, persona, model and tools
-- **−** AGPL-3.0 license
-- **−** README gives no hardware requirements or ports; setup lives entirely in the docs
-- **−** Maintainers now promote a newer project, Pipali, at the top of the README
-- **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
-
-<sub>Docker + Compose · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev)</sub>
-
 <a name="astrbot"></a>
-### 🥈 71 [AstrBot](https://github.com/AstrBotDevs/AstrBot) <sub>⭐ 42k · AGPL-3.0 · Oct 2026</sub>
+### 🥈 68 [AstrBot](https://github.com/AstrBotDevs/AstrBot) <sub>⭐ 42k · AGPL-3.0 · Oct 2026</sub>
 
 **Chatbot platform bridging LLMs to QQ, Telegram, Discord, Slack and more.**
 
@@ -125,22 +124,23 @@ AstrBot is a Python 3.12+ chatbot platform that connects LLM providers (OpenAI-c
 
 <sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/AstrBotDevs/AstrBot) · [📖 Docs ↗](https://astrbot.app/)</sub>
 
-<a name="qwenpaw"></a>
-### 🥈 66 [QwenPaw](https://github.com/agentscope-ai/QwenPaw) <sub>⭐ 36k · Apache-2.0 · Oct 2026</sub>
+<a name="khoj"></a>
+### 🥉 64 [Khoj](https://github.com/khoj-ai/khoj) <sub>⭐ 38k · AGPL-3.0 · Aug 2026</sub>
 
-**AgentScope-based personal assistant with local Qwen models and chat channels.**
+**Personal assistant that chats with your documents and the web.**
 
-QwenPaw is a Python (3.11 to 3.13) assistant built on AgentScope that serves a browser Console on 127.0.0.1:8088 and connects to DingTalk, Lark, WeChat, Discord, Telegram, iMessage and QQ. It bundles a local runtime for QwenPaw-Flash models (2B, 4B, 9B) and also uses Ollama, LM Studio or 14+ cloud providers, with three-layer memory via ReMe, a kernel-level sandbox, MCP and A2A connectors, skills and plugins.
+Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Word, Notion, images) using local or hosted LLMs such as llama3, qwen, gemma, mistral, GPT, Claude, Gemini and DeepSeek. It is reachable from a browser, Obsidian, Emacs, desktop and phone apps and WhatsApp, supports custom agents with their own knowledge and tools, and runs scheduled automations that deliver newsletters by email.
 
-- **+** Runs without an API key using bundled QwenPaw-Flash 2B, 4B or 9B models
-- **+** Memory stored as readable, editable, linked Markdown through ReMe
-- **+** Docker image on Docker Hub and Alibaba ACR; config, secrets and backups in separate volumes
-- **+** Self-hosted multi-user Hub since v2.2.0
-- **−** Desktop app is beta, unnotarized on macOS; first launch takes 10 to 60 seconds
-- **−** Script installer may fail behind corporate firewalls or in PowerShell Constrained Language Mode
-- **−** Channel lineup leans toward DingTalk, Lark, WeChat and QQ; no Slack or WhatsApp listed
+- **+** Clients for browser, Obsidian, Emacs, desktop, phone and WhatsApp
+- **+** Reads PDF, Markdown, org-mode, Word, Notion and image files
+- **+** Hosted instance at app.khoj.dev to try before self-hosting
+- **+** Custom agents with their own knowledge, persona, model and tools
+- **−** AGPL-3.0 license
+- **−** README gives no hardware requirements or ports; setup lives entirely in the docs
+- **−** Maintainers now promote a newer project, Pipali, at the top of the README
+- **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
 
-<sub>no GPU · Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/QwenPaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/)</sub>
+<sub>Docker + Compose · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev)</sub>
 
 <a name="moltis"></a>
 ### 🥉 59 [Moltis](https://github.com/moltis-org/moltis) <sub>⭐ 2.9k · MIT · Sep 2026</sub>
@@ -161,7 +161,7 @@ Moltis is a single Rust binary that serves a web UI (port 13131), Telegram, Sign
 <sub>no GPU · Docker · Needs Docker, Podman or Apple Container (sandbox) · Models: OpenAI Codex, GitHub Copilot, local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs ↗](https://docs.moltis.org/quickstart.html) · [🌐 Site ↗](https://moltis.org)</sub>
 
 <a name="spacebot"></a>
-### 51 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>⭐ 2.4k · NOASSERTION · Sep 2026</sub>
+### 53 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>⭐ 2.4k · NOASSERTION · Sep 2026</sub>
 
 **Multi-user agent harness for Discord, Slack and Telegram communities.**
 
@@ -179,7 +179,7 @@ Spacebot is a Rust agent server built for many concurrent users: channel process
 <sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs ↗](https://docs.spacebot.sh) · [🌐 Site ↗](https://spacebot.sh)</sub>
 
 <a name="picoclaw"></a>
-### 40 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>⭐ 30k · MIT · Aug 2026</sub>
+### 48 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>⭐ 30k · MIT · Aug 2026</sub>
 
 **Go assistant agent that runs in under 20 MB on $10 boards.**
 

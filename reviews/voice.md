@@ -3,7 +3,7 @@
 Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. Back to the [leaderboard](../README.md#%EF%B8%8F-voice).
 
 <a name="speech-to-speech"></a>
-### 🥇 83 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### 🥈 75 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **Modular voice-agent pipeline behind an OpenAI Realtime-compatible server.**
 
@@ -21,7 +21,7 @@ Runs a VAD, speech-to-text, LLM and text-to-speech cascade and exposes it throug
 <sub>GPU optional · Docker + Compose · Needs libportaudio2, libsndfile1 · Models: Parakeet TDT, Whisper and Faster Whisper, Qwen3-ASR, Qwen3-TTS, Kokoro-82M · port 8765 · [Repo](https://github.com/huggingface/speech-to-speech)</sub>
 
 <a name="voicebox"></a>
-### 🥇 82 [Voicebox](https://github.com/jamiepine/voicebox) <sub>⭐ 57k · MIT · Oct 2026</sub>
+### 🥈 72 [Voicebox](https://github.com/jamiepine/voicebox) <sub>⭐ 57k · MIT · Oct 2026</sub>
 
 **Local voice studio for cloning, TTS, dictation and agent speech.**
 
@@ -39,7 +39,7 @@ Desktop app (Tauri) and Docker service that clones voices from a short sample an
 <sub>GPU optional · Docker + Compose · Models: Qwen3-TTS 0.6B/1.7B, Qwen CustomVoice, Qwen VoiceDesign, LuxTTS, Chatterbox Multilingual · port 17493 · [Repo](https://github.com/jamiepine/voicebox) · [📖 Docs ↗](https://docs.voicebox.sh) · [🌐 Site ↗](https://voicebox.sh)</sub>
 
 <a name="pocket-tts"></a>
-### 🥈 79 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>⭐ 9.8k · MIT · Oct 2026</sub>
+### 🥈 72 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>⭐ 9.8k · MIT · Oct 2026</sub>
 
 **100M-parameter CPU text-to-speech with streaming and voice cloning.**
 
@@ -57,7 +57,7 @@ Generates speech on CPU with a 100M-parameter model: about 200 ms to the first a
 <sub>no GPU · Docker + Compose · Models: Pocket TTS 100M, 24-layer language variants, community checkpoints via --config · port 8000 · [Repo](https://github.com/kyutai-labs/pocket-tts) · [▶️ Demo ↗](https://kyutai.org/pocket-tts) · [📖 Docs ↗](https://kyutai-labs.github.io/pocket-tts/)</sub>
 
 <a name="gpt-sovits"></a>
-### 🥈 74 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) <sub>⭐ 63k · MIT · Oct 2026</sub>
+### 🥈 67 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) <sub>⭐ 63k · MIT · Oct 2026</sub>
 
 **Few-shot voice cloning and TTS with a training web UI.**
 
@@ -73,6 +73,24 @@ Clones a voice from a 5-second sample (zero-shot) or fine-tunes GPT and SoVITS m
 - **−** Five model generations (v1 to v5) with different tradeoffs to choose between
 
 <sub>GPU optional · Docker + Compose · Needs ffmpeg · Models: GPT-SoVITS v1-v5 pretrained models, UVR5 vocal separation models, Faster Whisper large-v3 (ASR), FunASR Paraformer (Chinese ASR) · [Repo](https://github.com/RVC-Boss/GPT-SoVITS) · [▶️ Demo ↗](https://lj1995-gpt-sovits-proplus.hf.space/) · [📖 Docs ↗](https://rentry.co/GPT-SoVITS-guide#/)</sub>
+
+<a name="kokoro-fastapi"></a>
+### 🥉 64 [Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) <sub>⭐ 5.5k · Apache-2.0 · Oct 2026</sub>
+
+**OpenAI-compatible Kokoro-82M speech API in CPU and GPU images.**
+
+Serves the Kokoro-82M model behind an OpenAI-compatible /v1/audio/speech endpoint on port 8880, streaming mp3, wav, opus, flac, aac or pcm. Covers English (US/GB), Spanish, French, Hindi, Italian, Japanese, Brazilian Portuguese and Mandarin, with weighted voice mixing, inline [voice:] and [pause:] tags, word timestamps and phoneme endpoints. Prebuilt images exist for CPU, CUDA (amd64 and arm64) and experimental ROCm.
+
+- **+** Drop-in for the OpenAI Python client; models baked into the images
+- **+** Weighted voice mixing and inline speaker, pause, rate and IPA tags
+- **+** Per-word timestamp captions and phoneme in/out endpoints
+- **+** First-token latency about 300 ms on GPU
+- **−** CPU first-token latency: 3.5 s on an older i7, under 1 s on M3 Pro
+- **−** No true voice cloning; /dev/tune only nudges toward a reference clip
+- **−** ROCm image is experimental and amd64 only
+- **−** Apple Silicon GPU (MPS) only when run natively via uv, not in Docker
+
+<sub>GPU optional · Needs espeak-ng (optional fallback) · Models: Kokoro-82M v1.0 · port 8880 · [Repo](https://github.com/remsky/Kokoro-FastAPI) · [▶️ Demo ↗](https://huggingface.co/spaces/Remsky/FastKoko)</sub>
 
 <a name="f5-tts"></a>
 ### 🥉 58 [F5-TTS](https://github.com/SWivid/F5-TTS) <sub>⭐ 15k · MIT · Sep 2026</sub>
@@ -92,61 +110,8 @@ Synthesizes speech from a reference clip and its transcript using the F5-TTS dif
 
 <sub>Docker · Needs ffmpeg · Models: F5-TTS v1 Base, E2 TTS, Vocos and BigVGAN vocoders · port 7860 · [Repo](https://github.com/SWivid/F5-TTS) · [▶️ Demo ↗](https://huggingface.co/spaces/mrfakename/E2-F5-TTS)</sub>
 
-<a name="speakr"></a>
-### 🥉 58 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
-
-**Transcribe, summarize and search recordings with pluggable ASR and LLMs.**
-
-Web app that records or ingests audio, transcribes it through a connector (self-hosted WhisperX, OpenAI, Mistral Voxtral, AssemblyAI, OpenASR, FunASR), then writes summaries, action items and per-recording chat with an OpenAI-compatible LLM, OpenRouter or Ollama. Adds diarization, voice profiles, OIDC SSO, groups, a Swagger REST API and signed webhooks. Flask app on port 8899 with SQLite or PostgreSQL.
-
-- **+** Eight ASR connectors auto-detected from config; WhisperX enables voice profiles
-- **+** Multi-user with OIDC SSO (Keycloak, Azure AD, Google, Auth0), groups and sharing
-- **+** REST API v1 with Swagger UI, HMAC-signed webhooks, per-user token budgets
-- **+** Lite image (about 725 MB) skips PyTorch; full image is about 4.4 GB
-- **−** Still alpha (v0.10.13-alpha) with frequent feature churn between releases
-- **−** No bundled ASR; needs an API key or a separate GPU WhisperX container
-- **−** Dual-licensed: AGPLv3, or a paid commercial license for proprietary use
-- **−** Lite image downgrades Inquire semantic search to basic text search
-
-<sub>no GPU · Docker · Needs ASR service or API (WhisperX, OpenAI, Mistral, AssemblyAI, OpenASR, FunASR), LLM API (OpenAI-compatible, OpenRouter or Ollama), SQLite or PostgreSQL · Models: WhisperX, OpenAI gpt-4o-transcribe-diarize, Mistral Voxtral, AssemblyAI, VibeVoice via vLLM · port 8899 · [Repo](https://github.com/murtaza-nasir/speakr) · [📖 Docs ↗](https://murtaza-nasir.github.io/speakr)</sub>
-
-<a name="openreader"></a>
-### 🥉 56 [OpenReader](https://github.com/richardr1126/openreader) <sub>⭐ 537 · MIT · Oct 2026</sub>
-
-**Reads EPUB, PDF and DOCX aloud with synced word highlighting.**
-
-Next.js server that narrates EPUB, PDF, TXT, Markdown and DOCX files with synchronized read-along, generating audio ahead of playback through a self-hosted OpenAI-compatible TTS server (Kokoro-FastAPI, KittenTTS-FastAPI, Orpheus-FastAPI) or OpenAI, Replicate and DeepInfra. PDF layout is parsed with PP-DocLayoutV3 and words aligned with ONNX Whisper in a NATS JetStream worker. Exports M4B or MP3 audiobooks.
-
-- **+** Layout-aware PDF parsing and word-by-word highlighting
-- **+** Audio cache reused across seeks, reloads and audiobook export
-- **+** Storage on embedded SeaweedFS or S3; SQLite or Postgres; built-in auth
-- **+** amd64 and arm64 Docker images with automatic startup migrations
-- **−** Needs a separate TTS server or cloud TTS API; nothing is bundled
-- **−** Word alignment and DOCX conversion run in a NATS JetStream compute worker you deploy
-- **−** Setup details (ports, env vars) are only in the external docs
-
-<sub>no GPU · Docker · Needs OpenAI-compatible TTS server or cloud TTS API, NATS JetStream (compute worker), SQLite or PostgreSQL, SeaweedFS (embedded) or S3-compatible storage · Models: Kokoro-FastAPI, KittenTTS-FastAPI, Orpheus-FastAPI, OpenAI TTS, Replicate · [Repo](https://github.com/richardr1126/openreader) · [📖 Docs ↗](https://docs.openreader.richardr.dev/)</sub>
-
-<a name="speaches"></a>
-### 54 [Speaches](https://github.com/speaches-ai/speaches) <sub>⭐ 3.7k · MIT · Apr 2026</sub>
-
-**OpenAI-compatible STT and TTS server with faster-whisper, Kokoro and Piper.**
-
-Exposes OpenAI-style audio endpoints: streaming transcription and translation through faster-whisper, speech generation through Kokoro and Piper, plus a Realtime API and audio chat completions. Models load on first request and unload after inactivity, on CPU or GPU, via Docker Compose. For self-hosters who want one container that OpenAI SDKs can talk to for speech.
-
-- **+** Works with any OpenAI SDK; transcription streams over SSE
-- **+** Dynamic model loading and unloading after idle time
-- **+** Supports the Realtime API and audio-in, audio-out chat completions
-- **+** CPU and GPU Docker images with Compose files
-- **−** Last commit April 2026; development has slowed
-- **−** README is short; port, env vars and limits live only in the external docs
-- **−** TTS limited to Kokoro and Piper models
-- **−** Streaming transcription demo is marked TODO in the README
-
-<sub>GPU optional · Docker + Compose · Models: faster-whisper (CTranslate2 Whisper), Kokoro, Piper · [Repo](https://github.com/speaches-ai/speaches) · [📖 Docs ↗](https://speaches.ai/) · [🌐 Site ↗](https://speaches.ai/)</sub>
-
 <a name="index-tts"></a>
-### 51 [IndexTTS](https://github.com/index-tts/index-tts) <sub>⭐ 24k · NOASSERTION · Sep 2026</sub>
+### 🥉 56 [IndexTTS](https://github.com/index-tts/index-tts) <sub>⭐ 24k · NOASSERTION · Sep 2026</sub>
 
 **Zero-shot TTS with emotion, speed and pronunciation control.**
 
@@ -163,26 +128,8 @@ Clones a voice from one reference clip and synthesizes speech in Chinese, Englis
 
 <sub>Needs uv · Models: IndexTTS-2.5, IndexTTS-2, IndexTTS-1.5 (legacy) · port 7860 · [Repo](https://github.com/index-tts/index-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/IndexTeam/IndexTTS-2.5-Demo)</sub>
 
-<a name="kokoro-fastapi"></a>
-### 49 [Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) <sub>⭐ 5.5k · Apache-2.0 · Oct 2026</sub>
-
-**OpenAI-compatible Kokoro-82M speech API in CPU and GPU images.**
-
-Serves the Kokoro-82M model behind an OpenAI-compatible /v1/audio/speech endpoint on port 8880, streaming mp3, wav, opus, flac, aac or pcm. Covers English (US/GB), Spanish, French, Hindi, Italian, Japanese, Brazilian Portuguese and Mandarin, with weighted voice mixing, inline [voice:] and [pause:] tags, word timestamps and phoneme endpoints. Prebuilt images exist for CPU, CUDA (amd64 and arm64) and experimental ROCm.
-
-- **+** Drop-in for the OpenAI Python client; models baked into the images
-- **+** Weighted voice mixing and inline speaker, pause, rate and IPA tags
-- **+** Per-word timestamp captions and phoneme in/out endpoints
-- **+** First-token latency about 300 ms on GPU
-- **−** CPU first-token latency: 3.5 s on an older i7, under 1 s on M3 Pro
-- **−** No true voice cloning; /dev/tune only nudges toward a reference clip
-- **−** ROCm image is experimental and amd64 only
-- **−** Apple Silicon GPU (MPS) only when run natively via uv, not in Docker
-
-<sub>GPU optional · Needs espeak-ng (optional fallback) · Models: Kokoro-82M v1.0 · port 8880 · [Repo](https://github.com/remsky/Kokoro-FastAPI) · [▶️ Demo ↗](https://huggingface.co/spaces/Remsky/FastKoko)</sub>
-
 <a name="whisperlive"></a>
-### 39 [WhisperLive](https://github.com/collabora/WhisperLive) <sub>⭐ 4.3k · MIT · Oct 2026</sub>
+### 52 [WhisperLive](https://github.com/collabora/WhisperLive) <sub>⭐ 4.3k · MIT · Oct 2026</sub>
 
 **Near-real-time Whisper transcription server over WebSocket.**
 
@@ -198,5 +145,58 @@ Streams audio from a microphone, file, RTSP or HLS source to a server on port 90
 - **−** Diarization needs the optional pyannote.audio dependency
 
 <sub>GPU optional · Needs PortAudio (client microphone input) · Models: Whisper via faster-whisper (CTranslate2), Whisper TensorRT-LLM engines, OpenVINO Whisper models · port 9090 · [Repo](https://github.com/collabora/WhisperLive)</sub>
+
+<a name="openreader"></a>
+### 51 [OpenReader](https://github.com/richardr1126/openreader) <sub>⭐ 539 · MIT · Oct 2026</sub>
+
+**Reads EPUB, PDF and DOCX aloud with synced word highlighting.**
+
+Next.js server that narrates EPUB, PDF, TXT, Markdown and DOCX files with synchronized read-along, generating audio ahead of playback through a self-hosted OpenAI-compatible TTS server (Kokoro-FastAPI, KittenTTS-FastAPI, Orpheus-FastAPI) or OpenAI, Replicate and DeepInfra. PDF layout is parsed with PP-DocLayoutV3 and words aligned with ONNX Whisper in a NATS JetStream worker. Exports M4B or MP3 audiobooks.
+
+- **+** Layout-aware PDF parsing and word-by-word highlighting
+- **+** Audio cache reused across seeks, reloads and audiobook export
+- **+** Storage on embedded SeaweedFS or S3; SQLite or Postgres; built-in auth
+- **+** amd64 and arm64 Docker images with automatic startup migrations
+- **−** Needs a separate TTS server or cloud TTS API; nothing is bundled
+- **−** Word alignment and DOCX conversion run in a NATS JetStream compute worker you deploy
+- **−** Setup details (ports, env vars) are only in the external docs
+
+<sub>no GPU · Docker · Needs OpenAI-compatible TTS server or cloud TTS API, NATS JetStream (compute worker), SQLite or PostgreSQL, SeaweedFS (embedded) or S3-compatible storage · Models: Kokoro-FastAPI, KittenTTS-FastAPI, Orpheus-FastAPI, OpenAI TTS, Replicate · [Repo](https://github.com/richardr1126/openreader) · [📖 Docs ↗](https://docs.openreader.richardr.dev/)</sub>
+
+<a name="speakr"></a>
+### 50 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
+
+**Transcribe, summarize and search recordings with pluggable ASR and LLMs.**
+
+Web app that records or ingests audio, transcribes it through a connector (self-hosted WhisperX, OpenAI, Mistral Voxtral, AssemblyAI, OpenASR, FunASR), then writes summaries, action items and per-recording chat with an OpenAI-compatible LLM, OpenRouter or Ollama. Adds diarization, voice profiles, OIDC SSO, groups, a Swagger REST API and signed webhooks. Flask app on port 8899 with SQLite or PostgreSQL.
+
+- **+** Eight ASR connectors auto-detected from config; WhisperX enables voice profiles
+- **+** Multi-user with OIDC SSO (Keycloak, Azure AD, Google, Auth0), groups and sharing
+- **+** REST API v1 with Swagger UI, HMAC-signed webhooks, per-user token budgets
+- **+** Lite image (about 725 MB) skips PyTorch; full image is about 4.4 GB
+- **−** Still alpha (v0.10.13-alpha) with frequent feature churn between releases
+- **−** No bundled ASR; needs an API key or a separate GPU WhisperX container
+- **−** Dual-licensed: AGPLv3, or a paid commercial license for proprietary use
+- **−** Lite image downgrades Inquire semantic search to basic text search
+
+<sub>no GPU · Docker · Needs ASR service or API (WhisperX, OpenAI, Mistral, AssemblyAI, OpenASR, FunASR), LLM API (OpenAI-compatible, OpenRouter or Ollama), SQLite or PostgreSQL · Models: WhisperX, OpenAI gpt-4o-transcribe-diarize, Mistral Voxtral, AssemblyAI, VibeVoice via vLLM · port 8899 · [Repo](https://github.com/murtaza-nasir/speakr) · [📖 Docs ↗](https://murtaza-nasir.github.io/speakr)</sub>
+
+<a name="speaches"></a>
+### 48 [Speaches](https://github.com/speaches-ai/speaches) <sub>⭐ 3.7k · MIT · Apr 2026</sub>
+
+**OpenAI-compatible STT and TTS server with faster-whisper, Kokoro and Piper.**
+
+Exposes OpenAI-style audio endpoints: streaming transcription and translation through faster-whisper, speech generation through Kokoro and Piper, plus a Realtime API and audio chat completions. Models load on first request and unload after inactivity, on CPU or GPU, via Docker Compose. For self-hosters who want one container that OpenAI SDKs can talk to for speech.
+
+- **+** Works with any OpenAI SDK; transcription streams over SSE
+- **+** Dynamic model loading and unloading after idle time
+- **+** Supports the Realtime API and audio-in, audio-out chat completions
+- **+** CPU and GPU Docker images with Compose files
+- **−** Last commit April 2026; development has slowed
+- **−** README is short; port, env vars and limits live only in the external docs
+- **−** TTS limited to Kokoro and Piper models
+- **−** Streaming transcription demo is marked TODO in the README
+
+<sub>GPU optional · Docker + Compose · Models: faster-whisper (CTranslate2 Whisper), Kokoro, Piper · [Repo](https://github.com/speaches-ai/speaches) · [📖 Docs ↗](https://speaches.ai/) · [🌐 Site ↗](https://speaches.ai/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
