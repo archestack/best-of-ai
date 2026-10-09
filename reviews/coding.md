@@ -3,7 +3,7 @@
 Self-hosted coding assistants and agents, from editor completion to autonomous task runners. Back to the [leaderboard](../README.md#-coding).
 
 <a name="opencode"></a>
-### [🥈 77](../README.md#-how-we-rank "Score 77/100 (silver, 65-79). Adoption 99 · Freshness 100 · Maintenance 88 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [opencode](https://github.com/anomalyco/opencode) <sub>⭐ 212k · MIT · Oct 2026</sub>
+### 🥇 [opencode](https://github.com/anomalyco/opencode) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 212k · MIT · Oct 2026</sub>
 
 **Terminal coding agent with build and plan modes.**
 
@@ -19,7 +19,7 @@ Runs an AI coding agent in the terminal with two built-in agents: build (full ac
 <sub>no GPU · [Repo](https://github.com/anomalyco/opencode) · [📖 Docs ↗](https://opencode.ai/docs) · [🌐 Site ↗](https://opencode.ai)</sub>
 
 <a name="archon"></a>
-### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 46 · Freshness 100 · Maintenance 93 · Easy to run 67 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Archon](https://github.com/coleam00/archon) <sub>⭐ 24k · MIT · Oct 2026</sub>
+### 🥈 [Archon](https://github.com/coleam00/archon) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
 
 **YAML workflow engine that runs coding agents in isolated worktrees.**
 
@@ -37,7 +37,7 @@ Defines development processes (plan, implement, validate, review, PR) as YAML wo
 <sub>no GPU · Docker + Compose · Needs Bun, Claude Code (or Codex or Pi), GitHub CLI, SQLite or PostgreSQL · Models: Claude Code, Codex, Pi · [Repo](https://github.com/coleam00/archon) · [📖 Docs ↗](https://archon.diy/docs/)</sub>
 
 <a name="openhands"></a>
-### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 89 · Freshness 100 · Maintenance 85 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [OpenHands](https://github.com/openhands/openhands) <sub>⭐ 90k · MIT · Oct 2026</sub>
+### 🥉 [OpenHands](https://github.com/openhands/openhands) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 90k · MIT · Oct 2026</sub>
 
 **Self-hosted control center for coding agents and automations.**
 
@@ -55,7 +55,7 @@ Web UI and local stack on port 8000 that runs the OpenHands agent or any ACP-com
 <sub>no GPU · Docker · Needs Node.js 24+, uv, Docker (sandbox modes) · Models: any LLM via LLM profiles, OpenHands agent, Claude Code, Codex, Gemini · port 8000 · [Repo](https://github.com/openhands/openhands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
 
 <a name="openchamber"></a>
-### [🥈 67](../README.md#-how-we-rank "Score 67/100 (silver, 65-79). Adoption 32 · Freshness 100 · Maintenance 96 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [OpenChamber](https://github.com/openchamber/openchamber) <sub>⭐ 11k · MIT · Oct 2026</sub>
+### #&#8288;4 [OpenChamber](https://github.com/openchamber/openchamber) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
 
 **Multi-device workspace for running and reviewing OpenCode agent sessions.**
 
@@ -73,7 +73,7 @@ Front end over the OpenCode CLI that starts agent sessions, shows diffs and take
 <sub>no GPU · Docker + Compose · Needs OpenCode CLI (bundled in desktop builds), Node.js 22+ (CLI and Web) · Models: models available through OpenCode · [Repo](https://github.com/openchamber/openchamber)</sub>
 
 <a name="open-swe"></a>
-### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 24 · Freshness 100 · Maintenance 100 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Open SWE](https://github.com/langchain-ai/open-swe) <sub>⭐ 11k · MIT · Oct 2026</sub>
+### #&#8288;5 [Open SWE](https://github.com/langchain-ai/open-swe) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
 
 **LangChain coding agent that plans, implements and reviews pull requests.**
 
@@ -91,7 +91,7 @@ LangGraph-based agent that investigates a repository, implements changes in a pe
 <sub>no GPU · Docker + Compose · Needs LangSmith (default sandbox and tracing), GitHub App, Slack app (optional), model provider credentials · Models: configurable LLM providers · [Repo](https://github.com/langchain-ai/open-swe)</sub>
 
 <a name="screenshot-to-code"></a>
-### [🥉 63](../README.md#-how-we-rank "Score 63/100 (bronze, 55-64). Adoption 81 · Freshness 100 · Maintenance 33 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [screenshot-to-code](https://github.com/abi/screenshot-to-code) <sub>⭐ 80k · MIT · Jul 2026</sub>
+### #&#8288;6 [screenshot-to-code](https://github.com/abi/screenshot-to-code) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: patchy (33) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Jul 2026</sub>
 
 **Turns screenshots and mockups into Tailwind, React or Vue code.**
 
@@ -109,7 +109,7 @@ Takes a screenshot, mockup, Figma export or screen recording and generates HTML 
 <sub>no GPU · Compose · Needs OpenAI, Anthropic or Gemini API key, Replicate API key (optional), Playwright Chromium (optional preview) · Models: Gemini 3 Flash Preview, Gemini 3.1 Pro Preview, GPT-5.5, GPT-5.4 Mini, Claude Opus 4.6/4.8 · port 5173 · [Repo](https://github.com/abi/screenshot-to-code) · [▶️ Demo ↗](https://screenshottocode.com/)</sub>
 
 <a name="background-agents"></a>
-### [🥉 59](../README.md#-how-we-rank "Score 59/100 (bronze, 55-64). Adoption 5 · Freshness 100 · Maintenance 51 · Easy to run 67 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Background Agents](https://github.com/colemurray/background-agents) <sub>⭐ 3.3k · MIT · Oct 2026</sub>
+### #&#8288;7 [Background Agents](https://github.com/colemurray/background-agents) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (51) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
 
 **Background coding agents on cloud sandboxes with Slack, GitHub and Linear triggers.**
 
@@ -127,7 +127,7 @@ Runs coding sessions in cloud sandboxes coordinated by a Cloudflare Workers cont
 <sub>no GPU · Compose · Needs Cloudflare Workers, Durable Objects and D1, Sandbox provider (Modal, Daytona, E2B, OpenComputer or Vercel Sandbox), GitHub App, Slack and Linear apps (optional) · Models: Anthropic Claude (API key or subscription), OpenAI Codex via ChatGPT subscription, xAI Grok via SuperGrok, OpenCode Zen and Go, Z.AI Coding Plan · [Repo](https://github.com/colemurray/background-agents)</sub>
 
 <a name="onlook"></a>
-### [53](../README.md#-how-we-rank "Score 53/100. Adoption 54 · Freshness 78 · Maintenance 11 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Onlook](https://github.com/onlook-dev/onlook) <sub>⭐ 27k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;8 [Onlook](https://github.com/onlook-dev/onlook) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (54) · Freshness: recent (78) · Maintenance: weak (11) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Jul 2026</sub>
 
 **Visual editor that edits Next.js and Tailwind apps with AI.**
 
@@ -145,7 +145,7 @@ Browser-based editor that loads a Next.js and Tailwind project into a web contai
 <sub>no GPU · Docker + Compose · Needs Supabase (auth, database, storage), OpenRouter API key, CodeSandbox SDK, Bun · Models: OpenRouter-hosted models, Morph Fast Apply, Relace · [Repo](https://github.com/onlook-dev/onlook) · [▶️ Demo ↗](https://onlook.com) · [📖 Docs ↗](https://docs.onlook.com)</sub>
 
 <a name="tabby"></a>
-### [48](../README.md#-how-we-rank "Score 48/100. Adoption 66 · Freshness 91 · Maintenance 11 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Tabby](https://github.com/tabbyml/tabby) <sub>⭐ 34k · NOASSERTION · Jun 2026</sub>
+### #&#8288;9 [Tabby](https://github.com/tabbyml/tabby) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (66) · Freshness: active (91) · Maintenance: weak (11) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · NOASSERTION · Jun 2026</sub>
 
 **Self-hosted code completion and chat server for IDEs.**
 

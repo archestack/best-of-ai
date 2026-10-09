@@ -3,7 +3,7 @@
 Tracing, evaluation and prompt management for LLM applications. Back to the [leaderboard](../README.md#-observability).
 
 <a name="langfuse"></a>
-### [🥈 74](../README.md#-how-we-rank "Score 74/100 (silver, 65-79). Adoption 86 · Freshness 100 · Maintenance 87 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Langfuse](https://github.com/langfuse/langfuse) <sub>⭐ 36k · NOASSERTION · Oct 2026</sub>
+### 🥇 [Langfuse](https://github.com/langfuse/langfuse) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · NOASSERTION · Oct 2026</sub>
 
 **Tracing, prompt management and evals for LLM apps on ClickHouse.**
 
@@ -21,7 +21,7 @@ Ingests traces of LLM calls, retrieval and agent steps via Python and JS/TS SDKs
 <sub>no GPU · Compose · Needs ClickHouse · [Repo](https://github.com/langfuse/langfuse) · [▶️ Demo ↗](https://langfuse.com/demo) · [📖 Docs ↗](https://langfuse.com/docs) · [🌐 Site ↗](https://langfuse.com)</sub>
 
 <a name="phoenix"></a>
-### [🥈 74](../README.md#-how-we-rank "Score 74/100 (silver, 65-79). Adoption 53 · Freshness 100 · Maintenance 79 · Easy to run 67 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Phoenix](https://github.com/arize-ai/phoenix) <sub>⭐ 12k · NOASSERTION · Oct 2026</sub>
+### 🥈 [Phoenix](https://github.com/arize-ai/phoenix) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · NOASSERTION · Oct 2026</sub>
 
 **OpenTelemetry-based LLM tracing, evals and prompt playground.**
 
@@ -39,7 +39,7 @@ Collects traces through OpenInference and OpenTelemetry instrumentation for Open
 <sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google GenAI and ADK, AWS Bedrock, OpenRouter · port 6006 · [Repo](https://github.com/arize-ai/phoenix) · [📖 Docs ↗](https://arize.com/docs/phoenix/) · [🌐 Site ↗](https://phoenix.arize.com)</sub>
 
 <a name="mlflow"></a>
-### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 75 · Freshness 100 · Maintenance 87 · Easy to run 33 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [MLflow](https://github.com/mlflow/mlflow) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [MLflow](https://github.com/mlflow/mlflow) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Oct 2026</sub>
 
 **Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
 
@@ -57,7 +57,7 @@ Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ fram
 <sub>no GPU · Docker + Compose · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/)</sub>
 
 <a name="promptfoo"></a>
-### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 70 · Freshness 100 · Maintenance 83 · Easy to run 50 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [promptfoo](https://github.com/promptfoo/promptfoo) <sub>⭐ 26k · MIT · Oct 2026</sub>
+### #&#8288;4 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Oct 2026</sub>
 
 **CLI for evaluating and red-teaming prompts, agents and RAG.**
 
@@ -75,7 +75,7 @@ Runs prompt and model evaluations from a YAML config via promptfoo eval, compare
 <sub>no GPU · Docker · Needs Node.js (npm) or Python (pip), LLM provider API key or Ollama · Models: OpenAI, Anthropic, Azure, Bedrock, Ollama · [Repo](https://github.com/promptfoo/promptfoo) · [📖 Docs ↗](https://www.promptfoo.dev/docs/) · [🌐 Site ↗](https://www.promptfoo.dev)</sub>
 
 <a name="opik"></a>
-### [🥉 64](../README.md#-how-we-rank "Score 64/100 (bronze, 55-64). Adoption 63 · Freshness 100 · Maintenance 89 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Opik](https://github.com/comet-ml/opik) <sub>⭐ 22k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [Opik](https://github.com/comet-ml/opik) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Oct 2026</sub>
 
 **Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end.**
 
@@ -93,7 +93,7 @@ Logs trace trees for LLM calls, tool executions and agent steps via Python and T
 <sub>no GPU · Compose · Models: any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs ↗](https://www.comet.com/docs/opik/) · [🌐 Site ↗](https://www.comet.com/site/products/opik/)</sub>
 
 <a name="latitude-llm"></a>
-### [🥉 62](../README.md#-how-we-rank "Score 62/100 (bronze, 55-64). Adoption 25 · Freshness 100 · Maintenance 100 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>⭐ 4.7k · MIT · Oct 2026</sub>
+### #&#8288;6 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Oct 2026</sub>
 
 **Agent observability that groups failures and dispatches coding agents to fix them.**
 
@@ -111,7 +111,7 @@ Captures traces, sessions and tool calls via a one-line SDK (TypeScript, Python)
 <sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Bedrock, Vercel AI SDK and LangChain apps, any OpenTelemetry source · [Repo](https://github.com/latitude-dev/latitude-llm) · [📖 Docs ↗](https://docs.latitude.so) · [🌐 Site ↗](https://latitude.so)</sub>
 
 <a name="future-agi"></a>
-### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 2 · Freshness 100 · Maintenance 72 · Easy to run 83 · Agent-ready 15 (each out of 100, weighted). Click for how we rank.") [Future AGI](https://github.com/future-agi/future-agi) <sub>⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: very easy (83) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
 
 **Evals, tracing, simulations, guardrails and a gateway for agents in one stack.**
 
@@ -129,7 +129,7 @@ Bundles OpenTelemetry tracing for 50+ frameworks, 50+ evaluation metrics, person
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker Compose v2.24+, PostgreSQL, ClickHouse, Redis and Temporal (bundled in compose) · Models: 100+ providers via gateway (OpenAI, Anthropic, Gemini, Bedrock, Azure, Mistral, Groq), Ollama, vLLM, LM Studio, TGI and llamafile · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [📖 Docs ↗](https://docs.futureagi.com) · [🌐 Site ↗](https://futureagi.com)</sub>
 
 <a name="langwatch"></a>
-### [🥉 60](../README.md#-how-we-rank "Score 60/100 (bronze, 55-64). Adoption 35 · Freshness 100 · Maintenance 97 · Easy to run 33 · Agent-ready 55 (each out of 100, weighted). Click for how we rank.") [LangWatch](https://github.com/langwatch/langwatch) <sub>⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
 
 **Agent observability, simulation testing, AI gateway and governance in one.**
 
@@ -147,7 +147,7 @@ Traces LLM and agent calls through OpenTelemetry and SDK integrations, runs simu
 <sub>no GPU · Needs Node.js · Models: OpenAI, Anthropic, Azure OpenAI, Vertex AI, Bedrock · [Repo](https://github.com/langwatch/langwatch) · [📖 Docs ↗](https://langwatch.ai/docs/introduction) · [🌐 Site ↗](https://langwatch.ai)</sub>
 
 <a name="openlit"></a>
-### [🥉 58](../README.md#-how-we-rank "Score 58/100 (bronze, 55-64). Adoption 8 · Freshness 100 · Maintenance 79 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [OpenLIT](https://github.com/openlit/openlit) <sub>⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;9 [OpenLIT](https://github.com/openlit/openlit) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
 
 **OpenTelemetry-native tracing, evals, guardrails and GPU monitoring for agents.**
 
@@ -165,7 +165,7 @@ Receives OTLP on ports 4317 and 4318 from the openlit Python or TypeScript SDK, 
 <sub>no GPU · Compose · Needs ClickHouse · Models: OpenAI, Ollama, Anthropic, DeepSeek, Cohere · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/) · [🌐 Site ↗](https://openlit.io)</sub>
 
 <a name="lmnr"></a>
-### [🥉 57](../README.md#-how-we-rank "Score 57/100 (bronze, 55-64). Adoption 18 · Freshness 100 · Maintenance 76 · Easy to run 50 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [Laminar](https://github.com/lmnr-ai/lmnr) <sub>⭐ 3.4k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;10 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Sep 2026</sub>
 
 **Rust-based agent tracing with SQL queries, signals and evals.**
 
@@ -183,7 +183,7 @@ OpenTelemetry-native tracing for Vercel AI SDK, LangChain, OpenAI, Anthropic, Ge
 <sub>no GPU · Compose · Needs ClickHouse, PostgreSQL, LLM provider (optional, for AI features) · Models: Gemini, OpenAI and OpenAI-compatible gateways (LiteLLM, OpenRouter, vLLM), AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs ↗](https://laminar.sh/docs) · [🌐 Site ↗](https://laminar.sh)</sub>
 
 <a name="agenta"></a>
-### [50](../README.md#-how-we-rank "Score 50/100. Adoption 30 · Freshness 100 · Maintenance 88 · Easy to run 0 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Agenta](https://github.com/agenta-ai/agenta) <sub>⭐ 4.8k · NOASSERTION · Oct 2026</sub>
+### #&#8288;11 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · NOASSERTION · Oct 2026</sub>
 
 **Team workspace for building chat-driven agents that run in Slack and WhatsApp.**
 
@@ -201,7 +201,7 @@ Lets teams create agents by describing work in chat, connect tools through MCP o
 <sub>no GPU · Needs Claude Code, Pi or Codex harness, LLM API, Ollama, or a Claude or ChatGPT subscription, Composio (optional, 1,000+ app integrations) · Models: hosted models via API, Ollama, Claude and ChatGPT subscriptions · [Repo](https://github.com/agenta-ai/agenta) · [📖 Docs ↗](https://agenta.ai/docs/) · [🌐 Site ↗](https://agenta.ai)</sub>
 
 <a name="helicone"></a>
-### [49](../README.md#-how-we-rank "Score 49/100. Adoption 42 · Freshness 81 · Maintenance 33 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Helicone](https://github.com/helicone/helicone) <sub>⭐ 6.2k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;12 [Helicone](https://github.com/helicone/helicone) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (42) · Freshness: active (81) · Maintenance: patchy (33) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Sep 2026</sub>
 
 **LLM proxy gateway with request logging, cost tracking and sessions.**
 
@@ -219,7 +219,7 @@ Sits as an OpenAI-compatible gateway in front of 100+ models with routing and au
 <sub>no GPU · Docker + Compose · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/helicone/helicone) · [▶️ Demo ↗](https://helicone.ai/demo) · [📖 Docs ↗](https://docs.helicone.ai/) · [🌐 Site ↗](https://www.helicone.ai)</sub>
 
 <a name="pezzo"></a>
-### [33](../README.md#-how-we-rank "Score 33/100. Adoption 13 · Freshness 70 · Maintenance 24 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Pezzo](https://github.com/pezzolabs/pezzo) <sub>⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;13 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (13) · Freshness: recent (70) · Maintenance: weak (24) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
 
 **Prompt management, observability and caching for LLM apps.**
 

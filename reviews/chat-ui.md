@@ -3,7 +3,7 @@
 Web front-ends for local or API models, usually with user accounts, chat history and file upload. Back to the [leaderboard](../README.md#-chat-uis).
 
 <a name="lobehub"></a>
-### [🥇 80](../README.md#-how-we-rank "Score 80/100 (gold, 80+). Adoption 86 · Freshness 100 · Maintenance 83 · Easy to run 67 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [LobeHub](https://github.com/lobehub/lobehub) <sub>⭐ 83k · NOASSERTION · Oct 2026</sub>
+### 🥇 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · NOASSERTION · Oct 2026</sub>
 
 **Agent workspace with builder, groups, scheduling and 10,000+ MCP skills.**
 
@@ -21,7 +21,7 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 <sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub)</sub>
 
 <a name="open-webui"></a>
-### [🥈 76](../README.md#-how-we-rank "Score 76/100 (silver, 65-79). Adoption 97 · Freshness 100 · Maintenance 96 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Open WebUI](https://github.com/open-webui/open-webui) <sub>⭐ 154k · NOASSERTION · Sep 2026</sub>
+### 🥈 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 154k · NOASSERTION · Sep 2026</sub>
 
 **Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG.**
 
@@ -39,7 +39,7 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 <sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
 
 <a name="anything-llm"></a>
-### [🥈 76](../README.md#-how-we-rank "Score 76/100 (silver, 65-79). Adoption 80 · Freshness 100 · Maintenance 93 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>⭐ 67k · MIT · Oct 2026</sub>
+### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
 
 **Document chat and agent app with built-in RAG, MCP and multi-user support.**
 
@@ -57,7 +57,7 @@ AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a 
 <sub>no GPU · Docker + Compose · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub>
 
 <a name="big-agi"></a>
-### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 27 · Freshness 100 · Maintenance 70 · Easy to run 83 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [big-AGI](https://github.com/enricoros/big-agi) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;4 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Multi-model chat workspace with Beam side-by-side model comparison.**
 
@@ -75,7 +75,7 @@ Big-AGI Open is the self-hostable web app behind big-agi.com, deployable via Doc
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-agi) · [🌐 Site ↗](https://big-agi.com)</sub>
 
 <a name="hermes-webui"></a>
-### [🥈 70](../README.md#-how-we-rank "Score 70/100 (silver, 65-79). Adoption 45 · Freshness 100 · Maintenance 86 · Easy to run 67 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>⭐ 19k · MIT · Oct 2026</sub>
+### #&#8288;5 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Browser front end for Hermes Agent with sessions, files and voice input.**
 
@@ -93,7 +93,7 @@ Hermes WebUI is a Python plus vanilla JavaScript web app (no build step, port 87
 <sub>no GPU · Docker + Compose · Needs Hermes Agent · Models: OpenAI, Anthropic, Google, DeepSeek, Nous Portal · port 8787 · [Repo](https://github.com/nesquena/hermes-webui)</sub>
 
 <a name="librechat"></a>
-### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 72 · Freshness 100 · Maintenance 84 · Easy to run 33 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [LibreChat](https://github.com/librechat-ai/librechat) <sub>⭐ 45k · MIT · Oct 2026</sub>
+### #&#8288;6 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 45k · MIT · Oct 2026</sub>
 
 **Multi-provider ChatGPT-style app with agents, MCP, code interpreter and auth.**
 
@@ -111,7 +111,7 @@ LibreChat is a self-hosted chat platform that fronts Anthropic, OpenAI, Azure, A
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Azure OpenAI, AWS Bedrock, Google · [Repo](https://github.com/librechat-ai/librechat) · [📖 Docs ↗](https://docs.librechat.ai) · [🌐 Site ↗](https://librechat.ai)</sub>
 
 <a name="onyx"></a>
-### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 59 · Freshness 100 · Maintenance 83 · Easy to run 33 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Onyx](https://github.com/onyx-dot-app/onyx) <sub>⭐ 32k · NOASSERTION · Oct 2026</sub>
+### #&#8288;7 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · NOASSERTION · Oct 2026</sub>
 
 **Team knowledge chat that indexes 50+ apps for RAG and agents.**
 
@@ -129,7 +129,7 @@ Onyx indexes content and permissions from 50+ apps into a hybrid vector and keyw
 <sub>RAM ≥ 1 GB · no GPU · Compose · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/signup) · [📖 Docs ↗](https://docs.onyx.app/) · [🌐 Site ↗](https://www.onyx.app/)</sub>
 
 <a name="nextchat"></a>
-### [🥉 64](../README.md#-how-we-rank "Score 64/100 (bronze, 55-64). Adoption 90 · Freshness 79 · Maintenance 27 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>⭐ 89k · MIT · Oct 2026</sub>
+### #&#8288;8 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (90) · Freshness: recent (79) · Maintenance: weak (27) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Lightweight Next.js chat client for OpenAI, Claude, Gemini and DeepSeek APIs.**
 
@@ -147,7 +147,7 @@ NextChat is a Node.js web client (Docker image yidadaa/chatgpt-next-web on port 
 <sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club)</sub>
 
 <a name="sillytavern"></a>
-### [🥉 58](../README.md#-how-we-rank "Score 58/100 (bronze, 55-64). Adoption 64 · Freshness 100 · Maintenance 62 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>⭐ 34k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;9 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (62) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · AGPL-3.0 · Sep 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 
@@ -165,7 +165,7 @@ SillyTavern is a locally installed Node.js 20+ interface for text-generation LLM
 <sub>no GPU · Docker + Compose · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/sillytavern/sillytavern) · [📖 Docs ↗](https://docs.sillytavern.app/)</sub>
 
 <a name="huggingface-chat-ui"></a>
-### [🥉 57](../README.md#-how-we-rank "Score 57/100 (bronze, 55-64). Adoption 35 · Freshness 100 · Maintenance 38 · Easy to run 50 · Agent-ready 55 (each out of 100, weighted). Click for how we rank.") [HuggingChat UI](https://github.com/huggingface/chat-ui) <sub>⭐ 11k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [HuggingChat UI](https://github.com/huggingface/chat-ui) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (35) · Freshness: active (100) · Maintenance: patchy (38) · Easy to run: easy (50) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
 
 **SvelteKit chat front end behind HuggingChat for OpenAI-compatible endpoints.**
 
@@ -183,7 +183,7 @@ Chat UI is the SvelteKit app that powers HuggingChat. It talks only to OpenAI-co
 <sub>no GPU · Docker + Compose · Needs MongoDB · Models: OpenAI-compatible endpoints, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [▶️ Demo ↗](https://huggingface.co/chat)</sub>
 
 <a name="claraverse"></a>
-### [51](../README.md#-how-we-rank "Score 51/100. Adoption 11 · Freshness 100 · Maintenance 46 · Easy to run 50 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>⭐ 3.9k · NOASSERTION · Aug 2026</sub>
+### #&#8288;11 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: patchy (46) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · NOASSERTION · Aug 2026</sub>
 
 **Private AI workspace with chat, agent crews, workflows and Telegram.**
 
@@ -201,7 +201,7 @@ ClaraVerse is a Go and React workspace (Docker Compose, port 3000) that auto-det
 <sub>RAM ≥ 4 GB · Docker + Compose · Needs MySQL, MongoDB, Redis, SearXNG, Qdrant (knowledge bases) · Models: Ollama, LM Studio, llama.cpp, OpenAI, Anthropic · port 3000 · [Repo](https://github.com/claraverse-space/claraverse) · [🌐 Site ↗](https://claraverse.space)</sub>
 
 <a name="lollms-webui"></a>
-### [41](../README.md#-how-we-rank "Score 41/100. Adoption 17 · Freshness 70 · Maintenance 67 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>⭐ 4.8k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;12 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (17) · Freshness: recent (70) · Maintenance: fair (67) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Sep 2026</sub>
 
 **Single-user web UI for local and remote LLMs with many personalities.**
 
@@ -219,7 +219,7 @@ LoLLMs WebUI is a Python 3.11 web app (port 9600) fronting local models via HF t
 <sub>Docker + Compose · Models: Hugging Face transformers, GGUF/GGML, ExLlama v2, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui)</sub>
 
 <a name="chatgpt-ui"></a>
-### [23](../README.md#-how-we-rank "Score 23/100. Adoption 2 · Freshness 54 · Maintenance 0 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [ChatGPT UI](https://github.com/wongsaang/chatgpt-ui) <sub>⭐ 1.6k · MIT · May 2026</sub>
+### #&#8288;13 [ChatGPT UI](https://github.com/wongsaang/chatgpt-ui) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (2) · Freshness: recent (54) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · May 2026</sub>
 
 **Multi-user ChatGPT-style web client with pluggable databases.**
 

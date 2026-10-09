@@ -3,7 +3,7 @@
 Long-term memory engines that store and retrieve facts for agents across sessions. Back to the [leaderboard](../README.md#%EF%B8%8F-memory).
 
 <a name="mempalace"></a>
-### [🥈 77](../README.md#-how-we-rank "Score 77/100 (silver, 65-79). Adoption 86 · Freshness 100 · Maintenance 83 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [MemPalace](https://github.com/mempalace/mempalace) <sub>⭐ 59k · MIT · Oct 2026</sub>
+### 🥇 [MemPalace](https://github.com/mempalace/mempalace) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 59k · MIT · Oct 2026</sub>
 
 **Local verbatim memory for coding agents on ChromaDB with 45 MCP tools.**
 
@@ -21,7 +21,7 @@ MemPalace stores conversation history verbatim, never summarised, and retrieves 
 <sub>no GPU · Docker + Compose · Models: local embeddings (MiniLM, EmbeddingGemma), OpenAI-compatible embedding endpoints, Ollama · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com)</sub>
 
 <a name="openviking"></a>
-### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 77 · Freshness 100 · Maintenance 88 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [OpenViking](https://github.com/volcengine/openviking) <sub>⭐ 39k · AGPL-3.0 · Oct 2026</sub>
+### 🥈 [OpenViking](https://github.com/volcengine/openviking) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · AGPL-3.0 · Oct 2026</sub>
 
 **Context database exposing agent memory, knowledge and skills as a filesystem.**
 
@@ -39,7 +39,7 @@ OpenViking organises everything an agent knows as a viking:// virtual filesystem
 <sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/openviking) · [▶️ Demo ↗](https://openviking.ai/studio) · [📖 Docs ↗](https://docs.openviking.ai/) · [🌐 Site ↗](https://www.openviking.ai)</sub>
 
 <a name="agentmemory"></a>
-### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 51 · Freshness 100 · Maintenance 80 · Easy to run 83 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [agentmemory](https://github.com/rohitg00/agentmemory) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Persistent memory server for coding agents built on the iii engine.**
 
@@ -57,7 +57,7 @@ agentmemory captures agent activity via hooks, compresses it into searchable mem
 <sub>no GPU · Docker + Compose · Needs iii-engine v0.22.1 (bundled) · Models: keyless BM25, local Xenova/all-MiniLM-L6-v2, LLM provider (optional) · port 3111 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
 
 <a name="cognee"></a>
-### [🥈 74](../README.md#-how-we-rank "Score 74/100 (silver, 65-79). Adoption 68 · Freshness 100 · Maintenance 84 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Cognee](https://github.com/topoteretes/cognee) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [Cognee](https://github.com/topoteretes/cognee) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Memory engine that turns documents and code into a knowledge graph.**
 
@@ -75,7 +75,7 @@ Cognee builds persistent agent memory by extracting entities, relationships and 
 <sub>no GPU · Docker + Compose · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs ↗](https://docs.cognee.ai/) · [🌐 Site ↗](https://cognee.ai)</sub>
 
 <a name="mem0"></a>
-### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 93 · Freshness 100 · Maintenance 80 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Mem0](https://github.com/mem0ai/mem0) <sub>⭐ 67k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [Mem0](https://github.com/mem0ai/mem0) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · Apache-2.0 · Oct 2026</sub>
 
 **Memory layer for agents with a self-hosted server, SDKs and CLI.**
 
@@ -93,7 +93,7 @@ Mem0 adds long-term memory to assistants and agents at user, session and agent l
 <sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai)</sub>
 
 <a name="graphiti"></a>
-### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 63 · Freshness 100 · Maintenance 84 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Graphiti](https://github.com/getzep/graphiti) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [Graphiti](https://github.com/getzep/graphiti) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Temporal knowledge graph framework for agent memory with REST and MCP servers.**
 
@@ -111,7 +111,7 @@ Graphiti builds context graphs where every fact has a validity window and traces
 <sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2 or Amazon Neptune · Models: OpenAI (default), Azure OpenAI, Anthropic, Google Gemini, Groq · [Repo](https://github.com/getzep/graphiti)</sub>
 
 <a name="memos"></a>
-### [🥈 65](../README.md#-how-we-rank "Score 65/100 (silver, 65-79). Adoption 35 · Freshness 100 · Maintenance 88 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [MemOS](https://github.com/memtensor/memos) <sub>⭐ 12k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;7 [MemOS](https://github.com/memtensor/memos) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Sep 2026</sub>
 
 **Memory operating system for agents with cubes, scheduler and hybrid retrieval.**
 
@@ -129,7 +129,7 @@ MemOS gives LLM apps and agents long-term memory via one API over graph-structur
 <sub>no GPU · Docker + Compose · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/)</sub>
 
 <a name="supermemory"></a>
-### [🥉 64](../README.md#-how-we-rank "Score 64/100 (bronze, 55-64). Adoption 58 · Freshness 100 · Maintenance 91 · Easy to run 33 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [Supermemory](https://github.com/supermemoryai/supermemory) <sub>⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;8 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Memory and context API with user profiles, connectors and a local server.**
 
@@ -147,7 +147,7 @@ Supermemory extracts facts from conversations, maintains per-user profiles and a
 <sub>no GPU · Models: OpenAI, Anthropic, Gemini, Groq, OpenAI-compatible endpoints · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs ↗](https://supermemory.ai/docs)</sub>
 
 <a name="honcho"></a>
-### [🥉 56](../README.md#-how-we-rank "Score 56/100 (bronze, 55-64). Adoption 24 · Freshness 100 · Maintenance 85 · Easy to run 33 · Agent-ready 55 (each out of 100, weighted). Click for how we rank.") [Honcho](https://github.com/plastic-labs/honcho) <sub>⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;9 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory service modelling users, agents and groups as evolving peers.**
 
@@ -165,7 +165,7 @@ Honcho is a FastAPI memory server where humans and agents are peers that exchang
 <sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
 
 <a name="engram"></a>
-### [🥉 55](../README.md#-how-we-rank "Score 55/100 (bronze, 55-64). Adoption 19 · Freshness 100 · Maintenance 96 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Engram](https://github.com/gentleman-programming/engram) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;10 [Engram](https://github.com/gentleman-programming/engram) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Single Go binary memory for coding agents on SQLite FTS5 with MCP.**
 
@@ -183,7 +183,7 @@ Engram is one Go binary that stores agent memory in a local SQLite database with
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/gentleman-programming/engram) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/)</sub>
 
 <a name="letta"></a>
-### [53](../README.md#-how-we-rank "Score 53/100. Adoption 6 · Freshness 100 · Maintenance 82 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Letta](https://github.com/letta-ai/letta-code) <sub>⭐ 3.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;11 [Letta](https://github.com/letta-ai/letta-code) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful agent harness with git-tracked memory, channels and remote computers.**
 

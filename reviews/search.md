@@ -3,7 +3,7 @@
 Private search engines and AI answer engines that keep queries on your host. Back to the [leaderboard](../README.md#-search).
 
 <a name="crawl4ai"></a>
-### [🥈 76](../README.md#-how-we-rank "Score 76/100 (silver, 65-79). Adoption 87 · Freshness 100 · Maintenance 83 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>⭐ 85k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
 
 **Python crawler that turns pages into LLM-ready markdown, with a Docker API.**
 
@@ -21,7 +21,7 @@ Async Playwright crawler (pip install crawl4ai) that renders pages in Chromium, 
 <sub>no GPU · Docker + Compose · Needs Playwright Chromium (installed by crawl4ai-setup) · Models: any LiteLLM provider for LLM extraction (OpenAI, Ollama and others) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com/)</sub>
 
 <a name="morphic"></a>
-### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 23 · Freshness 100 · Maintenance 96 · Easy to run 67 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Morphic](https://github.com/miurla/morphic) <sub>⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Morphic](https://github.com/miurla/morphic) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **AI search engine with generative UI and bundled SearXNG.**
 
@@ -39,7 +39,7 @@ Next.js search app that answers with cited sources and renders results as stream
 <sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, SearXNG (bundled) or Tavily, Brave, Exa API, Supabase (auth) · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic)</sub>
 
 <a name="firecrawl"></a>
-### [🥈 68](../README.md#-how-we-rank "Score 68/100 (silver, 65-79). Adoption 99 · Freshness 100 · Maintenance 44 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>⭐ 190k · AGPL-3.0 · Oct 2026</sub>
+### 🥉 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: patchy (44) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 190k · AGPL-3.0 · Oct 2026</sub>
 
 **Web scraping and crawling API that returns LLM-ready markdown.**
 
@@ -57,7 +57,7 @@ API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with 
 <sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev)</sub>
 
 <a name="gpt-researcher"></a>
-### [🥉 63](../README.md#-how-we-rank "Score 63/100 (bronze, 55-64). Adoption 61 · Freshness 100 · Maintenance 99 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>⭐ 30k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;4 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Sep 2026</sub>
 
 **Research agent that writes cited reports from web and local documents.**
 
@@ -75,7 +75,7 @@ Planner and execution agents generate research questions, scrape 20+ sources, fi
 <sub>no GPU · Docker + Compose · Needs OpenAI or OpenAI-compatible LLM API, Tavily API key (default retriever), TypeSafe API key (optional Jev filter) · Models: OpenAI models, any OpenAI-compatible endpoint via OPENAI_BASE_URL, Gemini 2.5 Flash Image (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev)</sub>
 
 <a name="local-deep-research"></a>
-### [🥉 62](../README.md#-how-we-rank "Score 62/100 (bronze, 55-64). Adoption 31 · Freshness 100 · Maintenance 75 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>⭐ 9.2k · MIT · Oct 2026</sub>
+### #&#8288;5 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
 
 **Agentic research assistant with local LLMs, SearXNG and encrypted libraries.**
 
@@ -93,7 +93,7 @@ Runs multi-step research across the web, academic engines and your own documents
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, SQLCipher (bundled wheels) · Models: Ollama models (e.g. gpt-oss:20b, Qwen3.6-27B), any OpenAI-compatible endpoint · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research)</sub>
 
 <a name="vane"></a>
-### [51](../README.md#-how-we-rank "Score 51/100. Adoption 73 · Freshness 100 · Maintenance 9 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Vane](https://github.com/itzcrazykns/vane) <sub>⭐ 37k · MIT · Sep 2026</sub>
+### #&#8288;6 [Vane](https://github.com/itzcrazykns/vane) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
 
 **Self-hosted answer engine with cited sources over SearXNG.**
 
@@ -111,7 +111,7 @@ Next.js answer engine (formerly Perplexica) that runs searches through a bundled
 <sub>no GPU · Docker + Compose · Needs SearXNG (bundled in the default image), LLM provider (Ollama, OpenAI-compatible server or cloud API) · Models: Ollama, OpenAI, Anthropic Claude, Google Gemini, Groq · port 3000 · [Repo](https://github.com/itzcrazykns/vane)</sub>
 
 <a name="jina-reader"></a>
-### [49](../README.md#-how-we-rank "Score 49/100. Adoption 42 · Freshness 82 · Maintenance 16 · Easy to run 50 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [Jina Reader](https://github.com/jina-ai/reader) <sub>⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;7 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (42) · Freshness: active (82) · Maintenance: weak (16) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
@@ -129,7 +129,7 @@ Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page
 <sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader)</sub>
 
 <a name="maestro"></a>
-### [30](../README.md#-how-we-rank "Score 30/100. Adoption 1 · Freshness 63 · Maintenance 0 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
+### #&#8288;8 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (1) · Freshness: recent (63) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
 
 **Multi-agent research platform that writes long reports from documents and web.**
 

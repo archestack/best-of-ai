@@ -3,7 +3,7 @@
 Generation UIs and pipelines for images and video, usually around diffusion models. Back to the [leaderboard](../README.md#-image-and-video).
 
 <a name="comfyui"></a>
-### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 97 · Freshness 100 · Maintenance 77 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [ComfyUI](https://github.com/comfy-org/comfyui) <sub>⭐ 137k · GPL-3.0 · Oct 2026</sub>
+### 🥇 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 137k · GPL-3.0 · Oct 2026</sub>
 
 **Node-graph engine for diffusion image, video, audio and 3D models.**
 
@@ -21,7 +21,7 @@ Builds generation pipelines as a visual node graph and runs them locally for ima
 <sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/comfy-org/comfyui) · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://www.comfy.org/)</sub>
 
 <a name="moneyprinterturbo"></a>
-### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 89 · Freshness 100 · Maintenance 95 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>⭐ 129k · MIT · Oct 2026</sub>
+### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 129k · MIT · Oct 2026</sub>
 
 **Generates short videos from a topic with script, footage, voice and subtitles.**
 
@@ -39,7 +39,7 @@ Takes a topic or keywords, writes a script with an LLM (OpenAI, Claude, Gemini, 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs LLM API (OpenAI-compatible) or Ollama, Stock footage API (Pexels, Pixabay, Coverr) or a video generation API · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Qwen (DashScope) · [Repo](https://github.com/harry0703/moneyprinterturbo)</sub>
 
 <a name="invokeai"></a>
-### [🥉 63](../README.md#-how-we-rank "Score 63/100 (bronze, 55-64). Adoption 58 · Freshness 100 · Maintenance 90 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Oct 2026</sub>
 
 **Canvas-first web UI for Stable Diffusion and Flux image generation.**
 
@@ -57,7 +57,7 @@ Local web server and React UI for image generation with a Unified Canvas (inpain
 <sub>Docker + Compose · Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/invokeai) · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai)</sub>
 
 <a name="ai-toolkit"></a>
-### [🥉 55](../README.md#-how-we-rank "Score 55/100 (bronze, 55-64). Adoption 35 · Freshness 100 · Maintenance 53 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>⭐ 12k · MIT · Oct 2026</sub>
+### #&#8288;4 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (53) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
 
 **Training suite and web UI for image, video and audio diffusion models.**
 
@@ -75,7 +75,7 @@ Trains LoRA, LoKr and full fine-tunes for FLUX.1 and FLUX.2, Chroma, Qwen-Image,
 <sub>GPU required · Docker + Compose · Needs Node.js 20+ (UI), FFmpeg, git · Models: FLUX.1-dev, FLUX.2-dev and klein 4B/9B, Flex.1 and Flex.2, Chroma, Lumina-Image-2.0 · port 8675 · [Repo](https://github.com/ostris/ai-toolkit)</sub>
 
 <a name="kohya-ss"></a>
-### [52](../README.md#-how-we-rank "Score 52/100. Adoption 42 · Freshness 100 · Maintenance 9 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>⭐ 13k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;5 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (42) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
 
 **Gradio GUI and CLI for Kohya diffusion training scripts.**
 
@@ -93,7 +93,7 @@ Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for Lo
 <sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss)</sub>
 
 <a name="pixelle-video"></a>
-### [51](../README.md#-how-we-rank "Score 51/100. Adoption 66 · Freshness 87 · Maintenance 2 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>⭐ 29k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;6 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (66) · Freshness: active (87) · Maintenance: weak (2) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Jun 2026</sub>
 
 **Topic-to-short-video pipeline built on ComfyUI workflows and TTS.**
 
@@ -111,7 +111,7 @@ Turns a topic into a short video: an LLM (GPT, Qwen, DeepSeek, Ollama) writes th
 <sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ath-maas/pixelle-video) · [📖 Docs ↗](https://aidc-ai.github.io/Pixelle-Video/zh)</sub>
 
 <a name="biniou"></a>
-### [49](../README.md#-how-we-rank "Score 49/100. Adoption 0 · Freshness 100 · Maintenance 67 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [biniou](https://github.com/woolverine94/biniou) <sub>⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [biniou](https://github.com/woolverine94/biniou) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (67) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
 
 **Chat, image, audio, video and 3D generation in one CPU-friendly web UI.**
 
@@ -129,7 +129,7 @@ Gradio web UI bundling 30+ modules: llama.cpp chat and LLaVA with GGUF models, W
 <sub>RAM ≥ 8 GB · GPU optional · Docker · Needs ffmpeg, git, gcc, perl, openssl · Models: GGUF LLMs via llama.cpp, LLaVA GGUF, Whisper, NLLB-200, SD 1.5/2.1/Turbo · [Repo](https://github.com/woolverine94/biniou) · [📖 Docs ↗](https://github.com/Woolverine94/biniou/wiki)</sub>
 
 <a name="fluxgym"></a>
-### [39](../README.md#-how-we-rank "Score 39/100. Adoption 11 · Freshness 100 · Maintenance 21 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>⭐ 3.3k · MIT · Jul 2026</sub>
+### #&#8288;8 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: weak (21) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
 
 **Web UI for training FLUX LoRAs on 12 to 20 GB GPUs.**
 
