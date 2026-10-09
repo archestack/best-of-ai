@@ -1,4 +1,4 @@
-# 🔎 Search — reviews
+# 🔎 Search reviews · Best of Self-Hosted AI
 
 Private search engines and AI answer engines that keep queries on your host. Back to the [leaderboard](../README.md#-search).
 

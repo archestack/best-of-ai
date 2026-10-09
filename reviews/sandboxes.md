@@ -1,6 +1,24 @@
-# 🛡️ Sandboxes — reviews
+# 🛡️ Sandboxes reviews · Best of Self-Hosted AI
 
 Isolated runtimes where agents execute code, browse or use tools safely. Back to the [leaderboard](../README.md#%EF%B8%8F-sandboxes).
+
+<a name="lightpanda"></a>
+### [🥈 78](../README.md#-how-we-rank "Score 78/100 (silver, 65-79). Adoption 86 · Freshness 100 · Maintenance 91 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Lightpanda](https://github.com/lightpanda-io/browser) <sub>⭐ 36k · AGPL-3.0 · Oct 2026</sub>
+
+**Headless browser in Zig with CDP, MCP and an agent mode.**
+
+Browser engine written in Zig (V8, libcurl, html5ever) with no graphical renderer. Exposes a CDP server on port 9222 for Puppeteer and Playwright plus WebDriver BiDi, a fetch command that dumps HTML, markdown, PNG or PDF, an MCP server over stdio or HTTP with per-client sessions, and an agent mode driven by Anthropic, OpenAI, Gemini, Ollama, llama.cpp or any OpenAI-compatible endpoint. For scraping and agent fleets where Chrome is too heavy.
+
+- **+** 100 pages: 123 MB and 5 s versus 2 GB and 46 s for Chrome
+- **+** CDP and WebDriver BiDi servers work with existing Puppeteer and Playwright scripts
+- **+** Agent mode records deterministic PandaScript JS you can replay without an LLM
+- **+** MCP over HTTP isolates each client in its own browsing session
+- **−** No graphical rendering engine; PNG and PDF dumps are text-only renderings
+- **−** Nightly builds only via Homebrew, AUR and GitHub releases; no native Windows binary
+- **−** Usage telemetry on by default; set LIGHTPANDA_DISABLE_TELEMETRY=true
+- **−** AGPL-3.0 license and a CLA for contributions
+
+<sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io)</sub>
 
 <a name="obscura"></a>
 ### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 73 · Freshness 100 · Maintenance 91 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
@@ -19,24 +37,6 @@ Headless browser engine in Rust running V8 that speaks the Chrome DevTools Proto
 - **−** Linux binaries target glibc 2.35 or newer (Ubuntu 22.04)
 
 <sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs ↗](https://docs.obscura.sh) · [🌐 Site ↗](https://obscura.sh)</sub>
-
-<a name="lightpanda"></a>
-### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 86 · Freshness 70 · Maintenance 91 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Lightpanda](https://github.com/lightpanda-io/browser) <sub>⭐ 36k · AGPL-3.0 · Oct 2026</sub>
-
-**Headless browser in Zig with CDP, MCP and an agent mode.**
-
-Browser engine written in Zig (V8, libcurl, html5ever) with no graphical renderer. Exposes a CDP server on port 9222 for Puppeteer and Playwright plus WebDriver BiDi, a fetch command that dumps HTML, markdown, PNG or PDF, an MCP server over stdio or HTTP with per-client sessions, and an agent mode driven by Anthropic, OpenAI, Gemini, Ollama, llama.cpp or any OpenAI-compatible endpoint. For scraping and agent fleets where Chrome is too heavy.
-
-- **+** 100 pages: 123 MB and 5 s versus 2 GB and 46 s for Chrome
-- **+** CDP and WebDriver BiDi servers work with existing Puppeteer and Playwright scripts
-- **+** Agent mode records deterministic PandaScript JS you can replay without an LLM
-- **+** MCP over HTTP isolates each client in its own browsing session
-- **−** No graphical rendering engine; PNG and PDF dumps are text-only renderings
-- **−** Nightly builds only via Homebrew, AUR and GitHub releases; no native Windows binary
-- **−** Usage telemetry on by default; set LIGHTPANDA_DISABLE_TELEMETRY=true
-- **−** AGPL-3.0 license and a CLA for contributions
-
-<sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io)</sub>
 
 <a name="nemoclaw"></a>
 ### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 62 · Freshness 100 · Maintenance 76 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>⭐ 23k · Apache-2.0 · Oct 2026</sub>
@@ -72,7 +72,7 @@ Runs each agent in a sandbox with kernel-enforced limits on file access and syst
 - **−** Anonymous telemetry on by default; disable with OPENSHELL_TELEMETRY_ENABLED=false
 - **−** Kubernetes installs require a CNI that enforces NetworkPolicy
 
-<sub>no GPU · Needs Docker, Podman or host virtualization · Models: any provider via routed inference credentials · [Repo](https://github.com/nvidia/openshell) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html)</sub>
+<sub>no GPU · Docker + Compose · Needs Docker, Podman or host virtualization · Models: any provider via routed inference credentials · [Repo](https://github.com/nvidia/openshell) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html)</sub>
 
 <a name="microsandbox"></a>
 ### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 30 · Freshness 100 · Maintenance 86 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [microsandbox](https://github.com/superradcompany/microsandbox) <sub>⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
@@ -90,7 +90,7 @@ Boots OCI images as hardware-isolated microVMs in under 100 ms on Linux with KVM
 - **−** No Dockerfile or compose file; it replaces containers rather than running in one
 - **−** Image pulls on first create add startup time
 
-<sub>no GPU · Needs KVM (Linux), Apple Silicon (macOS) or WHP (Windows) · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev/cli/overview)</sub>
+<sub>no GPU · Docker · Needs KVM (Linux), Apple Silicon (macOS) or WHP (Windows) · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev/cli/overview)</sub>
 
 <a name="steel-browser"></a>
 ### [🥉 60](../README.md#-how-we-rank "Score 60/100 (bronze, 55-64). Adoption 22 · Freshness 100 · Maintenance 42 · Easy to run 83 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>⭐ 7.8k · Apache-2.0 · Oct 2026</sub>

@@ -1,4 +1,4 @@
-# 🧮 Vector databases — reviews
+# 🧮 Vector databases reviews · Best of Self-Hosted AI
 
 Vector stores and hybrid search engines for embeddings. Back to the [leaderboard](../README.md#-vector-databases).
 

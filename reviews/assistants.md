@@ -1,4 +1,4 @@
-# 🤖 Assistants — reviews
+# 🤖 Assistants reviews · Best of Self-Hosted AI
 
 Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. Back to the [leaderboard](../README.md#-assistants).
 
@@ -20,7 +20,7 @@ nanobot is a Python 3.11+ personal agent running as a local gateway with a bundl
 <sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/hkuds/nanobot) · [📖 Docs ↗](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview)</sub>
 
 <a name="openclaw"></a>
-### [🥈 79](../README.md#-how-we-rank "Score 79/100 (silver, 65-79). Adoption 100 · Freshness 100 · Maintenance 90 · Easy to run 50 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [OpenClaw](https://github.com/openclaw/openclaw) <sub>⭐ 391k · MIT · Oct 2026</sub>
+### [🥈 79](../README.md#-how-we-rank "Score 79/100 (silver, 65-79). Adoption 100 · Freshness 100 · Maintenance 90 · Easy to run 50 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [OpenClaw](https://github.com/openclaw/openclaw) <sub>⭐ 392k · MIT · Oct 2026</sub>
 
 **Personal assistant gateway that answers in Discord, Slack, WhatsApp and Telegram.**
 
@@ -87,7 +87,7 @@ AstrBot is a Python 3.12+ chatbot platform that connects LLM providers (OpenAI-c
 - **−** Docker setup is documented only in the external docs, not the README
 - **−** Several model-provider links in the README are referral or affiliate links
 
-<sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/astrbotdevs/astrbot) · [📖 Docs ↗](https://astrbot.app/)</sub>
+<sub>no GPU · Docker + Compose · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/astrbotdevs/astrbot) · [📖 Docs ↗](https://astrbot.app/)</sub>
 
 <a name="qwenpaw"></a>
 ### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 61 · Freshness 100 · Maintenance 90 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>⭐ 36k · Apache-2.0 · Oct 2026</sub>
@@ -104,7 +104,7 @@ QwenPaw is a Python (3.11 to 3.13) assistant built on AgentScope that serves a b
 - **−** Script installer may fail behind corporate firewalls or in PowerShell Constrained Language Mode
 - **−** Channel lineup leans toward DingTalk, Lark, WeChat and QQ; no Slack or WhatsApp listed
 
-<sub>no GPU · Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/)</sub>
+<sub>no GPU · Docker + Compose · Models: QwenPaw-Flash (local), Ollama, LM Studio, DashScope, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/)</sub>
 
 <a name="ironclaw"></a>
 ### [🥈 65](../README.md#-how-we-rank "Score 65/100 (silver, 65-79). Adoption 31 · Freshness 100 · Maintenance 82 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [IronClaw](https://github.com/nearai/ironclaw) <sub>⭐ 13k · Apache-2.0 · Sep 2026</sub>
@@ -140,7 +140,7 @@ Moltis is a single Rust binary that serves a web UI (port 13131), Telegram, Sign
 - **−** Source build needs just and Node.js for Tailwind on top of Rust 1.91+
 - **−** Constrained devices need a custom build with --no-default-features --features lightweight
 
-<sub>no GPU · Docker · Needs Docker, Podman or Apple Container (sandbox) · Models: OpenAI Codex, GitHub Copilot, local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs ↗](https://docs.moltis.org/quickstart.html) · [🌐 Site ↗](https://moltis.org)</sub>
+<sub>no GPU · Docker + Compose · Needs Docker, Podman or Apple Container (sandbox) · Models: OpenAI Codex, GitHub Copilot, local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs ↗](https://docs.moltis.org/quickstart.html) · [🌐 Site ↗](https://moltis.org)</sub>
 
 <a name="khoj"></a>
 ### [🥉 57](../README.md#-how-we-rank "Score 57/100 (bronze, 55-64). Adoption 67 · Freshness 99 · Maintenance 19 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Khoj](https://github.com/khoj-ai/khoj) <sub>⭐ 38k · AGPL-3.0 · Aug 2026</sub>
@@ -176,7 +176,7 @@ PicoClaw is a single Go binary for x86_64, ARM64, MIPS, RISC-V and LoongArch tha
 - **−** AWS Bedrock support requires a custom build with -tags bedrock
 - **−** No root Dockerfile; compose file lives under docker/ and needs a first-run bootstrap
 
-<sub>RAM ≥ 0.02 GB · no GPU · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek · port 18800 · [Repo](https://github.com/sipeed/picoclaw) · [📖 Docs ↗](https://docs.picoclaw.io/) · [🌐 Site ↗](https://picoclaw.io)</sub>
+<sub>RAM ≥ 0.02 GB · no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek · port 18800 · [Repo](https://github.com/sipeed/picoclaw) · [📖 Docs ↗](https://docs.picoclaw.io/) · [🌐 Site ↗](https://picoclaw.io)</sub>
 
 <a name="spacebot"></a>
 ### [🥉 56](../README.md#-how-we-rank "Score 56/100 (bronze, 55-64). Adoption 3 · Freshness 100 · Maintenance 60 · Easy to run 67 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>⭐ 2.4k · NOASSERTION · Sep 2026</sub>

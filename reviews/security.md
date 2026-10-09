@@ -1,4 +1,4 @@
-# 🔐 Security — reviews
+# 🔐 Security reviews · Best of Self-Hosted AI
 
 AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. Back to the [leaderboard](../README.md#-security).
 
@@ -18,6 +18,6 @@ CLI that runs a team of LLM agents (recon, exploitation, post-exploitation) agai
 - **−** Autofix PRs, continuous scanning and Jira/Slack hooks are Cloud; SSO and compliance reports are Enterprise
 - **−** README documents install only as curl | bash, though a PyPI package (strix-agent) exists
 
-<sub>no GPU · Needs docker, LLM API key · Models: OpenAI, Anthropic, Google / Vertex AI, OpenRouter, DeepSeek · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai)</sub>
+<sub>no GPU · Docker · Needs docker, LLM API key · Models: OpenAI, Anthropic, Google / Vertex AI, OpenRouter, DeepSeek · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

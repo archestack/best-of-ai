@@ -1,4 +1,4 @@
-# 📈 Observability — reviews
+# 📈 Observability reviews · Best of Self-Hosted AI
 
 Tracing, evaluation and prompt management for LLM applications. Back to the [leaderboard](../README.md#-observability).
 
@@ -39,7 +39,7 @@ Collects traces through OpenInference and OpenTelemetry instrumentation for Open
 <sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google GenAI and ADK, AWS Bedrock, OpenRouter · port 6006 · [Repo](https://github.com/arize-ai/phoenix) · [📖 Docs ↗](https://arize.com/docs/phoenix/) · [🌐 Site ↗](https://phoenix.arize.com)</sub>
 
 <a name="mlflow"></a>
-### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 75 · Freshness 100 · Maintenance 86 · Easy to run 33 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [MLflow](https://github.com/mlflow/mlflow) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
+### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 75 · Freshness 100 · Maintenance 87 · Easy to run 33 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [MLflow](https://github.com/mlflow/mlflow) <sub>⭐ 28k · Apache-2.0 · Oct 2026</sub>
 
 **Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
 
@@ -54,10 +54,10 @@ Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ fram
 - **−** No Dockerfile or compose file at the repo root
 - **−** TypeScript and Java coverage is smaller than Python (5 TS and 2 Java frameworks listed)
 
-<sub>no GPU · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/)</sub>
+<sub>no GPU · Docker + Compose · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/)</sub>
 
 <a name="promptfoo"></a>
-### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 70 · Freshness 100 · Maintenance 82 · Easy to run 50 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [promptfoo](https://github.com/promptfoo/promptfoo) <sub>⭐ 26k · MIT · Oct 2026</sub>
+### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 70 · Freshness 100 · Maintenance 83 · Easy to run 50 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [promptfoo](https://github.com/promptfoo/promptfoo) <sub>⭐ 26k · MIT · Oct 2026</sub>
 
 **CLI for evaluating and red-teaming prompts, agents and RAG.**
 
@@ -73,6 +73,24 @@ Runs prompt and model evaluations from a YAML config via promptfoo eval, compare
 - **−** Dockerfile exists at the root but the README gives no Docker instructions
 
 <sub>no GPU · Docker · Needs Node.js (npm) or Python (pip), LLM provider API key or Ollama · Models: OpenAI, Anthropic, Azure, Bedrock, Ollama · [Repo](https://github.com/promptfoo/promptfoo) · [📖 Docs ↗](https://www.promptfoo.dev/docs/) · [🌐 Site ↗](https://www.promptfoo.dev)</sub>
+
+<a name="opik"></a>
+### [🥉 64](../README.md#-how-we-rank "Score 64/100 (bronze, 55-64). Adoption 63 · Freshness 100 · Maintenance 89 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Opik](https://github.com/comet-ml/opik) <sub>⭐ 22k · Apache-2.0 · Oct 2026</sub>
+
+**Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end.**
+
+Logs trace trees for LLM calls, tool executions and agent steps via Python and TypeScript SDKs, OpenTelemetry or framework integrations, then runs datasets, experiments and LLM-as-a-judge metrics for hallucination, moderation and RAG quality, with online evaluation rules in production. Self-hosts with ./opik.sh (Docker Compose, UI on port 5173) or a Helm chart. For ML engineers moving agents to production.
+
+- **+** Full platform (backend, web app, evals, prompt management) under Apache-2.0
+- **+** Designed for 40M+ traces per day; online evaluation rules on production traffic
+- **+** PyTest integration gates LLM pipelines in CI
+- **+** MCP server lets Claude Code, Cursor, Codex or opencode query traces and run evals
+- **−** No Dockerfile or compose file at the repo root; install goes through opik.sh
+- **−** Multi-service stack (databases, caches, backend, frontend); not a single binary
+- **−** Guardrails and the optimizer are separate profiles and SDKs to enable
+- **−** README is heavy with Comet Cloud links and UTM tracking
+
+<sub>no GPU · Compose · Models: any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs ↗](https://www.comet.com/docs/opik/) · [🌐 Site ↗](https://www.comet.com/site/products/opik/)</sub>
 
 <a name="latitude-llm"></a>
 ### [🥉 62](../README.md#-how-we-rank "Score 62/100 (bronze, 55-64). Adoption 25 · Freshness 100 · Maintenance 100 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>⭐ 4.7k · MIT · Oct 2026</sub>
@@ -164,24 +182,6 @@ OpenTelemetry-native tracing for Vercel AI SDK, LangChain, OpenAI, Anthropic, Ge
 
 <sub>no GPU · Compose · Needs ClickHouse, PostgreSQL, LLM provider (optional, for AI features) · Models: Gemini, OpenAI and OpenAI-compatible gateways (LiteLLM, OpenRouter, vLLM), AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs ↗](https://laminar.sh/docs) · [🌐 Site ↗](https://laminar.sh)</sub>
 
-<a name="opik"></a>
-### [54](../README.md#-how-we-rank "Score 54/100. Adoption 63 · Freshness 100 · Maintenance 89 · Easy to run 0 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Opik](https://github.com/comet-ml/opik) <sub>⭐ 22k · Apache-2.0 · Oct 2026</sub>
-
-**Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end.**
-
-Logs trace trees for LLM calls, tool executions and agent steps via Python and TypeScript SDKs, OpenTelemetry or framework integrations, then runs datasets, experiments and LLM-as-a-judge metrics for hallucination, moderation and RAG quality, with online evaluation rules in production. Self-hosts with ./opik.sh (Docker Compose, UI on port 5173) or a Helm chart. For ML engineers moving agents to production.
-
-- **+** Full platform (backend, web app, evals, prompt management) under Apache-2.0
-- **+** Designed for 40M+ traces per day; online evaluation rules on production traffic
-- **+** PyTest integration gates LLM pipelines in CI
-- **+** MCP server lets Claude Code, Cursor, Codex or opencode query traces and run evals
-- **−** No Dockerfile or compose file at the repo root; install goes through opik.sh
-- **−** Multi-service stack (databases, caches, backend, frontend); not a single binary
-- **−** Guardrails and the optimizer are separate profiles and SDKs to enable
-- **−** README is heavy with Comet Cloud links and UTM tracking
-
-<sub>no GPU · Models: any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs ↗](https://www.comet.com/docs/opik/) · [🌐 Site ↗](https://www.comet.com/site/products/opik/)</sub>
-
 <a name="agenta"></a>
 ### [50](../README.md#-how-we-rank "Score 50/100. Adoption 30 · Freshness 100 · Maintenance 88 · Easy to run 0 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Agenta](https://github.com/agenta-ai/agenta) <sub>⭐ 4.8k · NOASSERTION · Oct 2026</sub>
 
@@ -216,7 +216,7 @@ Sits as an OpenAI-compatible gateway in front of 100+ models with routing and au
 - **−** Manual deployment is explicitly not recommended
 - **−** README quickstart is cloud-first; self-hosting details are in external docs
 
-<sub>no GPU · Docker · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/helicone/helicone) · [▶️ Demo ↗](https://helicone.ai/demo) · [📖 Docs ↗](https://docs.helicone.ai/) · [🌐 Site ↗](https://www.helicone.ai)</sub>
+<sub>no GPU · Docker + Compose · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/helicone/helicone) · [▶️ Demo ↗](https://helicone.ai/demo) · [📖 Docs ↗](https://docs.helicone.ai/) · [🌐 Site ↗](https://www.helicone.ai)</sub>
 
 <a name="pezzo"></a>
 ### [33](../README.md#-how-we-rank "Score 33/100. Adoption 13 · Freshness 70 · Maintenance 24 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Pezzo](https://github.com/pezzolabs/pezzo) <sub>⭐ 3.3k · Apache-2.0 · Aug 2026</sub>

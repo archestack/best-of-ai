@@ -1,4 +1,4 @@
-# 🧩 Agent platforms — reviews
+# 🧩 Agent platforms reviews · Best of Self-Hosted AI
 
 Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. Back to the [leaderboard](../README.md#-agent-platforms).
 
@@ -19,6 +19,24 @@ n8n is a fair-code workflow platform that runs as one Docker container (docker.n
 
 <sub>no GPU · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io)</sub>
 
+<a name="dify"></a>
+### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 89 · Freshness 100 · Maintenance 93 · Easy to run 33 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [Dify](https://github.com/langgenius/dify) <sub>⭐ 158k · NOASSERTION · Oct 2026</sub>
+
+**Visual LLM app platform with workflows, RAG pipeline, agents and APIs.**
+
+Dify is an LLM app platform started with Docker Compose (dashboard on port 80) that needs 2 CPU cores and 4 GiB RAM. One canvas covers visual workflows, a prompt IDE, a RAG pipeline that ingests PDFs and PPTs, sandboxed agents using Marketplace tools, MCP servers or your own APIs, plus LLMOps tracing via Opik, Langfuse or Arize Phoenix. Hundreds of models work, including OpenAI-compatible endpoints.
+
+- **+** Workflow, RAG, agents, prompt IDE and model management in one canvas
+- **+** Hundreds of models: GPT, Mistral, Llama3 and any OpenAI-compatible API
+- **+** Observability through Opik, Langfuse and Arize Phoenix
+- **+** Every feature is exposed through an API (backend-as-a-service)
+- **−** Dify Open Source License adds conditions on top of Apache 2.0
+- **−** SSO, RBAC and support SLAs are reserved for Dify Enterprise
+- **−** Minimum 2 CPU cores and 4 GiB RAM for the Compose stack
+- **−** Dashboard binds to port 80 by default
+
+<sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [▶️ Demo ↗](https://cloud.dify.ai) · [📖 Docs ↗](https://docs.dify.ai) · [🌐 Site ↗](https://dify.ai)</sub>
+
 <a name="langflow"></a>
 ### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 84 · Freshness 100 · Maintenance 92 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Langflow](https://github.com/langflow-ai/langflow) <sub>⭐ 155k · MIT · Oct 2026</sub>
 
@@ -34,7 +52,7 @@ Langflow is a Python 3.10 to 3.14 visual builder (uv pip install langflow, or th
 - **−** No root Dockerfile or compose file; container config lives in the docs
 - **−** Enterprise-ready claim is not detailed in the README
 
-<sub>no GPU · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs ↗](https://docs.langflow.org/get-started-installation) · [🌐 Site ↗](https://langflow.org)</sub>
+<sub>no GPU · Docker + Compose · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs ↗](https://docs.langflow.org/get-started-installation) · [🌐 Site ↗](https://langflow.org)</sub>
 
 <a name="sim"></a>
 ### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 54 · Freshness 100 · Maintenance 84 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Sim](https://github.com/simstudioai/sim) <sub>⭐ 30k · Apache-2.0 · Oct 2026</sub>
@@ -52,7 +70,7 @@ Sim is a Next.js and Bun app on PostgreSQL that builds agents visually, by chat 
 - **−** Background jobs use Trigger.dev and remote code execution uses E2B
 - **−** Self-hosting goes through an npx wizard rather than a documented compose file
 
-<sub>RAM ≥ 12 GB · no GPU · Needs PostgreSQL, Docker, Sim Chat API key · Models: Ollama, vLLM · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs ↗](https://docs.sim.ai) · [🌐 Site ↗](https://sim.ai)</sub>
+<sub>RAM ≥ 12 GB · no GPU · Docker + Compose · Needs PostgreSQL, Docker, Sim Chat API key · Models: Ollama, vLLM · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs ↗](https://docs.sim.ai) · [🌐 Site ↗](https://sim.ai)</sub>
 
 <a name="autogpt"></a>
 ### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 94 · Freshness 100 · Maintenance 79 · Easy to run 17 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>⭐ 187k · NOASSERTION · Oct 2026</sub>
@@ -123,7 +141,7 @@ Paperclip is a Node.js server and React UI that coordinates external agents (Ope
 - **−** Paperclip Cloud is waitlist-only
 - **−** Quickstart, ports and database are beyond the README's first 20,000 characters
 
-<sub>no GPU · Docker · [Repo](https://github.com/paperclipai/paperclip) · [📖 Docs ↗](https://docs.paperclip.ing) · [🌐 Site ↗](https://paperclip.ing)</sub>
+<sub>no GPU · Docker + Compose · [Repo](https://github.com/paperclipai/paperclip) · [📖 Docs ↗](https://docs.paperclip.ing) · [🌐 Site ↗](https://paperclip.ing)</sub>
 
 <a name="skyvern"></a>
 ### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 36 · Freshness 100 · Maintenance 81 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>⭐ 23k · AGPL-3.0 · Oct 2026</sub>
@@ -143,23 +161,23 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 
 <sub>no GPU · Docker + Compose · port 8080 · [Repo](https://github.com/skyvern-ai/skyvern) · [▶️ Demo ↗](https://app.skyvern.com) · [📖 Docs ↗](https://www.skyvern.com/docs/) · [🌐 Site ↗](https://www.skyvern.com)</sub>
 
-<a name="dify"></a>
-### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 89 · Freshness 100 · Maintenance 93 · Easy to run 0 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [Dify](https://github.com/langgenius/dify) <sub>⭐ 158k · NOASSERTION · Oct 2026</sub>
+<a name="fastgpt"></a>
+### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 50 · Freshness 100 · Maintenance 88 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [FastGPT](https://github.com/labring/fastgpt) <sub>⭐ 30k · NOASSERTION · Oct 2026</sub>
 
-**Visual LLM app platform with workflows, RAG pipeline, agents and APIs.**
+**Knowledge-base Q&A and visual workflow platform for LLM apps.**
 
-Dify is an LLM app platform started with Docker Compose (dashboard on port 80) that needs 2 CPU cores and 4 GiB RAM. One canvas covers visual workflows, a prompt IDE, a RAG pipeline that ingests PDFs and PPTs, sandboxed agents using Marketplace tools, MCP servers or your own APIs, plus LLMOps tracing via Opik, Langfuse or Arize Phoenix. Hundreds of models work, including OpenAI-compatible endpoints.
+FastGPT builds agents and LLM apps from a visual Flow editor on top of a knowledge base that ingests TXT, MD, HTML, PDF, Docx, PPTX, CSV, XLSX and URLs with hybrid retrieval and reranking. A one-script Docker Compose install serves port 3000 (default login root / 1234), supports bidirectional MCP, chat and plugin workflows, evaluation, call-chain logs, login-free share pages and iframe embedding.
 
-- **+** Workflow, RAG, agents, prompt IDE and model management in one canvas
-- **+** Hundreds of models: GPT, Mistral, Llama3 and any OpenAI-compatible API
-- **+** Observability through Opik, Langfuse and Arize Phoenix
-- **+** Every feature is exposed through an API (backend-as-a-service)
-- **−** Dify Open Source License adds conditions on top of Apache 2.0
-- **−** SSO, RBAC and support SLAs are reserved for Dify Enterprise
-- **−** Minimum 2 CPU cores and 4 GiB RAM for the Compose stack
-- **−** Dashboard binds to port 80 by default
+- **+** Loaders for TXT, MD, HTML, PDF, Docx, PPTX, CSV, XLSX and URLs
+- **+** Hybrid retrieval with reranking; chunks can be edited and deleted
+- **+** Bidirectional MCP and RPA-style workflow nodes
+- **+** One-script Docker Compose install
+- **−** FastGPT Open Source License forbids offering it as SaaS and requires kept copyright notices
+- **−** Default credentials root / 1234 after install
+- **−** Default README is Chinese; English lives in README_en.md
+- **−** Debug mode, node logs and auto-generated workflows are still unchecked roadmap items
 
-<sub>RAM ≥ 4 GB · no GPU · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [▶️ Demo ↗](https://cloud.dify.ai) · [📖 Docs ↗](https://docs.dify.ai) · [🌐 Site ↗](https://dify.ai)</sub>
+<sub>no GPU · Compose · port 3000 · [Repo](https://github.com/labring/fastgpt) · [📖 Docs ↗](https://doc.fastgpt.io/guide/getting-started) · [🌐 Site ↗](https://fastgpt.io)</sub>
 
 <a name="agent-zero"></a>
 ### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 29 · Freshness 100 · Maintenance 91 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>⭐ 19k · NOASSERTION · Sep 2026</sub>
@@ -177,25 +195,7 @@ Agent Zero runs as the agent0ai/agent-zero Docker image (port 80) and gives the 
 - **−** License is not stated in the README
 - **−** Maintainers point to Space Agent as the more polished product direction
 
-<sub>no GPU · Needs Docker · Models: OpenAI Codex plan (OAuth) · port 80 · [Repo](https://github.com/agent0ai/agent-zero) · [🌐 Site ↗](https://agent-zero.ai)</sub>
-
-<a name="fastgpt"></a>
-### [50](../README.md#-how-we-rank "Score 50/100. Adoption 50 · Freshness 100 · Maintenance 88 · Easy to run 0 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [FastGPT](https://github.com/labring/fastgpt) <sub>⭐ 30k · NOASSERTION · Oct 2026</sub>
-
-**Knowledge-base Q&A and visual workflow platform for LLM apps.**
-
-FastGPT builds agents and LLM apps from a visual Flow editor on top of a knowledge base that ingests TXT, MD, HTML, PDF, Docx, PPTX, CSV, XLSX and URLs with hybrid retrieval and reranking. A one-script Docker Compose install serves port 3000 (default login root / 1234), supports bidirectional MCP, chat and plugin workflows, evaluation, call-chain logs, login-free share pages and iframe embedding.
-
-- **+** Loaders for TXT, MD, HTML, PDF, Docx, PPTX, CSV, XLSX and URLs
-- **+** Hybrid retrieval with reranking; chunks can be edited and deleted
-- **+** Bidirectional MCP and RPA-style workflow nodes
-- **+** One-script Docker Compose install
-- **−** FastGPT Open Source License forbids offering it as SaaS and requires kept copyright notices
-- **−** Default credentials root / 1234 after install
-- **−** Default README is Chinese; English lives in README_en.md
-- **−** Debug mode, node logs and auto-generated workflows are still unchecked roadmap items
-
-<sub>no GPU · port 3000 · [Repo](https://github.com/labring/fastgpt) · [📖 Docs ↗](https://doc.fastgpt.io/guide/getting-started) · [🌐 Site ↗](https://fastgpt.io)</sub>
+<sub>no GPU · Docker + Compose · Needs Docker · Models: OpenAI Codex plan (OAuth) · port 80 · [Repo](https://github.com/agent0ai/agent-zero) · [🌐 Site ↗](https://agent-zero.ai)</sub>
 
 <a name="botpress"></a>
 ### [38](../README.md#-how-we-rank "Score 38/100. Adoption 22 · Freshness 70 · Maintenance 40 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Botpress](https://github.com/botpress/botpress) <sub>⭐ 15k · MIT · Oct 2026</sub>

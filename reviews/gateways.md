@@ -1,4 +1,4 @@
-# 🔀 Gateways — reviews
+# 🔀 Gateways reviews · Best of Self-Hosted AI
 
 LLM gateways and proxies for routing, caching, rate limits and cost control across providers. Back to the [leaderboard](../README.md#-gateways).
 
@@ -54,7 +54,7 @@ ContextForge is IBM's Python registry and proxy that federates MCP servers, A2A 
 - **−** Will not start without generated JWT_SECRET_KEY and AUTH_ENCRYPTION_SECRET
 - **−** Large surface: 55+ tables, 40+ plugins, nginx and pgAdmin in the Compose stack
 
-<sub>no GPU · Compose · Needs PostgreSQL (production; SQLite for dev), Redis (caching and federation) · Models: A2A agents: OpenAI, Anthropic, custom · port 4444 · [Repo](https://github.com/ibm/mcp-context-forge) · [📖 Docs ↗](https://ibm.github.io/mcp-context-forge/)</sub>
+<sub>no GPU · Docker + Compose · Needs PostgreSQL (production; SQLite for dev), Redis (caching and federation) · Models: A2A agents: OpenAI, Anthropic, custom · port 4444 · [Repo](https://github.com/ibm/mcp-context-forge) · [📖 Docs ↗](https://ibm.github.io/mcp-context-forge/)</sub>
 
 <a name="higress"></a>
 ### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 55 · Freshness 100 · Maintenance 78 · Easy to run 33 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [Higress](https://github.com/higress-group/higress) <sub>⭐ 9.5k · Apache-2.0 · Oct 2026</sub>
@@ -72,7 +72,7 @@ Higress is a CNCF sandbox API gateway on Istio and Envoy, extended with Wasm plu
 - **−** AI features are Wasm plugins on a general API gateway
 - **−** Docs split across higress.ai and higress.cn
 
-<sub>no GPU · Models: mainstream LLM providers, domestic and international, via the ai-proxy plugin · port 8001 · [Repo](https://github.com/higress-group/higress) · [▶️ Demo ↗](https://demo.higress.io/) · [📖 Docs ↗](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site ↗](https://higress.ai/en/)</sub>
+<sub>no GPU · Docker · Models: mainstream LLM providers, domestic and international, via the ai-proxy plugin · port 8001 · [Repo](https://github.com/higress-group/higress) · [▶️ Demo ↗](https://demo.higress.io/) · [📖 Docs ↗](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site ↗](https://higress.ai/en/)</sub>
 
 <a name="bifrost"></a>
 ### [🥉 60](../README.md#-how-we-rank "Score 60/100 (bronze, 55-64). Adoption 45 · Freshness 100 · Maintenance 82 · Easy to run 33 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [Bifrost](https://github.com/maximhq/bifrost) <sub>⭐ 8.7k · Apache-2.0 · Oct 2026</sub>
