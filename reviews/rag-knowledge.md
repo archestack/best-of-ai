@@ -3,7 +3,7 @@
 Document Q&A, knowledge bases and enterprise search over your own files and data. Back to the [leaderboard](../README.md#-rag-and-knowledge).
 
 <a name="lightrag"></a>
-### [🥈 76](../README.md#-how-we-rank "Score 76/100 (silver, 65-79). Adoption 81 · Freshness 100 · Maintenance 89 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [LightRAG](https://github.com/hkuds/lightrag) <sub>⭐ 40k · MIT · Sep 2026</sub>
+### 🥇 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Sep 2026</sub>
 
 **Graph-plus-vector RAG server with web UI and Ollama-compatible API.**
 
@@ -21,7 +21,7 @@ LightRAG indexes documents into a knowledge graph plus vector store and queries 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (recommended for production), Neo4j (optional), MongoDB (optional), Milvus (optional), OpenSearch (optional) · Models: LLM and embedding providers configured in .env, tested with open models such as Qwen3-30B-A3B · [Repo](https://github.com/hkuds/lightrag)</sub>
 
 <a name="open-notebook"></a>
-### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 77 · Freshness 100 · Maintenance 86 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>⭐ 40k · MIT · Oct 2026</sub>
+### 🥈 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
 
 **Self-hosted NotebookLM alternative with podcasts and 20+ model providers.**
 
@@ -39,7 +39,7 @@ Open Notebook collects PDFs, audio, video, web pages and Office files into noteb
 <sub>no GPU · Docker + Compose · Needs SurrealDB · Models: OpenAI, Anthropic, Google, Mistral, Groq, DeepSeek, xAI, OpenRouter, Cohere, Ollama, LM Studio, oMLX and any OpenAI-compatible endpoint · port 8502 · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai)</sub>
 
 <a name="ragflow"></a>
-### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 95 · Freshness 100 · Maintenance 91 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [RAGFlow](https://github.com/infiniflow/ragflow) <sub>⭐ 92k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · Apache-2.0 · Oct 2026</sub>
 
 **RAG engine with deep document parsing, agentic retrieval and knowledge compilation.**
 
@@ -57,7 +57,7 @@ RAGFlow parses Word, slides, Excel, scans and web pages with in-process layout a
 <sub>RAM ≥ 16 GB · no GPU · Docker + Compose · Needs MySQL, Elasticsearch or Infinity, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: external LLM, embedding and reranker providers set by URL and API key · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io/)</sub>
 
 <a name="weknora"></a>
-### [🥈 68](../README.md#-how-we-rank "Score 68/100 (silver, 65-79). Adoption 70 · Freshness 100 · Maintenance 89 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [WeKnora](https://github.com/tencent/weknora) <sub>⭐ 33k · NOASSERTION · Oct 2026</sub>
+### #&#8288;4 [WeKnora](https://github.com/tencent/weknora) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · NOASSERTION · Oct 2026</sub>
 
 **Enterprise knowledge base combining RAG Q&A, agents and generated wikis.**
 
@@ -75,7 +75,7 @@ WeKnora turns team documents into knowledge bases with three modes: cited RAG an
 <sub>no GPU · Docker + Compose · Needs Neo4j (optional profile), MinIO (optional profile), Langfuse (optional profile) · Models: OpenAI, DeepSeek, Qwen, Zhipu, Hunyuan, Gemini, MiniMax, NVIDIA, LiteLLM, Ollama · port 80 · [Repo](https://github.com/tencent/weknora) · [📖 Docs ↗](https://weknora.weixin.qq.com/docs/) · [🌐 Site ↗](https://weknora.weixin.qq.com)</sub>
 
 <a name="surfsense"></a>
-### [🥈 68](../README.md#-how-we-rank "Score 68/100 (silver, 65-79). Adoption 41 · Freshness 100 · Maintenance 91 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [SurfSense](https://github.com/modsetter/surfsense) <sub>⭐ 16k · NOASSERTION · Oct 2026</sub>
+### #&#8288;5 [SurfSense](https://github.com/modsetter/surfsense) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · NOASSERTION · Oct 2026</sub>
 
 **Offline NotebookLM alternative that turns documents into decks, reports and podcasts.**
 
@@ -93,7 +93,7 @@ SurfSense indexes local PDFs, Office files and images into SQLite, answers with 
 <sub>no GPU · Docker + Compose · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · [Repo](https://github.com/modsetter/surfsense) · [📖 Docs ↗](https://www.surfsense.com/docs) · [🌐 Site ↗](https://www.surfsense.com/)</sub>
 
 <a name="maxkb"></a>
-### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 55 · Freshness 100 · Maintenance 96 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [MaxKB](https://github.com/1panel-dev/maxkb) <sub>⭐ 23k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;6 [MaxKB](https://github.com/1panel-dev/maxkb) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · GPL-3.0 · Oct 2026</sub>
 
 **Enterprise knowledge-base agent platform with RAG, workflows and MCP tools.**
 
@@ -111,7 +111,7 @@ MaxKB runs as one Docker container (port 8080, state in one volume) with a RAG p
 <sub>no GPU · Models: OpenAI, Claude, Gemini, MiniMax, DeepSeek, Llama, Qwen as private models · port 8080 · [Repo](https://github.com/1panel-dev/maxkb)</sub>
 
 <a name="private-gpt"></a>
-### [🥉 63](../README.md#-how-we-rank "Score 63/100 (bronze, 55-64). Adoption 87 · Freshness 100 · Maintenance 59 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>⭐ 58k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (59) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Oct 2026</sub>
 
 **Anthropic-style API layer for private RAG on local inference servers.**
 
@@ -129,7 +129,7 @@ PrivateGPT 1.0 is an API server shaped like the Anthropic Messages API, adding f
 <sub>no GPU · Docker · Needs OpenAI-compatible inference server (Ollama, llama.cpp, vLLM) · Models: any model behind an OpenAI-compatible /v1/chat/completions endpoint · port 8080 · [Repo](https://github.com/zylon-ai/private-gpt) · [📖 Docs ↗](https://docs.privategpt.dev/)</sub>
 
 <a name="pipeshub"></a>
-### [🥉 57](../README.md#-how-we-rank "Score 57/100 (bronze, 55-64). Adoption 17 · Freshness 100 · Maintenance 83 · Easy to run 33 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
 
 **Permission-aware search and agent context over 50+ workplace systems.**
 
@@ -147,7 +147,7 @@ PipesHub indexes Slack, Google Drive, GitHub, Microsoft 365, Notion and 50+ syst
 <sub>no GPU · Docker + Compose · Needs Neo4j or ArangoDB, Qdrant, MongoDB, Redis, Kafka (larger deployments) · Models: any LLM provider, bring your own model, Ollama, local embedding server by default · port 3000 · [Repo](https://github.com/pipeshub-ai/pipeshub-ai) · [📖 Docs ↗](https://docs.pipeshub.com/) · [🌐 Site ↗](https://www.pipeshub.com/)</sub>
 
 <a name="deepwiki-open"></a>
-### [🥉 55](../README.md#-how-we-rank "Score 55/100 (bronze, 55-64). Adoption 46 · Freshness 100 · Maintenance 39 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>⭐ 18k · MIT · Sep 2026</sub>
+### #&#8288;9 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (46) · Freshness: active (100) · Maintenance: patchy (39) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Sep 2026</sub>
 
 **Generates browsable wikis and diagrams for GitHub, GitLab and Bitbucket repos.**
 
@@ -163,7 +163,7 @@ DeepWiki-Open takes a repository URL from GitHub, GitLab or Bitbucket, analyzes 
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/asyncfuncai/deepwiki-open) · [🌐 Site ↗](https://grok-wiki.com)</sub>
 
 <a name="db-gpt"></a>
-### [54](../README.md#-how-we-rank "Score 54/100. Adoption 50 · Freshness 100 · Maintenance 61 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>⭐ 20k · MIT · Oct 2026</sub>
+### #&#8288;10 [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Oct 2026</sub>
 
 **Agentic data assistant that writes SQL and code over your databases.**
 
@@ -181,7 +181,7 @@ DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge base
 <sub>GPU optional · Docker + Compose · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/db-gpt) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/)</sub>
 
 <a name="paperless-gpt"></a>
-### [52](../README.md#-how-we-rank "Score 52/100. Adoption 7 · Freshness 100 · Maintenance 79 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>⭐ 2.7k · MIT · Oct 2026</sub>
+### #&#8288;11 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Oct 2026</sub>
 
 **LLM-powered OCR, titles, tags and document links for Paperless-ngx.**
 
@@ -199,7 +199,7 @@ paperless-gpt attaches to Paperless-ngx and uses OpenAI, Ollama, Mistral, Azure 
 <sub>no GPU · Docker + Compose · Needs Paperless-ngx, optional OCR: Google Document AI, Azure Document Intelligence, Docling · Models: OpenAI (gpt-4o), Ollama (qwen3:8b, minicpm-v), Mistral, Azure OpenAI, Anthropic · port 8080 · [Repo](https://github.com/icereed/paperless-gpt)</sub>
 
 <a name="docling-serve"></a>
-### [51](../README.md#-how-we-rank "Score 51/100. Adoption 2 · Freshness 100 · Maintenance 80 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Docling Serve](https://github.com/docling-project/docling-serve) <sub>⭐ 1.9k · MIT · Oct 2026</sub>
+### #&#8288;12 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
 
 **Docling document conversion as an HTTP API with playground UI.**
 
@@ -217,7 +217,7 @@ Docling Serve wraps the Docling document converter in a FastAPI service: POST a 
 <sub>GPU optional · Docker · Models: bundled Docling parsing models · port 5001 · [Repo](https://github.com/docling-project/docling-serve)</sub>
 
 <a name="kotaemon"></a>
-### [50](../README.md#-how-we-rank "Score 50/100. Adoption 60 · Freshness 89 · Maintenance 3 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Kotaemon](https://github.com/cinnamon/kotaemon) <sub>⭐ 26k · Apache-2.0 · May 2026</sub>
+### #&#8288;13 [Kotaemon](https://github.com/cinnamon/kotaemon) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: popular (60) · Freshness: active (89) · Maintenance: weak (3) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · Apache-2.0 · May 2026</sub>
 
 **Gradio RAG UI with hybrid retrieval, citations and multi-user login.**
 
@@ -235,7 +235,7 @@ Kotaemon is a Gradio web app for question answering over uploaded documents, wit
 <sub>no GPU · Docker · Needs Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant (optional stores), Unstructured (optional, for .doc/.docx and more) · Models: OpenAI, Azure OpenAI, Cohere, Groq, Ollama · port 7860 · [Repo](https://github.com/cinnamon/kotaemon) · [▶️ Demo ↗](https://huggingface.co/spaces/cin-model/kotaemon-demo) · [📖 Docs ↗](https://cinnamon.github.io/kotaemon/)</sub>
 
 <a name="morphik"></a>
-### [48](../README.md#-how-we-rank "Score 48/100. Adoption 13 · Freshness 100 · Maintenance 22 · Easy to run 50 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [Morphik](https://github.com/morphik-org/morphik-core) <sub>⭐ 3.7k · NOASSERTION · Oct 2026</sub>
+### #&#8288;14 [Morphik](https://github.com/morphik-org/morphik-core) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: weak (22) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · NOASSERTION · Oct 2026</sub>
 
 **Multimodal retrieval engine for visually rich PDFs, images and video.**
 
@@ -253,7 +253,7 @@ Morphik Core is a retrieval engine for visually rich documents: it embeds page i
 <sub>no GPU · Docker + Compose · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [▶️ Demo ↗](https://dev.morphik.ai) · [📖 Docs ↗](https://dev.morphik.ai/docs) · [🌐 Site ↗](https://morphik.ai)</sub>
 
 <a name="paperless-ai"></a>
-### [38](../README.md#-how-we-rank "Score 38/100. Adoption 27 · Freshness 61 · Maintenance 18 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Paperless-AI](https://github.com/clusterzx/paperless-ai) <sub>⭐ 6.0k · MIT · Mar 2026</sub>
+### #&#8288;15 [Paperless-AI](https://github.com/clusterzx/paperless-ai) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (27) · Freshness: recent (61) · Maintenance: weak (18) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Mar 2026</sub>
 
 **Auto-tags Paperless-ngx documents and adds RAG chat over the archive.**
 

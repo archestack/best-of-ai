@@ -3,7 +3,7 @@
 Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. Back to the [leaderboard](../README.md#-agent-platforms).
 
 <a name="n8n"></a>
-### [🥈 76](../README.md#-how-we-rank "Score 76/100 (silver, 65-79). Adoption 99 · Freshness 100 · Maintenance 92 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [n8n](https://github.com/n8n-io/n8n) <sub>⭐ 207k · NOASSERTION · Oct 2026</sub>
+### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 207k · NOASSERTION · Oct 2026</sub>
 
 **Visual workflow automation with code steps, AI agent nodes and 1500+ integrations.**
 
@@ -20,7 +20,7 @@ n8n is a fair-code workflow platform that runs as one Docker container (docker.n
 <sub>no GPU · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io)</sub>
 
 <a name="dify"></a>
-### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 89 · Freshness 100 · Maintenance 93 · Easy to run 33 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [Dify](https://github.com/langgenius/dify) <sub>⭐ 158k · NOASSERTION · Oct 2026</sub>
+### 🥈 [Dify](https://github.com/langgenius/dify) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 158k · NOASSERTION · Oct 2026</sub>
 
 **Visual LLM app platform with workflows, RAG pipeline, agents and APIs.**
 
@@ -38,7 +38,7 @@ Dify is an LLM app platform started with Docker Compose (dashboard on port 80) t
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [▶️ Demo ↗](https://cloud.dify.ai) · [📖 Docs ↗](https://docs.dify.ai) · [🌐 Site ↗](https://dify.ai)</sub>
 
 <a name="langflow"></a>
-### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 84 · Freshness 100 · Maintenance 92 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Langflow](https://github.com/langflow-ai/langflow) <sub>⭐ 155k · MIT · Oct 2026</sub>
+### 🥉 [Langflow](https://github.com/langflow-ai/langflow) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 155k · MIT · Oct 2026</sub>
 
 **Visual flow builder that deploys agents as APIs or MCP servers.**
 
@@ -55,7 +55,7 @@ Langflow is a Python 3.10 to 3.14 visual builder (uv pip install langflow, or th
 <sub>no GPU · Docker + Compose · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs ↗](https://docs.langflow.org/get-started-installation) · [🌐 Site ↗](https://langflow.org)</sub>
 
 <a name="sim"></a>
-### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 54 · Freshness 100 · Maintenance 84 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Sim](https://github.com/simstudioai/sim) <sub>⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [Sim](https://github.com/simstudioai/sim) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Workspace to build, deploy and monitor agents with 1,000+ integrations.**
 
@@ -73,7 +73,7 @@ Sim is a Next.js and Bun app on PostgreSQL that builds agents visually, by chat 
 <sub>RAM ≥ 12 GB · no GPU · Docker + Compose · Needs PostgreSQL, Docker, Sim Chat API key · Models: Ollama, vLLM · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs ↗](https://docs.sim.ai) · [🌐 Site ↗](https://sim.ai)</sub>
 
 <a name="autogpt"></a>
-### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 94 · Freshness 100 · Maintenance 79 · Easy to run 17 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>⭐ 187k · NOASSERTION · Oct 2026</sub>
+### #&#8288;5 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: hard (17) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 187k · NOASSERTION · Oct 2026</sub>
 
 **Block-based builder for agents that run on demand, schedule or trigger.**
 
@@ -91,7 +91,7 @@ AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire bl
 <sub>no GPU · Needs Docker · [Repo](https://github.com/significant-gravitas/autogpt) · [▶️ Demo ↗](https://platform.agpt.co/tour) · [📖 Docs ↗](https://docs.agpt.co)</sub>
 
 <a name="activepieces"></a>
-### [🥈 68](../README.md#-how-we-rank "Score 68/100 (silver, 65-79). Adoption 42 · Freshness 100 · Maintenance 86 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Activepieces](https://github.com/activepieces/activepieces) <sub>⭐ 25k · NOASSERTION · Oct 2026</sub>
+### #&#8288;6 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · NOASSERTION · Oct 2026</sub>
 
 **Zapier-style automation whose 280+ pieces double as MCP servers.**
 
@@ -108,7 +108,7 @@ Activepieces is a TypeScript workflow automation tool with a no-code builder (lo
 <sub>no GPU · Docker + Compose · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com)</sub>
 
 <a name="multica"></a>
-### [🥈 67](../README.md#-how-we-rank "Score 67/100 (silver, 65-79). Adoption 68 · Freshness 100 · Maintenance 86 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Multica](https://github.com/multica-ai/multica) <sub>⭐ 52k · NOASSERTION · Oct 2026</sub>
+### #&#8288;7 [Multica](https://github.com/multica-ai/multica) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 52k · NOASSERTION · Oct 2026</sub>
 
 **Issue board where coding agents pick up tickets and return pull requests.**
 
@@ -126,7 +126,7 @@ Multica is a Go and Next.js workspace on PostgreSQL 17 where humans and AI codin
 <sub>no GPU · Docker + Compose · Needs PostgreSQL 17, Docker · [Repo](https://github.com/multica-ai/multica) · [📖 Docs ↗](https://multica.ai/docs) · [🌐 Site ↗](https://multica.ai)</sub>
 
 <a name="paperclip"></a>
-### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 78 · Freshness 100 · Maintenance 75 · Easy to run 33 · Agent-ready 45 (each out of 100, weighted). Click for how we rank.") [Paperclip](https://github.com/paperclipai/paperclip) <sub>⭐ 99k · MIT · Oct 2026</sub>
+### #&#8288;8 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 99k · MIT · Oct 2026</sub>
 
 **Task manager and org chart for teams of AI agents with budgets.**
 
@@ -144,7 +144,7 @@ Paperclip is a Node.js server and React UI that coordinates external agents (Ope
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/paperclipai/paperclip) · [📖 Docs ↗](https://docs.paperclip.ing) · [🌐 Site ↗](https://paperclip.ing)</sub>
 
 <a name="skyvern"></a>
-### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 36 · Freshness 100 · Maintenance 81 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>⭐ 23k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;9 [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Oct 2026</sub>
 
 **Browser automation agent driven by vision LLMs over Playwright.**
 
@@ -162,7 +162,7 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 <sub>no GPU · Docker + Compose · port 8080 · [Repo](https://github.com/skyvern-ai/skyvern) · [▶️ Demo ↗](https://app.skyvern.com) · [📖 Docs ↗](https://www.skyvern.com/docs/) · [🌐 Site ↗](https://www.skyvern.com)</sub>
 
 <a name="fastgpt"></a>
-### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 50 · Freshness 100 · Maintenance 88 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [FastGPT](https://github.com/labring/fastgpt) <sub>⭐ 30k · NOASSERTION · Oct 2026</sub>
+### #&#8288;10 [FastGPT](https://github.com/labring/fastgpt) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · NOASSERTION · Oct 2026</sub>
 
 **Knowledge-base Q&A and visual workflow platform for LLM apps.**
 
@@ -180,7 +180,7 @@ FastGPT builds agents and LLM apps from a visual Flow editor on top of a knowled
 <sub>no GPU · Compose · port 3000 · [Repo](https://github.com/labring/fastgpt) · [📖 Docs ↗](https://doc.fastgpt.io/guide/getting-started) · [🌐 Site ↗](https://fastgpt.io)</sub>
 
 <a name="agent-zero"></a>
-### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 29 · Freshness 100 · Maintenance 91 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>⭐ 19k · NOASSERTION · Sep 2026</sub>
+### #&#8288;11 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · NOASSERTION · Sep 2026</sub>
 
 **Agent framework that gives the model a full Linux desktop in Docker.**
 
@@ -198,7 +198,7 @@ Agent Zero runs as the agent0ai/agent-zero Docker image (port 80) and gives the 
 <sub>no GPU · Docker + Compose · Needs Docker · Models: OpenAI Codex plan (OAuth) · port 80 · [Repo](https://github.com/agent0ai/agent-zero) · [🌐 Site ↗](https://agent-zero.ai)</sub>
 
 <a name="botpress"></a>
-### [38](../README.md#-how-we-rank "Score 38/100. Adoption 22 · Freshness 70 · Maintenance 40 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Botpress](https://github.com/botpress/botpress) <sub>⭐ 15k · MIT · Oct 2026</sub>
+### #&#8288;12 [Botpress](https://github.com/botpress/botpress) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (22) · Freshness: recent (70) · Maintenance: patchy (40) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Oct 2026</sub>
 
 **SDK, CLI and open-source integrations for the Botpress Cloud bot platform.**
 

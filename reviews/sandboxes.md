@@ -3,7 +3,7 @@
 Isolated runtimes where agents execute code, browse or use tools safely. Back to the [leaderboard](../README.md#%EF%B8%8F-sandboxes).
 
 <a name="lightpanda"></a>
-### [🥈 78](../README.md#-how-we-rank "Score 78/100 (silver, 65-79). Adoption 86 · Freshness 100 · Maintenance 91 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Lightpanda](https://github.com/lightpanda-io/browser) <sub>⭐ 36k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Oct 2026</sub>
 
 **Headless browser in Zig with CDP, MCP and an agent mode.**
 
@@ -21,7 +21,7 @@ Browser engine written in Zig (V8, libcurl, html5ever) with no graphical rendere
 <sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io)</sub>
 
 <a name="obscura"></a>
-### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 73 · Freshness 100 · Maintenance 91 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Rust headless browser with CDP, native rendering and stealth mode.**
 
@@ -39,7 +39,7 @@ Headless browser engine in Rust running V8 that speaks the Chrome DevTools Proto
 <sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs ↗](https://docs.obscura.sh) · [🌐 Site ↗](https://obscura.sh)</sub>
 
 <a name="nemoclaw"></a>
-### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 62 · Freshness 100 · Maintenance 76 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>⭐ 23k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Oct 2026</sub>
 
 **NVIDIA reference stack running OpenClaw and Hermes inside OpenShell sandboxes.**
 
@@ -57,7 +57,7 @@ CLI and installer that provision OpenShell sandboxes for OpenClaw (default), Her
 <sub>no GPU · Docker · Needs NVIDIA OpenShell, Inference provider (local or routed) · Models: providers configured through OpenShell routed inference · [Repo](https://github.com/nvidia/nemoclaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/)</sub>
 
 <a name="openshell"></a>
-### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 44 · Freshness 100 · Maintenance 88 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [OpenShell](https://github.com/nvidia/openshell) <sub>⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [OpenShell](https://github.com/nvidia/openshell) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **Policy-enforced sandbox runtime for autonomous agents with credential brokering.**
 
@@ -75,7 +75,7 @@ Runs each agent in a sandbox with kernel-enforced limits on file access and syst
 <sub>no GPU · Docker + Compose · Needs Docker, Podman or host virtualization · Models: any provider via routed inference credentials · [Repo](https://github.com/nvidia/openshell) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html)</sub>
 
 <a name="microsandbox"></a>
-### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 30 · Freshness 100 · Maintenance 86 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [microsandbox](https://github.com/superradcompany/microsandbox) <sub>⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
 
 **Local microVMs for untrusted code with fork, snapshot and SDKs.**
 
@@ -93,7 +93,7 @@ Boots OCI images as hardware-isolated microVMs in under 100 ms on Linux with KVM
 <sub>no GPU · Docker · Needs KVM (Linux), Apple Silicon (macOS) or WHP (Windows) · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev/cli/overview)</sub>
 
 <a name="steel-browser"></a>
-### [🥉 60](../README.md#-how-we-rank "Score 60/100 (bronze, 55-64). Adoption 22 · Freshness 100 · Maintenance 42 · Easy to run 83 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: patchy (42) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
 
 **Browser API that manages Chrome sessions for Puppeteer, Playwright and Selenium.**
 
@@ -111,7 +111,7 @@ REST API and UI on port 3000 that launches Chrome sessions with persisted cookie
 <sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev)</sub>
 
 <a name="browser-use-web-ui"></a>
-### [48](../README.md#-how-we-rank "Score 48/100. Adoption 52 · Freshness 67 · Maintenance 0 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>⭐ 17k · MIT · May 2026</sub>
+### #&#8288;7 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (52) · Freshness: recent (67) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
 
 **Gradio UI for running browser-use agents with your own Chrome.**
 
@@ -129,7 +129,7 @@ Gradio front end over the browser-use library that takes a task, drives a Playwr
 <sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs ↗](https://docs.browser-use.com)</sub>
 
 <a name="open-terminal"></a>
-### [45](../README.md#-how-we-rank "Score 45/100. Adoption 5 · Freshness 100 · Maintenance 70 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Open Terminal](https://github.com/open-webui/open-terminal) <sub>⭐ 3.3k · MIT · Sep 2026</sub>
+### #&#8288;8 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Sep 2026</sub>
 
 **REST-driven shell and file sandbox for AI agents, from Open WebUI.**
 
