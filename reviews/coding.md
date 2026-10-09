@@ -39,38 +39,38 @@ Defines development processes (plan, implement, validate, review, PR) as YAML wo
 <a name="openhands"></a>
 ### 🥉 [OpenHands](https://github.com/openhands/openhands) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 90k · MIT · Oct 2026</sub>
 
-**Self-hosted control center for coding agents and automations.**
+**Web control center for running and automating coding agents.**
 
-Web UI and local stack on port 8000 that runs the OpenHands agent or any ACP-compatible agent (Claude Code, Codex, Gemini) on local, Docker, VM or cloud backends. Automations fire on schedules or webhooks and connect to Slack, GitHub and Linear. Installs via npm (Node 24+, uv) or a Docker image, optionally one container per conversation, for teams running coding agents as a shared service.
+Agent Canvas is a web UI for starting conversations with coding agents and scheduling automations. It runs the OpenHands agent by default and can drive Claude Code, Codex, Gemini or any ACP-compatible agent. It connects to one or more Agent Server backends (local, Docker, VM, or OpenHands Cloud) and switches between them from the same frontend.
 
-- **+** Agent-agnostic through ACP: OpenHands, Claude Code, Codex, Gemini
-- **+** Per-conversation Docker sandboxes via OH_CONVERSATION_RUNTIME=docker
-- **+** Binds to loopback by default; LAN exposure needs an explicit flag and API key
-- **+** Scheduled and webhook-driven automations with Slack, GitHub and Linear
-- **−** Project status is beta; the Docker quickstart pins image tag 1.25.0
-- **−** Non-sandboxed install gives the agent full access to the host filesystem
-- **−** No Dockerfile or compose file in the repo; the image is prebuilt on ghcr.io
-- **−** Spread across four repos (Canvas, SDK, TypeScript client, automation)
+- **+** Works with OpenHands, Claude Code, Codex, Gemini, or any ACP agent
+- **+** Switch between local, Docker, VM and cloud backends from one UI
+- **+** Automations run on a schedule or on webhook events, with Slack and GitHub integrations
+- **+** Option to run each conversation in its own Docker container
+- **−** Marked beta in the README
+- **−** Default npm and source installs give the agent full filesystem access
+- **−** Automations need a separate Automation Server repo alongside the Agent Server
+- **−** RAM and GPU requirements are not stated
 
-<sub>no GPU · Docker · Needs Node.js 24+, uv, Docker (sandbox modes) · Models: any LLM via LLM profiles, OpenHands agent, Claude Code, Codex, Gemini · port 8000 · [Repo](https://github.com/openhands/openhands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
+<sub>Docker · Needs Node.js 24+, uv, Docker (optional sandbox) · Models: any LLM (configured via LLM profiles) · port 8000 · [Repo](https://github.com/openhands/openhands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
 
 <a name="openchamber"></a>
-### #&#8288;4 [OpenChamber](https://github.com/openchamber/openchamber) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
+### #&#8288;4 [OpenChamber](https://github.com/openchamber/openchamber) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
 
-**Multi-device workspace for running and reviewing OpenCode agent sessions.**
+**Workspace for running and reviewing OpenCode coding agents across devices.**
 
-Front end over the OpenCode CLI that starts agent sessions, shows diffs and takes changes through review from desktop (macOS, Windows, Linux), web/PWA, VS Code, iOS and Android. Adds Session Goals that keep an agent iterating toward an outcome, Multi-run to compare up to five models, GitHub issue and PR context, scheduled prompts and encrypted remote access via Private Relay. For developers who run OpenCode.
+OpenChamber is a front end for OpenCode coding agents, shipped as a desktop app, web/PWA, VS Code extension, and iOS/Android clients. It adds session goals, multi-run comparison across up to five models, guided diff walkthroughs, GitHub issue and PR integration, and scheduled prompts. A CLI server runs on a workstation and can be reached through an encrypted relay, LAN, tunnels, or SSH.
 
-- **+** Multi-run compares up to five models; Fusion merges the strongest parts
-- **+** Private Relay pairs devices by QR code without opening ports; end-to-end encrypted
-- **+** Desktop builds bundle the matching OpenCode CLI
-- **+** Scheduled tasks with Session Goals continue until done, blocked or capped
-- **−** Tied to OpenCode; no other agent runtime
-- **−** CLI and Web need Node.js 22+ and a separately installed OpenCode CLI
-- **−** Linux AppImages need FUSE (libfuse.so.2) or APPIMAGE_EXTRACT_AND_RUN=1
-- **−** Port and reverse-proxy details are in separate docs, not the README
+- **+** Multi-run sends one task to up to five models, each in its own worktree
+- **+** Session Goals keep the agent working after a turn until the goal is met or blocked
+- **+** Same sessions reachable from desktop, browser, VS Code, iOS and Android
+- **+** Remote access via end-to-end encrypted relay needs no open ports
+- **−** Depends on OpenCode for agents; web and VS Code need a separate OpenCode install
+- **−** CLI/Web requires Node.js 24.14 or newer
+- **−** Docker deployment is not documented in the README
+- **−** RAM, GPU needs and supported model providers are unknown
 
-<sub>no GPU · Docker + Compose · Needs OpenCode CLI (bundled in desktop builds), Node.js 22+ (CLI and Web) · Models: models available through OpenCode · [Repo](https://github.com/openchamber/openchamber)</sub>
+<sub>Docker + Compose · Needs OpenCode CLI, Node.js 24.14+ · [Repo](https://github.com/openchamber/openchamber) · [📖 Docs ↗](https://github.com/openchamber/openchamber/blob/main/packages/docs/content/docs/quickstart.mdx)</sub>
 
 <a name="open-swe"></a>
 ### #&#8288;5 [Open SWE](https://github.com/langchain-ai/open-swe) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
@@ -145,7 +145,7 @@ Browser-based editor that loads a Next.js and Tailwind project into a web contai
 <sub>no GPU · Docker + Compose · Needs Supabase (auth, database, storage), OpenRouter API key, CodeSandbox SDK, Bun · Models: OpenRouter-hosted models, Morph Fast Apply, Relace · [Repo](https://github.com/onlook-dev/onlook) · [▶️ Demo ↗](https://onlook.com) · [📖 Docs ↗](https://docs.onlook.com)</sub>
 
 <a name="tabby"></a>
-### #&#8288;9 [Tabby](https://github.com/tabbyml/tabby) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (66) · Freshness: active (91) · Maintenance: weak (11) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Jun 2026</sub>
+### #&#8288;9 [Tabby](https://github.com/tabbyml/tabby) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (65) · Freshness: active (91) · Maintenance: weak (11) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Jun 2026</sub>
 
 **Self-hosted code completion and chat server for IDEs.**
 

@@ -57,7 +57,7 @@ AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a 
 <sub>no GPU · Docker + Compose · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub>
 
 <a name="big-agi"></a>
-### #&#8288;4 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;4 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Multi-model chat workspace with Beam side-by-side model comparison.**
 
@@ -75,7 +75,7 @@ Big-AGI Open is the self-hostable web app behind big-agi.com, deployable via Doc
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-agi) · [🌐 Site ↗](https://big-agi.com)</sub>
 
 <a name="hermes-webui"></a>
-### #&#8288;5 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
+### #&#8288;5 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Browser UI for Hermes Agent with sessions and file browser.**
 
@@ -93,7 +93,7 @@ Hermes WebUI is a Python server with a vanilla JS frontend (no build step) that 
 <sub>Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [🌐 Site ↗](https://hermes-agent.nousresearch.com/)</sub>
 
 <a name="librechat"></a>
-### #&#8288;6 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 45k · MIT · Oct 2026</sub>
+### #&#8288;6 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 45k · MIT · Oct 2026</sub>
 
 **Multi-provider ChatGPT-style app with agents, MCP, code interpreter and auth.**
 
@@ -147,7 +147,7 @@ NextChat is a Node.js web client (Docker image yidadaa/chatgpt-next-web on port 
 <sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;9 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (62) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;9 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (62) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · AGPL-3.0 · Sep 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 

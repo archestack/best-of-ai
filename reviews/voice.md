@@ -21,22 +21,22 @@ Desktop app (Tauri) and Docker service that clones voices from a short sample an
 <sub>GPU optional · Docker + Compose · Models: Qwen3-TTS 0.6B/1.7B, Qwen CustomVoice, Qwen VoiceDesign, LuxTTS, Chatterbox Multilingual · port 17493 · [Repo](https://github.com/jamiepine/voicebox) · [📖 Docs ↗](https://docs.voicebox.sh) · [🌐 Site ↗](https://voicebox.sh)</sub>
 
 <a name="speech-to-speech"></a>
-### 🥈 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
-**Modular voice-agent pipeline behind an OpenAI Realtime-compatible server.**
+**Modular voice-agent pipeline exposed over the OpenAI Realtime API.**
 
-Runs a VAD, speech-to-text, LLM and text-to-speech cascade and exposes it through the OpenAI Realtime event set over WebSocket and WebRTC at ws://127.0.0.1:8765/v1/realtime. Defaults are Silero VAD, Parakeet TDT and Qwen3-TTS, with the LLM slot pointed at any OpenAI-compatible server, Transformers or mlx-lm. For teams building voice agents or devices that already speak the Realtime protocol.
+Runs a VAD, speech-to-text, LLM and text-to-speech cascade, with each stage in its own thread and swappable by CLI flag. It serves the core OpenAI Realtime event set over WebSocket and WebRTC, so existing Realtime clients can point at it. Defaults are Parakeet TDT for STT and Qwen3-TTS for speech, with the LLM running locally or through any OpenAI-compatible provider.
 
-- **+** Every stage is swappable: 12+ STT backends, 3 LLM backends, 7 TTS backends
-- **+** OpenAI Agents SDK tested against both WebSocket and WebRTC transports
-- **+** Fully local presets for Apple Silicon (MLX) and NVIDIA CUDA; no API key needed
-- **+** pip install; one command runs the server and microphone client together
-- **−** Fully local NVIDIA setup budgets 24 GB VRAM; Apple Silicon 16 GB unified memory
-- **−** Default LLM is a hosted OpenAI model, so transcripts leave the machine unless changed
-- **−** Linux Qwen3-TTS wheel targets CUDA 12.8 and glibc 2.39; older systems need manual wheels
-- **−** DeepFilterNet audio enhancement conflicts with Pocket TTS (numpy<2 vs numpy>=2)
+- **+** Realtime-compatible WebSocket and WebRTC server; clients switch by changing the endpoint URL
+- **+** Fully local on Apple Silicon (MLX) or NVIDIA GPU (Transformers, GGML)
+- **+** Many interchangeable STT and TTS backends, including Whisper variants, Kokoro and Pocket TTS
+- **+** LLM slot accepts hosted providers, vLLM or llama.cpp servers
+- **−** Fully local NVIDIA setup budgets about 24 GB VRAM for the unquantized LLM
+- **−** Default Linux Qwen3-TTS wheel targets CUDA 12.8 and glibc 2.39; other systems need manual wheels
+- **−** Only the core Realtime event set is implemented, not the full API
+- **−** DeepFilterNet needs numpy<2 and conflicts with Pocket TTS
 
-<sub>GPU optional · Docker + Compose · Needs libportaudio2, libsndfile1 · Models: Parakeet TDT, Whisper and Faster Whisper, Qwen3-ASR, Qwen3-TTS, Kokoro-82M · port 8765 · [Repo](https://github.com/huggingface/speech-to-speech)</sub>
+<sub>RAM ≥ 16 GB · GPU optional · Docker + Compose · Needs PortAudio and libsndfile (Linux), OpenAI-compatible LLM server or API (optional) · Models: Parakeet TDT, Whisper, Qwen3-TTS, Kokoro-82M, Transformers LLMs · port 8765 · [Repo](https://github.com/huggingface/speech-to-speech) · [📖 Docs ↗](https://github.com/huggingface/speech-to-speech/blob/main/docs/configuration.md)</sub>
 
 <a name="pocket-tts"></a>
 ### 🥉 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Oct 2026</sub>
@@ -75,7 +75,7 @@ Serves the Kokoro-82M model behind an OpenAI-compatible /v1/audio/speech endpoin
 <sub>GPU optional · Docker + Compose · Needs espeak-ng (optional fallback) · Models: Kokoro-82M v1.0 · port 8880 · [Repo](https://github.com/remsky/kokoro-fastapi) · [▶️ Demo ↗](https://huggingface.co/spaces/Remsky/FastKoko)</sub>
 
 <a name="index-tts"></a>
-### #&#8288;5 [IndexTTS](https://github.com/index-tts/index-tts) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Sep 2026</sub>
+### #&#8288;5 [IndexTTS](https://github.com/index-tts/index-tts) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Sep 2026</sub>
 
 **Zero-shot TTS with emotion, speed and pronunciation control.**
 

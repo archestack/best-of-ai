@@ -3,7 +3,7 @@
 Vector stores and hybrid search engines for embeddings. Back to the [leaderboard](../README.md#-vector-databases).
 
 <a name="milvus"></a>
-### 🥇 [Milvus](https://github.com/milvus-io/milvus) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Milvus](https://github.com/milvus-io/milvus) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · Apache-2.0 · Oct 2026</sub>
 
 **Distributed vector database with dense, sparse and hybrid search at scale.**
 
@@ -57,7 +57,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/)</sub>
 
 <a name="qdrant"></a>
-### #&#8288;4 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Oct 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -93,7 +93,7 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector)</sub>
 
 <a name="weaviate"></a>
-### #&#8288;6 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
+### #&#8288;6 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
 
 **Go vector database with built-in vectorizers, hybrid search and RAG.**
 

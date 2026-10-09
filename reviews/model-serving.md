@@ -3,7 +3,7 @@
 Inference engines and model servers that expose local models over an API. Back to the [leaderboard](../README.md#-model-serving).
 
 <a name="localai"></a>
-### 🥇 [LocalAI](https://github.com/mudler/localai) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
+### 🥇 [LocalAI](https://github.com/mudler/localai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 
 **One OpenAI-compatible server for text, speech, image and video models.**
 
@@ -75,25 +75,25 @@ Ollama runs open-weight models locally with a CLI and a REST API on port 11434, 
 <sub>GPU optional · Docker · Models: Ollama library models (e.g. gemma4), GGUF via llama.cpp · port 11434 · [Repo](https://github.com/ollama/ollama) · [📖 Docs ↗](https://docs.ollama.com/quickstart) · [🌐 Site ↗](https://ollama.com)</sub>
 
 <a name="sglang"></a>
-### #&#8288;5 [SGLang](https://github.com/sgl-project/sglang) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [SGLang](https://github.com/sgl-project/sglang) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Oct 2026</sub>
 
-**Inference framework for LLMs, VLMs and diffusion models on many accelerators.**
+**Inference server for LLM, vision-language and diffusion models.**
 
-SGLang is an inference framework for language, vision-language and diffusion models aimed at agentic workloads, RL rollouts and large-scale serving, shipped as a Docker image or Python package. It runs on NVIDIA (A100 to B300, RTX 30/40/50, Jetson), AMD MI300, Google TPU, Intel Arc and Xeon, Apple Silicon, Ascend and Moore Threads. SGLang Diffusion adds image and video generation.
+SGLang is a Python inference framework for serving large language, vision-language and diffusion models, aimed at agentic workloads, large-scale serving and RL rollouts. It runs on NVIDIA, AMD, Google TPU, Intel, Apple Silicon, Huawei Ascend and Moore Threads hardware, and includes a built-in engine for image and video generation. Install via the lmsysorg/sglang Docker image or uv pip.
 
-- **+** Hardware from NVIDIA and AMD to TPU, Intel, Apple Silicon and Ascend NPUs
-- **+** Hierarchical KV cache across GPU, host memory and storage (HiCache, Mooncake, LMCache)
-- **+** Diffusion image and video generation in the same package
-- **+** Integrations with verl, slime, AReaL, Ray Serve, llm-d and NVIDIA Dynamo
-- **−** README has no launch command; quickstart and cookbook are external
-- **−** uv install requires --prerelease=allow
-- **−** No port, VRAM or model-size guidance in the README
-- **−** Trainium, Cambricon and Qualcomm support still in progress
+- **+** Supports NVIDIA, AMD, TPU, Intel, Apple Silicon, Ascend and Moore Threads hardware
+- **+** Image and video diffusion engine ships in the same package
+- **+** Integrated by RL training frameworks such as verl and slime for rollouts
+- **+** Apache-2.0 license, with a Docker image and a cookbook of launch commands
+- **−** Audio TTS/ASR serving lives in a separate project, SGLang Omni
+- **−** Install requires --prerelease=allow with uv, suggesting prerelease dependencies
+- **−** Several hardware backends (Trainium, Cambricon, MetaX) are still in progress
+- **−** README gives no RAM or VRAM requirements; sizing depends on model and hardware
 
-<sub>GPU optional · Docker + Compose · Models: large language, vision-language and diffusion models (see cookbook) · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs ↗](https://docs.sglang.io/) · [🌐 Site ↗](https://www.sglang.io/)</sub>
+<sub>Docker + Compose · Models: LLMs, vision-language models, diffusion models · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs ↗](https://docs.sglang.io/) · [🌐 Site ↗](https://www.sglang.io/)</sub>
 
 <a name="lemonade"></a>
-### #&#8288;6 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
 
 **Local AI server that targets GPUs and AMD NPUs with OpenAI-style APIs.**
 
@@ -149,23 +149,23 @@ llama-swap is one Go binary that proxies OpenAI and Anthropic API calls to local
 <a name="xinference"></a>
 ### #&#8288;9 [Xinference](https://github.com/xorbitsai/inference) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
 
-**Serves LLM, embedding, speech and image models behind one OpenAI-style API.**
+**Serves LLM, embedding, speech and image models behind one OpenAI-compatible API.**
 
-Xinference serves LLM, embedding, rerank, speech, image and multimodal models behind one OpenAI-compatible API, RPC, CLI and web UI, via pip or the xprobe/xinference image on port 9997. It runs vLLM, its own Xllamacpp llama.cpp binding and other engines across GPUs and CPUs, and scales to multi-node clusters with a Helm chart. Version 3.0 brought breaking changes.
+Xinference is a Python library and server that runs language, embedding, speech recognition, image and multimodal models from a single command, with built-in model definitions and support for custom ones. It exposes an OpenAI-compatible REST API with function calling, plus RPC, a CLI and a web UI, and can spread models across multiple workers. It runs on GPUs and CPUs through backends including vLLM and its own llama.cpp binding.
 
-- **+** One API for LLM, embedding, rerank, speech, image and multimodal models
-- **+** Auto-batching of concurrent requests; Xllamacpp adds continuous batching to llama.cpp
-- **+** Multi-node distributed inference with a Helm chart for Kubernetes
-- **+** Built-in model catalog with frequent additions (OCR, TTS, image editing)
-- **−** Docker image targets NVIDIA GPUs; CPU and Metal need a pip install
-- **−** 3.0.0 release carries breaking changes and migration notes
-- **−** Commercial Enterprise edition exists alongside the community edition
-- **−** README gives no RAM or VRAM guidance
+- **+** One server covers LLM, embedding, audio, image and multimodal models
+- **+** OpenAI-compatible REST API with function calling
+- **+** Distributed inference across workers; Helm chart for Kubernetes
+- **+** Install via pip, one-line script, Docker or Helm
+- **−** Enterprise, Cloud and managed Model API offerings are commercial; edition differences not listed
+- **−** 3.0.0 release notes mention breaking changes and migration steps
+- **−** RAM and VRAM requirements are not stated; they depend on the model
+- **−** README feature list is dense; hardware and backend support per model is unclear
 
-<sub>GPU optional · Models: built-in catalog of LLM, embedding, rerank, speech, image and video models, custom models, engines: vLLM, Xllamacpp (llama.cpp), transformers, TensorRT · port 9997 · [Repo](https://github.com/xorbitsai/inference) · [📖 Docs ↗](https://inference.readthedocs.io/) · [🌐 Site ↗](https://xinference.co)</sub>
+<sub>GPU optional · Models: vLLM, ggml, llama.cpp (xllamacpp), TensorRT, embedding models · port 9997 · [Repo](https://github.com/xorbitsai/inference) · [📖 Docs ↗](https://inference.readthedocs.io/) · [🌐 Site ↗](https://xinference.co)</sub>
 
 <a name="mistral-rs"></a>
-### #&#8288;10 [mistral.rs](https://github.com/ericlbuehler/mistral.rs) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (74) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Oct 2026</sub>
+### #&#8288;10 [mistral.rs](https://github.com/ericlbuehler/mistral.rs) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (74) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Oct 2026</sub>
 
 **Rust inference server with OpenAI and Anthropic APIs and agent tools.**
 
@@ -201,7 +201,7 @@ TextGen runs local LLMs behind a chat UI and an OpenAI/Anthropic-compatible API 
 <sub>GPU optional · Docker + Compose · Models: GGUF via llama.cpp and ik_llama.cpp, Transformers safetensors, EXL3 via ExLlamaV3, TensorRT-LLM · port 7860 · [Repo](https://github.com/oobabooga/textgen)</sub>
 
 <a name="ktransformers"></a>
-### #&#8288;12 [KTransformers](https://github.com/kvcache-ai/ktransformers) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [KTransformers](https://github.com/kvcache-ai/ktransformers) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
 
 **CPU-GPU hybrid inference and fine-tuning for very large MoE models.**
 
@@ -327,7 +327,7 @@ TabbyAPI is a FastAPI server exposing an OpenAI-compatible API for the ExLlamaV3
 <sub>GPU required · Docker + Compose · Models: EXL3 (recommended), FP16/BF16 Hugging Face models · port 5000 · [Repo](https://github.com/theroyallab/tabbyapi) · [📖 Docs ↗](https://theroyallab.github.io/tabbyAPI)</sub>
 
 <a name="openllm"></a>
-### #&#8288;19 [OpenLLM](https://github.com/bentoml/openllm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (46) · Freshness: recent (59) · Maintenance: weak (25) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
+### #&#8288;19 [OpenLLM](https://github.com/bentoml/openllm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (45) · Freshness: recent (59) · Maintenance: weak (25) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
 
 **One-command OpenAI-compatible endpoints for curated open LLMs.**
 

@@ -3,7 +3,7 @@
 LLM gateways and proxies for routing, caching, rate limits and cost control across providers. Back to the [leaderboard](../README.md#-gateways).
 
 <a name="omniroute"></a>
-### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 74k · MIT · Oct 2026</sub>
+### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 75k · MIT · Oct 2026</sub>
 
 **Free-tier-aware AI gateway routing coding agents across 350+ providers.**
 
@@ -23,20 +23,20 @@ OmniRoute is a Node.js gateway (npm, Docker or Electron app) exposing one OpenAI
 <a name="litellm"></a>
 ### 🥈 [LiteLLM](https://github.com/berriai/litellm) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Oct 2026</sub>
 
-**Proxy and SDK that calls 100+ LLM providers in OpenAI format.**
+**OpenAI-format gateway and Python SDK for calling 100+ LLM providers.**
 
-LiteLLM is a Python AI gateway that calls 100+ providers (OpenAI, Anthropic, Gemini, Bedrock, Azure and more) in OpenAI format, as a library or as a proxy server on port 4000. The proxy adds virtual keys, spend tracking, guardrails, load balancing and an admin dashboard, plus an MCP gateway and A2A agent routing. Endpoints cover chat, responses, embeddings, images, audio, rerank and Anthropic messages.
+LiteLLM translates calls to 100+ providers (OpenAI, Anthropic, Gemini, Bedrock, Azure and others) into the OpenAI format, either as a Python SDK or as a proxy server. The proxy adds virtual keys, spend tracking, guardrails, load balancing and an admin dashboard, and it also exposes A2A agent and MCP server gateways. The README reports 8ms P95 latency at 1k RPS.
 
-- **+** 100+ providers behind /chat/completions, /responses, /embeddings, /rerank and /messages
-- **+** Virtual keys, spend tracking, guardrails, load balancing and admin UI built in
-- **+** MCP gateway and A2A agent routing through the same proxy
-- **+** Same code usable as a Python SDK without the proxy
-- **−** Custom license (NOASSERTION); enterprise features sit behind a paid tier
-- **−** 8 ms P95 latency figure is self-benchmarked at 1k RPS
-- **−** Endpoint coverage is uneven across the 100+ providers
-- **−** MCP OAuth may need pre-registered client credentials; dynamic registration can 401
+- **+** One OpenAI-style API across 100+ providers and many endpoint types
+- **+** Proxy includes virtual keys, spend tracking, load balancing and admin dashboard
+- **+** Also gateways A2A agents and MCP servers
+- **+** Use as a Python library or as a standalone proxy
+- **−** License reported as NOASSERTION; an enterprise tier exists, feature split unclear from README
+- **−** Proxy listens on port 4000 and its database requirements are not stated in the README excerpt
+- **−** Provider coverage varies by endpoint; many providers support only chat-style endpoints
+- **−** Python-based, so latency figures depend on the benchmark setup
 
-<sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Gemini, Vertex AI, Bedrock, Azure, Cohere, Groq, Mistral, DeepSeek, Hugging Face, Ollama, vLLM and 100+ more · port 4000 · [Repo](https://github.com/berriai/litellm) · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub>
+<sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure · port 4000 · [Repo](https://github.com/berriai/litellm) · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub>
 
 <a name="mcp-context-forge"></a>
 ### 🥉 [ContextForge MCP Gateway](https://github.com/ibm/mcp-context-forge) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Oct 2026</sub>
@@ -57,7 +57,7 @@ ContextForge is IBM's Python registry and proxy that federates MCP servers, A2A 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (production; SQLite for dev), Redis (caching and federation) · Models: A2A agents: OpenAI, Anthropic, custom · port 4444 · [Repo](https://github.com/ibm/mcp-context-forge) · [📖 Docs ↗](https://ibm.github.io/mcp-context-forge/)</sub>
 
 <a name="higress"></a>
-### #&#8288;4 [Higress](https://github.com/higress-group/higress) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [Higress](https://github.com/higress-group/higress) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · Apache-2.0 · Oct 2026</sub>
 
 **Envoy-based API gateway with LLM proxy plugins and MCP server hosting.**
 
@@ -201,7 +201,7 @@ MetaMCP groups MCP servers into namespaces and publishes each as one MCP endpoin
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · port 12008 · [Repo](https://github.com/metatool-ai/metamcp) · [📖 Docs ↗](https://docs.metamcp.com)</sub>
 
 <a name="coai"></a>
-### #&#8288;12 [CoAI](https://github.com/coaidev/coai) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (50) · Freshness: recent (55) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;12 [CoAI](https://github.com/coaidev/coai) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (50) · Freshness: recent (55) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
 
 **Multi-user chat site plus OpenAI-compatible proxy with billing.**
 

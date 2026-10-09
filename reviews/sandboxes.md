@@ -3,25 +3,25 @@
 Isolated runtimes where agents execute code, browse or use tools safely. Back to the [leaderboard](../README.md#%EF%B8%8F-sandboxes).
 
 <a name="lightpanda"></a>
-### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Oct 2026</sub>
 
-**Headless browser in Zig with CDP, MCP and an agent mode.**
+**Headless browser written in Zig for AI agents and scraping.**
 
-Browser engine written in Zig (V8, libcurl, html5ever) with no graphical renderer. Exposes a CDP server on port 9222 for Puppeteer and Playwright plus WebDriver BiDi, a fetch command that dumps HTML, markdown, PNG or PDF, an MCP server over stdio or HTTP with per-client sessions, and an agent mode driven by Anthropic, OpenAI, Gemini, Ollama, llama.cpp or any OpenAI-compatible endpoint. For scraping and agent fleets where Chrome is too heavy.
+Lightpanda is a headless browser written in Zig, built on V8 for JavaScript, libcurl for HTTP and html5ever for parsing, with no graphical rendering. It exposes a CDP server on port 9222 for Puppeteer and Playwright, plus WebDriver BiDi, an MCP server, and a built-in LLM agent mode. It can also dump pages as HTML, Markdown, PNG or PDF from the command line.
 
-- **+** 100 pages: 123 MB and 5 s versus 2 GB and 46 s for Chrome
-- **+** CDP and WebDriver BiDi servers work with existing Puppeteer and Playwright scripts
-- **+** Agent mode records deterministic PandaScript JS you can replay without an LLM
-- **+** MCP over HTTP isolates each client in its own browsing session
-- **−** No graphical rendering engine; PNG and PDF dumps are text-only renderings
-- **−** Nightly builds only via Homebrew, AUR and GitHub releases; no native Windows binary
-- **−** Usage telemetry on by default; set LIGHTPANDA_DISABLE_TELEMETRY=true
-- **−** AGPL-3.0 license and a CLA for contributions
+- **+** README benchmark: 123MB peak vs 2GB for headless Chrome over 100 pages
+- **+** CDP server works with Puppeteer; WebDriver BiDi also supported
+- **+** MCP server over stdio or HTTP, with isolated or shared sessions
+- **+** Agent output saved as replayable JavaScript scripts that need no LLM at runtime
+- **−** No native Windows build; WSL2 required
+- **−** Linux binaries need glibc; they fail on Alpine/musl
+- **−** Telemetry is on by default; opt out via environment variable
+- **−** Not a full browser: no graphical rendering, partial Web Platform Tests coverage
 
-<sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io)</sub>
+<sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io)</sub>
 
 <a name="obscura"></a>
-### 🥈 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Rust headless browser with CDP, native rendering and stealth mode.**
 
@@ -39,7 +39,7 @@ Headless browser engine in Rust running V8 that speaks the Chrome DevTools Proto
 <sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs ↗](https://docs.obscura.sh) · [🌐 Site ↗](https://obscura.sh)</sub>
 
 <a name="nemoclaw"></a>
-### 🥉 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Oct 2026</sub>
 
 **NVIDIA reference stack running OpenClaw and Hermes inside OpenShell sandboxes.**
 
