@@ -57,7 +57,7 @@ vLLM is a Python serving engine for Hugging Face models that batches requests co
 <sub>GPU optional · Docker · Models: 200+ Hugging Face architectures: Llama, Qwen, Gemma, Mixtral, DeepSeek-V3, GPT-OSS, LLaVA, Qwen-VL, E5-Mistral · [Repo](https://github.com/vllm-project/vllm) · [📖 Docs ↗](https://docs.vllm.ai) · [🌐 Site ↗](https://vllm.ai)</sub>
 
 <a name="ollama"></a>
-### #&#8288;4 [Ollama](https://github.com/ollama/ollama) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 182k · MIT · Oct 2026</sub>
+### #&#8288;4 [Ollama](https://github.com/ollama/ollama) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 183k · MIT · Oct 2026</sub>
 
 **Runs open-weight models locally behind a CLI and REST API.**
 
@@ -165,7 +165,7 @@ llama-swap is one Go binary that proxies OpenAI and Anthropic API calls to local
 <sub>GPU optional · Docker · Needs an upstream inference server (llama-server, vLLM, etc.) · Models: any model served by the configured upstream (GGUF via llama-server, etc.) · port 8080 · [Repo](https://github.com/mostlygeek/llama-swap)</sub>
 
 <a name="xinference"></a>
-### #&#8288;10 [Xinference](https://github.com/xorbitsai/inference) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [Xinference](https://github.com/xorbitsai/inference) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
 
 **Serves LLM, embedding, speech and image models behind one OpenAI-compatible API.**
 

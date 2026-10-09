@@ -39,7 +39,7 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 <sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
 
 <a name="anything-llm"></a>
-### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
+### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
 
 **Document chat and agent app with built-in RAG, MCP and multi-user support.**
 
