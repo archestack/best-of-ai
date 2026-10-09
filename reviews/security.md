@@ -1,9 +1,9 @@
-# 🔐 Security reviews · Best of Self-Hosted AI
+# 🔐 Security reviews · Best of Open-Source AI
 
 AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. Back to the [leaderboard](../README.md#-security).
 
 <a name="strix"></a>
-### 🥇 [Strix](https://github.com/usestrix/strix) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Strix](https://github.com/usestrix/strix) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · Apache-2.0 · Oct 2026</sub>
 
 **Autonomous AI pentesting agents that validate findings with working exploits.**
 
@@ -20,4 +20,4 @@ CLI that runs a team of LLM agents (recon, exploitation, post-exploitation) agai
 
 <sub>no GPU · Docker · Needs docker, LLM API key · Models: OpenAI, Anthropic, Google / Vertex AI, OpenRouter, DeepSeek · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
