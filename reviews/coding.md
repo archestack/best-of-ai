@@ -2,8 +2,24 @@
 
 Self-hosted coding assistants and agents, from editor completion to autonomous task runners. Back to the [leaderboard](../README.md#-coding).
 
+<a name="opencode"></a>
+### [🥈 77](../README.md#-how-we-rank "Score 77/100 (silver, 65-79). Adoption 99 · Freshness 100 · Maintenance 88 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [opencode](https://github.com/anomalyco/opencode) <sub>⭐ 212k · MIT · Oct 2026</sub>
+
+**Terminal coding agent with build and plan modes.**
+
+Runs an AI coding agent in the terminal with two built-in agents: build (full access) and plan (read-only, asks before running bash), plus a general subagent for multi-step searches. Installs via a curl script, npm, Homebrew, Scoop, Chocolatey, pacman, mise or Nix, and ships a beta desktop app for macOS, Windows and Linux. For developers who want an open, configurable coding agent.
+
+- **+** MIT license; installable from npm, Homebrew, Scoop, Chocolatey, pacman, mise and Nix
+- **+** Plan agent denies file edits and asks before bash, for safe codebase exploration
+- **+** Desktop app (beta) for macOS, Windows and Linux alongside the terminal UI
+- **−** README covers install only; providers, config and server mode are in external docs
+- **−** No Dockerfile or compose file in the repo
+- **−** Desktop app is still beta
+
+<sub>no GPU · [Repo](https://github.com/anomalyco/opencode) · [📖 Docs ↗](https://opencode.ai/docs) · [🌐 Site ↗](https://opencode.ai)</sub>
+
 <a name="archon"></a>
-### 🥇 80 [Archon](https://github.com/coleam00/Archon) <sub>⭐ 24k · MIT · Oct 2026</sub>
+### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 46 · Freshness 100 · Maintenance 93 · Easy to run 67 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Archon](https://github.com/coleam00/archon) <sub>⭐ 24k · MIT · Oct 2026</sub>
 
 **YAML workflow engine that runs coding agents in isolated worktrees.**
 
@@ -18,10 +34,28 @@ Defines development processes (plan, implement, validate, review, PR) as YAML wo
 - **−** x64 quick-install binaries require AVX2; older CPUs must build from source
 - **−** Workflows from v0.11.1 and earlier no longer ship and must be copied manually
 
-<sub>no GPU · Docker + Compose · Needs Bun, Claude Code (or Codex or Pi), GitHub CLI, SQLite or PostgreSQL · Models: Claude Code, Codex, Pi · [Repo](https://github.com/coleam00/Archon) · [📖 Docs ↗](https://archon.diy/docs/)</sub>
+<sub>no GPU · Docker + Compose · Needs Bun, Claude Code (or Codex or Pi), GitHub CLI, SQLite or PostgreSQL · Models: Claude Code, Codex, Pi · [Repo](https://github.com/coleam00/archon) · [📖 Docs ↗](https://archon.diy/docs/)</sub>
+
+<a name="openhands"></a>
+### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 89 · Freshness 100 · Maintenance 85 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [OpenHands](https://github.com/openhands/openhands) <sub>⭐ 90k · MIT · Oct 2026</sub>
+
+**Self-hosted control center for coding agents and automations.**
+
+Web UI and local stack on port 8000 that runs the OpenHands agent or any ACP-compatible agent (Claude Code, Codex, Gemini) on local, Docker, VM or cloud backends. Automations fire on schedules or webhooks and connect to Slack, GitHub and Linear. Installs via npm (Node 24+, uv) or a Docker image, optionally one container per conversation, for teams running coding agents as a shared service.
+
+- **+** Agent-agnostic through ACP: OpenHands, Claude Code, Codex, Gemini
+- **+** Per-conversation Docker sandboxes via OH_CONVERSATION_RUNTIME=docker
+- **+** Binds to loopback by default; LAN exposure needs an explicit flag and API key
+- **+** Scheduled and webhook-driven automations with Slack, GitHub and Linear
+- **−** Project status is beta; the Docker quickstart pins image tag 1.25.0
+- **−** Non-sandboxed install gives the agent full access to the host filesystem
+- **−** No Dockerfile or compose file in the repo; the image is prebuilt on ghcr.io
+- **−** Spread across four repos (Canvas, SDK, TypeScript client, automation)
+
+<sub>no GPU · Needs Node.js 24+, uv, Docker (sandbox modes) · Models: any LLM via LLM profiles, OpenHands agent, Claude Code, Codex, Gemini · port 8000 · [Repo](https://github.com/openhands/openhands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
 
 <a name="openchamber"></a>
-### 🥈 75 [OpenChamber](https://github.com/openchamber/openchamber) <sub>⭐ 11k · MIT · Oct 2026</sub>
+### [🥈 67](../README.md#-how-we-rank "Score 67/100 (silver, 65-79). Adoption 32 · Freshness 100 · Maintenance 96 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [OpenChamber](https://github.com/openchamber/openchamber) <sub>⭐ 11k · MIT · Oct 2026</sub>
 
 **Multi-device workspace for running and reviewing OpenCode agent sessions.**
 
@@ -39,7 +73,7 @@ Front end over the OpenCode CLI that starts agent sessions, shows diffs and take
 <sub>no GPU · Docker + Compose · Needs OpenCode CLI (bundled in desktop builds), Node.js 22+ (CLI and Web) · Models: models available through OpenCode · [Repo](https://github.com/openchamber/openchamber)</sub>
 
 <a name="open-swe"></a>
-### 🥈 74 [Open SWE](https://github.com/langchain-ai/open-swe) <sub>⭐ 11k · MIT · Oct 2026</sub>
+### [🥈 66](../README.md#-how-we-rank "Score 66/100 (silver, 65-79). Adoption 24 · Freshness 100 · Maintenance 100 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Open SWE](https://github.com/langchain-ai/open-swe) <sub>⭐ 11k · MIT · Oct 2026</sub>
 
 **LangChain coding agent that plans, implements and reviews pull requests.**
 
@@ -56,42 +90,8 @@ LangGraph-based agent that investigates a repository, implements changes in a pe
 
 <sub>no GPU · Docker + Compose · Needs LangSmith (default sandbox and tracing), GitHub App, Slack app (optional), model provider credentials · Models: configurable LLM providers · [Repo](https://github.com/langchain-ai/open-swe)</sub>
 
-<a name="openhands"></a>
-### 🥈 72 [OpenHands](https://github.com/OpenHands/OpenHands) <sub>⭐ 90k · MIT · Oct 2026</sub>
-
-**Self-hosted control center for coding agents and automations.**
-
-Web UI and local stack on port 8000 that runs the OpenHands agent or any ACP-compatible agent (Claude Code, Codex, Gemini) on local, Docker, VM or cloud backends. Automations fire on schedules or webhooks and connect to Slack, GitHub and Linear. Installs via npm (Node 24+, uv) or a Docker image, optionally one container per conversation, for teams running coding agents as a shared service.
-
-- **+** Agent-agnostic through ACP: OpenHands, Claude Code, Codex, Gemini
-- **+** Per-conversation Docker sandboxes via OH_CONVERSATION_RUNTIME=docker
-- **+** Binds to loopback by default; LAN exposure needs an explicit flag and API key
-- **+** Scheduled and webhook-driven automations with Slack, GitHub and Linear
-- **−** Project status is beta; the Docker quickstart pins image tag 1.25.0
-- **−** Non-sandboxed install gives the agent full access to the host filesystem
-- **−** No Dockerfile or compose file in the repo; the image is prebuilt on ghcr.io
-- **−** Spread across four repos (Canvas, SDK, TypeScript client, automation)
-
-<sub>no GPU · Needs Node.js 24+, uv, Docker (sandbox modes) · Models: any LLM via LLM profiles, OpenHands agent, Claude Code, Codex, Gemini · port 8000 · [Repo](https://github.com/OpenHands/OpenHands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
-
-<a name="opencode"></a>
-### 🥈 70 [opencode](https://github.com/anomalyco/opencode) <sub>⭐ 212k · MIT · Oct 2026</sub>
-
-**Terminal coding agent with build and plan modes.**
-
-Runs an AI coding agent in the terminal with two built-in agents: build (full access) and plan (read-only, asks before running bash), plus a general subagent for multi-step searches. Installs via a curl script, npm, Homebrew, Scoop, Chocolatey, pacman, mise or Nix, and ships a beta desktop app for macOS, Windows and Linux. For developers who want an open, configurable coding agent.
-
-- **+** MIT license; installable from npm, Homebrew, Scoop, Chocolatey, pacman, mise and Nix
-- **+** Plan agent denies file edits and asks before bash, for safe codebase exploration
-- **+** Desktop app (beta) for macOS, Windows and Linux alongside the terminal UI
-- **−** README covers install only; providers, config and server mode are in external docs
-- **−** No Dockerfile or compose file in the repo
-- **−** Desktop app is still beta
-
-<sub>no GPU · [Repo](https://github.com/anomalyco/opencode) · [📖 Docs ↗](https://opencode.ai/docs) · [🌐 Site ↗](https://opencode.ai)</sub>
-
 <a name="screenshot-to-code"></a>
-### 🥉 60 [screenshot-to-code](https://github.com/abi/screenshot-to-code) <sub>⭐ 80k · MIT · Jul 2026</sub>
+### [🥉 63](../README.md#-how-we-rank "Score 63/100 (bronze, 55-64). Adoption 81 · Freshness 100 · Maintenance 33 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [screenshot-to-code](https://github.com/abi/screenshot-to-code) <sub>⭐ 80k · MIT · Jul 2026</sub>
 
 **Turns screenshots and mockups into Tailwind, React or Vue code.**
 
@@ -108,8 +108,26 @@ Takes a screenshot, mockup, Figma export or screen recording and generates HTML 
 
 <sub>no GPU · Compose · Needs OpenAI, Anthropic or Gemini API key, Replicate API key (optional), Playwright Chromium (optional preview) · Models: Gemini 3 Flash Preview, Gemini 3.1 Pro Preview, GPT-5.5, GPT-5.4 Mini, Claude Opus 4.6/4.8 · port 5173 · [Repo](https://github.com/abi/screenshot-to-code) · [▶️ Demo ↗](https://screenshottocode.com/)</sub>
 
+<a name="background-agents"></a>
+### [🥉 59](../README.md#-how-we-rank "Score 59/100 (bronze, 55-64). Adoption 5 · Freshness 100 · Maintenance 51 · Easy to run 67 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Background Agents](https://github.com/colemurray/background-agents) <sub>⭐ 3.3k · MIT · Oct 2026</sub>
+
+**Background coding agents on cloud sandboxes with Slack, GitHub and Linear triggers.**
+
+Runs coding sessions in cloud sandboxes coordinated by a Cloudflare Workers control plane, driven from a web UI, Slack, GitHub PR comments, Linear issues or webhooks. Sessions use OpenCode or the Claude Agent harness with Anthropic, OpenAI, xAI, DeepSeek or Z.AI models, with multiplayer editing, commit attribution, child sessions and cron or event automations. For single-tenant engineering orgs.
+
+- **+** Snapshot restore, prebuilt images and proactive warming for fast session starts
+- **+** Automations from cron, Sentry alerts, GitHub workflow runs and inbound webhooks
+- **+** Secrets encrypted with AES-256-GCM and scoped globally, per repo or per environment
+- **+** Browser automation, code-server and a web terminal inside each sandbox
+- **−** Single-tenant only; all users must be trusted members of one organization
+- **−** Control plane requires Cloudflare Workers, Durable Objects and D1
+- **−** Sandboxes run on third-party providers (Modal, Daytona, E2B, OpenComputer, Vercel)
+- **−** Cached credentials can persist in snapshots; grant removal does not revoke tokens
+
+<sub>no GPU · Compose · Needs Cloudflare Workers, Durable Objects and D1, Sandbox provider (Modal, Daytona, E2B, OpenComputer or Vercel Sandbox), GitHub App, Slack and Linear apps (optional) · Models: Anthropic Claude (API key or subscription), OpenAI Codex via ChatGPT subscription, xAI Grok via SuperGrok, OpenCode Zen and Go, Z.AI Coding Plan · [Repo](https://github.com/colemurray/background-agents)</sub>
+
 <a name="onlook"></a>
-### 🥉 56 [Onlook](https://github.com/onlook-dev/onlook) <sub>⭐ 27k · Apache-2.0 · Jul 2026</sub>
+### [53](../README.md#-how-we-rank "Score 53/100. Adoption 54 · Freshness 78 · Maintenance 11 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Onlook](https://github.com/onlook-dev/onlook) <sub>⭐ 27k · Apache-2.0 · Jul 2026</sub>
 
 **Visual editor that edits Next.js and Tailwind apps with AI.**
 
@@ -127,7 +145,7 @@ Browser-based editor that loads a Next.js and Tailwind project into a web contai
 <sub>no GPU · Docker + Compose · Needs Supabase (auth, database, storage), OpenRouter API key, CodeSandbox SDK, Bun · Models: OpenRouter-hosted models, Morph Fast Apply, Relace · [Repo](https://github.com/onlook-dev/onlook) · [▶️ Demo ↗](https://onlook.com) · [📖 Docs ↗](https://docs.onlook.com)</sub>
 
 <a name="tabby"></a>
-### 51 [Tabby](https://github.com/TabbyML/tabby) <sub>⭐ 34k · NOASSERTION · Jun 2026</sub>
+### [48](../README.md#-how-we-rank "Score 48/100. Adoption 66 · Freshness 91 · Maintenance 11 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Tabby](https://github.com/tabbyml/tabby) <sub>⭐ 34k · NOASSERTION · Jun 2026</sub>
 
 **Self-hosted code completion and chat server for IDEs.**
 
@@ -142,24 +160,6 @@ Serves code completion and chat to VS Code, Vim and JetBrains extensions from on
 - **−** Model list and hardware guidance live only in the external docs
 - **−** Building from source needs Rust, protobuf and OpenBLAS
 
-<sub>GPU optional · Models: StarCoder-1B, Qwen2-1.5B-Instruct, CodeLlama 7B, CodeGemma, CodeQwen · port 8080 · [Repo](https://github.com/TabbyML/tabby) · [▶️ Demo ↗](https://tabby.tabbyml.com) · [📖 Docs ↗](https://tabby.tabbyml.com/docs/welcome/)</sub>
-
-<a name="background-agents"></a>
-### 51 [Background Agents](https://github.com/ColeMurray/background-agents) <sub>⭐ 3.3k · MIT · Oct 2026</sub>
-
-**Background coding agents on cloud sandboxes with Slack, GitHub and Linear triggers.**
-
-Runs coding sessions in cloud sandboxes coordinated by a Cloudflare Workers control plane, driven from a web UI, Slack, GitHub PR comments, Linear issues or webhooks. Sessions use OpenCode or the Claude Agent harness with Anthropic, OpenAI, xAI, DeepSeek or Z.AI models, with multiplayer editing, commit attribution, child sessions and cron or event automations. For single-tenant engineering orgs.
-
-- **+** Snapshot restore, prebuilt images and proactive warming for fast session starts
-- **+** Automations from cron, Sentry alerts, GitHub workflow runs and inbound webhooks
-- **+** Secrets encrypted with AES-256-GCM and scoped globally, per repo or per environment
-- **+** Browser automation, code-server and a web terminal inside each sandbox
-- **−** Single-tenant only; all users must be trusted members of one organization
-- **−** Control plane requires Cloudflare Workers, Durable Objects and D1
-- **−** Sandboxes run on third-party providers (Modal, Daytona, E2B, OpenComputer, Vercel)
-- **−** Cached credentials can persist in snapshots; grant removal does not revoke tokens
-
-<sub>no GPU · Compose · Needs Cloudflare Workers, Durable Objects and D1, Sandbox provider (Modal, Daytona, E2B, OpenComputer or Vercel Sandbox), GitHub App, Slack and Linear apps (optional) · Models: Anthropic Claude (API key or subscription), OpenAI Codex via ChatGPT subscription, xAI Grok via SuperGrok, OpenCode Zen and Go, Z.AI Coding Plan · [Repo](https://github.com/ColeMurray/background-agents)</sub>
+<sub>GPU optional · Models: StarCoder-1B, Qwen2-1.5B-Instruct, CodeLlama 7B, CodeGemma, CodeQwen · port 8080 · [Repo](https://github.com/tabbyml/tabby) · [▶️ Demo ↗](https://tabby.tabbyml.com) · [📖 Docs ↗](https://tabby.tabbyml.com/docs/welcome/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-selfhosted-ai/issues/new/choose).</sub>

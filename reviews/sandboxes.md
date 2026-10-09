@@ -3,7 +3,7 @@
 Isolated runtimes where agents execute code, browse or use tools safely. Back to the [leaderboard](../README.md#%EF%B8%8F-sandboxes).
 
 <a name="obscura"></a>
-### 🥈 72 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 73 · Freshness 100 · Maintenance 91 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Rust headless browser with CDP, native rendering and stealth mode.**
 
@@ -20,26 +20,8 @@ Headless browser engine in Rust running V8 that speaks the Chrome DevTools Proto
 
 <sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs ↗](https://docs.obscura.sh) · [🌐 Site ↗](https://obscura.sh)</sub>
 
-<a name="nemoclaw"></a>
-### 🥈 71 [NemoClaw](https://github.com/NVIDIA/NemoClaw) <sub>⭐ 23k · Apache-2.0 · Oct 2026</sub>
-
-**NVIDIA reference stack running OpenClaw and Hermes inside OpenShell sandboxes.**
-
-CLI and installer that provision OpenShell sandboxes for OpenClaw (default), Hermes or LangChain Deep Agents Code, with guided onboarding, inference provider selection, baseline network policies with operator approval, managed integrations and persistent sandbox state. Express install targets DGX hosts and Windows WSL; a starter prompt lets Cursor, Claude Code or Codex drive setup. For personal agents with kernel-enforced isolation.
-
-- **+** Three supported agents: OpenClaw, Hermes, LangChain Deep Agents Code
-- **+** Network policy with operator approval flow and egress control from OpenShell
-- **+** Express preset install on DGX and WSL hosts
-- **+** Documented sandbox hardening: capability drops and process limits
-- **−** Alpha project; maintainers review issues without guaranteed response times
-- **−** Depends on OpenShell as the runtime; details live in NVIDIA docs, not the README
-- **−** README is mostly links; no architecture or resource figures in the repo itself
-- **−** Supported platforms are limited to those on the prerequisites page
-
-<sub>no GPU · Docker · Needs NVIDIA OpenShell, Inference provider (local or routed) · Models: providers configured through OpenShell routed inference · [Repo](https://github.com/NVIDIA/NemoClaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/)</sub>
-
 <a name="lightpanda"></a>
-### 🥈 66 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>⭐ 36k · AGPL-3.0 · Oct 2026</sub>
+### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 86 · Freshness 70 · Maintenance 91 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Lightpanda](https://github.com/lightpanda-io/browser) <sub>⭐ 36k · AGPL-3.0 · Oct 2026</sub>
 
 **Headless browser in Zig with CDP, MCP and an agent mode.**
 
@@ -56,8 +38,26 @@ Browser engine written in Zig (V8, libcurl, html5ever) with no graphical rendere
 
 <sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io)</sub>
 
+<a name="nemoclaw"></a>
+### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 62 · Freshness 100 · Maintenance 76 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>⭐ 23k · Apache-2.0 · Oct 2026</sub>
+
+**NVIDIA reference stack running OpenClaw and Hermes inside OpenShell sandboxes.**
+
+CLI and installer that provision OpenShell sandboxes for OpenClaw (default), Hermes or LangChain Deep Agents Code, with guided onboarding, inference provider selection, baseline network policies with operator approval, managed integrations and persistent sandbox state. Express install targets DGX hosts and Windows WSL; a starter prompt lets Cursor, Claude Code or Codex drive setup. For personal agents with kernel-enforced isolation.
+
+- **+** Three supported agents: OpenClaw, Hermes, LangChain Deep Agents Code
+- **+** Network policy with operator approval flow and egress control from OpenShell
+- **+** Express preset install on DGX and WSL hosts
+- **+** Documented sandbox hardening: capability drops and process limits
+- **−** Alpha project; maintainers review issues without guaranteed response times
+- **−** Depends on OpenShell as the runtime; details live in NVIDIA docs, not the README
+- **−** README is mostly links; no architecture or resource figures in the repo itself
+- **−** Supported platforms are limited to those on the prerequisites page
+
+<sub>no GPU · Docker · Needs NVIDIA OpenShell, Inference provider (local or routed) · Models: providers configured through OpenShell routed inference · [Repo](https://github.com/nvidia/nemoclaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/)</sub>
+
 <a name="openshell"></a>
-### 🥉 61 [OpenShell](https://github.com/NVIDIA/OpenShell) <sub>⭐ 15k · Apache-2.0 · Oct 2026</sub>
+### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 44 · Freshness 100 · Maintenance 88 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [OpenShell](https://github.com/nvidia/openshell) <sub>⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **Policy-enforced sandbox runtime for autonomous agents with credential brokering.**
 
@@ -72,28 +72,10 @@ Runs each agent in a sandbox with kernel-enforced limits on file access and syst
 - **−** Anonymous telemetry on by default; disable with OPENSHELL_TELEMETRY_ENABLED=false
 - **−** Kubernetes installs require a CNI that enforces NetworkPolicy
 
-<sub>no GPU · Needs Docker, Podman or host virtualization · Models: any provider via routed inference credentials · [Repo](https://github.com/NVIDIA/OpenShell) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html)</sub>
-
-<a name="steel-browser"></a>
-### 🥉 58 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
-
-**Browser API that manages Chrome sessions for Puppeteer, Playwright and Selenium.**
-
-REST API and UI on port 3000 that launches Chrome sessions with persisted cookies and storage, proxy chains, stealth plugins and request logging, then hands you a CDP endpoint for Puppeteer or Playwright or a WebDriver endpoint for Selenium. Quick-action endpoints return a page as HTML, markdown, screenshot or PDF. Runs from a prebuilt ghcr.io image or docker compose; Node and Python SDKs target cloud or self-hosted instances.
-
-- **+** One image serves API, UI and console debugger (ports 3000 and 9223)
-- **+** Session API persists cookies and storage; Selenium sessions via isSelenium
-- **+** Swagger UI at /documentation on the local instance
-- **+** Node and Python SDKs switch between cloud and self-host with baseURL
-- **−** Public beta; API still changing
-- **−** Runs full Chrome; needs a Chrome executable when run outside Docker
-- **−** Selenium integration lacks some features of the CDP session API
-- **−** Apple Silicon compose needs DOCKER_DEFAULT_PLATFORM=linux/arm64
-
-<sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev)</sub>
+<sub>no GPU · Needs Docker, Podman or host virtualization · Models: any provider via routed inference credentials · [Repo](https://github.com/nvidia/openshell) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html)</sub>
 
 <a name="microsandbox"></a>
-### 53 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
+### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 30 · Freshness 100 · Maintenance 86 · Easy to run 50 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [microsandbox](https://github.com/superradcompany/microsandbox) <sub>⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
 
 **Local microVMs for untrusted code with fork, snapshot and SDKs.**
 
@@ -110,8 +92,26 @@ Boots OCI images as hardware-isolated microVMs in under 100 ms on Linux with KVM
 
 <sub>no GPU · Needs KVM (Linux), Apple Silicon (macOS) or WHP (Windows) · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev/cli/overview)</sub>
 
+<a name="steel-browser"></a>
+### [🥉 60](../README.md#-how-we-rank "Score 60/100 (bronze, 55-64). Adoption 22 · Freshness 100 · Maintenance 42 · Easy to run 83 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
+
+**Browser API that manages Chrome sessions for Puppeteer, Playwright and Selenium.**
+
+REST API and UI on port 3000 that launches Chrome sessions with persisted cookies and storage, proxy chains, stealth plugins and request logging, then hands you a CDP endpoint for Puppeteer or Playwright or a WebDriver endpoint for Selenium. Quick-action endpoints return a page as HTML, markdown, screenshot or PDF. Runs from a prebuilt ghcr.io image or docker compose; Node and Python SDKs target cloud or self-hosted instances.
+
+- **+** One image serves API, UI and console debugger (ports 3000 and 9223)
+- **+** Session API persists cookies and storage; Selenium sessions via isSelenium
+- **+** Swagger UI at /documentation on the local instance
+- **+** Node and Python SDKs switch between cloud and self-host with baseURL
+- **−** Public beta; API still changing
+- **−** Runs full Chrome; needs a Chrome executable when run outside Docker
+- **−** Selenium integration lacks some features of the CDP session API
+- **−** Apple Silicon compose needs DOCKER_DEFAULT_PLATFORM=linux/arm64
+
+<sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev)</sub>
+
 <a name="browser-use-web-ui"></a>
-### 48 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>⭐ 17k · MIT · May 2026</sub>
+### [48](../README.md#-how-we-rank "Score 48/100. Adoption 52 · Freshness 67 · Maintenance 0 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>⭐ 17k · MIT · May 2026</sub>
 
 **Gradio UI for running browser-use agents with your own Chrome.**
 
@@ -129,7 +129,7 @@ Gradio front end over the browser-use library that takes a task, drives a Playwr
 <sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs ↗](https://docs.browser-use.com)</sub>
 
 <a name="open-terminal"></a>
-### 48 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>⭐ 3.3k · MIT · Sep 2026</sub>
+### [45](../README.md#-how-we-rank "Score 45/100. Adoption 5 · Freshness 100 · Maintenance 70 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Open Terminal](https://github.com/open-webui/open-terminal) <sub>⭐ 3.3k · MIT · Sep 2026</sub>
 
 **REST-driven shell and file sandbox for AI agents, from Open WebUI.**
 

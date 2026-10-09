@@ -3,7 +3,7 @@
 Vector stores and hybrid search engines for embeddings. Back to the [leaderboard](../README.md#-vector-databases).
 
 <a name="milvus"></a>
-### 🥈 78 [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
+### [🥇 81](../README.md#-how-we-rank "Score 81/100 (gold, 80+). Adoption 83 · Freshness 100 · Maintenance 84 · Easy to run 67 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Milvus](https://github.com/milvus-io/milvus) <sub>⭐ 46k · Apache-2.0 · Oct 2026</sub>
 
 **Distributed vector database with dense, sparse and hybrid search at scale.**
 
@@ -21,7 +21,7 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 <sub>GPU optional · Compose · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [▶️ Demo ↗](https://milvus.io/milvus-demos) · [📖 Docs ↗](https://milvus.io/docs) · [🌐 Site ↗](https://milvus.io/)</sub>
 
 <a name="meilisearch"></a>
-### 🥈 72 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
+### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 92 · Freshness 100 · Maintenance 81 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>⭐ 60k · NOASSERTION · Oct 2026</sub>
 
 **Rust search engine API with full-text, vector and hybrid search.**
 
@@ -39,7 +39,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 <sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com)</sub>
 
 <a name="chroma"></a>
-### 🥈 72 [Chroma](https://github.com/chroma-core/chroma) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### [🥉 64](../README.md#-how-we-rank "Score 64/100 (bronze, 55-64). Adoption 62 · Freshness 100 · Maintenance 37 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Chroma](https://github.com/chroma-core/chroma) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Embedding database with a four-function API for Python and JavaScript.**
 
@@ -56,26 +56,8 @@ Chroma is an embedding database with a four-function API (create collection, add
 
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/)</sub>
 
-<a name="weaviate"></a>
-### 🥈 68 [Weaviate](https://github.com/weaviate/weaviate) <sub>⭐ 17k · NOASSERTION · Oct 2026</sub>
-
-**Go vector database with built-in vectorizers, hybrid search and RAG.**
-
-Weaviate is a Go vector database that stores objects with their vectors and serves hybrid BM25 plus semantic search, filtering, built-in RAG and reranking through REST, gRPC and GraphQL APIs. It can vectorize data at import using modules for OpenAI, Cohere, HuggingFace, Google or a local model2vec image, or accept precomputed vectors. Docker Compose runs it on ports 8080 and 50051; production adds multi-tenancy, replication and RBAC.
-
-- **+** Vectorizes at import with OpenAI, Cohere, HuggingFace, Google or a local model2vec container
-- **+** Hybrid BM25 plus vector, image search, filtering, RAG and reranking in one query
-- **+** Multi-tenancy, replication, RBAC, horizontal scaling and vector compression
-- **+** REST, gRPC and GraphQL with Python, TypeScript, Java, Go and C# clients
-- **−** Enterprise features in wl/ need a commercial license key; one image mixes both
-- **−** Vectorization needs a module container or external API keys
-- **−** No RAM or sizing guidance in the README
-- **−** Both REST 8080 and gRPC 50051 must be exposed
-
-<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io)</sub>
-
 <a name="qdrant"></a>
-### 🥈 65 [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### [🥉 63](../README.md#-how-we-rank "Score 63/100 (bronze, 55-64). Adoption 73 · Freshness 100 · Maintenance 82 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Qdrant](https://github.com/qdrant/qdrant) <sub>⭐ 35k · Apache-2.0 · Oct 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -92,26 +74,8 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 
 <sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo ↗](https://qdrant.to/semantic-search-demo) · [📖 Docs ↗](https://qdrant.tech/documentation/)</sub>
 
-<a name="helix-db"></a>
-### 🥉 57 [HelixDB](https://github.com/HelixDB/helix-db) <sub>⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
-
-**Rust graph database with native vector and BM25 search.**
-
-HelixDB is a Rust database that combines a labeled property graph, approximate nearest-neighbor vector search and BM25 full-text search in one transactional engine. A CLI starts a local instance in Docker or Podman on port 6969 (in-memory by default, --disk to persist) or the engine runs embedded, and Rust, TypeScript, Python and Go SDKs send the same JSON queries to POST /v2/query.
-
-- **+** Graph traversal, vector ANN and BM25 in one transactional engine
-- **+** Vector search prefiltered by graph traversal
-- **+** SDKs for Rust, TypeScript, Python and Go sending the same JSON query
-- **+** Embedded mode runs inside your process without a server
-- **−** Local data is in-memory unless started with --disk
-- **−** Python and Go SDKs are 0.x while Rust and TypeScript are 3.x
-- **−** Cypher support only in source builds
-- **−** Install is a curl piped to bash script
-
-<sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/HelixDB/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com)</sub>
-
 <a name="pgvector"></a>
-### 54 [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>
+### [🥉 59](../README.md#-how-we-rank "Score 59/100 (bronze, 55-64). Adoption 52 · Freshness 100 · Maintenance 58 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [pgvector](https://github.com/pgvector/pgvector) <sub>⭐ 23k · NOASSERTION · Oct 2026</sub>
 
 **PostgreSQL extension for vector similarity search with HNSW and IVFFlat.**
 
@@ -128,8 +92,44 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector)</sub>
 
+<a name="weaviate"></a>
+### [🥉 57](../README.md#-how-we-rank "Score 57/100 (bronze, 55-64). Adoption 43 · Freshness 100 · Maintenance 72 · Easy to run 33 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [Weaviate](https://github.com/weaviate/weaviate) <sub>⭐ 17k · NOASSERTION · Oct 2026</sub>
+
+**Go vector database with built-in vectorizers, hybrid search and RAG.**
+
+Weaviate is a Go vector database that stores objects with their vectors and serves hybrid BM25 plus semantic search, filtering, built-in RAG and reranking through REST, gRPC and GraphQL APIs. It can vectorize data at import using modules for OpenAI, Cohere, HuggingFace, Google or a local model2vec image, or accept precomputed vectors. Docker Compose runs it on ports 8080 and 50051; production adds multi-tenancy, replication and RBAC.
+
+- **+** Vectorizes at import with OpenAI, Cohere, HuggingFace, Google or a local model2vec container
+- **+** Hybrid BM25 plus vector, image search, filtering, RAG and reranking in one query
+- **+** Multi-tenancy, replication, RBAC, horizontal scaling and vector compression
+- **+** REST, gRPC and GraphQL with Python, TypeScript, Java, Go and C# clients
+- **−** Enterprise features in wl/ need a commercial license key; one image mixes both
+- **−** Vectorization needs a module container or external API keys
+- **−** No RAM or sizing guidance in the README
+- **−** Both REST 8080 and gRPC 50051 must be exposed
+
+<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io)</sub>
+
+<a name="helix-db"></a>
+### [🥉 55](../README.md#-how-we-rank "Score 55/100 (bronze, 55-64). Adoption 19 · Freshness 100 · Maintenance 96 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [HelixDB](https://github.com/helixdb/helix-db) <sub>⭐ 6.1k · Apache-2.0 · Oct 2026</sub>
+
+**Rust graph database with native vector and BM25 search.**
+
+HelixDB is a Rust database that combines a labeled property graph, approximate nearest-neighbor vector search and BM25 full-text search in one transactional engine. A CLI starts a local instance in Docker or Podman on port 6969 (in-memory by default, --disk to persist) or the engine runs embedded, and Rust, TypeScript, Python and Go SDKs send the same JSON queries to POST /v2/query.
+
+- **+** Graph traversal, vector ANN and BM25 in one transactional engine
+- **+** Vector search prefiltered by graph traversal
+- **+** SDKs for Rust, TypeScript, Python and Go sending the same JSON query
+- **+** Embedded mode runs inside your process without a server
+- **−** Local data is in-memory unless started with --disk
+- **−** Python and Go SDKs are 0.x while Rust and TypeScript are 3.x
+- **−** Cypher support only in source builds
+- **−** Install is a curl piped to bash script
+
+<sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com)</sub>
+
 <a name="vespa"></a>
-### 41 [Vespa](https://github.com/vespa-engine/vespa) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### [41](../README.md#-how-we-rank "Score 41/100. Adoption 26 · Freshness 100 · Maintenance 80 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [Vespa](https://github.com/vespa-engine/vespa) <sub>⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -147,7 +147,7 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai)</sub>
 
 <a name="marqo"></a>
-### 31 [Marqo](https://github.com/marqo-ai/marqo) <sub>⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
+### [33](../README.md#-how-we-rank "Score 33/100. Adoption 10 · Freshness 76 · Maintenance 0 · Easy to run 33 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [Marqo](https://github.com/marqo-ai/marqo) <sub>⭐ 5.0k · Apache-2.0 · Apr 2026</sub>
 
 **Vector search engine with built-in embedding, now deprecated upstream.**
 
