@@ -111,19 +111,20 @@ Multica is a workspace where issues are assigned to AI coding agents, which run 
 <a name="activepieces"></a>
 ### #&#8288;7 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
 
-**Zapier-style automation whose 280+ pieces double as MCP servers.**
+**Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
-Activepieces is a TypeScript workflow automation tool with a no-code builder (loops, branches, retries, HTTP, npm code steps, versioned flows) and a pieces framework where every integration is an npm package. All 280+ pieces are exposed as MCP servers for Claude Desktop, Cursor or Windsurf, native AI pieces and an AI SDK build agents inside flows, and human-in-the-loop steps, chat and form interfaces are included.
+Activepieces is a no-code workflow builder with loops, branches, auto retries, HTTP calls and npm-backed code steps, and flows are versioned. Integrations are called pieces: TypeScript npm packages, 280+ of which are exposed as MCP servers for Claude Desktop, Cursor or Windsurf. It also has AI pieces for several providers, human-in-the-loop approvals, and chat and form triggers.
 
-- **+** Every piece is also an MCP server usable from Claude Desktop, Cursor or Windsurf
-- **+** Pieces are TypeScript npm packages with hot reload for local development
-- **+** 60% of pieces contributed by the community; all published on npmjs.com
-- **+** Community Edition is MIT
-- **−** Enterprise features ship under a separate commercial license
-- **−** README has no install commands, ports or resource figures; deploy is a docs link
-- **−** Model providers beyond an OpenAI piece are not named in the README
+- **+** Pieces are open-source TypeScript npm packages with hot reloading for local development
+- **+** 280+ pieces usable as MCP servers from Claude Desktop, Cursor or Windsurf
+- **+** Flows are versioned and support loops, branches and auto retries
+- **+** Built-in approval, delay, chat and form triggers for human-in-the-loop flows
+- **−** Enterprise features sit under a separate commercial license, not MIT
+- **−** README does not state RAM, CPU or database requirements
+- **−** Automation-first; AI agents are one feature rather than the core design
+- **−** README claims of 200+ and 280+ pieces are inconsistent
 
-<sub>no GPU · Docker + Compose · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com)</sub>
+<sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com)</sub>
 
 <a name="paperclip"></a>
 ### #&#8288;8 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 99k · MIT · Oct 2026</sub>
@@ -159,28 +160,10 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 - **−** Windows pip install needs Rust plus VS C++ tools and the Windows SDK
 - **−** Authentication features are offered by email request; 1Password and LastPass unsupported
 
-<sub>no GPU · Docker + Compose · port 8080 · [Repo](https://github.com/skyvern-ai/skyvern) · [▶️ Demo ↗](https://app.skyvern.com) · [📖 Docs ↗](https://www.skyvern.com/docs/) · [🌐 Site ↗](https://www.skyvern.com)</sub>
-
-<a name="fastgpt"></a>
-### #&#8288;10 [FastGPT](https://github.com/labring/fastgpt) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Oct 2026</sub>
-
-**Knowledge-base Q&A and visual workflow platform for LLM apps.**
-
-FastGPT builds agents and LLM apps from a visual Flow editor on top of a knowledge base that ingests TXT, MD, HTML, PDF, Docx, PPTX, CSV, XLSX and URLs with hybrid retrieval and reranking. A one-script Docker Compose install serves port 3000 (default login root / 1234), supports bidirectional MCP, chat and plugin workflows, evaluation, call-chain logs, login-free share pages and iframe embedding.
-
-- **+** Loaders for TXT, MD, HTML, PDF, Docx, PPTX, CSV, XLSX and URLs
-- **+** Hybrid retrieval with reranking; chunks can be edited and deleted
-- **+** Bidirectional MCP and RPA-style workflow nodes
-- **+** One-script Docker Compose install
-- **−** FastGPT Open Source License forbids offering it as SaaS and requires kept copyright notices
-- **−** Default credentials root / 1234 after install
-- **−** Default README is Chinese; English lives in README_en.md
-- **−** Debug mode, node logs and auto-generated workflows are still unchecked roadmap items
-
-<sub>no GPU · Compose · port 3000 · [Repo](https://github.com/labring/fastgpt) · [📖 Docs ↗](https://doc.fastgpt.io/guide/getting-started) · [🌐 Site ↗](https://fastgpt.io)</sub>
+<sub>no GPU · Docker + Compose · Compose runs PostgreSQL · port 8080 · [Repo](https://github.com/skyvern-ai/skyvern) · [▶️ Demo ↗](https://app.skyvern.com) · [📖 Docs ↗](https://www.skyvern.com/docs/) · [🌐 Site ↗](https://www.skyvern.com)</sub>
 
 <a name="agent-zero"></a>
-### #&#8288;11 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Sep 2026</sub>
+### #&#8288;10 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Sep 2026</sub>
 
 **Agent framework that gives the model a full Linux desktop in Docker.**
 
@@ -196,6 +179,24 @@ Agent Zero runs as the agent0ai/agent-zero Docker image (port 80) and gives the 
 - **−** Maintainers point to Space Agent as the more polished product direction
 
 <sub>no GPU · Docker + Compose · Needs Docker · Models: OpenAI Codex plan (OAuth) · port 80 · [Repo](https://github.com/agent0ai/agent-zero) · [🌐 Site ↗](https://agent-zero.ai)</sub>
+
+<a name="fastgpt"></a>
+### #&#8288;11 [FastGPT](https://github.com/labring/fastgpt) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Oct 2026</sub>
+
+**Knowledge-base Q&A and visual workflow platform for LLM apps.**
+
+FastGPT builds agents and LLM apps from a visual Flow editor on top of a knowledge base that ingests TXT, MD, HTML, PDF, Docx, PPTX, CSV, XLSX and URLs with hybrid retrieval and reranking. A one-script Docker Compose install serves port 3000 (default login root / 1234), supports bidirectional MCP, chat and plugin workflows, evaluation, call-chain logs, login-free share pages and iframe embedding.
+
+- **+** Loaders for TXT, MD, HTML, PDF, Docx, PPTX, CSV, XLSX and URLs
+- **+** Hybrid retrieval with reranking; chunks can be edited and deleted
+- **+** Bidirectional MCP and RPA-style workflow nodes
+- **+** One-script Docker Compose install
+- **−** FastGPT Open Source License forbids offering it as SaaS and requires kept copyright notices
+- **−** Default credentials root / 1234 after install
+- **−** Default README is Chinese; English lives in README_en.md
+- **−** Debug mode, node logs and auto-generated workflows are still unchecked roadmap items
+
+<sub>no GPU · Compose · port 3000 · [Repo](https://github.com/labring/fastgpt) · [📖 Docs ↗](https://doc.fastgpt.io/guide/getting-started) · [🌐 Site ↗](https://fastgpt.io)</sub>
 
 <a name="botpress"></a>
 ### #&#8288;12 [Botpress](https://github.com/botpress/botpress) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (22) · Freshness: recent (70) · Maintenance: patchy (40) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Oct 2026</sub>

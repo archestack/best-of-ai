@@ -38,26 +38,8 @@ MemPalace stores conversation history verbatim, never summarised, and retrieves 
 
 <sub>no GPU · Docker + Compose · Models: local embeddings (MiniLM, EmbeddingGemma), OpenAI-compatible embedding endpoints, Ollama · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com)</sub>
 
-<a name="agentmemory"></a>
-### 🥉 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
-
-**Persistent memory server for coding agents, exposed over MCP and REST.**
-
-agentmemory captures what a coding agent does across sessions, stores it as searchable memory, and injects relevant context at the start of the next session. It runs as a local Node.js server on the pinned iii engine and connects to agents through hooks, MCP, or REST, with 20 adapters listed. Keyless mode uses BM25 search; vector embeddings need a provider or the local Xenova/all-MiniLM-L6-v2 model.
-
-- **+** No external database; state lives in a local iii engine data directory
-- **+** Works with 20 listed agents through hooks, MCP, or REST
-- **+** Keyless BM25 mode works without any API key
-- **+** Local embeddings via EMBEDDING_PROVIDER=local after a one-time model download
-- **−** Keyless mode has no vector search, so semantic queries can return nothing
-- **−** Pinned to iii-engine v0.22.1; refuses to attach to other engine versions
-- **−** Native Windows needs manual iii.exe install; WSL2 or Docker recommended
-- **−** Uses four local ports (3111, 3112, 3113, 49134)
-
-<sub>no GPU · Docker + Compose · Needs Node.js 20+, iii-engine v0.22.1 · Models: Xenova/all-MiniLM-L6-v2 (local embeddings) · port 3113 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
-
 <a name="openviking"></a>
-### #&#8288;4 [OpenViking](https://github.com/volcengine/openviking) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · AGPL-3.0 · Oct 2026</sub>
+### 🥉 [OpenViking](https://github.com/volcengine/openviking) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · AGPL-3.0 · Oct 2026</sub>
 
 **Context database exposing agent memory, knowledge and skills as a filesystem.**
 
@@ -73,6 +55,24 @@ OpenViking organises everything an agent knows as a viking:// virtual filesystem
 - **−** Benchmarks were run with Volcengine Doubao models
 
 <sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/openviking) · [▶️ Demo ↗](https://openviking.ai/studio) · [📖 Docs ↗](https://docs.openviking.ai/) · [🌐 Site ↗](https://www.openviking.ai)</sub>
+
+<a name="agentmemory"></a>
+### #&#8288;4 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+
+**Persistent memory server for coding agents, exposed over MCP and REST.**
+
+agentmemory captures what a coding agent does across sessions, stores it as searchable memory, and injects relevant context at the start of the next session. It runs as a local Node.js server on the pinned iii engine and connects to agents through hooks, MCP, or REST, with 20 adapters listed. Keyless mode uses BM25 search; vector embeddings need a provider or the local Xenova/all-MiniLM-L6-v2 model.
+
+- **+** No external database; state lives in a local iii engine data directory
+- **+** Works with 20 listed agents through hooks, MCP, or REST
+- **+** Keyless BM25 mode works without any API key
+- **+** Local embeddings via EMBEDDING_PROVIDER=local after a one-time model download
+- **−** Keyless mode has no vector search, so semantic queries can return nothing
+- **−** Pinned to iii-engine v0.22.1; refuses to attach to other engine versions
+- **−** Native Windows needs manual iii.exe install; WSL2 or Docker recommended
+- **−** Uses four local ports (3111, 3112, 3113, 49134)
+
+<sub>no GPU · Docker + Compose · Needs Node.js 20+, iii-engine v0.22.1 · Models: Xenova/all-MiniLM-L6-v2 (local embeddings) · port 3113 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
 
 <a name="mem0"></a>
 ### #&#8288;5 [Mem0](https://github.com/mem0ai/mem0) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · Apache-2.0 · Oct 2026</sub>
@@ -93,7 +93,7 @@ Mem0 adds long-term memory to assistants and agents at user, session and agent l
 <sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai)</sub>
 
 <a name="cognee"></a>
-### #&#8288;6 [Cognee](https://github.com/topoteretes/cognee) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [Cognee](https://github.com/topoteretes/cognee) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Memory engine that turns documents and code into a knowledge graph.**
 
@@ -108,10 +108,10 @@ Cognee builds persistent agent memory by extracting entities, relationships and 
 - **−** Bundled GLiNER extractor is a demo; higher-accuracy version requires contacting the vendor
 - **−** UI launcher needs Node.js/npm and Docker for its MCP service
 
-<sub>no GPU · Docker + Compose · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs ↗](https://docs.cognee.ai/) · [🌐 Site ↗](https://cognee.ai)</sub>
+<sub>no GPU · Docker + Compose · Compose runs Neo4j, PostgreSQL, Redis · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs ↗](https://docs.cognee.ai/) · [🌐 Site ↗](https://cognee.ai)</sub>
 
 <a name="graphiti"></a>
-### #&#8288;7 [Graphiti](https://github.com/getzep/graphiti) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Graphiti](https://github.com/getzep/graphiti) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Temporal knowledge graph framework for agent memory with REST and MCP servers.**
 
@@ -183,7 +183,7 @@ Honcho is a FastAPI memory server where humans and agents are peers that exchang
 <sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
 
 <a name="engram"></a>
-### #&#8288;11 [Engram](https://github.com/gentleman-programming/engram) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;11 [Engram](https://github.com/gentleman-programming/engram) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Single Go binary memory for coding agents on SQLite FTS5 with MCP.**
 

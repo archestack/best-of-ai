@@ -19,7 +19,7 @@ Runs an AI coding agent in the terminal with two built-in agents: build (full ac
 <sub>no GPU · [Repo](https://github.com/anomalyco/opencode) · [📖 Docs ↗](https://opencode.ai/docs) · [🌐 Site ↗](https://opencode.ai)</sub>
 
 <a name="archon"></a>
-### 🥈 [Archon](https://github.com/coleam00/archon) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
+### 🥈 [Archon](https://github.com/coleam00/archon) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
 
 **YAML workflow engine that runs coding agents in isolated worktrees.**
 
