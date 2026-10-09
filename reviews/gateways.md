@@ -5,23 +5,23 @@ LLM gateways and proxies for routing, caching, rate limits and cost control acro
 <a name="omniroute"></a>
 ### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 75k · MIT · Oct 2026</sub>
 
-**Free-tier-aware AI gateway routing coding agents across 350+ providers.**
+**OpenAI-compatible gateway routing coding tools across 370 providers with fallback.**
 
-OmniRoute is a Node.js gateway (npm, Docker or Electron app) exposing one OpenAI, Claude, Gemini and Responses-compatible endpoint on port 20128 in front of 350+ providers, 150+ with free tiers, with automatic fallback and 19 routing strategies. It targets coding agents such as Claude Code, Codex, Cursor and Cline, adds RTK and Caveman prompt compression and tracks free-tier quotas on a dashboard.
+OmniRoute is a TypeScript gateway that exposes one OpenAI-compatible endpoint at localhost:20128/v1 and routes requests to hundreds of upstream providers, including a catalog of free tiers. It adds combos with automatic fallback, circuit breakers, key cooldown, token compression, and a dashboard with quota tracking. It also exposes MCP and A2A interfaces and a CLI for coding agents such as Claude Code, Cursor and Cline.
 
-- **+** Zero-config start: a keyless provider answers model auto right after install
-- **+** OpenAI, Claude, Gemini and Responses API compatibility at one /v1 endpoint
-- **+** Prompt compression (RTK plus Caveman) claims 15 to 95 percent token savings
-- **+** Dashboard tracks free-tier quota use per provider pool
-- **−** Provider counts in the README disagree (357 vs 364) and change every two weeks
-- **−** Free-token headline depends on third-party tiers; 13 providers flagged as terms risk
-- **−** README is mostly marketing graphics; architecture lives in docs
-- **−** Compression and routing claims are self-reported
+- **+** Works with no API keys: keyless OpenCode Free is pre-wired into the auto combo
+- **+** Install via npm, Docker or Electron app; MIT licensed
+- **+** Fallback combos plus circuit breakers, key cooldown and model lockout
+- **+** Dashboard shows free-tier quota use at /dashboard/free-tiers
+- **−** Provider and token counts are inconsistent across README sections (290, 357, 370)
+- **−** Free-tier figures (~1.62B tokens/month) change as providers alter terms
+- **−** 13 providers are flagged as terms-risk in its own catalog
+- **−** Compression savings (15-95%) depend on workload; RAM and VRAM needs unknown
 
-<sub>no GPU · Docker + Compose · Models: 350+ providers incl. free tiers (OpenCode Free, Groq, Mistral) via OpenAI, Claude and Gemini-style APIs · port 20128 · [Repo](https://github.com/diegosouzapw/omniroute) · [🌐 Site ↗](https://omniroute.online)</sub>
+<sub>no GPU · Docker + Compose · Compose runs Redis, Qdrant · Models: OpenAI-compatible API, Claude API, Gemini API, Responses API · port 20128 · [Repo](https://github.com/diegosouzapw/omniroute) · [🌐 Site ↗](https://omniroute.online)</sub>
 
 <a name="litellm"></a>
-### 🥈 [LiteLLM](https://github.com/berriai/litellm) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Oct 2026</sub>
+### 🥈 [LiteLLM](https://github.com/berriai/litellm) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 61k · custom license · Oct 2026</sub>
 
 **OpenAI-format gateway and Python SDK for calling 100+ LLM providers.**
 
@@ -36,7 +36,7 @@ LiteLLM translates calls to 100+ providers (OpenAI, Anthropic, Gemini, Bedrock, 
 - **−** Provider coverage varies by endpoint; many providers support only chat-style endpoints
 - **−** Python-based, so latency figures depend on the benchmark setup
 
-<sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure · port 4000 · [Repo](https://github.com/berriai/litellm) · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub>
+<sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure · port 4000 · [Repo](https://github.com/berriai/litellm) · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub>
 
 <a name="mcp-context-forge"></a>
 ### 🥉 [ContextForge MCP Gateway](https://github.com/ibm/mcp-context-forge) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Oct 2026</sub>
@@ -201,7 +201,7 @@ MetaMCP groups MCP servers into namespaces and publishes each as one MCP endpoin
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · port 12008 · [Repo](https://github.com/metatool-ai/metamcp) · [📖 Docs ↗](https://docs.metamcp.com)</sub>
 
 <a name="coai"></a>
-### #&#8288;12 [CoAI](https://github.com/coaidev/coai) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (50) · Freshness: recent (55) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;12 [CoAI](https://github.com/coaidev/coai) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (50) · Freshness: recent (55) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
 
 **Multi-user chat site plus OpenAI-compatible proxy with billing.**
 
@@ -219,7 +219,7 @@ CoAI pairs a multi-user chat frontend with an OpenAI-compatible API proxy and bi
 <sub>no GPU · Docker + Compose · Needs MySQL, Redis, SearXNG (optional web search), CoAI blob-service (optional file parsing) · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Midjourney, SparkDesk, Zhipu, Qwen, Hunyuan, Baichuan, Moonshot, DeepSeek, Skylark, Groq, OpenRouter, 360, LocalAI, Ollama · port 8000 · [Repo](https://github.com/coaidev/coai) · [📖 Docs ↗](https://coai.dev/docs/deploy) · [🌐 Site ↗](https://coai.dev)</sub>
 
 <a name="mcpo"></a>
-### #&#8288;13 [mcpo](https://github.com/open-webui/mcpo) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (21) · Freshness: recent (62) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
+### #&#8288;13 [mcpo](https://github.com/open-webui/mcpo) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (20) · Freshness: recent (62) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
 
 **Exposes any MCP server as an OpenAPI HTTP endpoint.**
 

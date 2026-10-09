@@ -93,7 +93,7 @@ Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for Lo
 <sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss)</sub>
 
 <a name="pixelle-video"></a>
-### #&#8288;6 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (66) · Freshness: active (87) · Maintenance: weak (2) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;6 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (65) · Freshness: active (87) · Maintenance: weak (2) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Jun 2026</sub>
 
 **Topic-to-short-video pipeline built on ComfyUI workflows and TTS.**
 

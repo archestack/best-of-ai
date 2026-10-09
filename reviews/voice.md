@@ -21,25 +21,25 @@ Desktop app (Tauri) and Docker service that clones voices from a short sample an
 <sub>GPU optional · Docker + Compose · Models: Qwen3-TTS 0.6B/1.7B, Qwen CustomVoice, Qwen VoiceDesign, LuxTTS, Chatterbox Multilingual · port 17493 · [Repo](https://github.com/jamiepine/voicebox) · [📖 Docs ↗](https://docs.voicebox.sh) · [🌐 Site ↗](https://voicebox.sh)</sub>
 
 <a name="speech-to-speech"></a>
-### 🥈 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
-**Modular voice-agent pipeline exposed over the OpenAI Realtime API.**
+**Modular voice-agent pipeline exposed through the OpenAI Realtime API.**
 
-Runs a VAD, speech-to-text, LLM and text-to-speech cascade, with each stage in its own thread and swappable by CLI flag. It serves the core OpenAI Realtime event set over WebSocket and WebRTC, so existing Realtime clients can point at it. Defaults are Parakeet TDT for STT and Qwen3-TTS for speech, with the LLM running locally or through any OpenAI-compatible provider.
+Runs a VAD, STT, LLM and TTS cascade, with each stage in its own thread and every backend swappable by CLI flag. It serves the core OpenAI Realtime event set over WebSocket and WebRTC, so existing Realtime clients can point at it. Defaults are Parakeet TDT for speech recognition and Qwen3-TTS for speech output, with the LLM running locally or through any OpenAI-compatible endpoint.
 
-- **+** Realtime-compatible WebSocket and WebRTC server; clients switch by changing the endpoint URL
-- **+** Fully local on Apple Silicon (MLX) or NVIDIA GPU (Transformers, GGML)
-- **+** Many interchangeable STT and TTS backends, including Whisper variants, Kokoro and Pocket TTS
-- **+** LLM slot accepts hosted providers, vLLM or llama.cpp servers
-- **−** Fully local NVIDIA setup budgets about 24 GB VRAM for the unquantized LLM
-- **−** Default Linux Qwen3-TTS wheel targets CUDA 12.8 and glibc 2.39; other systems need manual wheels
+- **+** Implements core OpenAI Realtime events over WebSocket and WebRTC, so client swaps are easy
+- **+** Fully local on Apple Silicon (MLX) or NVIDIA CUDA, with no API key needed
+- **+** Many interchangeable STT and TTS backends, including Whisper, Kokoro, Pocket TTS and OmniVoice
+- **+** Apache-2.0, installable from PyPI, with a packaged microphone client
+- **−** Qwen3-TTS GGML wheel targets CUDA 12.8 and glibc 2.39 by default
+- **−** Fully local NVIDIA setup budgets about 24 GB VRAM; the README calls this an estimate
 - **−** Only the core Realtime event set is implemented, not the full API
-- **−** DeepFilterNet needs numpy<2 and conflicts with Pocket TTS
+- **−** Some extras conflict, e.g. DeepFilterNet needs numpy<2 while Pocket TTS needs numpy>=2
 
-<sub>RAM ≥ 16 GB · GPU optional · Docker + Compose · Needs PortAudio and libsndfile (Linux), OpenAI-compatible LLM server or API (optional) · Models: Parakeet TDT, Whisper, Qwen3-TTS, Kokoro-82M, Transformers LLMs · port 8765 · [Repo](https://github.com/huggingface/speech-to-speech) · [📖 Docs ↗](https://github.com/huggingface/speech-to-speech/blob/main/docs/configuration.md)</sub>
+<sub>RAM ≥ 16 GB · GPU optional · Docker + Compose · Needs OpenAI-compatible LLM server (optional), PortAudio and libsndfile on Ubuntu · Models: Parakeet TDT, Qwen3-TTS, Whisper, Kokoro-82M, Transformers LLMs · port 8765 · [Repo](https://github.com/huggingface/speech-to-speech) · [📖 Docs ↗](https://github.com/huggingface/speech-to-speech/blob/main/docs/configuration.md)</sub>
 
 <a name="pocket-tts"></a>
-### 🥉 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Oct 2026</sub>
+### 🥉 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Oct 2026</sub>
 
 **100M-parameter CPU text-to-speech with streaming and voice cloning.**
 
@@ -111,7 +111,7 @@ Clones a voice from a 5-second sample (zero-shot) or fine-tunes GPT and SoVITS m
 <sub>GPU optional · Docker + Compose · Needs ffmpeg · Models: GPT-SoVITS v1-v5 pretrained models, UVR5 vocal separation models, Faster Whisper large-v3 (ASR), FunASR Paraformer (Chinese ASR) · [Repo](https://github.com/rvc-boss/gpt-sovits) · [▶️ Demo ↗](https://lj1995-gpt-sovits-proplus.hf.space/) · [📖 Docs ↗](https://rentry.co/GPT-SoVITS-guide#/)</sub>
 
 <a name="f5-tts"></a>
-### #&#8288;7 [F5-TTS](https://github.com/swivid/f5-tts) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: patchy (42) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Sep 2026</sub>
+### #&#8288;7 [F5-TTS](https://github.com/swivid/f5-tts) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: patchy (40) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Sep 2026</sub>
 
 **Flow-matching TTS and voice cloning with Gradio and CLI.**
 
@@ -146,7 +146,7 @@ Next.js server that narrates EPUB, PDF, TXT, Markdown and DOCX files with synchr
 <sub>no GPU · Docker · Needs OpenAI-compatible TTS server or cloud TTS API, NATS JetStream (compute worker), SQLite or PostgreSQL, SeaweedFS (embedded) or S3-compatible storage · Models: Kokoro-FastAPI, KittenTTS-FastAPI, Orpheus-FastAPI, OpenAI TTS, Replicate · [Repo](https://github.com/richardr1126/openreader) · [📖 Docs ↗](https://docs.openreader.richardr.dev/)</sub>
 
 <a name="speakr"></a>
-### #&#8288;9 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;9 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
 
 **Transcribe, summarize and search recordings with pluggable ASR and LLMs.**
 
