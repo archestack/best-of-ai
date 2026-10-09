@@ -3,7 +3,7 @@
 AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. Back to the [leaderboard](../README.md#-security).
 
 <a name="strix"></a>
-### 🥉 64 [Strix](https://github.com/usestrix/strix) <sub>⭐ 67k · Apache-2.0 · Oct 2026</sub>
+### [🥈 69](../README.md#-how-we-rank "Score 69/100 (silver, 65-79). Adoption 93 · Freshness 100 · Maintenance 78 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Strix](https://github.com/usestrix/strix) <sub>⭐ 67k · Apache-2.0 · Oct 2026</sub>
 
 **Autonomous AI pentesting agents that validate findings with working exploits.**
 

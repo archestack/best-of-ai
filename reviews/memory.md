@@ -3,7 +3,7 @@
 Long-term memory engines that store and retrieve facts for agents across sessions. Back to the [leaderboard](../README.md#%EF%B8%8F-memory).
 
 <a name="mempalace"></a>
-### 🥇 84 [MemPalace](https://github.com/MemPalace/mempalace) <sub>⭐ 59k · MIT · Oct 2026</sub>
+### [🥈 77](../README.md#-how-we-rank "Score 77/100 (silver, 65-79). Adoption 86 · Freshness 100 · Maintenance 83 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [MemPalace](https://github.com/mempalace/mempalace) <sub>⭐ 59k · MIT · Oct 2026</sub>
 
 **Local verbatim memory for coding agents on ChromaDB with 45 MCP tools.**
 
@@ -18,28 +18,10 @@ MemPalace stores conversation history verbatim, never summarised, and retrieves 
 - **−** Docker image runs as uid 1000, so bind mounts must be readable by that uid
 - **−** README warns about impostor domains distributing malware
 
-<sub>no GPU · Docker + Compose · Models: local embeddings (MiniLM, EmbeddingGemma), OpenAI-compatible embedding endpoints, Ollama · [Repo](https://github.com/MemPalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com)</sub>
-
-<a name="cognee"></a>
-### 🥇 81 [Cognee](https://github.com/topoteretes/cognee) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
-
-**Memory engine that turns documents and code into a knowledge graph.**
-
-Cognee builds persistent agent memory by extracting entities, relationships and chunks from text, code and sessions into a graph and vector index with hybrid recall. Without an LLM key it uses local GLiNER extraction and embeddings; adding a key enables generated answers via OpenAI, Ollama or other providers. It runs as a library, CLI, REST API (port 8000), UI (3000) and MCP server (8001).
-
-- **+** Keyless mode: local GLiNER extraction and embeddings, no cloud LLM required
-- **+** Claude Code and Codex plugins, OpenClaw plugin, MCP server, Python, TypeScript and Rust SDKs
-- **+** Imports memory from Mem0, Letta, Zep or Graphiti via the COGX format
-- **+** Apache-2.0; research paper and BEAM evaluation published
-- **−** Single-Postgres graph store is a demo; production version is a licensed product
-- **−** API defaults to multi-tenant mode; local use needs ENABLE_BACKEND_ACCESS_CONTROL=false
-- **−** Bundled GLiNER extractor is a demo; higher-accuracy version requires contacting the vendor
-- **−** UI launcher needs Node.js/npm and Docker for its MCP service
-
-<sub>no GPU · Docker + Compose · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs ↗](https://docs.cognee.ai/) · [🌐 Site ↗](https://cognee.ai)</sub>
+<sub>no GPU · Docker + Compose · Models: local embeddings (MiniLM, EmbeddingGemma), OpenAI-compatible embedding endpoints, Ollama · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com)</sub>
 
 <a name="openviking"></a>
-### 🥇 80 [OpenViking](https://github.com/volcengine/OpenViking) <sub>⭐ 39k · AGPL-3.0 · Oct 2026</sub>
+### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 77 · Freshness 100 · Maintenance 89 · Easy to run 67 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [OpenViking](https://github.com/volcengine/openviking) <sub>⭐ 39k · AGPL-3.0 · Oct 2026</sub>
 
 **Context database exposing agent memory, knowledge and skills as a filesystem.**
 
@@ -54,28 +36,10 @@ OpenViking organises everything an agent knows as a viking:// virtual filesystem
 - **−** Memory plugin installer is macOS/Linux only; Windows uses the beta desktop app
 - **−** Benchmarks were run with Volcengine Doubao models
 
-<sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/OpenViking) · [▶️ Demo ↗](https://openviking.ai/studio) · [📖 Docs ↗](https://docs.openviking.ai/) · [🌐 Site ↗](https://www.openviking.ai)</sub>
-
-<a name="graphiti"></a>
-### 🥈 79 [Graphiti](https://github.com/getzep/graphiti) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
-
-**Temporal knowledge graph framework for agent memory with REST and MCP servers.**
-
-Graphiti builds context graphs where every fact has a validity window and traces back to its source episode, ingesting text and JSON incrementally. Retrieval fuses embeddings, BM25 and graph traversal. It needs a graph database (Neo4j, FalkorDB or Neptune) and defaults to OpenAI, with Anthropic, Gemini, Groq and OpenAI-compatible servers supported; REST and MCP servers ship in the repo.
-
-- **+** Bi-temporal facts: old facts are invalidated, not deleted, so history stays queryable
-- **+** Hybrid retrieval combines embeddings, BM25 and graph traversal with sub-second latency claims
-- **+** Custom entity and edge types via Pydantic models
-- **+** Docker Compose profiles for Neo4j or FalkorDB; MCP and REST servers included
-- **−** Requires Neo4j, FalkorDB or Amazon Neptune plus OpenSearch; Kuzu is deprecated
-- **−** Defaults to OpenAI; needs structured-output models, smaller models may fail ingestion
-- **−** Default SEMAPHORE_LIMIT of 10 keeps ingestion slow to avoid 429 errors
-- **−** Users, threads and dashboards are left to the commercial Zep platform
-
-<sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2 or Amazon Neptune · Models: OpenAI (default), Azure OpenAI, Anthropic, Google Gemini, Groq · [Repo](https://github.com/getzep/graphiti)</sub>
+<sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/openviking) · [▶️ Demo ↗](https://openviking.ai/studio) · [📖 Docs ↗](https://docs.openviking.ai/) · [🌐 Site ↗](https://www.openviking.ai)</sub>
 
 <a name="agentmemory"></a>
-### 🥈 70 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### [🥈 75](../README.md#-how-we-rank "Score 75/100 (silver, 65-79). Adoption 51 · Freshness 100 · Maintenance 80 · Easy to run 83 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [agentmemory](https://github.com/rohitg00/agentmemory) <sub>⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Persistent memory server for coding agents built on the iii engine.**
 
@@ -92,8 +56,26 @@ agentmemory captures agent activity via hooks, compresses it into searchable mem
 
 <sub>no GPU · Compose · Needs iii-engine v0.22.1 (bundled) · Models: keyless BM25, local Xenova/all-MiniLM-L6-v2, LLM provider (optional) · port 3111 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
 
+<a name="cognee"></a>
+### [🥈 74](../README.md#-how-we-rank "Score 74/100 (silver, 65-79). Adoption 68 · Freshness 100 · Maintenance 84 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [Cognee](https://github.com/topoteretes/cognee) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
+
+**Memory engine that turns documents and code into a knowledge graph.**
+
+Cognee builds persistent agent memory by extracting entities, relationships and chunks from text, code and sessions into a graph and vector index with hybrid recall. Without an LLM key it uses local GLiNER extraction and embeddings; adding a key enables generated answers via OpenAI, Ollama or other providers. It runs as a library, CLI, REST API (port 8000), UI (3000) and MCP server (8001).
+
+- **+** Keyless mode: local GLiNER extraction and embeddings, no cloud LLM required
+- **+** Claude Code and Codex plugins, OpenClaw plugin, MCP server, Python, TypeScript and Rust SDKs
+- **+** Imports memory from Mem0, Letta, Zep or Graphiti via the COGX format
+- **+** Apache-2.0; research paper and BEAM evaluation published
+- **−** Single-Postgres graph store is a demo; production version is a licensed product
+- **−** API defaults to multi-tenant mode; local use needs ENABLE_BACKEND_ACCESS_CONTROL=false
+- **−** Bundled GLiNER extractor is a demo; higher-accuracy version requires contacting the vendor
+- **−** UI launcher needs Node.js/npm and Docker for its MCP service
+
+<sub>no GPU · Docker + Compose · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs ↗](https://docs.cognee.ai/) · [🌐 Site ↗](https://cognee.ai)</sub>
+
 <a name="mem0"></a>
-### 🥈 67 [Mem0](https://github.com/mem0ai/mem0) <sub>⭐ 67k · Apache-2.0 · Oct 2026</sub>
+### [🥈 72](../README.md#-how-we-rank "Score 72/100 (silver, 65-79). Adoption 93 · Freshness 100 · Maintenance 80 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Mem0](https://github.com/mem0ai/mem0) <sub>⭐ 67k · Apache-2.0 · Oct 2026</sub>
 
 **Memory layer for agents with a self-hosted server, SDKs and CLI.**
 
@@ -110,8 +92,26 @@ Mem0 adds long-term memory to assistants and agents at user, session and agent l
 
 <sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai)</sub>
 
+<a name="graphiti"></a>
+### [🥈 71](../README.md#-how-we-rank "Score 71/100 (silver, 65-79). Adoption 63 · Freshness 100 · Maintenance 84 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Graphiti](https://github.com/getzep/graphiti) <sub>⭐ 32k · Apache-2.0 · Oct 2026</sub>
+
+**Temporal knowledge graph framework for agent memory with REST and MCP servers.**
+
+Graphiti builds context graphs where every fact has a validity window and traces back to its source episode, ingesting text and JSON incrementally. Retrieval fuses embeddings, BM25 and graph traversal. It needs a graph database (Neo4j, FalkorDB or Neptune) and defaults to OpenAI, with Anthropic, Gemini, Groq and OpenAI-compatible servers supported; REST and MCP servers ship in the repo.
+
+- **+** Bi-temporal facts: old facts are invalidated, not deleted, so history stays queryable
+- **+** Hybrid retrieval combines embeddings, BM25 and graph traversal with sub-second latency claims
+- **+** Custom entity and edge types via Pydantic models
+- **+** Docker Compose profiles for Neo4j or FalkorDB; MCP and REST servers included
+- **−** Requires Neo4j, FalkorDB or Amazon Neptune plus OpenSearch; Kuzu is deprecated
+- **−** Defaults to OpenAI; needs structured-output models, smaller models may fail ingestion
+- **−** Default SEMAPHORE_LIMIT of 10 keeps ingestion slow to avoid 429 errors
+- **−** Users, threads and dashboards are left to the commercial Zep platform
+
+<sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2 or Amazon Neptune · Models: OpenAI (default), Azure OpenAI, Anthropic, Google Gemini, Groq · [Repo](https://github.com/getzep/graphiti)</sub>
+
 <a name="memos"></a>
-### 🥈 65 [MemOS](https://github.com/MemTensor/MemOS) <sub>⭐ 12k · Apache-2.0 · Sep 2026</sub>
+### [🥈 65](../README.md#-how-we-rank "Score 65/100 (silver, 65-79). Adoption 35 · Freshness 100 · Maintenance 88 · Easy to run 50 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [MemOS](https://github.com/memtensor/memos) <sub>⭐ 12k · Apache-2.0 · Sep 2026</sub>
 
 **Memory operating system for agents with cubes, scheduler and hybrid retrieval.**
 
@@ -126,10 +126,10 @@ MemOS gives LLM apps and agents long-term memory via one API over graph-structur
 - **−** LLM, embedder and vector DB keys must be filled in .env before start
 - **−** Benchmark table lists scores without comparison baselines in the README
 
-<sub>no GPU · Docker · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/MemTensor/MemOS) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/)</sub>
+<sub>no GPU · Docker · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/)</sub>
 
 <a name="supermemory"></a>
-### 🥉 59 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>⭐ 31k · MIT · Oct 2026</sub>
+### [🥉 64](../README.md#-how-we-rank "Score 64/100 (bronze, 55-64). Adoption 58 · Freshness 100 · Maintenance 91 · Easy to run 33 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [Supermemory](https://github.com/supermemoryai/supermemory) <sub>⭐ 31k · MIT · Oct 2026</sub>
 
 **Memory and context API with user profiles, connectors and a local server.**
 
@@ -147,7 +147,7 @@ Supermemory extracts facts from conversations, maintains per-user profiles and a
 <sub>no GPU · Models: OpenAI, Anthropic, Gemini, Groq, OpenAI-compatible endpoints · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs ↗](https://supermemory.ai/docs)</sub>
 
 <a name="honcho"></a>
-### 🥉 59 [Honcho](https://github.com/plastic-labs/honcho) <sub>⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
+### [🥉 56](../README.md#-how-we-rank "Score 56/100 (bronze, 55-64). Adoption 24 · Freshness 100 · Maintenance 85 · Easy to run 33 · Agent-ready 55 (each out of 100, weighted). Click for how we rank.") [Honcho](https://github.com/plastic-labs/honcho) <sub>⭐ 7.5k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory service modelling users, agents and groups as evolving peers.**
 
@@ -165,7 +165,7 @@ Honcho is a FastAPI memory server where humans and agents are peers that exchang
 <sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
 
 <a name="engram"></a>
-### 50 [Engram](https://github.com/Gentleman-Programming/engram) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
+### [🥉 55](../README.md#-how-we-rank "Score 55/100 (bronze, 55-64). Adoption 19 · Freshness 100 · Maintenance 96 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [Engram](https://github.com/gentleman-programming/engram) <sub>⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Single Go binary memory for coding agents on SQLite FTS5 with MCP.**
 
@@ -180,10 +180,10 @@ Engram is one Go binary that stores agent memory in a local SQLite database with
 - **−** Project detection can halt with project_transition_conflict after git init
 - **−** Install docs for Windows and Linux live in docs/, not the README
 
-<sub>no GPU · [Repo](https://github.com/Gentleman-Programming/engram) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/)</sub>
+<sub>no GPU · [Repo](https://github.com/gentleman-programming/engram) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/)</sub>
 
 <a name="letta"></a>
-### 48 [Letta](https://github.com/letta-ai/letta-code) <sub>⭐ 3.5k · Apache-2.0 · Oct 2026</sub>
+### [53](../README.md#-how-we-rank "Score 53/100. Adoption 6 · Freshness 100 · Maintenance 82 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [Letta](https://github.com/letta-ai/letta-code) <sub>⭐ 3.5k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful agent harness with git-tracked memory, channels and remote computers.**
 
