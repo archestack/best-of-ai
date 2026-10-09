@@ -111,7 +111,7 @@ SGLang is a Python inference framework for serving large language, vision-langua
 <sub>Docker + Compose · Models: LLMs, vision-language models, diffusion models · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs ↗](https://docs.sglang.io/) · [🌐 Site ↗](https://www.sglang.io/)</sub>
 
 <a name="lemonade"></a>
-### #&#8288;7 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
 
 **Local AI server that targets GPUs and AMD NPUs with OpenAI-style APIs.**
 
