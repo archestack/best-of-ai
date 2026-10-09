@@ -3,7 +3,7 @@
 Tracing, evaluation and prompt management for LLM applications. Back to the [leaderboard](../README.md#-observability).
 
 <a name="langfuse"></a>
-### 🥇 [Langfuse](https://github.com/langfuse/langfuse) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · custom license · Oct 2026</sub>
+### 🥇 [Langfuse](https://github.com/langfuse/langfuse) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · custom license · Oct 2026</sub>
 
 **Tracing, prompt management and evals for LLM apps on ClickHouse.**
 
@@ -21,43 +21,25 @@ Ingests traces of LLM calls, retrieval and agent steps via Python and JS/TS SDKs
 <sub>no GPU · Compose · Needs ClickHouse · [Repo](https://github.com/langfuse/langfuse) · [▶️ Demo ↗](https://langfuse.com/demo) · [📖 Docs ↗](https://langfuse.com/docs) · [🌐 Site ↗](https://langfuse.com)</sub>
 
 <a name="phoenix"></a>
-### 🥈 [Phoenix](https://github.com/arize-ai/phoenix) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Oct 2026</sub>
+### 🥈 [Phoenix](https://github.com/arize-ai/phoenix) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Oct 2026</sub>
 
-**OpenTelemetry-based LLM tracing, evals and prompt playground.**
+**LLM tracing, evals, datasets and prompt playground built on OpenTelemetry.**
 
-Collects traces through OpenInference and OpenTelemetry instrumentation for OpenAI Agents SDK, Claude Agent SDK, LangGraph, CrewAI, LlamaIndex and DSPy, then adds LLM-based response evals, datasets, experiments and a prompt playground. Starts with pip install arize-phoenix and phoenix serve, ships Docker images and a Helm chart, and exposes a remote MCP endpoint at /mcp. For engineers troubleshooting LLM apps.
+Phoenix collects traces from LLM applications through OpenTelemetry/OpenInference instrumentation and shows them in a web UI. It also covers LLM-based evals, versioned datasets, experiments, prompt management and a prompt playground that can replay traced calls. It runs via pip, uvx, Docker or a Helm chart, and exposes a remote MCP endpoint at /mcp for coding agents.
 
-- **+** Single pip package runs the whole platform; uvx arize-phoenix serve needs no install
-- **+** Remote MCP server at /mcp for Claude Code and Cursor; built-in PXI agent
-- **+** Vendor and language agnostic via OpenTelemetry and OpenInference
-- **+** One-click deploys for Railway, Render, Cloud Run, Azure and AWS CloudFormation
-- **−** License is non-standard (GitHub reports NOASSERTION); check terms before deploying
-- **−** Managed production workflows are steered to the paid Arize AX product
-- **−** Azure template serves plain HTTP; needs a TLS proxy before production
-- **−** TypeScript evals package is alpha; stdio MCP package is in maintenance mode
+- **+** Install with pip or uvx and run `phoenix serve`; no separate setup shown
+- **+** Auto-instrumentation for LangGraph, LlamaIndex, CrewAI, DSPy, Vercel AI SDK and more
+- **+** Built-in MCP server at /mcp lets Claude Code and Cursor query traces
+- **+** Python and TypeScript packages for OTel, client and evals
+- **−** License reported as NOASSERTION; terms need checking before commercial use
+- **−** Managed production workflows are pushed to the paid Arize AX product
+- **−** Azure template serves plain HTTP and needs a TLS proxy in front
+- **−** RAM, storage backend and default port not stated in the README excerpt
 
-<sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google GenAI and ADK, AWS Bedrock, OpenRouter · port 6006 · [Repo](https://github.com/arize-ai/phoenix) · [📖 Docs ↗](https://arize.com/docs/phoenix/) · [🌐 Site ↗](https://phoenix.arize.com)</sub>
-
-<a name="mlflow"></a>
-### 🥉 [MLflow](https://github.com/mlflow/mlflow) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Oct 2026</sub>
-
-**Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
-
-Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ frameworks via one-line autolog, runs evaluations with 50+ metrics and LLM judges, versions and optimizes prompts, and fronts providers through an OpenAI-compatible AI Gateway with rate limits, fallbacks and traffic splitting. Keeps the original experiment tracking, model registry and deployment tooling. For teams wanting one platform for GenAI and ML.
-
-- **+** One-line autolog for 60+ frameworks in Python, TypeScript and Java; MCP and OTel native
-- **+** Starts with uvx mlflow server; no separate database needed to begin
-- **+** AI Gateway adds credential management, guardrails and A/B traffic splitting
-- **+** Setup wizard lets Claude Code, Codex or OpenCode add tracing to a project
-- **−** README covers the quickstart; production backend store and auth setup live in docs
-- **−** Broad scope (ML tracking plus GenAI) means a large install and UI surface
-- **−** No Dockerfile or compose file at the repo root
-- **−** TypeScript and Java coverage is smaller than Python (5 TS and 2 Java frameworks listed)
-
-<sub>no GPU · Docker + Compose · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/)</sub>
+<sub>no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google GenAI, AWS Bedrock, OpenRouter · [Repo](https://github.com/arize-ai/phoenix) · [📖 Docs ↗](https://arize.com/docs/phoenix/) · [🌐 Site ↗](https://phoenix.arize.com)</sub>
 
 <a name="promptfoo"></a>
-### #&#8288;4 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Oct 2026</sub>
+### 🥉 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Oct 2026</sub>
 
 **CLI for evaluating and red-teaming prompts, agents and RAG.**
 
@@ -73,6 +55,24 @@ Runs prompt and model evaluations from a YAML config via promptfoo eval, compare
 - **−** Dockerfile exists at the root but the README gives no Docker instructions
 
 <sub>no GPU · Docker · Needs Node.js (npm) or Python (pip), LLM provider API key or Ollama · Models: OpenAI, Anthropic, Azure, Bedrock, Ollama · [Repo](https://github.com/promptfoo/promptfoo) · [📖 Docs ↗](https://www.promptfoo.dev/docs/) · [🌐 Site ↗](https://www.promptfoo.dev)</sub>
+
+<a name="mlflow"></a>
+### #&#8288;4 [MLflow](https://github.com/mlflow/mlflow) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Oct 2026</sub>
+
+**Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
+
+Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ frameworks via one-line autolog, runs evaluations with 50+ metrics and LLM judges, versions and optimizes prompts, and fronts providers through an OpenAI-compatible AI Gateway with rate limits, fallbacks and traffic splitting. Keeps the original experiment tracking, model registry and deployment tooling. For teams wanting one platform for GenAI and ML.
+
+- **+** One-line autolog for 60+ frameworks in Python, TypeScript and Java; MCP and OTel native
+- **+** Starts with uvx mlflow server; no separate database needed to begin
+- **+** AI Gateway adds credential management, guardrails and A/B traffic splitting
+- **+** Setup wizard lets Claude Code, Codex or OpenCode add tracing to a project
+- **−** README covers the quickstart; production backend store and auth setup live in docs
+- **−** Broad scope (ML tracking plus GenAI) means a large install and UI surface
+- **−** No Dockerfile or compose file at the repo root
+- **−** TypeScript and Java coverage is smaller than Python (5 TS and 2 Java frameworks listed)
+
+<sub>no GPU · Docker + Compose · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/)</sub>
 
 <a name="opik"></a>
 ### #&#8288;5 [Opik](https://github.com/comet-ml/opik) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Oct 2026</sub>
@@ -113,20 +113,20 @@ Captures traces, sessions and tool calls via a one-line SDK (TypeScript, Python)
 <a name="future-agi"></a>
 ### #&#8288;7 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: very easy (83) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
 
-**Evals, tracing, simulations, guardrails and a gateway for agents in one stack.**
+**Tracing, evals, simulation, guardrails and an LLM gateway for AI agents.**
 
-Bundles OpenTelemetry tracing for 50+ frameworks, 50+ evaluation metrics, persona-driven text and voice simulations, 18 guardrail scanners, six prompt-optimization algorithms and a Go gateway with 100+ providers. Installs with ./bin/install (Compose v2.24+); Standalone needs 2 vCPUs and 4 GB, Distributed 12 to 16 GB; UI on port 3000, OTLP on 4318. For teams wanting one platform from prototype to production.
+Future AGI is a Django and Go platform that traces agents over OpenTelemetry, scores outputs with 50+ evaluators, simulates multi-turn conversations, and applies guardrail scanners. It also ships an OpenAI-compatible gateway with routing, caching and virtual keys, plus prompt-optimization algorithms. The default install runs one app container with Postgres and ClickHouse; a distributed Compose setup and a Helm chart cover larger deployments.
 
-- **+** Gateway benchmarks: about 29k req/s on t3.xlarge, P99 under 21 ms with guardrails on
-- **+** Voice-agent simulation via LiveKit, VAPI, Retell and Pipecat
-- **+** Air-gapped install documented; telemetry off with FUTURE_AGI_TELEMETRY_DISABLED=true
-- **+** Signed Helm chart covers both open-source and Enterprise editions
-- **−** Marked a nightly release for early testing; stable version pending
-- **−** No supported migration from Standalone to Distributed or Helm once data exists
-- **−** Distributed profile adds PeerDB and Kafka; needs 4+ vCPUs and 12 to 16 GB
-- **−** Images total about 800 MB and first boot takes several minutes
+- **+** OTel tracing with instrumentors for 50+ frameworks in Python, TypeScript, Java and C#
+- **+** Gateway is OpenAI-compatible with 100+ providers, semantic caching and virtual keys
+- **+** Standalone install is one command and needs 2 vCPUs and 4 GB for Docker
+- **+** Apache-2.0 core; Compose, production overlay, Helm and air-gapped modes documented
+- **−** No supported path to move Standalone data to Distributed or Helm later
+- **−** Distributed setup needs 4+ vCPUs and 12-16 GB, plus Kafka and PeerDB
+- **−** Many components (Postgres, ClickHouse, Redis, Temporal) make it heavy to operate
+- **−** Benchmark figures come from the README; independent verification is unknown
 
-<sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker Compose v2.24+, PostgreSQL, ClickHouse, Redis and Temporal (bundled in compose) · Models: 100+ providers via gateway (OpenAI, Anthropic, Gemini, Bedrock, Azure, Mistral, Groq), Ollama, vLLM, LM Studio, TGI and llamafile · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [📖 Docs ↗](https://docs.futureagi.com) · [🌐 Site ↗](https://futureagi.com)</sub>
+<sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs PostgreSQL, ClickHouse, Redis, Temporal, Docker Compose v2.24+ · Models: OpenAI-compatible providers (100+ via gateway) · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [▶️ Demo ↗](https://www.youtube.com/watch?v=6keOTAOUUWI) · [📖 Docs ↗](https://docs.futureagi.com) · [🌐 Site ↗](https://futureagi.com)</sub>
 
 <a name="langwatch"></a>
 ### #&#8288;8 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
@@ -149,20 +149,20 @@ Traces LLM and agent calls through OpenTelemetry and SDK integrations, runs simu
 <a name="openlit"></a>
 ### #&#8288;9 [OpenLIT](https://github.com/openlit/openlit) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
 
-**OpenTelemetry-native tracing, evals, guardrails and GPU monitoring for agents.**
+**OpenTelemetry-based tracing, evals and guardrails for LLM apps and coding agents.**
 
-Receives OTLP on ports 4317 and 4318 from the openlit Python or TypeScript SDK, which auto-instruments 70+ providers, frameworks and vector DBs, and stores GenAI-convention traces in ClickHouse behind a dashboard on port 3000. Adds LLM-as-a-judge evals, prompt-injection guardrails, Prompt Hub, a rule engine, a secrets Vault, OpenGround model comparison and an NVIDIA, AMD and Intel GPU collector. For teams on existing OpenTelemetry stacks.
+OpenLIT collects OpenTelemetry traces and metrics from LLM apps and agents through Python and TypeScript SDKs, and stores them in ClickHouse behind a web dashboard on port 3000. It adds cost tracking, LLM-as-a-judge evals, SDK guardrails, a versioned Prompt Hub, a Vault for API keys, and GPU monitoring. A CLI installs tracing for Claude Code, Cursor and Codex sessions.
 
-- **+** Follows OpenTelemetry GenAI semantic conventions; your collector can fan out to other backends
-- **+** GPU collector reports utilization, memory, power and temperature correlated with traces
-- **+** CLI instruments Claude Code, Cursor, Codex and Windsurf sessions
-- **+** Connectors for ClickHouse, Grafana Tempo, Loki, Prometheus and Jaeger
-- **−** Coding-agent capture needs a separate CLI install and configure step
-- **−** Guardrails run in the SDK, so each app must be updated to use them
-- **−** README does not state hardware needs or ClickHouse sizing
-- **−** No Dockerfile at the repo root; compose only
+- **+** Follows OpenTelemetry GenAI conventions; accepts OTLP on :4317 (gRPC) and :4318 (HTTP)
+- **+** One-line auto-instrumentation via openlit.init(); README claims 70+ integrations
+- **+** Covers cost tracking, evals, guardrails, prompt versioning and secrets in one tool
+- **+** Docker Compose quickstart; Apache-2.0 and free to self-host
+- **−** Needs ClickHouse as the telemetry store; RAM and disk requirements are not stated
+- **−** Broad scope (Vault, Rule Engine, OpenGround) means a larger surface than a tracing-only tool
+- **−** Guardrails run in the SDK, so they only protect instrumented code
+- **−** No Dockerfile detected by our tools; the README only shows Compose
 
-<sub>no GPU · Compose · Needs ClickHouse · Models: OpenAI, Ollama, Anthropic, DeepSeek, Cohere · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/) · [🌐 Site ↗](https://openlit.io)</sub>
+<sub>GPU optional · Compose · Needs ClickHouse · Models: OpenAI, Anthropic, Ollama, vLLM, Amazon Bedrock · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/latest/overview) · [🌐 Site ↗](https://openlit.io)</sub>
 
 <a name="lmnr"></a>
 ### #&#8288;10 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Sep 2026</sub>

@@ -3,7 +3,7 @@
 Document Q&A, knowledge bases and enterprise search over your own files and data. Back to the [leaderboard](../README.md#-rag-and-knowledge).
 
 <a name="lightrag"></a>
-### 🥇 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Sep 2026</sub>
+### 🥇 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Sep 2026</sub>
 
 **Graph-plus-vector RAG server with web UI and Ollama-compatible API.**
 
@@ -21,7 +21,7 @@ LightRAG indexes documents into a knowledge graph plus vector store and queries 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (recommended for production), Neo4j (optional), MongoDB (optional), Milvus (optional), OpenSearch (optional) · Models: LLM and embedding providers configured in .env, tested with open models such as Qwen3-30B-A3B · [Repo](https://github.com/hkuds/lightrag)</sub>
 
 <a name="open-notebook"></a>
-### 🥈 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
+### 🥈 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
 
 **Self-hosted NotebookLM alternative with podcasts and 20+ model providers.**
 
@@ -41,20 +41,20 @@ Open Notebook collects PDFs, audio, video, web pages and Office files into noteb
 <a name="ragflow"></a>
 ### 🥉 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · Apache-2.0 · Oct 2026</sub>
 
-**RAG engine with deep document parsing, agentic retrieval and knowledge compilation.**
+**RAG engine with document parsing, agentic retrieval and citations.**
 
-RAGFlow parses Word, slides, Excel, scans and web pages with in-process layout analysis, OCR and table recognition, chunks by template and answers with traceable citations. Version 1.0 runs as one Go service deployed with Docker Compose beside MySQL, Elasticsearch or Infinity, MinIO, NATS and Kvrocks. For teams building document Q&A and agent workflows over complex enterprise files.
+RAGFlow parses documents (Word, slides, Excel, TXT, images, scans, web pages) with template-based chunking, then retrieves with multiple recall and fused re-ranking to produce answers with traceable citations. Recent releases add agentic multi-step retrieval with four thinking modes and Knowledge Compilation into wikis, graphs, trees and mind maps. Models are configured by name, address and API key for the LLM, embedding and reranker.
 
-- **+** DeepDoc layout, OCR and table parsing run in-process on CPU
-- **+** Chunk visualization and traceable citations let humans check retrieval
-- **+** Agentic retrieval with Low to Ultra thinking modes for multi-step questions
-- **+** Knowledge Compilation builds wikis, graphs, mind maps and timelines from datasets
-- **−** Needs 6 backing services (MySQL, Elasticsearch/Infinity, MinIO, NATS, Kvrocks, ClickHouse)
-- **−** Recommended 4 cores, 16 GB RAM and 50 GB disk before any local models
-- **−** 1.0 Go rewrite is still rc1 as of 2026-09-29
-- **−** Elasticsearch path requires vm.max_map_count >= 262144 on the host
+- **+** Chunk visualization lets you inspect and correct parsing before retrieval
+- **+** Citations link answers back to source chunks
+- **+** Ingests sitemaps and Google BigQuery with incremental sync
+- **+** Apache-2.0 with prebuilt Docker Compose deployment
+- **−** Stack needs MySQL, MinIO, NATS, Kvrocks, ClickHouse and a document engine
+- **−** Go backend not supported on macOS; Linux x86_64 host required
+- **−** DeepDoc OCR and layout analysis run on CPU only in 1.0
+- **−** Current release is 1.0.0-rc1, a release candidate
 
-<sub>RAM ≥ 16 GB · no GPU · Docker + Compose · Needs MySQL, Elasticsearch or Infinity, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: external LLM, embedding and reranker providers set by URL and API key · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io/)</sub>
+<sub>RAM ≥ 16 GB · no GPU · Docker + Compose · Needs Elasticsearch or Infinity, MySQL, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: configurable LLM, embedding, reranker · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io/)</sub>
 
 <a name="weknora"></a>
 ### #&#8288;4 [WeKnora](https://github.com/tencent/weknora) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
@@ -93,7 +93,7 @@ SurfSense indexes local PDFs, Office files and images into SQLite, answers with 
 <sub>no GPU · Docker + Compose · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · [Repo](https://github.com/modsetter/surfsense) · [📖 Docs ↗](https://www.surfsense.com/docs) · [🌐 Site ↗](https://www.surfsense.com/)</sub>
 
 <a name="maxkb"></a>
-### #&#8288;6 [MaxKB](https://github.com/1panel-dev/maxkb) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;6 [MaxKB](https://github.com/1panel-dev/maxkb) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · GPL-3.0 · Oct 2026</sub>
 
 **Enterprise knowledge-base agent platform with RAG, workflows and MCP tools.**
 
@@ -111,7 +111,7 @@ MaxKB runs as one Docker container (port 8080, state in one volume) with a RAG p
 <sub>no GPU · Models: OpenAI, Claude, Gemini, MiniMax, DeepSeek, Llama, Qwen as private models · port 8080 · [Repo](https://github.com/1panel-dev/maxkb)</sub>
 
 <a name="private-gpt"></a>
-### #&#8288;7 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (59) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (63) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Oct 2026</sub>
 
 **Anthropic-style API layer for private RAG on local inference servers.**
 
@@ -183,20 +183,20 @@ DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge base
 <a name="paperless-gpt"></a>
 ### #&#8288;11 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Oct 2026</sub>
 
-**LLM-powered OCR, titles, tags and document links for Paperless-ngx.**
+**LLM-based OCR, titles, tags and document links for paperless-ngx.**
 
-paperless-gpt attaches to Paperless-ngx and uses OpenAI, Ollama, Mistral, Azure or Anthropic models to generate titles, tags, correspondents and custom fields, link related documents by reference number, and run OCR via vision models, Google Document AI, Azure Document Intelligence or Docling. OCR output can be written back as searchable PDFs. One container on port 8080; prompts editable in the web UI.
+paperless-gpt is a companion service for paperless-ngx that calls an LLM to generate titles, tags, correspondents, created dates and custom fields, with a web UI for manual review or automatic processing. It can also replace the stock OCR with LLM OCR (OpenAI, Ollama, Mistral, Anthropic), Google Document AI, Azure Document Intelligence or a Docling server, and can produce searchable PDFs. It fills Document Link fields by extracting invoice, contract or case references and doing an exact lookup.
 
-- **+** LLM or VLM OCR produces searchable PDFs with positioned text layers
-- **+** Links invoices, amendments and letters via exact reference-number lookup
-- **+** Per-document-type AI workflows with trigger tags, testable before saving
-- **+** Four OCR providers including a self-hosted Docling server
-- **−** No built-in authentication; listens on all interfaces by default
-- **−** OCR limited to 5 pages per document unless OCR_LIMIT_PAGES is raised
-- **−** PDF_REPLACE deletes the original document; flagged dangerous by the maintainer
-- **−** Requires a running Paperless-ngx 2.20.x or 3.0 beta
+- **+** Supports OpenAI, Mistral, Anthropic, Azure OpenAI and local Ollama models
+- **+** Four OCR backends: LLM, Google Document AI, Azure, Docling
+- **+** Document linking uses exact whole-word lookup and leaves ambiguous matches unlinked
+- **+** Prompts and per-document-type workflows editable in the web UI
+- **−** No built-in authentication; needs a reverse proxy or VPN
+- **−** Works only with paperless-ngx, tested on 2.20.x and 3.0 beta
+- **−** Hosted LLM and OCR options send document content to third parties
+- **−** PDF_REPLACE mode deletes the original document after upload
 
-<sub>no GPU · Docker + Compose · Needs Paperless-ngx, optional OCR: Google Document AI, Azure Document Intelligence, Docling · Models: OpenAI (gpt-4o), Ollama (qwen3:8b, minicpm-v), Mistral, Azure OpenAI, Anthropic · port 8080 · [Repo](https://github.com/icereed/paperless-gpt)</sub>
+<sub>GPU optional · Docker + Compose · Needs paperless-ngx, LLM provider (OpenAI, Ollama, Mistral, Anthropic or Azure OpenAI) · Models: OpenAI, Azure OpenAI, Mistral, Anthropic, Ollama · port 8080 · [Repo](https://github.com/icereed/paperless-gpt)</sub>
 
 <a name="docling-serve"></a>
 ### #&#8288;12 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>

@@ -23,20 +23,20 @@ Async Playwright crawler (pip install crawl4ai) that renders pages in Chromium, 
 <a name="morphic"></a>
 ### 🥈 [Morphic](https://github.com/miurla/morphic) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
-**AI search engine with generative UI and bundled SearXNG.**
+**Search engine that answers with citations and renders rich inline components.**
 
-Next.js search app that answers with cited sources and renders results as streamed UI components rather than plain markdown. Works with OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway or OpenAI-compatible providers and Tavily, SearXNG, Brave or Exa search. Docker Compose starts PostgreSQL, Redis, SearXNG and Morphic on port 3000, so no search API key is needed.
+Morphic runs web searches and returns cited answers, rendering inline components such as images, grids and headings from a streamed JSON spec instead of plain markdown. It offers Quick and Adaptive search modes and works with OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway and OpenAI-compatible models. Docker Compose brings up PostgreSQL, Redis, SearXNG and the app, with chat history stored in PostgreSQL.
 
-- **+** Compose stack includes SearXNG, so no paid search key is needed
-- **+** Dynamic provider detection; Ollama works for fully local models
-- **+** Chat history in PostgreSQL, shareable result URLs, file uploads
-- **+** Supabase Auth with guest mode for anonymous use
-- **−** Authentication depends on Supabase; no built-in local auth
-- **−** Needs PostgreSQL and Redis even for a single user
-- **−** At least one AI provider API key or an Ollama endpoint is required
-- **−** Feature configuration lives in a separate CONFIGURATION.md, not the README
+- **+** Compose file bundles PostgreSQL, Redis and SearXNG, so no search API key is required
+- **+** Supports Tavily, SearXNG, Brave and Exa as search providers
+- **+** Model selector detects providers, including local Ollama and OpenAI-compatible endpoints
+- **+** Auth is switchable between Supabase, better-auth and none
+- **−** Full stack needs four containers: PostgreSQL, Redis, SearXNG and the app
+- **−** Supabase is the default auth provider unless ENABLE_AUTH=false or AUTH_PROVIDER is set
+- **−** Needs at least one AI provider API key or a local Ollama setup
+- **−** README gives no RAM or hardware requirements
 
-<sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, SearXNG (bundled) or Tavily, Brave, Exa API, Supabase (auth) · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic)</sub>
+<sub>Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Supabase Auth (optional) · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic)</sub>
 
 <a name="firecrawl"></a>
 ### 🥉 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: patchy (45) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 190k · AGPL-3.0 · Oct 2026</sub>

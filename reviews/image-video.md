@@ -57,22 +57,22 @@ Local web server and React UI for image generation with a Unified Canvas (inpain
 <sub>Docker + Compose · Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/invokeai) · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai)</sub>
 
 <a name="ai-toolkit"></a>
-### #&#8288;4 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (53) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
+### #&#8288;4 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (53) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
 
-**Training suite and web UI for image, video and audio diffusion models.**
+**Fine-tuning suite for image, video and audio diffusion models, with GUI and CLI.**
 
-Trains LoRA, LoKr and full fine-tunes for FLUX.1 and FLUX.2, Chroma, Qwen-Image, HiDream, Z-Image, SDXL, SD 1.5, Wan 2.1 and 2.2, LTX-2 and ACE-Step from YAML configs, with a web UI on port 8675 to start, stop and monitor jobs. A manager script detects hardware, installs PyTorch, Node.js and FFmpeg inside the repo folder and keeps the install updated. For people fine-tuning current open models on NVIDIA GPUs.
+AI Toolkit trains LoRA and LoKr adapters for diffusion models, covering FLUX.1, FLUX.2, Qwen-Image, Wan 2.1/2.2, LTX-2 and SDXL, plus audio models like ACE-Step 1.5. Jobs are defined in YAML and run with `python run.py`, or started and monitored from a web UI on port 8675. The UI can be protected with an AI_TOOLKIT_AUTH token, and training can also run on Modal or RunPod.
 
-- **+** Supports 30 image, 12 video and 3 audio models, including FLUX.2 and LTX-2.5
-- **+** Experimental manager sets up PyTorch, Node.js and FFmpeg without system-wide installs
-- **+** UI can be locked with AI_TOOLKIT_AUTH; jobs keep running without the UI
-- **+** Layer targeting via only_if_contains and ignore_if_contains network kwargs
-- **−** NVIDIA GPU required; the example FLUX LoRA configs assume 24 GB VRAM
-- **−** No Dockerfile at the root; the manager install is marked experimental
-- **−** Pressing Ctrl+C during a checkpoint save can corrupt it
-- **−** Apple Silicon support is experimental; datasets limited to jpg, jpeg and png
+- **+** Supports a wide range of image, edit, video and audio models in one tool
+- **+** Same YAML configs work from the CLI or the web UI
+- **+** Training resumes from the last checkpoint after interruption
+- **+** Layer targeting via only_if_contains and ignore_if_contains, plus LoKr support
+- **−** Manual install requires an Nvidia GPU; Mac support is experimental
+- **−** Install manager is labeled experimental by the author
+- **−** Dataset images must be jpg, jpeg or png; webp has known issues
+- **−** Ctrl+C during a checkpoint save can corrupt that checkpoint
 
-<sub>GPU required · Docker + Compose · Needs Node.js 20+ (UI), FFmpeg, git · Models: FLUX.1-dev, FLUX.2-dev and klein 4B/9B, Flex.1 and Flex.2, Chroma, Lumina-Image-2.0 · port 8675 · [Repo](https://github.com/ostris/ai-toolkit)</sub>
+<sub>GPU required · Docker + Compose · Needs PyTorch, Node.js, Hugging Face · Models: FLUX.1, FLUX.2, Qwen-Image, Wan 2.1/2.2, LTX-2 · port 8675 · [Repo](https://github.com/ostris/ai-toolkit)</sub>
 
 <a name="kohya-ss"></a>
 ### #&#8288;5 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (42) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>

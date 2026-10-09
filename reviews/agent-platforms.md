@@ -90,8 +90,26 @@ AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire bl
 
 <sub>no GPU · Needs Docker · [Repo](https://github.com/significant-gravitas/autogpt) · [▶️ Demo ↗](https://platform.agpt.co/tour) · [📖 Docs ↗](https://docs.agpt.co)</sub>
 
+<a name="multica"></a>
+### #&#8288;6 [Multica](https://github.com/multica-ai/multica) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 52k · custom license · Oct 2026</sub>
+
+**Issue board where AI coding agents take assignments like teammates.**
+
+Multica is a workspace where issues are assigned to AI coding agents, which run through locally installed agent CLIs such as Claude Code, Codex, Cursor and Copilot (26 listed). A daemon on your own machine executes the work next to your code and reports progress back to the issue, which ends in review rather than main. The backend is Go with PostgreSQL 17, and clients cover web, Electron desktop and an Expo mobile app.
+
+- **+** Drives 26 existing agent CLIs, so no model or API lock-in
+- **+** Execution log replays every tool call, command and error per run
+- **+** Daemon runs on your own machine, so code stays there
+- **+** Self-host via Docker Compose or Helm; works with GitHub, GitLab, Gitea, Forgejo
+- **−** Does not ship agents; each runtime needs a CLI installed and signed in
+- **−** Custom Multica License (Apache 2.0 plus conditions on hosting, embedding, branding)
+- **−** Requires Docker, a Go backend and PostgreSQL 17 to self-host
+- **−** iOS app builds from source only; DingTalk, WeCom, Telegram are community-maintained
+
+<sub>no GPU · Docker + Compose · Needs PostgreSQL 17, Docker, agent CLI (Claude Code, Codex, etc.) · Models: Claude Code, OpenAI Codex, Cursor Agent, GitHub Copilot CLI, OpenCode · [Repo](https://github.com/multica-ai/multica) · [📖 Docs ↗](https://multica.ai/docs) · [🌐 Site ↗](https://multica.ai)</sub>
+
 <a name="activepieces"></a>
-### #&#8288;6 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
+### #&#8288;7 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
 
 **Zapier-style automation whose 280+ pieces double as MCP servers.**
 
@@ -106,24 +124,6 @@ Activepieces is a TypeScript workflow automation tool with a no-code builder (lo
 - **−** Model providers beyond an OpenAI piece are not named in the README
 
 <sub>no GPU · Docker + Compose · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com)</sub>
-
-<a name="multica"></a>
-### #&#8288;7 [Multica](https://github.com/multica-ai/multica) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 52k · custom license · Oct 2026</sub>
-
-**Issue board where coding agents pick up tickets and return pull requests.**
-
-Multica is a Go and Next.js workspace on PostgreSQL 17 where humans and AI coding agents share one issue board. A daemon on your machine spawns any of 26 agent CLIs (Claude Code, Codex, Cursor, Copilot, OpenCode and more); an assigned agent works the issue, comments, and moves it to review, with a replayable execution log, per-run cost, cron autopilots and review gates. Self-host via Docker Compose or Helm.
-
-- **+** Drives 26 agent CLIs; switching providers is a dropdown
-- **+** Execution log replays every tool call, command and error with timestamps
-- **+** Works with GitHub, GitLab, Gitea and Forgejo, including self-hosted instances
-- **+** Roles owner, admin, member plus per-member agent access scopes
-- **−** Multica License adds conditions on hosted services, commercial embedding and branding
-- **−** Each runtime machine needs agent CLIs installed and signed in; Multica ships no model
-- **−** Self-hosted server sends a daily anonymous snapshot unless DO_NOT_TRACK=1
-- **−** DingTalk, WeCom and Telegram channels are community-maintained; iOS app is source-only
-
-<sub>no GPU · Docker + Compose · Needs PostgreSQL 17, Docker · [Repo](https://github.com/multica-ai/multica) · [📖 Docs ↗](https://multica.ai/docs) · [🌐 Site ↗](https://multica.ai)</sub>
 
 <a name="paperclip"></a>
 ### #&#8288;8 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 99k · MIT · Oct 2026</sub>
@@ -144,7 +144,7 @@ Paperclip is a Node.js server and React UI that coordinates external agents (Ope
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/paperclipai/paperclip) · [📖 Docs ↗](https://docs.paperclip.ing) · [🌐 Site ↗](https://paperclip.ing)</sub>
 
 <a name="skyvern"></a>
-### #&#8288;9 [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;9 [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Oct 2026</sub>
 
 **Browser automation agent driven by vision LLMs over Playwright.**
 
