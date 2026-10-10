@@ -2,6 +2,8 @@
 
 Web front-ends for local or API models, usually with user accounts, chat history and file upload. Back to the [leaderboard](../README.md#-chat-uis).
 
+<sub>🌐 Also on the web: [Chat UIs on archestack.github.io](https://archestack.github.io/best-of-ai/chat-ui/), each project on its own page.</sub>
+
 <a name="lobehub"></a>
 ### 🥇 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · custom license · Oct 2026</sub>
 
@@ -39,7 +41,7 @@ AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a 
 <sub>no GPU · Docker + Compose · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub>
 
 <a name="open-webui"></a>
-### 🥉 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 154k · custom license · Sep 2026</sub>
+### 🥉 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 154k · custom license · Sep 2026</sub>
 
 **Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG.**
 

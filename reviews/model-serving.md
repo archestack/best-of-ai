@@ -2,6 +2,8 @@
 
 Inference engines and model servers that expose local models over an API. Back to the [leaderboard](../README.md#-model-serving).
 
+<sub>🌐 Also on the web: [Model serving on archestack.github.io](https://archestack.github.io/best-of-ai/model-serving/), each project on its own page.</sub>
+
 <a name="localai"></a>
 ### 🥇 [LocalAI](https://github.com/mudler/localai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 

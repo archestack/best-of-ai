@@ -2,6 +2,8 @@
 
 Isolated runtimes where agents execute code, browse or use tools safely. Back to the [leaderboard](../README.md#%EF%B8%8F-sandboxes).
 
+<sub>🌐 Also on the web: [Sandboxes on archestack.github.io](https://archestack.github.io/best-of-ai/sandboxes/), each project on its own page.</sub>
+
 <a name="lightpanda"></a>
 ### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Oct 2026</sub>
 

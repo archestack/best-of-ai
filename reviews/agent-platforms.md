@@ -2,6 +2,8 @@
 
 Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. Back to the [leaderboard](../README.md#-agent-platforms).
 
+<sub>🌐 Also on the web: [Agent platforms on archestack.github.io](https://archestack.github.io/best-of-ai/agent-platforms/), each project on its own page.</sub>
+
 <a name="langflow"></a>
 ### 🥇 [Langflow](https://github.com/langflow-ai/langflow) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 155k · MIT · Oct 2026</sub>
 
