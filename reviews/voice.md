@@ -39,7 +39,7 @@ Runs a VAD, STT, LLM and TTS cascade, with each stage in its own thread and ever
 <sub>RAM ≥ 16 GB · GPU optional · Docker + Compose · Needs OpenAI-compatible LLM server (optional), PortAudio and libsndfile on Ubuntu · Models: Parakeet TDT, Qwen3-TTS, Whisper, Kokoro-82M, Transformers LLMs · port 8765 · [Repo](https://github.com/huggingface/speech-to-speech) · [📖 Docs ↗](https://github.com/huggingface/speech-to-speech/blob/main/docs/configuration.md)</sub>
 
 <a name="pocket-tts"></a>
-### 🥉 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · MIT · Oct 2026</sub>
+### 🥉 [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · MIT · Oct 2026</sub>
 
 **100M-parameter CPU text-to-speech with streaming and voice cloning.**
 
@@ -146,7 +146,7 @@ Next.js server that narrates EPUB, PDF, TXT, Markdown and DOCX files with synchr
 <sub>no GPU · Docker · Needs OpenAI-compatible TTS server or cloud TTS API, NATS JetStream (compute worker), SQLite or PostgreSQL, SeaweedFS (embedded) or S3-compatible storage · Models: Kokoro-FastAPI, KittenTTS-FastAPI, Orpheus-FastAPI, OpenAI TTS, Replicate · [Repo](https://github.com/richardr1126/openreader) · [📖 Docs ↗](https://docs.openreader.richardr.dev/)</sub>
 
 <a name="speakr"></a>
-### #&#8288;9 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;9 [Speakr](https://github.com/murtaza-nasir/speakr) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Oct 2026</sub>
 
 **Transcribe, summarize and search recordings with pluggable ASR and LLMs.**
 
