@@ -146,26 +146,8 @@ Traces LLM and agent calls through OpenTelemetry and SDK integrations, runs simu
 
 <sub>no GPU · Needs Node.js · Models: OpenAI, Anthropic, Azure OpenAI, Vertex AI, Bedrock · [Repo](https://github.com/langwatch/langwatch) · [📖 Docs ↗](https://langwatch.ai/docs/introduction) · [🌐 Site ↗](https://langwatch.ai)</sub>
 
-<a name="openlit"></a>
-### #&#8288;9 [OpenLIT](https://github.com/openlit/openlit) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
-
-**OpenTelemetry-based tracing, evals and guardrails for LLM apps and coding agents.**
-
-OpenLIT collects OpenTelemetry traces and metrics from LLM apps and agents through Python and TypeScript SDKs, and stores them in ClickHouse behind a web dashboard on port 3000. It adds cost tracking, LLM-as-a-judge evals, SDK guardrails, a versioned Prompt Hub, a Vault for API keys, and GPU monitoring. A CLI installs tracing for Claude Code, Cursor and Codex sessions.
-
-- **+** Follows OpenTelemetry GenAI conventions; accepts OTLP on :4317 (gRPC) and :4318 (HTTP)
-- **+** One-line auto-instrumentation via openlit.init(); README claims 70+ integrations
-- **+** Covers cost tracking, evals, guardrails, prompt versioning and secrets in one tool
-- **+** Docker Compose quickstart; Apache-2.0 and free to self-host
-- **−** Needs ClickHouse as the telemetry store; RAM and disk requirements are not stated
-- **−** Broad scope (Vault, Rule Engine, OpenGround) means a larger surface than a tracing-only tool
-- **−** Guardrails run in the SDK, so they only protect instrumented code
-- **−** No Dockerfile detected by our tools; the README only shows Compose
-
-<sub>GPU optional · Compose · Needs ClickHouse · Models: OpenAI, Anthropic, Ollama, vLLM, Amazon Bedrock · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/latest/overview) · [🌐 Site ↗](https://openlit.io)</sub>
-
 <a name="lmnr"></a>
-### #&#8288;10 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;9 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Sep 2026</sub>
 
 **Rust-based agent tracing with SQL queries, signals and evals.**
 
@@ -181,6 +163,24 @@ OpenTelemetry-native tracing for Vercel AI SDK, LangChain, OpenAI, Anthropic, Ge
 - **−** ClickHouse upgrades need manual container recreation and log-table truncation
 
 <sub>no GPU · Compose · Needs ClickHouse, PostgreSQL, LLM provider (optional, for AI features) · Models: Gemini, OpenAI and OpenAI-compatible gateways (LiteLLM, OpenRouter, vLLM), AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs ↗](https://laminar.sh/docs) · [🌐 Site ↗](https://laminar.sh)</sub>
+
+<a name="openlit"></a>
+### #&#8288;10 [OpenLIT](https://github.com/openlit/openlit) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
+
+**OpenTelemetry-based tracing, evals and guardrails for LLM apps and coding agents.**
+
+OpenLIT collects OpenTelemetry traces and metrics from LLM apps and agents through Python and TypeScript SDKs, and stores them in ClickHouse behind a web dashboard on port 3000. It adds cost tracking, LLM-as-a-judge evals, SDK guardrails, a versioned Prompt Hub, a Vault for API keys, and GPU monitoring. A CLI installs tracing for Claude Code, Cursor and Codex sessions.
+
+- **+** Follows OpenTelemetry GenAI conventions; accepts OTLP on :4317 (gRPC) and :4318 (HTTP)
+- **+** One-line auto-instrumentation via openlit.init(); README claims 70+ integrations
+- **+** Covers cost tracking, evals, guardrails, prompt versioning and secrets in one tool
+- **+** Docker Compose quickstart; Apache-2.0 and free to self-host
+- **−** Needs ClickHouse as the telemetry store; RAM and disk requirements are not stated
+- **−** Broad scope (Vault, Rule Engine, OpenGround) means a larger surface than a tracing-only tool
+- **−** Guardrails run in the SDK, so they only protect instrumented code
+- **−** No Dockerfile detected by our tools; the README only shows Compose
+
+<sub>GPU optional · Compose · Needs ClickHouse · Models: OpenAI, Anthropic, Ollama, vLLM, Amazon Bedrock · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/latest/overview) · [🌐 Site ↗](https://openlit.io)</sub>
 
 <a name="agenta"></a>
 ### #&#8288;11 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Oct 2026</sub>
