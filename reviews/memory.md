@@ -3,7 +3,7 @@
 Long-term memory engines that store and retrieve facts for agents across sessions. Back to the [leaderboard](../README.md#%EF%B8%8F-memory).
 
 <a name="hindsight"></a>
-### 🥇 [hindsight](https://github.com/vectorize-io/hindsight) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Oct 2026</sub>
+### 🥇 [hindsight](https://github.com/vectorize-io/hindsight) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Oct 2026</sub>
 
 **Agent memory server with retain, recall and reflect operations.**
 
@@ -21,7 +21,7 @@ Hindsight stores agent memories in banks and extracts facts, entities and timest
 <sub>Docker · Needs LLM provider (hosted or local), PostgreSQL (embedded pg0 by default), Oracle AI Database (optional) · Models: openai, anthropic, gemini, groq, bedrock · port 9999 · [Repo](https://github.com/vectorize-io/hindsight) · [📖 Docs ↗](https://hindsight.vectorize.io) · [🌐 Site ↗](https://hindsight.vectorize.io)</sub>
 
 <a name="mempalace"></a>
-### 🥈 [MemPalace](https://github.com/mempalace/mempalace) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 59k · MIT · Oct 2026</sub>
+### 🥈 [MemPalace](https://github.com/mempalace/mempalace) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 59k · MIT · Oct 2026</sub>
 
 **Local verbatim memory for coding agents on ChromaDB with 45 MCP tools.**
 
@@ -38,26 +38,8 @@ MemPalace stores conversation history verbatim, never summarised, and retrieves 
 
 <sub>no GPU · Docker + Compose · Models: local embeddings (MiniLM, EmbeddingGemma), OpenAI-compatible embedding endpoints, Ollama · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com)</sub>
 
-<a name="openviking"></a>
-### 🥉 [OpenViking](https://github.com/volcengine/openviking) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · AGPL-3.0 · Oct 2026</sub>
-
-**Context database exposing agent memory, knowledge and skills as a filesystem.**
-
-OpenViking organises everything an agent knows as a viking:// virtual filesystem of resources, memories and skills, browsed with ls, tree, read and grep, with search scoped to a subtree. Each directory carries generated summaries so agents read full content only when needed. The server needs Python 3.10+ plus an embedding model and a VLM; plugins cover Claude Code, Codex, Cursor and OpenClaw.
-
-- **+** Memory is inspectable and editable as Markdown files under viking:// URIs
-- **+** LoCoMo accuracy 80 to 83% for OpenClaw, Hermes and Claude Code at far fewer tokens
-- **+** Python, Go and TypeScript SDKs plus HTTP API; multi-tenant accounts and ACLs
-- **+** Hosted Studio playground at openviking.ai/studio; Railway one-click deploy
-- **−** AGPL-3.0 license
-- **−** Needs both an embedding model and a vision-language model from a provider
-- **−** Memory plugin installer is macOS/Linux only; Windows uses the beta desktop app
-- **−** Benchmarks were run with Volcengine Doubao models
-
-<sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/openviking) · [▶️ Demo ↗](https://openviking.ai/studio) · [📖 Docs ↗](https://docs.openviking.ai/) · [🌐 Site ↗](https://www.openviking.ai)</sub>
-
 <a name="agentmemory"></a>
-### #&#8288;4 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Persistent memory server for coding agents, exposed over MCP and REST.**
 
@@ -73,6 +55,24 @@ agentmemory captures what a coding agent does across sessions, stores it as sear
 - **−** Uses four local ports (3111, 3112, 3113, 49134)
 
 <sub>no GPU · Docker + Compose · Needs Node.js 20+, iii-engine v0.22.1 · Models: Xenova/all-MiniLM-L6-v2 (local embeddings) · port 3113 · [Repo](https://github.com/rohitg00/agentmemory)</sub>
+
+<a name="openviking"></a>
+### #&#8288;4 [OpenViking](https://github.com/volcengine/openviking) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · AGPL-3.0 · Oct 2026</sub>
+
+**Context database exposing agent memory, knowledge and skills as a filesystem.**
+
+OpenViking organises everything an agent knows as a viking:// virtual filesystem of resources, memories and skills, browsed with ls, tree, read and grep, with search scoped to a subtree. Each directory carries generated summaries so agents read full content only when needed. The server needs Python 3.10+ plus an embedding model and a VLM; plugins cover Claude Code, Codex, Cursor and OpenClaw.
+
+- **+** Memory is inspectable and editable as Markdown files under viking:// URIs
+- **+** LoCoMo accuracy 80 to 83% for OpenClaw, Hermes and Claude Code at far fewer tokens
+- **+** Python, Go and TypeScript SDKs plus HTTP API; multi-tenant accounts and ACLs
+- **+** Hosted Studio playground at openviking.ai/studio; Railway one-click deploy
+- **−** AGPL-3.0 license
+- **−** Needs both an embedding model and a vision-language model from a provider
+- **−** Memory plugin installer is macOS/Linux only; Windows uses the beta desktop app
+- **−** Benchmarks were run with Volcengine Doubao models
+
+<sub>no GPU · Docker + Compose · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/openviking) · [▶️ Demo ↗](https://openviking.ai/studio) · [📖 Docs ↗](https://docs.openviking.ai/) · [🌐 Site ↗](https://www.openviking.ai)</sub>
 
 <a name="mem0"></a>
 ### #&#8288;5 [Mem0](https://github.com/mem0ai/mem0) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · Apache-2.0 · Oct 2026</sub>
