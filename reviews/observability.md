@@ -2,6 +2,8 @@
 
 Tracing, evaluation and prompt management for LLM applications. Back to the [leaderboard](../README.md#-observability).
 
+<sub>🌐 Also on the web: [Observability on archestack.github.io](https://archestack.github.io/best-of-ai/observability/), each project on its own page.</sub>
+
 <a name="langfuse"></a>
 ### 🥇 [Langfuse](https://github.com/langfuse/langfuse) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · custom license · Oct 2026</sub>
 

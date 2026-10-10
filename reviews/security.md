@@ -2,6 +2,8 @@
 
 AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. Back to the [leaderboard](../README.md#-security).
 
+<sub>🌐 Also on the web: [Security on archestack.github.io](https://archestack.github.io/best-of-ai/security/), each project on its own page.</sub>
+
 <a name="strix"></a>
 ### 🥇 [Strix](https://github.com/usestrix/strix) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
 

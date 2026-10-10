@@ -2,6 +2,8 @@
 
 Generation UIs and pipelines for images and video, usually around diffusion models. Back to the [leaderboard](../README.md#-image-and-video).
 
+<sub>🌐 Also on the web: [Image and video on archestack.github.io](https://archestack.github.io/best-of-ai/image-video/), each project on its own page.</sub>
+
 <a name="comfyui"></a>
 ### 🥇 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 137k · GPL-3.0 · Oct 2026</sub>
 
@@ -57,7 +59,7 @@ Local web server and React UI for image generation with a Unified Canvas (inpain
 <sub>Docker + Compose · Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/invokeai) · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai)</sub>
 
 <a name="ai-toolkit"></a>
-### #&#8288;4 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (53) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
+### #&#8288;4 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (52) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
 
 **Fine-tuning suite for image, video and audio diffusion models, with GUI and CLI.**
 

@@ -2,6 +2,8 @@
 
 Private search engines and AI answer engines that keep queries on your host. Back to the [leaderboard](../README.md#-search).
 
+<sub>🌐 Also on the web: [Search on archestack.github.io](https://archestack.github.io/best-of-ai/search/), each project on its own page.</sub>
+
 <a name="morphic"></a>
 ### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 

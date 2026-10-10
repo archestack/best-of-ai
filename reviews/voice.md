@@ -2,6 +2,8 @@
 
 Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. Back to the [leaderboard](../README.md#%EF%B8%8F-voice).
 
+<sub>🌐 Also on the web: [Voice on archestack.github.io](https://archestack.github.io/best-of-ai/voice/), each project on its own page.</sub>
+
 <a name="voicebox"></a>
 ### 🥇 [Voicebox](https://github.com/jamiepine/voicebox) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (54) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 57k · MIT · Oct 2026</sub>
 

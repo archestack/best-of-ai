@@ -2,6 +2,8 @@
 
 LLM gateways and proxies for routing, caching, rate limits and cost control across providers. Back to the [leaderboard](../README.md#-gateways).
 
+<sub>🌐 Also on the web: [Gateways on archestack.github.io](https://archestack.github.io/best-of-ai/gateways/), each project on its own page.</sub>
+
 <a name="omniroute"></a>
 ### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 75k · MIT · Oct 2026</sub>
 

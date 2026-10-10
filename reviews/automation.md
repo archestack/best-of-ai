@@ -2,6 +2,8 @@
 
 Workflow and integration platforms with AI steps or agent nodes, for wiring models into the rest of your tools. Back to the [leaderboard](../README.md#-workflow-automation-with-ai).
 
+<sub>🌐 Also on the web: [Workflow automation with AI on archestack.github.io](https://archestack.github.io/best-of-ai/automation/), each project on its own page.</sub>
+
 <a name="n8n"></a>
 ### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 207k · custom license · Oct 2026</sub>
 
