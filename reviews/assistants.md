@@ -3,7 +3,7 @@
 Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. Back to the [leaderboard](../README.md#-assistants).
 
 <a name="nanobot"></a>
-### 🥇 [nanobot](https://github.com/hkuds/nanobot) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
+### 🥇 [nanobot](https://github.com/hkuds/nanobot) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 
 **Small Python agent runtime with bundled WebUI, TUI and chat channels.**
 
@@ -71,26 +71,8 @@ ZeroClaw is one Rust binary that routes messages from 30+ channels (Discord, Tel
 
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs ↗](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site ↗](https://www.zeroclaw.com)</sub>
 
-<a name="qwenpaw"></a>
-### #&#8288;5 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
-
-**Personal AI agent with memory, skills, and chat-channel connectors.**
-
-QwenPaw is a personal agent runtime installed with pip, a script, Docker, or a desktop app, with a web Console on port 8088 and a terminal UI. It keeps layered memory as Markdown via ReMe, runs skills, plugins, and MCP tools, and replies through DingTalk, Lark, WeChat, Discord, Telegram, iMessage, and QQ. Models can be local (built-in runtime, Ollama, LM Studio) or any of 14+ cloud providers.
-
-- **+** One instance serves DingTalk, Lark, WeChat, Discord, Telegram, iMessage, and QQ
-- **+** Works with Ollama, LM Studio, a built-in local runtime, or 14+ cloud providers
-- **+** Sandbox, Tool Guard, File Guard, and Skill Scanner gate commands before they run
-- **+** Supports MCP, plus ACP for cross-system agent orchestration
-- **−** Requires Python 3.11 to below 3.14 for the pip install path
-- **−** Desktop app is beta and the macOS build is not notarized
-- **−** RAM and VRAM requirements are unknown; the README does not state them
-- **−** Major versions shipped monthly since 2.0, so expect fast-changing behavior
-
-<sub>GPU optional · Docker + Compose · Models: QwenPaw-Flash local models, Ollama, LM Studio, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/) · [🌐 Site ↗](https://qwenpaw.agentscope.io/)</sub>
-
 <a name="cowagent"></a>
-### #&#8288;6 [cowagent](https://github.com/zhayujie/cowagent) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · MIT · Oct 2026</sub>
+### #&#8288;5 [cowagent](https://github.com/zhayujie/cowagent) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · MIT · Oct 2026</sub>
 
 **Personal AI agent with memory, skills and chat channels like Telegram and Slack.**
 
@@ -106,6 +88,24 @@ CowAgent is a Python agent that plans tasks, runs built-in tools (terminal, file
 - **−** Install is a curl-piped script; README documents no pinned-version install
 
 <sub>Docker + Compose · Needs LLM provider API (OpenAI, Claude, Gemini, DeepSeek, Qwen and others) · Models: Claude, OpenAI GPT, Gemini, DeepSeek, Qwen · port 9899 · [Repo](https://github.com/zhayujie/cowagent) · [📖 Docs ↗](https://docs.cowagent.ai/) · [🌐 Site ↗](https://cowagent.ai/)</sub>
+
+<a name="qwenpaw"></a>
+### #&#8288;6 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
+
+**Personal AI agent with memory, skills, and chat-channel connectors.**
+
+QwenPaw is a personal agent runtime installed with pip, a script, Docker, or a desktop app, with a web Console on port 8088 and a terminal UI. It keeps layered memory as Markdown via ReMe, runs skills, plugins, and MCP tools, and replies through DingTalk, Lark, WeChat, Discord, Telegram, iMessage, and QQ. Models can be local (built-in runtime, Ollama, LM Studio) or any of 14+ cloud providers.
+
+- **+** One instance serves DingTalk, Lark, WeChat, Discord, Telegram, iMessage, and QQ
+- **+** Works with Ollama, LM Studio, a built-in local runtime, or 14+ cloud providers
+- **+** Sandbox, Tool Guard, File Guard, and Skill Scanner gate commands before they run
+- **+** Supports MCP, plus ACP for cross-system agent orchestration
+- **−** Requires Python 3.11 to below 3.14 for the pip install path
+- **−** Desktop app is beta and the macOS build is not notarized
+- **−** RAM and VRAM requirements are unknown; the README does not state them
+- **−** Major versions shipped monthly since 2.0, so expect fast-changing behavior
+
+<sub>GPU optional · Docker + Compose · Models: QwenPaw-Flash local models, Ollama, LM Studio, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/) · [🌐 Site ↗](https://qwenpaw.agentscope.io/)</sub>
 
 <a name="astrbot"></a>
 ### #&#8288;7 [AstrBot](https://github.com/astrbotdevs/astrbot) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Oct 2026</sub>
@@ -144,7 +144,7 @@ IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAss
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw)</sub>
 
 <a name="moltis"></a>
-### #&#8288;9 [Moltis](https://github.com/moltis-org/moltis) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Sep 2026</sub>
+### #&#8288;9 [Moltis](https://github.com/moltis-org/moltis) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Sep 2026</sub>
 
 **Persistent personal agent server in one Rust binary with sandboxed execution.**
 
@@ -198,7 +198,7 @@ Spacebot is a Rust agent server built for many concurrent users: channel process
 <sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs ↗](https://docs.spacebot.sh) · [🌐 Site ↗](https://spacebot.sh)</sub>
 
 <a name="picoclaw"></a>
-### #&#8288;12 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (41) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
+### #&#8288;12 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (40) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
 
 **Go assistant agent that runs in under 20 MB on $10 boards.**
 
