@@ -3,7 +3,7 @@
 LLM gateways and proxies for routing, caching, rate limits and cost control across providers. Back to the [leaderboard](../README.md#-gateways).
 
 <a name="omniroute"></a>
-### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 75k · MIT · Oct 2026</sub>
+### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 75k · MIT · Oct 2026</sub>
 
 **OpenAI-compatible gateway that routes requests across hundreds of AI providers.**
 
@@ -165,7 +165,7 @@ Agentgateway is a Linux Foundation proxy for agent traffic: an LLM gateway (Open
 <sub>no GPU · Docker · Models: OpenAI, Anthropic, Gemini, Bedrock and other providers; self-hosted models via inference routing · [Repo](https://github.com/agentgateway/agentgateway) · [📖 Docs ↗](https://agentgateway.dev/docs/standalone/latest)</sub>
 
 <a name="optillm"></a>
-### #&#8288;10 [optillm](https://github.com/algorithmicsuperintelligence/optillm) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (63) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [optillm](https://github.com/algorithmicsuperintelligence/optillm) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (69) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Oct 2026</sub>
 
 **OpenAI-compatible proxy applying inference-time reasoning techniques.**
 
