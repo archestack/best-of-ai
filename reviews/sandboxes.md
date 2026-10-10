@@ -75,7 +75,7 @@ Runs each agent in a sandbox with kernel-enforced limits on file access and syst
 <sub>no GPU · Docker + Compose · Needs Docker, Podman or host virtualization · Models: any provider via routed inference credentials · [Repo](https://github.com/nvidia/openshell) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html)</sub>
 
 <a name="microsandbox"></a>
-### #&#8288;5 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Oct 2026</sub>
 
 **Local microVMs for untrusted code with fork, snapshot and SDKs.**
 
@@ -111,7 +111,7 @@ REST API and UI on port 3000 that launches Chrome sessions with persisted cookie
 <sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev)</sub>
 
 <a name="browser-use-web-ui"></a>
-### #&#8288;7 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (52) · Freshness: recent (67) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+### #&#8288;7 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (52) · Freshness: recent (66) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
 
 **Gradio UI for running browser-use agents with your own Chrome.**
 

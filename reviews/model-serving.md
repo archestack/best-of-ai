@@ -237,7 +237,7 @@ KTransformers is a research framework for CPU-GPU heterogeneous inference and fi
 <sub>GPU required · Docker · Needs SGLang (serving), LLaMA-Factory (fine-tuning) · Models: DeepSeek-V3/R1/V4-Flash, Kimi K2 to K2.6, GLM-5 to 5.3, MiniMax-M2.x/M3, Qwen3-MoE, Qwen3-Next · [Repo](https://github.com/kvcache-ai/ktransformers) · [📖 Docs ↗](https://kvcache-ai.github.io/ktransformers/)</sub>
 
 <a name="triton-inference-server"></a>
-### #&#8288;14 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · BSD-3-Clause · Oct 2026</sub>
+### #&#8288;14 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · BSD-3-Clause · Oct 2026</sub>
 
 **NVIDIA inference server for TensorRT, PyTorch, ONNX and more over HTTP/gRPC.**
 

@@ -1,6 +1,6 @@
 # Best of Open-Source AI
 
-> Best of Open-Source AI is a ranked list of 155 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. Updated 2026-10-09 (UTC); the page refreshes twice a day from GitHub data.
+> Best of Open-Source AI is a ranked list of 155 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. Updated 2026-10-10 (UTC); the page refreshes twice a day from GitHub data.
 
 Every entry is written from the project README and checked facts: tagline, summary, 2 to 4 strengths, 2 to 4 weaknesses, specs (GPU, RAM when stated, external dependencies, web port, Docker and compose files, license), demo, docs and website links, and a score out of 100 from public GitHub signals (the weights are in the README under "How we rank"). Specs say "unknown" when the README does not state them. Paid placements never affect the order.
 

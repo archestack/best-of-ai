@@ -38,7 +38,7 @@ Dify is an LLM app platform started with Docker Compose (dashboard on port 80) t
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [▶️ Demo ↗](https://cloud.dify.ai) · [📖 Docs ↗](https://docs.dify.ai) · [🌐 Site ↗](https://dify.ai)</sub>
 
 <a name="autogpt"></a>
-### 🥉 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: hard (17) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 187k · custom license · Oct 2026</sub>
+### 🥉 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: hard (17) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 188k · custom license · Oct 2026</sub>
 
 **Block-based builder for agents that run on demand, schedule or trigger.**
 
