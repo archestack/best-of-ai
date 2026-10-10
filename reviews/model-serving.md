@@ -39,7 +39,7 @@ llama.cpp is a C/C++ inference engine for LLMs and VLMs with no dependencies, bu
 <sub>GPU optional · Docker · Models: GGUF models from Hugging Face (e.g. Qwen3.5-0.8B-GGUF) · [Repo](https://github.com/ggml-org/llama.cpp) · [🌐 Site ↗](https://llama.app)</sub>
 
 <a name="vllm"></a>
-### 🥉 [vLLM](https://github.com/vllm-project/vllm) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 93k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [vLLM](https://github.com/vllm-project/vllm) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 94k · Apache-2.0 · Oct 2026</sub>
 
 **High-throughput LLM serving engine with OpenAI and Anthropic APIs.**
 
