@@ -39,7 +39,7 @@ OpenClaw runs a local Gateway that connects one assistant to Discord, iMessage, 
 <sub>no GPU · Docker + Compose · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs ↗](https://docs.openclaw.ai) · [🌐 Site ↗](https://openclaw.ai)</sub>
 
 <a name="hermes-agent"></a>
-### 🥉 [Hermes Agent](https://github.com/nousresearch/hermes-agent) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 252k · MIT · Oct 2026</sub>
+### 🥉 [Hermes Agent](https://github.com/nousresearch/hermes-agent) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 253k · MIT · Oct 2026</sub>
 
 **Terminal and chat-app agent that writes its own skills and remembers you.**
 

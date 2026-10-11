@@ -167,7 +167,7 @@ Agentgateway is a Linux Foundation proxy for agent traffic: an LLM gateway (Open
 <sub>no GPU · Docker · Models: OpenAI, Anthropic, Gemini, Bedrock and other providers; self-hosted models via inference routing · [Repo](https://github.com/agentgateway/agentgateway) · [📖 Docs ↗](https://agentgateway.dev/docs/standalone/latest)</sub>
 
 <a name="optillm"></a>
-### #&#8288;10 [optillm](https://github.com/algorithmicsuperintelligence/optillm) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (73) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [optillm](https://github.com/algorithmicsuperintelligence/optillm) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Oct 2026</sub>
 
 **OpenAI-compatible proxy applying inference-time reasoning techniques.**
 
@@ -185,7 +185,7 @@ OptiLLM is an OpenAI-compatible proxy (pip or Docker, port 8000) that applies in
 <sub>GPU optional · Docker + Compose · Models: OpenAI, Cerebras, Azure OpenAI, any OpenAI-compatible endpoint, LiteLLM providers, local models via the built-in inference server · port 8000 · [Repo](https://github.com/algorithmicsuperintelligence/optillm) · [▶️ Demo ↗](https://huggingface.co/spaces/codelion/optillm)</sub>
 
 <a name="portkey-gateway"></a>
-### #&#8288;11 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (60) · Freshness: active (80) · Maintenance: weak (3) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
+### #&#8288;11 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (60) · Freshness: recent (80) · Maintenance: weak (3) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
 
 **Node.js LLM gateway with fallbacks, load balancing and guardrails.**
 
@@ -221,7 +221,7 @@ MetaMCP groups MCP servers into namespaces and publishes each as one MCP endpoin
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · port 12008 · [Repo](https://github.com/metatool-ai/metamcp) · [📖 Docs ↗](https://docs.metamcp.com)</sub>
 
 <a name="coai"></a>
-### #&#8288;13 [CoAI](https://github.com/coaidev/coai) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (48) · Freshness: recent (55) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;13 [CoAI](https://github.com/coaidev/coai) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (48) · Freshness: recent (54) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
 
 **Multi-user chat site plus OpenAI-compatible proxy with billing.**
 
