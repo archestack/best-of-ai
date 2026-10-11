@@ -110,7 +110,7 @@ QwenPaw is a personal agent runtime installed with pip, a script, Docker, or a d
 <sub>GPU optional · Docker + Compose · Models: QwenPaw-Flash local models, Ollama, LM Studio, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/) · [🌐 Site ↗](https://qwenpaw.agentscope.io/)</sub>
 
 <a name="astrbot"></a>
-### #&#8288;7 [AstrBot](https://github.com/astrbotdevs/astrbot) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [AstrBot](https://github.com/astrbotdevs/astrbot) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Oct 2026</sub>
 
 **Chatbot platform bridging LLMs to QQ, Telegram, Discord, Slack and more.**
 
