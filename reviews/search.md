@@ -5,7 +5,7 @@ Private search engines and AI answer engines that keep queries on your host. Bac
 <sub>🌐 Also on the web: [Search on archestack.com](https://archestack.com/best-of-ai/search/), each project on its own page.</sub>
 
 <a name="morphic"></a>
-### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **Search engine that answers with citations and renders rich inline components.**
 
@@ -59,7 +59,7 @@ Planner and execution agents generate research questions, scrape 20+ sources, fi
 <sub>no GPU · Docker + Compose · Needs OpenAI or OpenAI-compatible LLM API, Tavily API key (default retriever), TypeSafe API key (optional Jev filter) · Models: OpenAI models, any OpenAI-compatible endpoint via OPENAI_BASE_URL, Gemini 2.5 Flash Image (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-researcher/)</sub>
 
 <a name="vane"></a>
-### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
+### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
 
 **Self-hosted answer engine with cited sources over SearXNG.**
 

@@ -112,26 +112,8 @@ REST API and UI on port 3000 that launches Chrome sessions with persisted cookie
 
 <sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/steel-browser/)</sub>
 
-<a name="browser-use-web-ui"></a>
-### #&#8288;7 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (52) · Freshness: recent (66) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
-
-**Gradio UI for running browser-use agents with your own Chrome.**
-
-Gradio front end over the browser-use library that takes a task, drives a Playwright browser with an LLM (Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek or Ollama) and shows the run. Can attach to your own Chrome profile to reuse logins, keep the browser open between tasks and record video. Runs with uv and Python 3.11 on port 7788, or via docker compose with a noVNC viewer on port 6080.
-
-- **+** Own-browser mode reuses existing Chrome logins and cookies
-- **+** Docker compose includes noVNC so you can watch the agent at localhost:6080
-- **+** Persistent browser sessions keep history visible between tasks
-- **+** Supports Ollama and DeepSeek-R1 alongside cloud providers
-- **−** Changelog stops in January 2025; last commit May 2026
-- **−** Default VNC password is published in the README; change VNC_PASSWORD
-- **−** Own-browser mode requires closing all Chrome windows and using another browser for the UI
-- **−** Gradio single-user UI; no auth or multi-user features described
-
-<sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs ↗](https://docs.browser-use.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/browser-use-web-ui/)</sub>
-
 <a name="open-terminal"></a>
-### #&#8288;8 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
+### #&#8288;7 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
 
 **REST-driven shell and file sandbox for AI agents, from Open WebUI.**
 
@@ -147,5 +129,23 @@ Container or pip package exposing a shell and file management over a REST API wi
 - **−** Bare-metal mode runs commands directly as your user with no sandbox
 
 <sub>no GPU · Docker · port 8000 · [Repo](https://github.com/open-webui/open-terminal) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-terminal/)</sub>
+
+<a name="browser-use-web-ui"></a>
+### #&#8288;8 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (52) · Freshness: recent (66) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+
+**Gradio UI for running browser-use agents with your own Chrome.**
+
+Gradio front end over the browser-use library that takes a task, drives a Playwright browser with an LLM (Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek or Ollama) and shows the run. Can attach to your own Chrome profile to reuse logins, keep the browser open between tasks and record video. Runs with uv and Python 3.11 on port 7788, or via docker compose with a noVNC viewer on port 6080.
+
+- **+** Own-browser mode reuses existing Chrome logins and cookies
+- **+** Docker compose includes noVNC so you can watch the agent at localhost:6080
+- **+** Persistent browser sessions keep history visible between tasks
+- **+** Supports Ollama and DeepSeek-R1 alongside cloud providers
+- **−** Changelog stops in January 2025; last commit May 2026
+- **−** Default VNC password is published in the README; change VNC_PASSWORD
+- **−** Own-browser mode requires closing all Chrome windows and using another browser for the UI
+- **−** Gradio single-user UI; no auth or multi-user features described
+
+<sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs ↗](https://docs.browser-use.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/browser-use-web-ui/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

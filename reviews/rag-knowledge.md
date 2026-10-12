@@ -58,8 +58,26 @@ RAGFlow parses documents (Word, slides, Excel, TXT, images, scans, web pages) wi
 
 <sub>RAM ≥ 16 GB · no GPU · Docker + Compose · Needs Elasticsearch or Infinity, MySQL, MinIO, NATS JetStream, Kvrocks, ClickHouse · Models: configurable LLM, embedding, reranker · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ragflow/)</sub>
 
+<a name="maxkb"></a>
+### #&#8288;4 [MaxKB](https://github.com/1panel-dev/maxkb) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · GPL-3.0 · Oct 2026</sub>
+
+**Enterprise knowledge-base agent platform with RAG, workflows and MCP tools.**
+
+MaxKB runs as one Docker container (port 8080, state in one volume) with a RAG pipeline that uploads or crawls documents, a workflow engine with function library and MCP tool use, and zero-code embedding into other systems. It works with private models (DeepSeek, Llama, Qwen) and public APIs (OpenAI, Claude, Gemini, MiniMax) and handles text, image, audio and video. Built on Django, LangChain and PostgreSQL.
+
+- **+** Single docker run with all data under one mounted volume
+- **+** Workflow engine with function library and MCP tool calling
+- **+** Crawls online documents into the knowledge base automatically
+- **+** Multimodal input and output: text, image, audio, video
+- **−** GPL-3.0 limits bundling into proprietary products
+- **−** Ships with default admin password MaxKB@123..
+- **−** README gives no hardware guidance or provider configuration detail
+- **−** Detailed docs are on maxkb.cn, partly in Chinese
+
+<sub>no GPU · Models: OpenAI, Claude, Gemini, MiniMax, DeepSeek, Llama, Qwen as private models · port 8080 · [Repo](https://github.com/1panel-dev/maxkb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/maxkb/)</sub>
+
 <a name="weknora"></a>
-### #&#8288;4 [WeKnora](https://github.com/tencent/weknora) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
+### #&#8288;5 [WeKnora](https://github.com/tencent/weknora) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
 
 **Enterprise knowledge base combining RAG Q&A, agents and generated wikis.**
 
@@ -77,7 +95,7 @@ WeKnora turns team documents into knowledge bases with three modes: cited RAG an
 <sub>no GPU · Docker + Compose · Needs Neo4j (optional profile), MinIO (optional profile), Langfuse (optional profile) · Models: OpenAI, DeepSeek, Qwen, Zhipu, Hunyuan, Gemini, MiniMax, NVIDIA, LiteLLM, Ollama · port 80 · [Repo](https://github.com/tencent/weknora) · [📖 Docs ↗](https://weknora.weixin.qq.com/docs/) · [🌐 Site ↗](https://weknora.weixin.qq.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weknora/)</sub>
 
 <a name="surfsense"></a>
-### #&#8288;5 [SurfSense](https://github.com/modsetter/surfsense) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · custom license · Oct 2026</sub>
+### #&#8288;6 [SurfSense](https://github.com/modsetter/surfsense) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · custom license · Oct 2026</sub>
 
 **Offline NotebookLM alternative that turns documents into decks, reports and podcasts.**
 
@@ -93,24 +111,6 @@ SurfSense indexes local PDFs, Office files and images into SQLite, answers with 
 - **−** Plugins and priority support are behind a paid licence; no video overviews
 
 <sub>no GPU · Docker + Compose · Models: local Qwen3 in six sizes from 0.5 GB, any OpenAI-compatible API · README: alternative to NotebookLM · [Repo](https://github.com/modsetter/surfsense) · [📖 Docs ↗](https://www.surfsense.com/docs) · [🌐 Site ↗](https://www.surfsense.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/surfsense/)</sub>
-
-<a name="maxkb"></a>
-### #&#8288;6 [MaxKB](https://github.com/1panel-dev/maxkb) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · GPL-3.0 · Oct 2026</sub>
-
-**Enterprise knowledge-base agent platform with RAG, workflows and MCP tools.**
-
-MaxKB runs as one Docker container (port 8080, state in one volume) with a RAG pipeline that uploads or crawls documents, a workflow engine with function library and MCP tool use, and zero-code embedding into other systems. It works with private models (DeepSeek, Llama, Qwen) and public APIs (OpenAI, Claude, Gemini, MiniMax) and handles text, image, audio and video. Built on Django, LangChain and PostgreSQL.
-
-- **+** Single docker run with all data under one mounted volume
-- **+** Workflow engine with function library and MCP tool calling
-- **+** Crawls online documents into the knowledge base automatically
-- **+** Multimodal input and output: text, image, audio, video
-- **−** GPL-3.0 limits bundling into proprietary products
-- **−** Ships with default admin password MaxKB@123..
-- **−** README gives no hardware guidance or provider configuration detail
-- **−** Detailed docs are on maxkb.cn, partly in Chinese
-
-<sub>no GPU · Models: OpenAI, Claude, Gemini, MiniMax, DeepSeek, Llama, Qwen as private models · port 8080 · [Repo](https://github.com/1panel-dev/maxkb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/maxkb/)</sub>
 
 <a name="private-gpt"></a>
 ### #&#8288;7 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (63) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Oct 2026</sub>
@@ -148,42 +148,8 @@ PipesHub indexes Slack, Google Drive, GitHub, Microsoft 365, Notion and 50+ syst
 
 <sub>no GPU · Docker + Compose · Needs Neo4j or ArangoDB, Qdrant, MongoDB, Redis, Kafka (larger deployments) · Models: any LLM provider, bring your own model, Ollama, local embedding server by default · port 3000 · [Repo](https://github.com/pipeshub-ai/pipeshub-ai) · [📖 Docs ↗](https://docs.pipeshub.com/) · [🌐 Site ↗](https://www.pipeshub.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pipeshub/)</sub>
 
-<a name="deepwiki-open"></a>
-### #&#8288;9 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (40) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Sep 2026</sub>
-
-**Generates browsable wikis and diagrams for GitHub, GitLab and Bitbucket repos.**
-
-DeepWiki-Open takes a repository URL from GitHub, GitLab or Bitbucket, analyzes the code structure, generates documentation and diagrams, organizes them into a navigable wiki and builds a codemap for guided tours. The repo ships a Dockerfile and compose file. The README now points to a 2.0 release called Grok Wiki distributed as a download from grok-wiki.com and no longer documents configuration.
-
-- **+** Works with GitHub, GitLab and Bitbucket repositories
-- **+** Produces diagrams and codemap guided tours, not only prose
-- **+** Dockerfile and docker-compose in the repo; MIT license
-- **−** README no longer documents setup, ports or supported model providers
-- **−** 2.0 is pushed as a separate download at grok-wiki.com
-- **−** No hardware guidance; single-maintainer project
-
-<sub>no GPU · Docker + Compose · [Repo](https://github.com/asyncfuncai/deepwiki-open) · [🌐 Site ↗](https://grok-wiki.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepwiki-open/)</sub>
-
-<a name="db-gpt"></a>
-### #&#8288;10 [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Oct 2026</sub>
-
-**Agentic data assistant that writes SQL and code over your databases.**
-
-DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge bases, then plans tasks, writes SQL and Python, runs them in sandboxes and produces charts, dashboards and HTML reports. It installs with pip install dbgpt-app (Python 3.10+) plus a setup wizard and serves a web UI on port 5670, with OpenAI-compatible, DashScope, Moonshot and MiniMax profiles and local models via vLLM or llama.cpp.
-
-- **+** NL-to-SQL plus Python analysis with sandboxed execution
-- **+** Outputs charts, dashboards and HTML reports, not only answers
-- **+** Skills importable from GitHub for repeatable analysis workflows
-- **+** Local serving via vLLM or llama.cpp and a Text2SQL fine-tuning hub
-- **−** Recommended install pipes a remote script into bash
-- **−** Docs and community largely on dbgpt.cn; Docker and GPU setup only there
-- **−** Text2SQL fine-tune list stops at older models such as LLaMA-2 and ChatGLM2
-- **−** Default pip install bundles ChromaDB only; other vector stores need extras
-
-<sub>GPU optional · Docker + Compose · Compose runs MySQL · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/db-gpt) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/db-gpt/)</sub>
-
 <a name="paperless-gpt"></a>
-### #&#8288;11 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · MIT · Oct 2026</sub>
+### #&#8288;9 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · MIT · Oct 2026</sub>
 
 **LLM-based OCR, titles, tags and document links for paperless-ngx.**
 
@@ -199,6 +165,40 @@ paperless-gpt is a companion service for paperless-ngx that calls an LLM to gene
 - **−** PDF_REPLACE mode deletes the original document after upload
 
 <sub>GPU optional · Docker + Compose · Needs paperless-ngx, LLM provider (OpenAI, Ollama, Mistral, Anthropic or Azure OpenAI) · Models: OpenAI, Azure OpenAI, Mistral, Anthropic, Ollama · port 8080 · [Repo](https://github.com/icereed/paperless-gpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperless-gpt/)</sub>
+
+<a name="deepwiki-open"></a>
+### #&#8288;10 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (40) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Sep 2026</sub>
+
+**Generates browsable wikis and diagrams for GitHub, GitLab and Bitbucket repos.**
+
+DeepWiki-Open takes a repository URL from GitHub, GitLab or Bitbucket, analyzes the code structure, generates documentation and diagrams, organizes them into a navigable wiki and builds a codemap for guided tours. The repo ships a Dockerfile and compose file. The README now points to a 2.0 release called Grok Wiki distributed as a download from grok-wiki.com and no longer documents configuration.
+
+- **+** Works with GitHub, GitLab and Bitbucket repositories
+- **+** Produces diagrams and codemap guided tours, not only prose
+- **+** Dockerfile and docker-compose in the repo; MIT license
+- **−** README no longer documents setup, ports or supported model providers
+- **−** 2.0 is pushed as a separate download at grok-wiki.com
+- **−** No hardware guidance; single-maintainer project
+
+<sub>no GPU · Docker + Compose · [Repo](https://github.com/asyncfuncai/deepwiki-open) · [🌐 Site ↗](https://grok-wiki.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepwiki-open/)</sub>
+
+<a name="db-gpt"></a>
+### #&#8288;11 [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Oct 2026</sub>
+
+**Agentic data assistant that writes SQL and code over your databases.**
+
+DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge bases, then plans tasks, writes SQL and Python, runs them in sandboxes and produces charts, dashboards and HTML reports. It installs with pip install dbgpt-app (Python 3.10+) plus a setup wizard and serves a web UI on port 5670, with OpenAI-compatible, DashScope, Moonshot and MiniMax profiles and local models via vLLM or llama.cpp.
+
+- **+** NL-to-SQL plus Python analysis with sandboxed execution
+- **+** Outputs charts, dashboards and HTML reports, not only answers
+- **+** Skills importable from GitHub for repeatable analysis workflows
+- **+** Local serving via vLLM or llama.cpp and a Text2SQL fine-tuning hub
+- **−** Recommended install pipes a remote script into bash
+- **−** Docs and community largely on dbgpt.cn; Docker and GPU setup only there
+- **−** Text2SQL fine-tune list stops at older models such as LLaMA-2 and ChatGLM2
+- **−** Default pip install bundles ChromaDB only; other vector stores need extras
+
+<sub>GPU optional · Docker + Compose · Compose runs MySQL · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/db-gpt) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/db-gpt/)</sub>
 
 <a name="docling-serve"></a>
 ### #&#8288;12 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
