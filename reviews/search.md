@@ -5,7 +5,7 @@ Private search engines and AI answer engines that keep queries on your host. Bac
 <sub>🌐 Also on the web: [Search on archestack.com](https://archestack.com/best-of-ai/search/), each project on its own page.</sub>
 
 <a name="morphic"></a>
-### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **Search engine that answers with citations and renders rich inline components.**
 
@@ -22,26 +22,8 @@ Morphic runs web searches and returns cited answers, rendering inline components
 
 <sub>Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Supabase Auth (optional) · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphic/)</sub>
 
-<a name="local-deep-research"></a>
-### 🥈 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
-
-**Agentic research assistant with local LLMs, SearXNG and encrypted libraries.**
-
-Runs multi-step research across the web, academic engines and your own documents using Ollama or any OpenAI-compatible endpoint, with a LangGraph agent that picks engines adaptively and writes cited reports. Each user gets an AES-256 SQLCipher database, and egress scopes limit which engines and providers a run may use. Web UI on port 5000 via Docker, Compose or pip, for privacy-focused researchers.
-
-- **+** Reports about 95% SimpleQA fully local on one RTX 3090 with Qwen3.6-27B
-- **+** Per-user SQLCipher databases; keys derived from the password, never stored
-- **+** No telemetry; Docker images signed with Cosign, with SLSA provenance and SBOMs
-- **+** Downloaded sources build a searchable, embedded personal library
-- **−** Needs Ollama (or an LLM endpoint) and SearXNG running separately
-- **−** Private or localhost engine URLs are blocked unless an operator env var allows them
-- **−** Requires an AVX-capable x86-64 CPU; older CPUs crash with Illegal instruction
-- **−** docker run --network host only works on native Linux; Docker Desktop needs Compose
-
-<sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, SQLCipher (bundled wheels) · Models: Ollama models (e.g. gpt-oss:20b, Qwen3.6-27B), any OpenAI-compatible endpoint · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-research/)</sub>
-
 <a name="gpt-researcher"></a>
-### 🥉 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Research agent that writes cited reports from web and local documents.**
 
@@ -58,8 +40,26 @@ Planner and execution agents generate research questions, scrape 20+ sources, fi
 
 <sub>no GPU · Docker + Compose · Needs OpenAI or OpenAI-compatible LLM API, Tavily API key (default retriever), TypeSafe API key (optional Jev filter) · Models: OpenAI models, any OpenAI-compatible endpoint via OPENAI_BASE_URL, Gemini 2.5 Flash Image (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-researcher/)</sub>
 
+<a name="local-deep-research"></a>
+### 🥉 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
+
+**Agentic research assistant with local LLMs, SearXNG and encrypted libraries.**
+
+Runs multi-step research across the web, academic engines and your own documents using Ollama or any OpenAI-compatible endpoint, with a LangGraph agent that picks engines adaptively and writes cited reports. Each user gets an AES-256 SQLCipher database, and egress scopes limit which engines and providers a run may use. Web UI on port 5000 via Docker, Compose or pip, for privacy-focused researchers.
+
+- **+** Reports about 95% SimpleQA fully local on one RTX 3090 with Qwen3.6-27B
+- **+** Per-user SQLCipher databases; keys derived from the password, never stored
+- **+** No telemetry; Docker images signed with Cosign, with SLSA provenance and SBOMs
+- **+** Downloaded sources build a searchable, embedded personal library
+- **−** Needs Ollama (or an LLM endpoint) and SearXNG running separately
+- **−** Private or localhost engine URLs are blocked unless an operator env var allows them
+- **−** Requires an AVX-capable x86-64 CPU; older CPUs crash with Illegal instruction
+- **−** docker run --network host only works on native Linux; Docker Desktop needs Compose
+
+<sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, SQLCipher (bundled wheels) · Models: Ollama models (e.g. gpt-oss:20b, Qwen3.6-27B), any OpenAI-compatible endpoint · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-research/)</sub>
+
 <a name="vane"></a>
-### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
+### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
 
 **Self-hosted answer engine with cited sources over SearXNG.**
 
@@ -77,7 +77,7 @@ Next.js answer engine (formerly Perplexica) that runs searches through a bundled
 <sub>no GPU · Docker + Compose · Needs SearXNG (bundled in the default image), LLM provider (Ollama, OpenAI-compatible server or cloud API) · Models: Ollama, OpenAI, Anthropic Claude, Google Gemini, Groq · port 3000 · [Repo](https://github.com/itzcrazykns/vane) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vane/)</sub>
 
 <a name="maestro"></a>
-### #&#8288;5 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (1) · Freshness: recent (62) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
+### #&#8288;5 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (1) · Freshness: recent (62) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
 
 **Multi-agent research platform that writes long reports from documents and web.**
 

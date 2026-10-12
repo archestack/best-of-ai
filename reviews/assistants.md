@@ -5,7 +5,7 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 <sub>🌐 Also on the web: [Assistants on archestack.com](https://archestack.com/best-of-ai/assistants/), each project on its own page.</sub>
 
 <a name="openclaw"></a>
-### 🥇 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 392k · MIT · Oct 2026</sub>
+### 🥇 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 392k · MIT · Oct 2026</sub>
 
 **Personal assistant gateway that answers in Discord, Slack, WhatsApp and Telegram.**
 
@@ -22,7 +22,7 @@ OpenClaw runs a local Gateway that connects one assistant to Discord, iMessage, 
 <sub>no GPU · Docker + Compose · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs ↗](https://docs.openclaw.ai) · [🌐 Site ↗](https://openclaw.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw/)</sub>
 
 <a name="nanobot"></a>
-### 🥈 [nanobot](https://github.com/hkuds/nanobot) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
+### 🥈 [nanobot](https://github.com/hkuds/nanobot) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 
 **Small Python agent runtime with bundled WebUI, TUI and chat channels.**
 
@@ -39,7 +39,7 @@ nanobot is a Python 3.11+ personal agent running as a local gateway with a bundl
 <sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/hkuds/nanobot) · [📖 Docs ↗](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nanobot/)</sub>
 
 <a name="hermes-agent"></a>
-### 🥉 [Hermes Agent](https://github.com/nousresearch/hermes-agent) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 253k · MIT · Oct 2026</sub>
+### 🥉 [Hermes Agent](https://github.com/nousresearch/hermes-agent) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 253k · MIT · Oct 2026</sub>
 
 **Terminal and chat-app agent that writes its own skills and remembers you.**
 
@@ -57,7 +57,7 @@ Hermes Agent is a Python agent with a terminal UI and a gateway for Telegram, Di
 <sub>no GPU · Docker + Compose · Models: Nous Portal, OpenRouter, OpenAI, custom endpoint · [Repo](https://github.com/nousresearch/hermes-agent) · [📖 Docs ↗](https://hermes-agent.nousresearch.com/docs/) · [🌐 Site ↗](https://hermes-agent.nousresearch.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-agent/)</sub>
 
 <a name="zeroclaw"></a>
-### #&#8288;4 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
 
 **Single Rust binary agent runtime with 30+ channels and hardware access.**
 
@@ -74,7 +74,7 @@ ZeroClaw is one Rust binary that routes messages from 30+ channels (Discord, Tel
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs ↗](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site ↗](https://www.zeroclaw.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zeroclaw/)</sub>
 
 <a name="cowagent"></a>
-### #&#8288;5 [cowagent](https://github.com/zhayujie/cowagent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · MIT · Oct 2026</sub>
+### #&#8288;5 [cowagent](https://github.com/zhayujie/cowagent) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · MIT · Oct 2026</sub>
 
 **Personal AI agent with memory, skills and chat channels like Telegram and Slack.**
 
@@ -92,7 +92,7 @@ CowAgent is a Python agent that plans tasks, runs built-in tools (terminal, file
 <sub>Docker + Compose · Needs LLM provider API (OpenAI, Claude, Gemini, DeepSeek, Qwen and others) · Models: Claude, OpenAI GPT, Gemini, DeepSeek, Qwen · port 9899 · [Repo](https://github.com/zhayujie/cowagent) · [📖 Docs ↗](https://docs.cowagent.ai/) · [🌐 Site ↗](https://cowagent.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cowagent/)</sub>
 
 <a name="ironclaw"></a>
-### #&#8288;6 [IronClaw](https://github.com/nearai/ironclaw) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;6 [IronClaw](https://github.com/nearai/ironclaw) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Sep 2026</sub>
 
 **Rust assistant that sandboxes every untrusted tool in WebAssembly.**
 
@@ -110,7 +110,7 @@ IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAss
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ironclaw/)</sub>
 
 <a name="astrbot"></a>
-### #&#8288;7 [AstrBot](https://github.com/astrbotdevs/astrbot) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [AstrBot](https://github.com/astrbotdevs/astrbot) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Oct 2026</sub>
 
 **Chatbot platform bridging LLMs to QQ, Telegram, Discord, Slack and more.**
 
@@ -128,7 +128,7 @@ AstrBot is a Python 3.12+ chatbot platform that connects LLM providers (OpenAI-c
 <sub>no GPU · Docker + Compose · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/astrbotdevs/astrbot) · [📖 Docs ↗](https://astrbot.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/astrbot/)</sub>
 
 <a name="qwenpaw"></a>
-### #&#8288;8 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
 
 **Personal AI agent with memory, skills, and chat-channel connectors.**
 
@@ -146,7 +146,7 @@ QwenPaw is a personal agent runtime installed with pip, a script, Docker, or a d
 <sub>GPU optional · Docker + Compose · Models: QwenPaw-Flash local models, Ollama, LM Studio, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/) · [🌐 Site ↗](https://qwenpaw.agentscope.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwenpaw/)</sub>
 
 <a name="moltis"></a>
-### #&#8288;9 [Moltis](https://github.com/moltis-org/moltis) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Sep 2026</sub>
+### #&#8288;9 [Moltis](https://github.com/moltis-org/moltis) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Sep 2026</sub>
 
 **Persistent personal agent server in one Rust binary with sandboxed execution.**
 
@@ -163,26 +163,8 @@ Moltis is a single Rust binary that serves a web UI (port 13131), Telegram, Sign
 
 <sub>no GPU · Docker + Compose · Needs Docker, Podman or Apple Container (sandbox) · Models: OpenAI Codex, GitHub Copilot, local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs ↗](https://docs.moltis.org/quickstart.html) · [🌐 Site ↗](https://moltis.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moltis/)</sub>
 
-<a name="khoj"></a>
-### #&#8288;10 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (64) · Freshness: active (98) · Maintenance: weak (19) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
-
-**Personal assistant that chats with your documents and the web.**
-
-Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Word, Notion, images) using local or hosted LLMs such as llama3, qwen, gemma, mistral, GPT, Claude, Gemini and DeepSeek. It is reachable from a browser, Obsidian, Emacs, desktop and phone apps and WhatsApp, supports custom agents with their own knowledge and tools, and runs scheduled automations that deliver newsletters by email.
-
-- **+** Clients for browser, Obsidian, Emacs, desktop, phone and WhatsApp
-- **+** Reads PDF, Markdown, org-mode, Word, Notion and image files
-- **+** Hosted instance at app.khoj.dev to try before self-hosting
-- **+** Custom agents with their own knowledge, persona, model and tools
-- **−** AGPL-3.0 license
-- **−** README gives no hardware requirements or ports; setup lives entirely in the docs
-- **−** Maintainers now promote a newer project, Pipali, at the top of the README
-- **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
-
-<sub>Docker + Compose · Compose runs PostgreSQL, SearXNG · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/khoj/)</sub>
-
 <a name="spacebot"></a>
-### #&#8288;11 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: fair (60) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Sep 2026</sub>
+### #&#8288;10 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: fair (60) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Sep 2026</sub>
 
 **Multi-user agent harness for Discord, Slack and Telegram communities.**
 
@@ -200,7 +182,7 @@ Spacebot is a Rust agent server built for many concurrent users: channel process
 <sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs ↗](https://docs.spacebot.sh) · [🌐 Site ↗](https://spacebot.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spacebot/)</sub>
 
 <a name="picoclaw"></a>
-### #&#8288;12 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (39) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
+### #&#8288;11 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (39) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
 
 **Go assistant agent that runs in under 20 MB on $10 boards.**
 
@@ -216,5 +198,23 @@ PicoClaw is a single Go binary for x86_64, ARM64, MIPS, RISC-V and LoongArch tha
 - **−** No root Dockerfile; compose file lives under docker/ and needs a first-run bootstrap
 
 <sub>RAM ≥ 0.02 GB · no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek · port 18800 · [Repo](https://github.com/sipeed/picoclaw) · [📖 Docs ↗](https://docs.picoclaw.io/) · [🌐 Site ↗](https://picoclaw.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/picoclaw/)</sub>
+
+<a name="khoj"></a>
+### #&#8288;12 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (64) · Freshness: active (98) · Maintenance: weak (19) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
+
+**Personal assistant that chats with your documents and the web.**
+
+Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Word, Notion, images) using local or hosted LLMs such as llama3, qwen, gemma, mistral, GPT, Claude, Gemini and DeepSeek. It is reachable from a browser, Obsidian, Emacs, desktop and phone apps and WhatsApp, supports custom agents with their own knowledge and tools, and runs scheduled automations that deliver newsletters by email.
+
+- **+** Clients for browser, Obsidian, Emacs, desktop, phone and WhatsApp
+- **+** Reads PDF, Markdown, org-mode, Word, Notion and image files
+- **+** Hosted instance at app.khoj.dev to try before self-hosting
+- **+** Custom agents with their own knowledge, persona, model and tools
+- **−** AGPL-3.0 license
+- **−** README gives no hardware requirements or ports; setup lives entirely in the docs
+- **−** Maintainers now promote a newer project, Pipali, at the top of the README
+- **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
+
+<sub>Docker + Compose · Compose runs PostgreSQL, SearXNG · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/khoj/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

@@ -5,7 +5,7 @@ AI agents and tools for penetration testing, red-teaming and finding vulnerabili
 <sub>🌐 Also on the web: [Security on archestack.com](https://archestack.com/best-of-ai/security/), each project on its own page.</sub>
 
 <a name="strix"></a>
-### 🥇 [Strix](https://github.com/usestrix/strix) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Strix](https://github.com/usestrix/strix) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
 
 **Autonomous AI pentesting agents that validate findings with working exploits.**
 

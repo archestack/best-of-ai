@@ -5,7 +5,7 @@ Tools that turn web pages, PDFs and documents into clean text or structured data
 <sub>🌐 Also on the web: [Data and scraping for AI on archestack.com](https://archestack.com/best-of-ai/data-tools/), each project on its own page.</sub>
 
 <a name="crawl4ai"></a>
-### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
 
 **Python crawler that turns pages into LLM-ready markdown, with a Docker API.**
 
@@ -23,7 +23,7 @@ Async Playwright crawler (pip install crawl4ai) that renders pages in Chromium, 
 <sub>no GPU · Docker + Compose · Needs Playwright Chromium (installed by crawl4ai-setup) · Models: any LiteLLM provider for LLM extraction (OpenAI, Ollama and others) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crawl4ai/)</sub>
 
 <a name="firecrawl"></a>
-### 🥈 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: patchy (45) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 191k · AGPL-3.0 · Oct 2026</sub>
+### 🥈 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: patchy (45) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 191k · AGPL-3.0 · Oct 2026</sub>
 
 **Web scraping and crawling API that returns LLM-ready markdown.**
 
@@ -41,7 +41,7 @@ API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with 
 <sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
 
 <a name="jina-reader"></a>
-### 🥉 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (20) · Freshness: active (81) · Maintenance: weak (14) · Easy to run: easy (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### 🥉 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (20) · Freshness: active (81) · Maintenance: weak (14) · Easy to run: easy (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
