@@ -23,7 +23,7 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 <sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
 
 <a name="anything-llm"></a>
-### 🥈 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
+### 🥈 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
 
 **Document chat and agent app with built-in RAG, MCP and multi-user support.**
 

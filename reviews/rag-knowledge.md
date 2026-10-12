@@ -77,7 +77,7 @@ MaxKB runs as one Docker container (port 8080, state in one volume) with a RAG p
 <sub>no GPU · Models: OpenAI, Claude, Gemini, MiniMax, DeepSeek, Llama, Qwen as private models · port 8080 · [Repo](https://github.com/1panel-dev/maxkb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/maxkb/)</sub>
 
 <a name="weknora"></a>
-### #&#8288;5 [WeKnora](https://github.com/tencent/weknora) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
+### #&#8288;5 [WeKnora](https://github.com/tencent/weknora) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Oct 2026</sub>
 
 **Enterprise knowledge base combining RAG Q&A, agents and generated wikis.**
 

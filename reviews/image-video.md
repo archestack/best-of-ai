@@ -5,7 +5,7 @@ Generation UIs and pipelines for images and video, usually around diffusion mode
 <sub>🌐 Also on the web: [Image and video on archestack.com](https://archestack.com/best-of-ai/image-video/), each project on its own page.</sub>
 
 <a name="comfyui"></a>
-### 🥇 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 137k · GPL-3.0 · Oct 2026</sub>
+### 🥇 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 137k · GPL-3.0 · Oct 2026</sub>
 
 **Node-graph engine for diffusion image, video, audio and 3D models.**
 
@@ -95,7 +95,7 @@ Gradio web UI bundling 30+ modules: llama.cpp chat and LLaVA with GGUF models, W
 <sub>RAM ≥ 8 GB · GPU optional · Docker · Needs ffmpeg, git, gcc, perl, openssl · Models: GGUF LLMs via llama.cpp, LLaVA GGUF, Whisper, NLLB-200, SD 1.5/2.1/Turbo · [Repo](https://github.com/woolverine94/biniou) · [📖 Docs ↗](https://github.com/Woolverine94/biniou/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biniou/)</sub>
 
 <a name="kohya-ss"></a>
-### #&#8288;6 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (42) · Freshness: active (99) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;6 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (42) · Freshness: active (99) · Maintenance: weak (7) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
 
 **Gradio GUI and CLI for Kohya diffusion training scripts.**
 
