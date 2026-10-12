@@ -94,26 +94,8 @@ colibri runs large mixture-of-experts models such as GLM-5.2 (744B) and Kimi K3 
 
 <sub>RAM ≥ 8 GB · GPU optional · Docker + Compose · Models: GLM-5.2, GLM-5.3, GLM-5.3-Flash, Inkling, Kimi K3 · port 8000 · [Repo](https://github.com/justvugg/colibri) · [📖 Docs ↗](https://github.com/JustVugg/colibri/blob/main/docs/quickstart.md) · [🌐 Site ↗](https://justvugg.github.io/colibri)</sub>
 
-<a name="sglang"></a>
-### #&#8288;6 [SGLang](https://github.com/sgl-project/sglang) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Oct 2026</sub>
-
-**Inference server for LLM, vision-language and diffusion models.**
-
-SGLang is a Python inference framework for serving large language, vision-language and diffusion models, aimed at agentic workloads, large-scale serving and RL rollouts. It runs on NVIDIA, AMD, Google TPU, Intel, Apple Silicon, Huawei Ascend and Moore Threads hardware, and includes a built-in engine for image and video generation. Install via the lmsysorg/sglang Docker image or uv pip.
-
-- **+** Supports NVIDIA, AMD, TPU, Intel, Apple Silicon, Ascend and Moore Threads hardware
-- **+** Image and video diffusion engine ships in the same package
-- **+** Integrated by RL training frameworks such as verl and slime for rollouts
-- **+** Apache-2.0 license, with a Docker image and a cookbook of launch commands
-- **−** Audio TTS/ASR serving lives in a separate project, SGLang Omni
-- **−** Install requires --prerelease=allow with uv, suggesting prerelease dependencies
-- **−** Several hardware backends (Trainium, Cambricon, MetaX) are still in progress
-- **−** README gives no RAM or VRAM requirements; sizing depends on model and hardware
-
-<sub>Docker + Compose · Models: LLMs, vision-language models, diffusion models · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs ↗](https://docs.sglang.io/) · [🌐 Site ↗](https://www.sglang.io/)</sub>
-
 <a name="exo"></a>
-### #&#8288;7 [exo](https://github.com/exo-explore/exo) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: patchy (34) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [exo](https://github.com/exo-explore/exo) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: patchy (38) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · Apache-2.0 · Oct 2026</sub>
 
 **Distributed LLM inference across Macs and other devices, MLX-based.**
 
@@ -129,6 +111,24 @@ exo joins devices on a network into one inference cluster, splitting a model acr
 - **−** Models are MLX-format; GGUF support is not mentioned in the README
 
 <sub>GPU optional · Needs uv, Node.js 18+, Rust nightly, MLX, macmon (macOS) · Models: MLX, HuggingFace custom models · port 52415 · [Repo](https://github.com/exo-explore/exo) · [📖 Docs ↗](https://github.com/exo-explore/exo/blob/main/docs/api.md)</sub>
+
+<a name="sglang"></a>
+### #&#8288;7 [SGLang](https://github.com/sgl-project/sglang) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Oct 2026</sub>
+
+**Inference server for LLM, vision-language and diffusion models.**
+
+SGLang is a Python inference framework for serving large language, vision-language and diffusion models, aimed at agentic workloads, large-scale serving and RL rollouts. It runs on NVIDIA, AMD, Google TPU, Intel, Apple Silicon, Huawei Ascend and Moore Threads hardware, and includes a built-in engine for image and video generation. Install via the lmsysorg/sglang Docker image or uv pip.
+
+- **+** Supports NVIDIA, AMD, TPU, Intel, Apple Silicon, Ascend and Moore Threads hardware
+- **+** Image and video diffusion engine ships in the same package
+- **+** Integrated by RL training frameworks such as verl and slime for rollouts
+- **+** Apache-2.0 license, with a Docker image and a cookbook of launch commands
+- **−** Audio TTS/ASR serving lives in a separate project, SGLang Omni
+- **−** Install requires --prerelease=allow with uv, suggesting prerelease dependencies
+- **−** Several hardware backends (Trainium, Cambricon, MetaX) are still in progress
+- **−** README gives no RAM or VRAM requirements; sizing depends on model and hardware
+
+<sub>Docker + Compose · Models: LLMs, vision-language models, diffusion models · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs ↗](https://docs.sglang.io/) · [🌐 Site ↗](https://www.sglang.io/)</sub>
 
 <a name="lemonade"></a>
 ### #&#8288;8 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>

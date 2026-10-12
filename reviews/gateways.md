@@ -5,7 +5,7 @@ LLM gateways and proxies for routing, caching, rate limits and cost control acro
 <sub>🌐 Also on the web: [Gateways on archestack.com](https://archestack.com/best-of-ai/gateways/), each project on its own page.</sub>
 
 <a name="omniroute"></a>
-### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 75k · MIT · Oct 2026</sub>
+### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · MIT · Oct 2026</sub>
 
 **OpenAI-compatible gateway that routes requests across hundreds of AI providers.**
 
@@ -203,7 +203,7 @@ Portkey Gateway is a Node.js proxy that routes requests to 250+ LLM providers th
 <sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Cohere, Mistral, Together, Perplexity, Ollama, Bedrock, Groq and 45+ providers · port 8787 · [Repo](https://github.com/portkey-ai/gateway)</sub>
 
 <a name="metamcp"></a>
-### #&#8288;12 [MetaMCP](https://github.com/metatool-ai/metamcp) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (7) · Freshness: active (85) · Maintenance: weak (5) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
+### #&#8288;12 [MetaMCP](https://github.com/metatool-ai/metamcp) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (7) · Freshness: active (85) · Maintenance: weak (4) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
 
 **Aggregates MCP servers into namespaced endpoints with auth and middleware.**
 
