@@ -109,26 +109,8 @@ IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAss
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw)</sub>
 
-<a name="qwenpaw"></a>
-### #&#8288;7 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
-
-**Personal AI agent with memory, skills, and chat-channel connectors.**
-
-QwenPaw is a personal agent runtime installed with pip, a script, Docker, or a desktop app, with a web Console on port 8088 and a terminal UI. It keeps layered memory as Markdown via ReMe, runs skills, plugins, and MCP tools, and replies through DingTalk, Lark, WeChat, Discord, Telegram, iMessage, and QQ. Models can be local (built-in runtime, Ollama, LM Studio) or any of 14+ cloud providers.
-
-- **+** One instance serves DingTalk, Lark, WeChat, Discord, Telegram, iMessage, and QQ
-- **+** Works with Ollama, LM Studio, a built-in local runtime, or 14+ cloud providers
-- **+** Sandbox, Tool Guard, File Guard, and Skill Scanner gate commands before they run
-- **+** Supports MCP, plus ACP for cross-system agent orchestration
-- **−** Requires Python 3.11 to below 3.14 for the pip install path
-- **−** Desktop app is beta and the macOS build is not notarized
-- **−** RAM and VRAM requirements are unknown; the README does not state them
-- **−** Major versions shipped monthly since 2.0, so expect fast-changing behavior
-
-<sub>GPU optional · Docker + Compose · Models: QwenPaw-Flash local models, Ollama, LM Studio, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/) · [🌐 Site ↗](https://qwenpaw.agentscope.io/)</sub>
-
 <a name="astrbot"></a>
-### #&#8288;8 [AstrBot](https://github.com/astrbotdevs/astrbot) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [AstrBot](https://github.com/astrbotdevs/astrbot) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Oct 2026</sub>
 
 **Chatbot platform bridging LLMs to QQ, Telegram, Discord, Slack and more.**
 
@@ -144,6 +126,24 @@ AstrBot is a Python 3.12+ chatbot platform that connects LLM providers (OpenAI-c
 - **−** Several model-provider links in the README are referral or affiliate links
 
 <sub>no GPU · Docker + Compose · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/astrbotdevs/astrbot) · [📖 Docs ↗](https://astrbot.app/)</sub>
+
+<a name="qwenpaw"></a>
+### #&#8288;8 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
+
+**Personal AI agent with memory, skills, and chat-channel connectors.**
+
+QwenPaw is a personal agent runtime installed with pip, a script, Docker, or a desktop app, with a web Console on port 8088 and a terminal UI. It keeps layered memory as Markdown via ReMe, runs skills, plugins, and MCP tools, and replies through DingTalk, Lark, WeChat, Discord, Telegram, iMessage, and QQ. Models can be local (built-in runtime, Ollama, LM Studio) or any of 14+ cloud providers.
+
+- **+** One instance serves DingTalk, Lark, WeChat, Discord, Telegram, iMessage, and QQ
+- **+** Works with Ollama, LM Studio, a built-in local runtime, or 14+ cloud providers
+- **+** Sandbox, Tool Guard, File Guard, and Skill Scanner gate commands before they run
+- **+** Supports MCP, plus ACP for cross-system agent orchestration
+- **−** Requires Python 3.11 to below 3.14 for the pip install path
+- **−** Desktop app is beta and the macOS build is not notarized
+- **−** RAM and VRAM requirements are unknown; the README does not state them
+- **−** Major versions shipped monthly since 2.0, so expect fast-changing behavior
+
+<sub>GPU optional · Docker + Compose · Models: QwenPaw-Flash local models, Ollama, LM Studio, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/) · [🌐 Site ↗](https://qwenpaw.agentscope.io/)</sub>
 
 <a name="moltis"></a>
 ### #&#8288;9 [Moltis](https://github.com/moltis-org/moltis) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Sep 2026</sub>
