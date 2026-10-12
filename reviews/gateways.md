@@ -41,7 +41,7 @@ OmniRoute exposes one OpenAI-compatible endpoint at localhost:20128/v1 and route
 <sub>no GPU · Docker + Compose · Compose runs Redis, Qdrant · Models: OpenAI API, Claude API, Gemini API, Responses API · port 20128 · [Repo](https://github.com/diegosouzapw/omniroute) · [🌐 Site ↗](https://omniroute.online) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omniroute/)</sub>
 
 <a name="freellmapi"></a>
-### 🥉 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Oct 2026</sub>
+### 🥉 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Oct 2026</sub>
 
 **OpenAI-compatible router that fails over across free LLM provider tiers.**
 
