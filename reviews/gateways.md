@@ -41,7 +41,7 @@ LiteLLM translates calls to 100+ providers (OpenAI, Anthropic, Gemini, Bedrock, 
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure · port 4000 · [Repo](https://github.com/berriai/litellm) · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub>
 
 <a name="freellmapi"></a>
-### 🥉 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · MIT · Oct 2026</sub>
+### 🥉 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · MIT · Oct 2026</sub>
 
 **OpenAI-compatible router that fails over across free LLM provider tiers.**
 
@@ -76,44 +76,8 @@ ContextForge is IBM's Python registry and proxy that federates MCP servers, A2A 
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (production; SQLite for dev), Redis (caching and federation) · Models: A2A agents: OpenAI, Anthropic, custom · port 4444 · [Repo](https://github.com/ibm/mcp-context-forge) · [📖 Docs ↗](https://ibm.github.io/mcp-context-forge/)</sub>
 
-<a name="higress"></a>
-### #&#8288;5 [Higress](https://github.com/higress-group/higress) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · Apache-2.0 · Oct 2026</sub>
-
-**Envoy-based API gateway with LLM proxy plugins and MCP server hosting.**
-
-Higress is a CNCF sandbox API gateway on Istio and Envoy, extended with Wasm plugins in Go, Rust or JS. Its AI plugins proxy mainstream LLM providers with token rate limiting, load balancing, caching and observability, and host remote MCP servers, including ones generated from OpenAPI specs. A Docker all-in-one image exposes the console on 8001 and the gateway on 8080/8443; Helm covers Kubernetes.
-
-- **+** Envoy-based with millisecond config reloads and no connection drops
-- **+** Hosts MCP servers with auth, rate limits and audit; OpenAPI-to-MCP converter
-- **+** Token rate limiting, multi-model load balancing and caching for LLM routes
-- **+** Also a Kubernetes ingress controller and Gateway API implementation
-- **−** Images only on Alibaba Cloud registries; pulls can time out outside the mirrors
-- **−** Istio and Envoy underneath; heavier than single-binary LLM proxies
-- **−** AI features are Wasm plugins on a general API gateway
-- **−** Docs split across higress.ai and higress.cn
-
-<sub>no GPU · Docker · Models: mainstream LLM providers, domestic and international, via the ai-proxy plugin · port 8001 · [Repo](https://github.com/higress-group/higress) · [▶️ Demo ↗](https://demo.higress.io/) · [📖 Docs ↗](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site ↗](https://higress.ai/en/)</sub>
-
-<a name="bifrost"></a>
-### #&#8288;6 [Bifrost](https://github.com/maximhq/bifrost) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Oct 2026</sub>
-
-**Go AI gateway with web UI, fallbacks, budgets and semantic caching.**
-
-Bifrost is a Go AI gateway that fronts 23+ providers (OpenAI, Anthropic, Bedrock, Vertex and more) with one OpenAI-compatible API and drop-in paths for the OpenAI, Anthropic and GenAI SDKs. It starts with npx or Docker on port 8080 with a web UI, and adds fallbacks, load balancing, semantic caching, MCP tool access, virtual keys, budgets and Prometheus metrics. Clustering, guardrails and the MCP gateway are enterprise features.
-
-- **+** Single Go binary via npx or Docker with zero-config web UI on 8080
-- **+** Drop-in base URLs for OpenAI, Anthropic and Google GenAI SDKs
-- **+** Virtual keys, team budgets, OIDC provisioning and Prometheus metrics
-- **+** 11 microsecond added latency at 5k RPS in its own benchmark
-- **−** Guardrails, clustering, adaptive load balancing and MCP gateway are enterprise-only
-- **−** Benchmarks are self-reported on t3 instances
-- **−** 23+ providers, fewer than LiteLLM or Portkey
-- **−** Semantic caching needs a vector store backend
-
-<sub>no GPU · Models: OpenAI, Anthropic, AWS Bedrock, Google Vertex, Azure, Cerebras, Cohere, Mistral, Ollama, Groq and more · port 8080 · [Repo](https://github.com/maximhq/bifrost) · [📖 Docs ↗](https://docs.getbifrost.ai)</sub>
-
 <a name="plano"></a>
-### #&#8288;7 [Plano](https://github.com/katanemo/plano) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [Plano](https://github.com/katanemo/plano) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Envoy-based data plane that routes, traces and guards agent traffic.**
 
@@ -131,7 +95,7 @@ Plano is an Envoy-based proxy for agentic apps: a YAML file declares agents (HTT
 <sub>no GPU · Docker · Needs Plano-Orchestrator routing model (hosted or local) · Models: OpenAI, Anthropic and other providers configured as model_providers · [Repo](https://github.com/katanemo/plano) · [📖 Docs ↗](https://docs.planoai.dev)</sub>
 
 <a name="gomodel"></a>
-### #&#8288;8 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Oct 2026</sub>
+### #&#8288;6 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Oct 2026</sub>
 
 **Go AI gateway with OpenAI and Anthropic APIs, caching and budgets.**
 
@@ -148,8 +112,44 @@ GoModel is a Go AI gateway (install script or container on port 8080) exposing O
 
 <sub>no GPU · Docker + Compose · Needs Redis, PostgreSQL, MongoDB (Compose infrastructure) · Models: OpenAI, Anthropic, xAI, Gemini, Vertex AI, Cohere, DeepSeek, Groq, Fireworks, OpenRouter, Azure OpenAI, Bedrock, Ollama, SGLang, vLLM, llm-d, ElevenLabs and any OpenAI-compatible provider · port 8080 · [Repo](https://github.com/enterpilot/gomodel) · [▶️ Demo ↗](https://demo.enterpilot.io/admin/dashboard) · [📖 Docs ↗](https://gomodel.enterpilot.io/docs)</sub>
 
+<a name="higress"></a>
+### #&#8288;7 [Higress](https://github.com/higress-group/higress) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · Apache-2.0 · Oct 2026</sub>
+
+**Envoy-based API gateway with LLM proxy plugins and MCP server hosting.**
+
+Higress is a CNCF sandbox API gateway on Istio and Envoy, extended with Wasm plugins in Go, Rust or JS. Its AI plugins proxy mainstream LLM providers with token rate limiting, load balancing, caching and observability, and host remote MCP servers, including ones generated from OpenAPI specs. A Docker all-in-one image exposes the console on 8001 and the gateway on 8080/8443; Helm covers Kubernetes.
+
+- **+** Envoy-based with millisecond config reloads and no connection drops
+- **+** Hosts MCP servers with auth, rate limits and audit; OpenAPI-to-MCP converter
+- **+** Token rate limiting, multi-model load balancing and caching for LLM routes
+- **+** Also a Kubernetes ingress controller and Gateway API implementation
+- **−** Images only on Alibaba Cloud registries; pulls can time out outside the mirrors
+- **−** Istio and Envoy underneath; heavier than single-binary LLM proxies
+- **−** AI features are Wasm plugins on a general API gateway
+- **−** Docs split across higress.ai and higress.cn
+
+<sub>no GPU · Docker · Models: mainstream LLM providers, domestic and international, via the ai-proxy plugin · port 8001 · [Repo](https://github.com/higress-group/higress) · [▶️ Demo ↗](https://demo.higress.io/) · [📖 Docs ↗](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site ↗](https://higress.ai/en/)</sub>
+
+<a name="bifrost"></a>
+### #&#8288;8 [Bifrost](https://github.com/maximhq/bifrost) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Oct 2026</sub>
+
+**Go AI gateway with web UI, fallbacks, budgets and semantic caching.**
+
+Bifrost is a Go AI gateway that fronts 23+ providers (OpenAI, Anthropic, Bedrock, Vertex and more) with one OpenAI-compatible API and drop-in paths for the OpenAI, Anthropic and GenAI SDKs. It starts with npx or Docker on port 8080 with a web UI, and adds fallbacks, load balancing, semantic caching, MCP tool access, virtual keys, budgets and Prometheus metrics. Clustering, guardrails and the MCP gateway are enterprise features.
+
+- **+** Single Go binary via npx or Docker with zero-config web UI on 8080
+- **+** Drop-in base URLs for OpenAI, Anthropic and Google GenAI SDKs
+- **+** Virtual keys, team budgets, OIDC provisioning and Prometheus metrics
+- **+** 11 microsecond added latency at 5k RPS in its own benchmark
+- **−** Guardrails, clustering, adaptive load balancing and MCP gateway are enterprise-only
+- **−** Benchmarks are self-reported on t3 instances
+- **−** 23+ providers, fewer than LiteLLM or Portkey
+- **−** Semantic caching needs a vector store backend
+
+<sub>no GPU · Models: OpenAI, Anthropic, AWS Bedrock, Google Vertex, Azure, Cerebras, Cohere, Mistral, Ollama, Groq and more · port 8080 · [Repo](https://github.com/maximhq/bifrost) · [📖 Docs ↗](https://docs.getbifrost.ai)</sub>
+
 <a name="agentgateway"></a>
-### #&#8288;9 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;9 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · Apache-2.0 · Oct 2026</sub>
 
 **One proxy for LLM, MCP and A2A traffic with auth and RBAC.**
 

@@ -95,7 +95,7 @@ Mem0 adds long-term memory to assistants and agents at user, session and agent l
 <sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai)</sub>
 
 <a name="cognee"></a>
-### #&#8288;6 [Cognee](https://github.com/topoteretes/cognee) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [Cognee](https://github.com/topoteretes/cognee) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Memory engine that turns documents and code into a knowledge graph.**
 
@@ -130,26 +130,8 @@ Graphiti builds context graphs where every fact has a validity window and traces
 
 <sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2 or Amazon Neptune · Models: OpenAI (default), Azure OpenAI, Anthropic, Google Gemini, Groq · [Repo](https://github.com/getzep/graphiti)</sub>
 
-<a name="memos"></a>
-### #&#8288;8 [MemOS](https://github.com/memtensor/memos) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Sep 2026</sub>
-
-**Memory operating system for agents with cubes, scheduler and hybrid retrieval.**
-
-MemOS gives LLM apps and agents long-term memory via one API over graph-structured memories, grouped into memory cubes per user, project or agent. Self-hosting runs docker compose for the REST API on port 8000 with Neo4j and Qdrant; a local plugin for OpenClaw, Hermes and DeepSeek Harness instead keeps everything in SQLite with FTS5 and vector search.
-
-- **+** Memory cubes isolate or share knowledge across users, projects and agents
-- **+** MemScheduler ingests asynchronously for high-concurrency workloads
-- **+** Local plugin for OpenClaw, Hermes and DeepSeek Harness is 100% on-device SQLite
-- **+** Apache-2.0; two arXiv papers and OmniMemEval benchmark published
-- **−** Self-hosted service requires Neo4j and Qdrant
-- **−** Local plugin docs are partly in Chinese; cloud dashboard links go to a cn locale
-- **−** LLM, embedder and vector DB keys must be filled in .env before start
-- **−** Benchmark table lists scores without comparison baselines in the README
-
-<sub>no GPU · Docker + Compose · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/)</sub>
-
 <a name="supermemory"></a>
-### #&#8288;9 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;8 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Memory and context API with user profiles, connectors and a local server.**
 
@@ -166,26 +148,26 @@ Supermemory extracts facts from conversations, maintains per-user profiles and a
 
 <sub>no GPU · Models: OpenAI, Anthropic, Gemini, Groq, OpenAI-compatible endpoints · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs ↗](https://supermemory.ai/docs)</sub>
 
-<a name="honcho"></a>
-### #&#8288;10 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · AGPL-3.0 · Oct 2026</sub>
+<a name="memos"></a>
+### #&#8288;9 [MemOS](https://github.com/memtensor/memos) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Sep 2026</sub>
 
-**Memory service modelling users, agents and groups as evolving peers.**
+**Memory operating system for agents with cubes, scheduler and hybrid retrieval.**
 
-Honcho is a FastAPI memory server where humans and agents are peers that exchange messages in sessions; a background deriver reasons over them and maintains per-peer representations and summaries you query via peer.chat, hybrid search or prompt-ready context. Run it managed at api.honcho.dev, locally with honcho start (API, deriver, Postgres and Redis in Docker) or from source with Docker Compose on port 8000.
+MemOS gives LLM apps and agents long-term memory via one API over graph-structured memories, grouped into memory cubes per user, project or agent. Self-hosting runs docker compose for the REST API on port 8000 with Neo4j and Qdrant; a local plugin for OpenClaw, Hermes and DeepSeek Harness instead keeps everything in SQLite with FTS5 and vector search.
 
-- **+** First-party plugins for Claude Code, Codex, Cursor, DeepSeek Harness, OpenCode, OpenClaw and Hermes
-- **+** Peer model handles multi-participant sessions and what one peer knows about another
-- **+** Python and TypeScript SDKs with .to_openai and .to_anthropic context helpers
-- **+** honcho start --setup brings up the whole local stack with one command
-- **−** AGPL-3.0 license
-- **−** Needs Postgres with pgvector and Redis plus an LLM key for the deriver
-- **−** Background reasoning is asynchronous; new messages are not reflected immediately
-- **−** README mixes marketing claims (Pareto frontier, data moats) with the technical content
+- **+** Memory cubes isolate or share knowledge across users, projects and agents
+- **+** MemScheduler ingests asynchronously for high-concurrency workloads
+- **+** Local plugin for OpenClaw, Hermes and DeepSeek Harness is 100% on-device SQLite
+- **+** Apache-2.0; two arXiv papers and OmniMemEval benchmark published
+- **−** Self-hosted service requires Neo4j and Qdrant
+- **−** Local plugin docs are partly in Chinese; cloud dashboard links go to a cn locale
+- **−** LLM, embedder and vector DB keys must be filled in .env before start
+- **−** Benchmark table lists scores without comparison baselines in the README
 
-<sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
+<sub>no GPU · Docker + Compose · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/)</sub>
 
 <a name="engram"></a>
-### #&#8288;11 [Engram](https://github.com/gentleman-programming/engram) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;10 [Engram](https://github.com/gentleman-programming/engram) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Single Go binary memory for coding agents on SQLite FTS5 with MCP.**
 
@@ -201,6 +183,24 @@ Engram is one Go binary that stores agent memory in a local SQLite database with
 - **−** Install docs for Windows and Linux live in docs/, not the README
 
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/gentleman-programming/engram) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/)</sub>
+
+<a name="honcho"></a>
+### #&#8288;11 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · AGPL-3.0 · Oct 2026</sub>
+
+**Memory service modelling users, agents and groups as evolving peers.**
+
+Honcho is a FastAPI memory server where humans and agents are peers that exchange messages in sessions; a background deriver reasons over them and maintains per-peer representations and summaries you query via peer.chat, hybrid search or prompt-ready context. Run it managed at api.honcho.dev, locally with honcho start (API, deriver, Postgres and Redis in Docker) or from source with Docker Compose on port 8000.
+
+- **+** First-party plugins for Claude Code, Codex, Cursor, DeepSeek Harness, OpenCode, OpenClaw and Hermes
+- **+** Peer model handles multi-participant sessions and what one peer knows about another
+- **+** Python and TypeScript SDKs with .to_openai and .to_anthropic context helpers
+- **+** honcho start --setup brings up the whole local stack with one command
+- **−** AGPL-3.0 license
+- **−** Needs Postgres with pgvector and Redis plus an LLM key for the deriver
+- **−** Background reasoning is asynchronous; new messages are not reflected immediately
+- **−** README mixes marketing claims (Pareto frontier, data moats) with the technical content
+
+<sub>no GPU · Docker · Needs PostgreSQL with pgvector, Redis · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk)</sub>
 
 <a name="letta"></a>
 ### #&#8288;12 [Letta](https://github.com/letta-ai/letta-code) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Oct 2026</sub>

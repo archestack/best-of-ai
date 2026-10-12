@@ -5,7 +5,7 @@ Web front-ends for local or API models, usually with user accounts, chat history
 <sub>🌐 Also on the web: [Chat UIs on archestack.com](https://archestack.com/best-of-ai/chat-ui/), each project on its own page.</sub>
 
 <a name="lobehub"></a>
-### 🥇 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · custom license · Oct 2026</sub>
+### 🥇 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: very easy (83) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · custom license · Oct 2026</sub>
 
 **Agent workspace with builder, groups, scheduling and 10,000+ MCP skills.**
 
@@ -22,26 +22,8 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 
 <sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub)</sub>
 
-<a name="open-webui"></a>
-### 🥈 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 154k · custom license · Oct 2026</sub>
-
-**Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG.**
-
-Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollama and any OpenAI-compatible API such as LM Studio, vLLM, OpenRouter or Groq. It bundles RAG over 9 vector databases with hybrid BM25 search, web search through 20+ providers, image generation via ComfyUI, AUTOMATIC1111, DALL-E or Gemini, MCP and OpenAPI tool servers, and per-user roles with LDAP, OAuth and SCIM provisioning.
-
-- **+** Images tagged :ollama and :cuda bundle Ollama or CUDA acceleration in one container
-- **+** RBAC, user groups, LDAP/AD, OAuth SSO and SCIM 2.0 provisioning built in
-- **+** 9 vector databases incl. ChromaDB, PGVector, Qdrant, Milvus and Elasticsearch
-- **+** Redis-backed sessions and WebSockets for multi-worker, multi-node deployments
-- **−** Custom Open WebUI License requires keeping the Open WebUI branding visible
-- **−** Enterprise plan pitched at the top of the README; Terminals isolation is enterprise-only
-- **−** pip install is pinned to Python 3.11
-- **−** Data is lost unless the /app/backend/data volume is mounted
-
-<sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
-
 <a name="anything-llm"></a>
-### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
+### 🥈 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
 
 **Document chat and agent app with built-in RAG, MCP and multi-user support.**
 
@@ -58,8 +40,44 @@ AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a 
 
 <sub>no GPU · Docker + Compose · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub>
 
+<a name="open-webui"></a>
+### 🥉 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 154k · custom license · Oct 2026</sub>
+
+**Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG.**
+
+Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollama and any OpenAI-compatible API such as LM Studio, vLLM, OpenRouter or Groq. It bundles RAG over 9 vector databases with hybrid BM25 search, web search through 20+ providers, image generation via ComfyUI, AUTOMATIC1111, DALL-E or Gemini, MCP and OpenAPI tool servers, and per-user roles with LDAP, OAuth and SCIM provisioning.
+
+- **+** Images tagged :ollama and :cuda bundle Ollama or CUDA acceleration in one container
+- **+** RBAC, user groups, LDAP/AD, OAuth SSO and SCIM 2.0 provisioning built in
+- **+** 9 vector databases incl. ChromaDB, PGVector, Qdrant, Milvus and Elasticsearch
+- **+** Redis-backed sessions and WebSockets for multi-worker, multi-node deployments
+- **−** Custom Open WebUI License requires keeping the Open WebUI branding visible
+- **−** Enterprise plan pitched at the top of the README; Terminals isolation is enterprise-only
+- **−** pip install is pinned to Python 3.11
+- **−** Data is lost unless the /app/backend/data volume is mounted
+
+<sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
+
+<a name="onyx"></a>
+### #&#8288;4 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · custom license · Oct 2026</sub>
+
+**Team knowledge chat that indexes 50+ apps for RAG and agents.**
+
+Onyx indexes content and permissions from 50+ apps into a hybrid vector and keyword index, then answers through agentic RAG, deep research and custom agents with web search, MCP actions and a code sandbox. It works with Ollama, LiteLLM, vLLM, Anthropic, OpenAI or Gemini, deploys via Docker, Kubernetes or Helm, and is reachable from the web app, Slack and Discord bots, an MCP server or a Chrome extension.
+
+- **+** Lite mode runs the chat UI and agents in under 1 GB of memory
+- **+** Air-gappable: index, database and processing all run inside your environment
+- **+** MCP server gives Claude Code, Codex or any MCP client company context with user permissions
+- **+** Community Edition is MIT; install script sets up Docker in one command
+- **−** SSO (OIDC, SAML), SCIM, RBAC, analytics and whitelabeling are Enterprise Edition only
+- **−** Standard mode adds index, worker, inference, Redis and MinIO containers
+- **−** Lite mode cannot index documents
+- **−** README gives no port or hardware figures for the Standard deployment
+
+<sub>RAM ≥ 1 GB · no GPU · Compose · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/signup) · [📖 Docs ↗](https://docs.onyx.app/) · [🌐 Site ↗](https://www.onyx.app/)</sub>
+
 <a name="big-agi"></a>
-### #&#8288;4 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;5 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Multi-model chat workspace with Beam side-by-side model comparison.**
 
@@ -77,7 +95,7 @@ Big-AGI Open is the self-hostable web app behind big-agi.com, deployable via Doc
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-agi) · [🌐 Site ↗](https://big-agi.com)</sub>
 
 <a name="hermes-webui"></a>
-### #&#8288;5 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
+### #&#8288;6 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Browser UI for Hermes Agent with sessions and file browser.**
 
@@ -95,7 +113,7 @@ Hermes WebUI is a Python server with a vanilla JS frontend (no build step) that 
 <sub>Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [🌐 Site ↗](https://hermes-agent.nousresearch.com/)</sub>
 
 <a name="librechat"></a>
-### #&#8288;6 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · MIT · Oct 2026</sub>
+### #&#8288;7 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · MIT · Oct 2026</sub>
 
 **Multi-provider ChatGPT-style app with agents, MCP, code interpreter and auth.**
 
@@ -112,26 +130,8 @@ LibreChat is a self-hosted chat platform that fronts Anthropic, OpenAI, Azure, A
 
 <sub>no GPU · Docker + Compose · Compose runs MongoDB, Meilisearch, PostgreSQL · Models: Anthropic, OpenAI, Azure OpenAI, AWS Bedrock, Google · [Repo](https://github.com/librechat-ai/librechat) · [📖 Docs ↗](https://docs.librechat.ai) · [🌐 Site ↗](https://librechat.ai)</sub>
 
-<a name="onyx"></a>
-### #&#8288;7 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · custom license · Oct 2026</sub>
-
-**Team knowledge chat that indexes 50+ apps for RAG and agents.**
-
-Onyx indexes content and permissions from 50+ apps into a hybrid vector and keyword index, then answers through agentic RAG, deep research and custom agents with web search, MCP actions and a code sandbox. It works with Ollama, LiteLLM, vLLM, Anthropic, OpenAI or Gemini, deploys via Docker, Kubernetes or Helm, and is reachable from the web app, Slack and Discord bots, an MCP server or a Chrome extension.
-
-- **+** Lite mode runs the chat UI and agents in under 1 GB of memory
-- **+** Air-gappable: index, database and processing all run inside your environment
-- **+** MCP server gives Claude Code, Codex or any MCP client company context with user permissions
-- **+** Community Edition is MIT; install script sets up Docker in one command
-- **−** SSO (OIDC, SAML), SCIM, RBAC, analytics and whitelabeling are Enterprise Edition only
-- **−** Standard mode adds index, worker, inference, Redis and MinIO containers
-- **−** Lite mode cannot index documents
-- **−** README gives no port or hardware figures for the Standard deployment
-
-<sub>RAM ≥ 1 GB · no GPU · Compose · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/signup) · [📖 Docs ↗](https://docs.onyx.app/) · [🌐 Site ↗](https://www.onyx.app/)</sub>
-
 <a name="nextchat"></a>
-### #&#8288;8 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (91) · Freshness: recent (78) · Maintenance: weak (25) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### #&#8288;8 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (91) · Freshness: recent (78) · Maintenance: weak (27) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Lightweight Next.js chat client for OpenAI, Claude, Gemini and DeepSeek APIs.**
 
