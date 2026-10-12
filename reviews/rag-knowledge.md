@@ -23,7 +23,7 @@ Open Notebook collects PDFs, audio, video, web pages and Office files into noteb
 <sub>no GPU · Docker + Compose · Needs SurrealDB · Models: OpenAI, Anthropic, Google, Mistral, Groq, DeepSeek, xAI, OpenRouter, Cohere, Ollama, LM Studio, oMLX and any OpenAI-compatible endpoint · port 8502 · README: alternative to NotebookLM · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai)</sub>
 
 <a name="lightrag"></a>
-### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
+### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
 
 **Graph-plus-vector RAG server with web UI and Ollama-compatible API.**
 
@@ -131,7 +131,7 @@ PrivateGPT 1.0 is an API server shaped like the Anthropic Messages API, adding f
 <sub>no GPU · Docker · Needs OpenAI-compatible inference server (Ollama, llama.cpp, vLLM) · Models: any model behind an OpenAI-compatible /v1/chat/completions endpoint · port 8080 · [Repo](https://github.com/zylon-ai/private-gpt) · [📖 Docs ↗](https://docs.privategpt.dev/)</sub>
 
 <a name="pipeshub"></a>
-### #&#8288;8 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
 
 **Permission-aware search and agent context over 50+ workplace systems.**
 
@@ -183,7 +183,7 @@ DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge base
 <sub>GPU optional · Docker + Compose · Compose runs MySQL · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/db-gpt) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/)</sub>
 
 <a name="paperless-gpt"></a>
-### #&#8288;11 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · MIT · Oct 2026</sub>
+### #&#8288;11 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · MIT · Oct 2026</sub>
 
 **LLM-based OCR, titles, tags and document links for paperless-ngx.**
 

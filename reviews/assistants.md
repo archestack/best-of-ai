@@ -4,25 +4,8 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 
 <sub>🌐 Also on the web: [Assistants on archestack.com](https://archestack.com/best-of-ai/assistants/), each project on its own page.</sub>
 
-<a name="nanobot"></a>
-### 🥇 [nanobot](https://github.com/hkuds/nanobot) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
-
-**Small Python agent runtime with bundled WebUI, TUI and chat channels.**
-
-nanobot is a Python 3.11+ personal agent running as a local gateway with a bundled WebUI on 127.0.0.1:8765, a terminal UI, and connectors for Telegram, Discord, Slack, WeChat, Feishu, Teams, email, Mattermost and Linear. Tools cover files, shell, web search, MCP servers, cron automations, image generation and subagents, with long-term memory and an OpenAI-compatible API. Deploys via pip, Docker Compose or Render.
-
-- **+** WebUI ships inside the PyPI wheel; no separate frontend build needed
-- **+** Exposes a Python SDK and an OpenAI-compatible API for integrations
-- **+** Groups up to four conversations in one workbench and shares context between them
-- **+** First-run WebUI binds to localhost only; not exposed to the LAN by default
-- **−** Channels and automations stop when local clients exit unless gateway --background is used
-- **−** Native TUI wheels cover macOS 13+, glibc 2.17+ Linux and Windows x64 only
-- **−** Source install requires Bun to run the terminal UI
-
-<sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/hkuds/nanobot) · [📖 Docs ↗](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview)</sub>
-
 <a name="openclaw"></a>
-### 🥈 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 392k · MIT · Oct 2026</sub>
+### 🥇 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 392k · MIT · Oct 2026</sub>
 
 **Personal assistant gateway that answers in Discord, Slack, WhatsApp and Telegram.**
 
@@ -37,6 +20,23 @@ OpenClaw runs a local Gateway that connects one assistant to Discord, iMessage, 
 - **−** Daily version check phones home by default; disable with update.checkOnStart: false
 
 <sub>no GPU · Docker + Compose · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs ↗](https://docs.openclaw.ai) · [🌐 Site ↗](https://openclaw.ai)</sub>
+
+<a name="nanobot"></a>
+### 🥈 [nanobot](https://github.com/hkuds/nanobot) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
+
+**Small Python agent runtime with bundled WebUI, TUI and chat channels.**
+
+nanobot is a Python 3.11+ personal agent running as a local gateway with a bundled WebUI on 127.0.0.1:8765, a terminal UI, and connectors for Telegram, Discord, Slack, WeChat, Feishu, Teams, email, Mattermost and Linear. Tools cover files, shell, web search, MCP servers, cron automations, image generation and subagents, with long-term memory and an OpenAI-compatible API. Deploys via pip, Docker Compose or Render.
+
+- **+** WebUI ships inside the PyPI wheel; no separate frontend build needed
+- **+** Exposes a Python SDK and an OpenAI-compatible API for integrations
+- **+** Groups up to four conversations in one workbench and shares context between them
+- **+** First-run WebUI binds to localhost only; not exposed to the LAN by default
+- **−** Channels and automations stop when local clients exit unless gateway --background is used
+- **−** Native TUI wheels cover macOS 13+, glibc 2.17+ Linux and Windows x64 only
+- **−** Source install requires Bun to run the terminal UI
+
+<sub>no GPU · Docker + Compose · Models: OpenAI-compatible APIs, Anthropic, Ollama, vLLM · port 8765 · [Repo](https://github.com/hkuds/nanobot) · [📖 Docs ↗](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview)</sub>
 
 <a name="hermes-agent"></a>
 ### 🥉 [Hermes Agent](https://github.com/nousresearch/hermes-agent) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 253k · MIT · Oct 2026</sub>
@@ -74,7 +74,7 @@ ZeroClaw is one Rust binary that routes messages from 30+ channels (Discord, Tel
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs ↗](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site ↗](https://www.zeroclaw.com)</sub>
 
 <a name="cowagent"></a>
-### #&#8288;5 [cowagent](https://github.com/zhayujie/cowagent) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · MIT · Oct 2026</sub>
+### #&#8288;5 [cowagent](https://github.com/zhayujie/cowagent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · MIT · Oct 2026</sub>
 
 **Personal AI agent with memory, skills and chat channels like Telegram and Slack.**
 
@@ -91,8 +91,26 @@ CowAgent is a Python agent that plans tasks, runs built-in tools (terminal, file
 
 <sub>Docker + Compose · Needs LLM provider API (OpenAI, Claude, Gemini, DeepSeek, Qwen and others) · Models: Claude, OpenAI GPT, Gemini, DeepSeek, Qwen · port 9899 · [Repo](https://github.com/zhayujie/cowagent) · [📖 Docs ↗](https://docs.cowagent.ai/) · [🌐 Site ↗](https://cowagent.ai/)</sub>
 
+<a name="ironclaw"></a>
+### #&#8288;6 [IronClaw](https://github.com/nearai/ironclaw) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Sep 2026</sub>
+
+**Rust assistant that sandboxes every untrusted tool in WebAssembly.**
+
+IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAssembly sandboxes with capability permissions, endpoint allowlists, host-side credential injection and leak scans. It exposes a REPL, HTTP webhooks, Telegram and Slack channels and a browser gateway with SSE/WebSocket streaming, runs cron and event routines, connects to MCP servers and keeps hybrid-search memory in PostgreSQL.
+
+- **+** WASM sandbox with per-tool rate, memory, CPU and time limits
+- **+** Secrets encrypted with AES-256-GCM, never exposed to tool code; full audit log
+- **+** Describe a tool in chat and IronClaw builds it as a WASM module
+- **+** No telemetry; onboard installs a background service on macOS and Linux
+- **−** Requires PostgreSQL for persistence; SQLite is not an option
+- **−** Installer needs a release tag chosen by hand; no latest channel
+- **−** Slack and Telegram are configured only through the WebUI Extensions page
+- **−** Windows has no background service; WebUI runs in the foreground via ironclaw serve
+
+<sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw)</sub>
+
 <a name="qwenpaw"></a>
-### #&#8288;6 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
 
 **Personal AI agent with memory, skills, and chat-channel connectors.**
 
@@ -110,7 +128,7 @@ QwenPaw is a personal agent runtime installed with pip, a script, Docker, or a d
 <sub>GPU optional · Docker + Compose · Models: QwenPaw-Flash local models, Ollama, LM Studio, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/) · [🌐 Site ↗](https://qwenpaw.agentscope.io/)</sub>
 
 <a name="astrbot"></a>
-### #&#8288;7 [AstrBot](https://github.com/astrbotdevs/astrbot) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;8 [AstrBot](https://github.com/astrbotdevs/astrbot) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Oct 2026</sub>
 
 **Chatbot platform bridging LLMs to QQ, Telegram, Discord, Slack and more.**
 
@@ -127,26 +145,8 @@ AstrBot is a Python 3.12+ chatbot platform that connects LLM providers (OpenAI-c
 
 <sub>no GPU · Docker + Compose · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Moonshot · [Repo](https://github.com/astrbotdevs/astrbot) · [📖 Docs ↗](https://astrbot.app/)</sub>
 
-<a name="ironclaw"></a>
-### #&#8288;8 [IronClaw](https://github.com/nearai/ironclaw) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Sep 2026</sub>
-
-**Rust assistant that sandboxes every untrusted tool in WebAssembly.**
-
-IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAssembly sandboxes with capability permissions, endpoint allowlists, host-side credential injection and leak scans. It exposes a REPL, HTTP webhooks, Telegram and Slack channels and a browser gateway with SSE/WebSocket streaming, runs cron and event routines, connects to MCP servers and keeps hybrid-search memory in PostgreSQL.
-
-- **+** WASM sandbox with per-tool rate, memory, CPU and time limits
-- **+** Secrets encrypted with AES-256-GCM, never exposed to tool code; full audit log
-- **+** Describe a tool in chat and IronClaw builds it as a WASM module
-- **+** No telemetry; onboard installs a background service on macOS and Linux
-- **−** Requires PostgreSQL for persistence; SQLite is not an option
-- **−** Installer needs a release tag chosen by hand; no latest channel
-- **−** Slack and Telegram are configured only through the WebUI Extensions page
-- **−** Windows has no background service; WebUI runs in the foreground via ironclaw serve
-
-<sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw)</sub>
-
 <a name="moltis"></a>
-### #&#8288;9 [Moltis](https://github.com/moltis-org/moltis) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Sep 2026</sub>
+### #&#8288;9 [Moltis](https://github.com/moltis-org/moltis) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Sep 2026</sub>
 
 **Persistent personal agent server in one Rust binary with sandboxed execution.**
 

@@ -22,8 +22,26 @@ LocalAI is a Go server on port 8080 with OpenAI, Anthropic, ElevenLabs and Ollam
 
 <sub>GPU optional · Docker + Compose · Needs PostgreSQL and NATS (distributed mode only) · Models: GGUF via llama.cpp, vLLM, SGLang, transformers, MLX, diffusers, whisper.cpp backends, models from gallery, Hugging Face, Ollama registry, OCI images, YAML · port 8080 · [Repo](https://github.com/mudler/localai) · [📖 Docs ↗](https://localai.io/basics/getting_started/) · [🌐 Site ↗](https://localai.io/)</sub>
 
+<a name="ollama"></a>
+### 🥈 [Ollama](https://github.com/ollama/ollama) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 183k · MIT · Oct 2026</sub>
+
+**Runs open-weight models locally behind a CLI and REST API.**
+
+Ollama runs open-weight models locally with a CLI and a REST API on port 11434, pulling models from its own library (for example gemma4) and using llama.cpp as the inference backend. Install scripts cover macOS, Windows and Linux, and an official Docker image exists. The ollama launch command wires it into coding agents such as Claude Code, Codex, Copilot CLI and OpenCode, or into OpenClaw as a chat assistant.
+
+- **+** One command pulls and runs a model; REST API on 11434
+- **+** Official Docker image plus Python and JavaScript libraries
+- **+** ollama launch integrates with Claude Code, Codex, Copilot CLI, OpenCode
+- **+** Broad ecosystem: dozens of web, desktop and IDE clients listed
+- **−** Single inference backend: llama.cpp
+- **−** Install is a curl piped to sh script
+- **−** README gives no RAM or VRAM guidance per model size
+- **−** Models come from Ollama's own registry; others need import steps
+
+<sub>GPU optional · Docker · Models: Ollama library models (e.g. gemma4), GGUF via llama.cpp · port 11434 · [Repo](https://github.com/ollama/ollama) · [📖 Docs ↗](https://docs.ollama.com/quickstart) · [🌐 Site ↗](https://ollama.com)</sub>
+
 <a name="llama-cpp"></a>
-### 🥈 [llama.cpp](https://github.com/ggml-org/llama.cpp) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 131k · MIT · Oct 2026</sub>
+### 🥉 [llama.cpp](https://github.com/ggml-org/llama.cpp) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 131k · MIT · Oct 2026</sub>
 
 **C/C++ inference engine serving GGUF models over an OpenAI-compatible API.**
 
@@ -41,7 +59,7 @@ llama.cpp is a C/C++ inference engine for LLMs and VLMs with no dependencies, bu
 <sub>GPU optional · Docker · Models: GGUF models from Hugging Face (e.g. Qwen3.5-0.8B-GGUF) · [Repo](https://github.com/ggml-org/llama.cpp) · [🌐 Site ↗](https://llama.app)</sub>
 
 <a name="vllm"></a>
-### 🥉 [vLLM](https://github.com/vllm-project/vllm) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 94k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [vLLM](https://github.com/vllm-project/vllm) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 94k · Apache-2.0 · Oct 2026</sub>
 
 **High-throughput LLM serving engine with OpenAI and Anthropic APIs.**
 
@@ -57,24 +75,6 @@ vLLM is a Python serving engine for Hugging Face models that batches requests co
 - **−** Most optimized kernels target NVIDIA and AMD GPUs; CPU path is secondary
 
 <sub>GPU optional · Docker · Models: 200+ Hugging Face architectures: Llama, Qwen, Gemma, Mixtral, DeepSeek-V3, GPT-OSS, LLaVA, Qwen-VL, E5-Mistral · [Repo](https://github.com/vllm-project/vllm) · [📖 Docs ↗](https://docs.vllm.ai) · [🌐 Site ↗](https://vllm.ai)</sub>
-
-<a name="ollama"></a>
-### #&#8288;4 [Ollama](https://github.com/ollama/ollama) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 183k · MIT · Oct 2026</sub>
-
-**Runs open-weight models locally behind a CLI and REST API.**
-
-Ollama runs open-weight models locally with a CLI and a REST API on port 11434, pulling models from its own library (for example gemma4) and using llama.cpp as the inference backend. Install scripts cover macOS, Windows and Linux, and an official Docker image exists. The ollama launch command wires it into coding agents such as Claude Code, Codex, Copilot CLI and OpenCode, or into OpenClaw as a chat assistant.
-
-- **+** One command pulls and runs a model; REST API on 11434
-- **+** Official Docker image plus Python and JavaScript libraries
-- **+** ollama launch integrates with Claude Code, Codex, Copilot CLI, OpenCode
-- **+** Broad ecosystem: dozens of web, desktop and IDE clients listed
-- **−** Single inference backend: llama.cpp
-- **−** Install is a curl piped to sh script
-- **−** README gives no RAM or VRAM guidance per model size
-- **−** Models come from Ollama's own registry; others need import steps
-
-<sub>GPU optional · Docker · Models: Ollama library models (e.g. gemma4), GGUF via llama.cpp · port 11434 · [Repo](https://github.com/ollama/ollama) · [📖 Docs ↗](https://docs.ollama.com/quickstart) · [🌐 Site ↗](https://ollama.com)</sub>
 
 <a name="colibri"></a>
 ### #&#8288;5 [colibri](https://github.com/justvugg/colibri) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Oct 2026</sub>
@@ -112,26 +112,8 @@ SGLang is a Python inference framework for serving large language, vision-langua
 
 <sub>Docker + Compose · Models: LLMs, vision-language models, diffusion models · [Repo](https://github.com/sgl-project/sglang) · [📖 Docs ↗](https://docs.sglang.io/) · [🌐 Site ↗](https://www.sglang.io/)</sub>
 
-<a name="lemonade"></a>
-### #&#8288;7 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
-
-**Local AI server that targets GPUs and AMD NPUs with OpenAI-style APIs.**
-
-Lemonade is a local AI server with OpenAI, Anthropic and Ollama-compatible APIs on port 13305 that runs GGUF, FLM and ONNX models, Whisper transcription, Kokoro speech and Stable Diffusion images. It picks the backend for the hardware: llama.cpp on CPU, CUDA, Vulkan, ROCm or Metal, plus AMD XDNA2 NPU paths for Ryzen AI. Packages exist for Windows, macOS, Debian, Fedora, Ubuntu, Arch, Snap and Docker.
-
-- **+** NPU backends for AMD XDNA2 (Ryzen AI) alongside CUDA, ROCm, Vulkan, Metal
-- **+** Chat, speech-to-text, text-to-speech, image and audio generation in one server
-- **+** Native packages: msi, pkg, deb, rpm, Arch, Snap, PPA, Docker
-- **+** Model aliases enable active-standby failover between models
-- **−** Many engines (vllm, ds4, openmoss, trellis) are marked experimental
-- **−** NPU support covers AMD XDNA2 only
-- **−** macOS gets Metal only; several backends are Windows or Linux only
-- **−** Cloud offload to OpenAI-compatible providers is experimental
-
-<sub>GPU optional · Docker · Models: GGUF, FLM and ONNX LLMs (e.g. Gemma 4, Qwen3), Whisper, Kokoro, SDXL-Turbo · port 13305 · [Repo](https://github.com/lemonade-sdk/lemonade)</sub>
-
 <a name="exo"></a>
-### #&#8288;8 [exo](https://github.com/exo-explore/exo) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: weak (12) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;7 [exo](https://github.com/exo-explore/exo) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: weak (25) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · Apache-2.0 · Oct 2026</sub>
 
 **Distributed LLM inference across Macs and other devices, MLX-based.**
 
@@ -147,6 +129,24 @@ exo joins devices on a network into one inference cluster, splitting a model acr
 - **−** Models are MLX-format; GGUF support is not mentioned in the README
 
 <sub>GPU optional · Needs uv, Node.js 18+, Rust nightly, MLX, macmon (macOS) · Models: MLX, HuggingFace custom models · port 52415 · [Repo](https://github.com/exo-explore/exo) · [📖 Docs ↗](https://github.com/exo-explore/exo/blob/main/docs/api.md)</sub>
+
+<a name="lemonade"></a>
+### #&#8288;8 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
+
+**Local AI server that targets GPUs and AMD NPUs with OpenAI-style APIs.**
+
+Lemonade is a local AI server with OpenAI, Anthropic and Ollama-compatible APIs on port 13305 that runs GGUF, FLM and ONNX models, Whisper transcription, Kokoro speech and Stable Diffusion images. It picks the backend for the hardware: llama.cpp on CPU, CUDA, Vulkan, ROCm or Metal, plus AMD XDNA2 NPU paths for Ryzen AI. Packages exist for Windows, macOS, Debian, Fedora, Ubuntu, Arch, Snap and Docker.
+
+- **+** NPU backends for AMD XDNA2 (Ryzen AI) alongside CUDA, ROCm, Vulkan, Metal
+- **+** Chat, speech-to-text, text-to-speech, image and audio generation in one server
+- **+** Native packages: msi, pkg, deb, rpm, Arch, Snap, PPA, Docker
+- **+** Model aliases enable active-standby failover between models
+- **−** Many engines (vllm, ds4, openmoss, trellis) are marked experimental
+- **−** NPU support covers AMD XDNA2 only
+- **−** macOS gets Metal only; several backends are Windows or Linux only
+- **−** Cloud offload to OpenAI-compatible providers is experimental
+
+<sub>GPU optional · Docker · Models: GGUF, FLM and ONNX LLMs (e.g. Gemma 4, Qwen3), Whisper, Kokoro, SDXL-Turbo · port 13305 · [Repo](https://github.com/lemonade-sdk/lemonade)</sub>
 
 <a name="llama-swap"></a>
 ### #&#8288;9 [llama-swap](https://github.com/mostlygeek/llama-swap) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Oct 2026</sub>
@@ -202,8 +202,26 @@ mistral.rs is a Rust engine whose single binary runs and serves Hugging Face, GG
 
 <sub>GPU optional · Docker · Models: Hugging Face safetensors, GGUF, UQFF, Qwen3, Gemma 4, Muse Glimmer, DiffusionGemma and 45+ architectures · port 1234 · [Repo](https://github.com/ericlbuehler/mistral.rs) · [📖 Docs ↗](https://docs.mistralrs.dev/)</sub>
 
+<a name="triton-inference-server"></a>
+### #&#8288;12 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · BSD-3-Clause · Oct 2026</sub>
+
+**NVIDIA inference server for TensorRT, PyTorch, ONNX and more over HTTP/gRPC.**
+
+Triton serves TensorRT, PyTorch, ONNX, OpenVINO, Python and RAPIDS FIL models over HTTP/REST and gRPC (KServe v2), with concurrent execution, dynamic and sequence batching, ensembles and Business Logic Scripting. NVIDIA ships it as NGC containers (2.73.0 / 26.09) for NVIDIA GPUs, x86 and ARM CPUs, Jetson and AWS Inferentia, with C and Java in-process APIs and a metrics endpoint.
+
+- **+** Serves TensorRT, PyTorch, ONNX, OpenVINO, Python and FIL models together
+- **+** Dynamic and sequence batching, ensembles and BLS pipelines
+- **+** HTTP/REST and gRPC (KServe v2) plus C and Java in-process APIs
+- **+** Metrics for GPU utilization, throughput and latency
+- **−** No OpenAI-compatible endpoint in the README; clients speak KServe v2
+- **−** Model repository and per-model config files are hand-written
+- **−** Containers track NVIDIA's monthly NGC release cycle
+- **−** Not every backend is supported on every platform
+
+<sub>GPU optional · Docker · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python, RAPIDS FIL backends · [Repo](https://github.com/triton-inference-server/server) · [🌐 Site ↗](https://developer.nvidia.com/nvidia-triton-inference-server)</sub>
+
 <a name="text-generation-webui"></a>
-### #&#8288;12 [Text Generation Web UI](https://github.com/oobabooga/textgen) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: weak (12) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;13 [Text Generation Web UI](https://github.com/oobabooga/textgen) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: weak (12) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · AGPL-3.0 · Aug 2026</sub>
 
 **Local LLM chat UI and API with five switchable loader backends.**
 
@@ -221,7 +239,7 @@ TextGen runs local LLMs behind a chat UI and an OpenAI/Anthropic-compatible API 
 <sub>GPU optional · Docker + Compose · Models: GGUF via llama.cpp and ik_llama.cpp, Transformers safetensors, EXL3 via ExLlamaV3, TensorRT-LLM · port 7860 · [Repo](https://github.com/oobabooga/textgen)</sub>
 
 <a name="ktransformers"></a>
-### #&#8288;13 [KTransformers](https://github.com/kvcache-ai/ktransformers) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;14 [KTransformers](https://github.com/kvcache-ai/ktransformers) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
 
 **CPU-GPU hybrid inference and fine-tuning for very large MoE models.**
 
@@ -238,26 +256,8 @@ KTransformers is a research framework for CPU-GPU heterogeneous inference and fi
 
 <sub>GPU required · Docker · Needs SGLang (serving), LLaMA-Factory (fine-tuning) · Models: DeepSeek-V3/R1/V4-Flash, Kimi K2 to K2.6, GLM-5 to 5.3, MiniMax-M2.x/M3, Qwen3-MoE, Qwen3-Next · [Repo](https://github.com/kvcache-ai/ktransformers) · [📖 Docs ↗](https://kvcache-ai.github.io/ktransformers/)</sub>
 
-<a name="triton-inference-server"></a>
-### #&#8288;14 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · BSD-3-Clause · Oct 2026</sub>
-
-**NVIDIA inference server for TensorRT, PyTorch, ONNX and more over HTTP/gRPC.**
-
-Triton serves TensorRT, PyTorch, ONNX, OpenVINO, Python and RAPIDS FIL models over HTTP/REST and gRPC (KServe v2), with concurrent execution, dynamic and sequence batching, ensembles and Business Logic Scripting. NVIDIA ships it as NGC containers (2.73.0 / 26.09) for NVIDIA GPUs, x86 and ARM CPUs, Jetson and AWS Inferentia, with C and Java in-process APIs and a metrics endpoint.
-
-- **+** Serves TensorRT, PyTorch, ONNX, OpenVINO, Python and FIL models together
-- **+** Dynamic and sequence batching, ensembles and BLS pipelines
-- **+** HTTP/REST and gRPC (KServe v2) plus C and Java in-process APIs
-- **+** Metrics for GPU utilization, throughput and latency
-- **−** No OpenAI-compatible endpoint in the README; clients speak KServe v2
-- **−** Model repository and per-model config files are hand-written
-- **−** Containers track NVIDIA's monthly NGC release cycle
-- **−** Not every backend is supported on every platform
-
-<sub>GPU optional · Docker · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python, RAPIDS FIL backends · [Repo](https://github.com/triton-inference-server/server) · [🌐 Site ↗](https://developer.nvidia.com/nvidia-triton-inference-server)</sub>
-
 <a name="gpustack"></a>
-### #&#8288;15 [GPUStack](https://github.com/gpustack/gpustack) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;15 [GPUStack](https://github.com/gpustack/gpustack) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
 
 **GPU cluster manager that deploys models on vLLM, SGLang and TensorRT-LLM.**
 
