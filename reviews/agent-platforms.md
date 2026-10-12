@@ -5,7 +5,7 @@ Visual or code-first builders for agents and workflows, with orchestration, tool
 <sub>🌐 Also on the web: [Agent platforms on archestack.com](https://archestack.com/best-of-ai/agent-platforms/), each project on its own page.</sub>
 
 <a name="langflow"></a>
-### 🥇 [Langflow](https://github.com/langflow-ai/langflow) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 156k · MIT · Oct 2026</sub>
+### 🥇 [Langflow](https://github.com/langflow-ai/langflow) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 156k · MIT · Oct 2026</sub>
 
 **Visual flow builder that deploys agents as APIs or MCP servers.**
 
@@ -21,26 +21,8 @@ Langflow is a Python 3.10 to 3.14 visual builder (uv pip install langflow, or th
 
 <sub>no GPU · Docker + Compose · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs ↗](https://docs.langflow.org/get-started-installation) · [🌐 Site ↗](https://langflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langflow/)</sub>
 
-<a name="multica"></a>
-### 🥈 [Multica](https://github.com/multica-ai/multica) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · custom license · Oct 2026</sub>
-
-**Issue board where AI coding agents take assignments like teammates.**
-
-Multica is a workspace where issues are assigned to AI coding agents, which run through locally installed agent CLIs such as Claude Code, Codex, Cursor and Copilot (26 listed). A daemon on your own machine executes the work next to your code and reports progress back to the issue, which ends in review rather than main. The backend is Go with PostgreSQL 17, and clients cover web, Electron desktop and an Expo mobile app.
-
-- **+** Drives 26 existing agent CLIs, so no model or API lock-in
-- **+** Execution log replays every tool call, command and error per run
-- **+** Daemon runs on your own machine, so code stays there
-- **+** Self-host via Docker Compose or Helm; works with GitHub, GitLab, Gitea, Forgejo
-- **−** Does not ship agents; each runtime needs a CLI installed and signed in
-- **−** Custom Multica License (Apache 2.0 plus conditions on hosting, embedding, branding)
-- **−** Requires Docker, a Go backend and PostgreSQL 17 to self-host
-- **−** iOS app builds from source only; DingTalk, WeCom, Telegram are community-maintained
-
-<sub>no GPU · Docker + Compose · Needs PostgreSQL 17, Docker, agent CLI (Claude Code, Codex, etc.) · Models: Claude Code, OpenAI Codex, Cursor Agent, GitHub Copilot CLI, OpenCode · [Repo](https://github.com/multica-ai/multica) · [📖 Docs ↗](https://multica.ai/docs) · [🌐 Site ↗](https://multica.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/multica/)</sub>
-
 <a name="dify"></a>
-### 🥉 [Dify](https://github.com/langgenius/dify) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 158k · custom license · Oct 2026</sub>
+### 🥈 [Dify](https://github.com/langgenius/dify) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 158k · custom license · Oct 2026</sub>
 
 **Visual LLM app platform with workflows, RAG pipeline, agents and APIs.**
 
@@ -57,26 +39,26 @@ Dify is an LLM app platform started with Docker Compose (dashboard on port 80) t
 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Models: OpenAI GPT, Mistral, Llama 3, OpenAI-compatible APIs, dozens of inference providers · port 80 · [Repo](https://github.com/langgenius/dify) · [▶️ Demo ↗](https://cloud.dify.ai) · [📖 Docs ↗](https://docs.dify.ai) · [🌐 Site ↗](https://dify.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dify/)</sub>
 
-<a name="autogpt"></a>
-### #&#8288;4 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: hard (17) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 188k · custom license · Oct 2026</sub>
+<a name="multica"></a>
+### 🥉 [Multica](https://github.com/multica-ai/multica) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · custom license · Oct 2026</sub>
 
-**Block-based builder for agents that run on demand, schedule or trigger.**
+**Issue board where AI coding agents take assignments like teammates.**
 
-AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire blocks on a visual canvas, then run the agent on demand, on a schedule or from a trigger, with a dashboard of runs and costs and a marketplace of shared agents. It connects to 45+ platforms such as Gmail, Slack, GitHub and Notion. Self-hosting is free with your own Docker host and model API keys; the hosted platform is paid.
+Multica is a workspace where issues are assigned to AI coding agents, which run through locally installed agent CLIs such as Claude Code, Codex, Cursor and Copilot (26 listed). A daemon on your own machine executes the work next to your code and reports progress back to the issue, which ends in review rather than main. The backend is Go with PostgreSQL 17, and clients cover web, Electron desktop and an Expo mobile app.
 
-- **+** Plain-English AutoPilot and a drag-and-connect block builder for the same agent
-- **+** Agents run on demand, on schedules or from triggers with a run and cost dashboard
-- **+** 45+ integrations including Gmail, Google Sheets, GitHub, Slack, Notion, Jira, Salesforce
-- **+** Classic standalone agent still shipped under MIT in classic/
-- **−** Platform code is Polyform Shield: no offering it as a competing hosted service
-- **−** README has no self-host commands; the single-container installer is still unreleased
-- **−** Windows self-hosting is manual-guide only
-- **−** Hosted platform charges per agent run; README is largely marketing
+- **+** Drives 26 existing agent CLIs, so no model or API lock-in
+- **+** Execution log replays every tool call, command and error per run
+- **+** Daemon runs on your own machine, so code stays there
+- **+** Self-host via Docker Compose or Helm; works with GitHub, GitLab, Gitea, Forgejo
+- **−** Does not ship agents; each runtime needs a CLI installed and signed in
+- **−** Custom Multica License (Apache 2.0 plus conditions on hosting, embedding, branding)
+- **−** Requires Docker, a Go backend and PostgreSQL 17 to self-host
+- **−** iOS app builds from source only; DingTalk, WeCom, Telegram are community-maintained
 
-<sub>no GPU · Needs Docker · [Repo](https://github.com/significant-gravitas/autogpt) · [▶️ Demo ↗](https://platform.agpt.co/tour) · [📖 Docs ↗](https://docs.agpt.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autogpt/)</sub>
+<sub>no GPU · Docker + Compose · Needs PostgreSQL 17, Docker, agent CLI (Claude Code, Codex, etc.) · Models: Claude Code, OpenAI Codex, Cursor Agent, GitHub Copilot CLI, OpenCode · [Repo](https://github.com/multica-ai/multica) · [📖 Docs ↗](https://multica.ai/docs) · [🌐 Site ↗](https://multica.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/multica/)</sub>
 
 <a name="sim"></a>
-### #&#8288;5 [Sim](https://github.com/simstudioai/sim) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [Sim](https://github.com/simstudioai/sim) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Workspace to build, deploy and monitor agents with 1,000+ integrations.**
 
@@ -92,6 +74,24 @@ Sim is a Next.js and Bun app on PostgreSQL that builds agents visually, by chat 
 - **−** Self-hosting goes through an npx wizard rather than a documented compose file
 
 <sub>RAM ≥ 12 GB · no GPU · Docker + Compose · Needs PostgreSQL, Docker, Sim Chat API key · Models: Ollama, vLLM · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs ↗](https://docs.sim.ai) · [🌐 Site ↗](https://sim.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sim/)</sub>
+
+<a name="autogpt"></a>
+### #&#8288;5 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: hard (17) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 188k · custom license · Oct 2026</sub>
+
+**Block-based builder for agents that run on demand, schedule or trigger.**
+
+AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire blocks on a visual canvas, then run the agent on demand, on a schedule or from a trigger, with a dashboard of runs and costs and a marketplace of shared agents. It connects to 45+ platforms such as Gmail, Slack, GitHub and Notion. Self-hosting is free with your own Docker host and model API keys; the hosted platform is paid.
+
+- **+** Plain-English AutoPilot and a drag-and-connect block builder for the same agent
+- **+** Agents run on demand, on schedules or from triggers with a run and cost dashboard
+- **+** 45+ integrations including Gmail, Google Sheets, GitHub, Slack, Notion, Jira, Salesforce
+- **+** Classic standalone agent still shipped under MIT in classic/
+- **−** Platform code is Polyform Shield: no offering it as a competing hosted service
+- **−** README has no self-host commands; the single-container installer is still unreleased
+- **−** Windows self-hosting is manual-guide only
+- **−** Hosted platform charges per agent run; README is largely marketing
+
+<sub>no GPU · Needs Docker · [Repo](https://github.com/significant-gravitas/autogpt) · [▶️ Demo ↗](https://platform.agpt.co/tour) · [📖 Docs ↗](https://docs.agpt.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autogpt/)</sub>
 
 <a name="paperclip"></a>
 ### #&#8288;6 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 101k · MIT · Oct 2026</sub>
@@ -112,7 +112,7 @@ Paperclip is a Node.js server and React UI that coordinates external agents (Ope
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/paperclipai/paperclip) · [📖 Docs ↗](https://docs.paperclip.ing) · [🌐 Site ↗](https://paperclip.ing) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperclip/)</sub>
 
 <a name="skyvern"></a>
-### #&#8288;7 [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Oct 2026</sub>
 
 **Browser automation agent driven by vision LLMs over Playwright.**
 
@@ -130,7 +130,7 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · port 8080 · [Repo](https://github.com/skyvern-ai/skyvern) · [▶️ Demo ↗](https://app.skyvern.com) · [📖 Docs ↗](https://www.skyvern.com/docs/) · [🌐 Site ↗](https://www.skyvern.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skyvern/)</sub>
 
 <a name="agent-zero"></a>
-### #&#8288;8 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Sep 2026</sub>
+### #&#8288;8 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Sep 2026</sub>
 
 **Agent framework that gives the model a full Linux desktop in Docker.**
 
@@ -148,7 +148,7 @@ Agent Zero runs as the agent0ai/agent-zero Docker image (port 80) and gives the 
 <sub>no GPU · Docker + Compose · Needs Docker · Models: OpenAI Codex plan (OAuth) · port 80 · [Repo](https://github.com/agent0ai/agent-zero) · [🌐 Site ↗](https://agent-zero.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-zero/)</sub>
 
 <a name="fastgpt"></a>
-### #&#8288;9 [FastGPT](https://github.com/labring/fastgpt) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Oct 2026</sub>
+### #&#8288;9 [FastGPT](https://github.com/labring/fastgpt) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Oct 2026</sub>
 
 **Knowledge-base Q&A and visual workflow platform for LLM apps.**
 

@@ -23,7 +23,7 @@ Builds generation pipelines as a visual node graph and runs them locally for ima
 <sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/comfy-org/comfyui) · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://www.comfy.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui/)</sub>
 
 <a name="moneyprinterturbo"></a>
-### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 130k · MIT · Oct 2026</sub>
+### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 130k · MIT · Oct 2026</sub>
 
 **Generates short videos from a topic with script, footage, voice and subtitles.**
 
@@ -41,7 +41,7 @@ Takes a topic or keywords, writes a script with an LLM (OpenAI, Claude, Gemini, 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs LLM API (OpenAI-compatible) or Ollama, Stock footage API (Pexels, Pixabay, Coverr) or a video generation API · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Qwen (DashScope) · [Repo](https://github.com/harry0703/moneyprinterturbo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moneyprinterturbo/)</sub>
 
 <a name="invokeai"></a>
-### 🥉 [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Canvas-first web UI for Stable Diffusion and Flux image generation.**
 
@@ -76,8 +76,26 @@ AI Toolkit trains LoRA and LoKr adapters for diffusion models, covering FLUX.1, 
 
 <sub>GPU required · Docker + Compose · Needs PyTorch, Node.js, Hugging Face · Models: FLUX.1, FLUX.2, Qwen-Image, Wan 2.1/2.2, LTX-2 · port 8675 · [Repo](https://github.com/ostris/ai-toolkit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-toolkit/)</sub>
 
+<a name="biniou"></a>
+### #&#8288;5 [biniou](https://github.com/woolverine94/biniou) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (67) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
+
+**Chat, image, audio, video and 3D generation in one CPU-friendly web UI.**
+
+Gradio web UI bundling 30+ modules: llama.cpp chat and LLaVA with GGUF models, Whisper, NLLB translation, Stable Diffusion 1.5 to 3.5, SDXL, Flux, PixArt, ControlNet, inpainting, MusicGen, Bark, AnimateDiff, Stable Video Diffusion and Shap-E. Runs on CPU from 8 GB RAM, with optional CUDA or experimental ROCm, and works offline once models are downloaded. For hobbyists wanting one install on modest hardware.
+
+- **+** Runs on CPU-only machines from 8 GB RAM; GPU optional
+- **+** One-click installers for Debian, RHEL, OpenSUSE, Arch, Windows; CPU and CUDA Docker images
+- **+** Modules chain: send one module's output as another's input
+- **+** Weekly updates adding GGUF chat models and LoRAs
+- **−** Requires Python 3.10 or 3.11 exactly; AMD64 CPUs only
+- **−** About 20 GB install without models, around 200 GB with all defaults
+- **−** Many modules need 16 GB+ RAM (Kandinsky, AnimateDiff, SVD, outpaint)
+- **−** GPL-3.0 license; macOS Intel support is experimental
+
+<sub>RAM ≥ 8 GB · GPU optional · Docker · Needs ffmpeg, git, gcc, perl, openssl · Models: GGUF LLMs via llama.cpp, LLaVA GGUF, Whisper, NLLB-200, SD 1.5/2.1/Turbo · [Repo](https://github.com/woolverine94/biniou) · [📖 Docs ↗](https://github.com/Woolverine94/biniou/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biniou/)</sub>
+
 <a name="kohya-ss"></a>
-### #&#8288;5 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (42) · Freshness: active (99) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;6 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (42) · Freshness: active (99) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
 
 **Gradio GUI and CLI for Kohya diffusion training scripts.**
 
@@ -95,7 +113,7 @@ Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for Lo
 <sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kohya-ss/)</sub>
 
 <a name="pixelle-video"></a>
-### #&#8288;6 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (65) · Freshness: active (86) · Maintenance: weak (3) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;7 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (65) · Freshness: active (86) · Maintenance: weak (3) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Jun 2026</sub>
 
 **Topic-to-short-video pipeline built on ComfyUI workflows and TTS.**
 
@@ -112,26 +130,8 @@ Turns a topic into a short video: an LLM (GPT, Qwen, DeepSeek, Ollama) writes th
 
 <sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ath-maas/pixelle-video) · [📖 Docs ↗](https://aidc-ai.github.io/Pixelle-Video/zh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pixelle-video/)</sub>
 
-<a name="biniou"></a>
-### #&#8288;7 [biniou](https://github.com/woolverine94/biniou) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (67) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
-
-**Chat, image, audio, video and 3D generation in one CPU-friendly web UI.**
-
-Gradio web UI bundling 30+ modules: llama.cpp chat and LLaVA with GGUF models, Whisper, NLLB translation, Stable Diffusion 1.5 to 3.5, SDXL, Flux, PixArt, ControlNet, inpainting, MusicGen, Bark, AnimateDiff, Stable Video Diffusion and Shap-E. Runs on CPU from 8 GB RAM, with optional CUDA or experimental ROCm, and works offline once models are downloaded. For hobbyists wanting one install on modest hardware.
-
-- **+** Runs on CPU-only machines from 8 GB RAM; GPU optional
-- **+** One-click installers for Debian, RHEL, OpenSUSE, Arch, Windows; CPU and CUDA Docker images
-- **+** Modules chain: send one module's output as another's input
-- **+** Weekly updates adding GGUF chat models and LoRAs
-- **−** Requires Python 3.10 or 3.11 exactly; AMD64 CPUs only
-- **−** About 20 GB install without models, around 200 GB with all defaults
-- **−** Many modules need 16 GB+ RAM (Kandinsky, AnimateDiff, SVD, outpaint)
-- **−** GPL-3.0 license; macOS Intel support is experimental
-
-<sub>RAM ≥ 8 GB · GPU optional · Docker · Needs ffmpeg, git, gcc, perl, openssl · Models: GGUF LLMs via llama.cpp, LLaVA GGUF, Whisper, NLLB-200, SD 1.5/2.1/Turbo · [Repo](https://github.com/woolverine94/biniou) · [📖 Docs ↗](https://github.com/Woolverine94/biniou/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biniou/)</sub>
-
 <a name="fluxgym"></a>
-### #&#8288;8 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: weak (21) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
+### #&#8288;8 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: weak (21) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
 
 **Web UI for training FLUX LoRAs on 12 to 20 GB GPUs.**
 
