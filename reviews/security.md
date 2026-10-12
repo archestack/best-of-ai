@@ -20,6 +20,6 @@ CLI that runs a team of LLM agents (recon, exploitation, post-exploitation) agai
 - **−** Autofix PRs, continuous scanning and Jira/Slack hooks are Cloud; SSO and compliance reports are Enterprise
 - **−** README documents install only as curl | bash, though a PyPI package (strix-agent) exists
 
-<sub>no GPU · Docker · Needs docker, LLM API key · Models: OpenAI, Anthropic, Google / Vertex AI, OpenRouter, DeepSeek · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai)</sub>
+<sub>no GPU · Docker · Needs docker, LLM API key · Models: OpenAI, Anthropic, Google / Vertex AI, OpenRouter, DeepSeek · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/strix/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

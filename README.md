@@ -115,7 +115,7 @@
 
 ## 🤖 Assistants
 
-Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. <sub>12 ranked · [📝 all reviews](reviews/assistants.md)</sub>
+Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. <sub>12 ranked · [📝 all reviews](reviews/assistants.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/assistants/)</sub>
 
 **OpenClaw leads with 84**, ahead of nanobot (84) and Hermes Agent (75).
 
@@ -146,7 +146,7 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 
 ## 💬 Chat UIs
 
-Web front-ends for local or API models, usually with user accounts, chat history and file upload. <sub>13 ranked · [📝 all reviews](reviews/chat-ui.md)</sub>
+Web front-ends for local or API models, usually with user accounts, chat history and file upload. <sub>13 ranked · [📝 all reviews](reviews/chat-ui.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/chat-ui/)</sub>
 
 **LobeHub leads with 85**, ahead of AnythingLLM (82) and Open WebUI (76).
 
@@ -177,7 +177,7 @@ Web front-ends for local or API models, usually with user accounts, chat history
 
 ## 🧩 Agent platforms
 
-Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. <sub>10 ranked · [📝 all reviews](reviews/agent-platforms.md)</sub>
+Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. <sub>10 ranked · [📝 all reviews](reviews/agent-platforms.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/agent-platforms/)</sub>
 
 **Langflow leads with 73**, ahead of Multica (73) and Dify (72).
 
@@ -206,7 +206,7 @@ Visual or code-first builders for agents and workflows, with orchestration, tool
 
 ## 🔁 Workflow automation with AI
 
-Workflow and integration platforms with AI steps or agent nodes, for wiring models into the rest of your tools. <sub>2 ranked · [📝 all reviews](reviews/automation.md)</sub>
+Workflow and integration platforms with AI steps or agent nodes, for wiring models into the rest of your tools. <sub>2 ranked · [📝 all reviews](reviews/automation.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/automation/)</sub>
 
 **n8n leads with 76**, ahead of Activepieces (65).
 
@@ -227,7 +227,7 @@ Workflow and integration platforms with AI steps or agent nodes, for wiring mode
 
 ## 📚 RAG and knowledge
 
-Document Q&A, knowledge bases and enterprise search over your own files and data. <sub>15 ranked · [📝 all reviews](reviews/rag-knowledge.md)</sub>
+Document Q&A, knowledge bases and enterprise search over your own files and data. <sub>15 ranked · [📝 all reviews](reviews/rag-knowledge.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/rag-knowledge/)</sub>
 
 **Open Notebook leads with 75**, ahead of LightRAG (75) and RAGFlow (72).
 
@@ -258,7 +258,7 @@ Document Q&A, knowledge bases and enterprise search over your own files and data
 
 ## 🔎 Search
 
-Private search engines and AI answer engines that keep queries on your host. <sub>5 ranked · [📝 all reviews](reviews/search.md)</sub>
+Private search engines and AI answer engines that keep queries on your host. <sub>5 ranked · [📝 all reviews](reviews/search.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/search/)</sub>
 
 **Morphic leads with 70**, ahead of Local Deep Research (65) and GPT Researcher (64).
 
@@ -282,7 +282,7 @@ Private search engines and AI answer engines that keep queries on your host. <su
 
 ## 🎙️ Voice
 
-Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. <sub>11 ranked · [📝 all reviews](reviews/voice.md)</sub>
+Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. <sub>11 ranked · [📝 all reviews](reviews/voice.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/voice/)</sub>
 
 **Voicebox leads with 72**, ahead of Speech-to-Speech (67) and Pocket TTS (64).
 
@@ -313,7 +313,7 @@ Speech-to-text, text-to-speech, voice agents and meeting tools that run locally.
 
 ## 🎨 Image and video
 
-Generation UIs and pipelines for images and video, usually around diffusion models. <sub>8 ranked · [📝 all reviews](reviews/image-video.md)</sub>
+Generation UIs and pipelines for images and video, usually around diffusion models. <sub>8 ranked · [📝 all reviews](reviews/image-video.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/image-video/)</sub>
 
 **ComfyUI leads with 75**, ahead of MoneyPrinterTurbo (68) and InvokeAI (62).
 
@@ -340,7 +340,7 @@ Generation UIs and pipelines for images and video, usually around diffusion mode
 
 ## 🔐 Security
 
-AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. <sub>1 ranked · [📝 all reviews](reviews/security.md)</sub>
+AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. <sub>1 ranked · [📝 all reviews](reviews/security.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/security/)</sub>
 
 **Strix leads with 74**.
 
@@ -362,7 +362,7 @@ AI agents and tools for penetration testing, red-teaming and finding vulnerabili
 
 ## 🗂️ Memory
 
-Long-term memory engines that store and retrieve facts for agents across sessions. <sub>12 ranked · [📝 all reviews](reviews/memory.md)</sub>
+Long-term memory engines that store and retrieve facts for agents across sessions. <sub>12 ranked · [📝 all reviews](reviews/memory.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/memory/)</sub>
 
 **hindsight leads with 78**, ahead of MemPalace (77) and agentmemory (75).
 
@@ -393,7 +393,7 @@ Long-term memory engines that store and retrieve facts for agents across session
 
 ## 🧠 Model serving
 
-Inference engines and model servers that expose local models over an API. <sub>20 ranked · [📝 all reviews](reviews/model-serving.md)</sub>
+Inference engines and model servers that expose local models over an API. <sub>20 ranked · [📝 all reviews](reviews/model-serving.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/model-serving/)</sub>
 
 **LocalAI leads with 82**, ahead of Ollama (79) and llama.cpp (79).
 
@@ -424,7 +424,7 @@ Inference engines and model servers that expose local models over an API. <sub>2
 
 ## 🔀 Gateways
 
-LLM gateways and proxies for routing, caching, rate limits and cost control across providers. <sub>14 ranked · [📝 all reviews](reviews/gateways.md)</sub>
+LLM gateways and proxies for routing, caching, rate limits and cost control across providers. <sub>14 ranked · [📝 all reviews](reviews/gateways.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/gateways/)</sub>
 
 **OmniRoute leads with 86**, ahead of LiteLLM (84) and freellmapi (76).
 
@@ -455,7 +455,7 @@ LLM gateways and proxies for routing, caching, rate limits and cost control acro
 
 ## 📈 Observability
 
-Tracing, evaluation and prompt management for LLM applications. <sub>13 ranked · [📝 all reviews](reviews/observability.md)</sub>
+Tracing, evaluation and prompt management for LLM applications. <sub>13 ranked · [📝 all reviews](reviews/observability.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/observability/)</sub>
 
 **Langfuse leads with 74**, ahead of Phoenix (74) and promptfoo (71).
 
@@ -486,7 +486,7 @@ Tracing, evaluation and prompt management for LLM applications. <sub>13 ranked �
 
 ## 🧮 Vector databases
 
-Vector stores and hybrid search engines for embeddings. <sub>8 ranked · [📝 all reviews](reviews/vector-db.md)</sub>
+Vector stores and hybrid search engines for embeddings. <sub>8 ranked · [📝 all reviews](reviews/vector-db.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/vector-db/)</sub>
 
 **Milvus leads with 81**, ahead of Meilisearch (74) and Qdrant (68).
 
@@ -513,7 +513,7 @@ Vector stores and hybrid search engines for embeddings. <sub>8 ranked · [📝 a
 
 ## 🛡️ Sandboxes
 
-Isolated runtimes where agents execute code, browse or use tools safely. <sub>8 ranked · [📝 all reviews](reviews/sandboxes.md)</sub>
+Isolated runtimes where agents execute code, browse or use tools safely. <sub>8 ranked · [📝 all reviews](reviews/sandboxes.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/sandboxes/)</sub>
 
 **Lightpanda leads with 78**, ahead of Obscura (71) and NemoClaw (71).
 
@@ -540,7 +540,7 @@ Isolated runtimes where agents execute code, browse or use tools safely. <sub>8 
 
 ## 🕸️ Data and scraping for AI
 
-Tools that turn web pages, PDFs and documents into clean text or structured data that models can use. <sub>3 ranked · [📝 all reviews](reviews/data-tools.md)</sub>
+Tools that turn web pages, PDFs and documents into clean text or structured data that models can use. <sub>3 ranked · [📝 all reviews](reviews/data-tools.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/data-tools/)</sub>
 
 **Crawl4AI leads with 72**, ahead of Firecrawl (68) and Jina Reader (44).
 
