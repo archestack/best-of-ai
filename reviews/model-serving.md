@@ -2,7 +2,7 @@
 
 Inference engines and model servers that expose local models over an API. Back to the [leaderboard](../README.md#-model-serving).
 
-<sub>🌐 Also on the web: [Model serving on archestack.github.io](https://archestack.github.io/best-of-ai/model-serving/), each project on its own page.</sub>
+<sub>🌐 Also on the web: [Model serving on archestack.com](https://archestack.com/best-of-ai/model-serving/), each project on its own page.</sub>
 
 <a name="localai"></a>
 ### 🥇 [LocalAI](https://github.com/mudler/localai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
@@ -149,7 +149,7 @@ exo joins devices on a network into one inference cluster, splitting a model acr
 <sub>GPU optional · Needs uv, Node.js 18+, Rust nightly, MLX, macmon (macOS) · Models: MLX, HuggingFace custom models · port 52415 · [Repo](https://github.com/exo-explore/exo) · [📖 Docs ↗](https://github.com/exo-explore/exo/blob/main/docs/api.md)</sub>
 
 <a name="llama-swap"></a>
-### #&#8288;9 [llama-swap](https://github.com/mostlygeek/llama-swap) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Oct 2026</sub>
+### #&#8288;9 [llama-swap](https://github.com/mostlygeek/llama-swap) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Oct 2026</sub>
 
 **Go proxy that hot-swaps local model servers per request.**
 
@@ -347,7 +347,7 @@ TabbyAPI is a FastAPI server that loads and serves LLMs through the ExLlamaV3 ba
 <sub>GPU required · Docker + Compose · Needs ExLlamaV3, NVIDIA container toolkit (Docker) · Models: EXL3, FP16, BF16 · port 5000 · [Repo](https://github.com/theroyallab/tabbyapi) · [📖 Docs ↗](https://theroyallab.github.io/tabbyAPI)</sub>
 
 <a name="openllm"></a>
-### #&#8288;20 [OpenLLM](https://github.com/bentoml/openllm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (44) · Freshness: recent (58) · Maintenance: weak (25) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
+### #&#8288;20 [OpenLLM](https://github.com/bentoml/openllm) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: known (44) · Freshness: recent (58) · Maintenance: patchy (33) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
 
 **One-command OpenAI-compatible endpoints for curated open LLMs.**
 

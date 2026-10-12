@@ -2,7 +2,7 @@
 
 Document Q&A, knowledge bases and enterprise search over your own files and data. Back to the [leaderboard](../README.md#-rag-and-knowledge).
 
-<sub>🌐 Also on the web: [RAG and knowledge on archestack.github.io](https://archestack.github.io/best-of-ai/rag-knowledge/), each project on its own page.</sub>
+<sub>🌐 Also on the web: [RAG and knowledge on archestack.com](https://archestack.com/best-of-ai/rag-knowledge/), each project on its own page.</sub>
 
 <a name="open-notebook"></a>
 ### 🥇 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
@@ -23,7 +23,7 @@ Open Notebook collects PDFs, audio, video, web pages and Office files into noteb
 <sub>no GPU · Docker + Compose · Needs SurrealDB · Models: OpenAI, Anthropic, Google, Mistral, Groq, DeepSeek, xAI, OpenRouter, Cohere, Ollama, LM Studio, oMLX and any OpenAI-compatible endpoint · port 8502 · README: alternative to NotebookLM · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai)</sub>
 
 <a name="lightrag"></a>
-### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Sep 2026</sub>
+### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
 
 **Graph-plus-vector RAG server with web UI and Ollama-compatible API.**
 
