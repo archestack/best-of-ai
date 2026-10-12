@@ -95,7 +95,7 @@ entries:
     audience: Developers adding long-term memory to LLM agents and coding assistants
     confidence: 0.8
     facts:
-      stars: 48711
+      stars: 48713
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-08
@@ -150,7 +150,7 @@ entries:
     audience: Self-hosters wanting one always-on agent reachable from chat apps
     confidence: 0.8
     facts:
-      stars: 47350
+      stars: 47351
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-09-30
@@ -206,7 +206,7 @@ entries:
     audience: Self-hosters running 100B+ MoE models on consumer RAM, disk and optional GPU
     confidence: 0.85
     facts:
-      stars: 41419
+      stars: 41420
       license: Apache-2.0
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -253,7 +253,7 @@ entries:
     audience: Developers stacking free LLM tiers behind one endpoint for coding agents or apps
     confidence: 0.85
     facts:
-      stars: 33696
+      stars: 33699
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -295,7 +295,7 @@ entries:
     audience: Self-hosters who want one assistant reachable from every chat app they use
     confidence: 0.8
     facts:
-      stars: 391763
+      stars: 391764
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -339,7 +339,7 @@ entries:
     audience: Developers who want an always-on agent on a VPS reachable from chat apps
     confidence: 0.8
     facts:
-      stars: 253007
+      stars: 253009
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -569,7 +569,7 @@ entries:
     audience: Tinkerers wanting an always-on agent on a Pi or home server with GPIO access
     confidence: 0.8
     facts:
-      stars: 32963
+      stars: 32964
       license: Apache-2.0
       last_commit: 2026-10-11
       last_release: 2026-09-05
@@ -804,7 +804,7 @@ entries:
     audience: Teams and homelabs wanting a multi-user front end for local models
     confidence: 0.85
     facts:
-      stars: 154566
+      stars: 154576
       license: NOASSERTION
       last_commit: 2026-10-10
       last_release: 2026-10-10
@@ -812,7 +812,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 76
+    score: 81
   - id: nextchat
     repo: chatgptnextweb/nextchat
     name: NextChat
@@ -864,7 +864,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 64
+    score: 69
   - id: lobehub
     repo: lobehub/lobehub
     name: LobeHub
@@ -899,7 +899,7 @@ entries:
     audience: Teams wanting a multi-agent workspace with an app-like UI
     confidence: 0.6
     facts:
-      stars: 83167
+      stars: 83168
       license: NOASSERTION
       last_commit: 2026-10-12
       last_release: 2026-10-07
@@ -957,9 +957,9 @@ entries:
     audience: Small teams and individuals wanting private document chat without extra services
     confidence: 0.85
     facts:
-      stars: 66973
+      stars: 66974
       license: MIT
-      last_commit: 2026-10-09
+      last_commit: 2026-10-12
       last_release: 2026-10-01
       has_docker: true
       has_compose: true
@@ -1215,7 +1215,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 57
+    score: 62
   - id: big-agi
     repo: enricoros/big-agi
     name: big-AGI
@@ -1378,7 +1378,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 51
+    score: 56
   - id: chatgpt-ui
     repo: wongsaang/chatgpt-ui
     name: ChatGPT UI
@@ -1452,7 +1452,7 @@ entries:
     audience: Teams automating business workflows that include LLM steps
     confidence: 0.8
     facts:
-      stars: 207093
+      stars: 207094
       license: NOASSERTION
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -1586,7 +1586,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 73
+    score: 78
   - id: paperclip
     repo: paperclipai/paperclip
     name: Paperclip
@@ -1618,7 +1618,7 @@ entries:
     audience: People running several coding agents who want tickets, budgets and oversight
     confidence: 0.7
     facts:
-      stars: 100745
+      stars: 100747
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-06
@@ -1713,7 +1713,7 @@ entries:
     audience: Teams wanting a hosted-style agent builder on their own servers
     confidence: 0.75
     facts:
-      stars: 29810
+      stars: 29811
       license: Apache-2.0
       last_commit: 2026-10-11
       last_release: 2026-10-11
@@ -2096,7 +2096,7 @@ entries:
     audience: Developers building graph-backed memory for agents and company knowledge
     confidence: 0.85
     facts:
-      stars: 32089
+      stars: 32090
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-07
@@ -2104,7 +2104,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 72
+    score: 78
   - id: graphiti
     repo: getzep/graphiti
     name: Graphiti
@@ -2190,7 +2190,7 @@ entries:
     audience: Product developers who want memory plus RAG behind one API
     confidence: 0.8
     facts:
-      stars: 31194
+      stars: 31195
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-08-17
@@ -2275,7 +2275,7 @@ entries:
     audience: Teams building multi-user agent memory with graph and vector stores
     confidence: 0.75
     facts:
-      stars: 11828
+      stars: 11829
       license: Apache-2.0
       last_commit: 2026-09-22
       last_release: 2026-09-23
@@ -2454,7 +2454,7 @@ entries:
     audience: Teams building document Q&A with cited answers on their own servers
     confidence: 0.8
     facts:
-      stars: 92064
+      stars: 92066
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-09-29
@@ -2543,7 +2543,7 @@ entries:
     audience: developers wanting graph-based RAG with a ready server
     confidence: 0.75
     facts:
-      stars: 40087
+      stars: 40088
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-09-02
@@ -2729,7 +2729,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 66
+    score: 71
   - id: db-gpt
     repo: eosphoros-ai/db-gpt
     name: DB-GPT
@@ -3033,7 +3033,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 53
+    score: 58
   - id: docling-serve
     repo: docling-project/docling-serve
     name: Docling Serve
@@ -3108,7 +3108,7 @@ entries:
     audience: anyone wanting local models behind a simple API
     confidence: 0.85
     facts:
-      stars: 182854
+      stars: 182855
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-11
@@ -3762,7 +3762,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 56
+    score: 61
   - id: text-embeddings-inference
     repo: huggingface/text-embeddings-inference
     name: Text Embeddings Inference
@@ -3885,7 +3885,7 @@ entries:
     audience: Developers pooling free and paid LLM providers behind one API endpoint
     confidence: 0.7
     facts:
-      stars: 75561
+      stars: 75564
       license: MIT
       last_commit: 2026-10-11
       last_release: 2026-09-30
@@ -3940,7 +3940,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 84
+    score: 89
   - id: portkey-gateway
     repo: portkey-ai/gateway
     name: Portkey Gateway
@@ -4109,7 +4109,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 59
+    score: 64
   - id: plano
     repo: katanemo/plano
     name: Plano
@@ -4276,7 +4276,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 29
+    score: 34
   - id: optillm
     repo: algorithmicsuperintelligence/optillm
     name: optillm
@@ -4318,7 +4318,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 52
+    score: 57
   - id: metamcp
     repo: metatool-ai/metamcp
     name: MetaMCP
@@ -4772,7 +4772,7 @@ entries:
     audience: Hobbyists and studios training custom voices locally
     confidence: 0.8
     facts:
-      stars: 62719
+      stars: 62720
       license: MIT
       last_commit: 2026-10-08
       last_release: 2025-06-06
@@ -4822,7 +4822,7 @@ entries:
     audience: Individuals wanting local voice cloning, TTS and dictation
     confidence: 0.8
     facts:
-      stars: 57027
+      stars: 57028
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-04-25
@@ -5281,7 +5281,7 @@ entries:
     audience: Visual professionals running diffusion models locally
     confidence: 0.85
     facts:
-      stars: 137096
+      stars: 137098
       license: GPL-3.0
       last_commit: 2026-10-11
       last_release: 2026-10-05
@@ -5336,7 +5336,7 @@ entries:
     audience: Creators automating short-form video production
     confidence: 0.75
     facts:
-      stars: 130151
+      stars: 130153
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-03
@@ -5344,7 +5344,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 68
+    score: 73
   - id: pixelle-video
     repo: ath-maas/pixelle-video
     name: Pixelle-Video
@@ -5693,7 +5693,7 @@ entries:
     audience: Teams feeding web content to RAG pipelines and agents
     confidence: 0.7
     facts:
-      stars: 190718
+      stars: 190721
       license: AGPL-3.0
       last_commit: 2026-10-12
       last_release: 2026-06-19
@@ -5792,7 +5792,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 54
+    score: 60
   - id: gpt-researcher
     repo: assafelovic/gpt-researcher
     name: GPT Researcher
@@ -5882,7 +5882,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 44
+    score: 49
   - id: local-deep-research
     repo: learningcircuit/local-deep-research
     name: Local Deep Research
@@ -5978,7 +5978,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 70
+    score: 76
   - id: maestro
     repo: murtaza-nasir/maestro
     name: MAESTRO
@@ -6964,7 +6964,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 46
+    score: 51
   - id: strix
     repo: usestrix/strix
     name: Strix
@@ -7009,7 +7009,7 @@ entries:
     audience: Developers and security teams automating app pentests locally or in CI
     confidence: 0.8
     facts:
-      stars: 68103
+      stars: 68104
       license: Apache-2.0
       last_commit: 2026-10-11
       last_release: 2026-10-05
