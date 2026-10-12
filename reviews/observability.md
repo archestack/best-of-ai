@@ -94,8 +94,26 @@ Logs trace trees for LLM calls, tool executions and agent steps via Python and T
 
 <sub>no GPU · Compose · Models: any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs ↗](https://www.comet.com/docs/opik/) · [🌐 Site ↗](https://www.comet.com/site/products/opik/)</sub>
 
+<a name="langwatch"></a>
+### #&#8288;6 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
+
+**Agent observability, simulation testing, AI gateway and governance in one.**
+
+Traces LLM and agent calls through OpenTelemetry and SDK integrations, runs simulation-based agent tests and evaluations, manages prompts, and adds an OpenAI- and Anthropic-compatible gateway with virtual keys and budgets. Also tracks coding-agent sessions (Claude Code, Codex, Copilot) with cost per pull request, and starts locally with npx @langwatch/server. For platform teams governing AI use across a company.
+
+- **+** npx @langwatch/server starts a local instance with only Node.js installed
+- **+** Coding-agent tracking: sessions and cost per PR for Claude Code, Codex, Copilot
+- **+** Gateway virtual keys with budgets for customers or employees
+- **+** Governance ingests Copilot Studio, Claude and OpenAI compliance APIs, Workato, S3 audit feeds
+- **−** Open-core: modules under platform/app/ee need a commercial license in production
+- **−** No Dockerfile or compose file at the repo root; production setup is in external docs
+- **−** README is a feature index; architecture and storage needs are not described
+- **−** Cloud signup is the first call to action; self-host gets one line
+
+<sub>no GPU · Needs Node.js · Models: OpenAI, Anthropic, Azure OpenAI, Vertex AI, Bedrock · [Repo](https://github.com/langwatch/langwatch) · [📖 Docs ↗](https://langwatch.ai/docs/introduction) · [🌐 Site ↗](https://langwatch.ai)</sub>
+
 <a name="latitude-llm"></a>
-### #&#8288;6 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Oct 2026</sub>
+### #&#8288;7 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Oct 2026</sub>
 
 **Agent observability that groups failures and dispatches coding agents to fix them.**
 
@@ -113,7 +131,7 @@ Captures traces, sessions and tool calls via a one-line SDK (TypeScript, Python)
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, ClickHouse, Redis · Models: OpenAI, Anthropic, Bedrock, Vercel AI SDK and LangChain apps, any OpenTelemetry source · [Repo](https://github.com/latitude-dev/latitude-llm) · [📖 Docs ↗](https://docs.latitude.so) · [🌐 Site ↗](https://latitude.so)</sub>
 
 <a name="future-agi"></a>
-### #&#8288;7 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: very easy (83) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: very easy (83) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
 
 **Tracing, evals, simulation, guardrails and an LLM gateway for AI agents.**
 
@@ -129,24 +147,6 @@ Future AGI is a Django and Go platform that traces agents over OpenTelemetry, sc
 - **−** Benchmark figures come from the README; independent verification is unknown
 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs PostgreSQL, ClickHouse, Redis, Temporal, Docker Compose v2.24+ · Models: OpenAI-compatible providers (100+ via gateway) · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [▶️ Demo ↗](https://www.youtube.com/watch?v=6keOTAOUUWI) · [📖 Docs ↗](https://docs.futureagi.com) · [🌐 Site ↗](https://futureagi.com)</sub>
-
-<a name="langwatch"></a>
-### #&#8288;8 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Oct 2026</sub>
-
-**Agent observability, simulation testing, AI gateway and governance in one.**
-
-Traces LLM and agent calls through OpenTelemetry and SDK integrations, runs simulation-based agent tests and evaluations, manages prompts, and adds an OpenAI- and Anthropic-compatible gateway with virtual keys and budgets. Also tracks coding-agent sessions (Claude Code, Codex, Copilot) with cost per pull request, and starts locally with npx @langwatch/server. For platform teams governing AI use across a company.
-
-- **+** npx @langwatch/server starts a local instance with only Node.js installed
-- **+** Coding-agent tracking: sessions and cost per PR for Claude Code, Codex, Copilot
-- **+** Gateway virtual keys with budgets for customers or employees
-- **+** Governance ingests Copilot Studio, Claude and OpenAI compliance APIs, Workato, S3 audit feeds
-- **−** Open-core: modules under platform/app/ee need a commercial license in production
-- **−** No Dockerfile or compose file at the repo root; production setup is in external docs
-- **−** README is a feature index; architecture and storage needs are not described
-- **−** Cloud signup is the first call to action; self-host gets one line
-
-<sub>no GPU · Needs Node.js · Models: OpenAI, Anthropic, Azure OpenAI, Vertex AI, Bedrock · [Repo](https://github.com/langwatch/langwatch) · [📖 Docs ↗](https://langwatch.ai/docs/introduction) · [🌐 Site ↗](https://langwatch.ai)</sub>
 
 <a name="lmnr"></a>
 ### #&#8288;9 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Oct 2026</sub>
