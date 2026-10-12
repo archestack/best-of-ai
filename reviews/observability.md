@@ -149,7 +149,7 @@ Future AGI is a Django and Go platform that traces agents over OpenTelemetry, sc
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs PostgreSQL, ClickHouse, Redis, Temporal, Docker Compose v2.24+ · Models: OpenAI-compatible providers (100+ via gateway) · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [▶️ Demo ↗](https://www.youtube.com/watch?v=6keOTAOUUWI) · [📖 Docs ↗](https://docs.futureagi.com) · [🌐 Site ↗](https://futureagi.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/future-agi/)</sub>
 
 <a name="lmnr"></a>
-### #&#8288;9 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;9 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Oct 2026</sub>
 
 **Rust-based agent tracing with SQL queries, signals and evals.**
 
