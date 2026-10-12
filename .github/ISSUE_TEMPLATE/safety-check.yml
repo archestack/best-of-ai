@@ -1,0 +1,39 @@
+name: Safety check is wrong
+description: A result in the Safety checks section of a project page is wrong.
+title: "Safety check: "
+labels: [safety-check]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project (name or repository URL)
+    validations:
+      required: true
+  - type: dropdown
+    id: check
+    attributes:
+      label: Which check?
+      options:
+        - 1. Package points back to this repo
+        - 2. Listed in the official MCP Registry under the owner's name
+        - 3. Latest release has build provenance
+        - 4. No advisories at CVSS 7 or higher
+        - 5. No install-time scripts
+        - 6. No hardcoded keys or tokens
+        - 7. No binaries or archives in agent or server folders
+        - 8. No dangerous CI workflow
+        - 9. No download-and-run lines
+        - 10. HTTPS endpoints, no credentials in shipped config
+        - 11. No hidden Unicode in agent-facing text
+        - 12. No override, concealment or secret-file instructions
+        - 13. A private way to report a vulnerability
+        - 14. Maintained
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What is wrong, with a link that shows it
+      description: For example the file line, the release page or the setting that shows the right result. A fix you pushed to the repo shows up at the next weekly read without a report.
+    validations:
+      required: true
