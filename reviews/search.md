@@ -23,7 +23,7 @@ Morphic runs web searches and returns cited answers, rendering inline components
 <sub>Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Supabase Auth (optional) · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic)</sub>
 
 <a name="local-deep-research"></a>
-### 🥈 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
+### 🥈 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
 
 **Agentic research assistant with local LLMs, SearXNG and encrypted libraries.**
 

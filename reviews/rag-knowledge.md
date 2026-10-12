@@ -4,26 +4,8 @@ Document Q&A, knowledge bases and enterprise search over your own files and data
 
 <sub>🌐 Also on the web: [RAG and knowledge on archestack.github.io](https://archestack.github.io/best-of-ai/rag-knowledge/), each project on its own page.</sub>
 
-<a name="lightrag"></a>
-### 🥇 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Sep 2026</sub>
-
-**Graph-plus-vector RAG server with web UI and Ollama-compatible API.**
-
-LightRAG indexes documents into a knowledge graph plus vector store and queries both layers, as a lighter alternative to Microsoft GraphRAG. The server package ships a REST API, a web UI for inserting and visualizing the graph, and Ollama-compatible /api routes for chat frontends. Parsing runs via MinerU, Docling or a native engine; production storage goes to PostgreSQL, Neo4j, MongoDB, Milvus or OpenSearch.
-
-- **+** Dual-level graph and vector retrieval with fewer LLM calls than community-report GraphRAG
-- **+** Incremental updates and document deletion with graph regeneration from the LLM cache
-- **+** Three parsing engines and four chunking strategies, including paragraph-semantic
-- **+** Separate LLM settings per role: extract, query, keywords and VLM
-- **−** Default KV, vector and graph stores are in-memory with file persistence, not for production
-- **−** Server binds 0.0.0.0 with every endpoint public until auth is configured
-- **−** Ollama-compatible /api routes stay open even with auth unless WHITELIST_PATHS is set
-- **−** docx smart headings and SVG rendering need extra spaCy models and libcairo
-
-<sub>no GPU · Docker + Compose · Needs PostgreSQL (recommended for production), Neo4j (optional), MongoDB (optional), Milvus (optional), OpenSearch (optional) · Models: LLM and embedding providers configured in .env, tested with open models such as Qwen3-30B-A3B · [Repo](https://github.com/hkuds/lightrag)</sub>
-
 <a name="open-notebook"></a>
-### 🥈 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
+### 🥇 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
 
 **Self-hosted NotebookLM alternative with podcasts and 20+ model providers.**
 
@@ -39,6 +21,24 @@ Open Notebook collects PDFs, audio, video, web pages and Office files into noteb
 - **−** UI in 14 languages but provider setup is manual per model type
 
 <sub>no GPU · Docker + Compose · Needs SurrealDB · Models: OpenAI, Anthropic, Google, Mistral, Groq, DeepSeek, xAI, OpenRouter, Cohere, Ollama, LM Studio, oMLX and any OpenAI-compatible endpoint · port 8502 · README: alternative to NotebookLM · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai)</sub>
+
+<a name="lightrag"></a>
+### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Sep 2026</sub>
+
+**Graph-plus-vector RAG server with web UI and Ollama-compatible API.**
+
+LightRAG indexes documents into a knowledge graph plus vector store and queries both layers, as a lighter alternative to Microsoft GraphRAG. The server package ships a REST API, a web UI for inserting and visualizing the graph, and Ollama-compatible /api routes for chat frontends. Parsing runs via MinerU, Docling or a native engine; production storage goes to PostgreSQL, Neo4j, MongoDB, Milvus or OpenSearch.
+
+- **+** Dual-level graph and vector retrieval with fewer LLM calls than community-report GraphRAG
+- **+** Incremental updates and document deletion with graph regeneration from the LLM cache
+- **+** Three parsing engines and four chunking strategies, including paragraph-semantic
+- **+** Separate LLM settings per role: extract, query, keywords and VLM
+- **−** Default KV, vector and graph stores are in-memory with file persistence, not for production
+- **−** Server binds 0.0.0.0 with every endpoint public until auth is configured
+- **−** Ollama-compatible /api routes stay open even with auth unless WHITELIST_PATHS is set
+- **−** docx smart headings and SVG rendering need extra spaCy models and libcairo
+
+<sub>no GPU · Docker + Compose · Needs PostgreSQL (recommended for production), Neo4j (optional), MongoDB (optional), Milvus (optional), OpenSearch (optional) · Models: LLM and embedding providers configured in .env, tested with open models such as Qwen3-30B-A3B · [Repo](https://github.com/hkuds/lightrag)</sub>
 
 <a name="ragflow"></a>
 ### 🥉 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · Apache-2.0 · Oct 2026</sub>

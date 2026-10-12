@@ -59,7 +59,7 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 <sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com)</sub>
 
 <a name="big-agi"></a>
-### #&#8288;4 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;4 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (70) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Multi-model chat workspace with Beam side-by-side model comparison.**
 
@@ -131,7 +131,7 @@ Onyx indexes content and permissions from 50+ apps into a hybrid vector and keyw
 <sub>RAM ≥ 1 GB · no GPU · Compose · Needs Redis (standard mode), MinIO (standard mode) · Models: Ollama, LiteLLM, vLLM, Anthropic, OpenAI · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/signup) · [📖 Docs ↗](https://docs.onyx.app/) · [🌐 Site ↗](https://www.onyx.app/)</sub>
 
 <a name="nextchat"></a>
-### #&#8288;8 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (91) · Freshness: recent (78) · Maintenance: weak (29) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### #&#8288;8 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (91) · Freshness: recent (78) · Maintenance: weak (25) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Lightweight Next.js chat client for OpenAI, Claude, Gemini and DeepSeek APIs.**
 
@@ -149,7 +149,7 @@ NextChat is a Node.js web client (Docker image yidadaa/chatgpt-next-web on port 
 <sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;9 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (62) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;9 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (62) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · AGPL-3.0 · Sep 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 
