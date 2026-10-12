@@ -329,7 +329,7 @@ TEI is a Rust server from Hugging Face for embedding, reranker and sequence-clas
 <sub>GPU optional · Docker · Models: Qwen3-Embedding, gte-Qwen2, multilingual-e5, embeddinggemma, arctic-embed, nomic-embed, ModernBERT, jina-embeddings-v2, bge-reranker, gte rerankers · port 3000 · [Repo](https://github.com/huggingface/text-embeddings-inference) · [📖 Docs ↗](https://huggingface.github.io/text-embeddings-inference) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/text-embeddings-inference/)</sub>
 
 <a name="tabbyapi"></a>
-### #&#8288;19 [TabbyAPI](https://github.com/theroyallab/tabbyapi) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (57) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;19 [TabbyAPI](https://github.com/theroyallab/tabbyapi) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (58) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Oct 2026</sub>
 
 **OpenAI-compatible API server for running ExLlamaV3 models.**
 
