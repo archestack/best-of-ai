@@ -149,7 +149,7 @@ Traces LLM and agent calls through OpenTelemetry and SDK integrations, runs simu
 <sub>no GPU · Needs Node.js · Models: OpenAI, Anthropic, Azure OpenAI, Vertex AI, Bedrock · [Repo](https://github.com/langwatch/langwatch) · [📖 Docs ↗](https://langwatch.ai/docs/introduction) · [🌐 Site ↗](https://langwatch.ai)</sub>
 
 <a name="lmnr"></a>
-### #&#8288;9 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;9 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Oct 2026</sub>
 
 **Rust-based agent tracing with SQL queries, signals and evals.**
 
@@ -185,7 +185,7 @@ OpenLIT collects OpenTelemetry traces and metrics from LLM apps and agents throu
 <sub>GPU optional · Compose · Needs ClickHouse · Models: OpenAI, Anthropic, Ollama, vLLM, Amazon Bedrock · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/latest/overview) · [🌐 Site ↗](https://openlit.io)</sub>
 
 <a name="agenta"></a>
-### #&#8288;11 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Oct 2026</sub>
+### #&#8288;11 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Oct 2026</sub>
 
 **Team workspace for building chat-driven agents that run in Slack and WhatsApp.**
 

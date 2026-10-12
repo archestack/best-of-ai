@@ -23,7 +23,7 @@ Async Playwright crawler (pip install crawl4ai) that renders pages in Chromium, 
 <sub>no GPU · Docker + Compose · Needs Playwright Chromium (installed by crawl4ai-setup) · Models: any LiteLLM provider for LLM extraction (OpenAI, Ollama and others) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com/)</sub>
 
 <a name="firecrawl"></a>
-### 🥈 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: patchy (45) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 190k · AGPL-3.0 · Oct 2026</sub>
+### 🥈 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: patchy (45) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 191k · AGPL-3.0 · Oct 2026</sub>
 
 **Web scraping and crawling API that returns LLM-ready markdown.**
 
@@ -41,7 +41,7 @@ API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with 
 <sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev)</sub>
 
 <a name="jina-reader"></a>
-### 🥉 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (20) · Freshness: active (81) · Maintenance: weak (15) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### 🥉 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (20) · Freshness: active (81) · Maintenance: weak (14) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
