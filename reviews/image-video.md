@@ -5,7 +5,7 @@ Generation UIs and pipelines for images and video, usually around diffusion mode
 <sub>🌐 Also on the web: [Image and video on archestack.com](https://archestack.com/best-of-ai/image-video/), each project on its own page.</sub>
 
 <a name="comfyui"></a>
-### 🥇 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 137k · GPL-3.0 · Oct 2026</sub>
+### 🥇 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 137k · GPL-3.0 · Oct 2026</sub>
 
 **Node-graph engine for diffusion image, video, audio and 3D models.**
 
@@ -25,23 +25,23 @@ Builds generation pipelines as a visual node graph and runs them locally for ima
 <a name="moneyprinterturbo"></a>
 ### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 130k · MIT · Oct 2026</sub>
 
-**Generates short videos from a topic with script, footage, voice and subtitles.**
+**Turns a topic into a short video with script, footage, voiceover and subtitles.**
 
-Takes a topic or keywords, writes a script with an LLM (OpenAI, Claude, Gemini, DeepSeek, Qwen, Ollama), pulls stock clips from Pexels, Pixabay or Coverr or generates them via video APIs, adds TTS narration (Edge TTS needs no key; Azure, ElevenLabs, Kokoro), subtitles and music, then renders 9:16, 16:9 or 1:1 videos. Usable through a WebUI, REST API, CLI or an agent skill. For creators automating short-form content.
+MoneyPrinterTurbo takes a topic or keywords and produces a finished short video. An LLM writes the script, footage comes from Pexels, Pixabay, Coverr, local files or text-to-video APIs, and TTS, subtitles and background music are added before the final render. It offers a WebUI, HTTP API, CLI and an agent skill, and outputs 9:16, 16:9 or 1:1.
 
-- **+** Edge TTS works without any API key; many other TTS and LLM providers supported
-- **+** Four entry points: WebUI, API, CLI and an agent skill; batch generation and task history
-- **+** Runs on CPU; minimum spec is 4 cores and 4 GB RAM
-- **+** One-click publishing to TikTok, Instagram and YouTube Shorts
-- **−** README is Chinese first; the English version is a separate file
-- **−** Default flow needs external LLM and stock-footage API keys
-- **−** README carries heavy sponsor advertising and affiliate links
-- **−** Local faster-whisper transcription and batch runs want a 4 GB+ VRAM GPU
+- **+** Covers the whole pipeline: script, footage, voiceover, subtitles, music and render
+- **+** Many LLM providers, including OpenAI, Claude, Gemini, DeepSeek, and Ollama for local models
+- **+** Edge TTS needs no API key; Pexels and Pixabay stock footage are free
+- **+** WebUI, API, CLI and batch generation; Docker and compose files included
+- **−** Most LLMs and stock sources need API keys; AI video generation uses paid services
+- **−** Footage relevance depends on keyword matching against stock libraries
+- **−** README is dominated by sponsor and promotional sections
+- **−** Web port and Docker setup details are not visible in the provided README
 
-<sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs LLM API (OpenAI-compatible) or Ollama, Stock footage API (Pexels, Pixabay, Coverr) or a video generation API · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Qwen (DashScope) · [Repo](https://github.com/harry0703/moneyprinterturbo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moneyprinterturbo/)</sub>
+<sub>RAM ≥ 4 GB · GPU optional · Docker + Compose · Needs Python 3.11+, LLM API key or Ollama, Pexels/Pixabay/Coverr API keys, Edge TTS or other TTS service · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Qwen · [Repo](https://github.com/harry0703/moneyprinterturbo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moneyprinterturbo/)</sub>
 
 <a name="invokeai"></a>
-### 🥉 [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Canvas-first web UI for Stable Diffusion and Flux image generation.**
 
@@ -59,7 +59,7 @@ Local web server and React UI for image generation with a Unified Canvas (inpain
 <sub>Docker + Compose · Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/invokeai) · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/invokeai/)</sub>
 
 <a name="ai-toolkit"></a>
-### #&#8288;4 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (52) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
+### #&#8288;4 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (52) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
 
 **Fine-tuning suite for image, video and audio diffusion models, with GUI and CLI.**
 
@@ -79,23 +79,23 @@ AI Toolkit trains LoRA and LoKr adapters for diffusion models, covering FLUX.1, 
 <a name="biniou"></a>
 ### #&#8288;5 [biniou](https://github.com/woolverine94/biniou) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (67) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
 
-**Chat, image, audio, video and 3D generation in one CPU-friendly web UI.**
+**Gradio web UI for local text, image, audio, video and 3D generation.**
 
-Gradio web UI bundling 30+ modules: llama.cpp chat and LLaVA with GGUF models, Whisper, NLLB translation, Stable Diffusion 1.5 to 3.5, SDXL, Flux, PixArt, ControlNet, inpainting, MusicGen, Bark, AnimateDiff, Stable Video Diffusion and Shap-E. Runs on CPU from 8 GB RAM, with optional CUDA or experimental ROCm, and works offline once models are downloaded. For hobbyists wanting one install on modest hardware.
+biniou is a self-hosted Gradio web UI that bundles many generative modules: a llama-cpp chatbot for GGUF models, Whisper speech-to-text, Stable Diffusion and Flux image generation, MusicGen audio, video and Shap-E 3D. It runs on CPU from 8GB RAM, with optional CUDA or experimental ROCm, and can work offline once models are downloaded. Installers exist for several Linux distributions and Windows, plus a Dockerfile.
 
-- **+** Runs on CPU-only machines from 8 GB RAM; GPU optional
-- **+** One-click installers for Debian, RHEL, OpenSUSE, Arch, Windows; CPU and CUDA Docker images
-- **+** Modules chain: send one module's output as another's input
-- **+** Weekly updates adding GGUF chat models and LoRAs
-- **−** Requires Python 3.10 or 3.11 exactly; AMD64 CPUs only
-- **−** About 20 GB install without models, around 200 GB with all defaults
-- **−** Many modules need 16 GB+ RAM (Kandinsky, AnimateDiff, SVD, outpaint)
-- **−** GPL-3.0 license; macOS Intel support is experimental
+- **+** Covers text, image, audio, video and 3D generation in one UI
+- **+** Runs on CPU only, from 8GB RAM; CUDA and experimental ROCm optional
+- **+** One-click installers for several Linux distros and Windows; Dockerfile provided
+- **+** Modules can pass outputs to each other; generation settings saved as metadata
+- **−** AMD64 only; macOS support is experimental and untested
+- **−** Many modules need 16GB+ RAM; about 200GB of disk with default models
+- **−** Python 3.10 or 3.11 required; Windows install adds Visual Studio Build tools
+- **−** Chatbot has no stated agents, tools or document chat; the README lists only chat and multimodal
 
-<sub>RAM ≥ 8 GB · GPU optional · Docker · Needs ffmpeg, git, gcc, perl, openssl · Models: GGUF LLMs via llama.cpp, LLaVA GGUF, Whisper, NLLB-200, SD 1.5/2.1/Turbo · [Repo](https://github.com/woolverine94/biniou) · [📖 Docs ↗](https://github.com/Woolverine94/biniou/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biniou/)</sub>
+<sub>RAM ≥ 8 GB · GPU optional · Docker · Needs Python 3.10/3.11, git, ffmpeg, openssl, Hugging Face model downloads · Models: GGUF (llama-cpp), Stable Diffusion 1.5/2.1/XL/3.5, Flux, LoRA, safetensors · [Repo](https://github.com/woolverine94/biniou) · [📖 Docs ↗](https://github.com/Woolverine94/biniou/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biniou/)</sub>
 
 <a name="kohya-ss"></a>
-### #&#8288;6 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (42) · Freshness: active (99) · Maintenance: weak (6) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;6 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (39) · Freshness: active (99) · Maintenance: weak (6) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
 
 **Gradio GUI and CLI for Kohya diffusion training scripts.**
 
@@ -113,7 +113,7 @@ Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for Lo
 <sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kohya-ss/)</sub>
 
 <a name="pixelle-video"></a>
-### #&#8288;7 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (65) · Freshness: active (86) · Maintenance: weak (3) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;7 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (61) · Freshness: active (86) · Maintenance: weak (3) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Jun 2026</sub>
 
 **Topic-to-short-video pipeline built on ComfyUI workflows and TTS.**
 

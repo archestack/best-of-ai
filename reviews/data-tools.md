@@ -5,25 +5,43 @@ Tools that turn web pages, PDFs and documents into clean text or structured data
 <sub>🌐 Also on the web: [Data and scraping for AI on archestack.com](https://archestack.com/best-of-ai/data-tools/), each project on its own page.</sub>
 
 <a name="crawl4ai"></a>
-### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
 
-**Python crawler that turns pages into LLM-ready markdown, with a Docker API.**
+**Python web crawler that converts pages to LLM-ready Markdown and JSON.**
 
-Async Playwright crawler (pip install crawl4ai) that renders pages in Chromium, Firefox or WebKit and emits clean or filtered markdown, with CSS, XPath and regex extraction needing no LLM, or LLM extraction via any LiteLLM provider. Deep crawling (BFS, DFS, priority-scored) and adaptive crawling are built in. A Docker server on port 11235 exposes /md, /html, /crawl, /screenshot, /pdf and MCP behind an API token.
+Crawl4AI is a Python library, CLI (`crwl`) and Docker REST server that drives Playwright browsers (Chromium, Firefox, WebKit) to turn web pages into clean or filtered Markdown. It extracts structured data with CSS/XPath/regex schemas without an LLM, or through any LiteLLM-supported provider into a typed JSON schema. It also supports deep crawls, adaptive crawling and batch fetching. A hosted Crawl4AI Cloud with search and answer endpoints is sold separately.
 
-- **+** Structured extraction with CSS, XPath or regex schemas needs no LLM or API key
-- **+** Docker server with REST, streaming crawl, MCP, dashboard and playground; amd64 and arm64
-- **+** Deep crawl strategies with crash recovery via resume_state
-- **+** Persistent browser profiles, CDP remote browsers and an undetected-browser adapter
-- **−** Apache-2.0 but requires attribution (badge or text) in your project
-- **−** Docker server answers only inside the container until CRAWL4AI_API_TOKEN is set
-- **−** Web search and answer endpoints exist only in the paid cloud
-- **−** Runs full browsers; the docker run example allocates 1 GB shared memory
+- **+** Schema-based CSS/XPath extraction runs without any LLM call
+- **+** Fit Markdown filters (pruning, BM25, LLM) strip menus and boilerplate
+- **+** Persistent profiles, CDP remote browsers, rotating proxies and stealth mode
+- **+** Docker server exposes /md, /crawl, /screenshot, /pdf, plus MCP, dashboard and playground
+- **−** Search, SERP and answer endpoints exist only in the paid hosted cloud
+- **−** Bot-wall handling when self-hosted depends on your own proxies and settings
+- **−** Needs a Playwright browser install via crawl4ai-setup
+- **−** README asks for attribution when you use it
 
-<sub>no GPU · Docker + Compose · Needs Playwright Chromium (installed by crawl4ai-setup) · Models: any LiteLLM provider for LLM extraction (OpenAI, Ollama and others) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crawl4ai/)</sub>
+<sub>no GPU · Docker + Compose · Needs Playwright browsers (Chromium), Docker (optional), LLM provider API key (optional) · Models: LiteLLM providers, OpenAI, Ollama · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com) · [🌐 Site ↗](https://crawl4ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crawl4ai/)</sub>
+
+<a name="docling"></a>
+### 🥈 [docling](https://github.com/docling-project/docling) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · MIT · Oct 2026</sub>
+
+**Python library and CLI that converts PDFs, Office files and more into structured text.**
+
+Docling parses PDF, DOCX, PPTX, XLSX, HTML, EPUB, images, audio and other formats into a unified DoclingDocument, with PDF layout, reading order, table structure, code and formula recognition. It exports to Markdown, HTML, DocLang, DocTags and lossless JSON. It runs locally via a CLI or Python API, with OCR, VLM support (GraniteDocling), an MCP server and a docling-serve API server.
+
+- **+** Wide input coverage: PDF, Office, ODF, EPUB, email, Apple iWork, XBRL, audio, video
+- **+** Local execution suits sensitive data and air-gapped environments
+- **+** Integrations with LangChain, LlamaIndex, Crew AI and Haystack
+- **+** Ships a CLI, Python API, MCP server and docling-serve HTTP server
+- **−** Hardware requirements (RAM, GPU) are not stated in the README
+- **−** Individual models carry their own licenses, separate from the MIT codebase
+- **−** Metadata extraction and chemistry understanding are listed as coming soon
+- **−** Requires Python 3.10 or higher; 3.9 support was dropped in 2.70.0
+
+<sub>GPU optional · Docker · Models: GraniteDocling, VLMs, OCR engines, ASR models · [Repo](https://github.com/docling-project/docling) · [📖 Docs ↗](https://docling-project.github.io/docling/) · [🌐 Site ↗](https://docling-project.github.io/docling/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling/)</sub>
 
 <a name="firecrawl"></a>
-### 🥈 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: patchy (45) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 191k · AGPL-3.0 · Oct 2026</sub>
+### 🥉 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: patchy (45) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 191k · AGPL-3.0 · Oct 2026</sub>
 
 **Web scraping and crawling API that returns LLM-ready markdown.**
 
@@ -40,8 +58,26 @@ API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with 
 
 <sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
 
+<a name="paddleocr"></a>
+### #&#8288;4 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: weak (29) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 91k · Apache-2.0 · Sep 2026</sub>
+
+**OCR and document parsing toolkit that outputs Markdown and JSON from PDFs and images.**
+
+PaddleOCR runs text recognition (PP-OCRv6) and document parsing (PaddleOCR-VL 0.9B VLM, PP-StructureV3) on PDFs and images, producing Markdown or JSON for RAG pipelines. It runs on CPU, NVIDIA GPU, Kunlunxin XPU and other accelerators, with ONNX, OpenVINO, TensorRT and Transformers backends. Models are on HuggingFace and ModelScope.
+
+- **+** Three PP-OCRv6 tiers (1.5M, 7.7M, 34.5M params) cover edge to server
+- **+** One PP-OCRv6 model handles 50 languages; PaddleOCR-VL covers 111
+- **+** Outputs Markdown, JSON and DOCX; PP-StructureV3 returns table cell and text coordinates
+- **+** Multiple inference backends: Paddle, Transformers, ONNX Runtime, OpenVINO, TensorRT, plus C++ deployment
+- **−** Depends on the PaddlePaddle framework; GPU installs need matching CUDA builds
+- **−** Benchmark claims such as 96.3% on OmniDocBench are the authors' own
+- **−** Python support listed as 3.8 to 3.12 only
+- **−** Several pipelines and models, so choosing between PP-OCR, VL and StructureV3 takes reading
+
+<sub>GPU optional · Needs PaddlePaddle · Models: PP-OCRv6, PaddleOCR-VL-1.6, PP-StructureV3, HPD-Parsing, ONNX · [Repo](https://github.com/paddlepaddle/paddleocr) · [▶️ Demo ↗](https://www.paddleocr.com) · [📖 Docs ↗](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/pipeline_overview.html) · [🌐 Site ↗](https://www.paddleocr.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paddleocr/)</sub>
+
 <a name="jina-reader"></a>
-### 🥉 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (20) · Freshness: active (80) · Maintenance: weak (14) · Easy to run: easy (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;5 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (17) · Freshness: active (80) · Maintenance: weak (14) · Easy to run: easy (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
