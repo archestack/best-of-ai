@@ -59,7 +59,7 @@ Runs multi-step research across the web, academic engines and your own documents
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, SQLCipher (bundled wheels) · Models: Ollama models (e.g. gpt-oss:20b, Qwen3.6-27B), any OpenAI-compatible endpoint · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-research/)</sub>
 
 <a name="vane"></a>
-### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
+### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (86) · Freshness: active (99) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
 
 **Self-hosted answer engine with cited sources over SearXNG.**
 
