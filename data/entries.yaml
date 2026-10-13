@@ -39,7 +39,7 @@ entries:
     audience: Self-hosters pooling several Macs to run large models
     confidence: 0.85
     facts:
-      stars: 47847
+      stars: 47863
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-04-23
@@ -47,7 +47,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 66
+    score: 65
   - id: hindsight
     repo: vectorize-io/hindsight
     name: hindsight
@@ -95,15 +95,15 @@ entries:
     audience: Developers adding long-term memory to LLM agents and coding assistants
     confidence: 0.8
     facts:
-      stars: 48907
+      stars: 49060
       license: MIT
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-08
       has_docker: true
       has_compose: false
       is_template: false
       language: Python
-    score: 79
+    score: 78
   - id: cowagent
     repo: zhayujie/cowagent
     name: cowagent
@@ -150,7 +150,7 @@ entries:
     audience: Self-hosters wanting one always-on agent reachable from chat apps
     confidence: 0.8
     facts:
-      stars: 47364
+      stars: 47378
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-09-30
@@ -158,7 +158,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 73
+    score: 72
   - id: colibri
     repo: justvugg/colibri
     name: colibri
@@ -206,7 +206,7 @@ entries:
     audience: Self-hosters running 100B+ MoE models on consumer RAM, disk and optional GPU
     confidence: 0.85
     facts:
-      stars: 41561
+      stars: 41648
       license: Apache-2.0
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -214,7 +214,7 @@ entries:
       has_compose: true
       is_template: false
       language: C
-    score: 72
+    score: 71
   - id: freellmapi
     repo: tashfeenahmed/freellmapi
     name: freellmapi
@@ -253,7 +253,7 @@ entries:
     audience: Developers stacking free LLM tiers behind one endpoint for coding agents or apps
     confidence: 0.85
     facts:
-      stars: 34206
+      stars: 34433
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -261,7 +261,1198 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 78
+    score: 77
+  - id: tensorflow
+    repo: tensorflow/tensorflow
+    name: tensorflow
+    status: listed
+    tagline: Tensor and neural network framework with Python and C++ APIs
+    summary: TensorFlow is a machine learning framework for building, training and deploying models, with stable Python and C++ APIs and non-guaranteed APIs for other languages. It installs via pip, with CUDA GPU support on Ubuntu and Windows and a smaller CPU-only package. Related tooling includes TensorBoard and LiteRT for Android.
+    categories:
+      - ml-frameworks
+    strengths:
+      - Stable Python and C++ APIs
+      - CUDA GPU support via pip on Ubuntu and Windows; separate tensorflow-cpu package
+      - Device plugins for DirectX and macOS Metal
+      - "Surrounding tooling: TensorBoard, LiteRT for Android, official models and tutorials"
+    weaknesses:
+      - APIs for languages other than Python and C++ have no backward compatibility guarantee
+      - Built-in GPU support is CUDA only; other devices need separate plugins
+      - Linux XLA build artifacts listed as TBA
+      - RAM and VRAM requirements not stated in the README
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python
+        - CUDA (for GPU)
+      model_support:
+        - LiteRT (Android)
+      web_port: null
+    links:
+      demo: null
+      website: https://www.tensorflow.org
+      docs: https://www.tensorflow.org/api_docs/
+    audience: ML engineers and researchers building and deploying neural networks
+    confidence: 0.9
+    facts:
+      stars: 200905
+      license: Apache-2.0
+      last_commit: 2026-10-13
+      last_release: 2026-03-06
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: C++
+    score: 80
+  - id: transformers
+    repo: huggingface/transformers
+    name: transformers
+    status: listed
+    tagline: Model-definition library for text, vision, audio and multimodal models
+    summary: Transformers is a Python library that defines model architectures for text, vision, audio, video and multimodal models and loads pretrained checkpoints from the Hugging Face Hub. It offers a Pipeline API for inference, a PyTorch-based training API, and `transformers serve` and `transformers chat` commands. Other training frameworks and inference engines reuse its model definitions.
+    categories:
+      - ml-frameworks
+      - models
+    strengths:
+      - Hundreds of architectures and 1M+ Hub checkpoints behind one unified API
+      - Pipeline API covers text, audio, vision and multimodal tasks in a few lines
+      - Definitions are reused by Axolotl, Unsloth, DeepSpeed, vLLM, SGLang, TGI and others
+      - Model files are deliberately flat and usable independently of the library
+    weaknesses:
+      - Not a modular toolbox of neural net building blocks, per the README
+      - Training API targets Transformers' PyTorch models; generic loops should use Accelerate
+      - Example scripts are only examples and may need adapting
+      - Requires Python 3.10+ and PyTorch 2.6+; RAM and GPU needs are not stated
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python 3.10+
+        - PyTorch 2.6+
+        - Hugging Face Hub
+      model_support:
+        - PyTorch
+        - Hugging Face Hub checkpoints
+        - text
+        - vision
+        - audio
+        - video
+        - multimodal
+      web_port: null
+    links:
+      demo: null
+      website: https://huggingface.co/
+      docs: https://huggingface.co/docs/transformers/index
+    audience: Python developers and researchers running or training pretrained models
+    confidence: 0.85
+    facts:
+      stars: 167642
+      license: Apache-2.0
+      last_commit: 2026-10-13
+      last_release: 2026-10-06
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 92
+  - id: langchain
+    repo: langchain-ai/langchain
+    name: langchain
+    status: listed
+    tagline: Python framework for building LLM agents and apps from interoperable components
+    summary: LangChain is a Python library that gives a standard interface to chat models, embeddings, vector stores and tools, so providers can be swapped with little code change. Models load through init_chat_model with a provider:model string. For lower-level agent orchestration it points to LangGraph, and for tracing and evals to LangSmith.
+    categories:
+      - agent-frameworks
+    strengths:
+      - Common interface across model providers, embeddings and vector stores
+      - Large integrations library covering tools, retrievers and vector stores
+      - "Companions: LangGraph for orchestration, Deep Agents for planning and subagents"
+      - MIT license; JS/TS counterpart available as LangChain.js
+    weaknesses:
+      - Observability, evals and managed deployment sit in LangSmith, a separate product
+      - Controllable stateful agent workflows need LangGraph, not core LangChain
+      - README gives no hardware requirements or list of supported providers
+      - Abstraction layer is another API to learn on top of provider SDKs
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Model provider API or other model backend
+      model_support:
+        - OpenAI (README example)
+        - Other providers via integrations
+      web_port: null
+    links:
+      demo: null
+      website: https://www.langchain.com/langsmith
+      docs: https://docs.langchain.com/oss/python/langchain/overview
+    audience: Python developers building LLM agents and applications in code
+    confidence: 0.85
+    facts:
+      stars: 147756
+      license: MIT
+      last_commit: 2026-10-12
+      last_release: 2026-10-12
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 88
+  - id: generative-ai-for-beginners
+    repo: microsoft/generative-ai-for-beginners
+    name: generative-ai-for-beginners
+    status: listed
+    tagline: 21-lesson course on building generative AI apps in Python and TypeScript
+    summary: A Microsoft Cloud Advocates course of 21 lessons, each a README with a short video and code samples, split into "Learn" concept lessons and "Build" lessons. Topics include prompt engineering, text and chat apps, embeddings search, image generation, function calling, RAG, agents, fine-tuning, and small, Mistral and Meta models. Code targets Azure OpenAI, OpenAI API, Microsoft Foundry Models or Foundry Local.
+    categories:
+      - learning
+    strengths:
+      - Build lessons ship code in both Python and TypeScript where possible
+      - Covers RAG, function calling, agents, fine-tuning and security in one sequence
+      - Lessons are independent, so you can start at any number
+      - MIT license; translations into 50+ languages
+    weaknesses:
+      - Samples assume Azure OpenAI, OpenAI API or Foundry access, which may need paid accounts
+      - Several lessons list video as coming soon
+      - Cloning includes 50+ translations, so sparse checkout is needed for a small download
+      - GitHub Models lessons are tied to a service retiring end of July 2026
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Azure OpenAI Service
+        - OpenAI API
+        - Microsoft Foundry Models
+        - Foundry Local
+        - GitHub account
+      model_support:
+        - Azure OpenAI
+        - OpenAI
+        - Microsoft Foundry Models
+        - Foundry Local
+        - Hugging Face open models
+        - Mistral
+        - Meta
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Developers new to building LLM apps who know basic Python or TypeScript
+    confidence: 0.9
+    facts:
+      stars: 121293
+      license: MIT
+      last_commit: 2026-10-12
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Jupyter Notebook
+    score: 80
+  - id: browser-use
+    repo: browser-use/browser-use
+    name: browser-use
+    status: listed
+    tagline: Python library that lets an LLM agent control a web browser
+    summary: Browser Use runs an LLM-driven agent that opens a browser, reads pages and completes tasks such as searching, filling forms and booking slots. It is used as a Python library (3.11+), as a CLI skill for agents like Claude Code, or through a hosted cloud API. It works with OpenAI, Anthropic, Google, Ollama and its own BU2 model, on local or cloud browsers.
+    categories:
+      - agent-frameworks
+    strengths:
+      - Works with a local Chrome profile, a cloud browser, or a remote browser over CDP
+      - Custom tools register with a decorator; system prompt can be extended or overridden
+      - Supports OpenAI, Anthropic and Google wrappers, plus local models via Ollama
+      - Ships a CLI skill so existing coding agents can drive a browser
+    weaknesses:
+      - README recommends BU2, which needs a paid Browser Use API key
+      - CAPTCHA and stealth handling rely on the paid cloud browser, with no guarantee
+      - Profile sync copies cookies only, not local storage, IndexedDB or extensions
+      - Hardware needs for local models are not stated in the README
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python >= 3.11
+        - Chromium-based browser
+        - LLM provider API key or Ollama
+        - Browser Use API key (optional)
+      model_support:
+        - OpenAI
+        - Anthropic
+        - Google
+        - Ollama
+        - BU2 (ChatBrowserUse)
+      web_port: null
+    links:
+      demo: https://browser-use.com/showcase
+      website: https://browser-use.com
+      docs: https://docs.browser-use.com
+    audience: Developers building browser-automating agents in Python
+    confidence: 0.85
+    facts:
+      stars: 117838
+      license: MIT
+      last_commit: 2026-10-07
+      last_release: 2026-10-07
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 83
+  - id: whisper
+    repo: openai/whisper
+    name: whisper
+    status: listed
+    tagline: Multilingual speech recognition and translation model with Python and CLI interfaces
+    summary: Whisper is a Transformer sequence-to-sequence model for speech recognition, speech-to-English translation, and language identification. It ships as a pip package with a `whisper` command and a Python API, in six sizes from tiny (39M parameters) to large (1550M), plus a turbo variant. Code and weights are MIT licensed.
+    categories:
+      - voice
+      - models
+    strengths:
+      - Six model sizes (39M to 1550M parameters) trade accuracy for speed and VRAM
+      - Handles transcription, translation to English and language identification in one model
+      - Simple `whisper audio.mp3 --model turbo` CLI and a short Python API
+      - Code and weights both under MIT license
+    weaknesses:
+      - No built-in HTTP server or web UI; you wrap it yourself
+      - The turbo model is not trained for translation and returns the original language
+      - Requires ffmpeg, and possibly Rust for tiktoken if no prebuilt wheel exists
+      - Accuracy varies widely by language; large model needs about 10 GB VRAM
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - ffmpeg
+        - PyTorch
+        - tiktoken
+        - Rust (if no prebuilt tiktoken wheel)
+      model_support:
+        - tiny
+        - base
+        - small
+        - medium
+        - large
+        - turbo
+        - tiny.en
+        - base.en
+        - small.en
+        - medium.en
+      web_port: null
+    links:
+      demo: null
+      website: https://openai.com/blog/whisper
+      docs: https://github.com/openai/whisper/blob/main/model-card.md
+    audience: Developers needing local speech-to-text or translation in Python or scripts
+    confidence: 0.9
+    facts:
+      stars: 110413
+      license: MIT
+      last_commit: 2026-08-31
+      last_release: 2025-06-26
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 50
+  - id: llms-from-scratch
+    repo: rasbt/llms-from-scratch
+    name: llms-from-scratch
+    status: listed
+    tagline: Code for the book on building a GPT-style LLM in PyTorch
+    summary: Official code for the Manning book "Build a Large Language Model (From Scratch)". Notebooks and scripts implement tokenization, attention, a GPT model, pretraining, classification finetuning, instruction finetuning and LoRA in plain PyTorch, without external LLM libraries. Bonus folders add from-scratch Llama 3.2, Qwen3, Gemma 3, Olmo 3, KV cache, MoE and DPO.
+    categories:
+      - learning
+      - training
+    strengths:
+      - Main chapter code runs on a conventional laptop and uses a GPU automatically if present
+      - Plain PyTorch with no external LLM libraries, so every component is readable
+      - Bonus material covers KV cache, GQA, MoE, DPO and several model architectures
+      - Exercise solutions, a companion video course and CI tests on Linux, Windows and macOS
+    weaknesses:
+      - Tied to a print book; contributions extending main chapter code are not accepted
+      - Produces a small educational model, not a production-grade LLM
+      - License is reported as NOASSERTION; the README states no license terms
+      - Video course and quiz PDF are hosted by the publisher, not in the repo
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+        - Jupyter
+        - Ollama (optional, ch07 evaluation)
+      model_support:
+        - GPT-2
+        - Llama 3.2
+        - Qwen3
+        - Gemma 3
+        - Olmo 3
+      web_port: null
+    links:
+      demo: null
+      website: http://mng.bz/orYv
+      docs: null
+    audience: Python developers learning how LLMs work by coding one in PyTorch
+    confidence: 0.9
+    facts:
+      stars: 106470
+      license: NOASSERTION
+      last_commit: 2026-10-02
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Jupyter Notebook
+    score: 74
+  - id: pytorch
+    repo: pytorch/pytorch
+    name: pytorch
+    status: listed
+    tagline: Python tensor library with GPU support and tape-based autograd for deep learning
+    summary: PyTorch is a Python package that provides NumPy-like tensor computation on CPU or GPU, plus a reverse-mode autograd system for building neural networks imperatively. It ships torch.nn, torch.multiprocessing and a DataLoader, and can be extended in Python or C/C++. GPU backends covered in the README are NVIDIA CUDA, AMD ROCm (Linux only) and Intel GPU.
+    categories:
+      - ml-frameworks
+    strengths:
+      - Dynamic graphs execute line by line, so debuggers and stack traces point at user code
+      - Backends for NVIDIA CUDA, AMD ROCm and Intel GPU, plus CPU-only builds
+      - Layers can be written in Python or via a C++ extension API
+      - Pre-built pip/conda binaries, Docker images and Jetson wheels are available
+    weaknesses:
+      - Building from source needs a C++20 compiler, 10 GB disk and 30-60 minutes
+      - ROCm support is Linux only; Windows distributed support is described as a prototype
+      - Source build with CUDA requires matching cuDNN 9.0+, NVTX and compiler versions
+      - Low-level framework only; no model serving or application layer included
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python 3.10+
+        - C++20 compiler (source builds)
+        - CUDA/cuDNN, ROCm or Intel GPU stack (optional)
+        - Intel MKL
+      model_support:
+        - torch.nn modules
+        - CUDA
+        - ROCm
+        - Intel XPU
+        - CPU
+      web_port: null
+    links:
+      demo: null
+      website: https://pytorch.org
+      docs: https://pytorch.org/docs/stable/
+    audience: ML researchers and engineers building and training neural networks in Python
+    confidence: 0.9
+    facts:
+      stars: 104777
+      license: NOASSERTION
+      last_commit: 2026-10-13
+      last_release: 2026-09-30
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 89
+  - id: deep-live-cam
+    repo: hacksider/deep-live-cam
+    name: deep-live-cam
+    status: listed
+    tagline: Real-time webcam face swap from a single source image
+    summary: Deep-Live-Cam is a Python desktop GUI that swaps a face from one source image onto a webcam feed, video or image, using ONNX models (inswapper_128_fp16, gfpgan-1024). It supports mouth masking, mapping different faces to multiple subjects, and CPU, CUDA, CoreML, DirectML and OpenVINO execution providers. A paid pre-built edition with extra features is sold on the project website.
+    categories:
+      - desktop-apps
+      - image-video
+    strengths:
+      - Live webcam mode plus image and video file processing from one GUI
+      - Execution providers for CPU, CUDA, CoreML, DirectML and OpenVINO
+      - Mouth mask and face mapping for multiple subjects in one frame
+      - Needs only a single source image, no per-face training
+    weaknesses:
+      - Manual install needs Python, ffmpeg, CUDA/cuDNN pinning; README says not for beginners
+      - CPU-only mode is slower; live preview takes 10-30 seconds to appear
+      - Command-line arguments are marked unmaintained in the README
+      - insightface models are limited to non-commercial research use
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python 3.11-3.14
+        - ffmpeg
+        - onnxruntime
+        - CUDA Toolkit 12.8 (NVIDIA)
+        - tkinter
+        - OBS (for streaming output)
+      model_support:
+        - inswapper_128_fp16.onnx
+        - gfpgan-1024.onnx
+        - ONNX
+      web_port: null
+    links:
+      demo: null
+      website: https://deeplivecam.net
+      docs: https://deeplivecam.net/index.php/quickstart
+    audience: Creators and streamers wanting local real-time face swapping on a webcam
+    confidence: 0.85
+    facts:
+      stars: 97014
+      license: AGPL-3.0
+      last_commit: 2026-10-10
+      last_release: 2026-09-07
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 75
+  - id: paddleocr
+    repo: paddlepaddle/paddleocr
+    name: paddleocr
+    status: listed
+    tagline: OCR and document parsing toolkit that outputs Markdown and JSON from PDFs and images
+    summary: PaddleOCR runs text recognition (PP-OCRv6) and document parsing (PaddleOCR-VL 0.9B VLM, PP-StructureV3) on PDFs and images, producing Markdown or JSON for RAG pipelines. It runs on CPU, NVIDIA GPU, Kunlunxin XPU and other accelerators, with ONNX, OpenVINO, TensorRT and Transformers backends. Models are on HuggingFace and ModelScope.
+    categories:
+      - data-tools
+      - models
+    strengths:
+      - Three PP-OCRv6 tiers (1.5M, 7.7M, 34.5M params) cover edge to server
+      - One PP-OCRv6 model handles 50 languages; PaddleOCR-VL covers 111
+      - Outputs Markdown, JSON and DOCX; PP-StructureV3 returns table cell and text coordinates
+      - "Multiple inference backends: Paddle, Transformers, ONNX Runtime, OpenVINO, TensorRT, plus C++ deployment"
+    weaknesses:
+      - Depends on the PaddlePaddle framework; GPU installs need matching CUDA builds
+      - Benchmark claims such as 96.3% on OmniDocBench are the authors' own
+      - Python support listed as 3.8 to 3.12 only
+      - Several pipelines and models, so choosing between PP-OCR, VL and StructureV3 takes reading
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PaddlePaddle
+      model_support:
+        - PP-OCRv6
+        - PaddleOCR-VL-1.6
+        - PP-StructureV3
+        - HPD-Parsing
+        - ONNX
+      web_port: null
+    links:
+      demo: https://www.paddleocr.com
+      website: https://www.paddleocr.com
+      docs: https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/pipeline_overview.html
+    audience: Developers feeding PDFs and scans into RAG or agent pipelines
+    confidence: 0.85
+    facts:
+      stars: 91022
+      license: Apache-2.0
+      last_commit: 2026-09-16
+      last_release: 2026-06-11
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 54
+  - id: llm-course
+    repo: mlabonne/llm-course
+    name: llm-course
+    status: listed
+    tagline: Free LLM course with roadmaps and Colab notebooks for fine-tuning and quantization
+    summary: A three-part course covering LLM fundamentals (math, Python, neural networks), an LLM Scientist track on building models, and an LLM Engineer track on building and deploying applications. It pairs roadmaps and curated links with Colab notebooks and articles on fine-tuning (Unsloth, ORPO, DPO, QLoRA, Axolotl), quantization (GGUF, GPTQ, EXL2) and model merging with MergeKit.
+    categories:
+      - learning
+    strengths:
+      - Runnable Colab notebooks for fine-tuning, quantization and merging, most with a linked article
+      - Separate tracks for fundamentals, model building and application deployment
+      - Quantization notebooks cover GGUF, GPTQ, EXL2, AWQ and HQQ
+      - Free to use under Apache-2.0
+    weaknesses:
+      - Mostly curated external links rather than self-contained lessons
+      - Several notebooks target older models such as Llama 2 and Mistral-7b
+      - Notebooks run on Google Colab or RunPod, not a documented local setup
+      - Coverage reflects one author's selection of topics and resources
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Google Colab
+        - RunPod
+        - Hugging Face
+      model_support:
+        - Llama 3.1
+        - Llama 3
+        - Llama 2
+        - Mistral-7b
+        - CodeLlama
+        - GGUF
+        - GPTQ
+        - EXL2
+        - AWQ
+        - HQQ
+      web_port: null
+    links:
+      demo: null
+      website: https://mlabonne.github.io/blog
+      docs: https://deepwiki.com/mlabonne/llm-course/
+    audience: Engineers learning to fine-tune, quantize and deploy LLMs
+    confidence: 0.85
+    facts:
+      stars: 83551
+      license: Apache-2.0
+      last_commit: 2026-02-05
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: null
+    score: 36
+  - id: hello-agents
+    repo: datawhalechina/hello-agents
+    name: hello-agents
+    status: listed
+    tagline: Chinese-language course on building LLM agents from scratch
+    summary: A 16-chapter Chinese tutorial from Datawhale covering agent fundamentals, ReAct, Plan-and-Solve and Reflection, low-code platforms (Coze, Dify, n8n) and frameworks (AutoGen, AgentScope, LangGraph). Later chapters build a custom framework on the OpenAI API and cover memory, RAG, context engineering, MCP/A2A/ANP, Agentic-RL (SFT to GRPO) and evaluation. Chapter code is in the repo's code folder.
+    categories:
+      - learning
+    strengths:
+      - 16 chapters from theory to capstone, with runnable code in the code folder
+      - Includes an Agentic-RL chapter going from SFT to GRPO training
+      - Builds a custom agent framework on the OpenAI API, not only framework usage
+      - Free online reading and PDF download, plus extra chapters on interviews and skills
+    weaknesses:
+      - Written in Chinese; an English README is linked separately
+      - License is CC BY-NC-SA 4.0, which bars commercial use
+      - Assumes basic Python and experience calling an LLM API
+      - Hardware and model requirements for the exercises are unknown
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - OpenAI-compatible LLM API
+      model_support:
+        - OpenAI API
+      web_port: null
+    links:
+      demo: null
+      website: https://hello-agents.datawhale.cc
+      docs: https://datawhalechina.github.io/hello-agents/
+    audience: Python developers and students learning to build LLM agents, Chinese readers
+    confidence: 0.85
+    facts:
+      stars: 82908
+      license: NOASSERTION
+      last_commit: 2026-10-13
+      last_release: 2026-07-17
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 72
+  - id: models
+    repo: tensorflow/models
+    name: models
+    status: listed
+    tagline: Reference TensorFlow 2 model implementations, plus the Orbit training-loop library
+    summary: Repository of TensorFlow model implementations split into official (maintained by the TensorFlow team), research (maintained by researchers, TF1 or TF2) and a curated community list. It also includes Orbit, a lightweight library for custom TF2 training loops that works with tf.distribute on CPU, GPU and TPU. Installable as tf-models-official or the nightly tf-models-nightly package.
+    categories:
+      - ml-frameworks
+      - models
+    strengths:
+      - Official directory is maintained by the TensorFlow team against current TF2 APIs
+      - Orbit supports custom training loops with tf.distribute on CPU, GPU and TPU
+      - Published on PyPI as tf-models-official, with a daily nightly build
+      - Training logs on TensorBoard.dev provided for some models
+    weaknesses:
+      - Research directory is researcher-maintained and mixes TensorFlow 1 and 2 code
+      - tf-models-official may lag master; nightly package needed for latest changes
+      - Source install needs manual PYTHONPATH setup and extra requirements
+      - GitHub reports license as NOASSERTION, although the README states Apache 2.0
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - TensorFlow 2
+        - tensorflow-text-nightly (NLP packages)
+      model_support:
+        - TensorFlow
+        - TensorFlow 1 (research)
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://www.tensorflow.org/tfmodels
+    audience: TensorFlow users needing reference model code or custom training loops
+    confidence: 0.8
+    facts:
+      stars: 77647
+      license: NOASSERTION
+      last_commit: 2026-10-07
+      last_release: 2026-02-11
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 66
+  - id: ai-agents-for-beginners
+    repo: microsoft/ai-agents-for-beginners
+    name: ai-agents-for-beginners
+    status: listed
+    tagline: 18-lesson course on building AI agents with Microsoft Agent Framework
+    summary: A Microsoft course of 18 lessons on building AI agents, each with a written README, a short video for most lessons, and Python code samples in Jupyter notebooks. Topics include tool use, agentic RAG, planning, multi-agent patterns, memory, MCP/A2A/NLWeb protocols, computer-use agents, local agents and securing agents. Samples use Microsoft Agent Framework with Microsoft Foundry Agent Service V2, and some also support OpenAI-compatible providers such as MiniMax.
+    categories:
+      - learning
+    strengths:
+      - Each lesson is standalone, so you can start at any topic
+      - Covers design patterns plus MCP, A2A, NLWeb, memory and deployment
+      - Text, short videos and runnable Python samples per lesson
+      - 50+ language translations kept current by GitHub Action
+    weaknesses:
+      - Samples are built around Microsoft Agent Framework and Foundry, which need an Azure account
+      - Some later lessons have no video
+      - Cloning pulls large translation folders unless sparse checkout is used
+      - Alternative provider support is only partial, per the README
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Microsoft Foundry (Azure account)
+        - Microsoft Agent Framework
+        - Microsoft Foundry Agent Service V2
+      model_support:
+        - Microsoft Foundry models
+        - OpenAI-compatible providers (MiniMax)
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/microsoft/ai-agents-for-beginners/blob/master/00-course-setup/README.md
+    audience: Developers new to building AI agents, comfortable with Python
+    confidence: 0.9
+    facts:
+      stars: 77052
+      license: MIT
+      last_commit: 2026-10-13
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Jupyter Notebook
+    score: 70
+  - id: openai-cookbook
+    repo: openai/openai-cookbook
+    name: openai-cookbook
+    status: listed
+    tagline: Example notebooks and guides for building with the OpenAI API
+    summary: Collection of runnable Jupyter notebooks and guides showing common tasks with the OpenAI API. Most examples are in Python, and the README says the concepts apply to other languages. Running them requires an OpenAI account and an API key set as OPENAI_API_KEY. The guides are also browsable at cookbook.openai.com.
+    categories:
+      - learning
+    strengths:
+      - Maintained by OpenAI, so examples track the official API
+      - Runnable notebooks; API key is read from OPENAI_API_KEY or a .env file
+      - Also browsable as a site at cookbook.openai.com
+      - MIT license
+    weaknesses:
+      - Requires an OpenAI account and API key; examples do not target local models
+      - Most examples are Python only
+      - README does not list topics, versions or per-notebook dependencies
+      - No tagged releases
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - OpenAI API key
+        - Jupyter
+      model_support:
+        - OpenAI API models
+      web_port: null
+    links:
+      demo: null
+      website: https://cookbook.openai.com
+      docs: https://platform.openai.com/docs/introduction
+    audience: Developers learning to build with the OpenAI API
+    confidence: 0.9
+    facts:
+      stars: 76595
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Jupyter Notebook
+    score: 65
+  - id: llamafactory
+    repo: hiyouga/llamafactory
+    name: llamafactory
+    status: listed
+    tagline: Fine-tuning toolkit for 100+ LLMs with a CLI and Gradio web UI
+    summary: LlamaFactory fine-tunes language and multimodal models through YAML-configured CLI runs or the LLaMA Board Gradio UI. It covers pre-training, SFT, reward modeling, PPO, DPO, KTO and ORPO, with full-tuning, freeze-tuning, LoRA and 2 to 8-bit QLoRA. Trained models can be served through an OpenAI-style API using vLLM or SGLang workers.
+    categories:
+      - training
+    strengths:
+      - "Broad method coverage: SFT, PPO, DPO, KTO, ORPO, LoRA, QLoRA via AQLM/AWQ/GPTQ/HQQ/EETQ"
+      - Supports GaLore, BAdam, APOLLO, Muon, DoRA, PiSSA, plus Unsloth and Liger Kernel speedups
+      - Covers multimodal and audio models such as Qwen3-VL, LLaVA and Qwen2-Audio
+      - Runs on NVIDIA, AMD ROCm and Ascend NPU, with hosted Colab and PAI-DSW notebooks
+    weaknesses:
+      - Official documentation is marked WIP in the README
+      - No VRAM or RAM figures in the visible README; hardware requirements unknown here
+      - Web UI is for training and chat, not a production serving layer
+      - Many optional backends (vLLM, SGLang, Unsloth, KTransformers) add install complexity
+    specs:
+      ram_min_gb: null
+      gpu: required
+      external_deps:
+        - PyTorch
+        - Hugging Face Transformers
+        - Gradio
+        - vLLM (optional)
+        - SGLang (optional)
+      model_support:
+        - LLaMA
+        - LLaVA
+        - Mistral
+        - Mixtral-MoE
+        - Qwen3
+        - Qwen3-VL
+        - DeepSeek
+        - Gemma
+        - GLM
+        - Phi
+        - GPT-OSS
+        - InternVL
+      web_port: null
+    links:
+      demo: https://huggingface.co/spaces/hiyouga/LLaMA-Board
+      website: https://blog.llamafactory.net/en/
+      docs: https://llamafactory.readthedocs.io/en/latest/
+    audience: Engineers fine-tuning open LLMs on their own GPUs, with or without code
+    confidence: 0.85
+    facts:
+      stars: 75447
+      license: Apache-2.0
+      last_commit: 2026-10-10
+      last_release: 2026-05-30
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 74
+  - id: metagpt
+    repo: foundationagents/metagpt
+    name: metagpt
+    status: listed
+    tagline: Python multi-agent framework that turns one-line requirements into a software repo
+    summary: MetaGPT assigns LLM-backed roles (product manager, architect, project manager, engineer) to follow predefined SOPs, turning a one-line requirement into user stories, designs, APIs and code. It runs as a CLI (`metagpt "Create a 2048 game"`) or a Python library, and also ships a Data Interpreter role for data analysis. LLM providers such as OpenAI, Azure, Ollama and Groq are set in `~/.metagpt/config2.yaml`.
+    categories:
+      - agent-frameworks
+    strengths:
+      - Role and SOP model produces requirements, design docs and code repo from one prompt
+      - Usable as CLI or Python library; pip install metagpt
+      - "Provider set in one YAML file: OpenAI, Azure, Ollama, Groq and others"
+      - MIT license with tutorials, agent and multi-agent guides, and research papers
+    weaknesses:
+      - Python 3.9 to below 3.12 only
+      - Requires Node and pnpm installed before actual use
+      - Last release was 2024-04-22; the PyPI package may lag the main branch
+      - README calls the software-company schematic 'gradually implementing'
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3.9-3.11
+        - Node.js
+        - pnpm
+        - LLM API key or local LLM endpoint
+      model_support:
+        - OpenAI
+        - Azure
+        - Ollama
+        - Groq
+      web_port: null
+    links:
+      demo: https://huggingface.co/spaces/deepwisdom/MetaGPT-SoftwareCompany
+      website: https://mgx.dev/
+      docs: https://docs.deepwisdom.ai/main/en/
+    audience: Developers experimenting with multi-agent LLM workflows for code generation
+    confidence: 0.85
+    facts:
+      stars: 70835
+      license: MIT
+      last_commit: 2026-01-21
+      last_release: 2024-04-22
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 33
+  - id: ai-for-beginners
+    repo: microsoft/ai-for-beginners
+    name: ai-for-beginners
+    status: listed
+    tagline: 12-week, 24-lesson AI curriculum with PyTorch and TensorFlow notebooks
+    summary: A Microsoft course that teaches AI from symbolic and expert systems through neural networks, computer vision, NLP, genetic algorithms, reinforcement learning, multi-agent systems and ethics. Lessons pair text with Jupyter notebooks in PyTorch and/or TensorFlow/Keras, and several have labs. Translations into 50+ languages are generated by a GitHub Action.
+    categories:
+      - learning
+    strengths:
+      - Covers symbolic AI, deep learning, vision, NLP, RL and ethics in one ordered path
+      - Most lessons have both PyTorch and TensorFlow/Keras notebooks
+      - Labs for many lessons, plus a Binder badge to run notebooks in the browser
+      - 50+ automated translations; MIT license
+    weaknesses:
+      - NLP stops at transformers/BERT and GPT basics; README admits it lags the state of the art
+      - Excludes classic ML, cloud services and deep math; it points to other courses
+      - Not every lesson has a lab; some notebooks are TensorFlow-only or PyTorch-only
+      - Translations inflate clone size; sparse checkout is needed to skip them
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Jupyter
+        - PyTorch
+        - TensorFlow
+        - Keras
+        - OpenCV
+      model_support: []
+      web_port: null
+    links:
+      demo: https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD
+      website: null
+      docs: null
+    audience: Beginners learning AI fundamentals with hands-on Python notebooks
+    confidence: 0.85
+    facts:
+      stars: 69733
+      license: MIT
+      last_commit: 2026-09-04
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Jupyter Notebook
+    score: 65
+  - id: docling
+    repo: docling-project/docling
+    name: docling
+    status: listed
+    tagline: Python library and CLI that converts PDFs, Office files and more into structured text
+    summary: Docling parses PDF, DOCX, PPTX, XLSX, HTML, EPUB, images, audio and other formats into a unified DoclingDocument, with PDF layout, reading order, table structure, code and formula recognition. It exports to Markdown, HTML, DocLang, DocTags and lossless JSON. It runs locally via a CLI or Python API, with OCR, VLM support (GraniteDocling), an MCP server and a docling-serve API server.
+    categories:
+      - data-tools
+      - rag-knowledge
+    strengths:
+      - "Wide input coverage: PDF, Office, ODF, EPUB, email, Apple iWork, XBRL, audio, video"
+      - Local execution suits sensitive data and air-gapped environments
+      - Integrations with LangChain, LlamaIndex, Crew AI and Haystack
+      - Ships a CLI, Python API, MCP server and docling-serve HTTP server
+    weaknesses:
+      - Hardware requirements (RAM, GPU) are not stated in the README
+      - Individual models carry their own licenses, separate from the MIT codebase
+      - Metadata extraction and chemistry understanding are listed as coming soon
+      - Requires Python 3.10 or higher; 3.9 support was dropped in 2.70.0
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps: []
+      model_support:
+        - GraniteDocling
+        - VLMs
+        - OCR engines
+        - ASR models
+      web_port: null
+    links:
+      demo: null
+      website: https://docling-project.github.io/docling/
+      docs: https://docling-project.github.io/docling/
+    audience: Developers preparing documents for RAG and LLM pipelines
+    confidence: 0.85
+    facts:
+      stars: 68807
+      license: MIT
+      last_commit: 2026-10-13
+      last_release: 2026-10-12
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 70
+  - id: scikit-learn
+    repo: scikit-learn/scikit-learn
+    name: scikit-learn
+    status: listed
+    tagline: Python library of classical machine learning algorithms built on NumPy and SciPy
+    summary: scikit-learn is a Python module for machine learning built on SciPy, started in 2007 as a Google Summer of Code project. It installs with pip or conda and requires Python 3.12 or newer, NumPy, SciPy, Narwhals, joblib and threadpoolctl. Plotting helpers need Matplotlib. The README does not list the algorithms; those are documented on the website.
+    categories:
+      - ml-frameworks
+    strengths:
+      - Installs with one pip or conda command; six required dependencies, all listed with minimum versions
+      - BSD-3-Clause license; test suite runs with pytest sklearn
+      - Volunteer community with institutional support; benchmarked with asv
+      - Test randomness is controllable through the SKLEARN_SEED environment variable
+    weaknesses:
+      - README does not mention GPU support
+      - Requires Python 3.12 or newer, which excludes older environments
+      - Plotting needs Matplotlib, installed separately
+      - README gives no algorithm list; readers must consult the website
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Python >= 3.12
+        - NumPy >= 1.26.0
+        - SciPy >= 1.11.4
+        - Narwhals >= 2.0.1
+        - joblib >= 1.4.0
+        - threadpoolctl >= 3.5.0
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://scikit-learn.org
+      docs: https://scikit-learn.org/stable/
+    audience: Python developers and data scientists building classical ML models
+    confidence: 0.85
+    facts:
+      stars: 67574
+      license: BSD-3-Clause
+      last_commit: 2026-10-13
+      last_release: 2026-09-11
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 69
+  - id: ai-engineering-from-scratch
+    repo: rohitg00/ai-engineering-from-scratch
+    name: ai-engineering-from-scratch
+    status: listed
+    tagline: Hands-on curriculum for building AI systems from math to agents
+    summary: "A course of 528 lessons across 20 phases, covering math foundations, ML fundamentals, LLM engineering, agents, tools and protocols, and production infrastructure. Lessons are runnable code in Python, TypeScript, Rust and Julia, with three graded projects: retrieval evaluation, agent trace debugging and a tool-call firewall. It can be followed on the website, from a local clone, or through tutor skills installed into a coding agent."
+    categories:
+      - learning
+    strengths:
+      - Lessons ship runnable code; the first ones need only python3 and no extra dependencies
+      - Three staged projects with local graders (project_test.py --strict) and reference solutions
+      - Tutor skills install via npx skills and save progress to LEARNING.md
+      - Code in Python, TypeScript, Rust and Julia; README translated into 30+ languages
+    weaknesses:
+      - 528 lessons is a large scope; total study time is not stated in the visible README
+      - Project starters fail by design until you implement the stages
+      - Tutor skills need Node.js, npx and a skill-capable coding agent host
+      - GPU and RAM needs for later phases are not stated in the visible README
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Python 3.10+
+        - Node.js 22.18+ (TypeScript project)
+        - Rust (Tool Call Firewall project)
+        - npx (optional, tutor skills)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://aiengineeringfromscratch.com
+      docs: null
+    audience: Developers learning to build LLM, RAG and agent systems from first principles
+    confidence: 0.85
+    facts:
+      stars: 68426
+      license: MIT
+      last_commit: 2026-10-13
+      last_release: 2026-10-10
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 75
+  - id: keras
+    repo: keras-team/keras
+    name: keras
+    status: listed
+    tagline: Multi-backend deep learning library running on JAX, TensorFlow and PyTorch
+    summary: Keras 3 is a high-level Python API for building and training neural networks. The backend is chosen with the KERAS_BACKEND variable or ~/.keras/keras.json. It trains on JAX, TensorFlow or PyTorch, and OpenVINO is supported for inference only. It is meant as a drop-in replacement for tf.keras and accepts tf.data pipelines and PyTorch DataLoaders as input.
+    categories:
+      - ml-frameworks
+    strengths:
+      - Same model code runs on JAX, TensorFlow or PyTorch by switching one environment variable
+      - Keras models can be used inside native PyTorch Modules or JAX functions
+      - Accepts tf.data.Dataset and PyTorch DataLoader inputs regardless of backend
+      - Drop-in replacement for tf.keras when models are saved in the .keras format
+    weaknesses:
+      - Backend must be set before import and cannot be changed afterwards
+      - OpenVINO backend only supports model.predict(), no training
+      - Only Linux and macOS are listed as compatible; Windows needs WSL2
+      - Custom layers or train_step() need conversion to be backend-agnostic
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - tensorflow >=2.16.1, jax >=0.4.20, or torch >=2.1.0 (one backend)
+        - openvino 2026.2.0 (inference only)
+      model_support:
+        - JAX
+        - TensorFlow
+        - PyTorch
+        - OpenVINO (inference only)
+      web_port: null
+    links:
+      demo: null
+      website: https://keras.io/
+      docs: null
+    audience: ML engineers who want one model API across JAX, TensorFlow and PyTorch
+    confidence: 0.9
+    facts:
+      stars: 64372
+      license: Apache-2.0
+      last_commit: 2026-10-13
+      last_release: 2026-07-29
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 70
+  - id: minimind
+    repo: jingyaogong/minimind
+    name: minimind
+    status: listed
+    tagline: Train a 64M-parameter LLM from scratch in plain PyTorch
+    summary: "MiniMind is a from-scratch implementation of a small Qwen3-style decoder-only LLM (64M dense, 198M-A64M MoE) with each training stage written in native PyTorch: pretrain, SFT, LoRA, DPO, PPO/GRPO/CISPO, agentic RL and distillation. It ships datasets, a 6,400-token tokenizer, an OpenAI-compatible server and a Streamlit chat UI. The README states one SFT epoch takes about 2 hours on a single 3090."
+    categories:
+      - training
+      - learning
+    strengths:
+      - Core algorithms (LoRA, DPO, PPO/GRPO) written in plain PyTorch, not wrapped from trl or peft
+      - Open datasets for each stage, with mini variants (1.2GB pretrain, 1.6GB SFT) for quick runs
+      - Weights convert to transformers, llama.cpp, vllm and ollama; ollama and vllm usage is documented
+      - Checkpoint resume, DDP and DeepSpeed multi-GPU, wandb or swanlab logging
+    weaknesses:
+      - Models are tiny (64M), so output quality is far below mainstream LLMs
+      - README is primarily in Chinese; the English version is a separate file
+      - Training data is largely synthetic and distilled, with mixed source licenses
+      - Native MoE training is about 50% slower than dense, per the README
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+        - transformers
+        - streamlit (optional WebUI)
+        - swanlab or wandb (optional)
+      model_support:
+        - minimind-3 (64M)
+        - minimind-3-moe (198M-A64M)
+        - minimind2 series
+        - Transformers format
+        - llama.cpp
+        - vllm
+        - ollama
+      web_port: null
+    links:
+      demo: https://www.modelscope.cn/studios/gongjy/MiniMind
+      website: null
+      docs: null
+    audience: Engineers learning LLM internals by pretraining and fine-tuning small models
+    confidence: 0.85
+    facts:
+      stars: 63669
+      license: Apache-2.0
+      last_commit: 2026-09-22
+      last_release: 2025-10-21
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 52
+  - id: ultralytics
+    repo: ultralytics/ultralytics
+    name: ultralytics
+    status: listed
+    tagline: Python library and CLI for training and running YOLO vision models
+    summary: Ultralytics provides the `ultralytics` Python package and `yolo` CLI for training, validating, predicting, tracking and exporting YOLO models. Tasks include detection, instance and semantic segmentation, depth estimation, classification, pose and oriented boxes. Pretrained YOLO26 weights download on first use, and models export to formats such as ONNX.
+    categories:
+      - ml-frameworks
+      - models
+    strengths:
+      - One package and CLI cover train, val, predict, track and export across seven vision tasks
+      - Pretrained YOLO26 n/s/m/l/x weights with published COCO mAP and CPU/T4 latency tables
+      - Supports older YOLO versions back to YOLOv3, plus export to ONNX
+      - Install via pip, Conda or Docker; docs in multiple languages
+    weaknesses:
+      - AGPL-3.0 license; commercial use needs a paid Enterprise License
+      - Vision only; no LLM or language model support
+      - Pretrained weights download from Ultralytics releases at first use
+      - YOLO27 is announced but unavailable, with no launch date
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python>=3.8
+        - PyTorch>=1.8
+      model_support:
+        - YOLO26
+        - YOLOv3
+        - ONNX export
+        - TensorRT export
+      web_port: null
+    links:
+      demo: null
+      website: https://www.ultralytics.com
+      docs: https://docs.ultralytics.com
+    audience: Engineers building object detection and video analysis pipelines
+    confidence: 0.85
+    facts:
+      stars: 62459
+      license: AGPL-3.0
+      last_commit: 2026-10-13
+      last_release: 2026-10-12
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 77
+  - id: autogen
+    repo: microsoft/autogen
+    name: autogen
+    status: listed
+    tagline: Python and .NET framework for multi-agent apps, now in maintenance mode
+    summary: "AutoGen is a layered framework for building multi-agent applications: a Core API for event-driven message passing, an AgentChat API for two-agent and group-chat patterns, and an Extensions API for model clients, MCP tools and code execution. It also ships AutoGen Studio, a no-code prototyping UI on port 8080, and AgentBench. The project is in maintenance mode and community managed; Microsoft points new users to Microsoft Agent Framework."
+    categories:
+      - agent-frameworks
+    strengths:
+      - "Layered design: Core, AgentChat and Extensions APIs let you pick the abstraction level"
+      - Core runtime supports local and distributed execution, with Python and .NET packages
+      - MCP tool support through McpWorkbench, e.g. the Playwright MCP server
+      - Includes AutoGen Studio for no-code prototyping and a benchmarking suite
+    weaknesses:
+      - "Maintenance mode: no new features, only bug fixes, security patches and docs"
+      - Maintainers recommend Microsoft Agent Framework for new projects
+      - AutoGen Studio is explicitly not production-ready and has no built-in authentication
+      - Support is community-only and response times may be slow
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3.10+
+        - OpenAI API key (for the quickstart samples)
+        - Node.js/npx (for the Playwright MCP example)
+      model_support:
+        - OpenAI
+        - Azure OpenAI
+      web_port: 8080
+    links:
+      demo: null
+      website: null
+      docs: https://microsoft.github.io/autogen/
+    audience: Developers with existing AutoGen code or prototyping multi-agent apps in Python
+    confidence: 0.9
+    facts:
+      stars: 61392
+      license: CC-BY-4.0
+      last_commit: 2026-04-06
+      last_release: 2025-09-30
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 30
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
@@ -295,7 +1486,7 @@ entries:
     audience: Self-hosters who want one assistant reachable from every chat app they use
     confidence: 0.8
     facts:
-      stars: 391818
+      stars: 391849
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-10-12
@@ -339,7 +1530,7 @@ entries:
     audience: Developers who want an always-on agent on a VPS reachable from chat apps
     confidence: 0.8
     facts:
-      stars: 253202
+      stars: 253340
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-10-12
@@ -352,45 +1543,47 @@ entries:
     repo: hkuds/nanobot
     name: nanobot
     status: listed
-    tagline: Small Python agent runtime with bundled WebUI, TUI and chat channels
-    summary: nanobot is a Python 3.11+ personal agent running as a local gateway with a bundled WebUI on 127.0.0.1:8765, a terminal UI, and connectors for Telegram, Discord, Slack, WeChat, Feishu, Teams, email, Mattermost and Linear. Tools cover files, shell, web search, MCP servers, cron automations, image generation and subagents, with long-term memory and an OpenAI-compatible API. Deploys via pip, Docker Compose or Render.
+    tagline: Self-hosted Python personal agent with WebUI, TUI and chat-app channels
+    summary: nanobot is a Python agent framework you run yourself and use from a browser WebUI, a terminal TUI, or chat apps such as Telegram, Discord, Slack and Email. It keeps session history and long-term memory (Dream), runs shell, web, MCP and cron tools, and supports long-running goals. It also exposes a Python SDK and an OpenAI-compatible API, and needs an external model provider or local server.
     categories:
       - assistants
     strengths:
-      - WebUI ships inside the PyPI wheel; no separate frontend build needed
-      - Exposes a Python SDK and an OpenAI-compatible API for integrations
-      - Groups up to four conversations in one workbench and shares context between them
-      - First-run WebUI binds to localhost only; not exposed to the LAN by default
+      - "Many channels: Telegram, Discord, Slack, WeChat, Email, Mattermost, Linear, Teams, Feishu"
+      - Built-in long-term memory, cron automations and /goal long-running tasks
+      - Works with OpenAI-compatible APIs, Ollama and vLLM, with fallback models
+      - Installs via script, uv or pip; Python SDK and OpenAI-compatible API included
     weaknesses:
-      - Channels and automations stop when local clients exit unless gateway --background is used
-      - Native TUI wheels cover macOS 13+, glibc 2.17+ Linux and Windows x64 only
-      - Source install requires Bun to run the terminal UI
+      - Supplies no model; needs a provider account or local model server
+      - Background gateway does not restart after reboot or crash without an OS service
+      - Interrupted subagent tasks and missed scheduled runs are not replayed after restart
+      - Source install needs Git and Bun; native TUI wheels cover limited platforms
     specs:
       ram_min_gb: null
       gpu: none
-      external_deps: []
+      external_deps:
+        - Python 3.11+
+        - model provider or local model server
       model_support:
         - OpenAI-compatible APIs
-        - Anthropic
         - Ollama
         - vLLM
       web_port: 8765
     links:
       demo: null
-      website: null
+      website: https://nanobot.wiki/docs/latest/getting-started/nanobot-overview
       docs: https://nanobot.wiki/docs/latest/getting-started/nanobot-overview
-    audience: Developers wanting a small, readable agent gateway they can extend
-    confidence: 0.85
+    audience: Self-hosters wanting a personal agent in browser, terminal and chat apps
+    confidence: 0.8
     facts:
-      stars: 48986
+      stars: 48992
       license: MIT
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-09-15
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 85
+    score: 83
   - id: astrbot
     repo: astrbotdevs/astrbot
     name: AstrBot
@@ -430,15 +1623,15 @@ entries:
     audience: Teams running bots on Chinese and global IM platforms
     confidence: 0.8
     facts:
-      stars: 41803
+      stars: 41827
       license: AGPL-3.0
-      last_commit: 2026-10-11
+      last_commit: 2026-10-13
       last_release: 2026-10-10
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 68
+    score: 67
   - id: khoj
     repo: khoj-ai/khoj
     name: Khoj
@@ -479,7 +1672,7 @@ entries:
     audience: Individuals who want a private second brain over their notes and files
     confidence: 0.7
     facts:
-      stars: 37665
+      stars: 37669
       license: AGPL-3.0
       last_commit: 2026-08-02
       last_release: 2026-03-26
@@ -487,7 +1680,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 53
+    score: 52
   - id: qwenpaw
     repo: agentscope-ai/qwenpaw
     name: QwenPaw
@@ -524,7 +1717,7 @@ entries:
     audience: Self-hosters wanting one personal agent reachable across chat apps
     confidence: 0.8
     facts:
-      stars: 35639
+      stars: 35645
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-09-11
@@ -532,7 +1725,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 67
+    score: 66
   - id: zeroclaw
     repo: zeroclaw-labs/zeroclaw
     name: ZeroClaw
@@ -569,7 +1762,7 @@ entries:
     audience: Tinkerers wanting an always-on agent on a Pi or home server with GPIO access
     confidence: 0.8
     facts:
-      stars: 32968
+      stars: 32972
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-09-05
@@ -577,7 +1770,7 @@ entries:
       has_compose: true
       is_template: false
       language: Rust
-    score: 76
+    score: 75
   - id: picoclaw
     repo: sipeed/picoclaw
     name: PicoClaw
@@ -621,7 +1814,7 @@ entries:
     audience: Hobbyists running an agent on tiny SBCs, routers or old phones
     confidence: 0.85
     facts:
-      stars: 30018
+      stars: 30019
       license: MIT
       last_commit: 2026-08-19
       last_release: 2026-07-03
@@ -629,7 +1822,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 54
+    score: 53
   - id: ironclaw
     repo: nearai/ironclaw
     name: IronClaw
@@ -663,7 +1856,7 @@ entries:
     audience: Security-minded users who want tools isolated from credentials
     confidence: 0.75
     facts:
-      stars: 12650
+      stars: 12652
       license: Apache-2.0
       last_commit: 2026-09-10
       last_release: 2026-09-29
@@ -671,7 +1864,7 @@ entries:
       has_compose: true
       is_template: false
       language: Rust
-    score: 71
+    score: 70
   - id: moltis
     repo: moltis-org/moltis
     name: Moltis
@@ -757,7 +1950,7 @@ entries:
     audience: Teams and communities running one agent for many people
     confidence: 0.75
     facts:
-      stars: 2413
+      stars: 2415
       license: NOASSERTION
       last_commit: 2026-09-25
       last_release: 2026-05-07
@@ -804,7 +1997,7 @@ entries:
     audience: Teams and homelabs wanting a multi-user front end for local models
     confidence: 0.85
     facts:
-      stars: 155207
+      stars: 155526
       license: NOASSERTION
       last_commit: 2026-10-10
       last_release: 2026-10-10
@@ -856,7 +2049,7 @@ entries:
     audience: Individuals who want a fast single-container chat front end for API keys
     confidence: 0.85
     facts:
-      stars: 88840
+      stars: 88842
       license: MIT
       last_commit: 2026-10-08
       last_release: 2025-07-29
@@ -864,7 +2057,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 67
+    score: 66
   - id: lobehub
     repo: lobehub/lobehub
     name: LobeHub
@@ -899,7 +2092,7 @@ entries:
     audience: Teams wanting a multi-agent workspace with an app-like UI
     confidence: 0.6
     facts:
-      stars: 83186
+      stars: 83202
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-10-07
@@ -907,7 +2100,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 85
+    score: 84
   - id: anything-llm
     repo: mintplex-labs/anything-llm
     name: AnythingLLM
@@ -957,7 +2150,7 @@ entries:
     audience: Small teams and individuals wanting private document chat without extra services
     confidence: 0.85
     facts:
-      stars: 66996
+      stars: 67017
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-01
@@ -965,7 +2158,7 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 83
+    score: 81
   - id: librechat
     repo: librechat-ai/librechat
     name: LibreChat
@@ -1009,7 +2202,7 @@ entries:
     audience: Teams wanting one authenticated front end across many model vendors
     confidence: 0.85
     facts:
-      stars: 45600
+      stars: 45622
       license: MIT
       last_commit: 2026-10-06
       last_release: null
@@ -1017,7 +2210,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 67
+    score: 66
   - id: sillytavern
     repo: sillytavern/sillytavern
     name: SillyTavern
@@ -1058,7 +2251,7 @@ entries:
     audience: Hobbyists doing character and role-play chat with local or API models
     confidence: 0.8
     facts:
-      stars: 34373
+      stars: 34397
       license: AGPL-3.0
       last_commit: 2026-09-14
       last_release: 2026-09-14
@@ -1066,7 +2259,7 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 58
+    score: 57
   - id: onyx
     repo: onyx-dot-app/onyx
     name: Onyx
@@ -1107,7 +2300,7 @@ entries:
     audience: Teams wanting an internal search and chat layer over company apps
     confidence: 0.8
     facts:
-      stars: 32429
+      stars: 32438
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-10-07
@@ -1115,7 +2308,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 72
+    score: 71
   - id: hermes-webui
     repo: nesquena/hermes-webui
     name: Hermes WebUI
@@ -1162,7 +2355,7 @@ entries:
     facts:
       stars: 18896
       license: MIT
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-08-14
       has_docker: true
       has_compose: true
@@ -1207,7 +2400,7 @@ entries:
     audience: Developers who want the HuggingChat front end on their own endpoint
     confidence: 0.85
     facts:
-      stars: 10978
+      stars: 10979
       license: Apache-2.0
       last_commit: 2026-10-09
       last_release: 2026-05-11
@@ -1271,7 +2464,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 71
+    score: 70
   - id: lollms-webui
     repo: parisneo/lollms-webui
     name: LoLLMs WebUI
@@ -1325,7 +2518,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 43
+    score: 42
   - id: claraverse
     repo: claraverse-space/claraverse
     name: ClaraVerse
@@ -1452,7 +2645,7 @@ entries:
     audience: Teams automating business workflows that include LLM steps
     confidence: 0.8
     facts:
-      stars: 207164
+      stars: 207207
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-10-12
@@ -1493,7 +2686,7 @@ entries:
     audience: Non-developers and teams wanting scheduled agents over SaaS tools
     confidence: 0.7
     facts:
-      stars: 187539
+      stars: 187550
       license: NOASSERTION
       last_commit: 2026-10-12
       last_release: 2026-10-08
@@ -1506,40 +2699,41 @@ entries:
     repo: langgenius/dify
     name: Dify
     status: listed
-    tagline: Visual LLM app platform with workflows, RAG pipeline, agents and APIs
-    summary: Dify is an LLM app platform started with Docker Compose (dashboard on port 80) that needs 2 CPU cores and 4 GiB RAM. One canvas covers visual workflows, a prompt IDE, a RAG pipeline that ingests PDFs and PPTs, sandboxed agents using Marketplace tools, MCP servers or your own APIs, plus LLMOps tracing via Opik, Langfuse or Arize Phoenix. Hundreds of models work, including OpenAI-compatible endpoints.
+    tagline: Visual builder for LLM workflows, RAG pipelines and agents, with APIs
+    summary: Dify is an LLM app development platform with a visual workflow canvas, a prompt IDE, a RAG pipeline that extracts text from PDFs and PPTs, and agents that run in their own sandbox. Every app is exposed through an API. Model providers include GPT, Mistral, Llama3 and any OpenAI-compatible endpoint. It runs via Docker Compose or as the hosted Dify Cloud.
     categories:
       - agent-platforms
       - rag-knowledge
     strengths:
-      - Workflow, RAG, agents, prompt IDE and model management in one canvas
-      - "Hundreds of models: GPT, Mistral, Llama3 and any OpenAI-compatible API"
-      - Observability through Opik, Langfuse and Arize Phoenix
-      - Every feature is exposed through an API (backend-as-a-service)
+      - Visual workflow canvas, prompt IDE and RAG pipeline in one platform
+      - Every app exposes an API, so it works as a backend service
+      - Supports hundreds of LLMs plus any OpenAI API-compatible model
+      - Agents can use Marketplace tools, MCP servers or your own APIs
     weaknesses:
-      - Dify Open Source License adds conditions on top of Apache 2.0
-      - SSO, RBAC and support SLAs are reserved for Dify Enterprise
-      - Minimum 2 CPU cores and 4 GiB RAM for the Compose stack
-      - Dashboard binds to port 80 by default
+      - License is the Dify Open Source License (Apache 2.0 plus extra conditions)
+      - SSO, RBAC and support SLAs are in the Enterprise edition
+      - Docker Compose self-hosting needs at least 2 CPU cores and 4 GiB RAM
+      - Observability relies on external tools such as Opik, Langfuse and Arize Phoenix
     specs:
       ram_min_gb: 4
       gpu: none
-      external_deps: []
+      external_deps:
+        - Docker
+        - Docker Compose v2.24.0+
       model_support:
-        - OpenAI GPT
+        - GPT
         - Mistral
-        - Llama 3
-        - OpenAI-compatible APIs
-        - dozens of inference providers
+        - Llama3
+        - OpenAI API-compatible models
       web_port: 80
     links:
       demo: https://cloud.dify.ai
       website: https://dify.ai
       docs: https://docs.dify.ai
-    audience: Product teams building LLM apps and RAG workflows without heavy code
+    audience: Teams building and self-hosting LLM apps, RAG and agent workflows
     confidence: 0.85
     facts:
-      stars: 158304
+      stars: 158357
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-09-10
@@ -1578,7 +2772,7 @@ entries:
     audience: Developers prototyping agent flows who want Python under the hood
     confidence: 0.8
     facts:
-      stars: 155576
+      stars: 155598
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -1618,7 +2812,7 @@ entries:
     audience: People running several coding agents who want tickets, budgets and oversight
     confidence: 0.7
     facts:
-      stars: 101059
+      stars: 101313
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-10-12
@@ -1668,15 +2862,15 @@ entries:
     audience: Teams coordinating several coding agents on their own machines and Git host
     confidence: 0.85
     facts:
-      stars: 52624
+      stars: 52680
       license: NOASSERTION
-      last_commit: 2026-10-12
-      last_release: 2026-10-01
+      last_commit: 2026-10-13
+      last_release: 2026-10-13
       has_docker: true
       has_compose: true
       is_template: false
       language: Go
-    score: 74
+    score: 73
   - id: sim
     repo: simstudioai/sim
     name: Sim
@@ -1713,7 +2907,7 @@ entries:
     audience: Teams wanting a hosted-style agent builder on their own servers
     confidence: 0.75
     facts:
-      stars: 29811
+      stars: 29814
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -1721,7 +2915,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 71
+    score: 70
   - id: fastgpt
     repo: labring/fastgpt
     name: FastGPT
@@ -1754,15 +2948,15 @@ entries:
     audience: Teams building document Q&A bots and workflows, especially in Chinese markets
     confidence: 0.75
     facts:
-      stars: 29804
+      stars: 29810
       license: NOASSERTION
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-09
       has_docker: false
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 64
+    score: 63
   - id: activepieces
     repo: activepieces/activepieces
     name: Activepieces
@@ -1796,9 +2990,9 @@ entries:
     audience: Teams self-hosting Zapier-style automation with LLM and MCP integrations
     confidence: 0.7
     facts:
-      stars: 25026
+      stars: 25032
       license: NOASSERTION
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-12
       has_docker: true
       has_compose: true
@@ -1837,7 +3031,7 @@ entries:
     audience: Developers automating form filling and data extraction on third-party sites
     confidence: 0.85
     facts:
-      stars: 23188
+      stars: 23191
       license: AGPL-3.0
       last_commit: 2026-10-13
       last_release: 2026-10-01
@@ -1845,7 +3039,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 67
+    score: 66
   - id: agent-zero
     repo: agent0ai/agent-zero
     name: Agent Zero
@@ -1879,7 +3073,7 @@ entries:
     audience: Tinkerers who want an agent with desktop software and a shell, sandboxed
     confidence: 0.8
     facts:
-      stars: 19446
+      stars: 19452
       license: NOASSERTION
       last_commit: 2026-09-23
       last_release: 2026-09-23
@@ -1887,7 +3081,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 64
+    score: 63
   - id: botpress
     repo: botpress/botpress
     name: Botpress
@@ -1927,7 +3121,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 38
+    score: 37
   - id: mem0
     repo: mem0ai/mem0
     name: Mem0
@@ -1962,7 +3156,7 @@ entries:
     audience: Developers adding persistent user memory to chatbots and agents
     confidence: 0.8
     facts:
-      stars: 67070
+      stars: 67107
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-09-25
@@ -1970,42 +3164,45 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 73
+    score: 72
   - id: mempalace
     repo: mempalace/mempalace
     name: MemPalace
     status: listed
-    tagline: Local verbatim memory for coding agents on ChromaDB with 45 MCP tools
-    summary: "MemPalace stores conversation history verbatim, never summarised, and retrieves it by scoped semantic search over a palace of wings (people, projects), rooms (topics) and drawers. It runs locally with Python 3.9+ and ChromaDB by default, exposes 45 MCP tools plus a CLI, mines Claude Code, Codex and Cursor transcripts via hooks, and needs no API key: 96.6% R@5 on LongMemEval without an LLM."
+    tagline: Local long-term memory store for agents with verbatim storage and semantic search
+    summary: MemPalace stores conversation history as verbatim text and retrieves it with semantic search, organized into wings (people, projects), rooms (topics) and drawers (original content). It ships a CLI, 47 MCP tools, a SQLite temporal knowledge graph, and auto-save hooks for Claude Code, Codex CLI and Cursor. ChromaDB is the default backend; sqlite_exact, rust_exact, Milvus, Qdrant and pgvector are selectable.
     categories:
       - memory
     strengths:
-      - Verbatim storage; nothing is summarised or paraphrased
-      - 96.6% R@5 on LongMemEval with no LLM or API key; results reproducible from the repo
-      - "Pluggable backends: ChromaDB, sqlite, Rust-native, Milvus, Qdrant, pgvector"
-      - Multi-arch Docker image; auto-save hooks for Claude Code, Codex and Cursor
+      - Raw retrieval scores 96.6% R@5 on LongMemEval with no LLM or API key
+      - "Pluggable backends: Chroma, SQLite exact, Rust, Milvus, Qdrant, pgvector"
+      - Benchmark results and reproduction commands are committed in the repository
+      - Optional OpenAI-compatible embedding endpoint, including local LM Studio, llama.cpp or Ollama
     weaknesses:
-      - First run downloads an 80 to 300 MB embedding model; Docker needs network then
-      - No native Android/Termux; GPU image is x86_64-only and unpublished
-      - Docker image runs as uid 1000, so bind mounts must be readable by that uid
-      - README warns about impostor domains distributing malware
+      - Native Termux install unsupported; Android needs a Debian PRoot container
+      - Stores verbatim text only; no summarization or fact extraction
+      - First embedding call downloads a model of about 80 to 300 MB
+      - GPU Docker image is not published and is x86_64-only
     specs:
       ram_min_gb: null
-      gpu: none
-      external_deps: []
+      gpu: optional
+      external_deps:
+        - ChromaDB (default backend)
+        - ONNX Runtime
+        - "Optional: Milvus, Qdrant, PostgreSQL with pgvector"
       model_support:
-        - local embeddings (MiniLM, EmbeddingGemma)
-        - OpenAI-compatible embedding endpoints
-        - Ollama
+        - all-MiniLM-L6-v2
+        - embeddinggemma-300m
+        - OpenAI-compatible /v1/embeddings endpoints
       web_port: null
     links:
       demo: null
       website: https://mempalaceofficial.com
       docs: https://mempalaceofficial.com/guide/getting-started.html
-    audience: Coding-agent users who want local, inspectable, verbatim session memory
+    audience: Users of Claude Code, Codex or MCP agents wanting local persistent memory
     confidence: 0.85
     facts:
-      stars: 59536
+      stars: 59540
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-09-16
@@ -2013,30 +3210,35 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 77
+    score: 76
   - id: openviking
     repo: volcengine/openviking
     name: OpenViking
     status: listed
-    tagline: Context database exposing agent memory, knowledge and skills as a filesystem
-    summary: OpenViking organises everything an agent knows as a viking:// virtual filesystem of resources, memories and skills, browsed with ls, tree, read and grep, with search scoped to a subtree. Each directory carries generated summaries so agents read full content only when needed. The server needs Python 3.10+ plus an embedding model and a VLM; plugins cover Claude Code, Codex, Cursor and OpenClaw.
+    tagline: Context database that stores agent memory, resources and skills as a virtual filesystem
+    summary: OpenViking organizes what an agent knows under a viking:// virtual filesystem, with documents, memories and skills browsable through ls, tree, read, write and grep. Directories carry generated L0 abstracts and L1 overviews so agents read summaries before full content, and committed sessions become editable Markdown memories. It ships a server, an ov CLI, Python, Go and TypeScript SDKs, an HTTP API, and a memory plugin installer for Claude Code, Codex, Cursor and others.
     categories:
       - memory
       - rag-knowledge
     strengths:
-      - Memory is inspectable and editable as Markdown files under viking:// URIs
-      - LoCoMo accuracy 80 to 83% for OpenClaw, Hermes and Claude Code at far fewer tokens
-      - Python, Go and TypeScript SDKs plus HTTP API; multi-tenant accounts and ACLs
-      - Hosted Studio playground at openviking.ai/studio; Railway one-click deploy
+      - Memory is stored as inspectable, editable files under viking:// URIs rather than opaque embeddings
+      - Search can be scoped to a directory subtree; L0/L1 summaries cut full reads
+      - Plugin installer covers Claude Code, Codex, Cursor, TRAE, OpenCode, with OpenClaw and Hermes integrations
+      - Python, Go and TypeScript SDKs, HTTP API, CLI, plus accounts, user isolation and opt-in ACLs
     weaknesses:
-      - AGPL-3.0 license
-      - Needs both an embedding model and a vision-language model from a provider
-      - Memory plugin installer is macOS/Linux only; Windows uses the beta desktop app
-      - Benchmarks were run with Volcengine Doubao models
+      - AGPL-3.0 license may constrain embedding in proprietary or networked products
+      - Needs a model provider with both an embedding model and a VLM
+      - Memory extraction runs in the background, so new memories are not immediately retrievable
+      - Published benchmarks use Volcengine Doubao models; results with other providers are not shown
     specs:
       ram_min_gb: null
       gpu: none
-      external_deps: []
+      external_deps:
+        - uv
+        - Python 3.10+
+        - Embedding model provider
+        - VLM provider
+        - Node.js 18+ (plugin installer)
       model_support:
         - Volcengine
         - OpenAI
@@ -2049,10 +3251,10 @@ entries:
       demo: https://openviking.ai/studio
       website: https://www.openviking.ai
       docs: https://docs.openviking.ai/
-    audience: Teams wanting transparent, file-like memory shared across coding agents
-    confidence: 0.8
+    audience: Developers giving coding agents persistent, inspectable memory and context
+    confidence: 0.85
     facts:
-      stars: 39780
+      stars: 39813
       license: AGPL-3.0
       last_commit: 2026-10-13
       last_release: 2026-10-09
@@ -2060,7 +3262,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 75
+    score: 74
   - id: cognee
     repo: topoteretes/cognee
     name: Cognee
@@ -2096,15 +3298,15 @@ entries:
     audience: Developers building graph-backed memory for agents and company knowledge
     confidence: 0.85
     facts:
-      stars: 32121
+      stars: 32157
       license: Apache-2.0
       last_commit: 2026-10-08
-      last_release: 2026-10-07
+      last_release: 2026-10-13
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 78
+    score: 77
   - id: graphiti
     repo: getzep/graphiti
     name: Graphiti
@@ -2143,7 +3345,7 @@ entries:
     audience: Developers who want temporal graph memory and can run a graph database
     confidence: 0.85
     facts:
-      stars: 31688
+      stars: 31702
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-09-08
@@ -2151,54 +3353,56 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 71
+    score: 70
   - id: supermemory
     repo: supermemoryai/supermemory
     name: Supermemory
     status: listed
-    tagline: Memory and context API with user profiles, connectors and a local server
-    summary: Supermemory extracts facts from conversations, maintains per-user profiles and answers hybrid queries that mix RAG over documents with personal memory, through one API with npm and pip SDKs. The self-hosted path is a single binary (port 6767) with an embedded graph engine and local bge-base embeddings, usable offline with Ollama; the hosted platform adds Drive, Gmail, Notion and GitHub connectors.
+    tagline: Memory and context API that extracts user facts and serves profiles to agents
+    summary: Supermemory extracts facts from conversations, tracks updates and contradictions, expires stale facts, and returns a per-user profile plus hybrid RAG and memory search through one API. It ships TypeScript and Python SDKs, an MCP server, plugins for Claude Code, Cursor, Codex and OpenCode, and connectors for Google Drive, Gmail, Notion, OneDrive and GitHub. A local server (default port 6767) runs against any OpenAI-compatible, Anthropic, Gemini or Ollama model.
     categories:
       - memory
     strengths:
-      - One binary, zero config; local Xenova/bge-base-en-v1.5 embeddings need no API key
-      - Plugins for Claude Code, Cursor, Codex, OpenCode, OpenClaw and Hermes plus an MCP server
-      - Framework wrappers for Vercel AI SDK, LangChain, LangGraph, OpenAI Agents SDK and Mastra
-      - Open-source MemoryBench to compare memory providers
+      - Single call returns user profile (static and dynamic facts) plus search results, claimed ~50ms
+      - Local server exposes the same API as the hosted platform; switch by changing baseURL
+      - Handles contradictions and expiry of temporary facts instead of only appending
+      - Wrappers for Vercel AI SDK, LangChain, LangGraph, Mastra, OpenAI Agents SDK, n8n
     weaknesses:
-      - URL ingestion uses a hosted reader service even in local mode
-      - Telemetry is on unless SUPERMEMORY_DISABLE_TELEMETRY=1 is set
-      - Connectors (Drive, Gmail, Notion, GitHub) are described for the platform, not local
-      - README leads with benchmark rankings; the MCP server URL points to the hosted service
+      - Benchmark claims (#1 on LongMemEval, LoCoMo, ConvoMem) are self-reported
+      - URL ingestion in local mode relies on a hosted reader service
+      - MCP server and plugins default to the hosted service at mcp.supermemory.ai
+      - Local edition differs from Enterprise; README defers details to a separate docs page
     specs:
       ram_min_gb: null
-      gpu: none
-      external_deps: []
+      gpu: optional
+      external_deps:
+        - LLM provider key (OpenAI, Anthropic, Gemini, Groq or Ollama)
+        - Docker (optional)
       model_support:
         - OpenAI
         - Anthropic
         - Gemini
         - Groq
-        - OpenAI-compatible endpoints
         - Ollama
-        - local bge-base embeddings
+        - OpenAI-compatible endpoints
+        - Xenova/bge-base-en-v1.5 embeddings
       web_port: 6767
     links:
       demo: null
-      website: null
+      website: https://supermemory.ai
       docs: https://supermemory.ai/docs
-    audience: Product developers who want memory plus RAG behind one API
-    confidence: 0.8
+    audience: Developers adding long-term memory to agents and AI coding tools
+    confidence: 0.85
     facts:
-      stars: 31198
+      stars: 31206
       license: MIT
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-12
       has_docker: false
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 70
+    score: 69
   - id: agentmemory
     repo: rohitg00/agentmemory
     name: agentmemory
@@ -2233,15 +3437,15 @@ entries:
     audience: Developers using coding agents who want memory kept across sessions
     confidence: 0.8
     facts:
-      stars: 29367
+      stars: 29382
       license: Apache-2.0
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-06
       has_docker: true
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 75
+    score: 74
   - id: memos
     repo: memtensor/memos
     name: MemOS
@@ -2275,7 +3479,7 @@ entries:
     audience: Teams building multi-user agent memory with graph and vector stores
     confidence: 0.75
     facts:
-      stars: 11837
+      stars: 11847
       license: Apache-2.0
       last_commit: 2026-09-22
       last_release: 2026-09-23
@@ -2283,31 +3487,33 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 67
+    score: 66
   - id: honcho
     repo: plastic-labs/honcho
     name: Honcho
     status: listed
-    tagline: Memory service modelling users, agents and groups as evolving peers
-    summary: Honcho is a FastAPI memory server where humans and agents are peers that exchange messages in sessions; a background deriver reasons over them and maintains per-peer representations and summaries you query via peer.chat, hybrid search or prompt-ready context. Run it managed at api.honcho.dev, locally with honcho start (API, deriver, Postgres and Redis in Docker) or from source with Docker Compose on port 8000.
+    tagline: Memory server that builds per-peer representations from agent conversations
+    summary: Honcho is a FastAPI memory service that stores messages on sessions, reasons over them in a background queue, and returns peer representations, session context, hybrid BM25 plus vector search, or natural-language answers. It ships Python and TypeScript SDKs, a CLI, and plugins for Claude Code, Codex, Cursor, OpenCode, Kilo Code and OpenClaw. It runs as a managed service at api.honcho.dev or self-hosted with API, deriver, Postgres and Redis.
     categories:
       - memory
     strengths:
-      - First-party plugins for Claude Code, Codex, Cursor, DeepSeek Harness, OpenCode, OpenClaw and Hermes
-      - Peer model handles multi-participant sessions and what one peer knows about another
-      - Python and TypeScript SDKs with .to_openai and .to_anthropic context helpers
-      - honcho start --setup brings up the whole local stack with one command
+      - Peer model covers users, agents, groups and projects, including what one peer knows about another
+      - Python and TypeScript SDKs; context exports directly to OpenAI or Anthropic message formats
+      - First-party plugins for Claude Code, Codex, Cursor, OpenCode, Kilo Code and OpenClaw share one config file
+      - Hybrid BM25 plus vector search and a low-latency representation endpoint alongside the chat endpoint
     weaknesses:
-      - AGPL-3.0 license
-      - Needs Postgres with pgvector and Redis plus an LLM key for the deriver
-      - Background reasoning is asynchronous; new messages are not reflected immediately
-      - README mixes marketing claims (Pareto frontier, data moats) with the technical content
+      - Reasoning runs asynchronously, so new messages may not appear in chat results immediately
+      - Self-hosting needs an LLM provider key (Gemini, Anthropic or OpenAI) for the background deriver
+      - AGPL-3.0 license may restrict use in closed-source network services
+      - Self-hosted stack requires Postgres and Redis alongside the API and deriver processes
     specs:
       ram_min_gb: null
       gpu: none
       external_deps:
-        - PostgreSQL with pgvector
+        - Postgres
         - Redis
+        - LLM provider API key (Gemini, Anthropic or OpenAI)
+        - Docker (for honcho start)
       model_support:
         - Gemini
         - Anthropic
@@ -2315,12 +3521,12 @@ entries:
       web_port: 8000
     links:
       demo: https://app.honcho.dev
-      website: null
+      website: https://honcho.dev
       docs: https://honcho.dev/docs/v3/documentation/reference/sdk
-    audience: Developers building agents that must model individual users over time
-    confidence: 0.8
+    audience: Developers adding long-term user and agent memory to apps or coding agents
+    confidence: 0.85
     facts:
-      stars: 7586
+      stars: 7596
       license: AGPL-3.0
       last_commit: 2026-10-12
       last_release: 2026-10-01
@@ -2328,39 +3534,40 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 58
+    score: 57
   - id: engram
     repo: gentleman-programming/engram
     name: Engram
     status: listed
-    tagline: Single Go binary memory for coding agents on SQLite FTS5 with MCP
-    summary: Engram is one Go binary that stores agent memory in a local SQLite database with FTS5 full-text search and exposes it over MCP stdio, a CLI, a local HTTP API and an interactive TUI. The engram setup command configures 14 agents including Claude Code, OpenCode, Gemini CLI, Codex, Cursor and Windsurf; memory is project-aware, can sync through Git as compressed chunks, and optionally replicates to Engram Cloud.
+    tagline: Persistent memory store for AI coding agents, exposed over MCP
+    summary: Engram is a single Go binary that stores coding-agent memory in a local SQLite database with FTS5 search. It exposes save, search, timeline and session tools over MCP stdio, plus a CLI, local HTTP API and terminal UI. `engram setup <agent>` configures 14 targets including Claude Code, OpenCode, Gemini CLI, Codex, Cursor and Windsurf. Git Sync and an optional Engram Cloud handle sharing across machines.
     categories:
       - memory
     strengths:
-      - No Node.js, Python or Docker; one binary and one SQLite file
-      - engram setup targets 14 agents plus any MCP-compatible client
-      - Git Sync shares memory across machines without a server
-      - engram doctor and binary self-tests for diagnostics; MIT license
+      - Single Go binary with one SQLite file; no Node, Python or Docker required
+      - One setup command per agent, 14 targets plus any MCP-compatible client
+      - "Project-aware: resolves project from explicit flag, ENGRAM_PROJECT or cwd"
+      - Local database is authoritative; Git Sync exports compressed chunks for sharing
     weaknesses:
-      - Full-text search only; no vector or semantic retrieval mentioned
-      - Engram Cloud replication is optional and separate from the local store
-      - Project detection can halt with project_transition_conflict after git init
-      - Install docs for Windows and Linux live in docs/, not the README
+      - Aimed at coding agents; not a general-purpose memory layer for other assistants
+      - Search is SQLite FTS5 full-text; README mentions no embedding or vector search
+      - Cloud replication is a separate optional component with its own upgrade steps
+      - Codex integration needs a compatible running core and manual restart after upgrades
     specs:
       ram_min_gb: null
       gpu: none
       external_deps: []
-      model_support: []
+      model_support:
+        - Any MCP-compatible agent
       web_port: null
     links:
       demo: null
       website: https://engram.gentlemanprogramming.com/
-      docs: null
-    audience: Developers wanting dependency-free local memory across coding agents
-    confidence: 0.8
+      docs: https://github.com/Gentleman-Programming/engram/blob/main/DOCS.md
+    audience: Developers using coding agents who want memory that persists across sessions
+    confidence: 0.85
     facts:
-      stars: 7153
+      stars: 7162
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-10-12
@@ -2368,7 +3575,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 63
+    score: 62
   - id: letta
     repo: letta-ai/letta-code
     name: Letta
@@ -2404,7 +3611,7 @@ entries:
     audience: Developers who want agents that keep learning across sessions and devices
     confidence: 0.75
     facts:
-      stars: 3590
+      stars: 3594
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-13
@@ -2454,7 +3661,7 @@ entries:
     audience: Teams building document Q&A with cited answers on their own servers
     confidence: 0.8
     facts:
-      stars: 92094
+      stars: 92145
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-09-29
@@ -2462,7 +3669,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 74
+    score: 73
   - id: private-gpt
     repo: zylon-ai/private-gpt
     name: PrivateGPT
@@ -2496,54 +3703,57 @@ entries:
     audience: developers building private AI apps on local models
     confidence: 0.85
     facts:
-      stars: 57573
+      stars: 57574
       license: Apache-2.0
-      last_commit: 2026-10-09
+      last_commit: 2026-10-13
       last_release: 2026-06-18
       has_docker: true
       has_compose: false
       is_template: false
       language: Python
-    score: 63
+    score: 62
   - id: lightrag
     repo: hkuds/lightrag
     name: LightRAG
     status: listed
-    tagline: Graph-plus-vector RAG server with web UI and Ollama-compatible API
-    summary: LightRAG indexes documents into a knowledge graph plus vector store and queries both layers, as a lighter alternative to Microsoft GraphRAG. The server package ships a REST API, a web UI for inserting and visualizing the graph, and Ollama-compatible /api routes for chat frontends. Parsing runs via MinerU, Docling or a native engine; production storage goes to PostgreSQL, Neo4j, MongoDB, Milvus or OpenSearch.
+    tagline: Graph-based RAG framework with a REST API server and web UI
+    summary: LightRAG indexes documents into a knowledge graph plus vector embeddings and answers queries with dual-level (entity and concept) retrieval. It ships as a Python library and as lightrag-server, which provides a REST API and a web UI for inserting, querying and visualizing the graph. It supports incremental updates, document deletion with graph rebuild, reranking, and several parsing and chunking options.
     categories:
       - rag-knowledge
     strengths:
-      - Dual-level graph and vector retrieval with fewer LLM calls than community-report GraphRAG
-      - Incremental updates and document deletion with graph regeneration from the LLM cache
-      - Three parsing engines and four chunking strategies, including paragraph-semantic
-      - "Separate LLM settings per role: extract, query, keywords and VLM"
+      - Document deletion rebuilds affected graph entries from the LLM cache; inserts are incremental
+      - Storage backends include PostgreSQL, Neo4j, MongoDB and OpenSearch, plus local file stores
+      - "Parsers: MinerU, Docling and a native engine; four chunking strategies"
+      - Setup wizard generates .env and compose files; RAGAS evaluation and Langfuse tracing supported
     weaknesses:
-      - Default KV, vector and graph stores are in-memory with file persistence, not for production
-      - Server binds 0.0.0.0 with every endpoint public until auth is configured
-      - Ollama-compatible /api routes stay open even with auth unless WHITELIST_PATHS is set
-      - docx smart headings and SVG rendering need extra spaCy models and libcairo
+      - Default in-memory/file stores are stated as not for production
+      - Server binds to 0.0.0.0 and endpoints are public until auth is set in .env
+      - Graph extraction needs LLM calls at index time; RAM and GPU needs are unstated
+      - "Optional features need extra steps: spaCy models for smart_heading, libcairo for SVG"
     specs:
       ram_min_gb: null
-      gpu: none
+      gpu: unknown
       external_deps:
+        - LLM provider
+        - embedding model
         - PostgreSQL (recommended for production)
         - Neo4j (optional)
         - MongoDB (optional)
-        - Milvus (optional)
         - OpenSearch (optional)
+        - MinerU or Docling (optional)
       model_support:
-        - LLM and embedding providers configured in .env
-        - tested with open models such as Qwen3-30B-A3B
+        - LLMs configured via .env
+        - open-source LLMs such as Qwen3-30B-A3B
+        - rerankers
       web_port: null
     links:
       demo: null
       website: null
-      docs: null
-    audience: developers wanting graph-based RAG with a ready server
-    confidence: 0.75
+      docs: https://github.com/HKUDS/LightRAG/blob/main/docs/LightRAG-API-Server.md
+    audience: Engineers building graph-based document Q&A over large corpora
+    confidence: 0.8
     facts:
-      stars: 40096
+      stars: 40111
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-09-02
@@ -2551,7 +3761,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 76
+    score: 75
   - id: open-notebook
     repo: lfnovo/open-notebook
     name: Open Notebook
@@ -2586,7 +3796,7 @@ entries:
     audience: individual researchers who want a private NotebookLM
     confidence: 0.85
     facts:
-      stars: 40116
+      stars: 40137
       license: MIT
       last_commit: 2026-10-05
       last_release: 2026-10-04
@@ -2594,7 +3804,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 76
+    score: 75
   - id: weknora
     repo: tencent/weknora
     name: WeKnora
@@ -2630,7 +3840,7 @@ entries:
     audience: teams needing a self-hosted enterprise knowledge assistant
     confidence: 0.8
     facts:
-      stars: 33587
+      stars: 33700
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-09-24
@@ -2638,7 +3848,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 70
+    score: 69
   - id: kotaemon
     repo: cinnamon/kotaemon
     name: Kotaemon
@@ -2678,7 +3888,7 @@ entries:
     audience: small teams wanting document Q&A with a ready UI
     confidence: 0.85
     facts:
-      stars: 25800
+      stars: 25802
       license: Apache-2.0
       last_commit: 2026-05-30
       last_release: 2026-05-31
@@ -2686,7 +3896,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 47
+    score: 46
   - id: maxkb
     repo: 1panel-dev/maxkb
     name: MaxKB
@@ -2721,7 +3931,7 @@ entries:
     audience: companies building internal Q&A bots and customer service agents
     confidence: 0.7
     facts:
-      stars: 22959
+      stars: 22965
       license: GPL-3.0
       last_commit: 2026-10-13
       last_release: 2026-09-03
@@ -2729,7 +3939,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 73
+    score: 72
   - id: db-gpt
     repo: eosphoros-ai/db-gpt
     name: DB-GPT
@@ -2764,7 +3974,7 @@ entries:
     audience: data teams wanting NL-to-SQL analysis with local models
     confidence: 0.8
     facts:
-      stars: 20128
+      stars: 20133
       license: MIT
       last_commit: 2026-10-11
       last_release: 2026-08-26
@@ -2772,7 +3982,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 55
+    score: 54
   - id: deepwiki-open
     repo: asyncfuncai/deepwiki-open
     name: DeepWiki-Open
@@ -2802,7 +4012,7 @@ entries:
     audience: developers onboarding to unfamiliar codebases
     confidence: 0.5
     facts:
-      stars: 18185
+      stars: 18186
       license: MIT
       last_commit: 2026-09-03
       last_release: null
@@ -2810,42 +4020,43 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 54
+    score: 53
   - id: surfsense
     repo: modsetter/surfsense
     name: SurfSense
     status: listed
-    tagline: Offline NotebookLM alternative that turns documents into decks, reports and podcasts
-    summary: SurfSense indexes local PDFs, Office files and images into SQLite, answers with citations and turns sources into summaries, flashcards, quizzes, mind maps, editable pptx/docx/xlsx and offline podcasts (Kokoro-82M). It runs a local Qwen3 (six sizes from 0.5 GB) or any OpenAI-compatible API, egress off by default. The supported path is a desktop installer; the Docker stack is community-supported.
+    tagline: Desktop agent that researches and edits your local documents with cited answers
+    summary: SurfSense is a desktop app, a NotebookLM-style agent that indexes your files on local disk and answers with citations. It can also create and edit PDF, Word, Excel and PowerPoint files, always writing a new copy, and generate podcasts, mind maps, flashcards and quizzes. It works with any OpenAI-compatible API or a local model and needs no account.
     categories:
       - rag-knowledge
       - search
     strengths:
-      - Parser, retrieval model and podcast voice ship in the installer; works with networking off
-      - Egress panel off by default, no telemetry or crash reporting
-      - Produces editable pptx, docx and xlsx files rather than chat only
-      - No account required; keys stored in the OS keychain
+      - Index stays on local disk; no account needed
+      - Edits PDF, Word, Excel and PowerPoint as new copies, originals untouched
+      - Works with any OpenAI-compatible API or a local model
+      - Installers for Windows x64, macOS Apple Silicon and Linux (AppImage, deb)
     weaknesses:
-      - Primary product is a desktop app, not a server
-      - Self-hosted Docker stack has no SLA and no hosted service behind it
-      - Hosted web app retired; export window closes 2026-10-18
-      - Plugins and priority support are behind a paid licence; no video overviews
+      - Hosted web app is being sunset; export workspaces before 18 October 2026
+      - Word and PowerPoint to PDF needs LibreOffice, enabled in Settings
+      - Image generation needs an image model; none is chosen by default
+      - OCR covers only Latin, Chinese and Japanese script
     specs:
       ram_min_gb: null
-      gpu: none
-      external_deps: []
+      gpu: optional
+      external_deps:
+        - LibreOffice (optional, for Office to PDF)
       model_support:
-        - local Qwen3 in six sizes from 0.5 GB
-        - any OpenAI-compatible API
+        - OpenAI-compatible APIs
+        - local models
       web_port: null
     links:
       demo: null
       website: https://www.surfsense.com/
-      docs: https://www.surfsense.com/docs
-    audience: individuals handling documents that cannot leave the machine
+      docs: null
+    audience: Users who need AI document research and editing without uploading files
     confidence: 0.8
     facts:
-      stars: 16400
+      stars: 16416
       license: NOASSERTION
       last_commit: 2026-10-09
       last_release: 2026-10-09
@@ -2853,7 +4064,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 70
+    score: 69
   - id: paperless-ai
     repo: clusterzx/paperless-ai
     name: Paperless-AI
@@ -2888,7 +4099,7 @@ entries:
     audience: Paperless-ngx users wanting automated tagging
     confidence: 0.7
     facts:
-      stars: 5975
+      stars: 5976
       license: MIT
       last_commit: 2026-03-31
       last_release: 2025-11-04
@@ -2896,44 +4107,45 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 37
+    score: 36
   - id: pipeshub
     repo: pipeshub-ai/pipeshub-ai
     name: PipesHub
     status: listed
-    tagline: Permission-aware search and agent context over 50+ workplace systems
-    summary: PipesHub indexes Slack, Google Drive, GitHub, Microsoft 365, Notion and 50+ systems into a knowledge graph (Neo4j or ArangoDB), Qdrant and MongoDB, then serves permission-aware search with block-level citations and hands the same context to agents over MCP and SDKs. Access is checked against source permissions at query time. A one-command installer writes Compose files and starts the stack on port 3000.
+    tagline: Permission-aware search and agent context over Slack, Drive, GitHub and more
+    summary: PipesHub indexes content from 50+ business systems such as Slack, Google Drive, GitHub, Microsoft 365 and Notion, then answers questions with block-level citations filtered by each user's source-system permissions. It stores data in a Neo4j or ArangoDB graph, Qdrant vectors and MongoDB, and exposes the same context to agents through a no-code builder, an MCP server and Python, TypeScript and Go SDKs. Any LLM provider works, including local models via Ollama.
     categories:
       - rag-knowledge
     strengths:
-      - Permission filtering resolved against the source system at query time
+      - Answers cite specific blocks in source documents and respect per-user source permissions
       - 50+ connectors with real-time and scheduled indexing
-      - MCP server plus Python, TypeScript and Go SDKs
-      - Kubernetes deployment with HA defaults; slim or full Compose profiles
+      - Exposes context via an MCP server and Python, TypeScript and Go SDKs
+      - Interactive installer generates secrets and .env; Kubernetes with HA defaults supported
     weaknesses:
-      - Needs Neo4j or ArangoDB, Qdrant, MongoDB, Redis, and Kafka at scale
-      - Installer is curl piped to bash
+      - "Multi-service stack: Neo4j or ArangoDB, Qdrant, MongoDB, Redis, optionally Kafka"
       - Audio and video are stored but not indexed yet
-      - Plain-HTTP cloud deployments show a white screen; TLS termination required
+      - Hosted PipesHub Cloud is only a waitlist; self-hosting is the only option today
+      - Personalized search and PageRank-augmented relevance are not yet shipped
     specs:
       ram_min_gb: null
-      gpu: none
+      gpu: optional
       external_deps:
+        - Docker Compose v2
         - Neo4j or ArangoDB
         - Qdrant
         - MongoDB
         - Redis
         - Kafka (larger deployments)
       model_support:
-        - any LLM provider, bring your own model
-        - Ollama
-        - local embedding server by default
+        - Any LLM provider
+        - Ollama local models
+        - Local embedding server by default
       web_port: 3000
     links:
-      demo: null
-      website: https://www.pipeshub.com/
+      demo: https://youtu.be/VgyND38QZ7w
+      website: https://www.pipeshub.com
       docs: https://docs.pipeshub.com/
-    audience: companies wanting cited answers across internal tools
+    audience: Teams self-hosting permission-aware company search and agent context
     confidence: 0.85
     facts:
       stars: 3830
@@ -3025,7 +4237,7 @@ entries:
     audience: paperless-ngx users who want AI titles, tags and better OCR
     confidence: 0.8
     facts:
-      stars: 2760
+      stars: 2766
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-10-12
@@ -3033,7 +4245,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 60
+    score: 59
   - id: docling-serve
     repo: docling-project/docling-serve
     name: Docling Serve
@@ -3066,15 +4278,15 @@ entries:
     audience: teams needing a document-to-text service for RAG pipelines
     confidence: 0.85
     facts:
-      stars: 1856
+      stars: 1858
       license: MIT
-      last_commit: 2026-10-01
+      last_commit: 2026-10-13
       last_release: 2026-10-01
       has_docker: true
       has_compose: false
       is_template: false
       language: Python
-    score: 53
+    score: 54
   - id: ollama
     repo: ollama/ollama
     name: Ollama
@@ -3108,7 +4320,7 @@ entries:
     audience: anyone wanting local models behind a simple API
     confidence: 0.85
     facts:
-      stars: 182940
+      stars: 182999
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-10-11
@@ -3149,7 +4361,7 @@ entries:
     audience: engineers who want a lean local inference server
     confidence: 0.85
     facts:
-      stars: 130977
+      stars: 131012
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-10-05
@@ -3162,35 +4374,46 @@ entries:
     repo: vllm-project/vllm
     name: vLLM
     status: listed
-    tagline: High-throughput LLM serving engine with OpenAI and Anthropic APIs
-    summary: vLLM is a Python serving engine for Hugging Face models that batches requests continuously with PagedAttention, prefix caching and speculative decoding, exposing an OpenAI-compatible API plus Anthropic Messages API and gRPC. It covers 200+ architectures (dense, MoE, multimodal, embedding) with FP8, INT8, GPTQ, AWQ and GGUF quantization and tensor, pipeline and expert parallelism.
+    tagline: Inference engine for Hugging Face LLMs with PagedAttention and continuous batching
+    summary: vLLM is a Python library and server for LLM inference. It manages attention KV memory with PagedAttention, batches requests continuously, and exposes an OpenAI-compatible API, plus the Anthropic Messages API and gRPC. It supports 200+ Hugging Face model architectures and runs on NVIDIA, AMD and Intel GPUs, several CPU types, and other accelerators through plugins.
     categories:
       - model-serving
     strengths:
-      - Continuous batching with PagedAttention for high multi-user throughput
-      - 200+ Hugging Face architectures including MoE, multimodal and embedding models
-      - OpenAI, Anthropic Messages and gRPC endpoints with tool calling and structured output
-      - Runs on NVIDIA, AMD, Intel GPUs, CPUs, TPUs, Gaudi, Ascend via plugins
+      - Continuous batching, chunked prefill, prefix caching and PagedAttention for high-throughput serving
+      - "Wide quantization support: FP8, NVFP4, INT4/INT8, GPTQ/AWQ, GGUF and others"
+      - Tensor, pipeline, data, expert and context parallelism for multi-GPU inference
+      - Runs on NVIDIA, AMD, Intel GPUs and x86/ARM/PowerPC CPUs, with plugins for TPU, Gaudi, Ascend
     weaknesses:
-      - No web UI; API server only
-      - README gives no VRAM, port or model-size guidance
-      - Heavy Python, PyTorch and CUDA dependency chain; no single binary
-      - Most optimized kernels target NVIDIA and AMD GPUs; CPU path is secondary
+      - README gives no minimum RAM or VRAM figures
+      - Several hardware targets depend on separate plugins rather than the core package
+      - Large feature surface means many tuning options to learn
+      - Server and library only, with no built-in chat UI
     specs:
       ram_min_gb: null
       gpu: optional
-      external_deps: []
+      external_deps:
+        - Python
+        - PyTorch
       model_support:
-        - "200+ Hugging Face architectures: Llama, Qwen, Gemma, Mixtral, DeepSeek-V3, GPT-OSS, LLaVA, Qwen-VL, E5-Mistral"
+        - Hugging Face models
+        - Llama
+        - Qwen
+        - Gemma
+        - Mixtral
+        - DeepSeek-V3
+        - GPT-OSS
+        - Mamba
+        - LLaVA
+        - GGUF
       web_port: null
     links:
       demo: null
       website: https://vllm.ai
       docs: https://docs.vllm.ai
-    audience: teams serving open models to many concurrent users
-    confidence: 0.85
+    audience: Engineers running high-throughput LLM inference on GPUs or other accelerators
+    confidence: 0.9
     facts:
-      stars: 93680
+      stars: 93713
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-05
@@ -3198,7 +4421,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 76
+    score: 75
   - id: localai
     repo: mudler/localai
     name: LocalAI
@@ -3234,15 +4457,15 @@ entries:
     audience: self-hosters wanting one API for LLM, speech and image models
     confidence: 0.85
     facts:
-      stars: 49499
+      stars: 49512
       license: MIT
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-02
       has_docker: true
       has_compose: true
       is_template: false
       language: Go
-    score: 82
+    score: 81
   - id: text-generation-webui
     repo: oobabooga/textgen
     name: Text Generation Web UI
@@ -3279,7 +4502,7 @@ entries:
     audience: hobbyists running local models with a full-featured UI
     confidence: 0.85
     facts:
-      stars: 47728
+      stars: 47729
       license: AGPL-3.0
       last_commit: 2026-08-17
       last_release: 2026-05-20
@@ -3287,7 +4510,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 55
+    score: 54
   - id: sglang
     repo: sgl-project/sglang
     name: SGLang
@@ -3322,7 +4545,7 @@ entries:
     audience: Engineers serving LLMs at scale or running RL rollouts on GPU clusters
     confidence: 0.85
     facts:
-      stars: 37054
+      stars: 37084
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-02
@@ -3330,7 +4553,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 69
+    score: 68
   - id: llamafile
     repo: mozilla-ai/llamafile
     name: llamafile
@@ -3363,7 +4586,7 @@ entries:
     audience: people who want a model that runs with zero setup
     confidence: 0.8
     facts:
-      stars: 26229
+      stars: 26231
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-09-15
@@ -3371,47 +4594,48 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 51
+    score: 50
   - id: ktransformers
     repo: kvcache-ai/ktransformers
     name: KTransformers
     status: listed
-    tagline: CPU-GPU hybrid inference and fine-tuning for very large MoE models
-    summary: KTransformers is a research framework for CPU-GPU heterogeneous inference and fine-tuning of large MoE models. Its kt-kernel package provides Intel AMX and AVX512/AVX2 INT4/INT8 kernels with NUMA-aware expert placement, so DeepSeek-V3/R1, Kimi K2.x and GLM-5.x run with hot experts on GPU and cold ones on CPU, served through SGLang. A LlamaFactory integration fine-tunes the same models with LoRA or full parameters.
+    tagline: CPU-GPU hybrid inference and LoRA fine-tuning for large MoE models
+    summary: KTransformers runs large Mixture-of-Experts models by keeping hot experts on the GPU and cold experts on the CPU, using AMX/AVX512/AVX2 INT4/INT8 kernels with NUMA-aware memory. The kt-kernel package plugs into SGLang for serving. A second path integrates with LLaMA-Factory for LoRA and full fine-tuning of MoE models such as DeepSeek-V3/R1 and Kimi K2.5 on limited GPU memory.
     categories:
       - model-serving
     strengths:
-      - DeepSeek-R1 class models on one 24 GB GPU plus large host RAM
-      - Day-0 support for DeepSeek-V4, Kimi K2.x, GLM-5.x and MiniMax-M3
-      - LoRA and full fine-tuning of MoE models on 4x RTX 4090 via LlamaFactory
-      - Ascend NPU, AMD ROCm and Intel Arc paths beyond NVIDIA
+      - Runs very large MoE models with experts offloaded to CPU RAM, so fewer GPUs are needed
+      - CPU kernels cover Intel AMX, AVX512 and AVX2-only machines
+      - Fine-tuning via LLaMA-Factory; README lists DeepSeek-V3 at ~80GB total GPU memory on 4x RTX 4090
+      - Fast support for new models, with tutorials for GLM-5, Kimi K2.5, MiniMax and DeepSeek-V4-Flash
     weaknesses:
-      - Serving goes through SGLang (sglang-kt); the standalone framework is archived
-      - DeepSeek-R1 example needs 382 GB DRAM alongside 24 GB VRAM
-      - Fastest kernels need Intel AMX or AVX512; AVX2 support is newer
-      - Research project; some docs and support channels are Chinese-only
+      - Needs large system RAM for big MoE models; exact minimum is not stated in the README
+      - Original integrated framework is archived; the current docs are split across kt-kernel and SFT
+      - Serving depends on SGLang integration rather than a standalone server in this README
+      - Research-oriented project; setup is manual, with per-model tutorials and hardware-specific steps
     specs:
       ram_min_gb: null
       gpu: required
       external_deps:
-        - SGLang (serving)
-        - LLaMA-Factory (fine-tuning)
+        - SGLang
+        - LLaMA-Factory
+        - PyTorch
       model_support:
-        - DeepSeek-V3/R1/V4-Flash
-        - Kimi K2 to K2.6
-        - GLM-5 to 5.3
-        - MiniMax-M2.x/M3
-        - Qwen3-MoE, Qwen3-Next
-        - Mixtral, LLaMA 4 (experimental)
+        - DeepSeek-V3/R1
+        - DeepSeek-V4-Flash
+        - Kimi K2/K2.5/K2.6
+        - GLM-5
+        - MiniMax-M2.5/M3
+        - Qwen3-MoE
       web_port: null
     links:
       demo: null
       website: null
       docs: https://kvcache-ai.github.io/ktransformers/
-    audience: researchers running huge MoE models on limited GPUs
-    confidence: 0.75
+    audience: Self-hosters running or fine-tuning huge MoE models on one GPU plus lots of RAM
+    confidence: 0.8
     facts:
-      stars: 19601
+      stars: 19603
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-09-15
@@ -3419,7 +4643,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 59
+    score: 58
   - id: openllm
     repo: bentoml/openllm
     name: OpenLLM
@@ -3455,7 +4679,7 @@ entries:
     audience: developers wanting a quick OpenAI-compatible endpoint for curated models
     confidence: 0.85
     facts:
-      stars: 12557
+      stars: 12558
       license: Apache-2.0
       last_commit: 2026-05-29
       last_release: 2025-04-21
@@ -3463,7 +4687,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 38
   - id: triton-inference-server
     repo: triton-inference-server/server
     name: Triton Inference Server
@@ -3496,7 +4720,7 @@ entries:
     audience: ML platform teams serving many model types in production
     confidence: 0.85
     facts:
-      stars: 11075
+      stars: 11080
       license: BSD-3-Clause
       last_commit: 2026-10-09
       last_release: 2026-09-30
@@ -3504,7 +4728,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 63
+    score: 62
   - id: xinference
     repo: xorbitsai/inference
     name: Xinference
@@ -3552,7 +4776,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 65
+    score: 64
   - id: lmdeploy
     repo: internlm/lmdeploy
     name: LMDeploy
@@ -3628,7 +4852,7 @@ entries:
     audience: developers wanting a fast Rust server with agent features
     confidence: 0.85
     facts:
-      stars: 7742
+      stars: 7741
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-09-24
@@ -3636,49 +4860,54 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 63
+    score: 62
   - id: llama-swap
     repo: mostlygeek/llama-swap
     name: llama-swap
     status: listed
-    tagline: Go proxy that hot-swaps local model servers per request
-    summary: llama-swap is one Go binary that proxies OpenAI and Anthropic API calls to local servers (llama-server, vLLM, stable-diffusion.cpp, whisper.cpp) and starts, stops or swaps the right one per model ID from a YAML file. It adds a web UI, log streaming, Prometheus metrics, API keys, TTL unload and a matrix DSL for concurrent models. Unified Docker images bundle the servers for CUDA and Vulkan.
+    tagline: Go proxy that starts and swaps local inference servers per request
+    summary: llama-swap is a single Go binary that sits in front of local inference servers such as llama.cpp, vllm, stable-diffusion.cpp and audio.cpp. It reads the `model` field of each OpenAI- or Anthropic-style request, starts the matching server from a YAML `cmd`, and stops the previous one. It includes a web UI, API keys, TTL unloading and a matrix DSL for running models concurrently.
     categories:
       - model-serving
     strengths:
-      - One binary, one YAML file, zero dependencies
-      - Hot-swaps any OpenAI or Anthropic-compatible upstream per model ID, with ttl unload
-      - Unified images bundle llama-server, stable-diffusion.cpp, whisper.cpp, audio.cpp
-      - Web UI with playground, token metrics, request inspection and live logs
+      - One binary and one YAML file, no external dependencies
+      - Works with any OpenAI- or Anthropic-compatible upstream server, not only llama.cpp
+      - Matrix DSL runs chosen models concurrently; ttl unloads idle ones
+      - Built-in web UI with playground, token metrics, log streaming and Prometheus /metrics
     weaknesses:
-      - Basic mode runs one model at a time; concurrency needs the matrix DSL
-      - Python servers like vLLM or tabbyAPI should run in containers for clean SIGTERM
-      - nginx needs proxy_buffering off or SSE streaming breaks
-      - Container listen address must stay 0.0.0.0 when publishing ports
+      - Does not run inference itself; you supply and configure the upstream servers
+      - Originally designed for llama-server; Python servers like vllm should run in Docker or Podman
+      - Swapping reloads the model, so the first request after a switch is slow
+      - Auth is limited to API keys; no user accounts mentioned
     specs:
       ram_min_gb: null
       gpu: optional
       external_deps:
-        - an upstream inference server (llama-server, vLLM, etc.)
+        - llama.cpp or another OpenAI-compatible inference server
       model_support:
-        - any model served by the configured upstream (GGUF via llama-server, etc.)
+        - GGUF via llama.cpp
+        - vllm
+        - stable-diffusion.cpp
+        - whisper.cpp
+        - audio.cpp
+        - ComfyUI
       web_port: 8080
     links:
       demo: null
       website: null
-      docs: null
-    audience: home-lab users juggling several local models on one GPU
+      docs: https://github.com/mostlygeek/llama-swap/tree/main/docs/kb
+    audience: Self-hosters running several local models on one machine behind one API
     confidence: 0.85
     facts:
       stars: 5941
       license: MIT
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-12
       has_docker: true
       has_compose: false
       is_template: false
       language: Go
-    score: 65
+    score: 64
   - id: lemonade
     repo: lemonade-sdk/lemonade
     name: Lemonade
@@ -3712,7 +4941,7 @@ entries:
     audience: PC users with AMD or NVIDIA hardware wanting a local API
     confidence: 0.8
     facts:
-      stars: 5880
+      stars: 5883
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-07
@@ -3720,7 +4949,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 68
+    score: 67
   - id: gpustack
     repo: gpustack/gpustack
     name: GPUStack
@@ -3754,7 +4983,7 @@ entries:
     audience: ops teams running shared GPU fleets as a model service
     confidence: 0.85
     facts:
-      stars: 5817
+      stars: 5821
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-07-31
@@ -3841,7 +5070,7 @@ entries:
     audience: Self-hosters running EXL3 models on Nvidia or AMD GPUs
     confidence: 0.82
     facts:
-      stars: 1468
+      stars: 1469
       license: AGPL-3.0
       last_commit: 2026-10-12
       last_release: null
@@ -3885,15 +5114,15 @@ entries:
     audience: Developers pooling free and paid LLM providers behind one API endpoint
     confidence: 0.7
     facts:
-      stars: 75809
+      stars: 75960
       license: MIT
-      last_commit: 2026-10-11
+      last_commit: 2026-10-13
       last_release: 2026-09-30
       has_docker: true
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 87
+    score: 86
   - id: litellm
     repo: berriai/litellm
     name: LiteLLM
@@ -3932,7 +5161,7 @@ entries:
     audience: Teams routing many LLM providers through one self-hosted API
     confidence: 0.8
     facts:
-      stars: 61105
+      stars: 61143
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-10-11
@@ -3940,7 +5169,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 89
+    score: 88
   - id: portkey-gateway
     repo: portkey-ai/gateway
     name: Portkey Gateway
@@ -3973,7 +5202,7 @@ entries:
     audience: teams needing resilient multi-provider routing with guardrails
     confidence: 0.8
     facts:
-      stars: 13174
+      stars: 13176
       license: MIT
       last_commit: 2026-05-25
       last_release: 2026-01-12
@@ -3981,7 +5210,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 43
+    score: 42
   - id: higress
     repo: higress-group/higress
     name: Higress
@@ -4014,7 +5243,7 @@ entries:
     audience: platform teams wanting one gateway for APIs, LLMs and MCP
     confidence: 0.8
     facts:
-      stars: 9540
+      stars: 9546
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-04
@@ -4022,7 +5251,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 62
+    score: 61
   - id: coai
     repo: coaidev/coai
     name: CoAI
@@ -4060,7 +5289,7 @@ entries:
     audience: operators running a paid multi-user ChatGPT-style site
     confidence: 0.8
     facts:
-      stars: 9326
+      stars: 9327
       license: Apache-2.0
       last_commit: 2026-03-12
       last_release: 2025-10-23
@@ -4101,7 +5330,7 @@ entries:
     audience: teams wanting a fast self-hosted gateway with governance
     confidence: 0.85
     facts:
-      stars: 8733
+      stars: 8749
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-13
@@ -4109,7 +5338,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 66
+    score: 65
   - id: plano
     repo: katanemo/plano
     name: Plano
@@ -4143,7 +5372,7 @@ entries:
     audience: teams shipping multi-agent apps that need routing and tracing
     confidence: 0.75
     facts:
-      stars: 7085
+      stars: 7086
       license: Apache-2.0
       last_commit: 2026-10-07
       last_release: 2026-09-28
@@ -4151,7 +5380,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 64
+    score: 63
   - id: agentgateway
     repo: agentgateway/agentgateway
     name: agentgateway
@@ -4184,7 +5413,7 @@ entries:
     audience: platform teams securing MCP, A2A and LLM traffic
     confidence: 0.8
     facts:
-      stars: 5300
+      stars: 5308
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-02
@@ -4227,9 +5456,9 @@ entries:
     audience: enterprises centralizing MCP tools and agents behind one gateway
     confidence: 0.85
     facts:
-      stars: 4610
+      stars: 4614
       license: Apache-2.0
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-09-28
       has_docker: true
       has_compose: true
@@ -4276,7 +5505,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 32
+    score: 31
   - id: optillm
     repo: algorithmicsuperintelligence/optillm
     name: optillm
@@ -4351,7 +5580,7 @@ entries:
     audience: teams curating MCP tool sets for many clients
     confidence: 0.8
     facts:
-      stars: 2703
+      stars: 2705
       license: MIT
       last_commit: 2026-06-22
       last_release: 2025-12-19
@@ -4395,8 +5624,8 @@ entries:
     facts:
       stars: 1235
       license: MIT
-      last_commit: 2026-10-12
-      last_release: 2026-10-09
+      last_commit: 2026-10-13
+      last_release: 2026-10-13
       has_docker: true
       has_compose: true
       is_template: false
@@ -4434,7 +5663,7 @@ entries:
     audience: app developers needing instant search with semantic ranking
     confidence: 0.8
     facts:
-      stars: 59554
+      stars: 59557
       license: NOASSERTION
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -4442,7 +5671,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 75
+    score: 74
   - id: milvus
     repo: milvus-io/milvus
     name: Milvus
@@ -4475,7 +5704,7 @@ entries:
     audience: teams needing billion-scale vector search on Kubernetes
     confidence: 0.85
     facts:
-      stars: 46366
+      stars: 46375
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-09-20
@@ -4483,7 +5712,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 81
+    score: 80
   - id: qdrant
     repo: qdrant/qdrant
     name: Qdrant
@@ -4516,7 +5745,7 @@ entries:
     audience: developers wanting a filter-heavy vector store with gRPC
     confidence: 0.85
     facts:
-      stars: 35053
+      stars: 35058
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-10-05
@@ -4524,7 +5753,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 69
+    score: 68
   - id: chroma
     repo: chroma-core/chroma
     name: Chroma
@@ -4557,7 +5786,7 @@ entries:
     audience: developers prototyping RAG who want the simplest API
     confidence: 0.8
     facts:
-      stars: 29490
+      stars: 29494
       license: Apache-2.0
       last_commit: 2026-10-09
       last_release: 2026-05-05
@@ -4565,7 +5794,7 @@ entries:
       has_compose: true
       is_template: false
       language: Rust
-    score: 62
+    score: 61
   - id: pgvector
     repo: pgvector/pgvector
     name: pgvector
@@ -4599,7 +5828,7 @@ entries:
     audience: teams already on Postgres who want vectors without a new database
     confidence: 0.9
     facts:
-      stars: 23326
+      stars: 23335
       license: NOASSERTION
       last_commit: 2026-10-01
       last_release: null
@@ -4607,7 +5836,7 @@ entries:
       has_compose: false
       is_template: false
       language: C
-    score: 59
+    score: 58
   - id: weaviate
     repo: weaviate/weaviate
     name: Weaviate
@@ -4643,15 +5872,15 @@ entries:
     audience: teams wanting built-in vectorization, hybrid search and RAG in the database
     confidence: 0.85
     facts:
-      stars: 16877
+      stars: 16878
       license: NOASSERTION
-      last_commit: 2026-10-12
-      last_release: 2026-10-07
+      last_commit: 2026-10-13
+      last_release: 2026-10-13
       has_docker: true
       has_compose: true
       is_template: false
       language: Go
-    score: 63
+    score: 62
   - id: vespa
     repo: vespa-engine/vespa
     name: Vespa
@@ -4685,9 +5914,9 @@ entries:
     audience: search teams needing ML ranking at very large scale
     confidence: 0.75
     facts:
-      stars: 7126
+      stars: 7128
       license: Apache-2.0
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-05
       has_docker: false
       has_compose: false
@@ -4727,7 +5956,7 @@ entries:
     audience: developers wanting graph plus vector retrieval in one store
     confidence: 0.8
     facts:
-      stars: 6192
+      stars: 6198
       license: Apache-2.0
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -4772,7 +6001,7 @@ entries:
     audience: Hobbyists and studios training custom voices locally
     confidence: 0.8
     facts:
-      stars: 62732
+      stars: 62757
       license: MIT
       last_commit: 2026-10-08
       last_release: 2025-06-06
@@ -4780,7 +6009,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 57
+    score: 55
   - id: voicebox
     repo: jamiepine/voicebox
     name: Voicebox
@@ -4822,7 +6051,7 @@ entries:
     audience: Individuals wanting local voice cloning, TTS and dictation
     confidence: 0.8
     facts:
-      stars: 57195
+      stars: 57317
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-04-25
@@ -4830,7 +6059,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 70
+    score: 68
   - id: index-tts
     repo: index-tts/index-tts
     name: IndexTTS
@@ -4866,7 +6095,7 @@ entries:
     audience: Developers needing controllable multilingual voice cloning
     confidence: 0.75
     facts:
-      stars: 24453
+      stars: 24464
       license: NOASSERTION
       last_commit: 2026-09-29
       last_release: 2026-08-13
@@ -4874,7 +6103,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 62
+    score: 60
   - id: f5-tts
     repo: swivid/f5-tts
     name: F5-TTS
@@ -4910,7 +6139,7 @@ entries:
     audience: Researchers and builders training or serving open TTS models
     confidence: 0.8
     facts:
-      stars: 15391
+      stars: 15395
       license: MIT
       last_commit: 2026-10-11
       last_release: 2026-07-23
@@ -4918,7 +6147,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 58
+    score: 57
   - id: speech-to-speech
     repo: huggingface/speech-to-speech
     name: Speech-to-Speech
@@ -4960,50 +6189,57 @@ entries:
     audience: Developers building self-hosted voice agents or Realtime API backends
     confidence: 0.82
     facts:
-      stars: 13435
+      stars: 13440
       license: Apache-2.0
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-09-06
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 69
+    score: 68
   - id: pocket-tts
     repo: kyutai-labs/pocket-tts
     name: Pocket TTS
     status: listed
-    tagline: 100M-parameter CPU text-to-speech with streaming and voice cloning
-    summary: "Generates speech on CPU with a 100M-parameter model: about 200 ms to the first audio chunk and roughly 6x real time on an M4 MacBook Air using two cores. Covers English, French, German, Portuguese, Italian, Spanish and Dutch, clones a voice from a WAV file, and runs as a CLI, a Python library or an HTTP server with a web UI on port 8000. For developers who want TTS without a GPU."
+    tagline: CPU-only text-to-speech model with voice cloning and streaming
+    summary: Pocket TTS is a 100M-parameter text-to-speech model from Kyutai that runs on CPU, using about 2 cores. It ships a Python API and a CLI with generate, serve and export-voice commands, and clones voices from a wav sample. It supports seven languages, streams audio with roughly 200ms to first chunk, and reaches about 6x real-time on a MacBook Air M4.
     categories:
       - voice
     strengths:
-      - Runs on 2 CPU cores; no CUDA build of PyTorch needed
-      - Streaming output with about 200 ms first-chunk latency
-      - Voice cloning from any WAV; export voices to safetensors for fast loading
-      - Training code released; community models load via --config
+      - Runs on 2 CPU cores, no GPU required; about 6x real-time on a MacBook Air M4
+      - Voice cloning from a wav file, with export to safetensors for fast reloads
+      - Seven languages (en, fr, de, pt, it, es, nl) plus community models such as Czech, Hindi and Korean
+      - Installs with pip or uvx; serve command gives a local web UI and HTTP endpoint
     weaknesses:
-      - Seven European languages; others depend on community-trained models
-      - No pause or silence markup in text input
-      - serve command and Docker image are CPU-only; GPU use is unsupported and manual
-      - Linux pip pulls CUDA PyTorch (about 3 GB) unless the CPU index is set
+      - "GPU use is unofficial: no device argument on load_model, and serve and Docker image are CPU-only"
+      - Cannot insert silence in the text input to create pauses
+      - Default Linux pip install pulls CUDA PyTorch (~3 GB) unless the CPU index is passed
+      - Pre-made voice embeddings do not work with community-trained models
     specs:
       ram_min_gb: null
       gpu: none
-      external_deps: []
+      external_deps:
+        - PyTorch 2.5+
+        - Python 3.10-3.14
       model_support:
         - Pocket TTS 100M
-        - 24-layer language variants
-        - community checkpoints via --config
+        - English
+        - French
+        - German
+        - Portuguese
+        - Italian
+        - Spanish
+        - Dutch
       web_port: 8000
     links:
       demo: https://kyutai.org/pocket-tts
-      website: null
+      website: https://kyutai.org/pocket-tts
       docs: https://kyutai-labs.github.io/pocket-tts/
-    audience: Developers adding TTS to apps without a GPU
-    confidence: 0.85
+    audience: Developers needing local, low-latency TTS and voice cloning without a GPU
+    confidence: 0.9
     facts:
-      stars: 9876
+      stars: 9878
       license: MIT
       last_commit: 2026-10-11
       last_release: 2026-09-24
@@ -5011,41 +6247,42 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 66
+    score: 65
   - id: kokoro-fastapi
     repo: remsky/kokoro-fastapi
     name: Kokoro-FastAPI
     status: listed
-    tagline: OpenAI-compatible Kokoro-82M speech API in CPU and GPU images
-    summary: Serves the Kokoro-82M model behind an OpenAI-compatible /v1/audio/speech endpoint on port 8880, streaming mp3, wav, opus, flac, aac or pcm. Covers English (US/GB), Spanish, French, Hindi, Italian, Japanese, Brazilian Portuguese and Mandarin, with weighted voice mixing, inline [voice:] and [pause:] tags, word timestamps and phoneme endpoints. Prebuilt images exist for CPU, CUDA (amd64 and arm64) and experimental ROCm.
+    tagline: OpenAI-compatible text-to-speech server for the Kokoro-82M model
+    summary: Wraps the Kokoro-82M TTS model in a FastAPI server that implements the OpenAI /v1/audio/speech endpoint, with streaming and output in mp3, wav, opus, flac, aac or pcm. It adds weighted voice mixing, inline multi-speaker tags, pause/rate/pronunciation tokens, per-word timestamps and phoneme endpoints. Prebuilt images cover CPU, NVIDIA CUDA and experimental AMD ROCm; Apple Silicon runs natively via uv.
     categories:
       - voice
     strengths:
-      - Drop-in for the OpenAI Python client; models baked into the images
-      - Weighted voice mixing and inline speaker, pause, rate and IPA tags
-      - Per-word timestamp captions and phoneme in/out endpoints
-      - First-token latency about 300 ms on GPU
+      - Drop-in for the OpenAI speech API; works with the stock OpenAI Python client
+      - Prebuilt CPU and CUDA images for amd64 and arm64 with models baked in
+      - Voice mixing, aliases, inline speaker tags and timestamped captions
+      - Bundled web UI at /web and Swagger docs at /docs
     weaknesses:
-      - "CPU first-token latency: 3.5 s on an older i7, under 1 s on M3 Pro"
-      - No true voice cloning; /dev/tune only nudges toward a reference clip
-      - ROCm image is experimental and amd64 only
-      - Apple Silicon GPU (MPS) only when run natively via uv, not in Docker
+      - Tied to one model, Kokoro-82M; no other TTS engines
+      - ROCm support is experimental and amd64 only
+      - Apple Silicon GPU (MPS) needs a native uv run, not Docker
+      - Voice tuning from a reference clip is off by default, English only, and approximate
     specs:
       ram_min_gb: null
       gpu: optional
       external_deps:
-        - espeak-ng (optional fallback)
+        - Docker or uv
+        - espeak-ng (direct run, fallback)
       model_support:
-        - Kokoro-82M v1.0
+        - Kokoro-82M
       web_port: 8880
     links:
       demo: https://huggingface.co/spaces/Remsky/FastKoko
       website: null
       docs: null
-    audience: Self-hosters wanting an OpenAI-style TTS endpoint
-    confidence: 0.85
+    audience: Self-hosters who need a local OpenAI-style TTS backend
+    confidence: 0.9
     facts:
-      stars: 5537
+      stars: 5540
       license: Apache-2.0
       last_commit: 2026-10-11
       last_release: 2026-09-10
@@ -5089,7 +6326,7 @@ entries:
     audience: Teams adding live transcription to apps or devices
     confidence: 0.85
     facts:
-      stars: 4318
+      stars: 4319
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-09-07
@@ -5097,46 +6334,48 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 51
+    score: 50
   - id: speakr
     repo: murtaza-nasir/speakr
     name: Speakr
     status: listed
-    tagline: Transcribe, summarize and search recordings with pluggable ASR and LLMs
-    summary: Web app that records or ingests audio, transcribes it through a connector (self-hosted WhisperX, OpenAI, Mistral Voxtral, AssemblyAI, OpenASR, FunASR), then writes summaries, action items and per-recording chat with an OpenAI-compatible LLM, OpenRouter or Ollama. Adds diarization, voice profiles, OIDC SSO, groups, a Swagger REST API and signed webhooks. Flask app on port 8899 with SQLite or PostgreSQL.
+    tagline: Self-hosted audio transcription with speaker labels, summaries and chat over recordings
+    summary: Speakr is a Flask and Vue web app that records or imports audio, transcribes it through a configurable engine (WhisperX, OpenAI, Mistral Voxtral, AssemblyAI and others), and generates summaries, titles and action items. It adds per-recording chat, semantic search across the library, tags with custom prompts, groups, OIDC SSO, a REST API and signed webhooks. Storage is SQLite by default or PostgreSQL.
     categories:
       - voice
     strengths:
-      - Eight ASR connectors auto-detected from config; WhisperX enables voice profiles
-      - Multi-user with OIDC SSO (Keycloak, Azure AD, Google, Auth0), groups and sharing
-      - REST API v1 with Swagger UI, HMAC-signed webhooks, per-user token budgets
-      - Lite image (about 725 MB) skips PyTorch; full image is about 4.4 GB
+      - Many ASR connectors, auto-detected from config, including fully self-hosted WhisperX and VibeVoice
+      - Speaker diarization and cross-recording voice profiles with the WhisperX backend
+      - Multi-user with OIDC SSO, groups, sharing, retention policies and per-user usage budgets
+      - REST API with Swagger UI and HMAC-signed webhooks for n8n, Zapier or Make
     weaknesses:
-      - Still alpha (v0.10.13-alpha) with frequent feature churn between releases
-      - No bundled ASR; needs an API key or a separate GPU WhisperX container
-      - "Dual-licensed: AGPLv3, or a paid commercial license for proprietary use"
-      - Lite image downgrades Inquire semantic search to basic text search
+      - Voice profiles and WhisperX diarization need a separate ASR container with a GPU
+      - Version is 0.10.14-alpha; the release is labeled alpha
+      - Summaries and chat need an external LLM API key, or a local model such as Ollama
+      - Full image is about 4.4GB; lite image falls back to basic text search
     specs:
       ram_min_gb: null
-      gpu: none
+      gpu: optional
       external_deps:
-        - ASR service or API (WhisperX, OpenAI, Mistral, AssemblyAI, OpenASR, FunASR)
-        - LLM API (OpenAI-compatible, OpenRouter or Ollama)
+        - WhisperX ASR service (optional, GPU)
+        - OpenAI-compatible LLM API (OpenRouter, OpenAI or Ollama)
         - SQLite or PostgreSQL
       model_support:
         - WhisperX
-        - OpenAI gpt-4o-transcribe-diarize
+        - OpenAI Transcribe
         - Mistral Voxtral
         - AssemblyAI
-        - VibeVoice via vLLM
-        - any OpenAI-compatible chat model
+        - VibeVoice
+        - OpenASR
+        - Alibaba FunASR
+        - Ollama
       web_port: 8899
     links:
       demo: null
       website: null
       docs: https://murtaza-nasir.github.io/speakr
-    audience: Privacy-focused teams and individuals archiving meetings
-    confidence: 0.85
+    audience: Teams and individuals wanting private meeting transcription on their own server
+    confidence: 0.88
     facts:
       stars: 4086
       license: AGPL-3.0
@@ -5181,7 +6420,7 @@ entries:
     audience: Self-hosters replacing OpenAI audio endpoints
     confidence: 0.7
     facts:
-      stars: 3713
+      stars: 3715
       license: MIT
       last_commit: 2026-04-18
       last_release: 2025-12-27
@@ -5189,7 +6428,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 41
+    score: 40
   - id: openreader
     repo: richardr1126/openreader
     name: OpenReader
@@ -5281,7 +6520,7 @@ entries:
     audience: Visual professionals running diffusion models locally
     confidence: 0.85
     facts:
-      stars: 137193
+      stars: 137273
       license: GPL-3.0
       last_commit: 2026-10-13
       last_release: 2026-10-05
@@ -5294,51 +6533,50 @@ entries:
     repo: harry0703/moneyprinterturbo
     name: MoneyPrinterTurbo
     status: listed
-    tagline: Generates short videos from a topic with script, footage, voice and subtitles
-    summary: Takes a topic or keywords, writes a script with an LLM (OpenAI, Claude, Gemini, DeepSeek, Qwen, Ollama), pulls stock clips from Pexels, Pixabay or Coverr or generates them via video APIs, adds TTS narration (Edge TTS needs no key; Azure, ElevenLabs, Kokoro), subtitles and music, then renders 9:16, 16:9 or 1:1 videos. Usable through a WebUI, REST API, CLI or an agent skill. For creators automating short-form content.
+    tagline: Turns a topic into a short video with script, footage, voiceover and subtitles
+    summary: MoneyPrinterTurbo takes a topic or keywords and produces a finished short video. An LLM writes the script, footage comes from Pexels, Pixabay, Coverr, local files or text-to-video APIs, and TTS, subtitles and background music are added before the final render. It offers a WebUI, HTTP API, CLI and an agent skill, and outputs 9:16, 16:9 or 1:1.
     categories:
       - image-video
     strengths:
-      - Edge TTS works without any API key; many other TTS and LLM providers supported
-      - "Four entry points: WebUI, API, CLI and an agent skill; batch generation and task history"
-      - Runs on CPU; minimum spec is 4 cores and 4 GB RAM
-      - One-click publishing to TikTok, Instagram and YouTube Shorts
+      - "Covers the whole pipeline: script, footage, voiceover, subtitles, music and render"
+      - Many LLM providers, including OpenAI, Claude, Gemini, DeepSeek, and Ollama for local models
+      - Edge TTS needs no API key; Pexels and Pixabay stock footage are free
+      - WebUI, API, CLI and batch generation; Docker and compose files included
     weaknesses:
-      - README is Chinese first; the English version is a separate file
-      - Default flow needs external LLM and stock-footage API keys
-      - README carries heavy sponsor advertising and affiliate links
-      - Local faster-whisper transcription and batch runs want a 4 GB+ VRAM GPU
+      - Most LLMs and stock sources need API keys; AI video generation uses paid services
+      - Footage relevance depends on keyword matching against stock libraries
+      - README is dominated by sponsor and promotional sections
+      - Web port and Docker setup details are not visible in the provided README
     specs:
       ram_min_gb: 4
-      gpu: none
+      gpu: optional
       external_deps:
-        - LLM API (OpenAI-compatible) or Ollama
-        - Stock footage API (Pexels, Pixabay, Coverr) or a video generation API
+        - Python 3.11+
+        - LLM API key or Ollama
+        - Pexels/Pixabay/Coverr API keys
+        - Edge TTS or other TTS service
       model_support:
         - OpenAI
         - Anthropic Claude
         - Google Gemini
         - DeepSeek
-        - Qwen (DashScope)
+        - Qwen
         - Azure OpenAI
+        - Kimi
         - Ollama
-        - OpenRouter, LiteLLM and OneAPI gateways
-        - Edge TTS
-        - Azure Speech
-        - ElevenLabs
-        - Kokoro
-        - Fish Audio
+        - OpenRouter
+        - LiteLLM
       web_port: null
     links:
       demo: null
       website: null
       docs: null
-    audience: Creators automating short-form video production
-    confidence: 0.75
+    audience: Creators and developers automating short-form video production
+    confidence: 0.8
     facts:
-      stars: 130329
+      stars: 130451
       license: MIT
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-03
       has_docker: true
       has_compose: true
@@ -5391,7 +6629,7 @@ entries:
     audience: Creators who already run ComfyUI and want automated shorts
     confidence: 0.7
     facts:
-      stars: 28940
+      stars: 28960
       license: Apache-2.0
       last_commit: 2026-06-14
       last_release: 2026-01-27
@@ -5399,7 +6637,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 47
+    score: 46
   - id: invokeai
     repo: invoke-ai/invokeai
     name: InvokeAI
@@ -5445,7 +6683,7 @@ entries:
     audience: Artists iterating on images with a canvas workflow
     confidence: 0.7
     facts:
-      stars: 28595
+      stars: 28605
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-09-27
@@ -5453,7 +6691,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 64
+    score: 63
   - id: kohya-ss
     repo: bmaltais/kohya_ss
     name: Kohya's GUI
@@ -5502,7 +6740,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 48
+    score: 47
   - id: ai-toolkit
     repo: ostris/ai-toolkit
     name: AI Toolkit
@@ -5546,7 +6784,7 @@ entries:
     audience: Self-hosters fine-tuning LoRAs for image and video diffusion models
     confidence: 0.8
     facts:
-      stars: 12281
+      stars: 12287
       license: MIT
       last_commit: 2026-10-10
       last_release: null
@@ -5604,53 +6842,42 @@ entries:
     repo: woolverine94/biniou
     name: biniou
     status: listed
-    tagline: Chat, image, audio, video and 3D generation in one CPU-friendly web UI
-    summary: "Gradio web UI bundling 30+ modules: llama.cpp chat and LLaVA with GGUF models, Whisper, NLLB translation, Stable Diffusion 1.5 to 3.5, SDXL, Flux, PixArt, ControlNet, inpainting, MusicGen, Bark, AnimateDiff, Stable Video Diffusion and Shap-E. Runs on CPU from 8 GB RAM, with optional CUDA or experimental ROCm, and works offline once models are downloaded. For hobbyists wanting one install on modest hardware."
+    tagline: Gradio web UI for local text, image, audio, video and 3D generation
+    summary: "biniou is a self-hosted Gradio web UI that bundles many generative modules: a llama-cpp chatbot for GGUF models, Whisper speech-to-text, Stable Diffusion and Flux image generation, MusicGen audio, video and Shap-E 3D. It runs on CPU from 8GB RAM, with optional CUDA or experimental ROCm, and can work offline once models are downloaded. Installers exist for several Linux distributions and Windows, plus a Dockerfile."
     categories:
       - image-video
     strengths:
-      - Runs on CPU-only machines from 8 GB RAM; GPU optional
-      - One-click installers for Debian, RHEL, OpenSUSE, Arch, Windows; CPU and CUDA Docker images
-      - "Modules chain: send one module's output as another's input"
-      - Weekly updates adding GGUF chat models and LoRAs
+      - Covers text, image, audio, video and 3D generation in one UI
+      - Runs on CPU only, from 8GB RAM; CUDA and experimental ROCm optional
+      - One-click installers for several Linux distros and Windows; Dockerfile provided
+      - Modules can pass outputs to each other; generation settings saved as metadata
     weaknesses:
-      - Requires Python 3.10 or 3.11 exactly; AMD64 CPUs only
-      - About 20 GB install without models, around 200 GB with all defaults
-      - Many modules need 16 GB+ RAM (Kandinsky, AnimateDiff, SVD, outpaint)
-      - GPL-3.0 license; macOS Intel support is experimental
+      - AMD64 only; macOS support is experimental and untested
+      - Many modules need 16GB+ RAM; about 200GB of disk with default models
+      - Python 3.10 or 3.11 required; Windows install adds Visual Studio Build tools
+      - Chatbot has no stated agents, tools or document chat; the README lists only chat and multimodal
     specs:
       ram_min_gb: 8
       gpu: optional
       external_deps:
-        - ffmpeg
+        - Python 3.10/3.11
         - git
-        - gcc
-        - perl
+        - ffmpeg
         - openssl
+        - Hugging Face model downloads
       model_support:
-        - GGUF LLMs via llama.cpp
-        - LLaVA GGUF
-        - Whisper
-        - NLLB-200
-        - SD 1.5/2.1/Turbo
-        - SDXL and SDXL-Lightning
-        - SD 3/3.5
-        - Flux Dev/Schnell/Lite
-        - PixArt-Alpha/Sigma
-        - Kandinsky
-        - LCM
-        - MusicGen
-        - Bark
-        - AnimateDiff
-        - Stable Video Diffusion
-        - Shap-E
+        - GGUF (llama-cpp)
+        - Stable Diffusion 1.5/2.1/XL/3.5
+        - Flux
+        - LoRA
+        - safetensors
       web_port: null
     links:
       demo: null
       website: null
       docs: https://github.com/Woolverine94/biniou/wiki
-    audience: Hobbyists wanting one install for many models on modest hardware
-    confidence: 0.85
+    audience: Self-hosters wanting one local multimodal generative AI UI, even without a GPU
+    confidence: 0.8
     facts:
       stars: 1154
       license: GPL-3.0
@@ -5693,7 +6920,7 @@ entries:
     audience: Teams feeding web content to RAG pipelines and agents
     confidence: 0.7
     facts:
-      stars: 190913
+      stars: 191056
       license: AGPL-3.0
       last_commit: 2026-10-12
       last_release: 2026-06-19
@@ -5706,37 +6933,41 @@ entries:
     repo: unclecode/crawl4ai
     name: Crawl4AI
     status: listed
-    tagline: Python crawler that turns pages into LLM-ready markdown, with a Docker API
-    summary: Async Playwright crawler (pip install crawl4ai) that renders pages in Chromium, Firefox or WebKit and emits clean or filtered markdown, with CSS, XPath and regex extraction needing no LLM, or LLM extraction via any LiteLLM provider. Deep crawling (BFS, DFS, priority-scored) and adaptive crawling are built in. A Docker server on port 11235 exposes /md, /html, /crawl, /screenshot, /pdf and MCP behind an API token.
+    tagline: Python web crawler that converts pages to LLM-ready Markdown and JSON
+    summary: Crawl4AI is a Python library, CLI (`crwl`) and Docker REST server that drives Playwright browsers (Chromium, Firefox, WebKit) to turn web pages into clean or filtered Markdown. It extracts structured data with CSS/XPath/regex schemas without an LLM, or through any LiteLLM-supported provider into a typed JSON schema. It also supports deep crawls, adaptive crawling and batch fetching. A hosted Crawl4AI Cloud with search and answer endpoints is sold separately.
     categories:
       - data-tools
       - search
     strengths:
-      - Structured extraction with CSS, XPath or regex schemas needs no LLM or API key
-      - Docker server with REST, streaming crawl, MCP, dashboard and playground; amd64 and arm64
-      - Deep crawl strategies with crash recovery via resume_state
-      - Persistent browser profiles, CDP remote browsers and an undetected-browser adapter
+      - Schema-based CSS/XPath extraction runs without any LLM call
+      - Fit Markdown filters (pruning, BM25, LLM) strip menus and boilerplate
+      - Persistent profiles, CDP remote browsers, rotating proxies and stealth mode
+      - Docker server exposes /md, /crawl, /screenshot, /pdf, plus MCP, dashboard and playground
     weaknesses:
-      - Apache-2.0 but requires attribution (badge or text) in your project
-      - Docker server answers only inside the container until CRAWL4AI_API_TOKEN is set
-      - Web search and answer endpoints exist only in the paid cloud
-      - Runs full browsers; the docker run example allocates 1 GB shared memory
+      - Search, SERP and answer endpoints exist only in the paid hosted cloud
+      - Bot-wall handling when self-hosted depends on your own proxies and settings
+      - Needs a Playwright browser install via crawl4ai-setup
+      - README asks for attribution when you use it
     specs:
       ram_min_gb: null
       gpu: none
       external_deps:
-        - Playwright Chromium (installed by crawl4ai-setup)
+        - Playwright browsers (Chromium)
+        - Docker (optional)
+        - LLM provider API key (optional)
       model_support:
-        - any LiteLLM provider for LLM extraction (OpenAI, Ollama and others)
+        - LiteLLM providers
+        - OpenAI
+        - Ollama
       web_port: 11235
     links:
       demo: null
-      website: null
-      docs: https://docs.crawl4ai.com/
-    audience: Developers building scrapers and RAG ingestion pipelines
-    confidence: 0.85
+      website: https://crawl4ai.com
+      docs: https://docs.crawl4ai.com
+    audience: Developers feeding web content into RAG, agents and data pipelines
+    confidence: 0.9
     facts:
-      stars: 85404
+      stars: 85438
       license: Apache-2.0
       last_commit: 2026-10-11
       last_release: 2026-09-23
@@ -5744,7 +6975,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 73
+    score: 72
   - id: vane
     repo: itzcrazykns/vane
     name: Vane
@@ -5784,7 +7015,7 @@ entries:
     audience: Self-hosters replacing Perplexity with local models
     confidence: 0.85
     facts:
-      stars: 37286
+      stars: 37294
       license: MIT
       last_commit: 2026-09-01
       last_release: 2026-04-10
@@ -5792,7 +7023,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 56
+    score: 55
   - id: gpt-researcher
     repo: assafelovic/gpt-researcher
     name: GPT Researcher
@@ -5830,7 +7061,7 @@ entries:
     audience: Analysts and developers automating long-form research
     confidence: 0.85
     facts:
-      stars: 30057
+      stars: 30069
       license: Apache-2.0
       last_commit: 2026-10-10
       last_release: 2026-09-26
@@ -5838,7 +7069,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 67
+    score: 66
   - id: jina-reader
     repo: jina-ai/reader
     name: Jina Reader
@@ -5874,7 +7105,7 @@ entries:
     audience: Developers feeding web pages and documents to LLMs
     confidence: 0.8
     facts:
-      stars: 12142
+      stars: 12146
       license: Apache-2.0
       last_commit: 2026-05-22
       last_release: null
@@ -5927,7 +7158,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 66
+    score: 65
   - id: morphic
     repo: miurla/morphic
     name: Morphic
@@ -5970,7 +7201,7 @@ entries:
     audience: Self-hosters wanting a cited AI search UI with their own models
     confidence: 0.85
     facts:
-      stars: 9163
+      stars: 9164
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-09-16
@@ -6057,15 +7288,15 @@ entries:
     audience: Teams debugging and evaluating LLM apps
     confidence: 0.85
     facts:
-      stars: 35727
+      stars: 35759
       license: NOASSERTION
-      last_commit: 2026-10-12
-      last_release: 2026-10-12
+      last_commit: 2026-10-13
+      last_release: 2026-10-13
       has_docker: false
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 75
+    score: 74
   - id: mlflow
     repo: mlflow/mlflow
     name: MLflow
@@ -6098,15 +7329,15 @@ entries:
     audience: Teams wanting one platform for GenAI tracing and ML tracking
     confidence: 0.85
     facts:
-      stars: 28356
+      stars: 28367
       license: Apache-2.0
       last_commit: 2026-10-13
-      last_release: 2026-10-07
+      last_release: 2026-10-13
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 72
+    score: 71
   - id: promptfoo
     repo: promptfoo/promptfoo
     name: promptfoo
@@ -6146,7 +7377,7 @@ entries:
     audience: Developers testing prompts and agents before release
     confidence: 0.8
     facts:
-      stars: 25950
+      stars: 25963
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-10-08
@@ -6187,15 +7418,15 @@ entries:
     audience: ML engineers moving LLM agents to production
     confidence: 0.85
     facts:
-      stars: 22550
+      stars: 22563
       license: Apache-2.0
-      last_commit: 2026-10-12
-      last_release: 2026-10-12
+      last_commit: 2026-10-13
+      last_release: 2026-10-13
       has_docker: false
       has_compose: true
       is_template: false
       language: Python
-    score: 66
+    score: 65
   - id: phoenix
     repo: arize-ai/phoenix
     name: Phoenix
@@ -6234,7 +7465,7 @@ entries:
     audience: Teams debugging and evaluating LLM apps who want self-hosted tracing
     confidence: 0.8
     facts:
-      stars: 11816
+      stars: 11819
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-10-13
@@ -6242,7 +7473,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 75
+    score: 74
   - id: helicone
     repo: helicone/helicone
     name: Helicone
@@ -6287,7 +7518,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 48
+    score: 47
   - id: langwatch
     repo: langwatch/langwatch
     name: LangWatch
@@ -6334,7 +7565,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 65
+    score: 64
   - id: agenta
     repo: agenta-ai/agenta
     name: Agenta
@@ -6372,7 +7603,7 @@ entries:
     audience: Non-engineering teams automating ops, GTM, HR and support work
     confidence: 0.7
     facts:
-      stars: 4828
+      stars: 4829
       license: NOASSERTION
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -6380,7 +7611,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 53
+    score: 52
   - id: latitude-llm
     repo: latitude-dev/latitude-llm
     name: Latitude
@@ -6419,13 +7650,13 @@ entries:
     facts:
       stars: 4720
       license: MIT
-      last_commit: 2026-10-09
+      last_commit: 2026-10-13
       last_release: 2026-10-09
       has_docker: true
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 65
+    score: 64
   - id: lmnr
     repo: lmnr-ai/lmnr
     name: Laminar
@@ -6464,15 +7695,15 @@ entries:
     audience: Teams debugging browser and tool-using agents
     confidence: 0.85
     facts:
-      stars: 3376
+      stars: 3378
       license: Apache-2.0
-      last_commit: 2026-10-11
-      last_release: 2026-10-11
+      last_commit: 2026-10-13
+      last_release: 2026-10-13
       has_docker: false
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 59
+    score: 58
   - id: pezzo
     repo: pezzolabs/pezzo
     name: Pezzo
@@ -6561,7 +7792,7 @@ entries:
     audience: Teams self-hosting tracing, cost and eval tracking for LLM apps and agents
     confidence: 0.8
     facts:
-      stars: 2844
+      stars: 2845
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-09-10
@@ -6608,7 +7839,7 @@ entries:
     audience: Teams running LLM agents who want tracing, evals and a gateway in one stack
     confidence: 0.82
     facts:
-      stars: 2144
+      stars: 2145
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -6658,7 +7889,7 @@ entries:
     audience: Engineers running browser automation or web-browsing agents at scale
     confidence: 0.9
     facts:
-      stars: 36369
+      stars: 36405
       license: AGPL-3.0
       last_commit: 2026-10-13
       last_release: 2026-10-02
@@ -6666,7 +7897,7 @@ entries:
       has_compose: false
       is_template: false
       language: Zig
-    score: 79
+    score: 78
   - id: obscura
     repo: h4ckf0r0day/obscura
     name: Obscura
@@ -6698,7 +7929,7 @@ entries:
     audience: Scrapers and agent builders replacing headless Chrome
     confidence: 0.85
     facts:
-      stars: 28826
+      stars: 28844
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-10-04
@@ -6706,7 +7937,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 73
+    score: 72
   - id: nemoclaw
     repo: nvidia/nemoclaw
     name: NemoClaw
@@ -6742,7 +7973,7 @@ entries:
     audience: People running a personal agent with kernel-enforced isolation
     confidence: 0.7
     facts:
-      stars: 22723
+      stars: 22731
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: null
@@ -6750,7 +7981,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 71
+    score: 70
   - id: browser-use-web-ui
     repo: browser-use/web-ui
     name: Browser Use Web UI
@@ -6791,7 +8022,7 @@ entries:
     audience: People trying browser agents without writing code
     confidence: 0.85
     facts:
-      stars: 16611
+      stars: 16612
       license: MIT
       last_commit: 2026-05-15
       last_release: 2025-08-31
@@ -6799,7 +8030,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 44
+    score: 43
   - id: openshell
     repo: nvidia/openshell
     name: OpenShell
@@ -6833,7 +8064,7 @@ entries:
     audience: Platform teams running fleets of autonomous agents
     confidence: 0.8
     facts:
-      stars: 16001
+      stars: 16061
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-09
@@ -6874,9 +8105,9 @@ entries:
     audience: Teams running agent-generated code and untrusted jobs locally
     confidence: 0.85
     facts:
-      stars: 8668
+      stars: 8671
       license: Apache-2.0
-      last_commit: 2026-10-12
+      last_commit: 2026-10-13
       last_release: 2026-10-09
       has_docker: true
       has_compose: false
@@ -6916,7 +8147,7 @@ entries:
     audience: Developers building web agents on Puppeteer, Playwright or Selenium
     confidence: 0.85
     facts:
-      stars: 7791
+      stars: 7794
       license: Apache-2.0
       last_commit: 2026-10-06
       last_release: 2026-08-25
@@ -6924,7 +8155,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 59
+    score: 58
   - id: open-terminal
     repo: open-webui/open-terminal
     name: Open Terminal
@@ -6956,7 +8187,7 @@ entries:
     audience: Open WebUI users and agent builders needing a command sandbox
     confidence: 0.85
     facts:
-      stars: 3319
+      stars: 3327
       license: MIT
       last_commit: 2026-10-10
       last_release: 2026-09-23
@@ -7009,7 +8240,7 @@ entries:
     audience: Developers and security teams automating app pentests locally or in CI
     confidence: 0.8
     facts:
-      stars: 68233
+      stars: 68318
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-10-05
@@ -7017,4 +8248,4 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 75
+    score: 74
