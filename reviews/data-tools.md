@@ -5,7 +5,7 @@ Tools that turn web pages, PDFs and documents into clean text or structured data
 <sub>🌐 Also on the web: [Data and scraping for AI on archestack.com](https://archestack.com/best-of-ai/data-tools/), each project on its own page.</sub>
 
 <a name="crawl4ai"></a>
-### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
 
 **Python web crawler that converts pages to LLM-ready Markdown and JSON.**
 
@@ -23,7 +23,7 @@ Crawl4AI is a Python library, CLI (`crwl`) and Docker REST server that drives Pl
 <sub>no GPU · Docker + Compose · Needs Playwright browsers (Chromium), Docker (optional), LLM provider API key (optional) · Models: LiteLLM providers, OpenAI, Ollama · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com) · [🌐 Site ↗](https://crawl4ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crawl4ai/)</sub>
 
 <a name="docling"></a>
-### 🥈 [docling](https://github.com/docling-project/docling) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · MIT · Oct 2026</sub>
+### 🥈 [docling](https://github.com/docling-project/docling) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · MIT · Oct 2026</sub>
 
 **Python library and CLI that converts PDFs, Office files and more into structured text.**
 
@@ -58,8 +58,26 @@ API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with 
 
 <sub>no GPU · Compose · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
 
+<a name="langextract"></a>
+### #&#8288;4 [langextract](https://github.com/google/langextract) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Oct 2026</sub>
+
+**Python library that extracts source-grounded structured data from text using LLMs.**
+
+LangExtract is a Python library that takes a prompt and few-shot examples, runs an LLM over unstructured text, and returns structured extractions mapped to exact character spans in the source. Long documents are handled by chunking, parallel workers and multiple passes. Results save to JSONL and render as an interactive HTML review page. Backends include Gemini, OpenAI and local Ollama models.
+
+- **+** Each extraction is grounded to a character span; ungrounded results get char_interval = None
+- **+** Chunking, parallel workers and multiple passes for long documents (max_workers, extraction_passes)
+- **+** Gemini, OpenAI and Ollama supported, plus a plugin system for custom providers
+- **+** Generates a self-contained interactive HTML view of extractions in context
+- **−** Output schema is driven by few-shot examples; poor examples cause alignment warnings and weaker results
+- **−** Ollama provider does not support output_schema
+- **−** Controlled generation is documented mainly for Gemini; cloud models need an API key
+- **−** Library only, with no server or UI beyond the HTML visualization
+
+<sub>GPU optional · Docker · Needs Gemini, OpenAI or Vertex AI API key for cloud models, Ollama for local models · Models: Gemini, OpenAI, Ollama, Vertex AI, OpenAI-compatible endpoints · [Repo](https://github.com/google/langextract) · [▶️ Demo ↗](https://google-langextract.hf.space/) · [📖 Docs ↗](https://github.com/google/langextract/blob/main/docs/examples/longer_text_example.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langextract/)</sub>
+
 <a name="paddleocr"></a>
-### #&#8288;4 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: weak (29) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 91k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;5 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: weak (28) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 91k · Apache-2.0 · Sep 2026</sub>
 
 **OCR and document parsing toolkit that outputs Markdown and JSON from PDFs and images.**
 
@@ -77,7 +95,7 @@ PaddleOCR runs text recognition (PP-OCRv6) and document parsing (PaddleOCR-VL 0.
 <sub>GPU optional · Needs PaddlePaddle · Models: PP-OCRv6, PaddleOCR-VL-1.6, PP-StructureV3, HPD-Parsing, ONNX · [Repo](https://github.com/paddlepaddle/paddleocr) · [▶️ Demo ↗](https://www.paddleocr.com) · [📖 Docs ↗](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/pipeline_overview.html) · [🌐 Site ↗](https://www.paddleocr.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paddleocr/)</sub>
 
 <a name="jina-reader"></a>
-### #&#8288;5 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (17) · Freshness: active (80) · Maintenance: weak (14) · Easy to run: easy (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;6 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (15) · Freshness: active (80) · Maintenance: weak (14) · Easy to run: easy (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
