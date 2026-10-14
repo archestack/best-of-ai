@@ -5,7 +5,7 @@ Long-term memory engines that store and retrieve facts for agents across session
 <sub>🌐 Also on the web: [Memory on archestack.com](https://archestack.com/best-of-ai/memory/), each project on its own page.</sub>
 
 <a name="hindsight"></a>
-### 🥇 [hindsight](https://github.com/vectorize-io/hindsight) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
+### 🥇 [hindsight](https://github.com/vectorize-io/hindsight) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 
 **Agent memory server with retain, recall and reflect operations.**
 
@@ -23,7 +23,7 @@ Hindsight stores agent memories in banks and extracts facts, entities and timest
 <sub>Docker · Needs LLM provider (hosted or local), PostgreSQL (embedded pg0 by default), Oracle AI Database (optional) · Models: openai, anthropic, gemini, groq, bedrock · port 9999 · [Repo](https://github.com/vectorize-io/hindsight) · [📖 Docs ↗](https://hindsight.vectorize.io) · [🌐 Site ↗](https://hindsight.vectorize.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hindsight/)</sub>
 
 <a name="cognee"></a>
-### 🥈 [Cognee](https://github.com/topoteretes/cognee) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Cognee](https://github.com/topoteretes/cognee) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Memory engine that turns documents and code into a knowledge graph.**
 
@@ -113,7 +113,7 @@ Mem0 adds long-term memory to assistants and agents at user, session and agent l
 <sub>no GPU · Models: OpenAI gpt-5-mini (default), OpenAI text-embedding-3-small (default), other providers per docs · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mem0/)</sub>
 
 <a name="graphiti"></a>
-### #&#8288;7 [Graphiti](https://github.com/getzep/graphiti) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Graphiti](https://github.com/getzep/graphiti) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Temporal knowledge graph framework for agent memory with REST and MCP servers.**
 
@@ -185,7 +185,7 @@ Engram is a single Go binary that stores coding-agent memory in a local SQLite d
 <sub>no GPU · Docker + Compose · Models: Any MCP-compatible agent · [Repo](https://github.com/gentleman-programming/engram) · [📖 Docs ↗](https://github.com/Gentleman-Programming/engram/blob/main/DOCS.md) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/engram/)</sub>
 
 <a name="honcho"></a>
-### #&#8288;11 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;11 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory server that builds per-peer representations from agent conversations.**
 
@@ -203,7 +203,7 @@ Honcho is a FastAPI memory service that stores messages on sessions, reasons ove
 <sub>no GPU · Docker · Needs Postgres, Redis, LLM provider API key (Gemini, Anthropic or OpenAI), Docker (for honcho start) · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk) · [🌐 Site ↗](https://honcho.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/honcho/)</sub>
 
 <a name="letta"></a>
-### #&#8288;12 [Letta](https://github.com/letta-ai/letta-code) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [Letta](https://github.com/letta-ai/letta-code) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful agent harness with git-tracked memory, channels and remote computers.**
 

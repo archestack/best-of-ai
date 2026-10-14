@@ -5,7 +5,7 @@ Tools that turn web pages, PDFs and documents into clean text or structured data
 <sub>🌐 Also on the web: [Data and scraping for AI on archestack.com](https://archestack.com/best-of-ai/data-tools/), each project on its own page.</sub>
 
 <a name="crawl4ai"></a>
-### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · Apache-2.0 · Oct 2026</sub>
 
 **Python web crawler that converts pages to LLM-ready Markdown and JSON.**
 

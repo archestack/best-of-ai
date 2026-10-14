@@ -131,7 +131,7 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvector/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;8 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 

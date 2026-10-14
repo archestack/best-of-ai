@@ -23,7 +23,7 @@ A Microsoft Cloud Advocates course of 21 lessons, each a README with a short vid
 <sub>no GPU · Needs Azure OpenAI Service, OpenAI API, Microsoft Foundry Models, Foundry Local, GitHub account · Models: Azure OpenAI, OpenAI, Microsoft Foundry Models, Foundry Local, Hugging Face open models · [Repo](https://github.com/microsoft/generative-ai-for-beginners) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/generative-ai-for-beginners/)</sub>
 
 <a name="ai-engineering-from-scratch"></a>
-### 🥈 [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · MIT · Oct 2026</sub>
+### 🥈 [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · MIT · Oct 2026</sub>
 
 **Hands-on curriculum for building AI systems from math to agents.**
 
@@ -131,7 +131,7 @@ A Microsoft course that teaches AI from symbolic and expert systems through neur
 <sub>Needs Jupyter, PyTorch, TensorFlow, Keras, OpenCV · [Repo](https://github.com/microsoft/ai-for-beginners) · [▶️ Demo ↗](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-for-beginners/)</sub>
 
 <a name="llm-course"></a>
-### #&#8288;8 [llm-course](https://github.com/mlabonne/llm-course) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: popular (78) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;8 [llm-course](https://github.com/mlabonne/llm-course) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: popular (78) · Freshness: slowing (41) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · Apache-2.0 · Feb 2026</sub>
 
 **Free LLM course with roadmaps and Colab notebooks for fine-tuning and quantization.**
 

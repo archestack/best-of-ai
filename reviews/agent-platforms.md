@@ -94,7 +94,7 @@ Sim is a Next.js and Bun app on PostgreSQL that builds agents visually, by chat 
 <sub>RAM ≥ 12 GB · no GPU · Docker + Compose · Needs PostgreSQL, Docker, Sim Chat API key · Models: Ollama, vLLM · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs ↗](https://docs.sim.ai) · [🌐 Site ↗](https://sim.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sim/)</sub>
 
 <a name="paperclip"></a>
-### #&#8288;6 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 101k · MIT · Oct 2026</sub>
+### #&#8288;6 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 102k · MIT · Oct 2026</sub>
 
 **Task manager and org chart for teams of AI agents with budgets.**
 
@@ -148,7 +148,7 @@ FastGPT builds agents and LLM apps from a visual Flow editor on top of a knowled
 <sub>no GPU · Compose · port 3000 · [Repo](https://github.com/labring/fastgpt) · [📖 Docs ↗](https://doc.fastgpt.io/guide/getting-started) · [🌐 Site ↗](https://fastgpt.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fastgpt/)</sub>
 
 <a name="agent-zero"></a>
-### #&#8288;9 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Sep 2026</sub>
+### #&#8288;9 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Oct 2026</sub>
 
 **Agent framework that gives the model a full Linux desktop in Docker.**
 

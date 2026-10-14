@@ -59,7 +59,7 @@ AnythingLLM is a Node.js app that ingests PDF, TXT, DOCX and other files into a 
 <sub>no GPU · Docker + Compose · Models: llama.cpp-compatible models, OpenAI, Azure OpenAI, AWS Bedrock, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anything-llm/)</sub>
 
 <a name="onyx"></a>
-### #&#8288;4 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · custom license · Oct 2026</sub>
+### #&#8288;4 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · custom license · Oct 2026</sub>
 
 **Team knowledge chat that indexes 50+ apps for RAG and agents.**
 

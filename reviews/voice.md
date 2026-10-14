@@ -5,7 +5,7 @@ Speech-to-text, text-to-speech, voice agents and meeting tools that run locally.
 <sub>🌐 Also on the web: [Voice on archestack.com](https://archestack.com/best-of-ai/voice/), each project on its own page.</sub>
 
 <a name="voicebox"></a>
-### 🥇 [Voicebox](https://github.com/jamiepine/voicebox) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (53) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 57k · MIT · Oct 2026</sub>
+### 🥇 [Voicebox](https://github.com/jamiepine/voicebox) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (54) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 57k · MIT · Oct 2026</sub>
 
 **Local voice studio for cloning, TTS, dictation and agent speech.**
 
@@ -95,7 +95,7 @@ Clones a voice from one reference clip and synthesizes speech in Chinese, Englis
 <sub>Needs uv · Models: IndexTTS-2.5, IndexTTS-2, IndexTTS-1.5 (legacy) · port 7860 · [Repo](https://github.com/index-tts/index-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/IndexTeam/IndexTTS-2.5-Demo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/index-tts/)</sub>
 
 <a name="openreader"></a>
-### #&#8288;6 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 541 · MIT · Oct 2026</sub>
+### #&#8288;6 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 540 · MIT · Oct 2026</sub>
 
 **Reads EPUB, PDF and DOCX aloud with synced word highlighting.**
 
@@ -166,7 +166,7 @@ Clones a voice from a 5-second sample (zero-shot) or fine-tunes GPT and SoVITS m
 <sub>GPU optional · Docker + Compose · Needs ffmpeg · Models: GPT-SoVITS v1-v5 pretrained models, UVR5 vocal separation models, Faster Whisper large-v3 (ASR), FunASR Paraformer (Chinese ASR) · [Repo](https://github.com/rvc-boss/gpt-sovits) · [▶️ Demo ↗](https://lj1995-gpt-sovits-proplus.hf.space/) · [📖 Docs ↗](https://rentry.co/GPT-SoVITS-guide#/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-sovits/)</sub>
 
 <a name="whisper"></a>
-### #&#8288;10 [whisper](https://github.com/openai/whisper) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: widely used (95) · Freshness: recent (76) · Maintenance: weak (20) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 110k · MIT · Aug 2026</sub>
+### #&#8288;10 [whisper](https://github.com/openai/whisper) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: widely used (95) · Freshness: recent (75) · Maintenance: weak (20) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 110k · MIT · Aug 2026</sub>
 
 **Multilingual speech recognition and translation model with Python and CLI interfaces.**
 
