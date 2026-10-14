@@ -5,7 +5,7 @@ Workflow and integration platforms with AI steps or agent nodes, for wiring mode
 <sub>🌐 Also on the web: [Workflow automation with AI on archestack.com](https://archestack.com/best-of-ai/automation/), each project on its own page.</sub>
 
 <a name="n8n"></a>
-### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 207k · custom license · Oct 2026</sub>
+### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 207k · custom license · Oct 2026</sub>
 
 **Visual workflow automation with code steps, AI agent nodes and 1500+ integrations.**
 
@@ -22,7 +22,7 @@ n8n is a fair-code workflow platform that runs as one Docker container (docker.n
 <sub>no GPU · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 

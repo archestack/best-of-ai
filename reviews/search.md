@@ -5,7 +5,7 @@ Private search engines and AI answer engines that keep queries on your host. Bac
 <sub>🌐 Also on the web: [Search on archestack.com](https://archestack.com/best-of-ai/search/), each project on its own page.</sub>
 
 <a name="morphic"></a>
-### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **Search engine that answers with citations and renders rich inline components.**
 
@@ -23,25 +23,25 @@ Morphic runs web searches and returns cited answers, rendering inline components
 <sub>Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Supabase Auth (optional) · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphic/)</sub>
 
 <a name="gpt-researcher"></a>
-### 🥈 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Research agent that writes cited reports from web and local documents.**
 
-Planner and execution agents generate research questions, scrape 20+ sources, filter passages (Jev by default, BM25 fallback with no key) and write cited reports over 2,000 words, exportable to PDF and Word. Runs as a FastAPI server on port 8000 with a static or Next.js frontend, or as a pip package; local PDF, Office, CSV and Markdown files can be sources. For analysts automating long-form research.
+GPT Researcher splits a query into research questions with a planner agent, scrapes sources in parallel, filters the context and writes a cited report. It works over web search (Tavily by default) and local files such as PDF, CSV, Excel, Markdown, PowerPoint and Word. It runs as a FastAPI server with a static or NextJS frontend, or as the gpt-researcher pip package.
 
-- **+** Deep Research mode: tree-like exploration, about 5 minutes and $0.40 per run on o3-mini
-- **+** Hybrid retrievers: Tavily plus MCP servers such as GitHub as research sources
-- **+** Works with any OpenAI-compatible endpoint via OPENAI_BASE_URL
-- **+** Multi-agent LangGraph and AG2 variants produce 5-6 page PDF, DOCX and Markdown reports
-- **−** Default setup needs OpenAI and Tavily API keys
-- **−** Jev context filtering needs a TYPESAFE_API_KEY; the fallback is keyword BM25
-- **−** Python 3.12 or later required
-- **−** Disclaimer labels the project experimental and for academic purposes
+- **+** Covers both web research and local documents (PDF, CSV, Excel, Markdown, PowerPoint, Word)
+- **+** Usable as a pip package, a FastAPI server with two frontends, or via Docker Compose
+- **+** Supports MCP data sources, recursive deep research, and LangGraph or AG2 multi-agent workflows
+- **+** Context filter falls back to local BM25 keyword ranking when no TypeSafe key is set
+- **−** Needs an LLM API key and a search API key (OpenAI and Tavily in the README examples)
+- **−** Default Jev context filter requires a TypeSafe API key and a hosted call
+- **−** Deep research is quoted at about 5 minutes and $0.4 per run with o3-mini
+- **−** README calls it experimental and provided as-is, with no warranty
 
-<sub>no GPU · Docker + Compose · Needs OpenAI or OpenAI-compatible LLM API, Tavily API key (default retriever), TypeSafe API key (optional Jev filter) · Models: OpenAI models, any OpenAI-compatible endpoint via OPENAI_BASE_URL, Gemini 2.5 Flash Image (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-researcher/)</sub>
+<sub>no GPU · Docker + Compose · Needs OpenAI API key, Tavily API key, Python 3.12+, TypeSafe API key (optional, Jev filter), Google API key (optional, image generation) · Models: OpenAI, OpenAI-compatible APIs via OPENAI_BASE_URL, Google Gemini (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-researcher/)</sub>
 
 <a name="local-deep-research"></a>
-### 🥉 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (38) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
+### 🥉 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
 
 **Agentic research assistant with local LLMs, SearXNG and encrypted libraries.**
 
@@ -59,7 +59,7 @@ Runs multi-step research across the web, academic engines and your own documents
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, SQLCipher (bundled wheels) · Models: Ollama models (e.g. gpt-oss:20b, Qwen3.6-27B), any OpenAI-compatible endpoint · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-research/)</sub>
 
 <a name="vane"></a>
-### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (78) · Freshness: active (99) · Maintenance: weak (9) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
+### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (80) · Freshness: active (99) · Maintenance: weak (10) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
 
 **Self-hosted answer engine with cited sources over SearXNG.**
 
