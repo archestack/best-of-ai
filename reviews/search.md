@@ -5,25 +5,25 @@ Private search engines and AI answer engines that keep queries on your host. Bac
 <sub>🌐 Also on the web: [Search on archestack.com](https://archestack.com/best-of-ai/search/), each project on its own page.</sub>
 
 <a name="morphic"></a>
-### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Morphic](https://github.com/miurla/morphic) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
-**Search engine that answers with citations and renders rich inline components.**
+**AI answer engine with cited search results and generative UI components.**
 
-Morphic runs web searches and returns cited answers, rendering inline components such as images, grids and headings from a streamed JSON spec instead of plain markdown. It offers Quick and Adaptive search modes and works with OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway and OpenAI-compatible models. Docker Compose brings up PostgreSQL, Redis, SearXNG and the app, with chat history stored in PostgreSQL.
+Morphic is a Next.js (TypeScript) AI search app that answers queries with cited sources and renders results as inline components streamed from a JSON spec. It supports OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway and OpenAI-compatible models, with Tavily, SearXNG, Brave or Exa for search. Chat history lives in PostgreSQL, and Docker Compose bundles Postgres, Redis and SearXNG.
 
-- **+** Compose file bundles PostgreSQL, Redis and SearXNG, so no search API key is required
-- **+** Supports Tavily, SearXNG, Brave and Exa as search providers
-- **+** Model selector detects providers, including local Ollama and OpenAI-compatible endpoints
-- **+** Auth is switchable between Supabase, better-auth and none
-- **−** Full stack needs four containers: PostgreSQL, Redis, SearXNG and the app
-- **−** Supabase is the default auth provider unless ENABLE_AUTH=false or AUTH_PROVIDER is set
-- **−** Needs at least one AI provider API key or a local Ollama setup
-- **−** README gives no RAM or hardware requirements
+- **+** Docker Compose bundles SearXNG, so no search API key is required
+- **+** Many model providers, including local Ollama and OpenAI-compatible endpoints
+- **+** Four search backends: Tavily, SearXNG, Brave, Exa
+- **+** Built-in accounts via Better Auth or Supabase Auth, plus guest mode and shareable result URLs
+- **−** Compose stack needs PostgreSQL, Redis and SearXNG alongside the app
+- **−** Needs at least one model provider API key or a local Ollama setup
+- **−** Local development requires Bun; RAM and GPU requirements are not stated
+- **−** Chat history, auth and file upload need extra configuration beyond the quick start
 
-<sub>Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Supabase Auth (optional) · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphic/)</sub>
+<sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Tavily, Brave, Exa, Supabase · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic) · [📖 Docs ↗](https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphic/)</sub>
 
 <a name="gpt-researcher"></a>
-### 🥈 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [GPT Researcher](https://github.com/assafelovic/gpt-researcher) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Research agent that writes cited reports from web and local documents.**
 
@@ -41,7 +41,7 @@ GPT Researcher splits a query into research questions with a planner agent, scra
 <sub>no GPU · Docker + Compose · Needs OpenAI API key, Tavily API key, Python 3.12+, TypeSafe API key (optional, Jev filter), Google API key (optional, image generation) · Models: OpenAI, OpenAI-compatible APIs via OPENAI_BASE_URL, Google Gemini (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-researcher/)</sub>
 
 <a name="local-deep-research"></a>
-### 🥉 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
+### 🥉 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · MIT · Oct 2026</sub>
 
 **Agentic research assistant with local LLMs, SearXNG and encrypted libraries.**
 
@@ -59,7 +59,7 @@ Runs multi-step research across the web, academic engines and your own documents
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, SQLCipher (bundled wheels) · Models: Ollama models (e.g. gpt-oss:20b, Qwen3.6-27B), any OpenAI-compatible endpoint · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-research/)</sub>
 
 <a name="vane"></a>
-### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (77) · Freshness: active (99) · Maintenance: weak (10) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
+### #&#8288;4 [Vane](https://github.com/itzcrazykns/vane) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (86) · Freshness: active (99) · Maintenance: weak (10) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Sep 2026</sub>
 
 **Self-hosted answer engine with cited sources over SearXNG.**
 
@@ -77,7 +77,7 @@ Next.js answer engine (formerly Perplexica) that runs searches through a bundled
 <sub>no GPU · Docker + Compose · Needs SearXNG (bundled in the default image), LLM provider (Ollama, OpenAI-compatible server or cloud API) · Models: Ollama, OpenAI, Anthropic Claude, Google Gemini, Groq · port 3000 · [Repo](https://github.com/itzcrazykns/vane) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vane/)</sub>
 
 <a name="maestro"></a>
-### #&#8288;5 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (1) · Freshness: recent (61) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
+### #&#8288;5 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (0) · Freshness: recent (61) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
 
 **Multi-agent research platform that writes long reports from documents and web.**
 

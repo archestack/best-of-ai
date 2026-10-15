@@ -22,7 +22,7 @@ n8n is a fair-code workflow platform that runs as one Docker container (docker.n
 <sub>no GPU · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
@@ -38,5 +38,23 @@ Activepieces is a no-code workflow builder with loops, branches, auto retries, H
 - **−** README claims of 200+ and 280+ pieces are inconsistent
 
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/activepieces/)</sub>
+
+<a name="banana-slides"></a>
+### 🥉 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (13) · Freshness: active (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Oct 2026</sub>
+
+**AI slide deck generator that exports PPTX, PDF and narrated video.**
+
+Banana Slides generates presentations from a topic, outline, page descriptions or uploaded PDF/Docx/MD/Txt files, rendering each page as an image with image-generation models such as Nano Banana Pro. Pages can be edited by natural-language instructions or box selection, and exported as PPTX, PDF, editable PPTX (beta) or an MP4 with TTS narration. It runs as a Flask backend plus a web frontend and needs an API key for a text/image provider.
+
+- **+** Several providers: Gemini, OpenAI-format, Volcengine, Vertex AI and LazyLLM vendors like Qwen and DeepSeek
+- **+** Exports PPTX, PDF, editable PPTX (beta) and narrated MP4 with subtitles
+- **+** Edit pages by natural-language prompt or box selection; per-page templates supported
+- **+** Prebuilt Docker Hub images with a docker-compose.prod.yml, plus a CLI and agent skills
+- **−** AGPL-3.0 license restricts use in closed-source hosted services
+- **−** Needs paid external image-generation API; README warns Nano Banana Pro calls are costly
+- **−** Editable PPTX export is beta; better results need a Baidu API key
+- **−** README is mostly Chinese; desktop build is at release-candidate stage (v0.9.0-rc.7)
+
+<sub>no GPU · Docker + Compose · Needs Gemini/OpenAI/Volcengine/Vertex or LazyLLM API key, FFmpeg with libass (video export), LibreOffice (optional, PPTX upload), Baidu API key (optional, editable export) · Models: Gemini (Nano Banana Pro), OpenAI-compatible (gpt-image-2), Volcengine Doubao/Seedream, Vertex AI, LazyLLM vendors (Qwen, DeepSeek, GLM, Kimi, MiniMax, SiliconFlow) · port 3011 · [Repo](https://github.com/anionex/banana-slides) · [▶️ Demo ↗](https://bananaslides.online/) · [📖 Docs ↗](https://docs.bananaslides.online/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/banana-slides/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
