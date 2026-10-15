@@ -23,7 +23,7 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 <sub>GPU optional · Compose · Compose runs Milvus, MinIO · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [▶️ Demo ↗](https://milvus.io/milvus-demos) · [📖 Docs ↗](https://milvus.io/docs) · [🌐 Site ↗](https://milvus.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/milvus/)</sub>
 
 <a name="meilisearch"></a>
-### 🥈 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Oct 2026</sub>
+### 🥈 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Oct 2026</sub>
 
 **Rust search engine API with full-text, vector and hybrid search.**
 
@@ -41,7 +41,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 <sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meilisearch/)</sub>
 
 <a name="qdrant"></a>
-### 🥉 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Oct 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -58,26 +58,26 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 
 <sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo ↗](https://qdrant.to/semantic-search-demo) · [📖 Docs ↗](https://qdrant.tech/documentation/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qdrant/)</sub>
 
-<a name="weaviate"></a>
-### #&#8288;4 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
+<a name="faiss"></a>
+### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Oct 2026</sub>
 
-**Go vector database with built-in vectorizers, hybrid search and RAG.**
+**C++ library for similarity search and clustering of dense vectors.**
 
-Weaviate is a Go vector database that stores objects with their vectors and serves hybrid BM25 plus semantic search, filtering, built-in RAG and reranking through REST, gRPC and GraphQL APIs. It can vectorize data at import using modules for OpenAI, Cohere, HuggingFace, Google or a local model2vec image, or accept precomputed vectors. Docker Compose runs it on ports 8080 and 50051; production adds multi-tenancy, replication and RBAC.
+Faiss is a C++ library with Python/numpy wrappers for nearest-neighbor search over dense vectors using L2 distance, dot product or cosine. It offers exact search, HNSW and NSG graph indexes, and compressed indexes that scale to billions of vectors in memory. Some indexes also run on GPU via CUDA or AMD ROCm, with optional NVIDIA cuVS backends.
 
-- **+** Vectorizes at import with OpenAI, Cohere, HuggingFace, Google or a local model2vec container
-- **+** Hybrid BM25 plus vector, image search, filtering, RAG and reranking in one query
-- **+** Multi-tenancy, replication, RBAC, horizontal scaling and vector compression
-- **+** REST, gRPC and GraphQL with Python, TypeScript, Java, Go and C# clients
-- **−** Enterprise features in wl/ need a commercial license key; one image mixes both
-- **−** Vectorization needs a module container or external API keys
-- **−** No RAM or sizing guidance in the README
-- **−** Both REST 8080 and gRPC 50051 must be exposed
+- **+** Many index types trading off speed, accuracy, memory per vector and training time
+- **+** Compressed and binary indexes handle sets that do not fit in RAM uncompressed
+- **+** GPU indexes (CUDA, ROCm) replace CPU ones, single or multi-GPU
+- **+** Only hard dependency is a BLAS implementation; MIT licensed
+- **−** Library only: no server, REST API, auth or built-in persistence service
+- **−** Vectors are identified by integers; metadata filtering must be built separately
+- **−** Choosing and tuning an index type requires understanding the trade-offs
+- **−** Builds with cmake; prebuilt packages are listed for Anaconda only
 
-<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weaviate/)</sub>
+<sub>GPU optional · Needs BLAS, CUDA or ROCm (optional), NVIDIA cuVS (optional) · [Repo](https://github.com/facebookresearch/faiss) · [📖 Docs ↗](https://github.com/facebookresearch/faiss/wiki) · [🌐 Site ↗](https://faiss.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/faiss/)</sub>
 
 <a name="helix-db"></a>
-### #&#8288;5 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
 
 **Rust graph database with native vector and BM25 search.**
 
@@ -94,8 +94,26 @@ HelixDB is a Rust database that combines a labeled property graph, approximate n
 
 <sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helix-db/)</sub>
 
+<a name="weaviate"></a>
+### #&#8288;6 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
+
+**Go vector database with built-in vectorizers, hybrid search and RAG.**
+
+Weaviate is a Go vector database that stores objects with their vectors and serves hybrid BM25 plus semantic search, filtering, built-in RAG and reranking through REST, gRPC and GraphQL APIs. It can vectorize data at import using modules for OpenAI, Cohere, HuggingFace, Google or a local model2vec image, or accept precomputed vectors. Docker Compose runs it on ports 8080 and 50051; production adds multi-tenancy, replication and RBAC.
+
+- **+** Vectorizes at import with OpenAI, Cohere, HuggingFace, Google or a local model2vec container
+- **+** Hybrid BM25 plus vector, image search, filtering, RAG and reranking in one query
+- **+** Multi-tenancy, replication, RBAC, horizontal scaling and vector compression
+- **+** REST, gRPC and GraphQL with Python, TypeScript, Java, Go and C# clients
+- **−** Enterprise features in wl/ need a commercial license key; one image mixes both
+- **−** Vectorization needs a module container or external API keys
+- **−** No RAM or sizing guidance in the README
+- **−** Both REST 8080 and gRPC 50051 must be exposed
+
+<sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weaviate/)</sub>
+
 <a name="chroma"></a>
-### #&#8288;6 [Chroma](https://github.com/chroma-core/chroma) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: patchy (36) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Chroma](https://github.com/chroma-core/chroma) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (46) · Freshness: active (100) · Maintenance: patchy (36) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Embedding database with a four-function API for Python and JavaScript.**
 
@@ -113,7 +131,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
 
 <a name="pgvector"></a>
-### #&#8288;7 [pgvector](https://github.com/pgvector/pgvector) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (58) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · custom license · Oct 2026</sub>
+### #&#8288;8 [pgvector](https://github.com/pgvector/pgvector) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (58) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · custom license · Oct 2026</sub>
 
 **PostgreSQL extension for vector similarity search with HNSW and IVFFlat.**
 
@@ -131,7 +149,7 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvector/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;8 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;9 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 

@@ -1,5 +1,5 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
-updated_at: 2026-10-14
+updated_at: 2026-10-15
 entries:
   - id: exo
     repo: exo-explore/exo
@@ -39,7 +39,7 @@ entries:
     audience: Self-hosters pooling Macs or other machines to run models too large for one
     confidence: 0.85
     facts:
-      stars: 47875
+      stars: 47890
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-04-23
@@ -95,7 +95,7 @@ entries:
     audience: Developers adding long-term memory to LLM agents and coding assistants
     confidence: 0.8
     facts:
-      stars: 49525
+      stars: 49701
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -150,7 +150,7 @@ entries:
     audience: Self-hosters wanting an always-on agent reachable from chat apps
     confidence: 0.85
     facts:
-      stars: 47397
+      stars: 47405
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -158,7 +158,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 72
+    score: 71
   - id: colibri
     repo: justvugg/colibri
     name: colibri
@@ -206,7 +206,7 @@ entries:
     audience: Self-hosters running 100B+ MoE models on consumer RAM, disk and optional GPU
     confidence: 0.85
     facts:
-      stars: 41858
+      stars: 41942
       license: Apache-2.0
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -255,7 +255,7 @@ entries:
     audience: Developers and self-hosters stretching free LLM tiers across agents
     confidence: 0.85
     facts:
-      stars: 35037
+      stars: 35322
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -263,7 +263,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 77
+    score: 76
   - id: tensorflow
     repo: tensorflow/tensorflow
     name: tensorflow
@@ -298,9 +298,9 @@ entries:
     audience: ML engineers and researchers building and deploying neural networks
     confidence: 0.9
     facts:
-      stars: 200962
+      stars: 200970
       license: Apache-2.0
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-03-06
       has_docker: false
       has_compose: false
@@ -349,7 +349,7 @@ entries:
     audience: Python developers and researchers running or training pretrained models
     confidence: 0.85
     facts:
-      stars: 167715
+      stars: 167693
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-06
@@ -392,9 +392,9 @@ entries:
     audience: Python developers building LLM agents and applications in code
     confidence: 0.85
     facts:
-      stars: 147844
+      stars: 147839
       license: MIT
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: 2026-10-12
       has_docker: false
       has_compose: false
@@ -444,7 +444,7 @@ entries:
     audience: Developers new to building LLM apps who know basic Python or TypeScript
     confidence: 0.9
     facts:
-      stars: 121341
+      stars: 121361
       license: MIT
       last_commit: 2026-10-12
       last_release: null
@@ -493,7 +493,7 @@ entries:
     audience: Developers building browser-automating agents in Python
     confidence: 0.85
     facts:
-      stars: 117947
+      stars: 118002
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-10-07
@@ -548,7 +548,7 @@ entries:
     audience: Developers needing local speech-to-text or translation in Python or scripts
     confidence: 0.9
     facts:
-      stars: 110507
+      stars: 110510
       license: MIT
       last_commit: 2026-08-31
       last_release: 2025-06-26
@@ -597,7 +597,7 @@ entries:
     audience: Python developers learning how LLMs work by coding one in PyTorch
     confidence: 0.9
     facts:
-      stars: 106515
+      stars: 106545
       license: NOASSERTION
       last_commit: 2026-10-02
       last_release: null
@@ -605,7 +605,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 75
+    score: 76
   - id: pytorch
     repo: pytorch/pytorch
     name: pytorch
@@ -646,15 +646,15 @@ entries:
     audience: ML researchers and engineers building and training neural networks in Python
     confidence: 0.9
     facts:
-      stars: 104909
+      stars: 104685
       license: NOASSERTION
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-09-30
       has_docker: true
       has_compose: false
       is_template: false
       language: Python
-    score: 92
+    score: 93
   - id: deep-live-cam
     repo: hacksider/deep-live-cam
     name: deep-live-cam
@@ -696,7 +696,7 @@ entries:
     audience: Creators and streamers wanting local real-time face swapping on a webcam
     confidence: 0.85
     facts:
-      stars: 97056
+      stars: 97067
       license: AGPL-3.0
       last_commit: 2026-10-10
       last_release: 2026-09-07
@@ -743,7 +743,7 @@ entries:
     audience: Developers feeding PDFs and scans into RAG or agent pipelines
     confidence: 0.85
     facts:
-      stars: 91091
+      stars: 91115
       license: Apache-2.0
       last_commit: 2026-09-16
       last_release: 2026-06-11
@@ -751,7 +751,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 55
+    score: 56
   - id: llm-course
     repo: mlabonne/llm-course
     name: llm-course
@@ -796,7 +796,7 @@ entries:
     audience: Engineers learning to fine-tune, quantize and deploy LLMs
     confidence: 0.85
     facts:
-      stars: 83573
+      stars: 83584
       license: Apache-2.0
       last_commit: 2026-02-05
       last_release: null
@@ -838,7 +838,7 @@ entries:
     audience: Python developers and students learning to build LLM agents, Chinese readers
     confidence: 0.85
     facts:
-      stars: 83096
+      stars: 83127
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-07-17
@@ -883,7 +883,7 @@ entries:
     audience: TensorFlow users needing reference model code or custom training loops
     confidence: 0.8
     facts:
-      stars: 77649
+      stars: 77648
       license: NOASSERTION
       last_commit: 2026-10-07
       last_release: 2026-02-11
@@ -891,7 +891,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 71
+    score: 72
   - id: ai-agents-for-beginners
     repo: microsoft/ai-agents-for-beginners
     name: ai-agents-for-beginners
@@ -928,7 +928,7 @@ entries:
     audience: Developers new to building AI agents, comfortable with Python
     confidence: 0.9
     facts:
-      stars: 77128
+      stars: 77155
       license: MIT
       last_commit: 2026-10-13
       last_release: null
@@ -936,7 +936,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 74
+    score: 75
   - id: openai-cookbook
     repo: openai/openai-cookbook
     name: openai-cookbook
@@ -971,7 +971,7 @@ entries:
     audience: Developers learning to build with the OpenAI API
     confidence: 0.9
     facts:
-      stars: 76596
+      stars: 76605
       license: MIT
       last_commit: 2026-10-09
       last_release: null
@@ -979,7 +979,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 70
+    score: 71
   - id: llamafactory
     repo: hiyouga/llamafactory
     name: llamafactory
@@ -1028,7 +1028,7 @@ entries:
     audience: Engineers fine-tuning open LLMs on their own GPUs, with or without code
     confidence: 0.85
     facts:
-      stars: 75468
+      stars: 75477
       license: Apache-2.0
       last_commit: 2026-10-10
       last_release: 2026-05-30
@@ -1036,7 +1036,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 75
+    score: 72
   - id: metagpt
     repo: foundationagents/metagpt
     name: metagpt
@@ -1076,7 +1076,7 @@ entries:
     audience: Developers experimenting with multi-agent LLM workflows for code generation
     confidence: 0.85
     facts:
-      stars: 70847
+      stars: 70861
       license: MIT
       last_commit: 2026-01-21
       last_release: 2024-04-22
@@ -1121,7 +1121,7 @@ entries:
     audience: Beginners learning AI fundamentals with hands-on Python notebooks
     confidence: 0.85
     facts:
-      stars: 69767
+      stars: 69786
       license: MIT
       last_commit: 2026-09-04
       last_release: null
@@ -1129,7 +1129,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 71
+    score: 72
   - id: docling
     repo: docling-project/docling
     name: docling
@@ -1166,7 +1166,7 @@ entries:
     audience: Developers preparing documents for RAG and LLM pipelines
     confidence: 0.85
     facts:
-      stars: 68869
+      stars: 68894
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -1174,7 +1174,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 73
+    score: 76
   - id: scikit-learn
     repo: scikit-learn/scikit-learn
     name: scikit-learn
@@ -1212,7 +1212,7 @@ entries:
     audience: Python developers and data scientists building classical ML models
     confidence: 0.85
     facts:
-      stars: 67594
+      stars: 67607
       license: BSD-3-Clause
       last_commit: 2026-10-14
       last_release: 2026-09-11
@@ -1220,7 +1220,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 75
+    score: 77
   - id: ai-engineering-from-scratch
     repo: rohitg00/ai-engineering-from-scratch
     name: ai-engineering-from-scratch
@@ -1256,15 +1256,15 @@ entries:
     audience: Developers learning to build LLM, RAG and agent systems from first principles
     confidence: 0.85
     facts:
-      stars: 68936
+      stars: 69142
       license: MIT
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: 2026-10-10
       has_docker: false
       has_compose: false
       is_template: false
       language: Python
-    score: 82
+    score: 83
   - id: keras
     repo: keras-team/keras
     name: keras
@@ -1302,7 +1302,7 @@ entries:
     audience: ML engineers who want one model API across JAX, TensorFlow and PyTorch
     confidence: 0.9
     facts:
-      stars: 64372
+      stars: 64373
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-07-29
@@ -1310,7 +1310,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 78
+    score: 80
   - id: minimind
     repo: jingyaogong/minimind
     name: minimind
@@ -1354,7 +1354,7 @@ entries:
     audience: Engineers learning LLM internals by pretraining and fine-tuning small models
     confidence: 0.85
     facts:
-      stars: 63730
+      stars: 63757
       license: Apache-2.0
       last_commit: 2026-09-22
       last_release: 2025-10-21
@@ -1362,7 +1362,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 65
+    score: 63
   - id: ultralytics
     repo: ultralytics/ultralytics
     name: ultralytics
@@ -1401,7 +1401,7 @@ entries:
     audience: Engineers building object detection and video analysis pipelines
     confidence: 0.85
     facts:
-      stars: 62499
+      stars: 62504
       license: AGPL-3.0
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -1409,7 +1409,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 86
+    score: 88
   - id: autogen
     repo: microsoft/autogen
     name: autogen
@@ -1446,7 +1446,7 @@ entries:
     audience: Developers with existing AutoGen code or prototyping multi-agent apps in Python
     confidence: 0.9
     facts:
-      stars: 61398
+      stars: 61408
       license: CC-BY-4.0
       last_commit: 2026-04-06
       last_release: 2025-09-30
@@ -1454,7 +1454,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 41
   - id: laya-mlx
     repo: mizorewww/laya-mlx
     name: laya-mlx
@@ -1492,7 +1492,7 @@ entries:
     audience: Apple Silicon developers needing fast local classification and scoring
     confidence: 0.8
     facts:
-      stars: 6925
+      stars: 6933
       license: Apache-2.0
       last_commit: 2026-10-10
       last_release: 2026-10-10
@@ -1500,7 +1500,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 60
+    score: 59
   - id: gpt-academic
     repo: binary-husky/gpt_academic
     name: gpt_academic
@@ -1548,7 +1548,7 @@ entries:
     audience: Researchers and students who translate and read papers with LLMs
     confidence: 0.8
     facts:
-      stars: 71473
+      stars: 71475
       license: GPL-3.0
       last_commit: 2026-01-25
       last_release: 2024-12-19
@@ -1556,7 +1556,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 40
+    score: 39
   - id: crewai
     repo: crewaiinc/crewai
     name: crewai
@@ -1594,7 +1594,7 @@ entries:
     audience: Python developers building multi-agent LLM workflows in code
     confidence: 0.85
     facts:
-      stars: 59685
+      stars: 59696
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -1642,7 +1642,7 @@ entries:
     audience: Developers wanting a hackable open Manus-style agent run from the terminal
     confidence: 0.8
     facts:
-      stars: 58648
+      stars: 58658
       license: MIT
       last_commit: 2026-08-16
       last_release: 2025-04-10
@@ -1650,7 +1650,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 56
   - id: nanochat
     repo: karpathy/nanochat
     name: nanochat
@@ -1690,7 +1690,7 @@ entries:
     audience: Researchers and engineers learning or experimenting with end-to-end LLM training
     confidence: 0.85
     facts:
-      stars: 58636
+      stars: 58643
       license: MIT
       last_commit: 2026-07-03
       last_release: null
@@ -1698,7 +1698,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 50
+    score: 49
   - id: faceswap
     repo: deepfakes/faceswap
     name: faceswap
@@ -1739,7 +1739,7 @@ entries:
     audience: Hobbyists and VFX users training face-swap models on their own GPU
     confidence: 0.85
     facts:
-      stars: 57570
+      stars: 57572
       license: GPL-3.0
       last_commit: 2026-08-05
       last_release: 2025-12-21
@@ -1787,7 +1787,7 @@ entries:
     audience: Engineers needing local long-form transcription or streaming TTS
     confidence: 0.8
     facts:
-      stars: 54821
+      stars: 54827
       license: MIT
       last_commit: 2026-10-08
       last_release: null
@@ -1833,7 +1833,7 @@ entries:
     audience: Developers embedding offline speech-to-text in apps, servers or devices
     confidence: 0.9
     facts:
-      stars: 54371
+      stars: 54394
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-06
@@ -1877,7 +1877,7 @@ entries:
     audience: Developers learning to build applications on the Claude API
     confidence: 0.9
     facts:
-      stars: 53427
+      stars: 53446
       license: MIT
       last_commit: 2026-10-14
       last_release: null
@@ -1885,7 +1885,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 63
+    score: 62
   - id: cherry-studio
     repo: cherryhq/cherry-studio
     name: cherry-studio
@@ -1926,7 +1926,7 @@ entries:
     audience: Individuals wanting one desktop client for many LLM providers and local models
     confidence: 0.85
     facts:
-      stars: 52629
+      stars: 52646
       license: AGPL-3.0
       last_commit: 2026-10-14
       last_release: 2026-10-11
@@ -1973,9 +1973,9 @@ entries:
     audience: Python developers building RAG or agent apps over private documents
     confidence: 0.85
     facts:
-      stars: 52493
+      stars: 52500
       license: MIT
-      last_commit: 2026-10-12
+      last_commit: 2026-10-14
       last_release: 2026-09-21
       has_docker: false
       has_compose: false
@@ -2022,7 +2022,7 @@ entries:
     audience: Users who want to upscale photos locally on a desktop with a Vulkan GPU
     confidence: 0.9
     facts:
-      stars: 50560
+      stars: 50577
       license: AGPL-3.0
       last_commit: 2026-03-27
       last_release: 2024-12-25
@@ -2076,7 +2076,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 34
+    score: 33
   - id: jan
     repo: janhq/jan
     name: jan
@@ -2115,7 +2115,7 @@ entries:
     audience: Users who want a local ChatGPT-style desktop app with a local API
     confidence: 0.85
     facts:
-      stars: 44941
+      stars: 44949
       license: NOASSERTION
       last_commit: 2026-10-14
       last_release: 2026-10-09
@@ -2123,7 +2123,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 67
+    score: 68
   - id: deepspeed
     repo: deepspeedai/deepspeed
     name: deepspeed
@@ -2161,7 +2161,7 @@ entries:
     audience: ML engineers training or fine-tuning large models on multi-GPU clusters
     confidence: 0.9
     facts:
-      stars: 43229
+      stars: 43230
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-16
@@ -2169,7 +2169,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 73
+    score: 74
   - id: langgraph
     repo: langchain-ai/langgraph
     name: langgraph
@@ -2202,15 +2202,15 @@ entries:
     audience: Python developers building custom stateful agents and workflows
     confidence: 0.85
     facts:
-      stars: 43256
+      stars: 43281
       license: MIT
       last_commit: 2026-10-14
-      last_release: 2026-10-13
+      last_release: 2026-10-14
       has_docker: false
       has_compose: false
       is_template: false
       language: Python
-    score: 72
+    score: 71
   - id: agno
     repo: agno-agi/agno
     name: agno
@@ -2246,9 +2246,9 @@ entries:
     audience: Python developers building self-hosted multi-user agent services
     confidence: 0.7
     facts:
-      stars: 42725
+      stars: 42732
       license: Apache-2.0
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: 2026-10-12
       has_docker: false
       has_compose: false
@@ -2295,7 +2295,7 @@ entries:
     audience: Users who want a local-first desktop chat client for API and Ollama models
     confidence: 0.85
     facts:
-      stars: 42015
+      stars: 42022
       license: GPL-3.0
       last_commit: 2026-09-24
       last_release: 2026-09-24
@@ -2303,7 +2303,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 64
+    score: 65
   - id: colossalai
     repo: hpcaitech/colossalai
     name: colossalai
@@ -2347,7 +2347,7 @@ entries:
     audience: ML engineers training or fine-tuning large models on multi-GPU clusters
     confidence: 0.8
     facts:
-      stars: 41429
+      stars: 41430
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2025-06-04
@@ -2355,7 +2355,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 43
+    score: 45
   - id: bitnet
     repo: microsoft/bitnet
     name: bitnet
@@ -2402,7 +2402,7 @@ entries:
     audience: Engineers running or benchmarking 1-bit LLMs on CPUs or edge devices
     confidence: 0.85
     facts:
-      stars: 41147
+      stars: 41160
       license: MIT
       last_commit: 2026-07-27
       last_release: null
@@ -2410,7 +2410,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 40
+    score: 39
   - id: chattts
     repo: 2noise/chattts
     name: chattts
@@ -2447,7 +2447,7 @@ entries:
     audience: Developers adding English or Chinese speech to LLM apps, for research use
     confidence: 0.8
     facts:
-      stars: 39901
+      stars: 39903
       license: AGPL-3.0
       last_commit: 2026-04-10
       last_release: 2026-04-10
@@ -2455,7 +2455,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 44
+    score: 43
   - id: pageindex
     repo: vectifyai/pageindex
     name: pageindex
@@ -2492,7 +2492,7 @@ entries:
     audience: Developers building document Q&A over long PDFs such as filings and manuals
     confidence: 0.85
     facts:
-      stars: 39119
+      stars: 39126
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -2500,7 +2500,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 65
+    score: 63
   - id: langextract
     repo: google/langextract
     name: langextract
@@ -2541,7 +2541,7 @@ entries:
     audience: Python developers extracting structured data from long documents
     confidence: 0.9
     facts:
-      stars: 38947
+      stars: 38952
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-08
@@ -2549,7 +2549,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 59
+    score: 60
   - id: langchain-chatchat
     repo: chatchat-space/langchain-chatchat
     name: langchain-chatchat
@@ -2593,7 +2593,7 @@ entries:
     audience: Chinese-language users self-hosting offline document Q&A with local LLMs
     confidence: 0.8
     facts:
-      stars: 38681
+      stars: 38683
       license: Apache-2.0
       last_commit: 2025-11-10
       last_release: 2024-07-12
@@ -2601,7 +2601,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 33
+    score: 31
   - id: pytorch-image-models
     repo: huggingface/pytorch-image-models
     name: pytorch-image-models
@@ -2638,9 +2638,9 @@ entries:
     audience: ML engineers training or fine-tuning image backbones in PyTorch
     confidence: 0.85
     facts:
-      stars: 37215
+      stars: 37217
       license: Apache-2.0
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: 2026-09-22
       has_docker: false
       has_compose: false
@@ -2680,10 +2680,10 @@ entries:
     audience: Mobile, web and edge developers adding on-device vision, audio or text ML
     confidence: 0.8
     facts:
-      stars: 37279
+      stars: 37285
       license: Apache-2.0
       last_commit: 2026-10-14
-      last_release: 2026-10-07
+      last_release: 2026-10-14
       has_docker: true
       has_compose: false
       is_template: false
@@ -2721,7 +2721,7 @@ entries:
     audience: Engineers experimenting with graph-based RAG over private document collections
     confidence: 0.8
     facts:
-      stars: 36335
+      stars: 36338
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-08
@@ -2729,7 +2729,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 63
+    score: 61
   - id: airllm
     repo: lyogavin/airllm
     name: airllm
@@ -2779,7 +2779,7 @@ entries:
     audience: Engineers running or fine-tuning very large open LLMs on low-VRAM GPUs
     confidence: 0.8
     facts:
-      stars: 38618
+      stars: 38694
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-05
@@ -2829,7 +2829,7 @@ entries:
     audience: Python developers building or fine-tuning diffusion-based generation
     confidence: 0.85
     facts:
-      stars: 34717
+      stars: 34720
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-06
@@ -2837,7 +2837,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 73
+    score: 72
   - id: clip
     repo: openai/clip
     name: clip
@@ -2877,7 +2877,7 @@ entries:
     audience: ML engineers needing image-text embeddings or zero-shot classification
     confidence: 0.85
     facts:
-      stars: 34462
+      stars: 34465
       license: MIT
       last_commit: 2026-03-25
       last_release: null
@@ -2885,7 +2885,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 26
+    score: 29
   - id: happy-llm
     repo: datawhalechina/happy-llm
     name: happy-llm
@@ -2923,7 +2923,7 @@ entries:
     audience: Students and engineers learning how LLMs are built and trained, reading Chinese
     confidence: 0.85
     facts:
-      stars: 34355
+      stars: 34365
       license: NOASSERTION
       last_commit: 2026-08-08
       last_release: 2026-01-29
@@ -2931,7 +2931,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 44
+    score: 42
   - id: timesfm
     repo: google-research/timesfm
     name: timesfm
@@ -2969,7 +2969,7 @@ entries:
     audience: Engineers and researchers forecasting time series without per-task training
     confidence: 0.8
     facts:
-      stars: 34475
+      stars: 34487
       license: Apache-2.0
       last_commit: 2026-09-29
       last_release: 2026-08-28
@@ -2977,7 +2977,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 74
+    score: 65
   - id: tinygrad
     repo: tinygrad/tinygrad
     name: tinygrad
@@ -3017,7 +3017,7 @@ entries:
     audience: Engineers who want a hackable PyTorch alternative or a compiler to study
     confidence: 0.9
     facts:
-      stars: 33753
+      stars: 33755
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-08-24
@@ -3025,7 +3025,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 66
+    score: 64
   - id: aionui
     repo: iofficeai/aionui
     name: aionui
@@ -3068,7 +3068,7 @@ entries:
     audience: Users who want one desktop app to drive built-in and CLI coding agents
     confidence: 0.8
     facts:
-      stars: 33517
+      stars: 33527
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-09
@@ -3076,7 +3076,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 62
+    score: 60
   - id: agentscope
     repo: agentscope-ai/agentscope
     name: agentscope
@@ -3122,7 +3122,7 @@ entries:
     audience: Python developers building agent apps and multi-user agent backends
     confidence: 0.85
     facts:
-      stars: 33238
+      stars: 33265
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-12
@@ -3130,7 +3130,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 69
+    score: 66
   - id: self-llm
     repo: datawhalechina/self-llm
     name: self-llm
@@ -3177,7 +3177,7 @@ entries:
     audience: Chinese-reading students learning to self-host and fine-tune open LLMs
     confidence: 0.85
     facts:
-      stars: 32466
+      stars: 32472
       license: Apache-2.0
       last_commit: 2026-09-12
       last_release: null
@@ -3185,7 +3185,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 52
+    score: 50
   - id: meetily
     repo: zackriya-solutions/meetily
     name: meetily
@@ -3226,7 +3226,7 @@ entries:
     audience: Professionals who want private, local meeting transcription and notes
     confidence: 0.85
     facts:
-      stars: 31732
+      stars: 31749
       license: MIT
       last_commit: 2026-09-10
       last_release: 2026-09-12
@@ -3234,7 +3234,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 64
+    score: 63
   - id: pytorch-lightning
     repo: lightning-ai/pytorch-lightning
     name: pytorch-lightning
@@ -3271,7 +3271,7 @@ entries:
     audience: ML engineers training or finetuning PyTorch models across GPUs or nodes
     confidence: 0.9
     facts:
-      stars: 31406
+      stars: 31408
       license: Apache-2.0
       last_commit: 2026-09-21
       last_release: 2026-09-10
@@ -3279,7 +3279,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 59
+    score: 57
   - id: dsh-desktop
     repo: anywhere-labs/dsh-desktop
     name: dsh-desktop
@@ -3313,10 +3313,10 @@ entries:
     audience: Windows and macOS users who want a packaged DeepSeek Harness app with plugins
     confidence: 0.7
     facts:
-      stars: 30796
+      stars: 30836
       license: MIT
-      last_commit: 2026-10-14
-      last_release: 2026-09-29
+      last_commit: 2026-10-15
+      last_release: 2026-10-14
       has_docker: false
       has_compose: false
       is_template: false
@@ -3371,7 +3371,7 @@ entries:
     audience: Creators wanting one UI for hosted and local image and video generation
     confidence: 0.72
     facts:
-      stars: 30318
+      stars: 30373
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-05-23
@@ -3379,7 +3379,7 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 60
+    score: 59
   - id: deepagents
     repo: langchain-ai/deepagents
     name: deepagents
@@ -3422,15 +3422,15 @@ entries:
     audience: Python developers building long-running, tool-using agents on LangChain
     confidence: 0.9
     facts:
-      stars: 30255
+      stars: 30268
       license: MIT
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-14
       has_docker: false
       has_compose: false
       is_template: false
       language: Python
-    score: 72
+    score: 70
   - id: openai-agents-python
     repo: openai/openai-agents-python
     name: openai-agents-python
@@ -3472,7 +3472,7 @@ entries:
     audience: Python developers building tool-using or multi-agent LLM apps
     confidence: 0.9
     facts:
-      stars: 30029
+      stars: 30038
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-02
@@ -3480,7 +3480,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 77
+    score: 75
   - id: smolagents
     repo: huggingface/smolagents
     name: smolagents
@@ -3521,7 +3521,7 @@ entries:
     audience: Python developers building code-writing or tool-calling agents
     confidence: 0.93
     facts:
-      stars: 29842
+      stars: 29849
       license: Apache-2.0
       last_commit: 2026-10-06
       last_release: 2026-05-29
@@ -3529,7 +3529,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 49
+    score: 47
   - id: rag-techniques
     repo: nirdiamant/rag_techniques
     name: rag_techniques
@@ -3564,7 +3564,7 @@ entries:
     audience: Engineers learning RAG techniques through runnable notebooks
     confidence: 0.8
     facts:
-      stars: 29862
+      stars: 29873
       license: NOASSERTION
       last_commit: 2026-10-11
       last_release: 2026-04-15
@@ -3572,7 +3572,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 62
+    score: 60
   - id: hands-on-large-language-models
     repo: handsonllm/hands-on-large-language-models
     name: hands-on-large-language-models
@@ -3615,7 +3615,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 28
+    score: 26
   - id: opendataloader-pdf
     repo: opendataloader-project/opendataloader-pdf
     name: opendataloader-pdf
@@ -3654,7 +3654,7 @@ entries:
     audience: Engineers feeding PDFs into RAG pipelines or automating PDF tagging
     confidence: 0.85
     facts:
-      stars: 29695
+      stars: 29704
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -3662,7 +3662,7 @@ entries:
       has_compose: false
       is_template: false
       language: Java
-    score: 48
+    score: 46
   - id: xgboost
     repo: dmlc/xgboost
     name: xgboost
@@ -3695,7 +3695,7 @@ entries:
     audience: Data scientists and ML engineers training models on tabular data
     confidence: 0.8
     facts:
-      stars: 28868
+      stars: 28874
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-15
@@ -3703,7 +3703,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 64
+    score: 62
   - id: mlx
     repo: ml-explore/mlx
     name: mlx
@@ -3739,15 +3739,15 @@ entries:
     audience: ML researchers and engineers training or running models on Macs
     confidence: 0.9
     facts:
-      stars: 28774
+      stars: 28781
       license: MIT
       last_commit: 2026-10-14
-      last_release: 2026-09-29
+      last_release: 2026-10-14
       has_docker: false
       has_compose: false
       is_template: false
       language: C++
-    score: 68
+    score: 66
   - id: mastra
     repo: mastra-ai/mastra
     name: mastra
@@ -3787,15 +3787,15 @@ entries:
     audience: TypeScript developers building agent and workflow features into apps
     confidence: 0.85
     facts:
-      stars: 28817
+      stars: 28824
       license: NOASSERTION
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-14
       has_docker: false
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 74
+    score: 73
   - id: semantic-kernel
     repo: microsoft/semantic-kernel
     name: semantic-kernel
@@ -3835,7 +3835,7 @@ entries:
     audience: Developers building agents in .NET, Python or Java, or migrating to MAF
     confidence: 0.85
     facts:
-      stars: 28658
+      stars: 28661
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-10-06
@@ -3843,7 +3843,7 @@ entries:
       has_compose: false
       is_template: false
       language: C#
-    score: 59
+    score: 58
   - id: fastai
     repo: fastai/fastai
     name: fastai
@@ -3879,7 +3879,7 @@ entries:
     audience: Python practitioners and researchers training deep learning models with PyTorch
     confidence: 0.85
     facts:
-      stars: 28226
+      stars: 28227
       license: Apache-2.0
       last_commit: 2026-09-21
       last_release: 2026-09-09
@@ -3887,7 +3887,2434 @@ entries:
       has_compose: true
       is_template: false
       language: Jupyter Notebook
+    score: 58
+  - id: markitdown
+    repo: microsoft/markitdown
+    name: markitdown
+    status: listed
+    tagline: Python tool that converts PDF, Office, HTML and audio files to Markdown for LLMs
+    summary: MarkItDown is a Python library and CLI that converts PDF, Word, PowerPoint, Excel, images, audio, HTML, CSV/JSON/XML, ZIP, EPUB and YouTube URLs into Markdown, keeping headings, lists, tables and links. Optional backends add LLM image descriptions, Azure Document Intelligence, Azure Content Understanding, and OCR via the markitdown-ocr plugin. Output targets LLM pipelines rather than high-fidelity human-facing documents.
+    categories:
+      - data-tools
+    strengths:
+      - Covers many formats through one CLI and Python API (convert, convert_local, convert_stream)
+      - Built-in converters run offline; install only needed formats via extras like [pdf,docx,pptx]
+      - Third-party plugin system, plus an LLM-vision OCR plugin using any OpenAI-compatible client
+      - MIT license, active releases, Python 3.10 through 3.14
+    weaknesses:
+      - Not meant for high-fidelity conversion; output is tuned for text analysis tools
+      - Video and structured field extraction need billable Azure Content Understanding
+      - convert() accepts URIs and files with process privileges; untrusted input must be sanitized
+      - LLM image descriptions currently limited to pptx and image files; OCR needs a plugin
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3.10-3.14
+        - Azure Document Intelligence (optional)
+        - Azure Content Understanding (optional)
+        - OpenAI-compatible client (optional)
+      model_support:
+        - OpenAI-compatible vision models (e.g. gpt-4o)
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Developers feeding documents into LLM and RAG pipelines
+    confidence: 0.9
+    facts:
+      stars: 190260
+      license: MIT
+      last_commit: 2026-10-04
+      last_release: 2026-09-21
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 71
+  - id: tradingagents
+    repo: tauricresearch/tradingagents
+    name: tradingagents
+    status: listed
+    tagline: LangGraph multi-agent framework simulating a trading firm to analyze tickers
+    summary: TradingAgents runs a team of LLM agents (fundamentals, sentiment, news and technical analysts, bull and bear researchers, trader, risk team, portfolio manager) that debate and produce a trading decision for a ticker and date. It is built on LangGraph, with a CLI and a Python API, and works with many hosted providers plus Ollama and OpenAI-compatible servers. The README states it is for research, not financial advice.
+    categories:
+      - agent-frameworks
+    strengths:
+      - Many LLM providers, plus Ollama and any OpenAI-compatible endpoint such as vLLM or llama.cpp
+      - Quick and deep model tiers, each configurable with its own provider
+      - Point-in-time data for backtests, with SEC EDGAR statements as originally filed
+      - Interactive CLI, flag-driven non-interactive runs, and a Python API
+    weaknesses:
+      - Approved orders go only to a simulated exchange; no live broker execution described
+      - Results vary with model, temperature and data quality; README says research use only
+      - Past-dated runs withhold Yahoo fundamentals and insider trades for non-SEC companies
+      - Needs a provider API key; import paths changed in v0.5.1
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python 3.11+
+        - LangGraph
+        - LLM provider API key or Ollama
+        - Yahoo Finance
+        - SEC EDGAR
+        - Alpha Vantage (optional)
+        - FRED (optional)
+      model_support:
+        - OpenAI
+        - Anthropic
+        - Google Gemini
+        - xAI
+        - DeepSeek
+        - Qwen
+        - GLM
+        - MiniMax
+        - Mistral
+        - Kimi
+        - Groq
+        - NVIDIA NIM
+        - OpenRouter
+        - Azure OpenAI
+        - AWS Bedrock
+        - Ollama
+        - OpenAI-compatible
+      web_port: null
+    links:
+      demo: https://www.youtube.com/watch?v=90gr5lwjIho
+      website: null
+      docs: null
+    audience: Researchers and developers experimenting with LLM agents for market analysis
+    confidence: 0.8
+    facts:
+      stars: 111212
+      license: Apache-2.0
+      last_commit: 2026-10-03
+      last_release: 2026-10-03
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 86
+  - id: odysseus
+    repo: odysseus-dev/odysseus
+    name: odysseus
+    status: listed
+    tagline: Self-hosted workspace for chat, agents, email, documents, notes and calendar
+    summary: Odysseus is a self-hosted web workspace that combines chat with local or API models, tool-using agents, deep research, a document editor, an IMAP/SMTP email client, and notes with CalDAV calendar sync. Agents can use MCP, files, shell, skills and memory. A model cookbook recommends, downloads and serves models based on the host hardware.
+    categories:
+      - chat-ui
+      - assistants
+    strengths:
+      - Covers chat, email, documents, notes and CalDAV calendar in one app
+      - Agents support MCP, shell, files, skills and memory
+      - Built-in blind side-by-side model comparison and multi-step deep research
+      - Compose file pulls a prebuilt multi-arch image from ghcr.io
+    weaknesses:
+      - Ships local shell and file tools; auth must stay enabled when exposed
+      - Default branch is dev; the more curated branch is main
+      - AGPL-3.0 license restricts closed-source network use
+      - RAM and VRAM requirements are not stated in the README
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Docker
+        - Docker Compose
+      model_support:
+        - local models
+        - API models
+        - MCP
+      web_port: 7011
+    links:
+      demo: https://odysseus-dev.github.io/odysseus/
+      website: https://odysseus-dev.github.io/odysseus/
+      docs: null
+    audience: Self-hosters wanting one workspace for chat, agents, mail and documents
+    confidence: 0.7
+    facts:
+      stars: 93478
+      license: AGPL-3.0
+      last_commit: 2026-10-14
+      last_release: null
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 68
+  - id: ml-for-beginners
+    repo: microsoft/ml-for-beginners
+    name: ml-for-beginners
+    status: listed
+    tagline: 12-week, 26-lesson classic machine learning course using Scikit-learn
+    summary: A Microsoft Cloud Advocates curriculum covering classic machine learning (regression, classification, clustering, NLP) with Scikit-learn, deliberately excluding deep learning. Each lesson has pre- and post-lecture quizzes, a written lesson, a solution, a challenge and an assignment, built around datasets from different world regions. Lessons are in Python, with R Markdown versions for many.
+    categories:
+      - learning
+    strengths:
+      - Project-based lessons with solutions in /solution folders and quizzes for each lesson
+      - Many lessons also provided in R as .rmd files
+      - Translated into 50+ languages via automated GitHub Action
+      - MIT license; can run in GitHub Codespaces without local Python setup
+    weaknesses:
+      - Covers classic ML only; deep learning is in a separate curriculum
+      - Not about LLMs or generative AI
+      - Clone is large because of 50+ translations unless sparse checkout is used
+      - Per-lesson dependencies must be installed manually
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python
+        - Scikit-learn
+        - Jupyter
+        - R (optional)
+      model_support: []
+      web_port: null
+    links:
+      demo: https://ff-quizzes.netlify.app/en/ml/
+      website: null
+      docs: https://learn.microsoft.com/en-us/collections/qrqzamz1nn2wx3?WT.mc_id=academic-77952-bethanycheum
+    audience: Beginners and teachers learning classic machine learning with Python
+    confidence: 0.9
+    facts:
+      stars: 91480
+      license: MIT
+      last_commit: 2026-09-14
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Jupyter Notebook
+    score: 75
+  - id: deer-flow
+    repo: bytedance/deer-flow
+    name: deer-flow
+    status: listed
+    tagline: Agent harness that runs sub-agents, memory and sandboxed skills for long tasks
+    summary: DeerFlow 2.0 is a ByteDance agent harness where a lead agent delegates to sub-agents, backed by long-term memory, a sandboxed file system and extensible skills. It includes a web UI, a Gateway, MCP support, IM channels, scheduled tasks, a terminal UI and an embedded Python client. It is a ground-up rewrite that shares no code with v1.
+    categories:
+      - agent-platforms
+      - agent-frameworks
+    strengths:
+      - Interactive `make setup` wizard generates config.yaml and .env in about 2 minutes
+      - Web UI model registration for OpenAI, Anthropic, DeepSeek, Qwen, Doubao, Kimi, Zhipu, MiniMax
+      - Tracing via LangSmith, Langfuse and Monocle, plus `make doctor` and `make support-bundle`
+      - "Many search and fetch backends: Brave, Tavily, Jina, Firecrawl, Crawl4AI, InfoQuest"
+    weaknesses:
+      - README warns improper deployment carries security risks; Gateway admin equals code execution
+      - Local development needs Python 3.12+ and Node.js 22+
+      - README is dense with config detail; RAM and hardware needs are not stated
+      - v2 shares no code with v1; v1 users must stay on the 1.x branch
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - LLM provider API key
+        - Python 3.12+
+        - Node.js 22+
+      model_support:
+        - OpenAI
+        - Anthropic
+        - DeepSeek
+        - Qwen
+        - Doubao
+        - Kimi
+        - Zhipu
+        - MiniMax
+        - Gemini
+        - OpenAI-compatible endpoints
+      web_port: null
+    links:
+      demo: null
+      website: https://deerflow.tech
+      docs: null
+    audience: Engineers self-hosting a multi-agent harness for research and long-running tasks
+    confidence: 0.7
+    facts:
+      stars: 83872
+      license: MIT
+      last_commit: 2026-10-15
+      last_release: 2026-09-24
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 75
+  - id: mineru
+    repo: opendatalab/mineru
+    name: mineru
+    status: listed
+    tagline: Document parser that converts PDFs, images and Office files to Markdown and JSON
+    summary: MinerU parses PDFs, scanned images, Office, OpenDocument, EPUB, OFD, HTML and CSV files into Markdown, HTML, LaTeX, DOCX and structured content lists. It offers four parsing tiers (flash, basic, standard, advanced), a local document library with search, and page/block locators for citations. It ships a CLI, Python SDK, API, router and Gradio WebUI, plus an agent skill.
+    categories:
+      - data-tools
+      - agent-frameworks
+    strengths:
+      - Handles scanned PDFs, tables and formulas, with four quality tiers from fast preview to advanced
+      - Stable doc/tier/page/block locators allow paged reading and citation of long documents
+      - Small models run on ONNX CPU; the VLM can run on llama.cpp, vLLM or LMDeploy
+      - Documents are not uploaded to the official service unless remote parsing is configured
+    weaknesses:
+      - Office, HTML, EPUB, OFD and CSV files only get flash-tier parsing; higher tiers are PDF and image only
+      - Docker deployment for non-NVIDIA devices is pending an update
+      - Highest throughput needs an NVIDIA GPU and mineru[full]; Windows needs torch installed separately
+      - License is reported as NOASSERTION, so terms need checking before use
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python >=3.10,<3.15
+        - llama.cpp, vLLM or LMDeploy (VLM runtime)
+        - ONNX or Torch
+      model_support:
+        - MinerU VLM
+        - ONNX small models
+        - Torch small models
+        - llama.cpp
+        - vLLM
+        - LMDeploy
+      web_port: null
+    links:
+      demo: https://huggingface.co/spaces/opendatalab/MinerU
+      website: https://mineru.net/OpenSourceTools/Extractor?source=github
+      docs: https://opendatalab.github.io/MinerU/
+    audience: Engineers feeding PDFs and Office documents to LLM pipelines or agents
+    confidence: 0.85
+    facts:
+      stars: 81759
+      license: NOASSERTION
+      last_commit: 2026-10-11
+      last_release: 2026-10-11
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 78
+  - id: unsloth
+    repo: unslothai/unsloth
+    name: unsloth
+    status: listed
+    tagline: Desktop and web app to run, fine-tune and export open models
+    summary: Unsloth ships as a desktop app, a web UI (Studio) and a Python library for running and fine-tuning models. It runs GGUF and other open models locally with an OpenAI-compatible API, and trains with LoRA, QLoRA, full fine-tuning and RL methods such as GRPO and DPO. The README claims 2x faster training with up to 70% less VRAM, and exports to GGUF, FP8 and NVFP4.
+    categories:
+      - training
+      - desktop-apps
+    strengths:
+      - Fine-tuning covers LoRA, QLoRA, full fine-tuning, GRPO, DPO and FP8 pretraining
+      - Claims 2x faster training with up to 70% less VRAM, per README
+      - Exports to GGUF, FP8 and NVFP4 and serves an OpenAI-compatible API
+      - Runs on NVIDIA, AMD, Intel, CPU and Vulkan across Windows, macOS and Linux
+    weaknesses:
+      - "Scope is broad: desktop app, Studio web UI and Core library each install differently"
+      - Server-side tools are on by default; exposing it needs --disable-tools or a strong password
+      - Install relies on curl or irm piped to shell scripts
+      - Speed and VRAM figures are the project's own claims; hardware requirements are not listed
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+        - llama.cpp
+        - audio.cpp
+        - Cloudflare (optional remote access)
+      model_support:
+        - GGUF
+        - MLX
+        - LoRA
+        - QLoRA
+        - diffusion
+        - embedding
+        - audio/TTS
+        - Qwen
+        - Gemma
+        - gpt-oss
+        - Llama
+        - DeepSeek
+      web_port: 8000
+    links:
+      demo: https://colab.research.google.com/github/unslothai/unsloth/blob/main/studio/Unsloth_Studio_Colab.ipynb
+      website: https://unsloth.ai
+      docs: https://unsloth.ai/docs
+    audience: Engineers fine-tuning and locally running open LLMs on their own GPUs
+    confidence: 0.8
+    facts:
+      stars: 78010
+      license: Apache-2.0
+      last_commit: 2026-10-14
+      last_release: 2026-10-13
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 87
+  - id: mirofish
+    repo: 666ghj/mirofish
+    name: mirofish
+    status: listed
+    tagline: Multi-agent social simulation engine that predicts outcomes from seed documents
+    summary: MiroFish builds a GraphRAG knowledge graph from uploaded seed material such as news, policy drafts or novels, then generates agent personas and runs a parallel social simulation on the OASIS engine. A ReportAgent writes a prediction report, and you can chat with individual simulated agents afterward. It uses any OpenAI-format LLM API plus Zep Cloud for memory.
+    categories:
+      - agent-platforms
+    strengths:
+      - "End-to-end pipeline: graph building, persona generation, simulation, report, and agent chat"
+      - Works with any OpenAI-SDK-compatible LLM endpoint via LLM_BASE_URL
+      - Public live demo available without installing anything
+      - Docker Compose and source install both documented, ports 3000 and 5001
+    weaknesses:
+      - Requires Zep Cloud API key, so memory is not fully self-hosted
+      - README warns of high LLM token consumption; suggests under 40 rounds first
+      - AGPL-3.0 license restricts closed-source network use
+      - README gives no evidence of prediction accuracy or benchmarks
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Zep Cloud
+        - OpenAI-compatible LLM API
+        - Node.js 18+
+        - Python 3.11-3.12
+        - uv
+      model_support:
+        - OpenAI-compatible APIs
+        - Qwen-plus (recommended)
+      web_port: 3000
+    links:
+      demo: https://666ghj.github.io/mirofish-demo/
+      website: null
+      docs: null
+    audience: Analysts testing scenarios or policy reactions with LLM agent simulations
+    confidence: 0.8
+    facts:
+      stars: 79219
+      license: AGPL-3.0
+      last_commit: 2026-10-01
+      last_release: 2026-03-07
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 59
+  - id: career-ops
+    repo: career-ops-hq/career-ops
+    name: career-ops
+    status: listed
+    tagline: Job-search agent that scores postings against your CV and drafts applications
+    summary: Runs inside an AI coding CLI (Claude Code, Codex, OpenCode, Qwen and others). You paste a job URL or text and it checks the posting is still live, scores fit against your CV, and drafts a tailored ATS PDF, cover letter and form answers. It never submits or sends anything; data stays local apart from calls to the AI provider you choose. It also has a portal scanner, a terminal dashboard and batch evaluation.
+    categories:
+      - assistants
+      - automation
+    strengths:
+      - "Drafts only: no auto-submit and no mail transport in the code, per the README"
+      - No telemetry or backend; CV goes only to your chosen AI provider
+      - Portal scanner preconfigured for 100+ companies across Ashby, Greenhouse, Lever and Wellfound
+      - Works with several AI CLIs and can use local or free-tier models
+    weaknesses:
+      - Requires an AI CLI and a model provider; output quality depends on the model
+      - README says early runs are rough until it learns your profile
+      - CV rewording check cannot catch every fabrication; manual review required
+      - Playwright Chromium needed for PDF generation
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Node.js
+        - Playwright Chromium
+        - AI CLI (Claude Code, Codex, OpenCode, Qwen)
+      model_support:
+        - Claude
+        - Codex
+        - OpenCode
+        - Qwen
+        - local models
+      web_port: null
+    links:
+      demo: null
+      website: https://career-ops.org/manifesto
+      docs: null
+    audience: Job seekers comfortable running an AI CLI in a terminal
+    confidence: 0.7
+    facts:
+      stars: 74582
+      license: MIT
+      last_commit: 2026-10-14
+      last_release: 2026-10-10
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: JavaScript
+    score: 76
+  - id: annotated-deep-learning-paper-implementations
+    repo: labmlai/annotated_deep_learning_paper_implementations
+    name: annotated_deep_learning_paper_implementations
+    status: listed
+    tagline: Annotated PyTorch implementations of deep learning papers with side-by-side notes
+    summary: A collection of short PyTorch implementations of neural network architectures and algorithms, each rendered on nn.labml.ai as code beside explanatory notes. It covers transformers (including Flash Attention in Triton, RoPE, ALiBi), LoRA, diffusion models, GANs, reinforcement learning, optimizers, normalization layers and more. Installable as the labml-nn pip package.
+    categories:
+      - learning
+      - ml-frameworks
+    strengths:
+      - "Broad coverage: transformers, diffusion, GANs, RL, optimizers, normalization, LoRA, GNNs, CFR"
+      - Each implementation has side-by-side code and explanation on a hosted website
+      - Compact PyTorch code that is readable for studying the original papers
+      - MIT license; install with pip install labml-nn
+    weaknesses:
+      - Written for study, not as an optimized production library
+      - No release tags; versioning is only via the pip package
+      - Many entries cover older papers; recent architectures are sparse
+      - README gives no hardware requirements beyond GPU notes for the GPT-NeoX examples
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+      model_support:
+        - PyTorch
+        - JAX (transformer example)
+        - Triton (Flash Attention)
+      web_port: null
+    links:
+      demo: null
+      website: https://nn.labml.ai/index.html
+      docs: https://nn.labml.ai/index.html
+    audience: Engineers and students learning how deep learning papers are implemented
+    confidence: 0.8
+    facts:
+      stars: 67555
+      license: MIT
+      last_commit: 2026-01-22
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 30
+  - id: daily-stock-analysis
+    repo: zhulinsen/daily_stock_analysis
+    name: daily_stock_analysis
+    status: listed
+    tagline: Daily LLM stock analysis for A-share, HK, US and other markets, pushed to chat apps
+    summary: Python app that pulls quotes, K-lines, news and fundamentals for a watchlist across A-share, HK, US, Japan, Korea and Taiwan markets. It has an LLM write a decision report with score, trend, buy/sell levels and risks, then pushes it to WeCom, Feishu, Telegram, Discord, Slack or email. It runs on GitHub Actions, Docker or locally, with a FastAPI web workbench for history, backtests and strategy chat.
+    categories:
+      - agent-platforms
+    strengths:
+      - Runs on a GitHub Actions fork with no server; default schedule is weekdays 18:00 Beijing time
+      - Free data sources (AkShare, Baostock, YFinance) work with zero configuration
+      - Supports Gemini, Claude, OpenAI-compatible APIs, DeepSeek, Qwen and local Ollama models
+      - Six push channels plus a web UI with history, backtest, portfolio and 15 built-in chat strategies
+    weaknesses:
+      - README is mainly Chinese; English docs are in a separate file
+      - Free data sources are subject to rate limits and upstream changes; stability not guaranteed
+      - Report quality depends on a paid news-search API key; a search service is recommended
+      - Output is for study only; the disclaimer excludes investment advice and liability
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - LLM API key or Ollama
+        - News search API (Anspire, SerpAPI, Tavily, Bocha, Brave, MiniMax or SearXNG)
+        - Market data sources (AkShare, Baostock, YFinance; optional TickFlow, Tushare, Longbridge)
+        - Notification channel
+      model_support:
+        - Gemini
+        - OpenAI-compatible
+        - DeepSeek
+        - Qwen
+        - Claude
+        - Ollama
+      web_port: 8000
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/docs/INDEX.md
+    audience: Retail investors and self-hosters wanting scheduled LLM watchlist reports
+    confidence: 0.7
+    facts:
+      stars: 66354
+      license: MIT
+      last_commit: 2026-10-14
+      last_release: 2026-09-06
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 77
+  - id: openmontage
+    repo: calesthio/openmontage
+    name: openmontage
+    status: listed
+    tagline: Agent-driven video production pipelines run from your AI coding assistant
+    summary: OpenMontage is a set of pipelines, tools and stage skills that let a coding assistant (Claude Code, Cursor, Copilot, Windsurf, Codex) research, script, generate assets, edit and render a video. Rendering uses Remotion or HyperFrames plus FFmpeg. It works with no API keys using Piper TTS and free footage from Archive.org, NASA and Wikimedia, and adds paid image, video and voice providers when keys are set.
+    categories:
+      - agent-platforms
+      - image-video
+    strengths:
+      - "Works with zero API keys: Piper TTS, free archival footage, Remotion/HyperFrames, FFmpeg"
+      - "Many providers via optional keys: fal.ai, Atlas Cloud, Kling, Runway, ElevenLabs, Suno, Google"
+      - Backlot local board shows pipeline progress, costs, and a storyboard approval gate before render
+      - Can start from a reference YouTube, TikTok or local video and give cost estimates first
+    weaknesses:
+      - Needs an external AI coding assistant to drive it; no standalone prompting UI
+      - AGPL-3.0 license restricts closed-source network use
+      - Setup needs Python 3.10+, Node.js 18+ and FFmpeg; no Docker image
+      - Local video generation needs a GPU; VRAM requirements are not stated in the README
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python 3.10+
+        - FFmpeg
+        - Node.js 18+
+        - AI coding assistant
+        - Remotion
+        - HyperFrames
+      model_support:
+        - wan2.2-ti2v-5b
+        - wan2.1
+        - hunyuan-1.5
+        - ltx2-local
+        - cogvideo-5b
+        - Piper TTS
+        - fal.ai
+        - Kling
+        - Runway
+        - ElevenLabs
+        - OpenAI
+        - Google
+      web_port: null
+    links:
+      demo: null
+      website: https://openmontage.video
+      docs: null
+    audience: Creators and developers producing videos through a coding assistant
+    confidence: 0.8
+    facts:
+      stars: 68287
+      license: AGPL-3.0
+      last_commit: 2026-10-12
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 62
+  - id: serviette
+    repo: pathwaycom/serviette
+    name: serviette
+    status: listed
+    tagline: RAG and enterprise search app templates built on the Pathway live data framework
+    summary: A set of Python templates for RAG and document search that stay in sync with sources such as local files, Google Drive, SharePoint, S3, Kafka and PostgreSQL. Indexing is built in (usearch for vectors, Tantivy for full-text), so no separate vector database, cache or API framework is needed. Templates include basic Q&A, multimodal GPT-4o parsing, unstructured-to-SQL, Adaptive RAG, a private Mistral/Ollama variant and video RAG, each exposing an HTTP API.
+    categories:
+      - rag-knowledge
+    strengths:
+      - Index updates on additions, deletions and edits in connected sources
+      - Built-in vector, hybrid and full-text indexes, no external vector DB
+      - Private template runs locally with Mistral and Ollama
+      - Optional Streamlit UI for quick demos
+    weaknesses:
+      - Tied to the Pathway framework, so pipeline code is not portable
+      - Several templates call hosted APIs (GPT-4o, TwelveLabs)
+      - No tagged releases
+      - README gives no RAM or hardware requirements
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Pathway
+        - usearch
+        - Tantivy
+        - PostgreSQL (SQL template)
+        - Ollama (private template)
+        - TwelveLabs (video template)
+        - Streamlit (optional UI)
+      model_support:
+        - OpenAI GPT-4o
+        - Mistral via Ollama
+        - TwelveLabs Pegasus and Marengo
+      web_port: null
+    links:
+      demo: https://pathway.com/solutions/rag-pipelines#try-it-out
+      website: https://pathway.com
+      docs: https://pathway.com/developers/templates/
+    audience: Teams building live-synced RAG or document search backends in Python
+    confidence: 0.8
+    facts:
+      stars: 58787
+      license: MIT
+      last_commit: 2026-07-05
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Jupyter Notebook
+    score: 55
+  - id: ppt-master
+    repo: hugohe3/ppt-master
+    name: ppt-master
+    status: listed
+    tagline: Agent skill that turns documents into natively editable PowerPoint decks
+    summary: PPT Master is a workflow ("skill") that runs inside an agent-capable AI tool such as Claude Code, Cursor or Codex CLI. It reads source material like PDFs, DOCX and web pages, plans the argument, and exports a .pptx with native shapes, data-backed charts and tables, and slide masters via the template route. It can also fill existing decks, extract templates, and add transitions, animations and narration.
+    categories:
+      - agent-frameworks
+    strengths:
+      - Exports native PowerPoint objects (shapes, charts, tables), not flattened images
+      - Runs on your machine; only model API calls leave it
+      - "Works with any agent-capable tool and model: Claude, GPT, Gemini, Kimi"
+      - Also fills existing .pptx files and distills reusable templates
+    weaknesses:
+      - Output quality depends on the driving model; README recommends Kimi K3 or Claude with ~1M context
+      - Image-heavy decks need a separate AI image generation API such as gpt-image-2
+      - Needs an agent tool installed plus Python 3.10+; no standalone UI
+      - SmartArt is deliberately unsupported; one-shot decks still need manual polish
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3.10+
+        - An agent-capable AI tool (Claude Code, Cursor, Codex CLI, etc.)
+        - pandoc (only for legacy formats like .doc, .odt, .rtf)
+      model_support:
+        - Kimi K3
+        - Claude
+        - GPT
+        - Gemini
+        - gpt-image-2
+        - gemini-nano-banana-2.1
+      web_port: null
+    links:
+      demo: https://hugohe3.github.io/ppt-master-examples/
+      website: null
+      docs: https://github.com/hugohe3/ppt-master/blob/main/docs/getting-started.md
+    audience: People who want editable PowerPoint decks generated from documents by an agent
+    confidence: 0.8
+    facts:
+      stars: 62074
+      license: MIT
+      last_commit: 2026-10-14
+      last_release: 2026-10-08
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 90
+  - id: face-recognition
+    repo: ageitgey/face_recognition
+    name: face_recognition
+    status: listed
+    tagline: Python library and CLI for face detection, landmarks and matching, built on dlib
+    summary: Python library built on dlib that finds faces in images, returns landmarks for eyes, nose, mouth and chin, and compares face encodings to identify people. It also installs `face_recognition` and `face_detection` CLI tools that process folders of images, with a `--tolerance` setting (default 0.6) and `--cpus` for parallel runs. The README cites 99.38% accuracy on Labeled Faces in the Wild.
+    categories:
+      - ml-frameworks
+    strengths:
+      - "Few-line Python API: face_locations, face_landmarks, face_encodings, compare_faces"
+      - CLI tools identify faces across image folders, with --cpus for multi-core runs
+      - "Many runnable examples: webcam, video file, Raspberry Pi, Flask service, KNN and SVM"
+      - Optional CNN detector with GPU batch support when dlib is built with CUDA
+    weaknesses:
+      - Last release is 2018-04-02, so PyPI lags the repository
+      - Requires building dlib with cmake; Windows is not officially supported
+      - README says accuracy is weaker on children and varies between ethnic groups
+      - CNN detection model needs a GPU for good performance
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - dlib
+        - cmake
+        - Python 3.3+ or 2.7
+        - OpenCV (webcam/video examples)
+        - Flask (web service example)
+      model_support:
+        - dlib HOG face detector
+        - dlib CNN face detector
+        - dlib ResNet face encodings
+      web_port: null
+    links:
+      demo: https://beta.deepnote.org/launch?template=face_recognition
+      website: null
+      docs: https://face-recognition.readthedocs.io/en/latest/face_recognition.html
+    audience: Python developers adding face detection or matching to scripts and apps
+    confidence: 0.8
+    facts:
+      stars: 56821
+      license: MIT
+      last_commit: 2026-06-25
+      last_release: 2018-04-02
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 40
+  - id: voicestudio
+    repo: debpalash/voicestudio
+    name: voicestudio
+    status: listed
+    tagline: Desktop app for voice cloning, dubbing and dictation with local speech models
+    summary: VoiceStudio is an Electron desktop app with a Python backend for voice cloning, text-described voice design, timed video dubbing, dictation, transcription and audiobook creation. The default engine is k2-fsa/OmniVoice, with other engines selectable and models installed through a Model Manager. It also exposes a local API and an MCP server for agents.
+    categories:
+      - voice
+    strengths:
+      - Covers cloning, voice design, dubbing, dictation and audiobooks in one app
+      - CUDA on NVIDIA, Metal on Apple Silicon, and a CPU fallback
+      - Local API and MCP for agents, plus watch folders and reusable recipes
+      - Installers for macOS, Windows and Linux, plus Docker
+    weaknesses:
+      - AGPL-3.0 app licence; model weights and voices carry separate terms
+      - CPU-only use is slower; CPU PyTorch setup needs about 5 GB disk
+      - Intel Mac runs the UI only and needs a remote backend
+      - Windows on ARM is experimental and CPU only
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Electron
+        - Python
+        - PyTorch
+        - Bun (source build)
+        - Node.js 22+ (source build)
+      model_support:
+        - k2-fsa/OmniVoice
+      web_port: null
+    links:
+      demo: null
+      website: https://voicestudio.sh/?utm_source=github&utm_medium=readme&utm_campaign=project
+      docs: https://github.com/debpalash/VoiceStudio/blob/main/docs/engines/README.md
+    audience: Creators and self-hosters who want local voice cloning, dubbing and dictation
+    confidence: 0.8
+    facts:
+      stars: 66436
+      license: AGPL-3.0
+      last_commit: 2026-10-14
+      last_release: 2026-09-23
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 81
+  - id: ai-agent-book
+    repo: bojieli/ai-agent-book
+    name: ai-agent-book
+    status: listed
+    tagline: Open book on AI agent design, with 109 runnable companion experiments
+    summary: A Chinese-language book, "Understanding AI Agents in Depth", with 10 chapters built on the formula Agent = LLM + context + tools. It covers context engineering, memory and RAG, tools and MCP, coding agents, interaction, evaluation, post-training and multi-agent collaboration. The repo holds the book sources, PDF and EPUB builds in 15 languages, and 109 Python experiments installed per chapter with uv or pip.
+    categories:
+      - learning
+    strengths:
+      - 109 companion experiments mapped to chapters, installable per chapter via uv.lock or pip
+      - PDF and EPUB in 15 languages, plus an online reader
+      - Covers evaluation and post-training (SFT/RL), not only prompting and tool use
+      - External repos are pinned to commit SHAs for reproducible setups
+    weaknesses:
+      - Original text is Chinese; the other 14 translations are community-made and may lag
+      - README says experiment code is agent-generated and not read line by line by the author
+      - Installing or cloning does not mean an experiment was run; status is tracked separately
+      - Most experiments need provider API keys; some need CUDA, browsers or external repos
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python 3.11-3.13
+        - uv or pip
+        - LLM provider API keys
+        - pandoc and xelatex (only to build the PDF)
+      model_support:
+        - Kimi
+        - GLM
+        - DeepSeek
+        - OpenRouter
+        - Siliconflow
+        - Ollama
+      web_port: null
+    links:
+      demo: null
+      website: https://bojieli.github.io/ai-agent-book/astro/
+      docs: https://bojieli.github.io/ai-agent-book/astro/
+    audience: Engineers learning to build and evaluate LLM agents, Chinese readers first
+    confidence: 0.85
+    facts:
+      stars: 54239
+      license: Apache-2.0
+      last_commit: 2026-09-30
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 72
+  - id: supervision
+    repo: roboflow/supervision
+    name: supervision
+    status: listed
+    tagline: Python toolkit for loading, annotating and counting computer vision detections
+    summary: Supervision is a model-agnostic Python library that wraps detection, classification and segmentation outputs in a common sv.Detections object. It has connectors for Ultralytics, Transformers, MMDetection and Inference, annotators for drawing results, and utilities to load, split, merge and convert YOLO, Pascal VOC and COCO datasets. Tracking, zone counting and speed estimation appear in the linked tutorials.
+    categories:
+      - ml-frameworks
+    strengths:
+      - Connectors for Ultralytics, Transformers, MMDetection and Inference; rfdetr returns sv.Detections directly
+      - Dataset utils load, split, merge and convert YOLO, Pascal VOC and COCO
+      - Configurable annotators such as BoxAnnotator for drawing detections on frames
+      - Installs with pip; docs, cookbooks and a cheatsheet are available
+    weaknesses:
+      - Does not train or run models itself; a separate detection model is required
+      - Requires Python 3.10 or newer
+      - Inference and dataset download examples need a Roboflow API key
+      - Tracking and zone features are shown in video tutorials, not the README text
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python>=3.10
+        - rfdetr (optional)
+        - Roboflow Inference (optional)
+        - Roboflow API key (optional)
+      model_support:
+        - Ultralytics
+        - Transformers
+        - MMDetection
+        - Inference
+        - rfdetr
+        - COCO
+        - YOLO
+        - Pascal VOC
+      web_port: null
+    links:
+      demo: https://huggingface.co/spaces/Roboflow/Annotators
+      website: https://supervision.roboflow.com
+      docs: https://supervision.roboflow.com
+    audience: Python developers building computer vision apps around detection models
+    confidence: 0.8
+    facts:
+      stars: 51208
+      license: MIT
+      last_commit: 2026-10-13
+      last_release: 2026-10-08
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 84
+  - id: airi
+    repo: moeru-ai/airi
+    name: airi
+    status: listed
+    tagline: Self-hosted AI virtual character with voice, VRM/Live2D avatars and game-playing
+    summary: AIRI is an attempt to re-create Neuro-sama as a self-owned digital companion. It runs as a web app, an Electron desktop app (Tamagotchi) and a Capacitor mobile app (Pocket), and drives VRM or Live2D avatars with speech input, multi-provider TTS and an LLM backend. It can chat on Discord and Telegram and play Minecraft and Factorio, and the README describes it as early-stage.
+    categories:
+      - assistants
+      - desktop-apps
+    strengths:
+      - Runs in browser, desktop (Electron) and mobile (PWA/Capacitor) from one TypeScript monorepo
+      - Supports 25+ LLM providers including Ollama, vLLM, SGLang, OpenAI, Anthropic and Gemini
+      - Controls VRM and Live2D avatars with auto blink, look-at and idle eye movement
+      - Connectors for Discord voice and text, Telegram, Minecraft and Factorio
+    weaknesses:
+      - README states development is at an early stage
+      - Long-term memory (Memory Alaya) and in-browser WebGPU inference are unfinished
+      - Factorio and Helldivers 2 support are WIP or proof of concept
+      - No Docker or compose setup; self-hosting means building with pnpm or using release binaries
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - pnpm
+        - Electron
+        - Capacitor
+      model_support:
+        - OpenAI-compatible APIs
+        - Ollama
+        - vLLM
+        - SGLang
+        - Anthropic
+        - Google Gemini
+        - OpenRouter
+        - VRM
+        - Live2D
+      web_port: null
+    links:
+      demo: https://airi.moeru.ai
+      website: https://airi.moeru.ai
+      docs: https://airi.moeru.ai/docs/en/
+    audience: Self-hosters and VTuber hobbyists wanting an AI companion with avatar
+    confidence: 0.8
+    facts:
+      stars: 50394
+      license: MIT
+      last_commit: 2026-10-14
+      last_release: 2026-08-29
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 67
+  - id: shannon
+    repo: keygraphhq/shannon
+    name: shannon
+    status: listed
+    tagline: Autonomous pentester that exploits web apps and APIs using source code analysis
+    summary: Shannon reads a web application's source, maps attack paths, then uses browser automation and command-line tools to run real exploits against the running app and its APIs. Only findings with a working proof of concept reach the PDF, Markdown, JSON or SARIF 2.1.0 report. It runs from an npx launcher with an ephemeral Docker worker, and also ships a GitHub Action and a GitLab CI component.
+    categories:
+      - security
+    strengths:
+      - Reports only exploits with a reproducible proof of concept, which cuts speculative scanner noise
+      - Outputs PDF, Markdown, JSON and SARIF 2.1.0; GitHub Action and GitLab CI can gate on exploited findings
+      - "Bring your own key: Anthropic, OpenAI, xAI, Bedrock, gateways, or local Ollama, vLLM and LM Studio"
+      - Supports authenticated scans (login flows, TOTP) and resumable workspaces
+    weaknesses:
+      - Needs source code of the target; black-box testing is only in paid Pro and Enterprise
+      - Actively executes exploits, so it must not be pointed at production systems
+      - Anthropic and OpenAI cyber safeguards can interrupt scans unless you complete their verification
+      - Claude Code subscriptions unsupported after version 1.9.0; model API costs are yours
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Docker
+        - Node.js 18+
+        - AI provider API key or subscription
+      model_support:
+        - Anthropic
+        - OpenAI
+        - xAI
+        - AWS Bedrock
+        - Ollama
+        - vLLM
+        - LM Studio
+        - OpenAI-compatible gateways
+      web_port: null
+    links:
+      demo: null
+      website: https://keygraph.io/
+      docs: https://github.com/KeygraphHQ/shannon/blob/main/docs/ai-providers.md
+    audience: Developers and security teams pentesting apps they own, locally or in CI
+    confidence: 0.9
+    facts:
+      stars: 48884
+      license: AGPL-3.0
+      last_commit: 2026-10-08
+      last_release: 2026-10-06
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 67
+  - id: ray
+    repo: ray-project/ray
+    name: ray
+    status: listed
+    tagline: Distributed Python runtime with libraries for data, training, tuning, RL and serving
+    summary: Ray is a distributed runtime for scaling Python code from a laptop to a cluster, built around tasks, actors and shared objects. On top of the core it ships libraries for datasets (Data), distributed training (Train), hyperparameter tuning (Tune), reinforcement learning (RLlib) and model serving (Serve). It includes a dashboard and a distributed debugger, and runs on local machines, clusters, cloud providers and Kubernetes.
+    categories:
+      - ml-frameworks
+      - training
+    strengths:
+      - Same Python code scales from one machine to a cluster without extra infrastructure
+      - One runtime covers data processing, training, tuning, RL and serving
+      - Runs on bare clusters, cloud providers and Kubernetes
+      - Ships a dashboard and a distributed debugger for cluster apps
+    weaknesses:
+      - Python-centric; README describes scaling Python applications only
+      - Broad scope with many libraries means a large surface to learn
+      - README gives no hardware requirements or cluster sizing guidance
+      - Anyscale managed offering is promoted; OSS versus hosted feature split is unclear
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://www.ray.io
+      docs: https://docs.ray.io/en/latest/index.html
+    audience: Python and ML engineers scaling workloads across machines or clusters
+    confidence: 0.8
+    facts:
+      stars: 44031
+      license: Apache-2.0
+      last_commit: 2026-10-15
+      last_release: 2026-10-02
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 77
+  - id: agent-browser
+    repo: vercel-labs/agent-browser
+    name: agent-browser
+    status: listed
+    tagline: Native Rust CLI that lets AI agents drive Chrome via accessibility snapshots
+    summary: agent-browser is a Rust command-line tool that controls Chrome for AI agents. It exposes an accessibility-tree snapshot with element refs (@e1, @e2) that commands like click, fill and get text can target, alongside CSS and semantic locators. It also covers screenshots, network interception, HAR recording, cookies, batch execution, an optional MCP profile and experimental WebMCP support.
+    categories:
+      - agent-frameworks
+    strengths:
+      - Snapshot refs let agents target elements without writing selectors
+      - Native Rust binary; daemon needs no Playwright or Node.js
+      - Batch mode runs multiple commands in one process invocation
+      - Detects existing Chrome, Brave, Playwright and Puppeteer installs
+    weaknesses:
+      - Requires downloading Chrome via a separate install step
+      - WebMCP support is marked experimental
+      - Linux needs extra system libraries via install --with-deps
+      - Refs go stale after page changes and need a fresh snapshot
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Chrome (Chrome for Testing)
+        - Node.js 24+ and pnpm 11+ (source build only)
+        - Rust (source build only)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Developers giving AI agents scriptable browser control from the shell
+    confidence: 0.8
+    facts:
+      stars: 43985
+      license: Apache-2.0
+      last_commit: 2026-10-14
+      last_release: 2026-10-13
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Rust
+    score: 74
+  - id: openhuman
+    repo: tinyhumansai/openhuman
+    name: openhuman
+    status: listed
+    tagline: Rust agent harness with desktop app, built-in memory and embeddable library
+    summary: OpenHuman is a single-process Rust agent harness shipped as a desktop app (macOS, Windows, Linux), a terminal app, a headless server and an embeddable Rust crate. It bundles memory recalled with citations, browser and desktop control, MCP and skills, 14 messaging channels, durable workflows, and local or BYOK models. The README reports its own benchmark on ten SWE-bench tasks and claims 500 agents fit on a $10 VPS; it is labelled early beta.
+    categories:
+      - assistants
+      - agent-frameworks
+    strengths:
+      - Embeds as a typed Rust library, no sidecar or daemon needed
+      - Public benchmark repo; reports 68 MB peak memory and 19.8 s median task time
+      - Local models (Ollama, LM Studio, MLX) or BYOK across 26 providers
+      - Approval gate, OS-jail or Docker sandboxing, secrets stored in OS keyring
+    weaknesses:
+      - Labelled early beta; README warns of rough edges
+      - Benchmark is self-run on only ten tasks
+      - GPL-3.0 license constrains embedding in proprietary products
+      - 119 OAuth app integrations go through Composio, an external service
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Composio (OAuth integrations)
+        - Ollama / LM Studio / MLX (optional local models)
+        - Docker (optional sandbox)
+      model_support:
+        - Ollama
+        - LM Studio
+        - MLX
+        - OpenAI-compatible APIs
+        - 26 BYOK providers
+      web_port: null
+    links:
+      demo: null
+      website: https://tinyhumans.ai/openhuman
+      docs: https://tinyhumans.gitbook.io/openhuman/
+    audience: Users wanting a self-run agent app, and Rust developers embedding agents
+    confidence: 0.8
+    facts:
+      stars: 41994
+      license: GPL-3.0
+      last_commit: 2026-10-15
+      last_release: 2026-10-09
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Rust
+    score: 81
+  - id: faiss
+    repo: facebookresearch/faiss
+    name: faiss
+    status: listed
+    tagline: C++ library for similarity search and clustering of dense vectors
+    summary: Faiss is a C++ library with Python/numpy wrappers for nearest-neighbor search over dense vectors using L2 distance, dot product or cosine. It offers exact search, HNSW and NSG graph indexes, and compressed indexes that scale to billions of vectors in memory. Some indexes also run on GPU via CUDA or AMD ROCm, with optional NVIDIA cuVS backends.
+    categories:
+      - vector-db
+      - ml-frameworks
+    strengths:
+      - Many index types trading off speed, accuracy, memory per vector and training time
+      - Compressed and binary indexes handle sets that do not fit in RAM uncompressed
+      - GPU indexes (CUDA, ROCm) replace CPU ones, single or multi-GPU
+      - Only hard dependency is a BLAS implementation; MIT licensed
+    weaknesses:
+      - "Library only: no server, REST API, auth or built-in persistence service"
+      - Vectors are identified by integers; metadata filtering must be built separately
+      - Choosing and tuning an index type requires understanding the trade-offs
+      - Builds with cmake; prebuilt packages are listed for Anaconda only
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - BLAS
+        - CUDA or ROCm (optional)
+        - NVIDIA cuVS (optional)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://faiss.ai/
+      docs: https://github.com/facebookresearch/faiss/wiki
+    audience: Engineers embedding vector search in their own C++ or Python applications
+    confidence: 0.9
+    facts:
+      stars: 41153
+      license: MIT
+      last_commit: 2026-10-15
+      last_release: 2026-09-16
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: C++
+    score: 64
+  - id: deeptutor
+    repo: hkuds/deeptutor
+    name: deeptutor
+    status: listed
+    tagline: Self-hosted AI tutor with knowledge bases, guided learning, books and quizzes
+    summary: DeepTutor is a Python backend with a Next.js 16 web UI for studying from your own documents. It combines chat over knowledge bases (LightRAG, PageIndex, GraphRAG, LlamaIndex, FAISS) with guided learning, generated books, quizzes, question banks and deep research. It also offers multi-user accounts, IM-connected Partners, MCP services and a CLI.
+    categories:
+      - rag-knowledge
+      - assistants
+    strengths:
+      - "Several retrieval engines selectable per knowledge base: LightRAG, PageIndex, GraphRAG, LlamaIndex"
+      - "Covers study workflows: guided learning, mastery gates, quizzes, question bank, daily practice"
+      - Multi-user deployment with per-user isolation, admin grants and learner/guardian accounts
+      - Wide provider and parser coverage, including Codex OAuth, MinerU, Tika and PyMuPDF4LLM
+    weaknesses:
+      - Fast release cadence with breaking refactors (v1.6.3) makes upgrades risky
+      - "Large surface area: Partners, MCP, CLI apps and plugins add configuration overhead"
+      - RAM, GPU and port requirements are not stated in the visible README
+      - Aimed at learning and study; less suited to general chat or enterprise search
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Python 3.11+
+        - Node.js (Next.js 16)
+        - Docker (optional)
+      model_support:
+        - OpenAI-compatible providers
+        - Anthropic
+        - Gemini
+        - OpenAI Codex OAuth
+        - Lemonade (local)
+        - NVIDIA NIM
+      web_port: null
+    links:
+      demo: null
+      website: https://deeptutor.info
+      docs: https://deeptutor.info
+    audience: Students and educators self-hosting a document-grounded AI tutor
+    confidence: 0.7
+    facts:
+      stars: 41398
+      license: Apache-2.0
+      last_commit: 2026-10-08
+      last_release: 2026-10-08
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 78
+  - id: kronos
+    repo: shiyu-coder/kronos
+    name: kronos
+    status: listed
+    tagline: Pretrained decoder-only models that forecast financial candlestick (K-line) series
+    summary: Kronos is a family of decoder-only Transformers pretrained on OHLCV candlestick data from over 45 exchanges. A tokenizer quantizes K-lines into hierarchical discrete tokens, and the model forecasts future bars through a KronosPredictor class with temperature and top-p sampling. Weights for mini, small and base are on Hugging Face, and the repo includes a Qlib-based fine-tuning and backtest pipeline.
+    categories:
+      - models
+      - training
+    strengths:
+      - Open weights at 4.1M, 24.7M and 102.3M params on Hugging Face
+      - Few-line predict and predict_batch API returning pandas DataFrames
+      - Includes tokenizer and predictor fine-tuning scripts with a Qlib backtest example
+      - MIT license; paper accepted at AAAI 2026
+    weaknesses:
+      - Kronos-large (499.2M) weights are not released
+      - Context limited to 512 tokens, except 2048 for Kronos-mini
+      - Batch prediction requires identical lookback and pred_len across all series
+      - Fine-tuning example is a demo, not a production trading system; no releases tagged
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+        - Hugging Face Hub
+        - pyqlib (fine-tuning only)
+        - Comet.ml (optional)
+      model_support:
+        - Kronos-mini
+        - Kronos-small
+        - Kronos-base
+        - Hugging Face
+      web_port: null
+    links:
+      demo: https://shiyu-coder.github.io/Kronos-demo/
+      website: null
+      docs: null
+    audience: Quant researchers and ML engineers forecasting candlestick time series
+    confidence: 0.85
+    facts:
+      stars: 40752
+      license: MIT
+      last_commit: 2026-04-13
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 47
+  - id: marker
+    repo: datalab-to/marker
+    name: marker
+    status: listed
+    tagline: Converts PDFs, Office files and images to markdown, JSON, HTML or chunks
+    summary: Marker is a Python library and CLI that converts PDF, image, PPTX, DOCX, XLSX, HTML and EPUB files to markdown, JSON, HTML or chunks, handling tables, equations, code blocks and image extraction. Layout, OCR and table recognition run through a surya VLM served by a local vLLM (Docker, NVIDIA) or llama.cpp server that starts automatically. An optional --use_llm mode adds Gemini, Claude, OpenAI-compatible, Azure, Vertex, OpenRouter or Ollama for higher accuracy.
+    categories:
+      - data-tools
+    strengths:
+      - Outputs markdown, JSON block tree with polygons, HTML or chunks, plus extracted images
+      - Fast mode uses text layer and rf-detr layout on CPU; --disable_ocr starts no server
+      - Batch CLI with worker pool, --skip_existing and chunk sharding across multiple machines
+      - Reports 76.0% on olmocr-bench in balanced mode, ahead of MinerU and docling
+    weaknesses:
+      - Model weights use a modified OpenRAIL-M license; commercial use above startup limits needs a paid license
+      - Balanced mode needs Docker with NVIDIA Container Toolkit, or llama.cpp on CPU and Apple Silicon
+      - Non-PDF formats require the marker-pdf[full] extra install
+      - README says the hosted Chandra model is more accurate than Marker
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+        - Python 3.10+
+        - vLLM via Docker with NVIDIA Container Toolkit (GPU)
+        - llama.cpp llama-server (CPU / Apple Silicon)
+        - optional LLM service for --use_llm
+      model_support:
+        - surya VLM
+        - Gemini
+        - Claude
+        - OpenAI-compatible
+        - Azure
+        - Vertex
+        - OpenRouter
+        - Ollama
+      web_port: null
+    links:
+      demo: https://www.datalab.to/playground
+      website: https://www.datalab.to
+      docs: https://documentation.datalab.to
+    audience: Engineers converting PDFs and documents to markdown or JSON for LLM pipelines
+    confidence: 0.9
+    facts:
+      stars: 40445
+      license: Apache-2.0
+      last_commit: 2026-10-14
+      last_release: 2026-07-20
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 58
+  - id: openmaic
+    repo: thu-maic/openmaic
+    name: openmaic
+    status: listed
+    tagline: Generates interactive classes with AI teachers and classmates from a topic or file
+    summary: OpenMAIC turns a topic or attached documents into a lesson made of slides, quizzes, interactive HTML simulations and project-based learning activities. AI teacher and classmate agents speak via TTS, draw on a whiteboard and discuss with the learner. Built on Next.js 16, React 19 and LangGraph. Since 1.2.0, course generation runs on the server and courses are stored in PostgreSQL.
+    categories:
+      - agent-platforms
+      - learning
+    strengths:
+      - Exports lessons as editable .pptx or interactive .html pages
+      - "Many providers: OpenAI, Anthropic, Bedrock, Gemini, Ollama, Lemonade, any OpenAI-compatible API"
+      - "Models set once per slot in openmaic.yml, with lock and allowUserKeys: false options"
+      - OpenMAIC Skill lets OpenClaw and similar workbenches generate classrooms from chat apps
+    weaknesses:
+      - 1.2.0 needs PostgreSQL 16 and a long-running server; Vercel and serverless are unsupported
+      - Latest 1.2.0 line is a release candidate; changelog must be read before upgrading
+      - README recommends image, video, TTS and web search keys for full function
+      - Compose install is single-user; shared access needs ACCESS_CODE and manual network publishing
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PostgreSQL 16
+        - Node.js >= 22.19
+        - pnpm >= 10
+        - LLM provider API key
+      model_support:
+        - OpenAI
+        - Anthropic
+        - Amazon Bedrock
+        - Google Gemini
+        - DeepSeek
+        - Qwen
+        - Ollama
+        - Lemonade
+        - OpenAI-compatible APIs
+      web_port: 3000
+    links:
+      demo: https://open.maic.chat/
+      website: null
+      docs: https://lcn6dqn3m0yr.feishu.cn/wiki/CkQSwHFdzibQFvkGzwPcmUOfnXg
+    audience: Educators and self-hosters building AI-taught courses from documents
+    confidence: 0.8
+    facts:
+      stars: 40739
+      license: MIT
+      last_commit: 2026-10-14
+      last_release: 2026-10-11
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 66
+  - id: quivr
+    repo: the-vibe-company/quivr
+    name: quivr
+    status: listed
+    tagline: Go engine that ingests content streams for hybrid search and keyword alerts
+    summary: Quivr V2 is a Go service that durably ingests text and documents, indexes them in Weaviate for lexical, semantic and hybrid search, and runs saved queries as subscriptions that produce matches and signed webhooks. State lives in PostgreSQL and S3-compatible storage, with Temporal for orchestration and plugins for connectors and alert rules. The README marks it as evaluation stage with a v0 API that may change.
+    categories:
+      - rag-knowledge
+      - search
+    strengths:
+      - Idempotent writes and immutable Versions; search index can be rebuilt from PostgreSQL and S3
+      - Hybrid search rehydrates and re-authorizes every hit; outages return errors, not empty results
+      - Subscriptions with keyword, meaning and described alerts, plus signed webhook delivery
+      - Prometheus metrics, optional OpenTelemetry tracing, and documented worker autoscaling and upgrades
+    weaknesses:
+      - README says evaluation stage, API v0 may change, not for production
+      - "Heavy stack: PostgreSQL, Temporal, Weaviate, S3 storage and a TEI embedding server"
+      - No chat or LLM answer generation described; differs from the earlier Quivr assistant
+      - Described alerts send article text to TypeSafe; last release is February 2025
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - PostgreSQL 17
+        - Temporal
+        - Weaviate
+        - S3-compatible storage (SeaweedFS locally)
+        - TEI (multilingual-e5-small)
+        - Docker Compose
+      model_support:
+        - multilingual-e5-small (384-dim, local TEI)
+        - custom embedding model server
+        - hosted embedding API
+      web_port: 5183
+    links:
+      demo: null
+      website: null
+      docs: https://docs.quivr.thevibecompany.co/quickstart
+    audience: Engineers building search and alerts over content feeds
+    confidence: 0.75
+    facts:
+      stars: 39589
+      license: MIT
+      last_commit: 2026-10-14
+      last_release: 2025-02-04
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Go
+    score: 64
+  - id: ui-tars-desktop
+    repo: bytedance/ui-tars-desktop
+    name: ui-tars-desktop
+    status: listed
+    tagline: "Multimodal agent stack: terminal/Web UI agent and a desktop GUI agent"
+    summary: Monorepo with two projects. Agent TARS is a CLI and Web UI agent that controls a browser via GUI vision, DOM, or a hybrid, and mounts MCP servers as tools. UI-TARS Desktop is an app that operates the local or a remote computer and browser through the UI-TARS and Seed-1.5-VL/1.6 vision-language models.
+    categories:
+      - agent-platforms
+      - desktop-apps
+    strengths:
+      - Browser control by GUI vision, DOM, or hybrid strategy
+      - MCP kernel; external MCP servers can be mounted as tools
+      - Agent TARS runs headful (Web UI) or headless as a server
+      - Works with providers such as Volcengine and Anthropic via CLI flags
+    weaknesses:
+      - Two products in one repo; README splits setup across external docs
+      - Desktop app targets Windows and macOS; Linux support not stated
+      - RAM and GPU needs for local UI-TARS models are not stated
+      - Agent TARS CLI requires Node.js 22 or newer
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Node.js >= 22
+        - model provider API key
+      model_support:
+        - UI-TARS-1.5
+        - Seed-1.5-VL
+        - Volcengine Doubao
+        - Anthropic Claude
+      web_port: null
+    links:
+      demo: null
+      website: https://agent-tars.com
+      docs: https://agent-tars.com/guide/get-started/introduction.html
+    audience: Developers wanting GUI and browser-operating agents driven by vision models
+    confidence: 0.8
+    facts:
+      stars: 39279
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-10-08
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 40
+  - id: dspy
+    repo: stanfordnlp/dspy
+    name: dspy
+    status: listed
+    tagline: Python framework for programming LMs and optimizing their prompts and weights
+    summary: DSPy lets you describe LM-based systems as modular Python code instead of hand-written prompts. It includes optimizers that tune prompts and model weights against a metric, and targets classifiers, RAG pipelines and agent loops. It installs with pip; the README defers all usage details to dspy.ai.
+    categories:
+      - agent-frameworks
+    strengths:
+      - Optimizers tune prompts and weights against a metric, including GEPA
+      - Programs are composed as Python modules rather than prompt strings
+      - Backed by published Stanford NLP research papers
+      - Single pip install; MIT license
+    weaknesses:
+      - README has no quickstart or code example; usage lives on the external docs site
+      - Optimization needs a metric and example data, adding setup versus plain prompting
+      - Supported model providers are not listed in the README
+      - "Library only: no UI, server or deployment tooling"
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://dspy.ai
+      docs: https://dspy.ai
+    audience: Python developers building and tuning LM pipelines, RAG and agents
+    confidence: 0.85
+    facts:
+      stars: 38639
+      license: MIT
+      last_commit: 2026-10-15
+      last_release: 2026-10-12
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 67
+  - id: voxcpm
+    repo: openbmb/voxcpm
+    name: voxcpm
+    status: listed
+    tagline: 2B-parameter text-to-speech model with voice design and voice cloning
+    summary: VoxCPM2 is a 2B-parameter, tokenizer-free TTS model built on a MiniCPM-4 backbone. It synthesizes 48kHz speech in 30 languages, creates voices from a text description, and clones voices from a short reference clip, optionally with a transcript for continuation cloning. It ships as a pip package with a Python API, CLI and web demo, and can be served through Nano-vLLM, vLLM-Omni or llama.cpp-omni.
+    categories:
+      - voice
+    strengths:
+      - Voice design from a text description, no reference audio needed
+      - 30 languages plus nine Chinese dialects, no language tag required
+      - Apache-2.0 weights and code, with SFT and LoRA fine-tuning support
+      - "Serving options: Nano-vLLM, vLLM-Omni (OpenAI-style endpoint), GGUF on llama.cpp-omni"
+    weaknesses:
+      - Standard install requires CUDA 12.0 or newer and PyTorch 2.5.0 or newer
+      - Python support limited to 3.10 through 3.12
+      - RTF about 0.3 on RTX 4090 with the default PyTorch path
+      - "llama.cpp-omni path is slower: RTF about 1.76 on Apple M4 Pro"
+    specs:
+      ram_min_gb: null
+      gpu: required
+      external_deps:
+        - PyTorch >= 2.5.0
+        - CUDA >= 12.0
+        - Python 3.10-3.12
+      model_support:
+        - VoxCPM2
+        - VoxCPM1.5
+        - VoxCPM-0.5B
+        - GGUF (llama.cpp-omni)
+      web_port: 8808
+    links:
+      demo: https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo
+      website: https://github.com/OpenBMB/VoxCPM/
+      docs: https://voxcpm.readthedocs.io/en/latest/
+    audience: Developers needing self-hosted multilingual TTS, voice design or voice cloning
+    confidence: 0.85
+    facts:
+      stars: 39310
+      license: Apache-2.0
+      last_commit: 2026-10-08
+      last_release: 2026-05-11
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 56
+  - id: ai-engineering-hub
+    repo: patchy631/ai-engineering-hub
+    name: ai-engineering-hub
+    status: listed
+    tagline: Collection of 93 runnable AI tutorials on RAG, agents, MCP and fine-tuning
+    summary: A monorepo of about 93 example projects, mostly Jupyter notebooks and small apps, grouped into beginner, intermediate and advanced tiers. Topics include local OCR, RAG with LlamaIndex and Ollama, CrewAI and AutoGen agents, MCP servers, voice agents, model comparisons and fine-tuning with Unsloth. Each project sits in its own folder with its own dependencies.
+    categories:
+      - learning
+    strengths:
+      - Roughly 93 self-contained projects, each in its own folder
+      - "Wide coverage: RAG, agents, MCP, voice, OCR, fine-tuning, evaluation"
+      - Projects sorted into beginner, intermediate and advanced tiers
+      - MIT license; many examples run locally with Ollama and open models
+    weaknesses:
+      - No single install; each project has its own dependencies and setup
+      - Many examples need third-party API keys such as Firecrawl or AssemblyAI
+      - Example code, not a maintained library; 'production-ready' claim is unsupported
+      - No releases or versioning; project freshness and quality vary
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Ollama
+        - LlamaIndex
+        - CrewAI
+        - Qdrant
+        - Milvus
+        - Firecrawl
+        - AssemblyAI
+        - Opik
+      model_support:
+        - Llama 3.2
+        - Llama 3.3
+        - Llama 4
+        - DeepSeek-R1
+        - Qwen3
+        - Gemma 3
+        - GPT-OSS
+        - Janus-Pro
+        - Gemini
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Engineers learning to build RAG, agent and MCP apps from worked examples
+    confidence: 0.9
+    facts:
+      stars: 38323
+      license: MIT
+      last_commit: 2026-10-12
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Jupyter Notebook
+    score: 49
+  - id: copilotkit
+    repo: copilotkit/copilotkit
+    name: copilotkit
+    status: listed
+    tagline: SDK for adding agent chat, generative UI and shared state to apps
+    summary: CopilotKit is a TypeScript SDK that connects agents to user-facing front ends over the AG-UI protocol. It provides a chat UI, generative UI, shared agent state, human-in-the-loop approvals and a useAgent hook for React, Angular, Vue and React Native, plus a Channels SDK for Slack and Microsoft Teams. Persistent threads, memories and automatic learning are in a separate product, CopilotKit Intelligence.
+    categories:
+      - agent-frameworks
+    strengths:
+      - Covers React, Angular, Vue and React Native, with Slack and Teams via Channels SDK
+      - Agents can pause for user confirmation or edits (human-in-the-loop)
+      - Shared state is readable and writable by both agent and UI through useAgent
+      - MIT-licensed source; AG-UI protocol is adopted by several agent frameworks
+    weaknesses:
+      - Rich threads, user memories and automatic learning belong to the Intelligence product, not the MIT repo
+      - Vue docs say quickstart is coming soon; Angular is source-only
+      - Discord, WhatsApp and Telegram managed connections are not yet available
+      - Does not run models; needs your own agent backend and LLM provider
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Agent backend (AG-UI compatible)
+        - LLM provider
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://www.copilotkit.ai
+      docs: https://docs.copilotkit.ai
+    audience: Frontend and full-stack developers adding agents to React, Angular or Vue apps
+    confidence: 0.85
+    facts:
+      stars: 38013
+      license: MIT
+      last_commit: 2026-10-14
+      last_release: 2026-10-12
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 78
+  - id: llmfit
+    repo: alexsjones/llmfit
+    name: llmfit
+    status: listed
+    tagline: Rust tool that checks which LLMs fit your RAM, CPU and GPU
+    summary: llmfit detects CPU cores, RAM, GPU and VRAM (NVIDIA CUDA, AMD ROCm, Intel OneAPI, Apple Silicon), then scores a model catalog on fit, speed, quality and context across quantizations such as GGUF, AWQ, GPTQ and EXL2. It runs as a TUI, a CLI with JSON output, or an HTTP API and web dashboard via `llmfit serve`. Speed figures are estimates from a memory-bandwidth model, and `llmfit bench` can measure real tok/s against a running provider.
+    categories:
+      - models
+    strengths:
+      - Detects NVIDIA, AMD, Intel and Apple Silicon hardware, including multi-GPU and unified memory
+      - Handles MoE models, so memory estimates reflect active parameters rather than total size
+      - JSON CLI output and REST endpoints (/api/v1/system, /api/v1/models) suit scripts and pipelines
+      - Installs via Scoop, Homebrew, MacPorts, uv/pip, cargo or a multi-arch Docker image
+    weaknesses:
+      - Speed and fit numbers are estimates unless measured on your hardware or matched to community results
+      - Does not serve models itself; it recommends and benchmarks against Ollama, llama.cpp, MLX and similar
+      - Windows binaries may ship unsigned if the signing job fails
+      - Model catalog is built in, so new models need a release or a custom-model entry
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Ollama, llama.cpp, MLX, Docker Model Runner or LM Studio (optional, for downloads and benchmarks)
+      model_support:
+        - GGUF
+        - AWQ
+        - GPTQ
+        - EXL2
+      web_port: 8787
+    links:
+      demo: null
+      website: https://llmfit.axjns.dev
+      docs: https://github.com/AlexsJones/llmfit/blob/main/docs/cli.md
+    audience: Self-hosters choosing which local LLMs and quantizations their hardware can run
+    confidence: 0.8
+    facts:
+      stars: 37925
+      license: MIT
+      last_commit: 2026-10-13
+      last_release: 2026-10-08
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Rust
+    score: 80
+  - id: pdfmathtranslate
+    repo: pdfmathtranslate/pdfmathtranslate
+    name: pdfmathtranslate
+    status: listed
+    tagline: Translates scientific PDFs while keeping formulas, figures and layout intact
+    summary: pdf2zh translates scientific PDFs and writes a translated-only and a bilingual (dual) PDF, preserving formulas, charts, table of contents and annotations. It runs as a CLI, a Gradio web UI on port 7860, a Python or HTTP API, or an MCP server, and calls a configurable translation service (Google by default). Layout detection uses a DocLayout-YOLO ONNX model, with optional OCR and an --ultrafast mode.
+    categories:
+      - data-tools
+    strengths:
+      - Outputs both translated-only and side-by-side bilingual PDFs from one command
+      - "Many interfaces: CLI, Gradio GUI, Docker, Python API, HTTP API, MCP stdio/SSE"
+      - Selectable translation backends via -s, with Google as the default
+      - Optional OCR for scanned pages and --ultrafast mode for native-text PDFs
+    weaknesses:
+      - Python limited to 3.11 to 3.12
+      - OCR is experimental and targets white-background scans; handwriting may fail
+      - Last release is 2025-07-11; v2 work lives in a separate PDFMathTranslate-next repo
+      - --ultrafast is CLI fast mode only and is weaker on complex tables or formulas
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - DocLayout-YOLO ONNX model (Hugging Face download)
+        - Translation service (Google default, others configurable)
+      model_support:
+        - ONNX
+      web_port: 7860
+    links:
+      demo: https://pdf2zh.com/
+      website: null
+      docs: https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md
+    audience: Researchers and self-hosters translating academic PDFs
+    confidence: 0.8
+    facts:
+      stars: 37554
+      license: AGPL-3.0
+      last_commit: 2026-10-15
+      last_release: 2025-07-11
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 58
+  - id: prompt-optimizer
+    repo: linshenkx/prompt-optimizer
+    name: prompt-optimizer
+    status: listed
+    tagline: Prompt rewriting and testing tool for web, desktop, Chrome and MCP
+    summary: Prompt Optimizer rewrites system and user prompts with an LLM you configure, then lets you test, compare and save the results as versioned favorites. It runs as a browser app, desktop app, Chrome extension or Docker container, and exposes an MCP server at /mcp with optimize-user-prompt, optimize-system-prompt and iterate-prompt tools. Model calls go straight from the client to the provider, including text-to-image and image-to-image modes.
+    categories:
+      - desktop-apps
+      - mcp-servers
+    strengths:
+      - Ships as web app, desktop app, Chrome extension and Docker image
+      - Built-in MCP server at /mcp for Claude Desktop and other MCP clients
+      - Analysis and compare evaluation, variables, multi-turn and function-calling tests
+      - Client-side processing; requests go directly to the configured provider
+    weaknesses:
+      - Web version may hit browser CORS limits with local endpoints such as Ollama
+      - VITE_* API keys are exposed in browser assets on public deployments
+      - Chrome Web Store version can lag behind the latest release
+      - Workspace/project management is still unchecked on the roadmap
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - LLM provider API key or compatible endpoint
+      model_support:
+        - OpenAI
+        - Gemini
+        - DeepSeek
+        - Grok
+        - Zhipu AI
+        - SiliconFlow
+        - MiniMax
+        - OpenAI-compatible custom API
+        - Ollama
+      web_port: 8081
+    links:
+      demo: https://prompt.always200.com
+      website: https://always200.com
+      docs: https://docs.always200.com
+    audience: Users who write and iterate on LLM prompts and want a dedicated tool
+    confidence: 0.8
+    facts:
+      stars: 38004
+      license: NOASSERTION
+      last_commit: 2026-10-13
+      last_release: 2026-10-09
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 74
+  - id: jax
+    repo: jax-ml/jax
+    name: jax
+    status: listed
+    tagline: Python library for composable autodiff, JIT and vectorization of NumPy-style code
+    summary: JAX is a Python array library that transforms NumPy-style functions with grad (forward and reverse-mode autodiff), jit (XLA compilation) and vmap (auto-vectorization). The transformations compose, and code runs on CPU, NVIDIA GPU, Google TPU and AMD GPU, with experimental Apple and Intel GPU support. Scaling across devices uses automatic, explicit or manual (shard_map) sharding.
+    categories:
+      - ml-frameworks
+    strengths:
+      - grad, jit and vmap compose arbitrarily, including higher-order derivatives and per-example gradients
+      - Differentiates through Python loops, branches, recursion and closures
+      - Three sharding modes (auto, explicit, manual) for scaling across many devices
+      - Compiles via XLA to CPU, NVIDIA, TPU and AMD targets using pip extras
+    weaknesses:
+      - README calls it a research project with sharp edges; not an official Google product
+      - jit restricts the Python control flow a function can use
+      - No native Windows GPU support; WSL2 GPU is experimental
+      - Apple and Intel GPU backends are experimental
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - XLA
+        - NumPy
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://docs.jax.dev/en/latest/
+    audience: ML researchers and engineers writing numerical or model code for accelerators
+    confidence: 0.9
+    facts:
+      stars: 36429
+      license: Apache-2.0
+      last_commit: 2026-10-15
+      last_release: 2026-09-17
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 69
+  - id: vibe-trading
+    repo: hkuds/vibe-trading
+    name: vibe-trading
+    status: listed
+    tagline: Finance research agent for backtests, market data and broker connectors
+    summary: Vibe-Trading is a Python agent (FastAPI backend, React 19 web UI, CLI, MCP) for trading research. It pulls market data across many exchanges, runs backtests and factor analysis, and checks figures in generated reports against tool evidence. It also connects to 18 brokers and sends scheduled reports through channels such as Email, Slack, Discord and Feishu.
+    categories:
+      - agent-platforms
+    strengths:
+      - Grounding gate checks each reported figure against session tool evidence and cuts failures
+      - Backtest run cards cite metrics only where saved CSV output agrees
+      - 18 broker connectors, several read-only, with paper/live permissions documented
+      - "Active: v0.1.16 shipped 116 merged PRs, with near-daily fixes afterward"
+    weaknesses:
+      - "Narrow domain: finance research only, not a general agent builder"
+      - Some broker features are unavailable, e.g. Robinhood options execution
+      - Data quality depends on public sources such as Stooq, which can block requests
+      - Frequent backtest-correctness fixes in the changelog; verify results independently
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - LLM provider (OpenRouter is the default)
+        - Market data sources
+        - Broker APIs (optional)
+      model_support:
+        - OpenRouter
+        - Codex
+        - Copilot
+        - custom model endpoints
+      web_port: null
+    links:
+      demo: null
+      website: https://vibetrading.wiki/
+      docs: https://vibetrading.wiki/docs/
+    audience: Quant researchers and traders who want an LLM agent for backtesting
+    confidence: 0.7
+    facts:
+      stars: 35503
+      license: MIT
+      last_commit: 2026-10-14
+      last_release: 2026-09-29
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 70
+  - id: detectron2
+    repo: facebookresearch/detectron2
+    name: detectron2
+    status: listed
+    tagline: PyTorch library for object detection and segmentation research
+    summary: Detectron2 is Facebook AI Research's PyTorch library for object detection and segmentation, successor to Detectron and maskrcnn-benchmark. It covers panoptic segmentation, DensePose, Cascade R-CNN, rotated boxes, PointRend, DeepLab, ViTDet and MViTv2, and ships a Model Zoo of baselines. Models can be exported to TorchScript or Caffe2.
+    categories:
+      - ml-frameworks
+    strengths:
+      - "Wide algorithm coverage: panoptic segmentation, DensePose, PointRend, ViTDet, MViTv2, rotated boxes"
+      - Model Zoo with downloadable baselines and trained weights
+      - Export to TorchScript or Caffe2 for deployment
+      - Modular design for building research projects on top; Apache-2.0
+    weaknesses:
+      - Last tagged release is 2021-11-15, though commits continue
+      - Not a model server; no inference API or UI included
+      - Install steps live in external docs, not the README
+      - Hardware requirements are not stated in the README
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - PyTorch
+      model_support:
+        - Mask R-CNN
+        - Cascade R-CNN
+        - Panoptic segmentation
+        - DensePose
+        - PointRend
+        - DeepLab
+        - ViTDet
+        - MViTv2
+        - TorchScript export
+        - Caffe2 export
+      web_port: null
+    links:
+      demo: https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5
+      website: null
+      docs: https://detectron2.readthedocs.org
+    audience: Computer vision researchers training detection and segmentation models
+    confidence: 0.85
+    facts:
+      stars: 34898
+      license: Apache-2.0
+      last_commit: 2026-09-30
+      last_release: 2021-11-15
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 44
+  - id: heretic
+    repo: p-e-w/heretic
+    name: heretic
+    status: listed
+    tagline: Removes refusal behavior from transformer language models via automated abliteration
+    summary: Heretic applies directional ablation (abliteration) to the attention out-projection and MLP down-projection matrices of a transformer model. An Optuna TPE optimizer searches the ablation parameters, co-minimizing refusals and KL divergence from the original model. After a run it can save the model, upload it to Hugging Face, chat with it, or run benchmarks.
+    categories:
+      - training
+    strengths:
+      - One command, no configuration needed; Optuna TPE tunes ablation parameters automatically
+      - README reports 3/100 refusals at 0.16 KL on gemma-3-12b-it, versus 0.45 and 1.04 for manual abliterations
+      - Supports most dense models, several MoE architectures, and some multimodal and hybrid models
+      - Optional bitsandbytes 4-bit quantization (bnb_4bit) reduces VRAM needs
+    weaknesses:
+      - Pure state-space models and some research architectures are not supported out of the box
+      - AGPL-3.0 license may restrict use in proprietary or networked products
+      - About 20-30 minutes for a 4B model on an RTX 3090; larger models unknown
+      - README metrics come from one RTX 5090 setup and may vary by hardware
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python 3.10+
+        - PyTorch 2.2+
+        - Optuna
+        - bitsandbytes (optional)
+        - Hugging Face
+      model_support:
+        - Hugging Face transformer models (dense)
+        - MoE
+        - multimodal
+        - hybrid (Qwen3.5)
+        - MXFP4 (gpt-oss, needs PyTorch 2.6+)
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Users who want to decensor open-weight LLMs without manual abliteration work
+    confidence: 0.8
+    facts:
+      stars: 35291
+      license: AGPL-3.0
+      last_commit: 2026-10-12
+      last_release: 2026-06-14
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 54
+  - id: spacy
+    repo: explosion/spacy
+    name: spacy
+    status: listed
+    tagline: Python and Cython NLP library with pretrained pipelines for 70+ languages
+    summary: spaCy is a Python/Cython library for tokenization, tagging, dependency parsing, named entity recognition, text classification, lemmatization and entity linking. It ships pretrained pipelines installed as Python packages and a config-driven training system, and can use transformers such as BERT or custom PyTorch and TensorFlow models. LLMs can be added to pipelines through a documented integration.
+    categories:
+      - ml-frameworks
+      - data-tools
+    strengths:
+      - Pretrained pipelines install as ordinary Python packages via `python -m spacy download`
+      - Tokenization and training support for 70+ languages
+      - Built-in training system, model packaging, and syntax and NER visualizers
+      - Extensible with custom components; accepts PyTorch and TensorFlow models
+    weaknesses:
+      - README lists Python >=3.7, <3.13 only, 64-bit
+      - Models may need re-downloading or retraining after spaCy upgrades
+      - Library only; no model server or HTTP API included
+      - Support is public only (GitHub, Stack Overflow); no individual email support
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python >=3.7,<3.13
+        - pip or conda
+      model_support:
+        - spaCy pretrained pipelines
+        - transformers (BERT)
+        - PyTorch
+        - TensorFlow
+        - word vectors
+      web_port: null
+    links:
+      demo: null
+      website: https://spacy.io
+      docs: https://spacy.io/usage
+    audience: Python developers building production NLP pipelines (NER, classification)
+    confidence: 0.8
+    facts:
+      stars: 33962
+      license: MIT
+      last_commit: 2026-09-30
+      last_release: 2026-08-24
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 61
+  - id: laya
+    repo: nandhakishorm/laya
+    name: laya
+    status: listed
+    tagline: Single-pass multilingual classifier for typed choice, score and yes/no decisions
+    summary: Laya answers typed questions (choice, score, noul) about a text, email, ticket or JSON state in one forward pass of an encoder model, with no text generation. A Router picks between three checkpoints (ModernBERT-large English, mmBERT-base multilingual for 100+ languages, and a typed-decisions fine-tune). It ships as a Python package with a CLI, optional HTTP and MCP servers, and LangChain, LlamaIndex and CrewAI integrations.
+    categories:
+      - models
+      - agent-frameworks
+    strengths:
+      - "One forward pass: 33 ms per question, 7.2 ms/question batched, measured on a T4"
+      - No generation, so no output parsing; answers are typed choice, score or probability
+      - Router selects English or multilingual checkpoint per request; 100+ languages covered
+      - Fine-tuning notebooks provided; typed-decisions checkpoint scores 0.766 vs 0.362 for base English
+    weaknesses:
+      - Zero-shot accuracy is low on domain tasks; fine-tuning is needed for good results
+      - Multilingual checkpoint ships with a 1,024-token limit; beyond about 4,000 tokens accuracy varies
+      - Only classifies fixed question types; cannot generate or explain text
+      - Checkpoints download from Hugging Face on first use, so offline setups need preparation
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Hugging Face Hub (checkpoint download)
+        - PyTorch
+        - transformers
+      model_support:
+        - ModernBERT-large (421M)
+        - mmBERT-base (322M)
+        - ONNX Runtime
+      web_port: null
+    links:
+      demo: https://huggingface.co/spaces/convaiinnovations/laya-demo
+      website: null
+      docs: https://nandhakishorm.github.io/laya/
+    audience: Engineers needing fast multilingual triage, routing and moderation classifiers
+    confidence: 0.7
+    facts:
+      stars: 32915
+      license: Apache-2.0
+      last_commit: 2026-10-14
+      last_release: 2026-10-14
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 67
+  - id: invisible-dots
+    repo: feder-cr/invisible_dots
+    name: invisible_dots
+    status: listed
+    tagline: Self-hosted agent that works on its own VM desktop with a patched Firefox
+    summary: invisible_dots runs each agent (a "Dot") on its own hardware-accelerated QEMU VM with a Linux desktop, persistent disk and a patched Firefox that keeps per-identity logins. Dots write their own notes and skills, accept MCP servers, queue tasks and recurring automations, and gate tools with allow/ask/deny permissions. It is reachable via web UI, CLI, HTTP API, Telegram and optional WhatsApp, and uses an OpenRouter key for models. Status is alpha.
+    categories:
+      - assistants
+      - agent-platforms
+    strengths:
+      - Each Dot gets its own VM with desktop, persistent disk and sleep/wake on demand
+      - Per-tool allow/ask/deny permissions, with pending asks kept in an Inbox across restarts
+      - Accepts user-declared MCP servers and reaches the agent via web, CLI, API, Telegram
+      - "Crash-safe: accepted messages and tasks survive kill -9, and cut-short tool calls are not rerun"
+    weaknesses:
+      - Marked alpha in the README badge
+      - Requires x86-64 hardware virtualization plus Node 24+, Go 1.25+ and QEMU
+      - No Docker or Compose files; setup is built from source
+      - Model access documented only via an OpenRouter key; local models not mentioned
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node 24+
+        - Go 1.25+
+        - Git
+        - QEMU
+        - KVM or Windows Hypervisor Platform
+        - OpenRouter API key
+      model_support:
+        - OpenRouter
+      web_port: 3000
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/feder-cr/invisible_dots/blob/main/docs/guide.md
+    audience: Self-hosters wanting browser-capable autonomous agents on isolated VMs
+    confidence: 0.8
+    facts:
+      stars: 32052
+      license: MIT
+      last_commit: 2026-10-13
+      last_release: 2026-10-13
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
     score: 60
+  - id: scrapegraph-ai
+    repo: scrapegraphai/scrapegraph-ai
+    name: scrapegraph-ai
+    status: listed
+    tagline: Python library that builds LLM-driven scraping pipelines from a prompt and a URL
+    summary: ScrapeGraphAI is a Python library that extracts structured data from websites and local files (XML, HTML, JSON, Markdown) given a natural-language prompt. It provides graph pipelines such as SmartScraperGraph, SearchGraph and ScriptCreatorGraph, with multi-page variants that call the LLM in parallel. It works with OpenAI, Groq, Azure, Gemini, MiniMax or local models through Ollama, and uses Playwright to fetch pages.
+    categories:
+      - data-tools
+      - agent-frameworks
+    strengths:
+      - Prompt plus URL returns a JSON dict; no per-site selectors to write
+      - Runs against local Ollama models or hosted APIs by changing the llm config
+      - "Several pipelines: single page, multi-page, search results, Python script generation"
+      - Multi-page graph variants run LLM calls in parallel
+    weaknesses:
+      - Proxies, anti-bot handling and scaling are left to the user in the open-source version
+      - Needs a separate `playwright install` step to fetch page content
+      - Anonymous telemetry is on by default; opt out via SCRAPEGRAPHAI_TELEMETRY_ENABLED=false
+      - README steers users to the paid managed API for crawl and monitor features
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Playwright
+        - Ollama (for local models)
+        - LLM provider API key (for hosted models)
+      model_support:
+        - Ollama
+        - OpenAI
+        - Groq
+        - Azure
+        - Gemini
+        - MiniMax
+      web_port: null
+    links:
+      demo: null
+      website: https://scrapegraphai.com
+      docs: https://docs.scrapegraphai.com/introduction
+    audience: Python developers extracting structured web data with LLMs
+    confidence: 0.85
+    facts:
+      stars: 31779
+      license: MIT
+      last_commit: 2026-10-06
+      last_release: 2026-10-06
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 60
+  - id: nanoclaw
+    repo: nanocoai/nanoclaw
+    name: nanoclaw
+    status: listed
+    tagline: Small personal assistant that runs each agent in its own Linux container
+    summary: NanoClaw is a self-hosted assistant built on the Claude Agent SDK. A single Node host routes messages from channels such as Slack, Telegram, Discord and WhatsApp to per-agent containers, exchanging them through two SQLite files per session. Channels and alternative providers are installed per fork with /add-<name> skills, and customization is done by changing code with Claude Code rather than editing config files.
+    categories:
+      - assistants
+    strengths:
+      - Agents run in Docker containers and only see explicitly mounted directories
+      - Credentials are injected by a gateway, so agents never hold raw API keys
+      - "Small codebase: one host process, no microservices, two SQLite files per session"
+      - Per-agent-group memory, CLAUDE.md and scheduled tasks; many channels via skills
+    weaknesses:
+      - Default setup depends on Claude Code and an Anthropic credential
+      - No config files or dashboard; customization and debugging go through Claude Code
+      - Channels and non-Claude providers are not in trunk; each needs a skill install
+      - Prebuilt hardened image and managed Slack app require a free account
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Docker
+        - Node.js 22+
+        - pnpm 10+
+        - Claude Code
+        - Anthropic API credential
+        - OneCLI Agent Vault (credential gateway)
+      model_support:
+        - Claude (default)
+        - OpenAI Codex
+        - OpenRouter, Google, DeepSeek via OpenCode
+        - Ollama local models
+      web_port: null
+    links:
+      demo: null
+      website: https://nanoclaw.dev
+      docs: https://docs.nanoclaw.dev
+    audience: Self-hosters wanting a container-isolated chat assistant with a small codebase
+    confidence: 0.85
+    facts:
+      stars: 30948
+      license: MIT
+      last_commit: 2026-10-14
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 62
+  - id: gbrain
+    repo: garrytan/gbrain
+    name: gbrain
+    status: listed
+    tagline: Long-term memory store for coding agents, with sources and corrections
+    summary: GBrain keeps explicit facts and their sources in a local PGLite or Postgres brain and exposes them to agents such as Claude Code, Codex, Cursor and Hermes over stdio or HTTP MCP. It starts keyless with keyword search; semantic search, cited synthesis, a typed knowledge graph and an overnight enrichment cycle are optional. It is installed with Bun from GitHub, not npm.
+    categories:
+      - memory
+      - agent-frameworks
+    strengths:
+      - "Keyless start: PGLite brain with keyword search, no server or Docker needed"
+      - One brain shared across agents via stdio MCP or HTTP MCP with scoped OAuth tokens
+      - One-command setup for Claude Code and Codex, with dry-run and remove options
+      - Optional cited synthesis that notes gaps, plus a typed graph for relationship queries
+    weaknesses:
+      - Not on npm; the unrelated npm package named gbrain can shadow the real binary
+      - Always-on OpenClaw/Hermes setup needs a server with 8GB+ RAM plus paid API usage
+      - Local files and shared database credentials are not isolated by sources
+      - Remote put_page does not extract graph edges inline; HTTP needs explicit maintenance
+    specs:
+      ram_min_gb: 8
+      gpu: none
+      external_deps:
+        - Bun 1.4.0+
+        - PGLite or Postgres
+        - Tailscale (optional, for remote MCP)
+      model_support:
+        - Optional cloud embedding, reranking, extraction and synthesis providers (unspecified)
+      web_port: null
+    links:
+      demo: null
+      website: https://gbrain.io/
+      docs: null
+    audience: Developers giving Claude Code, Codex or other agents persistent shared memory
+    confidence: 0.8
+    facts:
+      stars: 30881
+      license: MIT
+      last_commit: 2026-10-15
+      last_release: 2026-10-15
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 81
+  - id: easyocr
+    repo: jaidedai/easyocr
+    name: easyocr
+    status: listed
+    tagline: Python OCR library for text detection and recognition in 80+ languages
+    summary: EasyOCR is a Python package that detects text regions with the CRAFT model and reads them with a CRNN recognizer, built on PyTorch. It returns bounding boxes, text and confidence scores from file paths, URLs, bytes or numpy arrays, and also has a CLI. Model weights download automatically per language, and it runs on GPU or CPU.
+    categories:
+      - data-tools
+      - ml-frameworks
+    strengths:
+      - Two-line Python API returns boxes, text and confidence from paths, URLs, bytes or arrays
+      - 80+ languages across Latin, Chinese, Arabic, Devanagari and Cyrillic scripts
+      - CPU-only mode via gpu=False; also ships a command-line tool
+      - Documents custom recognition and CRAFT detection model training
+    weaknesses:
+      - Not every language combination works together in one Reader; English works with all
+      - Handwritten text support is listed as upcoming, not available
+      - Last release 1.7.2 was September 2024
+      - Issues older than 6 months are auto-closed; maintainers cite limited resources
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+        - torchvision
+      model_support:
+        - CRAFT detection
+        - CRNN recognition (ResNet/VGG, LSTM, CTC)
+      web_port: null
+    links:
+      demo: https://huggingface.co/spaces/tomofi/EasyOCR
+      website: https://www.jaided.ai/easyocr
+      docs: https://www.jaided.ai/easyocr/documentation
+    audience: Python developers adding OCR to apps or document pipelines
+    confidence: 0.8
+    facts:
+      stars: 30065
+      license: Apache-2.0
+      last_commit: 2025-12-05
+      last_release: 2024-09-24
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 18
+  - id: genesis-world
+    repo: genesis-embodied-ai/genesis-world
+    name: genesis-world
+    status: listed
+    tagline: Python multi-physics simulator for robotics and physical AI research
+    summary: Genesis World is a Python simulation platform that combines a multi-physics engine (rigid, FEM, MPM, PBD, SPH, IPC, SAP), three renderers (Nyx, Luisa, Pyrender) and the Quadrants compiler. Quadrants lowers Python kernels to CUDA, ROCm, Metal, Vulkan, x86 and ARM64. It loads URDF, MJCF, OBJ, GLB and USD assets, and supports parallel and heterogeneous environments, sensors and a built-in GUI.
+    categories:
+      - ml-frameworks
+    strengths:
+      - Rigid, FEM, MPM, SPH, PBD and IPC solvers share one scene and state
+      - Quadrants compiles to CUDA, ROCm, Metal, Vulkan, x86 and ARM64
+      - "Many runnable examples: sensors, controllers, domain randomization, heterogeneous envs"
+      - Parses URDF, MJCF, OBJ, GLB and USD assets
+    weaknesses:
+      - IPC solver needs pyuipc on Linux or Windows x86 with an NVIDIA GPU
+      - PyTorch must be installed separately before the package
+      - Python limited to >=3.10,<3.14
+      - Nyx renderer is a separate package (gs-nyx) with its own install
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+        - pyuipc (optional)
+        - gs-nyx (optional)
+      model_support:
+        - URDF
+        - MJCF
+        - OBJ
+        - GLB
+        - USD
+      web_port: null
+    links:
+      demo: null
+      website: https://www.genesis.ai/
+      docs: https://genesis-world.readthedocs.io/en/latest/
+    audience: Robotics and RL researchers who need a Python physics simulator
+    confidence: 0.8
+    facts:
+      stars: 30058
+      license: Apache-2.0
+      last_commit: 2026-10-14
+      last_release: 2026-10-11
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 69
+  - id: modular
+    repo: modular/modular
+    name: modular
+    status: listed
+    tagline: Mojo language and MAX inference framework with an OpenAI-compatible server
+    summary: "Monorepo for the open-source parts of the Modular Platform: the Mojo compiler and standard library, the MAX accelerator kernel library, and MAX Python model pipelines. MAX includes an inference server that exposes an OpenAI-compatible endpoint. The repo code is Apache 2.0 with LLVM Exceptions, while MAX usage and distribution fall under the Modular Community License."
+    categories:
+      - model-serving
+      - ml-frameworks
+    strengths:
+      - Serving layer exposes an OpenAI-compatible endpoint, per the README
+      - Open kernels, Mojo stdlib and model architectures accept outside contributions
+      - Includes Python-based model pipelines and code examples for MAX and Mojo
+      - "Active: last commit 2026-10-08, release 2026-09-17"
+    weaknesses:
+      - "Two licenses: repo is Apache 2.0 with LLVM exceptions, MAX uses Modular Community License"
+      - Mojo compiler is not open to contributions yet
+      - README gives no hardware requirements or supported model list
+      - Broad platform repo; serving is one part, so setup is spread across separate docs
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps: []
+      model_support:
+        - Hugging Face models via MAX pipelines
+      web_port: null
+    links:
+      demo: null
+      website: https://www.modular.com/
+      docs: https://max.modular.com/
+    audience: Engineers serving models with MAX or writing GPU kernels in Mojo
+    confidence: 0.6
+    facts:
+      stars: 29951
+      license: NOASSERTION
+      last_commit: 2026-10-14
+      last_release: 2026-09-17
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Mojo
+    score: 64
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
@@ -3921,9 +6348,9 @@ entries:
     audience: Self-hosters who want one assistant reachable from every chat app they use
     confidence: 0.8
     facts:
-      stars: 391956
+      stars: 392030
       license: MIT
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-13
       has_docker: true
       has_compose: true
@@ -3965,9 +6392,9 @@ entries:
     audience: Developers who want an always-on agent on a VPS reachable from chat apps
     confidence: 0.8
     facts:
-      stars: 253668
+      stars: 253810
       license: MIT
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-14
       has_docker: true
       has_compose: true
@@ -4010,7 +6437,7 @@ entries:
     audience: Self-hosters wanting a personal agent in browser, terminal and chat apps
     confidence: 0.8
     facts:
-      stars: 49016
+      stars: 49039
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-09-15
@@ -4018,7 +6445,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 83
+    score: 82
   - id: astrbot
     repo: astrbotdevs/astrbot
     name: AstrBot
@@ -4058,7 +6485,7 @@ entries:
     audience: Teams running bots on Chinese and global IM platforms
     confidence: 0.8
     facts:
-      stars: 41871
+      stars: 41886
       license: AGPL-3.0
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -4066,7 +6493,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 67
+    score: 66
   - id: khoj
     repo: khoj-ai/khoj
     name: Khoj
@@ -4115,7 +6542,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 52
+    score: 51
   - id: qwenpaw
     repo: agentscope-ai/qwenpaw
     name: QwenPaw
@@ -4152,7 +6579,7 @@ entries:
     audience: Self-hosters wanting one personal agent reachable across chat apps
     confidence: 0.8
     facts:
-      stars: 35682
+      stars: 35697
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-11
@@ -4160,7 +6587,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 66
+    score: 65
   - id: zeroclaw
     repo: zeroclaw-labs/zeroclaw
     name: ZeroClaw
@@ -4197,7 +6624,7 @@ entries:
     audience: Tinkerers wanting an always-on agent on a Pi or home server with GPIO access
     confidence: 0.8
     facts:
-      stars: 32978
+      stars: 32980
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-05
@@ -4249,7 +6676,7 @@ entries:
     audience: Hobbyists running an agent on tiny SBCs, routers or old phones
     confidence: 0.85
     facts:
-      stars: 30018
+      stars: 30019
       license: MIT
       last_commit: 2026-08-19
       last_release: 2026-07-03
@@ -4257,7 +6684,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 53
+    score: 51
   - id: ironclaw
     repo: nearai/ironclaw
     name: IronClaw
@@ -4291,7 +6718,7 @@ entries:
     audience: Security-minded users who want tools isolated from credentials
     confidence: 0.75
     facts:
-      stars: 12654
+      stars: 12657
       license: Apache-2.0
       last_commit: 2026-09-10
       last_release: 2026-09-29
@@ -4299,7 +6726,7 @@ entries:
       has_compose: true
       is_template: false
       language: Rust
-    score: 69
+    score: 68
   - id: moltis
     repo: moltis-org/moltis
     name: Moltis
@@ -4335,7 +6762,7 @@ entries:
     audience: Solo self-hosters wanting a hardened always-on agent on a Mac mini or Pi
     confidence: 0.8
     facts:
-      stars: 2887
+      stars: 2889
       license: MIT
       last_commit: 2026-09-22
       last_release: 2026-09-14
@@ -4432,10 +6859,10 @@ entries:
     audience: Teams and homelabs wanting a multi-user front end for local models
     confidence: 0.85
     facts:
-      stars: 155633
+      stars: 155702
       license: NOASSERTION
-      last_commit: 2026-10-10
-      last_release: 2026-10-10
+      last_commit: 2026-10-14
+      last_release: 2026-10-14
       has_docker: true
       has_compose: true
       is_template: false
@@ -4484,7 +6911,7 @@ entries:
     audience: Individuals who want a fast single-container chat front end for API keys
     confidence: 0.85
     facts:
-      stars: 88842
+      stars: 88848
       license: MIT
       last_commit: 2026-10-08
       last_release: 2025-07-29
@@ -4492,7 +6919,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 67
+    score: 66
   - id: lobehub
     repo: lobehub/lobehub
     name: LobeHub
@@ -4527,15 +6954,15 @@ entries:
     audience: Teams wanting a multi-agent workspace with an app-like UI
     confidence: 0.6
     facts:
-      stars: 83228
+      stars: 83238
       license: NOASSERTION
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-07
       has_docker: true
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 85
+    score: 84
   - id: anything-llm
     repo: mintplex-labs/anything-llm
     name: AnythingLLM
@@ -4585,9 +7012,9 @@ entries:
     audience: Small teams and individuals wanting private document chat without extra services
     confidence: 0.85
     facts:
-      stars: 67056
+      stars: 67090
       license: MIT
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: 2026-10-13
       has_docker: true
       has_compose: true
@@ -4637,7 +7064,7 @@ entries:
     audience: Teams wanting one authenticated front end across many model vendors
     confidence: 0.85
     facts:
-      stars: 45672
+      stars: 45695
       license: MIT
       last_commit: 2026-10-06
       last_release: null
@@ -4645,7 +7072,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 66
+    score: 65
   - id: sillytavern
     repo: sillytavern/sillytavern
     name: SillyTavern
@@ -4686,7 +7113,7 @@ entries:
     audience: Hobbyists doing character and role-play chat with local or API models
     confidence: 0.8
     facts:
-      stars: 34460
+      stars: 34476
       license: AGPL-3.0
       last_commit: 2026-09-14
       last_release: 2026-09-14
@@ -4694,7 +7121,7 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 56
+    score: 55
   - id: onyx
     repo: onyx-dot-app/onyx
     name: Onyx
@@ -4735,15 +7162,15 @@ entries:
     audience: Teams wanting an internal search and chat layer over company apps
     confidence: 0.8
     facts:
-      stars: 32452
+      stars: 32460
       license: NOASSERTION
-      last_commit: 2026-10-14
-      last_release: 2026-10-07
+      last_commit: 2026-10-15
+      last_release: 2026-10-14
       has_docker: false
       has_compose: true
       is_template: false
       language: Python
-    score: 70
+    score: 69
   - id: hermes-webui
     repo: nesquena/hermes-webui
     name: Hermes WebUI
@@ -4787,15 +7214,15 @@ entries:
     audience: Hermes Agent users who want a browser UI reachable over SSH tunnel or Tailscale
     confidence: 0.8
     facts:
-      stars: 18921
+      stars: 18929
       license: MIT
       last_commit: 2026-10-14
-      last_release: 2026-08-14
+      last_release: 2026-10-14
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 69
+    score: 68
   - id: huggingface-chat-ui
     repo: huggingface/chat-ui
     name: HuggingChat UI
@@ -4834,15 +7261,15 @@ entries:
     audience: Developers who want the HuggingChat front end on their own endpoint
     confidence: 0.85
     facts:
-      stars: 10982
+      stars: 10984
       license: Apache-2.0
-      last_commit: 2026-10-09
+      last_commit: 2026-10-14
       last_release: 2026-05-11
       has_docker: true
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 59
+    score: 58
   - id: big-agi
     repo: enricoros/big-agi
     name: big-AGI
@@ -4890,7 +7317,7 @@ entries:
     audience: Power users comparing several models side by side with their own keys
     confidence: 0.75
     facts:
-      stars: 7145
+      stars: 7146
       license: MIT
       last_commit: 2026-10-13
       last_release: 2026-08-21
@@ -4898,7 +7325,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 70
+    score: 69
   - id: lollms-webui
     repo: parisneo/lollms-webui
     name: LoLLMs WebUI
@@ -4952,7 +7379,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 42
+    score: 41
   - id: claraverse
     repo: claraverse-space/claraverse
     name: ClaraVerse
@@ -5035,7 +7462,7 @@ entries:
     audience: Small groups wanting a basic shared ChatGPT-style client
     confidence: 0.4
     facts:
-      stars: 1625
+      stars: 1624
       license: MIT
       last_commit: 2026-05-11
       last_release: 2023-09-07
@@ -5079,7 +7506,7 @@ entries:
     audience: Teams automating business workflows that include LLM steps
     confidence: 0.8
     facts:
-      stars: 207353
+      stars: 207401
       license: NOASSERTION
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -5120,10 +7547,10 @@ entries:
     audience: Non-developers and teams wanting scheduled agents over SaaS tools
     confidence: 0.7
     facts:
-      stars: 187569
+      stars: 187580
       license: NOASSERTION
-      last_commit: 2026-10-12
-      last_release: 2026-10-08
+      last_commit: 2026-10-14
+      last_release: 2026-10-14
       has_docker: false
       has_compose: false
       is_template: false
@@ -5167,9 +7594,9 @@ entries:
     audience: Teams building and self-hosting LLM apps, RAG and agent workflows
     confidence: 0.85
     facts:
-      stars: 158447
+      stars: 158495
       license: NOASSERTION
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-09-10
       has_docker: true
       has_compose: true
@@ -5211,7 +7638,7 @@ entries:
     audience: Developers building agent workflows visually and serving them as APIs/MCP tools
     confidence: 0.9
     facts:
-      stars: 155654
+      stars: 155675
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -5219,7 +7646,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 79
+    score: 80
   - id: paperclip
     repo: paperclipai/paperclip
     name: Paperclip
@@ -5251,15 +7678,15 @@ entries:
     audience: People running several coding agents who want tickets, budgets and oversight
     confidence: 0.7
     facts:
-      stars: 101909
+      stars: 102177
       license: MIT
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-12
       has_docker: true
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 67
+    score: 69
   - id: multica
     repo: multica-ai/multica
     name: Multica
@@ -5301,7 +7728,7 @@ entries:
     audience: Teams coordinating several coding agents on their own machines and Git host
     confidence: 0.85
     facts:
-      stars: 52795
+      stars: 52815
       license: NOASSERTION
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -5309,7 +7736,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 73
+    score: 72
   - id: sim
     repo: simstudioai/sim
     name: Sim
@@ -5346,15 +7773,15 @@ entries:
     audience: Teams wanting a hosted-style agent builder on their own servers
     confidence: 0.75
     facts:
-      stars: 29814
+      stars: 29819
       license: Apache-2.0
-      last_commit: 2026-10-13
+      last_commit: 2026-10-15
       last_release: 2026-10-13
       has_docker: true
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 68
+    score: 66
   - id: fastgpt
     repo: labring/fastgpt
     name: FastGPT
@@ -5387,7 +7814,7 @@ entries:
     audience: Teams building document Q&A bots and workflows, especially in Chinese markets
     confidence: 0.75
     facts:
-      stars: 29818
+      stars: 29825
       license: NOASSERTION
       last_commit: 2026-10-14
       last_release: 2026-10-09
@@ -5395,7 +7822,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 63
+    score: 60
   - id: activepieces
     repo: activepieces/activepieces
     name: Activepieces
@@ -5429,7 +7856,7 @@ entries:
     audience: Teams self-hosting Zapier-style automation with LLM and MCP integrations
     confidence: 0.7
     facts:
-      stars: 25046
+      stars: 25057
       license: NOASSERTION
       last_commit: 2026-10-14
       last_release: 2026-10-12
@@ -5437,7 +7864,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 65
+    score: 64
   - id: skyvern
     repo: skyvern-ai/skyvern
     name: Skyvern
@@ -5470,7 +7897,7 @@ entries:
     audience: Developers automating form filling and data extraction on third-party sites
     confidence: 0.85
     facts:
-      stars: 23195
+      stars: 23199
       license: AGPL-3.0
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -5478,7 +7905,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 65
+    score: 64
   - id: agent-zero
     repo: agent0ai/agent-zero
     name: Agent Zero
@@ -5515,7 +7942,7 @@ entries:
     audience: Self-hosters wanting a Docker-isolated agent that uses a desktop and browser
     confidence: 0.8
     facts:
-      stars: 19461
+      stars: 19476
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-10-13
@@ -5523,7 +7950,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 62
+    score: 61
   - id: botpress
     repo: botpress/botpress
     name: Botpress
@@ -5598,15 +8025,15 @@ entries:
     audience: Developers adding persistent user memory to chatbots and agents
     confidence: 0.8
     facts:
-      stars: 67166
+      stars: 67205
       license: Apache-2.0
-      last_commit: 2026-10-12
+      last_commit: 2026-10-14
       last_release: 2026-09-25
       has_docker: false
       has_compose: false
       is_template: false
       language: Python
-    score: 73
+    score: 72
   - id: mempalace
     repo: mempalace/mempalace
     name: MemPalace
@@ -5644,7 +8071,7 @@ entries:
     audience: Users of Claude Code, Codex or MCP agents wanting local persistent memory
     confidence: 0.85
     facts:
-      stars: 59566
+      stars: 59571
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -5696,7 +8123,7 @@ entries:
     audience: Developers giving coding agents persistent, inspectable memory and context
     confidence: 0.85
     facts:
-      stars: 39894
+      stars: 39932
       license: AGPL-3.0
       last_commit: 2026-10-14
       last_release: 2026-10-09
@@ -5740,7 +8167,7 @@ entries:
     audience: Developers building graph-backed memory for agents and company knowledge
     confidence: 0.85
     facts:
-      stars: 32265
+      stars: 32300
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-13
@@ -5788,10 +8215,10 @@ entries:
     audience: Developers adding evolving, time-aware memory to agents with their own graph DB
     confidence: 0.85
     facts:
-      stars: 31736
+      stars: 31752
       license: Apache-2.0
-      last_commit: 2026-10-14
-      last_release: 2026-09-08
+      last_commit: 2026-10-15
+      last_release: 2026-10-14
       has_docker: true
       has_compose: true
       is_template: false
@@ -5837,9 +8264,9 @@ entries:
     audience: Developers adding long-term memory to agents and AI coding tools
     confidence: 0.85
     facts:
-      stars: 31216
+      stars: 31228
       license: MIT
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: 2026-10-12
       has_docker: false
       has_compose: false
@@ -5881,7 +8308,7 @@ entries:
     audience: Developers using coding agents who want memory kept across sessions and tools
     confidence: 0.85
     facts:
-      stars: 29411
+      stars: 29451
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-06
@@ -5889,7 +8316,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 73
+    score: 72
   - id: memos
     repo: memtensor/memos
     name: MemOS
@@ -5923,7 +8350,7 @@ entries:
     audience: Teams building multi-user agent memory with graph and vector stores
     confidence: 0.75
     facts:
-      stars: 11860
+      stars: 11866
       license: Apache-2.0
       last_commit: 2026-09-22
       last_release: 2026-09-23
@@ -5970,10 +8397,10 @@ entries:
     audience: Developers adding long-term user and agent memory to apps or coding agents
     confidence: 0.85
     facts:
-      stars: 7606
+      stars: 7619
       license: AGPL-3.0
-      last_commit: 2026-10-13
-      last_release: 2026-10-01
+      last_commit: 2026-10-14
+      last_release: 2026-10-14
       has_docker: true
       has_compose: false
       is_template: false
@@ -6011,15 +8438,15 @@ entries:
     audience: Developers using coding agents who want memory that persists across sessions
     confidence: 0.85
     facts:
-      stars: 7189
+      stars: 7202
       license: MIT
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-12
       has_docker: true
       has_compose: true
       is_template: false
       language: Go
-    score: 62
+    score: 61
   - id: letta
     repo: letta-ai/letta-code
     name: Letta
@@ -6055,7 +8482,7 @@ entries:
     audience: Developers who want agents that keep learning across sessions and devices
     confidence: 0.75
     facts:
-      stars: 3604
+      stars: 3613
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -6063,7 +8490,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 55
+    score: 54
   - id: ragflow
     repo: infiniflow/ragflow
     name: RAGFlow
@@ -6104,7 +8531,7 @@ entries:
     audience: Teams self-hosting document Q&A over messy PDFs and Office files
     confidence: 0.85
     facts:
-      stars: 92203
+      stars: 92235
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-29
@@ -6112,7 +8539,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 73
+    score: 74
   - id: private-gpt
     repo: zylon-ai/private-gpt
     name: PrivateGPT
@@ -6146,7 +8573,7 @@ entries:
     audience: developers building private AI apps on local models
     confidence: 0.85
     facts:
-      stars: 57576
+      stars: 57577
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-06-18
@@ -6154,7 +8581,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 63
+    score: 62
   - id: lightrag
     repo: hkuds/lightrag
     name: LightRAG
@@ -6196,7 +8623,7 @@ entries:
     audience: Engineers building graph-based document Q&A over large corpora
     confidence: 0.8
     facts:
-      stars: 40130
+      stars: 40137
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-09-02
@@ -6204,7 +8631,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 75
+    score: 74
   - id: open-notebook
     repo: lfnovo/open-notebook
     name: Open Notebook
@@ -6239,7 +8666,7 @@ entries:
     audience: individual researchers who want a private NotebookLM
     confidence: 0.85
     facts:
-      stars: 40182
+      stars: 40194
       license: MIT
       last_commit: 2026-10-05
       last_release: 2026-10-04
@@ -6247,7 +8674,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 75
+    score: 74
   - id: weknora
     repo: tencent/weknora
     name: WeKnora
@@ -6283,7 +8710,7 @@ entries:
     audience: teams needing a self-hosted enterprise knowledge assistant
     confidence: 0.8
     facts:
-      stars: 33922
+      stars: 34010
       license: NOASSERTION
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -6291,7 +8718,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 67
+    score: 65
   - id: kotaemon
     repo: cinnamon/kotaemon
     name: Kotaemon
@@ -6331,7 +8758,7 @@ entries:
     audience: small teams wanting document Q&A with a ready UI
     confidence: 0.85
     facts:
-      stars: 25805
+      stars: 25807
       license: Apache-2.0
       last_commit: 2026-05-30
       last_release: 2026-05-31
@@ -6339,7 +8766,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 43
+    score: 42
   - id: maxkb
     repo: 1panel-dev/maxkb
     name: MaxKB
@@ -6374,15 +8801,15 @@ entries:
     audience: companies building internal Q&A bots and customer service agents
     confidence: 0.7
     facts:
-      stars: 22972
+      stars: 22974
       license: GPL-3.0
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-09-03
       has_docker: false
       has_compose: false
       is_template: false
       language: Python
-    score: 70
+    score: 69
   - id: db-gpt
     repo: eosphoros-ai/db-gpt
     name: DB-GPT
@@ -6417,7 +8844,7 @@ entries:
     audience: data teams wanting NL-to-SQL analysis with local models
     confidence: 0.8
     facts:
-      stars: 20135
+      stars: 20138
       license: MIT
       last_commit: 2026-10-11
       last_release: 2026-08-26
@@ -6425,7 +8852,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 52
+    score: 50
   - id: deepwiki-open
     repo: asyncfuncai/deepwiki-open
     name: DeepWiki-Open
@@ -6455,7 +8882,7 @@ entries:
     audience: developers onboarding to unfamiliar codebases
     confidence: 0.5
     facts:
-      stars: 18193
+      stars: 18199
       license: MIT
       last_commit: 2026-09-03
       last_release: null
@@ -6463,7 +8890,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 52
+    score: 50
   - id: surfsense
     repo: modsetter/surfsense
     name: SurfSense
@@ -6499,7 +8926,7 @@ entries:
     audience: Users who need AI document research and editing without uploading files
     confidence: 0.8
     facts:
-      stars: 16422
+      stars: 16427
       license: NOASSERTION
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -6507,7 +8934,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 68
+    score: 67
   - id: paperless-ai
     repo: clusterzx/paperless-ai
     name: Paperless-AI
@@ -6542,7 +8969,7 @@ entries:
     audience: Paperless-ngx users wanting automated tagging
     confidence: 0.7
     facts:
-      stars: 5976
+      stars: 5977
       license: MIT
       last_commit: 2026-03-31
       last_release: 2025-11-04
@@ -6550,7 +8977,7 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 35
+    score: 34
   - id: pipeshub
     repo: pipeshub-ai/pipeshub-ai
     name: PipesHub
@@ -6591,7 +9018,7 @@ entries:
     audience: Teams self-hosting permission-aware company search and agent context
     confidence: 0.85
     facts:
-      stars: 3832
+      stars: 3833
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-12
@@ -6634,7 +9061,7 @@ entries:
     facts:
       stars: 3717
       license: NOASSERTION
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: null
       has_docker: true
       has_compose: true
@@ -6680,7 +9107,7 @@ entries:
     audience: paperless-ngx users who want AI titles, tags and better OCR
     confidence: 0.8
     facts:
-      stars: 2770
+      stars: 2772
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -6721,7 +9148,7 @@ entries:
     audience: teams needing a document-to-text service for RAG pipelines
     confidence: 0.85
     facts:
-      stars: 1859
+      stars: 1860
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -6729,7 +9156,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 54
+    score: 53
   - id: ollama
     repo: ollama/ollama
     name: Ollama
@@ -6766,9 +9193,9 @@ entries:
     audience: Developers and self-hosters who want a local model API behind their apps
     confidence: 0.9
     facts:
-      stars: 183121
+      stars: 183184
       license: MIT
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-12
       has_docker: true
       has_compose: false
@@ -6807,7 +9234,7 @@ entries:
     audience: engineers who want a lean local inference server
     confidence: 0.85
     facts:
-      stars: 131149
+      stars: 131189
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-05
@@ -6859,9 +9286,9 @@ entries:
     audience: Engineers running high-throughput LLM inference on GPUs or other accelerators
     confidence: 0.9
     facts:
-      stars: 93770
+      stars: 93803
       license: Apache-2.0
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-05
       has_docker: true
       has_compose: false
@@ -6911,7 +9338,7 @@ entries:
     audience: Self-hosters wanting a local, OpenAI-compatible server for many model types
     confidence: 0.9
     facts:
-      stars: 49525
+      stars: 49537
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-02
@@ -6956,7 +9383,7 @@ entries:
     audience: hobbyists running local models with a full-featured UI
     confidence: 0.85
     facts:
-      stars: 47726
+      stars: 47730
       license: AGPL-3.0
       last_commit: 2026-08-17
       last_release: 2026-05-20
@@ -6999,15 +9426,15 @@ entries:
     audience: Engineers serving LLMs at scale or running RL rollouts on GPU clusters
     confidence: 0.85
     facts:
-      stars: 37128
+      stars: 37148
       license: Apache-2.0
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-02
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 68
+    score: 67
   - id: llamafile
     repo: mozilla-ai/llamafile
     name: llamafile
@@ -7040,7 +9467,7 @@ entries:
     audience: people who want a model that runs with zero setup
     confidence: 0.8
     facts:
-      stars: 26235
+      stars: 26247
       license: NOASSERTION
       last_commit: 2026-10-08
       last_release: 2026-09-15
@@ -7048,7 +9475,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 48
+    score: 47
   - id: ktransformers
     repo: kvcache-ai/ktransformers
     name: KTransformers
@@ -7089,7 +9516,7 @@ entries:
     audience: Self-hosters running or fine-tuning huge MoE models on one GPU plus lots of RAM
     confidence: 0.8
     facts:
-      stars: 19604
+      stars: 19609
       license: Apache-2.0
       last_commit: 2026-10-12
       last_release: 2026-09-15
@@ -7097,7 +9524,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 56
   - id: openllm
     repo: bentoml/openllm
     name: OpenLLM
@@ -7141,7 +9568,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 37
+    score: 36
   - id: triton-inference-server
     repo: triton-inference-server/server
     name: Triton Inference Server
@@ -7174,9 +9601,9 @@ entries:
     audience: ML platform teams serving many model types in production
     confidence: 0.85
     facts:
-      stars: 11086
+      stars: 11087
       license: BSD-3-Clause
-      last_commit: 2026-10-09
+      last_commit: 2026-10-14
       last_release: 2026-09-30
       has_docker: true
       has_compose: false
@@ -7222,7 +9649,7 @@ entries:
     audience: Self-hosters serving many model types through one OpenAI-style endpoint
     confidence: 0.8
     facts:
-      stars: 9611
+      stars: 9610
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-10
@@ -7264,7 +9691,7 @@ entries:
     audience: teams serving LLMs and VLMs on NVIDIA or Ascend hardware
     confidence: 0.8
     facts:
-      stars: 8104
+      stars: 8105
       license: Apache-2.0
       last_commit: 2026-10-09
       last_release: 2026-09-28
@@ -7306,7 +9733,7 @@ entries:
     audience: developers wanting a fast Rust server with agent features
     confidence: 0.85
     facts:
-      stars: 7746
+      stars: 7747
       license: MIT
       last_commit: 2026-10-12
       last_release: 2026-09-24
@@ -7314,7 +9741,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 62
+    score: 61
   - id: llama-swap
     repo: mostlygeek/llama-swap
     name: llama-swap
@@ -7353,7 +9780,7 @@ entries:
     audience: Self-hosters running several local models on one machine behind one API
     confidence: 0.85
     facts:
-      stars: 5950
+      stars: 5952
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -7361,7 +9788,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 64
+    score: 63
   - id: lemonade
     repo: lemonade-sdk/lemonade
     name: Lemonade
@@ -7399,15 +9826,15 @@ entries:
     audience: Self-hosters and developers running local models, especially on AMD hardware
     confidence: 0.85
     facts:
-      stars: 5895
+      stars: 5902
       license: Apache-2.0
       last_commit: 2026-10-14
-      last_release: 2026-10-07
+      last_release: 2026-10-14
       has_docker: true
       has_compose: false
       is_template: false
       language: C++
-    score: 67
+    score: 66
   - id: gpustack
     repo: gpustack/gpustack
     name: GPUStack
@@ -7441,7 +9868,7 @@ entries:
     audience: ops teams running shared GPU fleets as a model service
     confidence: 0.85
     facts:
-      stars: 5826
+      stars: 5828
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-07-31
@@ -7483,7 +9910,7 @@ entries:
     audience: RAG builders needing a fast embedding and rerank endpoint
     confidence: 0.85
     facts:
-      stars: 5077
+      stars: 5079
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-09-15
@@ -7530,13 +9957,13 @@ entries:
     facts:
       stars: 1472
       license: AGPL-3.0
-      last_commit: 2026-10-12
+      last_commit: 2026-10-14
       last_release: null
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 44
+    score: 43
   - id: omniroute
     repo: diegosouzapw/omniroute
     name: OmniRoute
@@ -7572,9 +9999,9 @@ entries:
     audience: Developers pooling free and paid LLM providers behind one API endpoint
     confidence: 0.7
     facts:
-      stars: 76384
+      stars: 76637
       license: MIT
-      last_commit: 2026-10-13
+      last_commit: 2026-10-15
       last_release: 2026-09-30
       has_docker: true
       has_compose: true
@@ -7619,9 +10046,9 @@ entries:
     audience: Teams routing many LLM providers through one self-hosted API
     confidence: 0.8
     facts:
-      stars: 61226
+      stars: 61264
       license: NOASSERTION
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-14
       has_docker: true
       has_compose: true
@@ -7660,7 +10087,7 @@ entries:
     audience: teams needing resilient multi-provider routing with guardrails
     confidence: 0.8
     facts:
-      stars: 13186
+      stars: 13189
       license: MIT
       last_commit: 2026-05-25
       last_release: 2026-01-12
@@ -7701,7 +10128,7 @@ entries:
     audience: platform teams wanting one gateway for APIs, LLMs and MCP
     confidence: 0.8
     facts:
-      stars: 9561
+      stars: 9562
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: 2026-10-04
@@ -7709,7 +10136,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 61
+    score: 60
   - id: coai
     repo: coaidev/coai
     name: CoAI
@@ -7747,7 +10174,7 @@ entries:
     audience: operators running a paid multi-user ChatGPT-style site
     confidence: 0.8
     facts:
-      stars: 9329
+      stars: 9330
       license: Apache-2.0
       last_commit: 2026-03-12
       last_release: 2025-10-23
@@ -7788,7 +10215,7 @@ entries:
     audience: teams wanting a fast self-hosted gateway with governance
     confidence: 0.85
     facts:
-      stars: 8786
+      stars: 8808
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -7796,7 +10223,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 65
+    score: 64
   - id: plano
     repo: katanemo/plano
     name: Plano
@@ -7830,7 +10257,7 @@ entries:
     audience: teams shipping multi-agent apps that need routing and tracing
     confidence: 0.75
     facts:
-      stars: 7088
+      stars: 7089
       license: Apache-2.0
       last_commit: 2026-10-07
       last_release: 2026-09-28
@@ -7871,9 +10298,9 @@ entries:
     audience: platform teams securing MCP, A2A and LLM traffic
     confidence: 0.8
     facts:
-      stars: 5337
+      stars: 5349
       license: Apache-2.0
-      last_commit: 2026-10-13
+      last_commit: 2026-10-15
       last_release: 2026-10-02
       has_docker: true
       has_compose: false
@@ -7914,7 +10341,7 @@ entries:
     audience: enterprises centralizing MCP tools and agents behind one gateway
     confidence: 0.85
     facts:
-      stars: 4626
+      stars: 4635
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-28
@@ -7955,7 +10382,7 @@ entries:
     audience: Open WebUI users exposing MCP tools over HTTP
     confidence: 0.85
     facts:
-      stars: 4400
+      stars: 4401
       license: MIT
       last_commit: 2026-02-27
       last_release: 2026-02-27
@@ -7997,7 +10424,7 @@ entries:
     audience: developers squeezing more reasoning accuracy from existing models
     confidence: 0.85
     facts:
-      stars: 4317
+      stars: 4318
       license: Apache-2.0
       last_commit: 2026-10-11
       last_release: 2026-09-28
@@ -8038,7 +10465,7 @@ entries:
     audience: teams curating MCP tool sets for many clients
     confidence: 0.8
     facts:
-      stars: 2706
+      stars: 2707
       license: MIT
       last_commit: 2026-06-22
       last_release: 2025-12-19
@@ -8080,9 +10507,9 @@ entries:
     audience: teams wanting a lightweight gateway with cost controls
     confidence: 0.8
     facts:
-      stars: 1234
+      stars: 1237
       license: MIT
-      last_commit: 2026-10-13
+      last_commit: 2026-10-15
       last_release: 2026-10-13
       has_docker: true
       has_compose: true
@@ -8121,9 +10548,9 @@ entries:
     audience: app developers needing instant search with semantic ranking
     confidence: 0.8
     facts:
-      stars: 59565
+      stars: 59569
       license: NOASSERTION
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: 2026-10-12
       has_docker: true
       has_compose: false
@@ -8162,7 +10589,7 @@ entries:
     audience: teams needing billion-scale vector search on Kubernetes
     confidence: 0.85
     facts:
-      stars: 46383
+      stars: 46385
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -8203,7 +10630,7 @@ entries:
     audience: developers wanting a filter-heavy vector store with gRPC
     confidence: 0.85
     facts:
-      stars: 35072
+      stars: 35077
       license: Apache-2.0
       last_commit: 2026-10-05
       last_release: 2026-10-05
@@ -8211,7 +10638,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 67
+    score: 66
   - id: chroma
     repo: chroma-core/chroma
     name: Chroma
@@ -8244,7 +10671,7 @@ entries:
     audience: developers prototyping RAG who want the simplest API
     confidence: 0.8
     facts:
-      stars: 29497
+      stars: 29502
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-05-05
@@ -8252,7 +10679,7 @@ entries:
       has_compose: true
       is_template: false
       language: Rust
-    score: 60
+    score: 58
   - id: pgvector
     repo: pgvector/pgvector
     name: pgvector
@@ -8286,7 +10713,7 @@ entries:
     audience: teams already on Postgres who want vectors without a new database
     confidence: 0.9
     facts:
-      stars: 23355
+      stars: 23362
       license: NOASSERTION
       last_commit: 2026-10-01
       last_release: null
@@ -8294,7 +10721,7 @@ entries:
       has_compose: false
       is_template: false
       language: C
-    score: 57
+    score: 56
   - id: weaviate
     repo: weaviate/weaviate
     name: Weaviate
@@ -8330,7 +10757,7 @@ entries:
     audience: teams wanting built-in vectorization, hybrid search and RAG in the database
     confidence: 0.85
     facts:
-      stars: 16881
+      stars: 16884
       license: NOASSERTION
       last_commit: 2026-10-13
       last_release: 2026-10-13
@@ -8338,7 +10765,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 61
+    score: 60
   - id: vespa
     repo: vespa-engine/vespa
     name: Vespa
@@ -8414,7 +10841,7 @@ entries:
     audience: developers wanting graph plus vector retrieval in one store
     confidence: 0.8
     facts:
-      stars: 6198
+      stars: 6200
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-08
@@ -8459,7 +10886,7 @@ entries:
     audience: Hobbyists and studios training custom voices locally
     confidence: 0.8
     facts:
-      stars: 62799
+      stars: 62825
       license: MIT
       last_commit: 2026-10-08
       last_release: 2025-06-06
@@ -8467,7 +10894,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 56
+    score: 55
   - id: voicebox
     repo: jamiepine/voicebox
     name: Voicebox
@@ -8509,7 +10936,7 @@ entries:
     audience: Individuals wanting local voice cloning, TTS and dictation
     confidence: 0.8
     facts:
-      stars: 57431
+      stars: 57498
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-04-25
@@ -8553,7 +10980,7 @@ entries:
     audience: Developers needing controllable multilingual voice cloning
     confidence: 0.75
     facts:
-      stars: 24480
+      stars: 24482
       license: NOASSERTION
       last_commit: 2026-09-29
       last_release: 2026-08-13
@@ -8561,7 +10988,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 56
   - id: f5-tts
     repo: swivid/f5-tts
     name: F5-TTS
@@ -8597,9 +11024,9 @@ entries:
     audience: Researchers and builders training or serving open TTS models
     confidence: 0.8
     facts:
-      stars: 15403
+      stars: 15407
       license: MIT
-      last_commit: 2026-10-11
+      last_commit: 2026-10-14
       last_release: 2026-07-23
       has_docker: true
       has_compose: false
@@ -8647,7 +11074,7 @@ entries:
     audience: Developers building self-hosted voice agents or Realtime API backends
     confidence: 0.82
     facts:
-      stars: 13451
+      stars: 13460
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-06
@@ -8655,7 +11082,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 66
+    score: 64
   - id: pocket-tts
     repo: kyutai-labs/pocket-tts
     name: Pocket TTS
@@ -8697,7 +11124,7 @@ entries:
     audience: Developers needing local, low-latency TTS and voice cloning without a GPU
     confidence: 0.9
     facts:
-      stars: 9893
+      stars: 9899
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-09-24
@@ -8705,7 +11132,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 63
+    score: 62
   - id: kokoro-fastapi
     repo: remsky/kokoro-fastapi
     name: Kokoro-FastAPI
@@ -8740,7 +11167,7 @@ entries:
     audience: Self-hosters who need a local OpenAI-style TTS backend
     confidence: 0.9
     facts:
-      stars: 5548
+      stars: 5550
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-10
@@ -8784,7 +11211,7 @@ entries:
     audience: Teams adding live transcription to apps or devices
     confidence: 0.85
     facts:
-      stars: 4321
+      stars: 4322
       license: MIT
       last_commit: 2026-10-07
       last_release: 2026-09-07
@@ -8792,7 +11219,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 49
+    score: 48
   - id: speakr
     repo: murtaza-nasir/speakr
     name: Speakr
@@ -8843,7 +11270,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 55
+    score: 54
   - id: speaches
     repo: speaches-ai/speaches
     name: Speaches
@@ -8878,7 +11305,7 @@ entries:
     audience: Self-hosters replacing OpenAI audio endpoints
     confidence: 0.7
     facts:
-      stars: 3715
+      stars: 3716
       license: MIT
       last_commit: 2026-04-18
       last_release: 2025-12-27
@@ -8886,7 +11313,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 40
+    score: 39
   - id: openreader
     repo: richardr1126/openreader
     name: OpenReader
@@ -8930,7 +11357,7 @@ entries:
       stars: 541
       license: MIT
       last_commit: 2026-10-14
-      last_release: 2026-10-12
+      last_release: 2026-10-14
       has_docker: true
       has_compose: false
       is_template: false
@@ -8978,9 +11405,9 @@ entries:
     audience: Visual professionals running diffusion models locally
     confidence: 0.85
     facts:
-      stars: 137454
+      stars: 137543
       license: GPL-3.0
-      last_commit: 2026-10-13
+      last_commit: 2026-10-15
       last_release: 2026-10-13
       has_docker: false
       has_compose: false
@@ -9032,7 +11459,7 @@ entries:
     audience: Creators and developers automating short-form video production
     confidence: 0.8
     facts:
-      stars: 130742
+      stars: 130950
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-03
@@ -9087,7 +11514,7 @@ entries:
     audience: Creators who already run ComfyUI and want automated shorts
     confidence: 0.7
     facts:
-      stars: 29013
+      stars: 29039
       license: Apache-2.0
       last_commit: 2026-06-14
       last_release: 2026-01-27
@@ -9095,7 +11522,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 43
+    score: 42
   - id: invokeai
     repo: invoke-ai/invokeai
     name: InvokeAI
@@ -9141,15 +11568,15 @@ entries:
     audience: Artists iterating on images with a canvas workflow
     confidence: 0.7
     facts:
-      stars: 28636
+      stars: 28644
       license: Apache-2.0
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: 2026-09-27
       has_docker: true
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 60
+    score: 59
   - id: kohya-ss
     repo: bmaltais/kohya_ss
     name: Kohya's GUI
@@ -9190,7 +11617,7 @@ entries:
     audience: Hobbyists and studios training LoRAs and fine-tunes
     confidence: 0.8
     facts:
-      stars: 12625
+      stars: 12627
       license: Apache-2.0
       last_commit: 2026-07-10
       last_release: 2026-07-09
@@ -9198,7 +11625,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 45
+    score: 44
   - id: ai-toolkit
     repo: ostris/ai-toolkit
     name: AI Toolkit
@@ -9242,15 +11669,15 @@ entries:
     audience: Self-hosters fine-tuning LoRAs for image and video diffusion models
     confidence: 0.8
     facts:
-      stars: 12299
+      stars: 12304
       license: MIT
-      last_commit: 2026-10-10
+      last_commit: 2026-10-14
       last_release: null
       has_docker: true
       has_compose: true
       is_template: false
       language: Python
-    score: 52
+    score: 51
   - id: fluxgym
     repo: cocktailpeanut/fluxgym
     name: FluxGym
@@ -9287,7 +11714,7 @@ entries:
     audience: Hobbyists training FLUX LoRAs on consumer GPUs
     confidence: 0.85
     facts:
-      stars: 3256
+      stars: 3257
       license: MIT
       last_commit: 2026-07-28
       last_release: null
@@ -9339,7 +11766,7 @@ entries:
     facts:
       stars: 1154
       license: GPL-3.0
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: null
       has_docker: true
       has_compose: false
@@ -9378,9 +11805,9 @@ entries:
     audience: Teams feeding web content to RAG pipelines and agents
     confidence: 0.7
     facts:
-      stars: 191423
+      stars: 191593
       license: AGPL-3.0
-      last_commit: 2026-10-13
+      last_commit: 2026-10-14
       last_release: 2026-06-19
       has_docker: false
       has_compose: true
@@ -9425,7 +11852,7 @@ entries:
     audience: Developers feeding web content into RAG, agents and data pipelines
     confidence: 0.9
     facts:
-      stars: 85518
+      stars: 85555
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -9433,7 +11860,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 76
+    score: 77
   - id: vane
     repo: itzcrazykns/vane
     name: Vane
@@ -9473,7 +11900,7 @@ entries:
     audience: Self-hosters replacing Perplexity with local models
     confidence: 0.85
     facts:
-      stars: 37320
+      stars: 37335
       license: MIT
       last_commit: 2026-09-01
       last_release: 2026-04-10
@@ -9481,7 +11908,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 55
+    score: 54
   - id: gpt-researcher
     repo: assafelovic/gpt-researcher
     name: GPT Researcher
@@ -9521,7 +11948,7 @@ entries:
     audience: Developers and analysts who want automated cited research reports
     confidence: 0.85
     facts:
-      stars: 30092
+      stars: 30098
       license: Apache-2.0
       last_commit: 2026-10-10
       last_release: 2026-09-26
@@ -9529,7 +11956,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 65
+    score: 64
   - id: jina-reader
     repo: jina-ai/reader
     name: Jina Reader
@@ -9573,7 +12000,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 45
+    score: 44
   - id: local-deep-research
     repo: learningcircuit/local-deep-research
     name: Local Deep Research
@@ -9661,7 +12088,7 @@ entries:
     audience: Self-hosters wanting a cited AI search UI with their own models
     confidence: 0.85
     facts:
-      stars: 9170
+      stars: 9171
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-09-16
@@ -9707,7 +12134,7 @@ entries:
     audience: Researchers managing document-heavy research projects
     confidence: 0.8
     facts:
-      stars: 1494
+      stars: 1495
       license: AGPL-3.0
       last_commit: 2026-04-16
       last_release: 2025-10-12
@@ -9715,7 +12142,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 28
+    score: 27
   - id: langfuse
     repo: langfuse/langfuse
     name: Langfuse
@@ -9748,7 +12175,7 @@ entries:
     audience: Teams debugging and evaluating LLM apps
     confidence: 0.85
     facts:
-      stars: 35815
+      stars: 35832
       license: NOASSERTION
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -9789,7 +12216,7 @@ entries:
     audience: Teams wanting one platform for GenAI tracing and ML tracking
     confidence: 0.85
     facts:
-      stars: 28379
+      stars: 28387
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -9797,7 +12224,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 70
+    score: 69
   - id: promptfoo
     repo: promptfoo/promptfoo
     name: promptfoo
@@ -9837,9 +12264,9 @@ entries:
     audience: Developers testing prompts and agents before release
     confidence: 0.8
     facts:
-      stars: 25997
+      stars: 25998
       license: MIT
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-08
       has_docker: true
       has_compose: false
@@ -9878,7 +12305,7 @@ entries:
     audience: ML engineers moving LLM agents to production
     confidence: 0.85
     facts:
-      stars: 22593
+      stars: 22610
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -9886,7 +12313,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 64
+    score: 63
   - id: phoenix
     repo: arize-ai/phoenix
     name: Phoenix
@@ -9925,7 +12352,7 @@ entries:
     audience: Teams debugging and evaluating LLM apps who want self-hosted tracing
     confidence: 0.8
     facts:
-      stars: 11833
+      stars: 11839
       license: NOASSERTION
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -9970,7 +12397,7 @@ entries:
     audience: Engineers wanting LLM observability by swapping an endpoint
     confidence: 0.8
     facts:
-      stars: 6219
+      stars: 6222
       license: Apache-2.0
       last_commit: 2026-09-16
       last_release: 2025-08-21
@@ -10016,7 +12443,7 @@ entries:
     audience: Teams running LLM agents in production who need tracing, evals and spend control
     confidence: 0.82
     facts:
-      stars: 4947
+      stars: 4951
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-02
@@ -10062,7 +12489,7 @@ entries:
     audience: Non-engineering teams automating ops, GTM, HR and support work
     confidence: 0.7
     facts:
-      stars: 4832
+      stars: 4833
       license: NOASSERTION
       last_commit: 2026-10-12
       last_release: 2026-10-12
@@ -10107,7 +12534,7 @@ entries:
     audience: Teams operating AI agents in production
     confidence: 0.8
     facts:
-      stars: 4721
+      stars: 4722
       license: MIT
       last_commit: 2026-10-14
       last_release: 2026-10-09
@@ -10115,7 +12542,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 64
+    score: 61
   - id: lmnr
     repo: lmnr-ai/lmnr
     name: Laminar
@@ -10154,7 +12581,7 @@ entries:
     audience: Teams debugging browser and tool-using agents
     confidence: 0.85
     facts:
-      stars: 3379
+      stars: 3383
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-13
@@ -10251,7 +12678,7 @@ entries:
     audience: Teams self-hosting tracing, cost and eval tracking for LLM apps and agents
     confidence: 0.8
     facts:
-      stars: 2849
+      stars: 2850
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -10298,7 +12725,7 @@ entries:
     audience: Teams running LLM agents who want tracing, evals and a gateway in one stack
     confidence: 0.82
     facts:
-      stars: 2147
+      stars: 2149
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-14
@@ -10348,9 +12775,9 @@ entries:
     audience: Engineers running browser automation or web-browsing agents at scale
     confidence: 0.9
     facts:
-      stars: 36470
+      stars: 36504
       license: AGPL-3.0
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: 2026-10-02
       has_docker: true
       has_compose: false
@@ -10388,7 +12815,7 @@ entries:
     audience: Developers scraping the web or giving AI agents a lightweight browser
     confidence: 0.85
     facts:
-      stars: 28885
+      stars: 28897
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-04
@@ -10396,7 +12823,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 71
+    score: 70
   - id: nemoclaw
     repo: nvidia/nemoclaw
     name: NemoClaw
@@ -10433,9 +12860,9 @@ entries:
     audience: Self-hosters running agents like OpenClaw under sandbox and egress controls
     confidence: 0.7
     facts:
-      stars: 22740
+      stars: 22748
       license: Apache-2.0
-      last_commit: 2026-10-14
+      last_commit: 2026-10-15
       last_release: null
       has_docker: true
       has_compose: false
@@ -10482,7 +12909,7 @@ entries:
     audience: People trying browser agents without writing code
     confidence: 0.85
     facts:
-      stars: 16613
+      stars: 16614
       license: MIT
       last_commit: 2026-05-15
       last_release: 2025-08-31
@@ -10490,7 +12917,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 43
+    score: 42
   - id: openshell
     repo: nvidia/openshell
     name: OpenShell
@@ -10525,7 +12952,7 @@ entries:
     audience: Teams running autonomous agents that need enforced access limits
     confidence: 0.85
     facts:
-      stars: 16182
+      stars: 16245
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-13
@@ -10533,7 +12960,7 @@ entries:
       has_compose: true
       is_template: false
       language: Rust
-    score: 69
+    score: 68
   - id: microsandbox
     repo: superradcompany/microsandbox
     name: microsandbox
@@ -10568,7 +12995,7 @@ entries:
     audience: Developers isolating AI agent or user-submitted code in local microVMs
     confidence: 0.85
     facts:
-      stars: 8679
+      stars: 8682
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-10-09
@@ -10576,7 +13003,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 62
+    score: 61
   - id: steel-browser
     repo: steel-dev/steel-browser
     name: Steel Browser
@@ -10610,7 +13037,7 @@ entries:
     audience: Developers building web agents on Puppeteer, Playwright or Selenium
     confidence: 0.85
     facts:
-      stars: 7801
+      stars: 7805
       license: Apache-2.0
       last_commit: 2026-10-13
       last_release: 2026-08-25
@@ -10650,7 +13077,7 @@ entries:
     audience: Open WebUI users and agent builders needing a command sandbox
     confidence: 0.85
     facts:
-      stars: 3336
+      stars: 3340
       license: MIT
       last_commit: 2026-10-10
       last_release: 2026-09-23
@@ -10704,7 +13131,7 @@ entries:
     audience: Developers and security teams pentesting their own apps and CI pipelines
     confidence: 0.9
     facts:
-      stars: 68517
+      stars: 68613
       license: Apache-2.0
       last_commit: 2026-10-14
       last_release: 2026-10-05

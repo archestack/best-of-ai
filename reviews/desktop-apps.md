@@ -5,7 +5,7 @@ Apps you install on your own computer to chat with local or API models, often wi
 <sub>🌐 Also on the web: [Desktop AI apps on archestack.com](https://archestack.com/best-of-ai/desktop-apps/), each project on its own page.</sub>
 
 <a name="cherry-studio"></a>
-### 🥇 [cherry-studio](https://github.com/cherryhq/cherry-studio) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 [cherry-studio](https://github.com/cherryhq/cherry-studio) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · AGPL-3.0 · Oct 2026</sub>
 
 **Cross-platform desktop chat client for many cloud and local LLM providers.**
 
@@ -23,7 +23,7 @@ Cherry Studio is a desktop app for Windows, macOS and Linux that talks to cloud 
 <sub>GPU optional · Needs Ollama or LM Studio (optional, for local models), WebDAV (optional, for backup) · Models: OpenAI, Gemini, Anthropic, Ollama, LM Studio · [Repo](https://github.com/cherryhq/cherry-studio) · [▶️ Demo ↗](https://enterprise.cherry-ai.com) · [📖 Docs ↗](https://docs.cherry-ai.com/docs/en-us) · [🌐 Site ↗](https://cherry-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cherry-studio/)</sub>
 
 <a name="deep-live-cam"></a>
-### 🥈 [deep-live-cam](https://github.com/hacksider/deep-live-cam) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 97k · AGPL-3.0 · Oct 2026</sub>
+### 🥈 [deep-live-cam](https://github.com/hacksider/deep-live-cam) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 97k · AGPL-3.0 · Oct 2026</sub>
 
 **Real-time webcam face swap from a single source image.**
 
@@ -40,8 +40,26 @@ Deep-Live-Cam is a Python desktop GUI that swaps a face from one source image on
 
 <sub>GPU optional · Needs Python 3.11-3.14, ffmpeg, onnxruntime, CUDA Toolkit 12.8 (NVIDIA), tkinter, OBS (for streaming output) · Models: inswapper_128_fp16.onnx, gfpgan-1024.onnx, ONNX · [Repo](https://github.com/hacksider/deep-live-cam) · [📖 Docs ↗](https://deeplivecam.net/index.php/quickstart) · [🌐 Site ↗](https://deeplivecam.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-live-cam/)</sub>
 
+<a name="prompt-optimizer"></a>
+### 🥉 [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · custom license · Oct 2026</sub>
+
+**Prompt rewriting and testing tool for web, desktop, Chrome and MCP.**
+
+Prompt Optimizer rewrites system and user prompts with an LLM you configure, then lets you test, compare and save the results as versioned favorites. It runs as a browser app, desktop app, Chrome extension or Docker container, and exposes an MCP server at /mcp with optimize-user-prompt, optimize-system-prompt and iterate-prompt tools. Model calls go straight from the client to the provider, including text-to-image and image-to-image modes.
+
+- **+** Ships as web app, desktop app, Chrome extension and Docker image
+- **+** Built-in MCP server at /mcp for Claude Desktop and other MCP clients
+- **+** Analysis and compare evaluation, variables, multi-turn and function-calling tests
+- **+** Client-side processing; requests go directly to the configured provider
+- **−** Web version may hit browser CORS limits with local endpoints such as Ollama
+- **−** VITE_* API keys are exposed in browser assets on public deployments
+- **−** Chrome Web Store version can lag behind the latest release
+- **−** Workspace/project management is still unchecked on the roadmap
+
+<sub>no GPU · Docker + Compose · Needs LLM provider API key or compatible endpoint · Models: OpenAI, Gemini, DeepSeek, Grok, Zhipu AI · port 8081 · [Repo](https://github.com/linshenkx/prompt-optimizer) · [▶️ Demo ↗](https://prompt.always200.com) · [📖 Docs ↗](https://docs.always200.com) · [🌐 Site ↗](https://always200.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/prompt-optimizer/)</sub>
+
 <a name="jan"></a>
-### 🥉 [jan](https://github.com/janhq/jan) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 45k · custom license · Oct 2026</sub>
+### #&#8288;4 [jan](https://github.com/janhq/jan) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 45k · custom license · Oct 2026</sub>
 
 **Desktop app that runs local models or cloud APIs, with a local server.**
 
@@ -59,7 +77,7 @@ Jan is a Tauri desktop app for Windows, macOS and Linux that downloads LLMs from
 <sub>RAM ≥ 8 GB · GPU optional · Models: GGUF via llama.cpp, Hugging Face models, OpenAI, Anthropic, Mistral · port 1337 · [Repo](https://github.com/janhq/jan) · [📖 Docs ↗](https://jan.ai/docs) · [🌐 Site ↗](https://jan.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jan/)</sub>
 
 <a name="chatbox"></a>
-### #&#8288;4 [chatbox](https://github.com/chatboxai/chatbox) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Sep 2026</sub>
+### #&#8288;5 [chatbox](https://github.com/chatboxai/chatbox) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Sep 2026</sub>
 
 **Desktop and mobile chat client for OpenAI, Claude, Gemini and Ollama models.**
 
@@ -77,7 +95,7 @@ Chatbox is an Electron app (TypeScript, React) that connects to hosted LLM APIs 
 <sub>no GPU · Needs Ollama (optional, for local models), API keys for hosted providers · Models: OpenAI, Azure OpenAI, Claude, Google Gemini Pro, Ollama · [Repo](https://github.com/chatboxai/chatbox) · [🌐 Site ↗](https://chatboxai.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatbox/)</sub>
 
 <a name="dsh-desktop"></a>
-### #&#8288;5 [dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;6 [dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Native Windows and macOS desktop client for DeepSeek Harness.**
 
@@ -95,7 +113,7 @@ DSH Desktop wraps the pinned, unmodified upstream DeepSeek Harness web UI, host 
 <sub>Needs DeepSeek Harness (bundled, pinned) · Models: DeepSeek Harness models · [Repo](https://github.com/anywhere-labs/dsh-desktop) · [📖 Docs ↗](https://github.com/anywhere-labs/dsh-desktop/blob/main/docs/user-guide.md) · [🌐 Site ↗](https://dshdesktop.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-desktop/)</sub>
 
 <a name="aionui"></a>
-### #&#8288;6 [aionui](https://github.com/iofficeai/aionui) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [aionui](https://github.com/iofficeai/aionui) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · Apache-2.0 · Oct 2026</sub>
 
 **Desktop and WebUI app that runs a built-in agent plus external CLI agents.**
 
