@@ -59,7 +59,7 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 <sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo ↗](https://qdrant.to/semantic-search-demo) · [📖 Docs ↗](https://qdrant.tech/documentation/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qdrant/)</sub>
 
 <a name="faiss"></a>
-### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Oct 2026</sub>
+### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Oct 2026</sub>
 
 **C++ library for similarity search and clustering of dense vectors.**
 
@@ -130,23 +130,23 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvector/)</sub>
 
-<a name="turbovec"></a>
-### #&#8288;8 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (41) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
+<a name="zvec"></a>
+### #&#8288;8 [zvec](https://github.com/alibaba/zvec) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
-**In-process quantized vector index for Python and Rust using TurboQuant.**
+**In-process vector database library with hybrid and full-text search.**
 
-turbovec is a library that stores embeddings at 2 or 4 bits per dimension using Google Research's TurboQuant and searches the compressed form with SIMD kernels. It needs no training step, supports single-vector add and remove, and persists incrementally with sync(). It does a brute-force scan rather than graph search, and ships LangChain, LlamaIndex, Haystack and Agno integrations.
+Zvec is a C++ vector database that embeds in the application process instead of running as a server. It stores dense and sparse vectors with a write-ahead log, and combines vector similarity, full-text search and structured filters in one query. SDKs exist for Python, Node.js, Go, Rust and Dart/Flutter.
 
-- **+** README reports 4.4× faster than FAISS FastScan at 4-bit, at matching recall
-- **+** 7.8× smaller than float32 at 4-bit, 15.5× at 2-bit
-- **+** No training or rebuild; add and remove cost microseconds per vector
-- **+** Allowlist filtering and crash-safe incremental sync(); drop-in stores for four frameworks
-- **−** Scans every vector, so query cost grows linearly with corpus size
-- **−** Lossy: top-1 matches float ground truth 96–98% at 4-bit on OpenAI embeddings
-- **−** Library only: no network API, replication or multi-tenant service
-- **−** Dimension must be a multiple of 8 and at most 16,384; only 2 or 4 bits
+- **+** Runs in-process: pip or npm install, no server or config to operate
+- **+** Dense and sparse vectors, full-text search and filters in a single hybrid query
+- **+** WAL-based durability; multiple processes can read the same collection concurrently
+- **+** SDKs for Python, Node.js, Go, Rust, Dart; Linux glibc/musl, macOS, Windows builds
+- **−** Writes are single-process exclusive, limiting multi-writer setups
+- **−** No standalone server mode or HTTP API described in the README
+- **−** Python SDK requires 64-bit Python 3.10 to 3.14
+- **−** Benchmark results are only linked or charted; no figures in the README text
 
-<sub>no GPU · [Repo](https://github.com/ryancodrai/turbovec) · [📖 Docs ↗](https://github.com/RyanCodrai/turbovec/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbovec/)</sub>
+<sub>no GPU · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
 
 <a name="helix-db"></a>
 ### #&#8288;9 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
@@ -167,7 +167,7 @@ HelixDB is a Rust database that combines a labeled property graph, approximate n
 <sub>no GPU · Docker · Needs Docker or Podman for the local instance · Models: any embedding model; stores precomputed vectors · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helix-db/)</sub>
 
 <a name="leann"></a>
-### #&#8288;10 [leann](https://github.com/startrail-org/leann) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (21) · Freshness: active (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Oct 2026</sub>
+### #&#8288;10 [leann](https://github.com/startrail-org/leann) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (71) · Easy to run: easy (50) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Oct 2026</sub>
 
 **Vector index that recomputes embeddings on demand to cut storage.**
 
@@ -182,28 +182,28 @@ LEANN is a Python vector database that stores a pruned graph and recomputes embe
 - **−** GPU acceleration is only a survey item for a future version
 - **−** Linux uv hardlink installs can fail with a nltk pathsec error without a workaround
 
-<sub>GPU optional · Needs uv, Ollama or OpenAI-compatible API (optional, for generation) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [▶️ Demo ↗](https://colab.research.google.com/github/yichuan-w/LEANN/blob/main/demo.ipynb) · [📖 Docs ↗](https://github.com/yichuan-w/LEANN/blob/main/docs/configuration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
+<sub>GPU optional · Docker · Needs uv, Ollama or OpenAI-compatible API (optional, for generation) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [▶️ Demo ↗](https://colab.research.google.com/github/yichuan-w/LEANN/blob/main/demo.ipynb) · [📖 Docs ↗](https://github.com/yichuan-w/LEANN/blob/main/docs/configuration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
 
-<a name="zvec"></a>
-### #&#8288;11 [zvec](https://github.com/alibaba/zvec) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (31) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Sep 2026</sub>
+<a name="turbovec"></a>
+### #&#8288;11 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (41) · Freshness: active (100) · Maintenance: fair (64) · Easy to run: some setup (33) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
 
-**In-process vector database library with hybrid and full-text search.**
+**In-process quantized vector index for Python and Rust using TurboQuant.**
 
-Zvec is a C++ vector database that embeds in the application process instead of running as a server. It stores dense and sparse vectors with a write-ahead log, and combines vector similarity, full-text search and structured filters in one query. SDKs exist for Python, Node.js, Go, Rust and Dart/Flutter.
+turbovec is a library that stores embeddings at 2 or 4 bits per dimension using Google Research's TurboQuant and searches the compressed form with SIMD kernels. It needs no training step, supports single-vector add and remove, and persists incrementally with sync(). It does a brute-force scan rather than graph search, and ships LangChain, LlamaIndex, Haystack and Agno integrations.
 
-- **+** Runs in-process: pip or npm install, no server or config to operate
-- **+** Dense and sparse vectors, full-text search and filters in a single hybrid query
-- **+** WAL-based durability; multiple processes can read the same collection concurrently
-- **+** SDKs for Python, Node.js, Go, Rust, Dart; Linux glibc/musl, macOS, Windows builds
-- **−** Writes are single-process exclusive, limiting multi-writer setups
-- **−** No standalone server mode or HTTP API described in the README
-- **−** Python SDK requires 64-bit Python 3.10 to 3.14
-- **−** Benchmark results are only linked or charted; no figures in the README text
+- **+** README reports 4.4× faster than FAISS FastScan at 4-bit, at matching recall
+- **+** 7.8× smaller than float32 at 4-bit, 15.5× at 2-bit
+- **+** No training or rebuild; add and remove cost microseconds per vector
+- **+** Allowlist filtering and crash-safe incremental sync(); drop-in stores for four frameworks
+- **−** Scans every vector, so query cost grows linearly with corpus size
+- **−** Lossy: top-1 matches float ground truth 96–98% at 4-bit on OpenAI embeddings
+- **−** Library only: no network API, replication or multi-tenant service
+- **−** Dimension must be a multiple of 8 and at most 16,384; only 2 or 4 bits
 
-<sub>no GPU · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
+<sub>no GPU · [Repo](https://github.com/ryancodrai/turbovec) · [📖 Docs ↗](https://github.com/RyanCodrai/turbovec/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbovec/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;12 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 

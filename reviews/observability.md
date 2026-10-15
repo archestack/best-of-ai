@@ -41,7 +41,7 @@ Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ fram
 <sub>no GPU · Docker + Compose · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mlflow/)</sub>
 
 <a name="promptfoo"></a>
-### 🥉 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Oct 2026</sub>
+### 🥉 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Oct 2026</sub>
 
 **CLI for evaluating and red-teaming prompts, agents and RAG.**
 
@@ -59,7 +59,7 @@ Runs prompt and model evaluations from a YAML config via promptfoo eval, compare
 <sub>no GPU · Docker · Needs Node.js (npm) or Python (pip), LLM provider API key or Ollama · Models: OpenAI, Anthropic, Azure, Bedrock, Ollama · [Repo](https://github.com/promptfoo/promptfoo) · [📖 Docs ↗](https://www.promptfoo.dev/docs/) · [🌐 Site ↗](https://www.promptfoo.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/promptfoo/)</sub>
 
 <a name="phoenix"></a>
-### #&#8288;4 [Phoenix](https://github.com/arize-ai/phoenix) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Oct 2026</sub>
+### #&#8288;4 [Phoenix](https://github.com/arize-ai/phoenix) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Oct 2026</sub>
 
 **LLM tracing, evaluation and prompt management built on OpenTelemetry.**
 
@@ -94,26 +94,8 @@ Logs trace trees for LLM calls, tool executions and agent steps via Python and T
 
 <sub>no GPU · Compose · Models: any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs ↗](https://www.comet.com/docs/opik/) · [🌐 Site ↗](https://www.comet.com/site/products/opik/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opik/)</sub>
 
-<a name="deepeval"></a>
-### #&#8288;6 [deepeval](https://github.com/confident-ai/deepeval) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (52) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Oct 2026</sub>
-
-**Pytest-style framework for unit testing LLM apps, RAG pipelines and agents.**
-
-DeepEval is a Python framework that runs LLM evaluations as pytest-style tests via `deepeval test run`. It ships metrics such as G-Eval, DAG, task completion, tool correctness, faithfulness and hallucination, scored by an LLM judge of your choice or local NLP models. It supports end-to-end, trace-based and component-level evals, synthetic dataset generation, and standard benchmarks like MMLU and GSM8K.
-
-- **+** Metrics for RAG, agents, multi-turn chats, MCP and multimodal outputs
-- **+** Pytest-style tests run in CI with `deepeval test run`
-- **+** Tracing via @observe supports component-level and agent trajectory evals
-- **+** Integrations for LangChain, LangGraph, CrewAI, LlamaIndex, OpenAI Agents, Pydantic AI and others
-- **−** LLM-judge metrics need a model; the quickstart uses an OpenAI API key
-- **−** Report sharing and production monitoring sit in the hosted Confident AI platform
-- **−** README pushes account login; test cases are logged to the cloud once logged in
-- **−** Judge-based scores depend on the chosen judge model and vary between runs
-
-<sub>GPU optional · Needs OpenAI API key or custom LLM judge, Confident AI account (optional) · Models: OpenAI, Anthropic, custom LLMs, local NLP models · [Repo](https://github.com/confident-ai/deepeval) · [📖 Docs ↗](https://deepeval.com/docs/getting-started) · [🌐 Site ↗](https://www.confident-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepeval/)</sub>
-
 <a name="openlit"></a>
-### #&#8288;7 [OpenLIT](https://github.com/openlit/openlit) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [OpenLIT](https://github.com/openlit/openlit) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Oct 2026</sub>
 
 **OpenTelemetry-based tracing, evals and guardrails for LLM apps and coding agents.**
 
@@ -131,7 +113,7 @@ OpenLIT is a self-hosted dashboard plus Python and TypeScript SDKs that auto-ins
 <sub>GPU optional · Compose · Needs ClickHouse, Docker Compose · Models: OpenAI, Anthropic, Ollama, vLLM, Amazon Bedrock · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/) · [🌐 Site ↗](https://openlit.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openlit/)</sub>
 
 <a name="langwatch"></a>
-### #&#8288;8 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Oct 2026</sub>
 
 **LLM tracing, evals, gateway and governance platform for agents and coding assistants.**
 
@@ -149,7 +131,7 @@ LangWatch traces LLM calls and runs agent simulation tests, evaluations and prom
 <sub>no GPU · Needs Node.js · Models: OpenAI, Anthropic, Azure OpenAI, Vertex AI, Bedrock · [Repo](https://github.com/langwatch/langwatch) · [📖 Docs ↗](https://langwatch.ai/docs/introduction) · [🌐 Site ↗](https://langwatch.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langwatch/)</sub>
 
 <a name="future-agi"></a>
-### #&#8288;9 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: very easy (83) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: very easy (83) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Oct 2026</sub>
 
 **Tracing, evals, simulation, guardrails and an LLM gateway for AI agents.**
 
@@ -167,7 +149,7 @@ Future AGI is a Django and Go platform that traces agents over OpenTelemetry, sc
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs PostgreSQL, ClickHouse, Redis, Temporal, Docker Compose v2.24+ · Models: OpenAI-compatible providers (100+ via gateway) · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [▶️ Demo ↗](https://www.youtube.com/watch?v=6keOTAOUUWI) · [📖 Docs ↗](https://docs.futureagi.com) · [🌐 Site ↗](https://futureagi.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/future-agi/)</sub>
 
 <a name="latitude-llm"></a>
-### #&#8288;10 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Oct 2026</sub>
+### #&#8288;9 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Oct 2026</sub>
 
 **Agent observability that groups failures and dispatches coding agents to fix them.**
 
@@ -183,6 +165,24 @@ Captures traces, sessions and tool calls via a one-line SDK (TypeScript, Python)
 - **−** Storage and service requirements are not stated in the README
 
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, ClickHouse, Redis · Models: OpenAI, Anthropic, Bedrock, Vercel AI SDK and LangChain apps, any OpenTelemetry source · [Repo](https://github.com/latitude-dev/latitude-llm) · [📖 Docs ↗](https://docs.latitude.so) · [🌐 Site ↗](https://latitude.so) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/latitude-llm/)</sub>
+
+<a name="deepeval"></a>
+### #&#8288;10 [deepeval](https://github.com/confident-ai/deepeval) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (69) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Oct 2026</sub>
+
+**Pytest-style framework for unit testing LLM apps, RAG pipelines and agents.**
+
+DeepEval is a Python framework that runs LLM evaluations as pytest-style tests via `deepeval test run`. It ships metrics such as G-Eval, DAG, task completion, tool correctness, faithfulness and hallucination, scored by an LLM judge of your choice or local NLP models. It supports end-to-end, trace-based and component-level evals, synthetic dataset generation, and standard benchmarks like MMLU and GSM8K.
+
+- **+** Metrics for RAG, agents, multi-turn chats, MCP and multimodal outputs
+- **+** Pytest-style tests run in CI with `deepeval test run`
+- **+** Tracing via @observe supports component-level and agent trajectory evals
+- **+** Integrations for LangChain, LangGraph, CrewAI, LlamaIndex, OpenAI Agents, Pydantic AI and others
+- **−** LLM-judge metrics need a model; the quickstart uses an OpenAI API key
+- **−** Report sharing and production monitoring sit in the hosted Confident AI platform
+- **−** README pushes account login; test cases are logged to the cloud once logged in
+- **−** Judge-based scores depend on the chosen judge model and vary between runs
+
+<sub>GPU optional · Needs OpenAI API key or custom LLM judge, Confident AI account (optional) · Models: OpenAI, Anthropic, custom LLMs, local NLP models · [Repo](https://github.com/confident-ai/deepeval) · [📖 Docs ↗](https://deepeval.com/docs/getting-started) · [🌐 Site ↗](https://www.confident-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepeval/)</sub>
 
 <a name="lmnr"></a>
 ### #&#8288;11 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Oct 2026</sub>
@@ -202,26 +202,8 @@ OpenTelemetry-native tracing for Vercel AI SDK, LangChain, OpenAI, Anthropic, Ge
 
 <sub>no GPU · Compose · Needs ClickHouse, PostgreSQL, LLM provider (optional, for AI features) · Models: Gemini, OpenAI and OpenAI-compatible gateways (LiteLLM, OpenRouter, vLLM), AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs ↗](https://laminar.sh/docs) · [🌐 Site ↗](https://laminar.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmnr/)</sub>
 
-<a name="evals"></a>
-### #&#8288;12 [evals](https://github.com/openai/evals) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (56) · Freshness: recent (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
-
-**Python framework and registry for evaluating LLMs and LLM-based systems.**
-
-Runs evals against OpenAI models and LLM-built systems, using a registry of existing evals plus custom ones defined as JSON data and YAML config. Model-graded evals need no evaluation code, and a Completion Function Protocol covers prompt chains and tool-using agents. Results can optionally be logged to Snowflake.
-
-- **+** Basic and model-graded evals need only JSON data and YAML, no code
-- **+** Completion Function Protocol supports prompt chains and tool-using agents
-- **+** Registry of existing evals, with private evals possible on your own data
-- **+** Optional result logging to Snowflake
-- **−** Setup is documented around an OpenAI API key; other providers are not described
-- **−** Registry data is stored in Git-LFS and must be pulled separately
-- **−** Not accepting contributed evals with custom code
-- **−** Known issue: runs can hang after the final report until interrupted
-
-<sub>no GPU · Needs OpenAI API key, Git-LFS, Snowflake (optional) · Models: OpenAI models, custom completion functions · [Repo](https://github.com/openai/evals) · [📖 Docs ↗](https://platform.openai.com/docs/guides/evals) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evals/)</sub>
-
 <a name="agenta"></a>
-### #&#8288;13 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Oct 2026</sub>
+### #&#8288;12 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Oct 2026</sub>
 
 **Team workspace for building chat-driven agents that run in Slack and WhatsApp.**
 
@@ -238,26 +220,8 @@ Lets teams create agents by describing work in chat, connect tools through MCP o
 
 <sub>no GPU · Needs Claude Code, Pi or Codex harness, LLM API, Ollama, or a Claude or ChatGPT subscription, Composio (optional, 1,000+ app integrations) · Models: hosted models via API, Ollama, Claude and ChatGPT subscriptions · [Repo](https://github.com/agenta-ai/agenta) · [📖 Docs ↗](https://agenta.ai/docs/) · [🌐 Site ↗](https://agenta.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agenta/)</sub>
 
-<a name="ragas"></a>
-### #&#8288;14 [ragas](https://github.com/vibrantlabsai/ragas) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (44) · Freshness: recent (56) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Feb 2026</sub>
-
-**Python library for scoring LLM and RAG application outputs with metrics.**
-
-Ragas is a Python package for evaluating LLM applications. It ships pre-built and custom metrics, including LLM-judged ones such as DiscreteMetric, and can generate test datasets when none exist. It integrates with LangChain and observability tools, and a `ragas quickstart rag_eval` command scaffolds an example RAG evaluation project.
-
-- **+** Installs with pip; quickstart command scaffolds a RAG evaluation project
-- **+** Custom metrics defined by a prompt and allowed values, scored asynchronously
-- **+** Generates test datasets when none are available
-- **+** Apache-2.0 licensed; telemetry can be disabled with RAGAS_DO_NOT_TRACK
-- **−** LLM-based metrics need an external model, such as an OpenAI key in the example
-- **−** Only the rag_eval quickstart template exists; other templates are listed as coming soon
-- **−** Collects anonymized usage analytics by default; opt-out required
-- **−** No UI or hosted dashboard described in the README
-
-<sub>no GPU · Needs LLM provider API (OpenAI in example) · Models: OpenAI, LangChain · [Repo](https://github.com/vibrantlabsai/ragas) · [📖 Docs ↗](https://docs.ragas.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ragas/)</sub>
-
 <a name="helicone"></a>
-### #&#8288;15 [Helicone](https://github.com/helicone/helicone) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (28) · Freshness: recent (80) · Maintenance: patchy (33) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;13 [Helicone](https://github.com/helicone/helicone) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (28) · Freshness: recent (80) · Maintenance: patchy (33) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Sep 2026</sub>
 
 **LLM proxy gateway with request logging, cost tracking and sessions.**
 
@@ -274,8 +238,44 @@ Sits as an OpenAI-compatible gateway in front of 100+ models with routing and au
 
 <sub>no GPU · Docker + Compose · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/helicone/helicone) · [▶️ Demo ↗](https://helicone.ai/demo) · [📖 Docs ↗](https://docs.helicone.ai/) · [🌐 Site ↗](https://www.helicone.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helicone/)</sub>
 
+<a name="evals"></a>
+### #&#8288;14 [evals](https://github.com/openai/evals) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: popular (57) · Freshness: recent (66) · Maintenance: weak (3) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
+
+**Python framework and registry for evaluating LLMs and LLM-based systems.**
+
+Runs evals against OpenAI models and LLM-built systems, using a registry of existing evals plus custom ones defined as JSON data and YAML config. Model-graded evals need no evaluation code, and a Completion Function Protocol covers prompt chains and tool-using agents. Results can optionally be logged to Snowflake.
+
+- **+** Basic and model-graded evals need only JSON data and YAML, no code
+- **+** Completion Function Protocol supports prompt chains and tool-using agents
+- **+** Registry of existing evals, with private evals possible on your own data
+- **+** Optional result logging to Snowflake
+- **−** Setup is documented around an OpenAI API key; other providers are not described
+- **−** Registry data is stored in Git-LFS and must be pulled separately
+- **−** Not accepting contributed evals with custom code
+- **−** Known issue: runs can hang after the final report until interrupted
+
+<sub>no GPU · Needs OpenAI API key, Git-LFS, Snowflake (optional) · Models: OpenAI models, custom completion functions · [Repo](https://github.com/openai/evals) · [📖 Docs ↗](https://platform.openai.com/docs/guides/evals) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evals/)</sub>
+
+<a name="ragas"></a>
+### #&#8288;15 [ragas](https://github.com/vibrantlabsai/ragas) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (44) · Freshness: recent (56) · Maintenance: weak (2) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Feb 2026</sub>
+
+**Python library for scoring LLM and RAG application outputs with metrics.**
+
+Ragas is a Python package for evaluating LLM applications. It ships pre-built and custom metrics, including LLM-judged ones such as DiscreteMetric, and can generate test datasets when none exist. It integrates with LangChain and observability tools, and a `ragas quickstart rag_eval` command scaffolds an example RAG evaluation project.
+
+- **+** Installs with pip; quickstart command scaffolds a RAG evaluation project
+- **+** Custom metrics defined by a prompt and allowed values, scored asynchronously
+- **+** Generates test datasets when none are available
+- **+** Apache-2.0 licensed; telemetry can be disabled with RAGAS_DO_NOT_TRACK
+- **−** LLM-based metrics need an external model, such as an OpenAI key in the example
+- **−** Only the rag_eval quickstart template exists; other templates are listed as coming soon
+- **−** Collects anonymized usage analytics by default; opt-out required
+- **−** No UI or hosted dashboard described in the README
+
+<sub>no GPU · Needs LLM provider API (OpenAI in example) · Models: OpenAI, LangChain · [Repo](https://github.com/vibrantlabsai/ragas) · [📖 Docs ↗](https://docs.ragas.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ragas/)</sub>
+
 <a name="pezzo"></a>
-### #&#8288;16 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (8) · Freshness: recent (70) · Maintenance: weak (24) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;16 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (8) · Freshness: recent (70) · Maintenance: weak (27) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
 
 **Prompt management, observability and caching for LLM apps.**
 
