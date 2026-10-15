@@ -5,25 +5,25 @@ Isolated runtimes where agents execute code, browse or use tools safely. Back to
 <sub>🌐 Also on the web: [Sandboxes on archestack.com](https://archestack.com/best-of-ai/sandboxes/), each project on its own page.</sub>
 
 <a name="lightpanda"></a>
-### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · AGPL-3.0 · Oct 2026</sub>
 
-**Headless browser written in Zig for AI agents and scraping.**
+**Headless browser written in Zig for agents and scraping, with CDP and MCP.**
 
-Lightpanda is a headless browser written in Zig, built on V8 for JavaScript, libcurl for HTTP and html5ever for parsing, with no graphical rendering. It exposes a CDP server on port 9222 for Puppeteer and Playwright, plus WebDriver BiDi, an MCP server, and a built-in LLM agent mode. It can also dump pages as HTML, Markdown, PNG or PDF from the command line.
+Lightpanda is a headless browser written from scratch in Zig, using V8 for JavaScript, libcurl for HTTP and html5ever for parsing, with no graphical rendering. It exposes a CDP server for Puppeteer and Playwright, WebDriver BiDi, an MCP server over stdio or HTTP, and a fetch command that dumps pages as HTML or Markdown. An agent mode records sessions as replayable scripts.
 
 - **+** README benchmark: 123MB peak vs 2GB for headless Chrome over 100 pages
-- **+** CDP server works with Puppeteer; WebDriver BiDi also supported
-- **+** MCP server over stdio or HTTP, with isolated or shared sessions
-- **+** Agent output saved as replayable JavaScript scripts that need no LLM at runtime
-- **−** No native Windows build; WSL2 required
-- **−** Linux binaries need glibc; they fail on Alpine/musl
-- **−** Telemetry is on by default; opt out via environment variable
-- **−** Not a full browser: no graphical rendering, partial Web Platform Tests coverage
+- **+** Speaks CDP, WebDriver BiDi and MCP, so Puppeteer and Playwright clients can connect
+- **+** Agent mode supports many LLM providers and local Ollama or llama.cpp, or runs with --no-llm
+- **+** Agent sessions export to deterministic scripts that replay without a model
+- **−** No graphical rendering; web platform coverage is partial (see WPT results)
+- **−** No native Windows binary; needs WSL2, and Linux binaries need glibc
+- **−** Usage telemetry is on by default and must be disabled via environment variable
+- **−** AGPL-3.0 license and a CLA required for contributions
 
-<sub>no GPU · Docker · Models: Anthropic, OpenAI, Gemini, Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightpanda/)</sub>
+<sub>no GPU · Docker · Needs Puppeteer or Playwright (optional client), LLM provider API key (agent mode only) · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightpanda/)</sub>
 
 <a name="obscura"></a>
-### 🥈 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Rust headless browser with V8 and CDP for scraping and agents.**
 
@@ -41,7 +41,7 @@ Obscura is a headless browser engine written in Rust that runs JavaScript throug
 <sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs ↗](https://docs.obscura.sh) · [🌐 Site ↗](https://obscura.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obscura/)</sub>
 
 <a name="nemoclaw"></a>
-### 🥉 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Oct 2026</sub>
 
 **Reference stack for running OpenClaw, Hermes and Deep Agents in OpenShell sandboxes.**
 
@@ -59,7 +59,7 @@ NemoClaw is a CLI-driven reference stack that installs a supported AI agent (Ope
 <sub>Docker · Needs NVIDIA OpenShell · Models: OpenClaw, Hermes, LangChain Deep Agents Code · [Repo](https://github.com/nvidia/nemoclaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nemoclaw/)</sub>
 
 <a name="openshell"></a>
-### #&#8288;4 [OpenShell](https://github.com/nvidia/openshell) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [OpenShell](https://github.com/nvidia/openshell) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **Policy-enforced sandbox runtime for autonomous AI agents.**
 
@@ -77,7 +77,7 @@ OpenShell runs each agent in an isolated sandbox where kernel controls restrict 
 <sub>GPU optional · Docker + Compose · Needs Docker, Podman or host virtualization, Kubernetes with NetworkPolicy-enforcing CNI (optional) · Models: OpenRouter (example provider) · [Repo](https://github.com/nvidia/openshell) · [▶️ Demo ↗](https://brev.nvidia.com/launchable/deploy/now?launchableID=env-3Ap3tL55zq4a8kew1AuW0FpSLsg) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openshell/)</sub>
 
 <a name="microsandbox"></a>
-### #&#8288;5 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Oct 2026</sub>
 
 **Embeddable local microVM sandboxes for running untrusted code and AI agents.**
 
@@ -94,8 +94,26 @@ Microsandbox boots OCI images (Docker Hub, GHCR, any registry) as hardware-isola
 
 <sub>no GPU · Docker · Needs KVM (Linux), WHP (Windows), OCI registry access · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev) · [🌐 Site ↗](https://microsandbox.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/microsandbox/)</sub>
 
+<a name="cubesandbox"></a>
+### #&#8288;6 [cubesandbox](https://github.com/tencentcloud/cubesandbox) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (27) · Freshness: active (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Oct 2026</sub>
+
+**MicroVM sandbox service for AI agents with an E2B-compatible API.**
+
+CubeSandbox runs each agent sandbox in its own KVM MicroVM, built on RustVMM, and exposes an E2B-compatible API so existing E2B SDK clients can point at it by changing an environment variable. It runs on a single node or a multi-node cluster and includes snapshot/rollback, pause/resume, an eBPF network layer and an L7 egress proxy with credential injection. The README reports under 60ms cold start and under 5MB memory overhead per sandbox.
+
+- **+** Each sandbox gets a dedicated kernel in its own KVM MicroVM, not shared-kernel containers
+- **+** E2B SDK compatible; README says switching needs one environment variable change
+- **+** Snapshot, clone and rollback, plus auto pause/resume of idle sandboxes
+- **+** Egress proxy injects credentials so API keys never enter the sandbox
+- **−** Requires x86_64 Linux with KVM for the quick start path
+- **−** Multi-component stack (API, master, cubelet, eBPF switch, proxy), heavier than a single binary
+- **−** Kubernetes deploy and cross-node pause/resume are marked preview
+- **−** License detected as NOASSERTION; README badge says Apache 2.0, so verify
+
+<sub>no GPU · Needs KVM, Linux x86_64, S3 (optional, for cross-node pause/resume) · port 12088 · [Repo](https://github.com/tencentcloud/cubesandbox) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cubesandbox/)</sub>
+
 <a name="steel-browser"></a>
-### #&#8288;6 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: patchy (42) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: patchy (42) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
 
 **Browser API that manages Chrome sessions for Puppeteer, Playwright and Selenium.**
 
@@ -113,7 +131,7 @@ REST API and UI on port 3000 that launches Chrome sessions with persisted cookie
 <sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/steel-browser/)</sub>
 
 <a name="open-terminal"></a>
-### #&#8288;7 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
+### #&#8288;8 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
 
 **REST-driven shell and file sandbox for AI agents, from Open WebUI.**
 
@@ -131,7 +149,7 @@ Container or pip package exposing a shell and file management over a REST API wi
 <sub>no GPU · Docker · port 8000 · [Repo](https://github.com/open-webui/open-terminal) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-terminal/)</sub>
 
 <a name="browser-use-web-ui"></a>
-### #&#8288;8 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (42) · Freshness: recent (65) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+### #&#8288;9 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (47) · Freshness: recent (65) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
 
 **Gradio UI for running browser-use agents with your own Chrome.**
 
