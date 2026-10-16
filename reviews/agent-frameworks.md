@@ -580,26 +580,8 @@ LLM runs prompts and interactive chats against OpenAI, Anthropic, Gemini and oth
 
 <sub>no GPU · Needs SQLite, Provider API keys or a local model server (e.g. Ollama, LM Studio) via plugins · Models: OpenAI, Anthropic Claude (plugin), Google Gemini (plugin), Ollama (plugin), OpenAI-compatible endpoints · [Repo](https://github.com/simonw/llm) · [▶️ Demo ↗](https://www.youtube.com/watch?v=QUXQNi6jQ30) · [📖 Docs ↗](https://llm.datasette.io/en/stable/) · [🌐 Site ↗](https://llm.datasette.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm/)</sub>
 
-<a name="langchain4j"></a>
-### #&#8288;33 [langchain4j](https://github.com/langchain4j/langchain4j) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
-
-**Java library for building LLM apps with unified provider and vector store APIs.**
-
-LangChain4j is a Java library that puts 20+ LLM providers and 30+ embedding stores behind one API, so providers can be swapped without rewriting code. It covers prompt templating, chat memory, function calling, RAG pipelines and agents, with integrations for Quarkus, Spring Boot, Helidon and Micronaut. It is independent of the Python LangChain project.
-
-- **+** Unified API across 20+ LLM providers and 30+ embedding stores
-- **+** Integrates with Quarkus, Spring Boot, Helidon and Micronaut
-- **+** Covers prompt templates, chat memory, tool calling, RAG and agents
-- **+** Separate examples repo with plain Java and framework samples
-- **−** JVM only; no Python or JavaScript support
-- **−** README says some features are still being worked on
-- **−** Quarkus, Helidon and Micronaut support is in separate dependencies
-- **−** Documentation chatbot is marked experimental
-
-<sub>no GPU · Needs JVM, LLM provider API · Models: OpenAI, Google Vertex AI, Pinecone, Milvus · [Repo](https://github.com/langchain4j/langchain4j) · [📖 Docs ↗](https://docs.langchain4j.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain4j/)</sub>
-
 <a name="smolagents"></a>
-### #&#8288;34 [smolagents](https://github.com/huggingface/smolagents) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;33 [smolagents](https://github.com/huggingface/smolagents) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Python agent library where the model writes its actions as code.**
 
@@ -617,7 +599,7 @@ smolagents is a Python library from Hugging Face for building agents. Its main c
 <sub>GPU optional · Needs E2B, Blaxel, Modal or Docker (for sandboxing), LLM provider or local model · Models: transformers, Ollama, HF Inference Providers, OpenAI-compatible APIs, Azure OpenAI · [Repo](https://github.com/huggingface/smolagents) · [📖 Docs ↗](https://huggingface.co/docs/smolagents/index) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/smolagents/)</sub>
 
 <a name="outlines"></a>
-### #&#8288;35 [outlines](https://github.com/dottxt-ai/outlines) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;34 [outlines](https://github.com/dottxt-ai/outlines) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Aug 2026</sub>
 
 **Python library that constrains LLM output to a type, schema or grammar.**
 
@@ -633,6 +615,24 @@ Outlines enforces structured output during generation. You pass a Python type, s
 - **−** Hardware requirements for local models are not documented in the README
 
 <sub>GPU optional · Needs transformers, pydantic · Models: transformers, llama.cpp, vLLM, Ollama, OpenAI · [Repo](https://github.com/dottxt-ai/outlines) · [📖 Docs ↗](https://dottxt-ai.github.io/outlines/latest/features/models/) · [🌐 Site ↗](https://dottxt.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/outlines/)</sub>
+
+<a name="langchain4j"></a>
+### #&#8288;35 [langchain4j](https://github.com/langchain4j/langchain4j) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+
+**Java library for building LLM apps with unified provider and vector store APIs.**
+
+LangChain4j is a Java library that puts 20+ LLM providers and 30+ embedding stores behind one API, so providers can be swapped without rewriting code. It covers prompt templating, chat memory, function calling, RAG pipelines and agents, with integrations for Quarkus, Spring Boot, Helidon and Micronaut. It is independent of the Python LangChain project.
+
+- **+** Unified API across 20+ LLM providers and 30+ embedding stores
+- **+** Integrates with Quarkus, Spring Boot, Helidon and Micronaut
+- **+** Covers prompt templates, chat memory, tool calling, RAG and agents
+- **+** Separate examples repo with plain Java and framework samples
+- **−** JVM only; no Python or JavaScript support
+- **−** README says some features are still being worked on
+- **−** Quarkus, Helidon and Micronaut support is in separate dependencies
+- **−** Documentation chatbot is marked experimental
+
+<sub>no GPU · Needs JVM, LLM provider API · Models: OpenAI, Google Vertex AI, Pinecone, Milvus · [Repo](https://github.com/langchain4j/langchain4j) · [📖 Docs ↗](https://docs.langchain4j.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain4j/)</sub>
 
 <a name="chatterbot"></a>
 ### #&#8288;36 [chatterbot](https://github.com/gunthercox/chatterbot) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · BSD-3-Clause · Aug 2026</sub>
@@ -797,7 +797,7 @@ OWL is a Python multi-agent framework built on CAMEL-AI that runs a society of a
 <sub>no GPU · Needs Python 3.10-3.12, CAMEL-AI, Playwright, Node.js (for MCP), LLM API key (e.g. OPENAI_API_KEY) · Models: OpenAI, Claude, Gemini, Qwen, Deepseek · [Repo](https://github.com/camel-ai/owl) · [📖 Docs ↗](https://docs.camel-ai.org/key_modules/models.html#supported-model-platforms-in-camel) · [🌐 Site ↗](https://www.camel-ai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/owl/)</sub>
 
 <a name="swarm"></a>
-### #&#8288;45 [swarm](https://github.com/openai/swarm) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (45) · Freshness: recent (66) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Apr 2026</sub>
+### #&#8288;45 [swarm](https://github.com/openai/swarm) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: known (45) · Freshness: recent (66) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Apr 2026</sub>
 
 **Educational Python library for multi-agent handoffs on Chat Completions.**
 
@@ -833,7 +833,7 @@ PandasAI adds a chat method to DataFrames. It sends questions to an LLM through 
 <sub>no GPU · Compose · Needs pandasai-litellm, LLM provider API key (e.g. OpenAI), Docker (optional, for sandbox via pandasai-docker) · Models: LiteLLM-supported providers, OpenAI gpt-4.1-mini (example) · [Repo](https://github.com/sinaptik-ai/pandas-ai) · [📖 Docs ↗](https://docs.pandas-ai.com/) · [🌐 Site ↗](https://pandas-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pandas-ai/)</sub>
 
 <a name="qwen-agent"></a>
-### #&#8288;47 [qwen-agent](https://github.com/qwenlm/qwen-agent) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (27) · Freshness: slowing (39) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;47 [qwen-agent](https://github.com/qwenlm/qwen-agent) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (27) · Freshness: slowing (38) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Mar 2026</sub>
 
 **Python framework for building tool-using LLM agents on Qwen models.**
 

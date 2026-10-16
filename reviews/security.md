@@ -41,7 +41,7 @@ Strix runs teams of LLM-driven agents against a local codebase, repo URL, web ap
 <sub>no GPU · Docker · Needs Docker, LLM API key, Caido, LiteLLM · Models: OpenAI, Anthropic, Google Vertex AI, DeepSeek, Moonshot · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/strix/)</sub>
 
 <a name="pentagi"></a>
-### 🥉 [pentagi](https://github.com/vxcontrol/pentagi) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Oct 2026</sub>
+### 🥉 [pentagi](https://github.com/vxcontrol/pentagi) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Oct 2026</sub>
 
 **Autonomous multi-agent penetration testing system with sandboxed security tools.**
 
@@ -77,7 +77,7 @@ iFixAi runs up to 60 inspections against a model or a deployed agent's HTTP endp
 <sub>no GPU · Needs Python 3.10+, LLM provider API keys (system under test and judge), uv (for skill install) · Models: OpenAI, Anthropic, Gemini, Azure, Bedrock · [Repo](https://github.com/ifixai-ai/ifixai) · [🌐 Site ↗](https://www.ifixai.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ifixai/)</sub>
 
 <a name="pentestgpt"></a>
-### #&#8288;5 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (14) · Freshness: active (90) · Maintenance: weak (17) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Jul 2026</sub>
+### #&#8288;5 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (14) · Freshness: active (89) · Maintenance: weak (17) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Jul 2026</sub>
 
 **Autonomous pentest agent that drives Claude Code or Codex against a target.**
 
