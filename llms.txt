@@ -1,12 +1,12 @@
 # Best of Open-Source AI
 
-> Best of Open-Source AI is a ranked list of 454 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. Updated 2026-10-16 (UTC); the page refreshes twice a day from GitHub data.
+> Best of Open-Source AI is a ranked list of 455 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. Updated 2026-10-16 (UTC); the page refreshes twice a day from GitHub data.
 
 Every entry is written from the project README and checked facts: tagline, summary, 2 to 4 strengths, 2 to 4 weaknesses, specs (GPU, RAM when stated, external dependencies, web port, Docker and compose files, license), demo, docs and website links, and a score out of 100 from public GitHub signals (the weights are in the README under "How we rank"). Specs say "unknown" when the README does not state them. Paid placements never affect the order.
 
 ## Pages
 
-- [Leaderboard](https://github.com/archestack/best-of-ai/blob/main/README.md): all 454 projects in 22 categories, ranked, one table per category
+- [Leaderboard](https://github.com/archestack/best-of-ai/blob/main/README.md): all 455 projects in 22 categories, ranked, one table per category
 - [Assistants reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/assistants.md): Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. 22 projects.
 - [Chat UIs reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/chat-ui.md): Web front-ends for local or API models, usually with user accounts, chat history and file upload. 16 projects.
 - [Desktop AI apps reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/desktop-apps.md): Apps you install on your own computer to chat with local or API models, often with document chat and agents built in. 11 projects.
@@ -14,7 +14,7 @@ Every entry is written from the project README and checked facts: tagline, summa
 - [Workflow automation with AI reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/automation.md): Workflow and integration platforms with AI steps or agent nodes, for wiring models into the rest of your tools. 3 projects.
 - [RAG and knowledge reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/rag-knowledge.md): Document Q&A, knowledge bases and enterprise search over your own files and data. 26 projects.
 - [Search reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/search.md): Private search engines and AI answer engines that keep queries on your host. 5 projects.
-- [Voice reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/voice.md): Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. 26 projects.
+- [Voice reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/voice.md): Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. 27 projects.
 - [Image and video reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/image-video.md): Generation UIs and pipelines for images and video, usually around diffusion models. 15 projects.
 - [Security reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/security.md): AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. 5 projects.
 - [Agent frameworks and SDKs reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/agent-frameworks.md): Libraries for building agents and LLM apps in code: tool calling, planning, multi-agent setups and browser control. 48 projects.
