@@ -1789,7 +1789,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 56
   - id: whisper-cpp
     repo: ggml-org/whisper.cpp
     name: whisper.cpp
@@ -2349,7 +2349,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 56
+    score: 55
   - id: bitnet
     repo: microsoft/bitnet
     name: bitnet
@@ -2449,7 +2449,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 46
+    score: 45
   - id: pageindex
     repo: vectifyai/pageindex
     name: pageindex
@@ -3228,7 +3228,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 67
+    score: 66
   - id: pytorch-lightning
     repo: lightning-ai/pytorch-lightning
     name: pytorch-lightning
@@ -5556,7 +5556,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 87
+    score: 86
   - id: llmfit
     repo: alexsjones/llmfit
     name: llmfit
@@ -5980,7 +5980,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 83
+    score: 82
   - id: invisible-dots
     repo: feder-cr/invisible_dots
     name: invisible_dots
@@ -6401,7 +6401,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 76
+    score: 75
   - id: cs249r-book
     repo: harvard-edge/cs249r_book
     name: cs249r_book
@@ -9065,7 +9065,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 63
+    score: 62
   - id: fingpt
     repo: ai4finance-foundation/fingpt
     name: fingpt
@@ -11101,7 +11101,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 49
+    score: 48
   - id: mcp-for-beginners
     repo: microsoft/mcp-for-beginners
     name: mcp-for-beginners
@@ -11275,7 +11275,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 55
+    score: 54
   - id: edict
     repo: cft0808/edict
     name: edict
@@ -12822,7 +12822,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 61
+    score: 60
   - id: autoresearchclaw
     repo: aiming-lab/autoresearchclaw
     name: autoresearchclaw
@@ -14640,6 +14640,54 @@ entries:
       is_template: false
       language: Python
     score: 43
+  - id: real-time-voice-cloning
+    repo: corentinj/real-time-voice-cloning
+    name: real-time-voice-cloning
+    status: listed
+    tagline: "SV2TTS voice cloning toolbox: speech from a few seconds of reference audio"
+    summary: "Implements the SV2TTS pipeline: a GE2E speaker encoder, a Tacotron synthesizer and a WaveRNN vocoder. It builds a voice representation from a short audio sample and generates speech from arbitrary text, through a GUI toolbox or a command-line demo. The README says the project is dated and points to newer options such as Chatterbox for higher quality."
+    categories:
+      - voice
+      - models
+    strengths:
+      - "Implements the full SV2TTS pipeline: encoder, synthesizer and vocoder in one repo"
+      - GUI toolbox and CLI entry points (demo_toolbox.py, demo_cli.py)
+      - Pretrained models download automatically, with a Hugging Face fallback
+      - Windows and Linux support, with CPU and CUDA extras via uv
+    weaknesses:
+      - README says audio quality is behind current SaaS and newer open-source models
+      - No tagged releases and no Docker setup
+      - Requires ffmpeg installed separately
+      - License is not identified (NOASSERTION)
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - ffmpeg
+        - uv
+        - Python
+      model_support:
+        - SV2TTS
+        - GE2E encoder
+        - Tacotron synthesizer
+        - WaveRNN vocoder
+      web_port: null
+    links:
+      demo: https://www.youtube.com/watch?v=-O_hYhToKoA
+      website: null
+      docs: https://github.com/CorentinJ/Real-Time-Voice-Cloning/wiki/Training#datasets
+    audience: Researchers and hobbyists experimenting with classic voice cloning
+    confidence: 0.8
+    facts:
+      stars: 60194
+      license: NOASSERTION
+      last_commit: 2026-03-09
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 60
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
@@ -14821,7 +14869,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 69
+    score: 68
   - id: khoj
     repo: khoj-ai/khoj
     name: Khoj
@@ -17692,7 +17740,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 83
+    score: 82
   - id: text-generation-webui
     repo: oobabooga/textgen
     name: Text Generation Web UI
@@ -18987,7 +19035,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 69
+    score: 68
   - id: chroma
     repo: chroma-core/chroma
     name: Chroma

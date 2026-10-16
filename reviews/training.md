@@ -238,26 +238,8 @@ nanochat covers tokenizer training, pretraining, SFT, RL, evaluation and a CLI c
 
 <sub>GPU required · Needs PyTorch, uv, wandb · Models: nanochat GPT (depth-scaled), bfloat16, float32, float16 · [Repo](https://github.com/karpathy/nanochat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nanochat/)</sub>
 
-<a name="colossalai"></a>
-### #&#8288;14 [colossalai](https://github.com/hpcaitech/colossalai) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (75) · Freshness: recent (73) · Maintenance: patchy (37) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Oct 2026</sub>
-
-**Distributed training library for large models with many parallelism strategies.**
-
-Colossal-AI is a PyTorch-based library for training and running large models across multiple GPUs. It provides data, pipeline, 1D/2D/2.5D/3D tensor and sequence parallelism, ZeRO, auto-parallelism and heterogeneous memory management. The repo also hosts example applications such as Colossal-LLaMA-2, ColossalChat (RLHF) and Stable Diffusion acceleration, plus an inference module.
-
-- **+** Covers data, pipeline, tensor (1D to 3D), sequence parallelism and ZeRO in one library
-- **+** Published benchmarks for 7B and 70B Llama-like models on H200 and B200 GPUs
-- **+** Includes worked applications: Colossal-LLaMA-2, ColossalChat RLHF, Stable Diffusion training
-- **+** Apache-2.0 license, with a Dockerfile and PyPI install
-- **−** Last tagged release is 2025-06-04, older than recent commits
-- **−** README is heavily promotional for the vendor's GPU cloud and model APIs
-- **−** Multi-GPU focus; RAM and minimum GPU requirements are not stated in the README
-- **−** Many example sections are dated, with news items ending in 2025
-
-<sub>GPU required · Docker · Needs PyTorch · Models: Llama, Open-Sora, Stable Diffusion, GPT-2, GPT-3 · [Repo](https://github.com/hpcaitech/colossalai) · [▶️ Demo ↗](https://colossalai.org/zh-Hans/docs/get_started/bonus/) · [📖 Docs ↗](https://www.colossalai.org/) · [🌐 Site ↗](https://www.colossalai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/colossalai/)</sub>
-
 <a name="weclone"></a>
-### #&#8288;15 [weclone](https://github.com/xming521/weclone) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (32) · Freshness: active (91) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;14 [weclone](https://github.com/xming521/weclone) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (32) · Freshness: active (91) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · AGPL-3.0 · Oct 2026</sub>
 
 **Fine-tunes a Qwen VL model on your Telegram chats to build a chat avatar.**
 
@@ -273,6 +255,24 @@ WeClone exports Telegram chat history, strips personal data with Microsoft Presi
 - **−** Requires CUDA 12.6+; Windows not rigorously tested (WSL suggested)
 
 <sub>GPU required · Needs CUDA 12.6+, LLaMA Factory, Microsoft Presidio, uv, AstrBot or LangBot (for chat bots) · Models: Qwen2.5-VL-7B-Instruct, LLaMA Factory supported models, LoRA, QLoRA · port 8005 · [Repo](https://github.com/xming521/weclone) · [📖 Docs ↗](https://docs.weclone.love/docs/introduce/what-is-weclone.html) · [🌐 Site ↗](https://www.weclone.love/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weclone/)</sub>
+
+<a name="colossalai"></a>
+### #&#8288;15 [colossalai](https://github.com/hpcaitech/colossalai) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (74) · Freshness: recent (73) · Maintenance: patchy (37) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Oct 2026</sub>
+
+**Distributed training library for large models with many parallelism strategies.**
+
+Colossal-AI is a PyTorch-based library for training and running large models across multiple GPUs. It provides data, pipeline, 1D/2D/2.5D/3D tensor and sequence parallelism, ZeRO, auto-parallelism and heterogeneous memory management. The repo also hosts example applications such as Colossal-LLaMA-2, ColossalChat (RLHF) and Stable Diffusion acceleration, plus an inference module.
+
+- **+** Covers data, pipeline, tensor (1D to 3D), sequence parallelism and ZeRO in one library
+- **+** Published benchmarks for 7B and 70B Llama-like models on H200 and B200 GPUs
+- **+** Includes worked applications: Colossal-LLaMA-2, ColossalChat RLHF, Stable Diffusion training
+- **+** Apache-2.0 license, with a Dockerfile and PyPI install
+- **−** Last tagged release is 2025-06-04, older than recent commits
+- **−** README is heavily promotional for the vendor's GPU cloud and model APIs
+- **−** Multi-GPU focus; RAM and minimum GPU requirements are not stated in the README
+- **−** Many example sections are dated, with news items ending in 2025
+
+<sub>GPU required · Docker · Needs PyTorch · Models: Llama, Open-Sora, Stable Diffusion, GPT-2, GPT-3 · [Repo](https://github.com/hpcaitech/colossalai) · [▶️ Demo ↗](https://colossalai.org/zh-Hans/docs/get_started/bonus/) · [📖 Docs ↗](https://www.colossalai.org/) · [🌐 Site ↗](https://www.colossalai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/colossalai/)</sub>
 
 <a name="ml-agents"></a>
 ### #&#8288;16 [ml-agents](https://github.com/unity-technologies/ml-agents) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (42) · Freshness: active (81) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Oct 2026</sub>
