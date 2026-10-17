@@ -203,7 +203,7 @@ A collection of 42 runnable Jupyter notebooks, each implementing one RAG techniq
 <sub>Needs Jupyter, Google Colab (optional) · [Repo](https://github.com/nirdiamant/rag_techniques) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rag-techniques/)</sub>
 
 <a name="claude-cookbooks"></a>
-### #&#8288;12 [claude-cookbooks](https://github.com/anthropics/claude-cookbooks) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · MIT · Oct 2026</sub>
+### #&#8288;12 [claude-cookbooks](https://github.com/anthropics/claude-cookbooks) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 54k · MIT · Oct 2026</sub>
 
 **Jupyter notebooks of copy-able Claude API recipes in Python.**
 
