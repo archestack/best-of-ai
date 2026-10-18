@@ -166,26 +166,8 @@ ACE-Step 1.5 generates full songs from text prompts and lyrics using a Qwen3-bas
 
 <sub>GPU optional · Docker + Compose · Needs uv, Python 3.11-3.12, Gradio · Models: ACE-Step DiT 2B (base, sft, turbo), ACE-Step XL DiT 4B (base, sft, turbo), acestep-5Hz-lm 0.6B/1.7B/4B (Qwen3-based), LoRA adapters · port 7860 · [Repo](https://github.com/ace-step/ace-step-1.5) · [▶️ Demo ↗](https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5) · [📖 Docs ↗](https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md) · [🌐 Site ↗](https://ace-step.github.io/ace-step-v1.5.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ace-step-1-5/)</sub>
 
-<a name="open-clip"></a>
-### #&#8288;10 [open_clip](https://github.com/mlfoundations/open_clip) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (17) · Freshness: active (96) · Maintenance: fair (52) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · custom license · Sep 2026</sub>
-
-**PyTorch library for training and running CLIP-style image-text models.**
-
-OpenCLIP is an open implementation of OpenAI's CLIP. It loads many pretrained image-text models (LAION-2B, DataComp-1B, DFN, SigLIP, SigLIP2, PE-Core) and trains new ones with DDP or FSDP2. The main branch also adds NaFlex variable-resolution towers, CoCa, MaMMUT and CLAP audio-text training, with breaking changes from the 3.x releases.
-
-- **+** Large zoo of pretrained checkpoints with ImageNet zero-shot results, up to 85.4% in the README table
-- **+** Loads OpenAI, SigLIP, SigLIP2, DFN and PE-Core weights through one API
-- **+** Training supports DDP, FSDP2, torch.compile strategies and SigLIP loss chunking
-- **+** Model cards for the checkpoints are on the Hugging Face Hub
-- **−** Main branch breaks the training API; older scripts need the v3 branch or a 3.x release
-- **−** Horovod, torchscript and trace support were removed on main
-- **−** Requires torch>=2.6
-- **−** Many new model families on main are labelled experimental
-
-<sub>GPU optional · Needs PyTorch >=2.6, timm, Hugging Face Hub · Models: CLIP, SigLIP, SigLIP2, CoCa, MaMMUT · [Repo](https://github.com/mlfoundations/open_clip) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-clip/)</sub>
-
 <a name="kronos"></a>
-### #&#8288;11 [kronos](https://github.com/shiyu-coder/kronos) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (88) · Freshness: recent (64) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Apr 2026</sub>
+### #&#8288;10 [kronos](https://github.com/shiyu-coder/kronos) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (88) · Freshness: recent (64) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Apr 2026</sub>
 
 **Pretrained decoder-only models that forecast financial candlestick (K-line) series.**
 
@@ -202,8 +184,26 @@ Kronos is a family of decoder-only Transformers pretrained on OHLCV candlestick 
 
 <sub>GPU optional · Needs PyTorch, Hugging Face Hub, pyqlib (fine-tuning only), Comet.ml (optional) · Models: Kronos-mini, Kronos-small, Kronos-base, Hugging Face · [Repo](https://github.com/shiyu-coder/kronos) · [▶️ Demo ↗](https://shiyu-coder.github.io/Kronos-demo/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kronos/)</sub>
 
+<a name="open-clip"></a>
+### #&#8288;11 [open_clip](https://github.com/mlfoundations/open_clip) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (17) · Freshness: active (96) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · custom license · Sep 2026</sub>
+
+**PyTorch library for training and running CLIP-style image-text models.**
+
+OpenCLIP is an open implementation of OpenAI's CLIP. It loads many pretrained image-text models (LAION-2B, DataComp-1B, DFN, SigLIP, SigLIP2, PE-Core) and trains new ones with DDP or FSDP2. The main branch also adds NaFlex variable-resolution towers, CoCa, MaMMUT and CLAP audio-text training, with breaking changes from the 3.x releases.
+
+- **+** Large zoo of pretrained checkpoints with ImageNet zero-shot results, up to 85.4% in the README table
+- **+** Loads OpenAI, SigLIP, SigLIP2, DFN and PE-Core weights through one API
+- **+** Training supports DDP, FSDP2, torch.compile strategies and SigLIP loss chunking
+- **+** Model cards for the checkpoints are on the Hugging Face Hub
+- **−** Main branch breaks the training API; older scripts need the v3 branch or a 3.x release
+- **−** Horovod, torchscript and trace support were removed on main
+- **−** Requires torch>=2.6
+- **−** Many new model families on main are labelled experimental
+
+<sub>GPU optional · Needs PyTorch >=2.6, timm, Hugging Face Hub · Models: CLIP, SigLIP, SigLIP2, CoCa, MaMMUT · [Repo](https://github.com/mlfoundations/open_clip) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-clip/)</sub>
+
 <a name="lingbot-map"></a>
-### #&#8288;12 [lingbot-map](https://github.com/robbyant/lingbot-map) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [lingbot-map](https://github.com/robbyant/lingbot-map) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Oct 2026</sub>
 
 **Feed-forward streaming 3D reconstruction and camera pose model for video.**
 
@@ -329,7 +329,7 @@ Spleeter is Deezer's Python library and CLI for splitting music into stems using
 <sub>GPU optional · Docker · Needs ffmpeg, libsndfile, TensorFlow · Models: spleeter:2stems, spleeter:4stems, spleeter:5stems · [Repo](https://github.com/deezer/spleeter) · [▶️ Demo ↗](https://colab.research.google.com/github/deezer/spleeter/blob/master/spleeter.ipynb) · [📖 Docs ↗](https://github.com/deezer/spleeter/wiki/1.-Installation) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spleeter/)</sub>
 
 <a name="qwen"></a>
-### #&#8288;19 [qwen](https://github.com/qwenlm/qwen) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (47) · Freshness: recent (50) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;19 [qwen](https://github.com/qwenlm/qwen) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (47) · Freshness: recent (50) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Mar 2026</sub>
 
 **First-generation Qwen open-weight LLMs, 1.8B to 72B, with inference and finetuning code.**
 

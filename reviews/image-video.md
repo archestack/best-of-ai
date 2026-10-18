@@ -5,7 +5,7 @@ Generation UIs and pipelines for images and video, usually around diffusion mode
 <sub>🌐 Also on the web: [Image and video on archestack.com](https://archestack.com/best-of-ai/image-video/), each project on its own page.</sub>
 
 <a name="moneyprinterturbo"></a>
-### 🥇 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 132k · MIT · Oct 2026</sub>
+### 🥇 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 133k · MIT · Oct 2026</sub>
 
 **Turns a topic into a short video with script, footage, voiceover and subtitles.**
 
@@ -41,7 +41,7 @@ Builds generation pipelines as a visual node graph and runs them locally for ima
 <sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/comfy-org/comfyui) · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://www.comfy.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui/)</sub>
 
 <a name="toonflow-app"></a>
-### 🥉 [toonflow-app](https://github.com/hbai-ltd/toonflow-app) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
+### 🥉 [toonflow-app](https://github.com/hbai-ltd/toonflow-app) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
 
 **Infinite-canvas tool for AI short drama and comic video production.**
 
@@ -95,7 +95,7 @@ A JavaScript app, available as a web build and an Electron desktop app, that fro
 <sub>RAM ≥ 16 GB · GPU optional · Docker + Compose · Needs MuAPI account/API key, Wan2GP (optional, for local video), stable-diffusion.cpp (bundled), Node.js (for source builds) · Models: Flux, Nano Banana, Kling, Sora, Veo · [Repo](https://github.com/anil-matcha/open-generative-ai) · [▶️ Demo ↗](https://muapi.ai/open-generative-ai?utm_source=github&utm_medium=readme&utm_campaign=open-generative-ai) · [🌐 Site ↗](https://muapi.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-generative-ai/)</sub>
 
 <a name="ai-toolkit"></a>
-### #&#8288;6 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (52) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
+### #&#8288;6 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (53) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
 
 **LoRA and LoKr training suite for image, video and audio diffusion models.**
 
@@ -166,26 +166,8 @@ Turns a topic into a short video: an LLM (GPT, Qwen, DeepSeek, Ollama) writes th
 
 <sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ath-maas/pixelle-video) · [📖 Docs ↗](https://aidc-ai.github.io/Pixelle-Video/zh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pixelle-video/)</sub>
 
-<a name="vimax"></a>
-### #&#8288;10 [vimax](https://github.com/hkuds/vimax) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: patchy (36) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Sep 2026</sub>
-
-**Agent pipeline that turns ideas, scripts or novels into multi-shot videos.**
-
-ViMax chains LLM, image and video generation APIs to turn a short idea, a screenplay or a novel into a multi-scene video. It handles scriptwriting, character references, storyboards, shot design and final assembly. It ships a TUI, a local Web UI with named projects and render previews, and direct Python entrypoints (Idea2Video, Script2Video, Novel2Video, AutoCameo).
-
-- **+** Covers script, storyboard, shot design and assembly in one pipeline, not just clip generation
-- **+** Separate entrypoints for idea, screenplay and novel input, plus reference-photo cameo
-- **+** Generates 2 keyframe candidates and picks one with a vision chat model; configurable
-- **+** Local Web UI and TUI with session resume; MIT licensed
-- **−** Needs external LLM, image and video API keys; no local model path documented
-- **−** API cost rises with image selection, which generates 2 candidates per keyframe by default
-- **−** No Docker or compose files; setup is uv sync plus Node.js 18+ for the Web UI
-- **−** README lists Linux and Windows only; hardware requirements and output length limits are unknown
-
-<sub>no GPU · Needs uv, Python 3.12, Node.js 18+ (Web UI), LLM API key, image generation API key, video generation API key · Models: OpenAI-compatible chat APIs, OpenRouter, Google Gemini / Nano Banana, Google Veo, Seedance 2.0 Fast · port 4173 · [Repo](https://github.com/hkuds/vimax) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vimax/)</sub>
-
 <a name="kohya-ss"></a>
-### #&#8288;11 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (18) · Freshness: active (97) · Maintenance: weak (2) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;10 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (18) · Freshness: active (97) · Maintenance: weak (2) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
 
 **Gradio GUI and CLI for Kohya diffusion training scripts.**
 
@@ -201,6 +183,24 @@ Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for Lo
 - **−** Last commit July 2026; sd-scripts submodule pinned to v0.11.1
 
 <sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kohya-ss/)</sub>
+
+<a name="vimax"></a>
+### #&#8288;11 [vimax](https://github.com/hkuds/vimax) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: weak (16) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Sep 2026</sub>
+
+**Agent pipeline that turns ideas, scripts or novels into multi-shot videos.**
+
+ViMax chains LLM, image and video generation APIs to turn a short idea, a screenplay or a novel into a multi-scene video. It handles scriptwriting, character references, storyboards, shot design and final assembly. It ships a TUI, a local Web UI with named projects and render previews, and direct Python entrypoints (Idea2Video, Script2Video, Novel2Video, AutoCameo).
+
+- **+** Covers script, storyboard, shot design and assembly in one pipeline, not just clip generation
+- **+** Separate entrypoints for idea, screenplay and novel input, plus reference-photo cameo
+- **+** Generates 2 keyframe candidates and picks one with a vision chat model; configurable
+- **+** Local Web UI and TUI with session resume; MIT licensed
+- **−** Needs external LLM, image and video API keys; no local model path documented
+- **−** API cost rises with image selection, which generates 2 candidates per keyframe by default
+- **−** No Docker or compose files; setup is uv sync plus Node.js 18+ for the Web UI
+- **−** README lists Linux and Windows only; hardware requirements and output length limits are unknown
+
+<sub>no GPU · Needs uv, Python 3.12, Node.js 18+ (Web UI), LLM API key, image generation API key, video generation API key · Models: OpenAI-compatible chat APIs, OpenRouter, Google Gemini / Nano Banana, Google Veo, Seedance 2.0 Fast · port 4173 · [Repo](https://github.com/hkuds/vimax) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vimax/)</sub>
 
 <a name="hivisionidphotos"></a>
 ### #&#8288;12 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (43) · Freshness: recent (66) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
