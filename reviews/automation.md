@@ -40,7 +40,7 @@ Activepieces is a no-code workflow builder with loops, branches, auto retries, H
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/activepieces/)</sub>
 
 <a name="banana-slides"></a>
-### 🥉 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (13) · Freshness: active (94) · Maintenance: healthy (99) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Oct 2026</sub>
+### 🥉 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (13) · Freshness: active (94) · Maintenance: healthy (98) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Oct 2026</sub>
 
 **AI slide deck generator that exports PPTX, PDF and narrated video.**
 
