@@ -1,11 +1,11 @@
 <p align="center"><img src="https://github.com/archestack.png" width="96" alt="Archestack" /></p>
 <h1 align="center">Best of Open-Source AI</h1>
 <h3 align="center">Open-source AI, ranked. 🏆</h3>
-<p align="center">Apps, agents, models and the tools around them: what each one does, what it needs, where it breaks. No fluff, and paid never moves a rank.</p>
+<p align="center">AI apps, agents and models you run, and the parts to build with. Paid never moves a rank.</p>
 <p align="center">
   <img alt="projects" src="https://img.shields.io/badge/454_projects-ff6b6b?style=for-the-badge" />
   <img alt="stars" src="https://img.shields.io/badge/16.2M_stars_combined-ffd166?style=for-the-badge" />
-  <img alt="categories" src="https://img.shields.io/badge/22_categories-5ac4bf?style=for-the-badge" />
+  <img alt="categories" src="https://img.shields.io/badge/20_categories-5ac4bf?style=for-the-badge" />
   <img alt="updated" src="https://img.shields.io/badge/updated-2026--10--19-8ac926?style=for-the-badge" />
 </p>
 
@@ -23,7 +23,7 @@
 
 ## 🔥 Top 10 right now
 
-<sub>454 projects ranked in 22 categories · data from 2026-10-19 · re-ranked twice a day</sub>
+<sub>454 projects ranked in 20 categories · data from 2026-10-19 · re-ranked twice a day</sub>
 
 <sub>**How to read it:** rank 🥇🥈🥉 then #&#8288;4, #&#8288;5… (equal scores: more stars first) · score out of 100 sets the order: hover it to see what it is made of, or read [how we rank](#-how-we-rank) · click a project name for its review · ↗ opens another site (Cmd/Ctrl-click for a new tab)</sub>
 
@@ -33,9 +33,9 @@
 | 🥈 | **[pytorch](reviews/ml-frameworks.md#pytorch "Review: strengths, weaknesses, specs")**<br><sub>Python tensor library with GPU support and tape-based autograd for deep learning</sub><br><sub>🐳 Docker · custom license · GPU optional · [📖 Docs ↗](https://pytorch.org/docs/stable/) · [🌐 Site ↗](https://pytorch.org)</sub> | [94](#-how-we-rank "Score 94/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 🔬 [ML frameworks and libraries](#-ml-frameworks-and-libraries) | 105k |
 | 🥉 | **[ppt-master](reviews/agent-frameworks.md#ppt-master "Review: strengths, weaknesses, specs")**<br><sub>Agent skill that turns documents into natively editable PowerPoint decks</sub><br><sub>MIT · [▶️ Demo ↗](https://hugohe3.github.io/ppt-master-examples/) · [📖 Docs ↗](https://github.com/hugohe3/ppt-master/blob/main/docs/getting-started.md)</sub> | [94](#-how-we-rank "Score 94/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 🧰 [Agent frameworks and SDKs](#-agent-frameworks-and-sdks) | 64k |
 | #&#8288;4 | **[ultralytics](reviews/ml-frameworks.md#ultralytics "Review: strengths, weaknesses, specs")**<br><sub>Python library and CLI for training and running YOLO vision models</sub><br><sub>🐳 Docker · AGPL-3.0 · GPU optional · [📖 Docs ↗](https://docs.ultralytics.com) · [🌐 Site ↗](https://www.ultralytics.com)</sub> | [92](#-how-we-rank "Score 92/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 🔬 [ML frameworks and libraries](#-ml-frameworks-and-libraries) | 63k |
-| #&#8288;5 | **[pytorch-image-models](reviews/ml-frameworks.md#pytorch-image-models "Review: strengths, weaknesses, specs")**<br><sub>PyTorch library of image models, pretrained weights and reference training scripts</sub><br><sub>Apache-2.0 · GPU optional · [📖 Docs ↗](https://huggingface.co/docs/timm)</sub> | [90](#-how-we-rank "Score 90/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 🔬 [ML frameworks and libraries](#-ml-frameworks-and-libraries) | 37k |
-| #&#8288;6 | **[browser-use](reviews/agent-frameworks.md#browser-use "Review: strengths, weaknesses, specs")**<br><sub>Python library that lets an LLM agent control a web browser</sub><br><sub>🐳 Docker · MIT · GPU optional · [▶️ Demo ↗](https://browser-use.com/showcase) · [📖 Docs ↗](https://docs.browser-use.com) · [🌐 Site ↗](https://browser-use.com)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 🧰 [Agent frameworks and SDKs](#-agent-frameworks-and-sdks) | 118k |
-| #&#8288;7 | **[LiteLLM](reviews/gateways.md#litellm "Review: strengths, weaknesses, specs")**<br><sub>OpenAI-format gateway and Python SDK for calling 100+ LLM providers</sub><br><sub>🐳 Docker · custom license · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: very easy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 🔀 [Gateways](#-gateways) | 62k |
+| #&#8288;5 | **[LiteLLM](reviews/gateways.md#litellm "Review: strengths, weaknesses, specs")**<br><sub>OpenAI-format gateway and Python SDK for calling 100+ LLM providers</sub><br><sub>🐳 Docker · custom license · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub> | [90](#-how-we-rank "Score 90/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: very easy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 🔀 [Gateways and observability](#-gateways-and-observability) | 62k |
+| #&#8288;6 | **[pytorch-image-models](reviews/ml-frameworks.md#pytorch-image-models "Review: strengths, weaknesses, specs")**<br><sub>PyTorch library of image models, pretrained weights and reference training scripts</sub><br><sub>Apache-2.0 · GPU optional · [📖 Docs ↗](https://huggingface.co/docs/timm)</sub> | [90](#-how-we-rank "Score 90/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 🔬 [ML frameworks and libraries](#-ml-frameworks-and-libraries) | 37k |
+| #&#8288;7 | **[browser-use](reviews/agent-frameworks.md#browser-use "Review: strengths, weaknesses, specs")**<br><sub>Python library that lets an LLM agent control a web browser</sub><br><sub>🐳 Docker · MIT · GPU optional · [▶️ Demo ↗](https://browser-use.com/showcase) · [📖 Docs ↗](https://docs.browser-use.com) · [🌐 Site ↗](https://browser-use.com)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 🧰 [Agent frameworks and SDKs](#-agent-frameworks-and-sdks) | 118k |
 | #&#8288;8 | **[supervision](reviews/ml-frameworks.md#supervision "Review: strengths, weaknesses, specs")**<br><sub>Python toolkit for loading, annotating and counting computer vision detections</sub><br><sub>MIT · GPU optional · [▶️ Demo ↗](https://huggingface.co/spaces/Roboflow/Annotators) · [📖 Docs ↗](https://supervision.roboflow.com) · [🌐 Site ↗](https://supervision.roboflow.com)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 🔬 [ML frameworks and libraries](#-ml-frameworks-and-libraries) | 51k |
 | #&#8288;9 | **[langchain](reviews/agent-frameworks.md#langchain "Review: strengths, weaknesses, specs")**<br><sub>Python framework for building LLM agents and apps from interoperable components</sub><br><sub>MIT · [📖 Docs ↗](https://docs.langchain.com/oss/python/langchain/overview) · [🌐 Site ↗](https://www.langchain.com/langsmith)</sub> | [88](#-how-we-rank "Score 88/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 🧰 [Agent frameworks and SDKs](#-agent-frameworks-and-sdks) | 148k |
 | #&#8288;10 | **[tradingagents](reviews/agent-frameworks.md#tradingagents "Review: strengths, weaknesses, specs")**<br><sub>LangGraph multi-agent framework simulating a trading firm to analyze tickers</sub><br><sub>🐳 Docker · Apache-2.0 · GPU optional · [▶️ Demo ↗](https://www.youtube.com/watch?v=90gr5lwjIho)</sub> | [88](#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 🧰 [Agent frameworks and SDKs](#-agent-frameworks-and-sdks) | 112k |
@@ -60,13 +60,13 @@
 - 🖥️ *An AI app on my laptop, offline* → [Desktop AI apps](#%EF%B8%8F-desktop-ai-apps)
 - 🧠 *Run models on my own GPU* → [Model serving](#-model-serving)
 - 🤖 *An assistant in my Telegram or WhatsApp* → [Assistants](#-assistants)
-- 📚 *Chat with my own documents* → [RAG and knowledge](#-rag-and-knowledge)
+- 📚 *Chat with my own documents* → [RAG, knowledge and search](#-rag-knowledge-and-search)
 - 🧰 *Build an agent in code* → [Agent frameworks and SDKs](#-agent-frameworks-and-sdks)
 - 🔁 *Wire AI into the rest of my tools* → [Workflow automation with AI](#-workflow-automation-with-ai)
-- 🔀 *One API key for every provider* → [Gateways](#-gateways)
+- 🔀 *One API key for every provider* → [Gateways and observability](#-gateways-and-observability)
 - 🏋️ *Fine-tune a model on my data* → [Training and fine-tuning](#%EF%B8%8F-training-and-fine-tuning)
 - 🕸️ *Turn websites and PDFs into clean text* → [Data and scraping for AI](#%EF%B8%8F-data-and-scraping-for-ai)
-- 📈 *See what my LLM app is actually doing* → [Observability](#-observability)
+- 📈 *See what my LLM app is actually doing* → [Gateways and observability](#-gateways-and-observability)
 - 🛡️ *Let agents run code without wrecking my server* → [Sandboxes](#%EF%B8%8F-sandboxes)
 - 📖 *Learn to build with AI* → [Learning and cookbooks](#-learning-and-cookbooks)
 
@@ -78,15 +78,15 @@
 |---|---|
 | ChatGPT | [suna](reviews/agent-platforms.md#suna) ✋ · [LobeHub](reviews/chat-ui.md#lobehub) · [Open WebUI](reviews/chat-ui.md#open-webui) |
 | Manus | [agenticseek](reviews/assistants.md#agenticseek) ✋ · [OpenClaw](reviews/assistants.md#openclaw) · [nanobot](reviews/assistants.md#nanobot) |
-| Perplexity | [Morphic](reviews/search.md#morphic) · [GPT Researcher](reviews/search.md#gpt-researcher) · [Local Deep Research](reviews/search.md#local-deep-research) |
+| Perplexity | [Morphic](reviews/rag-knowledge.md#morphic) · [GPT Researcher](reviews/rag-knowledge.md#gpt-researcher) · [Local Deep Research](reviews/rag-knowledge.md#local-deep-research) |
 | LM Studio | [LocalAI](reviews/model-serving.md#localai) · [llama.cpp](reviews/model-serving.md#llama-cpp) · [Ollama](reviews/model-serving.md#ollama) |
-| Glean | [deeptutor](reviews/rag-knowledge.md#deeptutor) · [LightRAG](reviews/rag-knowledge.md#lightrag) · [Morphic](reviews/search.md#morphic) |
+| Glean | [deeptutor](reviews/rag-knowledge.md#deeptutor) · [LightRAG](reviews/rag-knowledge.md#lightrag) · [RAGFlow](reviews/rag-knowledge.md#ragflow) |
 | Copilot Studio | [Langflow](reviews/agent-platforms.md#langflow) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [deer-flow](reviews/agent-platforms.md#deer-flow) |
 | NotebookLM | [Open Notebook](reviews/rag-knowledge.md#open-notebook) ✋ · [SurfSense](reviews/rag-knowledge.md#surfsense) ✋ · [deeptutor](reviews/rag-knowledge.md#deeptutor) |
 | Zapier | [n8n](reviews/automation.md#n8n) · [Activepieces](reviews/automation.md#activepieces) · [banana-slides](reviews/automation.md#banana-slides) |
 | OpenAI API | [LocalAI](reviews/model-serving.md#localai) · [llama.cpp](reviews/model-serving.md#llama-cpp) · [Ollama](reviews/model-serving.md#ollama) |
 | OpenRouter | [LiteLLM](reviews/gateways.md#litellm) · [OmniRoute](reviews/gateways.md#omniroute) · [new-api](reviews/gateways.md#new-api) |
-| LangSmith | [Langfuse](reviews/observability.md#langfuse) · [MLflow](reviews/observability.md#mlflow) · [promptfoo](reviews/observability.md#promptfoo) |
+| LangSmith | [Langfuse](reviews/gateways.md#langfuse) · [MLflow](reviews/gateways.md#mlflow) · [promptfoo](reviews/gateways.md#promptfoo) |
 | Pinecone | [Milvus](reviews/vector-db.md#milvus) · [Meilisearch](reviews/vector-db.md#meilisearch) · [Qdrant](reviews/vector-db.md#qdrant) |
 | Midjourney | [MoneyPrinterTurbo](reviews/image-video.md#moneyprinterturbo) · [ComfyUI](reviews/image-video.md#comfyui) · [toonflow-app](reviews/image-video.md#toonflow-app) |
 | ElevenLabs | [Voicebox](reviews/voice.md#voicebox) ✋ · [voice-pro](reviews/voice.md#voice-pro) ✋ · [voicestudio](reviews/voice.md#voicestudio) |
@@ -115,8 +115,7 @@
 - 🖥️ [Desktop AI apps](#%EF%B8%8F-desktop-ai-apps) · 11
 - 🧩 [Agent platforms](#-agent-platforms) · 28
 - 🔁 [Workflow automation with AI](#-workflow-automation-with-ai) · 3
-- 📚 [RAG and knowledge](#-rag-and-knowledge) · 25
-- 🔎 [Search](#-search) · 5
+- 📚 [RAG, knowledge and search](#-rag-knowledge-and-search) · 30
 - 🎙️ [Voice](#%EF%B8%8F-voice) · 27
 - 🎨 [Image and video](#-image-and-video) · 15
 - 🔐 [Security](#-security) · 5
@@ -129,8 +128,7 @@
 - 🧬 [Open models](#-open-models) · 23
 - 🏋️ [Training and fine-tuning](#%EF%B8%8F-training-and-fine-tuning) · 19
 - 🔬 [ML frameworks and libraries](#-ml-frameworks-and-libraries) · 56
-- 🔀 [Gateways](#-gateways) · 15
-- 📈 [Observability](#-observability) · 16
+- 🔀 [Gateways and observability](#-gateways-and-observability) · 31
 - 🧮 [Vector databases](#-vector-databases) · 12
 - 🛡️ [Sandboxes](#%EF%B8%8F-sandboxes) · 9
 - 🕸️ [Data and scraping for AI](#%EF%B8%8F-data-and-scraping-for-ai) · 16
@@ -287,56 +285,32 @@ Workflow and integration platforms with AI steps or agent nodes, for wiring mode
 
 <p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
-## 📚 RAG and knowledge
+## 📚 RAG, knowledge and search
 
-Document Q&A, knowledge bases and enterprise search over your own files and data. <sub>25 ranked · [📝 all reviews](reviews/rag-knowledge.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/rag-knowledge/)</sub>
+Document Q&A, knowledge bases and private search over your own files and the web, with queries kept on your host. <sub>30 ranked · [📝 all reviews](reviews/rag-knowledge.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/rag-knowledge/)</sub>
 
 **deeptutor leads with 81**, ahead of LightRAG (76) and RAGFlow (74).
 
 | Rank | Project | Score | Stars |
 |:-:|---|:-:|--:|
-| 🥇 | **[deeptutor](reviews/rag-knowledge.md#deeptutor "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted AI tutor with knowledge bases, guided learning, books and quizzes</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://deeptutor.info) · [🌐 Site ↗](https://deeptutor.info)</sub> | [81](#-how-we-rank "Score 81/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 42k |
-| 🥈 | **[LightRAG](reviews/rag-knowledge.md#lightrag "Review: strengths, weaknesses, specs")**<br><sub>Graph-based RAG framework with a REST API server and web UI</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://github.com/HKUDS/LightRAG/blob/main/docs/LightRAG-API-Server.md)</sub> | [76](#-how-we-rank "Score 76/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 40k |
+| 🥇 | **[deeptutor](reviews/rag-knowledge.md#deeptutor "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted AI tutor with knowledge bases, guided learning, books and quizzes</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://deeptutor.info) · [🌐 Site ↗](https://deeptutor.info)</sub> | [81](#-how-we-rank "Score 81/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 42k |
+| 🥈 | **[LightRAG](reviews/rag-knowledge.md#lightrag "Review: strengths, weaknesses, specs")**<br><sub>Graph-based RAG framework with a REST API server and web UI</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://github.com/HKUDS/LightRAG/blob/main/docs/LightRAG-API-Server.md)</sub> | [76](#-how-we-rank "Score 76/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 40k |
 | 🥉 | **[RAGFlow](reviews/rag-knowledge.md#ragflow "Review: strengths, weaknesses, specs")**<br><sub>RAG engine with deep document parsing, template chunking and agentic retrieval</sub><br><sub>🐳 Docker · Apache-2.0 · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io)</sub> | [74](#-how-we-rank "Score 74/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 92k |
-| #&#8288;4 | **[Open Notebook](reviews/rag-knowledge.md#open-notebook "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted NotebookLM alternative with podcasts and 20+ model providers</sub><br><sub>🐳 Docker · MIT · [🌐 Site ↗](https://www.open-notebook.ai)</sub> | [73](#-how-we-rank "Score 73/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: fair (68) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 40k |
-| #&#8288;5 | **[MaxKB](reviews/rag-knowledge.md#maxkb "Review: strengths, weaknesses, specs")**<br><sub>Enterprise knowledge-base agent platform with RAG, workflows and MCP tools</sub><br><sub>🐳 Docker · GPL-3.0</sub> | [72](#-how-we-rank "Score 72/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 23k |
-| #&#8288;6 | **[WeKnora](reviews/rag-knowledge.md#weknora "Review: strengths, weaknesses, specs")**<br><sub>Knowledge base framework with RAG Q&A, tool-using agents and auto-generated wikis</sub><br><sub>🐳 Docker · custom license · GPU optional · [📖 Docs ↗](https://weknora.weixin.qq.com/docs/) · [🌐 Site ↗](https://weknora.weixin.qq.com)</sub> | [69](#-how-we-rank "Score 69/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 35k |
-| #&#8288;7 | **[SurfSense](reviews/rag-knowledge.md#surfsense "Review: strengths, weaknesses, specs")**<br><sub>Desktop agent that researches and edits your local documents with cited answers</sub><br><sub>🐳 Docker · Apache-2.0 · GPU optional · [🌐 Site ↗](https://www.surfsense.com/)</sub> | [68](#-how-we-rank "Score 68/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 17k |
-| #&#8288;8 | **[quivr](reviews/rag-knowledge.md#quivr "Review: strengths, weaknesses, specs")**<br><sub>Go engine that ingests content streams for hybrid search and keyword alerts</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://docs.quivr.thevibecompany.co/quickstart)</sub> | [67](#-how-we-rank "Score 67/100. Adoption: popular (77) · Freshness: recent (70) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 40k |
-| #&#8288;9 | **[pageindex](reviews/rag-knowledge.md#pageindex "Review: strengths, weaknesses, specs")**<br><sub>Vectorless RAG that builds a tree index of a PDF and lets an LLM search it</sub><br><sub>MIT · [▶️ Demo ↗](https://app.pageindex.ai) · [📖 Docs ↗](https://docs.pageindex.ai) · [🌐 Site ↗](https://pageindex.ai/developer)</sub> | [66](#-how-we-rank "Score 66/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 39k |
-| #&#8288;10 | **[PrivateGPT](reviews/rag-knowledge.md#private-gpt "Review: strengths, weaknesses, specs")**<br><sub>Anthropic-style API layer for private RAG on local inference servers</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://docs.privategpt.dev/)</sub> | [63](#-how-we-rank "Score 63/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 58k |
+| #&#8288;4 | **[Morphic](reviews/rag-knowledge.md#morphic "Review: strengths, weaknesses, specs")**<br><sub>AI answer engine with cited search results and generative UI components</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md)</sub> | [74](#-how-we-rank "Score 74/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 9.2k |
+| #&#8288;5 | **[Open Notebook](reviews/rag-knowledge.md#open-notebook "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted NotebookLM alternative with podcasts and 20+ model providers</sub><br><sub>🐳 Docker · MIT · [🌐 Site ↗](https://www.open-notebook.ai)</sub> | [73](#-how-we-rank "Score 73/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (68) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 40k |
+| #&#8288;6 | **[MaxKB](reviews/rag-knowledge.md#maxkb "Review: strengths, weaknesses, specs")**<br><sub>Enterprise knowledge-base agent platform with RAG, workflows and MCP tools</sub><br><sub>🐳 Docker · GPL-3.0</sub> | [72](#-how-we-rank "Score 72/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 23k |
+| #&#8288;7 | **[WeKnora](reviews/rag-knowledge.md#weknora "Review: strengths, weaknesses, specs")**<br><sub>Knowledge base framework with RAG Q&A, tool-using agents and auto-generated wikis</sub><br><sub>🐳 Docker · custom license · GPU optional · [📖 Docs ↗](https://weknora.weixin.qq.com/docs/) · [🌐 Site ↗](https://weknora.weixin.qq.com)</sub> | [69](#-how-we-rank "Score 69/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 35k |
+| #&#8288;8 | **[SurfSense](reviews/rag-knowledge.md#surfsense "Review: strengths, weaknesses, specs")**<br><sub>Desktop agent that researches and edits your local documents with cited answers</sub><br><sub>🐳 Docker · Apache-2.0 · GPU optional · [🌐 Site ↗](https://www.surfsense.com/)</sub> | [68](#-how-we-rank "Score 68/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 17k |
+| #&#8288;9 | **[quivr](reviews/rag-knowledge.md#quivr "Review: strengths, weaknesses, specs")**<br><sub>Go engine that ingests content streams for hybrid search and keyword alerts</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://docs.quivr.thevibecompany.co/quickstart)</sub> | [67](#-how-we-rank "Score 67/100. Adoption: popular (79) · Freshness: recent (70) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 40k |
+| #&#8288;10 | **[pageindex](reviews/rag-knowledge.md#pageindex "Review: strengths, weaknesses, specs")**<br><sub>Vectorless RAG that builds a tree index of a PDF and lets an LLM search it</sub><br><sub>MIT · [▶️ Demo ↗](https://app.pageindex.ai) · [📖 Docs ↗](https://docs.pageindex.ai) · [🌐 Site ↗](https://pageindex.ai/developer)</sub> | [66](#-how-we-rank "Score 66/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 39k |
 
-<sub>Top 10 of 25. [See all 25, ranked, with reviews →](reviews/rag-knowledge.md)</sub>
+<sub>Top 10 of 30. [See all 30, ranked, with reviews →](reviews/rag-knowledge.md)</sub>
 
 <details><summary>💡 How to choose</summary>
 
 - Match the ingestion formats you need (PDF with tables, Office, web, Confluence) before anything else.
 - Check which embedding models and vector stores are supported and whether they can run offline.
 - Look for citations in answers; without them, RAG output is hard to trust.
-
-</details>
-
-<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
-
-## 🔎 Search
-
-Private search engines and AI answer engines that keep queries on your host. <sub>5 ranked · [📝 all reviews](reviews/search.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/search/)</sub>
-
-**Morphic leads with 75**, ahead of GPT Researcher (66) and Local Deep Research (63).
-
-| Rank | Project | Score | Stars |
-|:-:|---|:-:|--:|
-| 🥇 | **[Morphic](reviews/search.md#morphic "Review: strengths, weaknesses, specs")**<br><sub>AI answer engine with cited search results and generative UI components</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md)</sub> | [75](#-how-we-rank "Score 75/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 9.2k |
-| 🥈 | **[GPT Researcher](reviews/search.md#gpt-researcher "Review: strengths, weaknesses, specs")**<br><sub>Research agent that writes cited reports from web and local documents</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev)</sub> | [66](#-how-we-rank "Score 66/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 30k |
-| 🥉 | **[Local Deep Research](reviews/search.md#local-deep-research "Review: strengths, weaknesses, specs")**<br><sub>Agentic research assistant with local LLMs, SearXNG and encrypted libraries</sub><br><sub>🐳 Docker · MIT · GPU optional</sub> | [63](#-how-we-rank "Score 63/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 9.3k |
-| #&#8288;4 | **[Vane](reviews/search.md#vane "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted answer engine with cited sources over SearXNG</sub><br><sub>🐳 Docker · MIT</sub> | [56](#-how-we-rank "Score 56/100. Adoption: widely used (86) · Freshness: active (99) · Maintenance: weak (10) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 37k |
-| #&#8288;5 | **[MAESTRO](reviews/search.md#maestro "Review: strengths, weaknesses, specs")**<br><sub>Multi-agent research platform that writes long reports from documents and web</sub><br><sub>🐳 Docker · AGPL-3.0 · GPU optional · [📖 Docs ↗](https://murtaza-nasir.github.io/maestro/)</sub> | [27](#-how-we-rank "Score 27/100. Adoption: niche (0) · Freshness: recent (60) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 1.5k |
-
-<details><summary>💡 How to choose</summary>
-
-- Metasearch engines need upstream providers; check rate limits and whether results are cached.
-- Answer engines call an LLM per query; budget tokens before exposing them to a team.
-- Check how results are attributed; answer engines without citations are hard to verify.
 
 </details>
 
@@ -616,63 +590,32 @@ The libraries models are built and run with: tensor frameworks, model zoos and t
 
 <p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
 
-## 🔀 Gateways
+## 🔀 Gateways and observability
 
-LLM gateways and proxies for routing, caching, rate limits and cost control across providers. <sub>15 ranked · [📝 all reviews](reviews/gateways.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/gateways/)</sub>
+LLM gateways and proxies for routing, caching and cost control, and tracing, evaluation and prompt management for LLM apps. <sub>31 ranked · [📝 all reviews](reviews/gateways.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/gateways/)</sub>
 
-**LiteLLM leads with 89**, ahead of OmniRoute (87) and new-api (82).
+**LiteLLM leads with 90**, ahead of OmniRoute (87) and new-api (83).
 
 | Rank | Project | Score | Stars |
 |:-:|---|:-:|--:|
-| 🥇 | **[LiteLLM](reviews/gateways.md#litellm "Review: strengths, weaknesses, specs")**<br><sub>OpenAI-format gateway and Python SDK for calling 100+ LLM providers</sub><br><sub>🐳 Docker · custom license · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: very easy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 62k |
+| 🥇 | **[LiteLLM](reviews/gateways.md#litellm "Review: strengths, weaknesses, specs")**<br><sub>OpenAI-format gateway and Python SDK for calling 100+ LLM providers</sub><br><sub>🐳 Docker · custom license · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway)</sub> | [90](#-how-we-rank "Score 90/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: very easy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 62k |
 | 🥈 | **[OmniRoute](reviews/gateways.md#omniroute "Review: strengths, weaknesses, specs")**<br><sub>LLM gateway routing one OpenAI-compatible endpoint across 372 providers</sub><br><sub>🐳 Docker · MIT · [🌐 Site ↗](https://omniroute.online)</sub> | [87](#-how-we-rank "Score 87/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 78k |
-| 🥉 | **[new-api](reviews/gateways.md#new-api "Review: strengths, weaknesses, specs")**<br><sub>Gateway that unifies LLM providers behind OpenAI, Anthropic and Gemini APIs</sub><br><sub>🐳 Docker · AGPL-3.0 · [📖 Docs ↗](https://docs.newapi.ai/en/docs)</sub> | [82](#-how-we-rank "Score 82/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 50k |
-| #&#8288;4 | **[freellmapi](reviews/gateways.md#freellmapi "Review: strengths, weaknesses, specs")**<br><sub>OpenAI-compatible router that pools free LLM provider tiers behind one endpoint</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://github.com/tashfeenahmed/freellmapi/blob/main/docs/en/README.md) · [🌐 Site ↗](https://freellmapi.co)</sub> | [78](#-how-we-rank "Score 78/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 37k |
-| #&#8288;5 | **[ContextForge MCP Gateway](reviews/gateways.md#mcp-context-forge "Review: strengths, weaknesses, specs")**<br><sub>Registry and proxy federating MCP, A2A, REST and gRPC behind one endpoint</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://ibm.github.io/mcp-context-forge/)</sub> | [68](#-how-we-rank "Score 68/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 4.7k |
-| #&#8288;6 | **[GoModel](reviews/gateways.md#gomodel "Review: strengths, weaknesses, specs")**<br><sub>Go AI gateway with OpenAI and Anthropic APIs, caching and budgets</sub><br><sub>🐳 Docker · MIT · [▶️ Demo ↗](https://demo.enterpilot.io/admin/dashboard) · [📖 Docs ↗](https://gomodel.enterpilot.io/docs)</sub> | [64](#-how-we-rank "Score 64/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 1.3k |
-| #&#8288;7 | **[Bifrost](reviews/gateways.md#bifrost "Review: strengths, weaknesses, specs")**<br><sub>Go AI gateway with web UI, fallbacks, budgets and semantic caching</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://docs.getbifrost.ai)</sub> | [63](#-how-we-rank "Score 63/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 8.9k |
-| #&#8288;8 | **[Plano](reviews/gateways.md#plano "Review: strengths, weaknesses, specs")**<br><sub>Envoy-based data plane that routes, traces and guards agent traffic</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://docs.planoai.dev)</sub> | [62](#-how-we-rank "Score 62/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") | 7.1k |
-| #&#8288;9 | **[Higress](reviews/gateways.md#higress "Review: strengths, weaknesses, specs")**<br><sub>Envoy-based API gateway with LLM proxy plugins and MCP server hosting</sub><br><sub>🐳 Docker · Apache-2.0 · [▶️ Demo ↗](https://demo.higress.io/) · [📖 Docs ↗](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site ↗](https://higress.ai/en/)</sub> | [59](#-how-we-rank "Score 59/100. Adoption: known (38) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 9.6k |
-| #&#8288;10 | **[agentgateway](reviews/gateways.md#agentgateway "Review: strengths, weaknesses, specs")**<br><sub>One proxy for LLM, MCP and A2A traffic with auth and RBAC</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://agentgateway.dev/docs/standalone/latest)</sub> | [59](#-how-we-rank "Score 59/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 5.4k |
+| 🥉 | **[new-api](reviews/gateways.md#new-api "Review: strengths, weaknesses, specs")**<br><sub>Gateway that unifies LLM providers behind OpenAI, Anthropic and Gemini APIs</sub><br><sub>🐳 Docker · AGPL-3.0 · [📖 Docs ↗](https://docs.newapi.ai/en/docs)</sub> | [83](#-how-we-rank "Score 83/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 50k |
+| #&#8288;4 | **[freellmapi](reviews/gateways.md#freellmapi "Review: strengths, weaknesses, specs")**<br><sub>OpenAI-compatible router that pools free LLM provider tiers behind one endpoint</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://github.com/tashfeenahmed/freellmapi/blob/main/docs/en/README.md) · [🌐 Site ↗](https://freellmapi.co)</sub> | [79](#-how-we-rank "Score 79/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 37k |
+| #&#8288;5 | **[Langfuse](reviews/gateways.md#langfuse "Review: strengths, weaknesses, specs")**<br><sub>Tracing, prompt management and evals for LLM apps on ClickHouse</sub><br><sub>🐳 Docker · custom license · [▶️ Demo ↗](https://langfuse.com/demo) · [📖 Docs ↗](https://langfuse.com/docs) · [🌐 Site ↗](https://langfuse.com)</sub> | [73](#-how-we-rank "Score 73/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 36k |
+| #&#8288;6 | **[MLflow](reviews/gateways.md#mlflow "Review: strengths, weaknesses, specs")**<br><sub>Tracing, evals, prompt registry and AI gateway plus classic ML tracking</sub><br><sub>🐳 Docker · Apache-2.0 · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/)</sub> | [71](#-how-we-rank "Score 71/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 28k |
+| #&#8288;7 | **[promptfoo](reviews/gateways.md#promptfoo "Review: strengths, weaknesses, specs")**<br><sub>CLI for evaluating and red-teaming prompts, agents and RAG</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://www.promptfoo.dev/docs/) · [🌐 Site ↗](https://www.promptfoo.dev)</sub> | [71](#-how-we-rank "Score 71/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 26k |
+| #&#8288;8 | **[Phoenix](reviews/gateways.md#phoenix "Review: strengths, weaknesses, specs")**<br><sub>LLM tracing, evaluation and prompt management built on OpenTelemetry</sub><br><sub>🐳 Docker · custom license · [📖 Docs ↗](https://arize.com/docs/phoenix/) · [🌐 Site ↗](https://phoenix.arize.com)</sub> | [71](#-how-we-rank "Score 71/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 12k |
+| #&#8288;9 | **[ContextForge MCP Gateway](reviews/gateways.md#mcp-context-forge "Review: strengths, weaknesses, specs")**<br><sub>Registry and proxy federating MCP, A2A, REST and gRPC behind one endpoint</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://ibm.github.io/mcp-context-forge/)</sub> | [68](#-how-we-rank "Score 68/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 4.7k |
+| #&#8288;10 | **[Opik](reviews/gateways.md#opik "Review: strengths, weaknesses, specs")**<br><sub>Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://www.comet.com/docs/opik/) · [🌐 Site ↗](https://www.comet.com/site/products/opik/)</sub> | [65](#-how-we-rank "Score 65/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 23k |
 
-<sub>Top 10 of 15. [See all 15, ranked, with reviews →](reviews/gateways.md)</sub>
+<sub>Top 10 of 31. [See all 31, ranked, with reviews →](reviews/gateways.md)</sub>
 
 <details><summary>💡 How to choose</summary>
 
 - List the providers you call today; check the gateway's native support rather than generic passthrough.
 - Key management, per-team budgets and audit logs separate gateways from simple proxies.
 - Check latency overhead and whether streaming is passed through unchanged.
-
-</details>
-
-<p align="right"><a href="#%EF%B8%8F-all-categories">↑ categories</a></p>
-
-## 📈 Observability
-
-Tracing, evaluation and prompt management for LLM applications. <sub>16 ranked · [📝 all reviews](reviews/observability.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/observability/)</sub>
-
-**Langfuse leads with 75**, ahead of MLflow (72) and promptfoo (71).
-
-| Rank | Project | Score | Stars |
-|:-:|---|:-:|--:|
-| 🥇 | **[Langfuse](reviews/observability.md#langfuse "Review: strengths, weaknesses, specs")**<br><sub>Tracing, prompt management and evals for LLM apps on ClickHouse</sub><br><sub>🐳 Docker · custom license · [▶️ Demo ↗](https://langfuse.com/demo) · [📖 Docs ↗](https://langfuse.com/docs) · [🌐 Site ↗](https://langfuse.com)</sub> | [75](#-how-we-rank "Score 75/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 36k |
-| 🥈 | **[MLflow](reviews/observability.md#mlflow "Review: strengths, weaknesses, specs")**<br><sub>Tracing, evals, prompt registry and AI gateway plus classic ML tracking</sub><br><sub>🐳 Docker · Apache-2.0 · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/)</sub> | [72](#-how-we-rank "Score 72/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 28k |
-| 🥉 | **[promptfoo](reviews/observability.md#promptfoo "Review: strengths, weaknesses, specs")**<br><sub>CLI for evaluating and red-teaming prompts, agents and RAG</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://www.promptfoo.dev/docs/) · [🌐 Site ↗](https://www.promptfoo.dev)</sub> | [71](#-how-we-rank "Score 71/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 26k |
-| #&#8288;4 | **[Phoenix](reviews/observability.md#phoenix "Review: strengths, weaknesses, specs")**<br><sub>LLM tracing, evaluation and prompt management built on OpenTelemetry</sub><br><sub>🐳 Docker · custom license · [📖 Docs ↗](https://arize.com/docs/phoenix/) · [🌐 Site ↗](https://phoenix.arize.com)</sub> | [70](#-how-we-rank "Score 70/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 12k |
-| #&#8288;5 | **[Opik](reviews/observability.md#opik "Review: strengths, weaknesses, specs")**<br><sub>Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://www.comet.com/docs/opik/) · [🌐 Site ↗](https://www.comet.com/site/products/opik/)</sub> | [66](#-how-we-rank "Score 66/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 23k |
-| #&#8288;6 | **[OpenLIT](reviews/observability.md#openlit "Review: strengths, weaknesses, specs")**<br><sub>OpenTelemetry-based tracing, evals and guardrails for LLM apps and coding agents</sub><br><sub>🐳 Docker · Apache-2.0 · GPU optional · [📖 Docs ↗](https://docs.openlit.io/) · [🌐 Site ↗](https://openlit.io)</sub> | [64](#-how-we-rank "Score 64/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 2.9k |
-| #&#8288;7 | **[LangWatch](reviews/observability.md#langwatch "Review: strengths, weaknesses, specs")**<br><sub>LLM tracing, evals, gateway and governance platform for agents and coding assistants</sub><br><sub>Apache-2.0 · [📖 Docs ↗](https://langwatch.ai/docs/introduction) · [🌐 Site ↗](https://langwatch.ai)</sub> | [62](#-how-we-rank "Score 62/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 5.0k |
-| #&#8288;8 | **[Future AGI](reviews/observability.md#future-agi "Review: strengths, weaknesses, specs")**<br><sub>Tracing, evals, simulation, guardrails and an LLM gateway for AI agents</sub><br><sub>🐳 Docker · Apache-2.0 · [▶️ Demo ↗](https://www.youtube.com/watch?v=6keOTAOUUWI) · [📖 Docs ↗](https://docs.futureagi.com) · [🌐 Site ↗](https://futureagi.com)</sub> | [62](#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: very easy (83) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") | 2.2k |
-| #&#8288;9 | **[Latitude](reviews/observability.md#latitude-llm "Review: strengths, weaknesses, specs")**<br><sub>Agent observability that groups failures and dispatches coding agents to fix them</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://docs.latitude.so) · [🌐 Site ↗](https://latitude.so)</sub> | [60](#-how-we-rank "Score 60/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 4.7k |
-| #&#8288;10 | **[deepeval](reviews/observability.md#deepeval "Review: strengths, weaknesses, specs")**<br><sub>Pytest-style framework for unit testing LLM apps, RAG pipelines and agents</sub><br><sub>Apache-2.0 · GPU optional · [📖 Docs ↗](https://deepeval.com/docs/getting-started) · [🌐 Site ↗](https://www.confident-ai.com)</sub> | [57](#-how-we-rank "Score 57/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (69) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 19k |
-
-<sub>Top 10 of 16. [See all 16, ranked, with reviews →](reviews/observability.md)</sub>
-
-<details><summary>💡 How to choose</summary>
-
-- Confirm SDK support for your framework (OpenTelemetry, LangChain, OpenAI SDK) and your language.
-- Evaluation features vary widely; check whether evals run on your data without a cloud account.
-- Retention and storage backend decide the host size; traces grow fast.
 
 </details>
 
