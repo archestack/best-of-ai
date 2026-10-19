@@ -22,26 +22,8 @@ DeepTutor is a Python backend with a Next.js 16 web UI for studying from your ow
 
 <sub>Docker + Compose · Needs Python 3.11+, Node.js (Next.js 16), Docker (optional) · Models: OpenAI-compatible providers, Anthropic, Gemini, OpenAI Codex OAuth, Lemonade (local) · [Repo](https://github.com/hkuds/deeptutor) · [📖 Docs ↗](https://deeptutor.info) · [🌐 Site ↗](https://deeptutor.info) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeptutor/)</sub>
 
-<a name="open-notebook"></a>
-### 🥈 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
-
-**Self-hosted NotebookLM alternative with podcasts and 20+ model providers.**
-
-Open Notebook collects PDFs, audio, video, web pages and Office files into notebooks and offers cited chat, full-text and vector search, notes and multi-speaker podcast generation. It runs as two containers (SurrealDB plus a FastAPI/Next.js app) and talks to OpenAI, Anthropic, Google, Mistral, Groq, Ollama, LM Studio or any OpenAI-compatible server. A REST API and MCP integration expose the same features.
-
-- **+** 20+ providers, including Ollama and LM Studio for fully local runs
-- **+** Podcasts with 1 to 4 speakers and custom episode profiles
-- **+** REST API on port 5055 and an MCP server for Claude Desktop or VS Code
-- **+** Two-service Docker Compose; keys stored encrypted with OPEN_NOTEBOOK_ENCRYPTION_KEY
-- **−** Single-user; multi-user support is only a future direction in VISION.md
-- **−** No password by default and ports 8502/5055 bind to all interfaces
-- **−** Anthropic and Groq offer no embeddings, so a second provider is needed
-- **−** UI in 14 languages but provider setup is manual per model type
-
-<sub>no GPU · Docker + Compose · Needs SurrealDB · Models: OpenAI, Anthropic, Google, Mistral, Groq, DeepSeek, xAI, OpenRouter, Cohere, Ollama, LM Studio, oMLX and any OpenAI-compatible endpoint · port 8502 · README: alternative to NotebookLM · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-notebook/)</sub>
-
 <a name="lightrag"></a>
-### 🥉 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
+### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
 
 **Graph-based RAG framework with a REST API server and web UI.**
 
@@ -59,7 +41,7 @@ LightRAG indexes documents into a knowledge graph plus vector embeddings and ans
 <sub>Docker + Compose · Needs LLM provider, embedding model, PostgreSQL (recommended for production), Neo4j (optional), MongoDB (optional), OpenSearch (optional), MinerU or Docling (optional) · Models: LLMs configured via .env, open-source LLMs such as Qwen3-30B-A3B, rerankers · [Repo](https://github.com/hkuds/lightrag) · [📖 Docs ↗](https://github.com/HKUDS/LightRAG/blob/main/docs/LightRAG-API-Server.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightrag/)</sub>
 
 <a name="ragflow"></a>
-### #&#8288;4 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · Apache-2.0 · Oct 2026</sub>
 
 **RAG engine with deep document parsing, template chunking and agentic retrieval.**
 
@@ -75,6 +57,24 @@ RAGFlow parses complex documents (PDF, Word, Excel, PowerPoint, scans, web pages
 - **−** Current release is 1.0.0-rc1, a release candidate rather than a stable 1.0
 
 <sub>RAM ≥ 16 GB · no GPU · Docker + Compose · Needs Docker, Docker Compose, MySQL, Elasticsearch or Infinity, MinIO, NATS, Kvrocks · Models: Configurable LLM, embedding and reranker models via provider page · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ragflow/)</sub>
+
+<a name="open-notebook"></a>
+### #&#8288;4 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: fair (68) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
+
+**Self-hosted NotebookLM alternative with podcasts and 20+ model providers.**
+
+Open Notebook collects PDFs, audio, video, web pages and Office files into notebooks and offers cited chat, full-text and vector search, notes and multi-speaker podcast generation. It runs as two containers (SurrealDB plus a FastAPI/Next.js app) and talks to OpenAI, Anthropic, Google, Mistral, Groq, Ollama, LM Studio or any OpenAI-compatible server. A REST API and MCP integration expose the same features.
+
+- **+** 20+ providers, including Ollama and LM Studio for fully local runs
+- **+** Podcasts with 1 to 4 speakers and custom episode profiles
+- **+** REST API on port 5055 and an MCP server for Claude Desktop or VS Code
+- **+** Two-service Docker Compose; keys stored encrypted with OPEN_NOTEBOOK_ENCRYPTION_KEY
+- **−** Single-user; multi-user support is only a future direction in VISION.md
+- **−** No password by default and ports 8502/5055 bind to all interfaces
+- **−** Anthropic and Groq offer no embeddings, so a second provider is needed
+- **−** UI in 14 languages but provider setup is manual per model type
+
+<sub>no GPU · Docker + Compose · Needs SurrealDB · Models: OpenAI, Anthropic, Google, Mistral, Groq, DeepSeek, xAI, OpenRouter, Cohere, Ollama, LM Studio, oMLX and any OpenAI-compatible endpoint · port 8502 · README: alternative to NotebookLM · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-notebook/)</sub>
 
 <a name="maxkb"></a>
 ### #&#8288;5 [MaxKB](https://github.com/1panel-dev/maxkb) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · GPL-3.0 · Oct 2026</sub>
@@ -95,7 +95,7 @@ MaxKB runs as one Docker container (port 8080, state in one volume) with a RAG p
 <sub>no GPU · Models: OpenAI, Claude, Gemini, MiniMax, DeepSeek, Llama, Qwen as private models · port 8080 · [Repo](https://github.com/1panel-dev/maxkb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/maxkb/)</sub>
 
 <a name="weknora"></a>
-### #&#8288;6 [WeKnora](https://github.com/tencent/weknora) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · custom license · Oct 2026</sub>
+### #&#8288;6 [WeKnora](https://github.com/tencent/weknora) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · custom license · Oct 2026</sub>
 
 **Knowledge base framework with RAG Q&A, tool-using agents and auto-generated wikis.**
 
@@ -131,7 +131,7 @@ SurfSense is a desktop app, a NotebookLM-style agent that indexes your files on 
 <sub>GPU optional · Docker + Compose · Needs LibreOffice (optional, for Office to PDF) · Models: OpenAI-compatible APIs, local models · README: alternative to NotebookLM · [Repo](https://github.com/modsetter/surfsense) · [🌐 Site ↗](https://www.surfsense.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/surfsense/)</sub>
 
 <a name="quivr"></a>
-### #&#8288;8 [quivr](https://github.com/the-vibe-company/quivr) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (77) · Freshness: recent (70) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
+### #&#8288;8 [quivr](https://github.com/the-vibe-company/quivr) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (77) · Freshness: recent (70) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
 
 **Go engine that ingests content streams for hybrid search and keyword alerts.**
 

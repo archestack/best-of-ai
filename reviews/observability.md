@@ -95,7 +95,7 @@ Logs trace trees for LLM calls, tool executions and agent steps via Python and T
 <sub>no GPU · Compose · Models: any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs ↗](https://www.comet.com/docs/opik/) · [🌐 Site ↗](https://www.comet.com/site/products/opik/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opik/)</sub>
 
 <a name="openlit"></a>
-### #&#8288;6 [OpenLIT](https://github.com/openlit/openlit) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [OpenLIT](https://github.com/openlit/openlit) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Oct 2026</sub>
 
 **OpenTelemetry-based tracing, evals and guardrails for LLM apps and coding agents.**
 
@@ -221,7 +221,7 @@ Lets teams create agents by describing work in chat, connect tools through MCP o
 <sub>no GPU · Needs Claude Code, Pi or Codex harness, LLM API, Ollama, or a Claude or ChatGPT subscription, Composio (optional, 1,000+ app integrations) · Models: hosted models via API, Ollama, Claude and ChatGPT subscriptions · [Repo](https://github.com/agenta-ai/agenta) · [📖 Docs ↗](https://agenta.ai/docs/) · [🌐 Site ↗](https://agenta.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agenta/)</sub>
 
 <a name="helicone"></a>
-### #&#8288;13 [Helicone](https://github.com/helicone/helicone) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (28) · Freshness: recent (80) · Maintenance: patchy (33) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;13 [Helicone](https://github.com/helicone/helicone) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (28) · Freshness: recent (80) · Maintenance: patchy (34) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
 
 **LLM proxy gateway with request logging, cost tracking and sessions.**
 

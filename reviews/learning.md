@@ -58,26 +58,8 @@ A Microsoft course of 18 lessons on building AI agents, each with a written READ
 
 <sub>no GPU · Needs Microsoft Foundry (Azure account), Microsoft Agent Framework, Microsoft Foundry Agent Service V2 · Models: Microsoft Foundry models, OpenAI-compatible providers (MiniMax) · [Repo](https://github.com/microsoft/ai-agents-for-beginners) · [📖 Docs ↗](https://github.com/microsoft/ai-agents-for-beginners/blob/master/00-course-setup/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-agents-for-beginners/)</sub>
 
-<a name="ai-agent-book"></a>
-### #&#8288;4 [ai-agent-book](https://github.com/bojieli/ai-agent-book) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 55k · Apache-2.0 · Sep 2026</sub>
-
-**Open book on AI agent design, with 109 runnable companion experiments.**
-
-A Chinese-language book, "Understanding AI Agents in Depth", with 10 chapters built on the formula Agent = LLM + context + tools. It covers context engineering, memory and RAG, tools and MCP, coding agents, interaction, evaluation, post-training and multi-agent collaboration. The repo holds the book sources, PDF and EPUB builds in 15 languages, and 109 Python experiments installed per chapter with uv or pip.
-
-- **+** 109 companion experiments mapped to chapters, installable per chapter via uv.lock or pip
-- **+** PDF and EPUB in 15 languages, plus an online reader
-- **+** Covers evaluation and post-training (SFT/RL), not only prompting and tool use
-- **+** External repos are pinned to commit SHAs for reproducible setups
-- **−** Original text is Chinese; the other 14 translations are community-made and may lag
-- **−** README says experiment code is agent-generated and not read line by line by the author
-- **−** Installing or cloning does not mean an experiment was run; status is tracked separately
-- **−** Most experiments need provider API keys; some need CUDA, browsers or external repos
-
-<sub>GPU optional · Needs Python 3.11-3.13, uv or pip, LLM provider API keys, pandoc and xelatex (only to build the PDF) · Models: Kimi, GLM, DeepSeek, OpenRouter, Siliconflow · [Repo](https://github.com/bojieli/ai-agent-book) · [📖 Docs ↗](https://bojieli.github.io/ai-agent-book/astro/) · [🌐 Site ↗](https://bojieli.github.io/ai-agent-book/astro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-agent-book/)</sub>
-
 <a name="llms-from-scratch"></a>
-### #&#8288;5 [llms-from-scratch](https://github.com/rasbt/llms-from-scratch) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 107k · custom license · Oct 2026</sub>
+### #&#8288;4 [llms-from-scratch](https://github.com/rasbt/llms-from-scratch) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 107k · custom license · Oct 2026</sub>
 
 **Code for the book on building a GPT-style LLM in PyTorch.**
 
@@ -95,7 +77,7 @@ Official code for the Manning book "Build a Large Language Model (From Scratch)"
 <sub>GPU optional · Needs PyTorch, Jupyter, Ollama (optional, ch07 evaluation) · Models: GPT-2, Llama 3.2, Qwen3, Gemma 3, Olmo 3 · [Repo](https://github.com/rasbt/llms-from-scratch) · [🌐 Site ↗](http://mng.bz/orYv) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llms-from-scratch/)</sub>
 
 <a name="ml-for-beginners"></a>
-### #&#8288;6 [ml-for-beginners](https://github.com/microsoft/ml-for-beginners) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · MIT · Sep 2026</sub>
+### #&#8288;5 [ml-for-beginners](https://github.com/microsoft/ml-for-beginners) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · MIT · Sep 2026</sub>
 
 **12-week, 26-lesson classic machine learning course using Scikit-learn.**
 
@@ -113,7 +95,7 @@ A Microsoft Cloud Advocates curriculum covering classic machine learning (regres
 <sub>no GPU · Needs Python, Scikit-learn, Jupyter, R (optional) · [Repo](https://github.com/microsoft/ml-for-beginners) · [▶️ Demo ↗](https://ff-quizzes.netlify.app/en/ml/) · [📖 Docs ↗](https://learn.microsoft.com/en-us/collections/qrqzamz1nn2wx3?WT.mc_id=academic-77952-bethanycheum) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ml-for-beginners/)</sub>
 
 <a name="ai-for-beginners"></a>
-### #&#8288;7 [ai-for-beginners](https://github.com/microsoft/ai-for-beginners) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · MIT · Sep 2026</sub>
+### #&#8288;6 [ai-for-beginners](https://github.com/microsoft/ai-for-beginners) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · MIT · Sep 2026</sub>
 
 **12-week, 24-lesson AI curriculum with PyTorch and TensorFlow notebooks.**
 
@@ -131,7 +113,7 @@ A Microsoft course that teaches AI from symbolic and expert systems through neur
 <sub>Needs Jupyter, PyTorch, TensorFlow, Keras, OpenCV · [Repo](https://github.com/microsoft/ai-for-beginners) · [▶️ Demo ↗](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-for-beginners/)</sub>
 
 <a name="openai-cookbook"></a>
-### #&#8288;8 [openai-cookbook](https://github.com/openai/openai-cookbook) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · MIT · Oct 2026</sub>
+### #&#8288;7 [openai-cookbook](https://github.com/openai/openai-cookbook) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · MIT · Oct 2026</sub>
 
 **Example notebooks and guides for building with the OpenAI API.**
 
@@ -149,7 +131,7 @@ Collection of runnable Jupyter notebooks and guides showing common tasks with th
 <sub>no GPU · Needs OpenAI API key, Jupyter · Models: OpenAI API models · [Repo](https://github.com/openai/openai-cookbook) · [📖 Docs ↗](https://platform.openai.com/docs/introduction) · [🌐 Site ↗](https://cookbook.openai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai-cookbook/)</sub>
 
 <a name="cs249r-book"></a>
-### #&#8288;9 [cs249r_book](https://github.com/harvard-edge/cs249r_book) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · custom license · Oct 2026</sub>
+### #&#8288;8 [cs249r_book](https://github.com/harvard-edge/cs249r_book) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · custom license · Oct 2026</sub>
 
 **Open textbook and course materials for machine learning systems engineering.**
 
@@ -167,7 +149,7 @@ A single repository holding a four-volume ML systems textbook (foundations, scal
 <sub>[Repo](https://github.com/harvard-edge/cs249r_book) · [📖 Docs ↗](https://mlsysbook.ai/vol1/) · [🌐 Site ↗](https://mlsysbook.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cs249r-book/)</sub>
 
 <a name="hello-agents"></a>
-### #&#8288;10 [hello-agents](https://github.com/datawhalechina/hello-agents) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · custom license · Oct 2026</sub>
+### #&#8288;9 [hello-agents](https://github.com/datawhalechina/hello-agents) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · custom license · Oct 2026</sub>
 
 **Chinese-language course on building LLM agents from scratch.**
 
@@ -183,6 +165,24 @@ A 16-chapter Chinese tutorial from Datawhale covering agent fundamentals, ReAct,
 - **−** Hardware and model requirements for the exercises are unknown
 
 <sub>Needs OpenAI-compatible LLM API · Models: OpenAI API · [Repo](https://github.com/datawhalechina/hello-agents) · [📖 Docs ↗](https://datawhalechina.github.io/hello-agents/) · [🌐 Site ↗](https://hello-agents.datawhale.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hello-agents/)</sub>
+
+<a name="ai-agent-book"></a>
+### #&#8288;10 [ai-agent-book](https://github.com/bojieli/ai-agent-book) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 55k · Apache-2.0 · Sep 2026</sub>
+
+**Open book on AI agent design, with 109 runnable companion experiments.**
+
+A Chinese-language book, "Understanding AI Agents in Depth", with 10 chapters built on the formula Agent = LLM + context + tools. It covers context engineering, memory and RAG, tools and MCP, coding agents, interaction, evaluation, post-training and multi-agent collaboration. The repo holds the book sources, PDF and EPUB builds in 15 languages, and 109 Python experiments installed per chapter with uv or pip.
+
+- **+** 109 companion experiments mapped to chapters, installable per chapter via uv.lock or pip
+- **+** PDF and EPUB in 15 languages, plus an online reader
+- **+** Covers evaluation and post-training (SFT/RL), not only prompting and tool use
+- **+** External repos are pinned to commit SHAs for reproducible setups
+- **−** Original text is Chinese; the other 14 translations are community-made and may lag
+- **−** README says experiment code is agent-generated and not read line by line by the author
+- **−** Installing or cloning does not mean an experiment was run; status is tracked separately
+- **−** Most experiments need provider API keys; some need CUDA, browsers or external repos
+
+<sub>GPU optional · Needs Python 3.11-3.13, uv or pip, LLM provider API keys, pandoc and xelatex (only to build the PDF) · Models: Kimi, GLM, DeepSeek, OpenRouter, Siliconflow · [Repo](https://github.com/bojieli/ai-agent-book) · [📖 Docs ↗](https://bojieli.github.io/ai-agent-book/astro/) · [🌐 Site ↗](https://bojieli.github.io/ai-agent-book/astro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-agent-book/)</sub>
 
 <a name="rag-techniques"></a>
 ### #&#8288;11 [rag_techniques](https://github.com/nirdiamant/rag_techniques) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (55) · Freshness: active (99) · Maintenance: fair (65) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Oct 2026</sub>

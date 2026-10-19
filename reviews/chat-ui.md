@@ -41,7 +41,7 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 <sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-webui/)</sub>
 
 <a name="anything-llm"></a>
-### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
+### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
 
 **Document chat app with agents, workspaces and many LLM and vector DB backends.**
 
@@ -113,7 +113,7 @@ Hermes WebUI is a three-panel web interface for Nous Research's Hermes Agent, wr
 <sub>no GPU · Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-webui/)</sub>
 
 <a name="big-agi"></a>
-### #&#8288;7 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (69) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;7 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (69) · Easy to run: very easy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Oct 2026</sub>
 
 **Multi-model chat workspace with Beam side-by-side model comparison.**
 
@@ -131,7 +131,7 @@ Big-AGI Open is the self-hostable web app behind big-agi.com, deployable via Doc
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-agi) · [🌐 Site ↗](https://big-agi.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/big-agi/)</sub>
 
 <a name="nextchat"></a>
-### #&#8288;8 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (90) · Freshness: recent (78) · Maintenance: patchy (31) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### #&#8288;8 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (90) · Freshness: recent (78) · Maintenance: patchy (32) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Lightweight Next.js chat client for OpenAI, Claude, Gemini and DeepSeek APIs.**
 
@@ -220,26 +220,8 @@ ClaraVerse is a Go and React workspace (Docker Compose, port 3000) that auto-det
 
 <sub>RAM ≥ 4 GB · Docker + Compose · Needs MySQL, MongoDB, Redis, SearXNG, Qdrant (knowledge bases) · Models: Ollama, LM Studio, llama.cpp, OpenAI, Anthropic · port 3000 · [Repo](https://github.com/claraverse-space/claraverse) · [🌐 Site ↗](https://claraverse.space) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/claraverse/)</sub>
 
-<a name="lollms-webui"></a>
-### #&#8288;13 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (10) · Freshness: recent (70) · Maintenance: fair (67) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
-
-**Single-user web UI for local and remote LLMs with many personalities.**
-
-LoLLMs WebUI is a Python 3.11 web app (port 9600) fronting local models via HF transformers, GGUF/GGML, ExLlama v2, Ollama and vLLM bindings plus OpenAI, Anthropic and OpenRouter APIs. It adds 500+ personalities, cost/speed-based routing, and hooks into Stable Diffusion, ComfyUI, DALL-E, video and musicgen services. The authors say it is in minimal support, to be replaced by the newer lollms project.
-
-- **+** Bindings for local GGUF, ExLlama v2 and transformers plus Ollama, vLLM and hosted APIs
-- **+** Image, video and music generation integrations in one UI
-- **+** Smart routing picks cheaper or faster models by prompt complexity
-- **+** Apache-2.0 license
-- **−** Maintainers state it is in minimal support, to be replaced by ParisNeo/lollms
-- **−** No built-in authentication; designed for local use only
-- **−** Docker image must be built locally; no published image in the README
-- **−** Manual install needs submodules plus a per-binding install script
-
-<sub>Docker + Compose · Models: Hugging Face transformers, GGUF/GGML, ExLlama v2, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
-
 <a name="gpt-academic"></a>
-### #&#8288;14 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (82) · Freshness: quiet (25) · Maintenance: weak (13) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · GPL-3.0 · Jan 2026</sub>
+### #&#8288;13 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: widely used (82) · Freshness: quiet (25) · Maintenance: weak (17) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · GPL-3.0 · Jan 2026</sub>
 
 **Gradio web UI with plugins for translating and polishing papers and code.**
 
@@ -255,6 +237,24 @@ GPT Academic is a Python Gradio app that sends text to OpenAI, Azure, Qwen, GLM,
 - **−** No user accounts mentioned; last tagged release is December 2024
 
 <sub>GPU optional · Docker + Compose · Needs Python 3.9-3.11, Gradio, LaTeX (for LaTeX plugins), Docker (optional) · Models: OpenAI GPT, Azure, Qwen, ChatGLM, GLM4 · [Repo](https://github.com/binary-husky/gpt_academic) · [▶️ Demo ↗](https://huggingface.co/spaces/qingxu98/gpt-academic) · [📖 Docs ↗](https://github.com/binary-husky/gpt_academic/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-academic/)</sub>
+
+<a name="lollms-webui"></a>
+### #&#8288;14 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (10) · Freshness: recent (70) · Maintenance: fair (67) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
+
+**Single-user web UI for local and remote LLMs with many personalities.**
+
+LoLLMs WebUI is a Python 3.11 web app (port 9600) fronting local models via HF transformers, GGUF/GGML, ExLlama v2, Ollama and vLLM bindings plus OpenAI, Anthropic and OpenRouter APIs. It adds 500+ personalities, cost/speed-based routing, and hooks into Stable Diffusion, ComfyUI, DALL-E, video and musicgen services. The authors say it is in minimal support, to be replaced by the newer lollms project.
+
+- **+** Bindings for local GGUF, ExLlama v2 and transformers plus Ollama, vLLM and hosted APIs
+- **+** Image, video and music generation integrations in one UI
+- **+** Smart routing picks cheaper or faster models by prompt complexity
+- **+** Apache-2.0 license
+- **−** Maintainers state it is in minimal support, to be replaced by ParisNeo/lollms
+- **−** No built-in authentication; designed for local use only
+- **−** Docker image must be built locally; no published image in the README
+- **−** Manual install needs submodules plus a per-binding install script
+
+<sub>Docker + Compose · Models: Hugging Face transformers, GGUF/GGML, ExLlama v2, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
 
 <a name="chuanhuchatgpt"></a>
 ### #&#8288;15 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (29) · Freshness: recent (79) · Maintenance: weak (16) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
