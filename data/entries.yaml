@@ -263,7 +263,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 78
+    score: 79
   - id: tensorflow
     repo: tensorflow/tensorflow
     name: tensorflow
@@ -5187,7 +5187,6 @@ entries:
     summary: Quivr V2 is a Go service that durably ingests text and documents, indexes them in Weaviate for lexical, semantic and hybrid search, and runs saved queries as subscriptions that produce matches and signed webhooks. State lives in PostgreSQL and S3-compatible storage, with Temporal for orchestration and plugins for connectors and alert rules. The README marks it as evaluation stage with a v0 API that may change.
     categories:
       - rag-knowledge
-      - search
     strengths:
       - Idempotent writes and immutable Versions; search index can be rebuilt from PostgreSQL and S3
       - Hybrid search rehydrates and re-authorizes every hit; outages return errors, not empty results
@@ -7467,7 +7466,7 @@ entries:
     summary: iFixAi runs up to 60 inspections against a model or a deployed agent's HTTP endpoint and grades the answers with a separate judge model. The default run covers 10 checks, such as role-based tool access, prompt injection, privilege escalation and data leakage between users. It writes JSON and Markdown reports plus a terminal scorecard, and also ships as a Claude Code and Codex plugin and a skill for other agents.
     categories:
       - security
-      - observability
+      - gateways
     strengths:
       - Tests a real agent over its HTTP endpoint, not only a bare model API
       - Default 10-check suite ends in a grade; --full-run covers all 60 inspections
@@ -9515,7 +9514,7 @@ entries:
     tagline: Python framework and registry for evaluating LLMs and LLM-based systems
     summary: Runs evals against OpenAI models and LLM-built systems, using a registry of existing evals plus custom ones defined as JSON data and YAML config. Model-graded evals need no evaluation code, and a Completion Function Protocol covers prompt chains and tool-using agents. Results can optionally be logged to Snowflake.
     categories:
-      - observability
+      - gateways
     strengths:
       - Basic and model-graded evals need only JSON data and YAML, no code
       - Completion Function Protocol supports prompt chains and tool-using agents
@@ -9995,7 +9994,7 @@ entries:
     tagline: Pytest-style framework for unit testing LLM apps, RAG pipelines and agents
     summary: DeepEval is a Python framework that runs LLM evaluations as pytest-style tests via `deepeval test run`. It ships metrics such as G-Eval, DAG, task completion, tool correctness, faithfulness and hallucination, scored by an LLM judge of your choice or local NLP models. It supports end-to-end, trace-based and component-level evals, synthetic dataset generation, and standard benchmarks like MMLU and GSM8K.
     categories:
-      - observability
+      - gateways
     strengths:
       - Metrics for RAG, agents, multi-turn chats, MCP and multimodal outputs
       - Pytest-style tests run in CI with `deepeval test run`
@@ -10291,7 +10290,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 59
+    score: 60
   - id: parlant
     repo: emcie-co/parlant
     name: parlant
@@ -11758,7 +11757,7 @@ entries:
     tagline: Python library for scoring LLM and RAG application outputs with metrics
     summary: Ragas is a Python package for evaluating LLM applications. It ships pre-built and custom metrics, including LLM-judged ones such as DiscreteMetric, and can generate test datasets when none exist. It integrates with LangChain and observability tools, and a `ragas quickstart rag_eval` command scaffolds an example RAG evaluation project.
     categories:
-      - observability
+      - gateways
     strengths:
       - Installs with pip; quickstart command scaffolds a RAG evaluation project
       - Custom metrics defined by a prompt and allowed values, scored asynchronously
@@ -12577,7 +12576,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 49
+    score: 50
   - id: tensorrt-llm
     repo: nvidia/tensorrt-llm
     name: tensorrt-llm
@@ -14084,7 +14083,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 55
+    score: 56
   - id: voice-pro
     repo: abus-aikorea/voice-pro
     name: voice-pro
@@ -14643,7 +14642,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 82
+    score: 83
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
@@ -17198,7 +17197,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 52
+    score: 53
   - id: deepwiki-open
     repo: asyncfuncai/deepwiki-open
     name: DeepWiki-Open
@@ -17236,7 +17235,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 51
+    score: 52
   - id: surfsense
     repo: modsetter/surfsense
     name: SurfSense
@@ -17245,7 +17244,6 @@ entries:
     summary: SurfSense is a desktop app, a NotebookLM-style agent that indexes your files on local disk and answers with citations. It can also create and edit PDF, Word, Excel and PowerPoint files, always writing a new copy, and generate podcasts, mind maps, flashcards and quizzes. It works with any OpenAI-compatible API or a local model and needs no account.
     categories:
       - rag-knowledge
-      - search
     strengths:
       - Index stays on local disk; no account needed
       - Edits PDF, Word, Excel and PowerPoint as new copies, originals untouched
@@ -17506,7 +17504,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 53
+    score: 54
   - id: ollama
     repo: ollama/ollama
     name: Ollama
@@ -18407,7 +18405,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 89
+    score: 90
   - id: portkey-gateway
     repo: portkey-ai/gateway
     name: Portkey Gateway
@@ -18448,7 +18446,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 39
+    score: 38
   - id: higress
     repo: higress-group/higress
     name: Higress
@@ -18489,7 +18487,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 59
+    score: 58
   - id: coai
     repo: coaidev/coai
     name: CoAI
@@ -18659,7 +18657,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 59
+    score: 60
   - id: mcp-context-forge
     repo: ibm/mcp-context-forge
     name: ContextForge MCP Gateway
@@ -18877,7 +18875,7 @@ entries:
     summary: Meilisearch is a Rust search engine with a REST API that combines full-text search (typo tolerance, facets, geosearch) with vector and hybrid search, returning results as you type. It adds API keys with fine-grained permissions, tenant tokens for multi-tenancy, conversational search and MCP and LangChain integrations. The Community Edition is MIT; sharding and S3 snapshots require the Enterprise Edition.
     categories:
       - vector-db
-      - search
+      - rag-knowledge
     strengths:
       - Search-as-you-type under 50 ms with typo tolerance and faceting
       - Hybrid semantic plus full-text ranking in one engine
@@ -19127,7 +19125,7 @@ entries:
     summary: Vespa is a serving platform that indexes vectors, tensors, text and structured data, selects a subset at query time, evaluates machine-learned ranking models over it and returns results in under 100 ms while the corpus changes, across many nodes. The Java and C++ engine builds from this repo with a release every morning Monday to Thursday. Getting started and self-hosting live in docs.vespa.ai; Vespa Cloud is the hosted option.
     categories:
       - vector-db
-      - search
+      - rag-knowledge
     strengths:
       - Vectors, tensors, text and structured data queried and ranked together
       - Machine-learned ranking models evaluated at serving time
@@ -20136,7 +20134,7 @@ entries:
     summary: API that turns URLs into markdown, HTML, screenshots or schema-based JSON, with endpoints for search, scrape, crawl, map, batch scrape, page interaction and a prompt-driven agent. Handles JS-rendered pages and parses hosted PDFs and DOCX. SDKs for Python, Node, Go, Java, Elixir, Rust and Ruby plus an MCP server and CLI, for teams feeding web content to RAG pipelines and agents.
     categories:
       - data-tools
-      - search
+      - rag-knowledge
     strengths:
       - Seven SDKs plus CLI and MCP server; SDKs poll async crawl jobs automatically
       - Crawl, map and batch-scrape endpoints return job IDs for large sites
@@ -20177,7 +20175,7 @@ entries:
     summary: Crawl4AI is a Python library, CLI (`crwl`) and Docker REST server that drives Playwright browsers (Chromium, Firefox, WebKit) to turn web pages into clean or filtered Markdown. It extracts structured data with CSS/XPath/regex schemas without an LLM, or through any LiteLLM-supported provider into a typed JSON schema. It also supports deep crawls, adaptive crawling and batch fetching. A hosted Crawl4AI Cloud with search and answer endpoints is sold separately.
     categories:
       - data-tools
-      - search
+      - rag-knowledge
     strengths:
       - Schema-based CSS/XPath extraction runs without any LLM call
       - Fit Markdown filters (pruning, BM25, LLM) strip menus and boilerplate
@@ -20223,7 +20221,7 @@ entries:
     tagline: Self-hosted answer engine with cited sources over SearXNG
     summary: Next.js answer engine (formerly Perplexica) that runs searches through a bundled SearXNG instance, then answers with citations using Ollama, OpenAI-compatible servers, OpenAI, Anthropic, Gemini or Groq models. Offers Speed, Balanced and Quality modes, web, discussion and academic sources, image and video search, file uploads and a search API. One container on port 3000; a slim image uses your own SearXNG.
     categories:
-      - search
+      - rag-knowledge
     strengths:
       - Single Docker image bundles SearXNG; no search API key needed
       - Local models via Ollama or any OpenAI-compatible server, plus cloud providers
@@ -20263,7 +20261,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 56
+    score: 53
   - id: gpt-researcher
     repo: assafelovic/gpt-researcher
     name: GPT Researcher
@@ -20271,7 +20269,7 @@ entries:
     tagline: Research agent that writes cited reports from web and local documents
     summary: GPT Researcher splits a query into research questions with a planner agent, scrapes sources in parallel, filters the context and writes a cited report. It works over web search (Tavily by default) and local files such as PDF, CSV, Excel, Markdown, PowerPoint and Word. It runs as a FastAPI server with a static or NextJS frontend, or as the gpt-researcher pip package.
     categories:
-      - search
+      - rag-knowledge
     strengths:
       - Covers both web research and local documents (PDF, CSV, Excel, Markdown, PowerPoint, Word)
       - Usable as a pip package, a FastAPI server with two frontends, or via Docker Compose
@@ -20311,7 +20309,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 66
+    score: 65
   - id: jina-reader
     repo: jina-ai/reader
     name: Jina Reader
@@ -20320,7 +20318,7 @@ entries:
     summary: "Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page with headless Chrome or curl-impersonate, parses PDFs and Office files, and returns markdown, text, HTML, screenshots or JSON controlled by request headers (engine, timeout, token limits). The ghcr.io image bundles Chrome, LibreOffice and CJK fonts, serves HTTP/1.1 on 8081 and h2c on 8080, and runs stateless or with S3-compatible caching."
     categories:
       - data-tools
-      - search
+      - rag-knowledge
     strengths:
       - Prebuilt image with Chrome, LibreOffice and CJK fonts; stateless by default
       - "Fine-grained headers: x-respond-timing, x-max-tokens, x-token-budget, x-target-selector"
@@ -20363,7 +20361,7 @@ entries:
     tagline: Agentic research assistant with local LLMs, SearXNG and encrypted libraries
     summary: Runs multi-step research across the web, academic engines and your own documents using Ollama or any OpenAI-compatible endpoint, with a LangGraph agent that picks engines adaptively and writes cited reports. Each user gets an AES-256 SQLCipher database, and egress scopes limit which engines and providers a run may use. Web UI on port 5000 via Docker, Compose or pip, for privacy-focused researchers.
     categories:
-      - search
+      - rag-knowledge
     strengths:
       - Reports about 95% SimpleQA fully local on one RTX 3090 with Qwen3.6-27B
       - Per-user SQLCipher databases; keys derived from the password, never stored
@@ -20400,7 +20398,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 63
+    score: 60
   - id: morphic
     repo: miurla/morphic
     name: Morphic
@@ -20408,7 +20406,7 @@ entries:
     tagline: AI answer engine with cited search results and generative UI components
     summary: Morphic is a Next.js (TypeScript) AI search app that answers queries with cited sources and renders results as inline components streamed from a JSON spec. It supports OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway and OpenAI-compatible models, with Tavily, SearXNG, Brave or Exa for search. Chat history lives in PostgreSQL, and Docker Compose bundles Postgres, Redis and SearXNG.
     categories:
-      - search
+      - rag-knowledge
       - chat-ui
     strengths:
       - Docker Compose bundles SearXNG, so no search API key is required
@@ -20454,7 +20452,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 75
+    score: 74
   - id: maestro
     repo: murtaza-nasir/maestro
     name: MAESTRO
@@ -20462,7 +20460,7 @@ entries:
     tagline: Multi-agent research platform that writes long reports from documents and web
     summary: Planning, Research, Reflection and Writing agents run research missions over uploaded PDF, Word and Markdown documents and web search, producing long reports with visible agent steps. Retrieval uses BGE-M3 embeddings in PostgreSQL with pgvector; any OpenAI-compatible API, including Azure OpenAI, can serve the models. Docker Compose stack on http://localhost with CPU and NVIDIA variants.
     categories:
-      - search
+      - rag-knowledge
     strengths:
       - Mission checkpoints allow pause, resume and writing-phase recovery
       - Local embeddings (BGE-M3) and pgvector; local LLMs via OpenAI-compatible API
@@ -20508,7 +20506,7 @@ entries:
     tagline: Tracing, prompt management and evals for LLM apps on ClickHouse
     summary: Ingests traces of LLM calls, retrieval and agent steps via Python and JS/TS SDKs or drop-in OpenAI, LangChain, LlamaIndex, LiteLLM and Vercel AI SDK integrations, then adds prompt versioning with caching, LLM-as-a-judge and code evaluators, datasets and a playground. Stores data in ClickHouse; deploys with docker compose, Helm on Kubernetes, or Terraform for AWS, Azure and GCP. For teams debugging and evaluating LLM apps.
     categories:
-      - observability
+      - gateways
     strengths:
       - Public OpenAPI spec, Postman collection and typed Python and JS/TS SDKs
       - Prompt management with server and client caching adds no request latency
@@ -20541,7 +20539,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 75
+    score: 73
   - id: mlflow
     repo: mlflow/mlflow
     name: MLflow
@@ -20549,7 +20547,7 @@ entries:
     tagline: Tracing, evals, prompt registry and AI gateway plus classic ML tracking
     summary: Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ frameworks via one-line autolog, runs evaluations with 50+ metrics and LLM judges, versions and optimizes prompts, and fronts providers through an OpenAI-compatible AI Gateway with rate limits, fallbacks and traffic splitting. Keeps the original experiment tracking, model registry and deployment tooling. For teams wanting one platform for GenAI and ML.
     categories:
-      - observability
+      - gateways
     strengths:
       - One-line autolog for 60+ frameworks in Python, TypeScript and Java; MCP and OTel native
       - Starts with uvx mlflow server; no separate database needed to begin
@@ -20582,7 +20580,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 72
+    score: 71
   - id: promptfoo
     repo: promptfoo/promptfoo
     name: promptfoo
@@ -20590,7 +20588,7 @@ entries:
     tagline: CLI for evaluating and red-teaming prompts, agents and RAG
     summary: Runs prompt and model evaluations from a YAML config via promptfoo eval, compares providers side by side, and generates red-team vulnerability reports; promptfoo view opens a local web viewer. Installs with npm, Homebrew or pip, runs in CI/CD, and can scan pull requests for LLM security issues, for developers testing prompts and agents before release.
     categories:
-      - observability
+      - gateways
     strengths:
       - Evals run locally; prompts stay on your machine
       - Red-team scans produce vulnerability reports alongside quality evals
@@ -20638,7 +20636,7 @@ entries:
     tagline: Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end
     summary: Logs trace trees for LLM calls, tool executions and agent steps via Python and TypeScript SDKs, OpenTelemetry or framework integrations, then runs datasets, experiments and LLM-as-a-judge metrics for hallucination, moderation and RAG quality, with online evaluation rules in production. Self-hosts with ./opik.sh (Docker Compose, UI on port 5173) or a Helm chart. For ML engineers moving agents to production.
     categories:
-      - observability
+      - gateways
     strengths:
       - Full platform (backend, web app, evals, prompt management) under Apache-2.0
       - Designed for 40M+ traces per day; online evaluation rules on production traffic
@@ -20671,7 +20669,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 66
+    score: 65
   - id: phoenix
     repo: arize-ai/phoenix
     name: Phoenix
@@ -20679,7 +20677,7 @@ entries:
     tagline: LLM tracing, evaluation and prompt management built on OpenTelemetry
     summary: Phoenix collects OpenTelemetry/OpenInference traces from LLM applications and provides evaluations, versioned datasets, experiments, a prompt playground and prompt version management. It also includes a built-in agent (PXI) and a remote MCP endpoint at /mcp for clients such as Claude Code and Cursor. It installs with pip or uvx, or runs from a Docker image or Helm chart.
     categories:
-      - observability
+      - gateways
       - agent-platforms
     strengths:
       - Auto-instrumentation via OpenInference for OpenAI, Anthropic, LangGraph, LlamaIndex, CrewAI, DSPy and others
@@ -20718,7 +20716,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 70
+    score: 71
   - id: helicone
     repo: helicone/helicone
     name: Helicone
@@ -20726,7 +20724,7 @@ entries:
     tagline: LLM proxy gateway with request logging, cost tracking and sessions
     summary: "Sits as an OpenAI-compatible gateway in front of 100+ models with routing and automatic fallbacks, logging every request with cost, latency and session traces, plus a playground and prompt versioning. Self-hosts via a compose script that runs six services: web app, Jawn log server, Workers proxy, Supabase, ClickHouse and MinIO. For engineers who want observability by swapping an endpoint."
     categories:
-      - observability
+      - gateways
     strengths:
       - "One-line integration: point the OpenAI SDK baseURL at the gateway"
       - Async logging path via OpenLLMetry for apps that cannot proxy
@@ -20763,7 +20761,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 45
+    score: 44
   - id: langwatch
     repo: langwatch/langwatch
     name: LangWatch
@@ -20771,7 +20769,7 @@ entries:
     tagline: LLM tracing, evals, gateway and governance platform for agents and coding assistants
     summary: LangWatch traces LLM calls and runs agent simulation tests, evaluations and prompt management. It also includes an OpenAI and Anthropic compatible gateway with virtual keys and budgets, plus tracking for coding agents such as Claude Code and Codex. Self-hosting starts with `npx @langwatch/server`, which needs only Node.js.
     categories:
-      - observability
+      - gateways
     strengths:
       - Integrates with LangChain, LangGraph, Vercel AI SDK, CrewAI, DSPy and OpenTelemetry
       - Tracks coding agents (Claude Code, Codex, Copilot, opencode) with cost per pull request
@@ -20809,7 +20807,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 62
+    score: 61
   - id: agenta
     repo: agenta-ai/agenta
     name: Agenta
@@ -20817,7 +20815,7 @@ entries:
     tagline: Team workspace for building chat-driven agents that run in Slack and WhatsApp
     summary: Lets teams create agents by describing work in chat, connect tools through MCP or Composio, set per-agent read or write permissions, and talk to them from the web app, Slack, Telegram or WhatsApp. Agents keep memory and skills, run on schedules or events, and each session gets a sandbox with a browser and filesystem; every run is traced and costed. Runs Claude Code, Pi or Codex harnesses on API models, Ollama or a Claude or ChatGPT subscription.
     categories:
-      - observability
+      - gateways
     strengths:
       - Runs on an existing Claude or ChatGPT subscription instead of metered API billing
       - Per-agent tool permissions with read or write scopes and human-in-the-loop gates
@@ -20863,7 +20861,7 @@ entries:
     tagline: Agent observability that groups failures and dispatches coding agents to fix them
     summary: Captures traces, sessions and tool calls via a one-line SDK (TypeScript, Python) or OpenTelemetry, groups failing traces into tracked signals, then dispatches Claude Code or Cursor with those traces to open a fix PR and replays fixes against regression datasets. The UI is also reachable from an MCP server and CLI; self-hosts from Docker Hub images via Compose or Helm. For teams operating agents in production.
     categories:
-      - observability
+      - gateways
     strengths:
       - Signals auto-group failing traces with status, size and trend
       - Agent Dispatch sends sample traces to Claude Code or Cursor via Linear or webhooks
@@ -20900,7 +20898,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 60
+    score: 61
   - id: lmnr
     repo: lmnr-ai/lmnr
     name: Laminar
@@ -20908,7 +20906,7 @@ entries:
     tagline: Rust-based agent tracing with SQL queries, signals and evals
     summary: OpenTelemetry-native tracing for Vercel AI SDK, LangChain, OpenAI, Anthropic, Gemini and more with one line of SDK code, stored in ClickHouse and queried with SQL from the UI, MCP server or CLI. Signals watch every run for behaviors described in plain English and ping Slack; evals run from an SDK and CLI. docker compose up serves the UI on port 5667, for teams debugging browser and tool-using agents.
     categories:
-      - observability
+      - gateways
     strengths:
       - "Signals: describe a failure in plain English and get a Slack ping when it occurs"
       - SQL over traces, spans, metrics and events, also from your coding agent via MCP
@@ -20955,7 +20953,7 @@ entries:
     tagline: Prompt management, observability and caching for LLM apps
     summary: Stores and versions prompts, logs requests with cost and latency, and caches LLM responses, exposed through Node.js and Python clients and a LangChain integration. Runs on PostgreSQL, ClickHouse, Redis and SuperTokens via Docker Compose, with a GraphQL API server and a console UI. For small teams that want prompt delivery without code changes.
     categories:
-      - observability
+      - gateways
     strengths:
       - Prompts delivered from the console without redeploying application code
       - Built-in response caching to cut repeated-call cost and latency
@@ -21000,7 +20998,7 @@ entries:
     tagline: OpenTelemetry-based tracing, evals and guardrails for LLM apps and coding agents
     summary: OpenLIT is a self-hosted dashboard plus Python and TypeScript SDKs that auto-instrument LLM providers, frameworks and vector databases, and export OpenTelemetry GenAI traces and metrics to ClickHouse. It adds cost tracking, LLM-as-a-judge evals, a versioned Prompt Hub, a Rule Engine, Vault for API keys, runtime guardrails, and GPU monitoring. A CLI installs tracing for Claude Code, Cursor, Codex and OpenCode.
     categories:
-      - observability
+      - gateways
       - agent-platforms
     strengths:
       - Follows OpenTelemetry GenAI conventions; OTLP on 4317 (gRPC) and 4318 (HTTP)
@@ -21052,7 +21050,6 @@ entries:
     tagline: Tracing, evals, simulation, guardrails and an LLM gateway for AI agents
     summary: Future AGI is a Django and Go platform that traces agents over OpenTelemetry, scores outputs with 50+ evaluators, simulates multi-turn conversations, and applies guardrail scanners. It also ships an OpenAI-compatible gateway with routing, caching and virtual keys, plus prompt-optimization algorithms. The default install runs one app container with Postgres and ClickHouse; a distributed Compose setup and a Helm chart cover larger deployments.
     categories:
-      - observability
       - gateways
     strengths:
       - OTel tracing with instrumentors for 50+ frameworks in Python, TypeScript, Java and C#

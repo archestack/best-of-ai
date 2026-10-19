@@ -21,7 +21,6 @@ body:
         - agent-platforms
         - automation
         - rag-knowledge
-        - search
         - voice
         - image-video
         - security
@@ -32,7 +31,6 @@ body:
         - training
         - ml-frameworks
         - gateways
-        - observability
         - vector-db
         - sandboxes
         - data-tools
