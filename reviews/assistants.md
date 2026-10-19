@@ -4,26 +4,8 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 
 <sub>🌐 Also on the web: [Assistants on archestack.com](https://archestack.com/best-of-ai/assistants/), each project on its own page.</sub>
 
-<a name="openclaw"></a>
-### 🥇 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 392k · MIT · Oct 2026</sub>
-
-**Personal AI assistant reachable through Discord, Slack, Telegram, WhatsApp and more.**
-
-OpenClaw runs a local Gateway that connects an AI assistant to 20+ messaging channels, including iMessage, Teams and Signal, with native apps for macOS, iOS, Android, Windows and Linux. State, memory and credentials stay on your hardware, and models and agent harnesses such as Claude, Codex or local models are swappable plugins. The same Gateway can serve one user or a shared team deployment.
-
-- **+** Connects to 20+ messaging channels plus native apps on five desktop and mobile platforms
-- **+** Model providers and agent harnesses are plugins, with hosted and local models supported
-- **+** No paid tier or hosted service; only a daily version check phones home, and it can be disabled
-- **+** Skills and plugins extend it through a plugin SDK and the ClawHub registry
-- **−** Tools run on the host for the main session unless sandboxing is configured
-- **−** Prompts still go to whichever model provider and chat platforms you configure
-- **−** Requires Node 24.16+ or 26.1+; plain npm install from the source repo is unsupported
-- **−** Exposing the Gateway or adding users needs careful reading of the security guides
-
-<sub>GPU optional · Docker + Compose · Needs Node.js 24.16+ or 26.1+, model provider account or local model · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs ↗](https://docs.openclaw.ai) · [🌐 Site ↗](https://openclaw.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw/)</sub>
-
 <a name="nanobot"></a>
-### 🥈 [nanobot](https://github.com/hkuds/nanobot) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
+### 🥇 [nanobot](https://github.com/hkuds/nanobot) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 
 **Self-hosted Python personal agent with WebUI, TUI and chat-app channels.**
 
@@ -41,7 +23,7 @@ nanobot is a Python agent framework you run yourself and use from a browser WebU
 <sub>no GPU · Docker + Compose · Needs Python 3.11+, model provider or local model server · Models: OpenAI-compatible APIs, Ollama, vLLM · port 8765 · [Repo](https://github.com/hkuds/nanobot) · [📖 Docs ↗](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview) · [🌐 Site ↗](https://nanobot.wiki/docs/latest/getting-started/nanobot-overview) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nanobot/)</sub>
 
 <a name="openhuman"></a>
-### 🥉 [openhuman](https://github.com/tinyhumansai/openhuman) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (67) · Agent-ready: ready (100) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Oct 2026</sub>
+### 🥈 [openhuman](https://github.com/tinyhumansai/openhuman) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: easy (67) · Agent-ready: ready (100) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Oct 2026</sub>
 
 **Rust agent harness with desktop app, built-in memory and embeddable library.**
 
@@ -58,8 +40,26 @@ OpenHuman is a single-process Rust agent harness shipped as a desktop app (macOS
 
 <sub>GPU optional · Docker + Compose · Needs Composio (OAuth integrations), Ollama / LM Studio / MLX (optional local models), Docker (optional sandbox) · Models: Ollama, LM Studio, MLX, OpenAI-compatible APIs, 26 BYOK providers · [Repo](https://github.com/tinyhumansai/openhuman) · [📖 Docs ↗](https://tinyhumans.gitbook.io/openhuman/) · [🌐 Site ↗](https://tinyhumans.ai/openhuman) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openhuman/)</sub>
 
+<a name="openclaw"></a>
+### 🥉 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 392k · MIT · Oct 2026</sub>
+
+**Personal AI assistant reachable through Discord, Slack, Telegram, WhatsApp and more.**
+
+OpenClaw runs a local Gateway that connects an AI assistant to 20+ messaging channels, including iMessage, Teams and Signal, with native apps for macOS, iOS, Android, Windows and Linux. State, memory and credentials stay on your hardware, and models and agent harnesses such as Claude, Codex or local models are swappable plugins. The same Gateway can serve one user or a shared team deployment.
+
+- **+** Connects to 20+ messaging channels plus native apps on five desktop and mobile platforms
+- **+** Model providers and agent harnesses are plugins, with hosted and local models supported
+- **+** No paid tier or hosted service; only a daily version check phones home, and it can be disabled
+- **+** Skills and plugins extend it through a plugin SDK and the ClawHub registry
+- **−** Tools run on the host for the main session unless sandboxing is configured
+- **−** Prompts still go to whichever model provider and chat platforms you configure
+- **−** Requires Node 24.16+ or 26.1+; plain npm install from the source repo is unsupported
+- **−** Exposing the Gateway or adding users needs careful reading of the security guides
+
+<sub>GPU optional · Docker + Compose · Needs Node.js 24.16+ or 26.1+, model provider account or local model · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs ↗](https://docs.openclaw.ai) · [🌐 Site ↗](https://openclaw.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw/)</sub>
+
 <a name="career-ops"></a>
-### #&#8288;4 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 75k · MIT · Oct 2026</sub>
+### #&#8288;4 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · MIT · Oct 2026</sub>
 
 **Job-search agent that scores postings against your CV and drafts applications.**
 
@@ -328,7 +328,7 @@ Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Wor
 <sub>Docker + Compose · Compose runs PostgreSQL, SearXNG · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/khoj/)</sub>
 
 <a name="agenticseek"></a>
-### #&#8288;19 [agenticseek](https://github.com/fosowl/agenticseek) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;19 [agenticseek](https://github.com/fosowl/agenticseek) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (63) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · GPL-3.0 · Oct 2026</sub>
 
 **Local agent that browses the web, writes code and plans tasks.**
 

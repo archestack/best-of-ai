@@ -41,7 +41,7 @@ Hindsight stores agent memories in banks and extracts facts, entities and timest
 <sub>Docker · Needs LLM provider (hosted or local), PostgreSQL (embedded pg0 by default), Oracle AI Database (optional) · Models: openai, anthropic, gemini, groq, bedrock · port 9999 · [Repo](https://github.com/vectorize-io/hindsight) · [📖 Docs ↗](https://hindsight.vectorize.io) · [🌐 Site ↗](https://hindsight.vectorize.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hindsight/)</sub>
 
 <a name="cognee"></a>
-### 🥉 [Cognee](https://github.com/topoteretes/cognee) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [Cognee](https://github.com/topoteretes/cognee) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
 
 **Memory engine that turns documents and code into a knowledge graph.**
 
@@ -238,8 +238,26 @@ Memory service behind a proxy: point an agent's base URL at it and it extracts l
 
 <sub>Docker · Needs Node.js >=22.16, LLM API (memory and proxy parameter sets), MongoDB (experimental, optional) · Models: Configurable LLM via .env (providers unknown) · port 8125 · [Repo](https://github.com/tencentcloud/tencentdb-agent-memory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tencentdb-agent-memory/)</sub>
 
+<a name="letta"></a>
+### #&#8288;14 [Letta](https://github.com/letta-ai/letta-code) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Oct 2026</sub>
+
+**Stateful agent harness with git-tracked memory, channels and remote computers.**
+
+Letta Code is an npm-installed agent harness whose agents keep memory blocks, skills and prompts in a git-tracked MemFS and rewrite them over time. Agents run from a CLI, desktop app, browser (chat.letta.com) or Telegram, Slack and Discord channels, use subagents, hooks and cron schedules, and can run on remote machines via letta server. Letta Cloud is the default backend; local is available.
+
+- **+** All agent context including memory blocks is versioned in git (MemFS)
+- **+** Same agent reachable from CLI, desktop, browser, Telegram, Slack and Discord
+- **+** Skills installable from GitHub, ClawHub or the Hermes Skills Hub
+- **+** Apache-2.0; Nix flake and AUR packages available
+- **−** Letta Cloud is the default; remote computers and secrets require signing in
+- **−** Self-hosted app server setup is not described in the README; local backend only mentioned
+- **−** AgentFile export/import removed; agent registry imports no longer supported
+- **−** Automatic dreaming is disabled on native Windows by default
+
+<sub>no GPU · Docker · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com/letta-code/cli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letta/)</sub>
+
 <a name="everos"></a>
-### #&#8288;14 [everos](https://github.com/evermind-ai/everos) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;15 [everos](https://github.com/evermind-ai/everos) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **Local-first agent memory runtime that stores memories as Markdown files.**
 
@@ -257,7 +275,7 @@ EverOS is a Python library and HTTP server that stores agent conversations, file
 <sub>no GPU · Needs Python 3.12+, OpenRouter API key (or other LLM provider), LibreOffice (office documents only) · Models: OpenRouter-hosted LLMs (default openai/gpt-4.1-mini), Optional embedding and rerank providers, Optional multimodal model (default google/gemini-3.8-flash) · port 8000 · [Repo](https://github.com/evermind-ai/everos) · [📖 Docs ↗](https://docs.evermind.ai) · [🌐 Site ↗](https://evermind.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/everos/)</sub>
 
 <a name="honcho"></a>
-### #&#8288;15 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;16 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory server that builds per-peer representations from agent conversations.**
 
@@ -274,26 +292,8 @@ Honcho is a FastAPI memory service that stores messages on sessions, reasons ove
 
 <sub>no GPU · Docker · Needs Postgres, Redis, LLM provider API key (Gemini, Anthropic or OpenAI), Docker (for honcho start) · Models: Gemini, Anthropic, OpenAI · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk) · [🌐 Site ↗](https://honcho.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/honcho/)</sub>
 
-<a name="letta"></a>
-### #&#8288;16 [Letta](https://github.com/letta-ai/letta-code) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Oct 2026</sub>
-
-**Stateful agent harness with git-tracked memory, channels and remote computers.**
-
-Letta Code is an npm-installed agent harness whose agents keep memory blocks, skills and prompts in a git-tracked MemFS and rewrite them over time. Agents run from a CLI, desktop app, browser (chat.letta.com) or Telegram, Slack and Discord channels, use subagents, hooks and cron schedules, and can run on remote machines via letta server. Letta Cloud is the default backend; local is available.
-
-- **+** All agent context including memory blocks is versioned in git (MemFS)
-- **+** Same agent reachable from CLI, desktop, browser, Telegram, Slack and Discord
-- **+** Skills installable from GitHub, ClawHub or the Hermes Skills Hub
-- **+** Apache-2.0; Nix flake and AUR packages available
-- **−** Letta Cloud is the default; remote computers and secrets require signing in
-- **−** Self-hosted app server setup is not described in the README; local backend only mentioned
-- **−** AgentFile export/import removed; agent registry imports no longer supported
-- **−** Automatic dreaming is disabled on native Windows by default
-
-<sub>no GPU · Docker · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com/letta-code/cli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letta/)</sub>
-
 <a name="letta-ai-letta"></a>
-### #&#8288;17 [letta](https://github.com/letta-ai/letta) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (54) · Easy to run: hard (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;17 [letta](https://github.com/letta-ai/letta) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (56) · Easy to run: hard (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful agents with persistent memory, run from a terminal UI or App Server.**
 
