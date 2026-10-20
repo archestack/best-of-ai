@@ -113,7 +113,7 @@ Vibe-Trading is a Python agent (FastAPI backend, React 19 web UI, CLI, MCP) for 
 <sub>no GPU · Docker + Compose · Needs LLM provider (OpenRouter is the default), Market data sources, Broker APIs (optional) · Models: OpenRouter, Codex, Copilot, custom model endpoints · [Repo](https://github.com/hkuds/vibe-trading) · [📖 Docs ↗](https://vibetrading.wiki/docs/) · [🌐 Site ↗](https://vibetrading.wiki/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vibe-trading/)</sub>
 
 <a name="resume-matcher"></a>
-### #&#8288;7 [resume-matcher](https://github.com/srbhr/resume-matcher) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [resume-matcher](https://github.com/srbhr/resume-matcher) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Tailors resumes and cover letters to job descriptions using local or hosted LLMs.**
 
@@ -167,7 +167,7 @@ Kortix keeps agents, skills, memory, connectors and triggers as files in a git r
 <sub>no GPU · Needs Docker, Docker Hub, Pipedream, GitHub · Models: Any provider with your own API keys, ChatGPT subscription · README: alternative to ChatGPT · [Repo](https://github.com/kortix-ai/suna) · [📖 Docs ↗](https://kortix.com/docs) · [🌐 Site ↗](https://kortix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/suna/)</sub>
 
 <a name="autogpt"></a>
-### #&#8288;10 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: hard (17) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 188k · custom license · Oct 2026</sub>
+### #&#8288;10 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: hard (17) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 188k · custom license · Oct 2026</sub>
 
 **Block-based builder for agents that run on demand, schedule or trigger.**
 
@@ -185,7 +185,7 @@ AutoGPT Platform lets you describe a job in plain English (AutoPilot) or wire bl
 <sub>no GPU · Needs Docker · [Repo](https://github.com/significant-gravitas/autogpt) · [▶️ Demo ↗](https://platform.agpt.co/tour) · [📖 Docs ↗](https://docs.agpt.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autogpt/)</sub>
 
 <a name="paperclip"></a>
-### #&#8288;11 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: fair (74) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 104k · MIT · Oct 2026</sub>
+### #&#8288;11 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: fair (73) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 105k · MIT · Oct 2026</sub>
 
 **Task manager and org chart for teams of AI agents with budgets.**
 
@@ -292,26 +292,8 @@ OpenMontage is a set of pipelines, tools and stage skills that let a coding assi
 
 <sub>GPU optional · Needs Python 3.10+, FFmpeg, Node.js 18+, AI coding assistant, Remotion, HyperFrames · Models: wan2.2-ti2v-5b, wan2.1, hunyuan-1.5, ltx2-local, cogvideo-5b · [Repo](https://github.com/calesthio/openmontage) · [🌐 Site ↗](https://openmontage.video) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmontage/)</sub>
 
-<a name="trigger-dev"></a>
-### #&#8288;17 [trigger.dev](https://github.com/triggerdotdev/trigger.dev) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Oct 2026</sub>
-
-**TypeScript platform for durable background tasks and AI agent workflows.**
-
-Trigger.dev is a TypeScript SDK and runtime for writing long-running background tasks in your own codebase and deploying them to a managed cloud or a self-hosted instance. Tasks run without timeouts and get retries, queues, checkpointing, waitpoints for human approval, realtime streaming to frontends, and per-run tracing. Build extensions let tasks use system packages such as Python, FFmpeg and browsers.
-
-- **+** Tasks have no timeouts, with checkpointing and automatic retries for long AI jobs
-- **+** Waitpoints pause a run until a human approves, rejects or gives feedback
-- **+** Realtime API and React hooks stream run state and LLM output to the frontend
-- **+** Self-hostable with Docker Compose or an official Helm chart for Kubernetes
-- **−** Code-first and TypeScript/JavaScript only; no visual workflow builder
-- **−** Managed cloud is the primary path; self-hosting needs extra setup and services
-- **−** Not an agent framework; you bring your own LLM libraries and orchestration
-- **−** Self-hosting resource requirements are not stated in the README
-
-<sub>no GPU · Docker + Compose · [Repo](https://github.com/triggerdotdev/trigger.dev) · [📖 Docs ↗](https://trigger.dev/docs) · [🌐 Site ↗](https://trigger.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trigger-dev/)</sub>
-
 <a name="mindshub"></a>
-### #&#8288;18 [mindshub](https://github.com/mindsdb/mindshub) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: patchy (36) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Sep 2026</sub>
+### #&#8288;17 [mindshub](https://github.com/mindsdb/mindshub) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: patchy (40) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
 
 **Agent workspace for knowledge work, with swappable open agent harnesses.**
 
@@ -328,8 +310,26 @@ Superproject that builds the MindsHub desktop (Electron) and web app, agent back
 
 <sub>Docker + Compose · Needs make, uv, Python 3.10-3.13, Electron · Models: Claude, GPT, Gemini, DeepSeek, Qwen · [Repo](https://github.com/mindsdb/mindshub) · [▶️ Demo ↗](https://console.mindshub.ai/) · [📖 Docs ↗](https://docs.mindshub.ai/) · [🌐 Site ↗](https://mindshub.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mindshub/)</sub>
 
+<a name="trigger-dev"></a>
+### #&#8288;18 [trigger.dev](https://github.com/triggerdotdev/trigger.dev) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Oct 2026</sub>
+
+**TypeScript platform for durable background tasks and AI agent workflows.**
+
+Trigger.dev is a TypeScript SDK and runtime for writing long-running background tasks in your own codebase and deploying them to a managed cloud or a self-hosted instance. Tasks run without timeouts and get retries, queues, checkpointing, waitpoints for human approval, realtime streaming to frontends, and per-run tracing. Build extensions let tasks use system packages such as Python, FFmpeg and browsers.
+
+- **+** Tasks have no timeouts, with checkpointing and automatic retries for long AI jobs
+- **+** Waitpoints pause a run until a human approves, rejects or gives feedback
+- **+** Realtime API and React hooks stream run state and LLM output to the frontend
+- **+** Self-hostable with Docker Compose or an official Helm chart for Kubernetes
+- **−** Code-first and TypeScript/JavaScript only; no visual workflow builder
+- **−** Managed cloud is the primary path; self-hosting needs extra setup and services
+- **−** Not an agent framework; you bring your own LLM libraries and orchestration
+- **−** Self-hosting resource requirements are not stated in the README
+
+<sub>no GPU · Docker + Compose · [Repo](https://github.com/triggerdotdev/trigger.dev) · [📖 Docs ↗](https://trigger.dev/docs) · [🌐 Site ↗](https://trigger.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trigger-dev/)</sub>
+
 <a name="mirofish"></a>
-### #&#8288;19 [mirofish](https://github.com/666ghj/mirofish) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: widely used (87) · Freshness: active (96) · Maintenance: fair (52) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;19 [mirofish](https://github.com/666ghj/mirofish) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: widely used (87) · Freshness: active (96) · Maintenance: patchy (49) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 81k · AGPL-3.0 · Oct 2026</sub>
 
 **Multi-agent social simulation engine that predicts outcomes from seed documents.**
 
@@ -383,7 +383,7 @@ AX is a Go CLI and control plane that schedules agent workloads on Kubernetes th
 <sub>Docker · Needs Kubernetes, Agent Substrate, Redis, ko, kubectl, container registry · Models: Google Gemini · [Repo](https://github.com/google/ax) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ax/)</sub>
 
 <a name="opencreator"></a>
-### #&#8288;22 [opencreator](https://github.com/krillinai/opencreator) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: hard (17) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;22 [opencreator](https://github.com/krillinai/opencreator) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: hard (17) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
 
 **Creator workspace for video translation, image and video generation, built on Codex CLI.**
 
@@ -437,7 +437,7 @@ RD-Agent splits automated R&D into a research agent that proposes ideas and a de
 <sub>Needs Docker, Conda, Qlib, LiteLLM, LLM API with embeddings · Models: OpenAI, Azure OpenAI, DeepSeek, LiteLLM providers, SiliconFlow embeddings · [Repo](https://github.com/microsoft/rd-agent) · [▶️ Demo ↗](https://rdagent.azurewebsites.net) · [📖 Docs ↗](https://rdagent.readthedocs.io/en/latest/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rd-agent/)</sub>
 
 <a name="ui-tars-desktop"></a>
-### #&#8288;25 [ui-tars-desktop](https://github.com/bytedance/ui-tars-desktop) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: patchy (39) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;25 [ui-tars-desktop](https://github.com/bytedance/ui-tars-desktop) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: patchy (38) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Oct 2026</sub>
 
 **Multimodal agent stack: terminal/Web UI agent and a desktop GUI agent.**
 

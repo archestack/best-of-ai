@@ -77,7 +77,7 @@ Morphic is a Next.js (TypeScript) AI search app that answers queries with cited 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Tavily, Brave, Exa, Supabase · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic) · [📖 Docs ↗](https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphic/)</sub>
 
 <a name="open-notebook"></a>
-### #&#8288;5 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (68) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
+### #&#8288;5 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (65) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
 
 **Self-hosted NotebookLM alternative with podcasts and 20+ model providers.**
 
@@ -221,7 +221,7 @@ PrivateGPT 1.0 is an API server shaped like the Anthropic Messages API, adding f
 <sub>no GPU · Docker · Needs OpenAI-compatible inference server (Ollama, llama.cpp, vLLM) · Models: any model behind an OpenAI-compatible /v1/chat/completions endpoint · port 8080 · [Repo](https://github.com/zylon-ai/private-gpt) · [📖 Docs ↗](https://docs.privategpt.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/private-gpt/)</sub>
 
 <a name="graphrag"></a>
-### #&#8288;13 [graphrag](https://github.com/microsoft/graphrag) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Oct 2026</sub>
+### #&#8288;13 [graphrag](https://github.com/microsoft/graphrag) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Oct 2026</sub>
 
 **Pipeline that builds knowledge graphs from text for LLM question answering.**
 
@@ -256,26 +256,8 @@ PipesHub indexes content from 50+ business systems such as Slack, Google Drive, 
 
 <sub>GPU optional · Docker + Compose · Needs Docker Compose v2, Neo4j or ArangoDB, Qdrant, MongoDB, Redis, Kafka (larger deployments) · Models: Any LLM provider, Ollama local models, Local embedding server by default · port 3000 · [Repo](https://github.com/pipeshub-ai/pipeshub-ai) · [▶️ Demo ↗](https://youtu.be/VgyND38QZ7w) · [📖 Docs ↗](https://docs.pipeshub.com/) · [🌐 Site ↗](https://www.pipeshub.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pipeshub/)</sub>
 
-<a name="rag-anything"></a>
-### #&#8288;15 [rag-anything](https://github.com/hkuds/rag-anything) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
-
-**Python library for RAG over PDFs, Office files, images, tables and equations.**
-
-RAG-Anything is a Python framework built on LightRAG that parses mixed-content documents with MinerU, Docling or PaddleOCR. It runs separate processors for images, tables and equations, builds a multimodal knowledge graph, and answers queries with combined vector and graph retrieval. LLM, vision and embedding functions are supplied by the caller, with OpenAI-style examples.
-
-- **+** Handles images, tables and LaTeX equations with dedicated processors instead of text-only chunking
-- **+** Selectable parsers: MinerU, Docling or PaddleOCR
-- **+** Can insert pre-parsed content lists, skipping document parsing
-- **+** VLM-enhanced query mode sends document images to a vision model
-- **−** Library only; the visible README shows no web UI, server or user accounts
-- **−** Office formats require a separate LibreOffice install
-- **−** Needs external LLM and vision model functions that you wire up yourself
-- **−** RAM and GPU requirements are not stated; MinerU models download on first use
-
-<sub>Needs LightRAG, MinerU, LibreOffice (Office files), Pillow (image extra), ReportLab (text extra) · Models: OpenAI-compatible LLM, vision and embedding functions · [Repo](https://github.com/hkuds/rag-anything) · [🌐 Site ↗](https://github.com/HKUDS/RAG-Anything) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rag-anything/)</sub>
-
 <a name="docsgpt"></a>
-### #&#8288;16 [docsgpt](https://github.com/arc53/docsgpt) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
+### #&#8288;15 [docsgpt](https://github.com/arc53/docsgpt) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
 
 **Builds agents and workflows that answer from your documents with citations.**
 
@@ -293,7 +275,7 @@ DocsGPT ingests documents, web pages and synced sources such as Google Drive, Co
 <sub>GPU optional · Docker + Compose · Needs Docker, PostgreSQL, Redis, Vector store (FAISS, pgvector, Elasticsearch, Qdrant, Milvus or MongoDB) · Models: OpenAI, Anthropic, Google, Groq, OpenRouter · port 7091 · [Repo](https://github.com/arc53/docsgpt) · [▶️ Demo ↗](https://app.docsgpt.cloud/) · [📖 Docs ↗](https://docs.docsgpt.cloud/) · [🌐 Site ↗](https://www.docsgpt.cloud) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docsgpt/)</sub>
 
 <a name="local-deep-research"></a>
-### #&#8288;17 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · MIT · Oct 2026</sub>
+### #&#8288;16 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · MIT · Oct 2026</sub>
 
 **Agentic research assistant with local LLMs, SearXNG and encrypted libraries.**
 
@@ -310,8 +292,26 @@ Runs multi-step research across the web, academic engines and your own documents
 
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, SQLCipher (bundled wheels) · Models: Ollama models (e.g. gpt-oss:20b, Qwen3.6-27B), any OpenAI-compatible endpoint · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-research/)</sub>
 
+<a name="rag-anything"></a>
+### #&#8288;17 [rag-anything](https://github.com/hkuds/rag-anything) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
+
+**Python library for RAG over PDFs, Office files, images, tables and equations.**
+
+RAG-Anything is a Python framework built on LightRAG that parses mixed-content documents with MinerU, Docling or PaddleOCR. It runs separate processors for images, tables and equations, builds a multimodal knowledge graph, and answers queries with combined vector and graph retrieval. LLM, vision and embedding functions are supplied by the caller, with OpenAI-style examples.
+
+- **+** Handles images, tables and LaTeX equations with dedicated processors instead of text-only chunking
+- **+** Selectable parsers: MinerU, Docling or PaddleOCR
+- **+** Can insert pre-parsed content lists, skipping document parsing
+- **+** VLM-enhanced query mode sends document images to a vision model
+- **−** Library only; the visible README shows no web UI, server or user accounts
+- **−** Office formats require a separate LibreOffice install
+- **−** Needs external LLM and vision model functions that you wire up yourself
+- **−** RAM and GPU requirements are not stated; MinerU models download on first use
+
+<sub>Needs LightRAG, MinerU, LibreOffice (Office files), Pillow (image extra), ReportLab (text extra) · Models: OpenAI-compatible LLM, vision and embedding functions · [Repo](https://github.com/hkuds/rag-anything) · [🌐 Site ↗](https://github.com/HKUDS/RAG-Anything) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rag-anything/)</sub>
+
 <a name="paperless-gpt"></a>
-### #&#8288;18 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · MIT · Oct 2026</sub>
+### #&#8288;18 [paperless-gpt](https://github.com/icereed/paperless-gpt) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · MIT · Oct 2026</sub>
 
 **LLM-based OCR, titles, tags and document linking for paperless-ngx.**
 
@@ -329,7 +329,7 @@ paperless-gpt is a Go service that sits next to paperless-ngx and uses an LLM to
 <sub>GPU optional · Docker + Compose · Needs paperless-ngx, OpenAI, Anthropic, Mistral or Ollama LLM provider, Docker · Models: OpenAI, Azure OpenAI, Mistral, Anthropic, Ollama · port 8080 · [Repo](https://github.com/icereed/paperless-gpt) · [📖 Docs ↗](https://github.com/icereed/paperless-gpt/blob/main/docs/workflows.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperless-gpt/)</sub>
 
 <a name="txtai"></a>
-### #&#8288;19 [txtai](https://github.com/neuml/txtai) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;19 [txtai](https://github.com/neuml/txtai) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **Python embeddings database with pipelines, workflows and agents for search and RAG.**
 
@@ -419,7 +419,7 @@ DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge base
 <sub>GPU optional · Docker + Compose · Compose runs MySQL · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/db-gpt) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/db-gpt/)</sub>
 
 <a name="deepwiki-open"></a>
-### #&#8288;24 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (36) · Freshness: active (100) · Maintenance: patchy (38) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Sep 2026</sub>
+### #&#8288;24 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (36) · Freshness: active (100) · Maintenance: patchy (39) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Sep 2026</sub>
 
 **Generates browsable wikis and diagrams for GitHub, GitLab and Bitbucket repos.**
 
@@ -471,7 +471,7 @@ Morphik Core is a retrieval engine for visually rich documents: it embeds page i
 <sub>no GPU · Docker + Compose · Compose runs Redis, PostgreSQL, Ollama · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [▶️ Demo ↗](https://dev.morphik.ai) · [📖 Docs ↗](https://dev.morphik.ai/docs) · [🌐 Site ↗](https://morphik.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphik/)</sub>
 
 <a name="kotaemon"></a>
-### #&#8288;27 [Kotaemon](https://github.com/cinnamon/kotaemon) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (56) · Freshness: active (87) · Maintenance: weak (3) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · Apache-2.0 · May 2026</sub>
+### #&#8288;27 [Kotaemon](https://github.com/cinnamon/kotaemon) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (56) · Freshness: active (87) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · Apache-2.0 · May 2026</sub>
 
 **Gradio RAG UI with hybrid retrieval, citations and multi-user login.**
 
@@ -489,7 +489,7 @@ Kotaemon is a Gradio web app for question answering over uploaded documents, wit
 <sub>no GPU · Docker · Needs Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant (optional stores), Unstructured (optional, for .doc/.docx and more) · Models: OpenAI, Azure OpenAI, Cohere, Groq, Ollama · port 7860 · [Repo](https://github.com/cinnamon/kotaemon) · [▶️ Demo ↗](https://huggingface.co/spaces/cin-model/kotaemon-demo) · [📖 Docs ↗](https://cinnamon.github.io/kotaemon/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kotaemon/)</sub>
 
 <a name="langchain-chatchat"></a>
-### #&#8288;28 [langchain-chatchat](https://github.com/chatchat-space/langchain-chatchat) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (74) · Freshness: quiet (6) · Maintenance: weak (18) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Nov 2025</sub>
+### #&#8288;28 [langchain-chatchat](https://github.com/chatchat-space/langchain-chatchat) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (74) · Freshness: quiet (5) · Maintenance: weak (18) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Nov 2025</sub>
 
 **Local knowledge-base Q&A and agent app built on LangChain.**
 
@@ -525,7 +525,7 @@ Paperless-AI watches a Paperless-ngx instance, sends new documents to OpenAI, Ol
 <sub>no GPU · Docker + Compose · Needs Paperless-ngx · Models: Ollama (Mistral, Llama, Phi-3, Gemma-2), OpenAI, DeepSeek, OpenRouter, Perplexity, Together, LiteLLM, vLLM, Fastchat, Gemini · [Repo](https://github.com/clusterzx/paperless-ai) · [📖 Docs ↗](https://github.com/clusterzx/paperless-ai/wiki/2.-Installation) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperless-ai/)</sub>
 
 <a name="maestro"></a>
-### #&#8288;30 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (0) · Freshness: recent (60) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
+### #&#8288;30 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (0) · Freshness: recent (59) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
 
 **Multi-agent research platform that writes long reports from documents and web.**
 

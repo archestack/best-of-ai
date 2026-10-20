@@ -5,7 +5,7 @@ Tools to fine-tune, train or distill models on your own data and GPUs, from LoRA
 <sub>🌐 Also on the web: [Training and fine-tuning on archestack.com](https://archestack.com/best-of-ai/training/), each project on its own page.</sub>
 
 <a name="unsloth"></a>
-### 🥇 [unsloth](https://github.com/unslothai/unsloth) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 78k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [unsloth](https://github.com/unslothai/unsloth) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 78k · Apache-2.0 · Oct 2026</sub>
 
 **Desktop and web app to run, fine-tune and export open models.**
 
@@ -41,7 +41,7 @@ DeepSpeed is a PyTorch optimization library for training large deep learning mod
 <sub>GPU optional · Docker · Needs PyTorch, CUDA or ROCm compiler (nvcc/hipcc), ninja · Models: PyTorch models, Hugging Face Transformers · [Repo](https://github.com/deepspeedai/deepspeed) · [📖 Docs ↗](https://deepspeed.readthedocs.io/en/latest/) · [🌐 Site ↗](https://www.deepspeed.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepspeed/)</sub>
 
 <a name="verl"></a>
-### 🥉 [verl](https://github.com/verl-project/verl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [verl](https://github.com/verl-project/verl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
 
 **Reinforcement learning training library for LLM post-training with PPO and GRPO.**
 
@@ -76,26 +76,8 @@ PEFT wraps a pretrained model with adapter methods such as LoRA, soft prompts an
 
 <sub>GPU optional · Docker · Needs PyTorch, Transformers · Models: LoRA, Soft prompts, IA3, QLoRA, Transformers models · [Repo](https://github.com/huggingface/peft) · [▶️ Demo ↗](https://huggingface.co/spaces/smangrul/peft-lora-sd-dreambooth) · [📖 Docs ↗](https://huggingface.co/docs/peft/main/en/index) · [🌐 Site ↗](https://huggingface.co/PEFT) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/peft/)</sub>
 
-<a name="trl"></a>
-### #&#8288;5 [trl](https://github.com/huggingface/trl) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
-
-**Post-training library with SFT, DPO, GRPO and KTO trainers.**
-
-TRL provides trainer classes (SFTTrainer, GRPOTrainer, DPOTrainer, KTOTrainer, RewardTrainer) that wrap the Hugging Face Transformers trainer for post-training language models. It scales through Accelerate with DDP, DeepSpeed ZeRO and FSDP, supports LoRA/QLoRA via PEFT, and ships a `trl` CLI for running SFT, DPO and KTO without code.
-
-- **+** Covers SFT, DPO, GRPO, KTO and reward modeling with one trainer API
-- **+** Scales from one GPU to multi-node via Accelerate, DDP, DeepSpeed and FSDP
-- **+** Integrates PEFT (LoRA/QLoRA) and Unsloth for training on modest hardware
-- **+** CLI commands (trl sft, dpo, kto) run fine-tuning without writing code
-- **−** Code-first Python library with no web UI
-- **−** Features under trl.experimental may change or be removed without notice
-- **−** Built around the Hugging Face Transformers ecosystem
-- **−** README gives no RAM or VRAM requirements
-
-<sub>GPU optional · Docker · Needs transformers, accelerate, peft, datasets, deepspeed, unsloth · Models: Hugging Face Transformers models, LoRA/QLoRA adapters, AWS Trainium (TorchNeuron) · [Repo](https://github.com/huggingface/trl) · [📖 Docs ↗](https://huggingface.co/docs/trl/index) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trl/)</sub>
-
 <a name="llamafactory"></a>
-### #&#8288;6 [llamafactory](https://github.com/hiyouga/llamafactory) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [llamafactory](https://github.com/hiyouga/llamafactory) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · Apache-2.0 · Oct 2026</sub>
 
 **Fine-tuning toolkit for 100+ LLMs with a CLI and Gradio web UI.**
 
@@ -111,6 +93,24 @@ LlamaFactory fine-tunes language and multimodal models through YAML-configured C
 - **−** Many optional backends (vLLM, SGLang, Unsloth, KTransformers) add install complexity
 
 <sub>GPU required · Docker + Compose · Needs PyTorch, Hugging Face Transformers, Gradio, vLLM (optional), SGLang (optional) · Models: LLaMA, LLaVA, Mistral, Mixtral-MoE, Qwen3 · [Repo](https://github.com/hiyouga/llamafactory) · [▶️ Demo ↗](https://huggingface.co/spaces/hiyouga/LLaMA-Board) · [📖 Docs ↗](https://llamafactory.readthedocs.io/en/latest/) · [🌐 Site ↗](https://blog.llamafactory.net/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llamafactory/)</sub>
+
+<a name="trl"></a>
+### #&#8288;6 [trl](https://github.com/huggingface/trl) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
+
+**Post-training library with SFT, DPO, GRPO and KTO trainers.**
+
+TRL provides trainer classes (SFTTrainer, GRPOTrainer, DPOTrainer, KTOTrainer, RewardTrainer) that wrap the Hugging Face Transformers trainer for post-training language models. It scales through Accelerate with DDP, DeepSpeed ZeRO and FSDP, supports LoRA/QLoRA via PEFT, and ships a `trl` CLI for running SFT, DPO and KTO without code.
+
+- **+** Covers SFT, DPO, GRPO, KTO and reward modeling with one trainer API
+- **+** Scales from one GPU to multi-node via Accelerate, DDP, DeepSpeed and FSDP
+- **+** Integrates PEFT (LoRA/QLoRA) and Unsloth for training on modest hardware
+- **+** CLI commands (trl sft, dpo, kto) run fine-tuning without writing code
+- **−** Code-first Python library with no web UI
+- **−** Features under trl.experimental may change or be removed without notice
+- **−** Built around the Hugging Face Transformers ecosystem
+- **−** README gives no RAM or VRAM requirements
+
+<sub>GPU optional · Docker · Needs transformers, accelerate, peft, datasets, deepspeed, unsloth · Models: Hugging Face Transformers models, LoRA/QLoRA adapters, AWS Trainium (TorchNeuron) · [Repo](https://github.com/huggingface/trl) · [📖 Docs ↗](https://huggingface.co/docs/trl/index) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trl/)</sub>
 
 <a name="megatron-lm"></a>
 ### #&#8288;7 [megatron-lm](https://github.com/nvidia/megatron-lm) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · custom license · Oct 2026</sub>
@@ -221,7 +221,7 @@ Agent Lightning is a roughly 3,500-line Python framework that trains agents with
 <sub>GPU required · Needs verl, vLLM, uv, Kubernetes (optional, for rollouts) · Models: Qwen3.5-9B, Qwen3.5-35B-A3B · [Repo](https://github.com/microsoft/agent-lightning) · [📖 Docs ↗](https://microsoft.github.io/agent-lightning/stable/) · [🌐 Site ↗](https://www.microsoft.com/en-us/research/project/agent-lightning/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-lightning/)</sub>
 
 <a name="colossalai"></a>
-### #&#8288;13 [colossalai](https://github.com/hpcaitech/colossalai) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (74) · Freshness: recent (73) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;13 [colossalai](https://github.com/hpcaitech/colossalai) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (74) · Freshness: recent (73) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Oct 2026</sub>
 
 **Distributed training library for large models with many parallelism strategies.**
 

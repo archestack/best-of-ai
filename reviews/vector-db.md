@@ -95,7 +95,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
 
 <a name="weaviate"></a>
-### #&#8288;6 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
+### #&#8288;6 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (71) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
 
 **Go vector database with built-in vectorizers, hybrid search and RAG.**
 
@@ -203,7 +203,7 @@ turbovec is a library that stores embeddings at 2 or 4 bits per dimension using 
 <sub>no GPU · [Repo](https://github.com/ryancodrai/turbovec) · [📖 Docs ↗](https://github.com/RyanCodrai/turbovec/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbovec/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;12 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
