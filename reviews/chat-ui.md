@@ -167,7 +167,7 @@ LibreChat is a self-hosted chat platform that fronts Anthropic, OpenAI, Azure, A
 <sub>no GPU · Docker + Compose · Compose runs MongoDB, Meilisearch, PostgreSQL · Models: Anthropic, OpenAI, Azure OpenAI, AWS Bedrock, Google · [Repo](https://github.com/librechat-ai/librechat) · [📖 Docs ↗](https://docs.librechat.ai) · [🌐 Site ↗](https://librechat.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/librechat/)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;10 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (62) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;10 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · AGPL-3.0 · Sep 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 

@@ -203,7 +203,7 @@ OpenCLIP is an open implementation of OpenAI's CLIP. It loads many pretrained im
 <sub>GPU optional · Needs PyTorch >=2.6, timm, Hugging Face Hub · Models: CLIP, SigLIP, SigLIP2, CoCa, MaMMUT · [Repo](https://github.com/mlfoundations/open_clip) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-clip/)</sub>
 
 <a name="lingbot-map"></a>
-### #&#8288;12 [lingbot-map](https://github.com/robbyant/lingbot-map) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [lingbot-map](https://github.com/robbyant/lingbot-map) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Oct 2026</sub>
 
 **Feed-forward streaming 3D reconstruction and camera pose model for video.**
 

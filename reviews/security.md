@@ -59,7 +59,7 @@ PentAGI takes a target and goal in plain language, then uses a team of specializ
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose, PostgreSQL with pgvector, Neo4j (optional), Langfuse (optional), Grafana/Prometheus (optional) · Models: OpenAI, Anthropic, Google Gemini, AWS Bedrock, Ollama · [Repo](https://github.com/vxcontrol/pentagi) · [🌐 Site ↗](https://vxcontrol.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentagi/)</sub>
 
 <a name="ifixai"></a>
-### #&#8288;4 [ifixai](https://github.com/ifixai-ai/ifixai) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [ifixai](https://github.com/ifixai-ai/ifixai) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Python CLI that audits AI agents for policy, access and reliability failures.**
 

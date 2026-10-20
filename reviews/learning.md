@@ -5,7 +5,7 @@ Courses, cookbooks and guides with runnable code, for learning to build with AI.
 <sub>🌐 Also on the web: [Learning and cookbooks on archestack.com](https://archestack.com/best-of-ai/learning/), each project on its own page.</sub>
 
 <a name="ai-engineering-from-scratch"></a>
-### 🥇 [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · MIT · Oct 2026</sub>
+### 🥇 [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · MIT · Oct 2026</sub>
 
 **Hands-on AI engineering curriculum with 542 lessons across 20 phases.**
 
@@ -41,7 +41,7 @@ A Microsoft Cloud Advocates course of 21 lessons, each a README with a short vid
 <sub>no GPU · Needs Azure OpenAI Service, OpenAI API, Microsoft Foundry Models, Foundry Local, GitHub account · Models: Azure OpenAI, OpenAI, Microsoft Foundry Models, Foundry Local, Hugging Face open models · [Repo](https://github.com/microsoft/generative-ai-for-beginners) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/generative-ai-for-beginners/)</sub>
 
 <a name="ai-agents-for-beginners"></a>
-### 🥉 [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · MIT · Oct 2026</sub>
+### 🥉 [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 78k · MIT · Oct 2026</sub>
 
 **18-lesson course on building AI agents with Microsoft Agent Framework.**
 
@@ -327,26 +327,8 @@ A Microsoft course on the Model Context Protocol, organized as numbered modules 
 
 <sub>no GPU · Needs Azure (some modules), PostgreSQL (module 11) · [Repo](https://github.com/microsoft/mcp-for-beginners) · [📖 Docs ↗](https://modelcontextprotocol.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-for-beginners/)</sub>
 
-<a name="learnopencv"></a>
-### #&#8288;19 [learnopencv](https://github.com/spmallick/learnopencv) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 23k · no license · Oct 2026</sub>
-
-**Code for LearnOpenCV blog tutorials on computer vision and deep learning.**
-
-Per-article code folders for the LearnOpenCV.com blog, mostly Jupyter notebooks plus Python and C++ examples. Topics run from classic OpenCV (contours, calibration, optical flow, homography) to YOLO26, RF-DETR, SAM 3, VLMs, RAG and edge deployment on Jetson and Arduino. Maintained by BigVision.AI, a consulting company.
-
-- **+** Covers classic OpenCV and recent models (YOLO26, SAM 3, Qwen3-VL) in one repo
-- **+** Many tutorials provide both Python and C++ versions
-- **+** Each blog post links to its own code folder
-- **+** Active: last commit 2026-10-06, last release 2026-08-29
-- **−** No license declared, so reuse terms are unclear
-- **−** Several recent posts list no code folder
-- **−** Each folder has its own dependencies; no shared environment or Docker setup
-- **−** Meant to be read alongside the blog, not used as a library
-
-<sub>GPU optional · Needs OpenCV, Python, C++ · Models: YOLO26, RF-DETR, SAM 3, Qwen3-VL, MiniCPM-o 4.5 · [Repo](https://github.com/spmallick/learnopencv) · [🌐 Site ↗](https://www.LearnOpenCV.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learnopencv/)</sub>
-
 <a name="cookbook"></a>
-### #&#8288;20 [cookbook](https://github.com/google-gemini/cookbook) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;19 [cookbook](https://github.com/google-gemini/cookbook) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Oct 2026</sub>
 
 **Jupyter notebook tutorials for the Gemini API, from basics to Live API and agents.**
 
@@ -362,6 +344,24 @@ Official Google collection of Colab-ready notebooks for the hosted Gemini API. Q
 - **−** Notebooks are tied to current Gemini model names and may go stale
 
 <sub>no GPU · Needs Gemini API key (Google AI Studio), Google account, Google Colab (optional) · Models: Gemini, Veo, Lyria, Nano-Banana · [Repo](https://github.com/google-gemini/cookbook) · [📖 Docs ↗](https://ai.google.dev/gemini-api/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cookbook/)</sub>
+
+<a name="learnopencv"></a>
+### #&#8288;20 [learnopencv](https://github.com/spmallick/learnopencv) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 23k · no license · Oct 2026</sub>
+
+**Code for LearnOpenCV blog tutorials on computer vision and deep learning.**
+
+Per-article code folders for the LearnOpenCV.com blog, mostly Jupyter notebooks plus Python and C++ examples. Topics run from classic OpenCV (contours, calibration, optical flow, homography) to YOLO26, RF-DETR, SAM 3, VLMs, RAG and edge deployment on Jetson and Arduino. Maintained by BigVision.AI, a consulting company.
+
+- **+** Covers classic OpenCV and recent models (YOLO26, SAM 3, Qwen3-VL) in one repo
+- **+** Many tutorials provide both Python and C++ versions
+- **+** Each blog post links to its own code folder
+- **+** Active: last commit 2026-10-06, last release 2026-08-29
+- **−** No license declared, so reuse terms are unclear
+- **−** Several recent posts list no code folder
+- **−** Each folder has its own dependencies; no shared environment or Docker setup
+- **−** Meant to be read alongside the blog, not used as a library
+
+<sub>GPU optional · Needs OpenCV, Python, C++ · Models: YOLO26, RF-DETR, SAM 3, Qwen3-VL, MiniCPM-o 4.5 · [Repo](https://github.com/spmallick/learnopencv) · [🌐 Site ↗](https://www.LearnOpenCV.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learnopencv/)</sub>
 
 <a name="happy-llm"></a>
 ### #&#8288;21 [happy-llm](https://github.com/datawhalechina/happy-llm) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: popular (62) · Freshness: active (93) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Aug 2026</sub>

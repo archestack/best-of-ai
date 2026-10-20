@@ -41,7 +41,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 <sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meilisearch/)</sub>
 
 <a name="qdrant"></a>
-### 🥉 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Oct 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -113,7 +113,7 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weaviate/)</sub>
 
 <a name="zvec"></a>
-### #&#8288;7 [zvec](https://github.com/alibaba/zvec) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [zvec](https://github.com/alibaba/zvec) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **In-process vector database library with hybrid and full-text search.**
 

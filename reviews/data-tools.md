@@ -5,7 +5,7 @@ Tools that turn web pages, PDFs and documents into clean text or structured data
 <sub>🌐 Also on the web: [Data and scraping for AI on archestack.com](https://archestack.com/best-of-ai/data-tools/), each project on its own page.</sub>
 
 <a name="mineru"></a>
-### 🥇 [mineru](https://github.com/opendatalab/mineru) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 82k · custom license · Oct 2026</sub>
+### 🥇 [mineru](https://github.com/opendatalab/mineru) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 82k · custom license · Oct 2026</sub>
 
 **Document parser that converts PDFs, images and Office files to Markdown and JSON.**
 
@@ -77,7 +77,7 @@ MarkItDown is a Python library and CLI that converts PDF, Word, PowerPoint, Exce
 <sub>no GPU · Docker · Needs Python 3.10-3.14, Azure Document Intelligence (optional), Azure Content Understanding (optional), OpenAI-compatible client (optional) · Models: OpenAI-compatible vision models (e.g. gpt-4o) · [Repo](https://github.com/microsoft/markitdown) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/markitdown/)</sub>
 
 <a name="label-studio"></a>
-### #&#8288;5 [label-studio](https://github.com/humansignal/label-studio) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (38) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [label-studio](https://github.com/humansignal/label-studio) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (38) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Multi-user data labeling tool for audio, text, images, video and time series.**
 
@@ -203,7 +203,7 @@ The unstructured library parses documents such as PDF, HTML, Word, email and ima
 <sub>Docker · Needs poppler-utils, tesseract-ocr, libmagic-dev, libreoffice · [Repo](https://github.com/unstructured-io/unstructured) · [📖 Docs ↗](https://docs.unstructured.io) · [🌐 Site ↗](https://unstructured.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unstructured/)</sub>
 
 <a name="paddleocr"></a>
-### #&#8288;12 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: weak (29) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 91k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;12 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: weak (29) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 91k · Apache-2.0 · Sep 2026</sub>
 
 **OCR and document parsing toolkit that outputs Markdown and JSON from PDFs and images.**
 
@@ -239,7 +239,7 @@ Marker is a Python library and CLI that converts PDF, image, PPTX, DOCX, XLSX, H
 <sub>GPU optional · Needs PyTorch, Python 3.10+, vLLM via Docker with NVIDIA Container Toolkit (GPU), llama.cpp llama-server (CPU / Apple Silicon), optional LLM service for --use_llm · Models: surya VLM, Gemini, Claude, OpenAI-compatible, Azure · [Repo](https://github.com/datalab-to/marker) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/marker/)</sub>
 
 <a name="opendataloader-pdf"></a>
-### #&#8288;14 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;14 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: hard (0) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **PDF parser that outputs Markdown, JSON with bounding boxes, and Tagged PDF.**
 

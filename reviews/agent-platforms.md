@@ -275,7 +275,7 @@ Agent Zero runs an agent inside a Docker container with an XFCE desktop, a built
 <sub>GPU optional · Docker + Compose · Needs Docker, LLM provider · Models: OpenAI Codex plan via OAuth, Local models, API LLM providers · port 80 · [Repo](https://github.com/agent0ai/agent-zero) · [📖 Docs ↗](https://www.agent-zero.ai/p/docs/a0-cli-connector/) · [🌐 Site ↗](https://agent-zero.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-zero/)</sub>
 
 <a name="openmontage"></a>
-### #&#8288;16 [openmontage](https://github.com/calesthio/openmontage) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: patchy (41) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;16 [openmontage](https://github.com/calesthio/openmontage) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: patchy (41) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · AGPL-3.0 · Oct 2026</sub>
 
 **Agent-driven video production pipelines run from your AI coding assistant.**
 
@@ -383,7 +383,7 @@ AX is a Go CLI and control plane that schedules agent workloads on Kubernetes th
 <sub>Docker · Needs Kubernetes, Agent Substrate, Redis, ko, kubectl, container registry · Models: Google Gemini · [Repo](https://github.com/google/ax) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ax/)</sub>
 
 <a name="opencreator"></a>
-### #&#8288;22 [opencreator](https://github.com/krillinai/opencreator) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: hard (17) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;22 [opencreator](https://github.com/krillinai/opencreator) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: hard (17) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
 
 **Creator workspace for video translation, image and video generation, built on Codex CLI.**
 

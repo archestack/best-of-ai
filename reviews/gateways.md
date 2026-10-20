@@ -94,26 +94,8 @@ Ingests traces of LLM calls, retrieval and agent steps via Python and JS/TS SDKs
 
 <sub>no GPU · Compose · Needs ClickHouse · [Repo](https://github.com/langfuse/langfuse) · [▶️ Demo ↗](https://langfuse.com/demo) · [📖 Docs ↗](https://langfuse.com/docs) · [🌐 Site ↗](https://langfuse.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langfuse/)</sub>
 
-<a name="mlflow"></a>
-### #&#8288;6 [MLflow](https://github.com/mlflow/mlflow) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Oct 2026</sub>
-
-**Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
-
-Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ frameworks via one-line autolog, runs evaluations with 50+ metrics and LLM judges, versions and optimizes prompts, and fronts providers through an OpenAI-compatible AI Gateway with rate limits, fallbacks and traffic splitting. Keeps the original experiment tracking, model registry and deployment tooling. For teams wanting one platform for GenAI and ML.
-
-- **+** One-line autolog for 60+ frameworks in Python, TypeScript and Java; MCP and OTel native
-- **+** Starts with uvx mlflow server; no separate database needed to begin
-- **+** AI Gateway adds credential management, guardrails and A/B traffic splitting
-- **+** Setup wizard lets Claude Code, Codex or OpenCode add tracing to a project
-- **−** README covers the quickstart; production backend store and auth setup live in docs
-- **−** Broad scope (ML tracking plus GenAI) means a large install and UI surface
-- **−** No Dockerfile or compose file at the repo root
-- **−** TypeScript and Java coverage is smaller than Python (5 TS and 2 Java frameworks listed)
-
-<sub>no GPU · Docker + Compose · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mlflow/)</sub>
-
 <a name="promptfoo"></a>
-### #&#8288;7 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Oct 2026</sub>
+### #&#8288;6 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Oct 2026</sub>
 
 **CLI for evaluating and red-teaming prompts, agents and RAG.**
 
@@ -131,7 +113,7 @@ Runs prompt and model evaluations from a YAML config via promptfoo eval, compare
 <sub>no GPU · Docker · Needs Node.js (npm) or Python (pip), LLM provider API key or Ollama · Models: OpenAI, Anthropic, Azure, Bedrock, Ollama · [Repo](https://github.com/promptfoo/promptfoo) · [📖 Docs ↗](https://www.promptfoo.dev/docs/) · [🌐 Site ↗](https://www.promptfoo.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/promptfoo/)</sub>
 
 <a name="phoenix"></a>
-### #&#8288;8 [Phoenix](https://github.com/arize-ai/phoenix) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Oct 2026</sub>
+### #&#8288;7 [Phoenix](https://github.com/arize-ai/phoenix) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Oct 2026</sub>
 
 **LLM tracing, evaluation and prompt management built on OpenTelemetry.**
 
@@ -147,6 +129,24 @@ Phoenix collects OpenTelemetry/OpenInference traces from LLM applications and pr
 - **−** TypeScript evals package is labelled alpha
 
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Google GenAI, AWS Bedrock, OpenRouter · [Repo](https://github.com/arize-ai/phoenix) · [📖 Docs ↗](https://arize.com/docs/phoenix/) · [🌐 Site ↗](https://phoenix.arize.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/phoenix/)</sub>
+
+<a name="mlflow"></a>
+### #&#8288;8 [MLflow](https://github.com/mlflow/mlflow) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Oct 2026</sub>
+
+**Tracing, evals, prompt registry and AI gateway plus classic ML tracking.**
+
+Single mlflow server (port 5000) that records OpenTelemetry traces from 60+ frameworks via one-line autolog, runs evaluations with 50+ metrics and LLM judges, versions and optimizes prompts, and fronts providers through an OpenAI-compatible AI Gateway with rate limits, fallbacks and traffic splitting. Keeps the original experiment tracking, model registry and deployment tooling. For teams wanting one platform for GenAI and ML.
+
+- **+** One-line autolog for 60+ frameworks in Python, TypeScript and Java; MCP and OTel native
+- **+** Starts with uvx mlflow server; no separate database needed to begin
+- **+** AI Gateway adds credential management, guardrails and A/B traffic splitting
+- **+** Setup wizard lets Claude Code, Codex or OpenCode add tracing to a project
+- **−** README covers the quickstart; production backend store and auth setup live in docs
+- **−** Broad scope (ML tracking plus GenAI) means a large install and UI surface
+- **−** No Dockerfile or compose file at the repo root
+- **−** TypeScript and Java coverage is smaller than Python (5 TS and 2 Java frameworks listed)
+
+<sub>no GPU · Docker + Compose · Models: any LLM provider via autolog or the AI Gateway · port 5000 · [Repo](https://github.com/mlflow/mlflow) · [▶️ Demo ↗](https://demo.mlflow.org/) · [📖 Docs ↗](https://mlflow.org/docs/latest) · [🌐 Site ↗](https://mlflow.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mlflow/)</sub>
 
 <a name="mcp-context-forge"></a>
 ### #&#8288;9 [ContextForge MCP Gateway](https://github.com/ibm/mcp-context-forge) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Oct 2026</sub>
@@ -203,7 +203,7 @@ OpenLIT is a self-hosted dashboard plus Python and TypeScript SDKs that auto-ins
 <sub>GPU optional · Compose · Needs ClickHouse, Docker Compose · Models: OpenAI, Anthropic, Ollama, vLLM, Amazon Bedrock · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/) · [🌐 Site ↗](https://openlit.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openlit/)</sub>
 
 <a name="gomodel"></a>
-### #&#8288;12 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Oct 2026</sub>
+### #&#8288;12 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Oct 2026</sub>
 
 **Go AI gateway with OpenAI and Anthropic APIs, caching and budgets.**
 
@@ -221,7 +221,7 @@ GoModel is a Go AI gateway (install script or container on port 8080) exposing O
 <sub>no GPU · Docker + Compose · Needs Redis, PostgreSQL, MongoDB (Compose infrastructure) · Models: OpenAI, Anthropic, xAI, Gemini, Vertex AI, Cohere, DeepSeek, Groq, Fireworks, OpenRouter, Azure OpenAI, Bedrock, Ollama, SGLang, vLLM, llm-d, ElevenLabs and any OpenAI-compatible provider · port 8080 · [Repo](https://github.com/enterpilot/gomodel) · [▶️ Demo ↗](https://demo.enterpilot.io/admin/dashboard) · [📖 Docs ↗](https://gomodel.enterpilot.io/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gomodel/)</sub>
 
 <a name="bifrost"></a>
-### #&#8288;13 [Bifrost](https://github.com/maximhq/bifrost) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;13 [Bifrost](https://github.com/maximhq/bifrost) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Oct 2026</sub>
 
 **Go AI gateway with web UI, fallbacks, budgets and semantic caching.**
 
@@ -419,7 +419,7 @@ Lets teams create agents by describing work in chat, connect tools through MCP o
 <sub>no GPU · Needs Claude Code, Pi or Codex harness, LLM API, Ollama, or a Claude or ChatGPT subscription, Composio (optional, 1,000+ app integrations) · Models: hosted models via API, Ollama, Claude and ChatGPT subscriptions · [Repo](https://github.com/agenta-ai/agenta) · [📖 Docs ↗](https://agenta.ai/docs/) · [🌐 Site ↗](https://agenta.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agenta/)</sub>
 
 <a name="helicone"></a>
-### #&#8288;24 [Helicone](https://github.com/helicone/helicone) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (26) · Freshness: recent (80) · Maintenance: patchy (34) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;24 [Helicone](https://github.com/helicone/helicone) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (26) · Freshness: recent (80) · Maintenance: patchy (35) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
 
 **LLM proxy gateway with request logging, cost tracking and sessions.**
 
