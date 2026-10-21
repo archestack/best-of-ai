@@ -7,22 +7,23 @@ Workflow and integration platforms with AI steps or agent nodes, for wiring mode
 <a name="n8n"></a>
 ### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 208k · custom license · Oct 2026</sub>
 
-**Visual workflow automation with code steps, AI agent nodes and 1500+ integrations.**
+**Visual workflow automation with AI agent nodes and 1500+ integrations.**
 
-n8n is a fair-code workflow platform that runs as one Docker container (docker.n8n.io/n8nio/n8n, port 5678) and combines a visual canvas with JavaScript, Python and npm code nodes. AI agent and workflow nodes connect to OpenAI, Anthropic, Google or open-source models, with human-approval steps and observability, and 1500+ integrations plus 9,000+ templates cover the rest of the stack.
+n8n is a node-based canvas for building workflows and multi-step AI agents, with JavaScript, Python and npm packages usable inside nodes. It connects to OpenAI, Anthropic, Google and open-source models, and lists 1500+ integrations and 9,000+ workflow templates. It runs self-hosted or on n8n Cloud, under the Sustainable Use License rather than an OSI license.
 
-- **+** 1500+ integrations and 9,000+ ready-made workflow templates
-- **+** Code nodes run JavaScript or Python and can pull npm packages
-- **+** Single container on port 5678 with one data volume
-- **+** Switch model providers without rebuilding the workflow
-- **−** Sustainable Use License (fair-code, source-available), not an OSI license
-- **−** Some features require a separate n8n Enterprise License
-- **−** README states no database, RAM or CPU requirements
+- **+** 1500+ integrations and 9,000+ templates cover most common SaaS wiring
+- **+** Visual canvas with JavaScript, Python and npm code when needed
+- **+** Model-agnostic: OpenAI, Anthropic, Google or open-source models
+- **+** Supports human approvals and observability for multi-step AI workflows
+- **−** Fair-code Sustainable Use License, not OSI open source; use is restricted
+- **−** Role-based access and audit trails fall under the Enterprise License
+- **−** RAM and CPU requirements are not stated in the README
+- **−** Documented quick start requires Docker
 
-<sub>no GPU · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
+<sub>no GPU · Needs Docker · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
@@ -40,7 +41,7 @@ Activepieces is a no-code workflow builder with loops, branches, auto retries, H
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/activepieces/)</sub>
 
 <a name="banana-slides"></a>
-### 🥉 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (13) · Freshness: active (94) · Maintenance: healthy (99) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Oct 2026</sub>
+### 🥉 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (19) · Freshness: active (94) · Maintenance: healthy (99) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Oct 2026</sub>
 
 **AI slide deck generator that exports PPTX, PDF and narrated video.**
 
