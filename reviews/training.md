@@ -41,7 +41,7 @@ DeepSpeed is a PyTorch optimization library for training large deep learning mod
 <sub>GPU optional · Docker · Needs PyTorch, CUDA or ROCm compiler (nvcc/hipcc), ninja · Models: PyTorch models, Hugging Face Transformers · [Repo](https://github.com/deepspeedai/deepspeed) · [📖 Docs ↗](https://deepspeed.readthedocs.io/en/latest/) · [🌐 Site ↗](https://www.deepspeed.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepspeed/)</sub>
 
 <a name="verl"></a>
-### 🥉 [verl](https://github.com/verl-project/verl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [verl](https://github.com/verl-project/verl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
 
 **Reinforcement learning training library for LLM post-training with PPO and GRPO.**
 
@@ -95,7 +95,7 @@ LlamaFactory fine-tunes language and multimodal models through YAML-configured C
 <sub>GPU required · Docker + Compose · Needs PyTorch, Hugging Face Transformers, Gradio, vLLM (optional), SGLang (optional) · Models: LLaMA, LLaVA, Mistral, Mixtral-MoE, Qwen3 · [Repo](https://github.com/hiyouga/llamafactory) · [▶️ Demo ↗](https://huggingface.co/spaces/hiyouga/LLaMA-Board) · [📖 Docs ↗](https://llamafactory.readthedocs.io/en/latest/) · [🌐 Site ↗](https://blog.llamafactory.net/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llamafactory/)</sub>
 
 <a name="trl"></a>
-### #&#8288;6 [trl](https://github.com/huggingface/trl) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [trl](https://github.com/huggingface/trl) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
 
 **Post-training library with SFT, DPO, GRPO and KTO trainers.**
 
@@ -130,26 +130,8 @@ Megatron Core is a Python library of transformer building blocks with tensor, pi
 
 <sub>GPU required · Docker · Needs PyTorch, NVIDIA GPUs, NGC container (optional) · Models: GPT, Mixture-of-Experts, DeepSeek-V3, Qwen3, Mixtral · [Repo](https://github.com/nvidia/megatron-lm) · [📖 Docs ↗](https://docs.nvidia.com/megatron-core/developer-guide/latest/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/megatron-lm/)</sub>
 
-<a name="minimind"></a>
-### #&#8288;8 [minimind](https://github.com/jingyaogong/minimind) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (88) · Freshness: active (85) · Maintenance: fair (51) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 64k · Apache-2.0 · Sep 2026</sub>
-
-**Train a 64M-parameter LLM from scratch in plain PyTorch.**
-
-MiniMind is a from-scratch implementation of a small Qwen3-style decoder-only LLM (64M dense, 198M-A64M MoE) with each training stage written in native PyTorch: pretrain, SFT, LoRA, DPO, PPO/GRPO/CISPO, agentic RL and distillation. It ships datasets, a 6,400-token tokenizer, an OpenAI-compatible server and a Streamlit chat UI. The README states one SFT epoch takes about 2 hours on a single 3090.
-
-- **+** Core algorithms (LoRA, DPO, PPO/GRPO) written in plain PyTorch, not wrapped from trl or peft
-- **+** Open datasets for each stage, with mini variants (1.2GB pretrain, 1.6GB SFT) for quick runs
-- **+** Weights convert to transformers, llama.cpp, vllm and ollama; ollama and vllm usage is documented
-- **+** Checkpoint resume, DDP and DeepSpeed multi-GPU, wandb or swanlab logging
-- **−** Models are tiny (64M), so output quality is far below mainstream LLMs
-- **−** README is primarily in Chinese; the English version is a separate file
-- **−** Training data is largely synthetic and distilled, with mixed source licenses
-- **−** Native MoE training is about 50% slower than dense, per the README
-
-<sub>GPU optional · Needs PyTorch, transformers, streamlit (optional WebUI), swanlab or wandb (optional) · Models: minimind-3 (64M), minimind-3-moe (198M-A64M), minimind2 series, Transformers format, llama.cpp · [Repo](https://github.com/jingyaogong/minimind) · [▶️ Demo ↗](https://www.modelscope.cn/studios/gongjy/MiniMind) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minimind/)</sub>
-
 <a name="heretic"></a>
-### #&#8288;9 [heretic](https://github.com/p-e-w/heretic) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;8 [heretic](https://github.com/p-e-w/heretic) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Oct 2026</sub>
 
 **Removes refusal behavior from transformer language models via automated abliteration.**
 
@@ -165,6 +147,24 @@ Heretic applies directional ablation (abliteration) to the attention out-project
 - **−** README metrics come from one RTX 5090 setup and may vary by hardware
 
 <sub>GPU optional · Needs Python 3.10+, PyTorch 2.2+, Optuna, bitsandbytes (optional), Hugging Face · Models: Hugging Face transformer models (dense), MoE, multimodal, hybrid (Qwen3.5), MXFP4 (gpt-oss, needs PyTorch 2.6+) · [Repo](https://github.com/p-e-w/heretic) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/heretic/)</sub>
+
+<a name="minimind"></a>
+### #&#8288;9 [minimind](https://github.com/jingyaogong/minimind) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (88) · Freshness: active (85) · Maintenance: fair (51) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 64k · Apache-2.0 · Sep 2026</sub>
+
+**Train a 64M-parameter LLM from scratch in plain PyTorch.**
+
+MiniMind is a from-scratch implementation of a small Qwen3-style decoder-only LLM (64M dense, 198M-A64M MoE) with each training stage written in native PyTorch: pretrain, SFT, LoRA, DPO, PPO/GRPO/CISPO, agentic RL and distillation. It ships datasets, a 6,400-token tokenizer, an OpenAI-compatible server and a Streamlit chat UI. The README states one SFT epoch takes about 2 hours on a single 3090.
+
+- **+** Core algorithms (LoRA, DPO, PPO/GRPO) written in plain PyTorch, not wrapped from trl or peft
+- **+** Open datasets for each stage, with mini variants (1.2GB pretrain, 1.6GB SFT) for quick runs
+- **+** Weights convert to transformers, llama.cpp, vllm and ollama; ollama and vllm usage is documented
+- **+** Checkpoint resume, DDP and DeepSpeed multi-GPU, wandb or swanlab logging
+- **−** Models are tiny (64M), so output quality is far below mainstream LLMs
+- **−** README is primarily in Chinese; the English version is a separate file
+- **−** Training data is largely synthetic and distilled, with mixed source licenses
+- **−** Native MoE training is about 50% slower than dense, per the README
+
+<sub>GPU optional · Needs PyTorch, transformers, streamlit (optional WebUI), swanlab or wandb (optional) · Models: minimind-3 (64M), minimind-3-moe (198M-A64M), minimind2 series, Transformers format, llama.cpp · [Repo](https://github.com/jingyaogong/minimind) · [▶️ Demo ↗](https://www.modelscope.cn/studios/gongjy/MiniMind) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minimind/)</sub>
 
 <a name="ms-swift"></a>
 ### #&#8288;10 [ms-swift](https://github.com/modelscope/ms-swift) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
@@ -239,7 +239,7 @@ Agent Lightning is a roughly 3,500-line Python framework that trains agents with
 <sub>GPU required · Needs verl, vLLM, uv, Kubernetes (optional, for rollouts) · Models: Qwen3.5-9B, Qwen3.5-35B-A3B · [Repo](https://github.com/microsoft/agent-lightning) · [📖 Docs ↗](https://microsoft.github.io/agent-lightning/stable/) · [🌐 Site ↗](https://www.microsoft.com/en-us/research/project/agent-lightning/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-lightning/)</sub>
 
 <a name="weclone"></a>
-### #&#8288;14 [weclone](https://github.com/xming521/weclone) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (32) · Freshness: active (91) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;14 [weclone](https://github.com/xming521/weclone) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (31) · Freshness: active (91) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · AGPL-3.0 · Oct 2026</sub>
 
 **Fine-tunes a Qwen VL model on your Telegram chats to build a chat avatar.**
 
@@ -275,7 +275,7 @@ nanochat covers tokenizer training, pretraining, SFT, RL, evaluation and a CLI c
 <sub>GPU required · Needs PyTorch, uv, wandb · Models: nanochat GPT (depth-scaled), bfloat16, float32, float16 · [Repo](https://github.com/karpathy/nanochat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nanochat/)</sub>
 
 <a name="ml-agents"></a>
-### #&#8288;16 [ml-agents](https://github.com/unity-technologies/ml-agents) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (42) · Freshness: active (81) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Oct 2026</sub>
+### #&#8288;16 [ml-agents](https://github.com/unity-technologies/ml-agents) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (42) · Freshness: active (81) · Maintenance: patchy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Oct 2026</sub>
 
 **Train game agents with reinforcement learning inside Unity environments.**
 
@@ -329,7 +329,7 @@ Easy Dataset parses PDF, Markdown, DOCX, TXT and EPUB files, splits them into ch
 <sub>no GPU · Docker + Compose · Needs OpenAI-compatible LLM API or Ollama · Models: OpenAI-compatible APIs, Ollama, OpenRouter, Zhipu AI, Alibaba Bailian · port 1717 · [Repo](https://github.com/conardli/easy-dataset) · [📖 Docs ↗](https://docs.easy-dataset.com/ed/en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easy-dataset/)</sub>
 
 <a name="paddlenlp"></a>
-### #&#8288;19 [paddlenlp](https://github.com/paddlepaddle/paddlenlp) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (8) · Freshness: recent (55) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
+### #&#8288;19 [paddlenlp](https://github.com/paddlepaddle/paddlenlp) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (8) · Freshness: recent (54) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
 
 **LLM training, fine-tuning, compression and inference toolkit on PaddlePaddle.**
 

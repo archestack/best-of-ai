@@ -23,7 +23,7 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 <sub>GPU optional · Compose · Compose runs Milvus, MinIO · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [▶️ Demo ↗](https://milvus.io/milvus-demos) · [📖 Docs ↗](https://milvus.io/docs) · [🌐 Site ↗](https://milvus.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/milvus/)</sub>
 
 <a name="meilisearch"></a>
-### 🥈 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (80) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Oct 2026</sub>
+### 🥈 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Oct 2026</sub>
 
 **Rust search engine API with full-text, vector and hybrid search.**
 
@@ -41,7 +41,7 @@ Meilisearch is a Rust search engine with a REST API that combines full-text sear
 <sub>no GPU · Docker · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meilisearch/)</sub>
 
 <a name="qdrant"></a>
-### 🥉 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Oct 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -149,7 +149,7 @@ LEANN is a Python vector database that stores a pruned graph and recomputes embe
 <sub>GPU optional · Docker · Needs uv, Ollama or OpenAI-compatible API (optional, for generation) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [▶️ Demo ↗](https://colab.research.google.com/github/yichuan-w/LEANN/blob/main/demo.ipynb) · [📖 Docs ↗](https://github.com/yichuan-w/LEANN/blob/main/docs/configuration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
 
 <a name="helix-db"></a>
-### #&#8288;9 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (95) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;9 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
 
 **Rust graph database with native vector and BM25 search.**
 

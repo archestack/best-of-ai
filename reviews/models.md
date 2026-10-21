@@ -77,7 +77,7 @@ NVIDIA NeMo Speech is a Python/PyTorch toolkit for building speech models: autom
 <sub>GPU required · Docker · Needs PyTorch 2.7+, CUDA, Python 3.12+ · Models: Parakeet, Canary, Nemotron-Speech-Streaming, MagpieTTS, Canary-Qwen-2.5B · [Repo](https://github.com/nvidia-nemo/speech) · [▶️ Demo ↗](https://huggingface.co/spaces/nvidia/magpie_tts_multilingual_demo) · [📖 Docs ↗](https://docs.nvidia.com/nemo/speech/nightly/) · [🌐 Site ↗](https://huggingface.co/collections/nvidia/nemotron-speech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/speech/)</sub>
 
 <a name="insightface"></a>
-### #&#8288;5 [insightface](https://github.com/deepinsight/insightface) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 30k · no license · Oct 2026</sub>
+### #&#8288;5 [insightface](https://github.com/deepinsight/insightface) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 30k · no license · Oct 2026</sub>
 
 **Face detection, recognition and alignment toolbox with ArcFace and RetinaFace models.**
 
@@ -167,7 +167,7 @@ ACE-Step 1.5 generates full songs from text prompts and lyrics using a Qwen3-bas
 <sub>GPU optional · Docker + Compose · Needs uv, Python 3.11-3.12, Gradio · Models: ACE-Step DiT 2B (base, sft, turbo), ACE-Step XL DiT 4B (base, sft, turbo), acestep-5Hz-lm 0.6B/1.7B/4B (Qwen3-based), LoRA adapters · port 7860 · [Repo](https://github.com/ace-step/ace-step-1.5) · [▶️ Demo ↗](https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5) · [📖 Docs ↗](https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md) · [🌐 Site ↗](https://ace-step.github.io/ace-step-v1.5.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ace-step-1-5/)</sub>
 
 <a name="kronos"></a>
-### #&#8288;10 [kronos](https://github.com/shiyu-coder/kronos) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (88) · Freshness: recent (64) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Apr 2026</sub>
+### #&#8288;10 [kronos](https://github.com/shiyu-coder/kronos) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (89) · Freshness: recent (63) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Apr 2026</sub>
 
 **Pretrained decoder-only models that forecast financial candlestick (K-line) series.**
 
@@ -203,7 +203,7 @@ OpenCLIP is an open implementation of OpenAI's CLIP. It loads many pretrained im
 <sub>GPU optional · Needs PyTorch >=2.6, timm, Hugging Face Hub · Models: CLIP, SigLIP, SigLIP2, CoCa, MaMMUT · [Repo](https://github.com/mlfoundations/open_clip) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-clip/)</sub>
 
 <a name="lingbot-map"></a>
-### #&#8288;12 [lingbot-map](https://github.com/robbyant/lingbot-map) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [lingbot-map](https://github.com/robbyant/lingbot-map) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Oct 2026</sub>
 
 **Feed-forward streaming 3D reconstruction and camera pose model for video.**
 
@@ -239,7 +239,7 @@ Repository for OpenAI's gpt-oss-120b (117B parameters, 5.1B active) and gpt-oss-
 <sub>RAM ≥ 16 GB · GPU optional · Needs Hugging Face Hub, openai-harmony, You.com or Exa API (browser tool) · Models: gpt-oss-120b, gpt-oss-20b, MXFP4, SafeTensors · [Repo](https://github.com/openai/gpt-oss) · [▶️ Demo ↗](https://gpt-oss.com) · [📖 Docs ↗](https://cookbook.openai.com/topic/gpt-oss) · [🌐 Site ↗](https://openai.com/open-models/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-oss/)</sub>
 
 <a name="mamba"></a>
-### #&#8288;14 [mamba](https://github.com/state-spaces/mamba) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (37) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;14 [mamba](https://github.com/state-spaces/mamba) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (37) · Freshness: active (100) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Jul 2026</sub>
 
 **Reference PyTorch code for Mamba, Mamba-2 and Mamba-3 state space models.**
 
@@ -275,7 +275,7 @@ OmniParser detects interactable regions in UI screenshots with a YOLO-based dete
 <sub>Needs conda, Python 3.12, Hugging Face model weights, Gradio · Models: YOLOv9-E icon detector, Florence icon captioner, OpenAI 4o/o1/o3-mini, DeepSeek R1, Qwen 2.5VL · [Repo](https://github.com/microsoft/omniparser) · [▶️ Demo ↗](https://huggingface.co/spaces/microsoft/OmniParser-v2) · [🌐 Site ↗](https://microsoft.github.io/OmniParser/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omniparser/)</sub>
 
 <a name="clip"></a>
-### #&#8288;16 [clip](https://github.com/openai/clip) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (77) · Freshness: recent (57) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Mar 2026</sub>
+### #&#8288;16 [clip](https://github.com/openai/clip) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (77) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Mar 2026</sub>
 
 **OpenAI's reference PyTorch code and weights for contrastive image-text embeddings.**
 
@@ -347,7 +347,7 @@ Repository for the original Qwen base and chat models at 1.8B, 7B, 14B and 72B, 
 <sub>GPU optional · Docker · Needs PyTorch, Transformers, flash-attention (optional), vLLM (optional), FastChat (optional) · Models: Qwen-1.8B, Qwen-7B, Qwen-14B, Qwen-72B, Qwen-Chat · [Repo](https://github.com/qwenlm/qwen) · [▶️ Demo ↗](https://modelscope.cn/studios/qwen/Qwen-72B-Chat-Demo/summary) · [📖 Docs ↗](https://arxiv.org/abs/2309.16609) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwen/)</sub>
 
 <a name="rwkv-lm"></a>
-### #&#8288;20 [rwkv-lm](https://github.com/blinkdl/rwkv-lm) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (21) · Freshness: recent (70) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;20 [rwkv-lm](https://github.com/blinkdl/rwkv-lm) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (21) · Freshness: recent (70) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Sep 2026</sub>
 
 **Reference code for training and running RWKV, an attention-free RNN language model.**
 

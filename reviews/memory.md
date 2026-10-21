@@ -5,7 +5,7 @@ Long-term memory engines that store and retrieve facts for agents across session
 <sub>🌐 Also on the web: [Memory on archestack.com](https://archestack.com/best-of-ai/memory/), each project on its own page.</sub>
 
 <a name="gbrain"></a>
-### 🥇 [gbrain](https://github.com/garrytan/gbrain) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: very easy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### 🥇 [gbrain](https://github.com/garrytan/gbrain) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: very easy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Long-term memory store for coding agents, with sources and corrections.**
 
@@ -40,26 +40,8 @@ Hindsight stores agent memories in banks and extracts facts, entities and timest
 
 <sub>Docker · Needs LLM provider (hosted or local), PostgreSQL (embedded pg0 by default), Oracle AI Database (optional) · Models: openai, anthropic, gemini, groq, bedrock · port 9999 · [Repo](https://github.com/vectorize-io/hindsight) · [📖 Docs ↗](https://hindsight.vectorize.io) · [🌐 Site ↗](https://hindsight.vectorize.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hindsight/)</sub>
 
-<a name="cognee"></a>
-### 🥉 [Cognee](https://github.com/topoteretes/cognee) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
-
-**Memory engine that turns documents and code into a knowledge graph.**
-
-Cognee builds persistent agent memory by extracting entities, relationships and chunks from text, code and sessions into a graph and vector index with hybrid recall. Without an LLM key it uses local GLiNER extraction and embeddings; adding a key enables generated answers via OpenAI, Ollama or other providers. It runs as a library, CLI, REST API (port 8000), UI (3000) and MCP server (8001).
-
-- **+** Keyless mode: local GLiNER extraction and embeddings, no cloud LLM required
-- **+** Claude Code and Codex plugins, OpenClaw plugin, MCP server, Python, TypeScript and Rust SDKs
-- **+** Imports memory from Mem0, Letta, Zep or Graphiti via the COGX format
-- **+** Apache-2.0; research paper and BEAM evaluation published
-- **−** Single-Postgres graph store is a demo; production version is a licensed product
-- **−** API defaults to multi-tenant mode; local use needs ENABLE_BACKEND_ACCESS_CONTROL=false
-- **−** Bundled GLiNER extractor is a demo; higher-accuracy version requires contacting the vendor
-- **−** UI launcher needs Node.js/npm and Docker for its MCP service
-
-<sub>no GPU · Docker + Compose · Compose runs Neo4j, PostgreSQL, Redis · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs ↗](https://docs.cognee.ai/) · [🌐 Site ↗](https://cognee.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cognee/)</sub>
-
 <a name="mempalace"></a>
-### #&#8288;4 [MemPalace](https://github.com/mempalace/mempalace) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · MIT · Oct 2026</sub>
+### 🥉 [MemPalace](https://github.com/mempalace/mempalace) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · MIT · Oct 2026</sub>
 
 **Local long-term memory store for agents with verbatim storage and semantic search.**
 
@@ -75,6 +57,24 @@ MemPalace stores conversation history as verbatim text and retrieves it with sem
 - **−** GPU Docker image is not published and is x86_64-only
 
 <sub>GPU optional · Docker + Compose · Needs ChromaDB (default backend), ONNX Runtime, Optional: Milvus, Qdrant, PostgreSQL with pgvector · Models: all-MiniLM-L6-v2, embeddinggemma-300m, OpenAI-compatible /v1/embeddings endpoints · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mempalace/)</sub>
+
+<a name="cognee"></a>
+### #&#8288;4 [Cognee](https://github.com/topoteretes/cognee) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
+
+**Memory engine that turns documents and code into a knowledge graph.**
+
+Cognee builds persistent agent memory by extracting entities, relationships and chunks from text, code and sessions into a graph and vector index with hybrid recall. Without an LLM key it uses local GLiNER extraction and embeddings; adding a key enables generated answers via OpenAI, Ollama or other providers. It runs as a library, CLI, REST API (port 8000), UI (3000) and MCP server (8001).
+
+- **+** Keyless mode: local GLiNER extraction and embeddings, no cloud LLM required
+- **+** Claude Code and Codex plugins, OpenClaw plugin, MCP server, Python, TypeScript and Rust SDKs
+- **+** Imports memory from Mem0, Letta, Zep or Graphiti via the COGX format
+- **+** Apache-2.0; research paper and BEAM evaluation published
+- **−** Single-Postgres graph store is a demo; production version is a licensed product
+- **−** API defaults to multi-tenant mode; local use needs ENABLE_BACKEND_ACCESS_CONTROL=false
+- **−** Bundled GLiNER extractor is a demo; higher-accuracy version requires contacting the vendor
+- **−** UI launcher needs Node.js/npm and Docker for its MCP service
+
+<sub>no GPU · Docker + Compose · Compose runs Neo4j, PostgreSQL, Redis · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs ↗](https://docs.cognee.ai/) · [🌐 Site ↗](https://cognee.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cognee/)</sub>
 
 <a name="agentmemory"></a>
 ### #&#8288;5 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: very easy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
@@ -113,7 +113,7 @@ OpenViking stores agent knowledge, memories and skills as a virtual filesystem u
 <sub>no GPU · Docker + Compose · Needs uv, Python 3.10+, embedding model provider, VLM provider, Node.js 18+ (plugin installer) · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/openviking) · [▶️ Demo ↗](https://openviking.ai/studio) · [📖 Docs ↗](https://docs.openviking.ai/) · [🌐 Site ↗](https://www.openviking.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openviking/)</sub>
 
 <a name="mem0"></a>
-### #&#8288;7 [Mem0](https://github.com/mem0ai/mem0) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Mem0](https://github.com/mem0ai/mem0) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (77) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
 
 **Long-term memory layer that stores and retrieves user facts for LLM agents.**
 

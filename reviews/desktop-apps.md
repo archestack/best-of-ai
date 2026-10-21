@@ -5,7 +5,7 @@ Apps you install on your own computer to chat with local or API models, often wi
 <sub>🌐 Also on the web: [Desktop AI apps on archestack.com](https://archestack.com/best-of-ai/desktop-apps/), each project on its own page.</sub>
 
 <a name="cherry-studio"></a>
-### 🥇 [cherry-studio](https://github.com/cherryhq/cherry-studio) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (87) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 [cherry-studio](https://github.com/cherryhq/cherry-studio) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · AGPL-3.0 · Oct 2026</sub>
 
 **Cross-platform desktop chat client for many cloud and local LLM providers.**
 
@@ -76,26 +76,8 @@ Jan is a Tauri desktop app for Windows, macOS and Linux that downloads LLMs from
 
 <sub>RAM ≥ 8 GB · GPU optional · Models: GGUF via llama.cpp, Hugging Face models, OpenAI, Anthropic, Mistral · port 1337 · [Repo](https://github.com/janhq/jan) · [📖 Docs ↗](https://jan.ai/docs) · [🌐 Site ↗](https://jan.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jan/)</sub>
 
-<a name="dsh-desktop"></a>
-### #&#8288;5 [dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Oct 2026</sub>
-
-**Native Windows and macOS desktop client for DeepSeek Harness.**
-
-DSH Desktop wraps the pinned, unmodified upstream DeepSeek Harness web UI, host service and plugin system in a native desktop app with window, tray, terminal and auto-update. The desktop shell is itself a DSH plugin, and the app includes a plugin market and phone remote control (iOS/Android, from 2.0.9). Installers cover Windows x64 and macOS Universal; no Node.js is needed.
-
-- **+** Installers for Windows x64 and macOS Universal, no separate Node.js install
-- **+** Runs a pinned, unmodified upstream DeepSeek Harness version
-- **+** Built-in plugin market and desktop services for third-party plugins
-- **+** Web service listens on loopback only by default
-- **−** No Linux build listed
-- **−** LAN access option has no authentication, per the README
-- **−** Tied to DeepSeek Harness; independent project, not affiliated with DeepSeek
-- **−** README and docs are primarily in Chinese
-
-<sub>Needs DeepSeek Harness (bundled, pinned) · Models: DeepSeek Harness models · [Repo](https://github.com/anywhere-labs/dsh-desktop) · [📖 Docs ↗](https://github.com/anywhere-labs/dsh-desktop/blob/main/docs/user-guide.md) · [🌐 Site ↗](https://dshdesktop.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-desktop/)</sub>
-
 <a name="screenpipe"></a>
-### #&#8288;6 [screenpipe](https://github.com/screenpipe/screenpipe) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · custom license · Oct 2026</sub>
+### #&#8288;5 [screenpipe](https://github.com/screenpipe/screenpipe) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · custom license · Oct 2026</sub>
 
 **Records screen and audio locally, makes it searchable for you and your agents.**
 
@@ -112,8 +94,26 @@ Screenpipe captures screen content (accessibility tree, with OCR as fallback), s
 
 <sub>RAM ≥ 8 GB · GPU optional · Needs Node.js (npx CLI), Ollama (optional local LLM), Deepgram (optional cloud transcription) · Models: Whisper Large-V3-Turbo, Deepgram, Ollama, OpenAI-compatible servers · port 3030 · README: alternative to Otter.ai · [Repo](https://github.com/screenpipe/screenpipe) · [📖 Docs ↗](https://docs.screenpi.pe) · [🌐 Site ↗](https://screenpi.pe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/screenpipe/)</sub>
 
+<a name="dsh-desktop"></a>
+### #&#8288;6 [dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Oct 2026</sub>
+
+**Native Windows and macOS desktop client for DeepSeek Harness.**
+
+DSH Desktop wraps the pinned, unmodified upstream DeepSeek Harness web UI, host service and plugin system in a native desktop app with window, tray, terminal and auto-update. The desktop shell is itself a DSH plugin, and the app includes a plugin market and phone remote control (iOS/Android, from 2.0.9). Installers cover Windows x64 and macOS Universal; no Node.js is needed.
+
+- **+** Installers for Windows x64 and macOS Universal, no separate Node.js install
+- **+** Runs a pinned, unmodified upstream DeepSeek Harness version
+- **+** Built-in plugin market and desktop services for third-party plugins
+- **+** Web service listens on loopback only by default
+- **−** No Linux build listed
+- **−** LAN access option has no authentication, per the README
+- **−** Tied to DeepSeek Harness; independent project, not affiliated with DeepSeek
+- **−** README and docs are primarily in Chinese
+
+<sub>Needs DeepSeek Harness (bundled, pinned) · Models: DeepSeek Harness models · [Repo](https://github.com/anywhere-labs/dsh-desktop) · [📖 Docs ↗](https://github.com/anywhere-labs/dsh-desktop/blob/main/docs/user-guide.md) · [🌐 Site ↗](https://dshdesktop.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-desktop/)</sub>
+
 <a name="chatbox"></a>
-### #&#8288;7 [chatbox](https://github.com/chatboxai/chatbox) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Sep 2026</sub>
+### #&#8288;7 [chatbox](https://github.com/chatboxai/chatbox) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Sep 2026</sub>
 
 **Desktop and mobile chat client for OpenAI, Claude, Gemini and Ollama models.**
 

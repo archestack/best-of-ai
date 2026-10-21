@@ -23,7 +23,7 @@ MoneyPrinterTurbo takes a topic or keywords and produces a finished short video.
 <sub>RAM ≥ 4 GB · GPU optional · Docker + Compose · Needs Python 3.11+, LLM API key or Ollama, Pexels/Pixabay/Coverr API keys, Edge TTS or other TTS service · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Qwen · [Repo](https://github.com/harry0703/moneyprinterturbo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moneyprinterturbo/)</sub>
 
 <a name="comfyui"></a>
-### 🥈 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 140k · GPL-3.0 · Oct 2026</sub>
+### 🥈 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 141k · GPL-3.0 · Oct 2026</sub>
 
 **Node-graph engine for diffusion image, video, audio and 3D models.**
 
@@ -41,7 +41,7 @@ Builds generation pipelines as a visual node graph and runs them locally for ima
 <sub>RAM ≥ 8 GB · GPU optional · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1 and Flux.2, Qwen Image and Qwen Image Edit, Wan 2.1/2.2, LTX-Video 2 · [Repo](https://github.com/comfy-org/comfyui) · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://www.comfy.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui/)</sub>
 
 <a name="toonflow-app"></a>
-### 🥉 [toonflow-app](https://github.com/hbai-ltd/toonflow-app) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
+### 🥉 [toonflow-app](https://github.com/hbai-ltd/toonflow-app) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Infinite-canvas tool for AI short drama and comic video production.**
 
@@ -77,7 +77,7 @@ Local web server and React UI for image generation with a Unified Canvas (inpain
 <sub>Docker + Compose · Models: SD 1.5, SD 2.0, SDXL, SD 3.5 Medium/Large, CogView 4 · [Repo](https://github.com/invoke-ai/invokeai) · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/invokeai/)</sub>
 
 <a name="open-generative-ai"></a>
-### #&#8288;5 [open-generative-ai](https://github.com/anil-matcha/open-generative-ai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (57) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;5 [open-generative-ai](https://github.com/anil-matcha/open-generative-ai) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (59) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Image, video and lip-sync studio UI that calls MuAPI, with optional local engines.**
 
@@ -239,7 +239,7 @@ Gradio front end (forked from AI-Toolkit) over Kohya sd-scripts that trains FLUX
 <sub>GPU required · Docker + Compose · Needs kohya-ss/sd-scripts (sd3 branch) · Models: Flux1-dev, Flux1-dev2pro, Flux1-schnell, custom bases via models.yaml · port 7860 · [Repo](https://github.com/cocktailpeanut/fluxgym) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fluxgym/)</sub>
 
 <a name="upscayl"></a>
-### #&#8288;14 [upscayl](https://github.com/upscayl/upscayl) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: widely used (80) · Freshness: slowing (40) · Maintenance: weak (24) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 51k · AGPL-3.0 · Mar 2026</sub>
+### #&#8288;14 [upscayl](https://github.com/upscayl/upscayl) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: widely used (80) · Freshness: slowing (40) · Maintenance: weak (23) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 51k · AGPL-3.0 · Mar 2026</sub>
 
 **Desktop image upscaler using Real-ESRGAN models over Vulkan.**
 
