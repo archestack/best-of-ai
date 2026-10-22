@@ -5,7 +5,7 @@ Isolated runtimes where agents execute code, browse or use tools safely. Back to
 <sub>🌐 Also on the web: [Sandboxes on archestack.com](https://archestack.com/best-of-ai/sandboxes/), each project on its own page.</sub>
 
 <a name="lightpanda"></a>
-### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · AGPL-3.0 · Oct 2026</sub>
 
 **Headless browser written in Zig for agents and scraping, with CDP and MCP.**
 
@@ -23,7 +23,7 @@ Lightpanda is a headless browser written from scratch in Zig, using V8 for JavaS
 <sub>no GPU · Docker · Needs Puppeteer or Playwright (optional client), LLM provider API key (agent mode only) · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightpanda/)</sub>
 
 <a name="obscura"></a>
-### 🥈 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Rust headless browser with V8 and CDP for scraping and agents.**
 
@@ -41,7 +41,7 @@ Obscura is a headless browser engine written in Rust that runs JavaScript throug
 <sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs ↗](https://docs.obscura.sh) · [🌐 Site ↗](https://obscura.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obscura/)</sub>
 
 <a name="openshell"></a>
-### 🥉 [OpenShell](https://github.com/nvidia/openshell) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [OpenShell](https://github.com/nvidia/openshell) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Oct 2026</sub>
 
 **Policy-enforced sandbox runtime for autonomous AI agents.**
 
@@ -59,7 +59,7 @@ OpenShell runs each agent in an isolated sandbox where kernel controls restrict 
 <sub>GPU optional · Docker + Compose · Needs Docker, Podman or host virtualization, Kubernetes with NetworkPolicy-enforcing CNI (optional) · Models: OpenRouter (example provider) · [Repo](https://github.com/nvidia/openshell) · [▶️ Demo ↗](https://brev.nvidia.com/launchable/deploy/now?launchableID=env-3Ap3tL55zq4a8kew1AuW0FpSLsg) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openshell/)</sub>
 
 <a name="nemoclaw"></a>
-### #&#8288;4 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (76) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Oct 2026</sub>
 
 **Reference stack for running OpenClaw, Hermes and Deep Agents in OpenShell sandboxes.**
 
@@ -77,7 +77,7 @@ NemoClaw is a CLI-driven reference stack that installs a supported AI agent (Ope
 <sub>Docker · Needs NVIDIA OpenShell · Models: OpenClaw, Hermes, LangChain Deep Agents Code · [Repo](https://github.com/nvidia/nemoclaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nemoclaw/)</sub>
 
 <a name="opensandbox"></a>
-### #&#8288;5 [opensandbox](https://github.com/opensandbox-group/opensandbox) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [opensandbox](https://github.com/opensandbox-group/opensandbox) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **Sandbox API for running AI agent code, commands and browsers in isolation.**
 
@@ -95,7 +95,7 @@ OpenSandbox provides isolated environments where agents execute code, run shell 
 <sub>no GPU · Needs Docker, Python 3.10+, Kubernetes (optional, for cluster deployment) · [Repo](https://github.com/opensandbox-group/opensandbox) · [📖 Docs ↗](https://open-sandbox.ai) · [🌐 Site ↗](https://open-sandbox.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensandbox/)</sub>
 
 <a name="cubesandbox"></a>
-### #&#8288;6 [cubesandbox](https://github.com/tencentcloud/cubesandbox) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (90) · Easy to run: easy (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Oct 2026</sub>
+### #&#8288;6 [cubesandbox](https://github.com/tencentcloud/cubesandbox) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Oct 2026</sub>
 
 **MicroVM sandbox service for AI agents with an E2B-compatible API.**
 
@@ -112,26 +112,8 @@ CubeSandbox runs each agent sandbox in its own KVM MicroVM, built on RustVMM, an
 
 <sub>no GPU · Docker · Needs KVM, Linux x86_64, S3 (optional, for cross-node pause/resume) · port 12088 · [Repo](https://github.com/tencentcloud/cubesandbox) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cubesandbox/)</sub>
 
-<a name="microsandbox"></a>
-### #&#8288;7 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · Apache-2.0 · Oct 2026</sub>
-
-**Embeddable local microVM sandboxes for running untrusted code and AI agents.**
-
-Microsandbox boots OCI images (Docker Hub, GHCR, any registry) as hardware-isolated microVMs, with reported average boot times under 100 ms. It ships an `msb` CLI and SDKs for TypeScript, Rust, Python, Go and Ruby that spawn VMs as child processes, with no server or daemon. It supports forking live sandboxes, snapshots, network allowlists and secrets that never enter the VM. The README marks it as beta software.
-
-- **+** Embeddable SDKs spawn microVMs in-process; no setup server or long-running daemon
-- **+** Fork running sandboxes and snapshot or restore full state
-- **+** Runs standard OCI images on Linux (KVM), macOS (Apple Silicon) and Windows (WHP)
-- **+** Secrets stay outside the VM; network access limited by host allowlist
-- **−** README warns of beta status: breaking changes, missing features, rough edges
-- **−** Needs KVM on Linux, Apple Silicon on macOS, or WHP on Windows
-- **−** First create() pulls the image, so initial start depends on network
-- **−** Intel Macs are not listed as supported
-
-<sub>no GPU · Docker · Needs KVM (Linux), WHP (Windows), OCI registry access · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev) · [🌐 Site ↗](https://microsandbox.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/microsandbox/)</sub>
-
 <a name="monty"></a>
-### #&#8288;8 [monty](https://github.com/pydantic/monty) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · MIT · Oct 2026</sub>
+### #&#8288;7 [monty](https://github.com/pydantic/monty) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · MIT · Oct 2026</sub>
 
 **Embedded Python interpreter in Rust for running LLM-generated code.**
 
@@ -148,26 +130,26 @@ Monty is a Python 3.14 subset interpreter written in Rust, installed as a Python
 
 <sub>no GPU · [Repo](https://github.com/pydantic/monty) · [📖 Docs ↗](https://pydantic.dev/docs/monty/) · [🌐 Site ↗](https://pydantic.dev/docs/monty/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/monty/)</sub>
 
-<a name="steel-browser"></a>
-### #&#8288;9 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: patchy (43) · Easy to run: very easy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · Apache-2.0 · Oct 2026</sub>
+<a name="microsandbox"></a>
+### #&#8288;8 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · Apache-2.0 · Oct 2026</sub>
 
-**Browser API that manages Chrome sessions for Puppeteer, Playwright and Selenium.**
+**Embeddable local microVM sandboxes for running untrusted code and AI agents.**
 
-REST API and UI on port 3000 that launches Chrome sessions with persisted cookies and storage, proxy chains, stealth plugins and request logging, then hands you a CDP endpoint for Puppeteer or Playwright or a WebDriver endpoint for Selenium. Quick-action endpoints return a page as HTML, markdown, screenshot or PDF. Runs from a prebuilt ghcr.io image or docker compose; Node and Python SDKs target cloud or self-hosted instances.
+Microsandbox boots OCI images (Docker Hub, GHCR, any registry) as hardware-isolated microVMs, with reported average boot times under 100 ms. It ships an `msb` CLI and SDKs for TypeScript, Rust, Python, Go and Ruby that spawn VMs as child processes, with no server or daemon. It supports forking live sandboxes, snapshots, network allowlists and secrets that never enter the VM. The README marks it as beta software.
 
-- **+** One image serves API, UI and console debugger (ports 3000 and 9223)
-- **+** Session API persists cookies and storage; Selenium sessions via isSelenium
-- **+** Swagger UI at /documentation on the local instance
-- **+** Node and Python SDKs switch between cloud and self-host with baseURL
-- **−** Public beta; API still changing
-- **−** Runs full Chrome; needs a Chrome executable when run outside Docker
-- **−** Selenium integration lacks some features of the CDP session API
-- **−** Apple Silicon compose needs DOCKER_DEFAULT_PLATFORM=linux/arm64
+- **+** Embeddable SDKs spawn microVMs in-process; no setup server or long-running daemon
+- **+** Fork running sandboxes and snapshot or restore full state
+- **+** Runs standard OCI images on Linux (KVM), macOS (Apple Silicon) and Windows (WHP)
+- **+** Secrets stay outside the VM; network access limited by host allowlist
+- **−** README warns of beta status: breaking changes, missing features, rough edges
+- **−** Needs KVM on Linux, Apple Silicon on macOS, or WHP on Windows
+- **−** First create() pulls the image, so initial start depends on network
+- **−** Intel Macs are not listed as supported
 
-<sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/steel-browser/)</sub>
+<sub>no GPU · Docker · Needs KVM (Linux), WHP (Windows), OCI registry access · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev) · [🌐 Site ↗](https://microsandbox.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/microsandbox/)</sub>
 
 <a name="open-terminal"></a>
-### #&#8288;10 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (75) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · MIT · Oct 2026</sub>
+### #&#8288;9 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · MIT · Oct 2026</sub>
 
 **REST API shell and file server for AI agents to run commands and code.**
 
@@ -184,8 +166,26 @@ Open Terminal is a Python server that exposes a shell, file management, search a
 
 <sub>no GPU · Docker · Needs Docker (optional), Python (bare metal) · port 8000 · [Repo](https://github.com/open-webui/open-terminal) · [📖 Docs ↗](https://docs.openwebui.com/features/open-terminal/terminals/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-terminal/)</sub>
 
+<a name="steel-browser"></a>
+### #&#8288;10 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · Apache-2.0 · Oct 2026</sub>
+
+**Browser API that manages Chrome sessions for Puppeteer, Playwright and Selenium.**
+
+REST API and UI on port 3000 that launches Chrome sessions with persisted cookies and storage, proxy chains, stealth plugins and request logging, then hands you a CDP endpoint for Puppeteer or Playwright or a WebDriver endpoint for Selenium. Quick-action endpoints return a page as HTML, markdown, screenshot or PDF. Runs from a prebuilt ghcr.io image or docker compose; Node and Python SDKs target cloud or self-hosted instances.
+
+- **+** One image serves API, UI and console debugger (ports 3000 and 9223)
+- **+** Session API persists cookies and storage; Selenium sessions via isSelenium
+- **+** Swagger UI at /documentation on the local instance
+- **+** Node and Python SDKs switch between cloud and self-host with baseURL
+- **−** Public beta; API still changing
+- **−** Runs full Chrome; needs a Chrome executable when run outside Docker
+- **−** Selenium integration lacks some features of the CDP session API
+- **−** Apple Silicon compose needs DOCKER_DEFAULT_PLATFORM=linux/arm64
+
+<sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/steel-browser/)</sub>
+
 <a name="browser-use-web-ui"></a>
-### #&#8288;11 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (56) · Freshness: recent (62) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+### #&#8288;11 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (56) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
 
 **Gradio UI for running browser-use agents with your own Chrome.**
 

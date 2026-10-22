@@ -5,7 +5,7 @@ AI agents and tools for penetration testing, red-teaming and finding vulnerabili
 <sub>🌐 Also on the web: [Security on archestack.com](https://archestack.com/best-of-ai/security/), each project on its own page.</sub>
 
 <a name="shannon"></a>
-### 🥇 [shannon](https://github.com/keygraphhq/shannon) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: easy (50) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 [shannon](https://github.com/keygraphhq/shannon) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · AGPL-3.0 · Oct 2026</sub>
 
 **Autonomous pentester that exploits web apps and APIs using source code analysis.**
 
@@ -23,7 +23,7 @@ Shannon reads a web application's source, maps attack paths, then uses browser a
 <sub>no GPU · Docker + Compose · Needs Docker, Node.js 18+, AI provider API key or subscription · Models: Anthropic, OpenAI, xAI, AWS Bedrock, Ollama · [Repo](https://github.com/keygraphhq/shannon) · [📖 Docs ↗](https://github.com/KeygraphHQ/shannon/blob/main/docs/ai-providers.md) · [🌐 Site ↗](https://keygraph.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/shannon/)</sub>
 
 <a name="strix"></a>
-### 🥈 [Strix](https://github.com/usestrix/strix) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (78) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Strix](https://github.com/usestrix/strix) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · Apache-2.0 · Oct 2026</sub>
 
 **Autonomous AI pentesting agents that validate vulnerabilities with working exploits.**
 
@@ -40,26 +40,8 @@ Strix runs teams of LLM-driven agents against a local codebase, repo URL, web ap
 
 <sub>no GPU · Docker · Needs Docker, LLM API key, Caido, LiteLLM · Models: OpenAI, Anthropic, Google Vertex AI, DeepSeek, Moonshot · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/strix/)</sub>
 
-<a name="pentagi"></a>
-### 🥉 [pentagi](https://github.com/vxcontrol/pentagi) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (73) · Easy to run: easy (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Oct 2026</sub>
-
-**Autonomous multi-agent penetration testing system with sandboxed security tools.**
-
-PentAGI takes a target and goal in plain language, then uses a team of specialized agents (orchestrator, researcher, developer, executor) to plan and run 20+ tools such as nmap, Metasploit and sqlmap inside an isolated Docker sandbox. Findings are stored in PostgreSQL with pgvector, with an optional Neo4j/Graphiti knowledge graph, and it produces vulnerability reports. It works with 10+ LLM providers, any OpenAI-compatible endpoint, or local models via Ollama or vLLM.
-
-- **+** Runs 20+ pentest tools (nmap, Metasploit, sqlmap) in an isolated Docker sandbox
-- **+** Supports 10+ LLM providers, custom OpenAI-compatible endpoints, and local Ollama or vLLM
-- **+** Persistent memory in PostgreSQL with pgvector, optional Neo4j knowledge graph via Graphiti
-- **+** REST and GraphQL APIs with Bearer tokens; Langfuse, Grafana and Prometheus integrations
-- **−** Full stack spans many containers (Postgres, Neo4j, Langfuse, ClickHouse, Grafana), heavy to self-host
-- **−** Agent profiles, plugins, MCP servers and attack-chain view are Enterprise-only
-- **−** Not a BAS or adversary emulation tool; no predefined campaigns
-- **−** Report export limited to web, Markdown and PDF; no JSON export
-
-<sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose, PostgreSQL with pgvector, Neo4j (optional), Langfuse (optional), Grafana/Prometheus (optional) · Models: OpenAI, Anthropic, Google Gemini, AWS Bedrock, Ollama · [Repo](https://github.com/vxcontrol/pentagi) · [🌐 Site ↗](https://vxcontrol.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentagi/)</sub>
-
 <a name="ifixai"></a>
-### #&#8288;4 [ifixai](https://github.com/ifixai-ai/ifixai) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [ifixai](https://github.com/ifixai-ai/ifixai) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Python CLI that audits AI agents for policy, access and reliability failures.**
 
@@ -76,26 +58,26 @@ iFixAi runs up to 60 inspections against a model or a deployed agent's HTTP endp
 
 <sub>no GPU · Needs Python 3.10+, LLM provider API keys (system under test and judge), uv (for skill install) · Models: OpenAI, Anthropic, Gemini, Azure, Bedrock · [Repo](https://github.com/ifixai-ai/ifixai) · [🌐 Site ↗](https://www.ifixai.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ifixai/)</sub>
 
-<a name="nvidia-nemo-guardrails"></a>
-### #&#8288;5 [guardrails](https://github.com/nvidia-nemo/guardrails) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (74) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · custom license · Oct 2026</sub>
+<a name="pentagi"></a>
+### #&#8288;4 [pentagi](https://github.com/vxcontrol/pentagi) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Oct 2026</sub>
 
-**Programmable input, output and dialog guardrails for LLM applications.**
+**Autonomous multi-agent penetration testing system with sandboxed security tools.**
 
-Python library that sits between application code and the LLM and applies input, dialog, retrieval, execution and output rails. Rails are configured in config.yml and Colang files, and run through the LLMRails API or an HTTP server with a /v1/chat/completions endpoint. Built-in rails cover jailbreak detection, sensitive data masking, fact-checking, hallucination checks and NVIDIA content and topic safety models.
+PentAGI takes a target and goal in plain language, then uses a team of specialized agents (orchestrator, researcher, developer, executor) to plan and run 20+ tools such as nmap, Metasploit and sqlmap inside an isolated Docker sandbox. Findings are stored in PostgreSQL with pgvector, with an optional Neo4j/Graphiti knowledge graph, and it produces vulnerability reports. It works with 10+ LLM providers, any OpenAI-compatible endpoint, or local models via Ollama or vLLM.
 
-- **+** Five rail types: input, dialog, retrieval, execution and output
-- **+** Built-in rails for jailbreak, PII masking, fact-checking and hallucination checks
-- **+** Python API plus CLI server with OpenAI-style chat completions endpoint
-- **+** Includes an evaluation command and LLM vulnerability scan reports
-- **−** Dialog rails require learning Colang, a separate modeling language
-- **−** Sends anonymous telemetry to NVIDIA by default; opt-out needed
-- **−** LangChain integration is opt-in via environment variable
-- **−** License is flagged NOASSERTION by detection while README badge says Apache 2.0
+- **+** Runs 20+ pentest tools (nmap, Metasploit, sqlmap) in an isolated Docker sandbox
+- **+** Supports 10+ LLM providers, custom OpenAI-compatible endpoints, and local Ollama or vLLM
+- **+** Persistent memory in PostgreSQL with pgvector, optional Neo4j knowledge graph via Graphiti
+- **+** REST and GraphQL APIs with Bearer tokens; Langfuse, Grafana and Prometheus integrations
+- **−** Full stack spans many containers (Postgres, Neo4j, Langfuse, ClickHouse, Grafana), heavy to self-host
+- **−** Agent profiles, plugins, MCP servers and attack-chain view are Enterprise-only
+- **−** Not a BAS or adversary emulation tool; no predefined campaigns
+- **−** Report export limited to web, Markdown and PDF; no JSON export
 
-<sub>Docker · Needs Python 3.10-3.13, LLM provider such as OpenAI or NIM · Models: OpenAI GPT-3.5/GPT-4, LLaMa-2, Falcon, Vicuna, Mosaic · [Repo](https://github.com/nvidia-nemo/guardrails) · [📖 Docs ↗](https://docs.nvidia.com/nemo/guardrails) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nvidia-nemo-guardrails/)</sub>
+<sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose, PostgreSQL with pgvector, Neo4j (optional), Langfuse (optional), Grafana/Prometheus (optional) · Models: OpenAI, Anthropic, Google Gemini, AWS Bedrock, Ollama · [Repo](https://github.com/vxcontrol/pentagi) · [🌐 Site ↗](https://vxcontrol.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentagi/)</sub>
 
 <a name="garak"></a>
-### #&#8288;6 [garak](https://github.com/nvidia/garak) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (74) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [garak](https://github.com/nvidia/garak) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
 
 **Command-line scanner that probes LLMs for jailbreaks, leakage and injection.**
 
@@ -112,8 +94,26 @@ garak runs a library of probes against a target LLM (Hugging Face, OpenAI, Bedro
 
 <sub>GPU optional · Needs Python 3.11-3.14, API keys for hosted targets (OpenAI, Replicate, Cohere, Groq, NIM, Bedrock) · Models: Hugging Face, OpenAI, AWS Bedrock, Replicate, Cohere · [Repo](https://github.com/nvidia/garak) · [📖 Docs ↗](https://docs.garak.ai/) · [🌐 Site ↗](https://garak.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/garak/)</sub>
 
+<a name="nvidia-nemo-guardrails"></a>
+### #&#8288;6 [guardrails](https://github.com/nvidia-nemo/guardrails) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · custom license · Oct 2026</sub>
+
+**Programmable input, output and dialog guardrails for LLM applications.**
+
+Python library that sits between application code and the LLM and applies input, dialog, retrieval, execution and output rails. Rails are configured in config.yml and Colang files, and run through the LLMRails API or an HTTP server with a /v1/chat/completions endpoint. Built-in rails cover jailbreak detection, sensitive data masking, fact-checking, hallucination checks and NVIDIA content and topic safety models.
+
+- **+** Five rail types: input, dialog, retrieval, execution and output
+- **+** Built-in rails for jailbreak, PII masking, fact-checking and hallucination checks
+- **+** Python API plus CLI server with OpenAI-style chat completions endpoint
+- **+** Includes an evaluation command and LLM vulnerability scan reports
+- **−** Dialog rails require learning Colang, a separate modeling language
+- **−** Sends anonymous telemetry to NVIDIA by default; opt-out needed
+- **−** LangChain integration is opt-in via environment variable
+- **−** License is flagged NOASSERTION by detection while README badge says Apache 2.0
+
+<sub>Docker · Needs Python 3.10-3.13, LLM provider such as OpenAI or NIM · Models: OpenAI GPT-3.5/GPT-4, LLaMa-2, Falcon, Vicuna, Mosaic · [Repo](https://github.com/nvidia-nemo/guardrails) · [📖 Docs ↗](https://docs.nvidia.com/nemo/guardrails) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nvidia-nemo-guardrails/)</sub>
+
 <a name="cyberstrikeai"></a>
-### #&#8288;7 [cyberstrikeai](https://github.com/aipentest/cyberstrikeai) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (89) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [cyberstrikeai](https://github.com/aipentest/cyberstrikeai) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · Apache-2.0 · Oct 2026</sub>
 
 **AI agent platform for authorized penetration testing.**
 
@@ -131,7 +131,7 @@ CyberStrikeAI is a Go-based platform that turns natural-language intent into gov
 <sub>Needs Go 1.25+, Python 3.10+, OpenAI-compatible API, nmap, metasploit, sqlmap, nuclei, SQLite · Models: OpenAI-compatible models (e.g. GPT-4o, DeepSeek, Qwen) · port 8080 · [Repo](https://github.com/aipentest/cyberstrikeai) · [📖 Docs ↗](https://github.com/aipentest/cyberstrikeai/blob/main/docs/en-US/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cyberstrikeai/)</sub>
 
 <a name="pentestgpt"></a>
-### #&#8288;8 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (50) · Freshness: active (87) · Maintenance: weak (17) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Jul 2026</sub>
+### #&#8288;8 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (50) · Freshness: active (87) · Maintenance: weak (17) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Jul 2026</sub>
 
 **Autonomous pentest agent that drives Claude Code or Codex against a target.**
 
@@ -149,7 +149,7 @@ PentestGPT runs a staged pipeline against a target IP or URL, using Claude Code 
 <sub>no GPU · Docker + Compose · Needs Python 3.12+, uv, Claude Code CLI, Codex CLI, Langfuse (telemetry, can be disabled) · Models: Claude, OpenAI, Google Gemini, DeepSeek, xAI Grok · [Repo](https://github.com/greydgl/pentestgpt) · [🌐 Site ↗](https://pentestgpt.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentestgpt/)</sub>
 
 <a name="hexstrike-ai"></a>
-### #&#8288;9 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: known (39) · Freshness: active (100) · Maintenance: weak (11) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Aug 2026</sub>
+### #&#8288;9 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (39) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Aug 2026</sub>
 
 **MCP server that lets AI clients drive 150+ pentesting tools.**
 
