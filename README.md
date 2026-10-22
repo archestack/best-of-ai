@@ -772,7 +772,7 @@ Every project gets a score out of 100 from the signals below. A signal we cannot
 
 <sub>Penalties: no license −10. Coming: data must leave your host −10 · unpatched security advisory −20. Archived projects are removed. Paid placements never touch the score.</sub>
 
-<sub>The weights are our judgment, not science. Think one is wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose). Method changes: 2026-10-23: Easy to run (20%) is dropped: deploy buttons, template flags and healthcheck lines say little now that a coding agent sets most projects up from the README; its 20% goes to Verified build (coming), which starts the project for real; deploy facts stay on project pages · 2026-10-14: the star-growth anomaly penalty is dropped, since a star chart cannot tell a big launch from bought stars · 2026-10-13: Maintenance weighs 15% (was 10%) and Momentum 10% (was 15%), so steady upkeep counts more than a burst of stars · 2026-10-12: penalties we do not check yet are marked coming; only "no license" has ever been applied · 2026-10-09: Docker alone earns no points, medals mark places 1–3 instead of score bands.</sub>
+<sub>The weights are our judgment, not science. Think one is wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose). Method changes: 2026-10-14: the star-growth anomaly penalty is dropped, since a star chart cannot tell a big launch from bought stars · 2026-10-13: Maintenance weighs 15% (was 10%) and Momentum 10% (was 15%), so steady upkeep counts more than a burst of stars · 2026-10-12: penalties we do not check yet are marked coming; only "no license" has ever been applied · 2026-10-09: Docker alone earns no points, medals mark places 1–3 instead of score bands.</sub>
 
 ## 🧠 How this works
 
