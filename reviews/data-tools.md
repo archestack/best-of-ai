@@ -5,7 +5,7 @@ Tools that turn web pages, PDFs and documents into clean text or structured data
 <sub>🌐 Also on the web: [Data and scraping for AI on archestack.com](https://archestack.com/best-of-ai/data-tools/), each project on its own page.</sub>
 
 <a name="mineru"></a>
-### 🥇 [mineru](https://github.com/opendatalab/mineru) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 82k · custom license · Oct 2026</sub>
+### 🥇 [mineru](https://github.com/opendatalab/mineru) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 82k · custom license · Oct 2026</sub>
 
 **Document parser that converts PDFs, images and Office files to Markdown and JSON.**
 
@@ -23,7 +23,7 @@ MinerU parses PDFs, scanned images, Office, OpenDocument, EPUB, OFD, HTML and CS
 <sub>GPU optional · Docker + Compose · Needs Python >=3.10,<3.15, llama.cpp, vLLM or LMDeploy (VLM runtime), ONNX or Torch · Models: MinerU VLM, ONNX small models, Torch small models, llama.cpp, vLLM · [Repo](https://github.com/opendatalab/mineru) · [▶️ Demo ↗](https://huggingface.co/spaces/opendatalab/MinerU) · [📖 Docs ↗](https://opendatalab.github.io/MinerU/) · [🌐 Site ↗](https://mineru.net/OpenSourceTools/Extractor?source=github) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mineru/)</sub>
 
 <a name="docling"></a>
-### 🥈 [docling](https://github.com/docling-project/docling) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · MIT · Oct 2026</sub>
+### 🥈 [docling](https://github.com/docling-project/docling) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · MIT · Oct 2026</sub>
 
 **Python library and CLI that converts PDFs, Office files and more into structured text.**
 
@@ -41,7 +41,7 @@ Docling parses PDF, DOCX, PPTX, XLSX, HTML, EPUB, images, audio and other format
 <sub>GPU optional · Docker · Models: GraniteDocling, VLMs, OCR engines, ASR models · [Repo](https://github.com/docling-project/docling) · [📖 Docs ↗](https://docling-project.github.io/docling/) · [🌐 Site ↗](https://docling-project.github.io/docling/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling/)</sub>
 
 <a name="markitdown"></a>
-### 🥉 [markitdown](https://github.com/microsoft/markitdown) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 192k · MIT · Oct 2026</sub>
+### 🥉 [markitdown](https://github.com/microsoft/markitdown) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 192k · MIT · Oct 2026</sub>
 
 **Python tool that converts PDF, Office, HTML and audio files to Markdown for LLMs.**
 
@@ -59,25 +59,25 @@ MarkItDown is a Python library and CLI that converts PDF, Word, PowerPoint, Exce
 <sub>no GPU · Docker · Needs Python 3.10-3.14, Azure Document Intelligence (optional), Azure Content Understanding (optional), OpenAI-compatible client (optional) · Models: OpenAI-compatible vision models (e.g. gpt-4o) · [Repo](https://github.com/microsoft/markitdown) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/markitdown/)</sub>
 
 <a name="crawl4ai"></a>
-### #&#8288;4 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · Apache-2.0 · Oct 2026</sub>
 
-**Python web crawler that converts pages to LLM-ready Markdown and JSON.**
+**Async Python web crawler that outputs LLM-ready Markdown and structured JSON.**
 
-Crawl4AI is a Python library, CLI (`crwl`) and Docker REST server that drives Playwright browsers (Chromium, Firefox, WebKit) to turn web pages into clean or filtered Markdown. It extracts structured data with CSS/XPath/regex schemas without an LLM, or through any LiteLLM-supported provider into a typed JSON schema. It also supports deep crawls, adaptive crawling and batch fetching. A hosted Crawl4AI Cloud with search and answer endpoints is sold separately.
+Crawl4AI drives Playwright browsers (Chromium, Firefox, WebKit) to fetch pages and convert them to filtered Markdown or JSON, using CSS/XPath schemas or an LLM. It ships as a pip library, a `crwl` CLI and a Docker REST server with MCP, a dashboard and a playground on port 11235. A separate hosted cloud adds search, SERP and answer endpoints.
 
-- **+** Schema-based CSS/XPath extraction runs without any LLM call
+- **+** Schema-based CSS/XPath extraction works without any LLM call
 - **+** Fit Markdown filters (pruning, BM25, LLM) strip menus and boilerplate
-- **+** Persistent profiles, CDP remote browsers, rotating proxies and stealth mode
-- **+** Docker server exposes /md, /crawl, /screenshot, /pdf, plus MCP, dashboard and playground
-- **−** Search, SERP and answer endpoints exist only in the paid hosted cloud
-- **−** Bot-wall handling when self-hosted depends on your own proxies and settings
-- **−** Needs a Playwright browser install via crawl4ai-setup
-- **−** README asks for attribution when you use it
+- **+** Deep crawl with BFS, DFS and score-ordered strategies, resumable after crashes
+- **+** Docker server has REST endpoints, MCP and token auth by default
+- **−** Search, SERP and answer endpoints exist only in the hosted cloud
+- **−** Self-hosted bot-wall handling relies on your own proxies and settings
+- **−** Needs a Playwright browser install, so heavier than plain HTTP scrapers
+- **−** LLM extraction requires an external provider key or a local model endpoint
 
-<sub>no GPU · Docker + Compose · Needs Playwright browsers (Chromium), Docker (optional), LLM provider API key (optional) · Models: LiteLLM providers, OpenAI, Ollama · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com) · [🌐 Site ↗](https://crawl4ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crawl4ai/)</sub>
+<sub>no GPU · Docker + Compose · Needs Playwright browsers (Chromium), Docker (optional), LLM provider via LiteLLM (optional) · Models: any LiteLLM provider (OpenAI, Ollama) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com) · [🌐 Site ↗](https://crawl4ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crawl4ai/)</sub>
 
 <a name="opendataloader-pdf"></a>
-### #&#8288;5 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **PDF parser that outputs Markdown, JSON with bounding boxes, and Tagged PDF.**
 
@@ -94,26 +94,8 @@ Java-based PDF parser with Python, Node.js and Java SDKs. The default local mode
 
 <sub>GPU optional · Needs Java 11+, Python 3.10+ (Python SDK), Docling-based hybrid backend (optional) · Models: SmolVLM 256M (picture description), EasyOCR, RapidOCR, Tesseract · port 5002 · [Repo](https://github.com/opendataloader-project/opendataloader-pdf) · [📖 Docs ↗](https://opendataloader.org/docs/quick-start-python) · [🌐 Site ↗](https://opendataloader.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opendataloader-pdf/)</sub>
 
-<a name="firecrawl"></a>
-### #&#8288;6 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 194k · AGPL-3.0 · Oct 2026</sub>
-
-**Web API that turns sites and searches into markdown or JSON for LLMs.**
-
-Firecrawl exposes REST endpoints to search the web, scrape a URL, crawl a site, map its URLs, batch-scrape, parse documents (PDF, DOCX) and run page actions such as click and scroll. Output is markdown, HTML, screenshots or schema-based JSON. SDKs cover Python, Node.js, Go, Java, Elixir, Rust and Ruby, plus a CLI and an MCP server. The README examples use the hosted API with a key; self-hosting details are not in the excerpt.
-
-- **+** Endpoints for search, scrape, crawl, map, batch scrape and document parsing
-- **+** Official SDKs for seven languages, plus a CLI and MCP server
-- **+** Outputs markdown, HTML, screenshots or schema-based structured JSON
-- **+** Page actions and an interact endpoint for JS-heavy pages
-- **−** README examples target the hosted API and require an API key
-- **−** AGPL-3.0 license restricts use in closed-source network services
-- **−** Agent endpoint runs the spark-2 model; self-hosted availability is unknown
-- **−** Self-hosting requirements (RAM, ports, proxies) not stated in the README excerpt
-
-<sub>Compose · Needs Firecrawl API key (hosted service) · Models: spark-2 · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
-
 <a name="scrapegraph-ai"></a>
-### #&#8288;7 [scrapegraph-ai](https://github.com/scrapegraphai/scrapegraph-ai) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Oct 2026</sub>
+### #&#8288;6 [scrapegraph-ai](https://github.com/scrapegraphai/scrapegraph-ai) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Oct 2026</sub>
 
 **Python library that builds LLM-driven scraping pipelines from a prompt and a URL.**
 
@@ -130,26 +112,44 @@ ScrapeGraphAI is a Python library that extracts structured data from websites an
 
 <sub>GPU optional · Docker + Compose · Needs Playwright, Ollama (for local models), LLM provider API key (for hosted models) · Models: Ollama, OpenAI, Groq, Azure, Gemini · [Repo](https://github.com/scrapegraphai/scrapegraph-ai) · [📖 Docs ↗](https://docs.scrapegraphai.com/introduction) · [🌐 Site ↗](https://scrapegraphai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scrapegraph-ai/)</sub>
 
+<a name="firecrawl"></a>
+### #&#8288;7 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 194k · AGPL-3.0 · Oct 2026</sub>
+
+**Web API that turns sites and searches into markdown or JSON for LLMs.**
+
+Firecrawl exposes REST endpoints to search the web, scrape a URL, crawl a site, map its URLs, batch-scrape, parse documents (PDF, DOCX) and run page actions such as click and scroll. Output is markdown, HTML, screenshots or schema-based JSON. SDKs cover Python, Node.js, Go, Java, Elixir, Rust and Ruby, plus a CLI and an MCP server. The README examples use the hosted API with a key; self-hosting details are not in the excerpt.
+
+- **+** Endpoints for search, scrape, crawl, map, batch scrape and document parsing
+- **+** Official SDKs for seven languages, plus a CLI and MCP server
+- **+** Outputs markdown, HTML, screenshots or schema-based structured JSON
+- **+** Page actions and an interact endpoint for JS-heavy pages
+- **−** README examples target the hosted API and require an API key
+- **−** AGPL-3.0 license restricts use in closed-source network services
+- **−** Agent endpoint runs the spark-2 model; self-hosted availability is unknown
+- **−** Self-hosting requirements (RAM, ports, proxies) not stated in the README excerpt
+
+<sub>Compose · Needs Firecrawl API key (hosted service) · Models: spark-2 · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
+
 <a name="langextract"></a>
-### #&#8288;8 [langextract](https://github.com/google/langextract) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [langextract](https://github.com/google/langextract) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Oct 2026</sub>
 
-**Python library that extracts source-grounded structured data from text using LLMs.**
+**Python library that extracts grounded structured data from text using LLMs.**
 
-LangExtract is a Python library that takes a prompt and few-shot examples, runs an LLM over unstructured text, and returns structured extractions mapped to exact character spans in the source. Long documents are handled by chunking, parallel workers and multiple passes. Results save to JSONL and render as an interactive HTML review page. Backends include Gemini, OpenAI and local Ollama models.
+LangExtract is a Python library that takes a prompt and a few examples and uses an LLM to pull structured entities and attributes out of unstructured text. Each extraction is mapped to its character span in the source, and results can be rendered as an interactive HTML review page. Long documents are handled with chunking, parallel workers and multiple passes, using Gemini, OpenAI or local Ollama models.
 
-- **+** Each extraction is grounded to a character span; ungrounded results get char_interval = None
-- **+** Chunking, parallel workers and multiple passes for long documents (max_workers, extraction_passes)
-- **+** Gemini, OpenAI and Ollama supported, plus a plugin system for custom providers
-- **+** Generates a self-contained interactive HTML view of extractions in context
-- **−** Output schema is driven by few-shot examples; poor examples cause alignment warnings and weaker results
+- **+** Each extraction carries a char_interval into the source; ungrounded results get None
+- **+** Long-document handling via chunking, max_workers and extraction_passes for recall
+- **+** Supports Gemini, OpenAI (with Batch API), Vertex AI batch and local Ollama models
+- **+** Plugin system for custom model providers, plus a community provider registry
+- **−** Needs few-shot examples; misaligned examples trigger prompt alignment warnings
 - **−** Ollama provider does not support output_schema
-- **−** Controlled generation is documented mainly for Gemini; cloud models need an API key
-- **−** Library only, with no server or UI beyond the HTML visualization
+- **−** Controlled generation is described for supported models like Gemini; quality depends on the LLM
+- **−** Library only, no server or UI; visualization is a static HTML file
 
-<sub>GPU optional · Docker · Needs Gemini, OpenAI or Vertex AI API key for cloud models, Ollama for local models · Models: Gemini, OpenAI, Ollama, Vertex AI, OpenAI-compatible endpoints · [Repo](https://github.com/google/langextract) · [▶️ Demo ↗](https://google-langextract.hf.space/) · [📖 Docs ↗](https://github.com/google/langextract/blob/main/docs/examples/longer_text_example.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langextract/)</sub>
+<sub>no GPU · Docker · Needs Gemini, OpenAI or Vertex AI API key, or a local Ollama server · Models: Gemini, OpenAI, Ollama, Vertex AI, OpenAI-compatible endpoints · [Repo](https://github.com/google/langextract) · [▶️ Demo ↗](https://google-langextract.hf.space/) · [📖 Docs ↗](https://github.com/google/langextract/blob/main/docs/examples/longer_text_example.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langextract/)</sub>
 
 <a name="moli"></a>
-### #&#8288;9 [moli](https://github.com/lexmount/moli) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;9 [moli](https://github.com/lexmount/moli) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
 
 **Headless browser in Rust for AI agents, with CDP and WebDriver support.**
 
@@ -167,7 +167,7 @@ Moli is a standalone browser kernel written in Rust (V8, Stylo, Taffy, Parley), 
 <sub>no GPU · Needs libcurl · port 9222 · [Repo](https://github.com/lexmount/moli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moli/)</sub>
 
 <a name="cocoindex"></a>
-### #&#8288;10 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
 
 **Incremental Python pipelines that keep vector indexes and agent context fresh.**
 
@@ -185,7 +185,7 @@ CocoIndex is a Python framework with a Rust core for declaring how source data (
 <sub>Needs Python 3.10-3.13, Postgres (pgvector) or LanceDB as target · Models: sentence-transformers · [Repo](https://github.com/cocoindex-io/cocoindex) · [📖 Docs ↗](https://cocoindex.io/docs) · [🌐 Site ↗](https://cocoindex.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cocoindex/)</sub>
 
 <a name="label-studio"></a>
-### #&#8288;11 [label-studio](https://github.com/humansignal/label-studio) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;11 [label-studio](https://github.com/humansignal/label-studio) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Multi-user data labeling tool for audio, text, images, video and time series.**
 
@@ -203,7 +203,7 @@ Label Studio is a web-based annotation tool for preparing and correcting ML trai
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (optional, Compose), Nginx (optional, Compose), MinIO (optional) · Models: Custom ML backends via Label Studio ML SDK · port 8080 · [Repo](https://github.com/humansignal/label-studio) · [📖 Docs ↗](https://labelstud.io/guide/) · [🌐 Site ↗](https://labelstud.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/label-studio/)</sub>
 
 <a name="unstructured"></a>
-### #&#8288;12 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **Python library that parses PDFs, Office files and HTML into typed elements.**
 
@@ -239,7 +239,7 @@ PaddleOCR runs text recognition (PP-OCRv6) and document parsing (PaddleOCR-VL 0.
 <sub>GPU optional · Needs PaddlePaddle · Models: PP-OCRv6, PaddleOCR-VL-1.6, PP-StructureV3, HPD-Parsing, ONNX · [Repo](https://github.com/paddlepaddle/paddleocr) · [▶️ Demo ↗](https://www.paddleocr.com) · [📖 Docs ↗](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/pipeline_overview.html) · [🌐 Site ↗](https://www.paddleocr.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paddleocr/)</sub>
 
 <a name="marker"></a>
-### #&#8288;14 [marker](https://github.com/datalab-to/marker) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;14 [marker](https://github.com/datalab-to/marker) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Oct 2026</sub>
 
 **Converts PDFs, Office files and images to markdown, JSON, HTML or chunks.**
 
@@ -257,7 +257,7 @@ Marker is a Python library and CLI that converts PDF, image, PPTX, DOCX, XLSX, H
 <sub>GPU optional · Needs PyTorch, Python 3.10+, vLLM via Docker with NVIDIA Container Toolkit (GPU), llama.cpp llama-server (CPU / Apple Silicon), optional LLM service for --use_llm · Models: surya VLM, Gemini, Claude, OpenAI-compatible, Azure · [Repo](https://github.com/datalab-to/marker) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/marker/)</sub>
 
 <a name="data-juicer"></a>
-### #&#8288;15 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;15 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Oct 2026</sub>
 
 **Operator-based pipelines for cleaning and deduplicating multimodal training data.**
 
@@ -275,7 +275,7 @@ Data-Juicer is a Python library and CLI (dj-process) that runs YAML-defined pipe
 <sub>GPU optional · Docker · Needs Ray (distributed mode), S3 or HDFS (optional), Hugging Face / ModelScope models (optional) · Models: Hugging Face models, OpenAI-compatible API, LiteLLM, Juicer-35B-A3B · [Repo](https://github.com/datajuicer/data-juicer) · [▶️ Demo ↗](http://8.138.149.181/) · [📖 Docs ↗](https://datajuicer.github.io/data-juicer/en/main/docs_index.html) · [🌐 Site ↗](https://datajuicer.github.io/data-juicer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-juicer/)</sub>
 
 <a name="pdfmathtranslate"></a>
-### #&#8288;16 [pdfmathtranslate](https://github.com/pdfmathtranslate/pdfmathtranslate) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (73) · Freshness: recent (76) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;16 [pdfmathtranslate](https://github.com/pdfmathtranslate/pdfmathtranslate) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (75) · Freshness: recent (76) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Oct 2026</sub>
 
 **Translates scientific PDFs while keeping formulas, figures and layout intact.**
 
@@ -293,7 +293,7 @@ pdf2zh translates scientific PDFs and writes a translated-only and a bilingual (
 <sub>no GPU · Docker + Compose · Needs DocLayout-YOLO ONNX model (Hugging Face download), Translation service (Google default, others configurable) · Models: ONNX · port 7860 · [Repo](https://github.com/pdfmathtranslate/pdfmathtranslate) · [▶️ Demo ↗](https://pdf2zh.com/) · [📖 Docs ↗](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pdfmathtranslate/)</sub>
 
 <a name="unstract"></a>
-### #&#8288;17 [unstract](https://github.com/zipstack/unstract) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;17 [unstract](https://github.com/zipstack/unstract) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · AGPL-3.0 · Oct 2026</sub>
 
 **Extracts structured JSON from PDFs and scans using LLM prompts.**
 
@@ -311,7 +311,7 @@ Unstract extracts structured JSON from documents such as PDFs, images and scans.
 <sub>RAM ≥ 8 GB · no GPU · Docker + Compose · Needs Docker, Docker Compose, PostgreSQL, Redis, RabbitMQ, LLM provider, Vector database, Text extractor (LLMWhisperer, Unstructured.io or LlamaIndex Parse) · Models: OpenAI, Azure OpenAI, OpenAI Compatible, Anthropic Claude, AWS Bedrock · [Repo](https://github.com/zipstack/unstract) · [📖 Docs ↗](https://docs.unstract.com) · [🌐 Site ↗](https://unstract.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unstract/)</sub>
 
 <a name="dataflow"></a>
-### #&#8288;18 [dataflow](https://github.com/opendcai/dataflow) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;18 [dataflow](https://github.com/opendcai/dataflow) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Oct 2026</sub>
 
 **Operator-based Python pipelines for generating and cleaning LLM training data.**
 
@@ -328,8 +328,26 @@ DataFlow is a Python framework that turns noisy sources (PDFs, plain text, low-q
 
 <sub>GPU optional · Docker · Needs OpenAI-compatible LLM API or vLLM, uv · Models: OpenAI-compatible APIs, vLLM local models · [Repo](https://github.com/opendcai/dataflow) · [▶️ Demo ↗](https://colab.research.google.com/drive/1haosl2QS4N4HM7u7HvSsz_MnLabxexXl?usp=sharing) · [📖 Docs ↗](https://OpenDCAI.github.io/DataFlow-Doc/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataflow/)</sub>
 
+<a name="doctr"></a>
+### #&#8288;19 [doctr](https://github.com/mindee/doctr) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Oct 2026</sub>
+
+**Two-stage OCR library for PDFs and images, built on PyTorch.**
+
+docTR is a Python library that extracts text from PDFs and images by running a text detection model, then a text recognition model on each detected word. It returns a structured Document (pages, blocks, lines, words) that can be exported as JSON, and also offers a KIE predictor, optional layout detection and a FastAPI template. Detection and recognition architectures are selectable, with pretrained weights.
+
+- **+** Swappable detection (DBNet, LinkNet, FAST) and recognition (CRNN, SAR, MASTER, ViTSTR, PARSeq, VIPTR) models
+- **+** Handles rotated pages and returns nested page/block/line/word output exportable to JSON
+- **+** Includes KIE predictor, layout detection and a FastAPI template with OCR and KIE routes
+- **+** Hosted Hugging Face Space and Streamlit demo for trying it before installing
+- **−** Python 3.11 or higher required; PyTorch is the only supported framework
+- **−** API template is minimal; README example uses port 8080 while the server runs on 8002
+- **−** Docker GPU images need host CUDA 12.2 or newer
+- **−** Default pipeline is OCR only; table structure and layout models are listed but sparsely documented in README
+
+<sub>GPU optional · Docker · Needs PyTorch, Streamlit (demo), FastAPI (API template), weasyprint (URL input) · Models: DBNet, LinkNet, FAST, CRNN, SAR · port 8002 · [Repo](https://github.com/mindee/doctr) · [▶️ Demo ↗](https://huggingface.co/spaces/mindee/doctr) · [📖 Docs ↗](https://mindee.github.io/doctr/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doctr/)</sub>
+
 <a name="chandra"></a>
-### #&#8288;19 [chandra](https://github.com/datalab-to/chandra) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (34) · Freshness: active (97) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;20 [chandra](https://github.com/datalab-to/chandra) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (39) · Freshness: active (97) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **OCR model that converts PDFs and images to Markdown, HTML or JSON with layout.**
 
@@ -347,7 +365,7 @@ Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images an
 <sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
 
 <a name="jina-reader"></a>
-### #&#8288;20 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (32) · Freshness: recent (77) · Maintenance: weak (13) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;21 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (36) · Freshness: recent (77) · Maintenance: weak (13) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
@@ -365,7 +383,7 @@ Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page
 <sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jina-reader/)</sub>
 
 <a name="olmocr"></a>
-### #&#8288;21 [olmocr](https://github.com/allenai/olmocr) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (49) · Freshness: recent (65) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;22 [olmocr](https://github.com/allenai/olmocr) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (53) · Freshness: recent (65) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
 
 **PDF and image to Markdown converter built on a 7B vision-language model.**
 
@@ -382,8 +400,26 @@ olmOCR converts PDFs, PNGs and JPEGs into Markdown using a 7B vision-language mo
 
 <sub>GPU required · Docker · Needs vLLM, poppler-utils, NVIDIA GPU (12 GB+ VRAM), AWS S3 (optional, multi-node) · Models: olmOCR-2-7B-1025-FP8, olmOCR-7B-0825-FP8, olmOCR-7B-0725-FP8 · [Repo](https://github.com/allenai/olmocr) · [▶️ Demo ↗](https://olmocr.allenai.org/) · [🌐 Site ↗](https://olmocr.allenai.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/olmocr/)</sub>
 
+<a name="llm-scraper"></a>
+### #&#8288;23 [llm-scraper](https://github.com/mishushakov/llm-scraper) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (7) · Freshness: active (85) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Jun 2026</sub>
+
+**TypeScript library that extracts structured data from web pages with LLMs.**
+
+LLM Scraper loads a page through Playwright and asks an LLM to fill a Zod or JSON Schema, returning typed objects. It runs on the Vercel AI SDK, so OpenAI, Anthropic, Google, Groq and Ollama models plug in. It can also stream partial objects or generate a reusable Playwright script for a schema.
+
+- **+** Schemas in Zod or JSON Schema give type-safe output in TypeScript
+- **+** Six input formats: html, raw_html, markdown, text, image, custom
+- **+** Code generation produces a reusable Playwright script, avoiding an LLM call per page
+- **+** Works with hosted providers and local models via Ollama
+- **−** Library only: no CLI, server or UI
+- **−** Needs Playwright and a separately installed AI SDK provider package
+- **−** README gives no cost, token-limit or accuracy guidance for large pages
+- **−** No tagged release published
+
+<sub>no GPU · Needs Playwright, Zod, Vercel AI SDK provider package, LLM provider API or Ollama · Models: OpenAI GPT, Anthropic Claude, Google Gemini, Groq Llama, Ollama · [Repo](https://github.com/mishushakov/llm-scraper) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-scraper/)</sub>
+
 <a name="easyocr"></a>
-### #&#8288;22 [easyocr](https://github.com/jaidedai/easyocr) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (65) · Freshness: quiet (11) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;24 [easyocr](https://github.com/jaidedai/easyocr) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: popular (68) · Freshness: quiet (11) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Dec 2025</sub>
 
 **Python OCR library for text detection and recognition in 80+ languages.**
 
@@ -401,7 +437,7 @@ EasyOCR is a Python package that detects text regions with the CRAFT model and r
 <sub>GPU optional · Docker · Needs PyTorch, torchvision · Models: CRAFT detection, CRNN recognition (ResNet/VGG, LSTM, CTC) · [Repo](https://github.com/jaidedai/easyocr) · [▶️ Demo ↗](https://huggingface.co/spaces/tomofi/EasyOCR) · [📖 Docs ↗](https://www.jaided.ai/easyocr/documentation) · [🌐 Site ↗](https://www.jaided.ai/easyocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easyocr/)</sub>
 
 <a name="doccano"></a>
-### #&#8288;23 [doccano](https://github.com/doccano/doccano) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (22) · Freshness: slowing (43) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
+### #&#8288;25 [doccano](https://github.com/doccano/doccano) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (27) · Freshness: slowing (43) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
 
 **Web-based text annotation tool for labeling NLP datasets.**
 
@@ -419,7 +455,7 @@ doccano is a web application for annotating text for classification, sequence la
 <sub>no GPU · Docker + Compose · Needs SQLite (default), PostgreSQL (optional), RabbitMQ (Docker Compose) · port 8000 · [Repo](https://github.com/doccano/doccano) · [▶️ Demo ↗](http://doccano.herokuapp.com) · [📖 Docs ↗](https://doccano.github.io/doccano/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doccano/)</sub>
 
 <a name="cleanlab"></a>
-### #&#8288;24 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (26) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;26 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: known (31) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
 
 **Python library that finds label errors and outliers in ML datasets.**
 
