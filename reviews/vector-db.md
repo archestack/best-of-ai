@@ -94,26 +94,8 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weaviate/)</sub>
 
-<a name="leann"></a>
-### #&#8288;6 [leann](https://github.com/startrail-org/leann) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Oct 2026</sub>
-
-**Vector index that recomputes embeddings on demand to cut storage.**
-
-LEANN is a Python vector database that stores a pruned graph and recomputes embeddings at query time instead of storing them. The README claims 97% less storage, for example 60M chunks in 6GB versus 201GB. It ships HNSW and DiskANN backends, a CLI, RAG examples for files, mail and chat history, and an MCP server for Claude Code.
-
-- **+** Graph-based selective recomputation avoids storing embeddings; README claims 97% less storage
-- **+** HNSW and DiskANN backends, selectable with --backend-name
-- **+** Works with Ollama, LM Studio, vLLM, llama.cpp and any OpenAI-compatible endpoint
-- **+** Includes ready RAG loaders for PDFs, Apple Mail, WeChat, iMessage, ChatGPT and Claude history
-- **−** Recomputing embeddings at query time adds latency compared with stored vectors
-- **−** DiskANN needs a native toolchain (Boost, protobuf, MKL) when built from source
-- **−** GPU acceleration is only a survey item for a future version
-- **−** Linux uv hardlink installs can fail with a nltk pathsec error without a workaround
-
-<sub>GPU optional · Docker · Needs uv, Ollama or OpenAI-compatible API (optional, for generation) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [▶️ Demo ↗](https://colab.research.google.com/github/yichuan-w/LEANN/blob/main/demo.ipynb) · [📖 Docs ↗](https://github.com/yichuan-w/LEANN/blob/main/docs/configuration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
-
 <a name="lancedb"></a>
-### #&#8288;7 [lancedb](https://github.com/lancedb/lancedb) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [lancedb](https://github.com/lancedb/lancedb) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
 
 **Embedded vector database built on the Lance columnar format.**
 
@@ -131,7 +113,7 @@ LanceDB is a vector database written in Rust on top of the Lance columnar format
 <sub>GPU optional · Docker + Compose · [Repo](https://github.com/lancedb/lancedb) · [📖 Docs ↗](https://docs.lancedb.com) · [🌐 Site ↗](https://lancedb.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lancedb/)</sub>
 
 <a name="chroma"></a>
-### #&#8288;8 [Chroma](https://github.com/chroma-core/chroma) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [Chroma](https://github.com/chroma-core/chroma) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Embedding database with a four-function API for Python and JavaScript.**
 
@@ -149,7 +131,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
 
 <a name="zvec"></a>
-### #&#8288;9 [zvec](https://github.com/alibaba/zvec) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [zvec](https://github.com/alibaba/zvec) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **In-process vector database library with hybrid and full-text search.**
 
@@ -165,6 +147,24 @@ Zvec is a C++ vector database that embeds in the application process instead of 
 - **−** Benchmark results are only linked or charted; no figures in the README text
 
 <sub>no GPU · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
+
+<a name="leann"></a>
+### #&#8288;9 [leann](https://github.com/startrail-org/leann) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Oct 2026</sub>
+
+**Vector index that recomputes embeddings on demand to cut storage.**
+
+LEANN is a Python vector database that stores a pruned graph and recomputes embeddings at query time instead of storing them. The README claims 97% less storage, for example 60M chunks in 6GB versus 201GB. It ships HNSW and DiskANN backends, a CLI, RAG examples for files, mail and chat history, and an MCP server for Claude Code.
+
+- **+** Graph-based selective recomputation avoids storing embeddings; README claims 97% less storage
+- **+** HNSW and DiskANN backends, selectable with --backend-name
+- **+** Works with Ollama, LM Studio, vLLM, llama.cpp and any OpenAI-compatible endpoint
+- **+** Includes ready RAG loaders for PDFs, Apple Mail, WeChat, iMessage, ChatGPT and Claude history
+- **−** Recomputing embeddings at query time adds latency compared with stored vectors
+- **−** DiskANN needs a native toolchain (Boost, protobuf, MKL) when built from source
+- **−** GPU acceleration is only a survey item for a future version
+- **−** Linux uv hardlink installs can fail with a nltk pathsec error without a workaround
+
+<sub>GPU optional · Docker · Needs uv, Ollama or OpenAI-compatible API (optional, for generation) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [▶️ Demo ↗](https://colab.research.google.com/github/yichuan-w/LEANN/blob/main/demo.ipynb) · [📖 Docs ↗](https://github.com/yichuan-w/LEANN/blob/main/docs/configuration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
 
 <a name="turbovec"></a>
 ### #&#8288;10 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
@@ -257,7 +257,7 @@ Deep Lake is a Python-installed database that stores embeddings alongside raw da
 <sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
 
 <a name="sqlite-vec"></a>
-### #&#8288;15 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (20) · Freshness: active (81) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · Apache-2.0 · May 2026</sub>
+### #&#8288;15 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (20) · Freshness: active (80) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · Apache-2.0 · May 2026</sub>
 
 **Vector search extension for SQLite, written in pure C.**
 
