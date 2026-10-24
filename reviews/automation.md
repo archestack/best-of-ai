@@ -23,7 +23,7 @@ n8n is a node-based canvas for building workflows and multi-step AI agents, with
 <sub>no GPU · Needs Docker · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Oct 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
@@ -41,7 +41,7 @@ Activepieces is a no-code workflow builder with loops, branches, auto retries, H
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/activepieces/)</sub>
 
 <a name="banana-slides"></a>
-### 🥉 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (26) · Freshness: active (94) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Oct 2026</sub>
+### 🥉 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (27) · Freshness: active (94) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Oct 2026</sub>
 
 **AI slide deck generator that exports PPTX, PDF and narrated video.**
 

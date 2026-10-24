@@ -41,7 +41,7 @@ MemPalace stores conversation history and project files as verbatim text, withou
 <sub>GPU optional · Docker + Compose · Needs Python 3.10+, ChromaDB (default), Milvus (optional), Qdrant (optional), Postgres pgvector (optional) · Models: minilm, embeddinggemma, OpenAI-compatible embeddings endpoints · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mempalace/)</sub>
 
 <a name="mem0"></a>
-### 🥉 [Mem0](https://github.com/mem0ai/mem0) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [Mem0](https://github.com/mem0ai/mem0) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
 
 **Long-term memory layer that stores and retrieves user facts for LLM agents.**
 
@@ -59,7 +59,7 @@ Mem0 extracts facts from conversations with an LLM, stores them per user, sessio
 <sub>GPU optional · Needs LLM provider (default OpenAI), Embedding model (default OpenAI text-embedding-3-small), Docker Compose (self-hosted server), spaCy en_core_web_sm (optional NLP extra) · Models: OpenAI gpt-5-mini (default), text-embedding-3-small (default), other LLMs and embedders via configuration · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mem0/)</sub>
 
 <a name="gbrain"></a>
-### #&#8288;4 [gbrain](https://github.com/garrytan/gbrain) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;4 [gbrain](https://github.com/garrytan/gbrain) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Long-term memory store for coding agents, with sources and corrections.**
 
@@ -77,7 +77,7 @@ GBrain keeps explicit facts and their sources in a local PGLite or Postgres brai
 <sub>RAM ≥ 8 GB · no GPU · Compose · Needs Bun 1.4.0+, PGLite or Postgres, Tailscale (optional, for remote MCP) · Models: Optional cloud embedding, reranking, extraction and synthesis providers (unspecified) · [Repo](https://github.com/garrytan/gbrain) · [🌐 Site ↗](https://gbrain.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gbrain/)</sub>
 
 <a name="cognee"></a>
-### #&#8288;5 [Cognee](https://github.com/topoteretes/cognee) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [Cognee](https://github.com/topoteretes/cognee) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
 
 **Memory engine that turns documents and code into a knowledge graph.**
 
@@ -131,7 +131,7 @@ Supermemory extracts facts from conversations, tracks updates and contradictions
 <sub>GPU optional · Needs LLM provider (OpenAI, Anthropic, Gemini, Groq, or Ollama), Docker (optional) · Models: OpenAI, Anthropic, Gemini, Groq, Ollama · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs ↗](https://supermemory.ai/docs) · [🌐 Site ↗](https://supermemory.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/supermemory/)</sub>
 
 <a name="openviking"></a>
-### #&#8288;8 [OpenViking](https://github.com/volcengine/openviking) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;8 [OpenViking](https://github.com/volcengine/openviking) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · AGPL-3.0 · Oct 2026</sub>
 
 **Filesystem-style context database for agent memory, resources and skills.**
 
@@ -149,7 +149,7 @@ OpenViking stores agent knowledge, memories and skills as a virtual filesystem u
 <sub>no GPU · Docker + Compose · Needs uv, Python 3.10+, embedding model provider, VLM provider, Node.js 18+ (plugin installer) · Models: Volcengine, OpenAI, Codex OAuth, Kimi, GLM · [Repo](https://github.com/volcengine/openviking) · [▶️ Demo ↗](https://openviking.ai/studio) · [📖 Docs ↗](https://docs.openviking.ai/) · [🌐 Site ↗](https://www.openviking.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openviking/)</sub>
 
 <a name="agentmemory"></a>
-### #&#8288;9 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;9 [agentmemory](https://github.com/rohitg00/agentmemory) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Persistent cross-session memory for coding agents via hooks, MCP and REST.**
 
@@ -167,7 +167,7 @@ agentmemory captures what coding agents do through hooks, compresses it into sea
 <sub>no GPU · Docker + Compose · Needs Node.js 20+, iii engine v0.22.1 · Models: Xenova/all-MiniLM-L6-v2 (local embeddings), optional LLM provider for compression · port 3113 · [Repo](https://github.com/rohitg00/agentmemory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentmemory/)</sub>
 
 <a name="everos"></a>
-### #&#8288;10 [everos](https://github.com/evermind-ai/everos) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [everos](https://github.com/evermind-ai/everos) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
 
 **Local-first agent memory runtime that stores memories as Markdown files.**
 
@@ -185,7 +185,7 @@ EverOS is a Python library and HTTP server that stores agent conversations, file
 <sub>no GPU · Needs Python 3.12+, OpenRouter API key (or other LLM provider), LibreOffice (office documents only) · Models: OpenRouter-hosted LLMs (default openai/gpt-4.1-mini), Optional embedding and rerank providers, Optional multimodal model (default google/gemini-3.8-flash) · port 8000 · [Repo](https://github.com/evermind-ai/everos) · [📖 Docs ↗](https://docs.evermind.ai) · [🌐 Site ↗](https://evermind.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/everos/)</sub>
 
 <a name="tencentdb-agent-memory"></a>
-### #&#8288;11 [tencentdb-agent-memory](https://github.com/tencentcloud/tencentdb-agent-memory) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Oct 2026</sub>
+### #&#8288;11 [tencentdb-agent-memory](https://github.com/tencentcloud/tencentdb-agent-memory) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Oct 2026</sub>
 
 **Shared memory server for coding agents: chat memory, skills, wiki, code graph.**
 
@@ -202,26 +202,8 @@ Memory service behind a proxy: point an agent's base URL at it and it extracts l
 
 <sub>Docker · Needs Node.js >=22.16, LLM API (memory and proxy parameter sets), MongoDB (experimental, optional) · Models: Configurable LLM via .env (providers unknown) · port 8125 · [Repo](https://github.com/tencentcloud/tencentdb-agent-memory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tencentdb-agent-memory/)</sub>
 
-<a name="memos"></a>
-### #&#8288;12 [MemOS](https://github.com/memtensor/memos) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
-
-**Memory operating system for agents with cubes, scheduler and hybrid retrieval.**
-
-MemOS gives LLM apps and agents long-term memory via one API over graph-structured memories, grouped into memory cubes per user, project or agent. Self-hosting runs docker compose for the REST API on port 8000 with Neo4j and Qdrant; a local plugin for OpenClaw, Hermes and DeepSeek Harness instead keeps everything in SQLite with FTS5 and vector search.
-
-- **+** Memory cubes isolate or share knowledge across users, projects and agents
-- **+** MemScheduler ingests asynchronously for high-concurrency workloads
-- **+** Local plugin for OpenClaw, Hermes and DeepSeek Harness is 100% on-device SQLite
-- **+** Apache-2.0; two arXiv papers and OmniMemEval benchmark published
-- **−** Self-hosted service requires Neo4j and Qdrant
-- **−** Local plugin docs are partly in Chinese; cloud dashboard links go to a cn locale
-- **−** LLM, embedder and vector DB keys must be filled in .env before start
-- **−** Benchmark table lists scores without comparison baselines in the README
-
-<sub>no GPU · Docker + Compose · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memos/)</sub>
-
 <a name="semantica"></a>
-### #&#8288;13 [semantica](https://github.com/semantica-agi/semantica) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
+### #&#8288;12 [semantica](https://github.com/semantica-agi/semantica) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
 
 **Python library for building context graphs with decision provenance and reasoning.**
 
@@ -238,8 +220,26 @@ Semantica is a Python library that ingests data from files, databases, Databrick
 
 <sub>no GPU · Docker + Compose · Needs Optional graph stores: Neo4j, FalkorDB, Apache AGE, AWS Neptune, Blazegraph, Jena, RDF4J, Optional vector store: FAISS, Optional LLM provider: OpenAI, Anthropic, Gemini · Models: OpenAI, Anthropic, Gemini · [Repo](https://github.com/semantica-agi/semantica) · [📖 Docs ↗](https://docs.getsemantica.ai/) · [🌐 Site ↗](https://getsemantica.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantica/)</sub>
 
+<a name="memos"></a>
+### #&#8288;13 [MemOS](https://github.com/memtensor/memos) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
+
+**Memory operating system for agents with cubes, scheduler and hybrid retrieval.**
+
+MemOS gives LLM apps and agents long-term memory via one API over graph-structured memories, grouped into memory cubes per user, project or agent. Self-hosting runs docker compose for the REST API on port 8000 with Neo4j and Qdrant; a local plugin for OpenClaw, Hermes and DeepSeek Harness instead keeps everything in SQLite with FTS5 and vector search.
+
+- **+** Memory cubes isolate or share knowledge across users, projects and agents
+- **+** MemScheduler ingests asynchronously for high-concurrency workloads
+- **+** Local plugin for OpenClaw, Hermes and DeepSeek Harness is 100% on-device SQLite
+- **+** Apache-2.0; two arXiv papers and OmniMemEval benchmark published
+- **−** Self-hosted service requires Neo4j and Qdrant
+- **−** Local plugin docs are partly in Chinese; cloud dashboard links go to a cn locale
+- **−** LLM, embedder and vector DB keys must be filled in .env before start
+- **−** Benchmark table lists scores without comparison baselines in the README
+
+<sub>no GPU · Docker + Compose · Needs Neo4j, Qdrant · port 8000 · [Repo](https://github.com/memtensor/memos) · [📖 Docs ↗](https://memos-docs.openmem.net/home/overview/) · [🌐 Site ↗](https://memos.openmem.net/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memos/)</sub>
+
 <a name="letta-ai-letta"></a>
-### #&#8288;14 [letta](https://github.com/letta-ai/letta) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;14 [letta](https://github.com/letta-ai/letta) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful agents with persistent memory, run from a terminal UI or App Server.**
 
@@ -257,7 +257,7 @@ Letta (formerly MemGPT) builds agents that keep memory and learn across sessions
 <sub>Needs Node.js (npm) · [Repo](https://github.com/letta-ai/letta) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letta-ai-letta/)</sub>
 
 <a name="honcho"></a>
-### #&#8288;15 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;15 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory service that builds per-peer representations from stored agent conversations.**
 
@@ -275,7 +275,7 @@ Honcho is a FastAPI server with Python and TypeScript SDKs that stores messages 
 <sub>no GPU · Docker · Needs PostgreSQL with pgvector, LLM provider API key (e.g. OpenAI, OpenRouter), Redis (optional), Docker (optional) · Models: OpenAI, OpenRouter · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk) · [🌐 Site ↗](https://honcho.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/honcho/)</sub>
 
 <a name="engram"></a>
-### #&#8288;16 [Engram](https://github.com/gentleman-programming/engram) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Oct 2026</sub>
+### #&#8288;16 [Engram](https://github.com/gentleman-programming/engram) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Oct 2026</sub>
 
 **Persistent memory store for AI coding agents, exposed over MCP.**
 
@@ -311,7 +311,7 @@ Letta Code is a TypeScript CLI for running long-lived agents that keep memory, s
 <sub>no GPU · Docker · Needs Node.js or Python 3.9+ (uv/pipx), Letta Cloud (default backend), LLM API keys via /connect · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com/letta-code/cli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letta/)</sub>
 
 <a name="memvid"></a>
-### #&#8288;18 [memvid](https://github.com/memvid/memvid) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (45) · Freshness: active (97) · Maintenance: weak (6) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;18 [memvid](https://github.com/memvid/memvid) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (46) · Freshness: active (97) · Maintenance: weak (6) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Jul 2026</sub>
 
 **Single-file memory store for AI agents, with search built in.**
 
