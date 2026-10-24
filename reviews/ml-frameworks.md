@@ -59,7 +59,7 @@ Ultralytics provides the YOLO model family (YOLOv3 through YOLO26) with a `yolo`
 <sub>GPU optional · Docker · Needs Python>=3.8, PyTorch>=1.8 · Models: YOLOv3 to YOLO26, PyTorch .pt, ONNX export, TensorRT export · [Repo](https://github.com/ultralytics/ultralytics) · [📖 Docs ↗](https://docs.ultralytics.com) · [🌐 Site ↗](https://www.ultralytics.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ultralytics/)</sub>
 
 <a name="pytorch-image-models"></a>
-### #&#8288;4 [pytorch-image-models](https://github.com/huggingface/pytorch-image-models) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [pytorch-image-models](https://github.com/huggingface/pytorch-image-models) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Oct 2026</sub>
 
 **PyTorch library of image models, pretrained weights and reference training scripts.**
 
@@ -113,7 +113,7 @@ Diffusers is a Python library from Hugging Face for running and training diffusi
 <sub>GPU optional · Docker · Needs PyTorch · Models: Stable Diffusion, DDPM, ControlNet, InstructPix2Pix, DeepFloyd IF · [Repo](https://github.com/huggingface/diffusers) · [📖 Docs ↗](https://huggingface.co/docs/diffusers/quicktour) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diffusers/)</sub>
 
 <a name="keras"></a>
-### #&#8288;7 [keras](https://github.com/keras-team/keras) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 64k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [keras](https://github.com/keras-team/keras) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 64k · Apache-2.0 · Oct 2026</sub>
 
 **Multi-backend deep learning framework running on JAX, TensorFlow and PyTorch.**
 
@@ -167,7 +167,7 @@ Genesis World is a Python simulation platform that combines a multi-physics engi
 <sub>GPU optional · Needs PyTorch, pyuipc (optional), gs-nyx (optional) · Models: URDF, MJCF, OBJ, GLB, USD · [Repo](https://github.com/genesis-embodied-ai/genesis-world) · [📖 Docs ↗](https://genesis-world.readthedocs.io/en/latest/) · [🌐 Site ↗](https://www.genesis.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genesis-world/)</sub>
 
 <a name="mlx"></a>
-### #&#8288;10 [mlx](https://github.com/ml-explore/mlx) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · MIT · Oct 2026</sub>
+### #&#8288;10 [mlx](https://github.com/ml-explore/mlx) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · MIT · Oct 2026</sub>
 
 **NumPy-style array framework for machine learning on Apple silicon.**
 
@@ -275,7 +275,7 @@ scikit-learn is a Python module for machine learning built on SciPy, started in 
 <sub>Needs Python >= 3.12, NumPy >= 1.26.0, SciPy >= 1.11.4, Narwhals >= 2.0.1, joblib >= 1.4.0, threadpoolctl >= 3.5.0 · [Repo](https://github.com/scikit-learn/scikit-learn) · [📖 Docs ↗](https://scikit-learn.org/stable/) · [🌐 Site ↗](https://scikit-learn.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scikit-learn/)</sub>
 
 <a name="jax"></a>
-### #&#8288;16 [jax](https://github.com/jax-ml/jax) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;16 [jax](https://github.com/jax-ml/jax) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Oct 2026</sub>
 
 **Python library for composable autodiff, JIT and vectorization of NumPy-style code.**
 
@@ -292,8 +292,26 @@ JAX is a Python array library that transforms NumPy-style functions with grad (f
 
 <sub>GPU optional · Needs XLA, NumPy · [Repo](https://github.com/jax-ml/jax) · [📖 Docs ↗](https://docs.jax.dev/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jax/)</sub>
 
+<a name="deepface"></a>
+### #&#8288;17 [deepface](https://github.com/serengil/deepface) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
+
+**Python library for face verification, search and attribute analysis.**
+
+DeepFace wraps face recognition models (VGG-Face, FaceNet, ArcFace, Dlib, SFace, GhostFaceNet, Buffalo_L) and about 20 detector backends behind single calls such as verify, find, analyze and represent. It also covers age, gender, emotion and race prediction, anti-spoofing, webcam streaming, and registering embeddings in databases such as Postgres, Mongo, Pinecone or Milvus. A gunicorn-based REST API ships in the repo.
+
+- **+** One-line calls cover detect, align, represent and verify; model and detector swap by argument
+- **+** Database-backed register, identify and search with ANN support across many vector and SQL stores
+- **+** Runs on onnxruntime by default; TensorFlow or PyTorch available as install extras
+- **+** Anti-spoofing, webcam streaming and a REST API are included in the same repo
+- **−** Built-in race and ethnicity prediction carries bias and misuse concerns
+- **−** Defaults are VGG-Face and the OpenCV detector, which the README does not rank as most accurate
+- **−** Browser UI is a separate repository (deepface-react-ui)
+- **−** RAM and GPU requirements are not stated in the README
+
+<sub>GPU optional · Docker + Compose · Needs onnxruntime, TensorFlow (optional), PyTorch (optional), Postgres, Mongo or other vector DB (optional) · Models: VGG-Face, Facenet, Facenet512, OpenFace, DeepFace · [Repo](https://github.com/serengil/deepface) · [🌐 Site ↗](https://deepface.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepface/)</sub>
+
 <a name="burn"></a>
-### #&#8288;17 [burn](https://github.com/tracel-ai/burn) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;18 [burn](https://github.com/tracel-ai/burn) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **Rust tensor library and deep learning framework for training and inference.**
 
@@ -311,7 +329,7 @@ Burn is a Rust tensor library and deep learning framework with dynamic graphs, a
 <sub>GPU optional · Needs Rust toolchain · Models: ONNX (import), PyTorch weights, Safetensors · [Repo](https://github.com/tracel-ai/burn) · [📖 Docs ↗](https://burn.dev/docs/burn) · [🌐 Site ↗](https://burn.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/burn/)</sub>
 
 <a name="tensorflow"></a>
-### #&#8288;18 [tensorflow](https://github.com/tensorflow/tensorflow) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (96) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 201k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;19 [tensorflow](https://github.com/tensorflow/tensorflow) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (96) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 201k · Apache-2.0 · Oct 2026</sub>
 
 **Tensor and neural network framework with Python and C++ APIs.**
 
@@ -329,7 +347,7 @@ TensorFlow is a machine learning framework for building, training and deploying 
 <sub>GPU optional · Needs Python, CUDA (for GPU) · Models: LiteRT (Android) · [Repo](https://github.com/tensorflow/tensorflow) · [📖 Docs ↗](https://www.tensorflow.org/api_docs/) · [🌐 Site ↗](https://www.tensorflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tensorflow/)</sub>
 
 <a name="tinygrad"></a>
-### #&#8288;19 [tinygrad](https://github.com/tinygrad/tinygrad) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Oct 2026</sub>
+### #&#8288;20 [tinygrad](https://github.com/tinygrad/tinygrad) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Oct 2026</sub>
 
 **Small deep learning stack with tensors, autograd, and a readable compiler.**
 
@@ -346,26 +364,8 @@ tinygrad is a Python tensor library with autograd, an IR and compiler that fuses
 
 <sub>GPU optional · Models: OpenCL, CPU, Metal, CUDA, AMD · [Repo](https://github.com/tinygrad/tinygrad) · [📖 Docs ↗](https://docs.tinygrad.org/) · [🌐 Site ↗](https://tinygrad.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tinygrad/)</sub>
 
-<a name="deepface"></a>
-### #&#8288;20 [deepface](https://github.com/serengil/deepface) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
-
-**Python library for face verification, search and attribute analysis.**
-
-DeepFace wraps face recognition models (VGG-Face, FaceNet, ArcFace, Dlib, SFace, GhostFaceNet, Buffalo_L) and about 20 detector backends behind single calls such as verify, find, analyze and represent. It also covers age, gender, emotion and race prediction, anti-spoofing, webcam streaming, and registering embeddings in databases such as Postgres, Mongo, Pinecone or Milvus. A gunicorn-based REST API ships in the repo.
-
-- **+** One-line calls cover detect, align, represent and verify; model and detector swap by argument
-- **+** Database-backed register, identify and search with ANN support across many vector and SQL stores
-- **+** Runs on onnxruntime by default; TensorFlow or PyTorch available as install extras
-- **+** Anti-spoofing, webcam streaming and a REST API are included in the same repo
-- **−** Built-in race and ethnicity prediction carries bias and misuse concerns
-- **−** Defaults are VGG-Face and the OpenCV detector, which the README does not rank as most accurate
-- **−** Browser UI is a separate repository (deepface-react-ui)
-- **−** RAM and GPU requirements are not stated in the README
-
-<sub>GPU optional · Docker + Compose · Needs onnxruntime, TensorFlow (optional), PyTorch (optional), Postgres, Mongo or other vector DB (optional) · Models: VGG-Face, Facenet, Facenet512, OpenFace, DeepFace · [Repo](https://github.com/serengil/deepface) · [🌐 Site ↗](https://deepface.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepface/)</sub>
-
 <a name="xgboost"></a>
-### #&#8288;21 [xgboost](https://github.com/dmlc/xgboost) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;21 [xgboost](https://github.com/dmlc/xgboost) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Gradient boosted decision tree library for tabular machine learning.**
 
@@ -437,7 +437,7 @@ Transformers.js mirrors the Python transformers `pipeline` API in JavaScript and
 <sub>GPU optional · Needs ONNX Runtime, Hugging Face Hub (default model source) · Models: ONNX, Hugging Face Hub models · [Repo](https://github.com/huggingface/transformers.js) · [📖 Docs ↗](https://huggingface.co/docs/transformers.js) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/transformers-js/)</sub>
 
 <a name="fastai"></a>
-### #&#8288;25 [fastai](https://github.com/fastai/fastai) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;25 [fastai](https://github.com/fastai/fastai) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · Apache-2.0 · Sep 2026</sub>
 
 **High-level deep learning library on PyTorch for vision, text, tabular and recommenders.**
 
@@ -491,7 +491,7 @@ Repository of TensorFlow model implementations split into official (maintained b
 <sub>GPU optional · Needs TensorFlow 2, tensorflow-text-nightly (NLP packages) · Models: TensorFlow, TensorFlow 1 (research) · [Repo](https://github.com/tensorflow/models) · [📖 Docs ↗](https://www.tensorflow.org/tfmodels) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/models/)</sub>
 
 <a name="spacy"></a>
-### #&#8288;28 [spacy](https://github.com/explosion/spacy) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Sep 2026</sub>
+### #&#8288;28 [spacy](https://github.com/explosion/spacy) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Oct 2026</sub>
 
 **Python and Cython NLP library with pretrained pipelines for 70+ languages.**
 
@@ -508,8 +508,26 @@ spaCy is a Python/Cython library for tokenization, tagging, dependency parsing, 
 
 <sub>GPU optional · Needs Python >=3.7,<3.13, pip or conda · Models: spaCy pretrained pipelines, transformers (BERT), PyTorch, TensorFlow, word vectors · [Repo](https://github.com/explosion/spacy) · [📖 Docs ↗](https://spacy.io/usage) · [🌐 Site ↗](https://spacy.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spacy/)</sub>
 
+<a name="kornia"></a>
+### #&#8288;29 [kornia](https://github.com/kornia/kornia) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
+
+**Differentiable computer vision and geometry operators for PyTorch.**
+
+Kornia is a PyTorch library of over 500 differentiable image processing, augmentation and geometry ops, including filters, homographies, camera models, epipolar geometry and Lie groups. It also ships pretrained models such as LoFTR, LightGlue, SAM and YuNet, plus an ONNXSequential helper for chaining ONNX models. The README publishes per-module float16/bfloat16 test status and known failures.
+
+- **+** Batched, differentiable ops that run on GPU tensors inside PyTorch training pipelines
+- **+** Covers filters, augmentation, feature matching, cameras, epipolar geometry and Lie groups in one library
+- **+** Publishes CPU and CUDA test pass rates and known half-precision failures per module
+- **+** Installs with pip install kornia; Apache-2.0 licensed
+- **−** Half precision is incomplete: about 95% pass in float16 and bfloat16 on CPU
+- **−** Epipolar solvers raise NotImplementedError in half precision on CPU
+- **−** No CI job covers CUDA or MPS half precision; CUDA results are a local run
+- **−** Roadmap favors conformance and benchmarks over new API growth
+
+<sub>GPU optional · Needs PyTorch 2.5.1+, kornia_rs (used in quick start), onnx (optional extra) · Models: PyTorch, ONNX, LoFTR, LightGlue, SAM · [Repo](https://github.com/kornia/kornia) · [▶️ Demo ↗](https://www.kornia.org/playground/) · [📖 Docs ↗](https://kornia.readthedocs.io) · [🌐 Site ↗](https://www.kornia.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kornia/)</sub>
+
 <a name="paddle"></a>
-### #&#8288;29 [paddle](https://github.com/paddlepaddle/paddle) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;30 [paddle](https://github.com/paddlepaddle/paddle) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
 
 **Deep learning framework with dynamic/static graphs and automatic parallel training.**
 
@@ -527,7 +545,7 @@ PaddlePaddle is a C++ deep learning framework that covers training and inference
 <sub>GPU optional · Models: dynamic graph, static graph, large models, generative models, scientific computing models · [Repo](https://github.com/paddlepaddle/paddle) · [📖 Docs ↗](https://www.paddlepaddle.org.cn/documentation/docs/en/guides/index_en.html) · [🌐 Site ↗](https://www.paddlepaddle.org.cn/install/quick) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paddle/)</sub>
 
 <a name="triton"></a>
-### #&#8288;30 [triton](https://github.com/triton-lang/triton) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Oct 2026</sub>
+### #&#8288;31 [triton](https://github.com/triton-lang/triton) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Oct 2026</sub>
 
 **Python-based language and compiler for writing custom GPU kernels.**
 
@@ -545,7 +563,7 @@ Triton is a Python DSL and MLIR/LLVM-based compiler for writing tiled deep-learn
 <sub>GPU required · Needs LLVM, PyTorch (for tests), CUDA or ROCm · [Repo](https://github.com/triton-lang/triton) · [📖 Docs ↗](https://triton-lang.org) · [🌐 Site ↗](https://triton-lang.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/triton/)</sub>
 
 <a name="optuna"></a>
-### #&#8288;31 [optuna](https://github.com/optuna/optuna) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Oct 2026</sub>
+### #&#8288;32 [optuna](https://github.com/optuna/optuna) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Oct 2026</sub>
 
 **Python hyperparameter optimization library with define-by-run search spaces and pruning.**
 
@@ -563,7 +581,7 @@ Optuna runs studies made of trials: you write an objective function in Python, d
 <sub>no GPU · Needs Python 3.10+, SQLite or other database (optional storage) · Models: scikit-learn · [Repo](https://github.com/optuna/optuna) · [📖 Docs ↗](https://optuna.readthedocs.io/en/stable/) · [🌐 Site ↗](https://optuna.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/optuna/)</sub>
 
 <a name="fiftyone"></a>
-### #&#8288;32 [fiftyone](https://github.com/voxel51/fiftyone) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (41) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;33 [fiftyone](https://github.com/voxel51/fiftyone) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (41) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
 
 **Dataset visualization, curation and model evaluation tool for computer vision.**
 
@@ -581,7 +599,7 @@ FiftyOne is a Python library with a browser-based App for exploring image, video
 <sub>GPU optional · Docker · Needs Python 3.10-3.13, MongoDB (fiftyone-db package; self-managed instance optional), FFmpeg (for video), Node.js and Yarn (source install only) · Models: PyTorch, Hugging Face, Ultralytics · [Repo](https://github.com/voxel51/fiftyone) · [▶️ Demo ↗](https://colab.research.google.com/github/voxel51/fiftyone-examples/blob/master/examples/quickstart.ipynb) · [📖 Docs ↗](https://docs.voxel51.com) · [🌐 Site ↗](https://voxel51.com/fiftyone) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fiftyone/)</sub>
 
 <a name="isaaclab"></a>
-### #&#8288;33 [isaaclab](https://github.com/isaac-sim/isaaclab) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · BSD-3-Clause · Oct 2026</sub>
+### #&#8288;34 [isaaclab](https://github.com/isaac-sim/isaaclab) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · BSD-3-Clause · Oct 2026</sub>
 
 **Robot learning framework for RL and imitation learning in GPU simulation.**
 
@@ -599,7 +617,7 @@ Isaac Lab is a Python framework for robotics research that runs reinforcement le
 <sub>GPU required · Docker + Compose · Needs NVIDIA Isaac Sim 6.2 (for Isaac Sim workflows), Newton, OVRTX, OVPhysX, cuRobo (isaaclab_mimic) · Models: RSL RL, SKRL, RL Games, Stable Baselines · [Repo](https://github.com/isaac-sim/isaaclab) · [📖 Docs ↗](https://isaac-sim.github.io/IsaacLab/main/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/isaaclab/)</sub>
 
 <a name="datasets"></a>
-### #&#8288;34 [datasets](https://github.com/huggingface/datasets) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;35 [datasets](https://github.com/huggingface/datasets) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Oct 2026</sub>
 
 **Python library for loading, streaming and preprocessing ML datasets on Apache Arrow.**
 
@@ -617,7 +635,7 @@ Hugging Face Datasets loads public datasets from the Hub or local files (CSV, JS
 <sub>no GPU · Needs Hugging Face Hub, Apache Arrow, FAISS (optional), Elasticsearch (optional) · [Repo](https://github.com/huggingface/datasets) · [📖 Docs ↗](https://huggingface.co/docs/datasets/) · [🌐 Site ↗](https://huggingface.co/datasets) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/datasets/)</sub>
 
 <a name="mnn"></a>
-### #&#8288;35 [mnn](https://github.com/alibaba/mnn) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;36 [mnn](https://github.com/alibaba/mnn) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **On-device inference and training engine for phones, embedded and PC.**
 
@@ -635,7 +653,7 @@ MNN is a C++ deep learning engine from Alibaba that runs and trains models on ph
 <sub>GPU optional · Models: TensorFlow, Caffe, ONNX, TorchScript, Qwen · [Repo](https://github.com/alibaba/mnn) · [📖 Docs ↗](https://mnn-docs.readthedocs.io/en/latest/) · [🌐 Site ↗](http://www.mnn.zone) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mnn/)</sub>
 
 <a name="pytorch-lightning"></a>
-### #&#8288;36 [pytorch-lightning](https://github.com/lightning-ai/pytorch-lightning) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;37 [pytorch-lightning](https://github.com/lightning-ai/pytorch-lightning) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · Apache-2.0 · Sep 2026</sub>
 
 **PyTorch training framework that removes loop, device and distributed boilerplate.**
 
@@ -653,7 +671,7 @@ PyTorch Lightning wraps PyTorch models in a LightningModule and a Trainer that h
 <sub>GPU optional · Needs PyTorch · Models: PyTorch nn.Module, TorchScript export, ONNX export · [Repo](https://github.com/lightning-ai/pytorch-lightning) · [📖 Docs ↗](https://pytorch-lightning.readthedocs.io/en/stable/) · [🌐 Site ↗](https://lightning.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pytorch-lightning/)</sub>
 
 <a name="ncnn"></a>
-### #&#8288;37 [ncnn](https://github.com/tencent/ncnn) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Oct 2026</sub>
+### #&#8288;38 [ncnn](https://github.com/tencent/ncnn) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Oct 2026</sub>
 
 **C++ neural network inference library for mobile, embedded and desktop devices.**
 
@@ -671,7 +689,7 @@ ncnn runs neural network inference on CPU or Vulkan GPU with no third-party runt
 <sub>GPU optional · Models: PyTorch (via pnnx), ONNX (via pnnx), ncnn param/bin · [Repo](https://github.com/tencent/ncnn) · [📖 Docs ↗](https://github.com/Tencent/ncnn/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ncnn/)</sub>
 
 <a name="tvm"></a>
-### #&#8288;38 [tvm](https://github.com/apache/tvm) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;39 [tvm](https://github.com/apache/tvm) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
 
 **Python-first machine learning compiler for optimizing and deploying models.**
 
@@ -687,24 +705,6 @@ Apache TVM is a machine learning compilation framework that uses TensorIR for te
 - **−** No ready-to-run model server or UI is described in the README
 
 <sub>Docker · [Repo](https://github.com/apache/tvm) · [📖 Docs ↗](https://tvm.apache.org/docs) · [🌐 Site ↗](https://tvm.apache.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tvm/)</sub>
-
-<a name="kornia"></a>
-### #&#8288;39 [kornia](https://github.com/kornia/kornia) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
-
-**Differentiable computer vision and geometry operators for PyTorch.**
-
-Kornia is a PyTorch library of over 500 differentiable image processing, augmentation and geometry ops, including filters, homographies, camera models, epipolar geometry and Lie groups. It also ships pretrained models such as LoFTR, LightGlue, SAM and YuNet, plus an ONNXSequential helper for chaining ONNX models. The README publishes per-module float16/bfloat16 test status and known failures.
-
-- **+** Batched, differentiable ops that run on GPU tensors inside PyTorch training pipelines
-- **+** Covers filters, augmentation, feature matching, cameras, epipolar geometry and Lie groups in one library
-- **+** Publishes CPU and CUDA test pass rates and known half-precision failures per module
-- **+** Installs with pip install kornia; Apache-2.0 licensed
-- **−** Half precision is incomplete: about 95% pass in float16 and bfloat16 on CPU
-- **−** Epipolar solvers raise NotImplementedError in half precision on CPU
-- **−** No CI job covers CUDA or MPS half precision; CUDA results are a local run
-- **−** Roadmap favors conformance and benchmarks over new API growth
-
-<sub>GPU optional · Needs PyTorch 2.5.1+, kornia_rs (used in quick start), onnx (optional extra) · Models: PyTorch, ONNX, LoFTR, LightGlue, SAM · [Repo](https://github.com/kornia/kornia) · [▶️ Demo ↗](https://www.kornia.org/playground/) · [📖 Docs ↗](https://kornia.readthedocs.io) · [🌐 Site ↗](https://www.kornia.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kornia/)</sub>
 
 <a name="vision"></a>
 ### #&#8288;40 [vision](https://github.com/pytorch/vision) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · BSD-3-Clause · Oct 2026</sub>
@@ -778,26 +778,8 @@ Rust tokenization engine that loads tokenizer.json files or Hub tokenizers and e
 
 <sub>no GPU · Models: BPE, Unigram, WordPiece, WordLevel, tokenizer.json · [Repo](https://github.com/huggingface/tokenizers) · [📖 Docs ↗](https://huggingface.co/docs/tokenizers/index) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tokenizers/)</sub>
 
-<a name="autogluon"></a>
-### #&#8288;44 [autogluon](https://github.com/autogluon/autogluon) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
-
-**AutoML library for tabular, time series and multimodal data in Python.**
-
-AutoGluon trains and ensembles models for tabular, time series and multimodal prediction through predictor classes such as TabularPredictor, TimeSeriesPredictor and MultiModalPredictor. It selects and combines models, from classic ML algorithms to foundation models, so a working pipeline takes a few lines of Python. It installs with pip on Python 3.10 to 3.13 across Linux, macOS and Windows.
-
-- **+** Three task APIs (tabular, time series, multimodal) share a fit/predict pattern
-- **+** Combines classic ML models and foundation models in one ensemble
-- **+** Installs with pip or conda on Linux, macOS and Windows
-- **+** Cloud options: AutoGluon Cloud, official Docker image, AWS Deep Learning Containers
-- **−** README gives no RAM, VRAM or training-time figures
-- **−** README does not say how much GPU helps or which tasks need it
-- **−** Not an LLM app; no chat UI, model server or agent runtime
-- **−** Supports Python 3.10 to 3.13 only
-
-<sub>GPU optional · Models: tabular models, time series forecasting, multimodal models · [Repo](https://github.com/autogluon/autogluon) · [📖 Docs ↗](https://auto.gluon.ai/stable/index.html) · [🌐 Site ↗](https://auto.gluon.ai/stable/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autogluon/)</sub>
-
 <a name="tabpfn"></a>
-### #&#8288;45 [tabpfn](https://github.com/priorlabs/tabpfn) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;44 [tabpfn](https://github.com/priorlabs/tabpfn) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Oct 2026</sub>
 
 **Pretrained transformer for tabular classification and regression, no per-dataset training.**
 
@@ -815,7 +797,7 @@ TabPFN is a Python library with scikit-style TabPFNClassifier and TabPFNRegresso
 <sub>GPU optional · Needs PyTorch, PriorLabs account token for weight download · Models: TabPFN-3.5, TabPFN-3.5-Fast, TabPFN-3, TabPFN-2 · [Repo](https://github.com/priorlabs/tabpfn) · [▶️ Demo ↗](https://colab.research.google.com/github/PriorLabs/TabPFN/blob/main/examples/notebooks/TabPFN_Demo_Local.ipynb) · [📖 Docs ↗](https://priorlabs.ai/docs) · [🌐 Site ↗](https://ux.priorlabs.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tabpfn/)</sub>
 
 <a name="wandb"></a>
-### #&#8288;46 [wandb](https://github.com/wandb/wandb) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
+### #&#8288;45 [wandb](https://github.com/wandb/wandb) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
 
 **Python SDK for tracking ML experiments and versioning datasets and models.**
 
@@ -831,6 +813,24 @@ The wandb Python client logs hyperparameters and metrics from training scripts o
 - **−** LLM tracing lives in Weave, a separate project
 
 <sub>no GPU · Needs W&B account and API key, W&B Cloud or W&B Server · [Repo](https://github.com/wandb/wandb) · [📖 Docs ↗](https://docs.wandb.ai) · [🌐 Site ↗](https://wandb.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wandb/)</sub>
+
+<a name="autogluon"></a>
+### #&#8288;46 [autogluon](https://github.com/autogluon/autogluon) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
+
+**AutoML library for tabular, time series and multimodal data in Python.**
+
+AutoGluon trains and ensembles models for tabular, time series and multimodal prediction through predictor classes such as TabularPredictor, TimeSeriesPredictor and MultiModalPredictor. It selects and combines models, from classic ML algorithms to foundation models, so a working pipeline takes a few lines of Python. It installs with pip on Python 3.10 to 3.13 across Linux, macOS and Windows.
+
+- **+** Three task APIs (tabular, time series, multimodal) share a fit/predict pattern
+- **+** Combines classic ML models and foundation models in one ensemble
+- **+** Installs with pip or conda on Linux, macOS and Windows
+- **+** Cloud options: AutoGluon Cloud, official Docker image, AWS Deep Learning Containers
+- **−** README gives no RAM, VRAM or training-time figures
+- **−** README does not say how much GPU helps or which tasks need it
+- **−** Not an LLM app; no chat UI, model server or agent runtime
+- **−** Supports Python 3.10 to 3.13 only
+
+<sub>GPU optional · Models: tabular models, time series forecasting, multimodal models · [Repo](https://github.com/autogluon/autogluon) · [📖 Docs ↗](https://auto.gluon.ai/stable/index.html) · [🌐 Site ↗](https://auto.gluon.ai/stable/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autogluon/)</sub>
 
 <a name="vowpal-wabbit"></a>
 ### #&#8288;47 [vowpal_wabbit](https://github.com/vowpalwabbit/vowpal_wabbit) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · custom license · Sep 2026</sub>
@@ -887,7 +887,7 @@ FlashInfer is a Python and CUDA library that provides GPU kernels for LLM infere
 <sub>GPU required · Docker · Needs PyTorch, CUDA 12.9 or 13.0 · Models: DeepSeek MLA, Llama-4 MoE routing, DeepSeek-V3 MoE routing, LLaMA 3.1 RoPE · [Repo](https://github.com/flashinfer-ai/flashinfer) · [📖 Docs ↗](https://docs.flashinfer.ai) · [🌐 Site ↗](https://flashinfer.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flashinfer/)</sub>
 
 <a name="pytorch-geometric"></a>
-### #&#8288;50 [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
+### #&#8288;50 [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
 
 **Graph neural network library built on PyTorch.**
 
@@ -905,7 +905,7 @@ PyG (PyTorch Geometric) is a Python library for writing and training graph neura
 <sub>GPU optional · Docker · Needs PyTorch, pyg-lib (optional) · Models: GCN, GAT, GraphSAGE, GIN, RGCN · [Repo](https://github.com/pyg-team/pytorch_geometric) · [📖 Docs ↗](https://pytorch-geometric.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pytorch-geometric/)</sub>
 
 <a name="lightgbm"></a>
-### #&#8288;51 [lightgbm](https://github.com/lightgbm-org/lightgbm) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
+### #&#8288;51 [lightgbm](https://github.com/lightgbm-org/lightgbm) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Gradient boosting library for tree-based models on tabular data.**
 
@@ -977,7 +977,7 @@ sktime provides a unified fit/predict interface for forecasting, time series cla
 <sub>Needs scikit-learn, statsmodels, tsfresh, PyOD, fbprophet · Models: scikit-learn estimators, ThetaForecaster, TimeSeriesForestClassifier · [Repo](https://github.com/sktime/sktime) · [▶️ Demo ↗](https://mybinder.org/v2/gh/sktime/sktime/main?filepath=examples) · [📖 Docs ↗](https://www.sktime.net/en/stable/users.html) · [🌐 Site ↗](https://www.sktime.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sktime/)</sub>
 
 <a name="darts"></a>
-### #&#8288;55 [darts](https://github.com/unit8co/darts) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;55 [darts](https://github.com/unit8co/darts) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
 
 **Python library for time series forecasting and anomaly detection.**
 
@@ -994,26 +994,8 @@ Darts is a Python library that gives forecasting models, from ARIMA and exponent
 
 <sub>GPU optional · Docker · Needs PyTorch Lightning, scikit-learn, pandas · Models: ARIMA, VARIMA, ExponentialSmoothing, N-BEATS, TCN · [Repo](https://github.com/unit8co/darts) · [📖 Docs ↗](https://unit8co.github.io/darts/userguide.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/darts/)</sub>
 
-<a name="pyod"></a>
-### #&#8288;56 [pyod](https://github.com/yzhao062/pyod) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · BSD-2-Clause · Oct 2026</sub>
-
-**Python library of 61 anomaly detectors with fit/predict API and agent skill.**
-
-PyOD is a Python library for outlier detection covering tabular, time series, graph, text, image and audio data through a scikit-style fit/decision_function/predict API. Version 3 adds ADEngine, which selects, compares and assesses detectors automatically, plus an od-expert skill for Claude Code and Codex and an MCP server exposing ten stateless tools.
-
-- **+** 61 detectors across six modalities behind one fit/predict interface
-- **+** Classic API unchanged in v3, so existing code keeps working
-- **+** Optional MCP server and Claude Code/Codex skill for agent-driven detection
-- **+** Benchmark-backed model selection using ADBench, TSB-AD, BOND and NLP-ADBench
-- **−** MCP investigate and iterate tools are stateful and deferred, not yet available
-- **−** Full multi-turn agentic flow needs Claude Code or Codex via the skill
-- **−** Models persist via joblib or pickle, with the usual pickle trust caveats
-- **−** README excerpt gives no RAM, GPU or per-detector scaling figures
-
-<sub>Needs numba, SUOD, mcp (optional extra) · Models: tabular, time series, graph, text, image · [Repo](https://github.com/yzhao062/pyod) · [▶️ Demo ↗](https://htmlpreview.github.io/?https://github.com/yzhao062/pyod/blob/development/examples/agentic_demo.html) · [📖 Docs ↗](https://pyod.readthedocs.io/en/latest/) · [🌐 Site ↗](https://pyod.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyod/)</sub>
-
 <a name="modelscope"></a>
-### #&#8288;57 [modelscope](https://github.com/modelscope/modelscope) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;56 [modelscope](https://github.com/modelscope/modelscope) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **Python library for running and fine-tuning ModelScope Hub models.**
 
@@ -1029,6 +1011,24 @@ The core ModelScope Python library gives a unified `pipeline` interface for infe
 - **−** Model catalog and many docs links center on modelscope.cn, in Chinese
 
 <sub>GPU optional · Docker · Needs PyTorch, TensorFlow, ONNX, mmcv-full, libsndfile, ModelScope Hub · Models: PyTorch, TensorFlow, ONNX, LLM, multi-modal · [Repo](https://github.com/modelscope/modelscope) · [📖 Docs ↗](https://modelscope.cn/docs/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85) · [🌐 Site ↗](https://www.modelscope.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modelscope/)</sub>
+
+<a name="pyod"></a>
+### #&#8288;57 [pyod](https://github.com/yzhao062/pyod) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · BSD-2-Clause · Oct 2026</sub>
+
+**Python library of 61 anomaly detectors with fit/predict API and agent skill.**
+
+PyOD is a Python library for outlier detection covering tabular, time series, graph, text, image and audio data through a scikit-style fit/decision_function/predict API. Version 3 adds ADEngine, which selects, compares and assesses detectors automatically, plus an od-expert skill for Claude Code and Codex and an MCP server exposing ten stateless tools.
+
+- **+** 61 detectors across six modalities behind one fit/predict interface
+- **+** Classic API unchanged in v3, so existing code keeps working
+- **+** Optional MCP server and Claude Code/Codex skill for agent-driven detection
+- **+** Benchmark-backed model selection using ADBench, TSB-AD, BOND and NLP-ADBench
+- **−** MCP investigate and iterate tools are stateful and deferred, not yet available
+- **−** Full multi-turn agentic flow needs Claude Code or Codex via the skill
+- **−** Models persist via joblib or pickle, with the usual pickle trust caveats
+- **−** README excerpt gives no RAM, GPU or per-detector scaling figures
+
+<sub>Needs numba, SUOD, mcp (optional extra) · Models: tabular, time series, graph, text, image · [Repo](https://github.com/yzhao062/pyod) · [▶️ Demo ↗](https://htmlpreview.github.io/?https://github.com/yzhao062/pyod/blob/development/examples/agentic_demo.html) · [📖 Docs ↗](https://pyod.readthedocs.io/en/latest/) · [🌐 Site ↗](https://pyod.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyod/)</sub>
 
 <a name="hanlp"></a>
 ### #&#8288;58 [hanlp](https://github.com/hankcs/hanlp) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (85) · Freshness: recent (70) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Sep 2026</sub>
@@ -1067,7 +1067,7 @@ Candle is a Rust tensor and neural-network library from Hugging Face, with an AP
 <sub>GPU optional · Needs Rust toolchain, CUDA (optional), cuDNN (optional), Intel MKL (optional), trunk (WASM examples) · Models: safetensors, npz, ggml, PyTorch, llama.cpp quantized types · [Repo](https://github.com/huggingface/candle) · [▶️ Demo ↗](https://huggingface.co/spaces/lmz/candle-whisper) · [📖 Docs ↗](https://huggingface.github.io/candle/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/candle/)</sub>
 
 <a name="finrl"></a>
-### #&#8288;60 [finrl](https://github.com/ai4finance-foundation/finrl) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (59) · Freshness: active (97) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
+### #&#8288;60 [finrl](https://github.com/ai4finance-foundation/finrl) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (59) · Freshness: active (97) · Maintenance: fair (51) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
 
 **Deep reinforcement learning pipeline for stock and crypto trading research.**
 
@@ -1247,7 +1247,7 @@ MONAI is a PyTorch-based Python library for training and evaluating deep learnin
 <sub>GPU optional · Docker · Needs PyTorch, NumPy · Models: PyTorch, MONAI Bundle · [Repo](https://github.com/project-monai/monai) · [▶️ Demo ↗](https://colab.research.google.com/github/Project-MONAI/tutorials/blob/main/2d_classification/mednist_tutorial.ipynb) · [📖 Docs ↗](https://monai.readthedocs.io/) · [🌐 Site ↗](https://project-monai.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/monai/)</sub>
 
 <a name="opencompass"></a>
-### #&#8288;70 [opencompass](https://github.com/open-compass/opencompass) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;70 [opencompass](https://github.com/open-compass/opencompass) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Oct 2026</sub>
 
 **Evaluation harness for benchmarking LLMs and VLMs on 100+ datasets.**
 
@@ -1265,7 +1265,7 @@ OpenCompass runs benchmark evaluations for language models across knowledge, rea
 <sub>GPU optional · Needs conda, HuggingFace, LMDeploy, vLLM · Models: HuggingFace, LMDeploy, vLLM, OpenAI, Anthropic · [Repo](https://github.com/open-compass/opencompass) · [📖 Docs ↗](https://opencompass.readthedocs.io/en/latest/) · [🌐 Site ↗](https://opencompass.org.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opencompass/)</sub>
 
 <a name="flax"></a>
-### #&#8288;71 [flax](https://github.com/google/flax) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;71 [flax](https://github.com/google/flax) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Oct 2026</sub>
 
 **Neural network library for JAX built around mutable Python objects.**
 
@@ -1319,7 +1319,7 @@ Recommenders is a Python package and set of Jupyter notebooks for building, eval
 <sub>GPU optional · Needs Python 3.11, gcc, Jupyter, PySpark (optional) · Models: ALS, SAR, NCF, LightGCN, SASRec · [Repo](https://github.com/recommenders-team/recommenders) · [📖 Docs ↗](https://readthedocs.org/projects/microsoft-recommenders/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/recommenders/)</sub>
 
 <a name="carla"></a>
-### #&#8288;74 [carla](https://github.com/carla-simulator/carla) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (52) · Freshness: active (82) · Maintenance: patchy (46) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Oct 2026</sub>
+### #&#8288;74 [carla](https://github.com/carla-simulator/carla) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (52) · Freshness: active (81) · Maintenance: patchy (46) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Oct 2026</sub>
 
 **Autonomous driving simulator built on Unreal Engine 5.5 with a Python API.**
 
@@ -1373,7 +1373,7 @@ Stable Baselines3 provides tested PyTorch implementations of RL algorithms inclu
 <sub>GPU optional · Docker · Needs PyTorch >= 2.8, Gymnasium, Python 3.10+ · Models: PPO, A2C, DQN, DDPG, SAC · [Repo](https://github.com/dlr-rm/stable-baselines3) · [📖 Docs ↗](https://stable-baselines3.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stable-baselines3/)</sub>
 
 <a name="stanza"></a>
-### #&#8288;77 [stanza](https://github.com/stanfordnlp/stanza) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · custom license · Oct 2026</sub>
+### #&#8288;77 [stanza](https://github.com/stanfordnlp/stanza) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · custom license · Oct 2026</sub>
 
 **Python NLP toolkit for tokenizing, tagging and parsing text in 60+ languages.**
 
@@ -1463,7 +1463,7 @@ DVC is a Python command line tool that keeps data and model files in a cache and
 <sub>no GPU · Needs Git, Remote storage (S3, Azure, Google Cloud, SSH, etc.) · [Repo](https://github.com/treeverse/dvc) · [📖 Docs ↗](https://dvc.org/doc) · [🌐 Site ↗](https://dvc.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dvc/)</sub>
 
 <a name="pytorch3d"></a>
-### #&#8288;82 [pytorch3d](https://github.com/facebookresearch/pytorch3d) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (34) · Freshness: active (88) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10.0k · custom license · Oct 2026</sub>
+### #&#8288;82 [pytorch3d](https://github.com/facebookresearch/pytorch3d) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (34) · Freshness: active (87) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10.0k · custom license · Oct 2026</sub>
 
 **PyTorch library for differentiable 3D mesh operations and rendering.**
 
@@ -1481,7 +1481,7 @@ PyTorch3D provides triangle mesh data structures, mesh operations (projective tr
 <sub>GPU optional · Needs PyTorch · Models: triangle meshes, point clouds, volumes, implicit representations (NeRF) · [Repo](https://github.com/facebookresearch/pytorch3d) · [📖 Docs ↗](https://pytorch3d.readthedocs.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pytorch3d/)</sub>
 
 <a name="catboost"></a>
-### #&#8288;83 [catboost](https://github.com/catboost/catboost) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (28) · Freshness: active (95) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;83 [catboost](https://github.com/catboost/catboost) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (28) · Freshness: active (94) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **Gradient boosting library over decision trees with categorical feature support.**
 
@@ -1535,7 +1535,7 @@ Pyro is a Python probabilistic programming library built on PyTorch. It lets you
 <sub>GPU optional · Docker · Needs PyTorch · [Repo](https://github.com/pyro-ppl/pyro) · [📖 Docs ↗](http://docs.pyro.ai/) · [🌐 Site ↗](http://pyro.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyro/)</sub>
 
 <a name="deepep"></a>
-### #&#8288;86 [deepep](https://github.com/deepseek-ai/deepep) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (37) · Freshness: active (82) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
+### #&#8288;86 [deepep](https://github.com/deepseek-ai/deepep) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (37) · Freshness: active (81) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
 
 **GPU communication kernels for MoE expert-parallel dispatch and combine.**
 
@@ -1751,7 +1751,7 @@ TSLib is a PyTorch code base that implements dozens of deep time series models (
 <sub>GPU optional · Docker + Compose · Needs PyTorch 2.5.1, Conda (Python 3.11), mamba_ssm (for Mamba), uni2ts (for Moirai) · Models: TimesNet, iTransformer, PatchTST, DLinear, TimeXer · [Repo](https://github.com/thuml/time-series-library) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/time-series-library/)</sub>
 
 <a name="deeplearning4j"></a>
-### #&#8288;98 [deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (50) · Freshness: slowing (45) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;98 [deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (50) · Freshness: slowing (44) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Feb 2026</sub>
 
 **JVM deep learning stack with ND4J tensors, SameDiff autodiff and DataVec ETL.**
 
@@ -1841,7 +1841,7 @@ Argos Translate translates text offline using OpenNMT models run through CTransl
 <sub>GPU optional · Needs OpenNMT, CTranslate2 · Models: .argosmodel packages (OpenNMT) · [Repo](https://github.com/argosopentech/argos-translate) · [▶️ Demo ↗](https://libretranslate.com) · [📖 Docs ↗](https://argos-translate.readthedocs.io) · [🌐 Site ↗](https://www.argosopentech.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/argos-translate/)</sub>
 
 <a name="cleanrl"></a>
-### #&#8288;103 [cleanrl](https://github.com/vwxyzjn/cleanrl) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (38) · Freshness: slowing (46) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Apr 2026</sub>
+### #&#8288;103 [cleanrl](https://github.com/vwxyzjn/cleanrl) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (38) · Freshness: slowing (45) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Apr 2026</sub>
 
 **Single-file PyTorch and JAX implementations of deep RL algorithms.**
 
@@ -1877,7 +1877,7 @@ PyTorch-based Python package that returns 2D or 3D facial landmarks for images o
 <sub>GPU optional · Docker · Needs PyTorch >=2.0, Python 3.9+, onnxruntime (optional, for SCRFD) · Models: FAN 2D landmarks, FAN 3D landmarks, SFD, BlazeFace, YuNet · [Repo](https://github.com/1adrianb/face-alignment) · [🌐 Site ↗](https://www.adrianbulat.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/face-alignment/)</sub>
 
 <a name="surprise"></a>
-### #&#8288;105 [surprise](https://github.com/nicolashug/surprise) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (8) · Freshness: recent (80) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · BSD-3-Clause · May 2026</sub>
+### #&#8288;105 [surprise](https://github.com/nicolashug/surprise) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (8) · Freshness: recent (79) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · BSD-3-Clause · May 2026</sub>
 
 **Python scikit for building and evaluating rating-based recommender systems.**
 
@@ -1913,7 +1913,7 @@ Gensim implements streamed, out-of-core versions of LSA/LSI, LDA, Random Project
 <sub>no GPU · Needs NumPy, BLAS (MKL, ATLAS or OpenBLAS recommended) · Models: LSA/LSI, LDA, HDP, Random Projections, word2vec · [Repo](https://github.com/piskvorky/gensim) · [📖 Docs ↗](https://radimrehurek.com/gensim/auto_examples/) · [🌐 Site ↗](https://radimrehurek.com/gensim/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gensim/)</sub>
 
 <a name="dopamine"></a>
-### #&#8288;107 [dopamine](https://github.com/google/dopamine) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (39) · Freshness: slowing (39) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;107 [dopamine](https://github.com/google/dopamine) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (39) · Freshness: slowing (38) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Mar 2026</sub>
 
 **Reinforcement learning research framework with compact JAX agent implementations.**
 
@@ -1967,7 +1967,7 @@ TensorTrade provides composable pieces for RL trading: environments, action sche
 <sub>GPU optional · Docker · Needs Ray RLlib, Optuna, TensorFlow, Jupyter · Models: PPO · [Repo](https://github.com/tensortrade-org/tensortrade) · [📖 Docs ↗](https://www.tensortrade.org/en/latest/) · [🌐 Site ↗](https://www.tensortrade.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tensortrade/)</sub>
 
 <a name="autokeras"></a>
-### #&#8288;110 [autokeras](https://github.com/keras-team/autokeras) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (30) · Freshness: quiet (25) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2025</sub>
+### #&#8288;110 [autokeras](https://github.com/keras-team/autokeras) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (30) · Freshness: quiet (24) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2025</sub>
 
 **AutoML library that searches Keras models with a fit/predict API.**
 

@@ -59,7 +59,7 @@ Mem0 extracts facts from conversations with an LLM, stores them per user, sessio
 <sub>GPU optional · Needs LLM provider (default OpenAI), Embedding model (default OpenAI text-embedding-3-small), Docker Compose (self-hosted server), spaCy en_core_web_sm (optional NLP extra) · Models: OpenAI gpt-5-mini (default), text-embedding-3-small (default), other LLMs and embedders via configuration · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mem0/)</sub>
 
 <a name="gbrain"></a>
-### #&#8288;4 [gbrain](https://github.com/garrytan/gbrain) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;4 [gbrain](https://github.com/garrytan/gbrain) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Long-term memory store for coding agents, with sources and corrections.**
 
@@ -77,7 +77,7 @@ GBrain keeps explicit facts and their sources in a local PGLite or Postgres brai
 <sub>RAM ≥ 8 GB · no GPU · Compose · Needs Bun 1.4.0+, PGLite or Postgres, Tailscale (optional, for remote MCP) · Models: Optional cloud embedding, reranking, extraction and synthesis providers (unspecified) · [Repo](https://github.com/garrytan/gbrain) · [🌐 Site ↗](https://gbrain.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gbrain/)</sub>
 
 <a name="cognee"></a>
-### #&#8288;5 [Cognee](https://github.com/topoteretes/cognee) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [Cognee](https://github.com/topoteretes/cognee) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
 
 **Memory engine that turns documents and code into a knowledge graph.**
 
@@ -95,7 +95,7 @@ Cognee builds persistent agent memory by extracting entities, relationships and 
 <sub>no GPU · Docker + Compose · Compose runs Neo4j, PostgreSQL, Redis · Models: local GLiNER + embeddings (keyless), OpenAI, Ollama, other providers per docs · port 8000 · [Repo](https://github.com/topoteretes/cognee) · [📖 Docs ↗](https://docs.cognee.ai/) · [🌐 Site ↗](https://cognee.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cognee/)</sub>
 
 <a name="graphiti"></a>
-### #&#8288;6 [Graphiti](https://github.com/getzep/graphiti) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [Graphiti](https://github.com/getzep/graphiti) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **Python framework for temporal knowledge graphs that track how facts change.**
 
@@ -113,7 +113,7 @@ Graphiti ingests text and JSON episodes into a knowledge graph of entities and f
 <sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2, or Amazon Neptune + OpenSearch Serverless, OpenAI API key (default LLM and embedder) · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, Groq · [Repo](https://github.com/getzep/graphiti) · [🌐 Site ↗](https://www.getzep.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graphiti/)</sub>
 
 <a name="supermemory"></a>
-### #&#8288;7 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;7 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Memory and context engine for AI agents, with user profiles and hybrid search.**
 
@@ -203,7 +203,7 @@ Memory service behind a proxy: point an agent's base URL at it and it extracts l
 <sub>Docker · Needs Node.js >=22.16, LLM API (memory and proxy parameter sets), MongoDB (experimental, optional) · Models: Configurable LLM via .env (providers unknown) · port 8125 · [Repo](https://github.com/tencentcloud/tencentdb-agent-memory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tencentdb-agent-memory/)</sub>
 
 <a name="memos"></a>
-### #&#8288;12 [MemOS](https://github.com/memtensor/memos) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;12 [MemOS](https://github.com/memtensor/memos) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
 
 **Memory operating system for agents with cubes, scheduler and hybrid retrieval.**
 
@@ -257,7 +257,7 @@ Letta (formerly MemGPT) builds agents that keep memory and learn across sessions
 <sub>Needs Node.js (npm) · [Repo](https://github.com/letta-ai/letta) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letta-ai-letta/)</sub>
 
 <a name="honcho"></a>
-### #&#8288;15 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;15 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory service that builds per-peer representations from stored agent conversations.**
 

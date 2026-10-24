@@ -345,7 +345,7 @@ ChatGPT UI is a web client for ChatGPT-style chat that supports multiple users, 
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/wongsaang/chatgpt-ui) · [📖 Docs ↗](https://wongsaang.github.io/chatgpt-ui/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgpt-ui/)</sub>
 
 <a name="aidea"></a>
-### #&#8288;20 [aidea](https://github.com/mylxsw/aidea) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (13) · Freshness: slowing (34) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
+### #&#8288;20 [aidea](https://github.com/mylxsw/aidea) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (13) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
 
 **Flutter client for chatting with LLMs and generating images.**
 

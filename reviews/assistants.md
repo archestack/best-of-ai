@@ -41,7 +41,7 @@ A Claude Code project you fork and fill in with your profile. Slash commands (/s
 <sub>no GPU · Needs Claude Code, Python 3.10+, Bun, LaTeX (lualatex, xelatex), pypdf or poppler (optional) · Models: Claude (via Claude Code) · [Repo](https://github.com/ai-job-search-dev/ai-job-search) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-job-search/)</sub>
 
 <a name="openhuman"></a>
-### 🥉 [openhuman](https://github.com/tinyhumansai/openhuman) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: ready (100) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Oct 2026</sub>
+### 🥉 [openhuman](https://github.com/tinyhumansai/openhuman) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (100) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Oct 2026</sub>
 
 **Rust agent harness with desktop app, built-in memory and embeddable library.**
 
@@ -95,7 +95,7 @@ AIRI is an attempt to re-create Neuro-sama as a self-owned digital companion. It
 <sub>GPU optional · Needs pnpm, Electron, Capacitor · Models: OpenAI-compatible APIs, Ollama, vLLM, SGLang, Anthropic · [Repo](https://github.com/moeru-ai/airi) · [▶️ Demo ↗](https://airi.moeru.ai) · [📖 Docs ↗](https://airi.moeru.ai/docs/en/) · [🌐 Site ↗](https://airi.moeru.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/airi/)</sub>
 
 <a name="hermes-agent"></a>
-### #&#8288;6 [Hermes Agent](https://github.com/nousresearch/hermes-agent) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 256k · MIT · Oct 2026</sub>
+### #&#8288;6 [Hermes Agent](https://github.com/nousresearch/hermes-agent) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 257k · MIT · Oct 2026</sub>
 
 **Self-hosted agent with skill learning, memory and Telegram/Discord/Slack gateway.**
 
@@ -148,7 +148,7 @@ ZeroClaw is one Rust binary that routes messages from 30+ channels (Discord, Tel
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, OpenAI Codex, Ollama, OpenAI-compatible endpoints · [Repo](https://github.com/zeroclaw-labs/zeroclaw) · [📖 Docs ↗](https://docs.zeroclaw.com/master/en/introduction.html) · [🌐 Site ↗](https://www.zeroclaw.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zeroclaw/)</sub>
 
 <a name="cowagent"></a>
-### #&#8288;9 [cowagent](https://github.com/zhayujie/cowagent) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Oct 2026</sub>
+### #&#8288;9 [cowagent](https://github.com/zhayujie/cowagent) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Oct 2026</sub>
 
 **Agent assistant you chat with via web console, Telegram, Slack and more.**
 
@@ -184,7 +184,7 @@ NanoClaw is a self-hosted assistant built on the Claude Agent SDK. A single Node
 <sub>no GPU · Needs Docker, Node.js 22+, pnpm 10+, Claude Code, Anthropic API credential, OneCLI Agent Vault (credential gateway) · Models: Claude (default), OpenAI Codex, OpenRouter, Google, DeepSeek via OpenCode, Ollama local models · [Repo](https://github.com/nanocoai/nanoclaw) · [📖 Docs ↗](https://docs.nanoclaw.dev) · [🌐 Site ↗](https://nanoclaw.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nanoclaw/)</sub>
 
 <a name="nanobot"></a>
-### #&#8288;11 [nanobot](https://github.com/hkuds/nanobot) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
+### #&#8288;11 [nanobot](https://github.com/hkuds/nanobot) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 
 **Self-hosted personal AI agent reachable from browser, terminal and chat apps.**
 
@@ -345,26 +345,8 @@ Brigade is a Node.js gateway and terminal chat UI that runs multiple isolated ag
 
 <sub>no GPU · Needs Node.js 22.12+, Composio (optional), Convex (optional), Ollama (optional), headless Chrome and FFmpeg (optional, video) · Models: Anthropic, OpenAI, Gemini, OpenRouter, Groq · port 7777 · [Repo](https://github.com/spinabot/brigade) · [🌐 Site ↗](https://brigade.spinabot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/brigade/)</sub>
 
-<a name="agenticseek"></a>
-### #&#8288;20 [agenticseek](https://github.com/fosowl/agenticseek) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · GPL-3.0 · Oct 2026</sub>
-
-**Local agent that browses the web, writes code and plans tasks.**
-
-AgenticSeek is a self-hosted Manus-style assistant that routes each request to a browser, coding or planning agent. It runs against local models via Ollama, LM Studio or OpenAI-compatible servers, or against cloud APIs such as OpenAI, Google, Deepseek and Anthropic. The web UI is served on port 3000, with SearxNG and Redis started through Docker Compose.
-
-- **+** Runs fully local with Ollama, LM Studio or any OpenAI-compatible server such as llama.cpp
-- **+** Browser agent uses bundled SearxNG for search, with a stealth-mode Selenium option
-- **+** Writes and runs code in Python, C, Go and Java inside a configurable work directory
-- **+** Also supports cloud providers: OpenAI, Google, Deepseek, Hugging Face, TogetherAI, OpenRouter, MiniMax
-- **−** README calls it an early prototype; agent routing may pick the wrong agent
-- **−** Web form filling is described as experimental and may fail
-- **−** Voice input is experimental and CLI-only; speech is marked in progress
-- **−** Prompts are tuned for Deepseek; OpenAI and Gemini models may handle browsing poorly
-
-<sub>GPU optional · Docker + Compose · Needs Docker Compose, SearxNG, Redis, Python 3.10, Ollama or LM Studio (for local models) · Models: Ollama, LM Studio, OpenAI-compatible (llama.cpp), OpenAI, Google Gemini · port 3000 · README: alternative to Manus · [Repo](https://github.com/fosowl/agenticseek) · [🌐 Site ↗](https://fosowl.github.io/agenticSeek.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agenticseek/)</sub>
-
 <a name="leon"></a>
-### #&#8288;21 [leon](https://github.com/leon-ai/leon) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
+### #&#8288;20 [leon](https://github.com/leon-ai/leon) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
 
 **Self-hosted personal assistant with tools, layered memory and agent-style execution.**
 
@@ -380,6 +362,24 @@ Leon is a Node.js personal assistant that runs locally on Linux, macOS or Window
 - **−** Few contributors; developed mostly in spare time, so progress is uneven
 
 <sub>Needs Node.js >= 24, pnpm, Python (bridges and tcp_server) · Models: local models, remote AI providers · port 5366 · [Repo](https://github.com/leon-ai/leon) · [🌐 Site ↗](https://getleon.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leon/)</sub>
+
+<a name="agenticseek"></a>
+### #&#8288;21 [agenticseek](https://github.com/fosowl/agenticseek) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · GPL-3.0 · Oct 2026</sub>
+
+**Local agent that browses the web, writes code and plans tasks.**
+
+AgenticSeek is a self-hosted Manus-style assistant that routes each request to a browser, coding or planning agent. It runs against local models via Ollama, LM Studio or OpenAI-compatible servers, or against cloud APIs such as OpenAI, Google, Deepseek and Anthropic. The web UI is served on port 3000, with SearxNG and Redis started through Docker Compose.
+
+- **+** Runs fully local with Ollama, LM Studio or any OpenAI-compatible server such as llama.cpp
+- **+** Browser agent uses bundled SearxNG for search, with a stealth-mode Selenium option
+- **+** Writes and runs code in Python, C, Go and Java inside a configurable work directory
+- **+** Also supports cloud providers: OpenAI, Google, Deepseek, Hugging Face, TogetherAI, OpenRouter, MiniMax
+- **−** README calls it an early prototype; agent routing may pick the wrong agent
+- **−** Web form filling is described as experimental and may fail
+- **−** Voice input is experimental and CLI-only; speech is marked in progress
+- **−** Prompts are tuned for Deepseek; OpenAI and Gemini models may handle browsing poorly
+
+<sub>GPU optional · Docker + Compose · Needs Docker Compose, SearxNG, Redis, Python 3.10, Ollama or LM Studio (for local models) · Models: Ollama, LM Studio, OpenAI-compatible (llama.cpp), OpenAI, Google Gemini · port 3000 · README: alternative to Manus · [Repo](https://github.com/fosowl/agenticseek) · [🌐 Site ↗](https://fosowl.github.io/agenticSeek.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agenticseek/)</sub>
 
 <a name="octop"></a>
 ### #&#8288;22 [octop](https://github.com/tencentcloud/octop) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
@@ -400,7 +400,7 @@ Octop runs as a single Python process (FastAPI) serving a web dashboard, CLI, IM
 <sub>no GPU · Docker + Compose · Needs Python 3.12+ (provisioned by uv), SQLite (default) or PostgreSQL, Chromium/Playwright (optional), Docker (optional) · port 8088 · [Repo](https://github.com/tencentcloud/octop) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/octop/)</sub>
 
 <a name="operit"></a>
-### #&#8288;23 [operit](https://github.com/aaswordman/operit) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · LGPL-3.0 · Sep 2026</sub>
+### #&#8288;23 [operit](https://github.com/aaswordman/operit) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · LGPL-3.0 · Sep 2026</sub>
 
 **Android AI agent app that controls the phone, browser and a terminal.**
 
@@ -616,7 +616,7 @@ Packages the OpenClaw personal assistant (formerly Moltbot/Clawdbot) to run in a
 <sub>RAM ≥ 4 GB · no GPU · Docker · Needs Cloudflare Workers Paid plan, Cloudflare Sandbox/Containers, Cloudflare Access, Anthropic API key or Cloudflare AI Gateway, R2 (optional) · Models: Anthropic Claude, OpenAI, Groq, Workers AI · [Repo](https://github.com/cloudflare/moltworker) · [📖 Docs ↗](https://developers.cloudflare.com/sandbox/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moltworker/)</sub>
 
 <a name="open-llm-vtuber"></a>
-### #&#8288;35 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (47) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · custom license · May 2026</sub>
+### #&#8288;35 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (47) · Freshness: recent (61) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · custom license · May 2026</sub>
 
 **Voice-chat AI companion with a Live2D avatar and desktop pet mode.**
 
