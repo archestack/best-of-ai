@@ -112,26 +112,8 @@ Megatron Core is a Python library of transformer building blocks with tensor, pi
 
 <sub>GPU required · Docker · Needs PyTorch, NVIDIA GPUs, NGC container (optional) · Models: GPT, Mixture-of-Experts, DeepSeek-V3, Qwen3, Mixtral · [Repo](https://github.com/nvidia/megatron-lm) · [📖 Docs ↗](https://docs.nvidia.com/megatron-core/developer-guide/latest/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/megatron-lm/)</sub>
 
-<a name="ms-swift"></a>
-### #&#8288;7 [ms-swift](https://github.com/modelscope/ms-swift) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
-
-**Fine-tuning, RL, quantization and serving toolkit for 600+ text and 400+ multimodal LLMs.**
-
-ms-swift is a Python framework from the ModelScope community for training, evaluating, quantizing and serving LLMs and multimodal models through the `swift` CLI, a Gradio Web-UI or Python. It covers LoRA/QLoRA and full-parameter SFT, DPO/KTO and GRPO-family reinforcement learning, with Megatron parallelism (TP/PP/CP/EP) for large and MoE models. Inference and deployment run on Transformers, vLLM, SGLang or LMDeploy, and evaluation uses EvalScope.
-
-- **+** Covers SFT, DPO/KTO/RM, GRPO variants, embedding and reranker training in one CLI
-- **+** Megatron TP/PP/CP/EP support for full-parameter and LoRA training of MoE models
-- **+** Runs on NVIDIA CUDA, AMD ROCm, Ascend NPU, Apple MPS and CPU
-- **+** Quick start LoRA-tunes Qwen3-4B in about 13GB on a single 3090
-- **−** Large dependency matrix (torch, transformers, peft, trl, deepspeed, vllm) with version pins
-- **−** No Docker image or compose file in the README
-- **−** Downloads models and datasets from ModelScope by default; Hugging Face needs --use_hf true
-- **−** 4.x/3.x split; the older 3.x line requires checking out a release branch
-
-<sub>GPU optional · Needs PyTorch, transformers, peft, modelscope, datasets, DeepSpeed (training), vLLM/SGLang/LMDeploy (inference), EvalScope (evaluation), Gradio (Web-UI) · Models: Qwen3, Qwen3-VL, Llama4, DeepSeek-R1, GLM4.5 · [Repo](https://github.com/modelscope/ms-swift) · [📖 Docs ↗](https://swift.readthedocs.io/en/latest/) · [🌐 Site ↗](https://modelscope.cn/home) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ms-swift/)</sub>
-
 <a name="axolotl"></a>
-### #&#8288;8 [axolotl](https://github.com/axolotl-ai-cloud/axolotl) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [axolotl](https://github.com/axolotl-ai-cloud/axolotl) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **YAML-driven fine-tuning framework for LLMs with LoRA, QLoRA, RL and multi-GPU.**
 
@@ -147,6 +129,24 @@ Axolotl runs LLM post-training from a single YAML config covering dataset prepro
 - **−** No web UI; command-line and YAML only
 
 <sub>GPU required · Compose · Needs PyTorch, Hugging Face Hub, DeepSpeed (optional), uv · Models: Llama, Mistral, Mixtral, GPT-OSS, Qwen · [Repo](https://github.com/axolotl-ai-cloud/axolotl) · [▶️ Demo ↗](https://colab.research.google.com/github/axolotl-ai-cloud/axolotl/blob/main/examples/colab-notebooks/colab-axolotl-example.ipynb) · [📖 Docs ↗](https://docs.axolotl.ai/docs/getting-started.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/axolotl/)</sub>
+
+<a name="ms-swift"></a>
+### #&#8288;8 [ms-swift](https://github.com/modelscope/ms-swift) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+
+**Fine-tuning, RL, quantization and serving toolkit for 600+ text and 400+ multimodal LLMs.**
+
+ms-swift is a Python framework from the ModelScope community for training, evaluating, quantizing and serving LLMs and multimodal models through the `swift` CLI, a Gradio Web-UI or Python. It covers LoRA/QLoRA and full-parameter SFT, DPO/KTO and GRPO-family reinforcement learning, with Megatron parallelism (TP/PP/CP/EP) for large and MoE models. Inference and deployment run on Transformers, vLLM, SGLang or LMDeploy, and evaluation uses EvalScope.
+
+- **+** Covers SFT, DPO/KTO/RM, GRPO variants, embedding and reranker training in one CLI
+- **+** Megatron TP/PP/CP/EP support for full-parameter and LoRA training of MoE models
+- **+** Runs on NVIDIA CUDA, AMD ROCm, Ascend NPU, Apple MPS and CPU
+- **+** Quick start LoRA-tunes Qwen3-4B in about 13GB on a single 3090
+- **−** Large dependency matrix (torch, transformers, peft, trl, deepspeed, vllm) with version pins
+- **−** No Docker image or compose file in the README
+- **−** Downloads models and datasets from ModelScope by default; Hugging Face needs --use_hf true
+- **−** 4.x/3.x split; the older 3.x line requires checking out a release branch
+
+<sub>GPU optional · Needs PyTorch, transformers, peft, modelscope, datasets, DeepSpeed (training), vLLM/SGLang/LMDeploy (inference), EvalScope (evaluation), Gradio (Web-UI) · Models: Qwen3, Qwen3-VL, Llama4, DeepSeek-R1, GLM4.5 · [Repo](https://github.com/modelscope/ms-swift) · [📖 Docs ↗](https://swift.readthedocs.io/en/latest/) · [🌐 Site ↗](https://modelscope.cn/home) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ms-swift/)</sub>
 
 <a name="llamafactory"></a>
 ### #&#8288;9 [llamafactory](https://github.com/hiyouga/llamafactory) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · Apache-2.0 · Oct 2026</sub>
@@ -257,7 +257,7 @@ Oumi covers the model lifecycle from one YAML-driven CLI: data synthesis with LL
 <sub>GPU optional · Docker · Needs PyTorch, Transformers, TRL, vLLM, SGLang, verl · Models: Llama, Gemma, Qwen, DeepSeek, GLM · [Repo](https://github.com/oumi-ai/oumi) · [📖 Docs ↗](https://oumi.ai/docs/en/latest/index.html) · [🌐 Site ↗](https://oumi.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oumi/)</sub>
 
 <a name="openrlhf"></a>
-### #&#8288;15 [openrlhf](https://github.com/openrlhf/openrlhf) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;15 [openrlhf](https://github.com/openrlhf/openrlhf) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Sep 2026</sub>
 
 **Ray and vLLM based RLHF training framework for LLMs and VLMs.**
 
@@ -347,7 +347,7 @@ Liger Kernel is a PyTorch library of Triton kernels for RMSNorm, RoPE, SwiGLU, C
 <sub>GPU required · Needs torch >= 2.1.2, triton >= 2.3.1, transformers >= 5.0.0 (optional) · Models: Hugging Face transformers models, LLaMA 3, Qwen2-VL, Llama 3.2-Vision · [Repo](https://github.com/linkedin/liger-kernel) · [📖 Docs ↗](https://linkedin.github.io/Liger-Kernel/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/liger-kernel/)</sub>
 
 <a name="areal"></a>
-### #&#8288;20 [areal](https://github.com/areal-project/areal) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;20 [areal](https://github.com/areal-project/areal) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
 
 **Asynchronous reinforcement learning system for training reasoning and agentic LLMs.**
 
@@ -581,7 +581,7 @@ LMFlow is a Python toolbox that finetunes decoder language models with full-para
 <sub>GPU required · Needs Python 3.9+, conda, mpi4py, PyTorch, WandB (optional, on by default) · Models: Hugging Face decoder models, LLaMA, Llama-2, Llama-3, Qwen · [Repo](https://github.com/optimalscale/lmflow) · [📖 Docs ↗](https://optimalscale.github.io/LMFlow/) · [🌐 Site ↗](https://lmflow.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmflow/)</sub>
 
 <a name="autoresearch"></a>
-### #&#8288;33 [autoresearch](https://github.com/karpathy/autoresearch) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: widely used (99) · Freshness: recent (55) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 99k · no license · Mar 2026</sub>
+### #&#8288;33 [autoresearch](https://github.com/karpathy/autoresearch) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: widely used (99) · Freshness: recent (55) · Maintenance: weak (9) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 99k · no license · Mar 2026</sub>
 
 **Agent loop that edits a small GPT training script and keeps changes that lower val_bpb.**
 
