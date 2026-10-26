@@ -166,26 +166,8 @@ Chatbox is an Electron app (TypeScript, React) that connects to hosted LLM APIs 
 
 <sub>no GPU · Needs Ollama (optional, for local models), API keys for hosted providers · Models: OpenAI, Azure OpenAI, Claude, Google Gemini Pro, Ollama · [Repo](https://github.com/chatboxai/chatbox) · [🌐 Site ↗](https://chatboxai.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatbox/)</sub>
 
-<a name="eigent"></a>
-### #&#8288;10 [eigent](https://github.com/eigent-ai/eigent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
-
-**Desktop app running single agents or parallel multi-agent teams on your machine.**
-
-Eigent is an Electron and React desktop app with a FastAPI backend that runs AI agents on your computer, either as one agent or as a CAMEL-based workforce of specialized agents working in parallel. Agents get built-in browser, terminal and document toolkits, plus MCP and skill integration, and workflows can be scheduled. It works with cloud APIs, gateways or local inference such as vLLM, Ollama and LM Studio.
-
-- **+** Single-agent mode and multi-agent workforce mode in one desktop workspace
-- **+** Built-in browser, terminal and document toolkits, with MCP and skill integration
-- **+** Local backend supports vLLM, Ollama and LM Studio, with no cloud account required
-- **+** Recurring workflows can be scheduled to run while you are away
-- **−** Quick start connects to Eigent cloud services and requires account registration
-- **−** Local deployment is a separate server setup documented in another README
-- **−** SSO and access control are enterprise-only features, via sales contact
-- **−** No Docker or compose files detected; running from source needs Node 18-22 and uv
-
-<sub>GPU optional · Needs Node.js 18-22, npm, uv · Models: vLLM, Ollama, LM Studio, cloud APIs, enterprise gateways · [Repo](https://github.com/eigent-ai/eigent) · [📖 Docs ↗](https://docs.eigent.ai) · [🌐 Site ↗](https://www.eigent.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eigent/)</sub>
-
 <a name="openworker"></a>
-### #&#8288;11 [openworker](https://github.com/andrewyng/openworker) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
+### #&#8288;10 [openworker](https://github.com/andrewyng/openworker) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Desktop AI coworker for approval-gated work across files, terminal and apps.**
 
@@ -201,6 +183,24 @@ OpenWorker is a macOS and Windows desktop app backed by a local Python agent ser
 - **−** Connector OAuth goes through a cloud broker; manual keys avoid it
 
 <sub>no GPU · Needs Python 3.10+ (source), Node 20+ (source), Rust toolchain (desktop build from source), Ollama (optional), NVIDIA OpenShell (optional) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen · port 8765 · [Repo](https://github.com/andrewyng/openworker) · [🌐 Site ↗](https://openworker.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openworker/)</sub>
+
+<a name="eigent"></a>
+### #&#8288;11 [eigent](https://github.com/eigent-ai/eigent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+
+**Desktop app running single agents or parallel multi-agent teams on your machine.**
+
+Eigent is an Electron and React desktop app with a FastAPI backend that runs AI agents on your computer, either as one agent or as a CAMEL-based workforce of specialized agents working in parallel. Agents get built-in browser, terminal and document toolkits, plus MCP and skill integration, and workflows can be scheduled. It works with cloud APIs, gateways or local inference such as vLLM, Ollama and LM Studio.
+
+- **+** Single-agent mode and multi-agent workforce mode in one desktop workspace
+- **+** Built-in browser, terminal and document toolkits, with MCP and skill integration
+- **+** Local backend supports vLLM, Ollama and LM Studio, with no cloud account required
+- **+** Recurring workflows can be scheduled to run while you are away
+- **−** Quick start connects to Eigent cloud services and requires account registration
+- **−** Local deployment is a separate server setup documented in another README
+- **−** SSO and access control are enterprise-only features, via sales contact
+- **−** No Docker or compose files detected; running from source needs Node 18-22 and uv
+
+<sub>GPU optional · Needs Node.js 18-22, npm, uv · Models: vLLM, Ollama, LM Studio, cloud APIs, enterprise gateways · [Repo](https://github.com/eigent-ai/eigent) · [📖 Docs ↗](https://docs.eigent.ai) · [🌐 Site ↗](https://www.eigent.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eigent/)</sub>
 
 <a name="holaos"></a>
 ### #&#8288;12 [holaos](https://github.com/holaboss-ai/holaos) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (41) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Aug 2026</sub>
@@ -293,7 +293,7 @@ ClawX is an Electron and React desktop client that embeds the OpenClaw runtime a
 <sub>RAM ≥ 4 GB · no GPU · Needs OpenClaw (bundled), Electron, pnpm (build from source) · Models: OpenAI, Anthropic, Z.AI / GLM, custom providers · [Repo](https://github.com/valuecell-ai/clawx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawx/)</sub>
 
 <a name="lobsterai"></a>
-### #&#8288;17 [lobsterai](https://github.com/netease-youdao/lobsterai) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Oct 2026</sub>
+### #&#8288;17 [lobsterai](https://github.com/netease-youdao/lobsterai) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · MIT · Oct 2026</sub>
 
 **Electron desktop agent that edits files, drives a browser, and takes tasks from chat apps.**
 
