@@ -5,7 +5,7 @@ Visual or code-first builders for agents and workflows, with orchestration, tool
 <sub>🌐 Also on the web: [Agent platforms on archestack.com](https://archestack.com/best-of-ai/agent-platforms/), each project on its own page.</sub>
 
 <a name="autogpt"></a>
-### 🥇 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 188k · custom license · Oct 2026</sub>
+### 🥇 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 188k · custom license · Oct 2026</sub>
 
 **Role-based AI agents coordinated by one lead agent, plus a visual workflow builder.**
 
@@ -23,7 +23,7 @@ AutoGPT is a platform where a coordinator agent (Otto) hands work to configurabl
 <sub>Needs Docker, model provider credentials or a local model · Models: bring-your-own model credentials, local models · port 3000 · [Repo](https://github.com/significant-gravitas/autogpt) · [▶️ Demo ↗](https://agpt.co/videos/otto-team-demo-v1-1080.mp4) · [📖 Docs ↗](https://agpt.co/docs) · [🌐 Site ↗](https://agpt.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autogpt/)</sub>
 
 <a name="daily-stock-analysis"></a>
-### 🥈 [daily_stock_analysis](https://github.com/zhulinsen/daily_stock_analysis) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
+### 🥈 [daily_stock_analysis](https://github.com/zhulinsen/daily_stock_analysis) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
 
 **LLM-driven daily analysis of watchlist stocks across six markets, pushed to chat apps.**
 
@@ -76,26 +76,8 @@ Dify is an LLM app development platform with a visual workflow canvas, a prompt 
 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker, Docker Compose v2.24.0+ · Models: GPT, Mistral, Llama3, OpenAI API-compatible models · port 80 · [Repo](https://github.com/langgenius/dify) · [▶️ Demo ↗](https://cloud.dify.ai) · [📖 Docs ↗](https://docs.dify.ai) · [🌐 Site ↗](https://dify.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dify/)</sub>
 
-<a name="deer-flow"></a>
-### #&#8288;5 [deer-flow](https://github.com/bytedance/deer-flow) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · MIT · Oct 2026</sub>
-
-**Agent harness running sub-agents, memory and sandboxes with pluggable skills.**
-
-DeerFlow 2.0 is a ground-up rewrite of ByteDance's deep research framework. It is a Python backend with a web UI that orchestrates a lead agent, sub-agents, long-term memory and sandboxed execution, extended through skills and MCP. Setup runs through a `make setup` wizard that writes config.yaml and .env.
-
-- **+** Interactive `make setup` wizard and `make doctor` health check for configuration
-- **+** Many search and fetch backends: Tavily, Brave, DuckDuckGo, SearXNG, Jina, InfoQuest
-- **+** Optional tracing through LangSmith, Langfuse and Monocle
-- **+** Includes sandbox mode, MCP, IM channels, scheduled tasks and an embedded Python client
-- **−** 2.0 shares no code with v1; the original research framework lives on the 1.x branch
-- **−** README is dense with option-level detail, which buries the core setup steps
-- **−** Gateway admin is equivalent to code execution, so deployment needs care
-- **−** README recommends specific hosted models; local model guidance is not in the visible text
-
-<sub>Docker + Compose · Needs LLM provider API key, Python 3.12+, Node.js 22+, Docker (recommended) · Models: OpenAI-compatible endpoints, Gemini, Claude, Codex, Doubao-Seed-2.0-Code · [Repo](https://github.com/bytedance/deer-flow) · [🌐 Site ↗](https://deerflow.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deer-flow/)</sub>
-
 <a name="multica"></a>
-### #&#8288;6 [Multica](https://github.com/multica-ai/multica) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 54k · custom license · Oct 2026</sub>
+### #&#8288;5 [Multica](https://github.com/multica-ai/multica) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 54k · custom license · Oct 2026</sub>
 
 **Issue board where coding agent CLIs are assigned work like teammates.**
 
@@ -111,6 +93,24 @@ Multica is a workspace with an issue board where you assign tasks to coding agen
 - **−** iOS app builds from source only; some chat channels are community-maintained
 
 <sub>no GPU · Docker + Compose · Needs Docker, PostgreSQL 17, Agent CLI (Claude Code, Codex, Cursor, etc.) · Models: Claude Code, OpenAI Codex, Cursor Agent, GitHub Copilot CLI, OpenCode · [Repo](https://github.com/multica-ai/multica) · [📖 Docs ↗](https://multica.ai/docs) · [🌐 Site ↗](https://multica.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/multica/)</sub>
+
+<a name="deer-flow"></a>
+### #&#8288;6 [deer-flow](https://github.com/bytedance/deer-flow) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · MIT · Oct 2026</sub>
+
+**Agent harness running sub-agents, memory and sandboxes with pluggable skills.**
+
+DeerFlow 2.0 is a ground-up rewrite of ByteDance's deep research framework. It is a Python backend with a web UI that orchestrates a lead agent, sub-agents, long-term memory and sandboxed execution, extended through skills and MCP. Setup runs through a `make setup` wizard that writes config.yaml and .env.
+
+- **+** Interactive `make setup` wizard and `make doctor` health check for configuration
+- **+** Many search and fetch backends: Tavily, Brave, DuckDuckGo, SearXNG, Jina, InfoQuest
+- **+** Optional tracing through LangSmith, Langfuse and Monocle
+- **+** Includes sandbox mode, MCP, IM channels, scheduled tasks and an embedded Python client
+- **−** 2.0 shares no code with v1; the original research framework lives on the 1.x branch
+- **−** README is dense with option-level detail, which buries the core setup steps
+- **−** Gateway admin is equivalent to code execution, so deployment needs care
+- **−** README recommends specific hosted models; local model guidance is not in the visible text
+
+<sub>Docker + Compose · Needs LLM provider API key, Python 3.12+, Node.js 22+, Docker (recommended) · Models: OpenAI-compatible endpoints, Gemini, Claude, Codex, Doubao-Seed-2.0-Code · [Repo](https://github.com/bytedance/deer-flow) · [🌐 Site ↗](https://deerflow.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deer-flow/)</sub>
 
 <a name="resume-matcher"></a>
 ### #&#8288;7 [resume-matcher](https://github.com/srbhr/resume-matcher) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
@@ -131,7 +131,7 @@ Resume Matcher takes a master resume (PDF or DOCX) and a pasted job description,
 <sub>GPU optional · Docker + Compose · Needs Python 3.13+, Node.js 24+, uv, Playwright Chromium, SQLite or PostgreSQL · Models: Ollama, OpenAI, Anthropic, Google Gemini, OpenRouter · port 3000 · [Repo](https://github.com/srbhr/resume-matcher) · [📖 Docs ↗](https://resumematcher.fyi/docs/installation) · [🌐 Site ↗](https://resumematcher.fyi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/resume-matcher/)</sub>
 
 <a name="sim"></a>
-### #&#8288;8 [Sim](https://github.com/simstudioai/sim) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [Sim](https://github.com/simstudioai/sim) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Oct 2026</sub>
 
 **Visual workspace for building and running AI agents and workflows.**
 
@@ -473,7 +473,7 @@ AX is a Go CLI and control plane that schedules agent workloads on Kubernetes th
 <sub>Docker · Needs Kubernetes, Agent Substrate, Redis, ko, kubectl, container registry · Models: Google Gemini · [Repo](https://github.com/google/ax) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ax/)</sub>
 
 <a name="astron-agent"></a>
-### #&#8288;27 [astron-agent](https://github.com/iflytek/astron-agent) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;27 [astron-agent](https://github.com/iflytek/astron-agent) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Oct 2026</sub>
 
 **Agentic workflow platform with model management, MCP tools and RPA nodes.**
 
@@ -545,7 +545,7 @@ TrueForge runs the agent loop server-side: model calls, remote MCP tools, git-ba
 <sub>no GPU · Docker + Compose · Needs Node.js >= 22.14, SQLite (local mode), Postgres (hosted mode), Redis (hosted mode), Daytona (sandbox) · Models: OpenAI, Anthropic, Google Gemini, OpenAI-compatible endpoints · [Repo](https://github.com/truefoundry/trueforge) · [📖 Docs ↗](https://trueforge.dev/introduction) · [🌐 Site ↗](https://trueforge.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trueforge/)</sub>
 
 <a name="openbot"></a>
-### #&#8288;31 [openbot](https://github.com/copilotkit/openbot) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
+### #&#8288;31 [openbot](https://github.com/copilotkit/openbot) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Oct 2026</sub>
 
 **Self-hosted team assistant where each bot gets its own browser and audited actions.**
 
