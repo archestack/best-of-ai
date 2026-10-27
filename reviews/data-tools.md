@@ -5,7 +5,7 @@ Tools that turn web pages, PDFs and documents into clean text or structured data
 <sub>🌐 Also on the web: [Data and scraping for AI on archestack.com](https://archestack.com/best-of-ai/data-tools/), each project on its own page.</sub>
 
 <a name="mineru"></a>
-### 🥇 [mineru](https://github.com/opendatalab/mineru) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · custom license · Oct 2026</sub>
+### 🥇 [mineru](https://github.com/opendatalab/mineru) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · custom license · Oct 2026</sub>
 
 **Document parser that converts PDFs, images and Office files to Markdown and JSON.**
 
@@ -113,7 +113,7 @@ ScrapeGraphAI is a Python library that extracts structured data from websites an
 <sub>GPU optional · Docker + Compose · Needs Playwright, Ollama (for local models), LLM provider API key (for hosted models) · Models: Ollama, OpenAI, Groq, Azure, Gemini · [Repo](https://github.com/scrapegraphai/scrapegraph-ai) · [📖 Docs ↗](https://docs.scrapegraphai.com/introduction) · [🌐 Site ↗](https://scrapegraphai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scrapegraph-ai/)</sub>
 
 <a name="firecrawl"></a>
-### #&#8288;7 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 195k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 196k · AGPL-3.0 · Oct 2026</sub>
 
 **Web API that turns sites and searches into markdown or JSON for LLMs.**
 
@@ -131,7 +131,7 @@ Firecrawl exposes REST endpoints to search the web, scrape a URL, crawl a site, 
 <sub>Compose · Needs Firecrawl API key (hosted service) · Models: spark-2 · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
 
 <a name="langextract"></a>
-### #&#8288;8 [langextract](https://github.com/google/langextract) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [langextract](https://github.com/google/langextract) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Oct 2026</sub>
 
 **Python library that extracts grounded structured data from text using LLMs.**
 
@@ -383,7 +383,7 @@ Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images an
 <sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
 
 <a name="jina-reader"></a>
-### #&#8288;22 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (40) · Freshness: recent (76) · Maintenance: weak (13) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;22 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (40) · Freshness: recent (75) · Maintenance: weak (14) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
@@ -419,7 +419,7 @@ BabelDOC translates scientific PDFs through an OpenAI-compatible LLM endpoint an
 <sub>Needs OpenAI-compatible LLM API, uv, Python 3.12 · Models: OpenAI-compatible APIs, gpt-4o-mini (default), glm-4-flash, deepseek-chat, Ollama · [Repo](https://github.com/funstory-ai/babeldoc) · [▶️ Demo ↗](https://app.immersivetranslate.com/babel-doc/) · [📖 Docs ↗](https://funstory-ai.github.io/BabelDOC/supported_languages/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/babeldoc/)</sub>
 
 <a name="olmocr"></a>
-### #&#8288;24 [olmocr](https://github.com/allenai/olmocr) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (55) · Freshness: recent (64) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;24 [olmocr](https://github.com/allenai/olmocr) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (55) · Freshness: recent (64) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
 
 **PDF and image to Markdown converter built on a 7B vision-language model.**
 
@@ -455,7 +455,7 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
 <a name="llm-scraper"></a>
-### #&#8288;26 [llm-scraper](https://github.com/mishushakov/llm-scraper) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (9) · Freshness: active (84) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Jun 2026</sub>
+### #&#8288;26 [llm-scraper](https://github.com/mishushakov/llm-scraper) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (9) · Freshness: active (84) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jun 2026</sub>
 
 **TypeScript library that extracts structured data from web pages with LLMs.**
 
@@ -472,26 +472,8 @@ LLM Scraper loads a page through Playwright and asks an LLM to fill a Zod or JSO
 
 <sub>no GPU · Needs Playwright, Zod, Vercel AI SDK provider package, LLM provider API or Ollama · Models: OpenAI GPT, Anthropic Claude, Google Gemini, Groq Llama, Ollama · [Repo](https://github.com/mishushakov/llm-scraper) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-scraper/)</sub>
 
-<a name="doccano"></a>
-### #&#8288;27 [doccano](https://github.com/doccano/doccano) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: known (31) · Freshness: slowing (42) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
-
-**Web-based text annotation tool for labeling NLP datasets.**
-
-doccano is a web application for annotating text for classification, sequence labeling (such as named entity recognition) and sequence-to-sequence tasks like summarization. Teams create a project, upload data, and label it collaboratively, with a REST API for automation. It runs from pip with SQLite by default, or with PostgreSQL, Docker or Docker Compose.
-
-- **+** Covers text classification, sequence labeling and seq2seq annotation in one tool
-- **+** Installs with pip and uses SQLite by default, so no database setup to start
-- **+** Collaborative annotation with multiple users per project and a RESTful API
-- **+** Deploy options include pip, Docker, Docker Compose, AWS CloudFormation and Heroku
-- **−** Text only; the README lists no image, audio or video annotation
-- **−** README mentions no built-in model-assisted pre-labeling
-- **−** Compose setup needs RabbitMQ and PostgreSQL; pip setup needs a separate task queue process
-- **−** Admin password is passed in plain environment variables or CLI arguments in the examples
-
-<sub>no GPU · Docker + Compose · Needs SQLite (default), PostgreSQL (optional), RabbitMQ (Docker Compose) · port 8000 · [Repo](https://github.com/doccano/doccano) · [▶️ Demo ↗](http://doccano.herokuapp.com) · [📖 Docs ↗](https://doccano.github.io/doccano/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doccano/)</sub>
-
 <a name="easyocr"></a>
-### #&#8288;28 [easyocr](https://github.com/jaidedai/easyocr) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: popular (69) · Freshness: quiet (10) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;27 [easyocr](https://github.com/jaidedai/easyocr) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: popular (69) · Freshness: quiet (10) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Dec 2025</sub>
 
 **Python OCR library for text detection and recognition in 80+ languages.**
 
@@ -507,6 +489,24 @@ EasyOCR is a Python package that detects text regions with the CRAFT model and r
 - **−** Issues older than 6 months are auto-closed; maintainers cite limited resources
 
 <sub>GPU optional · Docker · Needs PyTorch, torchvision · Models: CRAFT detection, CRNN recognition (ResNet/VGG, LSTM, CTC) · [Repo](https://github.com/jaidedai/easyocr) · [▶️ Demo ↗](https://huggingface.co/spaces/tomofi/EasyOCR) · [📖 Docs ↗](https://www.jaided.ai/easyocr/documentation) · [🌐 Site ↗](https://www.jaided.ai/easyocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easyocr/)</sub>
+
+<a name="doccano"></a>
+### #&#8288;28 [doccano](https://github.com/doccano/doccano) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: known (31) · Freshness: slowing (42) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
+
+**Web-based text annotation tool for labeling NLP datasets.**
+
+doccano is a web application for annotating text for classification, sequence labeling (such as named entity recognition) and sequence-to-sequence tasks like summarization. Teams create a project, upload data, and label it collaboratively, with a REST API for automation. It runs from pip with SQLite by default, or with PostgreSQL, Docker or Docker Compose.
+
+- **+** Covers text classification, sequence labeling and seq2seq annotation in one tool
+- **+** Installs with pip and uses SQLite by default, so no database setup to start
+- **+** Collaborative annotation with multiple users per project and a RESTful API
+- **+** Deploy options include pip, Docker, Docker Compose, AWS CloudFormation and Heroku
+- **−** Text only; the README lists no image, audio or video annotation
+- **−** README mentions no built-in model-assisted pre-labeling
+- **−** Compose setup needs RabbitMQ and PostgreSQL; pip setup needs a separate task queue process
+- **−** Admin password is passed in plain environment variables or CLI arguments in the examples
+
+<sub>no GPU · Docker + Compose · Needs SQLite (default), PostgreSQL (optional), RabbitMQ (Docker Compose) · port 8000 · [Repo](https://github.com/doccano/doccano) · [▶️ Demo ↗](http://doccano.herokuapp.com) · [📖 Docs ↗](https://doccano.github.io/doccano/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doccano/)</sub>
 
 <a name="cleanlab"></a>
 ### #&#8288;29 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (35) · Freshness: slowing (41) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>

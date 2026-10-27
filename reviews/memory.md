@@ -22,26 +22,8 @@ Hindsight stores agent memories in banks and extracts facts, entities and timest
 
 <sub>Docker · Needs LLM provider (hosted or local), PostgreSQL (embedded pg0 by default), Oracle AI Database (optional) · Models: openai, anthropic, gemini, groq, bedrock · port 9999 · [Repo](https://github.com/vectorize-io/hindsight) · [📖 Docs ↗](https://hindsight.vectorize.io) · [🌐 Site ↗](https://hindsight.vectorize.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hindsight/)</sub>
 
-<a name="mempalace"></a>
-### 🥈 [MemPalace](https://github.com/mempalace/mempalace) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · MIT · Oct 2026</sub>
-
-**Local verbatim memory store for AI agents with semantic search and MCP.**
-
-MemPalace stores conversation history and project files as verbatim text, without summarizing, and retrieves it by semantic search scoped into wings (people, projects), rooms (topics) and drawers (original content). It defaults to ChromaDB with a pluggable backend interface, and exposes 47 MCP tools plus a SQLite temporal knowledge graph. The README reports 96.6% R@5 on LongMemEval in raw mode with no LLM.
-
-- **+** Stores original text verbatim; raw mode needs no LLM or API key
-- **+** Pluggable backends: Chroma, SQLite exact, Rust exact, Milvus, Qdrant, pgvector
-- **+** Benchmarks reproducible from the repo with committed per-question results
-- **+** Auto-save hooks for Claude Code, Codex CLI and Cursor; 47 MCP tools
-- **−** Native Termux install unsupported; Android needs a Debian PRoot container
-- **−** GPU Docker image is not published and fails to build on ARM hosts
-- **−** Claude Code sessions expire in 30 days unless auto-save hooks are wired
-- **−** First embedding call downloads a model of about 80-300 MB
-
-<sub>GPU optional · Docker + Compose · Needs Python 3.10+, ChromaDB (default), Milvus (optional), Qdrant (optional), Postgres pgvector (optional) · Models: minilm, embeddinggemma, OpenAI-compatible embeddings endpoints · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mempalace/)</sub>
-
 <a name="mem0"></a>
-### 🥉 [Mem0](https://github.com/mem0ai/mem0) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [Mem0](https://github.com/mem0ai/mem0) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
 
 **Long-term memory layer that stores and retrieves user facts for LLM agents.**
 
@@ -57,6 +39,24 @@ Mem0 extracts facts from conversations with an LLM, stores them per user, sessio
 - **−** Self-hosted dashboard is listed as limited; advanced features are cloud-only
 
 <sub>GPU optional · Needs LLM provider (default OpenAI), Embedding model (default OpenAI text-embedding-3-small), Docker Compose (self-hosted server), spaCy en_core_web_sm (optional NLP extra) · Models: OpenAI gpt-5-mini (default), text-embedding-3-small (default), other LLMs and embedders via configuration · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mem0/)</sub>
+
+<a name="mempalace"></a>
+### 🥉 [MemPalace](https://github.com/mempalace/mempalace) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · MIT · Oct 2026</sub>
+
+**Local verbatim memory store for AI agents with semantic search and MCP.**
+
+MemPalace stores conversation history and project files as verbatim text, without summarizing, and retrieves it by semantic search scoped into wings (people, projects), rooms (topics) and drawers (original content). It defaults to ChromaDB with a pluggable backend interface, and exposes 47 MCP tools plus a SQLite temporal knowledge graph. The README reports 96.6% R@5 on LongMemEval in raw mode with no LLM.
+
+- **+** Stores original text verbatim; raw mode needs no LLM or API key
+- **+** Pluggable backends: Chroma, SQLite exact, Rust exact, Milvus, Qdrant, pgvector
+- **+** Benchmarks reproducible from the repo with committed per-question results
+- **+** Auto-save hooks for Claude Code, Codex CLI and Cursor; 47 MCP tools
+- **−** Native Termux install unsupported; Android needs a Debian PRoot container
+- **−** GPU Docker image is not published and fails to build on ARM hosts
+- **−** Claude Code sessions expire in 30 days unless auto-save hooks are wired
+- **−** First embedding call downloads a model of about 80-300 MB
+
+<sub>GPU optional · Docker + Compose · Needs Python 3.10+, ChromaDB (default), Milvus (optional), Qdrant (optional), Postgres pgvector (optional) · Models: minilm, embeddinggemma, OpenAI-compatible embeddings endpoints · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mempalace/)</sub>
 
 <a name="gbrain"></a>
 ### #&#8288;4 [gbrain](https://github.com/garrytan/gbrain) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
@@ -77,7 +77,7 @@ GBrain keeps explicit facts and their sources in a local PGLite or Postgres brai
 <sub>RAM ≥ 8 GB · no GPU · Compose · Needs Bun 1.4.0+, PGLite or Postgres, Tailscale (optional, for remote MCP) · Models: Optional cloud embedding, reranking, extraction and synthesis providers (unspecified) · [Repo](https://github.com/garrytan/gbrain) · [🌐 Site ↗](https://gbrain.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gbrain/)</sub>
 
 <a name="cognee"></a>
-### #&#8288;5 [Cognee](https://github.com/topoteretes/cognee) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [Cognee](https://github.com/topoteretes/cognee) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
 
 **Memory engine that turns documents and code into a knowledge graph.**
 
@@ -113,7 +113,7 @@ Graphiti ingests text and JSON episodes into a knowledge graph of entities and f
 <sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2, or Amazon Neptune + OpenSearch Serverless, OpenAI API key (default LLM and embedder) · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, Groq · [Repo](https://github.com/getzep/graphiti) · [🌐 Site ↗](https://www.getzep.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graphiti/)</sub>
 
 <a name="supermemory"></a>
-### #&#8288;7 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
+### #&#8288;7 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Oct 2026</sub>
 
 **Memory and context engine for AI agents, with user profiles and hybrid search.**
 
@@ -203,7 +203,7 @@ Memory service behind a proxy: point an agent's base URL at it and it extracts l
 <sub>Docker · Needs Node.js >=22.16, LLM API (memory and proxy parameter sets), MongoDB (experimental, optional) · Models: Configurable LLM via .env (providers unknown) · port 8125 · [Repo](https://github.com/tencentcloud/tencentdb-agent-memory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tencentdb-agent-memory/)</sub>
 
 <a name="semantica"></a>
-### #&#8288;12 [semantica](https://github.com/semantica-agi/semantica) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
+### #&#8288;12 [semantica](https://github.com/semantica-agi/semantica) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
 
 **Python library for building context graphs with decision provenance and reasoning.**
 

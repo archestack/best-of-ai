@@ -167,7 +167,7 @@ Chatbox is an Electron app (TypeScript, React) that connects to hosted LLM APIs 
 <sub>no GPU · Needs Ollama (optional, for local models), API keys for hosted providers · Models: OpenAI, Azure OpenAI, Claude, Google Gemini Pro, Ollama · [Repo](https://github.com/chatboxai/chatbox) · [🌐 Site ↗](https://chatboxai.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatbox/)</sub>
 
 <a name="openworker"></a>
-### #&#8288;10 [openworker](https://github.com/andrewyng/openworker) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
+### #&#8288;10 [openworker](https://github.com/andrewyng/openworker) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Desktop AI coworker for approval-gated work across files, terminal and apps.**
 
@@ -185,7 +185,7 @@ OpenWorker is a macOS and Windows desktop app backed by a local Python agent ser
 <sub>no GPU · Needs Python 3.10+ (source), Node 20+ (source), Rust toolchain (desktop build from source), Ollama (optional), NVIDIA OpenShell (optional) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen · port 8765 · [Repo](https://github.com/andrewyng/openworker) · [🌐 Site ↗](https://openworker.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openworker/)</sub>
 
 <a name="eigent"></a>
-### #&#8288;11 [eigent](https://github.com/eigent-ai/eigent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;11 [eigent](https://github.com/eigent-ai/eigent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **Desktop app running single agents or parallel multi-agent teams on your machine.**
 
@@ -239,7 +239,7 @@ Presenton is a self-hosted presentation generator that builds slides from a prom
 <sub>GPU optional · Docker + Compose · Needs Docker, or Node.js, Python 3.11 and uv for Electron, LLM provider or API key · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Azure OpenAI · port 5001 · [Repo](https://github.com/presenton/presenton) · [📖 Docs ↗](https://docs.presenton.ai/) · [🌐 Site ↗](https://presenton.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/presenton/)</sub>
 
 <a name="deepchat"></a>
-### #&#8288;14 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;14 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Oct 2026</sub>
 
 **Electron desktop client for cloud and Ollama models with MCP, Skills and ACP.**
 
@@ -329,7 +329,7 @@ Everywhere is a C# desktop app (.NET 10, Avalonia) for Windows and macOS. A glob
 <sub>Needs Ollama (optional, for local models) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Moonshot (Kimi) · [Repo](https://github.com/sylinko/everywhere) · [📖 Docs ↗](https://everywhere.sylinko.com) · [🌐 Site ↗](https://everywhere.sylinko.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/everywhere/)</sub>
 
 <a name="enchanted"></a>
-### #&#8288;19 [enchanted](https://github.com/gluonfield/enchanted) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (3) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;19 [enchanted](https://github.com/gluonfield/enchanted) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (3) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
 
 **Native iOS, macOS and visionOS chat client for Ollama servers.**
 
@@ -347,7 +347,7 @@ Enchanted is a Swift app for macOS, iOS and visionOS that connects to an Ollama 
 <sub>Needs Ollama v0.1.14 or later, ngrok (to expose a local Ollama server) · Models: Ollama models (Llama 2, Mistral, Vicuna, Starling) · [Repo](https://github.com/gluonfield/enchanted) · [▶️ Demo ↗](https://www.youtube.com/watch?v=zW3roZ_vM5Q) · [🌐 Site ↗](https://apps.apple.com/gb/app/enchanted-llm/id6474268307) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/enchanted/)</sub>
 
 <a name="aichat"></a>
-### #&#8288;20 [aichat](https://github.com/sigoden/aichat) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (34) · Freshness: slowing (36) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;20 [aichat](https://github.com/sigoden/aichat) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (34) · Freshness: slowing (35) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
 
 **Rust command-line LLM client with shell assistant, REPL, RAG and agents.**
 

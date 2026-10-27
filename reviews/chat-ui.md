@@ -23,7 +23,7 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 <sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-webui/)</sub>
 
 <a name="lobehub"></a>
-### 🥈 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · custom license · Oct 2026</sub>
+### 🥈 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · custom license · Oct 2026</sub>
 
 **Agent workspace with builder, groups, scheduling and 10,000+ MCP skills.**
 
@@ -41,7 +41,7 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 <sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
 
 <a name="onyx"></a>
-### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
+### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
 
 **Team knowledge search and chat that indexes 50+ connected apps with permissions.**
 
@@ -113,7 +113,7 @@ Hermes WebUI is a three-panel web interface for Nous Research's Hermes Agent, wr
 <sub>no GPU · Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-webui/)</sub>
 
 <a name="odysseus"></a>
-### #&#8288;7 [odysseus](https://github.com/odysseus-dev/odysseus) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 94k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [odysseus](https://github.com/odysseus-dev/odysseus) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 95k · AGPL-3.0 · Oct 2026</sub>
 
 **Self-hosted workspace for chat, agents, email, documents and calendar.**
 
@@ -167,7 +167,7 @@ Ekko Studio (formerly Hermes Web UI) is an Electron desktop app and self-hosted 
 <sub>no GPU · Docker + Compose · Needs Node.js (npm install), Hermes Agent (npm installs discover an existing install), Coding-agent CLIs installed on the host, pnpm (DSH native plugins) · Models: OpenAI-compatible providers, OpenAI Codex, Claude, GitHub Copilot, Nous Portal · [Repo](https://github.com/ekkolearnai/ekko-studio) · [📖 Docs ↗](https://ekkostudio.xyz/#/docs/getting-started) · [🌐 Site ↗](https://ekkostudio.xyz) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ekko-studio/)</sub>
 
 <a name="big-agi"></a>
-### #&#8288;10 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Oct 2026</sub>
+### #&#8288;10 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Oct 2026</sub>
 
 **Multi-model chat workspace with Beam side-by-side model comparison.**
 
@@ -275,7 +275,7 @@ ClaraVerse is a Go and React workspace (Docker Compose, port 3000) that auto-det
 <sub>RAM ≥ 4 GB · Docker + Compose · Needs MySQL, MongoDB, Redis, SearXNG, Qdrant (knowledge bases) · Models: Ollama, LM Studio, llama.cpp, OpenAI, Anthropic · port 3000 · [Repo](https://github.com/claraverse-space/claraverse) · [🌐 Site ↗](https://claraverse.space) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/claraverse/)</sub>
 
 <a name="chuanhuchatgpt"></a>
-### #&#8288;16 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (52) · Freshness: recent (79) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
+### #&#8288;16 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (52) · Freshness: recent (78) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
 
 **Gradio web chat UI for OpenAI, Claude, Gemini, DeepSeek and local LLMs.**
 
