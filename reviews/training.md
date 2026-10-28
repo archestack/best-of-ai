@@ -59,7 +59,7 @@ PEFT wraps a pretrained model with adapter methods such as LoRA, soft prompts an
 <sub>GPU optional · Docker · Needs PyTorch, Transformers · Models: LoRA, Soft prompts, IA3, QLoRA, Transformers models · [Repo](https://github.com/huggingface/peft) · [▶️ Demo ↗](https://huggingface.co/spaces/smangrul/peft-lora-sd-dreambooth) · [📖 Docs ↗](https://huggingface.co/docs/peft/main/en/index) · [🌐 Site ↗](https://huggingface.co/PEFT) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/peft/)</sub>
 
 <a name="verl"></a>
-### #&#8288;4 [verl](https://github.com/verl-project/verl) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [verl](https://github.com/verl-project/verl) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
 
 **Reinforcement learning training library for LLM post-training with PPO and GRPO.**
 
@@ -77,7 +77,7 @@ verl is the open-source implementation of the HybridFlow paper from ByteDance Se
 <sub>GPU required · Docker · Needs Ray, PyTorch, vLLM, SGLang, Megatron-LM · Models: Qwen3.5, Qwen3, Qwen2.5, Qwen2.5-VL, Kimi-VL · [Repo](https://github.com/verl-project/verl) · [📖 Docs ↗](https://verl.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/verl/)</sub>
 
 <a name="trl"></a>
-### #&#8288;5 [trl](https://github.com/huggingface/trl) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [trl](https://github.com/huggingface/trl) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Oct 2026</sub>
 
 **Post-training library with SFT, DPO, GRPO and KTO trainers.**
 
@@ -347,7 +347,7 @@ Liger Kernel is a PyTorch library of Triton kernels for RMSNorm, RoPE, SwiGLU, C
 <sub>GPU required · Needs torch >= 2.1.2, triton >= 2.3.1, transformers >= 5.0.0 (optional) · Models: Hugging Face transformers models, LLaMA 3, Qwen2-VL, Llama 3.2-Vision · [Repo](https://github.com/linkedin/liger-kernel) · [📖 Docs ↗](https://linkedin.github.io/Liger-Kernel/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/liger-kernel/)</sub>
 
 <a name="slime"></a>
-### #&#8288;20 [slime](https://github.com/thudm/slime) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;20 [slime](https://github.com/thudm/slime) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · Apache-2.0 · Oct 2026</sub>
 
 **RL post-training framework connecting Megatron training with SGLang rollout.**
 
@@ -365,7 +365,7 @@ slime is a reinforcement-learning post-training framework for LLMs. It runs Mega
 <sub>GPU required · Docker · Needs Megatron-LM, SGLang, Ray · Models: GLM, Qwen3.8, Qwen3.6, Qwen3.5, Qwen3-Next · [Repo](https://github.com/thudm/slime) · [📖 Docs ↗](https://thudm.github.io/slime/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/slime/)</sub>
 
 <a name="areal"></a>
-### #&#8288;21 [areal](https://github.com/areal-project/areal) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;21 [areal](https://github.com/areal-project/areal) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
 
 **Asynchronous reinforcement learning system for training reasoning and agentic LLMs.**
 
@@ -454,26 +454,8 @@ nanochat covers tokenizer training, pretraining, SFT, RL, evaluation and a CLI c
 
 <sub>GPU required · Needs PyTorch, uv, wandb · Models: nanochat GPT (depth-scaled), bfloat16, float32, float16 · [Repo](https://github.com/karpathy/nanochat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nanochat/)</sub>
 
-<a name="mergekit"></a>
-### #&#8288;26 [mergekit](https://github.com/arcee-ai/mergekit) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · LGPL-3.0 · Oct 2026</sub>
-
-**Merge pre-trained language models in weight space from YAML configs.**
-
-mergekit combines pre-trained language models by operating on their weights, driven by a YAML config and the `mergekit-yaml` command. Tensors load lazily, so merges run on CPU or with as little as 8 GB of VRAM. It supports many methods (linear, SLERP, TIES, DARE, DELLA, SCE, Model Stock), plus layer-wise frankenmerges, MoE merging and LoRA extraction.
-
-- **+** Lazy tensor loading: merges run on CPU or with as little as 8 GB VRAM
-- **+** Many methods: linear, SLERP, TIES, DARE, DELLA, SCE, Model Stock and others
-- **+** Also covers MoE merging, LoRA extraction, evolutionary merging and tokenizer transplantation
-- **+** Declarative YAML configs with per-layer and per-tensor parameter gradients
-- **−** Command-line only; no bundled UI
-- **−** No Docker image or compose file provided
-- **−** Install is from a git clone with pip install -e; no PyPI install documented
-- **−** Models with different vocabularies need manual tokenizer configuration
-
-<sub>GPU optional · Needs PyTorch, Hugging Face Hub (optional, for upload) · Models: Llama, Mistral, GPT-NeoX, StableLM, raw PyTorch models · [Repo](https://github.com/arcee-ai/mergekit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mergekit/)</sub>
-
 <a name="litgpt"></a>
-### #&#8288;27 [litgpt](https://github.com/lightning-ai/litgpt) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;26 [litgpt](https://github.com/lightning-ai/litgpt) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
 
 **PyTorch LLM implementations with recipes to pretrain, finetune, evaluate and serve.**
 
@@ -489,6 +471,24 @@ LitGPT reimplements 20+ open LLM families (Llama, Gemma, Phi, Qwen, Mistral and 
 - **−** README promotes Lightning Cloud for GPUs; hardware requirements per model not stated
 
 <sub>GPU optional · Needs PyTorch, Hugging Face Hub (weight download) · Models: Llama 2/3.x, Gemma 1/2/3, Phi 1.5-4, Qwen2.5/Qwen3, Mistral/Mixtral · port 8000 · [Repo](https://github.com/lightning-ai/litgpt) · [🌐 Site ↗](https://lightning.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/litgpt/)</sub>
+
+<a name="mergekit"></a>
+### #&#8288;27 [mergekit](https://github.com/arcee-ai/mergekit) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · LGPL-3.0 · Oct 2026</sub>
+
+**Merge pre-trained language models in weight space from YAML configs.**
+
+mergekit combines pre-trained language models by operating on their weights, driven by a YAML config and the `mergekit-yaml` command. Tensors load lazily, so merges run on CPU or with as little as 8 GB of VRAM. It supports many methods (linear, SLERP, TIES, DARE, DELLA, SCE, Model Stock), plus layer-wise frankenmerges, MoE merging and LoRA extraction.
+
+- **+** Lazy tensor loading: merges run on CPU or with as little as 8 GB VRAM
+- **+** Many methods: linear, SLERP, TIES, DARE, DELLA, SCE, Model Stock and others
+- **+** Also covers MoE merging, LoRA extraction, evolutionary merging and tokenizer transplantation
+- **+** Declarative YAML configs with per-layer and per-tensor parameter gradients
+- **−** Command-line only; no bundled UI
+- **−** No Docker image or compose file provided
+- **−** Install is from a git clone with pip install -e; no PyPI install documented
+- **−** Models with different vocabularies need manual tokenizer configuration
+
+<sub>GPU optional · Needs PyTorch, Hugging Face Hub (optional, for upload) · Models: Llama, Mistral, GPT-NeoX, StableLM, raw PyTorch models · [Repo](https://github.com/arcee-ai/mergekit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mergekit/)</sub>
 
 <a name="nnunet"></a>
 ### #&#8288;28 [nnunet](https://github.com/mic-dkfz/nnunet) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (31) · Freshness: recent (70) · Maintenance: patchy (44) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Oct 2026</sub>
