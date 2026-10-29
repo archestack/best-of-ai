@@ -5,7 +5,7 @@ Web front-ends for local or API models, usually with user accounts, chat history
 <sub>🌐 Also on the web: [Chat UIs on archestack.com](https://archestack.com/best-of-ai/chat-ui/), each project on its own page.</sub>
 
 <a name="open-webui"></a>
-### 🥇 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 157k · custom license · Oct 2026</sub>
+### 🥇 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 157k · custom license · Oct 2026</sub>
 
 **Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG.**
 
@@ -23,7 +23,7 @@ Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollam
 <sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-webui/)</sub>
 
 <a name="lobehub"></a>
-### 🥈 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · custom license · Oct 2026</sub>
+### 🥈 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · custom license · Oct 2026</sub>
 
 **Agent workspace with builder, groups, scheduling and 10,000+ MCP skills.**
 
@@ -40,26 +40,8 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 
 <sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
 
-<a name="anything-llm"></a>
-### 🥉 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · MIT · Oct 2026</sub>
-
-**Document chat app with agents, workspaces and many LLM and vector DB backends.**
-
-AnythingLLM ingests PDFs, DOCX and TXT files into workspaces and answers questions over them with source citations. It connects to local or hosted LLMs (llama.cpp-compatible models, Ollama, LM Studio, OpenAI, Anthropic, Bedrock and many more) and stores vectors in LanceDB by default or PGVector, Qdrant, Weaviate, Milvus and others. It also includes a no-code agent builder, MCP support, scheduled tasks, and a desktop app plus a Docker server version.
-
-- **+** Supports roughly 40 LLM providers and 9 vector databases, with LanceDB as the zero-setup default
-- **+** Built-in embedder and audio transcription, so a local setup needs no external services
-- **+** Includes no-code agent builder, MCP compatibility and cron-scheduled agent tasks
-- **+** Available as a desktop app for Mac, Windows and Linux, and as a Docker server
-- **−** Multi-user permissions and the embeddable chat widget are Docker version only
-- **−** Telemetry is on by default; opt out via DISABLE_TELEMETRY or in-app
-- **−** Still makes outbound calls to cdn.anythingllm.com and GitHub with telemetry disabled
-- **−** Browser-native STT is the only speech-to-text option listed
-
-<sub>GPU optional · Docker + Compose · Needs LLM provider (local or API), Docker (for server version) · Models: llama.cpp-compatible models, Ollama, LM Studio, OpenAI, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anything-llm/)</sub>
-
 <a name="onyx"></a>
-### #&#8288;4 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
+### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
 
 **Team knowledge search and chat that indexes 50+ connected apps with permissions.**
 
@@ -75,6 +57,24 @@ Onyx indexes content from 50+ applications along with metadata and permissions, 
 - **−** License detected as NOASSERTION; README claims MIT for Community Edition only
 
 <sub>GPU optional · Compose · Needs Redis, MinIO, vector and keyword index, Docker or Kubernetes · Models: Ollama, vLLM, LiteLLM, OpenAI, Anthropic · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/auth/signup) · [📖 Docs ↗](https://docs.onyx.app/welcome) · [🌐 Site ↗](https://www.onyx.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/onyx/)</sub>
+
+<a name="anything-llm"></a>
+### #&#8288;4 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · MIT · Oct 2026</sub>
+
+**Document chat app with agents, workspaces and many LLM and vector DB backends.**
+
+AnythingLLM ingests PDFs, DOCX and TXT files into workspaces and answers questions over them with source citations. It connects to local or hosted LLMs (llama.cpp-compatible models, Ollama, LM Studio, OpenAI, Anthropic, Bedrock and many more) and stores vectors in LanceDB by default or PGVector, Qdrant, Weaviate, Milvus and others. It also includes a no-code agent builder, MCP support, scheduled tasks, and a desktop app plus a Docker server version.
+
+- **+** Supports roughly 40 LLM providers and 9 vector databases, with LanceDB as the zero-setup default
+- **+** Built-in embedder and audio transcription, so a local setup needs no external services
+- **+** Includes no-code agent builder, MCP compatibility and cron-scheduled agent tasks
+- **+** Available as a desktop app for Mac, Windows and Linux, and as a Docker server
+- **−** Multi-user permissions and the embeddable chat widget are Docker version only
+- **−** Telemetry is on by default; opt out via DISABLE_TELEMETRY or in-app
+- **−** Still makes outbound calls to cdn.anythingllm.com and GitHub with telemetry disabled
+- **−** Browser-native STT is the only speech-to-text option listed
+
+<sub>GPU optional · Docker + Compose · Needs LLM provider (local or API), Docker (for server version) · Models: llama.cpp-compatible models, Ollama, LM Studio, OpenAI, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anything-llm/)</sub>
 
 <a name="librechat"></a>
 ### #&#8288;5 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · MIT · Oct 2026</sub>
@@ -95,7 +95,7 @@ LibreChat is a ChatGPT-style web interface that connects to Anthropic, OpenAI, A
 <sub>no GPU · Docker + Compose · Needs Docker Compose (optional), Redis (for scaled deployments), ClickHouse/code-interpreter (for code execution), LibreChat RAG API (for file chat) · Models: Anthropic, OpenAI, Azure OpenAI, Google, Vertex AI · [Repo](https://github.com/librechat-ai/librechat) · [📖 Docs ↗](https://www.librechat.ai/docs) · [🌐 Site ↗](https://librechat.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/librechat/)</sub>
 
 <a name="hermes-webui"></a>
-### #&#8288;6 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
+### #&#8288;6 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Browser front-end for Hermes Agent with sessions, workspace files and profiles.**
 
@@ -221,7 +221,7 @@ Page Assist is a browser extension that adds a chat sidebar and a full-tab web U
 <sub>Needs Ollama or an OpenAI-compatible endpoint, Bun (manual build only) · Models: Ollama, Chrome AI (Gemini Nano), OpenAI-compatible endpoints (LM Studio, llamafile) · [Repo](https://github.com/n4ze3m/page-assist) · [▶️ Demo ↗](https://www.youtube.com/watch?v=8VTjlLGXA4s) · [📖 Docs ↗](https://docs.pageassist.xyz) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/page-assist/)</sub>
 
 <a name="huggingface-chat-ui"></a>
-### #&#8288;13 [HuggingChat UI](https://github.com/huggingface/chat-ui) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (39) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;13 [HuggingChat UI](https://github.com/huggingface/chat-ui) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (40) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
 
 **SvelteKit chat front-end for any OpenAI-compatible API, behind HuggingChat.**
 
@@ -257,7 +257,7 @@ ChatHub is a Chromium browser extension that puts multiple chatbots in one windo
 <sub>no GPU · Needs Chromium-based browser, Node.js with corepack and yarn (build only) · Models: ChatGPT, Gemini, Claude, Grok, DeepSeek · [Repo](https://github.com/chathub-dev/chathub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chathub/)</sub>
 
 <a name="claraverse"></a>
-### #&#8288;15 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
+### #&#8288;15 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: patchy (48) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
 
 **Private AI workspace with chat, agent crews, workflows and Telegram.**
 
@@ -311,7 +311,7 @@ LoLLMs WebUI is a Python web interface that connects to many LLM backends (GGUF,
 <sub>GPU optional · Docker + Compose · Needs Python 3.11, git submodules · Models: GGUF/GGML, ExLlamaV2, Hugging Face, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
 
 <a name="gpt-academic"></a>
-### #&#8288;18 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: widely used (87) · Freshness: quiet (23) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · GPL-3.0 · Jan 2026</sub>
+### #&#8288;18 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: widely used (87) · Freshness: quiet (22) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · GPL-3.0 · Jan 2026</sub>
 
 **Gradio web UI with plugins for translating and polishing papers and code.**
 
@@ -347,7 +347,7 @@ A Vue front-end for ChatGPT-style chat that supports multiple users, multiple in
 <sub>Docker + Compose · Needs chatgpt-ui-server · [Repo](https://github.com/wongsaang/chatgpt-ui) · [📖 Docs ↗](https://wongsaang.github.io/chatgpt-ui/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgpt-ui/)</sub>
 
 <a name="chatany"></a>
-### #&#8288;20 [chatany](https://github.com/chatanyteam/chatany) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (13) · Freshness: slowing (40) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
+### #&#8288;20 [chatany](https://github.com/chatanyteam/chatany) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (13) · Freshness: slowing (39) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
 
 **ChatGPT-Next-Web fork adding Midjourney and Stability AI image generation.**
 

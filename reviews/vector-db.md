@@ -5,7 +5,7 @@ Vector stores and hybrid search engines for embeddings. Back to the [leaderboard
 <sub>🌐 Also on the web: [Vector databases on archestack.com](https://archestack.com/best-of-ai/vector-db/), each project on its own page.</sub>
 
 <a name="milvus"></a>
-### 🥇 [Milvus](https://github.com/milvus-io/milvus) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Milvus](https://github.com/milvus-io/milvus) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · Apache-2.0 · Oct 2026</sub>
 
 **Distributed vector database with dense, sparse and hybrid search at scale.**
 
@@ -23,7 +23,7 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 <sub>GPU optional · Compose · Compose runs Milvus, MinIO · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [▶️ Demo ↗](https://milvus.io/milvus-demos) · [📖 Docs ↗](https://milvus.io/docs) · [🌐 Site ↗](https://milvus.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/milvus/)</sub>
 
 <a name="meilisearch"></a>
-### 🥈 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Oct 2026</sub>
+### 🥈 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Oct 2026</sub>
 
 **Rust search engine with typo tolerance, filtering and hybrid semantic search.**
 
@@ -77,7 +77,7 @@ Faiss is a C++ library with Python/numpy wrappers for nearest-neighbor search ov
 <sub>GPU optional · Needs BLAS, CUDA or ROCm (optional), NVIDIA cuVS (optional) · [Repo](https://github.com/facebookresearch/faiss) · [📖 Docs ↗](https://github.com/facebookresearch/faiss/wiki) · [🌐 Site ↗](https://faiss.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/faiss/)</sub>
 
 <a name="weaviate"></a>
-### #&#8288;5 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
+### #&#8288;5 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
 
 **Go vector database with built-in vectorizers, hybrid search and RAG.**
 
@@ -131,7 +131,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
 
 <a name="zvec"></a>
-### #&#8288;8 [zvec](https://github.com/alibaba/zvec) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [zvec](https://github.com/alibaba/zvec) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **In-process vector database library with hybrid and full-text search.**
 
@@ -167,7 +167,7 @@ LEANN is a Python vector database that stores a pruned graph and recomputes embe
 <sub>GPU optional · Docker · Needs uv, Ollama or OpenAI-compatible API (optional, for generation) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [▶️ Demo ↗](https://colab.research.google.com/github/yichuan-w/LEANN/blob/main/demo.ipynb) · [📖 Docs ↗](https://github.com/yichuan-w/LEANN/blob/main/docs/configuration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
 
 <a name="pgvector"></a>
-### #&#8288;10 [pgvector](https://github.com/pgvector/pgvector) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Oct 2026</sub>
+### #&#8288;10 [pgvector](https://github.com/pgvector/pgvector) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Oct 2026</sub>
 
 **PostgreSQL extension for vector similarity search with HNSW and IVFFlat.**
 
@@ -185,7 +185,7 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvector/)</sub>
 
 <a name="turbovec"></a>
-### #&#8288;11 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
+### #&#8288;11 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
 
 **In-process quantized vector index for Python and Rust using TurboQuant.**
 
@@ -221,7 +221,7 @@ HelixDB is a transactional labeled-property graph database that also does approx
 <sub>no GPU · Docker · Needs Docker or Podman (local server) · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helix-db/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;13 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;13 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -239,7 +239,7 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vespa/)</sub>
 
 <a name="deeplake"></a>
-### #&#8288;14 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (29) · Freshness: recent (76) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;14 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (29) · Freshness: recent (75) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
 
 **Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
 
@@ -257,7 +257,7 @@ Deep Lake is a Python-installed database that stores embeddings alongside raw da
 <sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
 
 <a name="sqlite-vec"></a>
-### #&#8288;15 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (22) · Freshness: recent (79) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · Apache-2.0 · May 2026</sub>
+### #&#8288;15 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (22) · Freshness: recent (78) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · Apache-2.0 · May 2026</sub>
 
 **Vector search extension for SQLite, written in pure C.**
 
