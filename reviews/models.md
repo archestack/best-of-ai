@@ -23,7 +23,7 @@ RuView reads Channel State Information from ESP32-S3/C6 nodes and derives presen
 <sub>GPU optional · Docker + Compose · Needs ESP32-S3 or ESP32-C6 boards, Cognitum Seed (optional), Home Assistant / MQTT (optional) · Models: safetensors, RVF, Candle · port 3000 · [Repo](https://github.com/ruvnet/ruview) · [📖 Docs ↗](https://github.com/ruvnet/RuView/blob/main/docs/user-guide.md) · [🌐 Site ↗](https://cognitum.one/seed) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ruview/)</sub>
 
 <a name="llmfit"></a>
-### 🥈 [llmfit](https://github.com/alexsjones/llmfit) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · MIT · Oct 2026</sub>
+### 🥈 [llmfit](https://github.com/alexsjones/llmfit) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · MIT · Oct 2026</sub>
 
 **Rust tool that checks which LLMs fit your RAM, CPU and GPU.**
 
@@ -185,7 +185,7 @@ Needle is a small model from Cactus Compute that picks functions and fills their
 <sub>no GPU · Needs Python (pip install cactus-needle), JAX (for local fine-tuning) · Models: Needle 3 (.cact), Needle 2, Whistle speech-to-text (.cact) · [Repo](https://github.com/cactus-compute/needle) · [▶️ Demo ↗](https://cactuscompute.com/needle) · [📖 Docs ↗](https://cactuscompute.com/blog/needle-python-docs) · [🌐 Site ↗](https://cactuscompute.com/needle) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/needle/)</sub>
 
 <a name="ace-step-1-5"></a>
-### #&#8288;11 [ace-step-1.5](https://github.com/ace-step/ace-step-1.5) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
+### #&#8288;11 [ace-step-1.5](https://github.com/ace-step/ace-step-1.5) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
 
 **Text-to-music model with LM planner, DiT decoder, Gradio UI and REST API.**
 
@@ -203,7 +203,7 @@ ACE-Step 1.5 generates full songs from text prompts and lyrics using a Qwen3-bas
 <sub>GPU optional · Docker + Compose · Needs uv, Python 3.11-3.12, Gradio · Models: ACE-Step DiT 2B (base, sft, turbo), ACE-Step XL DiT 4B (base, sft, turbo), acestep-5Hz-lm 0.6B/1.7B/4B (Qwen3-based), LoRA adapters · port 7860 · [Repo](https://github.com/ace-step/ace-step-1.5) · [▶️ Demo ↗](https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5) · [📖 Docs ↗](https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md) · [🌐 Site ↗](https://ace-step.github.io/ace-step-v1.5.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ace-step-1-5/)</sub>
 
 <a name="kev"></a>
-### #&#8288;12 [kev](https://github.com/jaredpalmer/kev) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [kev](https://github.com/jaredpalmer/kev) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Oct 2026</sub>
 
 **Small decision models answering yes/no, choice and score questions over text.**
 
@@ -221,7 +221,7 @@ Kev is a family of four fine-tuned Qwen-based models (0.8B, 4B, 9B, 27B) that an
 <sub>GPU optional · Needs Modal (optional, for deploy and fine-tune skill), uv, Hugging Face Hub · Models: Kev-0.8B, Kev-4B, Kev-9B, Kev-27B, Qwen3.5 base · port 8009 · [Repo](https://github.com/jaredpalmer/kev) · [▶️ Demo ↗](https://huggingface.co/spaces/jaredpalmer/kev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kev/)</sub>
 
 <a name="unlimited-ocr"></a>
-### #&#8288;13 [unlimited-ocr](https://github.com/baidu/unlimited-ocr) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Oct 2026</sub>
+### #&#8288;13 [unlimited-ocr](https://github.com/baidu/unlimited-ocr) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: weak (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Oct 2026</sub>
 
 **OCR model that parses long documents and multi-page PDFs in one pass.**
 
@@ -473,7 +473,7 @@ Release repository for the GLM-5, 5.1, 5.2 and 5.3 model families from Z.ai, wit
 <sub>GPU required · Needs SGLang, vLLM, Transformers, KTransformers, Unsloth · Models: GLM-5, GLM-5.1, GLM-5.2, GLM-5.3, GLM-5.3-Flash · [Repo](https://github.com/zai-org/glm-5) · [▶️ Demo ↗](https://z.ai) · [📖 Docs ↗](https://docs.z.ai/guides/llm/glm-5.3) · [🌐 Site ↗](https://z.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-5/)</sub>
 
 <a name="spleeter"></a>
-### #&#8288;27 [spleeter](https://github.com/deezer/spleeter) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (78) · Freshness: recent (70) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · MIT · Oct 2026</sub>
+### #&#8288;27 [spleeter](https://github.com/deezer/spleeter) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (78) · Freshness: recent (70) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · MIT · Oct 2026</sub>
 
 **Music source separation library with pretrained TensorFlow stem-splitting models.**
 
@@ -671,7 +671,7 @@ CLIP is a Python package that loads OpenAI's pretrained image-text models and ex
 <sub>GPU optional · Needs PyTorch 1.7.1+, torchvision, ftfy, regex, tqdm · Models: CLIP ViT-B/32, other names via clip.available_models() · [Repo](https://github.com/openai/clip) · [▶️ Demo ↗](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb) · [🌐 Site ↗](https://openai.com/blog/clip/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clip/)</sub>
 
 <a name="onnx-models"></a>
-### #&#8288;38 [models](https://github.com/onnx/models) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;38 [models](https://github.com/onnx/models) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Oct 2026</sub>
 
 **Archived collection of pre-trained models exported to ONNX format.**
 

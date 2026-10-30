@@ -5,7 +5,7 @@ Generation UIs and pipelines for images and video, usually around diffusion mode
 <sub>🌐 Also on the web: [Image and video on archestack.com](https://archestack.com/best-of-ai/image-video/), each project on its own page.</sub>
 
 <a name="moneyprinterturbo"></a>
-### 🥇 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 136k · MIT · Oct 2026</sub>
+### 🥇 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 136k · MIT · Oct 2026</sub>
 
 **Generates short videos from a topic, with script, footage, voiceover and subtitles.**
 
@@ -41,7 +41,7 @@ ComfyUI is a node-graph interface and execution engine for diffusion and other g
 <sub>RAM ≥ 8 GB · GPU optional · Needs PyTorch, Python 3.13 recommended · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1, Flux.2 · [Repo](https://github.com/comfy-org/comfyui) · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://www.comfy.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui/)</sub>
 
 <a name="invokeai"></a>
-### 🥉 [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Web UI for diffusion image generation with inpainting canvas and node workflows.**
 
@@ -59,7 +59,7 @@ Invoke runs a local web server with a React UI for generating and editing images
 <sub>Docker + Compose · Needs Invoke Launcher · Models: SD 1.5, SD 2.0, SDXL, SD 3.5, CogView 4 · [Repo](https://github.com/invoke-ai/invokeai) · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/invokeai/)</sub>
 
 <a name="toonflow-app"></a>
-### #&#8288;4 [toonflow-app](https://github.com/hbai-ltd/toonflow-app) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Oct 2026</sub>
+### #&#8288;4 [toonflow-app](https://github.com/hbai-ltd/toonflow-app) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Oct 2026</sub>
 
 **Infinite-canvas tool for AI short drama and comic video production.**
 
@@ -185,7 +185,7 @@ Mochi Diffusion is a SwiftUI macOS app that generates images locally using Apple
 <sub>GPU required · Needs Apple Core ML Stable Diffusion, iris.c, Xcode 26.0 or later (to build) · Models: Core ML Stable Diffusion (split_einsum, original), ControlNet (Core ML), FLUX.2 Klein 4B, FLUX.2 Klein 9B · [Repo](https://github.com/mochidiffusion/mochidiffusion) · [📖 Docs ↗](https://github.com/MochiDiffusion/MochiDiffusion/wiki/How-to-convert-Stable-Diffusion-models-to-Core-ML) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mochidiffusion/)</sub>
 
 <a name="dramaclaw"></a>
-### #&#8288;11 [dramaclaw](https://github.com/dramaclaw/dramaclaw) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · custom license · Oct 2026</sub>
+### #&#8288;11 [dramaclaw](https://github.com/dramaclaw/dramaclaw) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · custom license · Oct 2026</sub>
 
 **Node-canvas and pipeline for producing AI short dramas from script to final cut.**
 
@@ -221,7 +221,7 @@ ComfyUI-Manager is a custom node for ComfyUI that adds a Manager menu to install
 <sub>no GPU · Needs ComfyUI, git, Python 3 · [Repo](https://github.com/comfy-org/comfyui-manager) · [📖 Docs ↗](https://docs.comfy.org/registry/overview) · [🌐 Site ↗](https://ltdrdata.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-manager/)</sub>
 
 <a name="sana"></a>
-### #&#8288;13 [sana](https://github.com/nvlabs/sana) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;13 [sana](https://github.com/nvlabs/sana) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Oct 2026</sub>
 
 **Efficient diffusion models and training code for high-resolution image and video.**
 
@@ -347,7 +347,7 @@ Wan2.2 is Alibaba's video diffusion model family with a generate.py CLI for text
 <sub>GPU required · Needs PyTorch >= 2.4.0, flash_attn, Dashscope API (optional, prompt extension), CosyVoice (optional, speech-to-video TTS) · Models: Wan2.2-T2V-A14B, Wan2.2-I2V-A14B, Wan2.2-TI2V-5B, Wan2.2-S2V-14B, Wan2.2-Animate-14B · [Repo](https://github.com/wan-video/wan2.2) · [▶️ Demo ↗](https://huggingface.co/spaces/Wan-AI/Wan-2.2-5B) · [📖 Docs ↗](https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aZxe5myC99MelA2WgN7R35y) · [🌐 Site ↗](https://wan.video) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wan2-2/)</sub>
 
 <a name="biniou"></a>
-### #&#8288;20 [biniou](https://github.com/woolverine94/biniou) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;20 [biniou](https://github.com/woolverine94/biniou) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
 
 **Gradio web UI for local text, image, audio, video and 3D generation.**
 
@@ -671,7 +671,7 @@ Jaaz is a desktop app (Windows, macOS) with an infinite canvas and a chat agent 
 <sub>GPU optional · Needs Python >=3.12, Node.js/npm, ComfyUI (optional), Ollama (optional) · Models: GPT-4o, Midjourney, VEO3, Kling, Seedance · [Repo](https://github.com/11cafe/jaaz) · [📖 Docs ↗](https://mxnpt25l6k.feishu.cn/docx/LvcTdlVbFoRAZWxnhBYcqVydnpc) · [🌐 Site ↗](https://jaaz.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jaaz/)</sub>
 
 <a name="skyreels-v2"></a>
-### #&#8288;38 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (17) · Freshness: slowing (33) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · custom license · Jan 2026</sub>
+### #&#8288;38 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (17) · Freshness: slowing (33) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Jan 2026</sub>
 
 **Open-weight video diffusion models for long text- and image-to-video generation.**
 

@@ -77,7 +77,7 @@ Python desktop app (Tkinter GUI, with a CLI) that swaps a face from one source i
 <sub>GPU optional · Needs Python 3.11-3.14, ffmpeg, onnxruntime, gfpgan-1024.onnx, inswapper_128_fp16.onnx, CUDA 12.8 (NVIDIA) · Models: ONNX, inswapper_128_fp16, GFPGAN · [Repo](https://github.com/hacksider/deep-live-cam) · [📖 Docs ↗](https://deeplivecam.net/index.php/quickstart) · [🌐 Site ↗](https://deeplivecam.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-live-cam/)</sub>
 
 <a name="prompt-optimizer"></a>
-### #&#8288;5 [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · custom license · Oct 2026</sub>
+### #&#8288;5 [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · custom license · Oct 2026</sub>
 
 **Prompt rewriting and testing tool for web, desktop, Chrome and MCP.**
 
@@ -203,7 +203,7 @@ Eigent is an Electron and React desktop app with a FastAPI backend that runs AI 
 <sub>GPU optional · Needs Node.js 18-22, npm, uv · Models: vLLM, Ollama, LM Studio, cloud APIs, enterprise gateways · [Repo](https://github.com/eigent-ai/eigent) · [📖 Docs ↗](https://docs.eigent.ai) · [🌐 Site ↗](https://www.eigent.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eigent/)</sub>
 
 <a name="presenton"></a>
-### #&#8288;12 [presenton](https://github.com/presenton/presenton) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [presenton](https://github.com/presenton/presenton) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
 
 **Generates editable PPTX and PDF slide decks from prompts or documents.**
 
@@ -275,7 +275,7 @@ DeepChat is an Electron desktop app for Windows, macOS and Linux that connects t
 <sub>GPU optional · Docker · Needs Ollama (optional, for local models), Node.js toolchain (installed from Settings for npx-style MCP services) · Models: OpenAI, Anthropic, Gemini, DeepSeek, Moonshot · [Repo](https://github.com/thinkinaixyz/deepchat) · [🌐 Site ↗](https://deepchatai.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepchat/)</sub>
 
 <a name="pocketpal-ai"></a>
-### #&#8288;16 [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · MIT · Oct 2026</sub>
+### #&#8288;16 [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · MIT · Oct 2026</sub>
 
 **Phone app that runs GGUF language models offline on iOS and Android.**
 
@@ -383,7 +383,7 @@ Enchanted is a Swift app for macOS, iOS and visionOS that connects to an Ollama 
 <sub>Needs Ollama v0.1.14 or later, ngrok (to expose a local Ollama server) · Models: Ollama models (Llama 2, Mistral, Vicuna, Starling) · [Repo](https://github.com/gluonfield/enchanted) · [▶️ Demo ↗](https://www.youtube.com/watch?v=zW3roZ_vM5Q) · [🌐 Site ↗](https://apps.apple.com/gb/app/enchanted-llm/id6474268307) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/enchanted/)</sub>
 
 <a name="noi"></a>
-### #&#8288;22 [noi](https://github.com/lencx/noi) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: known (31) · Freshness: active (91) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
+### #&#8288;22 [noi](https://github.com/lencx/noi) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: known (30) · Freshness: active (91) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
 
 **Desktop app for running isolated AI chat sessions in multiple windows.**
 

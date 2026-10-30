@@ -221,7 +221,7 @@ Bifrost is a Go AI gateway that fronts 23+ providers (OpenAI, Anthropic, Bedrock
 <sub>no GPU · Models: OpenAI, Anthropic, AWS Bedrock, Google Vertex, Azure, Cerebras, Cohere, Mistral, Ollama, Groq and more · port 8080 · [Repo](https://github.com/maximhq/bifrost) · [📖 Docs ↗](https://docs.getbifrost.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bifrost/)</sub>
 
 <a name="clawrouter"></a>
-### #&#8288;13 [clawrouter](https://github.com/blockrunai/clawrouter) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Oct 2026</sub>
+### #&#8288;13 [clawrouter](https://github.com/blockrunai/clawrouter) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Oct 2026</sub>
 
 **Local LLM router that picks the cheapest capable model per request.**
 
@@ -239,7 +239,7 @@ ClawRouter runs a local proxy on port 8402 with an OpenAI-compatible endpoint. I
 <sub>no GPU · Needs Node.js, BlockRun gateway (blockrun.ai), USDC wallet (Solana or Base) or BlockRun API key · Models: OpenAI, Anthropic, Google, xAI, DeepSeek · port 8402 · [Repo](https://github.com/blockrunai/clawrouter) · [🌐 Site ↗](https://blockrun.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawrouter/)</sub>
 
 <a name="higress"></a>
-### #&#8288;14 [Higress](https://github.com/higress-group/higress) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;14 [Higress](https://github.com/higress-group/higress) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Oct 2026</sub>
 
 **Istio and Envoy API gateway with LLM proxying and MCP server hosting.**
 
@@ -455,7 +455,7 @@ vLLM Semantic Router sits between an agent harness and several configured model 
 <sub>Docker · Models: local, private and cloud backends · [Repo](https://github.com/vllm-project/semantic-router) · [▶️ Demo ↗](https://app.vllm-sr.ai/playground) · [📖 Docs ↗](https://vllm-sr.ai/docs/intro/) · [🌐 Site ↗](https://vllm-sr.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-router/)</sub>
 
 <a name="agentgateway"></a>
-### #&#8288;26 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;26 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
 
 **One proxy for LLM, MCP and A2A traffic with auth and RBAC.**
 
@@ -508,26 +508,8 @@ Laminar is a Rust-based observability backend for AI agents. Its OpenTelemetry-n
 
 <sub>no GPU · Compose · Needs ClickHouse, Postgres, Docker Compose · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs ↗](https://laminar.sh/docs) · [🌐 Site ↗](https://laminar.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmnr/)</sub>
 
-<a name="optillm"></a>
-### #&#8288;29 [optillm](https://github.com/algorithmicsuperintelligence/optillm) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Oct 2026</sub>
-
-**OpenAI-compatible proxy that applies inference-time reasoning techniques to any LLM.**
-
-OptiLLM is a Python proxy that exposes an OpenAI-compatible chat completions endpoint and wraps requests with inference-time techniques such as MoA, MCTS, PlanSearch, CePO and MARS. The technique is chosen by a model-name prefix (e.g. `moa-gpt-4o-mini`), an `extra_body` field or a prompt tag. It forwards to OpenAI, Azure, Cerebras, a local server or LiteLLM providers, and includes plugins for memory, PII anonymization, URL reading, MCP and code execution.
-
-- **+** Technique chosen per request via model prefix, extra_body or prompt tag; chainable with & and |
-- **+** Works with any OpenAI-compatible endpoint and LiteLLM providers; clients only change base_url
-- **+** Plugins for privacy, memory, MCP client, code execution, JSON output and provider failover
-- **+** Binds to 127.0.0.1 by default; Docker images in full, proxy-only and offline variants
-- **−** Techniques like MoA, MCTS and N-sample selection multiply API calls, raising latency and token cost
-- **−** CoT decoding, entropy decoding and AutoThink are marked not available through the proxy
-- **−** Accuracy gains are the project's own benchmark claims and vary by model and task
-- **−** Startup log shows the Flask development server, which the README says not to use in production
-
-<sub>GPU optional · Docker + Compose · Needs OpenAI-compatible API or LiteLLM provider, spaCy (privacy plugin), Selenium and Chrome (web_search plugin) · Models: OpenAI, Azure OpenAI, Cerebras, Anthropic, Google Gemini · port 8000 · [Repo](https://github.com/algorithmicsuperintelligence/optillm) · [▶️ Demo ↗](https://huggingface.co/spaces/codelion/optillm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/optillm/)</sub>
-
 <a name="future-agi"></a>
-### #&#8288;30 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;29 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Oct 2026</sub>
 
 **Tracing, evals, simulation, guardrails and an LLM gateway for AI agents.**
 
@@ -543,6 +525,24 @@ Future AGI is a Django and Go platform that traces agents over OpenTelemetry, sc
 - **−** Benchmark figures come from the README; independent verification is unknown
 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs PostgreSQL, ClickHouse, Redis, Temporal, Docker Compose v2.24+ · Models: OpenAI-compatible providers (100+ via gateway) · port 3000 · [Repo](https://github.com/future-agi/future-agi) · [▶️ Demo ↗](https://www.youtube.com/watch?v=6keOTAOUUWI) · [📖 Docs ↗](https://docs.futureagi.com) · [🌐 Site ↗](https://futureagi.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/future-agi/)</sub>
+
+<a name="optillm"></a>
+### #&#8288;30 [optillm](https://github.com/algorithmicsuperintelligence/optillm) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Oct 2026</sub>
+
+**OpenAI-compatible proxy that applies inference-time reasoning techniques to any LLM.**
+
+OptiLLM is a Python proxy that exposes an OpenAI-compatible chat completions endpoint and wraps requests with inference-time techniques such as MoA, MCTS, PlanSearch, CePO and MARS. The technique is chosen by a model-name prefix (e.g. `moa-gpt-4o-mini`), an `extra_body` field or a prompt tag. It forwards to OpenAI, Azure, Cerebras, a local server or LiteLLM providers, and includes plugins for memory, PII anonymization, URL reading, MCP and code execution.
+
+- **+** Technique chosen per request via model prefix, extra_body or prompt tag; chainable with & and |
+- **+** Works with any OpenAI-compatible endpoint and LiteLLM providers; clients only change base_url
+- **+** Plugins for privacy, memory, MCP client, code execution, JSON output and provider failover
+- **+** Binds to 127.0.0.1 by default; Docker images in full, proxy-only and offline variants
+- **−** Techniques like MoA, MCTS and N-sample selection multiply API calls, raising latency and token cost
+- **−** CoT decoding, entropy decoding and AutoThink are marked not available through the proxy
+- **−** Accuracy gains are the project's own benchmark claims and vary by model and task
+- **−** Startup log shows the Flask development server, which the README says not to use in production
+
+<sub>GPU optional · Docker + Compose · Needs OpenAI-compatible API or LiteLLM provider, spaCy (privacy plugin), Selenium and Chrome (web_search plugin) · Models: OpenAI, Azure OpenAI, Cerebras, Anthropic, Google Gemini · port 8000 · [Repo](https://github.com/algorithmicsuperintelligence/optillm) · [▶️ Demo ↗](https://huggingface.co/spaces/codelion/optillm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/optillm/)</sub>
 
 <a name="evidently"></a>
 ### #&#8288;31 [evidently](https://github.com/evidentlyai/evidently) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (39) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · Apache-2.0 · Sep 2026</sub>
@@ -580,26 +580,8 @@ Sits as an OpenAI-compatible gateway in front of 100+ models with routing and au
 
 <sub>no GPU · Docker + Compose · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/helicone/helicone) · [▶️ Demo ↗](https://helicone.ai/demo) · [📖 Docs ↗](https://docs.helicone.ai/) · [🌐 Site ↗](https://www.helicone.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helicone/)</sub>
 
-<a name="coze-loop"></a>
-### #&#8288;33 [coze-loop](https://github.com/coze-dev/coze-loop) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (18) · Freshness: active (91) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
-
-**Prompt playground, evaluation and tracing platform for developing and monitoring AI agents.**
-
-Coze Loop is the open-source edition of ByteDance's agent development and operations platform. It covers prompt authoring with a playground and version management, evaluation sets, evaluators and experiments, and trace reporting through SDKs in three languages. Models are connected through the Eino framework, with OpenAI and Volcengine Ark named in the README.
-
-- **+** Combines prompt versioning, evaluation experiments and trace observation in one deployable service
-- **+** Side-by-side playground comparison of output from different LLMs
-- **+** Deploys via Docker Compose (make compose-up) or a Helm chart for Kubernetes
-- **+** SDK works with both the commercial and open-source editions
-- **−** Open-source edition exposes only core modules of the commercial product
-- **−** README setup examples centre on Volcengine Ark; other providers are documented only in the wiki
-- **−** README warns of SSRF, open registration and some privilege-escalation risks on public networks
-- **−** Hardware requirements and supported SDK languages are not stated in the README
-
-<sub>no GPU · Needs Docker Engine, Docker Compose, Kubernetes and Helm (optional), LLM provider API key · Models: OpenAI, Volcengine Ark, BytePlus ModelArk, Models supported via Eino · port 8082 · [Repo](https://github.com/coze-dev/coze-loop) · [📖 Docs ↗](https://github.com/coze-dev/coze-loop/wiki/2.-Quickstart) · [🌐 Site ↗](https://www.coze.cn/loop) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/coze-loop/)</sub>
-
 <a name="portkey-gateway"></a>
-### #&#8288;34 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (59) · Freshness: recent (73) · Maintenance: weak (3) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
+### #&#8288;33 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (59) · Freshness: recent (73) · Maintenance: weak (3) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
 
 **Node.js LLM gateway with fallbacks, load balancing and guardrails.**
 
@@ -615,6 +597,24 @@ Portkey Gateway is a Node.js proxy that routes requests to 250+ LLM providers th
 - **−** RBAC, PII redaction and compliance features are enterprise
 
 <sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Cohere, Mistral, Together, Perplexity, Ollama, Bedrock, Groq and 45+ providers · port 8787 · [Repo](https://github.com/portkey-ai/gateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/portkey-gateway/)</sub>
+
+<a name="coze-loop"></a>
+### #&#8288;34 [coze-loop](https://github.com/coze-dev/coze-loop) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (17) · Freshness: active (91) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Oct 2026</sub>
+
+**Prompt playground, evaluation and tracing platform for developing and monitoring AI agents.**
+
+Coze Loop is the open-source edition of ByteDance's agent development and operations platform. It covers prompt authoring with a playground and version management, evaluation sets, evaluators and experiments, and trace reporting through SDKs in three languages. Models are connected through the Eino framework, with OpenAI and Volcengine Ark named in the README.
+
+- **+** Combines prompt versioning, evaluation experiments and trace observation in one deployable service
+- **+** Side-by-side playground comparison of output from different LLMs
+- **+** Deploys via Docker Compose (make compose-up) or a Helm chart for Kubernetes
+- **+** SDK works with both the commercial and open-source editions
+- **−** Open-source edition exposes only core modules of the commercial product
+- **−** README setup examples centre on Volcengine Ark; other providers are documented only in the wiki
+- **−** README warns of SSRF, open registration and some privilege-escalation risks on public networks
+- **−** Hardware requirements and supported SDK languages are not stated in the README
+
+<sub>no GPU · Needs Docker Engine, Docker Compose, Kubernetes and Helm (optional), LLM provider API key · Models: OpenAI, Volcengine Ark, BytePlus ModelArk, Models supported via Eino · port 8082 · [Repo](https://github.com/coze-dev/coze-loop) · [📖 Docs ↗](https://github.com/coze-dev/coze-loop/wiki/2.-Quickstart) · [🌐 Site ↗](https://www.coze.cn/loop) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/coze-loop/)</sub>
 
 <a name="gptcache"></a>
 ### #&#8288;35 [gptcache](https://github.com/zilliztech/gptcache) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (41) · Freshness: recent (70) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · MIT · Sep 2026</sub>

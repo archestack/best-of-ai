@@ -221,7 +221,7 @@ Heretic applies directional ablation (abliteration) to the attention out-project
 <sub>GPU optional · Needs Python 3.10+, PyTorch 2.2+, Optuna, bitsandbytes (optional), Hugging Face · Models: Hugging Face transformer models (dense), MoE, multimodal, hybrid (Qwen3.5), MXFP4 (gpt-oss, needs PyTorch 2.6+) · [Repo](https://github.com/p-e-w/heretic) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/heretic/)</sub>
 
 <a name="agent-lightning"></a>
-### #&#8288;13 [agent-lightning](https://github.com/microsoft/agent-lightning) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
+### #&#8288;13 [agent-lightning](https://github.com/microsoft/agent-lightning) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Reinforcement learning framework for training agents through a model-request proxy.**
 
@@ -239,7 +239,7 @@ Agent Lightning is a roughly 3,500-line Python framework that trains agents with
 <sub>GPU required · Needs verl, vLLM, uv, Kubernetes (optional, for rollouts) · Models: Qwen3.5-9B, Qwen3.5-35B-A3B · [Repo](https://github.com/microsoft/agent-lightning) · [📖 Docs ↗](https://microsoft.github.io/agent-lightning/stable/) · [🌐 Site ↗](https://www.microsoft.com/en-us/research/project/agent-lightning/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-lightning/)</sub>
 
 <a name="fingpt"></a>
-### #&#8288;14 [fingpt](https://github.com/ai4finance-foundation/fingpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (70) · Freshness: active (98) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · MIT · Oct 2026</sub>
+### #&#8288;14 [fingpt](https://github.com/ai4finance-foundation/fingpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (70) · Freshness: active (98) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · MIT · Oct 2026</sub>
 
 **LoRA fine-tuned financial LLMs, datasets and notebooks for sentiment and forecasting.**
 
@@ -401,7 +401,7 @@ Liger Kernel is a PyTorch library of Triton kernels for RMSNorm, RoPE, SwiGLU, C
 <sub>GPU required · Needs torch >= 2.1.2, triton >= 2.3.1, transformers >= 5.0.0 (optional) · Models: Hugging Face transformers models, LLaMA 3, Qwen2-VL, Llama 3.2-Vision · [Repo](https://github.com/linkedin/liger-kernel) · [📖 Docs ↗](https://linkedin.github.io/Liger-Kernel/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/liger-kernel/)</sub>
 
 <a name="areal"></a>
-### #&#8288;23 [areal](https://github.com/areal-project/areal) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;23 [areal](https://github.com/areal-project/areal) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
 
 **Asynchronous reinforcement learning system for training reasoning and agentic LLMs.**
 
@@ -509,7 +509,7 @@ mergekit combines pre-trained language models by operating on their weights, dri
 <sub>GPU optional · Needs PyTorch, Hugging Face Hub (optional, for upload) · Models: Llama, Mistral, GPT-NeoX, StableLM, raw PyTorch models · [Repo](https://github.com/arcee-ai/mergekit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mergekit/)</sub>
 
 <a name="nnunet"></a>
-### #&#8288;29 [nnunet](https://github.com/mic-dkfz/nnunet) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (32) · Freshness: recent (70) · Maintenance: patchy (46) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;29 [nnunet](https://github.com/mic-dkfz/nnunet) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (32) · Freshness: recent (70) · Maintenance: fair (56) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Oct 2026</sub>
 
 **Self-configuring U-Net framework for biomedical image segmentation.**
 
@@ -527,7 +527,7 @@ nnU-Net analyzes a training dataset, builds a fingerprint, and configures 2D and
 <sub>Needs PyTorch · Models: U-Net (2D, 3D fullres, cascade), Residual encoder U-Net presets · [Repo](https://github.com/mic-dkfz/nnunet) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nnunet/)</sub>
 
 <a name="fractalworkspace"></a>
-### #&#8288;30 [fractalworkspace](https://github.com/fractal-compute-orchestrations/fractalworkspace) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · custom license · Oct 2026</sub>
+### #&#8288;30 [fractalworkspace](https://github.com/fractal-compute-orchestrations/fractalworkspace) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · custom license · Oct 2026</sub>
 
 **Federated training and split-model inference across Android phones.**
 

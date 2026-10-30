@@ -167,7 +167,7 @@ agentmemory captures what coding agents do through hooks, compresses it into sea
 <sub>no GPU · Docker + Compose · Needs Node.js 20+, iii engine v0.22.1 · Models: Xenova/all-MiniLM-L6-v2 (local embeddings), optional LLM provider for compression · port 3113 · [Repo](https://github.com/rohitg00/agentmemory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentmemory/)</sub>
 
 <a name="everos"></a>
-### #&#8288;10 [everos](https://github.com/evermind-ai/everos) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [everos](https://github.com/evermind-ai/everos) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
 
 **Local-first agent memory runtime that stores memories as Markdown files.**
 
@@ -257,7 +257,7 @@ Letta (formerly MemGPT) builds agents that keep memory and learn across sessions
 <sub>Needs Node.js (npm) · [Repo](https://github.com/letta-ai/letta) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letta-ai-letta/)</sub>
 
 <a name="honcho"></a>
-### #&#8288;15 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;15 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · AGPL-3.0 · Oct 2026</sub>
 
 **Memory service that builds per-peer representations from stored agent conversations.**
 
@@ -293,7 +293,7 @@ Engram is a single Go binary that stores coding-agent memory in a local SQLite f
 <sub>no GPU · Docker + Compose · Needs SQLite (bundled) · Models: Any MCP-compatible agent · [Repo](https://github.com/gentleman-programming/engram) · [📖 Docs ↗](https://github.com/Gentleman-Programming/engram/blob/main/DOCS.md) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/engram/)</sub>
 
 <a name="letta"></a>
-### #&#8288;17 [Letta](https://github.com/letta-ai/letta-code) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;17 [Letta](https://github.com/letta-ai/letta-code) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful CLI agent harness with self-editing memory, skills and chat integrations.**
 

@@ -5,7 +5,7 @@ Libraries for building agents and LLM apps in code: tool calling, planning, mult
 <sub>🌐 Also on the web: [Agent frameworks and SDKs on archestack.com](https://archestack.com/best-of-ai/agent-frameworks/), each project on its own page.</sub>
 
 <a name="ppt-master"></a>
-### 🥇 [ppt-master](https://github.com/hugohe3/ppt-master) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · MIT · Oct 2026</sub>
+### 🥇 [ppt-master](https://github.com/hugohe3/ppt-master) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · MIT · Oct 2026</sub>
 
 **Agent skill that turns documents into natively editable PowerPoint decks.**
 
@@ -23,7 +23,7 @@ PPT Master is a workflow ("skill") that runs inside an agent-capable AI tool suc
 <sub>no GPU · Needs Python 3.10+, agent-capable AI tool (Claude Code, Cursor, Codex CLI, etc.), pandoc (only for legacy formats like .doc, .rtf), image generation API (optional) · Models: Kimi K3, Claude, GPT, Gemini, gpt-image-2 · [Repo](https://github.com/hugohe3/ppt-master) · [▶️ Demo ↗](https://hugohe3.github.io/ppt-master-examples/) · [📖 Docs ↗](https://github.com/hugohe3/ppt-master/blob/main/docs/getting-started.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ppt-master/)</sub>
 
 <a name="openai-agents-python"></a>
-### 🥈 [openai-agents-python](https://github.com/openai/openai-agents-python) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Oct 2026</sub>
+### 🥈 [openai-agents-python](https://github.com/openai/openai-agents-python) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Oct 2026</sub>
 
 **Python SDK for multi-agent workflows with handoffs, guardrails and tracing.**
 
@@ -95,7 +95,7 @@ Browser Use is a Python library where an Agent takes a natural-language task and
 <sub>GPU optional · Docker · Needs Chrome or Chromium, LLM provider API key, Browser Use API key (optional) · Models: OpenAI, Anthropic, Google, Ollama, BU2 (ChatBrowserUse) · [Repo](https://github.com/browser-use/browser-use) · [▶️ Demo ↗](https://browser-use.com/showcase) · [📖 Docs ↗](https://docs.browser-use.com) · [🌐 Site ↗](https://browser-use.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/browser-use/)</sub>
 
 <a name="tradingagents"></a>
-### #&#8288;6 [tradingagents](https://github.com/tauricresearch/tradingagents) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 118k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [tradingagents](https://github.com/tauricresearch/tradingagents) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 119k · Apache-2.0 · Oct 2026</sub>
 
 **Multi-agent LLM framework that simulates a trading firm's analysis process.**
 
@@ -977,7 +977,7 @@ Spring AI Alibaba is a Java framework built on Spring AI for writing agents, gra
 <sub>no GPU · Needs JDK 17+, LLM provider API key, Nacos (for A2A and dynamic config) · Models: DashScope, OpenAI, DeepSeek · port 8080 · [Repo](https://github.com/alibaba/spring-ai-alibaba) · [📖 Docs ↗](https://java2ai.com/docs/quick-start/) · [🌐 Site ↗](https://java2ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spring-ai-alibaba/)</sub>
 
 <a name="langchaingo"></a>
-### #&#8288;55 [langchaingo](https://github.com/tmc/langchaingo) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · MIT · Oct 2026</sub>
+### #&#8288;55 [langchaingo](https://github.com/tmc/langchaingo) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Oct 2026</sub>
 
 **Go port of LangChain for building LLM applications.**
 
@@ -1067,7 +1067,7 @@ Python browser agent that reads a numbered table of visible page controls and as
 <sub>no GPU · Needs TypeSafe API (Jev), OpenRouter or other OpenAI-compatible text model API, Chrome, Browser Harness, uv · Models: TypeSafe Jev, inception/mercury-2.5 via OpenRouter, Gemini, GLM, DeepSeek · port 8766 · [Repo](https://github.com/browser-use/jev-ultrafast) · [📖 Docs ↗](https://docs.typesafe.ai/introduction) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jev-ultrafast/)</sub>
 
 <a name="agent-squad"></a>
-### #&#8288;60 [agent-squad](https://github.com/2fastlabs/agent-squad) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;60 [agent-squad](https://github.com/2fastlabs/agent-squad) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
 
 **Routes queries to specialized agents in Python, TypeScript and Swift.**
 
@@ -1193,7 +1193,7 @@ aisuite is a Python library that exposes an OpenAI-style Chat Completions interf
 <sub>no GPU · Needs Provider API keys, Provider SDKs (optional extras), Node/npx for some MCP servers · Models: OpenAI, Anthropic, Google, Mistral, Hugging Face · [Repo](https://github.com/andrewyng/aisuite) · [📖 Docs ↗](https://github.com/andrewyng/aisuite/blob/main/docs/chat-completions-quickstart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aisuite/)</sub>
 
 <a name="agent-s"></a>
-### #&#8288;67 [agent-s](https://github.com/simular-ai/agent-s) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (43) · Freshness: active (89) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;67 [agent-s](https://github.com/simular-ai/agent-s) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (43) · Freshness: active (89) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **Computer-use agent that operates desktop GUIs via screenshots, mouse and keyboard.**
 
@@ -1265,7 +1265,7 @@ Research repository from Tongyi Lab (Alibaba) collecting the Mobile-Agent series
 <sub>Needs Android device or emulator (mobile use), Alibaba Cloud Bailian API (optional hosted inference) · Models: GUI-Owl-1.5 (2B/4B/8B/32B/235B), GUI-Owl-7B, GUI-Owl-32B, UI-S1-7B · [Repo](https://github.com/x-plug/mobileagent) · [▶️ Demo ↗](http://modelscope.cn/studios/MobileAgentTest/computer_use) · [📖 Docs ↗](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mobileagent/)</sub>
 
 <a name="metagpt"></a>
-### #&#8288;71 [metagpt](https://github.com/foundationagents/metagpt) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (95) · Freshness: quiet (21) · Maintenance: weak (28) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · MIT · Jan 2026</sub>
+### #&#8288;71 [metagpt](https://github.com/foundationagents/metagpt) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (94) · Freshness: quiet (21) · Maintenance: weak (28) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · MIT · Jan 2026</sub>
 
 **Python multi-agent framework that turns one-line requirements into a software repo.**
 
@@ -1355,7 +1355,7 @@ Swarm is a small Python library built around two primitives: Agents (instruction
 <sub>no GPU · Needs OpenAI API, Python 3.10+ · Models: OpenAI Chat Completions models (default gpt-4o) · [Repo](https://github.com/openai/swarm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/swarm/)</sub>
 
 <a name="julep"></a>
-### #&#8288;76 [julep](https://github.com/julep-ai/julep) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (9) · Freshness: active (99) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;76 [julep](https://github.com/julep-ai/julep) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (9) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · Apache-2.0 · Jul 2026</sub>
 
 **Python library for durable agent flows that compile to a frozen IR.**
 

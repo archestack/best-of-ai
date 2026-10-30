@@ -5,7 +5,7 @@ AI agents and tools for penetration testing, red-teaming and finding vulnerabili
 <sub>🌐 Also on the web: [Security on archestack.com](https://archestack.com/best-of-ai/security/), each project on its own page.</sub>
 
 <a name="shannon"></a>
-### 🥇 [shannon](https://github.com/keygraphhq/shannon) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 50k · AGPL-3.0 · Oct 2026</sub>
+### 🥇 [shannon](https://github.com/keygraphhq/shannon) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 51k · AGPL-3.0 · Oct 2026</sub>
 
 **Autonomous pentester that exploits web apps and APIs using source code analysis.**
 
@@ -41,7 +41,7 @@ Strix runs teams of LLM-driven agents against a local codebase, repo URL, web ap
 <sub>no GPU · Docker · Needs Docker, LLM API key, Caido, LiteLLM · Models: OpenAI, Anthropic, Google Vertex AI, DeepSeek, Moonshot · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/strix/)</sub>
 
 <a name="ifixai"></a>
-### 🥉 [ifixai](https://github.com/ifixai-ai/ifixai) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [ifixai](https://github.com/ifixai-ai/ifixai) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · Oct 2026</sub>
 
 **Python CLI that audits AI agents for policy, access and reliability failures.**
 
@@ -203,7 +203,7 @@ HexStrike AI runs a Python Flask-style server (hexstrike_server.py, default port
 <sub>GPU optional · Needs Python 3.8+, nmap, nuclei, sqlmap and other security tools, Chrome/Chromium with chromedriver, MCP-compatible client · Models: Claude, GPT, Copilot, any MCP-compatible client · port 8888 · [Repo](https://github.com/0x4m4/hexstrike-ai) · [🌐 Site ↗](https://overthetop.ae/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hexstrike-ai/)</sub>
 
 <a name="pwnagotchi"></a>
-### #&#8288;12 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (38) · Freshness: recent (70) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · custom license · Aug 2026</sub>
+### #&#8288;12 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (38) · Freshness: recent (70) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · custom license · Aug 2026</sub>
 
 **WiFi handshake-capturing agent that tunes its attacks with reinforcement learning.**
 

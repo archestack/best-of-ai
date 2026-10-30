@@ -221,7 +221,7 @@ HelixDB is a transactional labeled-property graph database that also does approx
 <sub>no GPU · Docker · Needs Docker or Podman (local server) · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helix-db/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;13 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;13 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Oct 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
