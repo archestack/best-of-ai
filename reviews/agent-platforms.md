@@ -5,7 +5,7 @@ Visual or code-first builders for agents and workflows, with orchestration, tool
 <sub>🌐 Also on the web: [Agent platforms on archestack.com](https://archestack.com/best-of-ai/agent-platforms/), each project on its own page.</sub>
 
 <a name="autogpt"></a>
-### 🥇 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 188k · custom license · Oct 2026</sub>
+### 🥇 [AutoGPT](https://github.com/significant-gravitas/autogpt) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 188k · custom license · Oct 2026</sub>
 
 **Role-based AI agents coordinated by one lead agent, plus a visual workflow builder.**
 
@@ -23,7 +23,7 @@ AutoGPT is a platform where a coordinator agent (Otto) hands work to configurabl
 <sub>Needs Docker, model provider credentials or a local model · Models: bring-your-own model credentials, local models · port 3000 · [Repo](https://github.com/significant-gravitas/autogpt) · [▶️ Demo ↗](https://agpt.co/videos/otto-team-demo-v1-1080.mp4) · [📖 Docs ↗](https://agpt.co/docs) · [🌐 Site ↗](https://agpt.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autogpt/)</sub>
 
 <a name="daily-stock-analysis"></a>
-### 🥈 [daily_stock_analysis](https://github.com/zhulinsen/daily_stock_analysis) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
+### 🥈 [daily_stock_analysis](https://github.com/zhulinsen/daily_stock_analysis) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 67k · MIT · Oct 2026</sub>
 
 **LLM-driven daily analysis of watchlist stocks across six markets, pushed to chat apps.**
 
@@ -203,7 +203,7 @@ Sim is a Next.js and PostgreSQL workspace for building agents and workflows visu
 <sub>RAM ≥ 12 GB · GPU optional · Docker + Compose · Needs Docker, Node.js 20+, PostgreSQL, Trigger.dev, E2B · Models: Ollama, vLLM, major hosted LLMs · port 3000 · [Repo](https://github.com/simstudioai/sim) · [📖 Docs ↗](https://docs.sim.ai) · [🌐 Site ↗](https://sim.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sim/)</sub>
 
 <a name="paperclip"></a>
-### #&#8288;12 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 109k · MIT · Oct 2026</sub>
+### #&#8288;12 [Paperclip](https://github.com/paperclipai/paperclip) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 109k · MIT · Oct 2026</sub>
 
 **Task manager and org chart for coordinating teams of AI coding agents.**
 
@@ -221,7 +221,7 @@ Paperclip is a Node.js server with a React UI that orchestrates external agents 
 <sub>no GPU · Docker + Compose · Needs Node.js, External agent runtimes (Claude Code, Codex, etc.) · Models: Claude Code, Codex, Cursor, Gemini CLI, OpenCode · [Repo](https://github.com/paperclipai/paperclip) · [📖 Docs ↗](https://docs.paperclip.ing) · [🌐 Site ↗](https://paperclip.ing) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperclip/)</sub>
 
 <a name="openmaic"></a>
-### #&#8288;13 [openmaic](https://github.com/thu-maic/openmaic) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Oct 2026</sub>
+### #&#8288;13 [openmaic](https://github.com/thu-maic/openmaic) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Oct 2026</sub>
 
 **Generates interactive classes with AI teachers and classmates from a topic or file.**
 
@@ -400,26 +400,8 @@ AX is a Go CLI and control plane that schedules agent workloads on Kubernetes th
 
 <sub>Docker · Needs Kubernetes, Agent Substrate, Redis, ko, kubectl, container registry · Models: Google Gemini · [Repo](https://github.com/google/ax) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ax/)</sub>
 
-<a name="opencreator"></a>
-### #&#8288;23 [opencreator](https://github.com/krillinai/opencreator) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
-
-**Creator workspace for video translation, image and video generation, built on Codex CLI.**
-
-OpenCreator (formerly KrillinAI) pairs a visual workspace with an agent chat that uses Codex CLI as its execution engine. It ships creator tools for video translation, video downloading, image and video generation, voiceovers and article or script writing. A desktop app wraps the same web frontend and a local runtime.
-
-- **+** Video translation covers 14 source and 101 target languages, with bilingual subtitles and dubbing
-- **+** Reuses Codex agent loop, Skills and MCP config instead of a second engine
-- **+** Local transcription via faster-whisper, WhisperKit or whisper.cpp where available
-- **+** Every revision is saved as a new version, keeping earlier settings and outputs
-- **−** Depends on Codex CLI and a configured model provider or ChatGPT sign-in
-- **−** Image, video and voice generation need external services set under AI Services
-- **−** Auto Clips and Digital Avatar are still in development
-- **−** No Docker or compose files detected; hardware requirements are not stated
-
-<sub>GPU optional · Needs Codex CLI, yt-dlp, OpenAI-compatible LLM provider, Image/video/voice provider APIs · Models: OpenAI GPT, DeepSeek, Qwen, Kimi, GLM · [Repo](https://github.com/krillinai/opencreator) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opencreator/)</sub>
-
 <a name="hive"></a>
-### #&#8288;24 [hive](https://github.com/aden-hive/hive) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;23 [hive](https://github.com/aden-hive/hive) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
 
 **Runtime where a queen agent spawns parallel worker agents sharing a SQLite tracker.**
 
@@ -435,6 +417,24 @@ Hive runs a persistent "queen" agent that does one unit of a job itself, saves t
 - **−** No Docker or compose files detected; needs Python 3.11+ and Node.js 20+
 
 <sub>GPU optional · Needs Python 3.11+, Node.js 20+, git, uv, ripgrep, Ollama (optional, for local models) · Models: Anthropic, OpenAI, Google Gemini, Groq, Cerebras · port 8787 · [Repo](https://github.com/aden-hive/hive) · [📖 Docs ↗](https://docs.adenhq.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hive/)</sub>
+
+<a name="opencreator"></a>
+### #&#8288;24 [opencreator](https://github.com/krillinai/opencreator) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
+
+**Creator workspace for video translation, image and video generation, built on Codex CLI.**
+
+OpenCreator (formerly KrillinAI) pairs a visual workspace with an agent chat that uses Codex CLI as its execution engine. It ships creator tools for video translation, video downloading, image and video generation, voiceovers and article or script writing. A desktop app wraps the same web frontend and a local runtime.
+
+- **+** Video translation covers 14 source and 101 target languages, with bilingual subtitles and dubbing
+- **+** Reuses Codex agent loop, Skills and MCP config instead of a second engine
+- **+** Local transcription via faster-whisper, WhisperKit or whisper.cpp where available
+- **+** Every revision is saved as a new version, keeping earlier settings and outputs
+- **−** Depends on Codex CLI and a configured model provider or ChatGPT sign-in
+- **−** Image, video and voice generation need external services set under AI Services
+- **−** Auto Clips and Digital Avatar are still in development
+- **−** No Docker or compose files detected; hardware requirements are not stated
+
+<sub>GPU optional · Needs Codex CLI, yt-dlp, OpenAI-compatible LLM provider, Image/video/voice provider APIs · Models: OpenAI GPT, DeepSeek, Qwen, Kimi, GLM · [Repo](https://github.com/krillinai/opencreator) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opencreator/)</sub>
 
 <a name="yuxi"></a>
 ### #&#8288;25 [yuxi](https://github.com/xerrors/yuxi) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Oct 2026</sub>
@@ -509,7 +509,7 @@ Astron Agent is a platform for building and running agent workflows, with orches
 <sub>Compose · Needs Docker Compose, Casdoor, nginx · Models: API-based models, on-premises MaaS clusters · port 80 · [Repo](https://github.com/iflytek/astron-agent) · [▶️ Demo ↗](https://agent.xfyun.cn) · [📖 Docs ↗](https://github.com/iflytek/astron-agent/blob/main/docs/DEPLOYMENT_GUIDE_WITH_AUTH.md) · [🌐 Site ↗](https://iflytek.github.io/astron-agent/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/astron-agent/)</sub>
 
 <a name="openbot"></a>
-### #&#8288;29 [openbot](https://github.com/copilotkit/openbot) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · MIT · Oct 2026</sub>
+### #&#8288;29 [openbot](https://github.com/copilotkit/openbot) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · MIT · Oct 2026</sub>
 
 **Self-hosted team assistant where each bot gets its own browser and audited actions.**
 
@@ -527,7 +527,7 @@ OpenBot is a clonable template for a company-run, ChatGPT-style assistant. Any A
 <sub>no GPU · Docker + Compose · Needs Docker, PostgreSQL, Bun 1.3+, CopilotKit Intelligence, LLM API key · Models: OpenAI, Anthropic, Google, any AG-UI agent endpoint · port 3010 · [Repo](https://github.com/copilotkit/openbot) · [🌐 Site ↗](https://copilotkit.ai/openbot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openbot/)</sub>
 
 <a name="mirofish"></a>
-### #&#8288;30 [mirofish](https://github.com/666ghj/mirofish) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (92) · Freshness: active (95) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;30 [mirofish](https://github.com/666ghj/mirofish) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (92) · Freshness: active (95) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · AGPL-3.0 · Oct 2026</sub>
 
 **Multi-agent social simulation engine that predicts outcomes from seed documents.**
 
@@ -599,7 +599,7 @@ TrueForge runs the agent loop server-side: model calls, remote MCP tools, git-ba
 <sub>no GPU · Docker + Compose · Needs Node.js >= 22.14, SQLite (local mode), Postgres (hosted mode), Redis (hosted mode), Daytona (sandbox) · Models: OpenAI, Anthropic, Google Gemini, OpenAI-compatible endpoints · [Repo](https://github.com/truefoundry/trueforge) · [📖 Docs ↗](https://trueforge.dev/introduction) · [🌐 Site ↗](https://trueforge.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trueforge/)</sub>
 
 <a name="open-duet"></a>
-### #&#8288;34 [open-duet](https://github.com/anil-matcha/open-duet) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;34 [open-duet](https://github.com/anil-matcha/open-duet) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Oct 2026</sub>
 
 **Workspace for named AI agents with teams, memory, and scheduled routines.**
 
@@ -779,7 +779,7 @@ PaperBanana turns a paper's method section and figure caption into publication-s
 <sub>no GPU · Docker · Needs Google Gemini or OpenRouter API key, uv, Python 3.12, PaperBananaBench dataset (Hugging Face) · Models: Gemini, OpenRouter, OpenAI gpt-image · [Repo](https://github.com/dwzhu-pku/paperbanana) · [▶️ Demo ↗](https://huggingface.co/spaces/dwzhu/PaperBanana) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperbanana/)</sub>
 
 <a name="intentkit"></a>
-### #&#8288;44 [intentkit](https://github.com/crestalnetwork/intentkit) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Sep 2026</sub>
+### #&#8288;44 [intentkit](https://github.com/crestalnetwork/intentkit) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Sep 2026</sub>
 
 **Self-hosted cluster of collaborating AI agents with a skill system and API.**
 
@@ -904,7 +904,7 @@ Prompt flow defines LLM apps as executable flows in a flow.dag.yaml that link LL
 <sub>no GPU · Needs Python 3.9-3.11 recommended, OpenAI or Azure OpenAI API key · Models: OpenAI, Azure OpenAI · [Repo](https://github.com/microsoft/promptflow) · [📖 Docs ↗](https://microsoft.github.io/promptflow/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/promptflow/)</sub>
 
 <a name="magentic-ui"></a>
-### #&#8288;51 [magentic-ui](https://github.com/microsoft/magentic-ui) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (30) · Freshness: active (98) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Jul 2026</sub>
+### #&#8288;51 [magentic-ui](https://github.com/microsoft/magentic-ui) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (30) · Freshness: active (97) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Jul 2026</sub>
 
 **Browser and file-system agent built for small orchestrator and browser-use models.**
 
@@ -922,7 +922,7 @@ MagenticLite is the successor to Magentic-UI from Microsoft AI Frontiers. It pai
 <sub>Needs uv, Python 3.12, Quicksand VM sandbox, model endpoint · Models: MagenticBrain, Fara · port 8081 · [Repo](https://github.com/microsoft/magentic-ui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/magentic-ui/)</sub>
 
 <a name="ai-scientist-v2"></a>
-### #&#8288;52 [ai-scientist-v2](https://github.com/sakanaai/ai-scientist-v2) <sub>score [10](../README.md#-how-we-rank "Score 10/100. Adoption: niche (14) · Freshness: quiet (18) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · custom license · Dec 2025</sub>
+### #&#8288;52 [ai-scientist-v2](https://github.com/sakanaai/ai-scientist-v2) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (14) · Freshness: quiet (18) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · custom license · Dec 2025</sub>
 
 **Agentic tree-search pipeline that generates ML experiments and writes research papers.**
 

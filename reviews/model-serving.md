@@ -59,7 +59,7 @@ LocalAI serves LLMs, vision, speech, image and video models behind OpenAI, Anthr
 <sub>GPU optional · Docker + Compose · Needs PostgreSQL (distributed mode), NATS (distributed mode) · Models: GGUF, llama.cpp, vLLM, SGLang, transformers · port 8080 · [Repo](https://github.com/mudler/localai) · [📖 Docs ↗](https://localai.io/basics/getting_started/) · [🌐 Site ↗](https://localai.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/localai/)</sub>
 
 <a name="vllm"></a>
-### #&#8288;4 [vLLM](https://github.com/vllm-project/vllm) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 96k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [vLLM](https://github.com/vllm-project/vllm) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 96k · Apache-2.0 · Oct 2026</sub>
 
 **Inference engine for Hugging Face LLMs with PagedAttention and continuous batching.**
 
@@ -95,7 +95,7 @@ colibri is a pure-C inference engine for large mixture-of-experts models such as
 <sub>RAM ≥ 8 GB · GPU optional · Docker + Compose · Needs Python 3, C compiler (build-essential or Xcode tools), libomp (macOS), CUDA toolkit or Vulkan driver (optional) · Models: GLM-5.2/5.3, GLM-5.3-Flash, Kimi K3, DeepSeek V4 Flash, MiMo-V2.6 · port 8000 · [Repo](https://github.com/justvugg/colibri) · [📖 Docs ↗](https://github.com/JustVugg/colibri/blob/main/docs/quickstart.md) · [🌐 Site ↗](https://justvugg.github.io/colibri) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/colibri/)</sub>
 
 <a name="strata"></a>
-### #&#8288;6 [strata](https://github.com/niko1221/strata) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Oct 2026</sub>
+### #&#8288;6 [strata](https://github.com/niko1221/strata) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Oct 2026</sub>
 
 **Runs a 125B-parameter MoE model on one consumer GPU plus system RAM.**
 
@@ -310,26 +310,8 @@ KTransformers runs and fine-tunes large Mixture-of-Experts models by keeping hot
 
 <sub>GPU required · Docker · Needs SGLang, LLaMA-Factory · Models: DeepSeek-V3/R1/V4-Flash, Kimi K2/K2.5/K2.6, GLM-5, MiniMax-M2/M3, Qwen3-MoE · [Repo](https://github.com/kvcache-ai/ktransformers) · [📖 Docs ↗](https://kvcache-ai.github.io/ktransformers/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ktransformers/)</sub>
 
-<a name="llamafile"></a>
-### #&#8288;18 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · custom license · Oct 2026</sub>
-
-**Single-file executables that bundle llama.cpp with model weights.**
-
-llamafile packages llama.cpp and model weights into one executable using Cosmopolitan Libc, so a downloaded .llamafile runs on Linux, macOS, Windows and BSD across CPU architectures with no install and serves a local web UI and API. Since 0.10 it tracks upstream llama.cpp closely for newer models, and whisperfile applies the same packaging to speech-to-text. Maintained by Mozilla.ai.
-
-- **+** Single file, no installation, runs across OSes and CPU architectures
-- **+** 0.10 build system tracks upstream llama.cpp for recent model support
-- **+** Can run external GGUF weights with the bare llamafile binary
-- **+** whisperfile gives single-file transcription and translation
-- **−** Windows cannot run executables above 4 GB; larger models need external weights
-- **−** 0.10.x dropped some classic features; older releases remain for those
-- **−** Pre-built llamafiles limited to Mozilla.ai's Hugging Face uploads
-- **−** One model per file; not a multi-model server
-
-<sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs ↗](https://docs.mozilla.ai/llamafile) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llamafile/)</sub>
-
 <a name="web-llm"></a>
-### #&#8288;19 [web-llm](https://github.com/mlc-ai/web-llm) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;18 [web-llm](https://github.com/mlc-ai/web-llm) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Oct 2026</sub>
 
 **In-browser LLM inference engine with an OpenAI-style JavaScript API.**
 
@@ -346,8 +328,26 @@ WebLLM is an npm package that runs MLC-format language models inside the browser
 
 <sub>GPU required · Needs WebGPU-capable browser, MLC LLM (for compiling custom models) · Models: Llama 3, Llama 2, Phi 3, Gemma-2B, Mistral-7B · [Repo](https://github.com/mlc-ai/web-llm) · [▶️ Demo ↗](https://chat.webllm.ai/) · [📖 Docs ↗](https://webllm.mlc.ai/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/web-llm/)</sub>
 
+<a name="llamafile"></a>
+### #&#8288;19 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · custom license · Oct 2026</sub>
+
+**Single-file executables that bundle llama.cpp with model weights.**
+
+llamafile packages llama.cpp and model weights into one executable using Cosmopolitan Libc, so a downloaded .llamafile runs on Linux, macOS, Windows and BSD across CPU architectures with no install and serves a local web UI and API. Since 0.10 it tracks upstream llama.cpp closely for newer models, and whisperfile applies the same packaging to speech-to-text. Maintained by Mozilla.ai.
+
+- **+** Single file, no installation, runs across OSes and CPU architectures
+- **+** 0.10 build system tracks upstream llama.cpp for recent model support
+- **+** Can run external GGUF weights with the bare llamafile binary
+- **+** whisperfile gives single-file transcription and translation
+- **−** Windows cannot run executables above 4 GB; larger models need external weights
+- **−** 0.10.x dropped some classic features; older releases remain for those
+- **−** Pre-built llamafiles limited to Mozilla.ai's Hugging Face uploads
+- **−** One model per file; not a multi-model server
+
+<sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs ↗](https://docs.mozilla.ai/llamafile) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llamafile/)</sub>
+
 <a name="dynamo"></a>
-### #&#8288;20 [dynamo](https://github.com/ai-dynamo/dynamo) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · custom license · Oct 2026</sub>
+### #&#8288;20 [dynamo](https://github.com/ai-dynamo/dynamo) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · custom license · Oct 2026</sub>
 
 **Multi-node orchestration layer for vLLM, SGLang and TensorRT-LLM inference.**
 
@@ -455,7 +455,7 @@ Triton serves TensorRT, PyTorch, ONNX, OpenVINO, Python and RAPIDS FIL models ov
 <sub>GPU optional · Docker · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python, RAPIDS FIL backends · [Repo](https://github.com/triton-inference-server/server) · [🌐 Site ↗](https://developer.nvidia.com/nvidia-triton-inference-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/triton-inference-server/)</sub>
 
 <a name="kimi-k3-in-c"></a>
-### #&#8288;26 [kimi-k3-in-c](https://github.com/fareedkhan-dev/kimi-k3-in-c) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;26 [kimi-k3-in-c](https://github.com/fareedkhan-dev/kimi-k3-in-c) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Oct 2026</sub>
 
 **Kimi K3 inference engine in portable C99 that streams weights from disk.**
 
@@ -544,26 +544,8 @@ apfel wraps Apple's FoundationModels on-device LLM as a pipe-friendly UNIX comma
 
 <sub>no GPU · Needs macOS 26 Tahoe or newer, Apple Silicon (M1+), Apple Intelligence enabled · Models: apple-foundationmodel (Apple FoundationModels, ~3B on-device) · port 11434 · [Repo](https://github.com/arthur-ficial/apfel) · [📖 Docs ↗](https://github.com/Arthur-Ficial/apfel/blob/main/docs/install.md) · [🌐 Site ↗](https://apfel.franzai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/apfel/)</sub>
 
-<a name="llama-cpp-python"></a>
-### #&#8288;31 [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
-
-**Python bindings and OpenAI-compatible server for llama.cpp.**
-
-Python package that wraps llama.cpp through ctypes, with a high-level Llama class for completion and chat on GGUF models. It also ships an OpenAI-compatible web server supporting function calling, vision models and multiple models. Installation builds llama.cpp from source via pip, with CMAKE_ARGS selecting backends such as CUDA, Metal, ROCm, Vulkan, SYCL, BLAS and RPC; pre-built wheels exist for some.
-
-- **+** Low-level ctypes access to the C API plus a high-level Llama class
-- **+** OpenAI-compatible server with function calling, vision and multi-model config
-- **+** JSON and JSON Schema constrained output via response_format
-- **+** Pre-built wheels for CPU, CUDA, Metal, ROCm and Vulkan avoid local compilation
-- **−** Default pip install compiles llama.cpp and needs a C compiler
-- **−** Only GGUF models are supported
-- **−** Pre-built GPU wheels cover limited Python versions (3.10 to 3.12) and CUDA versions
-- **−** Function calling needs a specific chat format such as chatml-function-calling or functionary
-
-<sub>GPU optional · Docker · Needs Python 3.8+, C compiler, CMake · Models: GGUF, llava, moondream2, minicpm-v-2.6, qwen2.5-vl · [Repo](https://github.com/abetlen/llama-cpp-python) · [📖 Docs ↗](https://llama-cpp-python.readthedocs.io/en/latest) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama-cpp-python/)</sub>
-
 <a name="turbo-fieldfare"></a>
-### #&#8288;32 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;31 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Swift and Metal runtime that runs Gemma 4 26B-A4B in about 2 GB RAM.**
 
@@ -580,8 +562,26 @@ TurboFieldfare is a model-specific Swift and Metal inference runtime for Gemma 4
 
 <sub>RAM ≥ 8 GB · GPU required · Needs Swift 6.2+, macOS 26 SDK, Metal 4, Hugging Face (model download) · Models: Gemma 4 26B-A4B IT (MLX 4-bit, .gturbo format) · port 8080 · [Repo](https://github.com/drumih/turbo-fieldfare) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbo-fieldfare/)</sub>
 
+<a name="llama-cpp-python"></a>
+### #&#8288;32 [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
+
+**Python bindings and OpenAI-compatible server for llama.cpp.**
+
+Python package that wraps llama.cpp through ctypes, with a high-level Llama class for completion and chat on GGUF models. It also ships an OpenAI-compatible web server supporting function calling, vision models and multiple models. Installation builds llama.cpp from source via pip, with CMAKE_ARGS selecting backends such as CUDA, Metal, ROCm, Vulkan, SYCL, BLAS and RPC; pre-built wheels exist for some.
+
+- **+** Low-level ctypes access to the C API plus a high-level Llama class
+- **+** OpenAI-compatible server with function calling, vision and multi-model config
+- **+** JSON and JSON Schema constrained output via response_format
+- **+** Pre-built wheels for CPU, CUDA, Metal, ROCm and Vulkan avoid local compilation
+- **−** Default pip install compiles llama.cpp and needs a C compiler
+- **−** Only GGUF models are supported
+- **−** Pre-built GPU wheels cover limited Python versions (3.10 to 3.12) and CUDA versions
+- **−** Function calling needs a specific chat format such as chatml-function-calling or functionary
+
+<sub>GPU optional · Docker · Needs Python 3.8+, C compiler, CMake · Models: GGUF, llava, moondream2, minicpm-v-2.6, qwen2.5-vl · [Repo](https://github.com/abetlen/llama-cpp-python) · [📖 Docs ↗](https://llama-cpp-python.readthedocs.io/en/latest) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama-cpp-python/)</sub>
+
 <a name="kserve"></a>
-### #&#8288;33 [kserve](https://github.com/kserve/kserve) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;33 [kserve](https://github.com/kserve/kserve) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Oct 2026</sub>
 
 **Kubernetes inference platform for generative and predictive models via InferenceService.**
 
@@ -671,7 +671,7 @@ GPUStack manages GPU workers across on-premises servers, Kubernetes and cloud pr
 <sub>GPU required · Compose · Needs Docker, NVIDIA driver, NVIDIA Container Toolkit · Models: vLLM, SGLang, TensorRT-LLM, custom engines, LLM · port 80 · [Repo](https://github.com/gpustack/gpustack) · [📖 Docs ↗](https://docs.gpustack.ai) · [🌐 Site ↗](https://gpustack.ai/enterprise/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpustack/)</sub>
 
 <a name="libretranslate"></a>
-### #&#8288;38 [libretranslate](https://github.com/libretranslate/libretranslate) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;38 [libretranslate](https://github.com/libretranslate/libretranslate) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · AGPL-3.0 · Oct 2026</sub>
 
 **Self-hosted machine translation API built on Argos Translate.**
 
@@ -707,7 +707,7 @@ Lemonade is a C++ local server that exposes OpenAI, Anthropic and Ollama-compati
 <sub>GPU optional · Docker · Models: GGUF, ONNX, FLM, Whisper, Stable Diffusion · port 13305 · [Repo](https://github.com/lemonade-sdk/lemonade) · [🌐 Site ↗](https://lemonade-server.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lemonade/)</sub>
 
 <a name="ds4"></a>
-### #&#8288;40 [ds4](https://github.com/antirez/ds4) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
+### #&#8288;40 [ds4](https://github.com/antirez/ds4) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
 
 **Native C inference engine for a few large open models on Mac, CUDA and ROCm.**
 
@@ -761,7 +761,7 @@ This repository holds the open-source parts of NVIDIA TensorRT 11.x: the plugin 
 <sub>GPU required · Docker · Needs TensorRT 11.4.0.106 GA build, CUDA 12.9 or 13.4, CMake >= 3.31, Python 3.10-3.14, cuDNN 8.9 (optional), NCCL (optional) · Models: ONNX, Torch-TensorRT, HuggingFace/Optimum · [Repo](https://github.com/nvidia/tensorrt) · [📖 Docs ↗](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tensorrt/)</sub>
 
 <a name="deepinfer"></a>
-### #&#8288;43 [deepinfer](https://github.com/deepseek-ai/deepinfer) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;43 [deepinfer](https://github.com/deepseek-ai/deepinfer) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Oct 2026</sub>
 
 **Offline inference engine for DeepSeek-V4.1-Flash on NVIDIA SM100 and Ascend 950.**
 
@@ -958,7 +958,7 @@ TEI is a Rust server from Hugging Face for embedding, reranker and sequence-clas
 <sub>GPU optional · Docker · Models: Qwen3-Embedding, gte-Qwen2, multilingual-e5, embeddinggemma, arctic-embed, nomic-embed, ModernBERT, jina-embeddings-v2, bge-reranker, gte rerankers · port 3000 · [Repo](https://github.com/huggingface/text-embeddings-inference) · [📖 Docs ↗](https://huggingface.github.io/text-embeddings-inference) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/text-embeddings-inference/)</sub>
 
 <a name="nano-vllm"></a>
-### #&#8288;54 [nano-vllm](https://github.com/geeeekexplorer/nano-vllm) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (60) · Freshness: recent (65) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Apr 2026</sub>
+### #&#8288;54 [nano-vllm](https://github.com/geeeekexplorer/nano-vllm) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (60) · Freshness: recent (64) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Apr 2026</sub>
 
 **Minimal vLLM-style inference engine in about 1,200 lines of Python.**
 

@@ -5,7 +5,7 @@ Generation UIs and pipelines for images and video, usually around diffusion mode
 <sub>🌐 Also on the web: [Image and video on archestack.com](https://archestack.com/best-of-ai/image-video/), each project on its own page.</sub>
 
 <a name="moneyprinterturbo"></a>
-### 🥇 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 136k · MIT · Oct 2026</sub>
+### 🥇 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 137k · MIT · Oct 2026</sub>
 
 **Generates short videos from a topic, with script, footage, voiceover and subtitles.**
 
@@ -77,7 +77,7 @@ Toonflow is a Vue/TypeScript app on Bun where scripts, storyboards, character an
 <sub>GPU optional · Docker + Compose · Needs Bun 1.3.14, FFmpeg, Docker (optional), Third-party model APIs or ComfyUI · Models: Third-party LLM, image and video APIs, ComfyUI workflows, Local LLMs · port 3000 · [Repo](https://github.com/hbai-ltd/toonflow-app) · [📖 Docs ↗](https://qcn7xdsqgc4z.feishu.cn/docx/RXFqdgR2Xo0dXZxGfd0cZCGgnwf) · [🌐 Site ↗](https://api.toonflow.net/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/toonflow-app/)</sub>
 
 <a name="open-generative-ai"></a>
-### #&#8288;5 [open-generative-ai](https://github.com/anil-matcha/open-generative-ai) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Oct 2026</sub>
+### #&#8288;5 [open-generative-ai](https://github.com/anil-matcha/open-generative-ai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Oct 2026</sub>
 
 **Image, video and lip-sync studio app that calls hosted models through MuAPI.**
 
@@ -365,7 +365,7 @@ biniou is a self-hosted Gradio web UI that bundles dozens of Hugging Face based 
 <sub>RAM ≥ 8 GB · GPU optional · Docker · Needs Python 3.10/3.11, git, ffmpeg, openssl, gcc, Hugging Face model downloads · Models: GGUF, Stable Diffusion, SDXL, Flux, LoRA · [Repo](https://github.com/woolverine94/biniou) · [📖 Docs ↗](https://github.com/Woolverine94/biniou/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biniou/)</sub>
 
 <a name="pixelle-video"></a>
-### #&#8288;21 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (80) · Freshness: recent (80) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;21 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (80) · Freshness: recent (79) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Jun 2026</sub>
 
 **Topic-to-short-video pipeline built on ComfyUI workflows and TTS.**
 
@@ -436,26 +436,8 @@ Open-Sora is a text-to-video and image-to-video generation project that publishe
 
 <sub>GPU required · Needs ColossalAI · Models: Open-Sora 2.0 (11B), Open-Sora 1.3 (1B), Open-Sora 1.2, Open-Sora 1.1, Open-Sora 1.0 · [Repo](https://github.com/hpcaitech/open-sora) · [▶️ Demo ↗](https://huggingface.co/spaces/hpcai-tech/open-sora) · [🌐 Site ↗](https://hpcaitech.github.io/Open-Sora/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-sora/)</sub>
 
-<a name="kohya-ss"></a>
-### #&#8288;25 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (45) · Freshness: active (94) · Maintenance: weak (2) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
-
-**Gradio GUI and CLI for Kohya diffusion training scripts.**
-
-Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for LoRA, LoHa, LoKr, DreamBooth, full fine-tuning, Textual Inversion and LECO concept erasure. Base models include SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0, Anima and HunyuanImage-2.1. Installs with uv or pip, runs headless over SSH on a port such as 7860, ships Docker, Runpod and Colab paths, and suits people training their own LoRAs.
-
-- **+** Covers LoRA, LoHa, LoKr, DreamBooth, fine-tune, Textual Inversion and LECO
-- **+** GUI shell runs offline after install; no CDN assets or analytics by default
-- **+** config.toml presets default paths and Gradio allowed_paths
-- **+** Sample image generation during training with per-prompt seed, size and CFG flags
-- **−** Needs a GPU-equipped machine; README gives no VRAM figures per model
-- **−** Without --headless, OS file dialogs on the server can block training over SSH
-- **−** macOS support is community-maintained and may vary
-- **−** Last commit July 2026; sd-scripts submodule pinned to v0.11.1
-
-<sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kohya-ss/)</sub>
-
 <a name="upscayl"></a>
-### #&#8288;26 [upscayl](https://github.com/upscayl/upscayl) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: widely used (91) · Freshness: slowing (38) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 51k · AGPL-3.0 · Mar 2026</sub>
+### #&#8288;25 [upscayl](https://github.com/upscayl/upscayl) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: widely used (91) · Freshness: slowing (37) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 51k · AGPL-3.0 · Mar 2026</sub>
 
 **Desktop image upscaler using Real-ESRGAN models over Vulkan.**
 
@@ -472,8 +454,26 @@ Upscayl is an Electron desktop app that enlarges low-resolution images with Real
 
 <sub>GPU required · Needs Vulkan-compatible GPU, upscayl-ncnn backend · Models: Real-ESRGAN, NCNN, custom converted models, HFA2k, Remacri · [Repo](https://github.com/upscayl/upscayl) · [📖 Docs ↗](https://docs.upscayl.org/) · [🌐 Site ↗](https://upscayl.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/upscayl/)</sub>
 
+<a name="kohya-ss"></a>
+### #&#8288;26 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (45) · Freshness: active (94) · Maintenance: weak (2) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
+
+**Gradio GUI and CLI for Kohya diffusion training scripts.**
+
+Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for LoRA, LoHa, LoKr, DreamBooth, full fine-tuning, Textual Inversion and LECO concept erasure. Base models include SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0, Anima and HunyuanImage-2.1. Installs with uv or pip, runs headless over SSH on a port such as 7860, ships Docker, Runpod and Colab paths, and suits people training their own LoRAs.
+
+- **+** Covers LoRA, LoHa, LoKr, DreamBooth, fine-tune, Textual Inversion and LECO
+- **+** GUI shell runs offline after install; no CDN assets or analytics by default
+- **+** config.toml presets default paths and Gradio allowed_paths
+- **+** Sample image generation during training with per-prompt seed, size and CFG flags
+- **−** Needs a GPU-equipped machine; README gives no VRAM figures per model
+- **−** Without --headless, OS file dialogs on the server can block training over SSH
+- **−** macOS support is community-maintained and may vary
+- **−** Last commit July 2026; sd-scripts submodule pinned to v0.11.1
+
+<sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kohya-ss/)</sub>
+
 <a name="liveportrait"></a>
-### #&#8288;27 [liveportrait](https://github.com/klingairesearch/liveportrait) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (66) · Freshness: recent (78) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Jun 2026</sub>
+### #&#8288;27 [liveportrait](https://github.com/klingairesearch/liveportrait) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (66) · Freshness: recent (77) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Jun 2026</sub>
 
 **Animates a still portrait from a driving video, with stitching and retargeting.**
 
@@ -509,7 +509,7 @@ Dream Textures is a Blender add-on that runs Stable Diffusion locally to generat
 <sub>GPU optional · Needs Blender, PyTorch, DreamStudio (optional cloud) · Models: Stable Diffusion · [Repo](https://github.com/carson-katri/dream-textures) · [📖 Docs ↗](https://github.com/carson-katri/dream-textures/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dream-textures/)</sub>
 
 <a name="hivisionidphotos"></a>
-### #&#8288;29 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (70) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;29 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (70) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
 
 **Offline ID photo maker: portrait matting, background swap, sizing and print layouts.**
 
@@ -545,7 +545,7 @@ Duix.Avatar clones a person's face and voice from a short video, then renders li
 <sub>RAM ≥ 32 GB · GPU required · Compose · Needs Docker, NVIDIA Container Toolkit, Node.js 18, guiji2025/fun-asr, guiji2025/fish-speech-ziming, guiji2025/duix.avatar · Models: fun-asr, fish-speech-ziming · [Repo](https://github.com/duixcom/duix-avatar) · [📖 Docs ↗](https://docs.duix.com/api-reference/api/Introduction) · [🌐 Site ↗](http://www.duix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/duix-avatar/)</sub>
 
 <a name="video2x"></a>
-### #&#8288;31 [video2x](https://github.com/k4yt3x/video2x) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (73) · Freshness: slowing (33) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · AGPL-3.0 · Mar 2026</sub>
+### #&#8288;31 [video2x](https://github.com/k4yt3x/video2x) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (73) · Freshness: slowing (32) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · AGPL-3.0 · Mar 2026</sub>
 
 **Video upscaler and frame interpolator using Real-ESRGAN, Real-CUGAN, RIFE and Anime4K.**
 
@@ -563,7 +563,7 @@ Video2X is a C/C++ tool that upscales video and interpolates frames using Anime4
 <sub>GPU required · Needs Vulkan, FFmpeg, ncnn · Models: Real-ESRGAN, Real-CUGAN, RIFE, Anime4K v4, MPV GLSL shaders · [Repo](https://github.com/k4yt3x/video2x) · [▶️ Demo ↗](https://colab.research.google.com/drive/1gWEwcA9y57EsxwOjmLNmNMXPsafw0kGo) · [📖 Docs ↗](https://docs.video2x.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/video2x/)</sub>
 
 <a name="fluxgym"></a>
-### #&#8288;32 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (2) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
+### #&#8288;32 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (2) · Freshness: active (98) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
 
 **Web UI for training FLUX LoRAs on 12 to 20 GB GPUs.**
 

@@ -41,7 +41,7 @@ Wraps the pinned upstream DeepSeek Harness local Web UI, host service and plugin
 <sub>Needs DeepSeek Harness (bundled, pinned) · Models: unknown · [Repo](https://github.com/anywhere-labs/dsh-desktop) · [📖 Docs ↗](https://github.com/anywhere-labs/dsh-desktop/blob/main/docs/user-guide.md) · [🌐 Site ↗](https://dshdesktop.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-desktop/)</sub>
 
 <a name="screenpipe"></a>
-### 🥉 [screenpipe](https://github.com/screenpipe/screenpipe) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · custom license · Oct 2026</sub>
+### 🥉 [screenpipe](https://github.com/screenpipe/screenpipe) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · custom license · Oct 2026</sub>
 
 **Records screen and audio locally, makes it searchable for you and your agents.**
 
@@ -131,7 +131,7 @@ Jan is a Tauri desktop app for Windows, macOS and Linux that downloads LLMs from
 <sub>RAM ≥ 8 GB · GPU optional · Models: GGUF via llama.cpp, Hugging Face models, OpenAI, Anthropic, Mistral · port 1337 · [Repo](https://github.com/janhq/jan) · [📖 Docs ↗](https://jan.ai/docs) · [🌐 Site ↗](https://jan.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jan/)</sub>
 
 <a name="hermes-desktop"></a>
-### #&#8288;8 [hermes-desktop](https://github.com/fathah/hermes-desktop) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
+### #&#8288;8 [hermes-desktop](https://github.com/fathah/hermes-desktop) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Oct 2026</sub>
 
 **Desktop GUI for installing and chatting with Hermes Agent.**
 
@@ -167,7 +167,7 @@ Chatbox is an Electron app (TypeScript, React) that connects to hosted LLM APIs 
 <sub>no GPU · Needs Ollama (optional, for local models), API keys for hosted providers · Models: OpenAI, Azure OpenAI, Claude, Google Gemini Pro, Ollama · [Repo](https://github.com/chatboxai/chatbox) · [🌐 Site ↗](https://chatboxai.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatbox/)</sub>
 
 <a name="openworker"></a>
-### #&#8288;10 [openworker](https://github.com/andrewyng/openworker) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
+### #&#8288;10 [openworker](https://github.com/andrewyng/openworker) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Oct 2026</sub>
 
 **Desktop AI coworker for approval-gated work across files, terminal and apps.**
 
@@ -347,7 +347,7 @@ Koharu is a Rust desktop app that translates manga pages in a pipeline of text a
 <sub>GPU optional · Needs WebGPU-capable graphics driver, Hugging Face model downloads, Rust, Bun and LLVM (build from source only) · Models: GGUF, Gemma 4, Qwen 3.5/3.6/3.8, Ministral 3, LFM 2.5 · [Repo](https://github.com/koharu-rs/koharu) · [📖 Docs ↗](https://koharu.rs/installation) · [🌐 Site ↗](https://koharu.rs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/koharu/)</sub>
 
 <a name="everywhere"></a>
-### #&#8288;20 [everywhere](https://github.com/sylinko/everywhere) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · custom license · Oct 2026</sub>
+### #&#8288;20 [everywhere](https://github.com/sylinko/everywhere) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · custom license · Oct 2026</sub>
 
 **Hotkey-invoked desktop AI assistant that reads on-screen context in Windows and macOS apps.**
 
@@ -365,7 +365,7 @@ Everywhere is a C# desktop app (.NET 10, Avalonia) for Windows and macOS. A glob
 <sub>Needs Ollama (optional, for local models) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Moonshot (Kimi) · [Repo](https://github.com/sylinko/everywhere) · [📖 Docs ↗](https://everywhere.sylinko.com) · [🌐 Site ↗](https://everywhere.sylinko.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/everywhere/)</sub>
 
 <a name="enchanted"></a>
-### #&#8288;21 [enchanted](https://github.com/gluonfield/enchanted) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (3) · Freshness: active (94) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;21 [enchanted](https://github.com/gluonfield/enchanted) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (3) · Freshness: active (93) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
 
 **Native iOS, macOS and visionOS chat client for Ollama servers.**
 

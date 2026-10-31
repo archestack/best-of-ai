@@ -41,7 +41,7 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 <sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
 
 <a name="onyx"></a>
-### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
+### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
 
 **Team knowledge search and chat that indexes 50+ connected apps with permissions.**
 
@@ -59,7 +59,7 @@ Onyx indexes content from 50+ applications along with metadata and permissions, 
 <sub>GPU optional · Compose · Needs Redis, MinIO, vector and keyword index, Docker or Kubernetes · Models: Ollama, vLLM, LiteLLM, OpenAI, Anthropic · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/auth/signup) · [📖 Docs ↗](https://docs.onyx.app/welcome) · [🌐 Site ↗](https://www.onyx.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/onyx/)</sub>
 
 <a name="anything-llm"></a>
-### #&#8288;4 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · MIT · Oct 2026</sub>
+### #&#8288;4 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · MIT · Oct 2026</sub>
 
 **Document chat app with agents, workspaces and many LLM and vector DB backends.**
 
@@ -77,7 +77,7 @@ AnythingLLM ingests PDFs, DOCX and TXT files into workspaces and answers questio
 <sub>GPU optional · Docker + Compose · Needs LLM provider (local or API), Docker (for server version) · Models: llama.cpp-compatible models, Ollama, LM Studio, OpenAI, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anything-llm/)</sub>
 
 <a name="librechat"></a>
-### #&#8288;5 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · MIT · Oct 2026</sub>
+### #&#8288;5 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · MIT · Oct 2026</sub>
 
 **Self-hosted multi-provider chat UI with agents, MCP tools and multi-user auth.**
 
@@ -113,7 +113,7 @@ Hermes WebUI is a three-panel web interface for Nous Research's Hermes Agent, wr
 <sub>no GPU · Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-webui/)</sub>
 
 <a name="odysseus"></a>
-### #&#8288;7 [odysseus](https://github.com/odysseus-dev/odysseus) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 95k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [odysseus](https://github.com/odysseus-dev/odysseus) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 95k · AGPL-3.0 · Oct 2026</sub>
 
 **Self-hosted workspace for chat, agents, email, documents and calendar.**
 
@@ -149,7 +149,7 @@ SillyTavern is a locally installed Node.js 20+ interface for text-generation LLM
 <sub>no GPU · Docker + Compose · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/sillytavern/sillytavern) · [📖 Docs ↗](https://docs.sillytavern.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sillytavern/)</sub>
 
 <a name="ekko-studio"></a>
-### #&#8288;9 [ekko-studio](https://github.com/ekkolearnai/ekko-studio) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Oct 2026</sub>
+### #&#8288;9 [ekko-studio](https://github.com/ekkolearnai/ekko-studio) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Oct 2026</sub>
 
 **Desktop and web workspace for chatting with Hermes, Ekko and coding agents.**
 
@@ -257,7 +257,7 @@ ChatHub is a Chromium browser extension that puts multiple chatbots in one windo
 <sub>no GPU · Needs Chromium-based browser, Node.js with corepack and yarn (build only) · Models: ChatGPT, Gemini, Claude, Grok, DeepSeek · [Repo](https://github.com/chathub-dev/chathub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chathub/)</sub>
 
 <a name="claraverse"></a>
-### #&#8288;15 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
+### #&#8288;15 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
 
 **Private AI workspace with chat, agent crews, workflows and Telegram.**
 

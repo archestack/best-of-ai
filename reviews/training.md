@@ -5,7 +5,7 @@ Tools to fine-tune, train or distill models on your own data and GPUs, from LoRA
 <sub>🌐 Also on the web: [Training and fine-tuning on archestack.com](https://archestack.com/best-of-ai/training/), each project on its own page.</sub>
 
 <a name="unsloth"></a>
-### 🥇 [unsloth](https://github.com/unslothai/unsloth) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 79k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [unsloth](https://github.com/unslothai/unsloth) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 79k · Apache-2.0 · Oct 2026</sub>
 
 **Desktop and web app to run and fine-tune local models.**
 
@@ -59,7 +59,7 @@ DeepSpeed is a PyTorch library that makes large-model training fit and scale acr
 <sub>GPU optional · Docker · Needs PyTorch, CUDA or ROCm compiler (nvcc/hipcc), ninja · Models: PyTorch models, Hugging Face Transformers · [Repo](https://github.com/deepspeedai/deepspeed) · [📖 Docs ↗](https://www.deepspeed.ai/getting-started/) · [🌐 Site ↗](https://www.deepspeed.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepspeed/)</sub>
 
 <a name="verl"></a>
-### #&#8288;4 [verl](https://github.com/verl-project/verl) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [verl](https://github.com/verl-project/verl) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Oct 2026</sub>
 
 **Reinforcement learning training library for LLM post-training with PPO and GRPO.**
 
@@ -238,26 +238,8 @@ Agent Lightning is a roughly 3,500-line Python framework that trains agents with
 
 <sub>GPU required · Needs verl, vLLM, uv, Kubernetes (optional, for rollouts) · Models: Qwen3.5-9B, Qwen3.5-35B-A3B · [Repo](https://github.com/microsoft/agent-lightning) · [📖 Docs ↗](https://microsoft.github.io/agent-lightning/stable/) · [🌐 Site ↗](https://www.microsoft.com/en-us/research/project/agent-lightning/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-lightning/)</sub>
 
-<a name="fingpt"></a>
-### #&#8288;14 [fingpt](https://github.com/ai4finance-foundation/fingpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (70) · Freshness: active (98) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · MIT · Oct 2026</sub>
-
-**LoRA fine-tuned financial LLMs, datasets and notebooks for sentiment and forecasting.**
-
-FinGPT is a collection of LoRA adapters, instruction datasets and training notebooks for financial NLP tasks such as sentiment analysis, relation extraction, headline classification, NER and stock-movement forecasting. Adapters are published on Hugging Face for Llama2, Falcon, BLOOM, MPT, ChatGLM2 and Qwen bases. The README reports a Llama2-13B sentiment adapter trained on one RTX 3090 in about 17 hours.
-
-- **+** Published LoRA adapters and datasets on Hugging Face for several base models
-- **+** Notebooks fine-tune on a single RTX 3090 in 8-bit or int4 QLoRA
-- **+** Benchmark table reports weighted F1 on FPB, FiQA-SA, TFNS and NWGI with cost per run
-- **+** Forecaster has a hosted Hugging Face Space demo, so no install is needed to try it
-- **−** Forecaster is trained on US DOW 30 data only; other markets need your own data and fine-tuning
-- **−** Most releases date from 2023 and use older bases such as Llama2 and ChatGLM2
-- **−** Research and notebook code, not a packaged app or service; no Docker setup
-- **−** Cost comparisons with BloombergGPT rely on the project's own GPU-hour assumptions
-
-<sub>GPU optional · Needs Hugging Face Transformers, PEFT, OpenAI API (optional cloud provider) · Models: Llama2-7B, Llama2-13B, Falcon-7B, BLOOM-7B1, MPT-7B · [Repo](https://github.com/ai4finance-foundation/fingpt) · [▶️ Demo ↗](https://huggingface.co/spaces/FinGPT/FinGPT-Forecaster) · [🌐 Site ↗](https://ai4finance.org/research/fingpt-open-source-finllm.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fingpt/)</sub>
-
 <a name="oumi"></a>
-### #&#8288;15 [oumi](https://github.com/oumi-ai/oumi) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;14 [oumi](https://github.com/oumi-ai/oumi) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · Apache-2.0 · Oct 2026</sub>
 
 **CLI and Python toolkit for fine-tuning, evaluating and deploying foundation models.**
 
@@ -275,7 +257,7 @@ Oumi covers the model lifecycle from one YAML-driven CLI: data synthesis with LL
 <sub>GPU optional · Docker · Needs PyTorch, Transformers, TRL, vLLM, SGLang, verl · Models: Llama, Gemma, Qwen, DeepSeek, GLM · [Repo](https://github.com/oumi-ai/oumi) · [📖 Docs ↗](https://oumi.ai/docs/en/latest/index.html) · [🌐 Site ↗](https://oumi.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oumi/)</sub>
 
 <a name="minimind"></a>
-### #&#8288;16 [minimind](https://github.com/jingyaogong/minimind) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (92) · Freshness: active (84) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 65k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;15 [minimind](https://github.com/jingyaogong/minimind) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (92) · Freshness: active (84) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 65k · Apache-2.0 · Oct 2026</sub>
 
 **Train a 64M-parameter LLM from scratch in plain PyTorch.**
 
@@ -291,6 +273,24 @@ MiniMind is a from-scratch implementation of a small Qwen3-style decoder-only LL
 - **−** Native MoE training is about 50% slower than dense, per the README
 
 <sub>GPU optional · Needs PyTorch, transformers, streamlit (optional WebUI), swanlab or wandb (optional) · Models: minimind-3 (64M), minimind-3-moe (198M-A64M), minimind2 series, Transformers format, llama.cpp · [Repo](https://github.com/jingyaogong/minimind) · [▶️ Demo ↗](https://www.modelscope.cn/studios/gongjy/MiniMind) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minimind/)</sub>
+
+<a name="fingpt"></a>
+### #&#8288;16 [fingpt](https://github.com/ai4finance-foundation/fingpt) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (70) · Freshness: active (98) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · MIT · Oct 2026</sub>
+
+**LoRA fine-tuned financial LLMs, datasets and notebooks for sentiment and forecasting.**
+
+FinGPT is a collection of LoRA adapters, instruction datasets and training notebooks for financial NLP tasks such as sentiment analysis, relation extraction, headline classification, NER and stock-movement forecasting. Adapters are published on Hugging Face for Llama2, Falcon, BLOOM, MPT, ChatGLM2 and Qwen bases. The README reports a Llama2-13B sentiment adapter trained on one RTX 3090 in about 17 hours.
+
+- **+** Published LoRA adapters and datasets on Hugging Face for several base models
+- **+** Notebooks fine-tune on a single RTX 3090 in 8-bit or int4 QLoRA
+- **+** Benchmark table reports weighted F1 on FPB, FiQA-SA, TFNS and NWGI with cost per run
+- **+** Forecaster has a hosted Hugging Face Space demo, so no install is needed to try it
+- **−** Forecaster is trained on US DOW 30 data only; other markets need your own data and fine-tuning
+- **−** Most releases date from 2023 and use older bases such as Llama2 and ChatGLM2
+- **−** Research and notebook code, not a packaged app or service; no Docker setup
+- **−** Cost comparisons with BloombergGPT rely on the project's own GPU-hour assumptions
+
+<sub>GPU optional · Needs Hugging Face Transformers, PEFT, OpenAI API (optional cloud provider) · Models: Llama2-7B, Llama2-13B, Falcon-7B, BLOOM-7B1, MPT-7B · [Repo](https://github.com/ai4finance-foundation/fingpt) · [▶️ Demo ↗](https://huggingface.co/spaces/FinGPT/FinGPT-Forecaster) · [🌐 Site ↗](https://ai4finance.org/research/fingpt-open-source-finllm.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fingpt/)</sub>
 
 <a name="openrlhf"></a>
 ### #&#8288;17 [openrlhf](https://github.com/openrlhf/openrlhf) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Sep 2026</sub>
@@ -509,7 +509,7 @@ mergekit combines pre-trained language models by operating on their weights, dri
 <sub>GPU optional · Needs PyTorch, Hugging Face Hub (optional, for upload) · Models: Llama, Mistral, GPT-NeoX, StableLM, raw PyTorch models · [Repo](https://github.com/arcee-ai/mergekit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mergekit/)</sub>
 
 <a name="nnunet"></a>
-### #&#8288;29 [nnunet](https://github.com/mic-dkfz/nnunet) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (32) · Freshness: recent (70) · Maintenance: fair (56) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;29 [nnunet](https://github.com/mic-dkfz/nnunet) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (32) · Freshness: recent (70) · Maintenance: fair (57) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Oct 2026</sub>
 
 **Self-configuring U-Net framework for biomedical image segmentation.**
 
@@ -527,7 +527,7 @@ nnU-Net analyzes a training dataset, builds a fingerprint, and configures 2D and
 <sub>Needs PyTorch · Models: U-Net (2D, 3D fullres, cascade), Residual encoder U-Net presets · [Repo](https://github.com/mic-dkfz/nnunet) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nnunet/)</sub>
 
 <a name="fractalworkspace"></a>
-### #&#8288;30 [fractalworkspace](https://github.com/fractal-compute-orchestrations/fractalworkspace) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · custom license · Oct 2026</sub>
+### #&#8288;30 [fractalworkspace](https://github.com/fractal-compute-orchestrations/fractalworkspace) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · custom license · Oct 2026</sub>
 
 **Federated training and split-model inference across Android phones.**
 
@@ -563,7 +563,7 @@ MedicalGPT is a set of Python scripts that train domain LLMs through continued p
 <sub>GPU required · Needs PyTorch, Hugging Face Transformers, PEFT, DeepSpeed · Models: Qwen 2/2.5/3.5, Llama-3, Mixtral 8x7B, Baichuan, ChatGLM · [Repo](https://github.com/shibing624/medicalgpt) · [📖 Docs ↗](https://github.com/shibing624/MedicalGPT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/medicalgpt/)</sub>
 
 <a name="easy-dataset"></a>
-### #&#8288;32 [easy-dataset](https://github.com/conardli/easy-dataset) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (56) · Freshness: recent (75) · Maintenance: weak (4) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
+### #&#8288;32 [easy-dataset](https://github.com/conardli/easy-dataset) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (56) · Freshness: recent (74) · Maintenance: weak (4) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
 
 **Turns documents into LLM fine-tuning and evaluation datasets.**
 
@@ -671,7 +671,7 @@ PaddleNLP is a Python toolkit built on PaddlePaddle for pretraining, fine-tuning
 <sub>GPU optional · Needs PaddlePaddle · Models: Llama, Qwen, DeepSeek V2/V3/R1, ChatGLM, Baichuan · [Repo](https://github.com/paddlepaddle/paddlenlp) · [📖 Docs ↗](https://paddlenlp.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paddlenlp/)</sub>
 
 <a name="deepspec"></a>
-### #&#8288;38 [deepspec](https://github.com/deepseek-ai/deepspec) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (18) · Freshness: active (92) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · MIT · Jul 2026</sub>
+### #&#8288;38 [deepspec](https://github.com/deepseek-ai/deepspec) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (18) · Freshness: active (91) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · MIT · Jul 2026</sub>
 
 **Training and evaluation code for speculative-decoding draft models.**
 
@@ -707,7 +707,7 @@ The t5 library is the code behind the T5 paper. It defines text-to-text Tasks an
 <sub>GPU optional · Needs TensorFlow, Mesh TensorFlow, TensorFlow Datasets, SentencePiece, gin-config, Google Cloud TPU and GCS (for TPU use) · Models: T5 pre-trained checkpoints, Mesh TensorFlow Transformer, Hugging Face Transformers (PyTorch, experimental) · [Repo](https://github.com/google-research/text-to-text-transfer-transformer) · [▶️ Demo ↗](https://colab.research.google.com/github/google-research/text-to-text-transfer-transformer/blob/main/notebooks/t5-trivia.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/text-to-text-transfer-transformer/)</sub>
 
 <a name="snorkel"></a>
-### #&#8288;40 [snorkel](https://github.com/snorkel-team/snorkel) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (10) · Freshness: slowing (41) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;40 [snorkel](https://github.com/snorkel-team/snorkel) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (9) · Freshness: slowing (41) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Apr 2026</sub>
 
 **Python library for programmatic labeling of machine learning training data.**
 
@@ -725,7 +725,7 @@ Snorkel is a Python library for building and managing training data programmatic
 <sub>Needs Python 3.11+ · [Repo](https://github.com/snorkel-team/snorkel) · [📖 Docs ↗](https://snorkel.readthedocs.io/) · [🌐 Site ↗](https://snorkel.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/snorkel/)</sub>
 
 <a name="torchtune"></a>
-### #&#8288;41 [torchtune](https://github.com/meta-pytorch/torchtune) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (2) · Freshness: slowing (45) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · BSD-3-Clause · Apr 2026</sub>
+### #&#8288;41 [torchtune](https://github.com/meta-pytorch/torchtune) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (2) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · BSD-3-Clause · Apr 2026</sub>
 
 **PyTorch library of LLM fine-tuning recipes driven by YAML configs.**
 
