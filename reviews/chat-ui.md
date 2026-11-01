@@ -7,23 +7,23 @@ Web front-ends for local or API models, usually with user accounts, chat history
 <a name="open-webui"></a>
 ### 🥇 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 157k · custom license · Oct 2026</sub>
 
-**Self-hosted chat UI for Ollama and OpenAI-compatible APIs with RBAC and RAG.**
+**Self-hosted web UI for Ollama and OpenAI-compatible models with users and RAG.**
 
-Open WebUI is a Python-served web interface (pip or Docker, port 8080) for Ollama and any OpenAI-compatible API such as LM Studio, vLLM, OpenRouter or Groq. It bundles RAG over 9 vector databases with hybrid BM25 search, web search through 20+ providers, image generation via ComfyUI, AUTOMATIC1111, DALL-E or Gemini, MCP and OpenAPI tool servers, and per-user roles with LDAP, OAuth and SCIM provisioning.
+Open WebUI is a self-hosted chat front-end for Ollama and any OpenAI-compatible API, such as vLLM, LMStudio, OpenRouter or Groq. It adds role-based access control, chat history, document RAG with 9 vector database options, web search, voice calls, image generation and a plugin system (Filters, Pipes, Tools, MCP). It installs via pip, Docker or Kubernetes and serves on port 8080 by default.
 
-- **+** Images tagged :ollama and :cuda bundle Ollama or CUDA acceleration in one container
-- **+** RBAC, user groups, LDAP/AD, OAuth SSO and SCIM 2.0 provisioning built in
-- **+** 9 vector databases incl. ChromaDB, PGVector, Qdrant, Milvus and Elasticsearch
-- **+** Redis-backed sessions and WebSockets for multi-worker, multi-node deployments
-- **−** Custom Open WebUI License requires keeping the Open WebUI branding visible
-- **−** Enterprise plan pitched at the top of the README; Terminals isolation is enterprise-only
-- **−** pip install is pinned to Python 3.11
-- **−** Data is lost unless the /app/backend/data volume is mounted
+- **+** Works with Ollama and any OpenAI-compatible endpoint, so local and cloud models mix in one UI
+- **+** RBAC, user groups, LDAP, OAuth/SSO and SCIM 2.0 provisioning for multi-user deployments
+- **+** RAG with hybrid BM25 plus vector search and 9 vector databases, including ChromaDB, PGVector and Qdrant
+- **+** SQLite or PostgreSQL, S3/GCS/Azure storage, Redis and OpenTelemetry for scaled deployments
+- **−** Custom license requires preserving Open WebUI branding; not a standard OSS license
+- **−** Per-user isolated terminals are in the Enterprise edition only
+- **−** Very broad feature set, so the many settings take time to configure
+- **−** Does not run models itself; needs Ollama or an API unless using the :ollama image
 
-<sub>GPU optional · Docker + Compose · Models: Ollama, OpenAI-compatible APIs, LM Studio, vLLM, OpenRouter · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-webui/)</sub>
+<sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible API, Docker (optional), PostgreSQL (optional), Redis (optional) · Models: Ollama, OpenAI-compatible APIs, vLLM, LMStudio, GroqCloud · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-webui/)</sub>
 
 <a name="lobehub"></a>
-### 🥈 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · custom license · Oct 2026</sub>
+### 🥈 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · custom license · Nov 2026</sub>
 
 **Agent workspace with builder, groups, scheduling and 10,000+ MCP skills.**
 
@@ -41,7 +41,7 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 <sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
 
 <a name="onyx"></a>
-### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Oct 2026</sub>
+### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Nov 2026</sub>
 
 **Team knowledge search and chat that indexes 50+ connected apps with permissions.**
 
@@ -113,7 +113,7 @@ Hermes WebUI is a three-panel web interface for Nous Research's Hermes Agent, wr
 <sub>no GPU · Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-webui/)</sub>
 
 <a name="odysseus"></a>
-### #&#8288;7 [odysseus](https://github.com/odysseus-dev/odysseus) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 95k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;7 [odysseus](https://github.com/odysseus-dev/odysseus) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 95k · AGPL-3.0 · Nov 2026</sub>
 
 **Self-hosted workspace for chat, agents, email, documents and calendar.**
 

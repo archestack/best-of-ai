@@ -18,7 +18,6 @@ Hindsight stores agent memories in banks and extracts facts, entities and timest
 - **−** Every retain call requires an LLM, adding cost and latency
 - **−** Accuracy claims are the vendor's own benchmarks; independent reproduction is partial
 - **−** Managed Cloud and Enterprise tiers exist; feature differences from self-hosted are unclear
-- **−** Minimum RAM and GPU needs are not stated in the README
 
 <sub>Docker · Needs LLM provider (hosted or local), PostgreSQL (embedded pg0 by default), Oracle AI Database (optional) · Models: openai, anthropic, gemini, groq, bedrock · port 9999 · [Repo](https://github.com/vectorize-io/hindsight) · [📖 Docs ↗](https://hindsight.vectorize.io) · [🌐 Site ↗](https://hindsight.vectorize.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hindsight/)</sub>
 
@@ -34,14 +33,13 @@ MemPalace stores conversation history and project files as verbatim text, withou
 - **+** Benchmarks reproducible from the repo with committed per-question results
 - **+** Auto-save hooks for Claude Code, Codex CLI and Cursor; 47 MCP tools
 - **−** Native Termux install unsupported; Android needs a Debian PRoot container
-- **−** GPU Docker image is not published and fails to build on ARM hosts
 - **−** Claude Code sessions expire in 30 days unless auto-save hooks are wired
 - **−** First embedding call downloads a model of about 80-300 MB
 
 <sub>GPU optional · Docker + Compose · Needs Python 3.10+, ChromaDB (default), Milvus (optional), Qdrant (optional), Postgres pgvector (optional) · Models: minilm, embeddinggemma, OpenAI-compatible embeddings endpoints · [Repo](https://github.com/mempalace/mempalace) · [📖 Docs ↗](https://mempalaceofficial.com/guide/getting-started.html) · [🌐 Site ↗](https://mempalaceofficial.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mempalace/)</sub>
 
 <a name="mem0"></a>
-### 🥉 [Mem0](https://github.com/mem0ai/mem0) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [Mem0](https://github.com/mem0ai/mem0) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · Apache-2.0 · Oct 2026</sub>
 
 **Long-term memory layer that stores and retrieves user facts for LLM agents.**
 
@@ -59,7 +57,7 @@ Mem0 extracts facts from conversations with an LLM, stores them per user, sessio
 <sub>GPU optional · Needs LLM provider (default OpenAI), Embedding model (default OpenAI text-embedding-3-small), Docker Compose (self-hosted server), spaCy en_core_web_sm (optional NLP extra) · Models: OpenAI gpt-5-mini (default), text-embedding-3-small (default), other LLMs and embedders via configuration · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mem0/)</sub>
 
 <a name="gbrain"></a>
-### #&#8288;4 [gbrain](https://github.com/garrytan/gbrain) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Nov 2026</sub>
+### #&#8288;4 [gbrain](https://github.com/garrytan/gbrain) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · MIT · Nov 2026</sub>
 
 **Long-term memory store for coding agents, with sources and corrections.**
 
@@ -131,7 +129,7 @@ Graphiti ingests text and JSON episodes into a knowledge graph of entities and f
 <sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2, or Amazon Neptune + OpenSearch Serverless, OpenAI API key (default LLM and embedder) · Models: OpenAI, Azure OpenAI, Anthropic, Google Gemini, Groq · [Repo](https://github.com/getzep/graphiti) · [🌐 Site ↗](https://www.getzep.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graphiti/)</sub>
 
 <a name="openviking"></a>
-### #&#8288;8 [OpenViking](https://github.com/volcengine/openviking) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;8 [OpenViking](https://github.com/volcengine/openviking) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · AGPL-3.0 · Nov 2026</sub>
 
 **Filesystem-style context database for agent memory, resources and skills.**
 
@@ -167,7 +165,7 @@ agentmemory captures what coding agents do through hooks, compresses it into sea
 <sub>no GPU · Docker + Compose · Needs Node.js 20+, iii engine v0.22.1 · Models: Xenova/all-MiniLM-L6-v2 (local embeddings), optional LLM provider for compression · port 3113 · [Repo](https://github.com/rohitg00/agentmemory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentmemory/)</sub>
 
 <a name="everos"></a>
-### #&#8288;10 [everos](https://github.com/evermind-ai/everos) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;10 [everos](https://github.com/evermind-ai/everos) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Oct 2026</sub>
 
 **Local-first agent memory runtime that stores memories as Markdown files.**
 
@@ -221,7 +219,7 @@ Memory service behind a proxy: point an agent's base URL at it and it extracts l
 <sub>Docker · Needs Node.js >=22.16, LLM API (memory and proxy parameter sets), MongoDB (experimental, optional) · Models: Configurable LLM via .env (providers unknown) · port 8125 · [Repo](https://github.com/tencentcloud/tencentdb-agent-memory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tencentdb-agent-memory/)</sub>
 
 <a name="semantica"></a>
-### #&#8288;13 [semantica](https://github.com/semantica-agi/semantica) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
+### #&#8288;13 [semantica](https://github.com/semantica-agi/semantica) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
 
 **Python library for building context graphs with decision provenance and reasoning.**
 
@@ -233,7 +231,6 @@ Semantica is a Python library that ingests data from files, databases, Databrick
 - **+** Connectors for Databricks, Snowflake, SAP OData, Kafka, Kinesis, plus CrewAI, LangChain, Agno integrations
 - **−** Broad scope (ontology, reasoning, ingestion, analytics) means a large surface to learn
 - **−** Explains context and decisions outside the LLM only, not the model's internal reasoning
-- **−** Resource requirements and benchmark figures not stated in the visible README
 - **−** Aimed at regulated enterprise use; heavy for simple agent memory needs
 
 <sub>no GPU · Docker + Compose · Needs Optional graph stores: Neo4j, FalkorDB, Apache AGE, AWS Neptune, Blazegraph, Jena, RDF4J, Optional vector store: FAISS, Optional LLM provider: OpenAI, Anthropic, Gemini · Models: OpenAI, Anthropic, Gemini · [Repo](https://github.com/semantica-agi/semantica) · [📖 Docs ↗](https://docs.getsemantica.ai/) · [🌐 Site ↗](https://getsemantica.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantica/)</sub>
@@ -293,7 +290,7 @@ Engram is a single Go binary that stores coding-agent memory in a local SQLite f
 <sub>no GPU · Docker + Compose · Needs SQLite (bundled) · Models: Any MCP-compatible agent · [Repo](https://github.com/gentleman-programming/engram) · [📖 Docs ↗](https://github.com/Gentleman-Programming/engram/blob/main/DOCS.md) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/engram/)</sub>
 
 <a name="letta"></a>
-### #&#8288;17 [Letta](https://github.com/letta-ai/letta-code) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;17 [Letta](https://github.com/letta-ai/letta-code) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Nov 2026</sub>
 
 **Stateful CLI agent harness with self-editing memory, skills and chat integrations.**
 
