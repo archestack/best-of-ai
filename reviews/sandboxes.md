@@ -5,7 +5,7 @@ Isolated runtimes where agents execute code, browse or use tools safely. Back to
 <sub>🌐 Also on the web: [Sandboxes on archestack.com](https://archestack.com/best-of-ai/sandboxes/), each project on its own page.</sub>
 
 <a name="lightpanda"></a>
-### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · AGPL-3.0 · Nov 2026</sub>
+### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · AGPL-3.0 · Nov 2026</sub>
 
 **Headless browser written in Zig for agents and scraping, with CDP and MCP.**
 
@@ -59,7 +59,7 @@ Obscura is a headless browser engine written in Rust that runs JavaScript throug
 <sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs ↗](https://docs.obscura.sh) · [🌐 Site ↗](https://obscura.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obscura/)</sub>
 
 <a name="nemoclaw"></a>
-### #&#8288;4 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
 
 **Reference stack for running OpenClaw, Hermes and Deep Agents in OpenShell sandboxes.**
 
@@ -77,7 +77,7 @@ NemoClaw is a CLI-driven reference stack that installs a supported AI agent (Ope
 <sub>Docker · Needs NVIDIA OpenShell · Models: OpenClaw, Hermes, LangChain Deep Agents Code · [Repo](https://github.com/nvidia/nemoclaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nemoclaw/)</sub>
 
 <a name="opensandbox"></a>
-### #&#8288;5 [opensandbox](https://github.com/opensandbox-group/opensandbox) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;5 [opensandbox](https://github.com/opensandbox-group/opensandbox) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **Sandbox API for running AI agent code, commands and browsers in isolation.**
 
@@ -95,7 +95,7 @@ OpenSandbox provides isolated environments where agents execute code, run shell 
 <sub>no GPU · Needs Docker, Python 3.10+, Kubernetes (optional, for cluster deployment) · [Repo](https://github.com/opensandbox-group/opensandbox) · [📖 Docs ↗](https://open-sandbox.ai) · [🌐 Site ↗](https://open-sandbox.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensandbox/)</sub>
 
 <a name="cubesandbox"></a>
-### #&#8288;6 [cubesandbox](https://github.com/tencentcloud/cubesandbox) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Oct 2026</sub>
+### #&#8288;6 [cubesandbox](https://github.com/tencentcloud/cubesandbox) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Nov 2026</sub>
 
 **MicroVM sandbox service for AI agents with an E2B-compatible API.**
 
@@ -113,7 +113,7 @@ CubeSandbox runs each agent sandbox in its own KVM MicroVM, built on RustVMM, an
 <sub>no GPU · Docker · Needs KVM, Linux x86_64, S3 (optional, for cross-node pause/resume) · port 12088 · [Repo](https://github.com/tencentcloud/cubesandbox) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cubesandbox/)</sub>
 
 <a name="monty"></a>
-### #&#8288;7 [monty](https://github.com/pydantic/monty) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · MIT · Oct 2026</sub>
+### #&#8288;7 [monty](https://github.com/pydantic/monty) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · MIT · Nov 2026</sub>
 
 **Embedded Python interpreter in Rust for running LLM-generated code.**
 
@@ -131,7 +131,7 @@ Monty is a Python 3.14 subset interpreter written in Rust, installed as a Python
 <sub>no GPU · [Repo](https://github.com/pydantic/monty) · [📖 Docs ↗](https://pydantic.dev/docs/monty/) · [🌐 Site ↗](https://pydantic.dev/docs/monty/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/monty/)</sub>
 
 <a name="microsandbox"></a>
-### #&#8288;8 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Oct 2026</sub>
 
 **Embeddable local microVM sandboxes for running untrusted code and AI agents.**
 
@@ -144,7 +144,6 @@ Microsandbox boots OCI images (Docker Hub, GHCR, any registry) as hardware-isola
 - **−** README warns of beta status: breaking changes, missing features, rough edges
 - **−** Needs KVM on Linux, Apple Silicon on macOS, or WHP on Windows
 - **−** First create() pulls the image, so initial start depends on network
-- **−** Intel Macs are not listed as supported
 
 <sub>no GPU · Docker · Needs KVM (Linux), WHP (Windows), OCI registry access · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev) · [🌐 Site ↗](https://microsandbox.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/microsandbox/)</sub>
 
@@ -167,7 +166,7 @@ REST API and UI on port 3000 that launches Chrome sessions with persisted cookie
 <sub>no GPU · Docker + Compose · Needs Google Chrome (non-Docker runs), Node.js (non-Docker runs) · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/steel-browser/)</sub>
 
 <a name="open-terminal"></a>
-### #&#8288;10 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Oct 2026</sub>
+### #&#8288;10 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Nov 2026</sub>
 
 **REST API shell and file server for AI agents to run commands and code.**
 

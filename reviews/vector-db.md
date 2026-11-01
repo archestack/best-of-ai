@@ -5,7 +5,7 @@ Vector stores and hybrid search engines for embeddings. Back to the [leaderboard
 <sub>🌐 Also on the web: [Vector databases on archestack.com](https://archestack.com/best-of-ai/vector-db/), each project on its own page.</sub>
 
 <a name="milvus"></a>
-### 🥇 [Milvus](https://github.com/milvus-io/milvus) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [Milvus](https://github.com/milvus-io/milvus) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · Apache-2.0 · Nov 2026</sub>
 
 **Distributed vector database with dense, sparse and hybrid search at scale.**
 
@@ -36,7 +36,6 @@ Meilisearch is a search engine with a RESTful API for full-text, semantic and hy
 - **−** Sharding and other advanced features need the Enterprise Edition and a commercial agreement
 - **−** README recommends Meilisearch Cloud over self-hosting
 - **−** MCP server at /mcp is marked experimental
-- **−** RAM and disk requirements are not stated in the README
 
 <sub>no GPU · Docker · Models: embedding models for semantic search (providers unknown) · port 7700 · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meilisearch/)</sub>
 
@@ -59,7 +58,7 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 <sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo ↗](https://qdrant.to/semantic-search-demo) · [📖 Docs ↗](https://qdrant.tech/documentation/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qdrant/)</sub>
 
 <a name="faiss"></a>
-### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Oct 2026</sub>
+### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Nov 2026</sub>
 
 **C++ library for similarity search and clustering of dense vectors.**
 
@@ -77,7 +76,7 @@ Faiss is a C++ library with Python/numpy wrappers for nearest-neighbor search ov
 <sub>GPU optional · Needs BLAS, CUDA or ROCm (optional), NVIDIA cuVS (optional) · [Repo](https://github.com/facebookresearch/faiss) · [📖 Docs ↗](https://github.com/facebookresearch/faiss/wiki) · [🌐 Site ↗](https://faiss.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/faiss/)</sub>
 
 <a name="weaviate"></a>
-### #&#8288;5 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
+### #&#8288;5 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Oct 2026</sub>
 
 **Go vector database with built-in vectorizers, hybrid search and RAG.**
 
@@ -108,7 +107,6 @@ LanceDB is a vector database written in Rust on top of the Lance columnar format
 - **−** README gives no benchmarks or hardware figures to back the billion-vector claims
 - **−** Managed Cloud and Enterprise tiers exist; feature split with open source is not detailed
 - **−** README has little setup detail and defers to external docs
-- **−** RAM and GPU requirements are not stated
 
 <sub>GPU optional · Docker + Compose · [Repo](https://github.com/lancedb/lancedb) · [📖 Docs ↗](https://docs.lancedb.com) · [🌐 Site ↗](https://lancedb.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lancedb/)</sub>
 
@@ -131,7 +129,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
 
 <a name="zvec"></a>
-### #&#8288;8 [zvec](https://github.com/alibaba/zvec) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;8 [zvec](https://github.com/alibaba/zvec) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **In-process vector database library with hybrid and full-text search.**
 
@@ -149,7 +147,7 @@ Zvec is a C++ vector database that embeds in the application process instead of 
 <sub>no GPU · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
 
 <a name="leann"></a>
-### #&#8288;9 [leann](https://github.com/startrail-org/leann) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (70) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
+### #&#8288;9 [leann](https://github.com/startrail-org/leann) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
 
 **Vector index that recomputes embeddings on demand to cut storage.**
 
@@ -221,7 +219,7 @@ HelixDB is a transactional labeled-property graph database that also does approx
 <sub>no GPU · Docker · Needs Docker or Podman (local server) · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helix-db/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;13 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;13 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -239,7 +237,7 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vespa/)</sub>
 
 <a name="deeplake"></a>
-### #&#8288;14 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (29) · Freshness: recent (74) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;14 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (28) · Freshness: recent (74) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
 
 **Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
 

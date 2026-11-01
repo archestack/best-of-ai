@@ -23,7 +23,7 @@ MinerU parses PDFs, scanned images, Office, OpenDocument, EPUB, OFD, HTML and CS
 <sub>GPU optional · Docker + Compose · Needs Python >=3.10,<3.15, llama.cpp, vLLM or LMDeploy (VLM runtime), ONNX or Torch · Models: MinerU VLM, ONNX small models, Torch small models, llama.cpp, vLLM · [Repo](https://github.com/opendatalab/mineru) · [▶️ Demo ↗](https://huggingface.co/spaces/opendatalab/MinerU) · [📖 Docs ↗](https://opendatalab.github.io/MinerU/) · [🌐 Site ↗](https://mineru.net/OpenSourceTools/Extractor?source=github) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mineru/)</sub>
 
 <a name="docling"></a>
-### 🥈 [docling](https://github.com/docling-project/docling) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · MIT · Oct 2026</sub>
+### 🥈 [docling](https://github.com/docling-project/docling) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · MIT · Nov 2026</sub>
 
 **Python library and CLI that converts PDFs, Office files and more into structured text.**
 
@@ -33,7 +33,6 @@ Docling parses PDF, DOCX, PPTX, XLSX, HTML, EPUB, images, audio and other format
 - **+** Local execution suits sensitive data and air-gapped environments
 - **+** Integrations with LangChain, LlamaIndex, Crew AI and Haystack
 - **+** Ships a CLI, Python API, MCP server and docling-serve HTTP server
-- **−** Hardware requirements (RAM, GPU) are not stated in the README
 - **−** Individual models carry their own licenses, separate from the MIT codebase
 - **−** Metadata extraction and chemistry understanding are listed as coming soon
 - **−** Requires Python 3.10 or higher; 3.9 support was dropped in 2.70.0
@@ -76,8 +75,26 @@ MarkItDown converts PDF, Word, PowerPoint, Excel, images, audio, HTML, CSV/JSON/
 
 <sub>no GPU · Docker · Needs Python 3.10-3.14, Azure Document Intelligence (optional), Azure Content Understanding (optional), OpenAI-compatible client (optional) · Models: OpenAI-compatible vision models (gpt-4o in examples) · [Repo](https://github.com/microsoft/markitdown) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/markitdown/)</sub>
 
+<a name="agent-reach"></a>
+### #&#8288;5 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 107k · MIT · Nov 2026</sub>
+
+**CLI that gives coding agents read access to login-gated and Chinese web platforms.**
+
+Agent Reach is a Python CLI that wraps upstream tools such as bili-cli, yt-dlp, Jina Reader and Exa behind one command format: `agent-reach <channel> <action>`. It covers Bilibili, V2EX, GitHub, YouTube, Xiaohongshu, Xueqiu, Reddit, Twitter and others, trying an ordered list of tools per action with fallbacks. It is read-only, and login-gated sites use a dedicated background browser that copies your Chrome session for that site.
+
+- **+** Covers Chinese platforms (Bilibili, Xiaohongshu, V2EX, Xueqiu) that generic agent search handles poorly
+- **+** Per-action ordered tool list with automatic fallback when an upstream tool breaks
+- **+** Read-only by design: no posting, commenting, liking or messaging
+- **+** All tools, logins and settings live in `~/.agent-reach/`, so removal is contained
+- **−** Twitter, Facebook and Instagram channels are labeled experimental and may break at any time
+- **−** Login-gated channels copy your Chrome session, usually the main account; README advises a spare account
+- **−** YouTube and Xiaoyuzhou transcription needs a Groq or OpenAI key
+- **−** README is mainly in Chinese; the English docs are a separate file
+
+<sub>no GPU · Needs uv, Python 3.10+, bili-cli, yt-dlp, Jina Reader, Exa, Groq or OpenAI API key (transcription) · [Repo](https://github.com/panniantong/agent-reach) · [📖 Docs ↗](https://github.com/Panniantong/Agent-Reach/blob/main/docs/README_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-reach/)</sub>
+
 <a name="crawl4ai"></a>
-### #&#8288;5 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 87k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;6 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 87k · Apache-2.0 · Oct 2026</sub>
 
 **Async Python web crawler that outputs LLM-ready Markdown and structured JSON.**
 
@@ -95,7 +112,7 @@ Crawl4AI drives Playwright browsers (Chromium, Firefox, WebKit) to fetch pages a
 <sub>no GPU · Docker + Compose · Needs Playwright browsers (Chromium), Docker (optional), LLM provider via LiteLLM (optional) · Models: any LiteLLM provider (OpenAI, Ollama) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com) · [🌐 Site ↗](https://crawl4ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crawl4ai/)</sub>
 
 <a name="firecrawl"></a>
-### #&#8288;6 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 197k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;7 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 198k · AGPL-3.0 · Oct 2026</sub>
 
 **Web API that turns sites and searches into markdown or JSON for LLMs.**
 
@@ -108,30 +125,11 @@ Firecrawl exposes REST endpoints to search the web, scrape a URL, crawl a site, 
 - **−** README examples target the hosted API and require an API key
 - **−** AGPL-3.0 license restricts use in closed-source network services
 - **−** Agent endpoint runs the spark-2 model; self-hosted availability is unknown
-- **−** Self-hosting requirements (RAM, ports, proxies) not stated in the README excerpt
 
 <sub>Compose · Needs Firecrawl API key (hosted service) · Models: spark-2 · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
 
-<a name="agent-reach"></a>
-### #&#8288;7 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 107k · MIT · Oct 2026</sub>
-
-**CLI that gives coding agents read access to login-gated and Chinese web platforms.**
-
-Agent Reach is a Python CLI that wraps upstream tools such as bili-cli, yt-dlp, Jina Reader and Exa behind one command format: `agent-reach <channel> <action>`. It covers Bilibili, V2EX, GitHub, YouTube, Xiaohongshu, Xueqiu, Reddit, Twitter and others, trying an ordered list of tools per action with fallbacks. It is read-only, and login-gated sites use a dedicated background browser that copies your Chrome session for that site.
-
-- **+** Covers Chinese platforms (Bilibili, Xiaohongshu, V2EX, Xueqiu) that generic agent search handles poorly
-- **+** Per-action ordered tool list with automatic fallback when an upstream tool breaks
-- **+** Read-only by design: no posting, commenting, liking or messaging
-- **+** All tools, logins and settings live in `~/.agent-reach/`, so removal is contained
-- **−** Twitter, Facebook and Instagram channels are labeled experimental and may break at any time
-- **−** Login-gated channels copy your Chrome session, usually the main account; README advises a spare account
-- **−** YouTube and Xiaoyuzhou transcription needs a Groq or OpenAI key
-- **−** README is mainly in Chinese; the English docs are a separate file
-
-<sub>no GPU · Needs uv, Python 3.10+, bili-cli, yt-dlp, Jina Reader, Exa, Groq or OpenAI API key (transcription) · [Repo](https://github.com/panniantong/agent-reach) · [📖 Docs ↗](https://github.com/Panniantong/Agent-Reach/blob/main/docs/README_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-reach/)</sub>
-
 <a name="labelme"></a>
-### #&#8288;8 [labelme](https://github.com/wkentaro/labelme) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;8 [labelme](https://github.com/wkentaro/labelme) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
 
 **Desktop image annotation tool with polygon labeling and SAM-assisted masks.**
 
@@ -203,7 +201,7 @@ Tesseract is a C++ OCR engine (libtesseract) with a tesseract command-line progr
 <sub>no GPU · Needs Leptonica, traineddata files · Models: LSTM traineddata, legacy Tesseract 3 traineddata · [Repo](https://github.com/tesseract-ocr/tesseract) · [📖 Docs ↗](https://tesseract-ocr.github.io/tessdoc/) · [🌐 Site ↗](https://tesseract-ocr.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tesseract/)</sub>
 
 <a name="moli"></a>
-### #&#8288;12 [moli](https://github.com/lexmount/moli) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [moli](https://github.com/lexmount/moli) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Nov 2026</sub>
 
 **Headless browser in Rust for AI agents, with CDP and WebDriver support.**
 
@@ -221,7 +219,7 @@ Moli is a standalone browser kernel written in Rust (V8, Stylo, Taffy, Parley), 
 <sub>no GPU · Needs libcurl · port 9222 · [Repo](https://github.com/lexmount/moli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moli/)</sub>
 
 <a name="cocoindex"></a>
-### #&#8288;13 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;13 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Incremental Python pipelines that keep vector indexes and agent context fresh.**
 
@@ -239,7 +237,7 @@ CocoIndex is a Python framework with a Rust core for declaring how source data (
 <sub>Needs Python 3.10-3.13, Postgres (pgvector) or LanceDB as target · Models: sentence-transformers · [Repo](https://github.com/cocoindex-io/cocoindex) · [📖 Docs ↗](https://cocoindex.io/docs) · [🌐 Site ↗](https://cocoindex.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cocoindex/)</sub>
 
 <a name="label-studio"></a>
-### #&#8288;14 [label-studio](https://github.com/humansignal/label-studio) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;14 [label-studio](https://github.com/humansignal/label-studio) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Oct 2026</sub>
 
 **Multi-user data labeling tool for audio, text, images, video and time series.**
 
@@ -257,7 +255,7 @@ Label Studio is a web-based annotation tool for preparing and correcting ML trai
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (optional, Compose), Nginx (optional, Compose), MinIO (optional) · Models: Custom ML backends via Label Studio ML SDK · port 8080 · [Repo](https://github.com/humansignal/label-studio) · [📖 Docs ↗](https://labelstud.io/guide/) · [🌐 Site ↗](https://labelstud.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/label-studio/)</sub>
 
 <a name="unstructured"></a>
-### #&#8288;15 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;15 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **Python library that parses PDFs, Office files and HTML into typed elements.**
 
@@ -287,7 +285,6 @@ X-AnyLabeling is a cross-platform desktop annotation tool for building datasets 
 - **+** Runs on Windows, Linux and macOS; remote inference via X-AnyLabeling-Server, vLLM or SGLang
 - **−** GPL-3.0 license imposes copyleft terms on derived or redistributed code
 - **−** Requires Python 3.11+ for source or PyPI install
-- **−** RAM and VRAM requirements are not stated in the README
 - **−** Contributions require signing a Contributor License Agreement
 
 <sub>GPU optional · Needs ONNX Runtime, TensorRT, OpenCV DNN, vLLM, SGLang · Models: ONNX, YOLO, SAM, Grounding DINO, Qwen3-VL · [Repo](https://github.com/cvhub520/x-anylabeling) · [📖 Docs ↗](https://xanylabeling.com/docs/x-anylabeling/user_guide) · [🌐 Site ↗](https://xanylabeling.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/x-anylabeling/)</sub>
@@ -522,7 +519,6 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 - **−** Self-hosted pipeline needs a separate vLLM or SGLang server plus transformers>=5.3.0
 - **−** Hosted mode depends on a Zhipu API key from open.bigmodel.cn
 - **−** Code is Apache-2.0 but model is MIT, and PP-DocLayoutV3 adds a third license to follow
-- **−** VRAM and RAM requirements are not stated in the README
 
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
