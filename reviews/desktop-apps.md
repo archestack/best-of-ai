@@ -77,7 +77,7 @@ Python desktop app (Tkinter GUI, with a CLI) that swaps a face from one source i
 <sub>GPU optional · Needs Python 3.11-3.14, ffmpeg, onnxruntime, gfpgan-1024.onnx, inswapper_128_fp16.onnx, CUDA 12.8 (NVIDIA) · Models: ONNX, inswapper_128_fp16, GFPGAN · [Repo](https://github.com/hacksider/deep-live-cam) · [📖 Docs ↗](https://deeplivecam.net/index.php/quickstart) · [🌐 Site ↗](https://deeplivecam.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-live-cam/)</sub>
 
 <a name="prompt-optimizer"></a>
-### #&#8288;5 [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · custom license · Oct 2026</sub>
+### #&#8288;5 [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · custom license · Oct 2026</sub>
 
 **Prompt rewriting and testing tool for web, desktop, Chrome and MCP.**
 
@@ -257,7 +257,7 @@ holaOS is an Electron desktop app where agents (Claude Code, Codex, or a built-i
 <sub>no GPU · Needs Node.js 24.14.1, npm, git, Electron · Models: Kimi K3, GLM 5.2, GPT 5.6, Claude Opus 5, OpenAI-compatible endpoints · [Repo](https://github.com/holaboss-ai/holaos) · [📖 Docs ↗](https://www.holaos.ai/docs/getting-started) · [🌐 Site ↗](https://www.holaos.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/holaos/)</sub>
 
 <a name="deepchat"></a>
-### #&#8288;15 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;15 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
 
 **Electron desktop client for cloud and Ollama models with MCP, Skills and ACP.**
 
@@ -329,7 +329,7 @@ LobsterAI is an Electron app for macOS and Windows where an agent works on a loc
 <sub>no GPU · Needs OpenClaw runtime (bundled), SQLite (local), Node.js >=24.15.0 <25 (build from source) · Models: DeepSeek, GLM, Kimi, Qwen, MiniMax · [Repo](https://github.com/netease-youdao/lobsterai) · [🌐 Site ↗](https://lobsterai.youdao.com/#/download-list) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobsterai/)</sub>
 
 <a name="koharu"></a>
-### #&#8288;19 [koharu](https://github.com/koharu-rs/koharu) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;19 [koharu](https://github.com/koharu-rs/koharu) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · Apache-2.0 · Oct 2026</sub>
 
 **Desktop manga translator with local detection, OCR, inpainting and LLM translation.**
 
@@ -383,7 +383,7 @@ Enchanted is a Swift app for macOS, iOS and visionOS that connects to an Ollama 
 <sub>Needs Ollama v0.1.14 or later, ngrok (to expose a local Ollama server) · Models: Ollama models (Llama 2, Mistral, Vicuna, Starling) · [Repo](https://github.com/gluonfield/enchanted) · [▶️ Demo ↗](https://www.youtube.com/watch?v=zW3roZ_vM5Q) · [🌐 Site ↗](https://apps.apple.com/gb/app/enchanted-llm/id6474268307) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/enchanted/)</sub>
 
 <a name="noi"></a>
-### #&#8288;22 [noi](https://github.com/lencx/noi) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: known (30) · Freshness: active (91) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
+### #&#8288;22 [noi](https://github.com/lencx/noi) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: known (30) · Freshness: active (91) · Maintenance: weak (14) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
 
 **Desktop app for running isolated AI chat sessions in multiple windows.**
 

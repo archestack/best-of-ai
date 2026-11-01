@@ -95,7 +95,7 @@ Crawl4AI drives Playwright browsers (Chromium, Firefox, WebKit) to fetch pages a
 <sub>no GPU · Docker + Compose · Needs Playwright browsers (Chromium), Docker (optional), LLM provider via LiteLLM (optional) · Models: any LiteLLM provider (OpenAI, Ollama) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com) · [🌐 Site ↗](https://crawl4ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crawl4ai/)</sub>
 
 <a name="firecrawl"></a>
-### #&#8288;6 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 197k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;6 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 197k · AGPL-3.0 · Oct 2026</sub>
 
 **Web API that turns sites and searches into markdown or JSON for LLMs.**
 
@@ -257,7 +257,7 @@ Label Studio is a web-based annotation tool for preparing and correcting ML trai
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (optional, Compose), Nginx (optional, Compose), MinIO (optional) · Models: Custom ML backends via Label Studio ML SDK · port 8080 · [Repo](https://github.com/humansignal/label-studio) · [📖 Docs ↗](https://labelstud.io/guide/) · [🌐 Site ↗](https://labelstud.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/label-studio/)</sub>
 
 <a name="unstructured"></a>
-### #&#8288;15 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;15 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Oct 2026</sub>
 
 **Python library that parses PDFs, Office files and HTML into typed elements.**
 
@@ -311,7 +311,7 @@ Marker is a Python library and CLI that converts PDF, image, PPTX, DOCX, XLSX, H
 <sub>GPU optional · Needs PyTorch, Python 3.10+, vLLM via Docker with NVIDIA Container Toolkit (GPU), llama.cpp llama-server (CPU / Apple Silicon), optional LLM service for --use_llm · Models: surya VLM, Gemini, Claude, OpenAI-compatible, Azure · [Repo](https://github.com/datalab-to/marker) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/marker/)</sub>
 
 <a name="paddleocr"></a>
-### #&#8288;18 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;18 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · Apache-2.0 · Sep 2026</sub>
 
 **OCR and document parsing toolkit that outputs Markdown and JSON from PDFs and images.**
 
@@ -365,7 +365,7 @@ Data-Juicer is a Python library and CLI (dj-process) that runs YAML-defined pipe
 <sub>GPU optional · Docker · Needs Ray (distributed mode), S3 or HDFS (optional), Hugging Face / ModelScope models (optional) · Models: Hugging Face models, OpenAI-compatible API, LiteLLM, Juicer-35B-A3B · [Repo](https://github.com/datajuicer/data-juicer) · [▶️ Demo ↗](http://8.138.149.181/) · [📖 Docs ↗](https://datajuicer.github.io/data-juicer/en/main/docs_index.html) · [🌐 Site ↗](https://datajuicer.github.io/data-juicer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-juicer/)</sub>
 
 <a name="pdfmathtranslate"></a>
-### #&#8288;21 [pdfmathtranslate](https://github.com/pdfmathtranslate/pdfmathtranslate) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (75) · Freshness: recent (75) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;21 [pdfmathtranslate](https://github.com/pdfmathtranslate/pdfmathtranslate) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (75) · Freshness: recent (75) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Nov 2026</sub>
 
 **Translates scientific PDFs while keeping formulas, figures and layout intact.**
 
@@ -437,7 +437,7 @@ Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images an
 <sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
 
 <a name="tesseract-js"></a>
-### #&#8288;25 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (77) · Freshness: recent (69) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
+### #&#8288;25 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (76) · Freshness: recent (68) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
 
 **JavaScript OCR library that runs Tesseract in the browser and Node.js.**
 
@@ -455,7 +455,7 @@ Tesseract.js wraps a WebAssembly port of the Tesseract OCR engine and extracts t
 <sub>no GPU · Docker · Needs Node.js 16+ (v7, server use), tesseract.js-core (WebAssembly port of Tesseract) · Models: Tesseract traineddata language files · [Repo](https://github.com/naptha/tesseract.js) · [▶️ Demo ↗](http://tesseract.projectnaptha.com/) · [📖 Docs ↗](https://github.com/naptha/tesseract.js/blob/master/docs/api.md) · [🌐 Site ↗](https://tesseract.projectnaptha.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tesseract-js/)</sub>
 
 <a name="jina-reader"></a>
-### #&#8288;26 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (40) · Freshness: recent (74) · Maintenance: weak (12) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;26 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (40) · Freshness: recent (73) · Maintenance: weak (12) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
@@ -527,7 +527,7 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
 <a name="llm-scraper"></a>
-### #&#8288;30 [llm-scraper](https://github.com/mishushakov/llm-scraper) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (9) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jun 2026</sub>
+### #&#8288;30 [llm-scraper](https://github.com/mishushakov/llm-scraper) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (9) · Freshness: active (82) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jun 2026</sub>
 
 **TypeScript library that extracts structured data from web pages with LLMs.**
 
@@ -544,26 +544,8 @@ LLM Scraper loads a page through Playwright and asks an LLM to fill a Zod or JSO
 
 <sub>no GPU · Needs Playwright, Zod, Vercel AI SDK provider package, LLM provider API or Ollama · Models: OpenAI GPT, Anthropic Claude, Google Gemini, Groq Llama, Ollama · [Repo](https://github.com/mishushakov/llm-scraper) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-scraper/)</sub>
 
-<a name="doccano"></a>
-### #&#8288;31 [doccano](https://github.com/doccano/doccano) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: known (31) · Freshness: slowing (40) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
-
-**Web-based text annotation tool for labeling NLP datasets.**
-
-doccano is a web application for annotating text for classification, sequence labeling (such as named entity recognition) and sequence-to-sequence tasks like summarization. Teams create a project, upload data, and label it collaboratively, with a REST API for automation. It runs from pip with SQLite by default, or with PostgreSQL, Docker or Docker Compose.
-
-- **+** Covers text classification, sequence labeling and seq2seq annotation in one tool
-- **+** Installs with pip and uses SQLite by default, so no database setup to start
-- **+** Collaborative annotation with multiple users per project and a RESTful API
-- **+** Deploy options include pip, Docker, Docker Compose, AWS CloudFormation and Heroku
-- **−** Text only; the README lists no image, audio or video annotation
-- **−** README mentions no built-in model-assisted pre-labeling
-- **−** Compose setup needs RabbitMQ and PostgreSQL; pip setup needs a separate task queue process
-- **−** Admin password is passed in plain environment variables or CLI arguments in the examples
-
-<sub>no GPU · Docker + Compose · Needs SQLite (default), PostgreSQL (optional), RabbitMQ (Docker Compose) · port 8000 · [Repo](https://github.com/doccano/doccano) · [▶️ Demo ↗](http://doccano.herokuapp.com) · [📖 Docs ↗](https://doccano.github.io/doccano/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doccano/)</sub>
-
 <a name="easyocr"></a>
-### #&#8288;32 [easyocr](https://github.com/jaidedai/easyocr) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (67) · Freshness: quiet (9) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;31 [easyocr](https://github.com/jaidedai/easyocr) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (67) · Freshness: quiet (9) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Dec 2025</sub>
 
 **Python OCR library for text detection and recognition in 80+ languages.**
 
@@ -581,7 +563,7 @@ EasyOCR is a Python package that detects text regions with the CRAFT model and r
 <sub>GPU optional · Docker · Needs PyTorch, torchvision · Models: CRAFT detection, CRNN recognition (ResNet/VGG, LSTM, CTC) · [Repo](https://github.com/jaidedai/easyocr) · [▶️ Demo ↗](https://huggingface.co/spaces/tomofi/EasyOCR) · [📖 Docs ↗](https://www.jaided.ai/easyocr/documentation) · [🌐 Site ↗](https://www.jaided.ai/easyocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easyocr/)</sub>
 
 <a name="cleanlab"></a>
-### #&#8288;33 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (36) · Freshness: slowing (40) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;32 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (36) · Freshness: slowing (39) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
 
 **Python library that finds label errors and outliers in ML datasets.**
 
@@ -597,5 +579,23 @@ cleanlab uses predictions and embeddings from your existing model to detect labe
 - **−** Library only; no hosted UI or web app in the open-source package
 
 <sub>no GPU · Needs Python 3.10+ · Models: PyTorch, TensorFlow, Keras, JAX, HuggingFace · [Repo](https://github.com/cleanlab/cleanlab) · [📖 Docs ↗](https://docs.cleanlab.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cleanlab/)</sub>
+
+<a name="doccano"></a>
+### #&#8288;33 [doccano](https://github.com/doccano/doccano) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (31) · Freshness: slowing (40) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
+
+**Web-based text annotation tool for labeling NLP datasets.**
+
+doccano is a web application for annotating text for classification, sequence labeling (such as named entity recognition) and sequence-to-sequence tasks like summarization. Teams create a project, upload data, and label it collaboratively, with a REST API for automation. It runs from pip with SQLite by default, or with PostgreSQL, Docker or Docker Compose.
+
+- **+** Covers text classification, sequence labeling and seq2seq annotation in one tool
+- **+** Installs with pip and uses SQLite by default, so no database setup to start
+- **+** Collaborative annotation with multiple users per project and a RESTful API
+- **+** Deploy options include pip, Docker, Docker Compose, AWS CloudFormation and Heroku
+- **−** Text only; the README lists no image, audio or video annotation
+- **−** README mentions no built-in model-assisted pre-labeling
+- **−** Compose setup needs RabbitMQ and PostgreSQL; pip setup needs a separate task queue process
+- **−** Admin password is passed in plain environment variables or CLI arguments in the examples
+
+<sub>no GPU · Docker + Compose · Needs SQLite (default), PostgreSQL (optional), RabbitMQ (Docker Compose) · port 8000 · [Repo](https://github.com/doccano/doccano) · [▶️ Demo ↗](http://doccano.herokuapp.com) · [📖 Docs ↗](https://doccano.github.io/doccano/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doccano/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
