@@ -5,7 +5,7 @@ LLM gateways and proxies for routing, caching and cost control, and tracing, eva
 <sub>🌐 Also on the web: [Gateways and observability on archestack.com](https://archestack.com/best-of-ai/gateways/), each project on its own page.</sub>
 
 <a name="omniroute"></a>
-### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · MIT · Nov 2026</sub>
+### 🥇 [OmniRoute](https://github.com/diegosouzapw/omniroute) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · MIT · Nov 2026</sub>
 
 **LLM gateway routing one OpenAI-compatible endpoint across 372 providers.**
 
@@ -113,7 +113,7 @@ Ingests traces of LLM calls, retrieval and agent steps via Python and JS/TS SDKs
 <sub>no GPU · Compose · Needs ClickHouse · [Repo](https://github.com/langfuse/langfuse) · [▶️ Demo ↗](https://langfuse.com/demo) · [📖 Docs ↗](https://langfuse.com/docs) · [🌐 Site ↗](https://langfuse.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langfuse/)</sub>
 
 <a name="opik"></a>
-### #&#8288;7 [Opik](https://github.com/comet-ml/opik) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;7 [Opik](https://github.com/comet-ml/opik) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
 
 **Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end.**
 
@@ -504,7 +504,7 @@ OpenLIT is a self-hosted dashboard plus Python and TypeScript SDKs that auto-ins
 <sub>GPU optional · Compose · Needs ClickHouse, Docker Compose · Models: OpenAI, Anthropic, Ollama, vLLM, Amazon Bedrock · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/) · [🌐 Site ↗](https://openlit.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openlit/)</sub>
 
 <a name="lmnr"></a>
-### #&#8288;29 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;29 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Nov 2026</sub>
 
 **Observability platform for AI agents with tracing, evals and SQL-queryable traces.**
 
@@ -664,7 +664,7 @@ Ragas is a Python package for evaluating LLM applications. It ships pre-built an
 <sub>no GPU · Needs LLM provider API (OpenAI in example) · Models: OpenAI, LangChain · [Repo](https://github.com/vibrantlabsai/ragas) · [📖 Docs ↗](https://docs.ragas.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ragas/)</sub>
 
 <a name="agentops"></a>
-### #&#8288;38 [agentops](https://github.com/agentops-ai/agentops) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (20) · Freshness: recent (69) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Jun 2026</sub>
+### #&#8288;38 [agentops](https://github.com/agentops-ai/agentops) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (20) · Freshness: recent (68) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Jun 2026</sub>
 
 **Tracing, session replay and LLM cost tracking for AI agents.**
 
@@ -682,7 +682,7 @@ AgentOps is a Python SDK plus a dashboard and API backend that records agent run
 <sub>no GPU · Needs AgentOps API key (hosted dashboard) · Models: OpenAI, Anthropic, Mistral, Cohere, LiteLLM · [Repo](https://github.com/agentops-ai/agentops) · [📖 Docs ↗](https://docs.agentops.ai/introduction) · [🌐 Site ↗](https://agentops.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentops/)</sub>
 
 <a name="pezzo"></a>
-### #&#8288;39 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (6) · Freshness: recent (70) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;39 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (6) · Freshness: recent (70) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Aug 2026</sub>
 
 **Prompt management, observability and caching for LLM apps.**
 
@@ -700,7 +700,7 @@ Stores and versions prompts, logs requests with cost and latency, and caches LLM
 <sub>no GPU · Compose · Needs PostgreSQL, ClickHouse, Redis, SuperTokens, Node.js 18+ · port 4200 · [Repo](https://github.com/pezzolabs/pezzo) · [📖 Docs ↗](https://docs.pezzo.ai/) · [🌐 Site ↗](https://pezzo.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pezzo/)</sub>
 
 <a name="coai"></a>
-### #&#8288;40 [CoAI](https://github.com/coaidev/coai) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (47) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;40 [CoAI](https://github.com/coaidev/coai) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (47) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
 
 **Multi-user chat site plus OpenAI-compatible proxy with billing.**
 
@@ -718,7 +718,7 @@ CoAI pairs a multi-user chat frontend with an OpenAI-compatible API proxy and bi
 <sub>no GPU · Docker + Compose · Needs MySQL, Redis, SearXNG (optional web search), CoAI blob-service (optional file parsing) · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Midjourney, SparkDesk, Zhipu, Qwen, Hunyuan, Baichuan, Moonshot, DeepSeek, Skylark, Groq, OpenRouter, 360, LocalAI, Ollama · port 8000 · [Repo](https://github.com/coaidev/coai) · [📖 Docs ↗](https://coai.dev/docs/deploy) · [🌐 Site ↗](https://coai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/coai/)</sub>
 
 <a name="metamcp"></a>
-### #&#8288;41 [MetaMCP](https://github.com/metatool-ai/metamcp) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (3) · Freshness: recent (77) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
+### #&#8288;41 [MetaMCP](https://github.com/metatool-ai/metamcp) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (3) · Freshness: recent (77) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
 
 **Aggregates MCP servers into namespaced endpoints with auth and middleware.**
 
@@ -736,7 +736,7 @@ MetaMCP groups MCP servers into namespaces and publishes each as one MCP endpoin
 <sub>no GPU · Docker + Compose · Needs PostgreSQL · port 12008 · [Repo](https://github.com/metatool-ai/metamcp) · [📖 Docs ↗](https://docs.metamcp.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metamcp/)</sub>
 
 <a name="mcpo"></a>
-### #&#8288;42 [mcpo](https://github.com/open-webui/mcpo) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (10) · Freshness: recent (54) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
+### #&#8288;42 [mcpo](https://github.com/open-webui/mcpo) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (10) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
 
 **Exposes any MCP server as an OpenAPI HTTP endpoint.**
 
