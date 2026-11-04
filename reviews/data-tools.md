@@ -40,7 +40,7 @@ Docling parses PDF, DOCX, PPTX, XLSX, HTML, EPUB, images, audio and other format
 <sub>GPU optional · Docker · Models: GraniteDocling, VLMs, OCR engines, ASR models · [Repo](https://github.com/docling-project/docling) · [📖 Docs ↗](https://docling-project.github.io/docling/) · [🌐 Site ↗](https://docling-project.github.io/docling/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling/)</sub>
 
 <a name="opendataloader-pdf"></a>
-### 🥉 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
 
 **PDF parser that outputs Markdown, JSON with bounding boxes, and Tagged PDF.**
 
@@ -129,7 +129,7 @@ Firecrawl exposes REST endpoints to search the web, scrape a URL, crawl a site, 
 <sub>Compose · Needs Firecrawl API key (hosted service) · Models: spark-2 · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
 
 <a name="tesseract"></a>
-### #&#8288;8 [tesseract](https://github.com/tesseract-ocr/tesseract) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;8 [tesseract](https://github.com/tesseract-ocr/tesseract) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · Apache-2.0 · Nov 2026</sub>
 
 **OCR engine and command-line tool with LSTM recognition for 100+ languages.**
 
@@ -237,7 +237,7 @@ Labelme is a Qt (PySide6) desktop app for annotating images with polygon, rectan
 <sub>Needs Python 3.12+, PySide6 (Qt6) · Models: SAM, EfficientSAM, YOLO-world, SAM3 · [Repo](https://github.com/wkentaro/labelme) · [📖 Docs ↗](https://www.labelme.io/docs/install-labelme-terminal) · [🌐 Site ↗](https://labelme.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/labelme/)</sub>
 
 <a name="label-studio"></a>
-### #&#8288;14 [label-studio](https://github.com/humansignal/label-studio) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [label-studio](https://github.com/humansignal/label-studio) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Nov 2026</sub>
 
 **Multi-user data labeling tool for audio, text, images, video and time series.**
 
@@ -308,7 +308,7 @@ Marker is a Python library and CLI that converts PDF, image, PPTX, DOCX, XLSX, H
 <sub>GPU optional · Needs PyTorch, Python 3.10+, vLLM via Docker with NVIDIA Container Toolkit (GPU), llama.cpp llama-server (CPU / Apple Silicon), optional LLM service for --use_llm · Models: surya VLM, Gemini, Claude, OpenAI-compatible, Azure · [Repo](https://github.com/datalab-to/marker) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/marker/)</sub>
 
 <a name="paddleocr"></a>
-### #&#8288;18 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;18 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · Apache-2.0 · Sep 2026</sub>
 
 **OCR and document parsing toolkit that outputs Markdown and JSON from PDFs and images.**
 
@@ -415,26 +415,8 @@ docTR is a Python library that extracts text from PDFs and images by running a t
 
 <sub>GPU optional · Docker · Needs PyTorch, Streamlit (demo), FastAPI (API template), weasyprint (URL input) · Models: DBNet, LinkNet, FAST, CRNN, SAR · port 8002 · [Repo](https://github.com/mindee/doctr) · [▶️ Demo ↗](https://huggingface.co/spaces/mindee/doctr) · [📖 Docs ↗](https://mindee.github.io/doctr/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doctr/)</sub>
 
-<a name="chandra"></a>
-### #&#8288;24 [chandra](https://github.com/datalab-to/chandra) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (42) · Freshness: active (96) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
-
-**OCR model that converts PDFs and images to Markdown, HTML or JSON with layout.**
-
-Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images and PDFs into Markdown, HTML or JSON while keeping layout, tables, math, forms and handwriting. It runs locally through HuggingFace or against a vLLM server, and ships a Streamlit demo app. Weights use a modified OpenRAIL-M license, separate from the Apache-2.0 code.
-
-- **+** Outputs Markdown, HTML and JSON with layout, extracted images and captions
-- **+** Supports 90+ languages; README reports 77.8% average on its own 43-language benchmark
-- **+** Two backends: local HuggingFace or vLLM server with parallel workers
-- **+** Handles handwriting, math, tables and checkbox forms; CLI takes page ranges and directories
-- **−** Weights are OpenRAIL-M: free only for research, personal use and startups under $2M
-- **−** Hosted Datalab API is stated to be more accurate than the open weights
-- **−** Benchmarks are mostly self-published; throughput is 1.44 pages/s on an H100
-- **−** The chandra_vllm launcher depends on Docker; VRAM and RAM requirements are unknown
-
-<sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
-
 <a name="tesseract-js"></a>
-### #&#8288;25 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (76) · Freshness: recent (68) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
+### #&#8288;24 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (76) · Freshness: recent (67) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
 
 **JavaScript OCR library that runs Tesseract in the browser and Node.js.**
 
@@ -451,8 +433,26 @@ Tesseract.js wraps a WebAssembly port of the Tesseract OCR engine and extracts t
 
 <sub>no GPU · Docker · Needs Node.js 16+ (v7, server use), tesseract.js-core (WebAssembly port of Tesseract) · Models: Tesseract traineddata language files · [Repo](https://github.com/naptha/tesseract.js) · [▶️ Demo ↗](http://tesseract.projectnaptha.com/) · [📖 Docs ↗](https://github.com/naptha/tesseract.js/blob/master/docs/api.md) · [🌐 Site ↗](https://tesseract.projectnaptha.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tesseract-js/)</sub>
 
+<a name="chandra"></a>
+### #&#8288;25 [chandra](https://github.com/datalab-to/chandra) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (42) · Freshness: active (96) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+
+**OCR model that converts PDFs and images to Markdown, HTML or JSON with layout.**
+
+Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images and PDFs into Markdown, HTML or JSON while keeping layout, tables, math, forms and handwriting. It runs locally through HuggingFace or against a vLLM server, and ships a Streamlit demo app. Weights use a modified OpenRAIL-M license, separate from the Apache-2.0 code.
+
+- **+** Outputs Markdown, HTML and JSON with layout, extracted images and captions
+- **+** Supports 90+ languages; README reports 77.8% average on its own 43-language benchmark
+- **+** Two backends: local HuggingFace or vLLM server with parallel workers
+- **+** Handles handwriting, math, tables and checkbox forms; CLI takes page ranges and directories
+- **−** Weights are OpenRAIL-M: free only for research, personal use and startups under $2M
+- **−** Hosted Datalab API is stated to be more accurate than the open weights
+- **−** Benchmarks are mostly self-published; throughput is 1.44 pages/s on an H100
+- **−** The chandra_vllm launcher depends on Docker; VRAM and RAM requirements are unknown
+
+<sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
+
 <a name="jina-reader"></a>
-### #&#8288;26 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (40) · Freshness: recent (73) · Maintenance: weak (12) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;26 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (40) · Freshness: recent (72) · Maintenance: weak (12) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
@@ -470,7 +470,7 @@ Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page
 <sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jina-reader/)</sub>
 
 <a name="babeldoc"></a>
-### #&#8288;27 [babeldoc](https://github.com/funstory-ai/babeldoc) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;27 [babeldoc](https://github.com/funstory-ai/babeldoc) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · AGPL-3.0 · Aug 2026</sub>
 
 **PDF paper translator that keeps layout and outputs bilingual PDFs.**
 
@@ -506,7 +506,7 @@ olmOCR converts PDFs, PNGs and JPEGs into Markdown using a 7B vision-language mo
 <sub>GPU required · Docker · Needs vLLM, poppler-utils, NVIDIA GPU (12 GB+ VRAM), AWS S3 (optional, multi-node) · Models: olmOCR-2-7B-1025-FP8, olmOCR-7B-0825-FP8, olmOCR-7B-0725-FP8 · [Repo](https://github.com/allenai/olmocr) · [▶️ Demo ↗](https://olmocr.allenai.org/) · [🌐 Site ↗](https://olmocr.allenai.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/olmocr/)</sub>
 
 <a name="glm-ocr"></a>
-### #&#8288;29 [glm-ocr](https://github.com/zai-org/glm-ocr) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (16) · Freshness: active (98) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;29 [glm-ocr](https://github.com/zai-org/glm-ocr) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (16) · Freshness: active (97) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Oct 2026</sub>
 
 **0.9B OCR model and SDK that parses documents into Markdown and JSON.**
 
@@ -577,7 +577,7 @@ EasyOCR is a Python package that detects text regions with the CRAFT model and r
 <sub>GPU optional · Docker · Needs PyTorch, torchvision · Models: CRAFT detection, CRNN recognition (ResNet/VGG, LSTM, CTC) · [Repo](https://github.com/jaidedai/easyocr) · [▶️ Demo ↗](https://huggingface.co/spaces/tomofi/EasyOCR) · [📖 Docs ↗](https://www.jaided.ai/easyocr/documentation) · [🌐 Site ↗](https://www.jaided.ai/easyocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easyocr/)</sub>
 
 <a name="cleanlab"></a>
-### #&#8288;33 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: known (36) · Freshness: slowing (39) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;33 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: known (36) · Freshness: slowing (38) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
 
 **Python library that finds label errors and outliers in ML datasets.**
 
