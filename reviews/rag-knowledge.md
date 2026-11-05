@@ -166,7 +166,7 @@ GPT Researcher splits a query into research questions with a planner agent, scra
 <sub>no GPU · Docker + Compose · Needs OpenAI API key, Tavily API key, Python 3.12+, TypeSafe API key (optional, Jev filter), Google API key (optional, image generation) · Models: OpenAI, OpenAI-compatible APIs via OPENAI_BASE_URL, Google Gemini (inline images) · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-researcher/)</sub>
 
 <a name="weknora"></a>
-### #&#8288;10 [WeKnora](https://github.com/tencent/weknora) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · custom license · Nov 2026</sub>
+### #&#8288;10 [WeKnora](https://github.com/tencent/weknora) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · custom license · Nov 2026</sub>
 
 **Knowledge base framework with RAG Q&A, tool-using agents and auto-generated wikis.**
 
@@ -183,26 +183,8 @@ WeKnora is a Go-based knowledge framework from Tencent that parses documents (PD
 
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose, Neo4j (optional), MinIO (optional), Langfuse (optional), Ollama (optional) · Models: OpenAI, DeepSeek, Qwen, Zhipu, Hunyuan · port 80 · [Repo](https://github.com/tencent/weknora) · [📖 Docs ↗](https://weknora.weixin.qq.com/docs/) · [🌐 Site ↗](https://weknora.weixin.qq.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weknora/)</sub>
 
-<a name="graphrag"></a>
-### #&#8288;11 [graphrag](https://github.com/microsoft/graphrag) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Nov 2026</sub>
-
-**Pipeline that builds knowledge graphs from text for LLM question answering.**
-
-GraphRAG is a Python data pipeline from Microsoft Research that uses an LLM to extract structured data from unstructured text and form a knowledge graph. That graph is used to build context for question answering over private data. It runs from a command line (`graphrag init`, indexing, querying) with configurable settings and tunable prompts. The project is in maintenance mode: bug fixes and dependency updates only.
-
-- **+** Backed by a published paper (arXiv 2404.16130) and a Microsoft Research blog post
-- **+** Prompt tuning guide for adapting extraction to your own data
-- **+** Installable from PyPI, with a CLI quickstart and hosted documentation
-- **+** MIT license, with a release in September 2026
-- **−** Maintenance mode: no new features and no new PRs accepted
-- **−** Indexing can be expensive in LLM calls; README advises starting small
-- **−** Not an officially supported Microsoft offering; code is a demonstration
-- **−** Config format changes between versions require re-running `graphrag init --force`
-
-<sub>Needs LLM provider · [Repo](https://github.com/microsoft/graphrag) · [📖 Docs ↗](https://microsoft.github.io/graphrag) · [🌐 Site ↗](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graphrag/)</sub>
-
 <a name="rag-anything"></a>
-### #&#8288;12 [rag-anything](https://github.com/hkuds/rag-anything) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
+### #&#8288;11 [rag-anything](https://github.com/hkuds/rag-anything) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
 
 **Python library for RAG over PDFs, Office files, images, tables and equations.**
 
@@ -218,6 +200,24 @@ RAG-Anything is a Python framework built on LightRAG that parses mixed-content d
 - **−** RAM and GPU requirements are not stated; MinerU models download on first use
 
 <sub>Needs LightRAG, MinerU, LibreOffice (Office files), Pillow (image extra), ReportLab (text extra) · Models: OpenAI-compatible LLM, vision and embedding functions · [Repo](https://github.com/hkuds/rag-anything) · [🌐 Site ↗](https://github.com/HKUDS/RAG-Anything) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rag-anything/)</sub>
+
+<a name="graphrag"></a>
+### #&#8288;12 [graphrag](https://github.com/microsoft/graphrag) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Nov 2026</sub>
+
+**Pipeline that builds knowledge graphs from text for LLM question answering.**
+
+GraphRAG is a Python data pipeline from Microsoft Research that uses an LLM to extract structured data from unstructured text and form a knowledge graph. That graph is used to build context for question answering over private data. It runs from a command line (`graphrag init`, indexing, querying) with configurable settings and tunable prompts. The project is in maintenance mode: bug fixes and dependency updates only.
+
+- **+** Backed by a published paper (arXiv 2404.16130) and a Microsoft Research blog post
+- **+** Prompt tuning guide for adapting extraction to your own data
+- **+** Installable from PyPI, with a CLI quickstart and hosted documentation
+- **+** MIT license, with a release in September 2026
+- **−** Maintenance mode: no new features and no new PRs accepted
+- **−** Indexing can be expensive in LLM calls; README advises starting small
+- **−** Not an officially supported Microsoft offering; code is a demonstration
+- **−** Config format changes between versions require re-running `graphrag init --force`
+
+<sub>Needs LLM provider · [Repo](https://github.com/microsoft/graphrag) · [📖 Docs ↗](https://microsoft.github.io/graphrag) · [🌐 Site ↗](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graphrag/)</sub>
 
 <a name="docsgpt"></a>
 ### #&#8288;13 [docsgpt](https://github.com/arc53/docsgpt) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
@@ -274,7 +274,7 @@ Morphic is a Next.js (TypeScript) AI search app that answers queries with cited 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Tavily, Brave, Exa, Supabase · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic) · [📖 Docs ↗](https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphic/)</sub>
 
 <a name="txtai"></a>
-### #&#8288;16 [txtai](https://github.com/neuml/txtai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [txtai](https://github.com/neuml/txtai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **Python embeddings database with pipelines, workflows and agents for search and RAG.**
 
@@ -364,7 +364,7 @@ Utopia ingests documents and database tables into a bitemporal knowledge graph, 
 <sub>no GPU · Docker + Compose · Needs Postgres with pgvector, OpenAI-compatible chat model endpoint, OpenAI-compatible embedding endpoint, MinerU or Volcengine Ark (optional, for scans) · Models: OpenAI-compatible endpoints, DeepSeek, Qwen, GLM, Ollama · port 1516 · [Repo](https://github.com/deeplethe/utopia) · [🌐 Site ↗](https://utopia.bi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/utopia/)</sub>
 
 <a name="pipeshub"></a>
-### #&#8288;21 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;21 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2026</sub>
 
 **Permission-aware search and cited answers across Slack, Drive, GitHub and 50+ systems.**
 
@@ -505,7 +505,7 @@ llmware is a Python library that combines a model catalog (300+ models in GGUF, 
 <sub>GPU optional · Needs Milvus, ChromaDB · Models: GGUF, OpenVINO, ONNXRuntime, ONNXRuntime-QNN, PyTorch · [Repo](https://github.com/llmware-ai/llmware) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llmware/)</sub>
 
 <a name="docling-serve"></a>
-### #&#8288;29 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
+### #&#8288;29 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
 
 **Docling document conversion as an HTTP API with playground UI.**
 

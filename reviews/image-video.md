@@ -22,7 +22,7 @@ Frigate is a network video recorder that runs object detection locally on IP cam
 <sub>GPU optional · Docker + Compose · Needs MQTT, Home Assistant (optional), IP cameras (RTSP) · Models: TensorFlow · [Repo](https://github.com/blakeblackshear/frigate) · [📖 Docs ↗](https://docs.frigate.video) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/frigate/)</sub>
 
 <a name="moneyprinterturbo"></a>
-### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 139k · MIT · Nov 2026</sub>
+### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 140k · MIT · Nov 2026</sub>
 
 **Generates short videos from a topic, with script, footage, voiceover and subtitles.**
 
@@ -165,7 +165,7 @@ LTX-2 is a 22B-parameter DiT model from Lightricks that generates video with syn
 <sub>GPU required · Needs uv, Hugging Face CLI, PyTorch, CUDA · Models: LTX-2.5 22B distilled, LTX-2.5 22B dev, LTX-2.3, Gemma 4 12B text encoder, safetensors · [Repo](https://github.com/lightricks/ltx-2) · [▶️ Demo ↗](https://console.ltx.video/playground) · [🌐 Site ↗](https://ltx.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ltx-2/)</sub>
 
 <a name="stable-diffusion-cpp"></a>
-### #&#8288;10 [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2026</sub>
+### #&#8288;10 [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2026</sub>
 
 **C/C++ inference for Stable Diffusion, Flux, Qwen-Image and Wan video models.**
 
@@ -254,7 +254,7 @@ ComfyUI-Manager is a custom node for ComfyUI that adds a Manager menu to install
 <sub>no GPU · Needs ComfyUI, git, Python 3 · [Repo](https://github.com/comfy-org/comfyui-manager) · [📖 Docs ↗](https://docs.comfy.org/registry/overview) · [🌐 Site ↗](https://ltdrdata.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-manager/)</sub>
 
 <a name="modly"></a>
-### #&#8288;15 [modly](https://github.com/lightningpixel/modly) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · custom license · Oct 2026</sub>
+### #&#8288;15 [modly](https://github.com/lightningpixel/modly) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · custom license · Oct 2026</sub>
 
 **Desktop app that generates 3D meshes from photos using local models.**
 

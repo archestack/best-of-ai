@@ -341,26 +341,8 @@ Brigade is a Node.js gateway and terminal chat UI that runs multiple isolated ag
 
 <sub>no GPU · Needs Node.js 22.12+, Composio (optional), Convex (optional), Ollama (optional), headless Chrome and FFmpeg (optional, video) · Models: Anthropic, OpenAI, Gemini, OpenRouter, Groq · port 7777 · [Repo](https://github.com/spinabot/brigade) · [🌐 Site ↗](https://brigade.spinabot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/brigade/)</sub>
 
-<a name="leon"></a>
-### #&#8288;20 [leon](https://github.com/leon-ai/leon) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
-
-**Self-hosted personal assistant with tools, layered memory and agent-style execution.**
-
-Leon is a Node.js personal assistant that runs locally on Linux, macOS or Windows and serves a web app on port 5366. It runs in smart, controlled (deterministic native skills) or agent (step-by-step planning) mode, with tools, layered memory, and desktop and browser computer use. The 2.0 Developer Preview is on the develop branch; the legacy version is on master.
-
-- **+** Three execution modes: smart, controlled (deterministic skills), and agent (step-by-step planning)
-- **+** Layered memory for durable preferences, daily context and recent discussion
-- **+** Supports both local and remote AI providers
-- **+** Extensible through native skills, SKILL.md agent skills, toolkits and bridges
-- **−** 2.0 is a Developer Preview; new documentation is not ready
-- **−** Public docs site mostly describes the legacy architecture
-- **−** Installs from source with pnpm; no Docker or release builds
-- **−** Few contributors; developed mostly in spare time, so progress is uneven
-
-<sub>Needs Node.js >= 24, pnpm, Python (bridges and tcp_server) · Models: local models, remote AI providers · port 5366 · [Repo](https://github.com/leon-ai/leon) · [🌐 Site ↗](https://getleon.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leon/)</sub>
-
 <a name="agenticseek"></a>
-### #&#8288;21 [agenticseek](https://github.com/fosowl/agenticseek) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;20 [agenticseek](https://github.com/fosowl/agenticseek) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · GPL-3.0 · Oct 2026</sub>
 
 **Local agent that browses the web, writes code and plans tasks.**
 
@@ -376,6 +358,24 @@ AgenticSeek is a self-hosted Manus-style assistant that routes each request to a
 - **−** Prompts are tuned for Deepseek; OpenAI and Gemini models may handle browsing poorly
 
 <sub>GPU optional · Docker + Compose · Needs Docker Compose, SearxNG, Redis, Python 3.10, Ollama or LM Studio (for local models) · Models: Ollama, LM Studio, OpenAI-compatible (llama.cpp), OpenAI, Google Gemini · port 3000 · README: alternative to Manus · [Repo](https://github.com/fosowl/agenticseek) · [🌐 Site ↗](https://fosowl.github.io/agenticSeek.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agenticseek/)</sub>
+
+<a name="leon"></a>
+### #&#8288;21 [leon](https://github.com/leon-ai/leon) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
+
+**Self-hosted personal assistant with tools, layered memory and agent-style execution.**
+
+Leon is a Node.js personal assistant that runs locally on Linux, macOS or Windows and serves a web app on port 5366. It runs in smart, controlled (deterministic native skills) or agent (step-by-step planning) mode, with tools, layered memory, and desktop and browser computer use. The 2.0 Developer Preview is on the develop branch; the legacy version is on master.
+
+- **+** Three execution modes: smart, controlled (deterministic skills), and agent (step-by-step planning)
+- **+** Layered memory for durable preferences, daily context and recent discussion
+- **+** Supports both local and remote AI providers
+- **+** Extensible through native skills, SKILL.md agent skills, toolkits and bridges
+- **−** 2.0 is a Developer Preview; new documentation is not ready
+- **−** Public docs site mostly describes the legacy architecture
+- **−** Installs from source with pnpm; no Docker or release builds
+- **−** Few contributors; developed mostly in spare time, so progress is uneven
+
+<sub>Needs Node.js >= 24, pnpm, Python (bridges and tcp_server) · Models: local models, remote AI providers · port 5366 · [Repo](https://github.com/leon-ai/leon) · [🌐 Site ↗](https://getleon.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leon/)</sub>
 
 <a name="operit"></a>
 ### #&#8288;22 [operit](https://github.com/aaswordman/operit) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · LGPL-3.0 · Nov 2026</sub>

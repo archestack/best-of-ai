@@ -5,7 +5,7 @@ Repositories of open-weight models with the code to run them: LLMs, vision, spee
 <sub>🌐 Also on the web: [Open models on archestack.com](https://archestack.com/best-of-ai/models/), each project on its own page.</sub>
 
 <a name="ruview"></a>
-### 🥇 [ruview](https://github.com/ruvnet/ruview) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 102k · MIT · Oct 2026</sub>
+### 🥇 [ruview](https://github.com/ruvnet/ruview) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 103k · MIT · Oct 2026</sub>
 
 **WiFi CSI sensing on ESP32 for presence, breathing, heart rate and pose.**
 
@@ -610,26 +610,8 @@ Reference implementation of RWKV-7 (and earlier v5/v6), an RNN-style language mo
 
 <sub>GPU required · Needs PyTorch 2.5+, CUDA 12.4+, DeepSpeed, pytorch-lightning 1.9.5, wandb, ninja · Models: RWKV-7, RWKV-6, RWKV-5, PyTorch .pth, GGUF (linked) · [Repo](https://github.com/blinkdl/rwkv-lm) · [▶️ Demo ↗](https://huggingface.co/spaces/BlinkDL/RWKV-Gradio-1) · [📖 Docs ↗](https://wiki.rwkv.com) · [🌐 Site ↗](https://rwkv.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rwkv-lm/)</sub>
 
-<a name="weathernext"></a>
-### #&#8288;35 [weathernext](https://github.com/google-deepmind/weathernext) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · Apache-2.0 · Sep 2026</sub>
-
-**JAX code and weights for DeepMind's WeatherNext 2 and cyclone forecast models.**
-
-Research code to run WeatherNext 2, WeatherNext Cyclones, and the earlier GraphCast and GenCast models for global medium-range weather and tropical cyclone forecasting. Pretrained weights are in a Google Cloud bucket, and a Colab notebook covers loading weights, autoregressive rollouts, plotting and the cyclone tracker. Full-size 0.25° models need an H100 or TPU; the 1° Mini models are meant for smaller hardware.
-
-- **+** Includes weights for operational 0.25° models and checkpoints that reproduce the Nature cyclone paper
-- **+** Colab notebook defaults to the 1° Mini model on a free v5e-1 TPU runtime
-- **+** Also contains GraphCast and GenCast code plus shared rollout and loss utilities
-- **+** Includes training loss and gradient-step code, not just inference
-- **−** README calls it research code with no API stability guarantees; pinning a release is advised
-- **−** Non-Mini models need an H100 or TPU v5p; Mini models run on a P100
-- **−** Optimised for TPU; GPU use requires switching the attention implementation
-- **−** Non-code materials are CC BY 4.0; only code and notebooks are Apache 2.0
-
-<sub>GPU required · Needs JAX, Google Cloud Storage (weights), ERA5 (training), ECMWF HRES (initial conditions), WeatherBench2 · Models: WeatherNext 2, WeatherNext Cyclones, WeatherNext Cyclones Mini, GraphCast, GenCast · [Repo](https://github.com/google-deepmind/weathernext) · [▶️ Demo ↗](https://colab.research.google.com/github/google-deepmind/weathernext/blob/master/docs/weathernext2/wn2_demo.ipynb) · [📖 Docs ↗](https://developers.google.com/weathernext/guides/models) · [🌐 Site ↗](https://deepmind.google.com/science/weatherlab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weathernext/)</sub>
-
 <a name="qwen"></a>
-### #&#8288;36 [qwen](https://github.com/qwenlm/qwen) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (69) · Freshness: slowing (44) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;35 [qwen](https://github.com/qwenlm/qwen) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (69) · Freshness: slowing (44) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Mar 2026</sub>
 
 **First-generation Qwen open-weight LLMs, 1.8B to 72B, with inference and finetuning code.**
 
@@ -645,6 +627,24 @@ Repository for the original Qwen base and chat models at 1.8B, 7B, 14B and 72B, 
 - **−** No tagged releases; README says RLHF chat models not released yet
 
 <sub>GPU optional · Docker · Needs PyTorch, Transformers, flash-attention (optional), vLLM (optional), FastChat (optional) · Models: Qwen-1.8B, Qwen-7B, Qwen-14B, Qwen-72B, Qwen-Chat · [Repo](https://github.com/qwenlm/qwen) · [▶️ Demo ↗](https://modelscope.cn/studios/qwen/Qwen-72B-Chat-Demo/summary) · [📖 Docs ↗](https://arxiv.org/abs/2309.16609) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwen/)</sub>
+
+<a name="weathernext"></a>
+### #&#8288;36 [weathernext](https://github.com/google-deepmind/weathernext) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · Apache-2.0 · Sep 2026</sub>
+
+**JAX code and weights for DeepMind's WeatherNext 2 and cyclone forecast models.**
+
+Research code to run WeatherNext 2, WeatherNext Cyclones, and the earlier GraphCast and GenCast models for global medium-range weather and tropical cyclone forecasting. Pretrained weights are in a Google Cloud bucket, and a Colab notebook covers loading weights, autoregressive rollouts, plotting and the cyclone tracker. Full-size 0.25° models need an H100 or TPU; the 1° Mini models are meant for smaller hardware.
+
+- **+** Includes weights for operational 0.25° models and checkpoints that reproduce the Nature cyclone paper
+- **+** Colab notebook defaults to the 1° Mini model on a free v5e-1 TPU runtime
+- **+** Also contains GraphCast and GenCast code plus shared rollout and loss utilities
+- **+** Includes training loss and gradient-step code, not just inference
+- **−** README calls it research code with no API stability guarantees; pinning a release is advised
+- **−** Non-Mini models need an H100 or TPU v5p; Mini models run on a P100
+- **−** Optimised for TPU; GPU use requires switching the attention implementation
+- **−** Non-code materials are CC BY 4.0; only code and notebooks are Apache 2.0
+
+<sub>GPU required · Needs JAX, Google Cloud Storage (weights), ERA5 (training), ECMWF HRES (initial conditions), WeatherBench2 · Models: WeatherNext 2, WeatherNext Cyclones, WeatherNext Cyclones Mini, GraphCast, GenCast · [Repo](https://github.com/google-deepmind/weathernext) · [▶️ Demo ↗](https://colab.research.google.com/github/google-deepmind/weathernext/blob/master/docs/weathernext2/wn2_demo.ipynb) · [📖 Docs ↗](https://developers.google.com/weathernext/guides/models) · [🌐 Site ↗](https://deepmind.google.com/science/weatherlab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weathernext/)</sub>
 
 <a name="clip"></a>
 ### #&#8288;37 [clip](https://github.com/openai/clip) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (84) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · MIT · Mar 2026</sub>
@@ -789,7 +789,7 @@ Moondream is an open-weight vision language model that answers questions about i
 <sub>Models: Moondream 2B, Moondream 0.5B · [Repo](https://github.com/m87-labs/moondream) · [▶️ Demo ↗](https://moondream.ai/playground) · [📖 Docs ↗](https://moondream.ai/c/docs/quickstart) · [🌐 Site ↗](https://moondream.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moondream/)</sub>
 
 <a name="chinese-bert-wwm"></a>
-### #&#8288;45 [chinese-bert-wwm](https://github.com/ymcui/chinese-bert-wwm) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (32) · Freshness: recent (60) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;45 [chinese-bert-wwm](https://github.com/ymcui/chinese-bert-wwm) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (32) · Freshness: recent (60) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Apr 2026</sub>
 
 **Chinese BERT and RoBERTa checkpoints pre-trained with whole word masking.**
 
