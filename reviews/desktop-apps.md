@@ -202,26 +202,8 @@ OpenWorker is a macOS and Windows desktop app backed by a local Python agent ser
 
 <sub>no GPU · Needs Python 3.10+ (source), Node 20+ (source), Rust toolchain (desktop build from source), Ollama (optional), NVIDIA OpenShell (optional) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen · port 8765 · [Repo](https://github.com/andrewyng/openworker) · [🌐 Site ↗](https://openworker.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openworker/)</sub>
 
-<a name="read-frog"></a>
-### #&#8288;12 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · GPL-3.0 · Nov 2026</sub>
-
-**Browser extension that translates pages and subtitles for language learners.**
-
-Read Frog is a Chrome, Edge and Firefox extension for language learners. It translates web pages in bilingual or translation-only mode, translates selected text, and adds bilingual subtitles on YouTube, X and Netflix. Saved vocabulary goes to Notebase and is reviewed as flashcards on a spaced-repetition schedule. It connects to 20+ LLM providers through the Vercel AI SDK, plus Google Translate, Microsoft Translate and DeepLX.
-
-- **+** Works with 20+ providers including OpenAI, Anthropic, Gemini, DeepSeek and local Ollama
-- **+** Free translation backends available: Google Translate, Microsoft Translate, DeepLX
-- **+** Request batching claims up to 70% lower API cost, with retry and per-request fallback
-- **+** Custom AI actions with structured output, plus flashcard review of saved words
-- **−** Dual-licensed GPLv3 and commercial; closed-source use needs a separate license
-- **−** AI transcription for YouTube videos without captions is limited to Pro and Ultra plans
-- **−** README says the project is under active development, so behavior may change
-- **−** Runs only inside Chrome, Edge or Firefox; no standalone app
-
-<sub>no GPU · Needs Chrome, Edge or Firefox, LLM provider API key or free translation service · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, xAI Grok · [Repo](https://github.com/mengxi-ream/read-frog) · [📖 Docs ↗](https://www.readfrog.app/en/docs) · [🌐 Site ↗](https://www.readfrog.app/en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/read-frog/)</sub>
-
 <a name="eigent"></a>
-### #&#8288;13 [eigent](https://github.com/eigent-ai/eigent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [eigent](https://github.com/eigent-ai/eigent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **Desktop app running single agents or parallel multi-agent teams on your machine.**
 
@@ -239,7 +221,7 @@ Eigent is an Electron and React desktop app with a FastAPI backend that runs AI 
 <sub>GPU optional · Needs Node.js 18-22, npm, uv · Models: vLLM, Ollama, LM Studio, cloud APIs, enterprise gateways · [Repo](https://github.com/eigent-ai/eigent) · [📖 Docs ↗](https://docs.eigent.ai) · [🌐 Site ↗](https://www.eigent.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eigent/)</sub>
 
 <a name="presenton"></a>
-### #&#8288;14 [presenton](https://github.com/presenton/presenton) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [presenton](https://github.com/presenton/presenton) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Generates editable PPTX and PDF slide decks from prompts or documents.**
 
@@ -255,6 +237,24 @@ Presenton is a self-hosted presentation generator that builds slides from a prom
 - **−** README documents only a source build for the desktop app; installers are on the website
 
 <sub>GPU optional · Docker + Compose · Needs Docker, or Node.js, Python 3.11 and uv for Electron, LLM provider or API key · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Azure OpenAI · port 5001 · [Repo](https://github.com/presenton/presenton) · [📖 Docs ↗](https://docs.presenton.ai/) · [🌐 Site ↗](https://presenton.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/presenton/)</sub>
+
+<a name="read-frog"></a>
+### #&#8288;14 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · GPL-3.0 · Nov 2026</sub>
+
+**Browser extension that translates pages and subtitles for language learners.**
+
+Read Frog is a Chrome, Edge and Firefox extension for language learners. It translates web pages in bilingual or translation-only mode, translates selected text, and adds bilingual subtitles on YouTube, X and Netflix. Saved vocabulary goes to Notebase and is reviewed as flashcards on a spaced-repetition schedule. It connects to 20+ LLM providers through the Vercel AI SDK, plus Google Translate, Microsoft Translate and DeepLX.
+
+- **+** Works with 20+ providers including OpenAI, Anthropic, Gemini, DeepSeek and local Ollama
+- **+** Free translation backends available: Google Translate, Microsoft Translate, DeepLX
+- **+** Request batching claims up to 70% lower API cost, with retry and per-request fallback
+- **+** Custom AI actions with structured output, plus flashcard review of saved words
+- **−** Dual-licensed GPLv3 and commercial; closed-source use needs a separate license
+- **−** AI transcription for YouTube videos without captions is limited to Pro and Ultra plans
+- **−** README says the project is under active development, so behavior may change
+- **−** Runs only inside Chrome, Edge or Firefox; no standalone app
+
+<sub>no GPU · Needs Chrome, Edge or Firefox, LLM provider API key or free translation service · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, xAI Grok · [Repo](https://github.com/mengxi-ream/read-frog) · [📖 Docs ↗](https://www.readfrog.app/en/docs) · [🌐 Site ↗](https://www.readfrog.app/en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/read-frog/)</sub>
 
 <a name="deepchat"></a>
 ### #&#8288;15 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
@@ -292,7 +292,7 @@ PocketPal AI is a React Native app for iOS and Android that runs quantized GGUF 
 <sub>GPU optional · Needs llama.rn, llama.cpp, ONNX Runtime, WatermelonDB · Models: GGUF, ONNX (TTS) · [Repo](https://github.com/a-ghorbani/pocketpal-ai) · [🌐 Site ↗](https://pocketpal.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pocketpal-ai/)</sub>
 
 <a name="clawx"></a>
-### #&#8288;17 [clawx](https://github.com/valuecell-ai/clawx) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Oct 2026</sub>
+### #&#8288;17 [clawx](https://github.com/valuecell-ai/clawx) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
 
 **Electron desktop app for running and managing OpenClaw agents without a terminal.**
 

@@ -5,7 +5,7 @@ Isolated runtimes where agents execute code, browse or use tools safely. Back to
 <sub>🌐 Also on the web: [Sandboxes on archestack.com](https://archestack.com/best-of-ai/sandboxes/), each project on its own page.</sub>
 
 <a name="lightpanda"></a>
-### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · AGPL-3.0 · Nov 2026</sub>
+### 🥇 [Lightpanda](https://github.com/lightpanda-io/browser) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · AGPL-3.0 · Nov 2026</sub>
 
 **Headless browser written in Zig for agents and scraping, with CDP and MCP.**
 
@@ -23,7 +23,7 @@ Lightpanda is a headless browser written from scratch in Zig, using V8 for JavaS
 <sub>no GPU · Docker · Needs Puppeteer or Playwright (optional client), LLM provider API key (agent mode only) · Models: Anthropic, OpenAI, Gemini, Google Vertex AI, Mistral · port 9222 · [Repo](https://github.com/lightpanda-io/browser) · [📖 Docs ↗](https://lightpanda.io/docs/usage/agent) · [🌐 Site ↗](https://lightpanda.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightpanda/)</sub>
 
 <a name="openshell"></a>
-### 🥈 [OpenShell](https://github.com/nvidia/openshell) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · Apache-2.0 · Nov 2026</sub>
+### 🥈 [OpenShell](https://github.com/nvidia/openshell) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · Apache-2.0 · Nov 2026</sub>
 
 **Policy-enforced sandbox runtime for autonomous AI agents.**
 
@@ -113,7 +113,7 @@ CubeSandbox runs each agent sandbox in its own KVM MicroVM, built on RustVMM, an
 <sub>no GPU · Docker · Needs KVM, Linux x86_64, S3 (optional, for cross-node pause/resume) · port 12088 · [Repo](https://github.com/tencentcloud/cubesandbox) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cubesandbox/)</sub>
 
 <a name="monty"></a>
-### #&#8288;7 [monty](https://github.com/pydantic/monty) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · MIT · Nov 2026</sub>
+### #&#8288;7 [monty](https://github.com/pydantic/monty) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · MIT · Nov 2026</sub>
 
 **Embedded Python interpreter in Rust for running LLM-generated code.**
 
@@ -131,7 +131,7 @@ Monty is a Python 3.14 subset interpreter written in Rust, installed as a Python
 <sub>no GPU · [Repo](https://github.com/pydantic/monty) · [📖 Docs ↗](https://pydantic.dev/docs/monty/) · [🌐 Site ↗](https://pydantic.dev/docs/monty/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/monty/)</sub>
 
 <a name="microsandbox"></a>
-### #&#8288;8 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;8 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Nov 2026</sub>
 
 **Embeddable local microVM sandboxes for running untrusted code and AI agents.**
 
@@ -148,7 +148,7 @@ Microsandbox boots OCI images (Docker Hub, GHCR, any registry) as hardware-isola
 <sub>no GPU · Docker · Needs KVM (Linux), WHP (Windows), OCI registry access · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev) · [🌐 Site ↗](https://microsandbox.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/microsandbox/)</sub>
 
 <a name="steel-browser"></a>
-### #&#8288;9 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · Apache-2.0 · Nov 2026</sub>
 
 **Browser API that manages Chrome sessions for Puppeteer, Playwright and Selenium.**
 

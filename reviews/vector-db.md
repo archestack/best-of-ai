@@ -165,7 +165,7 @@ Zvec is a C++ vector database that embeds in the application process instead of 
 <sub>no GPU · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
 
 <a name="pgvector"></a>
-### #&#8288;10 [pgvector](https://github.com/pgvector/pgvector) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Nov 2026</sub>
+### #&#8288;10 [pgvector](https://github.com/pgvector/pgvector) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Nov 2026</sub>
 
 **PostgreSQL extension for vector similarity search with HNSW and IVFFlat.**
 

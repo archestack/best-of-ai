@@ -77,7 +77,7 @@ LiteLLM translates requests in the OpenAI format to more than 100 LLM providers,
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure · port 4000 · [Repo](https://github.com/berriai/litellm) · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/litellm/)</sub>
 
 <a name="freellmapi"></a>
-### #&#8288;5 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Nov 2026</sub>
+### #&#8288;5 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Nov 2026</sub>
 
 **OpenAI-compatible gateway pooling free-tier LLM providers with automatic failover.**
 
@@ -273,7 +273,7 @@ ClawRouter runs a local proxy on port 8402 with an OpenAI-compatible endpoint. I
 <sub>no GPU · Needs Node.js, BlockRun gateway (blockrun.ai), USDC wallet (Solana or Base) or BlockRun API key · Models: OpenAI, Anthropic, Google, xAI, DeepSeek · port 8402 · [Repo](https://github.com/blockrunai/clawrouter) · [🌐 Site ↗](https://blockrun.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawrouter/)</sub>
 
 <a name="langwatch"></a>
-### #&#8288;16 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
 
 **LLM tracing, evals, gateway and governance platform for agents and coding assistants.**
 
@@ -362,7 +362,7 @@ Giskard v3 is a modular Python library for testing agentic systems. giskard-chec
 <sub>no GPU · Needs Python 3.12+, LLM provider API key (e.g. OpenAI) for judges and scan generators · Models: OpenAI, Anthropic, other providers via giskard-llm · [Repo](https://github.com/giskard-ai/giskard-oss) · [📖 Docs ↗](https://docs.giskard.ai/oss) · [🌐 Site ↗](https://www.giskard.ai/?utm_source=github&utm_medium=github&utm_campaign=github_readme&utm_id=readmeblog) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/giskard-oss/)</sub>
 
 <a name="openllmetry"></a>
-### #&#8288;21 [openllmetry](https://github.com/traceloop/openllmetry) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;21 [openllmetry](https://github.com/traceloop/openllmetry) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Nov 2026</sub>
 
 **OpenTelemetry instrumentations and SDK for tracing LLM calls and vector DBs.**
 
@@ -416,7 +416,7 @@ OptiLLM is a Python proxy that exposes an OpenAI-compatible chat completions end
 <sub>GPU optional · Docker + Compose · Needs OpenAI-compatible API or LiteLLM provider, spaCy (privacy plugin), Selenium and Chrome (web_search plugin) · Models: OpenAI, Azure OpenAI, Cerebras, Anthropic, Google Gemini · port 8000 · [Repo](https://github.com/algorithmicsuperintelligence/optillm) · [▶️ Demo ↗](https://huggingface.co/spaces/codelion/optillm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/optillm/)</sub>
 
 <a name="gomodel"></a>
-### #&#8288;24 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
+### #&#8288;24 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
 
 **Go LLM gateway with OpenAI and Anthropic-compatible APIs, caching and budgets.**
 
@@ -452,7 +452,7 @@ vLLM Semantic Router sits between an agent harness and several configured model 
 <sub>Docker · Models: local, private and cloud backends · [Repo](https://github.com/vllm-project/semantic-router) · [▶️ Demo ↗](https://app.vllm-sr.ai/playground) · [📖 Docs ↗](https://vllm-sr.ai/docs/intro/) · [🌐 Site ↗](https://vllm-sr.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-router/)</sub>
 
 <a name="agentgateway"></a>
-### #&#8288;26 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;26 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Nov 2026</sub>
 
 **One proxy for LLM, MCP and A2A traffic with auth and RBAC.**
 

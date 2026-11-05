@@ -431,7 +431,7 @@ Hive runs a persistent "queen" agent that does one unit of a job itself, saves t
 <sub>GPU optional · Needs Python 3.11+, Node.js 20+, git, uv, ripgrep, Ollama (optional, for local models) · Models: Anthropic, OpenAI, Google Gemini, Groq, Cerebras · port 8787 · [Repo](https://github.com/aden-hive/hive) · [📖 Docs ↗](https://docs.adenhq.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hive/)</sub>
 
 <a name="yuxi"></a>
-### #&#8288;25 [yuxi](https://github.com/xerrors/yuxi) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
+### #&#8288;25 [yuxi](https://github.com/xerrors/yuxi) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
 
 **Multi-tenant agent platform with Milvus RAG, Neo4j graphs and LangGraph agents.**
 
@@ -788,7 +788,7 @@ PaperBanana turns a paper's method section and figure caption into publication-s
 <sub>no GPU · Docker · Needs Google Gemini or OpenRouter API key, uv, Python 3.12, PaperBananaBench dataset (Hugging Face) · Models: Gemini, OpenRouter, OpenAI gpt-image · [Repo](https://github.com/dwzhu-pku/paperbanana) · [▶️ Demo ↗](https://huggingface.co/spaces/dwzhu/PaperBanana) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperbanana/)</sub>
 
 <a name="intentkit"></a>
-### #&#8288;45 [intentkit](https://github.com/crestalnetwork/intentkit) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Sep 2026</sub>
+### #&#8288;45 [intentkit](https://github.com/crestalnetwork/intentkit) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Sep 2026</sub>
 
 **Self-hosted cluster of collaborating AI agents with a skill system and API.**
 

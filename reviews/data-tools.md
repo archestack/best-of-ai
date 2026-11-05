@@ -237,7 +237,7 @@ CocoIndex is a Python framework with a Rust core for declaring how source data (
 <sub>Needs Python 3.10-3.13, Postgres (pgvector) or LanceDB as target · Models: sentence-transformers · [Repo](https://github.com/cocoindex-io/cocoindex) · [📖 Docs ↗](https://cocoindex.io/docs) · [🌐 Site ↗](https://cocoindex.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cocoindex/)</sub>
 
 <a name="labelme"></a>
-### #&#8288;14 [labelme](https://github.com/wkentaro/labelme) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;14 [labelme](https://github.com/wkentaro/labelme) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
 
 **Desktop image annotation tool with polygon labeling and SAM-assisted masks.**
 
@@ -291,7 +291,7 @@ The unstructured library parses documents such as PDF, HTML, Word, email and ima
 <sub>Docker · Needs poppler-utils, tesseract-ocr, libmagic-dev, libreoffice · [Repo](https://github.com/unstructured-io/unstructured) · [📖 Docs ↗](https://docs.unstructured.io) · [🌐 Site ↗](https://unstructured.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unstructured/)</sub>
 
 <a name="x-anylabeling"></a>
-### #&#8288;17 [x-anylabeling](https://github.com/cvhub520/x-anylabeling) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;17 [x-anylabeling](https://github.com/cvhub520/x-anylabeling) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Nov 2026</sub>
 
 **Desktop app for AI-assisted annotation of images, video, text and point clouds.**
 
