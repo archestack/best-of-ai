@@ -4,26 +4,8 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 
 <sub>🌐 Also on the web: [Assistants on archestack.com](https://archestack.com/best-of-ai/assistants/), each project on its own page.</sub>
 
-<a name="career-ops"></a>
-### 🥇 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Nov 2026</sub>
-
-**Job-search agent that scores listings, tailors CVs and drafts applications.**
-
-Runs inside an AI coding CLI (Claude Code, Codex, OpenCode, Qwen and others). You paste a job URL or description, and it checks the posting is live, scores fit against your CV, and generates an ATS PDF CV, cover letter and draft answers. It never submits applications or sends email, and keeps data on your machine.
-
-- **+** Drafts only: no auto-submit, and no mail transport in the code
-- **+** No telemetry or backend; CV goes only to the AI provider you choose
-- **+** Covers evaluation, tailored PDF CV, cover letter, contact drafts, tracker and interview prep
-- **+** Portal scanner preconfigured for 100+ companies across Ashby, Greenhouse, Lever and Wellfound
-- **−** Needs a separate AI CLI and provider; it does not run models itself
-- **−** README says early runs are rough until it learns your profile
-- **−** In-code check on CV rewording cannot catch every altered claim
-- **−** PDF output needs Playwright Chromium; non-Debian Linux needs manual libraries
-
-<sub>no GPU · Docker + Compose · Needs Node.js, An AI coding CLI (Claude Code, Codex, OpenCode, Qwen), Playwright Chromium (PDF generation) · Models: Claude Code, Codex, OpenCode, Qwen, local models (see docs/RUNNING_ON_A_BUDGET.md) · [Repo](https://github.com/career-ops-hq/career-ops) · [📖 Docs ↗](https://github.com/career-ops-hq/career-ops/blob/main/docs/SETUP.md) · [🌐 Site ↗](https://career-ops.org/manifesto?utm_source=readme) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/career-ops/)</sub>
-
 <a name="ai-job-search"></a>
-### 🥈 [ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · MIT · Nov 2026</sub>
+### 🥇 [ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · MIT · Nov 2026</sub>
 
 **Claude Code workflow that searches job boards and drafts tailored CVs and cover letters.**
 
@@ -40,8 +22,26 @@ A Claude Code project you fork and fill in with your profile. Slash commands (/s
 
 <sub>no GPU · Needs Claude Code, Python 3.10+, Bun, LaTeX (lualatex, xelatex), pypdf or poppler (optional) · Models: Claude (via Claude Code) · [Repo](https://github.com/ai-job-search-dev/ai-job-search) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-job-search/)</sub>
 
+<a name="career-ops"></a>
+### 🥈 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Nov 2026</sub>
+
+**Job-search agent that scores listings, tailors CVs and drafts applications.**
+
+Runs inside an AI coding CLI (Claude Code, Codex, OpenCode, Qwen and others). You paste a job URL or description, and it checks the posting is live, scores fit against your CV, and generates an ATS PDF CV, cover letter and draft answers. It never submits applications or sends email, and keeps data on your machine.
+
+- **+** Drafts only: no auto-submit, and no mail transport in the code
+- **+** No telemetry or backend; CV goes only to the AI provider you choose
+- **+** Covers evaluation, tailored PDF CV, cover letter, contact drafts, tracker and interview prep
+- **+** Portal scanner preconfigured for 100+ companies across Ashby, Greenhouse, Lever and Wellfound
+- **−** Needs a separate AI CLI and provider; it does not run models itself
+- **−** README says early runs are rough until it learns your profile
+- **−** In-code check on CV rewording cannot catch every altered claim
+- **−** PDF output needs Playwright Chromium; non-Debian Linux needs manual libraries
+
+<sub>no GPU · Docker + Compose · Needs Node.js, An AI coding CLI (Claude Code, Codex, OpenCode, Qwen), Playwright Chromium (PDF generation) · Models: Claude Code, Codex, OpenCode, Qwen, local models (see docs/RUNNING_ON_A_BUDGET.md) · [Repo](https://github.com/career-ops-hq/career-ops) · [📖 Docs ↗](https://github.com/career-ops-hq/career-ops/blob/main/docs/SETUP.md) · [🌐 Site ↗](https://career-ops.org/manifesto?utm_source=readme) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/career-ops/)</sub>
+
 <a name="openclaw"></a>
-### 🥉 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 394k · MIT · Nov 2026</sub>
+### 🥉 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 394k · MIT · Nov 2026</sub>
 
 **Personal AI assistant reachable through Discord, Slack, Telegram, WhatsApp and more.**
 
@@ -77,7 +77,7 @@ OpenHuman is a single-process Rust agent harness shipped as a desktop app (macOS
 <sub>GPU optional · Docker + Compose · Needs Composio (OAuth integrations), Ollama / LM Studio / MLX (optional local models), Docker (optional sandbox) · Models: Ollama, LM Studio, MLX, OpenAI-compatible APIs, 26 BYOK providers · [Repo](https://github.com/tinyhumansai/openhuman) · [📖 Docs ↗](https://tinyhumans.gitbook.io/openhuman/) · [🌐 Site ↗](https://tinyhumans.ai/openhuman) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openhuman/)</sub>
 
 <a name="airi"></a>
-### #&#8288;5 [airi](https://github.com/moeru-ai/airi) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 51k · MIT · Nov 2026</sub>
+### #&#8288;5 [airi](https://github.com/moeru-ai/airi) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 51k · MIT · Nov 2026</sub>
 
 **AI VTuber companion with VRM and Live2D avatars, voice, and game-playing.**
 
@@ -540,7 +540,7 @@ Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Wor
 <sub>Docker + Compose · Compose runs PostgreSQL, SearXNG · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/khoj/)</sub>
 
 <a name="invisible-dots"></a>
-### #&#8288;31 [invisible_dots](https://github.com/feder-cr/invisible_dots) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41 · MIT · Nov 2026</sub>
+### #&#8288;31 [invisible_dots](https://github.com/feder-cr/invisible_dots) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42 · MIT · Nov 2026</sub>
 
 **Self-hosted agent that works on its own VM desktop with a patched Firefox.**
 
@@ -576,7 +576,7 @@ Spacebot is a Rust agent server built for many concurrent users: channel process
 <sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs ↗](https://docs.spacebot.sh) · [🌐 Site ↗](https://spacebot.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spacebot/)</sub>
 
 <a name="mimiclaw"></a>
-### #&#8288;33 [mimiclaw](https://github.com/memovai/mimiclaw) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (6) · Freshness: active (96) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Oct 2026</sub>
+### #&#8288;33 [mimiclaw](https://github.com/memovai/mimiclaw) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (7) · Freshness: active (96) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Oct 2026</sub>
 
 **C firmware that runs a Telegram-controlled AI agent on an ESP32-S3 board.**
 

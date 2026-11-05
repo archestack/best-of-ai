@@ -398,7 +398,7 @@ A monorepo of about 93 example projects, mostly Jupyter notebooks and small apps
 <sub>Needs Ollama, LlamaIndex, CrewAI, Qdrant, Milvus, Firecrawl, AssemblyAI, Opik · Models: Llama 3.2, Llama 3.3, Llama 4, DeepSeek-R1, Qwen3 · [Repo](https://github.com/patchy631/ai-engineering-hub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-engineering-hub/)</sub>
 
 <a name="agents-course"></a>
-### #&#8288;23 [agents-course](https://github.com/huggingface/agents-course) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [agents-course](https://github.com/huggingface/agents-course) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Nov 2026</sub>
 
 **Free Hugging Face course on building agents with smolagents, LlamaIndex, LangGraph.**
 
@@ -505,7 +505,7 @@ A collection of Jupyter notebooks by Niels Rogge showing inference and fine-tuni
 <sub>GPU optional · Needs Hugging Face Transformers, PyTorch, Google Colab · Models: DETR, LayoutLM, LayoutLMv2, LayoutLMv3, Donut · [Repo](https://github.com/nielsrogge/transformers-tutorials) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/transformers-tutorials/)</sub>
 
 <a name="prompt-engineering"></a>
-### #&#8288;29 [prompt_engineering](https://github.com/nirdiamant/prompt_engineering) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · custom license · Oct 2026</sub>
+### #&#8288;29 [prompt_engineering](https://github.com/nirdiamant/prompt_engineering) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · custom license · Oct 2026</sub>
 
 **22 Jupyter notebooks teaching prompt engineering with OpenAI and LangChain.**
 
