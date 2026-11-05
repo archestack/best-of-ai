@@ -41,7 +41,7 @@ Wraps the pinned upstream DeepSeek Harness local Web UI, host service and plugin
 <sub>Needs DeepSeek Harness (bundled, pinned) · Models: unknown · [Repo](https://github.com/anywhere-labs/dsh-desktop) · [📖 Docs ↗](https://github.com/anywhere-labs/dsh-desktop/blob/main/docs/user-guide.md) · [🌐 Site ↗](https://dshdesktop.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-desktop/)</sub>
 
 <a name="screenpipe"></a>
-### 🥉 [screenpipe](https://github.com/screenpipe/screenpipe) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · custom license · Nov 2026</sub>
+### 🥉 [screenpipe](https://github.com/screenpipe/screenpipe) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · custom license · Nov 2026</sub>
 
 **Records screen and audio locally, makes it searchable for you and your agents.**
 
@@ -167,7 +167,7 @@ Chatbox is an Electron app (TypeScript, React) that connects to hosted LLM APIs 
 <sub>no GPU · Needs Ollama (optional, for local models), API keys for hosted providers · Models: OpenAI, Azure OpenAI, Claude, Google Gemini Pro, Ollama · [Repo](https://github.com/chatboxai/chatbox) · [🌐 Site ↗](https://chatboxai.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatbox/)</sub>
 
 <a name="gallery"></a>
-### #&#8288;10 [gallery](https://github.com/google-ai-edge/gallery) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [gallery](https://github.com/google-ai-edge/gallery) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Nov 2026</sub>
 
 **Mobile app for running open LLMs offline on Android and iOS.**
 
@@ -202,23 +202,23 @@ OpenWorker is a macOS and Windows desktop app backed by a local Python agent ser
 
 <sub>no GPU · Needs Python 3.10+ (source), Node 20+ (source), Rust toolchain (desktop build from source), Ollama (optional), NVIDIA OpenShell (optional) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen · port 8765 · [Repo](https://github.com/andrewyng/openworker) · [🌐 Site ↗](https://openworker.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openworker/)</sub>
 
-<a name="presenton"></a>
-### #&#8288;12 [presenton](https://github.com/presenton/presenton) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+<a name="read-frog"></a>
+### #&#8288;12 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · GPL-3.0 · Nov 2026</sub>
 
-**Generates editable PPTX and PDF slide decks from prompts or documents.**
+**Browser extension that translates pages and subtitles for language learners.**
 
-Presenton is a self-hosted presentation generator that builds slides from a prompt, an uploaded document, or a PowerPoint-derived template, and exports editable PPTX or PDF. It runs as a Docker web app or an Electron desktop app, exposes a generation API and a built-in MCP server, and connects to OpenAI, Anthropic, Gemini, Ollama, LM Studio, Bedrock and other providers.
+Read Frog is a Chrome, Edge and Firefox extension for language learners. It translates web pages in bilingual or translation-only mode, translates selected text, and adds bilingual subtitles on YouTube, X and Netflix. Saved vocabulary goes to Notebase and is reviewed as flashcards on a spaced-repetition schedule. It connects to 20+ LLM providers through the Vercel AI SDK, plus Google Translate, Microsoft Translate and DeepLX.
 
-- **+** Exports fully editable PPTX as well as PDF
-- **+** Many text LLM providers, including local Ollama and LM Studio, plus any OpenAI-compatible endpoint
-- **+** Includes a generation API, a built-in MCP server and multi-user workspaces with an admin panel
-- **+** Custom templates in HTML and Tailwind, or generated from an existing PowerPoint file
-- **−** SSO, SCIM, audit logs and Helm charts are only in the Enterprise edition
-- **−** Community template gallery calls a cloud service by default; air-gapped setups must disable it
-- **−** README gives no RAM, VRAM or model-size guidance for local models
-- **−** README documents only a source build for the desktop app; installers are on the website
+- **+** Works with 20+ providers including OpenAI, Anthropic, Gemini, DeepSeek and local Ollama
+- **+** Free translation backends available: Google Translate, Microsoft Translate, DeepLX
+- **+** Request batching claims up to 70% lower API cost, with retry and per-request fallback
+- **+** Custom AI actions with structured output, plus flashcard review of saved words
+- **−** Dual-licensed GPLv3 and commercial; closed-source use needs a separate license
+- **−** AI transcription for YouTube videos without captions is limited to Pro and Ultra plans
+- **−** README says the project is under active development, so behavior may change
+- **−** Runs only inside Chrome, Edge or Firefox; no standalone app
 
-<sub>GPU optional · Docker + Compose · Needs Docker, or Node.js, Python 3.11 and uv for Electron, LLM provider or API key · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Azure OpenAI · port 5001 · [Repo](https://github.com/presenton/presenton) · [📖 Docs ↗](https://docs.presenton.ai/) · [🌐 Site ↗](https://presenton.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/presenton/)</sub>
+<sub>no GPU · Needs Chrome, Edge or Firefox, LLM provider API key or free translation service · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, xAI Grok · [Repo](https://github.com/mengxi-ream/read-frog) · [📖 Docs ↗](https://www.readfrog.app/en/docs) · [🌐 Site ↗](https://www.readfrog.app/en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/read-frog/)</sub>
 
 <a name="eigent"></a>
 ### #&#8288;13 [eigent](https://github.com/eigent-ai/eigent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
@@ -238,23 +238,23 @@ Eigent is an Electron and React desktop app with a FastAPI backend that runs AI 
 
 <sub>GPU optional · Needs Node.js 18-22, npm, uv · Models: vLLM, Ollama, LM Studio, cloud APIs, enterprise gateways · [Repo](https://github.com/eigent-ai/eigent) · [📖 Docs ↗](https://docs.eigent.ai) · [🌐 Site ↗](https://www.eigent.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eigent/)</sub>
 
-<a name="read-frog"></a>
-### #&#8288;14 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · GPL-3.0 · Nov 2026</sub>
+<a name="presenton"></a>
+### #&#8288;14 [presenton](https://github.com/presenton/presenton) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
-**Browser extension that translates pages and subtitles for language learners.**
+**Generates editable PPTX and PDF slide decks from prompts or documents.**
 
-Read Frog is a Chrome, Edge and Firefox extension for language learners. It translates web pages in bilingual or translation-only mode, translates selected text, and adds bilingual subtitles on YouTube, X and Netflix. Saved vocabulary goes to Notebase and is reviewed as flashcards on a spaced-repetition schedule. It connects to 20+ LLM providers through the Vercel AI SDK, plus Google Translate, Microsoft Translate and DeepLX.
+Presenton is a self-hosted presentation generator that builds slides from a prompt, an uploaded document, or a PowerPoint-derived template, and exports editable PPTX or PDF. It runs as a Docker web app or an Electron desktop app, exposes a generation API and a built-in MCP server, and connects to OpenAI, Anthropic, Gemini, Ollama, LM Studio, Bedrock and other providers.
 
-- **+** Works with 20+ providers including OpenAI, Anthropic, Gemini, DeepSeek and local Ollama
-- **+** Free translation backends available: Google Translate, Microsoft Translate, DeepLX
-- **+** Request batching claims up to 70% lower API cost, with retry and per-request fallback
-- **+** Custom AI actions with structured output, plus flashcard review of saved words
-- **−** Dual-licensed GPLv3 and commercial; closed-source use needs a separate license
-- **−** AI transcription for YouTube videos without captions is limited to Pro and Ultra plans
-- **−** README says the project is under active development, so behavior may change
-- **−** Runs only inside Chrome, Edge or Firefox; no standalone app
+- **+** Exports fully editable PPTX as well as PDF
+- **+** Many text LLM providers, including local Ollama and LM Studio, plus any OpenAI-compatible endpoint
+- **+** Includes a generation API, a built-in MCP server and multi-user workspaces with an admin panel
+- **+** Custom templates in HTML and Tailwind, or generated from an existing PowerPoint file
+- **−** SSO, SCIM, audit logs and Helm charts are only in the Enterprise edition
+- **−** Community template gallery calls a cloud service by default; air-gapped setups must disable it
+- **−** README gives no RAM, VRAM or model-size guidance for local models
+- **−** README documents only a source build for the desktop app; installers are on the website
 
-<sub>no GPU · Needs Chrome, Edge or Firefox, LLM provider API key or free translation service · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, xAI Grok · [Repo](https://github.com/mengxi-ream/read-frog) · [📖 Docs ↗](https://www.readfrog.app/en/docs) · [🌐 Site ↗](https://www.readfrog.app/en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/read-frog/)</sub>
+<sub>GPU optional · Docker + Compose · Needs Docker, or Node.js, Python 3.11 and uv for Electron, LLM provider or API key · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Azure OpenAI · port 5001 · [Repo](https://github.com/presenton/presenton) · [📖 Docs ↗](https://docs.presenton.ai/) · [🌐 Site ↗](https://presenton.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/presenton/)</sub>
 
 <a name="deepchat"></a>
 ### #&#8288;15 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
@@ -400,7 +400,7 @@ Enchanted is a Swift app for macOS, iOS and visionOS that connects to an Ollama 
 <sub>Needs Ollama v0.1.14 or later, ngrok (to expose a local Ollama server) · Models: Ollama models (Llama 2, Mistral, Vicuna, Starling) · [Repo](https://github.com/gluonfield/enchanted) · [▶️ Demo ↗](https://www.youtube.com/watch?v=zW3roZ_vM5Q) · [🌐 Site ↗](https://apps.apple.com/gb/app/enchanted-llm/id6474268307) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/enchanted/)</sub>
 
 <a name="noi"></a>
-### #&#8288;23 [noi](https://github.com/lencx/noi) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (30) · Freshness: active (91) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
+### #&#8288;23 [noi](https://github.com/lencx/noi) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (30) · Freshness: active (90) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
 
 **Desktop app for running isolated AI chat sessions in multiple windows.**
 
@@ -418,7 +418,7 @@ Noi is a desktop app that runs AI chat sessions in multiple windows with isolate
 <sub>[Repo](https://github.com/lencx/noi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/noi/)</sub>
 
 <a name="aichat"></a>
-### #&#8288;24 [aichat](https://github.com/sigoden/aichat) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (38) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;24 [aichat](https://github.com/sigoden/aichat) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (38) · Freshness: slowing (32) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
 
 **Rust command-line LLM client with shell assistant, REPL, RAG and agents.**
 
