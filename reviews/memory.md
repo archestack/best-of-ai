@@ -56,26 +56,8 @@ Mem0 extracts facts from conversations with an LLM, stores them per user, sessio
 
 <sub>GPU optional · Needs LLM provider (default OpenAI), Embedding model (default OpenAI text-embedding-3-small), Docker Compose (self-hosted server), spaCy en_core_web_sm (optional NLP extra) · Models: OpenAI gpt-5-mini (default), text-embedding-3-small (default), other LLMs and embedders via configuration · port 3000 · [Repo](https://github.com/mem0ai/mem0) · [▶️ Demo ↗](https://mem0.dev/demo) · [📖 Docs ↗](https://docs.mem0.ai) · [🌐 Site ↗](https://mem0.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mem0/)</sub>
 
-<a name="supermemory"></a>
-### #&#8288;4 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Nov 2026</sub>
-
-**Memory and context engine for AI agents, with user profiles and hybrid search.**
-
-Supermemory extracts facts from conversations, tracks updates and contradictions, expires stale information, and returns a per-user profile plus relevant memories through one API. It also covers RAG, connectors (Google Drive, Gmail, Notion, OneDrive, GitHub) and file extraction. It can be used via the hosted API, an MCP server and editor plugins, or a local server on port 6767.
-
-- **+** Hybrid search returns RAG documents and user memories in a single query
-- **+** Handles knowledge updates and contradictions, and auto-forgets expired facts
-- **+** Local server keeps data in ~/.supermemory and can use Ollama with local embeddings
-- **+** Plugins for Claude Code, Cursor, Codex, OpenCode, plus Vercel AI SDK, LangChain, Mastra wrappers
-- **−** Benchmark #1 claims are self-reported in the README, with details on a separate research page
-- **−** Hosted MCP server and plugins point at supermemory.ai cloud by default
-- **−** Local mode URL ingestion depends on a hosted reader service
-- **−** Local-versus-Enterprise feature differences are only documented on a separate page
-
-<sub>GPU optional · Needs LLM provider (OpenAI, Anthropic, Gemini, Groq, or Ollama), Docker (optional) · Models: OpenAI, Anthropic, Gemini, Groq, Ollama · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs ↗](https://supermemory.ai/docs) · [🌐 Site ↗](https://supermemory.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/supermemory/)</sub>
-
 <a name="gbrain"></a>
-### #&#8288;5 [gbrain](https://github.com/garrytan/gbrain) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Nov 2026</sub>
+### #&#8288;4 [gbrain](https://github.com/garrytan/gbrain) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Nov 2026</sub>
 
 **Long-term memory store for coding agents, with sources and corrections.**
 
@@ -91,6 +73,24 @@ GBrain keeps explicit facts and their sources in a local PGLite or Postgres brai
 - **−** Remote put_page does not extract graph edges inline; HTTP needs explicit maintenance
 
 <sub>RAM ≥ 8 GB · no GPU · Compose · Needs Bun 1.4.0+, PGLite or Postgres, Tailscale (optional, for remote MCP) · Models: Optional cloud embedding, reranking, extraction and synthesis providers (unspecified) · [Repo](https://github.com/garrytan/gbrain) · [🌐 Site ↗](https://gbrain.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gbrain/)</sub>
+
+<a name="supermemory"></a>
+### #&#8288;5 [Supermemory](https://github.com/supermemoryai/supermemory) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · MIT · Nov 2026</sub>
+
+**Memory and context engine for AI agents, with user profiles and hybrid search.**
+
+Supermemory extracts facts from conversations, tracks updates and contradictions, expires stale information, and returns a per-user profile plus relevant memories through one API. It also covers RAG, connectors (Google Drive, Gmail, Notion, OneDrive, GitHub) and file extraction. It can be used via the hosted API, an MCP server and editor plugins, or a local server on port 6767.
+
+- **+** Hybrid search returns RAG documents and user memories in a single query
+- **+** Handles knowledge updates and contradictions, and auto-forgets expired facts
+- **+** Local server keeps data in ~/.supermemory and can use Ollama with local embeddings
+- **+** Plugins for Claude Code, Cursor, Codex, OpenCode, plus Vercel AI SDK, LangChain, Mastra wrappers
+- **−** Benchmark #1 claims are self-reported in the README, with details on a separate research page
+- **−** Hosted MCP server and plugins point at supermemory.ai cloud by default
+- **−** Local mode URL ingestion depends on a hosted reader service
+- **−** Local-versus-Enterprise feature differences are only documented on a separate page
+
+<sub>GPU optional · Needs LLM provider (OpenAI, Anthropic, Gemini, Groq, or Ollama), Docker (optional) · Models: OpenAI, Anthropic, Gemini, Groq, Ollama · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs ↗](https://supermemory.ai/docs) · [🌐 Site ↗](https://supermemory.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/supermemory/)</sub>
 
 <a name="cognee"></a>
 ### #&#8288;6 [Cognee](https://github.com/topoteretes/cognee) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Oct 2026</sub>
@@ -165,7 +165,7 @@ agentmemory captures what coding agents do through hooks, compresses it into sea
 <sub>no GPU · Docker + Compose · Needs Node.js 20+, iii engine v0.22.1 · Models: Xenova/all-MiniLM-L6-v2 (local embeddings), optional LLM provider for compression · port 3113 · [Repo](https://github.com/rohitg00/agentmemory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentmemory/)</sub>
 
 <a name="everos"></a>
-### #&#8288;10 [everos](https://github.com/evermind-ai/everos) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [everos](https://github.com/evermind-ai/everos) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
 
 **Local-first agent memory runtime that stores memories as Markdown files.**
 
@@ -183,7 +183,7 @@ EverOS is a Python library and HTTP server that stores agent conversations, file
 <sub>no GPU · Needs Python 3.12+, OpenRouter API key (or other LLM provider), LibreOffice (office documents only) · Models: OpenRouter-hosted LLMs (default openai/gpt-4.1-mini), Optional embedding and rerank providers, Optional multimodal model (default google/gemini-3.8-flash) · port 8000 · [Repo](https://github.com/evermind-ai/everos) · [📖 Docs ↗](https://docs.evermind.ai) · [🌐 Site ↗](https://evermind.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/everos/)</sub>
 
 <a name="tencentdb-agent-memory"></a>
-### #&#8288;11 [tencentdb-agent-memory](https://github.com/tencentcloud/tencentdb-agent-memory) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Nov 2026</sub>
+### #&#8288;11 [tencentdb-agent-memory](https://github.com/tencentcloud/tencentdb-agent-memory) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Nov 2026</sub>
 
 **Shared memory server for coding agents: chat memory, skills, wiki, code graph.**
 
@@ -201,7 +201,7 @@ Memory service behind a proxy: point an agent's base URL at it and it extracts l
 <sub>Docker · Needs Node.js >=22.16, LLM API (memory and proxy parameter sets), MongoDB (experimental, optional) · Models: Configurable LLM via .env (providers unknown) · port 8125 · [Repo](https://github.com/tencentcloud/tencentdb-agent-memory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tencentdb-agent-memory/)</sub>
 
 <a name="semantica"></a>
-### #&#8288;12 [semantica](https://github.com/semantica-agi/semantica) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
+### #&#8288;12 [semantica](https://github.com/semantica-agi/semantica) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
 
 **Python library for building context graphs with decision provenance and reasoning.**
 
