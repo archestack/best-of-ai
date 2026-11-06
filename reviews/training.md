@@ -202,7 +202,7 @@ WeClone exports Telegram chat history, strips personal data with Microsoft Presi
 <sub>GPU required · Needs CUDA 12.6+, LLaMA Factory, Microsoft Presidio, uv, AstrBot or LangBot (for chat bots) · Models: Qwen2.5-VL-7B-Instruct, LLaMA Factory supported models, LoRA, QLoRA · port 8005 · [Repo](https://github.com/xming521/weclone) · [📖 Docs ↗](https://docs.weclone.love/docs/introduce/what-is-weclone.html) · [🌐 Site ↗](https://www.weclone.love/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weclone/)</sub>
 
 <a name="art"></a>
-### #&#8288;12 [art](https://github.com/openpipe/art) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [art](https://github.com/openpipe/art) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
 
 **Python RL framework that trains LLM agents with GRPO from rollout rewards.**
 
@@ -521,7 +521,7 @@ mergekit combines pre-trained language models by operating on their weights, dri
 <sub>GPU optional · Needs PyTorch, Hugging Face Hub (optional, for upload) · Models: Llama, Mistral, GPT-NeoX, StableLM, raw PyTorch models · [Repo](https://github.com/arcee-ai/mergekit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mergekit/)</sub>
 
 <a name="nnunet"></a>
-### #&#8288;30 [nnunet](https://github.com/mic-dkfz/nnunet) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (31) · Freshness: recent (70) · Maintenance: fair (60) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;30 [nnunet](https://github.com/mic-dkfz/nnunet) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (30) · Freshness: recent (70) · Maintenance: fair (60) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Nov 2026</sub>
 
 **Self-configuring U-Net framework for biomedical image segmentation.**
 
@@ -556,7 +556,7 @@ MedicalGPT is a set of Python scripts that train domain LLMs through continued p
 <sub>GPU required · Needs PyTorch, Hugging Face Transformers, PEFT, DeepSpeed · Models: Qwen 2/2.5/3.5, Llama-3, Mixtral 8x7B, Baichuan, ChatGLM · [Repo](https://github.com/shibing624/medicalgpt) · [📖 Docs ↗](https://github.com/shibing624/MedicalGPT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/medicalgpt/)</sub>
 
 <a name="easy-dataset"></a>
-### #&#8288;32 [easy-dataset](https://github.com/conardli/easy-dataset) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (55) · Freshness: recent (73) · Maintenance: weak (4) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
+### #&#8288;32 [easy-dataset](https://github.com/conardli/easy-dataset) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (55) · Freshness: recent (72) · Maintenance: weak (4) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
 
 **Turns documents into LLM fine-tuning and evaluation datasets.**
 
@@ -645,7 +645,7 @@ GPT-NeoX is a training library for autoregressive language models with billions 
 <sub>GPU required · Docker + Compose · Needs PyTorch, DeeperSpeed, Slurm, MPI or pdsh for multi-node, Flash Attention (optional), Transformer Engine (optional), WandB, Comet or TensorBoard (optional) · Models: GPT-NeoX, Pythia, LLaMA 1 and 2, Falcon, PaLM · [Repo](https://github.com/eleutherai/gpt-neox) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-neox/)</sub>
 
 <a name="paddlenlp"></a>
-### #&#8288;37 [paddlenlp](https://github.com/paddlepaddle/paddlenlp) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: known (50) · Freshness: recent (51) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
+### #&#8288;37 [paddlenlp](https://github.com/paddlepaddle/paddlenlp) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: known (50) · Freshness: recent (50) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
 
 **LLM training, fine-tuning, compression and inference toolkit on PaddlePaddle.**
 
@@ -699,7 +699,7 @@ The t5 library is the code behind the T5 paper. It defines text-to-text Tasks an
 <sub>GPU optional · Needs TensorFlow, Mesh TensorFlow, TensorFlow Datasets, SentencePiece, gin-config, Google Cloud TPU and GCS (for TPU use) · Models: T5 pre-trained checkpoints, Mesh TensorFlow Transformer, Hugging Face Transformers (PyTorch, experimental) · [Repo](https://github.com/google-research/text-to-text-transfer-transformer) · [▶️ Demo ↗](https://colab.research.google.com/github/google-research/text-to-text-transfer-transformer/blob/main/notebooks/t5-trivia.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/text-to-text-transfer-transformer/)</sub>
 
 <a name="snorkel"></a>
-### #&#8288;40 [snorkel](https://github.com/snorkel-team/snorkel) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (9) · Freshness: slowing (40) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;40 [snorkel](https://github.com/snorkel-team/snorkel) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (9) · Freshness: slowing (39) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Apr 2026</sub>
 
 **Python library for programmatic labeling of machine learning training data.**
 

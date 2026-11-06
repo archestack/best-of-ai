@@ -219,7 +219,7 @@ Moli is a standalone browser kernel written in Rust (V8, Stylo, Taffy, Parley), 
 <sub>no GPU · Needs libcurl · port 9222 · [Repo](https://github.com/lexmount/moli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moli/)</sub>
 
 <a name="cocoindex"></a>
-### #&#8288;13 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Incremental Python pipelines that keep vector indexes and agent context fresh.**
 
@@ -273,7 +273,7 @@ Label Studio is a web-based annotation tool for preparing and correcting ML trai
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (optional, Compose), Nginx (optional, Compose), MinIO (optional) · Models: Custom ML backends via Label Studio ML SDK · port 8080 · [Repo](https://github.com/humansignal/label-studio) · [📖 Docs ↗](https://labelstud.io/guide/) · [🌐 Site ↗](https://labelstud.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/label-studio/)</sub>
 
 <a name="unstructured"></a>
-### #&#8288;16 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **Python library that parses PDFs, Office files and HTML into typed elements.**
 
@@ -488,7 +488,7 @@ BabelDOC translates scientific PDFs through an OpenAI-compatible LLM endpoint an
 <sub>Needs OpenAI-compatible LLM API, uv, Python 3.12 · Models: OpenAI-compatible APIs, gpt-4o-mini (default), glm-4-flash, deepseek-chat, Ollama · [Repo](https://github.com/funstory-ai/babeldoc) · [▶️ Demo ↗](https://app.immersivetranslate.com/babel-doc/) · [📖 Docs ↗](https://funstory-ai.github.io/BabelDOC/supported_languages/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/babeldoc/)</sub>
 
 <a name="olmocr"></a>
-### #&#8288;28 [olmocr](https://github.com/allenai/olmocr) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (56) · Freshness: recent (61) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;28 [olmocr](https://github.com/allenai/olmocr) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (56) · Freshness: recent (60) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
 
 **PDF and image to Markdown converter built on a 7B vision-language model.**
 
@@ -523,7 +523,7 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
 <a name="llm-scraper"></a>
-### #&#8288;30 [llm-scraper](https://github.com/mishushakov/llm-scraper) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (9) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jun 2026</sub>
+### #&#8288;30 [llm-scraper](https://github.com/mishushakov/llm-scraper) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (9) · Freshness: active (80) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jun 2026</sub>
 
 **TypeScript library that extracts structured data from web pages with LLMs.**
 
@@ -541,7 +541,7 @@ LLM Scraper loads a page through Playwright and asks an LLM to fill a Zod or JSO
 <sub>no GPU · Needs Playwright, Zod, Vercel AI SDK provider package, LLM provider API or Ollama · Models: OpenAI GPT, Anthropic Claude, Google Gemini, Groq Llama, Ollama · [Repo](https://github.com/mishushakov/llm-scraper) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-scraper/)</sub>
 
 <a name="doccano"></a>
-### #&#8288;31 [doccano](https://github.com/doccano/doccano) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (31) · Freshness: slowing (39) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
+### #&#8288;31 [doccano](https://github.com/doccano/doccano) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (31) · Freshness: slowing (38) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
 
 **Web-based text annotation tool for labeling NLP datasets.**
 
@@ -559,7 +559,7 @@ doccano is a web application for annotating text for classification, sequence la
 <sub>no GPU · Docker + Compose · Needs SQLite (default), PostgreSQL (optional), RabbitMQ (Docker Compose) · port 8000 · [Repo](https://github.com/doccano/doccano) · [▶️ Demo ↗](http://doccano.herokuapp.com) · [📖 Docs ↗](https://doccano.github.io/doccano/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doccano/)</sub>
 
 <a name="easyocr"></a>
-### #&#8288;32 [easyocr](https://github.com/jaidedai/easyocr) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: popular (67) · Freshness: quiet (8) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;32 [easyocr](https://github.com/jaidedai/easyocr) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: popular (67) · Freshness: quiet (7) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Dec 2025</sub>
 
 **Python OCR library for text detection and recognition in 80+ languages.**
 

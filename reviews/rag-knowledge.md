@@ -41,7 +41,7 @@ LightRAG indexes documents into a knowledge graph plus vector embeddings and ans
 <sub>Docker + Compose · Needs LLM provider, embedding model, PostgreSQL (recommended for production), Neo4j (optional), MongoDB (optional), OpenSearch (optional), MinerU or Docling (optional) · Models: LLMs configured via .env, open-source LLMs such as Qwen3-30B-A3B, rerankers · [Repo](https://github.com/hkuds/lightrag) · [📖 Docs ↗](https://github.com/HKUDS/LightRAG/blob/main/docs/LightRAG-API-Server.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightrag/)</sub>
 
 <a name="deeptutor"></a>
-### 🥉 [deeptutor](https://github.com/hkuds/deeptutor) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 55k · Apache-2.0 · Oct 2026</sub>
+### 🥉 [deeptutor](https://github.com/hkuds/deeptutor) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 56k · Apache-2.0 · Oct 2026</sub>
 
 **Self-hosted AI tutor with knowledge bases, guided learning, books and quizzes.**
 
@@ -453,7 +453,7 @@ LocalGPT indexes PDF, DOCX, HTML, Markdown and TXT files with Docling and answer
 <sub>RAM ≥ 8 GB · GPU optional · Docker + Compose · Needs Ollama, Python 3.10+, Node.js 20+, LanceDB, Docling, SQLite · Models: Ollama models (qwen3.5:9b default), HuggingFace embedding models, Qwen3-Reranker, watsonx · port 3000 · [Repo](https://github.com/promtengineer/localgpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/localgpt/)</sub>
 
 <a name="vane"></a>
-### #&#8288;26 [Vane](https://github.com/itzcrazykns/vane) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (81) · Freshness: active (98) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · MIT · Sep 2026</sub>
+### #&#8288;26 [Vane](https://github.com/itzcrazykns/vane) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (81) · Freshness: active (97) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · MIT · Sep 2026</sub>
 
 **Self-hosted answer engine with cited sources over SearXNG.**
 
@@ -523,7 +523,7 @@ Docling Serve wraps the Docling document converter in a FastAPI service: POST a 
 <sub>GPU optional · Docker · Models: bundled Docling parsing models · port 5001 · [Repo](https://github.com/docling-project/docling-serve) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling-serve/)</sub>
 
 <a name="paper-qa"></a>
-### #&#8288;30 [paper-qa](https://github.com/future-house/paper-qa) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (35) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;30 [paper-qa](https://github.com/future-house/paper-qa) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (35) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
 
 **Python RAG library and CLI for answering questions over scientific PDFs with citations.**
 
@@ -684,7 +684,7 @@ Chatchat answers questions over your own files by splitting, embedding and retri
 <sub>GPU optional · Docker + Compose · Needs Xinference, Ollama, LocalAI, FastChat or One API, FAISS (default vector store), SQLite (default database) · Models: GLM-4-Chat, Qwen2-Instruct, Llama3, bge-large-zh-v1.5, qwen-vl-chat · [Repo](https://github.com/chatchat-space/langchain-chatchat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain-chatchat/)</sub>
 
 <a name="paperless-ai"></a>
-### #&#8288;39 [Paperless-AI](https://github.com/clusterzx/paperless-ai) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (10) · Freshness: recent (52) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Mar 2026</sub>
+### #&#8288;39 [Paperless-AI](https://github.com/clusterzx/paperless-ai) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (10) · Freshness: recent (51) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Mar 2026</sub>
 
 **Auto-tags Paperless-ngx documents and adds RAG chat over the archive.**
 
@@ -720,7 +720,7 @@ KAG builds a knowledge graph from structured and unstructured data on the OpenSP
 <sub>Needs OpenSPG engine, Docker, Docker Compose, LLM provider · Models: KAG-Thinker · port 8887 · [Repo](https://github.com/openspg/kag) · [📖 Docs ↗](https://openspg.yuque.com/ndx6g9/docs_en) · [🌐 Site ↗](https://openspg.github.io/v2/docs_en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kag/)</sub>
 
 <a name="maestro"></a>
-### #&#8288;41 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (0) · Freshness: recent (54) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
+### #&#8288;41 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (0) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
 
 **Multi-agent research platform that writes long reports from documents and web.**
 
@@ -738,7 +738,7 @@ Planning, Research, Reflection and Writing agents run research missions over upl
 <sub>RAM ≥ 16 GB · GPU optional · Compose · Needs Docker Compose v2+, API key for an AI provider or an OpenAI-compatible endpoint, PostgreSQL with pgvector (in compose) · Models: OpenAI-compatible APIs, Azure OpenAI (GPT-5), BGE-M3 embeddings · port 80 · [Repo](https://github.com/murtaza-nasir/maestro) · [📖 Docs ↗](https://murtaza-nasir.github.io/maestro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/maestro/)</sub>
 
 <a name="r2r"></a>
-### #&#8288;42 [r2r](https://github.com/sciphi-ai/r2r) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (21) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2025</sub>
+### #&#8288;42 [r2r](https://github.com/sciphi-ai/r2r) <sub>score [8](../README.md#-how-we-rank "Score 8/100. Adoption: niche (21) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2025</sub>
 
 **RAG server with REST API, hybrid search, knowledge graphs and a research agent.**
 

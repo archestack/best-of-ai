@@ -184,7 +184,7 @@ Open Terminal is a Python server that exposes a shell, file management, search a
 <sub>no GPU · Docker · Needs Docker (optional), Python (bare metal) · port 8000 · [Repo](https://github.com/open-webui/open-terminal) · [📖 Docs ↗](https://docs.openwebui.com/features/open-terminal/terminals/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-terminal/)</sub>
 
 <a name="browser-use-web-ui"></a>
-### #&#8288;11 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (58) · Freshness: recent (58) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+### #&#8288;11 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (58) · Freshness: recent (57) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
 
 **Gradio UI for running browser-use agents with your own Chrome.**
 

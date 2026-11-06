@@ -396,7 +396,7 @@ Operit is a Kotlin Android app that connects cloud or local models to device too
 <sub>GPU optional · Needs Android 8.0+ (API 26), ARM64 device, Shizuku or Root (optional, for automation) · Models: OpenAI Chat/Responses, Anthropic, Gemini, MNN, GGUF (llama.cpp) · [Repo](https://github.com/aaswordman/operit) · [📖 Docs ↗](https://operit.app/) · [🌐 Site ↗](https://operit.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/operit/)</sub>
 
 <a name="osaurus"></a>
-### #&#8288;23 [osaurus](https://github.com/osaurus-ai/osaurus) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
+### #&#8288;23 [osaurus](https://github.com/osaurus-ai/osaurus) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
 
 **Native macOS agent harness with memory, sandbox and tools over local or cloud models.**
 
@@ -431,26 +431,8 @@ Moltis is a single Rust binary that runs a persistent agent server. It connects 
 
 <sub>no GPU · Docker + Compose · Needs Docker, Podman or Apple Container (sandbox), just and Node.js (source build only) · Models: OpenAI Codex, GitHub Copilot, Local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs ↗](https://docs.moltis.org) · [🌐 Site ↗](https://moltis.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moltis/)</sub>
 
-<a name="picoclaw"></a>
-### #&#8288;25 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
-
-**Go assistant agent that runs in under 20 MB on $10 boards.**
-
-PicoClaw is a single Go binary for x86_64, ARM64, MIPS, RISC-V and LoongArch that runs a personal agent in roughly 10 to 20 MB of RAM and boots in under a second on a 0.6 GHz core. It talks to 30+ LLM providers via a model_list config, supports MCP, image input and rule-based model routing, and reaches Telegram, Discord, Matrix, IRC and WeChat. A WebUI launcher on port 18800 handles setup.
-
-- **+** Single static binary for RISC-V, ARM, MIPS and x86; runs on $10 Linux boards
-- **+** 10 to 20 MB resident memory; boots in under 1 s on 0.6 GHz
-- **+** 30+ providers including OpenAI, Anthropic, Gemini, Ollama, vLLM, Bedrock and Copilot
-- **+** Android APK turns old phones into an assistant host
-- **−** README warns of unresolved security issues; not for production before v1.0
-- **−** Gateway binds 127.0.0.1 by default; Docker needs PICOCLAW_GATEWAY_HOST=0.0.0.0
-- **−** AWS Bedrock support requires a custom build with -tags bedrock
-- **−** No root Dockerfile; compose file lives under docker/ and needs a first-run bootstrap
-
-<sub>RAM ≥ 0.02 GB · no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek · port 18800 · [Repo](https://github.com/sipeed/picoclaw) · [📖 Docs ↗](https://docs.picoclaw.io/) · [🌐 Site ↗](https://picoclaw.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/picoclaw/)</sub>
-
 <a name="jev-chat-jarvis"></a>
-### #&#8288;26 [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Oct 2026</sub>
+### #&#8288;25 [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Oct 2026</sub>
 
 **Chat reply assistant that judges intent and risk before drafting replies.**
 
@@ -466,6 +448,24 @@ Reads a conversation on screen, works out the other person's intent and the risk
 - **−** Windows, macOS and iOS code live in other repos; data handling documented there
 
 <sub>Needs Model provider API key (user-configured), Android accessibility service and overlay permission · Models: User-configured model provider via own API key, Local model on macOS · [Repo](https://github.com/jev-chat/jev-chat-jarvis) · [🌐 Site ↗](https://chatjevs.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jev-chat-jarvis/)</sub>
+
+<a name="picoclaw"></a>
+### #&#8288;26 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
+
+**Go assistant agent that runs in under 20 MB on $10 boards.**
+
+PicoClaw is a single Go binary for x86_64, ARM64, MIPS, RISC-V and LoongArch that runs a personal agent in roughly 10 to 20 MB of RAM and boots in under a second on a 0.6 GHz core. It talks to 30+ LLM providers via a model_list config, supports MCP, image input and rule-based model routing, and reaches Telegram, Discord, Matrix, IRC and WeChat. A WebUI launcher on port 18800 handles setup.
+
+- **+** Single static binary for RISC-V, ARM, MIPS and x86; runs on $10 Linux boards
+- **+** 10 to 20 MB resident memory; boots in under 1 s on 0.6 GHz
+- **+** 30+ providers including OpenAI, Anthropic, Gemini, Ollama, vLLM, Bedrock and Copilot
+- **+** Android APK turns old phones into an assistant host
+- **−** README warns of unresolved security issues; not for production before v1.0
+- **−** Gateway binds 127.0.0.1 by default; Docker needs PICOCLAW_GATEWAY_HOST=0.0.0.0
+- **−** AWS Bedrock support requires a custom build with -tags bedrock
+- **−** No root Dockerfile; compose file lives under docker/ and needs a first-run bootstrap
+
+<sub>RAM ≥ 0.02 GB · no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek · port 18800 · [Repo](https://github.com/sipeed/picoclaw) · [📖 Docs ↗](https://docs.picoclaw.io/) · [🌐 Site ↗](https://picoclaw.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/picoclaw/)</sub>
 
 <a name="ods"></a>
 ### #&#8288;27 [ods](https://github.com/osmantic/ods) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Nov 2026</sub>
@@ -648,7 +648,7 @@ Open-LLM-VTuber is a Python server with web and desktop clients for real-time vo
 <sub>GPU optional · Docker · Needs uv, ffmpeg · Models: Ollama, OpenAI-compatible, Gemini, Claude, Mistral · [Repo](https://github.com/open-llm-vtuber/open-llm-vtuber) · [📖 Docs ↗](https://open-llm-vtuber.github.io/docs/quick-start) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-llm-vtuber/)</sub>
 
 <a name="gpt-ai-assistant"></a>
-### #&#8288;37 [gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (17) · Freshness: recent (55) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Jun 2026</sub>
+### #&#8288;37 [gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (17) · Freshness: recent (54) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Jun 2026</sub>
 
 **LINE chatbot backed by the OpenAI API.**
 
