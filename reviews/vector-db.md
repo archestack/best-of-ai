@@ -183,7 +183,7 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvector/)</sub>
 
 <a name="turbovec"></a>
-### #&#8288;11 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
+### #&#8288;11 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
 
 **In-process quantized vector index for Python and Rust using TurboQuant.**
 

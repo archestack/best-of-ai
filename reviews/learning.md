@@ -165,7 +165,7 @@ A collection of 28 tutorial notebooks on production concerns for GenAI agents: s
 <sub>GPU optional · Needs LangGraph, Redis, Mem0, Tavily, Bright Data, Contextual AI, Arcade, RunPod, Inngest · [Repo](https://github.com/nirdiamant/agents-towards-production) · [🌐 Site ↗](https://www.diamant-ai.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agents-towards-production/)</sub>
 
 <a name="ml-for-beginners"></a>
-### #&#8288;10 [ml-for-beginners](https://github.com/microsoft/ml-for-beginners) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (48) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · MIT · Nov 2026</sub>
+### #&#8288;10 [ml-for-beginners](https://github.com/microsoft/ml-for-beginners) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · MIT · Nov 2026</sub>
 
 **12-week, 26-lesson classic machine learning course using Scikit-learn.**
 

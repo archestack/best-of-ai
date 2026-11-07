@@ -326,7 +326,7 @@ OpenRLHF trains language and vision-language models with reinforcement learning 
 <sub>GPU required · Needs Ray, vLLM, DeepSpeed, HuggingFace Transformers, NCCL · Models: HuggingFace Transformers models, VLMs (e.g. Qwen3.5), MoE, LoRA/QLoRA · [Repo](https://github.com/openrlhf/openrlhf) · [📖 Docs ↗](https://openrlhf.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openrlhf/)</sub>
 
 <a name="areal"></a>
-### #&#8288;19 [areal](https://github.com/areal-project/areal) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [areal](https://github.com/areal-project/areal) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Nov 2026</sub>
 
 **Asynchronous reinforcement learning system for training reasoning and agentic LLMs.**
 
@@ -627,7 +627,7 @@ A coding agent (Claude, Codex or similar) is pointed at a single-GPU nanochat-de
 <sub>GPU required · Needs uv, PyTorch, Python 3.10+, a coding agent (Claude, Codex or similar) · Models: GPT (nanochat-style, trained from scratch), Muon + AdamW optimizer · [Repo](https://github.com/karpathy/autoresearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autoresearch/)</sub>
 
 <a name="gpt-neox"></a>
-### #&#8288;36 [gpt-neox](https://github.com/eleutherai/gpt-neox) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (22) · Freshness: recent (70) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;36 [gpt-neox](https://github.com/eleutherai/gpt-neox) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (22) · Freshness: recent (70) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Oct 2026</sub>
 
 **EleutherAI's Megatron/DeepSpeed library for pretraining large language models.**
 

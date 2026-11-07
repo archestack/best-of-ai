@@ -291,7 +291,7 @@ LangWatch traces LLM calls and runs agent simulation tests, evaluations and prom
 <sub>no GPU · Needs Node.js · Models: OpenAI, Anthropic, Azure OpenAI, Vertex AI, Bedrock · [Repo](https://github.com/langwatch/langwatch) · [📖 Docs ↗](https://langwatch.ai/docs/introduction) · [🌐 Site ↗](https://langwatch.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langwatch/)</sub>
 
 <a name="agenta"></a>
-### #&#8288;17 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · custom license · Nov 2026</sub>
+### #&#8288;17 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · custom license · Nov 2026</sub>
 
 **Shared team workspace for building and running chat-built agents.**
 
@@ -362,7 +362,7 @@ Giskard v3 is a modular Python library for testing agentic systems. giskard-chec
 <sub>no GPU · Needs Python 3.12+, LLM provider API key (e.g. OpenAI) for judges and scan generators · Models: OpenAI, Anthropic, other providers via giskard-llm · [Repo](https://github.com/giskard-ai/giskard-oss) · [📖 Docs ↗](https://docs.giskard.ai/oss) · [🌐 Site ↗](https://www.giskard.ai/?utm_source=github&utm_medium=github&utm_campaign=github_readme&utm_id=readmeblog) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/giskard-oss/)</sub>
 
 <a name="openllmetry"></a>
-### #&#8288;21 [openllmetry](https://github.com/traceloop/openllmetry) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;21 [openllmetry](https://github.com/traceloop/openllmetry) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Nov 2026</sub>
 
 **OpenTelemetry instrumentations and SDK for tracing LLM calls and vector DBs.**
 

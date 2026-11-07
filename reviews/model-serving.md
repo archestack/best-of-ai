@@ -59,7 +59,7 @@ LocalAI serves LLMs, vision, speech, image and video models behind OpenAI, Anthr
 <sub>GPU optional · Docker + Compose · Needs PostgreSQL (distributed mode), NATS (distributed mode) · Models: GGUF, llama.cpp, vLLM, SGLang, transformers · port 8080 · [Repo](https://github.com/mudler/localai) · [📖 Docs ↗](https://localai.io/basics/getting_started/) · [🌐 Site ↗](https://localai.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/localai/)</sub>
 
 <a name="vllm"></a>
-### #&#8288;4 [vLLM](https://github.com/vllm-project/vllm) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 96k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;4 [vLLM](https://github.com/vllm-project/vllm) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 97k · Apache-2.0 · Nov 2026</sub>
 
 **Inference engine for Hugging Face LLMs with PagedAttention and continuous batching.**
 
@@ -347,7 +347,7 @@ llamafile packages llama.cpp and model weights into one executable using Cosmopo
 <sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs ↗](https://docs.mozilla.ai/llamafile) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llamafile/)</sub>
 
 <a name="dynamo"></a>
-### #&#8288;20 [dynamo](https://github.com/ai-dynamo/dynamo) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · custom license · Nov 2026</sub>
+### #&#8288;20 [dynamo](https://github.com/ai-dynamo/dynamo) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · custom license · Nov 2026</sub>
 
 **Multi-node orchestration layer for vLLM, SGLang and TensorRT-LLM inference.**
 
@@ -418,7 +418,7 @@ Triton serves TensorRT, PyTorch, ONNX, OpenVINO, Python and RAPIDS FIL models ov
 <sub>GPU optional · Docker · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python, RAPIDS FIL backends · [Repo](https://github.com/triton-inference-server/server) · [🌐 Site ↗](https://developer.nvidia.com/nvidia-triton-inference-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/triton-inference-server/)</sub>
 
 <a name="openvino"></a>
-### #&#8288;24 [openvino](https://github.com/openvinotoolkit/openvino) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [openvino](https://github.com/openvinotoolkit/openvino) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
 
 **Inference toolkit for converting and running models on Intel CPUs, GPUs and NPUs.**
 
@@ -543,7 +543,7 @@ Cactus is a C++ inference engine with its own computation graph, ARM/Apple/Andro
 <sub>GPU optional · Needs HuggingFace (model download/convert), cmake and build-essential (Linux build), Python 3.12 (setup/CLI) · Models: Gemma, Liquid LFM, Qwen, Whisper, Parakeet · port 8080 · [Repo](https://github.com/cactus-compute/cactus) · [📖 Docs ↗](https://cactus-compute.github.io/cactus/) · [🌐 Site ↗](https://cactuscompute.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cactus/)</sub>
 
 <a name="kimi-k3-in-c"></a>
-### #&#8288;31 [kimi-k3-in-c](https://github.com/fareedkhan-dev/kimi-k3-in-c) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;31 [kimi-k3-in-c](https://github.com/fareedkhan-dev/kimi-k3-in-c) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (45) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
 
 **Kimi K3 inference engine in portable C99 that streams weights from disk.**
 

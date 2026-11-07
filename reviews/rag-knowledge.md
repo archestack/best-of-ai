@@ -238,7 +238,7 @@ DocsGPT ingests documents, web pages and synced sources such as Google Drive, Co
 <sub>GPU optional · Docker + Compose · Needs Docker, PostgreSQL, Redis, Vector store (FAISS, pgvector, Elasticsearch, Qdrant, Milvus or MongoDB) · Models: OpenAI, Anthropic, Google, Groq, OpenRouter · port 7091 · [Repo](https://github.com/arc53/docsgpt) · [▶️ Demo ↗](https://app.docsgpt.cloud/) · [📖 Docs ↗](https://docs.docsgpt.cloud/) · [🌐 Site ↗](https://www.docsgpt.cloud) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docsgpt/)</sub>
 
 <a name="morphic"></a>
-### #&#8288;14 [Morphic](https://github.com/miurla/morphic) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [Morphic](https://github.com/miurla/morphic) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2026</sub>
 
 **AI answer engine with cited search results and generative UI components.**
 

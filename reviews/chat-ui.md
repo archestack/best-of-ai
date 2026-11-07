@@ -41,7 +41,7 @@ LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, 
 <sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
 
 <a name="onyx"></a>
-### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Nov 2026</sub>
+### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Nov 2026</sub>
 
 **Team knowledge search and chat that indexes 50+ connected apps with permissions.**
 
@@ -131,7 +131,7 @@ Odysseus is a self-hosted web workspace that combines chat with local or API mod
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose · Models: local models, API models, MCP · port 7011 · [Repo](https://github.com/odysseus-dev/odysseus) · [▶️ Demo ↗](https://odysseus-dev.github.io/odysseus/) · [📖 Docs ↗](https://github.com/odysseus-dev/odysseus/blob/dev/website/setup.md) · [🌐 Site ↗](https://odysseus-dev.github.io/odysseus/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/odysseus/)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · AGPL-3.0 · Sep 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 

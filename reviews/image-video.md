@@ -22,7 +22,7 @@ Frigate is a network video recorder that runs object detection locally on IP cam
 <sub>GPU optional · Docker + Compose · Needs MQTT, Home Assistant (optional), IP cameras (RTSP) · Models: TensorFlow · [Repo](https://github.com/blakeblackshear/frigate) · [📖 Docs ↗](https://docs.frigate.video) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/frigate/)</sub>
 
 <a name="moneyprinterturbo"></a>
-### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 140k · MIT · Nov 2026</sub>
+### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 141k · MIT · Nov 2026</sub>
 
 **Generates short videos from a topic, with script, footage, voiceover and subtitles.**
 
@@ -40,7 +40,7 @@ MoneyPrinterTurbo takes a topic or keywords and produces a finished short video.
 <sub>RAM ≥ 4 GB · GPU optional · Docker + Compose · Needs Python 3.11+, LLM API or Ollama, Pexels/Pixabay/Coverr API key, Edge TTS or other TTS service · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Kimi · [Repo](https://github.com/harry0703/moneyprinterturbo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moneyprinterturbo/)</sub>
 
 <a name="comfyui"></a>
-### 🥉 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 145k · GPL-3.0 · Nov 2026</sub>
+### 🥉 [ComfyUI](https://github.com/comfy-org/comfyui) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 146k · GPL-3.0 · Nov 2026</sub>
 
 **Node-graph editor for running diffusion image, video, audio and 3D workflows.**
 
@@ -58,7 +58,7 @@ ComfyUI is a node-graph interface and execution engine for diffusion and other g
 <sub>RAM ≥ 8 GB · GPU optional · Needs PyTorch, Python 3.13 recommended · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1, Flux.2 · [Repo](https://github.com/comfy-org/comfyui) · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://www.comfy.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui/)</sub>
 
 <a name="invokeai"></a>
-### #&#8288;4 [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;4 [InvokeAI](https://github.com/invoke-ai/invokeai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Nov 2026</sub>
 
 **Web UI for diffusion image generation with inpainting canvas and node workflows.**
 
@@ -112,7 +112,7 @@ Banana Slides generates presentations from a topic, outline, page descriptions o
 <sub>no GPU · Docker + Compose · Needs Gemini/OpenAI/Volcengine/Vertex or LazyLLM API key, FFmpeg with libass (video export), LibreOffice (optional, PPTX upload), Baidu API key (optional, editable export) · Models: Gemini (Nano Banana Pro), OpenAI-compatible (gpt-image-2), Volcengine Doubao/Seedream, Vertex AI, LazyLLM vendors (Qwen, DeepSeek, GLM, Kimi, MiniMax, SiliconFlow) · port 3011 · [Repo](https://github.com/anionex/banana-slides) · [▶️ Demo ↗](https://bananaslides.online/) · [📖 Docs ↗](https://docs.bananaslides.online/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/banana-slides/)</sub>
 
 <a name="open-generative-ai"></a>
-### #&#8288;7 [open-generative-ai](https://github.com/anil-matcha/open-generative-ai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · MIT · Nov 2026</sub>
+### #&#8288;7 [open-generative-ai](https://github.com/anil-matcha/open-generative-ai) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · MIT · Nov 2026</sub>
 
 **Image, video and lip-sync studio app that calls hosted models through MuAPI.**
 
@@ -148,7 +148,7 @@ A React and Vite web workbench where images, prompts and chat nodes are laid out
 <sub>no GPU · Docker + Compose · Needs OpenAI-compatible API endpoint and key · Models: OpenAI-compatible image, text, audio and video APIs · port 3000 · [Repo](https://github.com/basketikun/infinite-canvas) · [📖 Docs ↗](https://github.com/basketikun/infinite-canvas/blob/main/docs/content/docs/overview/quick-start.mdx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinite-canvas/)</sub>
 
 <a name="stable-diffusion-cpp"></a>
-### #&#8288;9 [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2026</sub>
+### #&#8288;9 [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2026</sub>
 
 **C/C++ inference for Stable Diffusion, Flux, Qwen-Image and Wan video models.**
 
@@ -183,7 +183,7 @@ LTX-2 is a 22B-parameter DiT model from Lightricks that generates video with syn
 <sub>GPU required · Needs uv, Hugging Face CLI, PyTorch, CUDA · Models: LTX-2.5 22B distilled, LTX-2.5 22B dev, LTX-2.3, Gemma 4 12B text encoder, safetensors · [Repo](https://github.com/lightricks/ltx-2) · [▶️ Demo ↗](https://console.ltx.video/playground) · [🌐 Site ↗](https://ltx.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ltx-2/)</sub>
 
 <a name="dramaclaw"></a>
-### #&#8288;11 [dramaclaw](https://github.com/dramaclaw/dramaclaw) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · custom license · Nov 2026</sub>
+### #&#8288;11 [dramaclaw](https://github.com/dramaclaw/dramaclaw) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · custom license · Nov 2026</sub>
 
 **Node-canvas and pipeline for producing AI short dramas from script to final cut.**
 
@@ -307,7 +307,7 @@ SANA is NVIDIA's research codebase for linear-attention diffusion models, coveri
 <sub>GPU required · Docker · Needs PyTorch, diffusers, Hugging Face weights · Models: SANA, SANA-1.5, SANA-Sprint, SANA-Video, SANA-Video 2.0 · [Repo](https://github.com/nvlabs/sana) · [▶️ Demo ↗](https://nv-sana.mit.edu/) · [📖 Docs ↗](https://nvlabs.github.io/Sana/docs/) · [🌐 Site ↗](https://nvlabs.github.io/Sana/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sana/)</sub>
 
 <a name="sdnext"></a>
-### #&#8288;18 [sdnext](https://github.com/vladmandic/sdnext) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;18 [sdnext](https://github.com/vladmandic/sdnext) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Oct 2026</sub>
 
 **Web UI for generating and editing images and video with diffusion models.**
 

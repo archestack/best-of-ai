@@ -272,7 +272,7 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · port 8080 · [Repo](https://github.com/skyvern-ai/skyvern) · [▶️ Demo ↗](https://app.skyvern.com) · [📖 Docs ↗](https://www.skyvern.com/docs/) · [🌐 Site ↗](https://www.skyvern.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skyvern/)</sub>
 
 <a name="bisheng"></a>
-### #&#8288;16 [bisheng](https://github.com/dataelement/bisheng) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [bisheng](https://github.com/dataelement/bisheng) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Enterprise LLM app platform with visual workflows, knowledge spaces and a task agent.**
 
@@ -361,7 +361,7 @@ A Python terminal app (installed as `aihf`) where LLM investor agents make tradi
 <sub>no GPU · Needs Financial Datasets API key, LLM provider API key · Models: Anthropic, OpenAI, DeepSeek, Google, xAI · [Repo](https://github.com/virattt/ai-hedge-fund) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-hedge-fund/)</sub>
 
 <a name="agent-zero"></a>
-### #&#8288;21 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Nov 2026</sub>
+### #&#8288;21 [Agent Zero](https://github.com/agent0ai/agent-zero) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Nov 2026</sub>
 
 **Agent framework with a Linux desktop, browser and document editing.**
 
@@ -538,7 +538,7 @@ Astron Agent is a platform for building and running agent workflows, with orches
 <sub>Compose · Needs Docker Compose, Casdoor, nginx · Models: API-based models, on-premises MaaS clusters · port 80 · [Repo](https://github.com/iflytek/astron-agent) · [▶️ Demo ↗](https://agent.xfyun.cn) · [📖 Docs ↗](https://github.com/iflytek/astron-agent/blob/main/docs/DEPLOYMENT_GUIDE_WITH_AUTH.md) · [🌐 Site ↗](https://iflytek.github.io/astron-agent/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/astron-agent/)</sub>
 
 <a name="open-duet"></a>
-### #&#8288;31 [open-duet](https://github.com/anil-matcha/open-duet) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [open-duet](https://github.com/anil-matcha/open-duet) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · Apache-2.0 · Nov 2026</sub>
 
 **Workspace for named AI agents with teams, memory, and scheduled routines.**
 

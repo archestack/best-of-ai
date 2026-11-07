@@ -131,7 +131,7 @@ LangChain is a Python library that gives a standard interface to chat models, em
 <sub>Needs Model provider API or other model backend · Models: OpenAI (README example), Other providers via integrations · [Repo](https://github.com/langchain-ai/langchain) · [📖 Docs ↗](https://docs.langchain.com/oss/python/langchain/overview) · [🌐 Site ↗](https://www.langchain.com/langsmith) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain/)</sub>
 
 <a name="agent-browser"></a>
-### #&#8288;8 [agent-browser](https://github.com/vercel-labs/agent-browser) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;8 [agent-browser](https://github.com/vercel-labs/agent-browser) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · Apache-2.0 · Nov 2026</sub>
 
 **Native Rust CLI that lets AI agents drive Chrome via accessibility snapshots.**
 
@@ -257,7 +257,7 @@ Deep Agents is a Python library whose create_deep_agent() returns a ready-to-run
 <sub>no GPU · Needs LangChain, LangGraph, LLM provider or local model server · Models: OpenAI, Anthropic, Google, Baseten, Fireworks · [Repo](https://github.com/langchain-ai/deepagents) · [📖 Docs ↗](https://docs.langchain.com/oss/python/deepagents/overview) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepagents/)</sub>
 
 <a name="pydantic-ai"></a>
-### #&#8288;15 [pydantic-ai](https://github.com/pydantic/pydantic-ai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · MIT · Nov 2026</sub>
+### #&#8288;15 [pydantic-ai](https://github.com/pydantic/pydantic-ai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · MIT · Nov 2026</sub>
 
 **Typed Python SDK for building agents with swappable model providers.**
 
@@ -310,7 +310,7 @@ Pipecat is a Python framework that chains speech-to-text, LLM, text-to-speech an
 <sub>GPU optional · Needs Python, STT/LLM/TTS provider API keys (e.g. Deepgram, OpenAI, Cartesia, ElevenLabs), WebRTC/WebSocket transport · Models: Whisper, Moonshine, Ollama, OpenAI, Anthropic · [Repo](https://github.com/pipecat-ai/pipecat) · [📖 Docs ↗](https://docs.pipecat.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pipecat/)</sub>
 
 <a name="eliza"></a>
-### #&#8288;18 [eliza](https://github.com/elizaos/eliza) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
+### #&#8288;18 [eliza](https://github.com/elizaos/eliza) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
 
 **TypeScript agent runtime and personal assistant app with a plugin system.**
 
@@ -434,26 +434,8 @@ Nanobrowser is a Chrome and Edge extension. You give a task in a side panel, and
 
 <sub>GPU optional · Needs Chrome or Edge, LLM provider API key or local model server, Node.js 24 and pnpm 10 (build from source) · Models: Anthropic, OpenAI, Google Gemini, OpenRouter, xAI Grok · [Repo](https://github.com/nanobrowser/nanobrowser) · [🌐 Site ↗](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nanobrowser/)</sub>
 
-<a name="semantic-kernel"></a>
-### #&#8288;25 [semantic-kernel](https://github.com/microsoft/semantic-kernel) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · MIT · Nov 2026</sub>
-
-**Microsoft SDK for building LLM agents and plugins in C#, Python and Java.**
-
-Semantic Kernel is a model-agnostic SDK for building agents and multi-agent systems in .NET, Python and Java. It provides chat completion agents, plugins (native functions, prompt templates, OpenAPI, MCP), vector store connectors and a process framework for structured workflows. The README states it has been succeeded by Microsoft Agent Framework, which reached 1.0, and links a migration guide.
-
-- **+** Same agent and plugin model across Python, .NET and Java
-- **+** Connectors for OpenAI, Azure OpenAI, Hugging Face, NVIDIA, Ollama, LMStudio and ONNX
-- **+** Plugins can come from native code, prompt templates, OpenAPI specs or MCP
-- **+** Vector store integrations include Azure AI Search, Elasticsearch and Chroma
-- **−** README says it is superseded by Microsoft Agent Framework 1.0
-- **−** Java support lives in a separate repository with its own build steps
-- **−** Requires .NET 10.0+ or Python 3.10+, which may exceed existing stacks
-- **−** Library only: no UI, server or hosted deployment included
-
-<sub>no GPU · Needs OpenAI or Azure OpenAI API key, or a local model runtime · Models: OpenAI, Azure OpenAI, Hugging Face, NVIDIA NIM, Ollama · [Repo](https://github.com/microsoft/semantic-kernel) · [📖 Docs ↗](https://learn.microsoft.com/en-us/semantic-kernel/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-kernel/)</sub>
-
 <a name="instructor"></a>
-### #&#8288;26 [instructor](https://github.com/567-labs/instructor) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
+### #&#8288;25 [instructor](https://github.com/567-labs/instructor) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
 
 **Python library that returns validated Pydantic objects from LLM calls.**
 
@@ -469,6 +451,24 @@ Instructor wraps LLM provider clients so a chat completion call takes a Pydantic
 - **−** Adoption figures in README (3M+ downloads, named companies) are unsourced
 
 <sub>no GPU · Needs Pydantic, LLM provider API or local Ollama · Models: OpenAI, Anthropic, Google Gemini, Groq, Ollama · [Repo](https://github.com/567-labs/instructor) · [📖 Docs ↗](https://python.useinstructor.com) · [🌐 Site ↗](https://python.useinstructor.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/instructor/)</sub>
+
+<a name="semantic-kernel"></a>
+### #&#8288;26 [semantic-kernel](https://github.com/microsoft/semantic-kernel) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · MIT · Nov 2026</sub>
+
+**Microsoft SDK for building LLM agents and plugins in C#, Python and Java.**
+
+Semantic Kernel is a model-agnostic SDK for building agents and multi-agent systems in .NET, Python and Java. It provides chat completion agents, plugins (native functions, prompt templates, OpenAPI, MCP), vector store connectors and a process framework for structured workflows. The README states it has been succeeded by Microsoft Agent Framework, which reached 1.0, and links a migration guide.
+
+- **+** Same agent and plugin model across Python, .NET and Java
+- **+** Connectors for OpenAI, Azure OpenAI, Hugging Face, NVIDIA, Ollama, LMStudio and ONNX
+- **+** Plugins can come from native code, prompt templates, OpenAPI specs or MCP
+- **+** Vector store integrations include Azure AI Search, Elasticsearch and Chroma
+- **−** README says it is superseded by Microsoft Agent Framework 1.0
+- **−** Java support lives in a separate repository with its own build steps
+- **−** Requires .NET 10.0+ or Python 3.10+, which may exceed existing stacks
+- **−** Library only: no UI, server or hosted deployment included
+
+<sub>no GPU · Needs OpenAI or Azure OpenAI API key, or a local model runtime · Models: OpenAI, Azure OpenAI, Hugging Face, NVIDIA NIM, Ollama · [Repo](https://github.com/microsoft/semantic-kernel) · [📖 Docs ↗](https://learn.microsoft.com/en-us/semantic-kernel/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-kernel/)</sub>
 
 <a name="langchainjs"></a>
 ### #&#8288;27 [langchainjs](https://github.com/langchain-ai/langchainjs) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
@@ -507,7 +507,7 @@ Parlant is a Python SDK where agent behavior is defined as guidelines, observati
 <sub>no GPU · Needs LLM provider (Emcie, OpenAI, Anthropic or LiteLLM) · Models: Emcie, OpenAI, Anthropic, LiteLLM · [Repo](https://github.com/emcie-co/parlant) · [📖 Docs ↗](https://www.parlant.io/docs/quickstart/installation) · [🌐 Site ↗](https://www.parlant.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/parlant/)</sub>
 
 <a name="camofox-browser"></a>
-### #&#8288;29 [camofox-browser](https://github.com/jo-inc/camofox-browser) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
+### #&#8288;29 [camofox-browser](https://github.com/jo-inc/camofox-browser) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
 
 **REST API server that gives AI agents an anti-detection Camoufox browser.**
 
@@ -614,7 +614,7 @@ Monorepo for the Strands Agents SDKs in Python (3.10+) and TypeScript (Node.js 2
 <sub>no GPU · Needs Python 3.10+ or Node.js 22+, Model provider credentials (Amazon Bedrock is the TypeScript SDK default) · Models: Amazon Bedrock, Anthropic, OpenAI, Gemini, Ollama · [Repo](https://github.com/strands-agents/harness-sdk) · [📖 Docs ↗](https://strandsagents.com/docs/user-guide/harness/) · [🌐 Site ↗](https://strandsagents.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/harness-sdk/)</sub>
 
 <a name="adk-go"></a>
-### #&#8288;35 [adk-go](https://github.com/google/adk-go) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;35 [adk-go](https://github.com/google/adk-go) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Nov 2026</sub>
 
 **Code-first Go toolkit for building and orchestrating multi-agent applications.**
 
@@ -666,26 +666,8 @@ PraisonAI is a Python framework (praisonaiagents SDK plus praisonai CLI) for def
 
 <sub>no GPU · Docker + Compose · Needs LLM provider API key (e.g. OpenAI) or local Ollama/vLLM, Optional sandbox backends: Docker, E2B, Modal, Daytona, Fly.io · Models: OpenAI, Anthropic, Google Gemini, Ollama, vLLM · [Repo](https://github.com/mervinpraison/praisonai) · [📖 Docs ↗](https://docs.praison.ai) · [🌐 Site ↗](https://praison.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/praisonai/)</sub>
 
-<a name="openui"></a>
-### #&#8288;38 [openui](https://github.com/thesysdev/openui) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Nov 2026</sub>
-
-**Generative UI framework that streams model-written UI via a compact language.**
-
-OpenUI defines OpenUI Lang, a compact streaming-first language that models emit to describe UI, and renders it progressively as tokens arrive. You register a component library, generate a system prompt from it, and a renderer for React, Vue, Svelte or Angular draws the output. React also gets prebuilt chat layouts and two component libraries. The README reports up to 67% fewer tokens than equivalent JSON formats.
-
-- **+** Renderers for React, Vue, Svelte and Angular on a framework-agnostic core
-- **+** System prompt is generated from the component library you allow
-- **+** Benchmarked at 4800 tokens vs 10180 for Vercel JSON-Render across seven scenarios
-- **+** Scaffold CLI plus LangChain, assistant-ui and A2UI integrations
-- **−** Prebuilt chat UI and component libraries ship for React only
-- **−** Requires adopting a new language that models must be prompted to emit
-- **−** Benchmark and comparison figures come from the project itself
-- **−** Hosted observability package depends on the Thesys console and gateway
-
-<sub>no GPU · Needs Node.js, LLM provider · Models: unknown · [Repo](https://github.com/thesysdev/openui) · [▶️ Demo ↗](https://www.openui.com/playground) · [📖 Docs ↗](https://openui.com) · [🌐 Site ↗](https://www.openui.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openui/)</sub>
-
 <a name="langchain4j"></a>
-### #&#8288;39 [langchain4j](https://github.com/langchain4j/langchain4j) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;38 [langchain4j](https://github.com/langchain4j/langchain4j) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **Java library for building LLM apps with unified provider and vector store APIs.**
 
@@ -703,7 +685,7 @@ LangChain4j is a Java library that puts 20+ LLM providers and 30+ embedding stor
 <sub>no GPU · Needs JVM, LLM provider API · Models: OpenAI, Google Vertex AI, Pinecone, Milvus · [Repo](https://github.com/langchain4j/langchain4j) · [📖 Docs ↗](https://docs.langchain4j.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain4j/)</sub>
 
 <a name="rig"></a>
-### #&#8288;40 [rig](https://github.com/0xplaygrounds/rig) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · MIT · Nov 2026</sub>
+### #&#8288;39 [rig](https://github.com/0xplaygrounds/rig) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · MIT · Nov 2026</sub>
 
 **Rust library for building LLM agents, plus a Bevy-based terminal coding agent.**
 
@@ -721,7 +703,7 @@ Rig is a Rust library that puts 20+ model providers and 10+ vector stores behind
 <sub>GPU optional · Needs Rust 1.97.1+, tokio, LLM provider API key · Models: OpenAI, AWS Bedrock, Google Vertex AI, Google Gemini gRPC, Candle (local Llama/SmolLM2/Qwen3) · [Repo](https://github.com/0xplaygrounds/rig) · [📖 Docs ↗](https://rig.rs/docs) · [🌐 Site ↗](https://rig.rs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rig/)</sub>
 
 <a name="camel"></a>
-### #&#8288;41 [camel](https://github.com/camel-ai/camel) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (58) · Freshness: active (96) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;40 [camel](https://github.com/camel-ai/camel) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (58) · Freshness: active (96) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for multi-agent systems, role-playing and synthetic data generation.**
 
@@ -737,6 +719,24 @@ CAMEL is a Python library, installed with pip install camel-ai, for building LLM
 - **−** No Docker image or compose file
 
 <sub>no GPU · Needs Python, LLM provider API key (e.g. OpenAI) · Models: OpenAI, multiple LLM backends via ModelFactory · [Repo](https://github.com/camel-ai/camel) · [▶️ Demo ↗](https://colab.research.google.com/drive/1AzP33O8rnMW__7ocWJhVBXjKziJXPtim?usp=sharing) · [📖 Docs ↗](https://docs.camel-ai.org) · [🌐 Site ↗](https://www.camel-ai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/camel/)</sub>
+
+<a name="openui"></a>
+### #&#8288;41 [openui](https://github.com/thesysdev/openui) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Nov 2026</sub>
+
+**Generative UI framework that streams model-written UI via a compact language.**
+
+OpenUI defines OpenUI Lang, a compact streaming-first language that models emit to describe UI, and renders it progressively as tokens arrive. You register a component library, generate a system prompt from it, and a renderer for React, Vue, Svelte or Angular draws the output. React also gets prebuilt chat layouts and two component libraries. The README reports up to 67% fewer tokens than equivalent JSON formats.
+
+- **+** Renderers for React, Vue, Svelte and Angular on a framework-agnostic core
+- **+** System prompt is generated from the component library you allow
+- **+** Benchmarked at 4800 tokens vs 10180 for Vercel JSON-Render across seven scenarios
+- **+** Scaffold CLI plus LangChain, assistant-ui and A2UI integrations
+- **−** Prebuilt chat UI and component libraries ship for React only
+- **−** Requires adopting a new language that models must be prompted to emit
+- **−** Benchmark and comparison figures come from the project itself
+- **−** Hosted observability package depends on the Thesys console and gateway
+
+<sub>no GPU · Needs Node.js, LLM provider · Models: unknown · [Repo](https://github.com/thesysdev/openui) · [▶️ Demo ↗](https://www.openui.com/playground) · [📖 Docs ↗](https://openui.com) · [🌐 Site ↗](https://www.openui.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openui/)</sub>
 
 <a name="ten-framework"></a>
 ### #&#8288;42 [ten-framework](https://github.com/ten-framework/ten-framework) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Nov 2026</sub>
@@ -792,7 +792,7 @@ VoltAgent is a TypeScript framework for defining agents with typed tools, memory
 <sub>no GPU · Needs Node.js, LLM provider API (e.g. OpenAI), VoltOps Console (optional) · Models: OpenAI, Anthropic, Google · port 3141 · [Repo](https://github.com/voltagent/voltagent) · [▶️ Demo ↗](https://console.voltagent.dev/demo) · [📖 Docs ↗](https://voltagent.dev/docs/) · [🌐 Site ↗](https://voltagent.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/voltagent/)</sub>
 
 <a name="mobilerun"></a>
-### #&#8288;45 [mobilerun](https://github.com/droidrun/mobilerun) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10.0k · MIT · Nov 2026</sub>
+### #&#8288;45 [mobilerun](https://github.com/droidrun/mobilerun) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10.0k · MIT · Nov 2026</sub>
 
 **LLM agent framework that taps, swipes and types on Android and iOS devices.**
 

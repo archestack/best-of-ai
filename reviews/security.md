@@ -131,7 +131,7 @@ Python library that sits between application code and the LLM and applies input,
 <sub>Docker · Needs Python 3.10-3.13, LLM provider such as OpenAI or NIM · Models: OpenAI GPT-3.5/GPT-4, LLaMa-2, Falcon, Vicuna, Mosaic · [Repo](https://github.com/nvidia-nemo/guardrails) · [📖 Docs ↗](https://docs.nvidia.com/nemo/guardrails) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nvidia-nemo-guardrails/)</sub>
 
 <a name="cyberstrikeai"></a>
-### #&#8288;8 [cyberstrikeai](https://github.com/aipentest/cyberstrikeai) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;8 [cyberstrikeai](https://github.com/aipentest/cyberstrikeai) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Nov 2026</sub>
 
 **AI agent platform for authorized penetration testing.**
 
@@ -221,7 +221,7 @@ Pwnagotchi runs an A2C reinforcement-learning agent (LSTM policy with MLP featur
 <sub>Needs bettercap, hashcat · Models: A2C (stable-baselines, MlpLstmPolicy) · [Repo](https://github.com/evilsocket/pwnagotchi) · [📖 Docs ↗](https://www.pwnagotchi.ai) · [🌐 Site ↗](https://pwnagotchi.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pwnagotchi/)</sub>
 
 <a name="superagent"></a>
-### #&#8288;13 [superagent](https://github.com/superagent-ai/superagent) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (14) · Freshness: active (80) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · MIT · Aug 2026</sub>
+### #&#8288;13 [superagent](https://github.com/superagent-ai/superagent) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (14) · Freshness: active (80) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
 
 **SDK that blocks prompt injections and redacts PII in AI agent apps.**
 

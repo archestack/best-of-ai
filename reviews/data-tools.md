@@ -5,7 +5,7 @@ Tools that turn web pages, PDFs and documents into clean text or structured data
 <sub>🌐 Also on the web: [Data and scraping for AI on archestack.com](https://archestack.com/best-of-ai/data-tools/), each project on its own page.</sub>
 
 <a name="mineru"></a>
-### 🥇 [mineru](https://github.com/opendatalab/mineru) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · custom license · Nov 2026</sub>
+### 🥇 [mineru](https://github.com/opendatalab/mineru) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · custom license · Nov 2026</sub>
 
 **Document parser that converts PDFs, images and Office files to Markdown and JSON.**
 
@@ -183,7 +183,7 @@ ScrapeGraphAI is a Python library that extracts structured data from websites an
 <sub>GPU optional · Docker + Compose · Needs Playwright, Ollama (for local models), LLM provider API key (for hosted models) · Models: Ollama, OpenAI, Groq, Azure, Gemini · [Repo](https://github.com/scrapegraphai/scrapegraph-ai) · [📖 Docs ↗](https://docs.scrapegraphai.com/introduction) · [🌐 Site ↗](https://scrapegraphai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scrapegraph-ai/)</sub>
 
 <a name="marker"></a>
-### #&#8288;11 [marker](https://github.com/datalab-to/marker) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;11 [marker](https://github.com/datalab-to/marker) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Oct 2026</sub>
 
 **Converts PDFs, Office files and images to markdown, JSON, HTML or chunks.**
 
@@ -200,26 +200,8 @@ Marker is a Python library and CLI that converts PDF, image, PPTX, DOCX, XLSX, H
 
 <sub>GPU optional · Needs PyTorch, Python 3.10+, vLLM via Docker with NVIDIA Container Toolkit (GPU), llama.cpp llama-server (CPU / Apple Silicon), optional LLM service for --use_llm · Models: surya VLM, Gemini, Claude, OpenAI-compatible, Azure · [Repo](https://github.com/datalab-to/marker) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/marker/)</sub>
 
-<a name="cocoindex"></a>
-### #&#8288;12 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
-
-**Incremental Python pipelines that keep vector indexes and agent context fresh.**
-
-CocoIndex is a Python framework with a Rust core for declaring how source data (files, code, PDFs, Slack, databases) maps to a target such as Postgres/pgvector or LanceDB. It memoizes by input and code hash, so after a change only the affected rows are recomputed and re-embedded. It also tracks lineage from each target row back to its source.
-
-- **+** Memoization keyed on input and code hash re-embeds only changed files
-- **+** Pipelines are plain Python functions, not a DAG or YAML config
-- **+** Per-row lineage traces target vectors back to source content
-- **+** Rust core with retries, back-off and dead-letter queues, per the README
-- **−** Library only: no UI, you write and run the pipeline code yourself
-- **−** Python 3.10-3.13 supported; other languages are not mentioned
-- **−** Quickstart needs an external target store such as Postgres
-- **−** README is marketing-heavy; connector and scale details are only in the docs
-
-<sub>Needs Python 3.10-3.13, Postgres (pgvector) or LanceDB as target · Models: sentence-transformers · [Repo](https://github.com/cocoindex-io/cocoindex) · [📖 Docs ↗](https://cocoindex.io/docs) · [🌐 Site ↗](https://cocoindex.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cocoindex/)</sub>
-
 <a name="moli"></a>
-### #&#8288;13 [moli](https://github.com/lexmount/moli) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [moli](https://github.com/lexmount/moli) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
 
 **Headless browser in Rust for AI agents, with CDP and WebDriver support.**
 
@@ -235,6 +217,24 @@ Moli is a standalone browser kernel written in Rust (V8, Stylo, Taffy, Parley), 
 - **−** Benchmarks are published by the project's own authors
 
 <sub>no GPU · Needs libcurl · port 9222 · [Repo](https://github.com/lexmount/moli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moli/)</sub>
+
+<a name="cocoindex"></a>
+### #&#8288;13 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+
+**Incremental Python pipelines that keep vector indexes and agent context fresh.**
+
+CocoIndex is a Python framework with a Rust core for declaring how source data (files, code, PDFs, Slack, databases) maps to a target such as Postgres/pgvector or LanceDB. It memoizes by input and code hash, so after a change only the affected rows are recomputed and re-embedded. It also tracks lineage from each target row back to its source.
+
+- **+** Memoization keyed on input and code hash re-embeds only changed files
+- **+** Pipelines are plain Python functions, not a DAG or YAML config
+- **+** Per-row lineage traces target vectors back to source content
+- **+** Rust core with retries, back-off and dead-letter queues, per the README
+- **−** Library only: no UI, you write and run the pipeline code yourself
+- **−** Python 3.10-3.13 supported; other languages are not mentioned
+- **−** Quickstart needs an external target store such as Postgres
+- **−** README is marketing-heavy; connector and scale details are only in the docs
+
+<sub>Needs Python 3.10-3.13, Postgres (pgvector) or LanceDB as target · Models: sentence-transformers · [Repo](https://github.com/cocoindex-io/cocoindex) · [📖 Docs ↗](https://cocoindex.io/docs) · [🌐 Site ↗](https://cocoindex.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cocoindex/)</sub>
 
 <a name="labelme"></a>
 ### #&#8288;14 [labelme](https://github.com/wkentaro/labelme) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
