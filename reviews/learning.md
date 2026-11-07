@@ -612,7 +612,7 @@ Course materials for DataTalks.Club's MLOps Zoomcamp: six modules with pre-recor
 <sub>Needs Python, Docker, MLflow, Prefect, AWS Kinesis, AWS Lambda, Prometheus, Grafana, Evidently, MongoDB, Terraform, GitHub Actions · [Repo](https://github.com/datatalksclub/mlops-zoomcamp) · [📖 Docs ↗](https://datatalks.club/docs/courses/mlops-zoomcamp/) · [🌐 Site ↗](https://courses.datatalks.club/register/mlops-zoomcamp/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mlops-zoomcamp/)</sub>
 
 <a name="nlp-course"></a>
-### #&#8288;35 [nlp_course](https://github.com/yandexdataschool/nlp_course) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;35 [nlp_course](https://github.com/yandexdataschool/nlp_course) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **University NLP course with lecture and notebook homework, from embeddings to agents.**
 

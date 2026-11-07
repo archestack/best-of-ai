@@ -185,7 +185,7 @@ Big-AGI Open is the self-hostable web app behind big-agi.com, deployable via Doc
 <sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-agi) · [🌐 Site ↗](https://big-agi.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/big-agi/)</sub>
 
 <a name="nextchat"></a>
-### #&#8288;11 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (93) · Freshness: recent (76) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### #&#8288;11 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (93) · Freshness: recent (76) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Web and desktop chat client for OpenAI, Claude, Gemini and other model APIs.**
 
@@ -203,7 +203,7 @@ NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, A
 <sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
 
 <a name="page-assist"></a>
-### #&#8288;12 [page-assist](https://github.com/n4ze3m/page-assist) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Nov 2026</sub>
+### #&#8288;12 [page-assist](https://github.com/n4ze3m/page-assist) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Nov 2026</sub>
 
 **Browser extension with a sidebar and web UI for local models.**
 
