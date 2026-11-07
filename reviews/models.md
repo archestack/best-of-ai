@@ -362,7 +362,7 @@ Weights and code for the MiniCPM series of compact dense LLMs. The current relea
 <sub>GPU optional · Needs vLLM, SGLang, llama.cpp, Transformers · Models: BF16, GGUF, MLX, GPTQ, MiniCPM5-2B · [Repo](https://github.com/openbmb/minicpm) · [▶️ Demo ↗](https://huggingface.co/spaces/openbmb/MiniCPM5-2B-Demo) · [📖 Docs ↗](https://modelbest.feishu.cn/wiki/UtWxwcERfiRIpIkBOjuc3h9tn1D?fromScene=spaceOverview) · [🌐 Site ↗](https://ultradata.openbmb.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minicpm/)</sub>
 
 <a name="yolov3"></a>
-### #&#8288;21 [yolov3](https://github.com/ultralytics/yolov3) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (34) · Freshness: recent (70) · Maintenance: fair (62) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;21 [yolov3](https://github.com/ultralytics/yolov3) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (34) · Freshness: recent (70) · Maintenance: fair (63) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · AGPL-3.0 · Nov 2026</sub>
 
 **PyTorch implementation of YOLOv3, YOLOv3-SPP and YOLOv3-tiny object detectors.**
 
@@ -504,7 +504,7 @@ Python package that loads the Chronos family of pretrained time series models (C
 <sub>GPU optional · Needs Hugging Face model hub, pandas[pyarrow] · Models: Chronos-2, Chronos-Bolt, Chronos-T5 · [Repo](https://github.com/amazon-science/chronos-forecasting) · [📖 Docs ↗](https://auto.gluon.ai/cloud/stable/tutorials/foundation-model-timeseries.html) · [🌐 Site ↗](https://huggingface.co/collections/amazon/chronos-models-65f1791d630a8d57cb718444) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chronos-forecasting/)</sub>
 
 <a name="kronos"></a>
-### #&#8288;29 [kronos](https://github.com/shiyu-coder/kronos) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (92) · Freshness: recent (57) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · MIT · Apr 2026</sub>
+### #&#8288;29 [kronos](https://github.com/shiyu-coder/kronos) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (92) · Freshness: recent (57) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · MIT · Apr 2026</sub>
 
 **Pretrained decoder-only models that forecast financial candlestick (K-line) series.**
 

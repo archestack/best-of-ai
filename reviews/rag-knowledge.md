@@ -237,26 +237,8 @@ DocsGPT ingests documents, web pages and synced sources such as Google Drive, Co
 
 <sub>GPU optional · Docker + Compose · Needs Docker, PostgreSQL, Redis, Vector store (FAISS, pgvector, Elasticsearch, Qdrant, Milvus or MongoDB) · Models: OpenAI, Anthropic, Google, Groq, OpenRouter · port 7091 · [Repo](https://github.com/arc53/docsgpt) · [▶️ Demo ↗](https://app.docsgpt.cloud/) · [📖 Docs ↗](https://docs.docsgpt.cloud/) · [🌐 Site ↗](https://www.docsgpt.cloud) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docsgpt/)</sub>
 
-<a name="morphic"></a>
-### #&#8288;14 [Morphic](https://github.com/miurla/morphic) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2026</sub>
-
-**AI answer engine with cited search results and generative UI components.**
-
-Morphic is a Next.js (TypeScript) AI search app that answers queries with cited sources and renders results as inline components streamed from a JSON spec. It supports OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway and OpenAI-compatible models, with Tavily, SearXNG, Brave or Exa for search. Chat history lives in PostgreSQL, and Docker Compose bundles Postgres, Redis and SearXNG.
-
-- **+** Docker Compose bundles SearXNG, so no search API key is required
-- **+** Many model providers, including local Ollama and OpenAI-compatible endpoints
-- **+** Four search backends: Tavily, SearXNG, Brave, Exa
-- **+** Built-in accounts via Better Auth or Supabase Auth, plus guest mode and shareable result URLs
-- **−** Compose stack needs PostgreSQL, Redis and SearXNG alongside the app
-- **−** Needs at least one model provider API key or a local Ollama setup
-- **−** Local development requires Bun; RAM and GPU requirements are not stated
-- **−** Chat history, auth and file upload need extra configuration beyond the quick start
-
-<sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Tavily, Brave, Exa, Supabase · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic) · [📖 Docs ↗](https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphic/)</sub>
-
 <a name="private-gpt"></a>
-### #&#8288;15 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;14 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Oct 2026</sub>
 
 **Anthropic-style API layer for private RAG on local inference servers.**
 
@@ -272,6 +254,24 @@ PrivateGPT 1.0 is an API server shaped like the Anthropic Messages API, adding f
 - **−** RBAC, LDAP, connectors and audit logs exist only in the commercial Zylon platform
 
 <sub>no GPU · Docker · Needs OpenAI-compatible inference server (Ollama, llama.cpp, vLLM) · Models: any model behind an OpenAI-compatible /v1/chat/completions endpoint · port 8080 · [Repo](https://github.com/zylon-ai/private-gpt) · [📖 Docs ↗](https://docs.privategpt.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/private-gpt/)</sub>
+
+<a name="morphic"></a>
+### #&#8288;15 [Morphic](https://github.com/miurla/morphic) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2026</sub>
+
+**AI answer engine with cited search results and generative UI components.**
+
+Morphic is a Next.js (TypeScript) AI search app that answers queries with cited sources and renders results as inline components streamed from a JSON spec. It supports OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway and OpenAI-compatible models, with Tavily, SearXNG, Brave or Exa for search. Chat history lives in PostgreSQL, and Docker Compose bundles Postgres, Redis and SearXNG.
+
+- **+** Docker Compose bundles SearXNG, so no search API key is required
+- **+** Many model providers, including local Ollama and OpenAI-compatible endpoints
+- **+** Four search backends: Tavily, SearXNG, Brave, Exa
+- **+** Built-in accounts via Better Auth or Supabase Auth, plus guest mode and shareable result URLs
+- **−** Compose stack needs PostgreSQL, Redis and SearXNG alongside the app
+- **−** Needs at least one model provider API key or a local Ollama setup
+- **−** Local development requires Bun; RAM and GPU requirements are not stated
+- **−** Chat history, auth and file upload need extra configuration beyond the quick start
+
+<sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, SearXNG, Tavily, Brave, Exa, Supabase · Models: OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway · port 3000 · [Repo](https://github.com/miurla/morphic) · [📖 Docs ↗](https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphic/)</sub>
 
 <a name="txtai"></a>
 ### #&#8288;16 [txtai](https://github.com/neuml/txtai) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
@@ -292,7 +292,7 @@ txtai is a Python library built around an embeddings database that combines spar
 <sub>GPU optional · Docker · Needs Python 3.11+, Hugging Face Transformers, Sentence Transformers, FastAPI · Models: Hugging Face models, llama.cpp, LiteLLM (OpenAI, Claude, AWS Bedrock) · port 8000 · [Repo](https://github.com/neuml/txtai) · [📖 Docs ↗](https://neuml.github.io/txtai/) · [🌐 Site ↗](https://neuml.github.io/txtai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/txtai/)</sub>
 
 <a name="local-deep-research"></a>
-### #&#8288;17 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · MIT · Nov 2026</sub>
+### #&#8288;17 [Local Deep Research](https://github.com/learningcircuit/local-deep-research) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · MIT · Nov 2026</sub>
 
 **Agentic research tool that searches web, papers and your files, writes cited reports.**
 
@@ -310,7 +310,7 @@ Local Deep Research runs multi-step research on a question using an LLM (Ollama 
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, Docker (optional) · Models: Ollama, OpenAI-compatible endpoints · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-research/)</sub>
 
 <a name="niubigeo"></a>
-### #&#8288;18 [niubigeo](https://github.com/albert-weasker/niubigeo) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;18 [niubigeo](https://github.com/albert-weasker/niubigeo) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted tool for tracking how AI models mention your brand and competitors.**
 
@@ -523,7 +523,7 @@ Docling Serve wraps the Docling document converter in a FastAPI service: POST a 
 <sub>GPU optional · Docker · Models: bundled Docling parsing models · port 5001 · [Repo](https://github.com/docling-project/docling-serve) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling-serve/)</sub>
 
 <a name="paper-qa"></a>
-### #&#8288;30 [paper-qa](https://github.com/future-house/paper-qa) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (35) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;30 [paper-qa](https://github.com/future-house/paper-qa) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (34) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
 
 **Python RAG library and CLI for answering questions over scientific PDFs with citations.**
 
@@ -595,7 +595,7 @@ Scira is a Next.js app that takes a question, uploaded file or URL, breaks it in
 <sub>no GPU · Docker + Compose · Needs Exa, Firecrawl, Tavily, Parallel, Valyu, Supadata, Daytona, Upstash Redis, Cloudflare R2, Supermemory, Cohere, ElevenLabs, Database (DATABASE_URL), Better Auth · Models: xAI Grok, OpenAI GPT, Anthropic Claude, Google Gemini, Qwen · port 3000 · [Repo](https://github.com/zaidmukaddam/scira) · [▶️ Demo ↗](https://scira.ai) · [🌐 Site ↗](https://scira.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scira/)</sub>
 
 <a name="local-deep-researcher"></a>
-### #&#8288;34 [local-deep-researcher](https://github.com/langchain-ai/local-deep-researcher) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (33) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · MIT · Oct 2026</sub>
+### #&#8288;34 [local-deep-researcher](https://github.com/langchain-ai/local-deep-researcher) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (31) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · MIT · Oct 2026</sub>
 
 **Iterative web research agent that runs on Ollama or LM Studio models.**
 
@@ -702,7 +702,7 @@ Paperless-AI watches a Paperless-ngx instance, sends new documents to OpenAI, Ol
 <sub>no GPU · Docker + Compose · Needs Paperless-ngx · Models: Ollama (Mistral, Llama, Phi-3, Gemma-2), OpenAI, DeepSeek, OpenRouter, Perplexity, Together, LiteLLM, vLLM, Fastchat, Gemini · [Repo](https://github.com/clusterzx/paperless-ai) · [📖 Docs ↗](https://github.com/clusterzx/paperless-ai/wiki/2.-Installation) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperless-ai/)</sub>
 
 <a name="kag"></a>
-### #&#8288;40 [kag](https://github.com/openspg/kag) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (29) · Freshness: quiet (24) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;40 [kag](https://github.com/openspg/kag) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (28) · Freshness: quiet (24) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Jan 2026</sub>
 
 **Knowledge-graph Q&A framework with logic-form reasoning, built on OpenSPG.**
 

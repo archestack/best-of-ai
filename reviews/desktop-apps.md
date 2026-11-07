@@ -149,7 +149,7 @@ Community-maintained desktop app that installs Hermes Agent into ~/.hermes with 
 <sub>GPU optional · Needs Hermes Agent, Git, uv, Python 3.11+ · Models: OpenRouter, Anthropic, OpenAI, Google Gemini, xAI Grok · port 8642 · [Repo](https://github.com/fathah/hermes-desktop) · [🌐 Site ↗](https://hermesone.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-desktop/)</sub>
 
 <a name="chatbox"></a>
-### #&#8288;9 [chatbox](https://github.com/chatboxai/chatbox) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;9 [chatbox](https://github.com/chatboxai/chatbox) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · GPL-3.0 · Oct 2026</sub>
 
 **Desktop and mobile chat client for OpenAI, Claude, Gemini and Ollama models.**
 
@@ -400,7 +400,7 @@ Enchanted is a Swift app for macOS, iOS and visionOS that connects to an Ollama 
 <sub>Needs Ollama v0.1.14 or later, ngrok (to expose a local Ollama server) · Models: Ollama models (Llama 2, Mistral, Vicuna, Starling) · [Repo](https://github.com/gluonfield/enchanted) · [▶️ Demo ↗](https://www.youtube.com/watch?v=zW3roZ_vM5Q) · [🌐 Site ↗](https://apps.apple.com/gb/app/enchanted-llm/id6474268307) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/enchanted/)</sub>
 
 <a name="noi"></a>
-### #&#8288;23 [noi](https://github.com/lencx/noi) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (30) · Freshness: active (90) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
+### #&#8288;23 [noi](https://github.com/lencx/noi) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (30) · Freshness: active (90) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
 
 **Desktop app for running isolated AI chat sessions in multiple windows.**
 
