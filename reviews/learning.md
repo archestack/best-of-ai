@@ -93,8 +93,26 @@ A repository of Jupyter notebooks, each implementing one RAG technique, from bas
 
 <sub>[Repo](https://github.com/nirdiamant/rag_techniques) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rag-techniques/)</sub>
 
+<a name="cs249r-book"></a>
+### #&#8288;6 [cs249r_book](https://github.com/harvard-edge/cs249r_book) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Nov 2026</sub>
+
+**Open textbook and course materials for machine learning systems engineering.**
+
+A single repository holding a four-volume ML systems textbook (foundations, scaling, agentic, physical AI) plus companion material. The companions are Marimo labs, TinyTorch (build an ML framework in 20 modules), Arduino and Raspberry Pi hardware kits, the MLSys·im infrastructure simulator, StaffML interview questions, slides and an instructor hub. Volume I is released; Volume II is a preview; Volumes III and IV are drafts.
+
+- **+** Covers theory, framework internals, edge hardware and cluster modeling in one curriculum
+- **+** TinyTorch walks through building an ML framework across 20 progressive modules
+- **+** Includes instructor syllabi, rubrics, TA handbook and Beamer slides for every chapter
+- **+** Interactive Marimo labs let readers change parameters and see trade-offs
+- **−** Volumes III and IV are drafts; README asks readers not to cite or teach from them
+- **−** Volume II is only a preview
+- **−** License is CC-BY-NC-SA 4.0, which restricts commercial use
+- **−** A course, not a deployable tool; little of it runs as a service
+
+<sub>[Repo](https://github.com/harvard-edge/cs249r_book) · [📖 Docs ↗](https://mlsysbook.ai/vol1/) · [🌐 Site ↗](https://mlsysbook.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cs249r-book/)</sub>
+
 <a name="llms-from-scratch"></a>
-### #&#8288;6 [llms-from-scratch](https://github.com/rasbt/llms-from-scratch) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 108k · custom license · Nov 2026</sub>
+### #&#8288;7 [llms-from-scratch](https://github.com/rasbt/llms-from-scratch) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 108k · custom license · Nov 2026</sub>
 
 **Code for the book on building a GPT-style LLM in PyTorch.**
 
@@ -112,7 +130,7 @@ Official code for the Manning book "Build a Large Language Model (From Scratch)"
 <sub>GPU optional · Needs PyTorch, Jupyter, Ollama (optional, ch07 evaluation) · Models: GPT-2, Llama 3.2, Qwen3, Gemma 3, Olmo 3 · [Repo](https://github.com/rasbt/llms-from-scratch) · [🌐 Site ↗](http://mng.bz/orYv) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llms-from-scratch/)</sub>
 
 <a name="ai-agents-for-beginners"></a>
-### #&#8288;7 [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 79k · MIT · Nov 2026</sub>
+### #&#8288;8 [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 79k · MIT · Nov 2026</sub>
 
 **18-lesson course on building AI agents with Microsoft Agent Framework.**
 
@@ -128,24 +146,6 @@ A Microsoft course of 18 lessons on building AI agents. Each lesson has a writte
 - **−** Clone is large unless translations are excluded with sparse checkout
 
 <sub>no GPU · Needs Microsoft Foundry (Azure account), Microsoft Agent Framework, Microsoft Foundry Agent Service V2 · Models: Microsoft Foundry models, OpenAI-compatible providers (MiniMax) · [Repo](https://github.com/microsoft/ai-agents-for-beginners) · [📖 Docs ↗](https://github.com/microsoft/ai-agents-for-beginners/blob/master/00-course-setup/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-agents-for-beginners/)</sub>
-
-<a name="cs249r-book"></a>
-### #&#8288;8 [cs249r_book](https://github.com/harvard-edge/cs249r_book) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Nov 2026</sub>
-
-**Open textbook and course materials for machine learning systems engineering.**
-
-A single repository holding a four-volume ML systems textbook (foundations, scaling, agentic, physical AI) plus companion material. The companions are Marimo labs, TinyTorch (build an ML framework in 20 modules), Arduino and Raspberry Pi hardware kits, the MLSys·im infrastructure simulator, StaffML interview questions, slides and an instructor hub. Volume I is released; Volume II is a preview; Volumes III and IV are drafts.
-
-- **+** Covers theory, framework internals, edge hardware and cluster modeling in one curriculum
-- **+** TinyTorch walks through building an ML framework across 20 progressive modules
-- **+** Includes instructor syllabi, rubrics, TA handbook and Beamer slides for every chapter
-- **+** Interactive Marimo labs let readers change parameters and see trade-offs
-- **−** Volumes III and IV are drafts; README asks readers not to cite or teach from them
-- **−** Volume II is only a preview
-- **−** License is CC-BY-NC-SA 4.0, which restricts commercial use
-- **−** A course, not a deployable tool; little of it runs as a service
-
-<sub>[Repo](https://github.com/harvard-edge/cs249r_book) · [📖 Docs ↗](https://mlsysbook.ai/vol1/) · [🌐 Site ↗](https://mlsysbook.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cs249r-book/)</sub>
 
 <a name="agents-towards-production"></a>
 ### #&#8288;9 [agents-towards-production](https://github.com/nirdiamant/agents-towards-production) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · custom license · Nov 2026</sub>
@@ -164,43 +164,8 @@ A collection of 28 tutorial notebooks on production concerns for GenAI agents: s
 
 <sub>GPU optional · Needs LangGraph, Redis, Mem0, Tavily, Bright Data, Contextual AI, Arcade, RunPod, Inngest · [Repo](https://github.com/nirdiamant/agents-towards-production) · [🌐 Site ↗](https://www.diamant-ai.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agents-towards-production/)</sub>
 
-<a name="openai-cookbook"></a>
-### #&#8288;10 [openai-cookbook](https://github.com/openai/openai-cookbook) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · MIT · Nov 2026</sub>
-
-**Example notebooks and guides for building with the OpenAI API.**
-
-Collection of runnable Jupyter notebooks and guides showing common tasks with the OpenAI API. Most examples are in Python, and the README says the concepts apply to other languages. Running them requires an OpenAI account and an API key set as OPENAI_API_KEY. The guides are also browsable at cookbook.openai.com.
-
-- **+** Maintained by OpenAI, so examples track the official API
-- **+** Runnable notebooks; API key is read from OPENAI_API_KEY or a .env file
-- **+** Also browsable as a site at cookbook.openai.com
-- **+** MIT license
-- **−** Requires an OpenAI account and API key; examples do not target local models
-- **−** Most examples are Python only
-- **−** No tagged releases
-
-<sub>no GPU · Needs OpenAI API key, Jupyter · Models: OpenAI API models · [Repo](https://github.com/openai/openai-cookbook) · [📖 Docs ↗](https://platform.openai.com/docs/introduction) · [🌐 Site ↗](https://cookbook.openai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai-cookbook/)</sub>
-
-<a name="learn-claude-code"></a>
-### #&#8288;11 [learn-claude-code](https://github.com/shareai-lab/learn-claude-code) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Oct 2026</sub>
-
-**17-chapter Python course on building a Claude Code-style agent harness.**
-
-A tutorial repo that rebuilds the parts of a coding-agent harness one chapter at a time. It starts with a single while-loop and bash, then adds permissions, hooks, memory, subagents, task graphs, cron, agent teams, MCP, a workflow runtime and a goal loop. Each root-level chapter (s01 to s17) has a runnable code.py and Chinese and Japanese translations.
-
-- **+** Each chapter isolates one mechanism with a runnable code.py
-- **+** Covers permissions, hooks, memory, context compaction, MCP and agent teams in order
-- **+** Includes a legacy-to-current chapter mapping for older links
-- **+** Chapter READMEs in English, Chinese and Japanese
-- **−** Teaching code, not an installable library or product
-- **−** Legacy and current tracks use different chapter numbers
-- **−** Long opinionated preamble before any code
-- **−** Setup, API key and model requirements not shown in the visible README
-
-<sub>no GPU · Needs LLM API with tool use (Anthropic-style messages API) · Models: Claude · [Repo](https://github.com/shareai-lab/learn-claude-code) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learn-claude-code/)</sub>
-
 <a name="ml-for-beginners"></a>
-### #&#8288;12 [ml-for-beginners](https://github.com/microsoft/ml-for-beginners) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · MIT · Sep 2026</sub>
+### #&#8288;10 [ml-for-beginners](https://github.com/microsoft/ml-for-beginners) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (48) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · MIT · Nov 2026</sub>
 
 **12-week, 26-lesson classic machine learning course using Scikit-learn.**
 
@@ -217,8 +182,43 @@ A Microsoft Cloud Advocates curriculum covering classic machine learning (regres
 
 <sub>no GPU · Needs Python, Scikit-learn, Jupyter, R (optional) · [Repo](https://github.com/microsoft/ml-for-beginners) · [▶️ Demo ↗](https://ff-quizzes.netlify.app/en/ml/) · [📖 Docs ↗](https://learn.microsoft.com/en-us/collections/qrqzamz1nn2wx3?WT.mc_id=academic-77952-bethanycheum) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ml-for-beginners/)</sub>
 
+<a name="openai-cookbook"></a>
+### #&#8288;11 [openai-cookbook](https://github.com/openai/openai-cookbook) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · MIT · Nov 2026</sub>
+
+**Example notebooks and guides for building with the OpenAI API.**
+
+Collection of runnable Jupyter notebooks and guides showing common tasks with the OpenAI API. Most examples are in Python, and the README says the concepts apply to other languages. Running them requires an OpenAI account and an API key set as OPENAI_API_KEY. The guides are also browsable at cookbook.openai.com.
+
+- **+** Maintained by OpenAI, so examples track the official API
+- **+** Runnable notebooks; API key is read from OPENAI_API_KEY or a .env file
+- **+** Also browsable as a site at cookbook.openai.com
+- **+** MIT license
+- **−** Requires an OpenAI account and API key; examples do not target local models
+- **−** Most examples are Python only
+- **−** No tagged releases
+
+<sub>no GPU · Needs OpenAI API key, Jupyter · Models: OpenAI API models · [Repo](https://github.com/openai/openai-cookbook) · [📖 Docs ↗](https://platform.openai.com/docs/introduction) · [🌐 Site ↗](https://cookbook.openai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai-cookbook/)</sub>
+
+<a name="learn-claude-code"></a>
+### #&#8288;12 [learn-claude-code](https://github.com/shareai-lab/learn-claude-code) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Oct 2026</sub>
+
+**17-chapter Python course on building a Claude Code-style agent harness.**
+
+A tutorial repo that rebuilds the parts of a coding-agent harness one chapter at a time. It starts with a single while-loop and bash, then adds permissions, hooks, memory, subagents, task graphs, cron, agent teams, MCP, a workflow runtime and a goal loop. Each root-level chapter (s01 to s17) has a runnable code.py and Chinese and Japanese translations.
+
+- **+** Each chapter isolates one mechanism with a runnable code.py
+- **+** Covers permissions, hooks, memory, context compaction, MCP and agent teams in order
+- **+** Includes a legacy-to-current chapter mapping for older links
+- **+** Chapter READMEs in English, Chinese and Japanese
+- **−** Teaching code, not an installable library or product
+- **−** Legacy and current tracks use different chapter numbers
+- **−** Long opinionated preamble before any code
+- **−** Setup, API key and model requirements not shown in the visible README
+
+<sub>no GPU · Needs LLM API with tool use (Anthropic-style messages API) · Models: Claude · [Repo](https://github.com/shareai-lab/learn-claude-code) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learn-claude-code/)</sub>
+
 <a name="hello-agents"></a>
-### #&#8288;13 [hello-agents](https://github.com/datawhalechina/hello-agents) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · custom license · Oct 2026</sub>
+### #&#8288;13 [hello-agents](https://github.com/datawhalechina/hello-agents) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: patchy (48) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · custom license · Oct 2026</sub>
 
 **Chinese-language course on building LLM agents from scratch.**
 
@@ -236,7 +236,7 @@ A 16-chapter Chinese tutorial from Datawhale covering agent fundamentals, ReAct,
 <sub>Needs OpenAI-compatible LLM API · Models: OpenAI API · [Repo](https://github.com/datawhalechina/hello-agents) · [📖 Docs ↗](https://datawhalechina.github.io/hello-agents/) · [🌐 Site ↗](https://hello-agents.datawhale.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hello-agents/)</sub>
 
 <a name="genai-agents"></a>
-### #&#8288;14 [genai_agents](https://github.com/nirdiamant/genai_agents) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
+### #&#8288;14 [genai_agents](https://github.com/nirdiamant/genai_agents) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
 
 **Notebook tutorials for building GenAI agents with LangGraph, LangChain and AutoGen.**
 
@@ -254,7 +254,7 @@ A collection of 57 Jupyter notebooks that walk through agent designs, from simpl
 <sub>Needs LangGraph, LangChain, LLM provider API · [Repo](https://github.com/nirdiamant/genai_agents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genai-agents/)</sub>
 
 <a name="ai-agent-book"></a>
-### #&#8288;15 [ai-agent-book](https://github.com/bojieli/ai-agent-book) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 57k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;15 [ai-agent-book](https://github.com/bojieli/ai-agent-book) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 57k · Apache-2.0 · Sep 2026</sub>
 
 **Open book on AI agent design, with 109 runnable companion experiments.**
 
@@ -540,25 +540,8 @@ Chinese adaptation of Avik-Jain's 100-Days-Of-ML-Code, with each lesson as a Pyt
 
 <sub>GPU optional · Needs Python 3.11/3.12, scikit-learn, Keras 3, Jupyter · [Repo](https://github.com/mleveryday/100-days-of-ml-code) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/100-days-of-ml-code/)</sub>
 
-<a name="happy-llm"></a>
-### #&#8288;31 [happy-llm](https://github.com/datawhalechina/happy-llm) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (77) · Freshness: active (92) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · custom license · Aug 2026</sub>
-
-**Chinese-language course on LLM theory and building a LLaMA2-style model.**
-
-Happy-LLM is a Datawhale course in eight chapters, written in Chinese with an English README. It covers NLP basics, the Transformer and pretrained model families, then implements LLaMA2 in PyTorch, trains a tokenizer, and runs pretraining, SFT, LoRA/QLoRA, RAG, agents and GRPO-based agentic RL. Two 215M checkpoints from chapter 5 are published on ModelScope.
-
-- **+** Covers Transformer basics through pretraining, SFT, LoRA/QLoRA, RAG, agents and agentic RL
-- **+** Publishes 215M base and SFT checkpoints plus a ModelScope studio to try them
-- **+** Free PDF and companion slides available from the releases page
-- **+** Dependencies split per chapter, with an environment preparation guide
-- **−** Main content is in Chinese; only the README has an English version
-- **−** Content license is CC BY-NC-SA 4.0, which restricts commercial use
-- **−** Extra Chapter blog section is marked as in progress
-
-<sub>Needs PyTorch, Transformers · Models: LLaMA2, Happy-LLM-215M-base, Happy-LLM-215M-sft · [Repo](https://github.com/datawhalechina/happy-llm) · [▶️ Demo ↗](https://www.modelscope.cn/studios/kmno4zx/happy_llm_215M_sft) · [📖 Docs ↗](https://datawhalechina.github.io/happy-llm/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/happy-llm/)</sub>
-
 <a name="amazon-sagemaker-examples"></a>
-### #&#8288;32 [amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (32) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;31 [amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (32) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
 
 **Official notebooks for training, tuning, deploying and operating models on SageMaker.**
 
@@ -576,7 +559,7 @@ AWS-maintained collection of Jupyter notebooks covering Amazon SageMaker feature
 <sub>Needs AWS account, IAM role, Amazon S3, Amazon SageMaker, Jupyter · Models: JumpStart foundation models, custom containers, SageMaker Python SDK v3 · [Repo](https://github.com/aws/amazon-sagemaker-examples) · [📖 Docs ↗](https://sagemaker.readthedocs.io/en/stable/api/sagemaker_core.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/amazon-sagemaker-examples/)</sub>
 
 <a name="handson-ml"></a>
-### #&#8288;33 [handson-ml](https://github.com/ageron/handson-ml) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (67) · Freshness: recent (71) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · Apache-2.0 · May 2026</sub>
+### #&#8288;32 [handson-ml](https://github.com/ageron/handson-ml) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (67) · Freshness: recent (70) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · Apache-2.0 · May 2026</sub>
 
 **Jupyter notebooks for the first edition of Hands-on Machine Learning book.**
 
@@ -592,6 +575,23 @@ Example code and exercise solutions for the 2017 first edition of Aurélien Gér
 - **−** Needs the book for full explanations
 
 <sub>GPU optional · Docker + Compose · Needs Anaconda or Miniconda, git, Jupyter, TensorFlow 1, Scikit-Learn · [Repo](https://github.com/ageron/handson-ml) · [▶️ Demo ↗](https://colab.research.google.com/github/ageron/handson-ml/blob/master/) · [🌐 Site ↗](https://homl.info/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/handson-ml/)</sub>
+
+<a name="happy-llm"></a>
+### #&#8288;33 [happy-llm](https://github.com/datawhalechina/happy-llm) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: popular (77) · Freshness: active (91) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · custom license · Aug 2026</sub>
+
+**Chinese-language course on LLM theory and building a LLaMA2-style model.**
+
+Happy-LLM is a Datawhale course in eight chapters, written in Chinese with an English README. It covers NLP basics, the Transformer and pretrained model families, then implements LLaMA2 in PyTorch, trains a tokenizer, and runs pretraining, SFT, LoRA/QLoRA, RAG, agents and GRPO-based agentic RL. Two 215M checkpoints from chapter 5 are published on ModelScope.
+
+- **+** Covers Transformer basics through pretraining, SFT, LoRA/QLoRA, RAG, agents and agentic RL
+- **+** Publishes 215M base and SFT checkpoints plus a ModelScope studio to try them
+- **+** Free PDF and companion slides available from the releases page
+- **+** Dependencies split per chapter, with an environment preparation guide
+- **−** Main content is in Chinese; only the README has an English version
+- **−** Content license is CC BY-NC-SA 4.0, which restricts commercial use
+- **−** Extra Chapter blog section is marked as in progress
+
+<sub>Needs PyTorch, Transformers · Models: LLaMA2, Happy-LLM-215M-base, Happy-LLM-215M-sft · [Repo](https://github.com/datawhalechina/happy-llm) · [▶️ Demo ↗](https://www.modelscope.cn/studios/kmno4zx/happy_llm_215M_sft) · [📖 Docs ↗](https://datawhalechina.github.io/happy-llm/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/happy-llm/)</sub>
 
 <a name="mlops-zoomcamp"></a>
 ### #&#8288;34 [mlops-zoomcamp](https://github.com/datatalksclub/mlops-zoomcamp) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 16k · no license · Sep 2026</sub>
@@ -612,7 +612,7 @@ Course materials for DataTalks.Club's MLOps Zoomcamp: six modules with pre-recor
 <sub>Needs Python, Docker, MLflow, Prefect, AWS Kinesis, AWS Lambda, Prometheus, Grafana, Evidently, MongoDB, Terraform, GitHub Actions · [Repo](https://github.com/datatalksclub/mlops-zoomcamp) · [📖 Docs ↗](https://datatalks.club/docs/courses/mlops-zoomcamp/) · [🌐 Site ↗](https://courses.datatalks.club/register/mlops-zoomcamp/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mlops-zoomcamp/)</sub>
 
 <a name="nlp-course"></a>
-### #&#8288;35 [nlp_course](https://github.com/yandexdataschool/nlp_course) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;35 [nlp_course](https://github.com/yandexdataschool/nlp_course) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **University NLP course with lecture and notebook homework, from embeddings to agents.**
 
@@ -896,7 +896,7 @@ A Jupyter Notebook tutorial from Datawhale that walks beginners through building
 <sub>no GPU · Needs Python 3.8+, LangChain, Streamlit, LLM provider API keys · Models: OpenAI GPT, Baidu Wenxin, iFlytek Spark, Zhipu GLM · [Repo](https://github.com/datawhalechina/llm-universe) · [📖 Docs ↗](https://datawhalechina.github.io/llm-universe/) · [🌐 Site ↗](https://datawhalechina.github.io/llm-universe/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-universe/)</sub>
 
 <a name="python-machine-learning-book"></a>
-### #&#8288;51 [python-machine-learning-book](https://github.com/rasbt/python-machine-learning-book) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: known (37) · Freshness: recent (65) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Jul 2026</sub>
+### #&#8288;51 [python-machine-learning-book](https://github.com/rasbt/python-machine-learning-book) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: known (37) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Jul 2026</sub>
 
 **Jupyter notebooks for the first edition of Python Machine Learning.**
 
@@ -1002,7 +1002,7 @@ Transformer Explainer runs a live GPT-2 model in the browser and shows the inter
 <sub>no GPU · Needs Node.js 20+, npm 10+ · Models: GPT-2 · port 5173 · [Repo](https://github.com/poloclub/transformer-explainer) · [▶️ Demo ↗](http://poloclub.github.io/transformer-explainer) · [🌐 Site ↗](http://poloclub.github.io/transformer-explainer) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/transformer-explainer/)</sub>
 
 <a name="homemade-machine-learning"></a>
-### #&#8288;57 [homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: popular (65) · Freshness: quiet (6) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · MIT · Nov 2025</sub>
+### #&#8288;57 [homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: popular (64) · Freshness: quiet (6) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · MIT · Nov 2025</sub>
 
 **From-scratch Python implementations of classic ML algorithms with Jupyter demos.**
 
@@ -1019,7 +1019,7 @@ Educational repository implementing linear regression, logistic regression, k-me
 <sub>no GPU · Needs Python, Jupyter Notebook · port 8888 · [Repo](https://github.com/trekhleb/homemade-machine-learning) · [▶️ Demo ↗](https://mybinder.org/v2/gh/trekhleb/homemade-machine-learning/master?filepath=notebooks) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/homemade-machine-learning/)</sub>
 
 <a name="fun-rec"></a>
-### #&#8288;58 [fun-rec](https://github.com/datawhalechina/fun-rec) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (13) · Freshness: active (85) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.5k · no license · Jun 2026</sub>
+### #&#8288;58 [fun-rec](https://github.com/datawhalechina/fun-rec) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (13) · Freshness: active (84) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.5k · no license · Jun 2026</sub>
 
 **Chinese-language textbook on recommender systems, from cascades to generative models.**
 
@@ -1071,7 +1071,7 @@ Meta's cookbook of Jupyter notebooks and scripts covering Llama inference, fine-
 <sub>Needs Jupyter, Llama API (some recipes), Hugging Face · Models: Llama 4, Llama 3.3, Llama 3.2, Llama 3.1, Llama 3 · [Repo](https://github.com/meta-llama/llama-cookbook) · [📖 Docs ↗](https://www.llama.com/docs/overview/) · [🌐 Site ↗](https://www.llama.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama-cookbook/)</sub>
 
 <a name="langchain-chinese-getting-started-guide"></a>
-### #&#8288;61 [langchain-chinese-getting-started-guide](https://github.com/liaokongvfx/langchain-chinese-getting-started-guide) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (24) · Freshness: recent (61) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Apr 2026</sub>
+### #&#8288;61 [langchain-chinese-getting-started-guide](https://github.com/liaokongvfx/langchain-chinese-getting-started-guide) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (24) · Freshness: recent (60) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Apr 2026</sub>
 
 **Chinese-language LangChain tutorial with runnable OpenAI examples.**
 
@@ -1107,7 +1107,7 @@ A set of Markdown chapters, with Jupyter notebook code, covering topics commonly
 <sub>[Repo](https://github.com/nlp-love/ml-nlp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ml-nlp/)</sub>
 
 <a name="pyprobml"></a>
-### #&#8288;63 [pyprobml](https://github.com/probml/pyprobml) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (11) · Freshness: quiet (29) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Feb 2026</sub>
+### #&#8288;63 [pyprobml](https://github.com/probml/pyprobml) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (11) · Freshness: quiet (28) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Feb 2026</sub>
 
 **Notebooks that reproduce figures from the Probabilistic Machine Learning books.**
 

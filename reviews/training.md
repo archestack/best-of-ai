@@ -58,7 +58,7 @@ DeepSpeed is a PyTorch library that makes large-model training fit and scale acr
 <sub>GPU optional · Docker · Needs PyTorch, CUDA or ROCm compiler (nvcc/hipcc), ninja · Models: PyTorch models, Hugging Face Transformers · [Repo](https://github.com/deepspeedai/deepspeed) · [📖 Docs ↗](https://www.deepspeed.ai/getting-started/) · [🌐 Site ↗](https://www.deepspeed.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepspeed/)</sub>
 
 <a name="verl"></a>
-### #&#8288;4 [verl](https://github.com/verl-project/verl) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;4 [verl](https://github.com/verl-project/verl) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · Apache-2.0 · Nov 2026</sub>
 
 **Reinforcement learning training library for LLM post-training with PPO and GRPO.**
 
@@ -76,7 +76,7 @@ verl is the open-source implementation of the HybridFlow paper from ByteDance Se
 <sub>GPU required · Docker · Needs Ray, PyTorch, vLLM, SGLang, Megatron-LM · Models: Qwen3.5, Qwen3, Qwen2.5, Qwen2.5-VL, Kimi-VL · [Repo](https://github.com/verl-project/verl) · [📖 Docs ↗](https://verl.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/verl/)</sub>
 
 <a name="trl"></a>
-### #&#8288;5 [trl](https://github.com/huggingface/trl) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;5 [trl](https://github.com/huggingface/trl) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Nov 2026</sub>
 
 **Post-training library with SFT, DPO, GRPO and KTO trainers.**
 
@@ -183,8 +183,26 @@ LlamaFactory fine-tunes language and multimodal models through YAML-configured C
 
 <sub>GPU required · Docker + Compose · Needs PyTorch, Hugging Face Transformers, Gradio, vLLM (optional), SGLang (optional) · Models: LLaMA, LLaVA, Mistral, Mixtral-MoE, Qwen3 · [Repo](https://github.com/hiyouga/llamafactory) · [▶️ Demo ↗](https://huggingface.co/spaces/hiyouga/LLaMA-Board) · [📖 Docs ↗](https://llamafactory.readthedocs.io/en/latest/) · [🌐 Site ↗](https://blog.llamafactory.net/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llamafactory/)</sub>
 
+<a name="soup"></a>
+### #&#8288;11 [soup](https://github.com/makazhanalpamys/soup) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+
+**CLI for fine-tuning and post-training LLMs from a single YAML config.**
+
+Soup is a Python CLI that runs LoRA/QLoRA fine-tuning and preference or RL post-training (SFT, DPO, GRPO, PPO, KTO, ORPO and others) from one soup.yaml. It also covers batch inference, an OpenAI-compatible server, merge and GGUF export, and a local web dashboard. An opt-in beta layer-streaming mode trains an 8B NF4 model in about 3.3 GB peak VRAM.
+
+- **+** Many tasks in one config: SFT, DPO, GRPO, PPO, KTO, ORPO, SimPO, IPO, vision, audio
+- **+** Layer streaming trains Llama-3.1-8B NF4 in 3.32 GB peak on a 4 GB laptop GPU
+- **+** Same tool merges adapters, exports GGUF, serves an OpenAI-compatible API, has a web UI
+- **+** Light install without PyTorch for data tools; 100+ ready-made model recipes
+- **−** Python 3.10-3.12 only; 3.13+ is unsupported
+- **−** Layer streaming is opt-in and still beta; a correctness repair changed its benchmark numbers
+- **−** Recent releases are breaking: unused settings and unknown config keys now fail at load
+- **−** AWQ and GPTQ export are deprecated and slated for removal in v0.77
+
+<sub>GPU optional · Docker + Compose · Needs PyTorch, transformers, peft, trl, HuggingFace Hub · Models: HuggingFace Hub causal LMs, Llama 3.x/4, Qwen 2.5/3, Gemma 3, Mistral · port 7860 · [Repo](https://github.com/makazhanalpamys/soup) · [🌐 Site ↗](https://trysoup.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/soup/)</sub>
+
 <a name="weclone"></a>
-### #&#8288;11 [weclone](https://github.com/xming521/weclone) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;12 [weclone](https://github.com/xming521/weclone) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · AGPL-3.0 · Nov 2026</sub>
 
 **Fine-tunes a Qwen VL model on your Telegram chats to build a chat avatar.**
 
@@ -202,7 +220,7 @@ WeClone exports Telegram chat history, strips personal data with Microsoft Presi
 <sub>GPU required · Needs CUDA 12.6+, LLaMA Factory, Microsoft Presidio, uv, AstrBot or LangBot (for chat bots) · Models: Qwen2.5-VL-7B-Instruct, LLaMA Factory supported models, LoRA, QLoRA · port 8005 · [Repo](https://github.com/xming521/weclone) · [📖 Docs ↗](https://docs.weclone.love/docs/introduce/what-is-weclone.html) · [🌐 Site ↗](https://www.weclone.love/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weclone/)</sub>
 
 <a name="art"></a>
-### #&#8288;12 [art](https://github.com/openpipe/art) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [art](https://github.com/openpipe/art) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
 
 **Python RL framework that trains LLM agents with GRPO from rollout rewards.**
 
@@ -218,24 +236,6 @@ ART wraps GRPO reinforcement learning around existing Python agent code. An Open
 - **−** Serverless path depends on a W&B account and API key
 
 <sub>GPU required · Docker · Needs vLLM, Unsloth, W&B (optional, Serverless RL) · Models: vLLM/HuggingFace causal LMs, Qwen, LoRA · [Repo](https://github.com/openpipe/art) · [📖 Docs ↗](https://art.openpipe.ai) · [🌐 Site ↗](https://art.openpipe.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/art/)</sub>
-
-<a name="soup"></a>
-### #&#8288;13 [soup](https://github.com/makazhanalpamys/soup) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
-
-**CLI for fine-tuning and post-training LLMs from a single YAML config.**
-
-Soup is a Python CLI that runs LoRA/QLoRA fine-tuning and preference or RL post-training (SFT, DPO, GRPO, PPO, KTO, ORPO and others) from one soup.yaml. It also covers batch inference, an OpenAI-compatible server, merge and GGUF export, and a local web dashboard. An opt-in beta layer-streaming mode trains an 8B NF4 model in about 3.3 GB peak VRAM.
-
-- **+** Many tasks in one config: SFT, DPO, GRPO, PPO, KTO, ORPO, SimPO, IPO, vision, audio
-- **+** Layer streaming trains Llama-3.1-8B NF4 in 3.32 GB peak on a 4 GB laptop GPU
-- **+** Same tool merges adapters, exports GGUF, serves an OpenAI-compatible API, has a web UI
-- **+** Light install without PyTorch for data tools; 100+ ready-made model recipes
-- **−** Python 3.10-3.12 only; 3.13+ is unsupported
-- **−** Layer streaming is opt-in and still beta; a correctness repair changed its benchmark numbers
-- **−** Recent releases are breaking: unused settings and unknown config keys now fail at load
-- **−** AWQ and GPTQ export are deprecated and slated for removal in v0.77
-
-<sub>GPU optional · Docker + Compose · Needs PyTorch, transformers, peft, trl, HuggingFace Hub · Models: HuggingFace Hub causal LMs, Llama 3.x/4, Qwen 2.5/3, Gemma 3, Mistral · port 7860 · [Repo](https://github.com/makazhanalpamys/soup) · [🌐 Site ↗](https://trysoup.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/soup/)</sub>
 
 <a name="agent-lightning"></a>
 ### #&#8288;14 [agent-lightning](https://github.com/microsoft/agent-lightning) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Nov 2026</sub>
@@ -379,7 +379,7 @@ Ludwig trains, fine-tunes and serves models from a YAML config and a CLI, with n
 <sub>GPU optional · Docker · Needs PyTorch 2.7+, Transformers 5, Ray 2.54, Hugging Face Hub token (gated models) · Models: Hugging Face Transformers, LoRA, QLoRA, DoRA, VeRA · port 8000 · [Repo](https://github.com/ludwig-ai/ludwig) · [📖 Docs ↗](https://ludwig.ai/latest/getting_started/) · [🌐 Site ↗](https://ludwig.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ludwig/)</sub>
 
 <a name="torchtitan"></a>
-### #&#8288;22 [torchtitan](https://github.com/pytorch/torchtitan) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;22 [torchtitan](https://github.com/pytorch/torchtitan) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · BSD-3-Clause · Nov 2026</sub>
 
 **PyTorch-native training stack for pretraining, fine-tuning and RL of large models.**
 
@@ -450,7 +450,7 @@ Unity SDK plus a PyTorch-based Python trainer that turns Unity scenes into reinf
 <sub>GPU optional · Docker · Needs Unity (2020.1 or later), Python, PyTorch · Models: PPO, SAC, MA-POCA, BC, GAIL · [Repo](https://github.com/unity-technologies/ml-agents) · [📖 Docs ↗](https://docs.unity3d.com/Packages/com.unity.ml-agents@latest) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ml-agents/)</sub>
 
 <a name="fractalworkspace"></a>
-### #&#8288;26 [fractalworkspace](https://github.com/fractal-compute-orchestrations/fractalworkspace) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Nov 2026</sub>
+### #&#8288;26 [fractalworkspace](https://github.com/fractal-compute-orchestrations/fractalworkspace) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · custom license · Nov 2026</sub>
 
 **Federated training and split-model inference across Android phones.**
 
@@ -556,7 +556,7 @@ MedicalGPT is a set of Python scripts that train domain LLMs through continued p
 <sub>GPU required · Needs PyTorch, Hugging Face Transformers, PEFT, DeepSpeed · Models: Qwen 2/2.5/3.5, Llama-3, Mixtral 8x7B, Baichuan, ChatGLM · [Repo](https://github.com/shibing624/medicalgpt) · [📖 Docs ↗](https://github.com/shibing624/MedicalGPT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/medicalgpt/)</sub>
 
 <a name="easy-dataset"></a>
-### #&#8288;32 [easy-dataset](https://github.com/conardli/easy-dataset) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (55) · Freshness: recent (72) · Maintenance: weak (4) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
+### #&#8288;32 [easy-dataset](https://github.com/conardli/easy-dataset) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (55) · Freshness: recent (72) · Maintenance: weak (4) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
 
 **Turns documents into LLM fine-tuning and evaluation datasets.**
 
@@ -627,7 +627,7 @@ A coding agent (Claude, Codex or similar) is pointed at a single-GPU nanochat-de
 <sub>GPU required · Needs uv, PyTorch, Python 3.10+, a coding agent (Claude, Codex or similar) · Models: GPT (nanochat-style, trained from scratch), Muon + AdamW optimizer · [Repo](https://github.com/karpathy/autoresearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autoresearch/)</sub>
 
 <a name="gpt-neox"></a>
-### #&#8288;36 [gpt-neox](https://github.com/eleutherai/gpt-neox) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (22) · Freshness: recent (70) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;36 [gpt-neox](https://github.com/eleutherai/gpt-neox) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (22) · Freshness: recent (70) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Oct 2026</sub>
 
 **EleutherAI's Megatron/DeepSpeed library for pretraining large language models.**
 
@@ -716,7 +716,7 @@ Snorkel is a Python library for building and managing training data programmatic
 <sub>Needs Python 3.11+ · [Repo](https://github.com/snorkel-team/snorkel) · [📖 Docs ↗](https://snorkel.readthedocs.io/) · [🌐 Site ↗](https://snorkel.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/snorkel/)</sub>
 
 <a name="torchtune"></a>
-### #&#8288;41 [torchtune](https://github.com/meta-pytorch/torchtune) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (2) · Freshness: slowing (43) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · BSD-3-Clause · Apr 2026</sub>
+### #&#8288;41 [torchtune](https://github.com/meta-pytorch/torchtune) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (2) · Freshness: slowing (43) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · BSD-3-Clause · Apr 2026</sub>
 
 **PyTorch library of LLM fine-tuning recipes driven by YAML configs.**
 
