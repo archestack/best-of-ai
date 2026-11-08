@@ -274,7 +274,7 @@ DeepChat is an Electron desktop app for Windows, macOS and Linux that connects t
 <sub>GPU optional · Docker · Needs Ollama (optional, for local models), Node.js toolchain (installed from Settings for npx-style MCP services) · Models: OpenAI, Anthropic, Gemini, DeepSeek, Moonshot · [Repo](https://github.com/thinkinaixyz/deepchat) · [🌐 Site ↗](https://deepchatai.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepchat/)</sub>
 
 <a name="pocketpal-ai"></a>
-### #&#8288;16 [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · MIT · Nov 2026</sub>
+### #&#8288;16 [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · MIT · Nov 2026</sub>
 
 **Phone app that runs GGUF language models offline on iOS and Android.**
 
@@ -382,7 +382,7 @@ Everywhere is a C# desktop app (.NET 10, Avalonia) for Windows and macOS. A glob
 <sub>Needs Ollama (optional, for local models) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Moonshot (Kimi) · [Repo](https://github.com/sylinko/everywhere) · [📖 Docs ↗](https://everywhere.sylinko.com) · [🌐 Site ↗](https://everywhere.sylinko.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/everywhere/)</sub>
 
 <a name="enchanted"></a>
-### #&#8288;22 [enchanted](https://github.com/gluonfield/enchanted) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (3) · Freshness: active (92) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;22 [enchanted](https://github.com/gluonfield/enchanted) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (3) · Freshness: active (91) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
 
 **Native iOS, macOS and visionOS chat client for Ollama servers.**
 
@@ -400,7 +400,7 @@ Enchanted is a Swift app for macOS, iOS and visionOS that connects to an Ollama 
 <sub>Needs Ollama v0.1.14 or later, ngrok (to expose a local Ollama server) · Models: Ollama models (Llama 2, Mistral, Vicuna, Starling) · [Repo](https://github.com/gluonfield/enchanted) · [▶️ Demo ↗](https://www.youtube.com/watch?v=zW3roZ_vM5Q) · [🌐 Site ↗](https://apps.apple.com/gb/app/enchanted-llm/id6474268307) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/enchanted/)</sub>
 
 <a name="noi"></a>
-### #&#8288;23 [noi](https://github.com/lencx/noi) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (30) · Freshness: active (90) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
+### #&#8288;23 [noi](https://github.com/lencx/noi) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (29) · Freshness: active (90) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Aug 2026</sub>
 
 **Desktop app for running isolated AI chat sessions in multiple windows.**
 
@@ -418,7 +418,7 @@ Noi is a desktop app that runs AI chat sessions in multiple windows with isolate
 <sub>[Repo](https://github.com/lencx/noi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/noi/)</sub>
 
 <a name="aichat"></a>
-### #&#8288;24 [aichat](https://github.com/sigoden/aichat) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (38) · Freshness: slowing (32) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;24 [aichat](https://github.com/sigoden/aichat) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (38) · Freshness: slowing (31) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
 
 **Rust command-line LLM client with shell assistant, REPL, RAG and agents.**
 

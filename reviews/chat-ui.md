@@ -131,7 +131,7 @@ Odysseus is a self-hosted web workspace that combines chat with local or API mod
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose · Models: local models, API models, MCP · port 7011 · [Repo](https://github.com/odysseus-dev/odysseus) · [▶️ Demo ↗](https://odysseus-dev.github.io/odysseus/) · [📖 Docs ↗](https://github.com/odysseus-dev/odysseus/blob/dev/website/setup.md) · [🌐 Site ↗](https://odysseus-dev.github.io/odysseus/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/odysseus/)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · AGPL-3.0 · Sep 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 
@@ -257,7 +257,7 @@ ChatHub is a Chromium browser extension that puts multiple chatbots in one windo
 <sub>no GPU · Needs Chromium-based browser, Node.js with corepack and yarn (build only) · Models: ChatGPT, Gemini, Claude, Grok, DeepSeek · [Repo](https://github.com/chathub-dev/chathub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chathub/)</sub>
 
 <a name="chuanhuchatgpt"></a>
-### #&#8288;15 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (52) · Freshness: recent (78) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
+### #&#8288;15 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (52) · Freshness: recent (77) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
 
 **Gradio web chat UI for OpenAI, Claude, Gemini, DeepSeek and local LLMs.**
 

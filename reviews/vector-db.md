@@ -5,7 +5,7 @@ Vector stores and hybrid search engines for embeddings. Back to the [leaderboard
 <sub>🌐 Also on the web: [Vector databases on archestack.com](https://archestack.com/best-of-ai/vector-db/), each project on its own page.</sub>
 
 <a name="milvus"></a>
-### 🥇 [Milvus](https://github.com/milvus-io/milvus) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · Apache-2.0 · Nov 2026</sub>
+### 🥇 [Milvus](https://github.com/milvus-io/milvus) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 47k · Apache-2.0 · Nov 2026</sub>
 
 **Distributed vector database with dense, sparse and hybrid search at scale.**
 

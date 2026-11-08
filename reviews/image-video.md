@@ -325,7 +325,7 @@ SD.Next is a Python web interface, forked from AUTOMATIC1111's Stable Diffusion 
 <sub>GPU optional · Needs Python, Git · Models: Diffusion models, LoRA, ControlNet, IP-Adapter · [Repo](https://github.com/vladmandic/sdnext) · [📖 Docs ↗](https://vladmandic.github.io/sdnext-docs/) · [🌐 Site ↗](https://vladmandic.github.io/sdnext/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sdnext/)</sub>
 
 <a name="diffsynth-studio"></a>
-### #&#8288;19 [diffsynth-studio](https://github.com/modelscope/diffsynth-studio) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (50) · Freshness: active (86) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [diffsynth-studio](https://github.com/modelscope/diffsynth-studio) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (50) · Freshness: active (85) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **Python engine for running and training diffusion image, video and audio models.**
 
@@ -469,7 +469,7 @@ Open-Sora is a text-to-video and image-to-video generation project that publishe
 <sub>GPU required · Needs ColossalAI · Models: Open-Sora 2.0 (11B), Open-Sora 1.3 (1B), Open-Sora 1.2, Open-Sora 1.1, Open-Sora 1.0 · [Repo](https://github.com/hpcaitech/open-sora) · [▶️ Demo ↗](https://huggingface.co/spaces/hpcai-tech/open-sora) · [🌐 Site ↗](https://hpcaitech.github.io/Open-Sora/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-sora/)</sub>
 
 <a name="kohya-ss"></a>
-### #&#8288;27 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (44) · Freshness: active (92) · Maintenance: weak (3) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;27 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (44) · Freshness: active (92) · Maintenance: weak (5) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
 
 **Gradio GUI and CLI for Kohya diffusion training scripts.**
 
@@ -487,7 +487,7 @@ Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for Lo
 <sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kohya-ss/)</sub>
 
 <a name="upscayl"></a>
-### #&#8288;28 [upscayl](https://github.com/upscayl/upscayl) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: widely used (91) · Freshness: slowing (36) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 52k · AGPL-3.0 · Mar 2026</sub>
+### #&#8288;28 [upscayl](https://github.com/upscayl/upscayl) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: widely used (91) · Freshness: slowing (35) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 52k · AGPL-3.0 · Mar 2026</sub>
 
 **Desktop image upscaler using Real-ESRGAN models over Vulkan.**
 
@@ -541,7 +541,7 @@ Dream Textures is a Blender add-on that runs Stable Diffusion locally to generat
 <sub>GPU optional · Needs Blender, PyTorch, DreamStudio (optional cloud) · Models: Stable Diffusion · [Repo](https://github.com/carson-katri/dream-textures) · [📖 Docs ↗](https://github.com/carson-katri/dream-textures/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dream-textures/)</sub>
 
 <a name="hivisionidphotos"></a>
-### #&#8288;31 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (70) · Freshness: recent (61) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;31 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (70) · Freshness: recent (60) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
 
 **Offline ID photo maker: portrait matting, background swap, sizing and print layouts.**
 
@@ -577,7 +577,7 @@ Duix.Avatar clones a person's face and voice from a short video, then renders li
 <sub>RAM ≥ 32 GB · GPU required · Compose · Needs Docker, NVIDIA Container Toolkit, Node.js 18, guiji2025/fun-asr, guiji2025/fish-speech-ziming, guiji2025/duix.avatar · Models: fun-asr, fish-speech-ziming · [Repo](https://github.com/duixcom/duix-avatar) · [📖 Docs ↗](https://docs.duix.com/api-reference/api/Introduction) · [🌐 Site ↗](http://www.duix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/duix-avatar/)</sub>
 
 <a name="video2x"></a>
-### #&#8288;33 [video2x](https://github.com/k4yt3x/video2x) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: popular (72) · Freshness: slowing (31) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Mar 2026</sub>
+### #&#8288;33 [video2x](https://github.com/k4yt3x/video2x) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: popular (72) · Freshness: slowing (30) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Mar 2026</sub>
 
 **Video upscaler and frame interpolator using Real-ESRGAN, Real-CUGAN, RIFE and Anime4K.**
 
@@ -613,7 +613,7 @@ Config-driven PyTorch codebase (the `sgm` package) from Stability AI for samplin
 <sub>GPU required · Needs PyTorch 2.0, PyTorch Lightning, Streamlit, Hugging Face model weights, Stability-AI/datapipelines (sdata), rembg (optional) · Models: SDXL-base-1.0, SDXL-refiner-1.0, SDXL-Turbo, Stable Video Diffusion (SVD, SVD-XT), SV3D_u · [Repo](https://github.com/stability-ai/generative-models) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/generative-models/)</sub>
 
 <a name="fluxgym"></a>
-### #&#8288;35 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (2) · Freshness: active (96) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
+### #&#8288;35 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (2) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
 
 **Web UI for training FLUX LoRAs on 12 to 20 GB GPUs.**
 
@@ -685,7 +685,7 @@ Jaaz is a desktop app (Windows, macOS) with an infinite canvas and a chat agent 
 <sub>GPU optional · Needs Python >=3.12, Node.js/npm, ComfyUI (optional), Ollama (optional) · Models: GPT-4o, Midjourney, VEO3, Kling, Seedance · [Repo](https://github.com/11cafe/jaaz) · [📖 Docs ↗](https://mxnpt25l6k.feishu.cn/docx/LvcTdlVbFoRAZWxnhBYcqVydnpc) · [🌐 Site ↗](https://jaaz.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jaaz/)</sub>
 
 <a name="skyreels-v2"></a>
-### #&#8288;39 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (16) · Freshness: slowing (30) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Jan 2026</sub>
+### #&#8288;39 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (16) · Freshness: quiet (30) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Jan 2026</sub>
 
 **Open-weight video diffusion models for long text- and image-to-video generation.**
 

@@ -39,8 +39,26 @@ Docling parses PDF, DOCX, PPTX, XLSX, HTML, EPUB, images, audio and other format
 
 <sub>GPU optional · Docker · Models: GraniteDocling, VLMs, OCR engines, ASR models · [Repo](https://github.com/docling-project/docling) · [📖 Docs ↗](https://docling-project.github.io/docling/) · [🌐 Site ↗](https://docling-project.github.io/docling/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling/)</sub>
 
+<a name="agent-reach"></a>
+### 🥉 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 110k · MIT · Nov 2026</sub>
+
+**CLI that gives coding agents read access to login-gated and Chinese web platforms.**
+
+Agent Reach is a Python CLI that wraps upstream tools such as bili-cli, yt-dlp, Jina Reader and Exa behind one command format: `agent-reach <channel> <action>`. It covers Bilibili, V2EX, GitHub, YouTube, Xiaohongshu, Xueqiu, Reddit, Twitter and others, trying an ordered list of tools per action with fallbacks. It is read-only, and login-gated sites use a dedicated background browser that copies your Chrome session for that site.
+
+- **+** Covers Chinese platforms (Bilibili, Xiaohongshu, V2EX, Xueqiu) that generic agent search handles poorly
+- **+** Per-action ordered tool list with automatic fallback when an upstream tool breaks
+- **+** Read-only by design: no posting, commenting, liking or messaging
+- **+** All tools, logins and settings live in `~/.agent-reach/`, so removal is contained
+- **−** Twitter, Facebook and Instagram channels are labeled experimental and may break at any time
+- **−** Login-gated channels copy your Chrome session, usually the main account; README advises a spare account
+- **−** YouTube and Xiaoyuzhou transcription needs a Groq or OpenAI key
+- **−** README is mainly in Chinese; the English docs are a separate file
+
+<sub>no GPU · Needs uv, Python 3.10+, bili-cli, yt-dlp, Jina Reader, Exa, Groq or OpenAI API key (transcription) · [Repo](https://github.com/panniantong/agent-reach) · [📖 Docs ↗](https://github.com/Panniantong/Agent-Reach/blob/main/docs/README_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-reach/)</sub>
+
 <a name="opendataloader-pdf"></a>
-### 🥉 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;4 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
 
 **PDF parser that outputs Markdown, JSON with bounding boxes, and Tagged PDF.**
 
@@ -58,7 +76,7 @@ Java-based PDF parser with Python, Node.js and Java SDKs. It extracts Markdown, 
 <sub>no GPU · Needs Java 11+, Python 3.10+ (Python SDK), Docling backend (hybrid mode) · Models: Docling, EasyOCR, RapidOCR, Tesseract, SmolVLM (256M) · port 5002 · [Repo](https://github.com/opendataloader-project/opendataloader-pdf) · [📖 Docs ↗](https://opendataloader.org/docs/quick-start-python) · [🌐 Site ↗](https://opendataloader.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opendataloader-pdf/)</sub>
 
 <a name="markitdown"></a>
-### #&#8288;4 [markitdown](https://github.com/microsoft/markitdown) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 194k · MIT · Nov 2026</sub>
+### #&#8288;5 [markitdown](https://github.com/microsoft/markitdown) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 194k · MIT · Nov 2026</sub>
 
 **Python library and CLI that converts office files, PDFs and audio to Markdown.**
 
@@ -74,24 +92,6 @@ MarkItDown converts PDF, Word, PowerPoint, Excel, images, audio, HTML, CSV/JSON/
 - **−** Repo accepts no web server, REST API or GUI; those must be separate projects
 
 <sub>no GPU · Docker · Needs Python 3.10-3.14, Azure Document Intelligence (optional), Azure Content Understanding (optional), OpenAI-compatible client (optional) · Models: OpenAI-compatible vision models (gpt-4o in examples) · [Repo](https://github.com/microsoft/markitdown) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/markitdown/)</sub>
-
-<a name="agent-reach"></a>
-### #&#8288;5 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 110k · MIT · Nov 2026</sub>
-
-**CLI that gives coding agents read access to login-gated and Chinese web platforms.**
-
-Agent Reach is a Python CLI that wraps upstream tools such as bili-cli, yt-dlp, Jina Reader and Exa behind one command format: `agent-reach <channel> <action>`. It covers Bilibili, V2EX, GitHub, YouTube, Xiaohongshu, Xueqiu, Reddit, Twitter and others, trying an ordered list of tools per action with fallbacks. It is read-only, and login-gated sites use a dedicated background browser that copies your Chrome session for that site.
-
-- **+** Covers Chinese platforms (Bilibili, Xiaohongshu, V2EX, Xueqiu) that generic agent search handles poorly
-- **+** Per-action ordered tool list with automatic fallback when an upstream tool breaks
-- **+** Read-only by design: no posting, commenting, liking or messaging
-- **+** All tools, logins and settings live in `~/.agent-reach/`, so removal is contained
-- **−** Twitter, Facebook and Instagram channels are labeled experimental and may break at any time
-- **−** Login-gated channels copy your Chrome session, usually the main account; README advises a spare account
-- **−** YouTube and Xiaoyuzhou transcription needs a Groq or OpenAI key
-- **−** README is mainly in Chinese; the English docs are a separate file
-
-<sub>no GPU · Needs uv, Python 3.10+, bili-cli, yt-dlp, Jina Reader, Exa, Groq or OpenAI API key (transcription) · [Repo](https://github.com/panniantong/agent-reach) · [📖 Docs ↗](https://github.com/Panniantong/Agent-Reach/blob/main/docs/README_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-reach/)</sub>
 
 <a name="crawl4ai"></a>
 ### #&#8288;6 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 87k · Apache-2.0 · Nov 2026</sub>
@@ -112,7 +112,7 @@ Crawl4AI drives Playwright browsers (Chromium, Firefox, WebKit) to fetch pages a
 <sub>no GPU · Docker + Compose · Needs Playwright browsers (Chromium), Docker (optional), LLM provider via LiteLLM (optional) · Models: any LiteLLM provider (OpenAI, Ollama) · port 11235 · [Repo](https://github.com/unclecode/crawl4ai) · [📖 Docs ↗](https://docs.crawl4ai.com) · [🌐 Site ↗](https://crawl4ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crawl4ai/)</sub>
 
 <a name="firecrawl"></a>
-### #&#8288;7 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 199k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;7 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 200k · AGPL-3.0 · Nov 2026</sub>
 
 **Web API that turns sites and searches into markdown or JSON for LLMs.**
 
@@ -147,7 +147,7 @@ LangExtract is a Python library that takes a prompt and a few examples and uses 
 <sub>no GPU · Docker · Needs Gemini, OpenAI or Vertex AI API key, or a local Ollama server · Models: Gemini, OpenAI, Ollama, Vertex AI, OpenAI-compatible endpoints · [Repo](https://github.com/google/langextract) · [▶️ Demo ↗](https://google-langextract.hf.space/) · [📖 Docs ↗](https://github.com/google/langextract/blob/main/docs/examples/longer_text_example.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langextract/)</sub>
 
 <a name="tesseract"></a>
-### #&#8288;9 [tesseract](https://github.com/tesseract-ocr/tesseract) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [tesseract](https://github.com/tesseract-ocr/tesseract) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · Apache-2.0 · Nov 2026</sub>
 
 **OCR engine and command-line tool with LSTM recognition for 100+ languages.**
 
@@ -397,8 +397,26 @@ Unstract extracts structured JSON from documents such as PDFs, images and scans.
 
 <sub>RAM ≥ 8 GB · no GPU · Docker + Compose · Needs Docker, Docker Compose, PostgreSQL, Redis, RabbitMQ, LLM provider, Vector database, Text extractor (LLMWhisperer, Unstructured.io or LlamaIndex Parse) · Models: OpenAI, Azure OpenAI, OpenAI Compatible, Anthropic Claude, AWS Bedrock · [Repo](https://github.com/zipstack/unstract) · [📖 Docs ↗](https://docs.unstract.com) · [🌐 Site ↗](https://unstract.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unstract/)</sub>
 
+<a name="babeldoc"></a>
+### #&#8288;23 [babeldoc](https://github.com/funstory-ai/babeldoc) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · AGPL-3.0 · Nov 2026</sub>
+
+**PDF paper translator that keeps layout and outputs bilingual PDFs.**
+
+BabelDOC translates scientific PDFs through an OpenAI-compatible LLM endpoint and rebuilds the layout, producing monolingual and bilingual PDFs. It ships a CLI and a Python API and is mainly meant to be embedded in other programs. It supports glossary CSVs with automatic term extraction, page selection, split translation for large files, and an OCR workaround for scanned documents.
+
+- **+** Outputs monolingual and bilingual PDFs, side by side or on alternating pages
+- **+** Glossary CSV support plus automatic term extraction for consistent terminology
+- **+** Works with any OpenAI-compatible endpoint, including local servers such as Ollama
+- **+** Offline asset package for air-gapped installs; TOML config file
+- **−** Only OpenAI-compatible LLMs supported; not optimized for Bing or Google engines
+- **−** Mainly tested on English-to-Chinese; other language pairs untested
+- **−** README says the CLI is for debugging and gets no end-user support
+- **−** No built-in web UI; self-hosted WebUI is in PDFMathTranslate-next
+
+<sub>Needs OpenAI-compatible LLM API, uv, Python 3.12 · Models: OpenAI-compatible APIs, gpt-4o-mini (default), glm-4-flash, deepseek-chat, Ollama · [Repo](https://github.com/funstory-ai/babeldoc) · [▶️ Demo ↗](https://app.immersivetranslate.com/babel-doc/) · [📖 Docs ↗](https://funstory-ai.github.io/BabelDOC/supported_languages/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/babeldoc/)</sub>
+
 <a name="doctr"></a>
-### #&#8288;23 [doctr](https://github.com/mindee/doctr) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [doctr](https://github.com/mindee/doctr) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
 
 **Two-stage OCR library for PDFs and images, built on PyTorch.**
 
@@ -416,7 +434,7 @@ docTR is a Python library that extracts text from PDFs and images by running a t
 <sub>GPU optional · Docker · Needs PyTorch, Streamlit (demo), FastAPI (API template), weasyprint (URL input) · Models: DBNet, LinkNet, FAST, CRNN, SAR · port 8002 · [Repo](https://github.com/mindee/doctr) · [▶️ Demo ↗](https://huggingface.co/spaces/mindee/doctr) · [📖 Docs ↗](https://mindee.github.io/doctr/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doctr/)</sub>
 
 <a name="chandra"></a>
-### #&#8288;24 [chandra](https://github.com/datalab-to/chandra) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (42) · Freshness: active (96) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;25 [chandra](https://github.com/datalab-to/chandra) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (42) · Freshness: active (95) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **OCR model that converts PDFs and images to Markdown, HTML or JSON with layout.**
 
@@ -434,7 +452,7 @@ Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images an
 <sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
 
 <a name="tesseract-js"></a>
-### #&#8288;25 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (76) · Freshness: recent (66) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
+### #&#8288;26 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (76) · Freshness: recent (66) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
 
 **JavaScript OCR library that runs Tesseract in the browser and Node.js.**
 
@@ -452,7 +470,7 @@ Tesseract.js wraps a WebAssembly port of the Tesseract OCR engine and extracts t
 <sub>no GPU · Docker · Needs Node.js 16+ (v7, server use), tesseract.js-core (WebAssembly port of Tesseract) · Models: Tesseract traineddata language files · [Repo](https://github.com/naptha/tesseract.js) · [▶️ Demo ↗](http://tesseract.projectnaptha.com/) · [📖 Docs ↗](https://github.com/naptha/tesseract.js/blob/master/docs/api.md) · [🌐 Site ↗](https://tesseract.projectnaptha.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tesseract-js/)</sub>
 
 <a name="jina-reader"></a>
-### #&#8288;26 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (40) · Freshness: recent (71) · Maintenance: weak (9) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;27 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (40) · Freshness: recent (71) · Maintenance: weak (9) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
@@ -468,24 +486,6 @@ Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page
 - **−** Default h2c port 8080 needs --http2-prior-knowledge from curl; use 8081 otherwise
 
 <sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jina-reader/)</sub>
-
-<a name="babeldoc"></a>
-### #&#8288;27 [babeldoc](https://github.com/funstory-ai/babeldoc) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (27) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · AGPL-3.0 · Aug 2026</sub>
-
-**PDF paper translator that keeps layout and outputs bilingual PDFs.**
-
-BabelDOC translates scientific PDFs through an OpenAI-compatible LLM endpoint and rebuilds the layout, producing monolingual and bilingual PDFs. It ships a CLI and a Python API and is mainly meant to be embedded in other programs. It supports glossary CSVs with automatic term extraction, page selection, split translation for large files, and an OCR workaround for scanned documents.
-
-- **+** Outputs monolingual and bilingual PDFs, side by side or on alternating pages
-- **+** Glossary CSV support plus automatic term extraction for consistent terminology
-- **+** Works with any OpenAI-compatible endpoint, including local servers such as Ollama
-- **+** Offline asset package for air-gapped installs; TOML config file
-- **−** Only OpenAI-compatible LLMs supported; not optimized for Bing or Google engines
-- **−** Mainly tested on English-to-Chinese; other language pairs untested
-- **−** README says the CLI is for debugging and gets no end-user support
-- **−** No built-in web UI; self-hosted WebUI is in PDFMathTranslate-next
-
-<sub>Needs OpenAI-compatible LLM API, uv, Python 3.12 · Models: OpenAI-compatible APIs, gpt-4o-mini (default), glm-4-flash, deepseek-chat, Ollama · [Repo](https://github.com/funstory-ai/babeldoc) · [▶️ Demo ↗](https://app.immersivetranslate.com/babel-doc/) · [📖 Docs ↗](https://funstory-ai.github.io/BabelDOC/supported_languages/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/babeldoc/)</sub>
 
 <a name="olmocr"></a>
 ### #&#8288;28 [olmocr](https://github.com/allenai/olmocr) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: popular (56) · Freshness: recent (60) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
@@ -523,7 +523,7 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
 <a name="llm-scraper"></a>
-### #&#8288;30 [llm-scraper](https://github.com/mishushakov/llm-scraper) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (9) · Freshness: active (80) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jun 2026</sub>
+### #&#8288;30 [llm-scraper](https://github.com/mishushakov/llm-scraper) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (9) · Freshness: recent (80) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jun 2026</sub>
 
 **TypeScript library that extracts structured data from web pages with LLMs.**
 

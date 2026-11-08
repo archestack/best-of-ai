@@ -77,7 +77,7 @@ LiteLLM translates requests in the OpenAI format to more than 100 LLM providers,
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure · port 4000 · [Repo](https://github.com/berriai/litellm) · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/litellm/)</sub>
 
 <a name="freellmapi"></a>
-### #&#8288;5 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Nov 2026</sub>
+### #&#8288;5 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Nov 2026</sub>
 
 **OpenAI-compatible gateway pooling free-tier LLM providers with automatic failover.**
 
@@ -592,7 +592,7 @@ Coze Loop is the open-source edition of ByteDance's agent development and operat
 <sub>no GPU · Needs Docker Engine, Docker Compose, Kubernetes and Helm (optional), LLM provider API key · Models: OpenAI, Volcengine Ark, BytePlus ModelArk, Models supported via Eino · port 8082 · [Repo](https://github.com/coze-dev/coze-loop) · [📖 Docs ↗](https://github.com/coze-dev/coze-loop/wiki/2.-Quickstart) · [🌐 Site ↗](https://www.coze.cn/loop) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/coze-loop/)</sub>
 
 <a name="portkey-gateway"></a>
-### #&#8288;34 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (59) · Freshness: recent (71) · Maintenance: weak (2) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
+### #&#8288;34 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (59) · Freshness: recent (70) · Maintenance: weak (2) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
 
 **Node.js LLM gateway with fallbacks, load balancing and guardrails.**
 

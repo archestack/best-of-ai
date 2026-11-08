@@ -59,7 +59,7 @@ LocalAI serves LLMs, vision, speech, image and video models behind OpenAI, Anthr
 <sub>GPU optional · Docker + Compose · Needs PostgreSQL (distributed mode), NATS (distributed mode) · Models: GGUF, llama.cpp, vLLM, SGLang, transformers · port 8080 · [Repo](https://github.com/mudler/localai) · [📖 Docs ↗](https://localai.io/basics/getting_started/) · [🌐 Site ↗](https://localai.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/localai/)</sub>
 
 <a name="vllm"></a>
-### #&#8288;4 [vLLM](https://github.com/vllm-project/vllm) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 97k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;4 [vLLM](https://github.com/vllm-project/vllm) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 97k · Apache-2.0 · Nov 2026</sub>
 
 **Inference engine for Hugging Face LLMs with PagedAttention and continuous batching.**
 
@@ -77,7 +77,7 @@ vLLM is a Python library and server for LLM inference. It manages attention KV m
 <sub>GPU optional · Docker · Needs Python, PyTorch · Models: Hugging Face models, Llama, Qwen, Gemma, Mixtral · [Repo](https://github.com/vllm-project/vllm) · [📖 Docs ↗](https://docs.vllm.ai) · [🌐 Site ↗](https://vllm.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vllm/)</sub>
 
 <a name="strata"></a>
-### #&#8288;5 [strata](https://github.com/niko1221/strata) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Nov 2026</sub>
+### #&#8288;5 [strata](https://github.com/niko1221/strata) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Nov 2026</sub>
 
 **Runs a 125B-parameter MoE model on one consumer GPU plus system RAM.**
 
@@ -185,7 +185,7 @@ AirLLM splits a Hugging Face model into per-layer shards on disk and keeps only 
 <sub>GPU optional · Needs PyTorch, transformers, bitsandbytes (for compression), mlx (macOS), Hugging Face model downloads · Models: Llama 2/3/3.x/4, Qwen 1–3.8, DeepSeek V2/V3/R1, Mistral/Mixtral, Phi · [Repo](https://github.com/lyogavin/airllm) · [▶️ Demo ↗](https://colab.research.google.com/github/lyogavin/airllm/blob/main/air_llm/examples/run_all_types_of_models.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/airllm/)</sub>
 
 <a name="omlx"></a>
-### #&#8288;11 [omlx](https://github.com/jundot/omlx) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;11 [omlx](https://github.com/jundot/omlx) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
 
 **MLX-based LLM inference server for Apple Silicon with a menu bar app.**
 
@@ -561,7 +561,7 @@ Cactus is a C++ inference engine with its own computation graph, ARM/Apple/Andro
 <sub>GPU optional · Needs HuggingFace (model download/convert), cmake and build-essential (Linux build), Python 3.12 (setup/CLI) · Models: Gemma, Liquid LFM, Qwen, Whisper, Parakeet · port 8080 · [Repo](https://github.com/cactus-compute/cactus) · [📖 Docs ↗](https://cactus-compute.github.io/cactus/) · [🌐 Site ↗](https://cactuscompute.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cactus/)</sub>
 
 <a name="turbo-fieldfare"></a>
-### #&#8288;32 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;32 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Oct 2026</sub>
 
 **Swift and Metal runtime that runs Gemma 4 26B-A4B in about 2 GB RAM.**
 
@@ -811,7 +811,7 @@ MLC LLM compiles language models and runs them through MLCEngine, a single infer
 <sub>GPU optional · [Repo](https://github.com/mlc-ai/mlc-llm) · [📖 Docs ↗](https://llm.mlc.ai/docs/) · [🌐 Site ↗](https://llm.mlc.ai/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mlc-llm/)</sub>
 
 <a name="litert-lm"></a>
-### #&#8288;46 [litert-lm](https://github.com/google-ai-edge/litert-lm) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;46 [litert-lm](https://github.com/google-ai-edge/litert-lm) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · Apache-2.0 · Nov 2026</sub>
 
 **On-device LLM runtime with CLI and APIs for Android, iOS, web and desktop.**
 
@@ -864,7 +864,7 @@ TensorFlow Serving loads trained models, manages their versions, and serves them
 <sub>GPU optional · Needs Docker (recommended install) · Models: TensorFlow SavedModel, embeddings, vocabularies, feature transformations · port 8501 · [Repo](https://github.com/tensorflow/serving) · [📖 Docs ↗](https://www.tensorflow.org/tfx/serving/api_docs/cc/) · [🌐 Site ↗](http://tensorflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/serving/)</sub>
 
 <a name="bitnet"></a>
-### #&#8288;49 [bitnet](https://github.com/microsoft/bitnet) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (85) · Freshness: active (95) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Jul 2026</sub>
+### #&#8288;49 [bitnet](https://github.com/microsoft/bitnet) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (84) · Freshness: active (95) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Jul 2026</sub>
 
 **Inference framework for 1.58-bit ternary LLMs on CPU and GPU.**
 
@@ -972,7 +972,7 @@ ChatRWKV is the Python reference implementation for running RWKV, an RNN-based l
 <sub>GPU optional · Needs PyTorch, ninja (for CUDA kernel), CUDA toolkit (optional) · Models: RWKV-4 Raven, RWKV World (v4/v5/v6), RWKV-7, PyTorch .pth, GGUF (via linked weights) · [Repo](https://github.com/blinkdl/chatrwkv) · [▶️ Demo ↗](https://huggingface.co/spaces/BlinkDL/RWKV-Gradio-1) · [🌐 Site ↗](https://www.rwkv.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatrwkv/)</sub>
 
 <a name="nano-vllm"></a>
-### #&#8288;55 [nano-vllm](https://github.com/geeeekexplorer/nano-vllm) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (59) · Freshness: recent (62) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Apr 2026</sub>
+### #&#8288;55 [nano-vllm](https://github.com/geeeekexplorer/nano-vllm) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (59) · Freshness: recent (61) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Apr 2026</sub>
 
 **Minimal vLLM-style inference engine in about 1,200 lines of Python.**
 
