@@ -22,7 +22,7 @@ n8n is a node-based canvas for building workflows and multi-step AI agents, with
 <sub>no GPU · Needs Docker · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
@@ -39,7 +39,7 @@ Activepieces is a no-code workflow builder with loops, branches, auto retries, H
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/activepieces/)</sub>
 
 <a name="trendradar"></a>
-### 🥉 [trendradar](https://github.com/sansan0/trendradar) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 64k · GPL-3.0 · Nov 2026</sub>
+### 🥉 [trendradar](https://github.com/sansan0/trendradar) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 64k · GPL-3.0 · Nov 2026</sub>
 
 **Aggregates trending news and RSS, filters it, pushes digests to chat apps.**
 
@@ -57,7 +57,7 @@ TrendRadar pulls hot-list data from Chinese platforms (via the newsnow API) and 
 <sub>no GPU · Docker + Compose · Needs newsnow API, LLM API via LiteLLM (optional) · Models: LiteLLM providers (OpenAI, Anthropic, Gemini, DeepSeek) · [Repo](https://github.com/sansan0/trendradar) · [▶️ Demo ↗](https://sansan0.github.io/TrendRadar) · [📖 Docs ↗](https://trendradar.sandev.cc/zh/docs/quick-start/) · [🌐 Site ↗](https://trendradar.sandev.cc/zh/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trendradar/)</sub>
 
 <a name="sellbird"></a>
-### #&#8288;4 [sellbird](https://github.com/ethanplusai/sellbird) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;4 [sellbird](https://github.com/ethanplusai/sellbird) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · AGPL-3.0 · Nov 2026</sub>
 
 **Cold outreach pipeline that finds prospects, verifies emails, drafts and sends.**
 
@@ -73,5 +73,23 @@ Sellbird finds businesses matching your customer profile (OpenStreetMap or a pai
 - **−** Docker is documented for Linux only; macOS needs Python 3.11+ installed
 
 <sub>no GPU · Docker + Compose · Needs Claude Code CLI or Codex CLI, Gmail, Microsoft 365 or SMTP mailbox, Python 3.11+, SQLite database file · Models: Claude (via Claude Code CLI), ChatGPT plans (via Codex CLI) · port 5555 · [Repo](https://github.com/ethanplusai/sellbird) · [🌐 Site ↗](https://sellbird.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sellbird/)</sub>
+
+<a name="clearcam"></a>
+### #&#8288;5 [clearcam](https://github.com/roryclear/clearcam) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · GPL-3.0 · Nov 2026</sub>
+
+**Self-hosted NVR adding object detection and phone alerts to RTSP cameras.**
+
+Clearcam is a Python network video recorder that runs object detection and tracking on RTSP camera streams, records events, and serves a web UI on port 8080. Alerts can go to its iOS and Android apps or to a custom URL, such as Home Assistant, Pushover or n8n. Notification summaries use Qwen3 VL. Remote viewing and push alerts through its own service need a paid premium account.
+
+- **+** Notification URL is configurable, so alerts can go to Home Assistant, Pushover or n8n
+- **+** Web UI on localhost:8080 for live view, events and recording playback
+- **+** Runs from source with pip install and one command; AMD and NVIDIA selectable via DEV
+- **+** Sample Pushover notification server included in utils/sample_server.py
+- **−** Windows is not supported; the README says an ffmpeg fix is needed
+- **−** Remote streams and app push notifications require a paid premium account
+- **−** No Docker image or compose file in the repository
+- **−** Requires Python 3.11 or later and ffmpeg installed on the host
+
+<sub>GPU optional · Needs ffmpeg, python3.11+ · Models: Qwen3 VL · port 8080 · [Repo](https://github.com/roryclear/clearcam) · [🌐 Site ↗](https://www.clearcam.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clearcam/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
