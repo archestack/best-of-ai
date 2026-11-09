@@ -396,8 +396,26 @@ A monorepo of about 93 example projects, mostly Jupyter notebooks and small apps
 
 <sub>Needs Ollama, LlamaIndex, CrewAI, Qdrant, Milvus, Firecrawl, AssemblyAI, Opik · Models: Llama 3.2, Llama 3.3, Llama 4, DeepSeek-R1, Qwen3 · [Repo](https://github.com/patchy631/ai-engineering-hub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-engineering-hub/)</sub>
 
+<a name="agentguide"></a>
+### #&#8288;23 [agentguide](https://github.com/adongwanai/agentguide) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (38) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · CC-BY-4.0 · Nov 2026</sub>
+
+**Chinese-language study guide and interview prep for AI agent engineering roles.**
+
+A documentation repository (MDX) that organizes AI agent learning into role-based roadmaps for development and algorithm tracks, with tutorials on LangGraph, RAG, context engineering, SFT and RL. It also collects 1500+ interview questions, resume advice and links to external courses and projects. Content is in Chinese and no runnable software is shipped.
+
+- **+** Separate development and algorithm roadmaps, stated as 8-12 and 10-15 weeks
+- **+** Covers agent harness, context engineering, MCP, RAG, eval and agentic RL topics
+- **+** Includes an interview question bank (1500+ claimed) and resume guidance
+- **+** Links to external resources such as learn-workbuddy and hello-agents instead of duplicating them
+- **−** Written in Chinese; English readers need translation
+- **−** No license detected, so reuse terms are unclear
+- **−** Much of the README is job-search advice rather than runnable code
+- **−** Many topics point to third-party material rather than original content
+
+<sub>no GPU · [Repo](https://github.com/adongwanai/agentguide) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentguide/)</sub>
+
 <a name="agents-course"></a>
-### #&#8288;23 [agents-course](https://github.com/huggingface/agents-course) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [agents-course](https://github.com/huggingface/agents-course) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Nov 2026</sub>
 
 **Free Hugging Face course on building agents with smolagents, LlamaIndex, LangGraph.**
 
@@ -414,7 +432,7 @@ Source repository for the Hugging Face Agents Course, written as MDX lessons hos
 <sub>[Repo](https://github.com/huggingface/agents-course) · [🌐 Site ↗](https://hf.co/learn/agents-course) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agents-course/)</sub>
 
 <a name="train-llm-from-scratch"></a>
-### #&#8288;24 [train-llm-from-scratch](https://github.com/fareedkhan-dev/train-llm-from-scratch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Oct 2026</sub>
+### #&#8288;25 [train-llm-from-scratch](https://github.com/fareedkhan-dev/train-llm-from-scratch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Oct 2026</sub>
 
 **Hand-written PyTorch pipeline from raw text to a pretrained, aligned LLM.**
 
@@ -430,24 +448,6 @@ Tutorial repo that implements a transformer in plain PyTorch and trains it from 
 - **−** No release tags and no Docker setup
 
 <sub>GPU optional · Needs PyTorch, tiktoken, Hugging Face datasets, Streamlit, wandb, HDF5 · Models: Custom transformer (classic and modern), PyTorch checkpoints · [Repo](https://github.com/fareedkhan-dev/train-llm-from-scratch) · [📖 Docs ↗](https://fareedkhan-dev.github.io/train-llm-from-scratch/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/train-llm-from-scratch/)</sub>
-
-<a name="agentguide"></a>
-### #&#8288;25 [agentguide](https://github.com/adongwanai/agentguide) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · CC-BY-4.0 · Nov 2026</sub>
-
-**Chinese-language study guide and interview prep for AI agent engineering roles.**
-
-A documentation repository (MDX) that organizes AI agent learning into role-based roadmaps for development and algorithm tracks, with tutorials on LangGraph, RAG, context engineering, SFT and RL. It also collects 1500+ interview questions, resume advice and links to external courses and projects. Content is in Chinese and no runnable software is shipped.
-
-- **+** Separate development and algorithm roadmaps, stated as 8-12 and 10-15 weeks
-- **+** Covers agent harness, context engineering, MCP, RAG, eval and agentic RL topics
-- **+** Includes an interview question bank (1500+ claimed) and resume guidance
-- **+** Links to external resources such as learn-workbuddy and hello-agents instead of duplicating them
-- **−** Written in Chinese; English readers need translation
-- **−** No license detected, so reuse terms are unclear
-- **−** Much of the README is job-search advice rather than runnable code
-- **−** Many topics point to third-party material rather than original content
-
-<sub>no GPU · [Repo](https://github.com/adongwanai/agentguide) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentguide/)</sub>
 
 <a name="learnopencv"></a>
 ### #&#8288;26 [learnopencv](https://github.com/spmallick/learnopencv) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 23k · no license · Nov 2026</sub>
@@ -486,7 +486,7 @@ Jupyter notebooks, code samples and sample apps for building with Gemini, Imagen
 <sub>no GPU · Needs Google Cloud account, Agent Platform, Gen AI Python SDK, Google Colab or Workbench · Models: Gemini, Imagen, Veo, Chirp · [Repo](https://github.com/googlecloudplatform/generative-ai) · [📖 Docs ↗](https://docs.cloud.google.com/gemini-enterprise-agent-platform) · [🌐 Site ↗](https://cloud.google.com/ai/generative-ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/generative-ai/)</sub>
 
 <a name="transformers-tutorials"></a>
-### #&#8288;28 [transformers-tutorials](https://github.com/nielsrogge/transformers-tutorials) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (38) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Sep 2026</sub>
+### #&#8288;28 [transformers-tutorials](https://github.com/nielsrogge/transformers-tutorials) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (37) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Sep 2026</sub>
 
 **Colab notebooks for running and fine-tuning Hugging Face Transformers models.**
 

@@ -39,26 +39,8 @@ Docling parses PDF, DOCX, PPTX, XLSX, HTML, EPUB, images, audio and other format
 
 <sub>GPU optional · Docker · Models: GraniteDocling, VLMs, ASR models, OCR engines · [Repo](https://github.com/docling-project/docling) · [📖 Docs ↗](https://docling-project.github.io/docling/) · [🌐 Site ↗](https://docling-project.github.io/docling/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling/)</sub>
 
-<a name="opendataloader-pdf"></a>
-### 🥉 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
-
-**PDF parser that outputs Markdown, JSON with bounding boxes, and Tagged PDF.**
-
-Java-based PDF parser with Python, Node.js and Java SDKs. It extracts Markdown, JSON with per-element bounding boxes, and HTML, using XY-Cut++ reading order in a deterministic local mode. An optional hybrid mode sends complex pages to a Docling-based backend for OCR, borderless tables, LaTeX formulas and chart descriptions. It also auto-tags untagged PDFs into Tagged PDF.
-
-- **+** Bounding boxes and element types for every extracted item, usable for source citations
-- **+** Local mode needs no GPU; README reports 0.015 s/page
-- **+** Hybrid mode adds OCR, LaTeX formulas and chart descriptions; OCR engine is selectable
-- **+** Reports 0.907 overall on its own 200-PDF benchmark, ahead of docling and marker
-- **−** Requires Java 11+ on the host, even when using the Python package
-- **−** Each convert() call spawns a JVM, so calls must be batched
-- **−** PDF/UA export and accessibility studio are enterprise-only
-- **−** Does not process Word, Excel or PowerPoint; benchmark is run by the project itself
-
-<sub>no GPU · Needs Java 11+, Python 3.10+ (Python SDK), Docling backend (hybrid mode) · Models: Docling, EasyOCR, RapidOCR, Tesseract, SmolVLM (256M) · port 5002 · [Repo](https://github.com/opendataloader-project/opendataloader-pdf) · [📖 Docs ↗](https://opendataloader.org/docs/quick-start-python) · [🌐 Site ↗](https://opendataloader.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opendataloader-pdf/)</sub>
-
 <a name="agent-reach"></a>
-### #&#8288;4 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 110k · MIT · Nov 2026</sub>
+### 🥉 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 110k · MIT · Nov 2026</sub>
 
 **CLI that gives coding agents read access to login-gated and Chinese web platforms.**
 
@@ -75,8 +57,26 @@ Agent Reach is a Python CLI that wraps upstream tools such as bili-cli, yt-dlp, 
 
 <sub>no GPU · Needs uv, Python 3.10+, bili-cli, yt-dlp, Jina Reader, Exa, Groq or OpenAI API key (transcription) · [Repo](https://github.com/panniantong/agent-reach) · [📖 Docs ↗](https://github.com/Panniantong/Agent-Reach/blob/main/docs/README_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-reach/)</sub>
 
+<a name="opendataloader-pdf"></a>
+### #&#8288;4 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
+
+**PDF parser that outputs Markdown, JSON with bounding boxes, and Tagged PDF.**
+
+Java-based PDF parser with Python, Node.js and Java SDKs. It extracts Markdown, JSON with per-element bounding boxes, and HTML, using XY-Cut++ reading order in a deterministic local mode. An optional hybrid mode sends complex pages to a Docling-based backend for OCR, borderless tables, LaTeX formulas and chart descriptions. It also auto-tags untagged PDFs into Tagged PDF.
+
+- **+** Bounding boxes and element types for every extracted item, usable for source citations
+- **+** Local mode needs no GPU; README reports 0.015 s/page
+- **+** Hybrid mode adds OCR, LaTeX formulas and chart descriptions; OCR engine is selectable
+- **+** Reports 0.907 overall on its own 200-PDF benchmark, ahead of docling and marker
+- **−** Requires Java 11+ on the host, even when using the Python package
+- **−** Each convert() call spawns a JVM, so calls must be batched
+- **−** PDF/UA export and accessibility studio are enterprise-only
+- **−** Does not process Word, Excel or PowerPoint; benchmark is run by the project itself
+
+<sub>no GPU · Needs Java 11+, Python 3.10+ (Python SDK), Docling backend (hybrid mode) · Models: Docling, EasyOCR, RapidOCR, Tesseract, SmolVLM (256M) · port 5002 · [Repo](https://github.com/opendataloader-project/opendataloader-pdf) · [📖 Docs ↗](https://opendataloader.org/docs/quick-start-python) · [🌐 Site ↗](https://opendataloader.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opendataloader-pdf/)</sub>
+
 <a name="markitdown"></a>
-### #&#8288;5 [markitdown](https://github.com/microsoft/markitdown) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 194k · MIT · Nov 2026</sub>
+### #&#8288;5 [markitdown](https://github.com/microsoft/markitdown) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 195k · MIT · Nov 2026</sub>
 
 **Python library and CLI that converts office files, PDFs and audio to Markdown.**
 
@@ -219,7 +219,7 @@ Moli is a standalone browser kernel written in Rust (V8, Stylo, Taffy, Parley), 
 <sub>no GPU · Needs libcurl · port 9222 · [Repo](https://github.com/lexmount/moli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moli/)</sub>
 
 <a name="cocoindex"></a>
-### #&#8288;13 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Incremental Python pipelines that keep vector indexes and agent context fresh.**
 
