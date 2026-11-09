@@ -25,20 +25,20 @@ Open WebUI is a self-hosted chat front-end for Ollama and any OpenAI-compatible 
 <a name="lobehub"></a>
 ### 🥈 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · custom license · Nov 2026</sub>
 
-**Agent workspace with builder, groups, scheduling and 10,000+ MCP skills.**
+**Multi-agent chat workspace connected to team IM apps and 40+ model providers.**
 
-LobeHub is a self-hostable agent workspace that runs on Vercel, Zeabur, Sealos, Alibaba Cloud or Docker Compose. It centres on an Agent Builder, Agent Groups that work a task in parallel, Pages for co-writing, scheduled runs, projects and shared workspaces, plus structured editable memory and an IM gateway, with 10,000+ tools and MCP-compatible plugins. An OpenAI API key is required to start.
+LobeHub is a TypeScript (Next.js plus Vite SPA) web app for running agents and agent teams that take tasks from chat apps such as Discord, Slack, Telegram and Feishu. It includes memory, a resource library, scheduled tasks and a marketplace of agents, MCP servers and skills, and can bring in external agents like Claude Code and Codex. Self-hosting uses Docker Compose with PostgreSQL, Redis, RustFS, SearXNG and an agent gateway, or Vercel.
 
-- **+** One-click deploy buttons for Vercel, Zeabur, Sealos, RepoCloud and Alibaba Cloud
-- **+** 10,000+ tools and MCP-compatible plugins for agents
-- **+** Agent Groups, scheduled runs, projects and team workspaces
-- **+** Memory is structured and editable rather than a hidden store
-- **−** OPENAI_API_KEY is a required environment variable
-- **−** Docker setup runs a curl-piped script from lobe.li before docker compose up
-- **−** README recommends a third-party API reseller through an affiliate link
-- **−** README states no ports, databases or hardware requirements
+- **+** Compose stack bundles Postgres, Redis, file storage and SearXNG search
+- **+** Setup guides for 40+ model providers, including local models
+- **+** Channels connect agents to Discord, Slack, Telegram, LINE, QQ, WeChat, Feishu, Lark
+- **+** Marketplace for agents, MCP servers and SKILL.md skills; agent teams run in several modes
+- **−** Self-hosting needs several services; Vercel deploy needs Postgres and S3-compatible storage
+- **−** README says the project is under active development
+- **−** License is reported as NOASSERTION, so terms need checking in the repo
+- **−** README leads with the hosted cloud; self-host sizing is not given
 
-<sub>no GPU · Docker + Compose · Models: OpenAI, OpenAI-compatible proxy · [Repo](https://github.com/lobehub/lobehub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
+<sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, RustFS, SearXNG · Models: 40+ providers, local models · port 3210 · [Repo](https://github.com/lobehub/lobehub) · [📖 Docs ↗](https://lobehub.com/docs/usage/start) · [🌐 Site ↗](https://lobehub.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
 
 <a name="onyx"></a>
 ### 🥉 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · custom license · Nov 2026</sub>
@@ -131,7 +131,7 @@ Odysseus is a self-hosted web workspace that combines chat with local or API mod
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose · Models: local models, API models, MCP · port 7011 · [Repo](https://github.com/odysseus-dev/odysseus) · [▶️ Demo ↗](https://odysseus-dev.github.io/odysseus/) · [📖 Docs ↗](https://github.com/odysseus-dev/odysseus/blob/dev/website/setup.md) · [🌐 Site ↗](https://odysseus-dev.github.io/odysseus/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/odysseus/)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · AGPL-3.0 · Sep 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 
@@ -149,7 +149,7 @@ SillyTavern is a locally installed Node.js 20+ interface for text-generation LLM
 <sub>no GPU · Docker + Compose · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/sillytavern/sillytavern) · [📖 Docs ↗](https://docs.sillytavern.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sillytavern/)</sub>
 
 <a name="ekko-studio"></a>
-### #&#8288;9 [ekko-studio](https://github.com/ekkolearnai/ekko-studio) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
+### #&#8288;9 [ekko-studio](https://github.com/ekkolearnai/ekko-studio) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
 
 **Desktop and web workspace for chatting with Hermes, Ekko and coding agents.**
 
@@ -167,25 +167,25 @@ Ekko Studio (formerly Hermes Web UI) is an Electron desktop app and self-hosted 
 <sub>no GPU · Docker + Compose · Needs Node.js (npm install), Hermes Agent (npm installs discover an existing install), Coding-agent CLIs installed on the host, pnpm (DSH native plugins) · Models: OpenAI-compatible providers, OpenAI Codex, Claude, GitHub Copilot, Nous Portal · [Repo](https://github.com/ekkolearnai/ekko-studio) · [📖 Docs ↗](https://ekkostudio.xyz/#/docs/getting-started) · [🌐 Site ↗](https://ekkostudio.xyz) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ekko-studio/)</sub>
 
 <a name="big-agi"></a>
-### #&#8288;10 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
+### #&#8288;10 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
 
-**Multi-model chat workspace with Beam side-by-side model comparison.**
+**Multi-model chat web app that sends one prompt to several LLMs.**
 
-Big-AGI Open is the self-hostable web app behind big-agi.com, deployable via Docker or Vercel. It connects 20+ LLM services and 500+ models with your own API keys, and its Beam feature runs one prompt across several models and merges the answers. Personas, request inspection, web search with citations, image generation and multi-vendor speech are included; data stays local-first in the browser.
+Big-AGI Open is a TypeScript web chat client for many LLM providers (README claims 20+ services, 500+ models), used with your own API keys. Its main feature is Beam, which sends a prompt to several models and merges the results. It also has personas, web search with citations, image generation, voice calls and a request inspector. Cross-device sync is a paid feature of the hosted big-agi.com.
 
-- **+** Beam and Merge: fan one prompt out to several models and reconcile the results
-- **+** 20+ LLM services incl. Anthropic, OpenAI, Gemini, Ollama, LM Studio, LocalAI, Bedrock, Groq
-- **+** AI Inspector shows the exact requests sent to each provider
-- **+** MIT license; no usage charges, bring your own keys
-- **−** Cross-device sync and 1 GB storage only on the hosted Pro tier at $10.99/month
-- **−** No SSO or shared team features in the open build; managed deployments by request
-- **−** README omits stack, ports and resource requirements; install guide lives in docs/
-- **−** README is mostly badges, taglines and release notes rather than specs
+- **+** Beam and Merge compares several models on one prompt and combines the outputs
+- **+** Supports 20+ providers plus local backends such as Ollama, LM Studio and LocalAI
+- **+** API keys can be set in the UI or on the backend; no usage charges from the app
+- **+** Docker image and Vercel deploy are both documented
+- **−** Cross-device Sync is only in the paid Pro tier on big-agi.com
+- **−** SSO and shared prompts for teams are not in the open edition
+- **−** README is heavy on marketing claims and light on setup details
+- **−** Hosted free tier gets improved Beam and new Personas, per the README
 
-<sub>no GPU · Docker + Compose · Models: Anthropic, OpenAI, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-agi) · [🌐 Site ↗](https://big-agi.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/big-agi/)</sub>
+<sub>no GPU · Docker + Compose · Needs LLM provider API keys or a local model server · Models: OpenAI, Anthropic, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-agi) · [▶️ Demo ↗](https://big-agi.com) · [📖 Docs ↗](https://github.com/enricoros/big-AGI/blob/main/docs/README.md) · [🌐 Site ↗](https://big-agi.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/big-agi/)</sub>
 
 <a name="nextchat"></a>
-### #&#8288;11 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (93) · Freshness: recent (76) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### #&#8288;11 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (93) · Freshness: recent (76) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Web and desktop chat client for OpenAI, Claude, Gemini and other model APIs.**
 
@@ -203,7 +203,7 @@ NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, A
 <sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
 
 <a name="page-assist"></a>
-### #&#8288;12 [page-assist](https://github.com/n4ze3m/page-assist) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Nov 2026</sub>
+### #&#8288;12 [page-assist](https://github.com/n4ze3m/page-assist) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Nov 2026</sub>
 
 **Browser extension with a sidebar and web UI for local models.**
 
@@ -239,7 +239,7 @@ Chat UI is a SvelteKit web app that talks to any OpenAI-compatible endpoint, dis
 <sub>no GPU · Docker + Compose · Needs MongoDB 6/7 (embedded fallback for dev), OpenAI-compatible API endpoint, Node.js/npm · Models: OpenAI-compatible APIs, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [▶️ Demo ↗](https://huggingface.co/chat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/huggingface-chat-ui/)</sub>
 
 <a name="chathub"></a>
-### #&#8288;14 [chathub](https://github.com/chathub-dev/chathub) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (36) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;14 [chathub](https://github.com/chathub-dev/chathub) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (37) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
 
 **Browser extension that chats with several AI chatbots side by side.**
 
@@ -347,7 +347,7 @@ A Vue front-end for ChatGPT-style chat that supports multiple users, multiple in
 <sub>Docker + Compose · Needs chatgpt-ui-server · [Repo](https://github.com/wongsaang/chatgpt-ui) · [📖 Docs ↗](https://wongsaang.github.io/chatgpt-ui/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgpt-ui/)</sub>
 
 <a name="chatany"></a>
-### #&#8288;20 [chatany](https://github.com/chatanyteam/chatany) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (13) · Freshness: slowing (37) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
+### #&#8288;20 [chatany](https://github.com/chatanyteam/chatany) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (14) · Freshness: slowing (37) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
 
 **ChatGPT-Next-Web fork adding Midjourney and Stability AI image generation.**
 
@@ -365,7 +365,7 @@ ChatAny is a web chat client forked from ChatGPT-Next-Web that adds an image gen
 <sub>no GPU · Docker + Compose · Needs midjourney-proxy (for Midjourney), OpenAI-compatible API · Models: OpenAI API, Midjourney (via proxy), Stable Image Ultra, Stable Image Core, Stable Diffusion 3 · port 3000 · [Repo](https://github.com/chatanyteam/chatany) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatany/)</sub>
 
 <a name="aidea"></a>
-### #&#8288;21 [aidea](https://github.com/mylxsw/aidea) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (17) · Freshness: quiet (30) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
+### #&#8288;21 [aidea](https://github.com/mylxsw/aidea) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (18) · Freshness: quiet (29) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
 
 **Flutter client for chatting with LLMs and generating images.**
 

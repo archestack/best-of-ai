@@ -22,4 +22,22 @@ Official collection of reference Model Context Protocol servers maintained by th
 
 <sub>no GPU · Needs Node.js (npx), uv or pip (Python servers), MCP client · [Repo](https://github.com/modelcontextprotocol/servers) · [📖 Docs ↗](https://modelcontextprotocol.io/introduction) · [🌐 Site ↗](https://modelcontextprotocol.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/servers/)</sub>
 
+<a name="ha-mcp"></a>
+### 🥈 [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · MIT · Nov 2026</sub>
+
+**MCP server that lets AI assistants configure and control Home Assistant.**
+
+ha-mcp exposes 87 tools over the Model Context Protocol so clients such as Claude, ChatGPT and Cursor can search entities, control devices, and create or edit automations, scripts, helpers and dashboards in Home Assistant. It is built on FastMCP and installs as an in-process HACS/Marketplace integration, a Home Assistant app (add-on), Docker, or uvx/PyPI. Safety features include read-only mode, per-tool disabling and automatic edit backups.
+
+- **+** 87 tools covering automations, dashboards, helpers, areas, backups, traces and device registry
+- **+** In-process integration works on OS, Supervised, Container and Core installs
+- **+** Read Only Mode, per-tool enable/disable and automatic backups before edits
+- **+** Setup Wizard generates config for 15+ clients; demo server available to try first
+- **−** Integration requires Home Assistant 2026.8.0 or newer
+- **−** Acts with an administrator token; a leaked token or secret URL grants broad access
+- **−** stdio transport has known connection problems; README recommends it only for demos
+- **−** Several install paths exist; running more than one per client causes connection hangs
+
+<sub>no GPU · Docker + Compose · Needs Home Assistant 2026.8.0+, Home Assistant administrator access token, FastMCP · Models: Claude, ChatGPT, Gemini CLI, Open WebUI, Cursor · port 9584 · [Repo](https://github.com/homeassistant-ai/ha-mcp) · [📖 Docs ↗](https://homeassistant-ai.github.io/ha-mcp/faq/) · [🌐 Site ↗](https://homeassistant-ai.github.io/ha-mcp/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ha-mcp/)</sub>
+
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
