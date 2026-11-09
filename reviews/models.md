@@ -363,7 +363,7 @@ PyTorch code for the three classic YOLOv3 object detection models, with scripts 
 <sub>GPU optional · Needs Python>=3.8, PyTorch>=1.8 · Models: YOLOv3, YOLOv3-SPP, YOLOv3-tiny, COCO, ONNX · [Repo](https://github.com/ultralytics/yolov3) · [📖 Docs ↗](https://docs.ultralytics.com/models/yolov3) · [🌐 Site ↗](https://www.ultralytics.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yolov3/)</sub>
 
 <a name="minicpm-v"></a>
-### #&#8288;21 [minicpm-v](https://github.com/openbmb/minicpm-v) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (76) · Freshness: recent (71) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;21 [minicpm-v](https://github.com/openbmb/minicpm-v) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (76) · Freshness: recent (71) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Oct 2026</sub>
 
 **Open-weight multimodal models for image, video, document and speech understanding.**
 
