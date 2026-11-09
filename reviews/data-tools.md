@@ -39,26 +39,8 @@ Docling parses PDF, DOCX, PPTX, XLSX, HTML, EPUB, images, audio and other format
 
 <sub>GPU optional · Docker · Models: GraniteDocling, VLMs, ASR models, OCR engines · [Repo](https://github.com/docling-project/docling) · [📖 Docs ↗](https://docling-project.github.io/docling/) · [🌐 Site ↗](https://docling-project.github.io/docling/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling/)</sub>
 
-<a name="agent-reach"></a>
-### 🥉 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 110k · MIT · Nov 2026</sub>
-
-**CLI that gives coding agents read access to login-gated and Chinese web platforms.**
-
-Agent Reach is a Python CLI that wraps upstream tools such as bili-cli, yt-dlp, Jina Reader and Exa behind one command format: `agent-reach <channel> <action>`. It covers Bilibili, V2EX, GitHub, YouTube, Xiaohongshu, Xueqiu, Reddit, Twitter and others, trying an ordered list of tools per action with fallbacks. It is read-only, and login-gated sites use a dedicated background browser that copies your Chrome session for that site.
-
-- **+** Covers Chinese platforms (Bilibili, Xiaohongshu, V2EX, Xueqiu) that generic agent search handles poorly
-- **+** Per-action ordered tool list with automatic fallback when an upstream tool breaks
-- **+** Read-only by design: no posting, commenting, liking or messaging
-- **+** All tools, logins and settings live in `~/.agent-reach/`, so removal is contained
-- **−** Twitter, Facebook and Instagram channels are labeled experimental and may break at any time
-- **−** Login-gated channels copy your Chrome session, usually the main account; README advises a spare account
-- **−** YouTube and Xiaoyuzhou transcription needs a Groq or OpenAI key
-- **−** README is mainly in Chinese; the English docs are a separate file
-
-<sub>no GPU · Needs uv, Python 3.10+, bili-cli, yt-dlp, Jina Reader, Exa, Groq or OpenAI API key (transcription) · [Repo](https://github.com/panniantong/agent-reach) · [📖 Docs ↗](https://github.com/Panniantong/Agent-Reach/blob/main/docs/README_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-reach/)</sub>
-
 <a name="opendataloader-pdf"></a>
-### #&#8288;4 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
 
 **PDF parser that outputs Markdown, JSON with bounding boxes, and Tagged PDF.**
 
@@ -74,6 +56,24 @@ Java-based PDF parser with Python, Node.js and Java SDKs. It extracts Markdown, 
 - **−** Does not process Word, Excel or PowerPoint; benchmark is run by the project itself
 
 <sub>no GPU · Needs Java 11+, Python 3.10+ (Python SDK), Docling backend (hybrid mode) · Models: Docling, EasyOCR, RapidOCR, Tesseract, SmolVLM (256M) · port 5002 · [Repo](https://github.com/opendataloader-project/opendataloader-pdf) · [📖 Docs ↗](https://opendataloader.org/docs/quick-start-python) · [🌐 Site ↗](https://opendataloader.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opendataloader-pdf/)</sub>
+
+<a name="agent-reach"></a>
+### #&#8288;4 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 110k · MIT · Nov 2026</sub>
+
+**CLI that gives coding agents read access to login-gated and Chinese web platforms.**
+
+Agent Reach is a Python CLI that wraps upstream tools such as bili-cli, yt-dlp, Jina Reader and Exa behind one command format: `agent-reach <channel> <action>`. It covers Bilibili, V2EX, GitHub, YouTube, Xiaohongshu, Xueqiu, Reddit, Twitter and others, trying an ordered list of tools per action with fallbacks. It is read-only, and login-gated sites use a dedicated background browser that copies your Chrome session for that site.
+
+- **+** Covers Chinese platforms (Bilibili, Xiaohongshu, V2EX, Xueqiu) that generic agent search handles poorly
+- **+** Per-action ordered tool list with automatic fallback when an upstream tool breaks
+- **+** Read-only by design: no posting, commenting, liking or messaging
+- **+** All tools, logins and settings live in `~/.agent-reach/`, so removal is contained
+- **−** Twitter, Facebook and Instagram channels are labeled experimental and may break at any time
+- **−** Login-gated channels copy your Chrome session, usually the main account; README advises a spare account
+- **−** YouTube and Xiaoyuzhou transcription needs a Groq or OpenAI key
+- **−** README is mainly in Chinese; the English docs are a separate file
+
+<sub>no GPU · Needs uv, Python 3.10+, bili-cli, yt-dlp, Jina Reader, Exa, Groq or OpenAI API key (transcription) · [Repo](https://github.com/panniantong/agent-reach) · [📖 Docs ↗](https://github.com/Panniantong/Agent-Reach/blob/main/docs/README_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-reach/)</sub>
 
 <a name="markitdown"></a>
 ### #&#8288;5 [markitdown](https://github.com/microsoft/markitdown) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 194k · MIT · Nov 2026</sub>
@@ -273,7 +273,7 @@ Rerun logs multi-rate data such as images, point clouds, transforms, time series
 <sub>Needs nasm (optional, for faster video decoding when building the CLI) · [Repo](https://github.com/rerun-io/rerun) · [▶️ Demo ↗](https://www.rerun.io/viewer) · [📖 Docs ↗](https://rerun.io/docs) · [🌐 Site ↗](https://www.rerun.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rerun/)</sub>
 
 <a name="label-studio"></a>
-### #&#8288;16 [label-studio](https://github.com/humansignal/label-studio) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [label-studio](https://github.com/humansignal/label-studio) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Nov 2026</sub>
 
 **Multi-user data labeling tool for audio, text, images, video and time series.**
 

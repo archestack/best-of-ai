@@ -216,26 +216,8 @@ A tutorial repo that rebuilds the parts of a coding-agent harness one chapter at
 
 <sub>no GPU · Needs LLM API with tool use (Anthropic-style messages API) · Models: Claude · [Repo](https://github.com/shareai-lab/learn-claude-code) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learn-claude-code/)</sub>
 
-<a name="genai-agents"></a>
-### #&#8288;13 [genai_agents](https://github.com/nirdiamant/genai_agents) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
-
-**Notebook tutorials for building GenAI agents with LangGraph, LangChain and AutoGen.**
-
-A collection of 57 Jupyter notebooks that walk through agent designs, from simple conversational and Q&A agents to multi-agent systems. Most examples use LangGraph, with others using LangChain, PydanticAI, AutoGen and MCP, across business, educational and creative use cases. The README also promotes the author's paid course and newsletter.
-
-- **+** 57 notebooks spanning beginner to multi-agent examples, each runnable on its own
-- **+** Covers several frameworks: LangGraph, LangChain, PydanticAI, AutoGen, MCP
-- **+** Applied examples such as contract analysis, customer support and E2E testing agents
-- **+** Companion blog post and YouTube explainers for some topics
-- **−** Tutorial code, not an installable library or deployable agent product
-- **−** Most notebooks depend on LangGraph or LangChain, so framework coverage is narrow
-- **−** README carries heavy course, newsletter and sponsor promotion
-- **−** License is not identified (NOASSERTION); no releases published
-
-<sub>Needs LangGraph, LangChain, LLM provider API · [Repo](https://github.com/nirdiamant/genai_agents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genai-agents/)</sub>
-
 <a name="ai-agent-book"></a>
-### #&#8288;14 [ai-agent-book](https://github.com/bojieli/ai-agent-book) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;13 [ai-agent-book](https://github.com/bojieli/ai-agent-book) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Sep 2026</sub>
 
 **Open book on AI agent design, with 109 runnable companion experiments.**
 
@@ -251,6 +233,24 @@ A Chinese-language book, "Understanding AI Agents in Depth", with 10 chapters bu
 - **−** Most experiments need provider API keys; some need CUDA, browsers or external repos
 
 <sub>GPU optional · Needs Python 3.11-3.13, uv or pip, LLM provider API keys, pandoc and xelatex (only to build the PDF) · Models: Kimi, GLM, DeepSeek, OpenRouter, Siliconflow · [Repo](https://github.com/bojieli/ai-agent-book) · [📖 Docs ↗](https://bojieli.github.io/ai-agent-book/astro/) · [🌐 Site ↗](https://bojieli.github.io/ai-agent-book/astro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-agent-book/)</sub>
+
+<a name="genai-agents"></a>
+### #&#8288;14 [genai_agents](https://github.com/nirdiamant/genai_agents) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
+
+**Notebook tutorials for building GenAI agents with LangGraph, LangChain and AutoGen.**
+
+A collection of 57 Jupyter notebooks that walk through agent designs, from simple conversational and Q&A agents to multi-agent systems. Most examples use LangGraph, with others using LangChain, PydanticAI, AutoGen and MCP, across business, educational and creative use cases. The README also promotes the author's paid course and newsletter.
+
+- **+** 57 notebooks spanning beginner to multi-agent examples, each runnable on its own
+- **+** Covers several frameworks: LangGraph, LangChain, PydanticAI, AutoGen, MCP
+- **+** Applied examples such as contract analysis, customer support and E2E testing agents
+- **+** Companion blog post and YouTube explainers for some topics
+- **−** Tutorial code, not an installable library or deployable agent product
+- **−** Most notebooks depend on LangGraph or LangChain, so framework coverage is narrow
+- **−** README carries heavy course, newsletter and sponsor promotion
+- **−** License is not identified (NOASSERTION); no releases published
+
+<sub>Needs LangGraph, LangChain, LLM provider API · [Repo](https://github.com/nirdiamant/genai_agents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genai-agents/)</sub>
 
 <a name="claude-cookbooks"></a>
 ### #&#8288;15 [claude-cookbooks](https://github.com/anthropics/claude-cookbooks) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 54k · MIT · Nov 2026</sub>
