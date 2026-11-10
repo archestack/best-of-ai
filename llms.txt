@@ -7,14 +7,14 @@ Every entry is written from the project README and checked facts: tagline, summa
 ## Pages
 
 - [Leaderboard](https://github.com/archestack/best-of-ai/blob/main/README.md): all 940 projects in 21 categories, ranked, one table per category
-- [Assistants reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/assistants.md): Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. 44 projects.
+- [Assistants reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/assistants.md): Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. 46 projects.
 - [Chat UIs reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/chat-ui.md): Web front-ends for local or API models, usually with user accounts, chat history and file upload. 21 projects.
 - [Desktop AI apps reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/desktop-apps.md): Apps you install on your own computer to chat with local or API models, often with document chat and agents built in. 34 projects.
 - [Agent platforms reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/agent-platforms.md): Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. 62 projects.
-- [Workflow automation with AI reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/automation.md): Workflow and integration platforms with AI steps or agent nodes, for wiring models into the rest of your tools. 5 projects.
+- [Workflow automation with AI reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/automation.md): Workflow and integration platforms with AI steps or agent nodes, for wiring models into the rest of your tools. 2 projects.
 - [RAG, knowledge and search reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/rag-knowledge.md): Document Q&A, knowledge bases and private search over your own files and the web, with queries kept on your host. 45 projects.
 - [Voice reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/voice.md): Speech-to-text, text-to-speech, voice agents and meeting tools that run locally. 73 projects.
-- [Image and video reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/image-video.md): Generation UIs and pipelines for images and video, usually around diffusion models. 45 projects.
+- [Image and video reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/image-video.md): Generation UIs and pipelines for images and video, usually around diffusion models. 46 projects.
 - [Security reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/security.md): AI agents and tools for penetration testing, red-teaming and finding vulnerabilities in your own apps and models. 15 projects.
 - [Agent frameworks and SDKs reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/agent-frameworks.md): Libraries for building agents and LLM apps in code: tool calling, planning, multi-agent setups and browser control. 98 projects.
 - [Memory reviews](https://github.com/archestack/best-of-ai/blob/main/reviews/memory.md): Long-term memory engines that store and retrieve facts for agents across sessions. 18 projects.
