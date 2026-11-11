@@ -289,7 +289,7 @@ Budibase is a self-hostable operations platform for building internal apps, work
 <sub>[Repo](https://github.com/budibase/budibase) · [📖 Docs ↗](https://docs.budibase.com/docs) · [🌐 Site ↗](https://www.budibase.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/budibase/)</sub>
 
 <a name="skyvern"></a>
-### #&#8288;17 [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;17 [Skyvern](https://github.com/skyvern-ai/skyvern) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Nov 2026</sub>
 
 **Browser automation agent driven by vision LLMs over Playwright.**
 
@@ -378,7 +378,7 @@ Trigger.dev is a TypeScript SDK and runtime for writing long-running background 
 <sub>no GPU · Docker + Compose · [Repo](https://github.com/triggerdotdev/trigger.dev) · [📖 Docs ↗](https://trigger.dev/docs) · [🌐 Site ↗](https://trigger.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trigger-dev/)</sub>
 
 <a name="crm"></a>
-### #&#8288;22 [crm](https://github.com/trycompai/crm) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
+### #&#8288;22 [crm](https://github.com/trycompai/crm) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
 
 **Single-tenant CRM where a background agent researches and fills in contact records.**
 
@@ -572,26 +572,8 @@ Astron Agent is a platform for building and running agent workflows, with orches
 
 <sub>Compose · Needs Docker Compose, Casdoor, nginx · Models: API-based models, on-premises MaaS clusters · port 80 · [Repo](https://github.com/iflytek/astron-agent) · [▶️ Demo ↗](https://agent.xfyun.cn) · [📖 Docs ↗](https://github.com/iflytek/astron-agent/blob/main/docs/DEPLOYMENT_GUIDE_WITH_AUTH.md) · [🌐 Site ↗](https://iflytek.github.io/astron-agent/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/astron-agent/)</sub>
 
-<a name="raven"></a>
-### #&#8288;33 [raven](https://github.com/evermind-ai/raven) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
-
-**Host agent that orchestrates built-in and third-party agents in shared workflows.**
-
-Raven is a Python host agent that generates task DAGs and delegates work to four built-in agents (Research, Code, Design, Oncall) or to third-party agents connected over ACP, CLI or OpenAI-compatible APIs. It uses EverOS for memory across sessions, and an experimental Curator rewrites agent strategy modules. A trajectory view shows multi-agent runs as a timeline.
-
-- **+** Presets for 13 third-party agents (Claude Code, Codex, OpenCode, Hermes and others)
-- **+** Four built-in agents: research, coding, visual design, unattended long-running workflows
-- **+** Trajectory view shows every agent, turn and step of a run on one timeline
-- **+** Agent loop split into memory, planning, capability and action modules
-- **−** Curator self-improvement is experimental and ships with the repo, not the package
-- **−** Benchmark claims are self-reported and shown only as images
-- **−** Memory relies on the separate EverOS project
-- **−** Install is a curl-pipe-to-bash script; hardware needs are not listed
-
-<sub>Docker + Compose · Needs EverOS · Models: OpenAI-compatible APIs, ACP agents, CLI agents · [Repo](https://github.com/evermind-ai/raven) · [📖 Docs ↗](https://evermind-ai.github.io/Raven/) · [🌐 Site ↗](https://raven.evermind.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/raven/)</sub>
-
 <a name="open-duet"></a>
-### #&#8288;34 [open-duet](https://github.com/anil-matcha/open-duet) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;33 [open-duet](https://github.com/anil-matcha/open-duet) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · Apache-2.0 · Nov 2026</sub>
 
 **Workspace for named AI agents with teams, memory, and scheduled routines.**
 
@@ -607,6 +589,24 @@ Open Duet is a desktop and self-hosted workspace where you create named agents, 
 - **−** No built-in integrations catalog such as Gmail, Slack or Notion
 
 <sub>no GPU · Docker + Compose · Needs Node.js 22+, uv, Docker (optional, for agent computers), An engine: CLI agent or API provider · Models: Claude Code, Codex CLI, Gemini CLI, Cursor, ACP agents · [Repo](https://github.com/anil-matcha/open-duet) · [▶️ Demo ↗](https://youtu.be/MzgrNQXgVX4) · [📖 Docs ↗](https://github.com/Anil-matcha/open-duet/blob/main/docs/SETUP.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-duet/)</sub>
+
+<a name="raven"></a>
+### #&#8288;34 [raven](https://github.com/evermind-ai/raven) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
+
+**Host agent that orchestrates built-in and third-party agents in shared workflows.**
+
+Raven is a Python host agent that generates task DAGs and delegates work to four built-in agents (Research, Code, Design, Oncall) or to third-party agents connected over ACP, CLI or OpenAI-compatible APIs. It uses EverOS for memory across sessions, and an experimental Curator rewrites agent strategy modules. A trajectory view shows multi-agent runs as a timeline.
+
+- **+** Presets for 13 third-party agents (Claude Code, Codex, OpenCode, Hermes and others)
+- **+** Four built-in agents: research, coding, visual design, unattended long-running workflows
+- **+** Trajectory view shows every agent, turn and step of a run on one timeline
+- **+** Agent loop split into memory, planning, capability and action modules
+- **−** Curator self-improvement is experimental and ships with the repo, not the package
+- **−** Benchmark claims are self-reported and shown only as images
+- **−** Memory relies on the separate EverOS project
+- **−** Install is a curl-pipe-to-bash script; hardware needs are not listed
+
+<sub>Docker + Compose · Needs EverOS · Models: OpenAI-compatible APIs, ACP agents, CLI agents · [Repo](https://github.com/evermind-ai/raven) · [📖 Docs ↗](https://evermind-ai.github.io/Raven/) · [🌐 Site ↗](https://raven.evermind.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/raven/)</sub>
 
 <a name="openalice"></a>
 ### #&#8288;35 [openalice](https://github.com/traderalice/openalice) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · AGPL-3.0 · Nov 2026</sub>
@@ -699,7 +699,7 @@ Yao Agents runs agents on machines you own and manages them from one place, thro
 <sub>Docker · Models: DeepSeek Harness, Jev · [Repo](https://github.com/yaoapp/yao) · [📖 Docs ↗](https://yaoagents.com/docs) · [🌐 Site ↗](https://yaoagents.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yao/)</sub>
 
 <a name="nexent"></a>
-### #&#8288;40 [nexent](https://github.com/modelengine-group/nexent) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · MIT · Nov 2026</sub>
+### #&#8288;40 [nexent](https://github.com/modelengine-group/nexent) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · MIT · Nov 2026</sub>
 
 **Generates agents from plain-language prompts, with memory, skills and MCP tools.**
 
@@ -1003,7 +1003,7 @@ FinRobot is a financial agent project in three generations: an AutoGen library (
 <sub>no GPU · Docker · Needs FMP API key, Finnhub, OpenAI API key, SEC EDGAR, Node.js, uv · Models: OpenAI, Azure OpenAI · port 5173 · [Repo](https://github.com/ai4finance-foundation/finrobot) · [▶️ Demo ↗](https://finrobot.ai/v2) · [🌐 Site ↗](https://finrobot.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/finrobot/)</sub>
 
 <a name="edict"></a>
-### #&#8288;57 [edict](https://github.com/cft0808/edict) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (57) · Freshness: recent (64) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+### #&#8288;57 [edict](https://github.com/cft0808/edict) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (57) · Freshness: recent (64) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
 
 **Multi-agent pipeline on OpenClaw with a mandatory review stage and live dashboard.**
 

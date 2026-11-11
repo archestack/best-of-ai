@@ -94,26 +94,8 @@ A.I.G (AI-Infra-Guard) from Tencent Zhuque Lab is a web platform that fingerprin
 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker 20.10+, LLM API key for skill, MCP and jailbreak scans · Models: OpenAI-compatible LLM APIs (base URL + key) · port 8088 · [Repo](https://github.com/tencent/ai-infra-guard) · [📖 Docs ↗](https://tencent.github.io/AI-Infra-Guard/) · [🌐 Site ↗](https://aigsec.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-infra-guard/)</sub>
 
-<a name="nvidia-nemo-guardrails"></a>
-### #&#8288;6 [guardrails](https://github.com/nvidia-nemo/guardrails) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · custom license · Nov 2026</sub>
-
-**Programmable input, output and dialog guardrails for LLM applications.**
-
-Python library that sits between application code and the LLM and applies input, dialog, retrieval, execution and output rails. Rails are configured in config.yml and Colang files, and run through the LLMRails API or an HTTP server with a /v1/chat/completions endpoint. Built-in rails cover jailbreak detection, sensitive data masking, fact-checking, hallucination checks and NVIDIA content and topic safety models.
-
-- **+** Five rail types: input, dialog, retrieval, execution and output
-- **+** Built-in rails for jailbreak, PII masking, fact-checking and hallucination checks
-- **+** Python API plus CLI server with OpenAI-style chat completions endpoint
-- **+** Includes an evaluation command and LLM vulnerability scan reports
-- **−** Dialog rails require learning Colang, a separate modeling language
-- **−** Sends anonymous telemetry to NVIDIA by default; opt-out needed
-- **−** LangChain integration is opt-in via environment variable
-- **−** License is flagged NOASSERTION by detection while README badge says Apache 2.0
-
-<sub>Docker · Needs Python 3.10-3.13, LLM provider such as OpenAI or NIM · Models: OpenAI GPT-3.5/GPT-4, LLaMa-2, Falcon, Vicuna, Mosaic · [Repo](https://github.com/nvidia-nemo/guardrails) · [📖 Docs ↗](https://docs.nvidia.com/nemo/guardrails) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nvidia-nemo-guardrails/)</sub>
-
 <a name="garak"></a>
-### #&#8288;7 [garak](https://github.com/nvidia/garak) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;6 [garak](https://github.com/nvidia/garak) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10.0k · Apache-2.0 · Nov 2026</sub>
 
 **Command-line scanner that probes LLMs for jailbreaks, leakage and injection.**
 
@@ -130,8 +112,26 @@ garak runs a library of probes against a target LLM (Hugging Face, OpenAI, Bedro
 
 <sub>GPU optional · Needs Python 3.11-3.14, API keys for hosted targets (OpenAI, Replicate, Cohere, Groq, NIM, Bedrock) · Models: Hugging Face, OpenAI, AWS Bedrock, Replicate, Cohere · [Repo](https://github.com/nvidia/garak) · [📖 Docs ↗](https://docs.garak.ai/) · [🌐 Site ↗](https://garak.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/garak/)</sub>
 
+<a name="nvidia-nemo-guardrails"></a>
+### #&#8288;7 [guardrails](https://github.com/nvidia-nemo/guardrails) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · custom license · Nov 2026</sub>
+
+**Programmable input, output and dialog guardrails for LLM applications.**
+
+Python library that sits between application code and the LLM and applies input, dialog, retrieval, execution and output rails. Rails are configured in config.yml and Colang files, and run through the LLMRails API or an HTTP server with a /v1/chat/completions endpoint. Built-in rails cover jailbreak detection, sensitive data masking, fact-checking, hallucination checks and NVIDIA content and topic safety models.
+
+- **+** Five rail types: input, dialog, retrieval, execution and output
+- **+** Built-in rails for jailbreak, PII masking, fact-checking and hallucination checks
+- **+** Python API plus CLI server with OpenAI-style chat completions endpoint
+- **+** Includes an evaluation command and LLM vulnerability scan reports
+- **−** Dialog rails require learning Colang, a separate modeling language
+- **−** Sends anonymous telemetry to NVIDIA by default; opt-out needed
+- **−** LangChain integration is opt-in via environment variable
+- **−** License is flagged NOASSERTION by detection while README badge says Apache 2.0
+
+<sub>Docker · Needs Python 3.10-3.13, LLM provider such as OpenAI or NIM · Models: OpenAI GPT-3.5/GPT-4, LLaMa-2, Falcon, Vicuna, Mosaic · [Repo](https://github.com/nvidia-nemo/guardrails) · [📖 Docs ↗](https://docs.nvidia.com/nemo/guardrails) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nvidia-nemo-guardrails/)</sub>
+
 <a name="aisoc"></a>
-### #&#8288;8 [aisoc](https://github.com/beenuar/aisoc) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Nov 2026</sub>
+### #&#8288;8 [aisoc](https://github.com/beenuar/aisoc) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
 
 **Self-hosted SOC that detects threats and investigates alerts with auditable AI agents.**
 
@@ -203,7 +203,7 @@ PentestGPT runs a staged pipeline against a target IP or URL, using Claude Code 
 <sub>no GPU · Docker + Compose · Needs Python 3.12+, uv, Claude Code CLI, Codex CLI, Langfuse (telemetry, can be disabled) · Models: Claude, OpenAI, Google Gemini, DeepSeek, xAI Grok · [Repo](https://github.com/greydgl/pentestgpt) · [🌐 Site ↗](https://pentestgpt.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentestgpt/)</sub>
 
 <a name="hexstrike-ai"></a>
-### #&#8288;12 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (58) · Freshness: active (97) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Aug 2026</sub>
+### #&#8288;12 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (58) · Freshness: active (96) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
 
 **MCP server that lets AI clients drive 150+ pentesting tools.**
 
@@ -238,26 +238,8 @@ Pwnagotchi runs an A2C reinforcement-learning agent (LSTM policy with MLP featur
 
 <sub>Needs bettercap, hashcat · Models: A2C (stable-baselines, MlpLstmPolicy) · [Repo](https://github.com/evilsocket/pwnagotchi) · [📖 Docs ↗](https://www.pwnagotchi.ai) · [🌐 Site ↗](https://pwnagotchi.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pwnagotchi/)</sub>
 
-<a name="adversarial-robustness-toolbox"></a>
-### #&#8288;14 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (7) · Freshness: recent (74) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
-
-**Python library for attacking and defending ML models against adversarial threats.**
-
-ART is a Python library for evaluating and hardening machine learning models against evasion, poisoning, extraction and inference attacks. It wraps models from TensorFlow, Keras, PyTorch, scikit-learn, XGBoost, LightGBM, CatBoost and GPy behind common estimator interfaces. It covers images, tables, audio and video, and is hosted by LF AI & Data.
-
-- **+** Covers four threat classes: evasion, poisoning, extraction and inference
-- **+** Works across TensorFlow, PyTorch, scikit-learn, XGBoost, LightGBM, CatBoost and GPy
-- **+** Supports images, tables, audio and video, plus detection and speech tasks
-- **+** MIT license, LF AI & Data project, with examples and notebooks
-- **−** README does not mention LLM-specific red-teaming; focus is classic model robustness
-- **−** Last release (2025-07-07) is older than recent commits
-- **−** Library only, no UI or hosted service; you write Python to use it
-- **−** Main docs sit on a GitHub wiki, with API reference on Read the Docs
-
-<sub>GPU optional · Docker · Models: TensorFlow, Keras, PyTorch, scikit-learn, XGBoost · [Repo](https://github.com/trusted-ai/adversarial-robustness-toolbox) · [📖 Docs ↗](https://adversarial-robustness-toolbox.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adversarial-robustness-toolbox/)</sub>
-
 <a name="superagent"></a>
-### #&#8288;15 [superagent](https://github.com/superagent-ai/superagent) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (16) · Freshness: recent (80) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
+### #&#8288;14 [superagent](https://github.com/superagent-ai/superagent) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (16) · Freshness: recent (80) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
 
 **SDK that blocks prompt injections and redacts PII in AI agent apps.**
 
@@ -273,5 +255,23 @@ Superagent is a TypeScript and Python SDK (package `safety-agent`) with a guard 
 - **−** Latest release is 2025-09-14, older than recent commits
 
 <sub>Needs Superagent API key (superagent.sh) · Models: OpenAI, Anthropic, Google, Groq, Bedrock · [Repo](https://github.com/superagent-ai/superagent) · [📖 Docs ↗](https://docs.superagent.sh) · [🌐 Site ↗](https://superagent.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/superagent/)</sub>
+
+<a name="adversarial-robustness-toolbox"></a>
+### #&#8288;15 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (7) · Freshness: recent (74) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+
+**Python library for attacking and defending ML models against adversarial threats.**
+
+ART is a Python library for evaluating and hardening machine learning models against evasion, poisoning, extraction and inference attacks. It wraps models from TensorFlow, Keras, PyTorch, scikit-learn, XGBoost, LightGBM, CatBoost and GPy behind common estimator interfaces. It covers images, tables, audio and video, and is hosted by LF AI & Data.
+
+- **+** Covers four threat classes: evasion, poisoning, extraction and inference
+- **+** Works across TensorFlow, PyTorch, scikit-learn, XGBoost, LightGBM, CatBoost and GPy
+- **+** Supports images, tables, audio and video, plus detection and speech tasks
+- **+** MIT license, LF AI & Data project, with examples and notebooks
+- **−** README does not mention LLM-specific red-teaming; focus is classic model robustness
+- **−** Last release (2025-07-07) is older than recent commits
+- **−** Library only, no UI or hosted service; you write Python to use it
+- **−** Main docs sit on a GitHub wiki, with API reference on Read the Docs
+
+<sub>GPU optional · Docker · Models: TensorFlow, Keras, PyTorch, scikit-learn, XGBoost · [Repo](https://github.com/trusted-ai/adversarial-robustness-toolbox) · [📖 Docs ↗](https://adversarial-robustness-toolbox.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adversarial-robustness-toolbox/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

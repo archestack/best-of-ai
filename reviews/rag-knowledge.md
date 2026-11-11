@@ -327,26 +327,8 @@ NiubiGEO runs a domain or keyword through several models via OpenRouter, direct 
 
 <sub>no GPU · Docker + Compose · Needs Node.js 22.13+, OpenRouter API key or other OpenAI-compatible model API · Models: OpenRouter, direct provider APIs, custom OpenAI-compatible endpoints · port 8787 · [Repo](https://github.com/albert-weasker/niubigeo) · [📖 Docs ↗](https://github.com/Albert-Weasker/niubigeo/blob/main/docs/PRODUCT-GUIDE.md) · [🌐 Site ↗](https://niubigeo.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/niubigeo/)</sub>
 
-<a name="utopia"></a>
-### #&#8288;19 [utopia](https://github.com/deeplethe/utopia) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Nov 2026</sub>
-
-**Bitemporal knowledge graph with ontology, review queue and MCP access.**
-
-Utopia ingests documents and database tables into a bitemporal knowledge graph, tracking when each fact held and when the system learned it. It adds an editable ontology, entity resolution, conflict detection and a human review queue. Search and chat use Tantivy full-text and pgvector with citations, and each knowledge base is exposed over MCP. It runs as one Rust binary plus Postgres.
-
-- **+** Bitemporal facts: corrections close old versions instead of overwriting, so past beliefs stay queryable
-- **+** Only a Rust binary and Postgres with pgvector; full-text search is embedded
-- **+** Any OpenAI-compatible endpoint (Ollama, vLLM, DeepSeek, Qwen) works, so it can run air-gapped
-- **+** Per-knowledge-base MCP server with scoped permissions; agent writes go to human review
-- **−** Version 0.1: schema changes between versions, migrations only roll forward
-- **−** Chat and embedding models must be configured before extraction works
-- **−** Decision reasoning, execution gate, OIDC SSO and backup commands are still roadmap items
-- **−** Scanned documents need a MinerU service or a Volcengine Ark vision model
-
-<sub>no GPU · Docker + Compose · Needs Postgres with pgvector, OpenAI-compatible chat model endpoint, OpenAI-compatible embedding endpoint, MinerU or Volcengine Ark (optional, for scans) · Models: OpenAI-compatible endpoints, DeepSeek, Qwen, GLM, Ollama · port 1516 · [Repo](https://github.com/deeplethe/utopia) · [🌐 Site ↗](https://utopia.bi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/utopia/)</sub>
-
 <a name="db-gpt"></a>
-### #&#8288;20 [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
+### #&#8288;19 [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
 
 **Agentic data assistant that writes SQL and code over your databases.**
 
@@ -362,6 +344,24 @@ DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge base
 - **−** Default pip install bundles ChromaDB only; other vector stores need extras
 
 <sub>GPU optional · Docker + Compose · Compose runs MySQL · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/db-gpt) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/db-gpt/)</sub>
+
+<a name="utopia"></a>
+### #&#8288;20 [utopia](https://github.com/deeplethe/utopia) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Nov 2026</sub>
+
+**Bitemporal knowledge graph with ontology, review queue and MCP access.**
+
+Utopia ingests documents and database tables into a bitemporal knowledge graph, tracking when each fact held and when the system learned it. It adds an editable ontology, entity resolution, conflict detection and a human review queue. Search and chat use Tantivy full-text and pgvector with citations, and each knowledge base is exposed over MCP. It runs as one Rust binary plus Postgres.
+
+- **+** Bitemporal facts: corrections close old versions instead of overwriting, so past beliefs stay queryable
+- **+** Only a Rust binary and Postgres with pgvector; full-text search is embedded
+- **+** Any OpenAI-compatible endpoint (Ollama, vLLM, DeepSeek, Qwen) works, so it can run air-gapped
+- **+** Per-knowledge-base MCP server with scoped permissions; agent writes go to human review
+- **−** Version 0.1: schema changes between versions, migrations only roll forward
+- **−** Chat and embedding models must be configured before extraction works
+- **−** Decision reasoning, execution gate, OIDC SSO and backup commands are still roadmap items
+- **−** Scanned documents need a MinerU service or a Volcengine Ark vision model
+
+<sub>no GPU · Docker + Compose · Needs Postgres with pgvector, OpenAI-compatible chat model endpoint, OpenAI-compatible embedding endpoint, MinerU or Volcengine Ark (optional, for scans) · Models: OpenAI-compatible endpoints, DeepSeek, Qwen, GLM, Ollama · port 1516 · [Repo](https://github.com/deeplethe/utopia) · [🌐 Site ↗](https://utopia.bi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/utopia/)</sub>
 
 <a name="pipeshub"></a>
 ### #&#8288;21 [PipesHub](https://github.com/pipeshub-ai/pipeshub-ai) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Nov 2026</sub>
@@ -489,7 +489,7 @@ LocalGPT indexes PDF, DOCX, HTML, Markdown and TXT files with Docling and answer
 <sub>RAM ≥ 8 GB · GPU optional · Docker + Compose · Needs Ollama, Python 3.10+, Node.js 20+, LanceDB, Docling, SQLite · Models: Ollama models (qwen3.5:9b default), HuggingFace embedding models, Qwen3-Reranker, watsonx · port 3000 · [Repo](https://github.com/promtengineer/localgpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/localgpt/)</sub>
 
 <a name="deepwiki-open"></a>
-### #&#8288;28 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
+### #&#8288;28 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
 
 **Generates browsable wikis with diagrams from Git repositories.**
 
@@ -596,26 +596,8 @@ Morphik Core is a retrieval engine for visually rich documents: it embeds page i
 
 <sub>no GPU · Docker + Compose · Compose runs Redis, PostgreSQL, Ollama · Models: ColPali multimodal embeddings · [Repo](https://github.com/morphik-org/morphik-core) · [▶️ Demo ↗](https://dev.morphik.ai) · [📖 Docs ↗](https://dev.morphik.ai/docs) · [🌐 Site ↗](https://morphik.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/morphik/)</sub>
 
-<a name="scira"></a>
-### #&#8288;34 [scira](https://github.com/zaidmukaddam/scira) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (46) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · AGPL-3.0 · Aug 2026</sub>
-
-**AI search engine that plans multi-step research and answers with inline citations.**
-
-Scira is a Next.js app that takes a question, uploaded file or URL, breaks it into sub-tasks, searches live sources and returns an answer with clickable citations. It has 17 search modes (web, academic, Reddit, X, YouTube, stocks, crypto and others) and 28 tools, and it routes to hosted models from xAI, OpenAI, Anthropic, Google and others through the Vercel AI SDK. Self-hosting needs API keys for many third-party services.
-
-- **+** 17 search modes, including academic, Reddit, YouTube, stocks and prediction markets
-- **+** Every answer carries inline citations linked to the retrieved sources
-- **+** Many hosted model families via one SDK, including Claude, GPT, Gemini, Qwen and DeepSeek
-- **+** Scheduled recurring research agents (Lookouts) email updates on tracked topics
-- **−** Depends on many third-party APIs (Exa, Firecrawl, Tavily, Valyu, Supadata, Daytona)
-- **−** README lists no local model support such as Ollama or GGUF
-- **−** Connectors, Memory, Voice and XQL modes are marked Pro
-- **−** README is inconsistent on which API keys are required to run it
-
-<sub>no GPU · Docker + Compose · Needs Exa, Firecrawl, Tavily, Parallel, Valyu, Supadata, Daytona, Upstash Redis, Cloudflare R2, Supermemory, Cohere, ElevenLabs, Database (DATABASE_URL), Better Auth · Models: xAI Grok, OpenAI GPT, Anthropic Claude, Google Gemini, Qwen · port 3000 · [Repo](https://github.com/zaidmukaddam/scira) · [▶️ Demo ↗](https://scira.ai) · [🌐 Site ↗](https://scira.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scira/)</sub>
-
 <a name="kotaemon"></a>
-### #&#8288;35 [Kotaemon](https://github.com/cinnamon/kotaemon) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (73) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · Apache-2.0 · May 2026</sub>
+### #&#8288;34 [Kotaemon](https://github.com/cinnamon/kotaemon) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (73) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · Apache-2.0 · May 2026</sub>
 
 **Gradio RAG UI with hybrid retrieval, citations and multi-user login.**
 
@@ -631,6 +613,24 @@ Kotaemon is a Gradio web app for question answering over uploaded documents, wit
 - **−** Last commit 2026-05-30; MS GraphRAG indexing works only with OpenAI or Ollama
 
 <sub>no GPU · Docker · Needs Elasticsearch, LanceDB, ChromaDB, Milvus or Qdrant (optional stores), Unstructured (optional, for .doc/.docx and more) · Models: OpenAI, Azure OpenAI, Cohere, Groq, Ollama · port 7860 · [Repo](https://github.com/cinnamon/kotaemon) · [▶️ Demo ↗](https://huggingface.co/spaces/cin-model/kotaemon-demo) · [📖 Docs ↗](https://cinnamon.github.io/kotaemon/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kotaemon/)</sub>
+
+<a name="scira"></a>
+### #&#8288;35 [scira](https://github.com/zaidmukaddam/scira) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (46) · Freshness: active (100) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · AGPL-3.0 · Aug 2026</sub>
+
+**AI search engine that plans multi-step research and answers with inline citations.**
+
+Scira is a Next.js app that takes a question, uploaded file or URL, breaks it into sub-tasks, searches live sources and returns an answer with clickable citations. It has 17 search modes (web, academic, Reddit, X, YouTube, stocks, crypto and others) and 28 tools, and it routes to hosted models from xAI, OpenAI, Anthropic, Google and others through the Vercel AI SDK. Self-hosting needs API keys for many third-party services.
+
+- **+** 17 search modes, including academic, Reddit, YouTube, stocks and prediction markets
+- **+** Every answer carries inline citations linked to the retrieved sources
+- **+** Many hosted model families via one SDK, including Claude, GPT, Gemini, Qwen and DeepSeek
+- **+** Scheduled recurring research agents (Lookouts) email updates on tracked topics
+- **−** Depends on many third-party APIs (Exa, Firecrawl, Tavily, Valyu, Supadata, Daytona)
+- **−** README lists no local model support such as Ollama or GGUF
+- **−** Connectors, Memory, Voice and XQL modes are marked Pro
+- **−** README is inconsistent on which API keys are required to run it
+
+<sub>no GPU · Docker + Compose · Needs Exa, Firecrawl, Tavily, Parallel, Valyu, Supadata, Daytona, Upstash Redis, Cloudflare R2, Supermemory, Cohere, ElevenLabs, Database (DATABASE_URL), Better Auth · Models: xAI Grok, OpenAI GPT, Anthropic Claude, Google Gemini, Qwen · port 3000 · [Repo](https://github.com/zaidmukaddam/scira) · [▶️ Demo ↗](https://scira.ai) · [🌐 Site ↗](https://scira.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scira/)</sub>
 
 <a name="paper-qa"></a>
 ### #&#8288;36 [paper-qa](https://github.com/future-house/paper-qa) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (37) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Oct 2026</sub>
@@ -705,7 +705,7 @@ DeepSearcher is a Python package that loads local files (and web pages via Firec
 <sub>GPU optional · Docker · Needs Milvus or Zilliz Cloud, LLM API key or local Ollama, Firecrawl (optional, web crawling) · Models: OpenAI, DeepSeek, Anthropic, Gemini, xAI Grok · [Repo](https://github.com/zilliztech/deep-searcher) · [📖 Docs ↗](https://deepwiki.com/zilliztech/deep-searcher) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-searcher/)</sub>
 
 <a name="bertopic"></a>
-### #&#8288;40 [bertopic](https://github.com/maartengr/bertopic) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (23) · Freshness: active (87) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Aug 2026</sub>
+### #&#8288;40 [bertopic](https://github.com/maartengr/bertopic) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (23) · Freshness: active (86) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Aug 2026</sub>
 
 **Python topic modeling library using transformer embeddings and c-TF-IDF.**
 
@@ -794,7 +794,7 @@ Planning, Research, Reflection and Writing agents run research missions over upl
 <sub>RAM ≥ 16 GB · GPU optional · Compose · Needs Docker Compose v2+, API key for an AI provider or an OpenAI-compatible endpoint, PostgreSQL with pgvector (in compose) · Models: OpenAI-compatible APIs, Azure OpenAI (GPT-5), BGE-M3 embeddings · port 80 · [Repo](https://github.com/murtaza-nasir/maestro) · [📖 Docs ↗](https://murtaza-nasir.github.io/maestro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/maestro/)</sub>
 
 <a name="r2r"></a>
-### #&#8288;45 [r2r](https://github.com/sciphi-ai/r2r) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (25) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2025</sub>
+### #&#8288;45 [r2r](https://github.com/sciphi-ai/r2r) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (25) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2025</sub>
 
 **RAG server with REST API, hybrid search, knowledge graphs and a research agent.**
 

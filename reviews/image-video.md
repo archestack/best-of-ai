@@ -148,7 +148,7 @@ Generative media studio with separate Image, Video, Audio, Lip Sync and Cinema w
 <sub>RAM ≥ 16 GB · GPU optional · Docker + Compose · Needs MuAPI API key (cloud models), Wan2GP (optional, local video; CUDA/ROCm GPU), Node.js (build from source) · Models: MuAPI hosted models (Flux, Kling, Veo, Sora, Wan 2.2), sd.cpp: SD 1.5, SDXL, Z-Image, Wan2GP: Wan 2.1/2.2, Hunyuan Video 1.5, LTX-2, Flux.1 Dev, Qwen Image · README: alternative to Manus · [Repo](https://github.com/anil-matcha/open-generative-ai) · [▶️ Demo ↗](https://muapi.ai/open-generative-ai?utm_source=github&utm_medium=readme&utm_campaign=open-generative-ai) · [🌐 Site ↗](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=open-generative-ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-generative-ai/)</sub>
 
 <a name="infinite-canvas"></a>
-### #&#8288;9 [infinite-canvas](https://github.com/basketikun/infinite-canvas) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
+### #&#8288;9 [infinite-canvas](https://github.com/basketikun/infinite-canvas) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
 
 **Browser-based infinite canvas for AI image and video generation.**
 
@@ -202,7 +202,7 @@ Runs diffusion models for image and video generation in plain C/C++ on top of gg
 <sub>GPU optional · Docker · Models: SD1.x, SD2.x, SDXL, SD3/SD3.5, FLUX.1 · [Repo](https://github.com/leejet/stable-diffusion.cpp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stable-diffusion-cpp/)</sub>
 
 <a name="ltx-2"></a>
-### #&#8288;12 [ltx-2](https://github.com/lightricks/ltx-2) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [ltx-2](https://github.com/lightricks/ltx-2) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Text and image to video model with synchronized audio, plus pipelines and trainer.**
 
@@ -290,7 +290,7 @@ ComfyUI-Manager is a custom node for ComfyUI that adds a Manager menu to install
 <sub>no GPU · Needs ComfyUI, git, Python 3 · [Repo](https://github.com/comfy-org/comfyui-manager) · [📖 Docs ↗](https://docs.comfy.org/registry/overview) · [🌐 Site ↗](https://ltdrdata.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-manager/)</sub>
 
 <a name="modly"></a>
-### #&#8288;17 [modly](https://github.com/lightningpixel/modly) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · custom license · Oct 2026</sub>
+### #&#8288;17 [modly](https://github.com/lightningpixel/modly) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (30) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · custom license · Oct 2026</sub>
 
 **Desktop app that generates 3D meshes from photos using local models.**
 
@@ -523,7 +523,7 @@ Turns a topic into a short video: an LLM (GPT, Qwen, DeepSeek, Ollama) writes th
 <sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ath-maas/pixelle-video) · [📖 Docs ↗](https://aidc-ai.github.io/Pixelle-Video/zh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pixelle-video/)</sub>
 
 <a name="kohya-ss"></a>
-### #&#8288;30 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (49) · Freshness: active (92) · Maintenance: weak (5) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;30 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (49) · Freshness: active (91) · Maintenance: weak (5) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
 
 **Gradio GUI and CLI for Kohya diffusion training scripts.**
 
@@ -576,26 +576,8 @@ Upscayl is an Electron desktop app that enlarges low-resolution images with Real
 
 <sub>GPU required · Needs Vulkan-compatible GPU, upscayl-ncnn backend · Models: Real-ESRGAN, NCNN, custom converted models, HFA2k, Remacri · [Repo](https://github.com/upscayl/upscayl) · [📖 Docs ↗](https://docs.upscayl.org/) · [🌐 Site ↗](https://upscayl.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/upscayl/)</sub>
 
-<a name="liveportrait"></a>
-### #&#8288;33 [liveportrait](https://github.com/klingairesearch/liveportrait) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (68) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Jun 2026</sub>
-
-**Animates a still portrait from a driving video, with stitching and retargeting.**
-
-Official PyTorch implementation of the LivePortrait paper. It animates a source image or video of a human, cat or dog using motion from a driving video or a precomputed .pkl motion template. It ships CLI scripts (inference.py, inference_animals.py) and a Gradio app with pose and regional editing, and pretrained weights are hosted on Hugging Face.
-
-- **+** Accepts image or video sources, including portrait video editing and image-driven mode
-- **+** Motion templates (.pkl) speed up inference and avoid sharing the driving video
-- **+** Gradio UI, Windows one-click installer and a Hugging Face Space demo are provided
-- **+** Optional torch.compile gives 20-30% faster inference per the README (not on Windows or macOS)
-- **−** Animals mode needs X-Pose and a compiled CUDA op; tested only with NVIDIA GPUs
-- **−** Apple Silicon is not supported for Animals mode and is about 20x slower than an RTX 4090
-- **−** Needs conda, FFmpeg and a manual weight download; no Docker setup
-- **−** License is not detected automatically (NOASSERTION); check the repo before commercial use
-
-<sub>GPU optional · Needs conda, FFmpeg, PyTorch, Gradio, huggingface_hub, X-Pose (Animals mode) · Models: LivePortrait Humans model, LivePortrait Animals model, KlingTeam/LivePortrait weights on Hugging Face · [Repo](https://github.com/klingairesearch/liveportrait) · [▶️ Demo ↗](https://huggingface.co/spaces/KlingTeam/LivePortrait) · [🌐 Site ↗](https://liveportrait.github.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/liveportrait/)</sub>
-
 <a name="dream-textures"></a>
-### #&#8288;34 [dream-textures](https://github.com/carson-katri/dream-textures) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (28) · Freshness: recent (70) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · GPL-3.0 · Sep 2026</sub>
+### #&#8288;33 [dream-textures](https://github.com/carson-katri/dream-textures) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (28) · Freshness: recent (70) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · GPL-3.0 · Sep 2026</sub>
 
 **Blender add-on that generates textures and images with Stable Diffusion.**
 
@@ -612,8 +594,26 @@ Dream Textures is a Blender add-on that runs Stable Diffusion locally to generat
 
 <sub>GPU optional · Needs Blender, PyTorch, DreamStudio (optional cloud) · Models: Stable Diffusion · [Repo](https://github.com/carson-katri/dream-textures) · [📖 Docs ↗](https://github.com/carson-katri/dream-textures/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dream-textures/)</sub>
 
+<a name="liveportrait"></a>
+### #&#8288;34 [liveportrait](https://github.com/klingairesearch/liveportrait) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (68) · Freshness: recent (73) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · custom license · Jun 2026</sub>
+
+**Animates a still portrait from a driving video, with stitching and retargeting.**
+
+Official PyTorch implementation of the LivePortrait paper. It animates a source image or video of a human, cat or dog using motion from a driving video or a precomputed .pkl motion template. It ships CLI scripts (inference.py, inference_animals.py) and a Gradio app with pose and regional editing, and pretrained weights are hosted on Hugging Face.
+
+- **+** Accepts image or video sources, including portrait video editing and image-driven mode
+- **+** Motion templates (.pkl) speed up inference and avoid sharing the driving video
+- **+** Gradio UI, Windows one-click installer and a Hugging Face Space demo are provided
+- **+** Optional torch.compile gives 20-30% faster inference per the README (not on Windows or macOS)
+- **−** Animals mode needs X-Pose and a compiled CUDA op; tested only with NVIDIA GPUs
+- **−** Apple Silicon is not supported for Animals mode and is about 20x slower than an RTX 4090
+- **−** Needs conda, FFmpeg and a manual weight download; no Docker setup
+- **−** License is not detected automatically (NOASSERTION); check the repo before commercial use
+
+<sub>GPU optional · Needs conda, FFmpeg, PyTorch, Gradio, huggingface_hub, X-Pose (Animals mode) · Models: LivePortrait Humans model, LivePortrait Animals model, KlingTeam/LivePortrait weights on Hugging Face · [Repo](https://github.com/klingairesearch/liveportrait) · [▶️ Demo ↗](https://huggingface.co/spaces/KlingTeam/LivePortrait) · [🌐 Site ↗](https://liveportrait.github.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/liveportrait/)</sub>
+
 <a name="hivisionidphotos"></a>
-### #&#8288;35 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (72) · Freshness: recent (60) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;35 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (72) · Freshness: recent (60) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
 
 **Offline ID photo maker: portrait matting, background swap, sizing and print layouts.**
 
@@ -685,7 +685,7 @@ Config-driven PyTorch codebase (the `sgm` package) from Stability AI for samplin
 <sub>GPU required · Needs PyTorch 2.0, PyTorch Lightning, Streamlit, Hugging Face model weights, Stability-AI/datapipelines (sdata), rembg (optional) · Models: SDXL-base-1.0, SDXL-refiner-1.0, SDXL-Turbo, Stable Video Diffusion (SVD, SVD-XT), SV3D_u · [Repo](https://github.com/stability-ai/generative-models) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/generative-models/)</sub>
 
 <a name="fluxgym"></a>
-### #&#8288;39 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (4) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
+### #&#8288;39 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (4) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
 
 **Web UI for training FLUX LoRAs on 12 to 20 GB GPUs.**
 
