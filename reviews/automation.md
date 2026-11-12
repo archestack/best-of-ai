@@ -5,7 +5,7 @@ Workflow and integration platforms with AI steps or agent nodes, for wiring mode
 <sub>🌐 Also on the web: [Workflow automation with AI on archestack.com](https://archestack.com/best-of-ai/automation/), each project on its own page.</sub>
 
 <a name="n8n"></a>
-### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 210k · custom license · Nov 2026</sub>
+### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 210k · custom license · Nov 2026</sub>
 
 **Visual workflow automation with AI agent nodes and 1500+ integrations.**
 
@@ -22,7 +22,7 @@ n8n is a node-based canvas for building workflows and multi-step AI agents, with
 <sub>no GPU · Needs Docker · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Nov 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
