@@ -5,7 +5,7 @@ Long-term memory engines that store and retrieve facts for agents across session
 <sub>🌐 Also on the web: [Memory on archestack.com](https://archestack.com/best-of-ai/memory/), each project on its own page.</sub>
 
 <a name="hindsight"></a>
-### 🥇 [hindsight](https://github.com/vectorize-io/hindsight) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · MIT · Nov 2026</sub>
+### 🥇 [hindsight](https://github.com/vectorize-io/hindsight) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 61k · MIT · Nov 2026</sub>
 
 **Agent memory server with retain, recall and reflect operations.**
 
@@ -23,7 +23,7 @@ Hindsight is a long-term memory system for agents. It uses an LLM to extract fac
 <sub>Docker · Needs LLM provider (API or local), PostgreSQL (embedded pg0 by default) · Models: openai, anthropic, gemini, groq, bedrock · port 9999 · [Repo](https://github.com/vectorize-io/hindsight) · [📖 Docs ↗](https://hindsight.vectorize.io) · [🌐 Site ↗](https://hindsight.vectorize.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hindsight/)</sub>
 
 <a name="mempalace"></a>
-### 🥈 [MemPalace](https://github.com/mempalace/mempalace) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 61k · MIT · Nov 2026</sub>
+### 🥈 [MemPalace](https://github.com/mempalace/mempalace) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 61k · MIT · Nov 2026</sub>
 
 **Local verbatim memory store for AI agents with semantic search and MCP.**
 
@@ -42,20 +42,20 @@ MemPalace stores conversation history and project files as verbatim text, withou
 <a name="gbrain"></a>
 ### 🥉 [gbrain](https://github.com/garrytan/gbrain) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · MIT · Nov 2026</sub>
 
-**Long-term memory store for coding agents, with sources and corrections.**
+**Memory store with sources and a knowledge graph for coding agents.**
 
-GBrain keeps explicit facts and their sources in a local PGLite or Postgres brain and exposes them to agents such as Claude Code, Codex, Cursor and Hermes over stdio or HTTP MCP. It starts keyless with keyword search; semantic search, cited synthesis, a typed knowledge graph and an overnight enrichment cycle are optional. It is installed with Bun from GitHub, not npm.
+GBrain stores facts and markdown pages with their sources and exposes them over MCP to agents such as Claude Code, Codex, Cursor and ChatGPT. It starts keyless with keyword search on embedded PGLite, and optionally adds embeddings, reranking, a typed link graph, and `gbrain think`, which writes cited answers with gap notes. Postgres and a paid hosted option at gbrain.io are also available.
 
-- **+** Keyless start: PGLite brain with keyword search, no server or Docker needed
-- **+** One brain shared across agents via stdio MCP or HTTP MCP with scoped OAuth tokens
-- **+** One-command setup for Claude Code and Codex, with dry-run and remove options
-- **+** Optional cited synthesis that notes gaps, plus a typed graph for relationship queries
-- **−** Not on npm; the unrelated npm package named gbrain can shadow the real binary
-- **−** Always-on OpenClaw/Hermes setup needs a server with 8GB+ RAM plus paid API usage
-- **−** Local files and shared database credentials are not isolated by sources
-- **−** Remote put_page does not extract graph edges inline; HTTP needs explicit maintenance
+- **+** Keyless start: embedded PGLite and keyword search, no server or API keys needed
+- **+** MCP access via local stdio, Tailscale tailnet exposure, or remote URL with token
+- **+** `gbrain think` answers carry citations and note stale or missing knowledge
+- **+** Swappable schema packs and a typed link graph; MIT license
+- **−** Not on npm; install from GitHub with Bun 1.4.4 or newer
+- **−** Semantic search, synthesis and enrichment need separately configured, paid model providers
+- **−** Shared brains are not isolated against local file or shared DB credential access
+- **−** Always-on enrichment suggests a server with 8GB+ RAM plus its own API usage
 
-<sub>RAM ≥ 8 GB · no GPU · Compose · Needs Bun 1.4.0+, PGLite or Postgres, Tailscale (optional, for remote MCP) · Models: Optional cloud embedding, reranking, extraction and synthesis providers (unspecified) · [Repo](https://github.com/garrytan/gbrain) · [🌐 Site ↗](https://gbrain.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gbrain/)</sub>
+<sub>RAM ≥ 8 GB · no GPU · Compose · Needs Bun 1.4.4+, PGLite or Postgres, Tailscale (optional, remote MCP), Embedding and chat provider API (optional) · [Repo](https://github.com/garrytan/gbrain) · [🌐 Site ↗](https://gbrain.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gbrain/)</sub>
 
 <a name="mem0"></a>
 ### #&#8288;4 [Mem0](https://github.com/mem0ai/mem0) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · Apache-2.0 · Nov 2026</sub>
@@ -291,7 +291,7 @@ Honcho is a FastAPI server with Python and TypeScript SDKs that stores messages 
 <sub>no GPU · Docker · Needs PostgreSQL with pgvector, LLM provider API key (e.g. OpenAI, OpenRouter), Redis (optional), Docker (optional) · Models: OpenAI, OpenRouter · port 8000 · [Repo](https://github.com/plastic-labs/honcho) · [▶️ Demo ↗](https://app.honcho.dev) · [📖 Docs ↗](https://honcho.dev/docs/v3/documentation/reference/sdk) · [🌐 Site ↗](https://honcho.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/honcho/)</sub>
 
 <a name="obsidian-second-brain"></a>
-### #&#8288;17 [obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
+### #&#8288;17 [obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
 
 **Claude Code plugin that saves chats into a linked Obsidian vault and recalls them.**
 
@@ -309,7 +309,7 @@ A Claude Code plugin, also usable from Codex, Gemini CLI, OpenCode and others, t
 <sub>Needs Obsidian, Claude Code (or Codex, Gemini CLI, OpenCode), Python 3.10+, LibreOffice 26.2+ (Word/ODT ingest), Local Whisper (audio ingest), ffmpeg (YouTube --visual), Perplexity, Grok, Gemini (optional research) · Models: Claude Code, Codex, Gemini CLI, OpenCode, Grok Bot · [Repo](https://github.com/eugeniughelbur/obsidian-second-brain) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obsidian-second-brain/)</sub>
 
 <a name="letta-ai-letta"></a>
-### #&#8288;18 [letta](https://github.com/letta-ai/letta) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;18 [letta](https://github.com/letta-ai/letta) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Oct 2026</sub>
 
 **Stateful agents with persistent memory, run from a terminal UI or App Server.**
 
@@ -399,7 +399,7 @@ Memvid packs documents, embeddings, a Tantivy full-text index, an HNSW vector in
 <sub>GPU optional · Docker + Compose · Needs Rust 1.85.0+, ONNX embedding model files (for vec), OpenAI API key (for api_embed only) · Models: bge-small-en-v1.5, bge-base-en-v1.5, nomic-embed-text-v1.5, gte-large, OpenAI text-embedding-3 · [Repo](https://github.com/memvid/memvid) · [▶️ Demo ↗](https://sandbox.memvid.com) · [📖 Docs ↗](https://docs.memvid.com) · [🌐 Site ↗](https://www.memvid.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memvid/)</sub>
 
 <a name="memory-lancedb-pro"></a>
-### #&#8288;23 [memory-lancedb-pro](https://github.com/cortexreach/memory-lancedb-pro) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (9) · Freshness: active (96) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 4.4k · no license · Oct 2026</sub>
+### #&#8288;23 [memory-lancedb-pro](https://github.com/cortexreach/memory-lancedb-pro) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (9) · Freshness: active (96) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 4.4k · no license · Nov 2026</sub>
 
 **LanceDB-backed long-term memory plugin for OpenClaw agents.**
 

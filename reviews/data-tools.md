@@ -147,8 +147,26 @@ ScrapeGraphAI is a Python library that extracts structured data from websites an
 
 <sub>GPU optional · Docker + Compose · Needs Playwright, Ollama (for local models), LLM provider API key (for hosted models) · Models: Ollama, OpenAI, Groq, Azure, Gemini · [Repo](https://github.com/scrapegraphai/scrapegraph-ai) · [📖 Docs ↗](https://docs.scrapegraphai.com/introduction) · [🌐 Site ↗](https://scrapegraphai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scrapegraph-ai/)</sub>
 
+<a name="labelme"></a>
+### #&#8288;9 [labelme](https://github.com/wkentaro/labelme) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
+
+**Desktop image annotation tool with polygon labeling and SAM-assisted masks.**
+
+Labelme is a Qt (PySide6) desktop app for annotating images with polygon, rectangle, circle, line and point shapes, saved as JSON files. It exports VOC and COCO datasets and offers AI-assisted annotation: SAM and EfficientSAM for point-to-polygon, YOLO-world and SAM3 for text-to-annotation. It is an application, not a library, with no stable Python API.
+
+- **+** Supports polygon, rectangle, circle, line, point shapes plus image-level flags
+- **+** Exports VOC and COCO datasets for segmentation and detection
+- **+** Built-in SAM, EfficientSAM, YOLO-world and SAM3 assisted labeling
+- **+** Installs with pip; UI translated into 20 languages
+- **−** v7 requires Python 3.12+ and PySide6; Qt5 users must pin labelme<7
+- **−** No stable Python API; internal modules were made private in v7
+- **−** Standalone no-Python app is a paid one-time purchase
+- **−** Single-user desktop GUI; no team or review workflow described
+
+<sub>Needs Python 3.12+, PySide6 (Qt6) · Models: SAM, EfficientSAM, YOLO-world, SAM3 · [Repo](https://github.com/wkentaro/labelme) · [📖 Docs ↗](https://www.labelme.io/docs/install-labelme-terminal) · [🌐 Site ↗](https://labelme.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/labelme/)</sub>
+
 <a name="cocoindex"></a>
-### #&#8288;9 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [cocoindex](https://github.com/cocoindex-io/cocoindex) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Incremental Python pipelines that keep vector indexes and agent context fresh.**
 
@@ -166,7 +184,7 @@ CocoIndex is a Python framework with a Rust core for declaring how source data (
 <sub>Needs Python 3.10-3.13, Postgres (pgvector) or LanceDB as target · Models: sentence-transformers · [Repo](https://github.com/cocoindex-io/cocoindex) · [📖 Docs ↗](https://cocoindex.io/docs) · [🌐 Site ↗](https://cocoindex.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cocoindex/)</sub>
 
 <a name="firecrawl"></a>
-### #&#8288;10 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 201k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;11 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 201k · AGPL-3.0 · Nov 2026</sub>
 
 **Web API that turns sites and searches into markdown or JSON for LLMs.**
 
@@ -182,44 +200,8 @@ Firecrawl exposes REST endpoints to search the web, scrape a URL, crawl a site, 
 
 <sub>Compose · Needs Firecrawl API key (hosted service) · Models: spark-2 · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
 
-<a name="moli"></a>
-### #&#8288;11 [moli](https://github.com/lexmount/moli) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
-
-**Headless browser in Rust for AI agents, with CDP and WebDriver support.**
-
-Moli is a standalone browser kernel written in Rust (V8, Stylo, Taffy, Parley), not a Chromium wrapper. The CLI fetches pages as HTML, Markdown, JSON or a semantic tree, and `moli serve` exposes CDP, WebDriver Classic and WebDriver BiDi on one endpoint. Layout and painting run only when `--layout` is set and an operation needs them.
-
-- **+** Single binary serves CDP, WebDriver Classic and BiDi; no ChromeDriver or Chrome install needed
-- **+** Reported median RSS of 73 MiB on a 192-URL crawl, versus 773 MiB for Chrome Headless
-- **+** CLI dumps Markdown, semantic tree text, PNG screenshots and PDF directly
-- **+** Playwright connects over CDP; Linux, macOS and Windows supported
-- **−** Lexbench pass rate is 81.9% against Chrome's 99.8%, so some sites will fail
-- **−** No GUI, GPU compositor, or high-fidelity Canvas, WebGL or media playback
-- **−** Screenshot and print modes are partial; real layout needs the `--layout` flag
-- **−** Benchmarks are published by the project's own authors
-
-<sub>no GPU · Needs libcurl · port 9222 · [Repo](https://github.com/lexmount/moli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moli/)</sub>
-
-<a name="labelme"></a>
-### #&#8288;12 [labelme](https://github.com/wkentaro/labelme) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
-
-**Desktop image annotation tool with polygon labeling and SAM-assisted masks.**
-
-Labelme is a Qt (PySide6) desktop app for annotating images with polygon, rectangle, circle, line and point shapes, saved as JSON files. It exports VOC and COCO datasets and offers AI-assisted annotation: SAM and EfficientSAM for point-to-polygon, YOLO-world and SAM3 for text-to-annotation. It is an application, not a library, with no stable Python API.
-
-- **+** Supports polygon, rectangle, circle, line, point shapes plus image-level flags
-- **+** Exports VOC and COCO datasets for segmentation and detection
-- **+** Built-in SAM, EfficientSAM, YOLO-world and SAM3 assisted labeling
-- **+** Installs with pip; UI translated into 20 languages
-- **−** v7 requires Python 3.12+ and PySide6; Qt5 users must pin labelme<7
-- **−** No stable Python API; internal modules were made private in v7
-- **−** Standalone no-Python app is a paid one-time purchase
-- **−** Single-user desktop GUI; no team or review workflow described
-
-<sub>Needs Python 3.12+, PySide6 (Qt6) · Models: SAM, EfficientSAM, YOLO-world, SAM3 · [Repo](https://github.com/wkentaro/labelme) · [📖 Docs ↗](https://www.labelme.io/docs/install-labelme-terminal) · [🌐 Site ↗](https://labelme.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/labelme/)</sub>
-
 <a name="liteparse"></a>
-### #&#8288;13 [liteparse](https://github.com/run-llama/liteparse) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [liteparse](https://github.com/run-llama/liteparse) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **Local PDF and Office document parser with bounding boxes and Markdown output.**
 
@@ -237,7 +219,7 @@ LiteParse extracts spatially laid-out text from PDFs using PDFium, at roughly 2-
 <sub>no GPU · Docker · Needs LibreOffice (for DOCX/XLSX/PPTX), Optional HTTP OCR server (EasyOCR, PaddleOCR, RapidOCR) · Models: Tesseract OCR (bundled), PaddleOCR PP-OCRv5 via HTTP, EasyOCR via HTTP · [Repo](https://github.com/run-llama/liteparse) · [📖 Docs ↗](https://developers.llamaindex.ai/liteparse/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/liteparse/)</sub>
 
 <a name="tesseract"></a>
-### #&#8288;14 [tesseract](https://github.com/tesseract-ocr/tesseract) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [tesseract](https://github.com/tesseract-ocr/tesseract) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · Apache-2.0 · Nov 2026</sub>
 
 **OCR engine and command-line tool with LSTM recognition for 100+ languages.**
 
@@ -255,22 +237,40 @@ Tesseract is a C++ OCR engine (libtesseract) with a tesseract command-line progr
 <sub>no GPU · Needs Leptonica, traineddata files · Models: LSTM traineddata, legacy Tesseract 3 traineddata · [Repo](https://github.com/tesseract-ocr/tesseract) · [📖 Docs ↗](https://tesseract-ocr.github.io/tessdoc/) · [🌐 Site ↗](https://tesseract-ocr.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tesseract/)</sub>
 
 <a name="marker"></a>
-### #&#8288;15 [marker](https://github.com/datalab-to/marker) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [marker](https://github.com/datalab-to/marker) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Nov 2026</sub>
 
 **Converts PDFs, Office files and images to markdown, JSON, HTML or chunks.**
 
-Marker is a Python library and CLI that converts PDF, image, PPTX, DOCX, XLSX, HTML and EPUB files to markdown, JSON, HTML or chunks, handling tables, equations, code blocks and image extraction. Layout, OCR and table recognition run through a surya VLM served by a local vLLM (Docker, NVIDIA) or llama.cpp server that starts automatically. An optional --use_llm mode adds Gemini, Claude, OpenAI-compatible, Azure, Vertex, OpenRouter or Ollama for higher accuracy.
+Marker is a Python library and CLI that converts PDF, image, PPTX, DOCX, XLSX, HTML and EPUB files into markdown, JSON, HTML or chunks. It handles tables, equations, code blocks and image extraction, and strips headers and footers. OCR and layout run through a surya VLM served locally by vLLM or llama.cpp, with an optional LLM pass (Gemini, Claude, OpenAI-compatible, Ollama and others) for higher accuracy.
 
-- **+** Outputs markdown, JSON block tree with polygons, HTML or chunks, plus extracted images
-- **+** Fast mode uses text layer and rf-detr layout on CPU; --disable_ocr starts no server
-- **+** Batch CLI with worker pool, --skip_existing and chunk sharding across multiple machines
-- **+** Reports 76.0% on olmocr-bench in balanced mode, ahead of MinerU and docling
-- **−** Model weights use a modified OpenRAIL-M license; commercial use above startup limits needs a paid license
-- **−** Balanced mode needs Docker with NVIDIA Container Toolkit, or llama.cpp on CPU and Apple Silicon
-- **−** Non-PDF formats require the marker-pdf[full] extra install
-- **−** README says the hosted Chandra model is more accurate than Marker
+- **+** Outputs markdown, JSON with block polygons, HTML or chunks from one pipeline
+- **+** Fast mode and --disable_ocr allow CPU-only, text-layer extraction
+- **+** Extensible processors, converters and block API for custom logic
+- **+** Batch CLI with worker pool, multi-GPU and multi-node sharding options
+- **−** Model weights use a modified OpenRAIL-M license with revenue limits for commercial use
+- **−** Needs Docker with NVIDIA Container Toolkit, or llama.cpp, for the VLM server
+- **−** Non-PDF formats require the extra marker-pdf[full] install
+- **−** README points to the paid hosted platform as more accurate than Marker
 
-<sub>GPU optional · Needs PyTorch, Python 3.10+, vLLM via Docker with NVIDIA Container Toolkit (GPU), llama.cpp llama-server (CPU / Apple Silicon), optional LLM service for --use_llm · Models: surya VLM, Gemini, Claude, OpenAI-compatible, Azure · [Repo](https://github.com/datalab-to/marker) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/marker/)</sub>
+<sub>GPU optional · Needs PyTorch, Python 3.10+, vLLM via Docker (NVIDIA GPU), llama.cpp llama-server (CPU/Apple Silicon) · Models: surya VLM, Gemini, Claude, OpenAI-compatible, Azure · [Repo](https://github.com/datalab-to/marker) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/marker/)</sub>
+
+<a name="moli"></a>
+### #&#8288;15 [moli](https://github.com/lexmount/moli) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
+
+**Headless browser in Rust for AI agents, with CDP and WebDriver support.**
+
+Moli is a standalone browser kernel written in Rust (V8, Stylo, Taffy, Parley), not a Chromium wrapper. The CLI fetches pages as HTML, Markdown, JSON or a semantic tree, and `moli serve` exposes CDP, WebDriver Classic and WebDriver BiDi on one endpoint. Layout and painting run only when `--layout` is set and an operation needs them.
+
+- **+** Single binary serves CDP, WebDriver Classic and BiDi; no ChromeDriver or Chrome install needed
+- **+** Reported median RSS of 73 MiB on a 192-URL crawl, versus 773 MiB for Chrome Headless
+- **+** CLI dumps Markdown, semantic tree text, PNG screenshots and PDF directly
+- **+** Playwright connects over CDP; Linux, macOS and Windows supported
+- **−** Lexbench pass rate is 81.9% against Chrome's 99.8%, so some sites will fail
+- **−** No GUI, GPU compositor, or high-fidelity Canvas, WebGL or media playback
+- **−** Screenshot and print modes are partial; real layout needs the `--layout` flag
+- **−** Benchmarks are published by the project's own authors
+
+<sub>no GPU · Needs libcurl · port 9222 · [Repo](https://github.com/lexmount/moli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moli/)</sub>
 
 <a name="rerun"></a>
 ### #&#8288;16 [rerun](https://github.com/rerun-io/rerun) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
@@ -309,7 +309,7 @@ Label Studio is a web-based annotation tool for preparing and correcting ML trai
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (optional, Compose), Nginx (optional, Compose), MinIO (optional) · Models: Custom ML backends via Label Studio ML SDK · port 8080 · [Repo](https://github.com/humansignal/label-studio) · [📖 Docs ↗](https://labelstud.io/guide/) · [🌐 Site ↗](https://labelstud.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/label-studio/)</sub>
 
 <a name="cvat"></a>
-### #&#8288;18 [cvat](https://github.com/cvat-ai/cvat) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
+### #&#8288;18 [cvat](https://github.com/cvat-ai/cvat) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
 
 **Self-hosted annotation tool for image, video, audio and 3D point cloud datasets.**
 
@@ -380,7 +380,7 @@ X-AnyLabeling is a cross-platform desktop annotation tool for building datasets 
 <sub>GPU optional · Needs ONNX Runtime, TensorRT, OpenCV DNN, vLLM, SGLang · Models: ONNX, YOLO, SAM, Grounding DINO, Qwen3-VL · [Repo](https://github.com/cvhub520/x-anylabeling) · [📖 Docs ↗](https://xanylabeling.com/docs/x-anylabeling/user_guide) · [🌐 Site ↗](https://xanylabeling.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/x-anylabeling/)</sub>
 
 <a name="anydoc"></a>
-### #&#8288;22 [anydoc](https://github.com/firecrawl/anydoc) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · MIT · Oct 2026</sub>
+### #&#8288;22 [anydoc](https://github.com/firecrawl/anydoc) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
 
 **Rust library converting Office, EPUB, CSV and PDF files to Markdown.**
 
@@ -398,7 +398,7 @@ anydoc parses Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV and text-bas
 <sub>no GPU · Needs Firecrawl Parse API (optional, for OCR) · [Repo](https://github.com/firecrawl/anydoc) · [▶️ Demo ↗](https://firecrawl.github.io/anydoc/) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anydoc/)</sub>
 
 <a name="trafilatura"></a>
-### #&#8288;23 [trafilatura](https://github.com/adbar/trafilatura) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [trafilatura](https://github.com/adbar/trafilatura) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **Python library and CLI that extracts main text and metadata from web pages.**
 
@@ -415,7 +415,7 @@ Trafilatura downloads web pages, crawls sitemaps and feeds, and extracts main te
 <sub>no GPU · Needs jusText, readability-lxml · [Repo](https://github.com/adbar/trafilatura) · [📖 Docs ↗](https://trafilatura.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trafilatura/)</sub>
 
 <a name="rea-video"></a>
-### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (30) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **Agent skill and CLI that breaks a video into shots and judges how each was made.**
 
@@ -433,7 +433,7 @@ rea-video splits a video into shots and decides for each whether it was filmed, 
 <sub>Needs ffmpeg, Python 3.10+ · Models: Gemini, Doubao · [Repo](https://github.com/juneyaooo/rea-video) · [🌐 Site ↗](https://www.reavideo.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rea-video/)</sub>
 
 <a name="dataflow"></a>
-### #&#8288;25 [dataflow](https://github.com/opendcai/dataflow) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;25 [dataflow](https://github.com/opendcai/dataflow) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
 
 **Operator-based Python pipelines for generating and cleaning LLM training data.**
 
@@ -451,7 +451,7 @@ DataFlow is a Python framework that turns noisy sources (PDFs, plain text, low-q
 <sub>GPU optional · Docker · Needs OpenAI-compatible LLM API or vLLM, uv · Models: OpenAI-compatible APIs, vLLM local models · [Repo](https://github.com/opendcai/dataflow) · [▶️ Demo ↗](https://colab.research.google.com/drive/1haosl2QS4N4HM7u7HvSsz_MnLabxexXl?usp=sharing) · [📖 Docs ↗](https://OpenDCAI.github.io/DataFlow-Doc/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataflow/)</sub>
 
 <a name="data-juicer"></a>
-### #&#8288;26 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;26 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **Operator-based pipelines for cleaning and deduplicating multimodal training data.**
 
@@ -648,7 +648,7 @@ Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images an
 <sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
 
 <a name="grobid"></a>
-### #&#8288;37 [grobid](https://github.com/grobidorg/grobid) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (17) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;37 [grobid](https://github.com/grobidorg/grobid) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · Apache-2.0 · Nov 2026</sub>
 
 **Extracts structured TEI/XML from scientific PDFs, including metadata and references.**
 

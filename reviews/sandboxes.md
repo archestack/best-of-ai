@@ -165,8 +165,26 @@ smolvm runs each workload in its own libkrun microVM with a separate guest kerne
 
 <sub>GPU optional · Needs KVM (Linux), Hypervisor.framework (macOS), Windows Hypervisor Platform (Windows), libkrun · [Repo](https://github.com/smol-machines/smolvm) · [📖 Docs ↗](https://smolmachines.com/docs/) · [🌐 Site ↗](https://smolmachines.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/smolvm/)</sub>
 
+<a name="agent-sandbox"></a>
+### #&#8288;10 [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2026</sub>
+
+**Kubernetes CRD and controller for stateful, singleton sandbox pods for agents.**
+
+Defines a Sandbox custom resource that manages a single pod with stable hostname, persistent storage and a lifecycle (create, scheduled delete, pause, resume). Extensions add SandboxTemplate, SandboxClaim and SandboxWarmPool for pre-warmed sandboxes. It orchestrates only: isolation comes from runtimes such as gVisor or Kata Containers selected through RuntimeClass.
+
+- **+** Warm pools of pre-created sandboxes cut startup time for claims
+- **+** Delegates isolation to gVisor or Kata via RuntimeClass, vendor-neutral
+- **+** Go and Python SDKs plus an optional HTTP sandbox router
+- **+** Part of Kubernetes SIG Apps; release manifests and Helm chart provided
+- **−** Requires an existing Kubernetes cluster, 1.25+ with CEL validation; 1.29+ recommended
+- **−** Does not provide isolation itself; you must set up a sandbox runtime
+- **−** Gateway-based client access needs Gateway API CRDs, which need Kubernetes 1.31+
+- **−** Deep hibernation and memory sharing are listed as goals, not confirmed features
+
+<sub>no GPU · Docker · Needs Kubernetes 1.25+, gVisor or Kata Containers (optional runtime), Gateway API CRDs (optional) · [Repo](https://github.com/kubernetes-sigs/agent-sandbox) · [📖 Docs ↗](https://agent-sandbox.sigs.k8s.io/docs/) · [🌐 Site ↗](https://agent-sandbox.sigs.k8s.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-sandbox/)</sub>
+
 <a name="substrate"></a>
-### #&#8288;10 [substrate](https://github.com/agent-substrate/substrate) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;11 [substrate](https://github.com/agent-substrate/substrate) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
 
 **Kubernetes runtime that sandboxes agents and suspends idle ones to snapshots.**
 
@@ -184,7 +202,7 @@ Agent Substrate maps a large set of stateful actors, such as agents, onto a smal
 <sub>Needs Kubernetes, gVisor (runsc), Cloud Hypervisor, Envoy, Go, kubectl, docker · [Repo](https://github.com/agent-substrate/substrate) · [📖 Docs ↗](https://github.com/agent-substrate/substrate/blob/main/docs/concepts/architecture.md) · [🌐 Site ↗](https://ate.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/substrate/)</sub>
 
 <a name="steel-browser"></a>
-### #&#8288;11 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hostable browser API that runs Chrome sessions for agents and scrapers.**
 
@@ -202,7 +220,7 @@ Steel runs managed Chrome instances behind a REST API and exposes them over CDP,
 <sub>no GPU · Docker + Compose · Needs Chrome, Docker · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/steel-browser/)</sub>
 
 <a name="sandbox-runtime"></a>
-### #&#8288;12 [sandbox-runtime](https://github.com/anthropics/sandbox-runtime) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [sandbox-runtime](https://github.com/anthropics/sandbox-runtime) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **OS-level filesystem and network sandbox for agents and arbitrary processes, no container.**
 
@@ -220,7 +238,7 @@ srt wraps any command in filesystem and network restrictions using sandbox-exec 
 <sub>no GPU · Needs bubblewrap (Linux), sandbox-exec (macOS), Node.js/npm · [Repo](https://github.com/anthropics/sandbox-runtime) · [📖 Docs ↗](https://docs.claude.com/en/docs/claude-code/sandboxing) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandbox-runtime/)</sub>
 
 <a name="sandstorm"></a>
-### #&#8288;13 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
 
 **Sandbox host that pauses and snapshots idle gVisor or Firecracker sandboxes.**
 
@@ -236,24 +254,6 @@ Sandstorm is a Rust sandbox manager that runs gVisor containers or Firecracker m
 - **−** Master capacity reservation on placement is still unchecked on the roadmap
 
 <sub>no GPU · Docker · Needs runsc (gVisor), Firecracker (optional backend), Linux cgroup v2, Rust, Node 22.12+, SQLite · port 8080 · [Repo](https://github.com/deeplethe/sandstorm) · [📖 Docs ↗](https://github.com/deeplethe/sandstorm/blob/main/docs/API.md) · [🌐 Site ↗](https://deeplethe.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandstorm/)</sub>
-
-<a name="agent-sandbox"></a>
-### #&#8288;14 [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (10) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Oct 2026</sub>
-
-**Kubernetes CRD and controller for stateful, singleton sandbox pods for agents.**
-
-Defines a Sandbox custom resource that manages a single pod with stable hostname, persistent storage and a lifecycle (create, scheduled delete, pause, resume). Extensions add SandboxTemplate, SandboxClaim and SandboxWarmPool for pre-warmed sandboxes. It orchestrates only: isolation comes from runtimes such as gVisor or Kata Containers selected through RuntimeClass.
-
-- **+** Warm pools of pre-created sandboxes cut startup time for claims
-- **+** Delegates isolation to gVisor or Kata via RuntimeClass, vendor-neutral
-- **+** Go and Python SDKs plus an optional HTTP sandbox router
-- **+** Part of Kubernetes SIG Apps; release manifests and Helm chart provided
-- **−** Requires an existing Kubernetes cluster, 1.25+ with CEL validation; 1.29+ recommended
-- **−** Does not provide isolation itself; you must set up a sandbox runtime
-- **−** Gateway-based client access needs Gateway API CRDs, which need Kubernetes 1.31+
-- **−** Deep hibernation and memory sharing are listed as goals, not confirmed features
-
-<sub>no GPU · Docker · Needs Kubernetes 1.25+, gVisor or Kata Containers (optional runtime), Gateway API CRDs (optional) · [Repo](https://github.com/kubernetes-sigs/agent-sandbox) · [📖 Docs ↗](https://agent-sandbox.sigs.k8s.io/docs/) · [🌐 Site ↗](https://agent-sandbox.sigs.k8s.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-sandbox/)</sub>
 
 <a name="open-terminal"></a>
 ### #&#8288;15 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Nov 2026</sub>

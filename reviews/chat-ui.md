@@ -115,20 +115,20 @@ assistant-ui is a TypeScript/React library that provides composable chat primiti
 <a name="hermes-webui"></a>
 ### #&#8288;7 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Nov 2026</sub>
 
-**Browser front-end for Hermes Agent with sessions, workspace files and profiles.**
+**Browser UI for Hermes Agent with sessions, workspace file browser and profiles.**
 
-Hermes WebUI is a three-panel web interface for Nous Research's Hermes Agent, written in Python with vanilla JS and no build step. It runs the agent in-process using your existing Hermes config, and adds streaming chat, tool call cards, session projects and tags, a workspace file browser and profile switching. Optional password, passkey and OIDC login are available; native Windows is not supported by the bootstrap.
+Web front-end for Nous Research's Hermes Agent, written in Python with vanilla JS and no build step. It runs the agent in-process from your HERMES_HOME config and provides streaming chat, tool call cards, a session sidebar, a workspace file browser and a settings panel. Intended to be reached over an SSH tunnel; installs through bootstrap.py, start.sh or ctl.sh, with Docker and Nix options.
 
-- **+** No build step or bundler: Python backend with vanilla JS frontend
-- **+** Reuses existing Hermes Agent config, models and memory without extra setup
-- **+** Optional password, passkey/WebAuthn and OIDC auth; off by default for localhost
-- **+** Includes ctl.sh daemon control, Docker, compose and a Nix flake/module
-- **−** Requires Hermes Agent; bootstrap installs it via a curl-piped script if missing
-- **−** Native Windows not supported by bootstrap; community guide only
-- **−** OIDC state is in process memory, so multi-instance needs sticky sessions
-- **−** Full agent-loop delegation to an external gateway is not yet shipped
+- **+** No build step or bundler: Python backend plus vanilla JS frontend
+- **+** Reuses existing Hermes agent config, models and CLI sessions, which appear in the sidebar
+- **+** Workspace file browser with preview, editing, rename and git branch badge
+- **+** Install options include bootstrap.py, ctl.sh daemon wrapper, Docker and a Nix flake
+- **−** Only a front-end for Hermes Agent; it does not work standalone with other agents
+- **−** Native Windows is unsupported by bootstrap; WSL2 or a community guide is needed
+- **−** Full agent-loop delegation to an external Hermes gateway is not yet shipped
+- **−** Voice input relies on browser Web Speech API unless server transcription is set up
 
-<sub>no GPU · Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-webui/)</sub>
+<sub>Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, Nous Portal · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-webui/)</sub>
 
 <a name="ekko-studio"></a>
 ### #&#8288;8 [ekko-studio](https://github.com/ekkolearnai/ekko-studio) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
@@ -274,8 +274,25 @@ NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, A
 
 <sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
 
+<a name="jupyter-ai"></a>
+### #&#8288;16 [jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · BSD-3-Clause · Nov 2026</sub>
+
+**JupyterLab chat extension that connects ACP coding agents to notebooks.**
+
+Jupyter AI adds a chat panel to JupyterLab that talks to external agents over the Agent Client Protocol, including Claude, Codex, GitHub Copilot, Gemini, Goose, Kiro, Mistral Vibe and OpenCode. Agents can read and write files, run terminal commands and edit notebooks through a built-in Jupyter MCP server, with approval prompts before writes and commands. Custom MCP servers and personas can be added.
+
+- **+** Supports many agents via ACP, auto-detected once their dependencies are installed
+- **+** Agents must request approval before writing files or running commands
+- **+** Drag and drop files or notebook cells into chat as context
+- **+** Real-time shared chats between users on the same server
+- **−** Does not run models itself; requires installing a separate agent
+- **−** Tied to JupyterLab, not usable outside it
+- **−** Project is still under incubation in the JupyterLab organization
+
+<sub>Needs JupyterLab, An ACP-compatible agent (e.g. Claude, Codex, Gemini, OpenCode) · Models: Claude, Codex, GitHub Copilot, Gemini, Goose · [Repo](https://github.com/jupyterlab/jupyter-ai) · [📖 Docs ↗](https://jupyter-ai.readthedocs.io/en/stable/getting-started.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jupyter-ai/)</sub>
+
 <a name="chathub"></a>
-### #&#8288;16 [chathub](https://github.com/chathub-dev/chathub) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (47) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;17 [chathub](https://github.com/chathub-dev/chathub) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (47) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
 
 **Browser extension that chats with several AI chatbots side by side.**
 
@@ -291,23 +308,6 @@ ChatHub is a Chromium browser extension that puts multiple chatbots in one windo
 - **−** No tagged releases; install from the web store or build from source
 
 <sub>no GPU · Needs Chromium-based browser, Node.js with corepack and yarn (build only) · Models: ChatGPT, Gemini, Claude, Grok, DeepSeek · [Repo](https://github.com/chathub-dev/chathub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chathub/)</sub>
-
-<a name="jupyter-ai"></a>
-### #&#8288;17 [jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (13) · Freshness: active (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · BSD-3-Clause · Nov 2026</sub>
-
-**JupyterLab chat extension that connects ACP coding agents to notebooks.**
-
-Jupyter AI adds a chat panel to JupyterLab that talks to external agents over the Agent Client Protocol, including Claude, Codex, GitHub Copilot, Gemini, Goose, Kiro, Mistral Vibe and OpenCode. Agents can read and write files, run terminal commands and edit notebooks through a built-in Jupyter MCP server, with approval prompts before writes and commands. Custom MCP servers and personas can be added.
-
-- **+** Supports many agents via ACP, auto-detected once their dependencies are installed
-- **+** Agents must request approval before writing files or running commands
-- **+** Drag and drop files or notebook cells into chat as context
-- **+** Real-time shared chats between users on the same server
-- **−** Does not run models itself; requires installing a separate agent
-- **−** Tied to JupyterLab, not usable outside it
-- **−** Project is still under incubation in the JupyterLab organization
-
-<sub>Needs JupyterLab, An ACP-compatible agent (e.g. Claude, Codex, Gemini, OpenCode) · Models: Claude, Codex, GitHub Copilot, Gemini, Goose · [Repo](https://github.com/jupyterlab/jupyter-ai) · [📖 Docs ↗](https://jupyter-ai.readthedocs.io/en/stable/getting-started.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jupyter-ai/)</sub>
 
 <a name="better-chatbot"></a>
 ### #&#8288;18 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
