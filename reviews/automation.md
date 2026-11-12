@@ -5,7 +5,7 @@ Workflow and integration platforms with AI steps or agent nodes, for wiring mode
 <sub>🌐 Also on the web: [Workflow automation with AI on archestack.com](https://archestack.com/best-of-ai/automation/), each project on its own page.</sub>
 
 <a name="n8n"></a>
-### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (100) · Momentum: surging (100) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 210k · custom license · Nov 2026</sub>
+### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 210k · custom license · Nov 2026</sub>
 
 **Visual workflow automation with AI agent nodes and 1500+ integrations.**
 
@@ -22,7 +22,7 @@ n8n is a node-based canvas for building workflows and multi-step AI agents, with
 <sub>no GPU · Needs Docker · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (39) · Momentum: flat (0) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
@@ -37,5 +37,23 @@ Activepieces is a no-code workflow builder with loops, branches, auto retries, H
 - **−** README claims of 200+ and 280+ pieces are inconsistent
 
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/activepieces/)</sub>
+
+<a name="youtube-automation-agent"></a>
+### 🥉 [youtube-automation-agent](https://github.com/darkzogx/youtube-automation-agent) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (8) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Oct 2026</sub>
+
+**Agent that researches, produces and schedules YouTube videos after your approval.**
+
+Node.js app that runs a YouTube channel pipeline on your own machine: topic research, scripts, narration, images, MP4 assembly, metadata, and scheduled uploads through the YouTube Data API. Every video waits for fact review, media-rights confirmation, and your approval before publishing. A dashboard on port 3456 covers review, scene repair, and analytics-based lessons that apply only after you approve them.
+
+- **+** Nothing uploads without approval; simulated or placeholder media cannot be approved
+- **+** Eight text providers or OpenRouter, five AI video providers, plus free local slideshow rendering
+- **+** Each generation stage is checkpointed, so a crash resumes instead of restarting
+- **+** Built-in schedule for generation, publishing, analytics, comment sync and weekly review
+- **−** Requires Google Cloud OAuth setup; Testing-mode sign-in expires every 7 days
+- **−** No Docker or compose files; setup is git clone, npm install and Playwright Chromium
+- **−** Narration and images need API keys; AI video clips are paid
+- **−** Built around a single operator and channel; multi-user support is not described
+
+<sub>no GPU · Needs Node.js 18.17+, YouTube Data API v3 credentials, Playwright Chromium, ffmpeg-static, text provider API key · Models: Gemini, OpenAI, OpenRouter, Kimi, MiMo · port 3456 · [Repo](https://github.com/darkzogx/youtube-automation-agent) · [📖 Docs ↗](https://github.com/darkzOGx/youtube-automation-agent/blob/main/docs/features.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/youtube-automation-agent/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
