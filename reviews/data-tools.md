@@ -166,7 +166,7 @@ ScrapeGraphAI is a Python library that extracts structured data from websites an
 <sub>GPU optional · Docker + Compose · Needs Playwright, Ollama (for local models), LLM provider API key (for hosted models) · Models: Ollama, OpenAI, Groq, Azure, Gemini · [Repo](https://github.com/scrapegraphai/scrapegraph-ai) · [📖 Docs ↗](https://docs.scrapegraphai.com/introduction) · [🌐 Site ↗](https://scrapegraphai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scrapegraph-ai/)</sub>
 
 <a name="labelme"></a>
-### #&#8288;10 [labelme](https://github.com/wkentaro/labelme) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;10 [labelme](https://github.com/wkentaro/labelme) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
 
 **Desktop image annotation tool with polygon labeling and SAM-assisted masks.**
 
@@ -255,7 +255,7 @@ Marker is a Python library and CLI that converts PDF, image, PPTX, DOCX, XLSX, H
 <sub>GPU optional · Needs PyTorch, Python 3.10+, vLLM via Docker (NVIDIA GPU), llama.cpp llama-server (CPU/Apple Silicon) · Models: surya VLM, Gemini, Claude, OpenAI-compatible, Azure · [Repo](https://github.com/datalab-to/marker) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/marker/)</sub>
 
 <a name="moli"></a>
-### #&#8288;15 [moli](https://github.com/lexmount/moli) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [moli](https://github.com/lexmount/moli) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
 
 **Headless browser in Rust for AI agents, with CDP and WebDriver support.**
 
@@ -309,7 +309,7 @@ Label Studio is a web-based annotation tool for preparing and correcting ML trai
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (optional, Compose), Nginx (optional, Compose), MinIO (optional) · Models: Custom ML backends via Label Studio ML SDK · port 8080 · [Repo](https://github.com/humansignal/label-studio) · [📖 Docs ↗](https://labelstud.io/guide/) · [🌐 Site ↗](https://labelstud.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/label-studio/)</sub>
 
 <a name="cvat"></a>
-### #&#8288;18 [cvat](https://github.com/cvat-ai/cvat) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
+### #&#8288;18 [cvat](https://github.com/cvat-ai/cvat) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
 
 **Self-hosted annotation tool for image, video, audio and 3D point cloud datasets.**
 
@@ -398,7 +398,7 @@ The unstructured library parses documents such as PDF, HTML, Word, email and ima
 <sub>Docker · Needs poppler-utils, tesseract-ocr, libmagic-dev, libreoffice · [Repo](https://github.com/unstructured-io/unstructured) · [📖 Docs ↗](https://docs.unstructured.io) · [🌐 Site ↗](https://unstructured.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unstructured/)</sub>
 
 <a name="rea-video"></a>
-### #&#8288;23 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (38) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
 
 **Agent skill and CLI that breaks a video into shots and judges how each was made.**
 
@@ -433,7 +433,7 @@ Trafilatura downloads web pages, crawls sitemaps and feeds, and extracts main te
 <sub>no GPU · Needs jusText, readability-lxml · [Repo](https://github.com/adbar/trafilatura) · [📖 Docs ↗](https://trafilatura.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trafilatura/)</sub>
 
 <a name="dataflow"></a>
-### #&#8288;25 [dataflow](https://github.com/opendcai/dataflow) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;25 [dataflow](https://github.com/opendcai/dataflow) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
 
 **Operator-based Python pipelines for generating and cleaning LLM training data.**
 
@@ -577,7 +577,7 @@ BabelDOC translates scientific PDFs through an OpenAI-compatible LLM endpoint an
 <sub>Needs OpenAI-compatible LLM API, uv, Python 3.12 · Models: OpenAI-compatible APIs, gpt-4o-mini (default), glm-4-flash, deepseek-chat, Ollama · [Repo](https://github.com/funstory-ai/babeldoc) · [▶️ Demo ↗](https://app.immersivetranslate.com/babel-doc/) · [📖 Docs ↗](https://funstory-ai.github.io/BabelDOC/supported_languages/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/babeldoc/)</sub>
 
 <a name="textract"></a>
-### #&#8288;33 [textract](https://github.com/deanmalmgren/textract) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Oct 2026</sub>
+### #&#8288;33 [textract](https://github.com/deanmalmgren/textract) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Oct 2026</sub>
 
 **Python library and CLI that extracts text from many document formats.**
 
@@ -593,25 +593,8 @@ textract extracts plain text from documents through a single Python interface an
 
 <sub>no GPU · Docker · [Repo](https://github.com/deanmalmgren/textract) · [📖 Docs ↗](http://textract.readthedocs.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/textract/)</sub>
 
-<a name="sumy"></a>
-### #&#8288;34 [sumy](https://github.com/miso-belica/sumy) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (10) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
-
-**Extractive text summarizer for web pages and plain text, as library and CLI.**
-
-Sumy is a Python library and command line tool that summarizes HTML pages (by URL) or plain text by selecting key sentences with classic extractive algorithms such as LexRank, Luhn, LSA and Edmundson. It also includes a small evaluation framework for scoring summaries against a reference. It uses no neural or LLM models.
-
-- **+** Installs with pip or uv; usable as a library or via sumy and sumy_eval commands
-- **+** Several extractive algorithms (LexRank, Luhn, LSA, Edmundson) with per-language tokenizers
-- **+** Built-in evaluation commands compare summaries against a reference text
-- **+** Docker image and a Hugging Face Space allow trying it without installing
-- **−** Extractive only: picks existing sentences, cannot rewrite or abstract
-- **−** Language coverage depends on tokenizers; unsupported languages need manual additions
-- **−** Python API example still carries legacy Python 2 compatibility imports
-
-<sub>no GPU · Docker · [Repo](https://github.com/miso-belica/sumy) · [▶️ Demo ↗](https://huggingface.co/spaces/issam9/sumy_space) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sumy/)</sub>
-
 <a name="subtitle-translator"></a>
-### #&#8288;35 [subtitle-translator](https://github.com/rockbenben/subtitle-translator) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+### #&#8288;34 [subtitle-translator](https://github.com/rockbenben/subtitle-translator) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
 
 **Browser-based batch subtitle translator for SRT, ASS, VTT and LRC files.**
 
@@ -629,7 +612,7 @@ Parses .srt, .ass, .vtt and .lrc files locally, strips timecodes and headers, an
 <sub>no GPU · Docker · Needs Node.js >= 24, Yarn · Models: DeepL, Google Translate, Azure Translate, DeepLX, Qwen-MT · port 3000 · [Repo](https://github.com/rockbenben/subtitle-translator) · [▶️ Demo ↗](https://tools.newzone.top/en/subtitle-translator) · [📖 Docs ↗](https://docs.newzone.top/en/guide/translation/subtitle-translator/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/subtitle-translator/)</sub>
 
 <a name="indra"></a>
-### #&#8288;36 [indra](https://github.com/datalab-to/indra) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;35 [indra](https://github.com/datalab-to/indra) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
 
 **CPU-only OCR model that converts PDFs and images to markdown or JSON.**
 
@@ -645,6 +628,23 @@ Indra OCR is a small ONNX Runtime OCR pipeline (about 76 MB of default models, n
 - **−** Weights use modified OpenRAIL-M; commercial use above $20M funding or revenue needs a license
 
 <sub>no GPU · Needs onnxruntime, opencv, pypdfium2, Hugging Face (model download) · Models: ONNX, indra-ocr · port 8765 · [Repo](https://github.com/datalab-to/indra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/indra/)</sub>
+
+<a name="sumy"></a>
+### #&#8288;36 [sumy](https://github.com/miso-belica/sumy) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
+
+**Extractive text summarizer for web pages and plain text, as library and CLI.**
+
+Sumy is a Python library and command line tool that summarizes HTML pages (by URL) or plain text by selecting key sentences with classic extractive algorithms such as LexRank, Luhn, LSA and Edmundson. It also includes a small evaluation framework for scoring summaries against a reference. It uses no neural or LLM models.
+
+- **+** Installs with pip or uv; usable as a library or via sumy and sumy_eval commands
+- **+** Several extractive algorithms (LexRank, Luhn, LSA, Edmundson) with per-language tokenizers
+- **+** Built-in evaluation commands compare summaries against a reference text
+- **+** Docker image and a Hugging Face Space allow trying it without installing
+- **−** Extractive only: picks existing sentences, cannot rewrite or abstract
+- **−** Language coverage depends on tokenizers; unsupported languages need manual additions
+- **−** Python API example still carries legacy Python 2 compatibility imports
+
+<sub>no GPU · Docker · [Repo](https://github.com/miso-belica/sumy) · [▶️ Demo ↗](https://huggingface.co/spaces/issam9/sumy_space) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sumy/)</sub>
 
 <a name="chandra"></a>
 ### #&#8288;37 [chandra](https://github.com/datalab-to/chandra) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (60) · Freshness: active (95) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
@@ -664,62 +664,8 @@ Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images an
 
 <sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
 
-<a name="grobid"></a>
-### #&#8288;38 [grobid](https://github.com/grobidorg/grobid) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · Apache-2.0 · Nov 2026</sub>
-
-**Extracts structured TEI/XML from scientific PDFs, including metadata and references.**
-
-GROBID parses scientific and technical PDFs into structured XML/TEI using a cascade of sequence-labelling models. CRF models are the default, and DeLFT deep learning models can be enabled via JEP. It extracts headers, references, citation contexts, full-text structure, funders and PDF coordinates, and exposes them through a web service, batch commands and a Java API.
-
-- **+** Reference parsing around .87 F1 on a PubMed Central set with the deep learning model
-- **+** Returns PDF bounding-box coordinates for extracted structures
-- **+** Reported 10.6 PDF/s full-text on one 16-CPU, 32 GB machine with the Node.js client
-- **+** Default CRF models run on commodity CPUs without a GPU
-- **−** Deep learning models are off by default and need Python/JEP, ideally a GPU
-- **−** Windows is not currently supported
-- **−** Aimed at scholarly PDFs, not general document-to-markdown conversion
-- **−** Batch command lines are single-threaded; clients are needed for scale
-
-<sub>GPU optional · Docker · Needs OpenJDK 21 (source builds), Python 3.10-3.11 with JEP (deep learning models), DeLFT, pdfalto, biblio-glutton or CrossRef API (optional consolidation) · Models: CRF, RNN, transformers (via DeLFT) · port 8080 · [Repo](https://github.com/grobidorg/grobid) · [▶️ Demo ↗](https://grobidOrg-grobid.hf.space/) · [📖 Docs ↗](https://grobid.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/grobid/)</sub>
-
-<a name="chonkie"></a>
-### #&#8288;39 [chonkie](https://github.com/feyninc/chonkie) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (19) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Aug 2026</sub>
-
-**Python library that chunks text and code for RAG ingestion pipelines.**
-
-Chonkie is a Python library that splits text, code and markdown tables into chunks using token, sentence, recursive, semantic, late, neural and LLM-based strategies. Chunks can be refined with overlap and embeddings, then written to JSON, HuggingFace datasets or vector stores such as Chroma, Qdrant, pgvector, Pinecone and Milvus. It also ships a REST API server (`chonkie serve`) that stores reusable pipelines in SQLite.
-
-- **+** Small base install: 505KB wheel, 49MB installed, per the project's own benchmarks
-- **+** Many chunkers: token, sentence, recursive, semantic, late, code, neural, LLM-driven, table
-- **+** Ten vector DB handshakes and 16 embedding providers, each as an optional extra
-- **+** Pipeline API with async support, plus a self-hosted REST server with Docker compose
-- **−** Ingestion only; no retrieval, query or answer generation layer
-- **−** Semantic, neural and slumber chunkers need extra installs and embedding or LLM models
-- **−** Speed and size comparisons come from the project's own benchmarks
-- **−** README advises against the `all` install in production, so extras are picked by hand
-
-<sub>GPU optional · Docker + Compose · Needs Python, SQLite (API server pipelines), Optional: embedding/LLM providers and vector DBs · Models: sentence-transformers, Model2Vec, OpenAI, Azure OpenAI, Cohere · port 8000 · [Repo](https://github.com/feyninc/chonkie) · [📖 Docs ↗](https://docs.chonkie.ai) · [🌐 Site ↗](https://labs.chonkie.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chonkie/)</sub>
-
-<a name="ai-youtube-shorts-generator"></a>
-### #&#8288;40 [ai-youtube-shorts-generator](https://github.com/anil-matcha/ai-youtube-shorts-generator) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Nov 2026</sub>
-
-**CLI that cuts long YouTube videos into ranked vertical shorts.**
-
-Python CLI and library that downloads a YouTube video or local file, transcribes it with Whisper, and has an LLM score highlight candidates for virality. The top N are cropped to 9:16 or another ratio. API mode runs everything through the MuAPI hosted service; local mode uses yt-dlp, faster-whisper, ffmpeg and OpenCV face tracking, with OpenAI or Gemini for ranking.
-
-- **+** Local mode runs download, Whisper, and cropping on your machine; only the LLM call is remote
-- **+** Each clip returns a score, hook line, and reason; --output-json dumps full results
-- **+** Highlight prompt and virality criteria are editable in shorts_generator/highlights.py
-- **+** Chunks videos over 30 minutes and dedupes overlapping candidates by score
-- **−** Default API mode depends on a paid MuAPI key for download, transcription, and cropping
-- **−** Local mode still needs an OpenAI or Gemini API key for highlight ranking
-- **−** README promotes a hosted clipping API as giving better quality than this repo
-- **−** No Dockerfile, web UI, or tagged release; CLI and Python library only
-
-<sub>GPU optional · Needs MuAPI (API mode), ffmpeg (local mode), yt-dlp, faster-whisper, OpenCV, OpenAI or Gemini API key (local mode) · Models: OpenAI gpt-4o-mini, Gemini gemini-2.5-flash, faster-whisper tiny to large-v3, MuAPI gpt-5-mini · [Repo](https://github.com/anil-matcha/ai-youtube-shorts-generator) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-youtube-shorts-generator/)</sub>
-
 <a name="jionlp"></a>
-### #&#8288;41 [jionlp](https://github.com/dongrixinyu/jionlp) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (13) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;38 [jionlp](https://github.com/dongrixinyu/jionlp) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · Apache-2.0 · Nov 2026</sub>
 
 **Python toolkit for Chinese text cleaning, extraction and parsing.**
 
@@ -736,8 +682,44 @@ JioNLP is a pip-installable Python library of Chinese NLP preprocessing function
 
 <sub>Needs Cloud machine-translation APIs (BackTranslation only) · [Repo](https://github.com/dongrixinyu/jionlp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jionlp/)</sub>
 
+<a name="grobid"></a>
+### #&#8288;39 [grobid](https://github.com/grobidorg/grobid) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · Apache-2.0 · Nov 2026</sub>
+
+**Extracts structured TEI/XML from scientific PDFs, including metadata and references.**
+
+GROBID parses scientific and technical PDFs into structured XML/TEI using a cascade of sequence-labelling models. CRF models are the default, and DeLFT deep learning models can be enabled via JEP. It extracts headers, references, citation contexts, full-text structure, funders and PDF coordinates, and exposes them through a web service, batch commands and a Java API.
+
+- **+** Reference parsing around .87 F1 on a PubMed Central set with the deep learning model
+- **+** Returns PDF bounding-box coordinates for extracted structures
+- **+** Reported 10.6 PDF/s full-text on one 16-CPU, 32 GB machine with the Node.js client
+- **+** Default CRF models run on commodity CPUs without a GPU
+- **−** Deep learning models are off by default and need Python/JEP, ideally a GPU
+- **−** Windows is not currently supported
+- **−** Aimed at scholarly PDFs, not general document-to-markdown conversion
+- **−** Batch command lines are single-threaded; clients are needed for scale
+
+<sub>GPU optional · Docker · Needs OpenJDK 21 (source builds), Python 3.10-3.11 with JEP (deep learning models), DeLFT, pdfalto, biblio-glutton or CrossRef API (optional consolidation) · Models: CRF, RNN, transformers (via DeLFT) · port 8080 · [Repo](https://github.com/grobidorg/grobid) · [▶️ Demo ↗](https://grobidOrg-grobid.hf.space/) · [📖 Docs ↗](https://grobid.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/grobid/)</sub>
+
+<a name="ai-youtube-shorts-generator"></a>
+### #&#8288;40 [ai-youtube-shorts-generator](https://github.com/anil-matcha/ai-youtube-shorts-generator) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: weak (30) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Nov 2026</sub>
+
+**CLI that cuts long YouTube videos into ranked vertical shorts.**
+
+Python CLI and library that downloads a YouTube video or local file, transcribes it with Whisper, and has an LLM score highlight candidates for virality. The top N are cropped to 9:16 or another ratio. API mode runs everything through the MuAPI hosted service; local mode uses yt-dlp, faster-whisper, ffmpeg and OpenCV face tracking, with OpenAI or Gemini for ranking.
+
+- **+** Local mode runs download, Whisper, and cropping on your machine; only the LLM call is remote
+- **+** Each clip returns a score, hook line, and reason; --output-json dumps full results
+- **+** Highlight prompt and virality criteria are editable in shorts_generator/highlights.py
+- **+** Chunks videos over 30 minutes and dedupes overlapping candidates by score
+- **−** Default API mode depends on a paid MuAPI key for download, transcription, and cropping
+- **−** Local mode still needs an OpenAI or Gemini API key for highlight ranking
+- **−** README promotes a hosted clipping API as giving better quality than this repo
+- **−** No Dockerfile, web UI, or tagged release; CLI and Python library only
+
+<sub>GPU optional · Needs MuAPI (API mode), ffmpeg (local mode), yt-dlp, faster-whisper, OpenCV, OpenAI or Gemini API key (local mode) · Models: OpenAI gpt-4o-mini, Gemini gemini-2.5-flash, faster-whisper tiny to large-v3, MuAPI gpt-5-mini · [Repo](https://github.com/anil-matcha/ai-youtube-shorts-generator) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-youtube-shorts-generator/)</sub>
+
 <a name="tesseract-js"></a>
-### #&#8288;42 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (86) · Freshness: recent (65) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
+### #&#8288;41 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (86) · Freshness: recent (65) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
 
 **JavaScript OCR library that runs Tesseract in the browser and Node.js.**
 
@@ -754,26 +736,26 @@ Tesseract.js wraps a WebAssembly port of the Tesseract OCR engine and extracts t
 
 <sub>no GPU · Docker · Needs Node.js 16+ (v7, server use), tesseract.js-core (WebAssembly port of Tesseract) · Models: Tesseract traineddata language files · [Repo](https://github.com/naptha/tesseract.js) · [▶️ Demo ↗](http://tesseract.projectnaptha.com/) · [📖 Docs ↗](https://github.com/naptha/tesseract.js/blob/master/docs/api.md) · [🌐 Site ↗](https://tesseract.projectnaptha.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tesseract-js/)</sub>
 
-<a name="anakin"></a>
-### #&#8288;43 [anakin](https://github.com/anakin-inc/anakin) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (14) · Freshness: active (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · AGPL-3.0 · Aug 2026</sub>
+<a name="chonkie"></a>
+### #&#8288;42 [chonkie](https://github.com/feyninc/chonkie) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Aug 2026</sub>
 
-**Self-hosted scraping API that returns LLM-ready markdown or JSON.**
+**Python library that chunks text and code for RAG ingestion pipelines.**
 
-AnakinScraper OSS is a Go server exposing sync, async and batch REST endpoints that fetch a URL and return HTML, cleaned HTML and markdown. Each job runs a handler chain: plain HTTP fetch, then a Camoufox anti-detect Firefox service, then an optional external API such as anakin.io. Per-domain configs, failure-pattern detection, Thompson Sampling proxy selection and optional Gemini JSON extraction are included, plus a React dashboard.
+Chonkie is a Python library that splits text, code and markdown tables into chunks using token, sentence, recursive, semantic, late, neural and LLM-based strategies. Chunks can be refined with overlap and embeddings, then written to JSON, HuggingFace datasets or vector stores such as Chroma, Qdrant, pgvector, Pinecone and Milvus. It also ships a REST API server (`chonkie serve`) that stores reusable pipelines in SQLite.
 
-- **+** Runs as a single Go binary with in-memory jobs; PostgreSQL is optional
-- **+** Handler chain falls back from HTTP to Camoufox browser to external API automatically
-- **+** Per-domain configs with failure and required patterns trigger retries on the next handler
-- **+** Includes React dashboard, CLI support and an OpenClaw skill wrapper
-- **−** AGPL-3.0 license requires open-sourcing modifications offered as a hosted service
-- **−** JavaScript-heavy sites need the separate Python Camoufox browser service
-- **−** Structured JSON extraction depends on a Google Gemini API key
-- **−** Anonymous telemetry is on by default and must be disabled with TELEMETRY=off
+- **+** Small base install: 505KB wheel, 49MB installed, per the project's own benchmarks
+- **+** Many chunkers: token, sentence, recursive, semantic, late, code, neural, LLM-driven, table
+- **+** Ten vector DB handshakes and 16 embedding providers, each as an optional extra
+- **+** Pipeline API with async support, plus a self-hosted REST server with Docker compose
+- **−** Ingestion only; no retrieval, query or answer generation layer
+- **−** Semantic, neural and slumber chunkers need extra installs and embedding or LLM models
+- **−** Speed and size comparisons come from the project's own benchmarks
+- **−** README advises against the `all` install in production, so extras are picked by hand
 
-<sub>no GPU · Compose · Needs PostgreSQL (optional), Camoufox browser service (optional), Gemini API (optional), anakin.io API (optional), Go 1.25+ · Models: Google Gemini (JSON extraction) · port 8080 · [Repo](https://github.com/anakin-inc/anakin) · [🌐 Site ↗](https://anakin.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anakin/)</sub>
+<sub>GPU optional · Docker + Compose · Needs Python, SQLite (API server pipelines), Optional: embedding/LLM providers and vector DBs · Models: sentence-transformers, Model2Vec, OpenAI, Azure OpenAI, Cohere · port 8000 · [Repo](https://github.com/feyninc/chonkie) · [📖 Docs ↗](https://docs.chonkie.ai) · [🌐 Site ↗](https://labs.chonkie.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chonkie/)</sub>
 
 <a name="jina-reader"></a>
-### #&#8288;44 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (59) · Freshness: recent (69) · Maintenance: weak (9) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;43 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (59) · Freshness: recent (69) · Maintenance: weak (9) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
@@ -791,7 +773,7 @@ Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page
 <sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jina-reader/)</sub>
 
 <a name="glm-ocr"></a>
-### #&#8288;45 [glm-ocr](https://github.com/zai-org/glm-ocr) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (40) · Freshness: active (97) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;44 [glm-ocr](https://github.com/zai-org/glm-ocr) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (40) · Freshness: active (97) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Oct 2026</sub>
 
 **0.9B OCR model and SDK that parses documents into Markdown and JSON.**
 
@@ -808,7 +790,7 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
 <a name="oxr"></a>
-### #&#8288;46 [oxr](https://github.com/somarkai/oxr) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Nov 2026</sub>
+### #&#8288;45 [oxr](https://github.com/somarkai/oxr) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Nov 2026</sub>
 
 **1.3B document parsing model that turns PDFs and images into Markdown or JSON.**
 
@@ -824,6 +806,24 @@ OXR is a 1.3B-parameter model from SoMark that parses PDFs and document images i
 - **−** Benchmark rankings are self-reported; technical report not yet published
 
 <sub>GPU required · Docker · Needs NVIDIA driver (CUDA 13.0 compatible), vLLM 0.25.1, PyTorch 2.11.0, Python 3.12, Docker · Models: OXR-1.0 (BF16, 1.3B), D-FINE layout analysis model · port 8000 · [Repo](https://github.com/somarkai/oxr) · [▶️ Demo ↗](https://free-oxr.somark.ai) · [📖 Docs ↗](https://docs.somark.ai/api-reference) · [🌐 Site ↗](https://somark.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oxr/)</sub>
+
+<a name="anakin"></a>
+### #&#8288;46 [anakin](https://github.com/anakin-inc/anakin) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (13) · Freshness: active (96) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · AGPL-3.0 · Aug 2026</sub>
+
+**Self-hosted scraping API that returns LLM-ready markdown or JSON.**
+
+AnakinScraper OSS is a Go server exposing sync, async and batch REST endpoints that fetch a URL and return HTML, cleaned HTML and markdown. Each job runs a handler chain: plain HTTP fetch, then a Camoufox anti-detect Firefox service, then an optional external API such as anakin.io. Per-domain configs, failure-pattern detection, Thompson Sampling proxy selection and optional Gemini JSON extraction are included, plus a React dashboard.
+
+- **+** Runs as a single Go binary with in-memory jobs; PostgreSQL is optional
+- **+** Handler chain falls back from HTTP to Camoufox browser to external API automatically
+- **+** Per-domain configs with failure and required patterns trigger retries on the next handler
+- **+** Includes React dashboard, CLI support and an OpenClaw skill wrapper
+- **−** AGPL-3.0 license requires open-sourcing modifications offered as a hosted service
+- **−** JavaScript-heavy sites need the separate Python Camoufox browser service
+- **−** Structured JSON extraction depends on a Google Gemini API key
+- **−** Anonymous telemetry is on by default and must be disabled with TELEMETRY=off
+
+<sub>no GPU · Compose · Needs PostgreSQL (optional), Camoufox browser service (optional), Gemini API (optional), anakin.io API (optional), Go 1.25+ · Models: Google Gemini (JSON extraction) · port 8080 · [Repo](https://github.com/anakin-inc/anakin) · [🌐 Site ↗](https://anakin.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anakin/)</sub>
 
 <a name="olmocr"></a>
 ### #&#8288;47 [olmocr](https://github.com/allenai/olmocr) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (72) · Freshness: recent (58) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
@@ -1005,26 +1005,8 @@ EasyOCR is a Python package that detects text regions with the CRAFT model and r
 
 <sub>GPU optional · Docker · Needs PyTorch, torchvision · Models: CRAFT detection, CRNN recognition (ResNet/VGG, LSTM, CTC) · [Repo](https://github.com/jaidedai/easyocr) · [▶️ Demo ↗](https://huggingface.co/spaces/tomofi/EasyOCR) · [📖 Docs ↗](https://www.jaided.ai/easyocr/documentation) · [🌐 Site ↗](https://www.jaided.ai/easyocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easyocr/)</sub>
 
-<a name="blenderproc"></a>
-### #&#8288;57 [blenderproc](https://github.com/dlr-rm/blenderproc) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: niche (11) · Freshness: quiet (14) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Jan 2026</sub>
-
-**Python pipeline for rendering synthetic training images with Blender.**
-
-BlenderProc is a Python API and CLI that runs scripts inside Blender's Python environment to build or load 3D scenes, sample object, light and camera poses, and render images. It outputs RGB, stereo, depth, normal and segmentation data, written to .hdf5 containers or COCO and BOP annotations. It is aimed at generating labelled synthetic data for computer vision training.
-
-- **+** Loads .obj, .ply, .blend, .fbx, BOP, ShapeNet, Haven and 3D-FRONT scenes
-- **+** Writes .hdf5, COCO and BOP annotations directly from the render step
-- **+** Physics simulation for object placement and sampling of poses, lights and materials
-- **+** Installs with pip; debug subcommand opens the script in the Blender GUI
-- **−** Scripts must run via the blenderproc CLI, not the normal Python interpreter
-- **−** Breakpoint debugging needs remote debugpy or PyCharm setup inside Blender's Python
-- **−** GPL-3.0 license may constrain use in proprietary code
-- **−** Last tagged release is 2024-10-22, older than recent commits
-
-<sub>Needs Blender · Models: obj, ply, blend, fbx, BOP · [Repo](https://github.com/dlr-rm/blenderproc) · [📖 Docs ↗](https://dlr-rm.github.io/BlenderProc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/blenderproc/)</sub>
-
 <a name="libpostal"></a>
-### #&#8288;58 [libpostal](https://github.com/openvenues/libpostal) <sub>score [8](../README.md#-how-we-rank "Score 8/100. Adoption: niche (20) · Freshness: quiet (6) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Dec 2025</sub>
+### #&#8288;57 [libpostal](https://github.com/openvenues/libpostal) <sub>score [8](../README.md#-how-we-rank "Score 8/100. Adoption: niche (20) · Freshness: quiet (6) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Dec 2025</sub>
 
 **C library for parsing and normalizing street addresses worldwide.**
 
@@ -1040,5 +1022,23 @@ libpostal is a C library that parses free-form street addresses into components 
 - **−** Source build needs autotools; Windows requires MSys2/MinGW; M1 needs --disable-sse2
 
 <sub>no GPU · Needs autoconf, automake, libtool, pkg-config, curl · Models: Conditional Random Field address parser, Senzing alternative model · [Repo](https://github.com/openvenues/libpostal) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/libpostal/)</sub>
+
+<a name="blenderproc"></a>
+### #&#8288;58 [blenderproc](https://github.com/dlr-rm/blenderproc) <sub>score [7](../README.md#-how-we-rank "Score 7/100. Adoption: niche (11) · Freshness: quiet (14) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Jan 2026</sub>
+
+**Python pipeline for rendering synthetic training images with Blender.**
+
+BlenderProc is a Python API and CLI that runs scripts inside Blender's Python environment to build or load 3D scenes, sample object, light and camera poses, and render images. It outputs RGB, stereo, depth, normal and segmentation data, written to .hdf5 containers or COCO and BOP annotations. It is aimed at generating labelled synthetic data for computer vision training.
+
+- **+** Loads .obj, .ply, .blend, .fbx, BOP, ShapeNet, Haven and 3D-FRONT scenes
+- **+** Writes .hdf5, COCO and BOP annotations directly from the render step
+- **+** Physics simulation for object placement and sampling of poses, lights and materials
+- **+** Installs with pip; debug subcommand opens the script in the Blender GUI
+- **−** Scripts must run via the blenderproc CLI, not the normal Python interpreter
+- **−** Breakpoint debugging needs remote debugpy or PyCharm setup inside Blender's Python
+- **−** GPL-3.0 license may constrain use in proprietary code
+- **−** Last tagged release is 2024-10-22, older than recent commits
+
+<sub>Needs Blender · Models: obj, ply, blend, fbx, BOP · [Repo](https://github.com/dlr-rm/blenderproc) · [📖 Docs ↗](https://dlr-rm.github.io/BlenderProc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/blenderproc/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

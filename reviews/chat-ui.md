@@ -41,7 +41,7 @@ Onyx indexes content from 50+ applications along with metadata and permissions, 
 <sub>GPU optional · Docker + Compose · Needs Redis, MinIO, vector and keyword index, Docker or Kubernetes · Models: Ollama, vLLM, LiteLLM, OpenAI, Anthropic · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/auth/signup) · [📖 Docs ↗](https://docs.onyx.app/welcome) · [🌐 Site ↗](https://www.onyx.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/onyx/)</sub>
 
 <a name="lobehub"></a>
-### 🥉 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · custom license · Nov 2026</sub>
+### 🥉 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · custom license · Nov 2026</sub>
 
 **Multi-agent chat workspace connected to team IM apps and 40+ model providers.**
 
@@ -274,26 +274,8 @@ NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, A
 
 <sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
 
-<a name="geekai"></a>
-### #&#8288;16 [geekai](https://github.com/yangjian102621/geekai) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (16) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
-
-**Multi-user web app for AI chat, image, music and video generation with billing.**
-
-GeekAI is a Go (Gin) backend with a Vue 3 front end that wraps chat models and third-party generation services in one web app. It covers chat with ChatGPT and Claude, image generation through MidJourney, DALL-E and others, Suno music, Luma/KeLing/Veo3 video, and mind maps. It includes user registration, credit top-ups, per-use or subscription billing, and an admin console.
-
-- **+** Chat, image, music, video and mind-map tools in one app
-- **+** Built-in user accounts, credit top-ups, and per-use or subscription billing
-- **+** Stores output on Qiniu, Aliyun OSS, Tencent COS or Minio
-- **+** Separate admin backend; separate desktop and mobile UIs (Element Plus, Vant)
-- **−** Generation relies on external services such as MidJourney, Suno and Luma
-- **−** Requires MySQL and Redis alongside the Go backend
-- **−** Private deployments cannot be upgraded in place; manual upgrade required
-- **−** README is Chinese only, with unsourced claims such as an 80% speedup
-
-<sub>Needs MySQL, Redis, Object storage (Qiniu, Aliyun OSS, Tencent COS or Minio) · Models: ChatGPT, Claude, MidJourney, DALL-E, Nano-Banana · [Repo](https://github.com/yangjian102621/geekai) · [▶️ Demo ↗](https://chat.geekai.me) · [📖 Docs ↗](https://docs.geekai.me) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/geekai/)</sub>
-
 <a name="jupyter-ai"></a>
-### #&#8288;17 [jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;16 [jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · BSD-3-Clause · Nov 2026</sub>
 
 **JupyterLab chat extension that connects ACP coding agents to notebooks.**
 
@@ -310,7 +292,7 @@ Jupyter AI adds a chat panel to JupyterLab that talks to external agents over th
 <sub>Needs JupyterLab, An ACP-compatible agent (e.g. Claude, Codex, Gemini, OpenCode) · Models: Claude, Codex, GitHub Copilot, Gemini, Goose · [Repo](https://github.com/jupyterlab/jupyter-ai) · [📖 Docs ↗](https://jupyter-ai.readthedocs.io/en/stable/getting-started.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jupyter-ai/)</sub>
 
 <a name="chathub"></a>
-### #&#8288;18 [chathub](https://github.com/chathub-dev/chathub) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (49) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;17 [chathub](https://github.com/chathub-dev/chathub) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (49) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
 
 **Browser extension that chats with several AI chatbots side by side.**
 
@@ -326,6 +308,24 @@ ChatHub is a Chromium browser extension that puts multiple chatbots in one windo
 - **−** No tagged releases; install from the web store or build from source
 
 <sub>no GPU · Needs Chromium-based browser, Node.js with corepack and yarn (build only) · Models: ChatGPT, Gemini, Claude, Grok, DeepSeek · [Repo](https://github.com/chathub-dev/chathub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chathub/)</sub>
+
+<a name="geekai"></a>
+### #&#8288;18 [geekai](https://github.com/yangjian102621/geekai) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
+
+**Multi-user web app for AI chat, image, music and video generation with billing.**
+
+GeekAI is a Go (Gin) backend with a Vue 3 front end that wraps chat models and third-party generation services in one web app. It covers chat with ChatGPT and Claude, image generation through MidJourney, DALL-E and others, Suno music, Luma/KeLing/Veo3 video, and mind maps. It includes user registration, credit top-ups, per-use or subscription billing, and an admin console.
+
+- **+** Chat, image, music, video and mind-map tools in one app
+- **+** Built-in user accounts, credit top-ups, and per-use or subscription billing
+- **+** Stores output on Qiniu, Aliyun OSS, Tencent COS or Minio
+- **+** Separate admin backend; separate desktop and mobile UIs (Element Plus, Vant)
+- **−** Generation relies on external services such as MidJourney, Suno and Luma
+- **−** Requires MySQL and Redis alongside the Go backend
+- **−** Private deployments cannot be upgraded in place; manual upgrade required
+- **−** README is Chinese only, with unsourced claims such as an 80% speedup
+
+<sub>Compose · Needs MySQL, Redis, Object storage (Qiniu, Aliyun OSS, Tencent COS or Minio) · Models: ChatGPT, Claude, MidJourney, DALL-E, Nano-Banana · [Repo](https://github.com/yangjian102621/geekai) · [▶️ Demo ↗](https://chat.geekai.me) · [📖 Docs ↗](https://docs.geekai.me) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/geekai/)</sub>
 
 <a name="better-chatbot"></a>
 ### #&#8288;19 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>

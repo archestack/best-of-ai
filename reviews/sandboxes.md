@@ -183,8 +183,26 @@ Agent Substrate maps a large set of stateful actors, such as agents, onto a smal
 
 <sub>Needs Kubernetes, gVisor (runsc), Cloud Hypervisor, Envoy, Go, kubectl, docker · [Repo](https://github.com/agent-substrate/substrate) · [📖 Docs ↗](https://github.com/agent-substrate/substrate/blob/main/docs/concepts/architecture.md) · [🌐 Site ↗](https://ate.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/substrate/)</sub>
 
+<a name="nono"></a>
+### #&#8288;11 [nono](https://github.com/nolabs-ai/nono) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Nov 2026</sub>
+
+**Kernel-enforced sandbox and policy layer for running AI coding agents.**
+
+nono is a single unprivileged Rust binary that runs agents such as Claude Code, Codex, Goose or custom ones inside a kernel-enforced sandbox. Composable JSON profiles set filesystem, network, tool and credential rules, with proxy-based credential injection, Sigstore verification of skills and instruction files, tamper-evident audit logs and snapshot rollback. It runs on macOS, Linux and Windows via WSL2.
+
+- **+** Single binary, no root needed; runs on laptops, CI, Kubernetes pods and microVMs
+- **+** Per-tool rules, e.g. aws may use a credential while curl cannot
+- **+** Credentials stay outside the sandbox via proxy injection and phantom tokens
+- **+** Registry of ready-made profiles for popular agents, extendable as composable JSON
+- **−** README says APIs are still stabilizing ahead of a 1.0 release
+- **−** Windows support only through WSL2
+- **−** Policy model has a learning curve; detail lives in external docs
+- **−** No Docker image or compose file detected
+
+<sub>no GPU · Docker · [Repo](https://github.com/nolabs-ai/nono) · [📖 Docs ↗](https://docs.nono.sh) · [🌐 Site ↗](https://nono.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nono/)</sub>
+
 <a name="agent-sandbox"></a>
-### #&#8288;11 [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2026</sub>
 
 **Kubernetes CRD and controller for stateful, singleton sandbox pods for agents.**
 
@@ -202,7 +220,7 @@ Defines a Sandbox custom resource that manages a single pod with stable hostname
 <sub>no GPU · Docker · Needs Kubernetes 1.25+, gVisor or Kata Containers (optional runtime), Gateway API CRDs (optional) · [Repo](https://github.com/kubernetes-sigs/agent-sandbox) · [📖 Docs ↗](https://agent-sandbox.sigs.k8s.io/docs/) · [🌐 Site ↗](https://agent-sandbox.sigs.k8s.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-sandbox/)</sub>
 
 <a name="steel-browser"></a>
-### #&#8288;12 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hostable browser API that runs Chrome sessions for agents and scrapers.**
 
@@ -220,7 +238,7 @@ Steel runs managed Chrome instances behind a REST API and exposes them over CDP,
 <sub>no GPU · Docker + Compose · Needs Chrome, Docker · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/steel-browser/)</sub>
 
 <a name="sandbox-runtime"></a>
-### #&#8288;13 [sandbox-runtime](https://github.com/anthropics/sandbox-runtime) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [sandbox-runtime](https://github.com/anthropics/sandbox-runtime) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **OS-level filesystem and network sandbox for agents and arbitrary processes, no container.**
 
@@ -238,7 +256,7 @@ srt wraps any command in filesystem and network restrictions using sandbox-exec 
 <sub>no GPU · Needs bubblewrap (Linux), sandbox-exec (macOS), Node.js/npm · [Repo](https://github.com/anthropics/sandbox-runtime) · [📖 Docs ↗](https://docs.claude.com/en/docs/claude-code/sandboxing) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandbox-runtime/)</sub>
 
 <a name="sandstorm"></a>
-### #&#8288;14 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
 
 **Sandbox host that pauses and snapshots idle gVisor or Firecracker sandboxes.**
 
@@ -254,24 +272,6 @@ Sandstorm is a Rust sandbox manager that runs gVisor containers or Firecracker m
 - **−** Master capacity reservation on placement is still unchecked on the roadmap
 
 <sub>no GPU · Docker · Needs runsc (gVisor), Firecracker (optional backend), Linux cgroup v2, Rust, Node 22.12+, SQLite · port 8080 · [Repo](https://github.com/deeplethe/sandstorm) · [📖 Docs ↗](https://github.com/deeplethe/sandstorm/blob/main/docs/API.md) · [🌐 Site ↗](https://deeplethe.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandstorm/)</sub>
-
-<a name="nono"></a>
-### #&#8288;15 [nono](https://github.com/nolabs-ai/nono) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (15) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
-
-**Kernel-enforced sandbox and policy layer for running AI coding agents.**
-
-nono is a single unprivileged Rust binary that runs agents such as Claude Code, Codex, Goose or custom ones inside a kernel-enforced sandbox. Composable JSON profiles set filesystem, network, tool and credential rules, with proxy-based credential injection, Sigstore verification of skills and instruction files, tamper-evident audit logs and snapshot rollback. It runs on macOS, Linux and Windows via WSL2.
-
-- **+** Single binary, no root needed; runs on laptops, CI, Kubernetes pods and microVMs
-- **+** Per-tool rules, e.g. aws may use a credential while curl cannot
-- **+** Credentials stay outside the sandbox via proxy injection and phantom tokens
-- **+** Registry of ready-made profiles for popular agents, extendable as composable JSON
-- **−** README says APIs are still stabilizing ahead of a 1.0 release
-- **−** Windows support only through WSL2
-- **−** Policy model has a learning curve; detail lives in external docs
-- **−** No Docker image or compose file detected
-
-<sub>no GPU · [Repo](https://github.com/nolabs-ai/nono) · [📖 Docs ↗](https://docs.nono.sh) · [🌐 Site ↗](https://nono.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nono/)</sub>
 
 <a name="open-terminal"></a>
 ### #&#8288;16 [Open Terminal](https://github.com/open-webui/open-terminal) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Nov 2026</sub>
