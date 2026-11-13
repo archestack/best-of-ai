@@ -94,7 +94,7 @@ LEANN is a Python vector database that stores a pruned graph and recomputes embe
 <sub>GPU optional · Docker · Needs uv, Ollama or OpenAI-compatible API (optional, for generation) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [▶️ Demo ↗](https://colab.research.google.com/github/yichuan-w/LEANN/blob/main/demo.ipynb) · [📖 Docs ↗](https://github.com/yichuan-w/LEANN/blob/main/docs/configuration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
 
 <a name="lancedb"></a>
-### #&#8288;6 [lancedb](https://github.com/lancedb/lancedb) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;6 [lancedb](https://github.com/lancedb/lancedb) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Embedded vector database built on the Lance columnar format.**
 
@@ -129,7 +129,7 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weaviate/)</sub>
 
 <a name="helix-db"></a>
-### #&#8288;8 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;8 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
 
 **Graph database with built-in vector and BM25 search, written in Rust.**
 
@@ -183,7 +183,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
 
 <a name="lance"></a>
-### #&#8288;11 [lance](https://github.com/lance-format/lance) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;11 [lance](https://github.com/lance-format/lance) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
 
 **Columnar table format for multimodal AI data with vector and full-text search.**
 
@@ -255,7 +255,7 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vespa/)</sub>
 
 <a name="infinity"></a>
-### #&#8288;15 [infinity](https://github.com/infiniflow/infinity) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [infinity](https://github.com/infiniflow/infinity) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
 
 **Database for hybrid dense, sparse, tensor and full-text search.**
 
@@ -291,7 +291,7 @@ USearch is a header-only C++20 library for approximate nearest-neighbor search o
 <sub>GPU optional · [Repo](https://github.com/unum-cloud/usearch) · [📖 Docs ↗](https://github.com/unum-cloud/USearch/blob/main/include/usearch/dense/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/usearch/)</sub>
 
 <a name="hnswlib"></a>
-### #&#8288;17 [hnswlib](https://github.com/nmslib/hnswlib) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (29) · Freshness: active (96) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;17 [hnswlib](https://github.com/nmslib/hnswlib) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (30) · Freshness: active (96) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · Apache-2.0 · Sep 2026</sub>
 
 **Header-only C++ library for approximate nearest neighbor search with HNSW graphs.**
 
@@ -309,7 +309,7 @@ Hnswlib implements the HNSW graph index for approximate nearest neighbor search 
 <sub>no GPU · [Repo](https://github.com/nmslib/hnswlib) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hnswlib/)</sub>
 
 <a name="sptag"></a>
-### #&#8288;18 [sptag](https://github.com/microsoft/sptag) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
+### #&#8288;18 [sptag](https://github.com/microsoft/sptag) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
 
 **C++ library for approximate nearest neighbor search over large vector sets.**
 
@@ -363,7 +363,7 @@ Deep Lake is a Python-installed database that stores embeddings alongside raw da
 <sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
 
 <a name="sqlite-vec"></a>
-### #&#8288;21 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (50) · Freshness: recent (73) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;21 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (50) · Freshness: recent (73) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · May 2026</sub>
 
 **Vector search extension for SQLite, written in pure C.**
 

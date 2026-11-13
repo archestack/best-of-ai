@@ -41,7 +41,7 @@ OpenShell runs each agent in an isolated sandbox where kernel controls limit fil
 <sub>GPU optional · Docker + Compose · Needs Docker, Podman or host virtualization, Kubernetes with NetworkPolicy-enforcing CNI (optional, for Helm) · [Repo](https://github.com/nvidia/openshell) · [▶️ Demo ↗](https://brev.nvidia.com/launchable/deploy/now?launchableID=env-3Ap3tL55zq4a8kew1AuW0FpSLsg) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openshell/)</sub>
 
 <a name="opensandbox"></a>
-### 🥉 [opensandbox](https://github.com/opensandbox-group/opensandbox) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [opensandbox](https://github.com/opensandbox-group/opensandbox) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Nov 2026</sub>
 
 **Sandbox API for running AI agent code, commands and browsers in isolation.**
 
@@ -59,7 +59,7 @@ OpenSandbox provides isolated environments where agents execute code, run shell 
 <sub>no GPU · Needs Docker, Python 3.10+, Kubernetes (optional, for cluster deployment) · [Repo](https://github.com/opensandbox-group/opensandbox) · [📖 Docs ↗](https://open-sandbox.ai) · [🌐 Site ↗](https://open-sandbox.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensandbox/)</sub>
 
 <a name="obscura"></a>
-### #&#8288;4 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;4 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Nov 2026</sub>
 
 **Headless browser engine in Rust with V8 and a Chrome DevTools Protocol server.**
 
@@ -131,7 +131,7 @@ Monty is a Python 3.14 subset interpreter written in Rust, installed as a Python
 <sub>no GPU · [Repo](https://github.com/pydantic/monty) · [📖 Docs ↗](https://pydantic.dev/docs/monty/) · [🌐 Site ↗](https://pydantic.dev/docs/monty/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/monty/)</sub>
 
 <a name="microsandbox"></a>
-### #&#8288;8 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;8 [microsandbox](https://github.com/superradcompany/microsandbox) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · Apache-2.0 · Nov 2026</sub>
 
 **Embeddable microVM sandboxes for running untrusted code and AI agents.**
 
@@ -148,7 +148,7 @@ Microsandbox boots OCI images inside hardware-isolated microVMs, with a stated a
 <sub>no GPU · Docker · Needs KVM (Linux), WHP (Windows), OCI registry access · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev) · [🌐 Site ↗](https://microsandbox.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/microsandbox/)</sub>
 
 <a name="smolvm"></a>
-### #&#8288;9 [smolvm](https://github.com/smol-machines/smolvm) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [smolvm](https://github.com/smol-machines/smolvm) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **MicroVM runtime with live checkpoints and branching for agent sandboxes.**
 
@@ -166,7 +166,7 @@ smolvm runs each workload in its own libkrun microVM with a separate guest kerne
 <sub>GPU optional · Needs KVM (Linux), Hypervisor.framework (macOS), Windows Hypervisor Platform (Windows), libkrun · [Repo](https://github.com/smol-machines/smolvm) · [📖 Docs ↗](https://smolmachines.com/docs/) · [🌐 Site ↗](https://smolmachines.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/smolvm/)</sub>
 
 <a name="nono"></a>
-### #&#8288;10 [nono](https://github.com/nolabs-ai/nono) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [nono](https://github.com/nolabs-ai/nono) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
 
 **Kernel-enforced sandbox and policy layer for running AI coding agents.**
 
@@ -184,7 +184,7 @@ nono is a single unprivileged Rust binary that runs agents such as Claude Code, 
 <sub>no GPU · Docker · [Repo](https://github.com/nolabs-ai/nono) · [📖 Docs ↗](https://docs.nono.sh) · [🌐 Site ↗](https://nono.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nono/)</sub>
 
 <a name="agent-sandbox"></a>
-### #&#8288;11 [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;11 [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2026</sub>
 
 **Kubernetes CRD and controller for stateful, singleton sandbox pods for agents.**
 
@@ -220,7 +220,7 @@ Agent Substrate maps a large set of stateful actors, such as agents, onto a smal
 <sub>Needs Kubernetes, gVisor (runsc), Cloud Hypervisor, Envoy, Go, kubectl, docker · [Repo](https://github.com/agent-substrate/substrate) · [📖 Docs ↗](https://github.com/agent-substrate/substrate/blob/main/docs/concepts/architecture.md) · [🌐 Site ↗](https://ate.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/substrate/)</sub>
 
 <a name="steel-browser"></a>
-### #&#8288;13 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [Steel Browser](https://github.com/steel-dev/steel-browser) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hostable browser API that runs Chrome sessions for agents and scrapers.**
 
@@ -256,7 +256,7 @@ MXC is an embeddable SDK (Rust, .NET, Node) that launches untrusted workloads in
 <sub>no GPU · Needs Rust 1.93 (build from source), Node.js 24+ (build from source), Backend-specific tooling (Bubblewrap, LXC, WSLC) · [Repo](https://github.com/microsoft/mxc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mxc/)</sub>
 
 <a name="sandbox-runtime"></a>
-### #&#8288;15 [sandbox-runtime](https://github.com/anthropics/sandbox-runtime) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [sandbox-runtime](https://github.com/anthropics/sandbox-runtime) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **OS-level filesystem and network sandbox for agents and arbitrary processes, no container.**
 
@@ -292,7 +292,7 @@ BoxLite runs each sandbox ("Box") as a hardware-isolated micro-VM with its own k
 <sub>no GPU · Needs KVM (Linux), Hypervisor.framework (macOS), WSL2 (Windows) · port 8100 · [Repo](https://github.com/boxlite-ai/boxlite) · [🌐 Site ↗](https://boxlite.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/boxlite/)</sub>
 
 <a name="sandstorm"></a>
-### #&#8288;17 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;17 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
 
 **Sandbox host that pauses and snapshots idle gVisor or Firecracker sandboxes.**
 
