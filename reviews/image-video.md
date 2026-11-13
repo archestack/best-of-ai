@@ -184,7 +184,7 @@ A React and Vite web workbench where images, prompts and chat nodes are laid out
 <sub>no GPU · Docker + Compose · Needs OpenAI-compatible API endpoint and key · Models: OpenAI-compatible image, text, audio and video APIs · port 3000 · [Repo](https://github.com/basketikun/infinite-canvas) · [📖 Docs ↗](https://github.com/basketikun/infinite-canvas/blob/main/docs/content/docs/overview/quick-start.mdx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinite-canvas/)</sub>
 
 <a name="krita-ai-diffusion"></a>
-### #&#8288;11 [krita-ai-diffusion](https://github.com/acly/krita-ai-diffusion) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;11 [krita-ai-diffusion](https://github.com/acly/krita-ai-diffusion) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
 
 **Krita plugin for inpainting, live painting and upscaling with diffusion models.**
 
@@ -220,7 +220,7 @@ DramaClaw is a source-available production line for AI short drama. It pairs a n
 <sub>RAM ≥ 4 GB · GPU optional · Docker + Compose · Needs OpenAI-compatible gateway (RelayClaw or dramaclaw-gateway), Docker · Models: OpenAI-compatible API, Seedance 2.5, open-weight models via gateway · [Repo](https://github.com/dramaclaw/dramaclaw) · [📖 Docs ↗](https://github.com/dramaclaw/dramaclaw/blob/main/docs/en/README.md) · [🌐 Site ↗](https://dramaclaw.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dramaclaw/)</sub>
 
 <a name="remove-ai-watermarks"></a>
-### #&#8288;13 [remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
 
 **CLI that strips visible AI marks, metadata and invisible watermarks from images and video.**
 
@@ -325,7 +325,7 @@ Modly is an Electron and TypeScript desktop app with a Python FastAPI backend th
 <sub>GPU required · Needs Node.js, Python, Hugging Face (model weights) · Models: Hunyuan3D 2 Mini, Hunyuan3D 2 Mini Turbo, Hunyuan3D 2 Mini Fast, TripoSG, Trellis2 GGUF · [Repo](https://github.com/lightningpixel/modly) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modly/)</sub>
 
 <a name="openfilm"></a>
-### #&#8288;19 [openfilm](https://github.com/openfilm/openfilm) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+### #&#8288;19 [openfilm](https://github.com/openfilm/openfilm) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Nov 2026</sub>
 
 **Video editor and CLI that lets coding agents write films as HTML pages.**
 
@@ -449,26 +449,8 @@ AI Toolkit trains LoRA and LoKr adapters for diffusion models, driven by YAML co
 
 <sub>GPU required · Docker + Compose · Needs PyTorch, Node.js >20 (UI), Hugging Face model weights, git · Models: FLUX.1, FLUX.2, Qwen-Image, Z-Image, SDXL · port 8675 · [Repo](https://github.com/ostris/ai-toolkit) · [🌐 Site ↗](https://ostris.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-toolkit/)</sub>
 
-<a name="lichtfeld-studio"></a>
-### #&#8288;26 [lichtfeld-studio](https://github.com/mrnerf/lichtfeld-studio) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · GPL-3.0 · Nov 2026</sub>
-
-**Native desktop app for training and editing 3D Gaussian Splatting scenes.**
-
-LichtFeld Studio is a C++23/CUDA application that trains 3D Gaussian Splatting scenes from COLMAP datasets, resumes checkpoints, and shows the reconstruction in a real-time viewer. It supports editing gaussian selections with undo/redo and exports to PLY, SOG, SPZ or a standalone HTML viewer. Python plugins, embedded Python and MCP resources and tools allow automation, and it can also run headless.
-
-- **+** Training, live viewer, gaussian editing and export in one application
-- **+** Exports PLY, SOG, SPZ and a standalone HTML viewer
-- **+** Python plugin system plus MCP tools for scripting and agent control
-- **+** Includes MCMC, bilateral grid, 3DGUT and optional POPSpa sparsification
-- **−** Requires an NVIDIA GPU with compute capability 7.5+; AMD, Intel and older NVIDIA unsupported
-- **−** Prebuilt Windows binaries need a paid donation via the Portal, not GitHub Releases
-- **−** Needs NVIDIA driver 570+ and CUDA 12.8+; source builds need a C++23 toolchain
-- **−** No Docker or compose setup provided
-
-<sub>GPU required · Docker + Compose · Needs NVIDIA driver 570+, CUDA 12.8+, COLMAP dataset input · Models: 3D Gaussian Splatting, PLY, SOG, SPZ · [Repo](https://github.com/mrnerf/lichtfeld-studio) · [📖 Docs ↗](https://github.com/MrNeRF/LichtFeld-Studio/wiki/) · [🌐 Site ↗](https://lichtfeld.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lichtfeld-studio/)</sub>
-
 <a name="sdnext"></a>
-### #&#8288;27 [sdnext](https://github.com/vladmandic/sdnext) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;26 [sdnext](https://github.com/vladmandic/sdnext) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Oct 2026</sub>
 
 **Web UI for generating and editing images and video with diffusion models.**
 
@@ -484,6 +466,24 @@ SD.Next is a Python web interface, forked from AUTOMATIC1111's Stable Diffusion 
 - **−** Supported model list lives in external docs, not the README
 
 <sub>GPU optional · Needs Python, Git · Models: Diffusion models, LoRA, ControlNet, IP-Adapter · [Repo](https://github.com/vladmandic/sdnext) · [📖 Docs ↗](https://vladmandic.github.io/sdnext-docs/) · [🌐 Site ↗](https://vladmandic.github.io/sdnext/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sdnext/)</sub>
+
+<a name="lichtfeld-studio"></a>
+### #&#8288;27 [lichtfeld-studio](https://github.com/mrnerf/lichtfeld-studio) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · GPL-3.0 · Nov 2026</sub>
+
+**Native desktop app for training and editing 3D Gaussian Splatting scenes.**
+
+LichtFeld Studio is a C++23/CUDA application that trains 3D Gaussian Splatting scenes from COLMAP datasets, resumes checkpoints, and shows the reconstruction in a real-time viewer. It supports editing gaussian selections with undo/redo and exports to PLY, SOG, SPZ or a standalone HTML viewer. Python plugins, embedded Python and MCP resources and tools allow automation, and it can also run headless.
+
+- **+** Training, live viewer, gaussian editing and export in one application
+- **+** Exports PLY, SOG, SPZ and a standalone HTML viewer
+- **+** Python plugin system plus MCP tools for scripting and agent control
+- **+** Includes MCMC, bilateral grid, 3DGUT and optional POPSpa sparsification
+- **−** Requires an NVIDIA GPU with compute capability 7.5+; AMD, Intel and older NVIDIA unsupported
+- **−** Prebuilt Windows binaries need a paid donation via the Portal, not GitHub Releases
+- **−** Needs NVIDIA driver 570+ and CUDA 12.8+; source builds need a C++23 toolchain
+- **−** No Docker or compose setup provided
+
+<sub>GPU required · Docker + Compose · Needs NVIDIA driver 570+, CUDA 12.8+, COLMAP dataset input · Models: 3D Gaussian Splatting, PLY, SOG, SPZ · [Repo](https://github.com/mrnerf/lichtfeld-studio) · [📖 Docs ↗](https://github.com/MrNeRF/LichtFeld-Studio/wiki/) · [🌐 Site ↗](https://lichtfeld.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lichtfeld-studio/)</sub>
 
 <a name="infinigen"></a>
 ### #&#8288;28 [infinigen](https://github.com/princeton-vl/infinigen) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · BSD-3-Clause · Nov 2026</sub>
@@ -882,7 +882,7 @@ Upscayl is an Electron desktop app that enlarges low-resolution images with Real
 <sub>GPU required · Needs Vulkan-compatible GPU, upscayl-ncnn backend · Models: Real-ESRGAN, NCNN, custom converted models, HFA2k, Remacri · [Repo](https://github.com/upscayl/upscayl) · [📖 Docs ↗](https://docs.upscayl.org/) · [🌐 Site ↗](https://upscayl.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/upscayl/)</sub>
 
 <a name="cinecode"></a>
-### #&#8288;50 [cinecode](https://github.com/sarpstar/cinecode) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Nov 2026</sub>
+### #&#8288;50 [cinecode](https://github.com/sarpstar/cinecode) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Nov 2026</sub>
 
 **Claude Code skill that makes finished MP4 films from code.**
 
@@ -1403,7 +1403,7 @@ CogVideoX is a family of open text-to-video and image-to-video transformer model
 <sub>GPU required · Needs PyTorch, diffusers, SwissArmyTransformer, torchao · Models: CogVideoX-2B, CogVideoX-5B, CogVideoX-5B-I2V, CogVideoX1.5-5B, CogVideoX1.5-5B-I2V · [Repo](https://github.com/zai-org/cogvideo) · [▶️ Demo ↗](https://huggingface.co/spaces/THUDM/CogVideoX-5B) · [📖 Docs ↗](https://zhipu-ai.feishu.cn/wiki/DHCjw1TrJiTyeukfc9RceoSRnCh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cogvideo/)</sub>
 
 <a name="comfyui-to-python-extension"></a>
-### #&#8288;79 [comfyui-to-python-extension](https://github.com/pydn/comfyui-to-python-extension) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (10) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Apr 2026</sub>
+### #&#8288;79 [comfyui-to-python-extension](https://github.com/pydn/comfyui-to-python-extension) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (9) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Apr 2026</sub>
 
 **Exports ComfyUI node workflows as standalone runnable Python scripts.**
 
