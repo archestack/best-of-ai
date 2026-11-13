@@ -807,7 +807,7 @@ Ragas is a Python package for evaluating LLM applications. It ships pre-built an
 <sub>no GPU · Needs LLM provider API (OpenAI in example) · Models: OpenAI, LangChain · [Repo](https://github.com/vibrantlabsai/ragas) · [📖 Docs ↗](https://docs.ragas.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ragas/)</sub>
 
 <a name="portkey-gateway"></a>
-### #&#8288;46 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (70) · Freshness: recent (69) · Maintenance: weak (2) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
+### #&#8288;46 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (70) · Freshness: recent (69) · Maintenance: weak (2) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
 
 **Node.js LLM gateway with fallbacks, load balancing and guardrails.**
 
@@ -825,7 +825,7 @@ Portkey Gateway is a Node.js proxy that routes requests to 250+ LLM providers th
 <sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Cohere, Mistral, Together, Perplexity, Ollama, Bedrock, Groq and 45+ providers · port 8787 · [Repo](https://github.com/portkey-ai/gateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/portkey-gateway/)</sub>
 
 <a name="evals"></a>
-### #&#8288;47 [evals](https://github.com/openai/evals) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (79) · Freshness: recent (56) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
+### #&#8288;47 [evals](https://github.com/openai/evals) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (79) · Freshness: recent (55) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
 
 **Python framework and registry for evaluating LLMs and LLM-based systems.**
 
@@ -843,7 +843,7 @@ Runs evals against OpenAI models and LLM-built systems, using a registry of exis
 <sub>no GPU · Needs OpenAI API key, Git-LFS, Snowflake (optional) · Models: OpenAI models, custom completion functions · [Repo](https://github.com/openai/evals) · [📖 Docs ↗](https://platform.openai.com/docs/guides/evals) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evals/)</sub>
 
 <a name="agentops"></a>
-### #&#8288;48 [agentops](https://github.com/agentops-ai/agentops) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (39) · Freshness: recent (66) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
+### #&#8288;48 [agentops](https://github.com/agentops-ai/agentops) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (39) · Freshness: recent (65) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
 
 **Tracing, session replay and LLM cost tracking for AI agents.**
 
@@ -897,7 +897,7 @@ Stores and versions prompts, logs requests with cost and latency, and caches LLM
 <sub>no GPU · Compose · Needs PostgreSQL, ClickHouse, Redis, SuperTokens, Node.js 18+ · port 4200 · [Repo](https://github.com/pezzolabs/pezzo) · [📖 Docs ↗](https://docs.pezzo.ai/) · [🌐 Site ↗](https://pezzo.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pezzo/)</sub>
 
 <a name="simple-evals"></a>
-### #&#8288;51 [simple-evals](https://github.com/openai/simple-evals) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (23) · Freshness: recent (59) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Apr 2026</sub>
+### #&#8288;51 [simple-evals](https://github.com/openai/simple-evals) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (23) · Freshness: recent (58) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Apr 2026</sub>
 
 **Reference implementations of zero-shot LLM benchmarks such as MMLU, GPQA and SimpleQA.**
 
@@ -915,7 +915,7 @@ A small Python library from OpenAI that runs language-model evals (MMLU, MATH, G
 <sub>no GPU · Needs openai, anthropic, human-eval · Models: OpenAI API, Anthropic Claude API · [Repo](https://github.com/openai/simple-evals) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/simple-evals/)</sub>
 
 <a name="mcpo"></a>
-### #&#8288;52 [mcpo](https://github.com/open-webui/mcpo) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (18) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
+### #&#8288;52 [mcpo](https://github.com/open-webui/mcpo) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (18) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
 
 **Exposes any MCP server as an OpenAPI HTTP endpoint.**
 

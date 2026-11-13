@@ -773,7 +773,7 @@ Chonkie is a Python library that splits text, code and markdown tables into chun
 <sub>GPU optional · Docker + Compose · Needs Python, SQLite (API server pipelines), Optional: embedding/LLM providers and vector DBs · Models: sentence-transformers, Model2Vec, OpenAI, Azure OpenAI, Cohere · port 8000 · [Repo](https://github.com/feyninc/chonkie) · [📖 Docs ↗](https://docs.chonkie.ai) · [🌐 Site ↗](https://labs.chonkie.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chonkie/)</sub>
 
 <a name="tesseract-js"></a>
-### #&#8288;44 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (87) · Freshness: recent (65) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
+### #&#8288;44 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (87) · Freshness: recent (64) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
 
 **JavaScript OCR library that runs Tesseract in the browser and Node.js.**
 
@@ -826,7 +826,7 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
 <a name="anakin"></a>
-### #&#8288;47 [anakin](https://github.com/anakin-inc/anakin) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (15) · Freshness: active (96) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;47 [anakin](https://github.com/anakin-inc/anakin) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (15) · Freshness: active (95) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · AGPL-3.0 · Aug 2026</sub>
 
 **Self-hosted scraping API that returns LLM-ready markdown or JSON.**
 
@@ -1024,7 +1024,7 @@ KeyBERT embeds a document and its candidate n-grams, then ranks phrases by cosin
 <sub>GPU optional · Needs Python 3.10+, scikit-learn, sentence-transformers, openai (for KeyLLM) · Models: Sentence-Transformers, Flair, spaCy, Gensim, Universal Sentence Encoder · [Repo](https://github.com/maartengr/keybert) · [📖 Docs ↗](https://maartengr.github.io/KeyBERT/guides/embeddings.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/keybert/)</sub>
 
 <a name="cleanlab"></a>
-### #&#8288;58 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (59) · Freshness: slowing (36) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;58 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (59) · Freshness: slowing (35) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
 
 **Python library that finds label errors and outliers in ML datasets.**
 
@@ -1132,7 +1132,7 @@ BlenderProc is a Python API and CLI that runs scripts inside Blender's Python en
 <sub>Needs Blender · Models: obj, ply, blend, fbx, BOP · [Repo](https://github.com/dlr-rm/blenderproc) · [📖 Docs ↗](https://dlr-rm.github.io/BlenderProc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/blenderproc/)</sub>
 
 <a name="gosseract"></a>
-### #&#8288;64 [gosseract](https://github.com/otiai10/gosseract) <sub>score [8](../README.md#-how-we-rank "Score 8/100. Adoption: niche (10) · Freshness: quiet (17) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Jan 2026</sub>
+### #&#8288;64 [gosseract](https://github.com/otiai10/gosseract) <sub>score [8](../README.md#-how-we-rank "Score 8/100. Adoption: niche (10) · Freshness: quiet (16) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Jan 2026</sub>
 
 **Go bindings for the Tesseract OCR C++ library.**
 
