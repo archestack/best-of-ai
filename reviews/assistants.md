@@ -756,7 +756,7 @@ Goutoujunshi is a Codex Skill for dating and relationship advice, covering attra
 <sub>Needs Codex-compatible AI assistant, ChatLab (optional) · [Repo](https://github.com/shengjidaguai-china/goutoujunshi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/goutoujunshi/)</sub>
 
 <a name="khoj"></a>
-### #&#8288;43 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (85) · Freshness: active (93) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;43 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (85) · Freshness: active (92) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
 
 **Personal assistant that chats with your documents and the web.**
 
@@ -809,26 +809,8 @@ OpenDuet is a self-hosted personal agent built on OpenBot and CopilotKit. It rea
 
 <sub>no GPU · Needs Docker, Bun 1.3+, Node (npx), Postgres, CopilotKit Intelligence project, Model API key · Models: OpenAI, Anthropic, OpenAI-compatible endpoints · port 3010 · [Repo](https://github.com/copilotkit/openduet) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openduet/)</sub>
 
-<a name="shell-gpt"></a>
-### #&#8288;46 [shell_gpt](https://github.com/ther1d/shell_gpt) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (60) · Freshness: active (88) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Jul 2026</sub>
-
-**Command-line tool that generates shell commands and code from LLM prompts.**
-
-ShellGPT installs as `sgpt` via pip and sends prompts from arguments or stdin to an LLM, defaulting to the OpenAI API. It generates OS- and shell-aware commands with an execute/describe/abort prompt, code-only output, named chat sessions, a REPL mode, custom roles, and function calling. Local models work through backends such as Ollama, but the README says it is not optimized for them.
-
-- **+** Reads stdin and redirects, so it composes with pipes such as `git diff | sgpt`
-- **+** Shell mode detects OS and `$SHELL` and asks to execute, describe or abort
-- **+** Bash and Zsh hotkey integration puts suggested commands into the input line
-- **+** Custom roles and Python function definitions live in `~/.config/shell_gpt`
-- **−** README says it is not optimized for local models and may not work as expected
-- **−** Defaults to the paid OpenAI API and needs an API key
-- **−** Function calling can run destructive shell commands; README warns to use at your own risk
-- **−** Request cache applies only to OpenAI API requests
-
-<sub>no GPU · Docker · Needs OpenAI API key or a local backend such as Ollama, Python and pip · Models: OpenAI GPT models, Ollama (via LiteLLM) · [Repo](https://github.com/ther1d/shell_gpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/shell-gpt/)</sub>
-
 <a name="spacebot"></a>
-### #&#8288;47 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (6) · Freshness: active (99) · Maintenance: patchy (42) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Sep 2026</sub>
+### #&#8288;46 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (6) · Freshness: active (99) · Maintenance: patchy (42) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Sep 2026</sub>
 
 **Multi-user agent harness for Discord, Slack and Telegram communities.**
 
@@ -844,6 +826,24 @@ Spacebot is a Rust agent server built for many concurrent users: channel process
 - **−** Browser automation needs headless Chrome
 
 <sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs ↗](https://docs.spacebot.sh) · [🌐 Site ↗](https://spacebot.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spacebot/)</sub>
+
+<a name="shell-gpt"></a>
+### #&#8288;47 [shell_gpt](https://github.com/ther1d/shell_gpt) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (60) · Freshness: active (88) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Jul 2026</sub>
+
+**Command-line tool that generates shell commands and code from LLM prompts.**
+
+ShellGPT installs as `sgpt` via pip and sends prompts from arguments or stdin to an LLM, defaulting to the OpenAI API. It generates OS- and shell-aware commands with an execute/describe/abort prompt, code-only output, named chat sessions, a REPL mode, custom roles, and function calling. Local models work through backends such as Ollama, but the README says it is not optimized for them.
+
+- **+** Reads stdin and redirects, so it composes with pipes such as `git diff | sgpt`
+- **+** Shell mode detects OS and `$SHELL` and asks to execute, describe or abort
+- **+** Bash and Zsh hotkey integration puts suggested commands into the input line
+- **+** Custom roles and Python function definitions live in `~/.config/shell_gpt`
+- **−** README says it is not optimized for local models and may not work as expected
+- **−** Defaults to the paid OpenAI API and needs an API key
+- **−** Function calling can run destructive shell commands; README warns to use at your own risk
+- **−** Request cache applies only to OpenAI API requests
+
+<sub>no GPU · Docker · Needs OpenAI API key or a local backend such as Ollama, Python and pip · Models: OpenAI GPT models, Ollama (via LiteLLM) · [Repo](https://github.com/ther1d/shell_gpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/shell-gpt/)</sub>
 
 <a name="mimiclaw"></a>
 ### #&#8288;48 [mimiclaw](https://github.com/memovai/mimiclaw) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (26) · Freshness: active (95) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Oct 2026</sub>
@@ -918,7 +918,7 @@ Open-LLM-VTuber is a Python server with web and desktop clients for real-time vo
 <sub>GPU optional · Docker · Needs uv, ffmpeg · Models: Ollama, OpenAI-compatible, Gemini, Claude, Mistral · [Repo](https://github.com/open-llm-vtuber/open-llm-vtuber) · [📖 Docs ↗](https://open-llm-vtuber.github.io/docs/quick-start) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-llm-vtuber/)</sub>
 
 <a name="moltworker"></a>
-### #&#8288;52 [moltworker](https://github.com/cloudflare/moltworker) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (53) · Freshness: slowing (50) · Maintenance: weak (11) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;52 [moltworker](https://github.com/cloudflare/moltworker) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (53) · Freshness: slowing (49) · Maintenance: weak (11) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Mar 2026</sub>
 
 **Cloudflare Worker that runs the OpenClaw assistant inside a Cloudflare Sandbox container.**
 

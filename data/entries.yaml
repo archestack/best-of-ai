@@ -1,5 +1,5 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
-updated_at: 2026-11-12
+updated_at: 2026-11-13
 entries:
   - id: exo
     repo: exo-explore/exo
@@ -2387,7 +2387,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 56
   - id: pageindex
     repo: vectifyai/pageindex
     name: pageindex
@@ -2858,7 +2858,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 53
+    score: 52
   - id: timesfm
     repo: google-research/timesfm
     name: timesfm
@@ -7273,7 +7273,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 25
+    score: 24
   - id: genai-agents
     repo: nirdiamant/genai_agents
     name: genai_agents
@@ -10627,7 +10627,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 72
+    score: 71
   - id: micrograd
     repo: karpathy/micrograd
     name: micrograd
@@ -11736,7 +11736,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 60
+    score: 59
   - id: outlines
     repo: dottxt-ai/outlines
     name: outlines
@@ -12328,7 +12328,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 43
+    score: 42
   - id: optuna
     repo: optuna/optuna
     name: optuna
@@ -16001,7 +16001,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 44
+    score: 43
   - id: camofox-browser
     repo: jo-inc/camofox-browser
     name: camofox-browser
@@ -16979,7 +16979,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 48
+    score: 47
   - id: generative-models
     repo: stability-ai/generative-models
     name: generative-models
@@ -18698,7 +18698,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 38
+    score: 37
   - id: magentic-ui
     repo: microsoft/magentic-ui
     name: magentic-ui
@@ -20200,7 +20200,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 47
+    score: 46
   - id: modelscope
     repo: modelscope/modelscope
     name: modelscope
@@ -21516,7 +21516,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 26
+    score: 25
   - id: asrt-speechrecognition
     repo: nl8590687/asrt_speechrecognition
     name: asrt_speechrecognition
@@ -28285,7 +28285,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 38
+    score: 37
   - id: atomic-agents
     repo: eigenwise/atomic-agents
     name: atomic-agents
@@ -29140,7 +29140,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 19
+    score: 18
   - id: glm-ocr
     repo: zai-org/glm-ocr
     name: glm-ocr
@@ -29989,7 +29989,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 25
+    score: 24
   - id: chronos-forecasting
     repo: amazon-science/chronos-forecasting
     name: chronos-forecasting
@@ -31057,7 +31057,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 30
+    score: 29
   - id: hunyuan3d-2
     repo: tencent-hunyuan/hunyuan3d-2
     name: hunyuan3d-2
@@ -33041,7 +33041,7 @@ entries:
       has_compose: false
       is_template: false
       language: MDX
-    score: 46
+    score: 45
   - id: learn-claude-code
     repo: shareai-lab/learn-claude-code
     name: learn-claude-code
@@ -33973,7 +33973,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 14
+    score: 13
   - id: sellbird
     repo: ethanplusai/sellbird
     name: sellbird
@@ -35736,7 +35736,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 34
+    score: 33
   - id: auto-subs
     repo: tmoroney/auto-subs
     name: auto-subs
@@ -41648,7 +41648,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 47
+    score: 46
   - id: xiaozhi-esp32-server
     repo: xinnan-tech/xiaozhi-esp32-server
     name: xiaozhi-esp32-server
@@ -43328,7 +43328,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 23
+    score: 22
   - id: retinexformer
     repo: caiyuanhao1998/retinexformer
     name: retinexformer
@@ -43611,7 +43611,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 31
+    score: 30
   - id: luxtts
     repo: ysharma3501/luxtts
     name: luxtts
@@ -43854,7 +43854,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 19
+    score: 18
   - id: failproofai
     repo: failproofai/failproofai
     name: failproofai
@@ -45087,7 +45087,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 16
+    score: 15
   - id: sokuji
     repo: kizuna-ai-lab/sokuji
     name: sokuji
@@ -48519,7 +48519,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 53
+    score: 52
   - id: kaolin
     repo: nvidiagameworks/kaolin
     name: kaolin
@@ -51881,7 +51881,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 15
+    score: 14
   - id: b
     repo: ahmadhassan-bted/b
     name: b
@@ -53932,7 +53932,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 28
+    score: 27
   - id: openfilm
     repo: openfilm/openfilm
     name: openfilm
@@ -55912,7 +55912,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 15
+    score: 14
   - id: dsha
     repo: dsh-app/dsha
     name: dsha
@@ -57350,7 +57350,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 31
+    score: 30
   - id: hunyuandit
     repo: tencent-hunyuan/hunyuandit
     name: hunyuandit
@@ -62728,7 +62728,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 47
+    score: 46
   - id: higress
     repo: higress-group/higress
     name: Higress
@@ -64136,7 +64136,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 50
+    score: 49
   - id: invokeai
     repo: invoke-ai/invokeai
     name: InvokeAI
