@@ -4,8 +4,25 @@ Tools to fine-tune, train or distill models on your own data and GPUs, from LoRA
 
 <sub>🌐 Also on the web: [Training and fine-tuning on archestack.com](https://archestack.com/best-of-ai/training/), each project on its own page.</sub>
 
+<a name="unsloth"></a>
+### 🥇 [unsloth](https://github.com/unslothai/unsloth) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 79k · Apache-2.0 · Nov 2026</sub>
+
+**Desktop and web app to run and fine-tune local models.**
+
+Unsloth ships as a native desktop app, a web UI (Unsloth Studio) and a Python library (Unsloth Core). It runs GGUF, MLX, diffusion, audio and embedding models, serves them over an OpenAI-compatible API, and fine-tunes them with LoRA, QLoRA, full fine-tuning, GRPO, DPO and FP8. The README claims 2x faster training with 70% less VRAM.
+
+- **+** Covers both running and fine-tuning models, with export to GGUF, NVFP4 and FP8
+- **+** Supports NVIDIA, AMD, Intel GPUs, CPU and Vulkan on Windows, Linux, WSL and macOS
+- **+** Free Colab and Kaggle notebooks for many models, including GRPO and TTS
+- **+** `unsloth start` connects Claude Code, Codex and other agents to local models
+- **−** Speed and VRAM figures (2x, 70% less) are the project's own claims
+- **−** Server-side tools are on by default; exposing it needs a password or --disable-tools
+- **−** Three install paths (Desktop, Studio, Core) with many environment flags add complexity
+
+<sub>GPU optional · Docker · Needs PyTorch, llama.cpp, Cloudflare (optional remote access), Docker (optional) · Models: GGUF, MLX, LLMs, diffusion, audio/TTS · port 8000 · [Repo](https://github.com/unslothai/unsloth) · [▶️ Demo ↗](https://colab.research.google.com/github/unslothai/unsloth/blob/main/studio/Unsloth_Studio_Colab.ipynb) · [📖 Docs ↗](https://unsloth.ai/docs) · [🌐 Site ↗](https://unsloth.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unsloth/)</sub>
+
 <a name="peft"></a>
-### 🥇 [peft](https://github.com/huggingface/peft) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Nov 2026</sub>
+### 🥈 [peft](https://github.com/huggingface/peft) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Nov 2026</sub>
 
 **Python library for LoRA and other parameter-efficient fine-tuning of Transformers models.**
 
@@ -21,23 +38,6 @@ PEFT wraps a pretrained model with adapter methods such as LoRA, soft prompts an
 - **−** Memory figures in the README assume an A100 80GB with over 64GB CPU RAM
 
 <sub>GPU optional · Docker · Needs PyTorch, Transformers · Models: LoRA, Soft prompts, IA3, QLoRA, Transformers models · [Repo](https://github.com/huggingface/peft) · [▶️ Demo ↗](https://huggingface.co/spaces/smangrul/peft-lora-sd-dreambooth) · [📖 Docs ↗](https://huggingface.co/docs/peft/main/en/index) · [🌐 Site ↗](https://huggingface.co/PEFT) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/peft/)</sub>
-
-<a name="unsloth"></a>
-### 🥈 [unsloth](https://github.com/unslothai/unsloth) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 79k · Apache-2.0 · Nov 2026</sub>
-
-**Desktop and web app to run and fine-tune local models.**
-
-Unsloth ships as a native desktop app, a web UI (Unsloth Studio) and a Python library (Unsloth Core). It runs GGUF, MLX, diffusion, audio and embedding models, serves them over an OpenAI-compatible API, and fine-tunes them with LoRA, QLoRA, full fine-tuning, GRPO, DPO and FP8. The README claims 2x faster training with 70% less VRAM.
-
-- **+** Covers both running and fine-tuning models, with export to GGUF, NVFP4 and FP8
-- **+** Supports NVIDIA, AMD, Intel GPUs, CPU and Vulkan on Windows, Linux, WSL and macOS
-- **+** Free Colab and Kaggle notebooks for many models, including GRPO and TTS
-- **+** `unsloth start` connects Claude Code, Codex and other agents to local models
-- **−** Speed and VRAM figures (2x, 70% less) are the project's own claims
-- **−** Server-side tools are on by default; exposing it needs a password or --disable-tools
-- **−** Three install paths (Desktop, Studio, Core) with many environment flags add complexity
-
-<sub>GPU optional · Docker · Needs PyTorch, llama.cpp, Cloudflare (optional remote access), Docker (optional) · Models: GGUF, MLX, LLMs, diffusion, audio/TTS · port 8000 · [Repo](https://github.com/unslothai/unsloth) · [▶️ Demo ↗](https://colab.research.google.com/github/unslothai/unsloth/blob/main/studio/Unsloth_Studio_Colab.ipynb) · [📖 Docs ↗](https://unsloth.ai/docs) · [🌐 Site ↗](https://unsloth.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unsloth/)</sub>
 
 <a name="trl"></a>
 ### 🥉 [trl](https://github.com/huggingface/trl) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Nov 2026</sub>
@@ -76,7 +76,7 @@ DeepSpeed is a PyTorch library that makes large-model training fit and scale acr
 <sub>GPU optional · Docker · Needs PyTorch, CUDA or ROCm compiler (nvcc/hipcc), ninja · Models: PyTorch models, Hugging Face Transformers · [Repo](https://github.com/deepspeedai/deepspeed) · [📖 Docs ↗](https://www.deepspeed.ai/getting-started/) · [🌐 Site ↗](https://www.deepspeed.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepspeed/)</sub>
 
 <a name="megatron-lm"></a>
-### #&#8288;5 [megatron-lm](https://github.com/nvidia/megatron-lm) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · custom license · Nov 2026</sub>
+### #&#8288;5 [megatron-lm](https://github.com/nvidia/megatron-lm) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · custom license · Nov 2026</sub>
 
 **Distributed training library for large transformer models on NVIDIA GPUs.**
 
@@ -503,7 +503,7 @@ Colossal-AI is a PyTorch-based library for distributed training and inference of
 <sub>GPU required · Docker · Needs PyTorch · Models: LLaMA, GPT-2, GPT-3, BERT, ViT · [Repo](https://github.com/hpcaitech/colossalai) · [▶️ Demo ↗](https://colossalai.org/zh-Hans/docs/get_started/bonus/) · [📖 Docs ↗](https://www.colossalai.org/) · [🌐 Site ↗](https://www.colossalai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/colossalai/)</sub>
 
 <a name="rlinf"></a>
-### #&#8288;29 [rlinf](https://github.com/rlinf/rlinf) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;29 [rlinf](https://github.com/rlinf/rlinf) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
 
 **Distributed RL training framework for robot VLA policies and LLM agents.**
 

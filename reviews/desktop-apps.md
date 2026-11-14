@@ -5,7 +5,7 @@ Apps you install on your own computer to chat with local or API models, often wi
 <sub>🌐 Also on the web: [Desktop AI apps on archestack.com](https://archestack.com/best-of-ai/desktop-apps/), each project on its own page.</sub>
 
 <a name="cherry-studio"></a>
-### 🥇 [cherry-studio](https://github.com/cherryhq/cherry-studio) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · AGPL-3.0 · Nov 2026</sub>
+### 🥇 [cherry-studio](https://github.com/cherryhq/cherry-studio) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 54k · AGPL-3.0 · Nov 2026</sub>
 
 **Desktop client for chatting with many LLM providers, with agents and knowledge bases.**
 
@@ -22,26 +22,8 @@ Cherry Studio is an Electron-style desktop app for Windows, macOS and Linux that
 
 <sub>GPU optional · Needs Ollama (optional), LM Studio (optional), Provider API keys (for cloud models) · Models: OpenAI, Anthropic, Gemini, Ollama, LM Studio · [Repo](https://github.com/cherryhq/cherry-studio) · [📖 Docs ↗](https://cherryai.com/docs/en/) · [🌐 Site ↗](https://cherryai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cherry-studio/)</sub>
 
-<a name="screenpipe"></a>
-### 🥈 [screenpipe](https://github.com/screenpipe/screenpipe) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · custom license · Nov 2026</sub>
-
-**Records screen and audio locally, makes it searchable for you and your agents.**
-
-Screenpipe captures screen content (accessibility tree, with OCR as fallback), system audio and microphone with local Whisper transcription, and stores it in a local SQLite database. It exposes a localhost REST API on port 3030, an MCP server, and pipes, which are scheduled agents defined in markdown that query this history. Newer versions also target teams, with central config and per-pipe data permissions.
-
-- **+** Event-driven capture uses the accessibility tree first, OCR only as fallback
-- **+** Local REST API on port 3030, raw SQLite access and an MCP server
-- **+** Pipes are markdown files with per-pipe app, window and endpoint permissions
-- **+** Runs on macOS, Windows and Linux; works with local models such as Ollama
-- **−** Source-available license: commercial use requires a paid commercial license
-- **−** Continuous capture of everything on screen raises privacy and compliance concerns
-- **−** Capture alone takes about 5-20% CPU and 0.5-3 GB RAM; storage use is unspecified
-- **−** Some features depend on paid plans; Linux capture varies by desktop environment
-
-<sub>RAM ≥ 8 GB · GPU optional · Needs Node.js (npx CLI), Ollama (optional local LLM), Deepgram (optional cloud transcription) · Models: Whisper Large-V3-Turbo, Deepgram, Ollama, OpenAI-compatible servers · port 3030 · README: alternative to Otter.ai, Granola · [Repo](https://github.com/screenpipe/screenpipe) · [📖 Docs ↗](https://docs.screenpi.pe) · [🌐 Site ↗](https://screenpi.pe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/screenpipe/)</sub>
-
 <a name="dsh-desktop"></a>
-### 🥉 [dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Nov 2026</sub>
+### 🥈 [dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Nov 2026</sub>
 
 **Native Windows and macOS desktop client for DeepSeek Harness, built on plugins.**
 
@@ -57,6 +39,24 @@ Wraps the pinned upstream DeepSeek Harness local Web UI, host service and plugin
 - **−** Update checks send version, channel and a persistent random installation ID
 
 <sub>Needs DeepSeek Harness (bundled, pinned) · Models: unknown · [Repo](https://github.com/anywhere-labs/dsh-desktop) · [📖 Docs ↗](https://github.com/anywhere-labs/dsh-desktop/blob/main/docs/user-guide.md) · [🌐 Site ↗](https://dshdesktop.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-desktop/)</sub>
+
+<a name="screenpipe"></a>
+### 🥉 [screenpipe](https://github.com/screenpipe/screenpipe) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · custom license · Nov 2026</sub>
+
+**Records screen and audio locally, makes it searchable for you and your agents.**
+
+Screenpipe captures screen content (accessibility tree, with OCR as fallback), system audio and microphone with local Whisper transcription, and stores it in a local SQLite database. It exposes a localhost REST API on port 3030, an MCP server, and pipes, which are scheduled agents defined in markdown that query this history. Newer versions also target teams, with central config and per-pipe data permissions.
+
+- **+** Event-driven capture uses the accessibility tree first, OCR only as fallback
+- **+** Local REST API on port 3030, raw SQLite access and an MCP server
+- **+** Pipes are markdown files with per-pipe app, window and endpoint permissions
+- **+** Runs on macOS, Windows and Linux; works with local models such as Ollama
+- **−** Source-available license: commercial use requires a paid commercial license
+- **−** Continuous capture of everything on screen raises privacy and compliance concerns
+- **−** Capture alone takes about 5-20% CPU and 0.5-3 GB RAM; storage use is unspecified
+- **−** Some features depend on paid plans; Linux capture varies by desktop environment
+
+<sub>RAM ≥ 8 GB · GPU optional · Needs Node.js (npx CLI), Ollama (optional local LLM), Deepgram (optional cloud transcription) · Models: Whisper Large-V3-Turbo, Deepgram, Ollama, OpenAI-compatible servers · port 3030 · README: alternative to Otter.ai, Granola · [Repo](https://github.com/screenpipe/screenpipe) · [📖 Docs ↗](https://docs.screenpi.pe) · [🌐 Site ↗](https://screenpi.pe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/screenpipe/)</sub>
 
 <a name="hermes-desktop"></a>
 ### #&#8288;4 [hermes-desktop](https://github.com/fathah/hermes-desktop) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Nov 2026</sub>
@@ -77,7 +77,7 @@ Community-maintained desktop app that installs Hermes Agent into ~/.hermes with 
 <sub>GPU optional · Needs Hermes Agent, Git, uv, Python 3.11+ · Models: OpenRouter, Anthropic, OpenAI, Google Gemini, xAI Grok · port 8642 · [Repo](https://github.com/fathah/hermes-desktop) · [🌐 Site ↗](https://hermesone.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-desktop/)</sub>
 
 <a name="prompt-optimizer"></a>
-### #&#8288;5 [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · custom license · Nov 2026</sub>
+### #&#8288;5 [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · custom license · Nov 2026</sub>
 
 **Prompt rewriting and testing tool for web, desktop, Chrome and MCP.**
 
@@ -185,7 +185,7 @@ Jan is a Tauri desktop app for Windows, macOS and Linux that downloads LLMs from
 <sub>RAM ≥ 8 GB · GPU optional · Models: GGUF via llama.cpp, Hugging Face models, OpenAI, Anthropic, Mistral · port 1337 · [Repo](https://github.com/janhq/jan) · [📖 Docs ↗](https://jan.ai/docs) · [🌐 Site ↗](https://jan.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jan/)</sub>
 
 <a name="dsh-go"></a>
-### #&#8288;11 [dsh-go](https://github.com/ccch1mneyyy/dsh-go) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;11 [dsh-go](https://github.com/ccch1mneyyy/dsh-go) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · AGPL-3.0 · Nov 2026</sub>
 
 **Android client for DeepSeek Harness, local or remote.**
 
@@ -203,7 +203,7 @@ DSH Go is a Flutter Android app that provides a chat UI for DeepSeek Harness (DS
 <sub>no GPU · Needs DeepSeek Harness, Model provider API, Shizuku or ADB (optional, do-not-disturb phone control) · Models: Models from the provider configured in DeepSeek Harness · [Repo](https://github.com/ccch1mneyyy/dsh-go) · [📖 Docs ↗](https://github.com/ccch1mneyyy/dsh-go/blob/main/docs/guide/README.md) · [🌐 Site ↗](https://go.dshtui.com/download) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-go/)</sub>
 
 <a name="openmausbot"></a>
-### #&#8288;12 [openmausbot](https://github.com/milind-soni/openmausbot) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [openmausbot](https://github.com/milind-soni/openmausbot) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
 
 **Chat app where each bot is a Claude, Codex or Grok CLI agent.**
 
@@ -346,25 +346,8 @@ Open CoDesign is an Electron desktop app for macOS, Windows and Linux in which a
 
 <sub>no GPU · Needs API key, ChatGPT subscription, or local Ollama · Models: Claude, GPT, Gemini, DeepSeek, Kimi · [Repo](https://github.com/opencoworkai/open-codesign) · [📖 Docs ↗](https://opencoworkai.github.io/open-codesign/quickstart) · [🌐 Site ↗](https://opencoworkai.github.io/open-codesign/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-codesign/)</sub>
 
-<a name="deepchat"></a>
-### #&#8288;20 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
-
-**Electron desktop client for cloud and Ollama models with MCP, Skills and ACP.**
-
-DeepChat is an Electron desktop app for Windows, macOS and Linux that connects to cloud providers (OpenAI, Anthropic, Gemini, DeepSeek and others) and to local Ollama models. It adds MCP tools, installable Skills, ACP agents in the model selector, and a session Tape with request tracing. Sessions can also be driven remotely from Telegram, Feishu/Lark, QQBot, Discord and WeChat iLink.
-
-- **+** Supports MCP Resources, Prompts and Tools over StreamableHTTP, SSE and Stdio, with one-click DeepLink install
-- **+** Skills can be imported and exported with Claude Code, Codex, Cursor and similar tools
-- **+** Session Tape and Trace preview show request sequences, provider metadata and token budgets
-- **+** Remote control of sessions from five messaging apps, with commands like /new, /stop and /model
-- **−** Desktop-only Electron app; no web or server deployment described in the README
-- **−** Encryption and obfuscation are described as reserved interfaces, not enabled features
-- **−** Messaging integrations lean toward Chinese platforms; no Slack or Matrix mentioned
-
-<sub>GPU optional · Docker · Needs Ollama (optional, for local models), Node.js toolchain (installed from Settings for npx-style MCP services) · Models: OpenAI, Anthropic, Gemini, DeepSeek, Moonshot · [Repo](https://github.com/thinkinaixyz/deepchat) · [🌐 Site ↗](https://deepchatai.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepchat/)</sub>
-
 <a name="presenton"></a>
-### #&#8288;21 [presenton](https://github.com/presenton/presenton) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;20 [presenton](https://github.com/presenton/presenton) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Generates editable PPTX and PDF slide decks from prompts or documents.**
 
@@ -382,7 +365,7 @@ Presenton is a self-hosted presentation generator that builds slides from a prom
 <sub>GPU optional · Docker + Compose · Needs Docker, or Node.js, Python 3.11 and uv for Electron, LLM provider or API key · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Azure OpenAI · port 5001 · [Repo](https://github.com/presenton/presenton) · [📖 Docs ↗](https://docs.presenton.ai/) · [🌐 Site ↗](https://presenton.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/presenton/)</sub>
 
 <a name="pocketpal-ai"></a>
-### #&#8288;22 [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · MIT · Nov 2026</sub>
+### #&#8288;21 [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · MIT · Nov 2026</sub>
 
 **Phone app that runs GGUF language models offline on iOS and Android.**
 
@@ -398,6 +381,23 @@ PocketPal AI is a React Native app for iOS and Android that runs quantized GGUF 
 - **−** Some Pals on PalsHub are premium via in-app purchase
 
 <sub>GPU optional · Needs llama.rn, llama.cpp, ONNX Runtime, WatermelonDB · Models: GGUF, ONNX (TTS) · [Repo](https://github.com/a-ghorbani/pocketpal-ai) · [🌐 Site ↗](https://pocketpal.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pocketpal-ai/)</sub>
+
+<a name="deepchat"></a>
+### #&#8288;22 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
+
+**Electron desktop client for cloud and Ollama models with MCP, Skills and ACP.**
+
+DeepChat is an Electron desktop app for Windows, macOS and Linux that connects to cloud providers (OpenAI, Anthropic, Gemini, DeepSeek and others) and to local Ollama models. It adds MCP tools, installable Skills, ACP agents in the model selector, and a session Tape with request tracing. Sessions can also be driven remotely from Telegram, Feishu/Lark, QQBot, Discord and WeChat iLink.
+
+- **+** Supports MCP Resources, Prompts and Tools over StreamableHTTP, SSE and Stdio, with one-click DeepLink install
+- **+** Skills can be imported and exported with Claude Code, Codex, Cursor and similar tools
+- **+** Session Tape and Trace preview show request sequences, provider metadata and token budgets
+- **+** Remote control of sessions from five messaging apps, with commands like /new, /stop and /model
+- **−** Desktop-only Electron app; no web or server deployment described in the README
+- **−** Encryption and obfuscation are described as reserved interfaces, not enabled features
+- **−** Messaging integrations lean toward Chinese platforms; no Slack or Matrix mentioned
+
+<sub>GPU optional · Docker · Needs Ollama (optional, for local models), Node.js toolchain (installed from Settings for npx-style MCP services) · Models: OpenAI, Anthropic, Gemini, DeepSeek, Moonshot · [Repo](https://github.com/thinkinaixyz/deepchat) · [🌐 Site ↗](https://deepchatai.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepchat/)</sub>
 
 <a name="openworker"></a>
 ### #&#8288;23 [openworker](https://github.com/andrewyng/openworker) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Nov 2026</sub>
@@ -435,8 +435,26 @@ LobsterAI is an Electron app for macOS and Windows where an agent works on a loc
 
 <sub>no GPU · Needs OpenClaw runtime (bundled), SQLite (local), Node.js >=24.15.0 <25 (build from source) · Models: DeepSeek, GLM, Kimi, Qwen, MiniMax · [Repo](https://github.com/netease-youdao/lobsterai) · [🌐 Site ↗](https://lobsterai.youdao.com/#/download-list) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobsterai/)</sub>
 
+<a name="nightly-labs-openbot"></a>
+### #&#8288;25 [openbot](https://github.com/nightly-labs/openbot) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · custom license · Nov 2026</sub>
+
+**Desktop workspace that runs coding-agent CLIs as persistent teammates.**
+
+OpenBot is an Electron desktop app that wraps local agent CLIs (Codex, Claude Code, Grok, OpenCode, Gemini, Cursor, Cline, Kimi, Devin, Copilot, Mistral Vibe, Hermes) as persistent agents. Each agent gets its own workspace and conversation, with FIFO message queues, agent-to-agent messaging, file transfer and an embedded browser they can control. It also runs headless on Linux servers or in Docker.
+
+- **+** Supports about a dozen agent CLIs, plus custom ACP agents and OpenAI-compatible endpoints
+- **+** Per-agent workspaces, crash-safe FIFO queues and automatic context compaction
+- **+** Can run headless via a server install script or Docker image (amd64 and arm64)
+- **+** Optional Computer Use through a bundled cua-driver on macOS, Windows and Linux
+- **−** PolyForm Noncommercial license; not free software and restricted for commercial use
+- **−** Agents run with danger-full-access and no per-action approval after first-launch consent
+- **−** Depends on hosted providers (OpenAI, Anthropic, Google and others); not offline-only
+- **−** Gemini sign-in needs a desktop browser; remote desktop is X11 only on Linux x64
+
+<sub>no GPU · Docker + Compose · Needs Agent CLIs (Codex, Claude Code, etc.), Bun 1.4.2 and Node.js 24 (development only), Cloudflare Workers and D1 (optional accounts) · Models: Codex, Claude Code, Grok CLI, OpenCode, Gemini · [Repo](https://github.com/nightly-labs/openbot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nightly-labs-openbot/)</sub>
+
 <a name="clawx"></a>
-### #&#8288;25 [clawx](https://github.com/valuecell-ai/clawx) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
+### #&#8288;26 [clawx](https://github.com/valuecell-ai/clawx) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
 
 **Electron desktop app for running and managing OpenClaw agents without a terminal.**
 
@@ -454,7 +472,7 @@ ClawX is an Electron and React desktop client that embeds the OpenClaw runtime a
 <sub>RAM ≥ 4 GB · no GPU · Needs OpenClaw (bundled), Electron, pnpm (build from source) · Models: OpenAI, Anthropic, Z.AI / GLM, custom providers · [Repo](https://github.com/valuecell-ai/clawx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawx/)</sub>
 
 <a name="kun"></a>
-### #&#8288;26 [kun](https://github.com/kunagent/kun) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
+### #&#8288;27 [kun](https://github.com/kunagent/kun) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
 
 **Desktop AI workbench for coding, documents and multi-agent chats.**
 
@@ -470,24 +488,6 @@ Kun is a desktop app where Code, Work and chat modes share one local runtime. It
 - **−** Personal assistant workflow sits behind a Lab setting and needs server access
 
 <sub>Needs Node.js 22.19+ (source builds only) · Models: OpenAI-compatible APIs, Anthropic-compatible APIs, Ollama, DeepSeek, Kimi · [Repo](https://github.com/kunagent/kun) · [📖 Docs ↗](https://www.kun-agent.com/docs) · [🌐 Site ↗](https://www.kun-agent.com/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kun/)</sub>
-
-<a name="nightly-labs-openbot"></a>
-### #&#8288;27 [openbot](https://github.com/nightly-labs/openbot) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · custom license · Nov 2026</sub>
-
-**Desktop workspace that runs coding-agent CLIs as persistent teammates.**
-
-OpenBot is an Electron desktop app that wraps local agent CLIs (Codex, Claude Code, Grok, OpenCode, Gemini, Cursor, Cline, Kimi, Devin, Copilot, Mistral Vibe, Hermes) as persistent agents. Each agent gets its own workspace and conversation, with FIFO message queues, agent-to-agent messaging, file transfer and an embedded browser they can control. It also runs headless on Linux servers or in Docker.
-
-- **+** Supports about a dozen agent CLIs, plus custom ACP agents and OpenAI-compatible endpoints
-- **+** Per-agent workspaces, crash-safe FIFO queues and automatic context compaction
-- **+** Can run headless via a server install script or Docker image (amd64 and arm64)
-- **+** Optional Computer Use through a bundled cua-driver on macOS, Windows and Linux
-- **−** PolyForm Noncommercial license; not free software and restricted for commercial use
-- **−** Agents run with danger-full-access and no per-action approval after first-launch consent
-- **−** Depends on hosted providers (OpenAI, Anthropic, Google and others); not offline-only
-- **−** Gemini sign-in needs a desktop browser; remote desktop is X11 only on Linux x64
-
-<sub>no GPU · Docker + Compose · Needs Agent CLIs (Codex, Claude Code, etc.), Bun 1.4.2 and Node.js 24 (development only), Cloudflare Workers and D1 (optional accounts) · Models: Codex, Claude Code, Grok CLI, OpenCode, Gemini · [Repo](https://github.com/nightly-labs/openbot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nightly-labs-openbot/)</sub>
 
 <a name="koharu"></a>
 ### #&#8288;28 [koharu](https://github.com/koharu-rs/koharu) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · Apache-2.0 · Nov 2026</sub>
@@ -742,7 +742,7 @@ Craft Agents is an Electron desktop app, built on the Claude Agent SDK and Pi SD
 <sub>no GPU · Docker · Needs Bun, Electron, LLM provider API key or OAuth login · Models: Anthropic Claude, OpenAI, Google Gemini, GitHub Copilot, OpenRouter · port 9100 · [Repo](https://github.com/craft-ai-agents/craft-agents-oss) · [🌐 Site ↗](https://thecraftagents.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/craft-agents-oss/)</sub>
 
 <a name="agentero"></a>
-### #&#8288;42 [agentero](https://github.com/poco-ai/agentero) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Nov 2026</sub>
+### #&#8288;42 [agentero](https://github.com/poco-ai/agentero) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Nov 2026</sub>
 
 **Desktop reference manager and PDF reader that connects local agents over ACP and MCP.**
 
@@ -1048,7 +1048,7 @@ AIChat is a Rust CLI that talks to over 20 LLM providers through one interface, 
 <sub>no GPU · Needs LLM provider API key or local Ollama, llm-functions (optional, for tools and agents) · Models: OpenAI, Claude, Gemini, Ollama, Groq · port 8000 · [Repo](https://github.com/sigoden/aichat) · [📖 Docs ↗](https://github.com/sigoden/aichat/wiki/Command-Line-Guide) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aichat/)</sub>
 
 <a name="surf"></a>
-### #&#8288;59 [surf](https://github.com/deta/surf) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (18) · Freshness: recent (78) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · May 2026</sub>
+### #&#8288;59 [surf](https://github.com/deta/surf) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (17) · Freshness: recent (78) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · May 2026</sub>
 
 **Desktop AI notebook that combines local files, web pages and notes.**
 

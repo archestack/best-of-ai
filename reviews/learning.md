@@ -235,7 +235,7 @@ A Microsoft Cloud Advocates curriculum on classic machine learning (regression, 
 <sub>no GPU · Needs Python, Scikit-learn, Jupyter, R (optional) · [Repo](https://github.com/microsoft/ml-for-beginners) · [▶️ Demo ↗](https://ff-quizzes.netlify.app/en/ml/) · [📖 Docs ↗](https://learn.microsoft.com/en-us/collections/qrqzamz1nn2wx3) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ml-for-beginners/)</sub>
 
 <a name="learn-claude-code"></a>
-### #&#8288;14 [learn-claude-code](https://github.com/shareai-lab/learn-claude-code) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Oct 2026</sub>
+### #&#8288;14 [learn-claude-code](https://github.com/shareai-lab/learn-claude-code) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Oct 2026</sub>
 
 **17-chapter Python course on building a Claude Code-style agent harness.**
 
@@ -450,8 +450,26 @@ Tutorial repo that implements a transformer in plain PyTorch and trains it from 
 
 <sub>GPU optional · Needs PyTorch, tiktoken, Hugging Face datasets, Streamlit, wandb, HDF5 · Models: Custom transformer (classic and modern), PyTorch checkpoints · [Repo](https://github.com/fareedkhan-dev/train-llm-from-scratch) · [📖 Docs ↗](https://fareedkhan-dev.github.io/train-llm-from-scratch/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/train-llm-from-scratch/)</sub>
 
+<a name="ai-infra-book"></a>
+### #&#8288;26 [ai-infra-book](https://github.com/bojieli/ai-infra-book) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · Apache-2.0 · Oct 2026</sub>
+
+**A quantitative book on AI infrastructure design, with calculation tools.**
+
+This repository holds an open-source book (Chinese original, plus English, Traditional Chinese and Russian translations) deriving AI infrastructure design from hardware constraints: memory, compute and bandwidth across model architectures, accelerators, networking, inference and training. It ships a Python CLI to recompute the book's quantitative examples for a chosen model and token count, plus chapter-indexed experiments, some needing GPUs. Static calculations need only Python 3.10+ stdlib.
+
+- **+** Companion CLI lets readers recompute every quantitative example with their own model and hardware
+- **+** Static calculations need only Python 3.10+ stdlib, no GPU or model weights
+- **+** Covers the full inference/training stack: accelerators, networks, superpods, scheduling, edge-cloud
+- **+** Available in four languages with auto-published PDF and EPUB per release
+- **−** Manuscript is explicitly a draft still under revision
+- **−** Experiments directory needs GPUs and large Git LFS downloads (~20GB) for full reproduction
+- **−** Primarily a book/learning resource, not a deployable tool or service
+- **−** PDF build requires Pandoc, XeLaTeX and fonts, no Docker setup provided
+
+<sub>GPU optional · Needs Git LFS, Pandoc, XeLaTeX · Models: Qwen3-8B · port 8000 · [Repo](https://github.com/bojieli/ai-infra-book) · [▶️ Demo ↗](https://bojieli.github.io/ai-infra-book/) · [📖 Docs ↗](https://github.com/bojieli/ai-infra-book/blob/main/manuscripts/README.md) · [🌐 Site ↗](https://bojieli.github.io/ai-infra-book/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-infra-book/)</sub>
+
 <a name="ai-coding-guide-zh"></a>
-### #&#8288;26 [ai-coding-guide-zh](https://github.com/kimyx0207/ai-coding-guide-zh) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Nov 2026</sub>
+### #&#8288;27 [ai-coding-guide-zh](https://github.com/kimyx0207/ai-coding-guide-zh) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Nov 2026</sub>
 
 **Chinese tutorials for Claude Code, Codex, WorkBuddy and OpenClaw.**
 
@@ -469,7 +487,7 @@ A Chinese-language course of 50 Markdown tutorials plus one cheat sheet, split i
 <sub>no GPU · Needs Claude Code, Codex App, WorkBuddy, OpenClaw, Node.js · Models: Claude, OpenAI, Ollama · [Repo](https://github.com/kimyx0207/ai-coding-guide-zh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-coding-guide-zh/)</sub>
 
 <a name="annotated-deep-learning-paper-implementations"></a>
-### #&#8288;27 [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · MIT · Nov 2026</sub>
+### #&#8288;28 [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · MIT · Nov 2026</sub>
 
 **Annotated PyTorch implementations of deep learning papers with side-by-side notes.**
 
@@ -487,7 +505,7 @@ A collection of short PyTorch implementations of neural network architectures an
 <sub>GPU optional · Needs PyTorch · Models: PyTorch, JAX (transformer example), Triton (Flash Attention) · [Repo](https://github.com/labmlai/annotated_deep_learning_paper_implementations) · [📖 Docs ↗](https://nn.labml.ai/index.html) · [🌐 Site ↗](https://nn.labml.ai/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/annotated-deep-learning-paper-implementations/)</sub>
 
 <a name="transformers-tutorials"></a>
-### #&#8288;28 [transformers-tutorials](https://github.com/nielsrogge/transformers-tutorials) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Sep 2026</sub>
+### #&#8288;29 [transformers-tutorials](https://github.com/nielsrogge/transformers-tutorials) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Sep 2026</sub>
 
 **Colab notebooks for running and fine-tuning Hugging Face Transformers models.**
 
@@ -503,24 +521,6 @@ A collection of Jupyter notebooks by Niels Rogge showing inference and fine-tuni
 - **−** No releases and no packaged library; notebooks only
 
 <sub>GPU optional · Needs Hugging Face Transformers, PyTorch, Google Colab · Models: DETR, LayoutLM, LayoutLMv2, LayoutLMv3, Donut · [Repo](https://github.com/nielsrogge/transformers-tutorials) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/transformers-tutorials/)</sub>
-
-<a name="ai-infra-book"></a>
-### #&#8288;29 [ai-infra-book](https://github.com/bojieli/ai-infra-book) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Oct 2026</sub>
-
-**A quantitative book on AI infrastructure design, with calculation tools.**
-
-This repository holds an open-source book (Chinese original, plus English, Traditional Chinese and Russian translations) deriving AI infrastructure design from hardware constraints: memory, compute and bandwidth across model architectures, accelerators, networking, inference and training. It ships a Python CLI to recompute the book's quantitative examples for a chosen model and token count, plus chapter-indexed experiments, some needing GPUs. Static calculations need only Python 3.10+ stdlib.
-
-- **+** Companion CLI lets readers recompute every quantitative example with their own model and hardware
-- **+** Static calculations need only Python 3.10+ stdlib, no GPU or model weights
-- **+** Covers the full inference/training stack: accelerators, networks, superpods, scheduling, edge-cloud
-- **+** Available in four languages with auto-published PDF and EPUB per release
-- **−** Manuscript is explicitly a draft still under revision
-- **−** Experiments directory needs GPUs and large Git LFS downloads (~20GB) for full reproduction
-- **−** Primarily a book/learning resource, not a deployable tool or service
-- **−** PDF build requires Pandoc, XeLaTeX and fonts, no Docker setup provided
-
-<sub>GPU optional · Needs Git LFS, Pandoc, XeLaTeX · Models: Qwen3-8B · port 8000 · [Repo](https://github.com/bojieli/ai-infra-book) · [▶️ Demo ↗](https://bojieli.github.io/ai-infra-book/) · [📖 Docs ↗](https://github.com/bojieli/ai-infra-book/blob/main/manuscripts/README.md) · [🌐 Site ↗](https://bojieli.github.io/ai-infra-book/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-infra-book/)</sub>
 
 <a name="generative-ai"></a>
 ### #&#8288;30 [generative-ai](https://github.com/googlecloudplatform/generative-ai) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
@@ -755,7 +755,7 @@ Course repository for the Agentic AI Engineering course by Ed Donner. It holds J
 <sub>no GPU · Needs OpenAI API key (or DeepSeek, Gemini), Ollama (optional) · Models: OpenAI, DeepSeek, Gemini, Ollama · [Repo](https://github.com/ed-donner/agents) · [🌐 Site ↗](https://edwarddonner.com/2025/04/21/the-complete-agentic-ai-engineering-course/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ed-donner-agents/)</sub>
 
 <a name="supervisor-skills"></a>
-### #&#8288;43 [supervisor-skills](https://github.com/hkustdial/supervisor-skills) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
+### #&#8288;43 [supervisor-skills](https://github.com/hkustdial/supervisor-skills) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Nov 2026</sub>
 
 **Prompt-based AI skills for planning, writing and reviewing research papers.**
 
@@ -1023,7 +1023,7 @@ Course materials for DataTalks.Club's Machine Learning Zoomcamp: pre-recorded le
 <sub>GPU optional · Needs Python, Docker, Kubernetes, AWS Lambda · Models: scikit-learn, XGBoost, TensorFlow, PyTorch, Keras · [Repo](https://github.com/datatalksclub/machine-learning-zoomcamp) · [📖 Docs ↗](https://datatalks.club/docs/courses/ml-zoomcamp/) · [🌐 Site ↗](https://courses.datatalks.club/ml-zoomcamp-2026/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/machine-learning-zoomcamp/)</sub>
 
 <a name="examples"></a>
-### #&#8288;58 [examples](https://github.com/tensorflow/examples) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (50) · Freshness: recent (70) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;58 [examples](https://github.com/tensorflow/examples) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (49) · Freshness: recent (70) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Nov 2026</sub>
 
 **Official TensorFlow example notebooks, community samples and course material.**
 
@@ -1265,7 +1265,7 @@ A 15-chapter book with 4 appendices that dissects Claude Code as an agent harnes
 <sub>no GPU · [Repo](https://github.com/lintsinghua/claude-code-book) · [🌐 Site ↗](https://lintsinghua.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/claude-code-book/)</sub>
 
 <a name="agentic-rl-lab"></a>
-### #&#8288;72 [agentic-rl-lab](https://github.com/datawhalechina/agentic-rl-lab) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;72 [agentic-rl-lab](https://github.com/datawhalechina/agentic-rl-lab) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
 
 **Tutorials and runnable code for reproducing LLM and agent RL algorithms.**
 

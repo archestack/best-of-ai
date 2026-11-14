@@ -130,7 +130,7 @@ Graphiti is a Python library (graphiti-core) that ingests text and JSON episodes
 <sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2, Amazon Neptune + OpenSearch Serverless, OpenAI API key · Models: OpenAI, Anthropic, Google Gemini, Groq, OpenAI-compatible endpoints (Ollama, vLLM, llama.cpp, LM Studio) · [Repo](https://github.com/getzep/graphiti) · [🌐 Site ↗](https://www.getzep.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graphiti/)</sub>
 
 <a name="openviking"></a>
-### #&#8288;8 [OpenViking](https://github.com/volcengine/openviking) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;8 [OpenViking](https://github.com/volcengine/openviking) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Nov 2026</sub>
 
 **Filesystem-style context database for agent memory, resources and skills.**
 
@@ -273,7 +273,7 @@ Engram is a single Go binary that stores coding-agent memory in a local SQLite f
 <sub>no GPU · Docker + Compose · Needs SQLite (bundled) · Models: Any MCP-compatible agent · [Repo](https://github.com/gentleman-programming/engram) · [📖 Docs ↗](https://github.com/Gentleman-Programming/engram/blob/main/DOCS.md) · [🌐 Site ↗](https://engram.gentlemanprogramming.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/engram/)</sub>
 
 <a name="obsidian-second-brain"></a>
-### #&#8288;16 [obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
+### #&#8288;16 [obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
 
 **Claude Code plugin that saves chats into a linked Obsidian vault and recalls them.**
 
