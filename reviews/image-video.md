@@ -22,7 +22,7 @@ Frigate is a network video recorder that runs object detection locally on IP cam
 <sub>GPU optional · Docker + Compose · Needs MQTT, Home Assistant (optional), IP cameras (RTSP) · Models: TensorFlow · [Repo](https://github.com/blakeblackshear/frigate) · [📖 Docs ↗](https://docs.frigate.video) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/frigate/)</sub>
 
 <a name="moneyprinterturbo"></a>
-### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 143k · MIT · Nov 2026</sub>
+### 🥈 [MoneyPrinterTurbo](https://github.com/harry0703/moneyprinterturbo) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 144k · MIT · Nov 2026</sub>
 
 **Generates short videos from a topic, with script, footage, voiceover and subtitles.**
 
@@ -238,7 +238,7 @@ Python CLI and library that finds and removes AI provenance marks from your own 
 <sub>GPU optional · Needs ffmpeg, NVIDIA CUDA (invisible removal), PyTorch (diffusion extras) · Models: Qwen-Image-2512 Lightning, SDXL, Chroma1, Z-Image, MI-GAN · [Repo](https://github.com/wiltodelta/remove-ai-watermarks) · [📖 Docs ↗](https://github.com/wiltodelta/remove-ai-watermarks/blob/main/docs/cli.md) · [🌐 Site ↗](https://raiw.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/remove-ai-watermarks/)</sub>
 
 <a name="ltx-2"></a>
-### #&#8288;14 [ltx-2](https://github.com/lightricks/ltx-2) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [ltx-2](https://github.com/lightricks/ltx-2) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Text and image to video model with synchronized audio, plus pipelines and trainer.**
 
@@ -308,7 +308,7 @@ Stability Matrix is a C# desktop app for Windows, Linux and Apple Silicon macOS 
 <sub>Models: CivitAI, HuggingFace, Stable Diffusion checkpoints · [Repo](https://github.com/lykosai/stabilitymatrix) · [🌐 Site ↗](https://lykos.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stabilitymatrix/)</sub>
 
 <a name="openfilm"></a>
-### #&#8288;18 [openfilm](https://github.com/openfilm/openfilm) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · MIT · Nov 2026</sub>
+### #&#8288;18 [openfilm](https://github.com/openfilm/openfilm) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Nov 2026</sub>
 
 **Video editor and CLI that lets coding agents write films as HTML pages.**
 
@@ -326,7 +326,7 @@ OpenFilm represents a film as a folder with a film.html, where each track is a s
 <sub>Needs Node 22.2+, ffmpeg, git, headless Chromium (about 100 MB, downloaded on first run) · Models: ElevenLabs, OpenAI, Google, OpenRouter, fal · [Repo](https://github.com/openfilm/openfilm) · [🌐 Site ↗](https://openfilm.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openfilm/)</sub>
 
 <a name="modly"></a>
-### #&#8288;19 [modly](https://github.com/lightningpixel/modly) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · custom license · Oct 2026</sub>
+### #&#8288;19 [modly](https://github.com/lightningpixel/modly) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · custom license · Oct 2026</sub>
 
 **Desktop app that generates 3D meshes from photos using local models.**
 
@@ -360,8 +360,26 @@ A workspace of Claude Code skills, slash commands, Remotion and moviepy template
 
 <sub>GPU optional · Docker · Needs Claude Code, Node.js 22+, uv (Python 3.10+), Modal or RunPod, Cloudflare R2, ElevenLabs (optional), FFmpeg (optional) · Models: Qwen3-TTS, FLUX.2, ACE-Step, LTX-2.3, Qwen-Image · [Repo](https://github.com/digitalsamba/claude-code-video-toolkit) · [▶️ Demo ↗](https://www.youtube.com/watch?v=3HjPatdeal4) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/claude-code-video-toolkit/)</sub>
 
+<a name="comfyui-manager"></a>
+### #&#8288;21 [comfyui-manager](https://github.com/comfy-org/comfyui-manager) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · GPL-3.0 · Nov 2026</sub>
+
+**Manager menu for installing and updating ComfyUI custom nodes and models.**
+
+ComfyUI-Manager is a custom node for ComfyUI that adds a Manager menu to install, remove, disable and enable custom nodes and download models. It reads a channel-based node database and the registry at registry.comfy.org, and also provides snapshots, missing-node detection and a cm-cli tool that runs without starting ComfyUI.
+
+- **+** Installs, updates, disables and removes custom nodes from a menu inside ComfyUI
+- **+** Snapshots save the installed state and restore it on the next startup
+- **+** Install Missing Custom Nodes finds extensions needed by the loaded workflow
+- **+** cm-cli runs manager functions without ComfyUI; config supports uv, pip overrides and offline mode
+- **−** Only works with ComfyUI; not usable standalone
+- **−** Snapshot restore is incomplete for custom nodes not managed by Git
+- **−** Install outside ComfyUI/custom_nodes/comfyui-manager breaks recognition and updates
+- **−** No tagged release; installed by git clone or comfy-cli
+
+<sub>no GPU · Needs ComfyUI, git, Python 3 · [Repo](https://github.com/comfy-org/comfyui-manager) · [📖 Docs ↗](https://docs.comfy.org/registry/overview) · [🌐 Site ↗](https://ltdrdata.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-manager/)</sub>
+
 <a name="printfilm"></a>
-### #&#8288;21 [printfilm](https://github.com/yi1108/printfilm) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · MIT · Nov 2026</sub>
+### #&#8288;22 [printfilm](https://github.com/yi1108/printfilm) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · MIT · Nov 2026</sub>
 
 **Step-by-step AI short video and serial drama maker, from script to final cut.**
 
@@ -379,7 +397,7 @@ PRINTFILM is a FastAPI and React app that turns an idea or script into a finishe
 <sub>no GPU · Compose · Needs PostgreSQL, Redis, TokenFree API, FFmpeg, Docker · Models: kimi-k2.6, seedream-5-0-pro, seedance-2-5, OpenAI-compatible API · port 8080 · [Repo](https://github.com/yi1108/printfilm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/printfilm/)</sub>
 
 <a name="civitai"></a>
-### #&#8288;22 [civitai](https://github.com/civitai/civitai) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [civitai](https://github.com/civitai/civitai) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
 
 **Source of the Civitai site for sharing Stable Diffusion models.**
 
@@ -396,7 +414,7 @@ Next.js, tRPC and Prisma/Postgres application behind civitai.com, where users up
 <sub>no GPU · Docker + Compose · Needs Docker Compose v2, Node.js 24, pnpm, PostgreSQL, Redis, MinIO, Meilisearch, ClickHouse, Mailpit · Models: Stable Diffusion checkpoints, textual inversions, hypernetworks, VAEs · port 3000 · [Repo](https://github.com/civitai/civitai) · [▶️ Demo ↗](https://civitai.com/) · [🌐 Site ↗](https://civitai.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/civitai/)</sub>
 
 <a name="sana"></a>
-### #&#8288;23 [sana](https://github.com/nvlabs/sana) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [sana](https://github.com/nvlabs/sana) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Nov 2026</sub>
 
 **Efficient diffusion models and training code for high-resolution image and video.**
 
@@ -412,24 +430,6 @@ SANA is NVIDIA's research codebase for linear-attention diffusion models, coveri
 - **−** Docs are spread across project pages and a separate docs site
 
 <sub>GPU required · Docker · Needs PyTorch, diffusers, Hugging Face weights · Models: SANA, SANA-1.5, SANA-Sprint, SANA-Video, SANA-Video 2.0 · [Repo](https://github.com/nvlabs/sana) · [▶️ Demo ↗](https://nv-sana.mit.edu/) · [📖 Docs ↗](https://nvlabs.github.io/Sana/docs/) · [🌐 Site ↗](https://nvlabs.github.io/Sana/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sana/)</sub>
-
-<a name="comfyui-manager"></a>
-### #&#8288;24 [comfyui-manager](https://github.com/comfy-org/comfyui-manager) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · GPL-3.0 · Nov 2026</sub>
-
-**Manager menu for installing and updating ComfyUI custom nodes and models.**
-
-ComfyUI-Manager is a custom node for ComfyUI that adds a Manager menu to install, remove, disable and enable custom nodes and download models. It reads a channel-based node database and the registry at registry.comfy.org, and also provides snapshots, missing-node detection and a cm-cli tool that runs without starting ComfyUI.
-
-- **+** Installs, updates, disables and removes custom nodes from a menu inside ComfyUI
-- **+** Snapshots save the installed state and restore it on the next startup
-- **+** Install Missing Custom Nodes finds extensions needed by the loaded workflow
-- **+** cm-cli runs manager functions without ComfyUI; config supports uv, pip overrides and offline mode
-- **−** Only works with ComfyUI; not usable standalone
-- **−** Snapshot restore is incomplete for custom nodes not managed by Git
-- **−** Install outside ComfyUI/custom_nodes/comfyui-manager breaks recognition and updates
-- **−** No tagged release; installed by git clone or comfy-cli
-
-<sub>no GPU · Needs ComfyUI, git, Python 3 · [Repo](https://github.com/comfy-org/comfyui-manager) · [📖 Docs ↗](https://docs.comfy.org/registry/overview) · [🌐 Site ↗](https://ltdrdata.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-manager/)</sub>
 
 <a name="ai-toolkit"></a>
 ### #&#8288;25 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Nov 2026</sub>
@@ -1044,7 +1044,7 @@ Duix.Avatar clones a person's face and voice from a short video, then renders li
 <sub>RAM ≥ 32 GB · GPU required · Compose · Needs Docker, NVIDIA Container Toolkit, Node.js 18, guiji2025/fun-asr, guiji2025/fish-speech-ziming, guiji2025/duix.avatar · Models: fun-asr, fish-speech-ziming · [Repo](https://github.com/duixcom/duix-avatar) · [📖 Docs ↗](https://docs.duix.com/api-reference/api/Introduction) · [🌐 Site ↗](http://www.duix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/duix-avatar/)</sub>
 
 <a name="personalive"></a>
-### #&#8288;59 [personalive](https://github.com/gvclab/personalive) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;59 [personalive](https://github.com/gvclab/personalive) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · Apache-2.0 · Aug 2026</sub>
 
 **Real-time diffusion portrait animation driven by a webcam or video.**
 
@@ -1169,7 +1169,7 @@ Video2X is a C/C++ tool that upscales video and interpolates frames using Anime4
 <sub>GPU required · Needs Vulkan, FFmpeg, ncnn · Models: Real-ESRGAN, Real-CUGAN, RIFE, Anime4K v4, MPV GLSL shaders · [Repo](https://github.com/k4yt3x/video2x) · [▶️ Demo ↗](https://colab.research.google.com/drive/1gWEwcA9y57EsxwOjmLNmNMXPsafw0kGo) · [📖 Docs ↗](https://docs.video2x.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/video2x/)</sub>
 
 <a name="open-higgsfield"></a>
-### #&#8288;66 [open-higgsfield](https://github.com/wide-trace/open-higgsfield) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (41) · Freshness: active (100) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 5.8k · no license · Sep 2026</sub>
+### #&#8288;66 [open-higgsfield](https://github.com/wide-trace/open-higgsfield) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (41) · Freshness: active (100) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 5.9k · no license · Sep 2026</sub>
 
 **Next.js studio for generating images and video with 38 hosted models.**
 
