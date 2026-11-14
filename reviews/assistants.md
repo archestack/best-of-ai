@@ -343,7 +343,7 @@ Copilot for Obsidian is a community plugin that adds an Agent chat to Obsidian, 
 <sub>GPU optional · Needs Obsidian, OpenCode, Claude Code or Codex (via @agentclientprotocol/codex-acp) · Models: OpenCode-reported models, Claude Code, Codex, OpenAI-compatible providers, local models · [Repo](https://github.com/logancyang/obsidian-copilot) · [📖 Docs ↗](https://github.com/logancyang/obsidian-copilot/blob/master/docs/index.md) · [🌐 Site ↗](https://www.obsidiancopilot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obsidian-copilot/)</sub>
 
 <a name="rakazo"></a>
-### #&#8288;20 [rakazo](https://github.com/elie222/rakazo) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;20 [rakazo](https://github.com/elie222/rakazo) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted AI assistant with persistent bots on sandboxed computers.**
 
@@ -396,26 +396,8 @@ Brigade is a Node.js gateway and terminal chat UI that runs multiple isolated ag
 
 <sub>no GPU · Needs Node.js 22.12+, Composio (optional), Convex (optional), Ollama (optional), headless Chrome and FFmpeg (optional, video) · Models: Anthropic, OpenAI, Gemini, OpenRouter, Groq · port 7777 · [Repo](https://github.com/spinabot/brigade) · [🌐 Site ↗](https://brigade.spinabot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/brigade/)</sub>
 
-<a name="leon"></a>
-### #&#8288;23 [leon](https://github.com/leon-ai/leon) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
-
-**Self-hosted personal assistant with tools, layered memory and agent-style execution.**
-
-Leon is a Node.js personal assistant that runs locally on Linux, macOS or Windows and serves a web app on port 5366. It runs in smart, controlled (deterministic native skills) or agent (step-by-step planning) mode, with tools, layered memory, and desktop and browser computer use. The 2.0 Developer Preview is on the develop branch; the legacy version is on master.
-
-- **+** Three execution modes: smart, controlled (deterministic skills), and agent (step-by-step planning)
-- **+** Layered memory for durable preferences, daily context and recent discussion
-- **+** Supports both local and remote AI providers
-- **+** Extensible through native skills, SKILL.md agent skills, toolkits and bridges
-- **−** 2.0 is a Developer Preview; new documentation is not ready
-- **−** Public docs site mostly describes the legacy architecture
-- **−** Installs from source with pnpm; no Docker or release builds
-- **−** Few contributors; developed mostly in spare time, so progress is uneven
-
-<sub>Needs Node.js >= 24, pnpm, Python (bridges and tcp_server) · Models: local models, remote AI providers · port 5366 · [Repo](https://github.com/leon-ai/leon) · [🌐 Site ↗](https://getleon.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leon/)</sub>
-
 <a name="osaurus"></a>
-### #&#8288;24 [osaurus](https://github.com/osaurus-ai/osaurus) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · MIT · Nov 2026</sub>
+### #&#8288;23 [osaurus](https://github.com/osaurus-ai/osaurus) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · MIT · Nov 2026</sub>
 
 **Native macOS agent harness with memory, sandbox and tools over local or cloud models.**
 
@@ -431,6 +413,24 @@ Osaurus is a Swift app for Apple Silicon Macs that runs local MLX models or clou
 - **−** Built-in Orchestrator has no folder, sandbox or browser; file work needs a custom agent
 
 <sub>GPU optional · Needs macOS 15.5+, Apple Silicon · Models: MLX, Apple Foundation Models, Liquid LFM, OpenAI, Anthropic · [Repo](https://github.com/osaurus-ai/osaurus) · [📖 Docs ↗](https://docs.osaurus.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/osaurus/)</sub>
+
+<a name="leon"></a>
+### #&#8288;24 [leon](https://github.com/leon-ai/leon) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
+
+**Self-hosted personal assistant with tools, layered memory and agent-style execution.**
+
+Leon is a Node.js personal assistant that runs locally on Linux, macOS or Windows and serves a web app on port 5366. It runs in smart, controlled (deterministic native skills) or agent (step-by-step planning) mode, with tools, layered memory, and desktop and browser computer use. The 2.0 Developer Preview is on the develop branch; the legacy version is on master.
+
+- **+** Three execution modes: smart, controlled (deterministic skills), and agent (step-by-step planning)
+- **+** Layered memory for durable preferences, daily context and recent discussion
+- **+** Supports both local and remote AI providers
+- **+** Extensible through native skills, SKILL.md agent skills, toolkits and bridges
+- **−** 2.0 is a Developer Preview; new documentation is not ready
+- **−** Public docs site mostly describes the legacy architecture
+- **−** Installs from source with pnpm; no Docker or release builds
+- **−** Few contributors; developed mostly in spare time, so progress is uneven
+
+<sub>Needs Node.js >= 24, pnpm, Python (bridges and tcp_server) · Models: local models, remote AI providers · port 5366 · [Repo](https://github.com/leon-ai/leon) · [🌐 Site ↗](https://getleon.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leon/)</sub>
 
 <a name="trendradar"></a>
 ### #&#8288;25 [trendradar](https://github.com/sansan0/trendradar) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 64k · GPL-3.0 · Nov 2026</sub>
@@ -469,7 +469,7 @@ AgenticSeek is a self-hosted Manus-style assistant that routes each request to a
 <sub>GPU optional · Docker + Compose · Needs Docker Compose, SearxNG, Redis, Python 3.10, Ollama or LM Studio (for local models) · Models: Ollama, LM Studio, OpenAI-compatible (llama.cpp), OpenAI, Google Gemini · port 3000 · README: alternative to Manus · [Repo](https://github.com/fosowl/agenticseek) · [🌐 Site ↗](https://fosowl.github.io/agenticSeek.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agenticseek/)</sub>
 
 <a name="mika"></a>
-### #&#8288;27 [mika](https://github.com/wangzan101/mika) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;27 [mika](https://github.com/wangzan101/mika) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
 
 **Android assistant that operates phone apps and the web from one sentence.**
 
@@ -504,8 +504,26 @@ Sellbird finds businesses matching your customer profile (OpenStreetMap or a pai
 
 <sub>no GPU · Docker + Compose · Needs Claude Code CLI or Codex CLI, Gmail, Microsoft 365 or SMTP mailbox, Python 3.11+, SQLite database file · Models: Claude (via Claude Code CLI), ChatGPT plans (via Codex CLI) · port 5555 · [Repo](https://github.com/ethanplusai/sellbird) · [🌐 Site ↗](https://sellbird.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sellbird/)</sub>
 
+<a name="anymodelbot"></a>
+### #&#8288;29 [anymodelbot](https://github.com/modelflare-ai/anymodelbot) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Nov 2026</sub>
+
+**Multi-bot desktop assistant with memory, file access and chat-app channels.**
+
+AnyModelBot is an Electron/Node.js app for Windows, macOS and Linux that runs several bots, each with its own persona, default model, workspace and Markdown memory. Bots chat in-app or via WeChat, Feishu, Telegram, Slack and Discord, read and write files, run commands in a sandbox, and ask before writing outside the workspace. Models come from the Modelflare gateway (pay per use) or direct official API keys.
+
+- **+** Per-bot memory, persona and workspace, three permission levels, approval cards for outside writes
+- **+** Connects to WeChat, Feishu, Telegram, Slack and Discord with shared account setup
+- **+** Background tasks and scheduled rules with per-task budgets, quiet hours and daily message caps
+- **+** Direct keys for OpenAI, Anthropic, Gemini, xAI, DeepSeek, Kimi, GLM, Qwen, MiniMax, Mistral
+- **−** Default model route goes through hosted Modelflare, which keeps request logs
+- **−** Image and video generation only work through Modelflare, not direct API keys
+- **−** Chat channels handle one-to-one chats only; group chat exists only inside the app
+- **−** Rules do not run while the computer is off; macOS computer use is Beta
+
+<sub>no GPU · Docker · Needs Modelflare account or official provider API keys, Node.js 22.13+ and Go 1.26.8+ (source builds only), Python 3.10+ and FFmpeg (video studio bot only) · Models: Modelflare-hosted models, OpenAI, Anthropic, Google Gemini, xAI · port 3600 · [Repo](https://github.com/modelflare-ai/anymodelbot) · [📖 Docs ↗](https://github.com/modelflare-ai/AnyModelBot/blob/master/docs/development.md) · [🌐 Site ↗](https://anymodel.bot/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anymodelbot/)</sub>
+
 <a name="orkas"></a>
-### #&#8288;29 [orkas](https://github.com/orkas-ai/orkas) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · MIT · Nov 2026</sub>
+### #&#8288;30 [orkas](https://github.com/orkas-ai/orkas) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · MIT · Nov 2026</sub>
 
 **Desktop app where a Commander agent delegates to specialist and CLI agents.**
 
@@ -523,7 +541,7 @@ Orkas is a local-first Electron desktop app in which a Commander agent plans wor
 <sub>no GPU · Needs Node 22.12+, Python 3 and C/C++ toolchain (native-module fallback), glibc 2.34+ on Linux · Models: Claude, OpenAI, Gemini, DeepSeek, Kimi · [Repo](https://github.com/orkas-ai/orkas) · [🌐 Site ↗](https://orkas.ai/?source=gh-orkas) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/orkas/)</sub>
 
 <a name="ds-bot"></a>
-### #&#8288;30 [ds-bot](https://github.com/fei2411/ds-bot) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [ds-bot](https://github.com/fei2411/ds-bot) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Nov 2026</sub>
 
 **Desktop app and DeepSeek Harness plugin for bots that collaborate in group chats.**
 
@@ -541,7 +559,7 @@ DS Bot is a desktop app and a plugin for DeepSeek Harness (DSH) for creating mul
 <sub>no GPU · Docker + Compose · Needs DeepSeek Harness (bundled in desktop app), DeepSeek account or API key, Node.js 22.19+ (source run or DSH Web only) · Models: DeepSeek, Claude Code, Codex CLI, OpenCode and other ACP agents via Local agents · [Repo](https://github.com/fei2411/ds-bot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ds-bot/)</sub>
 
 <a name="operit"></a>
-### #&#8288;31 [operit](https://github.com/aaswordman/operit) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · LGPL-3.0 · Nov 2026</sub>
+### #&#8288;32 [operit](https://github.com/aaswordman/operit) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · LGPL-3.0 · Nov 2026</sub>
 
 **Android AI agent app that controls the phone, browser and a terminal.**
 
@@ -559,7 +577,7 @@ Operit is a Kotlin Android app that connects cloud or local models to device too
 <sub>GPU optional · Needs Android 8.0+ (API 26), ARM64 device, Shizuku or Root (optional, for automation) · Models: OpenAI Chat/Responses, Anthropic, Gemini, MNN, GGUF (llama.cpp) · [Repo](https://github.com/aaswordman/operit) · [📖 Docs ↗](https://operit.app/) · [🌐 Site ↗](https://operit.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/operit/)</sub>
 
 <a name="jev-chat-jarvis"></a>
-### #&#8288;32 [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · MIT · Oct 2026</sub>
+### #&#8288;33 [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · MIT · Oct 2026</sub>
 
 **Chat reply assistant that judges intent and risk before drafting replies.**
 
@@ -577,7 +595,7 @@ Reads a conversation on screen, works out the other person's intent and the risk
 <sub>Needs Model provider API key (user-configured), Android accessibility service and overlay permission · Models: User-configured model provider via own API key, Local model on macOS · [Repo](https://github.com/jev-chat/jev-chat-jarvis) · [🌐 Site ↗](https://chatjevs.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jev-chat-jarvis/)</sub>
 
 <a name="openagent"></a>
-### #&#8288;33 [openagent](https://github.com/the-open-agent/openagent) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;34 [openagent](https://github.com/the-open-agent/openagent) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted AI assistant with RAG, browser-use agents and MCP tools.**
 
@@ -594,7 +612,7 @@ OpenAgent is a Go application that combines a chat front-end, a document knowled
 <sub>no GPU · Docker + Compose · Compose runs MySQL · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 14000 · [Repo](https://github.com/the-open-agent/openagent) · [▶️ Demo ↗](https://demo.openagentai.org) · [📖 Docs ↗](https://www.openagentai.org) · [🌐 Site ↗](https://www.openagentai.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openagent/)</sub>
 
 <a name="ods"></a>
-### #&#8288;34 [ods](https://github.com/osmantic/ods) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;35 [ods](https://github.com/osmantic/ods) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Nov 2026</sub>
 
 **Installer that sets up a local AI server stack on Linux, macOS and Windows.**
 
@@ -612,7 +630,7 @@ ODS installs and wires together llama-server inference, Open WebUI, a control da
 <sub>GPU optional · Needs Docker, WSL2 (Windows), Docker Desktop (Windows/macOS) · Models: GGUF, llama.cpp, OpenAI API, Anthropic API, Together API · port 3001 · [Repo](https://github.com/osmantic/ods) · [▶️ Demo ↗](https://youtu.be/nO8xFNHX-HA) · [🌐 Site ↗](https://osmantic.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ods/)</sub>
 
 <a name="nullclaw"></a>
-### #&#8288;35 [nullclaw](https://github.com/nullclaw/nullclaw) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · MIT · Oct 2026</sub>
+### #&#8288;36 [nullclaw](https://github.com/nullclaw/nullclaw) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · MIT · Oct 2026</sub>
 
 **Personal AI assistant runtime in a single 678 KB static Zig binary.**
 
@@ -630,7 +648,7 @@ NullClaw is a self-hosted autonomous assistant written in Zig that connects 50+ 
 <sub>no GPU · Docker + Compose · Needs Zig 0.16.0 (source builds), nak (Nostr channel), openssl (Vertex service-account auth) · Models: OpenRouter, Anthropic, OpenAI, Azure OpenAI, Gemini · port 3000 · [Repo](https://github.com/nullclaw/nullclaw) · [📖 Docs ↗](https://nullclaw.github.io) · [🌐 Site ↗](https://nullclaw.github.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nullclaw/)</sub>
 
 <a name="opensquilla"></a>
-### #&#8288;36 [opensquilla](https://github.com/tokenrhythm/opensquilla) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;37 [opensquilla](https://github.com/tokenrhythm/opensquilla) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **Personal AI agent that routes each turn to the cheapest capable model.**
 
@@ -648,7 +666,7 @@ OpenSquilla is a Python agent that runs through a CLI, a Web UI, a desktop app a
 <sub>no GPU · Docker + Compose · Needs Python 3.12+, uv, Git LFS (source install), Node.js 22.12+ (source install) · Models: OpenAI, Anthropic, OpenRouter, Ollama, DeepSeek · [Repo](https://github.com/tokenrhythm/opensquilla) · [🌐 Site ↗](https://opensquilla.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensquilla/)</sub>
 
 <a name="easel"></a>
-### #&#8288;37 [easel](https://github.com/zju-real/easel) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;38 [easel](https://github.com/zju-real/easel) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Nov 2026</sub>
 
 **Social media content workbench for planning, creating and publishing posts.**
 
@@ -664,24 +682,6 @@ Easel is a Python and React workbench built on an OpenClaw agent. It keeps per-a
 - **−** No Docker or compose setup; README and main docs are in Chinese
 
 <sub>no GPU · Needs OpenClaw, Python 3.10+, Node.js 24.22.1+, FFmpeg, Playwright Chromium, LLM API key · Models: Anthropic, OpenAI, OpenAI-compatible, Anthropic-compatible · port 7860 · [Repo](https://github.com/zju-real/easel) · [📖 Docs ↗](https://github.com/ZJU-REAL/Easel/blob/main/docs/skill-function-mapping.md) · [🌐 Site ↗](https://zju-real.github.io/Easel/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easel/)</sub>
-
-<a name="anymodelbot"></a>
-### #&#8288;38 [anymodelbot](https://github.com/modelflare-ai/anymodelbot) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Nov 2026</sub>
-
-**Multi-bot desktop assistant with memory, file access and chat-app channels.**
-
-AnyModelBot is an Electron/Node.js app for Windows, macOS and Linux that runs several bots, each with its own persona, default model, workspace and Markdown memory. Bots chat in-app or via WeChat, Feishu, Telegram, Slack and Discord, read and write files, run commands in a sandbox, and ask before writing outside the workspace. Models come from the Modelflare gateway (pay per use) or direct official API keys.
-
-- **+** Per-bot memory, persona and workspace, three permission levels, approval cards for outside writes
-- **+** Connects to WeChat, Feishu, Telegram, Slack and Discord with shared account setup
-- **+** Background tasks and scheduled rules with per-task budgets, quiet hours and daily message caps
-- **+** Direct keys for OpenAI, Anthropic, Gemini, xAI, DeepSeek, Kimi, GLM, Qwen, MiniMax, Mistral
-- **−** Default model route goes through hosted Modelflare, which keeps request logs
-- **−** Image and video generation only work through Modelflare, not direct API keys
-- **−** Chat channels handle one-to-one chats only; group chat exists only inside the app
-- **−** Rules do not run while the computer is off; macOS computer use is Beta
-
-<sub>no GPU · Docker · Needs Modelflare account or official provider API keys, Node.js 22.13+ and Go 1.26.8+ (source builds only), Python 3.10+ and FFmpeg (video studio bot only) · Models: Modelflare-hosted models, OpenAI, Anthropic, Google Gemini, xAI · port 3600 · [Repo](https://github.com/modelflare-ai/anymodelbot) · [📖 Docs ↗](https://github.com/modelflare-ai/AnyModelBot/blob/master/docs/development.md) · [🌐 Site ↗](https://anymodel.bot/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anymodelbot/)</sub>
 
 <a name="moltis"></a>
 ### #&#8288;39 [Moltis](https://github.com/moltis-org/moltis) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Oct 2026</sub>
@@ -809,26 +809,8 @@ OpenMuse is a personal-agent app built on CopilotKit React Native (Expo) with a 
 
 <sub>no GPU · Needs CopilotKit Intelligence API key, Node 24, pnpm 11.19.0, Playwright Chromium, Docker (optional, Linux computer), Google OAuth client (optional), Parallel Search MCP (web search) · Models: OpenAI, Anthropic, Google · port 8081 · [Repo](https://github.com/copilotkit/openmuse) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmuse/)</sub>
 
-<a name="openclawchinesetranslation"></a>
-### #&#8288;46 [openclawchinesetranslation](https://github.com/1186258278/openclawchinesetranslation) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Nov 2026</sub>
-
-**Chinese-localized build of the OpenClaw personal assistant.**
-
-Repackages the upstream OpenClaw personal assistant as the npm package @qingchencloud/openclaw-zh, with the CLI and web dashboard translated to Chinese. It syncs upstream hourly, offers stable and nightly tags, and publishes images to Docker Hub and GHCR. The assistant talks to you through chat apps such as WhatsApp, Telegram and Discord.
-
-- **+** Hourly automated sync with upstream OpenClaw; nightly npm tag tracks it closely
-- **+** Installs via npm or Docker; gateway serves the dashboard on port 18789
-- **+** Translates both the CLI and the web dashboard
-- **+** Separate guides cover install, Docker, Nginx reverse proxy and troubleshooting
-- **−** A leftover upstream openclaw install takes precedence and keeps the UI in English
-- **−** Dashboard language must be switched manually to Simplified Chinese after first launch
-- **−** Requires Node.js 22.19.0 or newer for the npm install
-- **−** README says MIT but license detection reports NOASSERTION
-
-<sub>Docker + Compose · Needs Node.js >= 22.19.0, LLM provider API key or local Ollama endpoint · Models: OpenAI-compatible APIs, Ollama · port 18789 · [Repo](https://github.com/1186258278/openclawchinesetranslation) · [📖 Docs ↗](https://github.com/1186258278/OpenClawChineseTranslation/blob/main/docs/INSTALL_GUIDE.md) · [🌐 Site ↗](https://openclaw.qt.cool/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclawchinesetranslation/)</sub>
-
 <a name="khoj"></a>
-### #&#8288;47 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (87) · Freshness: active (92) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;46 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (87) · Freshness: active (92) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
 
 **Personal assistant that chats with your documents and the web.**
 
@@ -844,6 +826,24 @@ Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Wor
 - **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
 
 <sub>Docker + Compose · Compose runs PostgreSQL, SearXNG · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/khoj/)</sub>
+
+<a name="openclawchinesetranslation"></a>
+### #&#8288;47 [openclawchinesetranslation](https://github.com/1186258278/openclawchinesetranslation) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Nov 2026</sub>
+
+**Chinese-localized build of the OpenClaw personal assistant.**
+
+Repackages the upstream OpenClaw personal assistant as the npm package @qingchencloud/openclaw-zh, with the CLI and web dashboard translated to Chinese. It syncs upstream hourly, offers stable and nightly tags, and publishes images to Docker Hub and GHCR. The assistant talks to you through chat apps such as WhatsApp, Telegram and Discord.
+
+- **+** Hourly automated sync with upstream OpenClaw; nightly npm tag tracks it closely
+- **+** Installs via npm or Docker; gateway serves the dashboard on port 18789
+- **+** Translates both the CLI and the web dashboard
+- **+** Separate guides cover install, Docker, Nginx reverse proxy and troubleshooting
+- **−** A leftover upstream openclaw install takes precedence and keeps the UI in English
+- **−** Dashboard language must be switched manually to Simplified Chinese after first launch
+- **−** Requires Node.js 22.19.0 or newer for the npm install
+- **−** README says MIT but license detection reports NOASSERTION
+
+<sub>Docker + Compose · Needs Node.js >= 22.19.0, LLM provider API key or local Ollama endpoint · Models: OpenAI-compatible APIs, Ollama · port 18789 · [Repo](https://github.com/1186258278/openclawchinesetranslation) · [📖 Docs ↗](https://github.com/1186258278/OpenClawChineseTranslation/blob/main/docs/INSTALL_GUIDE.md) · [🌐 Site ↗](https://openclaw.qt.cool/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclawchinesetranslation/)</sub>
 
 <a name="openduet"></a>
 ### #&#8288;48 [openduet](https://github.com/copilotkit/openduet) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Nov 2026</sub>

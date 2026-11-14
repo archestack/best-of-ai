@@ -5,7 +5,7 @@ Document Q&A, knowledge bases and private search over your own files and the web
 <sub>🌐 Also on the web: [RAG, knowledge and search on archestack.com](https://archestack.com/best-of-ai/rag-knowledge/), each project on its own page.</sub>
 
 <a name="open-notebook"></a>
-### 🥇 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Nov 2026</sub>
+### 🥇 [Open Notebook](https://github.com/lfnovo/open-notebook) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Nov 2026</sub>
 
 **Self-hosted NotebookLM alternative for research notebooks, chat, and podcasts.**
 
@@ -22,26 +22,8 @@ Open Notebook organizes PDFs, videos, audio, web pages and Office docs into note
 
 <sub>GPU optional · Docker + Compose · Needs SurrealDB, Docker Compose, LLM provider API key or Ollama · Models: OpenAI, Anthropic, Google, Mistral, Groq · port 8502 · README: alternative to NotebookLM · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-notebook/)</sub>
 
-<a name="lightrag"></a>
-### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Nov 2026</sub>
-
-**Graph-based RAG framework with a REST server and WebUI.**
-
-LightRAG indexes documents into both a knowledge graph and vector embeddings, then answers queries with dual-level retrieval over entities and concepts. It ships as a Python library and as lightrag-server, which provides a REST API and a WebUI for inserting, querying and visualizing the graph. Storage defaults to local files, with PostgreSQL, Neo4j, MongoDB and OpenSearch as options.
-
-- **+** Runs with local file storage by default; no database required
-- **+** Pluggable backends: PostgreSQL, Neo4j, MongoDB, OpenSearch, any OpenAI-compatible LLM
-- **+** Optional reranker, citations, document deletion with KG regeneration, RAGAS and Langfuse
-- **+** Separate LLM settings for extraction, query, keywords and VLM roles
-- **−** Entity extraction makes one LLM call per chunk, raising indexing time and cost
-- **−** Server binds 0.0.0.0 with authentication off by default
-- **−** Changing the embedding model requires re-indexing every document
-- **−** Source install needs bun to build the WebUI; PyPI package avoids this
-
-<sub>no GPU · Docker + Compose · Needs OpenAI-compatible LLM and embedding API, Optional: PostgreSQL, Neo4j, MongoDB, OpenSearch, Milvus, Optional: MinerU or Docling for multimodal parsing · Models: OpenAI-compatible APIs, Open-source LLMs such as Qwen3-30B-A3B · port 9621 · [Repo](https://github.com/hkuds/lightrag) · [📖 Docs ↗](https://github.com/HKUDS/LightRAG/blob/main/docs/ExploreLightRAG.md) · [🌐 Site ↗](https://github.com/HKUDS/LightRAG) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightrag/)</sub>
-
 <a name="ragflow"></a>
-### 🥉 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 94k · Apache-2.0 · Nov 2026</sub>
+### 🥈 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 94k · Apache-2.0 · Nov 2026</sub>
 
 **RAG engine with document parsing, agentic retrieval and citations.**
 
@@ -59,7 +41,7 @@ RAGFlow ingests Word, PowerPoint, Excel, PDFs, scans, images and web pages, chun
 <sub>RAM ≥ 16 GB · no GPU · Docker + Compose · Needs Docker, MySQL, MinIO, NATS, Kvrocks, Elasticsearch or Infinity · Models: Configurable LLM, embedding and reranker models via provider page · port 80 · [Repo](https://github.com/infiniflow/ragflow) · [▶️ Demo ↗](https://cloud.ragflow.io) · [📖 Docs ↗](https://ragflow.io/docs/dev/) · [🌐 Site ↗](https://ragflow.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ragflow/)</sub>
 
 <a name="deeptutor"></a>
-### #&#8288;4 [deeptutor](https://github.com/hkuds/deeptutor) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 59k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [deeptutor](https://github.com/hkuds/deeptutor) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 59k · Apache-2.0 · Nov 2026</sub>
 
 **Tutoring workspace with knowledge bases, guided learning, memory and quizzes.**
 
@@ -75,6 +57,24 @@ DeepTutor is a Python tutoring application that builds a learning workspace arou
 - **−** Recent release notes describe desktop builds as previews
 
 <sub>Docker + Compose · Needs LLM provider or local model endpoint, Embedding model provider · Models: OpenAI-compatible providers, Anthropic, Gemini, OpenAI Codex OAuth, NVIDIA NIM · [Repo](https://github.com/hkuds/deeptutor) · [📖 Docs ↗](https://deeptutor.info) · [🌐 Site ↗](https://deeptutor.info) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeptutor/)</sub>
+
+<a name="lightrag"></a>
+### #&#8288;4 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Nov 2026</sub>
+
+**Graph-based RAG framework with a REST server and WebUI.**
+
+LightRAG indexes documents into both a knowledge graph and vector embeddings, then answers queries with dual-level retrieval over entities and concepts. It ships as a Python library and as lightrag-server, which provides a REST API and a WebUI for inserting, querying and visualizing the graph. Storage defaults to local files, with PostgreSQL, Neo4j, MongoDB and OpenSearch as options.
+
+- **+** Runs with local file storage by default; no database required
+- **+** Pluggable backends: PostgreSQL, Neo4j, MongoDB, OpenSearch, any OpenAI-compatible LLM
+- **+** Optional reranker, citations, document deletion with KG regeneration, RAGAS and Langfuse
+- **+** Separate LLM settings for extraction, query, keywords and VLM roles
+- **−** Entity extraction makes one LLM call per chunk, raising indexing time and cost
+- **−** Server binds 0.0.0.0 with authentication off by default
+- **−** Changing the embedding model requires re-indexing every document
+- **−** Source install needs bun to build the WebUI; PyPI package avoids this
+
+<sub>no GPU · Docker + Compose · Needs OpenAI-compatible LLM and embedding API, Optional: PostgreSQL, Neo4j, MongoDB, OpenSearch, Milvus, Optional: MinerU or Docling for multimodal parsing · Models: OpenAI-compatible APIs, Open-source LLMs such as Qwen3-30B-A3B · port 9621 · [Repo](https://github.com/hkuds/lightrag) · [📖 Docs ↗](https://github.com/HKUDS/LightRAG/blob/main/docs/ExploreLightRAG.md) · [🌐 Site ↗](https://github.com/HKUDS/LightRAG) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightrag/)</sub>
 
 <a name="maxkb"></a>
 ### #&#8288;5 [MaxKB](https://github.com/1panel-dev/maxkb) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · GPL-3.0 · Nov 2026</sub>
@@ -275,7 +275,7 @@ txtai is a Python library built around an embeddings database that combines spar
 <sub>GPU optional · Docker · Needs Python 3.11+, Hugging Face Transformers, Sentence Transformers, FastAPI · Models: Hugging Face models, llama.cpp, LiteLLM (OpenAI, Claude, AWS Bedrock) · port 8000 · [Repo](https://github.com/neuml/txtai) · [📖 Docs ↗](https://neuml.github.io/txtai/) · [🌐 Site ↗](https://neuml.github.io/txtai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/txtai/)</sub>
 
 <a name="graphrag"></a>
-### #&#8288;16 [graphrag](https://github.com/microsoft/graphrag) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Nov 2026</sub>
+### #&#8288;16 [graphrag](https://github.com/microsoft/graphrag) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · MIT · Nov 2026</sub>
 
 **Pipeline that builds knowledge graphs from text for LLM question answering.**
 
@@ -401,7 +401,7 @@ Utopia ingests documents and database tables into a bitemporal knowledge graph, 
 <sub>no GPU · Docker + Compose · Needs Postgres with pgvector, OpenAI-compatible chat model endpoint, OpenAI-compatible embedding endpoint, MinerU or Volcengine Ark (optional, for scans) · Models: OpenAI-compatible endpoints, DeepSeek, Qwen, GLM, Ollama · port 1516 · [Repo](https://github.com/deeplethe/utopia) · [🌐 Site ↗](https://utopia.bi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/utopia/)</sub>
 
 <a name="autorag"></a>
-### #&#8288;23 [autorag](https://github.com/marker-inc-korea/autorag) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [autorag](https://github.com/marker-inc-korea/autorag) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Nov 2026</sub>
 
 **Librarian agent that searches local files, mail and chats in place.**
 
@@ -795,26 +795,8 @@ Pyserini is a Python toolkit for first-stage retrieval in IR research. It wraps 
 
 <sub>GPU optional · Needs Java 21, Anserini (Lucene 10.5.0), Faiss, PyTorch · Models: BM25, uniCOIL, SPLADE, DPR, Contriever · [Repo](https://github.com/castorini/pyserini) · [📖 Docs ↗](https://castorini.github.io/pyserini/2cr/beir.html) · [🌐 Site ↗](http://anserini.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyserini/)</sub>
 
-<a name="llm-wiki-agent"></a>
-### #&#8288;45 [llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
-
-**Coding-agent skill that builds an interlinked markdown wiki from ingested documents.**
-
-A set of schema files (CLAUDE.md, AGENTS.md, GEMINI.md) and Claude Code slash commands that make a coding agent ingest documents from raw/ into a markdown wiki with source, entity, concept and synthesis pages. It also lints for orphans and contradictions, and builds a vis.js graph.html from wikilinks plus agent-inferred edges. Non-markdown files are converted with markitdown.
-
-- **+** Output is plain markdown in a git repo, browsable in Obsidian
-- **+** Works with Claude Code, Codex, OpenCode and Gemini CLI via per-agent schema files
-- **+** Flags contradictions at ingest and lints for orphans and broken links
-- **+** Graph build is SHA256-cached and outputs a self-contained graph.html, no server
-- **−** Requires a separate coding agent; the skill does nothing on its own
-- **−** Standalone tools/ scripts need ANTHROPIC_API_KEY; no other provider is documented
-- **−** Wiki quality depends on the agent's reading; no accuracy figures given
-- **−** No published release and no multi-user or web UI
-
-<sub>no GPU · Needs Claude Code, Codex, OpenCode or Gemini CLI, markitdown, NetworkX, ANTHROPIC_API_KEY (standalone tools/ scripts) · Models: Claude, Codex, Gemini CLI · [Repo](https://github.com/samuraigpt/llm-wiki-agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-wiki-agent/)</sub>
-
 <a name="obsidian-smart-connections"></a>
-### #&#8288;46 [obsidian-smart-connections](https://github.com/brianpetro/obsidian-smart-connections) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (35) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · custom license · Oct 2026</sub>
+### #&#8288;45 [obsidian-smart-connections](https://github.com/brianpetro/obsidian-smart-connections) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (35) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · custom license · Oct 2026</sub>
 
 **Obsidian plugin that finds related notes using local embeddings.**
 
@@ -830,6 +812,24 @@ Smart Connections is an Obsidian community plugin that indexes a vault with a bu
 - **−** Semantic matching can omit notes that contain the exact query text
 
 <sub>no GPU · Needs Obsidian · Models: bundled local embedding model · [Repo](https://github.com/brianpetro/obsidian-smart-connections) · [📖 Docs ↗](https://smartconnections.app/smart-connections/) · [🌐 Site ↗](https://smartconnections.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obsidian-smart-connections/)</sub>
+
+<a name="llm-wiki-agent"></a>
+### #&#8288;46 [llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
+
+**Coding-agent skill that builds an interlinked markdown wiki from ingested documents.**
+
+A set of schema files (CLAUDE.md, AGENTS.md, GEMINI.md) and Claude Code slash commands that make a coding agent ingest documents from raw/ into a markdown wiki with source, entity, concept and synthesis pages. It also lints for orphans and contradictions, and builds a vis.js graph.html from wikilinks plus agent-inferred edges. Non-markdown files are converted with markitdown.
+
+- **+** Output is plain markdown in a git repo, browsable in Obsidian
+- **+** Works with Claude Code, Codex, OpenCode and Gemini CLI via per-agent schema files
+- **+** Flags contradictions at ingest and lints for orphans and broken links
+- **+** Graph build is SHA256-cached and outputs a self-contained graph.html, no server
+- **−** Requires a separate coding agent; the skill does nothing on its own
+- **−** Standalone tools/ scripts need ANTHROPIC_API_KEY; no other provider is documented
+- **−** Wiki quality depends on the agent's reading; no accuracy figures given
+- **−** No published release and no multi-user or web UI
+
+<sub>no GPU · Needs Claude Code, Codex, OpenCode or Gemini CLI, markitdown, NetworkX, ANTHROPIC_API_KEY (standalone tools/ scripts) · Models: Claude, Codex, Gemini CLI · [Repo](https://github.com/samuraigpt/llm-wiki-agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-wiki-agent/)</sub>
 
 <a name="sentrysearch"></a>
 ### #&#8288;47 [sentrysearch](https://github.com/ssrajadh/sentrysearch) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Oct 2026</sub>
@@ -1119,7 +1119,7 @@ Deep Research takes a topic, asks clarifying questions, drafts a research plan, 
 <sub>no GPU · Docker + Compose · Needs LLM API key or Ollama, Search provider (Searxng, Tavily, Firecrawl, Exa, Brave, or model search), Node.js 18.18+ for development · Models: Gemini, OpenAI, Anthropic, DeepSeek, Grok · port 3000 · [Repo](https://github.com/u14app/deep-research) · [▶️ Demo ↗](https://research.u14.app/) · [📖 Docs ↗](https://github.com/u14app/deep-research/blob/main/docs/deep-research-api-doc.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/u14app-deep-research/)</sub>
 
 <a name="kag"></a>
-### #&#8288;63 [kag](https://github.com/openspg/kag) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (52) · Freshness: quiet (22) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;63 [kag](https://github.com/openspg/kag) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (52) · Freshness: quiet (22) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Jan 2026</sub>
 
 **Knowledge-graph Q&A framework with logic-form reasoning, built on OpenSPG.**
 

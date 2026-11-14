@@ -273,25 +273,8 @@ ClawRouter runs a local proxy on port 8402 with an OpenAI-compatible endpoint. I
 
 <sub>no GPU · Needs Node.js, BlockRun gateway (blockrun.ai), USDC wallet (Solana or Base) or BlockRun API key · Models: OpenAI, Anthropic, Google, xAI, DeepSeek · port 8402 · [Repo](https://github.com/blockrunai/clawrouter) · [🌐 Site ↗](https://blockrun.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawrouter/)</sub>
 
-<a name="higress"></a>
-### #&#8288;16 [Higress](https://github.com/higress-group/higress) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Nov 2026</sub>
-
-**Istio and Envoy API gateway with LLM proxying and MCP server hosting.**
-
-Higress is a cloud-native API gateway built on Istio and Envoy, extended through Wasm plugins written in Go, Rust or JS. For AI use it proxies many LLM providers behind a unified protocol with token rate limiting, caching, load balancing and observability. It can also host remote MCP servers, including ones converted from OpenAPI specs, and doubles as a Kubernetes ingress controller.
-
-- **+** Wasm plugins in Go/Rust/JS with hot updates, no connection drops on config change
-- **+** Streams request and response bodies, including SSE, for LLM traffic
-- **+** Hosts MCP servers with auth, rate limiting and audit logs; OpenAPI-to-MCP conversion
-- **+** Also a Kubernetes ingress and Gateway API implementation; one-command Docker start
-- **−** Heavier to operate than a lightweight LLM proxy; Istio/Envoy concepts apply
-- **−** Default images are pulled from Alibaba Cloud registries; mirrors needed in some regions
-- **−** Plugin hub and much of the documentation are hosted on higress.cn
-
-<sub>no GPU · Docker · Needs Docker or Kubernetes · Models: multiple domestic and international LLM providers via ai-proxy plugin · port 8001 · [Repo](https://github.com/higress-group/higress) · [▶️ Demo ↗](https://demo.higress.io/) · [📖 Docs ↗](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site ↗](https://higress.ai/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/higress/)</sub>
-
 <a name="treg"></a>
-### #&#8288;17 [treg](https://github.com/superdesigndev/treg) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · custom license · Nov 2026</sub>
+### #&#8288;16 [treg](https://github.com/superdesigndev/treg) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · custom license · Nov 2026</sub>
 
 **Tool registry proxy giving agents one token for a priced API catalog.**
 
@@ -307,6 +290,23 @@ treg is a proxy and CLI that lets an agent call a catalog of third-party endpoin
 - **−** Sends anonymous usage to PostHog by default when using treg.to
 
 <sub>no GPU · Needs uv, tmux, Node 22.12+ (dashboard build), SQLite, PostHog (CLI telemetry, optional) · port 18790 · [Repo](https://github.com/superdesigndev/treg) · [📖 Docs ↗](https://treg.to/llms.txt) · [🌐 Site ↗](https://treg.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/treg/)</sub>
+
+<a name="higress"></a>
+### #&#8288;17 [Higress](https://github.com/higress-group/higress) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Nov 2026</sub>
+
+**Istio and Envoy API gateway with LLM proxying and MCP server hosting.**
+
+Higress is a cloud-native API gateway built on Istio and Envoy, extended through Wasm plugins written in Go, Rust or JS. For AI use it proxies many LLM providers behind a unified protocol with token rate limiting, caching, load balancing and observability. It can also host remote MCP servers, including ones converted from OpenAPI specs, and doubles as a Kubernetes ingress controller.
+
+- **+** Wasm plugins in Go/Rust/JS with hot updates, no connection drops on config change
+- **+** Streams request and response bodies, including SSE, for LLM traffic
+- **+** Hosts MCP servers with auth, rate limiting and audit logs; OpenAPI-to-MCP conversion
+- **+** Also a Kubernetes ingress and Gateway API implementation; one-command Docker start
+- **−** Heavier to operate than a lightweight LLM proxy; Istio/Envoy concepts apply
+- **−** Default images are pulled from Alibaba Cloud registries; mirrors needed in some regions
+- **−** Plugin hub and much of the documentation are hosted on higress.cn
+
+<sub>no GPU · Docker · Needs Docker or Kubernetes · Models: multiple domestic and international LLM providers via ai-proxy plugin · port 8001 · [Repo](https://github.com/higress-group/higress) · [▶️ Demo ↗](https://demo.higress.io/) · [📖 Docs ↗](https://higress.cn/en/docs/latest/overview/what-is-higress/) · [🌐 Site ↗](https://higress.ai/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/higress/)</sub>
 
 <a name="axonhub"></a>
 ### #&#8288;18 [axonhub](https://github.com/looplj/axonhub) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · Apache-2.0 · Nov 2026</sub>
@@ -363,7 +363,7 @@ Harbor is a Python CLI from the Terminal-Bench team that runs agents such as Cla
 <sub>no GPU · Needs Docker, Daytona, Modal · Models: Provider/model strings via --model, e.g. anthropic/... · [Repo](https://github.com/harbor-framework/harbor) · [📖 Docs ↗](https://harborframework.com/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/harbor/)</sub>
 
 <a name="langwatch"></a>
-### #&#8288;21 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;21 [LangWatch](https://github.com/langwatch/langwatch) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
 
 **Tracing, evals, prompt management and an LLM gateway for AI apps and coding agents.**
 
@@ -790,7 +790,7 @@ Sits as an OpenAI-compatible gateway in front of 100+ models with routing and au
 <sub>no GPU · Docker + Compose · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/helicone/helicone) · [▶️ Demo ↗](https://helicone.ai/demo) · [📖 Docs ↗](https://docs.helicone.ai/) · [🌐 Site ↗](https://www.helicone.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helicone/)</sub>
 
 <a name="claude-tap"></a>
-### #&#8288;45 [claude-tap](https://github.com/liaohch3/claude-tap) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
+### #&#8288;45 [claude-tap](https://github.com/liaohch3/claude-tap) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
 
 **Local proxy and trace viewer for inspecting AI coding agent API traffic.**
 

@@ -40,7 +40,7 @@ MoneyPrinterTurbo takes a topic or keywords and produces a finished short video.
 <sub>RAM ≥ 4 GB · GPU optional · Docker + Compose · Needs Python 3.11+, LLM API or Ollama, Pexels/Pixabay/Coverr API key, Edge TTS or other TTS service · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Kimi · [Repo](https://github.com/harry0703/moneyprinterturbo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moneyprinterturbo/)</sub>
 
 <a name="toonflow-app"></a>
-### 🥉 [toonflow-app](https://github.com/hbai-ltd/toonflow-app) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Nov 2026</sub>
+### 🥉 [toonflow-app](https://github.com/hbai-ltd/toonflow-app) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Nov 2026</sub>
 
 **Infinite-canvas tool for AI short drama and comic video production.**
 
@@ -255,7 +255,7 @@ LTX-2 is a 22B-parameter DiT model from Lightricks that generates video with syn
 <sub>GPU required · Needs uv, Hugging Face CLI, PyTorch, CUDA · Models: LTX-2.5 22B distilled, LTX-2.5 22B dev, LTX-2.3, Gemma 4 12B text encoder, safetensors · [Repo](https://github.com/lightricks/ltx-2) · [▶️ Demo ↗](https://console.ltx.video/playground) · [🌐 Site ↗](https://ltx.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ltx-2/)</sub>
 
 <a name="open-generative-ai"></a>
-### #&#8288;15 [open-generative-ai](https://github.com/anil-matcha/open-generative-ai) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · MIT · Nov 2026</sub>
+### #&#8288;15 [open-generative-ai](https://github.com/anil-matcha/open-generative-ai) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · MIT · Nov 2026</sub>
 
 **Image, video and lip-sync studio app that calls hosted models through MuAPI.**
 
@@ -325,25 +325,8 @@ OpenFilm represents a film as a folder with a film.html, where each track is a s
 
 <sub>Needs Node 22.2+, ffmpeg, git, headless Chromium (about 100 MB, downloaded on first run) · Models: ElevenLabs, OpenAI, Google, OpenRouter, fal · [Repo](https://github.com/openfilm/openfilm) · [🌐 Site ↗](https://openfilm.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openfilm/)</sub>
 
-<a name="modly"></a>
-### #&#8288;19 [modly](https://github.com/lightningpixel/modly) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · custom license · Oct 2026</sub>
-
-**Desktop app that generates 3D meshes from photos using local models.**
-
-Modly is an Electron and TypeScript desktop app with a Python FastAPI backend that turns an image into a 3D mesh using open models on your own GPU. Models such as Hunyuan3D 2 Mini, TripoSG and Trellis2 GGUF are installed as extensions from GitHub repositories. It has a node-based workflow editor, in-app mesh smoothing and decimation, and a CLI for scripts and agents.
-
-- **+** Model extensions install from a GitHub URL; official ones cover Hunyuan3D 2 Mini, TripoSG, Trellis2 GGUF
-- **+** Runs on Windows, Linux and Apple Silicon macOS; AMD GPUs supported via ROCm
-- **+** Node-based workflows are validated before run; meshes can be smoothed and decimated in-app
-- **+** Stdlib-only CLI exposes generate, workflow-run and model commands for scripts and agents
-- **−** Focused on image-to-3D; no general image or video generation described
-- **−** Hugging Face is the only supported model weight provider
-- **−** Detected license is NOASSERTION; README says MIT with a required attribution credit for forks
-
-<sub>GPU required · Needs Node.js, Python, Hugging Face (model weights) · Models: Hunyuan3D 2 Mini, Hunyuan3D 2 Mini Turbo, Hunyuan3D 2 Mini Fast, TripoSG, Trellis2 GGUF · [Repo](https://github.com/lightningpixel/modly) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modly/)</sub>
-
 <a name="claude-code-video-toolkit"></a>
-### #&#8288;20 [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Nov 2026</sub>
+### #&#8288;19 [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Nov 2026</sub>
 
 **Claude Code skills and templates that script, voice, score and render videos.**
 
@@ -359,6 +342,23 @@ A workspace of Claude Code skills, slash commands, Remotion and moviepy template
 - **−** Blender skill is experimental and needs a separate Blender install
 
 <sub>GPU optional · Docker · Needs Claude Code, Node.js 22+, uv (Python 3.10+), Modal or RunPod, Cloudflare R2, ElevenLabs (optional), FFmpeg (optional) · Models: Qwen3-TTS, FLUX.2, ACE-Step, LTX-2.3, Qwen-Image · [Repo](https://github.com/digitalsamba/claude-code-video-toolkit) · [▶️ Demo ↗](https://www.youtube.com/watch?v=3HjPatdeal4) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/claude-code-video-toolkit/)</sub>
+
+<a name="modly"></a>
+### #&#8288;20 [modly](https://github.com/lightningpixel/modly) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · custom license · Oct 2026</sub>
+
+**Desktop app that generates 3D meshes from photos using local models.**
+
+Modly is an Electron and TypeScript desktop app with a Python FastAPI backend that turns an image into a 3D mesh using open models on your own GPU. Models such as Hunyuan3D 2 Mini, TripoSG and Trellis2 GGUF are installed as extensions from GitHub repositories. It has a node-based workflow editor, in-app mesh smoothing and decimation, and a CLI for scripts and agents.
+
+- **+** Model extensions install from a GitHub URL; official ones cover Hunyuan3D 2 Mini, TripoSG, Trellis2 GGUF
+- **+** Runs on Windows, Linux and Apple Silicon macOS; AMD GPUs supported via ROCm
+- **+** Node-based workflows are validated before run; meshes can be smoothed and decimated in-app
+- **+** Stdlib-only CLI exposes generate, workflow-run and model commands for scripts and agents
+- **−** Focused on image-to-3D; no general image or video generation described
+- **−** Hugging Face is the only supported model weight provider
+- **−** Detected license is NOASSERTION; README says MIT with a required attribution credit for forks
+
+<sub>GPU required · Needs Node.js, Python, Hugging Face (model weights) · Models: Hunyuan3D 2 Mini, Hunyuan3D 2 Mini Turbo, Hunyuan3D 2 Mini Fast, TripoSG, Trellis2 GGUF · [Repo](https://github.com/lightningpixel/modly) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modly/)</sub>
 
 <a name="comfyui-manager"></a>
 ### #&#8288;21 [comfyui-manager](https://github.com/comfy-org/comfyui-manager) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · GPL-3.0 · Nov 2026</sub>
@@ -1438,25 +1438,8 @@ OmniGen2 is a multimodal generation model built on a Qwen-VL-2.5 foundation, wit
 
 <sub>GPU required · Needs PyTorch 2.6.0, Python 3.11, flash-attn (optional), Gradio · Models: OmniGen2 (Hugging Face), OmniGen2-EditScore7B LoRA, Qwen-VL-2.5 base · [Repo](https://github.com/vectorspacelab/omnigen2) · [▶️ Demo ↗](https://huggingface.co/spaces/OmniGen2/OmniGen2) · [🌐 Site ↗](https://vectorspacelab.github.io/OmniGen2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omnigen2/)</sub>
 
-<a name="fast-stable-diffusion"></a>
-### #&#8288;81 [fast-stable-diffusion](https://github.com/thelastben/fast-stable-diffusion) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: popular (54) · Freshness: quiet (5) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2025</sub>
-
-**Google Colab notebooks for running ComfyUI, AUTOMATIC1111 and DreamBooth.**
-
-Three Jupyter notebooks that launch ComfyUI, AUTOMATIC1111 and a DreamBooth fine-tuning workflow on Google Colab. The README is only badges and links, so it gives no setup steps, model list or requirements. The author also advertises a paid Flux and SDXL trainer via X.
-
-- **+** Separate Colab notebooks for ComfyUI, AUTOMATIC1111 and DreamBooth
-- **+** MIT license
-- **+** No local GPU needed, since the notebooks target Google Colab
-- **−** README has no usage instructions, requirements or supported model list
-- **−** Tied to Google Colab; no local or Docker setup documented
-- **−** No releases; last commit 2025-11-29
-- **−** Advanced Flux and SDXL trainers are sold separately, not in this repo
-
-<sub>Needs Google Colab · Models: Stable Diffusion · [Repo](https://github.com/thelastben/fast-stable-diffusion) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fast-stable-diffusion/)</sub>
-
 <a name="echomimic-v2"></a>
-### #&#8288;82 [echomimic_v2](https://github.com/antgroup/echomimic_v2) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: known (31) · Freshness: slowing (37) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;81 [echomimic_v2](https://github.com/antgroup/echomimic_v2) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: known (31) · Freshness: slowing (37) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Feb 2026</sub>
 
 **Audio-driven half-body human animation from a reference image and pose sequence.**
 
@@ -1472,6 +1455,23 @@ EchoMimicV2 generates talking half-body human videos from a reference image, an 
 - **−** No Docker image and no tagged releases
 
 <sub>GPU required · Needs CUDA >= 11.7, Python 3.10, PyTorch 2.5.1, xformers, ffmpeg-static 4.4, git-lfs, Whisper tiny audio processor, sd-vae-ft-mse · Models: EchoMimicV2 checkpoints (denoising_unet, reference_unet, motion_module, pose_encoder), sd-vae-ft-mse, Whisper tiny · [Repo](https://github.com/antgroup/echomimic_v2) · [📖 Docs ↗](https://github.com/antgroup/echomimic_v2/discussions/53) · [🌐 Site ↗](https://antgroup.github.io/ai/echomimic_v2/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/echomimic-v2/)</sub>
+
+<a name="fast-stable-diffusion"></a>
+### #&#8288;82 [fast-stable-diffusion](https://github.com/thelastben/fast-stable-diffusion) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: popular (54) · Freshness: quiet (5) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2025</sub>
+
+**Google Colab notebooks for running ComfyUI, AUTOMATIC1111 and DreamBooth.**
+
+Three Jupyter notebooks that launch ComfyUI, AUTOMATIC1111 and a DreamBooth fine-tuning workflow on Google Colab. The README is only badges and links, so it gives no setup steps, model list or requirements. The author also advertises a paid Flux and SDXL trainer via X.
+
+- **+** Separate Colab notebooks for ComfyUI, AUTOMATIC1111 and DreamBooth
+- **+** MIT license
+- **+** No local GPU needed, since the notebooks target Google Colab
+- **−** README has no usage instructions, requirements or supported model list
+- **−** Tied to Google Colab; no local or Docker setup documented
+- **−** No releases; last commit 2025-11-29
+- **−** Advanced Flux and SDXL trainers are sold separately, not in this repo
+
+<sub>Needs Google Colab · Models: Stable Diffusion · [Repo](https://github.com/thelastben/fast-stable-diffusion) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fast-stable-diffusion/)</sub>
 
 <a name="comfyui-mixlab-nodes"></a>
 ### #&#8288;83 [comfyui-mixlab-nodes](https://github.com/mixlabpro/comfyui-mixlab-nodes) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (4) · Freshness: recent (51) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Jun 2026</sub>

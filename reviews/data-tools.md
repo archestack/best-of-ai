@@ -397,26 +397,8 @@ anydoc parses Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV and text-bas
 
 <sub>no GPU · Needs Firecrawl Parse API (optional, for OCR) · [Repo](https://github.com/firecrawl/anydoc) · [▶️ Demo ↗](https://firecrawl.github.io/anydoc/) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anydoc/)</sub>
 
-<a name="rea-video"></a>
-### #&#8288;23 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · Apache-2.0 · Nov 2026</sub>
-
-**Agent skill and CLI that breaks a video into shots and judges how each was made.**
-
-rea-video splits a video into shots and decides for each whether it was filmed, AI-generated or built in code, using frame cadence, sensor noise, metadata AIGC tags and audio analysis. It outputs a remake plan and a report.html with per-shot evidence, prompts, camera and lighting notes, and an audio breakdown. It is designed to be driven by Claude Code, Codex or a similar agent, and can optionally use Gemini or Doubao for better accuracy.
-
-- **+** Offline tools-only mode needs no paid model; README reports 98–99% accuracy on original files
-- **+** Judges each shot separately as live, AI, 3D or code, then reassembles on the original timeline
-- **+** Exports captions to SRT/ASS and reports BPM, cuts and sound effect placement
-- **+** Remake plan batches shots by target video model limits such as clip length and reference images
-- **−** Accuracy on re-encoded platform videos drops to 88.6% without a vision model or agent review
-- **−** Does not render video; automatic regeneration needs the separate capsule-cinema project
-- **−** Docs are in Chinese only for now
-- **−** Built around an agent workflow; no standalone UI or hosted demo
-
-<sub>Needs ffmpeg, Python 3.10+ · Models: Gemini, Doubao · [Repo](https://github.com/juneyaooo/rea-video) · [🌐 Site ↗](https://www.reavideo.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rea-video/)</sub>
-
 <a name="trafilatura"></a>
-### #&#8288;24 [trafilatura](https://github.com/adbar/trafilatura) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [trafilatura](https://github.com/adbar/trafilatura) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **Python library and CLI that extracts main text and metadata from web pages.**
 
@@ -433,7 +415,7 @@ Trafilatura downloads web pages, crawls sitemaps and feeds, and extracts main te
 <sub>no GPU · Needs jusText, readability-lxml · [Repo](https://github.com/adbar/trafilatura) · [📖 Docs ↗](https://trafilatura.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trafilatura/)</sub>
 
 <a name="dataflow"></a>
-### #&#8288;25 [dataflow](https://github.com/opendcai/dataflow) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [dataflow](https://github.com/opendcai/dataflow) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
 
 **Operator-based Python pipelines for generating and cleaning LLM training data.**
 
@@ -450,26 +432,26 @@ DataFlow is a Python framework that turns noisy sources (PDFs, plain text, low-q
 
 <sub>GPU optional · Docker · Needs OpenAI-compatible LLM API or vLLM, uv · Models: OpenAI-compatible APIs, vLLM local models · [Repo](https://github.com/opendcai/dataflow) · [▶️ Demo ↗](https://colab.research.google.com/drive/1haosl2QS4N4HM7u7HvSsz_MnLabxexXl?usp=sharing) · [📖 Docs ↗](https://OpenDCAI.github.io/DataFlow-Doc/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataflow/)</sub>
 
-<a name="data-juicer"></a>
-### #&#8288;26 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+<a name="rea-video"></a>
+### #&#8288;25 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Nov 2026</sub>
 
-**Operator-based pipelines for cleaning and deduplicating multimodal training data.**
+**Agent skill and CLI that breaks a video into shots and judges how each was made.**
 
-Data-Juicer is a Python library and CLI (dj-process) that runs YAML-defined pipelines of 200+ operators over text, image, audio and video data, covering filtering, mapping, deduplication and analysis. It runs locally or on Ray clusters, and the README cites 70B samples in 2h on 50 Ray nodes and 5TB deduplicated in 2.8h on 1280 cores. It also ships LLM-based operators and a natural-language refinement model, Juicer.
+rea-video splits a video into shots and decides for each whether it was filmed, AI-generated or built in code, using frame cadence, sensor noise, metadata AIGC tags and audio analysis. It outputs a remake plan and a report.html with per-shot evidence, prompts, camera and lighting notes, and an audio breakdown. It is designed to be driven by Claude Code, Codex or a similar agent, and can optionally use Gemini or Doubao for better accuracy.
 
-- **+** 200+ operators across text, image, audio, video and multimodal data
-- **+** Reproducible YAML recipes, plus a Python API for composing operators
-- **+** Ray-based distributed execution with partitioning, checkpoints and OP fusion
-- **+** Supports S3 and HDFS I/O, and loads Hugging Face datasets and gz JSONL
-- **−** Many operators need extra dependencies or GPUs; the install is split into extras
-- **−** Large-scale performance figures come from big clusters (1280 to 6400 cores)
-- **−** Frequent releases with many operator behavior fixes; pin versions for reproducibility
-- **−** Docs and several tools are spread across separate repos (hub, agents, sandbox)
+- **+** Offline tools-only mode needs no paid model; README reports 98–99% accuracy on original files
+- **+** Judges each shot separately as live, AI, 3D or code, then reassembles on the original timeline
+- **+** Exports captions to SRT/ASS and reports BPM, cuts and sound effect placement
+- **+** Remake plan batches shots by target video model limits such as clip length and reference images
+- **−** Accuracy on re-encoded platform videos drops to 88.6% without a vision model or agent review
+- **−** Does not render video; automatic regeneration needs the separate capsule-cinema project
+- **−** Docs are in Chinese only for now
+- **−** Built around an agent workflow; no standalone UI or hosted demo
 
-<sub>GPU optional · Docker · Needs Ray (distributed mode), S3 or HDFS (optional), Hugging Face / ModelScope models (optional) · Models: Hugging Face models, OpenAI-compatible API, LiteLLM, Juicer-35B-A3B · [Repo](https://github.com/datajuicer/data-juicer) · [▶️ Demo ↗](http://8.138.149.181/) · [📖 Docs ↗](https://datajuicer.github.io/data-juicer/en/main/docs_index.html) · [🌐 Site ↗](https://datajuicer.github.io/data-juicer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-juicer/)</sub>
+<sub>Needs ffmpeg, Python 3.10+ · Models: Gemini, Doubao · [Repo](https://github.com/juneyaooo/rea-video) · [🌐 Site ↗](https://www.reavideo.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rea-video/)</sub>
 
 <a name="kordoc"></a>
-### #&#8288;27 [kordoc](https://github.com/chrisryugj/kordoc) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+### #&#8288;26 [kordoc](https://github.com/chrisryugj/kordoc) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
 
 **Parses HWP, HWPX, PDF and Office files into Markdown, as library, CLI and MCP server.**
 
@@ -485,6 +467,24 @@ kordoc converts Korean government document formats (HWP 3.x/5.x, HWPX, HWPML) pl
 - **−** HWP to HWPX conversion fully matches only 69 of 232 compared pairs
 
 <sub>no GPU · Needs Node.js 20+ · Models: HWP 3.x/5.x, HWPX, HWPML, PDF, XLS/XLSX · [Repo](https://github.com/chrisryugj/kordoc) · [📖 Docs ↗](https://github.com/chrisryugj/kordoc/blob/main/docs/usage.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kordoc/)</sub>
+
+<a name="data-juicer"></a>
+### #&#8288;27 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+
+**Operator-based pipelines for cleaning and deduplicating multimodal training data.**
+
+Data-Juicer is a Python library and CLI (dj-process) that runs YAML-defined pipelines of 200+ operators over text, image, audio and video data, covering filtering, mapping, deduplication and analysis. It runs locally or on Ray clusters, and the README cites 70B samples in 2h on 50 Ray nodes and 5TB deduplicated in 2.8h on 1280 cores. It also ships LLM-based operators and a natural-language refinement model, Juicer.
+
+- **+** 200+ operators across text, image, audio, video and multimodal data
+- **+** Reproducible YAML recipes, plus a Python API for composing operators
+- **+** Ray-based distributed execution with partitioning, checkpoints and OP fusion
+- **+** Supports S3 and HDFS I/O, and loads Hugging Face datasets and gz JSONL
+- **−** Many operators need extra dependencies or GPUs; the install is split into extras
+- **−** Large-scale performance figures come from big clusters (1280 to 6400 cores)
+- **−** Frequent releases with many operator behavior fixes; pin versions for reproducibility
+- **−** Docs and several tools are spread across separate repos (hub, agents, sandbox)
+
+<sub>GPU optional · Docker · Needs Ray (distributed mode), S3 or HDFS (optional), Hugging Face / ModelScope models (optional) · Models: Hugging Face models, OpenAI-compatible API, LiteLLM, Juicer-35B-A3B · [Repo](https://github.com/datajuicer/data-juicer) · [▶️ Demo ↗](http://8.138.149.181/) · [📖 Docs ↗](https://datajuicer.github.io/data-juicer/en/main/docs_index.html) · [🌐 Site ↗](https://datajuicer.github.io/data-juicer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-juicer/)</sub>
 
 <a name="unstract"></a>
 ### #&#8288;28 [unstract](https://github.com/zipstack/unstract) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · AGPL-3.0 · Nov 2026</sub>

@@ -77,7 +77,7 @@ A.I.G (AI-Infra-Guard) from Tencent Zhuque Lab is a web platform that fingerprin
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker 20.10+, LLM API key for skill, MCP and jailbreak scans · Models: OpenAI-compatible LLM APIs (base URL + key) · port 8088 · [Repo](https://github.com/tencent/ai-infra-guard) · [📖 Docs ↗](https://tencent.github.io/AI-Infra-Guard/) · [🌐 Site ↗](https://aigsec.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-infra-guard/)</sub>
 
 <a name="aisoc"></a>
-### #&#8288;5 [aisoc](https://github.com/beenuar/aisoc) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · MIT · Nov 2026</sub>
+### #&#8288;5 [aisoc](https://github.com/beenuar/aisoc) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
 
 **Self-hosted SOC that detects threats and investigates alerts with auditable AI agents.**
 
@@ -113,7 +113,7 @@ PentAGI takes a target and goal in plain language, then uses a team of specializ
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose, PostgreSQL with pgvector, Neo4j (optional), Langfuse (optional), Grafana/Prometheus (optional) · Models: OpenAI, Anthropic, Google Gemini, AWS Bedrock, Ollama · [Repo](https://github.com/vxcontrol/pentagi) · [🌐 Site ↗](https://vxcontrol.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentagi/)</sub>
 
 <a name="failproofai"></a>
-### #&#8288;7 [failproofai](https://github.com/failproofai/failproofai) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · custom license · Nov 2026</sub>
+### #&#8288;7 [failproofai](https://github.com/failproofai/failproofai) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · custom license · Nov 2026</sub>
 
 **Policy enforcement and run tracing for coding agent CLIs and gateways.**
 
@@ -203,7 +203,7 @@ CyberStrikeAI is a Go-based platform that turns natural-language intent into gov
 <sub>Needs Go 1.25+, Python 3.10+, OpenAI-compatible API, nmap, metasploit, sqlmap, nuclei, SQLite · Models: OpenAI-compatible models (e.g. GPT-4o, DeepSeek, Qwen) · port 8080 · [Repo](https://github.com/aipentest/cyberstrikeai) · [📖 Docs ↗](https://github.com/aipentest/cyberstrikeai/blob/main/docs/en-US/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cyberstrikeai/)</sub>
 
 <a name="bla"></a>
-### #&#8288;12 [bla](https://github.com/qybaihe/bla) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · MIT · Nov 2026</sub>
+### #&#8288;12 [bla](https://github.com/qybaihe/bla) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · MIT · Nov 2026</sub>
 
 **Hardens release artifacts against AI reverse-engineering agents.**
 
@@ -239,7 +239,7 @@ Python CLI (`bughunter`) and Claude Code plugin that drives a bug bounty workflo
 <sub>GPU optional · Needs subfinder, httpx, nuclei, katana, ffuf, nmap, Ollama or a cloud LLM API key · Models: Ollama, Groq, DeepSeek, Claude API, OpenAI · [Repo](https://github.com/awarexone/agentic-bug-hunter) · [📖 Docs ↗](https://github.com/awarexone/Agentic-Bug-Hunter/blob/main/docs/mcp.md) · [🌐 Site ↗](https://www.awarexone.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-bug-hunter/)</sub>
 
 <a name="t3mp3st"></a>
-### #&#8288;14 [t3mp3st](https://github.com/elder-plinius/t3mp3st) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (45) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;14 [t3mp3st](https://github.com/elder-plinius/t3mp3st) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (45) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · AGPL-3.0 · Sep 2026</sub>
 
 **Multi-agent offensive-security framework driven by your coding agent or local model.**
 
@@ -418,26 +418,8 @@ Superagent is a TypeScript and Python SDK (package `safety-agent`) with a guard 
 
 <sub>Needs Superagent API key (superagent.sh) · Models: OpenAI, Anthropic, Google, Groq, Bedrock · [Repo](https://github.com/superagent-ai/superagent) · [📖 Docs ↗](https://docs.superagent.sh) · [🌐 Site ↗](https://superagent.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/superagent/)</sub>
 
-<a name="pentest-ai-agents"></a>
-### #&#8288;24 [pentest-ai-agents](https://github.com/0xsteph/pentest-ai-agents) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Aug 2026</sub>
-
-**Claude Code subagents for pentesting, from recon to reporting.**
-
-A set of Claude Code subagent definition files, each covering one pentest area such as recon, web, Active Directory, cloud, mobile, C2, reverse engineering, detection engineering and reporting. Claude routes a task to the matching agent. Execution-capable Tier 2 agents require a declared scope and a scope-guard block. It installs by shell script into ~/.claude/agents or as a Claude Code plugin, and adds a SQLite findings database and slash commands.
-
-- **+** Covers recon, exploitation, post-exploitation, detection and reporting with distinct agents
-- **+** Tier 2 agents need a declared scope; CI checks the scope-guard block is present
-- **+** Installs by copying files or as a Claude Code plugin; no servers or Python deps
-- **+** Offensive agents pair techniques with detection content; includes SQLite findings DB
-- **−** Requires Claude Code; agents are prompt files, not a standalone runtime
-- **−** Underlying tools (nmap, nuclei, sqlmap, etc.) must be installed separately
-- **−** README says both 50 and 52 agents, so the count is inconsistent
-- **−** Includes C2, evasion and payload agents that are easy to misuse outside authorized work
-
-<sub>no GPU · Docker · Needs Claude Code, nmap, nuclei, sqlmap and other CLI pentest tools (optional, via install.sh --tools), SQLite · Models: Claude · [Repo](https://github.com/0xsteph/pentest-ai-agents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentest-ai-agents/)</sub>
-
 <a name="cairn"></a>
-### #&#8288;25 [cairn](https://github.com/oritera/cairn) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (26) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;24 [cairn](https://github.com/oritera/cairn) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (26) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · AGPL-3.0 · Sep 2026</sub>
 
 **Blackboard-based multi-agent engine for AI penetration testing and CTF solving.**
 
@@ -453,5 +435,23 @@ Cairn searches for a path from an origin to a goal by having agent workers read 
 - **−** Benchmark results come from one competition; no independent evaluation is cited
 
 <sub>no GPU · Docker + Compose · Needs Docker (not needed in local mode), Python >= 3.12, uv, Claude Code, Codex or Pi CLI/LLM endpoints · Models: Claude Code, Codex, Pi · port 8000 · [Repo](https://github.com/oritera/cairn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cairn/)</sub>
+
+<a name="pentest-ai-agents"></a>
+### #&#8288;25 [pentest-ai-agents](https://github.com/0xsteph/pentest-ai-agents) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Aug 2026</sub>
+
+**Claude Code subagents for pentesting, from recon to reporting.**
+
+A set of Claude Code subagent definition files, each covering one pentest area such as recon, web, Active Directory, cloud, mobile, C2, reverse engineering, detection engineering and reporting. Claude routes a task to the matching agent. Execution-capable Tier 2 agents require a declared scope and a scope-guard block. It installs by shell script into ~/.claude/agents or as a Claude Code plugin, and adds a SQLite findings database and slash commands.
+
+- **+** Covers recon, exploitation, post-exploitation, detection and reporting with distinct agents
+- **+** Tier 2 agents need a declared scope; CI checks the scope-guard block is present
+- **+** Installs by copying files or as a Claude Code plugin; no servers or Python deps
+- **+** Offensive agents pair techniques with detection content; includes SQLite findings DB
+- **−** Requires Claude Code; agents are prompt files, not a standalone runtime
+- **−** Underlying tools (nmap, nuclei, sqlmap, etc.) must be installed separately
+- **−** README says both 50 and 52 agents, so the count is inconsistent
+- **−** Includes C2, evasion and payload agents that are easy to misuse outside authorized work
+
+<sub>no GPU · Docker · Needs Claude Code, nmap, nuclei, sqlmap and other CLI pentest tools (optional, via install.sh --tools), SQLite · Models: Claude · [Repo](https://github.com/0xsteph/pentest-ai-agents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentest-ai-agents/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
