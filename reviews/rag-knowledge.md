@@ -149,7 +149,7 @@ GPT Researcher uses a planner agent to split a query into research questions, th
 <sub>no GPU · Docker + Compose · Needs OpenAI API key, Tavily API key, TypeSafe API key (optional, Jev filter), Google API key (optional, image generation), LangSmith (optional) · Models: OpenAI, OpenAI-compatible APIs via OPENAI_BASE_URL, Google Gemini · port 8000 · [Repo](https://github.com/assafelovic/gpt-researcher) · [📖 Docs ↗](https://docs.gptr.dev) · [🌐 Site ↗](https://gptr.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-researcher/)</sub>
 
 <a name="pageindex"></a>
-### #&#8288;9 [pageindex](https://github.com/vectifyai/pageindex) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Nov 2026</sub>
+### #&#8288;9 [pageindex](https://github.com/vectifyai/pageindex) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Nov 2026</sub>
 
 **Vectorless RAG that builds a tree index of a document and searches it with an LLM.**
 
@@ -257,7 +257,7 @@ DocsGPT ingests documents, web pages and synced sources such as Google Drive, Co
 <sub>GPU optional · Docker + Compose · Needs Docker, PostgreSQL, Redis, Vector store (FAISS, pgvector, Elasticsearch, Qdrant, Milvus or MongoDB) · Models: OpenAI, Anthropic, Google, Groq, OpenRouter · port 7091 · [Repo](https://github.com/arc53/docsgpt) · [▶️ Demo ↗](https://app.docsgpt.cloud/) · [📖 Docs ↗](https://docs.docsgpt.cloud/) · [🌐 Site ↗](https://www.docsgpt.cloud) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docsgpt/)</sub>
 
 <a name="txtai"></a>
-### #&#8288;15 [txtai](https://github.com/neuml/txtai) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [txtai](https://github.com/neuml/txtai) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **Python embeddings database with pipelines, workflows and agents for search and RAG.**
 
@@ -311,7 +311,7 @@ Local Deep Research runs multi-step research on a question using an LLM (Ollama 
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, Docker (optional) · Models: Ollama, OpenAI-compatible endpoints · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-research/)</sub>
 
 <a name="private-gpt"></a>
-### #&#8288;18 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;18 [PrivateGPT](https://github.com/zylon-ai/private-gpt) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · Apache-2.0 · Nov 2026</sub>
 
 **Anthropic-style API layer for private RAG on local inference servers.**
 
@@ -562,7 +562,7 @@ paperless-gpt is a Go service that sits next to paperless-ngx and uses an LLM to
 <sub>GPU optional · Docker + Compose · Needs paperless-ngx, OpenAI, Anthropic, Mistral or Ollama LLM provider, Docker · Models: OpenAI, Azure OpenAI, Mistral, Anthropic, Ollama · port 8080 · [Repo](https://github.com/icereed/paperless-gpt) · [📖 Docs ↗](https://github.com/icereed/paperless-gpt/blob/main/docs/workflows.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperless-gpt/)</sub>
 
 <a name="deepwiki-open"></a>
-### #&#8288;32 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
+### #&#8288;32 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
 
 **Generates browsable wikis with diagrams from Git repositories.**
 
@@ -597,23 +597,23 @@ llmware is a Python library that combines a model catalog (300+ models in GGUF, 
 
 <sub>GPU optional · Needs Milvus, ChromaDB · Models: GGUF, OpenVINO, ONNXRuntime, ONNXRuntime-QNN, PyTorch · [Repo](https://github.com/llmware-ai/llmware) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llmware/)</sub>
 
-<a name="localgpt"></a>
-### #&#8288;34 [localgpt](https://github.com/promtengineer/localgpt) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Aug 2026</sub>
+<a name="audiomuse-ai"></a>
+### #&#8288;34 [audiomuse-ai](https://github.com/neptunehub/audiomuse-ai) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · AGPL-3.0 · Nov 2026</sub>
 
-**Private document Q&A with hybrid search and reranking over Ollama models.**
+**Self-hosted sonic analysis and playlist generation for Navidrome, Jellyfin and Plex.**
 
-LocalGPT indexes PDF, DOCX, HTML, Markdown and TXT files with Docling and answers questions over them using LanceDB hybrid search (dense vectors plus full-text, fused with RRF) and a Qwen3 cross-encoder reranker. A router chooses between RAG and a direct LLM answer, and generation runs through Ollama. It ships a Next.js UI, a REST backend on port 8000 and a RAG API on port 8001.
+AudioMuse-AI analyzes the audio in your music library on your own server and uses the results for clustering, similarity playlists, a 2D music map, and text, lyrics and 20-second recording search. It connects to Navidrome, Jellyfin, LMS, Lyrion, Emby and Plex, including several at once with cross-server duplicate detection. It runs as Flask and worker containers on PostgreSQL 15, or as native packages for macOS, Linux and Windows.
 
-- **+** Hybrid retrieval: LanceDB vector plus full-text, RRF fusion, reranking on by default
-- **+** Defaults chosen from documented ablations in eval/decisions; late chunking and verification are optional
-- **+** Every UI action is an HTTP call; CLI and scripts can also build indexes
-- **+** Embedding and reranking pick CUDA, then Apple MPS, then CPU automatically
-- **−** Needs Python, Node.js 20+ and Ollama, running four separate services
-- **−** Reranker is about 7.5 GB and downloads on the first reranked query
-- **−** Changing the embedding model invalidates existing indexes; they must be rebuilt
-- **−** Vision and multimodal models are not integrated; scanned PDFs rely on OCR engines
+- **+** Supports Navidrome, Jellyfin, LMS, Lyrion, Emby and Plex, several servers in one deployment
+- **+** Analysis runs locally without metadata or external APIs; no ads or paywalls
+- **+** Native packages bundle embedded PostgreSQL, web UI and workers; no Docker needed
+- **+** Swagger API docs at /apidocs/ and AMD64/ARM64 images, with NVIDIA GPU variants
+- **−** Requires PostgreSQL v15; other versions may cause errors
+- **−** Needs AVX2 CPU; VMs must pass through host CPU, noavx2 images are experimental
+- **−** Native apps are unsigned; macOS build is Apple Silicon only, Windows x86_64 only
+- **−** Major or minor releases can require re-running the full library analysis
 
-<sub>RAM ≥ 8 GB · GPU optional · Docker + Compose · Needs Ollama, Python 3.10+, Node.js 20+, LanceDB, Docling, SQLite · Models: Ollama models (qwen3.5:9b default), HuggingFace embedding models, Qwen3-Reranker, watsonx · port 3000 · [Repo](https://github.com/promtengineer/localgpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/localgpt/)</sub>
+<sub>RAM ≥ 8 GB · GPU optional · Docker + Compose · Needs PostgreSQL 15, Navidrome, Jellyfin, LMS, Lyrion, Emby or Plex server · port 8000 · [Repo](https://github.com/neptunehub/audiomuse-ai) · [📖 Docs ↗](https://github.com/NeptuneHub/AudioMuse-AI/tree/main/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/audiomuse-ai/)</sub>
 
 <a name="knowhere"></a>
 ### #&#8288;35 [knowhere](https://github.com/ontos-ai/knowhere) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2026</sub>
@@ -633,23 +633,23 @@ Knowhere ingests PDFs, slides, Office files, images and audio, then builds hiera
 
 <sub>Docker + Compose · Needs PostgreSQL, Redis, S3-compatible storage, LLM provider API key, Vision-capable model provider, VERCEL_KEY for embeddings, uv · Models: DeepSeek, OpenAI, Qwen, GLM, Volcengine · port 5005 · [Repo](https://github.com/ontos-ai/knowhere) · [📖 Docs ↗](https://docs.knowhereto.ai/) · [🌐 Site ↗](https://knowhereto.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/knowhere/)</sub>
 
-<a name="audiomuse-ai"></a>
-### #&#8288;36 [audiomuse-ai](https://github.com/neptunehub/audiomuse-ai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · AGPL-3.0 · Nov 2026</sub>
+<a name="localgpt"></a>
+### #&#8288;36 [localgpt](https://github.com/promtengineer/localgpt) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Aug 2026</sub>
 
-**Self-hosted sonic analysis and playlist generation for Navidrome, Jellyfin and Plex.**
+**Private document Q&A with hybrid search and reranking over Ollama models.**
 
-AudioMuse-AI analyzes the audio in your music library on your own server and uses the results for clustering, similarity playlists, a 2D music map, and text, lyrics and 20-second recording search. It connects to Navidrome, Jellyfin, LMS, Lyrion, Emby and Plex, including several at once with cross-server duplicate detection. It runs as Flask and worker containers on PostgreSQL 15, or as native packages for macOS, Linux and Windows.
+LocalGPT indexes PDF, DOCX, HTML, Markdown and TXT files with Docling and answers questions over them using LanceDB hybrid search (dense vectors plus full-text, fused with RRF) and a Qwen3 cross-encoder reranker. A router chooses between RAG and a direct LLM answer, and generation runs through Ollama. It ships a Next.js UI, a REST backend on port 8000 and a RAG API on port 8001.
 
-- **+** Supports Navidrome, Jellyfin, LMS, Lyrion, Emby and Plex, several servers in one deployment
-- **+** Analysis runs locally without metadata or external APIs; no ads or paywalls
-- **+** Native packages bundle embedded PostgreSQL, web UI and workers; no Docker needed
-- **+** Swagger API docs at /apidocs/ and AMD64/ARM64 images, with NVIDIA GPU variants
-- **−** Requires PostgreSQL v15; other versions may cause errors
-- **−** Needs AVX2 CPU; VMs must pass through host CPU, noavx2 images are experimental
-- **−** Native apps are unsigned; macOS build is Apple Silicon only, Windows x86_64 only
-- **−** Major or minor releases can require re-running the full library analysis
+- **+** Hybrid retrieval: LanceDB vector plus full-text, RRF fusion, reranking on by default
+- **+** Defaults chosen from documented ablations in eval/decisions; late chunking and verification are optional
+- **+** Every UI action is an HTTP call; CLI and scripts can also build indexes
+- **+** Embedding and reranking pick CUDA, then Apple MPS, then CPU automatically
+- **−** Needs Python, Node.js 20+ and Ollama, running four separate services
+- **−** Reranker is about 7.5 GB and downloads on the first reranked query
+- **−** Changing the embedding model invalidates existing indexes; they must be rebuilt
+- **−** Vision and multimodal models are not integrated; scanned PDFs rely on OCR engines
 
-<sub>RAM ≥ 8 GB · GPU optional · Docker + Compose · Needs PostgreSQL 15, Navidrome, Jellyfin, LMS, Lyrion, Emby or Plex server · port 8000 · [Repo](https://github.com/neptunehub/audiomuse-ai) · [📖 Docs ↗](https://github.com/NeptuneHub/AudioMuse-AI/tree/main/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/audiomuse-ai/)</sub>
+<sub>RAM ≥ 8 GB · GPU optional · Docker + Compose · Needs Ollama, Python 3.10+, Node.js 20+, LanceDB, Docling, SQLite · Models: Ollama models (qwen3.5:9b default), HuggingFace embedding models, Qwen3-Reranker, watsonx · port 3000 · [Repo](https://github.com/promtengineer/localgpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/localgpt/)</sub>
 
 <a name="paperless-ai"></a>
 ### #&#8288;37 [Paperless-AI](https://github.com/clusterzx/paperless-ai) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Nov 2026</sub>
@@ -706,7 +706,7 @@ Next.js answer engine (formerly Perplexica) that runs searches through a bundled
 <sub>no GPU · Docker + Compose · Needs SearXNG (bundled in the default image), LLM provider (Ollama, OpenAI-compatible server or cloud API) · Models: Ollama, OpenAI, Anthropic Claude, Google Gemini, Groq · port 3000 · [Repo](https://github.com/itzcrazykns/vane) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vane/)</sub>
 
 <a name="llm-for-zotero"></a>
-### #&#8288;40 [llm-for-zotero](https://github.com/yilewang/llm-for-zotero) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;40 [llm-for-zotero](https://github.com/yilewang/llm-for-zotero) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · AGPL-3.0 · Nov 2026</sub>
 
 **Zotero plugin for chatting with papers and running an agent over your library.**
 
@@ -1119,7 +1119,7 @@ Deep Research takes a topic, asks clarifying questions, drafts a research plan, 
 <sub>no GPU · Docker + Compose · Needs LLM API key or Ollama, Search provider (Searxng, Tavily, Firecrawl, Exa, Brave, or model search), Node.js 18.18+ for development · Models: Gemini, OpenAI, Anthropic, DeepSeek, Grok · port 3000 · [Repo](https://github.com/u14app/deep-research) · [▶️ Demo ↗](https://research.u14.app/) · [📖 Docs ↗](https://github.com/u14app/deep-research/blob/main/docs/deep-research-api-doc.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/u14app-deep-research/)</sub>
 
 <a name="kag"></a>
-### #&#8288;63 [kag](https://github.com/openspg/kag) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (52) · Freshness: quiet (22) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;63 [kag](https://github.com/openspg/kag) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (52) · Freshness: quiet (22) · Maintenance: weak (9) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Jan 2026</sub>
 
 **Knowledge-graph Q&A framework with logic-form reasoning, built on OpenSPG.**
 
@@ -1154,25 +1154,8 @@ Vimo is an Electron desktop app backed by a Python VideoRAG server. It indexes v
 
 <sub>GPU required · Needs Python, Electron, Conda, ImageBind, nano-graphrag, LightRAG · Models: MiniCPM-o, MiniCPM-V, ImageBind · [Repo](https://github.com/hkuds/videorag) · [▶️ Demo ↗](https://www.youtube.com/watch?v=D5vsxcp4QZI) · [🌐 Site ↗](https://arxiv.org/abs/2502.01549) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/videorag/)</sub>
 
-<a name="unblink"></a>
-### #&#8288;65 [unblink](https://github.com/zapdos-labs/unblink) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (3) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Mar 2026</sub>
-
-**Camera monitoring with VLM frame summaries, chat and video search.**
-
-Unblink is a camera monitoring app written in Go. A node on your local network proxies RTSP and MJPEG cameras to a publicly reachable server, which handles auth and stores config in PostgreSQL. Qwen3-VL summarizes frames, and a SolidJS frontend lets you chat with your feeds or search recorded frames in plain language.
-
-- **+** Node proxies cameras from a private network, so camera ports stay unexposed
-- **+** Prebuilt node binaries for Linux and Windows on x86_64 and ARM64
-- **+** Handles RTSP, MJPEG and WebRTC streams through go2rtc
-- **+** Natural-language search over recorded frames and chat with camera feeds
-- **−** Needs a publicly reachable server plus PostgreSQL, so setup is more than one binary
-- **−** No tagged release; README installs the node from the main branch
-- **−** AGPL-3.0 license restricts use in closed-source hosted services
-
-<sub>Docker + Compose · Needs PostgreSQL, go2rtc · Models: Qwen3-VL · [Repo](https://github.com/zapdos-labs/unblink) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unblink/)</sub>
-
 <a name="r2r"></a>
-### #&#8288;66 [r2r](https://github.com/sciphi-ai/r2r) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: known (47) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2025</sub>
+### #&#8288;65 [r2r](https://github.com/sciphi-ai/r2r) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: known (47) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2025</sub>
 
 **RAG server with REST API, hybrid search, knowledge graphs and a research agent.**
 
@@ -1188,6 +1171,23 @@ R2R is a retrieval-augmented generation server built around a RESTful API, with 
 - **−** No bundled chat UI described in the README
 
 <sub>Compose · Needs OpenAI API key (default in quick start), Postgres (full mode via Docker Compose) · Models: OpenAI, Anthropic · port 7272 · [Repo](https://github.com/sciphi-ai/r2r) · [📖 Docs ↗](https://r2r-docs.sciphi.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/r2r/)</sub>
+
+<a name="unblink"></a>
+### #&#8288;66 [unblink](https://github.com/zapdos-labs/unblink) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (3) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Mar 2026</sub>
+
+**Camera monitoring with VLM frame summaries, chat and video search.**
+
+Unblink is a camera monitoring app written in Go. A node on your local network proxies RTSP and MJPEG cameras to a publicly reachable server, which handles auth and stores config in PostgreSQL. Qwen3-VL summarizes frames, and a SolidJS frontend lets you chat with your feeds or search recorded frames in plain language.
+
+- **+** Node proxies cameras from a private network, so camera ports stay unexposed
+- **+** Prebuilt node binaries for Linux and Windows on x86_64 and ARM64
+- **+** Handles RTSP, MJPEG and WebRTC streams through go2rtc
+- **+** Natural-language search over recorded frames and chat with camera feeds
+- **−** Needs a publicly reachable server plus PostgreSQL, so setup is more than one binary
+- **−** No tagged release; README installs the node from the main branch
+- **−** AGPL-3.0 license restricts use in closed-source hosted services
+
+<sub>Docker + Compose · Needs PostgreSQL, go2rtc · Models: Qwen3-VL · [Repo](https://github.com/zapdos-labs/unblink) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unblink/)</sub>
 
 <a name="maestro"></a>
 ### #&#8288;67 [MAESTRO](https://github.com/murtaza-nasir/maestro) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (2) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>

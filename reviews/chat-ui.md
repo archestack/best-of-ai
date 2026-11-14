@@ -274,25 +274,8 @@ Chat UI is a SvelteKit web app that talks to any OpenAI-compatible endpoint, dis
 
 <sub>no GPU · Docker + Compose · Needs MongoDB 6/7 (embedded fallback for dev), OpenAI-compatible API endpoint, Node.js/npm · Models: OpenAI-compatible APIs, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [▶️ Demo ↗](https://huggingface.co/chat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/huggingface-chat-ui/)</sub>
 
-<a name="jupyter-ai"></a>
-### #&#8288;16 [jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · BSD-3-Clause · Nov 2026</sub>
-
-**JupyterLab chat extension that connects ACP coding agents to notebooks.**
-
-Jupyter AI adds a chat panel to JupyterLab that talks to external agents over the Agent Client Protocol, including Claude, Codex, GitHub Copilot, Gemini, Goose, Kiro, Mistral Vibe and OpenCode. Agents can read and write files, run terminal commands and edit notebooks through a built-in Jupyter MCP server, with approval prompts before writes and commands. Custom MCP servers and personas can be added.
-
-- **+** Supports many agents via ACP, auto-detected once their dependencies are installed
-- **+** Agents must request approval before writing files or running commands
-- **+** Drag and drop files or notebook cells into chat as context
-- **+** Real-time shared chats between users on the same server
-- **−** Does not run models itself; requires installing a separate agent
-- **−** Tied to JupyterLab, not usable outside it
-- **−** Project is still under incubation in the JupyterLab organization
-
-<sub>Needs JupyterLab, An ACP-compatible agent (e.g. Claude, Codex, Gemini, OpenCode) · Models: Claude, Codex, GitHub Copilot, Gemini, Goose · [Repo](https://github.com/jupyterlab/jupyter-ai) · [📖 Docs ↗](https://jupyter-ai.readthedocs.io/en/stable/getting-started.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jupyter-ai/)</sub>
-
 <a name="chat-ollama"></a>
-### #&#8288;17 [chat-ollama](https://github.com/sugarforever/chat-ollama) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
+### #&#8288;16 [chat-ollama](https://github.com/sugarforever/chat-ollama) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
 
 **Self-hosted chat app with knowledge bases and MCP tools on SQLite.**
 
@@ -308,6 +291,23 @@ ChatOllama is a SvelteKit/TypeScript chat workspace that runs as one Node.js ser
 - **−** Cannot open databases or indexes from the older ChatOllama; no migration or export/import
 
 <sub>no GPU · Docker + Compose · Needs OpenAI-compatible chat endpoint, OpenAI-compatible embedding endpoint (for knowledge bases), Node.js 24.22.2 and pnpm 10.8.1 (non-Docker install) · Models: OpenAI-compatible APIs, Ollama (via /v1), ChatGPT/Claude subscriptions · port 3000 · [Repo](https://github.com/sugarforever/chat-ollama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chat-ollama/)</sub>
+
+<a name="jupyter-ai"></a>
+### #&#8288;17 [jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · BSD-3-Clause · Nov 2026</sub>
+
+**JupyterLab chat extension that connects ACP coding agents to notebooks.**
+
+Jupyter AI adds a chat panel to JupyterLab that talks to external agents over the Agent Client Protocol, including Claude, Codex, GitHub Copilot, Gemini, Goose, Kiro, Mistral Vibe and OpenCode. Agents can read and write files, run terminal commands and edit notebooks through a built-in Jupyter MCP server, with approval prompts before writes and commands. Custom MCP servers and personas can be added.
+
+- **+** Supports many agents via ACP, auto-detected once their dependencies are installed
+- **+** Agents must request approval before writing files or running commands
+- **+** Drag and drop files or notebook cells into chat as context
+- **+** Real-time shared chats between users on the same server
+- **−** Does not run models itself; requires installing a separate agent
+- **−** Tied to JupyterLab, not usable outside it
+- **−** Project is still under incubation in the JupyterLab organization
+
+<sub>Needs JupyterLab, An ACP-compatible agent (e.g. Claude, Codex, Gemini, OpenCode) · Models: Claude, Codex, GitHub Copilot, Gemini, Goose · [Repo](https://github.com/jupyterlab/jupyter-ai) · [📖 Docs ↗](https://jupyter-ai.readthedocs.io/en/stable/getting-started.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jupyter-ai/)</sub>
 
 <a name="nextchat"></a>
 ### #&#8288;18 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (95) · Freshness: recent (76) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
@@ -328,7 +328,7 @@ NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, A
 <sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
 
 <a name="chathub"></a>
-### #&#8288;19 [chathub](https://github.com/chathub-dev/chathub) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;19 [chathub](https://github.com/chathub-dev/chathub) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
 
 **Browser extension that chats with several AI chatbots side by side.**
 
@@ -435,7 +435,7 @@ LoLLMs WebUI is a Python web interface that connects to many LLM backends (GGUF,
 <sub>GPU optional · Docker + Compose · Needs Python 3.11, git submodules · Models: GGUF/GGML, ExLlamaV2, Hugging Face, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
 
 <a name="g0dm0d3"></a>
-### #&#8288;25 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (62) · Freshness: active (89) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · AGPL-3.0 · Jul 2026</sub>
+### #&#8288;25 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (62) · Freshness: active (88) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · AGPL-3.0 · Jul 2026</sub>
 
 **Browser chat UI that races many models and scores their responses.**
 
@@ -453,7 +453,7 @@ G0DM0D3 is a single-file HTML chat interface that sends one prompt to many model
 <sub>GPU optional · Docker + Compose · Needs OpenRouter, Venice, Ollama, Cloudflare Pages (telemetry), Hugging Face (telemetry) · Models: OpenRouter models, Venice models, OpenAI-compatible local servers, Ollama, LM Studio · port 8000 · [Repo](https://github.com/elder-plinius/g0dm0d3) · [▶️ Demo ↗](https://godmod3.ai) · [📖 Docs ↗](https://github.com/elder-plinius/G0DM0D3/blob/main/API.md) · [🌐 Site ↗](https://godmod3.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/g0dm0d3/)</sub>
 
 <a name="gpt-academic"></a>
-### #&#8288;26 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (91) · Freshness: quiet (19) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · GPL-3.0 · Jan 2026</sub>
+### #&#8288;26 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (91) · Freshness: quiet (18) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · GPL-3.0 · Jan 2026</sub>
 
 **Gradio web UI with plugins for translating and polishing papers and code.**
 
@@ -507,7 +507,7 @@ A Vue front-end for ChatGPT-style chat that supports multiple users, multiple in
 <sub>Docker + Compose · Needs chatgpt-ui-server · [Repo](https://github.com/wongsaang/chatgpt-ui) · [📖 Docs ↗](https://wongsaang.github.io/chatgpt-ui/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgpt-ui/)</sub>
 
 <a name="chatany"></a>
-### #&#8288;29 [chatany](https://github.com/chatanyteam/chatany) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: known (37) · Freshness: slowing (36) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
+### #&#8288;29 [chatany](https://github.com/chatanyteam/chatany) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: known (37) · Freshness: slowing (35) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
 
 **ChatGPT-Next-Web fork adding Midjourney and Stability AI image generation.**
 
