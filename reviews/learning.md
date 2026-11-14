@@ -1709,7 +1709,7 @@ A Chinese-language course covering image classification, object detection, seman
 <sub>Needs PyTorch, TensorFlow 2 · [Repo](https://github.com/wzmiaomiao/deep-learning-for-image-processing) · [🌐 Site ↗](https://space.bilibili.com/18161609/channel/index) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-learning-for-image-processing/)</sub>
 
 <a name="llm-trading-lab"></a>
-### #&#8288;97 [llm-trading-lab](https://github.com/luckyone7777/llm-trading-lab) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (46) · Freshness: active (80) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.5k · no license · Jun 2026</sub>
+### #&#8288;97 [llm-trading-lab](https://github.com/luckyone7777/llm-trading-lab) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (46) · Freshness: active (80) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.6k · no license · Jun 2026</sub>
 
 **Logs of a live ChatGPT-managed micro-cap stock portfolio, with analysis scripts.**
 
@@ -1760,7 +1760,7 @@ A Chinese-language fork of Goku Mohandas's practicalAI course: Jupyter notebooks
 <sub>Needs Google Colab, PyTorch, Jupyter · [Repo](https://github.com/mleveryday/practicalai-cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/practicalai-cn/)</sub>
 
 <a name="notebooks"></a>
-### #&#8288;100 [notebooks](https://github.com/roboflow/notebooks) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (56) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.7k · no license · Aug 2026</sub>
+### #&#8288;100 [notebooks](https://github.com/roboflow/notebooks) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (55) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.7k · no license · Aug 2026</sub>
 
 **Jupyter notebooks for computer vision models, with Colab and Kaggle links.**
 
@@ -1831,7 +1831,7 @@ A free, self-paced course with 12 lessons and matching Python code that builds a
 <sub>no GPU · Docker + Compose · Needs AWS SageMaker, MongoDB, RabbitMQ, Qdrant, Comet ML, Opik, OpenAI API, Hugging Face, Bytewax, Superlinked, Redis · Models: LoRA/QLoRA fine-tuned LLMs, Hugging Face model registry · [Repo](https://github.com/decodingai-magazine/llm-twin-course) · [📖 Docs ↗](https://github.com/decodingml/llm-twin-course/blob/main/INSTALL_AND_USAGE.md) · [🌐 Site ↗](https://decodingai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-twin-course/)</sub>
 
 <a name="langchain-chinese-getting-started-guide"></a>
-### #&#8288;104 [langchain-chinese-getting-started-guide](https://github.com/liaokongvfx/langchain-chinese-getting-started-guide) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (53) · Freshness: recent (58) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Apr 2026</sub>
+### #&#8288;104 [langchain-chinese-getting-started-guide](https://github.com/liaokongvfx/langchain-chinese-getting-started-guide) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (52) · Freshness: recent (58) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Apr 2026</sub>
 
 **Chinese-language LangChain tutorial with runnable OpenAI examples.**
 

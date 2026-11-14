@@ -5,7 +5,7 @@ Speech-to-text, text-to-speech, voice agents and meeting tools that run locally.
 <sub>🌐 Also on the web: [Voice on archestack.com](https://archestack.com/best-of-ai/voice/), each project on its own page.</sub>
 
 <a name="voicestudio"></a>
-### 🥇 [voicestudio](https://github.com/debpalash/voicestudio) <sub>score [98](../README.md#-how-we-rank "Score 98/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 110k · AGPL-3.0 · Nov 2026</sub>
+### 🥇 [voicestudio](https://github.com/debpalash/voicestudio) <sub>score [98](../README.md#-how-we-rank "Score 98/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 111k · AGPL-3.0 · Nov 2026</sub>
 
 **Desktop app for voice cloning, dubbing, dictation and audiobooks.**
 
@@ -362,7 +362,7 @@ Moonshine Voice is a C++ library with bindings for Python, JavaScript/WASM, iOS,
 <sub>no GPU · Models: Moonshine speech-to-text models, Moonshine tiny 1MB models · [Repo](https://github.com/moonshine-ai/moonshine) · [📖 Docs ↗](https://moonshine-voice.readthedocs.io/) · [🌐 Site ↗](https://moonshine.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moonshine/)</sub>
 
 <a name="vibe"></a>
-### #&#8288;21 [vibe](https://github.com/thewh1teagle/vibe) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
+### #&#8288;21 [vibe](https://github.com/thewh1teagle/vibe) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
 
 **Desktop app that transcribes audio and video offline with Whisper models.**
 
@@ -379,7 +379,7 @@ Vibe is a Tauri desktop app for macOS, Windows and Linux that transcribes audio 
 <sub>GPU optional · Needs Ollama (optional), Claude API (optional) · Models: Whisper, Nemotron 3.5, Parakeet TDT v3 · [Repo](https://github.com/thewh1teagle/vibe) · [📖 Docs ↗](https://github.com/thewh1teagle/vibe/tree/main/docs) · [🌐 Site ↗](https://thewh1teagle.github.io/vibe/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vibe/)</sub>
 
 <a name="kokoro-fastapi"></a>
-### #&#8288;22 [Kokoro-FastAPI](https://github.com/remsky/kokoro-fastapi) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;22 [Kokoro-FastAPI](https://github.com/remsky/kokoro-fastapi) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
 
 **OpenAI-compatible text-to-speech server for the Kokoro-82M model.**
 
@@ -557,7 +557,7 @@ Fish Speech is the code and weights for Fish Audio's TTS models: Drama 3 (35B-A3
 <sub>Docker + Compose · Needs PyTorch, Hugging Face model weights · Models: Drama 3 (35B-A3B), S2-Pro (4B) · [Repo](https://github.com/fishaudio/fish-speech) · [▶️ Demo ↗](https://fish.audio/) · [📖 Docs ↗](https://speech.fish.audio/install/) · [🌐 Site ↗](https://fish.audio/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fish-speech/)</sub>
 
 <a name="voiceink"></a>
-### #&#8288;32 [voiceink](https://github.com/beingpax/voiceink) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · custom license · Nov 2026</sub>
+### #&#8288;32 [voiceink](https://github.com/beingpax/voiceink) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · custom license · Nov 2026</sub>
 
 **Native macOS dictation app using local speech-to-text models.**
 
@@ -700,7 +700,7 @@ Fork of so-vits-svc 4.0 (v1) that converts a voice to a trained target speaker, 
 <sub>GPU optional · Docker · Needs PyTorch, torchaudio, Python 3.11, pyannote.audio (optional, for diarization) · Models: so-vits-svc 4.0v1, QuickVC (MS-iSTFT decoder), ContentVec, HuBERT, CREPE · [Repo](https://github.com/voicepaw/so-vits-svc-fork) · [📖 Docs ↗](https://so-vits-svc-fork.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/so-vits-svc-fork/)</sub>
 
 <a name="funclip"></a>
-### #&#8288;40 [funclip](https://github.com/modelscope/funclip) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Nov 2026</sub>
+### #&#8288;40 [funclip](https://github.com/modelscope/funclip) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Nov 2026</sub>
 
 **Clip videos by selecting text or speakers from an ASR transcript.**
 
@@ -790,7 +790,7 @@ OpenLess is a Tauri 2 and Rust voice-input app for macOS, Windows and Linux, wit
 <sub>Needs Cloud ASR/LLM API credentials (unless using local ASR), Microphone and accessibility permissions · Models: Qwen3-ASR 0.6B/1.7B, Whisper (Foundry Local), sherpa-onnx, OpenAI-compatible endpoints · README: alternative to Wispr Flow · [Repo](https://github.com/open-less/openless) · [🌐 Site ↗](https://openless.top) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openless/)</sub>
 
 <a name="openreader"></a>
-### #&#8288;45 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 579 · MIT · Nov 2026</sub>
+### #&#8288;45 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 580 · MIT · Nov 2026</sub>
 
 **Text-to-speech reader for EPUB, PDF, TXT, MD and DOCX with read-along highlighting.**
 
@@ -843,7 +843,7 @@ Python library for text-to-speech. The main model, KittenTTS 2 (1.7B parameters)
 <sub>RAM ≥ 6 GB · GPU optional · Needs Python 3.9+, ONNX runtime, Whisper (auto-transcribes cloning reference) · Models: KittenTTS 2 (1.7B), kitten-tts-mini 80M ONNX, kitten-tts-micro 40M ONNX, kitten-tts-nano 15M ONNX, GGUF (C++ backend) · [Repo](https://github.com/kittenml/kittentts) · [▶️ Demo ↗](https://huggingface.co/spaces/KittenML/KittenTTS-Demo) · [📖 Docs ↗](https://github.com/KittenML/KittenTTS/blob/main/docs/api.md) · [🌐 Site ↗](https://kittenml.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kittentts/)</sub>
 
 <a name="pyannote-audio"></a>
-### #&#8288;48 [pyannote-audio](https://github.com/pyannote/pyannote-audio) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;48 [pyannote-audio](https://github.com/pyannote/pyannote-audio) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **Python toolkit for speaker diarization with pretrained PyTorch pipelines.**
 
@@ -896,8 +896,26 @@ NeuralNote is a VST3/AU/Standalone plugin that transcribes audio to MIDI inside 
 
 <sub>GPU optional · Needs Hugging Face (model download), Vulkan SDK (Windows GPU build), Metal toolchain (macOS build), CMake, C++23 compiler · Models: MuScriptor small (~210 MB), MuScriptor medium (~620 MB), MuScriptor large (~2.7 GB), GGUF · [Repo](https://github.com/damrsn/neuralnote) · [🌐 Site ↗](https://neuralnote.co/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/neuralnote/)</sub>
 
+<a name="tensorflowasr"></a>
+### #&#8288;51 [tensorflowasr](https://github.com/tensorspeech/tensorflowasr) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · Nov 2026</sub>
+
+**Train and run speech recognition models in TensorFlow 2, with TFLite export.**
+
+TensorFlowASR implements ASR architectures in TensorFlow 2: Conformer, ContextNet, RNN Transducer and Streaming Conformer (RNNT loss), plus DeepSpeech2 and Jasper (CTC loss). It includes feature extraction, augmentations, greedy and beam search decoders, and training and testing tutorials. Models can be exported to TFLite and run through an ASRInference/ASREngine API, one-shot or streaming.
+
+- **+** Covers Conformer, ContextNet, RNN-T, DeepSpeech2 and Jasper in one codebase
+- **+** TFLite export turns a model into audio-in, text-and-tokens-out
+- **+** Streaming inference; one shared ASREngine decodes many sessions, e.g. one per websocket
+- **+** Installs with uv; extras for CUDA GPU and a script for Cloud TPU
+- **−** TensorFlow-only; no PyTorch or ONNX path mentioned
+- **−** Training needs a git clone to get ctc_decoders and rnnt_loss packages
+- **−** Python 3.12 or 3.13 required, while the badge still says >=3.8
+- **−** Pretrained model results live in per-example folders, not the main README
+
+<sub>GPU optional · Docker + Compose · Needs TensorFlow, tensorflow-text, uv · Models: Conformer, Streaming Conformer, ContextNet, RNN Transducer, DeepSpeech2 · [Repo](https://github.com/tensorspeech/tensorflowasr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tensorflowasr/)</sub>
+
 <a name="retrieval-based-voice-conversion-webui"></a>
-### #&#8288;51 [retrieval-based-voice-conversion-webui](https://github.com/rvc-project/retrieval-based-voice-conversion-webui) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: widely used (90) · Freshness: active (97) · Maintenance: weak (9) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · MIT · Aug 2026</sub>
+### #&#8288;52 [retrieval-based-voice-conversion-webui](https://github.com/rvc-project/retrieval-based-voice-conversion-webui) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: widely used (90) · Freshness: active (97) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · MIT · Aug 2026</sub>
 
 **Web UI for training and running retrieval-based voice conversion models.**
 
@@ -915,7 +933,7 @@ Gradio web UI for training RVC voice models and converting speech or singing to 
 <sub>GPU optional · Needs Python 3.12, PyTorch, FFmpeg, Gradio, Hugging Face model weights (hubert_base, rmvpe, pretrained) · Models: RVC v1/v2 .pth, RMVPE, HuBERT/ContentVec, FAISS .index, pymss/MSST · port 7865 · [Repo](https://github.com/rvc-project/retrieval-based-voice-conversion-webui) · [▶️ Demo ↗](https://modelscope.cn/studios/FlowerCry/RVCv2demo) · [📖 Docs ↗](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/retrieval-based-voice-conversion-webui/)</sub>
 
 <a name="argmax-oss-swift"></a>
-### #&#8288;52 [argmax-oss-swift](https://github.com/argmaxinc/argmax-oss-swift) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Oct 2026</sub>
+### #&#8288;53 [argmax-oss-swift](https://github.com/argmaxinc/argmax-oss-swift) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Oct 2026</sub>
 
 **Swift SDK for on-device speech-to-text, diarization and TTS on Apple devices.**
 
@@ -931,24 +949,6 @@ Swift package with three Core ML libraries: WhisperKit for Whisper transcription
 - **−** Real-time transcription with speakers and custom vocabulary are Pro SDK only
 
 <sub>Needs Xcode 16+, macOS 14+, git-lfs (CLI model download) · Models: OpenAI Whisper (Core ML), Pyannote, Qwen3-TTS 0.6B and 1.7B · port 50060 · [Repo](https://github.com/argmaxinc/argmax-oss-swift) · [📖 Docs ↗](https://swiftpackageindex.com/argmaxinc/argmax-oss-swift) · [🌐 Site ↗](https://argmaxinc.com/blog) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/argmax-oss-swift/)</sub>
-
-<a name="tensorflowasr"></a>
-### #&#8288;53 [tensorflowasr](https://github.com/tensorspeech/tensorflowasr) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · Sep 2026</sub>
-
-**Train and run speech recognition models in TensorFlow 2, with TFLite export.**
-
-TensorFlowASR implements ASR architectures in TensorFlow 2: Conformer, ContextNet, RNN Transducer and Streaming Conformer (RNNT loss), plus DeepSpeech2 and Jasper (CTC loss). It includes feature extraction, augmentations, greedy and beam search decoders, and training and testing tutorials. Models can be exported to TFLite and run through an ASRInference/ASREngine API, one-shot or streaming.
-
-- **+** Covers Conformer, ContextNet, RNN-T, DeepSpeech2 and Jasper in one codebase
-- **+** TFLite export turns a model into audio-in, text-and-tokens-out
-- **+** Streaming inference; one shared ASREngine decodes many sessions, e.g. one per websocket
-- **+** Installs with uv; extras for CUDA GPU and a script for Cloud TPU
-- **−** TensorFlow-only; no PyTorch or ONNX path mentioned
-- **−** Training needs a git clone to get ctc_decoders and rnnt_loss packages
-- **−** Python 3.12 or 3.13 required, while the badge still says >=3.8
-- **−** Pretrained model results live in per-example folders, not the main README
-
-<sub>GPU optional · Docker + Compose · Needs TensorFlow, tensorflow-text, uv · Models: Conformer, Streaming Conformer, ContextNet, RNN Transducer, DeepSpeech2 · [Repo](https://github.com/tensorspeech/tensorflowasr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tensorflowasr/)</sub>
 
 <a name="chattts"></a>
 ### #&#8288;54 [chattts](https://github.com/2noise/chattts) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (91) · Freshness: recent (64) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · AGPL-3.0 · Apr 2026</sub>
