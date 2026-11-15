@@ -59,7 +59,7 @@ MCP server that lets an agent search Apify Store, read an Actor's input schema a
 <sub>no GPU · Docker · Needs Apify account and API token or OAuth, Apify platform (Actors), Node.js 22+ for local stdio · [Repo](https://github.com/apify/apify-mcp-server) · [📖 Docs ↗](https://docs.apify.com/mcp) · [🌐 Site ↗](https://mcp.apify.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/apify-mcp-server/)</sub>
 
 <a name="ha-mcp"></a>
-### #&#8288;4 [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Nov 2026</sub>
+### #&#8288;4 [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI assistants configure and control Home Assistant.**
 
@@ -131,7 +131,7 @@ Python MCP server that controls a live DaVinci Resolve Studio session through th
 <sub>no GPU · Needs DaVinci Resolve Studio 18.5+, Python 3.10+, Node.js (advanced server), ffmpeg (optional, audio tool) · port 8765 · [Repo](https://github.com/samuelgursky/davinci-resolve-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/davinci-resolve-mcp/)</sub>
 
 <a name="zotero-mcp"></a>
-### #&#8288;8 [zotero-mcp](https://github.com/54yyyu/zotero-mcp) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
+### #&#8288;8 [zotero-mcp](https://github.com/54yyyu/zotero-mcp) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
 
 **MCP server and CLI that lets AI assistants search and annotate Zotero.**
 
@@ -256,26 +256,8 @@ ToolHive runs MCP servers in isolated containers locally via Docker or Podman, o
 
 <sub>no GPU · Docker · Needs Docker or Podman, Kubernetes (for the operator) · [Repo](https://github.com/stacklok/toolhive) · [📖 Docs ↗](https://docs.stacklok.com/toolhive/) · [🌐 Site ↗](https://stacklok.com/download/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/toolhive/)</sub>
 
-<a name="firecrawl-mcp-server"></a>
-### #&#8288;15 [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Nov 2026</sub>
-
-**MCP server giving agents Firecrawl web search, scraping, crawling and browser actions.**
-
-Wraps the Firecrawl API as an MCP server so clients like Cursor, Windsurf, VS Code and Claude Desktop can search, scrape, crawl, map and interact with web pages and get back Markdown or structured data. It runs over stdio via npx or Docker, as local Streamable HTTP on port 3000, or as a hosted endpoint with a keyless free tier limited to scrape, search and parse. It can target the cloud API or a self-hosted Firecrawl through FIRECRAWL_API_URL.
-
-- **+** Covers scrape, crawl, map, search, browser interact, monitoring and agent jobs in one server
-- **+** Hosted keyless endpoint offers scrape, search and parse without signup
-- **+** Runs via npx, Docker image or local Streamable HTTP; supports self-hosted Firecrawl
-- **+** Local HTTP mode checks Host and Origin headers to block DNS rebinding
-- **−** Cloud use needs a Firecrawl API key and consumes paid credits
-- **−** Full profile registers 31 tools, which can strain clients with tool-slot limits
-- **−** Keyless tier is rate-limited and excludes crawl, map and agent
-- **−** Interact calls run one turn to completion; no step-by-step client-side control
-
-<sub>no GPU · Docker · Needs Firecrawl API (cloud or self-hosted), Node.js (npx) · port 3000 · [Repo](https://github.com/firecrawl/firecrawl-mcp-server) · [▶️ Demo ↗](https://mcp.so/playground?server=firecrawl-mcp-server) · [📖 Docs ↗](https://docs.firecrawl.dev/mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl-mcp-server/)</sub>
-
 <a name="inspector"></a>
-### #&#8288;16 [inspector](https://github.com/mcpjam/inspector) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
+### #&#8288;15 [inspector](https://github.com/mcpjam/inspector) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
 
 **Inspector and eval runner for testing MCP servers across clients and models.**
 
@@ -291,6 +273,24 @@ MCPJam is a TypeScript tool for developers building MCP servers. It lets you cal
 - **−** Workspace team sync appears to depend on the hosted service
 
 <sub>no GPU · Needs Node.js 20+ (npx install only) · Models: 170+ models, 16 client configurations (ChatGPT, Claude, Cursor, Copilot) · port 6274 · [Repo](https://github.com/mcpjam/inspector) · [▶️ Demo ↗](https://app.mcpjam.com) · [📖 Docs ↗](https://docs.mcpjam.com) · [🌐 Site ↗](https://www.mcpjam.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/inspector/)</sub>
+
+<a name="firecrawl-mcp-server"></a>
+### #&#8288;16 [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Nov 2026</sub>
+
+**MCP server giving agents Firecrawl web search, scraping, crawling and browser actions.**
+
+Wraps the Firecrawl API as an MCP server so clients like Cursor, Windsurf, VS Code and Claude Desktop can search, scrape, crawl, map and interact with web pages and get back Markdown or structured data. It runs over stdio via npx or Docker, as local Streamable HTTP on port 3000, or as a hosted endpoint with a keyless free tier limited to scrape, search and parse. It can target the cloud API or a self-hosted Firecrawl through FIRECRAWL_API_URL.
+
+- **+** Covers scrape, crawl, map, search, browser interact, monitoring and agent jobs in one server
+- **+** Hosted keyless endpoint offers scrape, search and parse without signup
+- **+** Runs via npx, Docker image or local Streamable HTTP; supports self-hosted Firecrawl
+- **+** Local HTTP mode checks Host and Origin headers to block DNS rebinding
+- **−** Cloud use needs a Firecrawl API key and consumes paid credits
+- **−** Full profile registers 31 tools, which can strain clients with tool-slot limits
+- **−** Keyless tier is rate-limited and excludes crawl, map and agent
+- **−** Interact calls run one turn to completion; no step-by-step client-side control
+
+<sub>no GPU · Docker · Needs Firecrawl API (cloud or self-hosted), Node.js (npx) · port 3000 · [Repo](https://github.com/firecrawl/firecrawl-mcp-server) · [▶️ Demo ↗](https://mcp.so/playground?server=firecrawl-mcp-server) · [📖 Docs ↗](https://docs.firecrawl.dev/mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl-mcp-server/)</sub>
 
 <a name="open-seo-mcp-skills"></a>
 ### #&#8288;17 [open-seo-mcp-skills](https://github.com/ryze-ai-adgent/open-seo-mcp-skills) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Oct 2026</sub>
@@ -383,7 +383,7 @@ Bright Data's MCP server exposes 30 tools to MCP clients: Bing/Google search, UR
 <sub>no GPU · Docker · Needs Bright Data account and API token, Node.js (for npx) · Models: Any MCP-compatible client · [Repo](https://github.com/brightdata/brightdata-mcp) · [📖 Docs ↗](https://docs.brightdata.com/ai/mcp-server/tools) · [🌐 Site ↗](https://brightdata.com/ai/mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/brightdata-mcp/)</sub>
 
 <a name="google-ads-mcp"></a>
-### #&#8288;22 [google-ads-mcp](https://github.com/googleads/google-ads-mcp) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;22 [google-ads-mcp](https://github.com/googleads/google-ads-mcp) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Nov 2026</sub>
 
 **MCP server for querying and managing Google Ads accounts from LLM agents.**
 

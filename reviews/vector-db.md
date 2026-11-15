@@ -218,26 +218,8 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvector/)</sub>
 
-<a name="turbovec"></a>
-### #&#8288;13 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
-
-**In-process quantized vector index for Python and Rust using TurboQuant.**
-
-turbovec is a library that stores embeddings at 2 or 4 bits per dimension using Google Research's TurboQuant and searches the compressed form with SIMD kernels. It needs no training step, supports single-vector add and remove, and persists incrementally with sync(). It does a brute-force scan rather than graph search, and ships LangChain, LlamaIndex, Haystack and Agno integrations.
-
-- **+** README reports 4.4× faster than FAISS FastScan at 4-bit, at matching recall
-- **+** 7.8× smaller than float32 at 4-bit, 15.5× at 2-bit
-- **+** No training or rebuild; add and remove cost microseconds per vector
-- **+** Allowlist filtering and crash-safe incremental sync(); drop-in stores for four frameworks
-- **−** Scans every vector, so query cost grows linearly with corpus size
-- **−** Lossy: top-1 matches float ground truth 96–98% at 4-bit on OpenAI embeddings
-- **−** Library only: no network API, replication or multi-tenant service
-- **−** Dimension must be a multiple of 8 and at most 16,384; only 2 or 4 bits
-
-<sub>no GPU · [Repo](https://github.com/ryancodrai/turbovec) · [📖 Docs ↗](https://github.com/RyanCodrai/turbovec/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbovec/)</sub>
-
 <a name="vespa"></a>
-### #&#8288;14 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -254,8 +236,26 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vespa/)</sub>
 
+<a name="turbovec"></a>
+### #&#8288;14 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
+
+**In-process quantized vector index for Python and Rust using TurboQuant.**
+
+turbovec is a library that stores embeddings at 2 or 4 bits per dimension using Google Research's TurboQuant and searches the compressed form with SIMD kernels. It needs no training step, supports single-vector add and remove, and persists incrementally with sync(). It does a brute-force scan rather than graph search, and ships LangChain, LlamaIndex, Haystack and Agno integrations.
+
+- **+** README reports 4.4× faster than FAISS FastScan at 4-bit, at matching recall
+- **+** 7.8× smaller than float32 at 4-bit, 15.5× at 2-bit
+- **+** No training or rebuild; add and remove cost microseconds per vector
+- **+** Allowlist filtering and crash-safe incremental sync(); drop-in stores for four frameworks
+- **−** Scans every vector, so query cost grows linearly with corpus size
+- **−** Lossy: top-1 matches float ground truth 96–98% at 4-bit on OpenAI embeddings
+- **−** Library only: no network API, replication or multi-tenant service
+- **−** Dimension must be a multiple of 8 and at most 16,384; only 2 or 4 bits
+
+<sub>no GPU · [Repo](https://github.com/ryancodrai/turbovec) · [📖 Docs ↗](https://github.com/RyanCodrai/turbovec/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbovec/)</sub>
+
 <a name="usearch"></a>
-### #&#8288;15 [usearch](https://github.com/unum-cloud/usearch) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [usearch](https://github.com/unum-cloud/usearch) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
 
 **Proximity-graph nearest-neighbor index with bindings for 14 languages.**
 
@@ -381,7 +381,7 @@ sqlite-vec adds vec0 virtual tables to SQLite for storing float, int8 and binary
 <sub>no GPU · Needs SQLite · Models: float vectors, int8 vectors, binary vectors · [Repo](https://github.com/asg017/sqlite-vec) · [📖 Docs ↗](https://alexgarcia.xyz/sqlite-vec/installation.html) · [🌐 Site ↗](https://alexgarcia.xyz/sqlite-vec/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sqlite-vec/)</sub>
 
 <a name="ann-benchmarks"></a>
-### #&#8288;22 [ann-benchmarks](https://github.com/erikbern/ann-benchmarks) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (33) · Freshness: active (87) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Jul 2026</sub>
+### #&#8288;22 [ann-benchmarks](https://github.com/erikbern/ann-benchmarks) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (33) · Freshness: active (86) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Jul 2026</sub>
 
 **Benchmark harness comparing approximate nearest neighbor libraries on recall versus speed.**
 
