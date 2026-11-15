@@ -58,7 +58,7 @@ Java-based PDF parser with Python, Node.js and Java SDKs. It extracts Markdown, 
 <sub>no GPU · Needs Java 11+, Python 3.10+ (Python SDK), Docling backend (hybrid mode) · Models: Docling, EasyOCR, RapidOCR, Tesseract, SmolVLM (256M) · port 5002 · [Repo](https://github.com/opendataloader-project/opendataloader-pdf) · [📖 Docs ↗](https://opendataloader.org/docs/quick-start-python) · [🌐 Site ↗](https://opendataloader.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opendataloader-pdf/)</sub>
 
 <a name="agent-reach"></a>
-### #&#8288;4 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 112k · MIT · Nov 2026</sub>
+### #&#8288;4 [agent-reach](https://github.com/panniantong/agent-reach) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 112k · MIT · Nov 2026</sub>
 
 **CLI that gives coding agents read access to login-gated and Chinese web platforms.**
 
@@ -76,7 +76,7 @@ Agent Reach is a Python CLI that wraps upstream tools such as bili-cli, yt-dlp, 
 <sub>no GPU · Needs uv, Python 3.10+, bili-cli, yt-dlp, Jina Reader, Exa, Groq or OpenAI API key (transcription) · [Repo](https://github.com/panniantong/agent-reach) · [📖 Docs ↗](https://github.com/Panniantong/Agent-Reach/blob/main/docs/README_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-reach/)</sub>
 
 <a name="markitdown"></a>
-### #&#8288;5 [markitdown](https://github.com/microsoft/markitdown) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 195k · MIT · Nov 2026</sub>
+### #&#8288;5 [markitdown](https://github.com/microsoft/markitdown) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 196k · MIT · Nov 2026</sub>
 
 **Python library and CLI that converts office files, PDFs and audio to Markdown.**
 
@@ -148,7 +148,7 @@ CocoIndex is a Python framework with a Rust core for declaring how source data (
 <sub>Needs Python 3.10-3.13, Postgres (pgvector) or LanceDB as target · Models: sentence-transformers · [Repo](https://github.com/cocoindex-io/cocoindex) · [📖 Docs ↗](https://cocoindex.io/docs) · [🌐 Site ↗](https://cocoindex.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cocoindex/)</sub>
 
 <a name="labelme"></a>
-### #&#8288;9 [labelme](https://github.com/wkentaro/labelme) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;9 [labelme](https://github.com/wkentaro/labelme) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
 
 **Desktop image annotation tool with polygon labeling and SAM-assisted masks.**
 
@@ -273,7 +273,7 @@ Tesseract is a C++ OCR engine (libtesseract) with a tesseract command-line progr
 <sub>no GPU · Needs Leptonica, traineddata files · Models: LSTM traineddata, legacy Tesseract 3 traineddata · [Repo](https://github.com/tesseract-ocr/tesseract) · [📖 Docs ↗](https://tesseract-ocr.github.io/tessdoc/) · [🌐 Site ↗](https://tesseract-ocr.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tesseract/)</sub>
 
 <a name="rerun"></a>
-### #&#8288;16 [rerun](https://github.com/rerun-io/rerun) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [rerun](https://github.com/rerun-io/rerun) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Multimodal data logging, viewer and query engine for robotics.**
 
@@ -415,7 +415,7 @@ Trafilatura downloads web pages, crawls sitemaps and feeds, and extracts main te
 <sub>no GPU · Needs jusText, readability-lxml · [Repo](https://github.com/adbar/trafilatura) · [📖 Docs ↗](https://trafilatura.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trafilatura/)</sub>
 
 <a name="rea-video"></a>
-### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · Apache-2.0 · Nov 2026</sub>
 
 **Agent skill and CLI that breaks a video into shots and judges how each was made.**
 
@@ -432,26 +432,8 @@ rea-video splits a video into shots and decides for each whether it was filmed, 
 
 <sub>Needs ffmpeg, Python 3.10+ · Models: Gemini, Doubao · [Repo](https://github.com/juneyaooo/rea-video) · [🌐 Site ↗](https://www.reavideo.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rea-video/)</sub>
 
-<a name="dataflow"></a>
-### #&#8288;25 [dataflow](https://github.com/opendcai/dataflow) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
-
-**Operator-based Python pipelines for generating and cleaning LLM training data.**
-
-DataFlow is a Python framework that turns noisy sources (PDFs, plain text, low-quality QA pairs) into datasets for pre-training, SFT and RL, using composable operators grouped into pipelines. It ships ready-made pipelines for text, reasoning, Text2SQL, knowledge-base cleaning and agentic RAG, plus a visual WebUI started with `dataflow webui` and an agent that assembles pipelines.
-
-- **+** Pipeline → Operator → Prompt structure, with custom operators packaged via GitHub or PyPI
-- **+** Ready-made pipelines for text, reasoning, Text2SQL, knowledge-base cleaning and agentic RAG
-- **+** Works with API LLMs or local vLLM inference (`open-dataflow[vllm]`)
-- **+** Visual WebUI via `dataflow webui`, plus a DataFlow Agent that builds pipelines
-- **−** Output quality depends on the LLM backend you configure; API use needs a DF_API_KEY
-- **−** Local GPU inference needs the vllm extra and a CUDA Docker image (cu124)
-- **−** Several pieces (WebUI, Skills, RayOrch, MM) live in separate repos
-- **−** Some tutorials are hosted on Bilibili and Feishu, with a Chinese-language focus
-
-<sub>GPU optional · Docker · Needs OpenAI-compatible LLM API or vLLM, uv · Models: OpenAI-compatible APIs, vLLM local models · [Repo](https://github.com/opendcai/dataflow) · [▶️ Demo ↗](https://colab.research.google.com/drive/1haosl2QS4N4HM7u7HvSsz_MnLabxexXl?usp=sharing) · [📖 Docs ↗](https://OpenDCAI.github.io/DataFlow-Doc/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataflow/)</sub>
-
 <a name="kordoc"></a>
-### #&#8288;26 [kordoc](https://github.com/chrisryugj/kordoc) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+### #&#8288;25 [kordoc](https://github.com/chrisryugj/kordoc) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
 
 **Parses HWP, HWPX, PDF and Office files into Markdown, as library, CLI and MCP server.**
 
@@ -467,6 +449,24 @@ kordoc converts Korean government document formats (HWP 3.x/5.x, HWPX, HWPML) pl
 - **−** HWP to HWPX conversion fully matches only 69 of 232 compared pairs
 
 <sub>no GPU · Needs Node.js 20+ · Models: HWP 3.x/5.x, HWPX, HWPML, PDF, XLS/XLSX · [Repo](https://github.com/chrisryugj/kordoc) · [📖 Docs ↗](https://github.com/chrisryugj/kordoc/blob/main/docs/usage.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kordoc/)</sub>
+
+<a name="dataflow"></a>
+### #&#8288;26 [dataflow](https://github.com/opendcai/dataflow) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
+
+**Operator-based Python pipelines for generating and cleaning LLM training data.**
+
+DataFlow is a Python framework that turns noisy sources (PDFs, plain text, low-quality QA pairs) into datasets for pre-training, SFT and RL, using composable operators grouped into pipelines. It ships ready-made pipelines for text, reasoning, Text2SQL, knowledge-base cleaning and agentic RAG, plus a visual WebUI started with `dataflow webui` and an agent that assembles pipelines.
+
+- **+** Pipeline → Operator → Prompt structure, with custom operators packaged via GitHub or PyPI
+- **+** Ready-made pipelines for text, reasoning, Text2SQL, knowledge-base cleaning and agentic RAG
+- **+** Works with API LLMs or local vLLM inference (`open-dataflow[vllm]`)
+- **+** Visual WebUI via `dataflow webui`, plus a DataFlow Agent that builds pipelines
+- **−** Output quality depends on the LLM backend you configure; API use needs a DF_API_KEY
+- **−** Local GPU inference needs the vllm extra and a CUDA Docker image (cu124)
+- **−** Several pieces (WebUI, Skills, RayOrch, MM) live in separate repos
+- **−** Some tutorials are hosted on Bilibili and Feishu, with a Chinese-language focus
+
+<sub>GPU optional · Docker · Needs OpenAI-compatible LLM API or vLLM, uv · Models: OpenAI-compatible APIs, vLLM local models · [Repo](https://github.com/opendcai/dataflow) · [▶️ Demo ↗](https://colab.research.google.com/drive/1haosl2QS4N4HM7u7HvSsz_MnLabxexXl?usp=sharing) · [📖 Docs ↗](https://OpenDCAI.github.io/DataFlow-Doc/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataflow/)</sub>
 
 <a name="data-juicer"></a>
 ### #&#8288;27 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
@@ -648,7 +648,7 @@ textract extracts plain text from documents through a single Python interface an
 <sub>no GPU · Docker · [Repo](https://github.com/deanmalmgren/textract) · [📖 Docs ↗](http://textract.readthedocs.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/textract/)</sub>
 
 <a name="claude-real-video"></a>
-### #&#8288;37 [claude-real-video](https://github.com/huangchihhungleo/claude-real-video) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Oct 2026</sub>
+### #&#8288;37 [claude-real-video](https://github.com/huangchihhungleo/claude-real-video) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Oct 2026</sub>
 
 **Extracts scene-change keyframes and a timestamped transcript from videos for LLMs.**
 
@@ -828,7 +828,7 @@ Python CLI and library that downloads a YouTube video or local file, transcribes
 <sub>GPU optional · Needs MuAPI (API mode), ffmpeg (local mode), yt-dlp, faster-whisper, OpenCV, OpenAI or Gemini API key (local mode) · Models: OpenAI gpt-4o-mini, Gemini gemini-2.5-flash, faster-whisper tiny to large-v3, MuAPI gpt-5-mini · [Repo](https://github.com/anil-matcha/ai-youtube-shorts-generator) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-youtube-shorts-generator/)</sub>
 
 <a name="chonkie"></a>
-### #&#8288;47 [chonkie](https://github.com/feyninc/chonkie) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (31) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Aug 2026</sub>
+### #&#8288;47 [chonkie](https://github.com/feyninc/chonkie) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (31) · Freshness: active (100) · Maintenance: weak (30) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Aug 2026</sub>
 
 **Python library that chunks text and code for RAG ingestion pipelines.**
 
