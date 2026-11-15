@@ -203,7 +203,7 @@ ChatGPTBox is a JavaScript browser extension that opens a chat dialog on any pag
 <sub>no GPU · Needs Browser (Chrome, Edge, Firefox, Safari or Android), LLM API key or endpoint · Models: ChatGPT web API, GPT-3.5, GPT-4, Claude, New Bing · [Repo](https://github.com/chatgptbox-dev/chatgptbox) · [📖 Docs ↗](https://github.com/ChatGPTBox-dev/chatGPTBox/wiki/Guide) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgptbox/)</sub>
 
 <a name="cherry-studio-app"></a>
-### #&#8288;12 [cherry-studio-app](https://github.com/cherryhq/cherry-studio-app) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;12 [cherry-studio-app](https://github.com/cherryhq/cherry-studio-app) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Nov 2026</sub>
 
 **Mobile AI chat and agent app for iOS and Android.**
 

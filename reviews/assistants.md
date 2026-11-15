@@ -59,7 +59,7 @@ OpenHuman is a single-process Rust agent harness shipped as a desktop app, termi
 <sub>GPU optional · Docker + Compose · Needs Composio (OAuth integrations), Ollama, LM Studio or MLX (optional, local models) · Models: Ollama, LM Studio, MLX, OpenAI-compatible APIs, 26 BYOK providers · [Repo](https://github.com/tinyhumansai/openhuman) · [📖 Docs ↗](https://tinyhumans.gitbook.io/openhuman/) · [🌐 Site ↗](https://tinyhumans.ai/openhuman) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openhuman/)</sub>
 
 <a name="openclaw"></a>
-### #&#8288;4 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 394k · MIT · Nov 2026</sub>
+### #&#8288;4 [OpenClaw](https://github.com/openclaw/openclaw) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 394k · MIT · Nov 2026</sub>
 
 **Personal AI assistant reachable through Discord, Slack, Telegram, WhatsApp and more.**
 
@@ -343,7 +343,7 @@ Copilot for Obsidian is a community plugin that adds an Agent chat to Obsidian, 
 <sub>GPU optional · Needs Obsidian, OpenCode, Claude Code or Codex (via @agentclientprotocol/codex-acp) · Models: OpenCode-reported models, Claude Code, Codex, OpenAI-compatible providers, local models · [Repo](https://github.com/logancyang/obsidian-copilot) · [📖 Docs ↗](https://github.com/logancyang/obsidian-copilot/blob/master/docs/index.md) · [🌐 Site ↗](https://www.obsidiancopilot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obsidian-copilot/)</sub>
 
 <a name="rakazo"></a>
-### #&#8288;20 [rakazo](https://github.com/elie222/rakazo) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;20 [rakazo](https://github.com/elie222/rakazo) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted AI assistant with persistent bots on sandboxed computers.**
 
@@ -469,7 +469,7 @@ AgenticSeek is a self-hosted Manus-style assistant that routes each request to a
 <sub>GPU optional · Docker + Compose · Needs Docker Compose, SearxNG, Redis, Python 3.10, Ollama or LM Studio (for local models) · Models: Ollama, LM Studio, OpenAI-compatible (llama.cpp), OpenAI, Google Gemini · port 3000 · README: alternative to Manus · [Repo](https://github.com/fosowl/agenticseek) · [🌐 Site ↗](https://fosowl.github.io/agenticSeek.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agenticseek/)</sub>
 
 <a name="mika"></a>
-### #&#8288;27 [mika](https://github.com/wangzan101/mika) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;27 [mika](https://github.com/wangzan101/mika) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Nov 2026</sub>
 
 **Android assistant that operates phone apps and the web from one sentence.**
 
@@ -505,7 +505,7 @@ Sellbird finds businesses matching your customer profile (OpenStreetMap or a pai
 <sub>no GPU · Docker + Compose · Needs Claude Code CLI or Codex CLI, Gmail, Microsoft 365 or SMTP mailbox, Python 3.11+, SQLite database file · Models: Claude (via Claude Code CLI), ChatGPT plans (via Codex CLI) · port 5555 · [Repo](https://github.com/ethanplusai/sellbird) · [🌐 Site ↗](https://sellbird.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sellbird/)</sub>
 
 <a name="anymodelbot"></a>
-### #&#8288;29 [anymodelbot](https://github.com/modelflare-ai/anymodelbot) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Nov 2026</sub>
+### #&#8288;29 [anymodelbot](https://github.com/modelflare-ai/anymodelbot) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Nov 2026</sub>
 
 **Multi-bot desktop assistant with memory, file access and chat-app channels.**
 
@@ -648,7 +648,7 @@ NullClaw is a self-hosted autonomous assistant written in Zig that connects 50+ 
 <sub>no GPU · Docker + Compose · Needs Zig 0.16.0 (source builds), nak (Nostr channel), openssl (Vertex service-account auth) · Models: OpenRouter, Anthropic, OpenAI, Azure OpenAI, Gemini · port 3000 · [Repo](https://github.com/nullclaw/nullclaw) · [📖 Docs ↗](https://nullclaw.github.io) · [🌐 Site ↗](https://nullclaw.github.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nullclaw/)</sub>
 
 <a name="opensquilla"></a>
-### #&#8288;37 [opensquilla](https://github.com/tokenrhythm/opensquilla) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;37 [opensquilla](https://github.com/tokenrhythm/opensquilla) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **Personal AI agent that routes each turn to the cheapest capable model.**
 
@@ -684,7 +684,7 @@ Easel is a Python and React workbench built on an OpenClaw agent. It keeps per-a
 <sub>no GPU · Needs OpenClaw, Python 3.10+, Node.js 24.22.1+, FFmpeg, Playwright Chromium, LLM API key · Models: Anthropic, OpenAI, OpenAI-compatible, Anthropic-compatible · port 7860 · [Repo](https://github.com/zju-real/easel) · [📖 Docs ↗](https://github.com/ZJU-REAL/Easel/blob/main/docs/skill-function-mapping.md) · [🌐 Site ↗](https://zju-real.github.io/Easel/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easel/)</sub>
 
 <a name="moltis"></a>
-### #&#8288;39 [Moltis](https://github.com/moltis-org/moltis) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Oct 2026</sub>
+### #&#8288;39 [Moltis](https://github.com/moltis-org/moltis) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Oct 2026</sub>
 
 **Self-hosted personal agent server in Rust with chat channels and sandboxing.**
 
@@ -756,7 +756,7 @@ invisible_dots runs each agent (a "Dot") on its own hardware-accelerated QEMU VM
 <sub>no GPU · Needs Node 24+, Go 1.25+, Git, QEMU, KVM or Windows Hypervisor Platform, OpenRouter API key · Models: OpenRouter · port 3000 · [Repo](https://github.com/feder-cr/invisible_dots) · [📖 Docs ↗](https://github.com/feder-cr/invisible_dots/blob/main/docs/guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/invisible-dots/)</sub>
 
 <a name="goutoujunshi"></a>
-### #&#8288;43 [goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · MIT · Sep 2026</sub>
+### #&#8288;43 [goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · MIT · Sep 2026</sub>
 
 **Codex Skill that analyzes relationship chats and suggests concrete next steps.**
 

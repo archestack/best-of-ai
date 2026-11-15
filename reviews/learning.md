@@ -5,7 +5,7 @@ Courses, cookbooks and guides with runnable code, for learning to build with AI.
 <sub>🌐 Also on the web: [Learning and cookbooks on archestack.com](https://archestack.com/best-of-ai/learning/), each project on its own page.</sub>
 
 <a name="ai-engineering-from-scratch"></a>
-### 🥇 [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 79k · MIT · Nov 2026</sub>
+### 🥇 [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 79k · MIT · Nov 2026</sub>
 
 **Free curriculum of 542 coding lessons on building AI systems from scratch.**
 
@@ -235,7 +235,7 @@ A Microsoft Cloud Advocates curriculum on classic machine learning (regression, 
 <sub>no GPU · Needs Python, Scikit-learn, Jupyter, R (optional) · [Repo](https://github.com/microsoft/ml-for-beginners) · [▶️ Demo ↗](https://ff-quizzes.netlify.app/en/ml/) · [📖 Docs ↗](https://learn.microsoft.com/en-us/collections/qrqzamz1nn2wx3) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ml-for-beginners/)</sub>
 
 <a name="learn-claude-code"></a>
-### #&#8288;14 [learn-claude-code](https://github.com/shareai-lab/learn-claude-code) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Oct 2026</sub>
+### #&#8288;14 [learn-claude-code](https://github.com/shareai-lab/learn-claude-code) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Nov 2026</sub>
 
 **17-chapter Python course on building a Claude Code-style agent harness.**
 
@@ -451,7 +451,7 @@ Tutorial repo that implements a transformer in plain PyTorch and trains it from 
 <sub>GPU optional · Needs PyTorch, tiktoken, Hugging Face datasets, Streamlit, wandb, HDF5 · Models: Custom transformer (classic and modern), PyTorch checkpoints · [Repo](https://github.com/fareedkhan-dev/train-llm-from-scratch) · [📖 Docs ↗](https://fareedkhan-dev.github.io/train-llm-from-scratch/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/train-llm-from-scratch/)</sub>
 
 <a name="ai-infra-book"></a>
-### #&#8288;26 [ai-infra-book](https://github.com/bojieli/ai-infra-book) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;26 [ai-infra-book](https://github.com/bojieli/ai-infra-book) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
 
 **A quantitative book on AI infrastructure design, with calculation tools.**
 
@@ -1022,25 +1022,8 @@ Course materials for DataTalks.Club's Machine Learning Zoomcamp: pre-recorded le
 
 <sub>GPU optional · Needs Python, Docker, Kubernetes, AWS Lambda · Models: scikit-learn, XGBoost, TensorFlow, PyTorch, Keras · [Repo](https://github.com/datatalksclub/machine-learning-zoomcamp) · [📖 Docs ↗](https://datatalks.club/docs/courses/ml-zoomcamp/) · [🌐 Site ↗](https://courses.datatalks.club/ml-zoomcamp-2026/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/machine-learning-zoomcamp/)</sub>
 
-<a name="examples"></a>
-### #&#8288;58 [examples](https://github.com/tensorflow/examples) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (49) · Freshness: recent (70) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Nov 2026</sub>
-
-**Official TensorFlow example notebooks, community samples and course material.**
-
-Repository of example code maintained by the TensorFlow team. It holds material referenced from tensorflow.org, community-contributed examples, Udacity Deep Learning course files, and supporting code for the TensorFlow blog and YouTube channel. The README points to the tensorflow/docs repo as the main place to learn TensorFlow.
-
-- **+** Maintained under the official TensorFlow organization, Apache-2.0 licensed
-- **+** Covers tensorflow.org, blog and YouTube material in one repo
-- **+** Includes Udacity Deep Learning course files and a community examples folder
-- **+** Recent commits (2026-10-05) despite the old release tag
-- **−** Last release was 2021-05-16, so some examples may be dated
-- **−** Issues are filed in tensorflow/tensorflow, not in this repo
-- **−** Not a single runnable app; upkeep and quality vary by folder
-
-<sub>Needs TensorFlow · [Repo](https://github.com/tensorflow/examples) · [📖 Docs ↗](http://github.com/tensorflow/docs) · [🌐 Site ↗](https://www.tensorflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/examples/)</sub>
-
 <a name="huggingface-notebooks"></a>
-### #&#8288;59 [notebooks](https://github.com/huggingface/notebooks) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;58 [notebooks](https://github.com/huggingface/notebooks) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Nov 2026</sub>
 
 **Jupyter notebooks demonstrating the Hugging Face libraries.**
 
@@ -1054,7 +1037,7 @@ A collection of Jupyter notebooks that use the Hugging Face libraries. The READM
 <sub>[Repo](https://github.com/huggingface/notebooks) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/huggingface-notebooks/)</sub>
 
 <a name="awesome-openclaw-tutorial"></a>
-### #&#8288;60 [awesome-openclaw-tutorial](https://github.com/xianyu110/awesome-openclaw-tutorial) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · custom license · Oct 2026</sub>
+### #&#8288;59 [awesome-openclaw-tutorial](https://github.com/xianyu110/awesome-openclaw-tutorial) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · custom license · Oct 2026</sub>
 
 **Chinese-language tutorial book for installing and using the OpenClaw AI assistant.**
 
@@ -1072,7 +1055,7 @@ A Chinese-language tutorial for OpenClaw, a self-run AI assistant. It has 15 cha
 <sub>Needs OpenClaw, Node 24.16+ or 26.1+ · Models: DeepSeek, Kimi, OpenAI, Anthropic, Ollama · [Repo](https://github.com/xianyu110/awesome-openclaw-tutorial) · [📖 Docs ↗](https://docs.openclaw.ai) · [🌐 Site ↗](https://openclaw.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/awesome-openclaw-tutorial/)</sub>
 
 <a name="genai-showcase"></a>
-### #&#8288;61 [genai-showcase](https://github.com/mongodb-developer/genai-showcase) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Oct 2026</sub>
+### #&#8288;60 [genai-showcase](https://github.com/mongodb-developer/genai-showcase) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Oct 2026</sub>
 
 **MongoDB's notebooks, apps and workshops for building RAG and agents.**
 
@@ -1089,7 +1072,7 @@ A collection of Jupyter notebooks, JavaScript and Python apps, self-paced worksh
 <sub>Needs MongoDB Atlas · [Repo](https://github.com/mongodb-developer/genai-showcase) · [📖 Docs ↗](https://github.com/mongodb/docs-notebooks) · [🌐 Site ↗](https://www.mongodb.com/resources/use-cases/artificial-intelligence?utm_campaign=ai_learning_hub&utm_source=github&utm_medium=referral) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genai-showcase/)</sub>
 
 <a name="google-gemma-cookbook"></a>
-### #&#8288;62 [cookbook](https://github.com/google-gemma/cookbook) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;61 [cookbook](https://github.com/google-gemma/cookbook) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · Apache-2.0 · Oct 2026</sub>
 
 **Jupyter notebooks and demo apps for working with Google's Gemma models.**
 
@@ -1107,7 +1090,7 @@ Official collection of tutorials, full-stack demo apps, research notebooks and r
 <sub>Needs Hugging Face Hub, Kaggle · Models: Gemma, Gemma 2, Gemma 3, Gemma 3n, Gemma 4 · [Repo](https://github.com/google-gemma/cookbook) · [🌐 Site ↗](https://ai.google.dev/gemma/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/google-gemma-cookbook/)</sub>
 
 <a name="arc-task-gen"></a>
-### #&#8288;63 [arc-task-gen](https://github.com/pathwaycom/arc-task-gen) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (58) · Freshness: active (98) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Aug 2026</sub>
+### #&#8288;62 [arc-task-gen](https://github.com/pathwaycom/arc-task-gen) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (58) · Freshness: active (98) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Aug 2026</sub>
 
 **Generator of fresh ARC-AGI-1-style tasks for private model evaluation.**
 
@@ -1121,6 +1104,23 @@ Generates new ARC-AGI-1-style tasks that resemble the public dataset, written to
 - **−** No releases published
 
 <sub>Models: ARC task JSON · [Repo](https://github.com/pathwaycom/arc-task-gen) · [🌐 Site ↗](https://pathway.com/blog/pathway-150m-model-breaks-arc-agi-1-cost-efficiency-frontier) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/arc-task-gen/)</sub>
+
+<a name="examples"></a>
+### #&#8288;63 [examples](https://github.com/tensorflow/examples) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (49) · Freshness: recent (70) · Maintenance: patchy (37) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Nov 2026</sub>
+
+**Official TensorFlow example notebooks, community samples and course material.**
+
+Repository of example code maintained by the TensorFlow team. It holds material referenced from tensorflow.org, community-contributed examples, Udacity Deep Learning course files, and supporting code for the TensorFlow blog and YouTube channel. The README points to the tensorflow/docs repo as the main place to learn TensorFlow.
+
+- **+** Maintained under the official TensorFlow organization, Apache-2.0 licensed
+- **+** Covers tensorflow.org, blog and YouTube material in one repo
+- **+** Includes Udacity Deep Learning course files and a community examples folder
+- **+** Recent commits (2026-10-05) despite the old release tag
+- **−** Last release was 2021-05-16, so some examples may be dated
+- **−** Issues are filed in tensorflow/tensorflow, not in this repo
+- **−** Not a single runnable app; upkeep and quality vary by folder
+
+<sub>Needs TensorFlow · [Repo](https://github.com/tensorflow/examples) · [📖 Docs ↗](http://github.com/tensorflow/docs) · [🌐 Site ↗](https://www.tensorflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/examples/)</sub>
 
 <a name="cv"></a>
 ### #&#8288;64 [cv](https://github.com/accumulatemore/cv) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 24k · no license · Sep 2026</sub>

@@ -202,7 +202,7 @@ LangExtract is a Python library that takes a prompt and a few examples and uses 
 <sub>no GPU · Docker · Needs Gemini, OpenAI or Vertex AI API key, or a local Ollama server · Models: Gemini, OpenAI, Ollama, Vertex AI, OpenAI-compatible endpoints · [Repo](https://github.com/google/langextract) · [▶️ Demo ↗](https://google-langextract.hf.space/) · [📖 Docs ↗](https://github.com/google/langextract/blob/main/docs/examples/longer_text_example.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langextract/)</sub>
 
 <a name="scrapegraph-ai"></a>
-### #&#8288;12 [scrapegraph-ai](https://github.com/scrapegraphai/scrapegraph-ai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · MIT · Oct 2026</sub>
+### #&#8288;12 [scrapegraph-ai](https://github.com/scrapegraphai/scrapegraph-ai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · MIT · Oct 2026</sub>
 
 **Python library that builds LLM-driven scraping pipelines from a prompt and a URL.**
 
@@ -290,8 +290,25 @@ Rerun logs multi-rate data such as images, point clouds, transforms, time series
 
 <sub>Needs nasm (optional, for faster video decoding when building the CLI) · [Repo](https://github.com/rerun-io/rerun) · [▶️ Demo ↗](https://www.rerun.io/viewer) · [📖 Docs ↗](https://rerun.io/docs) · [🌐 Site ↗](https://www.rerun.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rerun/)</sub>
 
+<a name="x-anylabeling"></a>
+### #&#8288;17 [x-anylabeling](https://github.com/cvhub520/x-anylabeling) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Nov 2026</sub>
+
+**Desktop app for AI-assisted annotation of images, video, text and point clouds.**
+
+X-AnyLabeling is a cross-platform desktop annotation tool for building datasets for detection, segmentation, pose, OCR, tracking, VQA and 3D point clouds. It integrates models such as YOLO variants, SAM 1/2/3, Grounding DINO and several VLMs for auto-labeling, run locally via ONNX Runtime, TensorRT or OpenCV DNN, or remotely via vLLM, SGLang or its own server. It imports and exports COCO, VOC, YOLO, DOTA, MOT and others.
+
+- **+** Wide model library: YOLO family, SAM 1/2/3, Grounding DINO, RF-DETR, PP-OCR, Qwen3-VL
+- **+** Exports COCO, VOC, YOLO, DOTA, MOT, PPOCR, ShareGPT and other formats
+- **+** Covers many tasks in one tool: boxes, polygons, rotated boxes, tracking, OCR, VQA, 3D point clouds
+- **+** Runs on Windows, Linux and macOS; remote inference via X-AnyLabeling-Server, vLLM or SGLang
+- **−** GPL-3.0 license imposes copyleft terms on derived or redistributed code
+- **−** Requires Python 3.11+ for source or PyPI install
+- **−** Contributions require signing a Contributor License Agreement
+
+<sub>GPU optional · Needs ONNX Runtime, TensorRT, OpenCV DNN, vLLM, SGLang · Models: ONNX, YOLO, SAM, Grounding DINO, Qwen3-VL · [Repo](https://github.com/cvhub520/x-anylabeling) · [📖 Docs ↗](https://xanylabeling.com/docs/x-anylabeling/user_guide) · [🌐 Site ↗](https://xanylabeling.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/x-anylabeling/)</sub>
+
 <a name="label-studio"></a>
-### #&#8288;17 [label-studio](https://github.com/humansignal/label-studio) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;18 [label-studio](https://github.com/humansignal/label-studio) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · Apache-2.0 · Nov 2026</sub>
 
 **Multi-user data labeling tool for audio, text, images, video and time series.**
 
@@ -309,7 +326,7 @@ Label Studio is a web-based annotation tool for preparing and correcting ML trai
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (optional, Compose), Nginx (optional, Compose), MinIO (optional) · Models: Custom ML backends via Label Studio ML SDK · port 8080 · [Repo](https://github.com/humansignal/label-studio) · [📖 Docs ↗](https://labelstud.io/guide/) · [🌐 Site ↗](https://labelstud.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/label-studio/)</sub>
 
 <a name="cvat"></a>
-### #&#8288;18 [cvat](https://github.com/cvat-ai/cvat) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
+### #&#8288;19 [cvat](https://github.com/cvat-ai/cvat) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
 
 **Self-hosted annotation tool for image, video, audio and 3D point cloud datasets.**
 
@@ -327,7 +344,7 @@ CVAT is a web-based labeling platform for computer vision datasets. It supports 
 <sub>Docker + Compose · Needs Docker Engine, Docker Compose, Git, Nuclio (for auto-annotation), Grafana (for analytics) · Models: SAM, IOG, RetinaNet R101, HRNet32, TransT · port 8080 · [Repo](https://github.com/cvat-ai/cvat) · [▶️ Demo ↗](https://app.cvat.ai) · [📖 Docs ↗](https://docs.cvat.ai/docs/) · [🌐 Site ↗](https://www.cvat.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cvat/)</sub>
 
 <a name="unstructured"></a>
-### #&#8288;19 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;20 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **Python library that parses PDFs, Office files and HTML into typed elements.**
 
@@ -345,7 +362,7 @@ The unstructured library parses documents such as PDF, HTML, Word, email and ima
 <sub>Docker · Needs poppler-utils, tesseract-ocr, libmagic-dev, libreoffice · [Repo](https://github.com/unstructured-io/unstructured) · [📖 Docs ↗](https://docs.unstructured.io) · [🌐 Site ↗](https://unstructured.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unstructured/)</sub>
 
 <a name="skill-seekers"></a>
-### #&#8288;20 [skill_seekers](https://github.com/yusufkaraaslan/skill_seekers) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Sep 2026</sub>
+### #&#8288;21 [skill_seekers](https://github.com/yusufkaraaslan/skill_seekers) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Sep 2026</sub>
 
 **CLI that turns docs, repos, PDFs and videos into AI skills and RAG data.**
 
@@ -361,23 +378,6 @@ Skill Seekers is a Python CLI that scrapes 18 source types (doc sites, GitHub re
 - **−** Speed and quality claims like '99% faster' are not backed by published benchmarks
 
 <sub>GPU optional · Docker + Compose · Needs Python 3.10+, Git, Anthropic/Gemini/OpenAI API or local agent (optional), Whisper, PyTorch, easyocr (video extras) · Models: Claude, Gemini, OpenAI, Kimi, MiniMax · port 8765 · [Repo](https://github.com/yusufkaraaslan/skill_seekers) · [📖 Docs ↗](https://github.com/yusufkaraaslan/Skill_Seekers/blob/main/docs/README.md) · [🌐 Site ↗](https://skillseekersweb.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skill-seekers/)</sub>
-
-<a name="x-anylabeling"></a>
-### #&#8288;21 [x-anylabeling](https://github.com/cvhub520/x-anylabeling) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Nov 2026</sub>
-
-**Desktop app for AI-assisted annotation of images, video, text and point clouds.**
-
-X-AnyLabeling is a cross-platform desktop annotation tool for building datasets for detection, segmentation, pose, OCR, tracking, VQA and 3D point clouds. It integrates models such as YOLO variants, SAM 1/2/3, Grounding DINO and several VLMs for auto-labeling, run locally via ONNX Runtime, TensorRT or OpenCV DNN, or remotely via vLLM, SGLang or its own server. It imports and exports COCO, VOC, YOLO, DOTA, MOT and others.
-
-- **+** Wide model library: YOLO family, SAM 1/2/3, Grounding DINO, RF-DETR, PP-OCR, Qwen3-VL
-- **+** Exports COCO, VOC, YOLO, DOTA, MOT, PPOCR, ShareGPT and other formats
-- **+** Covers many tasks in one tool: boxes, polygons, rotated boxes, tracking, OCR, VQA, 3D point clouds
-- **+** Runs on Windows, Linux and macOS; remote inference via X-AnyLabeling-Server, vLLM or SGLang
-- **−** GPL-3.0 license imposes copyleft terms on derived or redistributed code
-- **−** Requires Python 3.11+ for source or PyPI install
-- **−** Contributions require signing a Contributor License Agreement
-
-<sub>GPU optional · Needs ONNX Runtime, TensorRT, OpenCV DNN, vLLM, SGLang · Models: ONNX, YOLO, SAM, Grounding DINO, Qwen3-VL · [Repo](https://github.com/cvhub520/x-anylabeling) · [📖 Docs ↗](https://xanylabeling.com/docs/x-anylabeling/user_guide) · [🌐 Site ↗](https://xanylabeling.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/x-anylabeling/)</sub>
 
 <a name="anydoc"></a>
 ### #&#8288;22 [anydoc](https://github.com/firecrawl/anydoc) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Nov 2026</sub>
@@ -415,7 +415,7 @@ Trafilatura downloads web pages, crawls sitemaps and feeds, and extracts main te
 <sub>no GPU · Needs jusText, readability-lxml · [Repo](https://github.com/adbar/trafilatura) · [📖 Docs ↗](https://trafilatura.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trafilatura/)</sub>
 
 <a name="rea-video"></a>
-### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · Apache-2.0 · Nov 2026</sub>
 
 **Agent skill and CLI that breaks a video into shots and judges how each was made.**
 
@@ -595,7 +595,7 @@ Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images an
 <sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
 
 <a name="datachain"></a>
-### #&#8288;34 [datachain](https://github.com/datachain-ai/datachain) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;34 [datachain](https://github.com/datachain-ai/datachain) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Nov 2026</sub>
 
 **Python library that indexes cloud files into versioned, typed datasets.**
 

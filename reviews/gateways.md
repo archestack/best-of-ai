@@ -95,7 +95,7 @@ LiteLLM translates requests in the OpenAI format to more than 100 LLM providers,
 <sub>no GPU · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure · port 4000 · [Repo](https://github.com/berriai/litellm) · [📖 Docs ↗](https://docs.litellm.ai/docs/simple_proxy) · [🌐 Site ↗](https://www.litellm.ai/ai-gateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/litellm/)</sub>
 
 <a name="freellmapi"></a>
-### #&#8288;6 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 52k · MIT · Nov 2026</sub>
+### #&#8288;6 [freellmapi](https://github.com/tashfeenahmed/freellmapi) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · MIT · Nov 2026</sub>
 
 **OpenAI-compatible gateway pooling free-tier LLM providers with automatic failover.**
 
@@ -470,7 +470,7 @@ Plano is an Envoy-based proxy for agentic apps: a YAML file declares agents (HTT
 <sub>no GPU · Docker · Needs Plano-Orchestrator routing model (hosted or local) · Models: OpenAI, Anthropic and other providers configured as model_providers · [Repo](https://github.com/katanemo/plano) · [📖 Docs ↗](https://docs.planoai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/plano/)</sub>
 
 <a name="tokscale"></a>
-### #&#8288;27 [tokscale](https://github.com/junhoyeo/tokscale) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
+### #&#8288;27 [tokscale](https://github.com/junhoyeo/tokscale) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
 
 **CLI and dashboard that tallies token usage and cost across AI coding agents.**
 
@@ -665,7 +665,7 @@ GoModel is a gateway written in Go that exposes OpenAI-compatible (/v1) and Anth
 <sub>no GPU · Docker + Compose · Needs Redis (optional), PostgreSQL (optional), MongoDB (optional), Prometheus (optional) · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Amazon Bedrock · port 8080 · [Repo](https://github.com/enterpilot/gomodel) · [▶️ Demo ↗](https://demo.enterpilot.io/admin/dashboard?utm_source=readme) · [📖 Docs ↗](https://gomodel.enterpilot.io/docs?utm_source=readme) · [🌐 Site ↗](https://gomodel.enterpilot.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gomodel/)</sub>
 
 <a name="trulens"></a>
-### #&#8288;38 [trulens](https://github.com/truera/trulens) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Nov 2026</sub>
+### #&#8288;38 [trulens](https://github.com/truera/trulens) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
 
 **Tracing and LLM-judge evaluation for agents and RAG apps on OpenTelemetry.**
 

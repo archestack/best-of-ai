@@ -273,7 +273,7 @@ USearch is a header-only C++20 library for approximate nearest-neighbor search o
 <sub>GPU optional · [Repo](https://github.com/unum-cloud/usearch) · [📖 Docs ↗](https://github.com/unum-cloud/USearch/blob/main/include/usearch/dense/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/usearch/)</sub>
 
 <a name="infinity"></a>
-### #&#8288;16 [infinity](https://github.com/infiniflow/infinity) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [infinity](https://github.com/infiniflow/infinity) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
 
 **Database for hybrid dense, sparse, tensor and full-text search.**
 

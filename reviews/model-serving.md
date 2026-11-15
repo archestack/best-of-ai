@@ -561,7 +561,7 @@ llamafile packages llama.cpp and model weights into one executable using Cosmopo
 <sub>GPU optional · Models: GGUF (bundled or external), e.g. Qwen3.5-0.8B · [Repo](https://github.com/mozilla-ai/llamafile) · [📖 Docs ↗](https://docs.mozilla.ai/llamafile) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llamafile/)</sub>
 
 <a name="llama-swap"></a>
-### #&#8288;32 [llama-swap](https://github.com/mostlygeek/llama-swap) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+### #&#8288;32 [llama-swap](https://github.com/mostlygeek/llama-swap) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
 
 **Go proxy that starts and swaps local model servers per request.**
 
@@ -579,7 +579,7 @@ llama-swap is a single Go binary that reads the `model` field of incoming OpenAI
 <sub>GPU optional · Docker · Needs llama-server or another OpenAI-compatible inference server · Models: GGUF via llama.cpp, vllm, stable-diffusion.cpp, whisper.cpp, audio.cpp · port 8080 · [Repo](https://github.com/mostlygeek/llama-swap) · [📖 Docs ↗](https://github.com/mostlygeek/llama-swap/tree/main/docs/kb) · [🌐 Site ↗](https://llama-swap.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama-swap/)</sub>
 
 <a name="kimi-k3-in-c"></a>
-### #&#8288;33 [kimi-k3-in-c](https://github.com/fareedkhan-dev/kimi-k3-in-c) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;33 [kimi-k3-in-c](https://github.com/fareedkhan-dev/kimi-k3-in-c) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Oct 2026</sub>
 
 **Kimi K3 inference engine in portable C99 that streams weights from disk.**
 
@@ -723,7 +723,7 @@ Lemonade is a C++ local inference server that exposes text generation, speech-to
 <sub>GPU optional · Docker · Models: GGUF, ONNX, FLM, Whisper, Stable Diffusion · [Repo](https://github.com/lemonade-sdk/lemonade) · [📖 Docs ↗](https://github.com/lemonade-sdk/lemonade/blob/main/docs/README.md) · [🌐 Site ↗](https://lemonade-server.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lemonade/)</sub>
 
 <a name="llama-cpp-python"></a>
-### #&#8288;41 [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;41 [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **Python bindings and OpenAI-compatible server for llama.cpp.**
 
@@ -741,7 +741,7 @@ Python package that wraps llama.cpp through ctypes, with a high-level Llama clas
 <sub>GPU optional · Docker · Needs Python 3.8+, C compiler, CMake · Models: GGUF, llava, moondream2, minicpm-v-2.6, qwen2.5-vl · [Repo](https://github.com/abetlen/llama-cpp-python) · [📖 Docs ↗](https://llama-cpp-python.readthedocs.io/en/latest) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama-cpp-python/)</sub>
 
 <a name="lmdeploy"></a>
-### #&#8288;42 [LMDeploy](https://github.com/internlm/lmdeploy) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;42 [LMDeploy](https://github.com/internlm/lmdeploy) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · Apache-2.0 · Nov 2026</sub>
 
 **LLM and VLM inference server with quantization, TurboMind and PyTorch engines.**
 
@@ -990,7 +990,7 @@ MLC LLM compiles language models and runs them through MLCEngine, a single infer
 <sub>GPU optional · [Repo](https://github.com/mlc-ai/mlc-llm) · [📖 Docs ↗](https://llm.mlc.ai/docs/) · [🌐 Site ↗](https://llm.mlc.ai/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mlc-llm/)</sub>
 
 <a name="ctranslate2"></a>
-### #&#8288;56 [ctranslate2](https://github.com/opennmt/ctranslate2) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
+### #&#8288;56 [ctranslate2](https://github.com/opennmt/ctranslate2) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
 
 **C++ and Python inference engine for Transformer models on CPU and GPU.**
 
@@ -1008,7 +1008,7 @@ CTranslate2 is a C++ runtime with Python bindings that runs converted Transforme
 <sub>GPU optional · Docker · Models: Transformer base/big, NLLB, M2M-100, BART, T5 · [Repo](https://github.com/opennmt/ctranslate2) · [📖 Docs ↗](https://opennmt.net/CTranslate2) · [🌐 Site ↗](https://opennmt.net/CTranslate2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ctranslate2/)</sub>
 
 <a name="olares"></a>
-### #&#8288;57 [olares](https://github.com/beclab/olares) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;57 [olares](https://github.com/beclab/olares) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · AGPL-3.0 · Nov 2026</sub>
 
 **Kubernetes-based personal cloud OS for running local LLMs and AI agents.**
 
@@ -1188,7 +1188,7 @@ LitServe is a Python library where you subclass LitAPI, implement setup() and pr
 <sub>GPU optional · Needs FastAPI · Models: PyTorch, JAX, TensorFlow, Hugging Face, vLLM · port 8000 · [Repo](https://github.com/lightning-ai/litserve) · [📖 Docs ↗](https://lightning.ai/docs/litserve) · [🌐 Site ↗](https://lightning.ai/litserve) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/litserve/)</sub>
 
 <a name="lightllm"></a>
-### #&#8288;67 [lightllm](https://github.com/modeltc/lightllm) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;67 [lightllm](https://github.com/modeltc/lightllm) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
 
 **Python LLM inference server with token-level KV cache management.**
 
