@@ -218,8 +218,26 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvector/)</sub>
 
+<a name="infinity"></a>
+### #&#8288;13 [infinity](https://github.com/infiniflow/infinity) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
+
+**Database for hybrid dense, sparse, tensor and full-text search.**
+
+Infinity is a C++ database that runs hybrid search over dense vectors, sparse vectors, tensors and full-text, with filtering on structured columns. It supports RRF, weighted-sum and ColBERT rerankers, and is used from a Python SDK (embedded or over the network) or an HTTP API. The README reports 0.1 ms latency and 15K+ QPS on million-scale vector sets, and 1 ms latency on full-text search over 33M documents.
+
+- **+** One query combines dense, sparse, tensor and full-text search with filters
+- **+** Ships RRF, weighted-sum and ColBERT rerankers
+- **+** Single binary with no external dependencies; also embeddable as a Python module
+- **+** Python SDK and HTTP API available
+- **−** Requires an x86_64 CPU with AVX2; no ARM support listed
+- **−** Quickstart uses the nightly Docker tag rather than a pinned release
+- **−** Benchmark figures are self-reported in the README
+- **−** Windows use requires WSL/WSL2 with host networking
+
+<sub>no GPU · Models: dense embeddings, sparse embeddings, tensors, ColBERT reranking · [Repo](https://github.com/infiniflow/infinity) · [📖 Docs ↗](https://infiniflow.org/docs/dev/category/get-started) · [🌐 Site ↗](https://infiniflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinity/)</sub>
+
 <a name="vespa"></a>
-### #&#8288;13 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -237,7 +255,7 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vespa/)</sub>
 
 <a name="turbovec"></a>
-### #&#8288;14 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
+### #&#8288;15 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Oct 2026</sub>
 
 **In-process quantized vector index for Python and Rust using TurboQuant.**
 
@@ -255,7 +273,7 @@ turbovec is a library that stores embeddings at 2 or 4 bits per dimension using 
 <sub>no GPU · [Repo](https://github.com/ryancodrai/turbovec) · [📖 Docs ↗](https://github.com/RyanCodrai/turbovec/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbovec/)</sub>
 
 <a name="usearch"></a>
-### #&#8288;15 [usearch](https://github.com/unum-cloud/usearch) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [usearch](https://github.com/unum-cloud/usearch) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
 
 **Proximity-graph nearest-neighbor index with bindings for 14 languages.**
 
@@ -271,24 +289,6 @@ USearch is a header-only C++20 library for approximate nearest-neighbor search o
 - **−** Geometry and storage types are fixed when the index opens
 
 <sub>GPU optional · [Repo](https://github.com/unum-cloud/usearch) · [📖 Docs ↗](https://github.com/unum-cloud/USearch/blob/main/include/usearch/dense/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/usearch/)</sub>
-
-<a name="infinity"></a>
-### #&#8288;16 [infinity](https://github.com/infiniflow/infinity) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
-
-**Database for hybrid dense, sparse, tensor and full-text search.**
-
-Infinity is a C++ database that runs hybrid search over dense vectors, sparse vectors, tensors and full-text, with filtering on structured columns. It supports RRF, weighted-sum and ColBERT rerankers, and is used from a Python SDK (embedded or over the network) or an HTTP API. The README reports 0.1 ms latency and 15K+ QPS on million-scale vector sets, and 1 ms latency on full-text search over 33M documents.
-
-- **+** One query combines dense, sparse, tensor and full-text search with filters
-- **+** Ships RRF, weighted-sum and ColBERT rerankers
-- **+** Single binary with no external dependencies; also embeddable as a Python module
-- **+** Python SDK and HTTP API available
-- **−** Requires an x86_64 CPU with AVX2; no ARM support listed
-- **−** Quickstart uses the nightly Docker tag rather than a pinned release
-- **−** Benchmark figures are self-reported in the README
-- **−** Windows use requires WSL/WSL2 with host networking
-
-<sub>no GPU · Models: dense embeddings, sparse embeddings, tensors, ColBERT reranking · [Repo](https://github.com/infiniflow/infinity) · [📖 Docs ↗](https://infiniflow.org/docs/dev/category/get-started) · [🌐 Site ↗](https://infiniflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinity/)</sub>
 
 <a name="hnswlib"></a>
 ### #&#8288;17 [hnswlib](https://github.com/nmslib/hnswlib) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (30) · Freshness: active (96) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · Apache-2.0 · Sep 2026</sub>

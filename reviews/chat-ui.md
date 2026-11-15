@@ -59,7 +59,7 @@ LobeHub is a TypeScript (Next.js plus Vite SPA) web app for running agents and a
 <sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, RustFS, SearXNG · Models: 40+ providers, local models · port 3210 · [Repo](https://github.com/lobehub/lobehub) · [📖 Docs ↗](https://lobehub.com/docs/usage/start) · [🌐 Site ↗](https://lobehub.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
 
 <a name="anything-llm"></a>
-### #&#8288;4 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · MIT · Nov 2026</sub>
+### #&#8288;4 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 68k · MIT · Nov 2026</sub>
 
 **Document chat app with agents, workspaces and many LLM and vector DB backends.**
 
@@ -291,26 +291,8 @@ Jupyter AI adds a chat panel to JupyterLab that talks to external agents over th
 
 <sub>Needs JupyterLab, An ACP-compatible agent (e.g. Claude, Codex, Gemini, OpenCode) · Models: Claude, Codex, GitHub Copilot, Gemini, Goose · [Repo](https://github.com/jupyterlab/jupyter-ai) · [📖 Docs ↗](https://jupyter-ai.readthedocs.io/en/stable/getting-started.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jupyter-ai/)</sub>
 
-<a name="chat-ollama"></a>
-### #&#8288;17 [chat-ollama](https://github.com/sugarforever/chat-ollama) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
-
-**Self-hosted chat app with knowledge bases and MCP tools on SQLite.**
-
-ChatOllama is a SvelteKit/TypeScript chat workspace that runs as one Node.js service with SQLite and local file storage. It talks to any OpenAI-compatible chat and embedding endpoint (Ollama included), supports PDF, Markdown and text knowledge bases with cited answers, and connects stdio or Streamable HTTP MCP servers. Runs continue after the browser closes or the process restarts.
-
-- **+** No separate database or vector service; SQLite and local files hold all data
-- **+** Chat and embedding endpoints are configured independently, including Ollama via its OpenAI-compatible API
-- **+** Active runs survive browser close and app restart on an intact data volume
-- **+** Per-conversation provider/model switching and selectable knowledge bases and MCP servers
-- **−** No application login; anyone with network access can use the app and its tools
-- **−** MCP tools run without per-call approval
-- **−** No OCR; scanned PDFs need external text extraction, 10 MiB per file limit
-- **−** Cannot open databases or indexes from the older ChatOllama; no migration or export/import
-
-<sub>no GPU · Docker + Compose · Needs OpenAI-compatible chat endpoint, OpenAI-compatible embedding endpoint (for knowledge bases), Node.js 24.22.2 and pnpm 10.8.1 (non-Docker install) · Models: OpenAI-compatible APIs, Ollama (via /v1), ChatGPT/Claude subscriptions · port 3000 · [Repo](https://github.com/sugarforever/chat-ollama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chat-ollama/)</sub>
-
 <a name="nextchat"></a>
-### #&#8288;18 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (95) · Freshness: recent (76) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### #&#8288;17 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (95) · Freshness: recent (76) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Web and desktop chat client for OpenAI, Claude, Gemini and other model APIs.**
 
@@ -326,6 +308,24 @@ NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, A
 - **−** Last release is 2025-07-29; README docs partly Chinese-only or marked deprecated
 
 <sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
+
+<a name="chat-ollama"></a>
+### #&#8288;18 [chat-ollama](https://github.com/sugarforever/chat-ollama) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
+
+**Self-hosted chat app with knowledge bases and MCP tools on SQLite.**
+
+ChatOllama is a SvelteKit/TypeScript chat workspace that runs as one Node.js service with SQLite and local file storage. It talks to any OpenAI-compatible chat and embedding endpoint (Ollama included), supports PDF, Markdown and text knowledge bases with cited answers, and connects stdio or Streamable HTTP MCP servers. Runs continue after the browser closes or the process restarts.
+
+- **+** No separate database or vector service; SQLite and local files hold all data
+- **+** Chat and embedding endpoints are configured independently, including Ollama via its OpenAI-compatible API
+- **+** Active runs survive browser close and app restart on an intact data volume
+- **+** Per-conversation provider/model switching and selectable knowledge bases and MCP servers
+- **−** No application login; anyone with network access can use the app and its tools
+- **−** MCP tools run without per-call approval
+- **−** No OCR; scanned PDFs need external text extraction, 10 MiB per file limit
+- **−** Cannot open databases or indexes from the older ChatOllama; no migration or export/import
+
+<sub>no GPU · Docker + Compose · Needs OpenAI-compatible chat endpoint, OpenAI-compatible embedding endpoint (for knowledge bases), Node.js 24.22.2 and pnpm 10.8.1 (non-Docker install) · Models: OpenAI-compatible APIs, Ollama (via /v1), ChatGPT/Claude subscriptions · port 3000 · [Repo](https://github.com/sugarforever/chat-ollama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chat-ollama/)</sub>
 
 <a name="chathub"></a>
 ### #&#8288;19 [chathub](https://github.com/chathub-dev/chathub) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
@@ -363,25 +363,8 @@ GeekAI is a Go (Gin) backend with a Vue 3 front end that wraps chat models and t
 
 <sub>Compose · Needs MySQL, Redis, Object storage (Qiniu, Aliyun OSS, Tencent COS or Minio) · Models: ChatGPT, Claude, MidJourney, DALL-E, Nano-Banana · [Repo](https://github.com/yangjian102621/geekai) · [▶️ Demo ↗](https://chat.geekai.me) · [📖 Docs ↗](https://docs.geekai.me) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/geekai/)</sub>
 
-<a name="better-chatbot"></a>
-### #&#8288;21 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
-
-**Self-hosted chat UI with agents, MCP tools, workflows and pgvector document search.**
-
-keinsaas Navigator Community Edition (formerly better-chatbot) is a Next.js chat and agent app backed by Postgres with pgvector. It supports @-mentioned agents, skills, a visual workflow builder, MCP servers over HTTP or stdio, scheduled tasks and project document retrieval. Models go through the Vercel AI Gateway by default, or through Ollama, LM Studio and other OpenAI-compatible endpoints.
-
-- **+** Project documents are chunked, embedded and searched in Postgres with pgvector, no external service
-- **+** Connects Ollama, LM Studio or any OpenAI-compatible server per account
-- **+** Visual workflow editor publishes workflows as tools callable from chat
-- **+** MIT licensed with no usage caps or telemetry stated for this edition
-- **−** Default model access needs a Vercel AI Gateway key; per-provider keys were removed in 2.0
-- **−** Team workspaces, per-member budgets, billing and Slack bot are only in the hosted edition
-- **−** Upgrade from 1.x is a one-way migration; backup is required
-
-<sub>no GPU · Docker + Compose · Needs Postgres with pgvector, Vercel AI Gateway (AI_GATEWAY_API_KEY), Supabase (file uploads, optional), Redis (optional), Inngest (optional), E2B (optional), Exa (optional), AssemblyAI (optional), Composio (optional) · Models: Vercel AI Gateway (Anthropic, OpenAI, Google, Mistral, xAI, DeepSeek, Moonshot), Ollama, LM Studio, OpenAI-compatible endpoints, TensorX · port 3000 · [Repo](https://github.com/keinsaasforever/better-chatbot) · [📖 Docs ↗](https://github.com/keinsaasforever/better-chatbot/blob/main/docs/self-hosting.md) · [🌐 Site ↗](https://keinsaas.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/better-chatbot/)</sub>
-
 <a name="sqlchat"></a>
-### #&#8288;22 [sqlchat](https://github.com/sqlchat/sqlchat) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (32) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Oct 2026</sub>
+### #&#8288;21 [sqlchat](https://github.com/sqlchat/sqlchat) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (32) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Oct 2026</sub>
 
 **Chat-based SQL client that turns natural language into database queries.**
 
@@ -397,6 +380,23 @@ SQL Chat is a Next.js web app that connects to MySQL, PostgreSQL, MSSQL, TiDB Cl
 - **−** Accounts, quotas and payment require a separate Postgres instance
 
 <sub>no GPU · Docker · Needs OpenAI API or compatible endpoint, PostgreSQL (optional, for accounts and quotas) · Models: OpenAI API, Ollama (via OPENAI_API_ENDPOINT) · port 3000 · [Repo](https://github.com/sqlchat/sqlchat) · [▶️ Demo ↗](https://sqlchat.ai) · [🌐 Site ↗](https://sqlchat.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sqlchat/)</sub>
+
+<a name="better-chatbot"></a>
+### #&#8288;22 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+
+**Self-hosted chat UI with agents, MCP tools, workflows and pgvector document search.**
+
+keinsaas Navigator Community Edition (formerly better-chatbot) is a Next.js chat and agent app backed by Postgres with pgvector. It supports @-mentioned agents, skills, a visual workflow builder, MCP servers over HTTP or stdio, scheduled tasks and project document retrieval. Models go through the Vercel AI Gateway by default, or through Ollama, LM Studio and other OpenAI-compatible endpoints.
+
+- **+** Project documents are chunked, embedded and searched in Postgres with pgvector, no external service
+- **+** Connects Ollama, LM Studio or any OpenAI-compatible server per account
+- **+** Visual workflow editor publishes workflows as tools callable from chat
+- **+** MIT licensed with no usage caps or telemetry stated for this edition
+- **−** Default model access needs a Vercel AI Gateway key; per-provider keys were removed in 2.0
+- **−** Team workspaces, per-member budgets, billing and Slack bot are only in the hosted edition
+- **−** Upgrade from 1.x is a one-way migration; backup is required
+
+<sub>no GPU · Docker + Compose · Needs Postgres with pgvector, Vercel AI Gateway (AI_GATEWAY_API_KEY), Supabase (file uploads, optional), Redis (optional), Inngest (optional), E2B (optional), Exa (optional), AssemblyAI (optional), Composio (optional) · Models: Vercel AI Gateway (Anthropic, OpenAI, Google, Mistral, xAI, DeepSeek, Moonshot), Ollama, LM Studio, OpenAI-compatible endpoints, TensorX · port 3000 · [Repo](https://github.com/keinsaasforever/better-chatbot) · [📖 Docs ↗](https://github.com/keinsaasforever/better-chatbot/blob/main/docs/self-hosting.md) · [🌐 Site ↗](https://keinsaas.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/better-chatbot/)</sub>
 
 <a name="chuanhuchatgpt"></a>
 ### #&#8288;23 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (69) · Freshness: recent (77) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
@@ -416,26 +416,8 @@ Chuanhu Chat is a Python and Gradio web interface for hosted APIs (OpenAI, Azure
 
 <sub>GPU optional · Docker · Needs Python, Gradio, API keys for hosted providers · Models: OpenAI, Azure OpenAI, Google Gemini, Claude, DeepSeek · [Repo](https://github.com/gaizhenbiao/chuanhuchatgpt) · [▶️ Demo ↗](https://huggingface.co/spaces/JohnSmith9982/ChuanhuChatGPT) · [📖 Docs ↗](https://github.com/GaiZhenbiao/ChuanhuChatGPT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chuanhuchatgpt/)</sub>
 
-<a name="lollms-webui"></a>
-### #&#8288;24 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (26) · Freshness: recent (70) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
-
-**Web UI for chatting with local and API LLMs, plus image and music generation.**
-
-LoLLMs WebUI is a Python web interface that connects to many LLM backends (GGUF, ExLlamaV2, Hugging Face, Ollama, vLLM, OpenAI, Anthropic, OpenRouter and others) through installable bindings. It adds selectable personalities, local discussion storage, image, video and music generation, and prompt routing across models by cost or speed. The README says the project has minimal support and will be replaced by the newer lollms project.
-
-- **+** Many bindings: GGUF, ExLlamaV2, Hugging Face, Ollama, vLLM, OpenAI, Anthropic, OpenRouter, Gemini, Groq
-- **+** Covers text, image, video and music generation in one UI
-- **+** Smart routing can pick a model per prompt by cost or speed
-- **+** Install via scripts, manual venv or Docker; chats kept in a local database
-- **−** Maintainer states minimal support; being replaced by the separate lollms project
-- **−** No built-in user authentication; remote use needs a tunnel and headless mode
-- **−** Last release is 2024-11-11, though commits continue
-- **−** README gives no hardware requirements and no docs link
-
-<sub>GPU optional · Docker + Compose · Needs Python 3.11, git submodules · Models: GGUF/GGML, ExLlamaV2, Hugging Face, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
-
 <a name="g0dm0d3"></a>
-### #&#8288;25 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (62) · Freshness: active (88) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · AGPL-3.0 · Jul 2026</sub>
+### #&#8288;24 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (62) · Freshness: active (88) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · AGPL-3.0 · Jul 2026</sub>
 
 **Browser chat UI that races many models and scores their responses.**
 
@@ -451,6 +433,24 @@ G0DM0D3 is a single-file HTML chat interface that sends one prompt to many model
 - **−** Racing up to 60 models multiplies API cost across providers
 
 <sub>GPU optional · Docker + Compose · Needs OpenRouter, Venice, Ollama, Cloudflare Pages (telemetry), Hugging Face (telemetry) · Models: OpenRouter models, Venice models, OpenAI-compatible local servers, Ollama, LM Studio · port 8000 · [Repo](https://github.com/elder-plinius/g0dm0d3) · [▶️ Demo ↗](https://godmod3.ai) · [📖 Docs ↗](https://github.com/elder-plinius/G0DM0D3/blob/main/API.md) · [🌐 Site ↗](https://godmod3.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/g0dm0d3/)</sub>
+
+<a name="lollms-webui"></a>
+### #&#8288;25 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (26) · Freshness: recent (70) · Maintenance: patchy (48) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
+
+**Web UI for chatting with local and API LLMs, plus image and music generation.**
+
+LoLLMs WebUI is a Python web interface that connects to many LLM backends (GGUF, ExLlamaV2, Hugging Face, Ollama, vLLM, OpenAI, Anthropic, OpenRouter and others) through installable bindings. It adds selectable personalities, local discussion storage, image, video and music generation, and prompt routing across models by cost or speed. The README says the project has minimal support and will be replaced by the newer lollms project.
+
+- **+** Many bindings: GGUF, ExLlamaV2, Hugging Face, Ollama, vLLM, OpenAI, Anthropic, OpenRouter, Gemini, Groq
+- **+** Covers text, image, video and music generation in one UI
+- **+** Smart routing can pick a model per prompt by cost or speed
+- **+** Install via scripts, manual venv or Docker; chats kept in a local database
+- **−** Maintainer states minimal support; being replaced by the separate lollms project
+- **−** No built-in user authentication; remote use needs a tunnel and headless mode
+- **−** Last release is 2024-11-11, though commits continue
+- **−** README gives no hardware requirements and no docs link
+
+<sub>GPU optional · Docker + Compose · Needs Python 3.11, git submodules · Models: GGUF/GGML, ExLlamaV2, Hugging Face, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
 
 <a name="gpt-academic"></a>
 ### #&#8288;26 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (91) · Freshness: quiet (18) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · GPL-3.0 · Jan 2026</sub>
