@@ -275,7 +275,7 @@ DSH Desktop wraps the DeepSeek Harness agent runtime in a native Electron-style 
 <sub>Needs DeepSeek Harness, Cloudflare Quick Tunnel (optional, phone access), Pinggy (optional fallback tunnel) · Models: Third-party model providers via configurable provider setup · [Repo](https://github.com/dataelement/dsh-desktop) · [🌐 Site ↗](https://www.dshdesktop.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataelement-dsh-desktop/)</sub>
 
 <a name="read-frog"></a>
-### #&#8288;16 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;16 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · GPL-3.0 · Nov 2026</sub>
 
 **Browser extension that translates pages and subtitles for language learners.**
 
@@ -347,7 +347,7 @@ Open CoDesign is an Electron desktop app for macOS, Windows and Linux in which a
 <sub>no GPU · Needs API key, ChatGPT subscription, or local Ollama · Models: Claude, GPT, Gemini, DeepSeek, Kimi · [Repo](https://github.com/opencoworkai/open-codesign) · [📖 Docs ↗](https://opencoworkai.github.io/open-codesign/quickstart) · [🌐 Site ↗](https://opencoworkai.github.io/open-codesign/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-codesign/)</sub>
 
 <a name="presenton"></a>
-### #&#8288;20 [presenton](https://github.com/presenton/presenton) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;20 [presenton](https://github.com/presenton/presenton) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Generates editable PPTX and PDF slide decks from prompts or documents.**
 
@@ -507,26 +507,8 @@ Koharu is a Rust desktop app that translates manga pages in a pipeline of text a
 
 <sub>GPU optional · Needs WebGPU-capable graphics driver, Hugging Face model downloads, Rust, Bun and LLVM (build from source only) · Models: GGUF, Gemma 4, Qwen 3.5/3.6/3.8, Ministral 3, LFM 2.5 · [Repo](https://github.com/koharu-rs/koharu) · [📖 Docs ↗](https://koharu.rs/installation) · [🌐 Site ↗](https://koharu.rs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/koharu/)</sub>
 
-<a name="holaos"></a>
-### #&#8288;29 [holaos](https://github.com/holaboss-ai/holaos) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Nov 2026</sub>
-
-**Electron desktop workspace that runs agents beside live apps, with local memory.**
-
-holaOS is an Electron desktop app where agents (Claude Code, Codex, or a built-in holaOS agent) run next to interactive apps such as Notion or a browser. It connects Slack, Feishu, DingTalk and WeChat, 50+ OAuth integrations and MCP servers, and keeps memory as plain local files. Models are either built in through a holaOS account or supplied with your own OpenAI/Anthropic-compatible keys.
-
-- **+** Runs Claude Code, Codex and its own agent over shared memory, skills and tools
-- **+** Memory, embeddings and session history stored locally as readable, editable files
-- **+** Supports MCP servers, 50+ OAuth integrations and bring-your-own-key providers
-- **+** Runs on macOS (Apple Silicon and Intel), Windows and Linux
-- **−** Modified Apache 2.0 license with commercial-distribution and branding conditions
-- **−** Built-in models and marketplace tie into a holaOS account; sign-in required for those
-- **−** Source install needs Node 24.14.1 and an Electron dev build; no Docker or compose
-- **−** SSO, per-role permissions and audit logs are in the Enterprise tier
-
-<sub>no GPU · Needs Node.js 24.14.1, npm, git, Electron · Models: Kimi K3, GLM 5.2, GPT 5.6, Claude Opus 5, OpenAI-compatible endpoints · [Repo](https://github.com/holaboss-ai/holaos) · [📖 Docs ↗](https://www.holaos.ai/docs/getting-started) · [🌐 Site ↗](https://www.holaos.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/holaos/)</sub>
-
 <a name="everywhere"></a>
-### #&#8288;30 [everywhere](https://github.com/sylinko/everywhere) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
+### #&#8288;29 [everywhere](https://github.com/sylinko/everywhere) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
 
 **Hotkey-invoked desktop AI assistant that reads on-screen context in Windows and macOS apps.**
 
@@ -544,7 +526,7 @@ Everywhere is a C# desktop app (.NET 10, Avalonia) for Windows and macOS. A glob
 <sub>Needs Ollama (optional, for local models) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Moonshot (Kimi) · [Repo](https://github.com/sylinko/everywhere) · [📖 Docs ↗](https://everywhere.sylinko.com) · [🌐 Site ↗](https://everywhere.sylinko.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/everywhere/)</sub>
 
 <a name="open-science"></a>
-### #&#8288;31 [open-science](https://github.com/aipoch/open-science) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;30 [open-science](https://github.com/aipoch/open-science) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · Apache-2.0 · Nov 2026</sub>
 
 **Local-first research workbench with provenance tracking and portable .science exports.**
 
@@ -560,6 +542,24 @@ AIPOCH Open-Science is a desktop app (macOS, Windows, Linux) with a standalone C
 - **−** Research narration requires a separately installed local voice model
 
 <sub>Needs Node.js 22.13.0+ (npm install only), Python or R (optional, for notebooks) · Models: Codex subscriptions, Claude, DeepSeek, Gemini, configurable provider via API key and endpoint · [Repo](https://github.com/aipoch/open-science) · [▶️ Demo ↗](https://www.youtube.com/watch?v=to_BhE5DDMw) · [📖 Docs ↗](https://aipoch.com/docs/guides/research-packages/) · [🌐 Site ↗](https://aipoch.com/open-science) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-science/)</sub>
+
+<a name="holaos"></a>
+### #&#8288;31 [holaos](https://github.com/holaboss-ai/holaos) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Nov 2026</sub>
+
+**Electron desktop workspace that runs agents beside live apps, with local memory.**
+
+holaOS is an Electron desktop app where agents (Claude Code, Codex, or a built-in holaOS agent) run next to interactive apps such as Notion or a browser. It connects Slack, Feishu, DingTalk and WeChat, 50+ OAuth integrations and MCP servers, and keeps memory as plain local files. Models are either built in through a holaOS account or supplied with your own OpenAI/Anthropic-compatible keys.
+
+- **+** Runs Claude Code, Codex and its own agent over shared memory, skills and tools
+- **+** Memory, embeddings and session history stored locally as readable, editable files
+- **+** Supports MCP servers, 50+ OAuth integrations and bring-your-own-key providers
+- **+** Runs on macOS (Apple Silicon and Intel), Windows and Linux
+- **−** Modified Apache 2.0 license with commercial-distribution and branding conditions
+- **−** Built-in models and marketplace tie into a holaOS account; sign-in required for those
+- **−** Source install needs Node 24.14.1 and an Electron dev build; no Docker or compose
+- **−** SSO, per-role permissions and audit logs are in the Enterprise tier
+
+<sub>no GPU · Needs Node.js 24.14.1, npm, git, Electron · Models: Kimi K3, GLM 5.2, GPT 5.6, Claude Opus 5, OpenAI-compatible endpoints · [Repo](https://github.com/holaboss-ai/holaos) · [📖 Docs ↗](https://www.holaos.ai/docs/getting-started) · [🌐 Site ↗](https://www.holaos.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/holaos/)</sub>
 
 <a name="smartsub"></a>
 ### #&#8288;32 [smartsub](https://github.com/buxuku/smartsub) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Nov 2026</sub>
@@ -796,7 +796,7 @@ OhMyGame is an Electron desktop app (TypeScript) that runs the Pi coding agent a
 <sub>no GPU · Needs Bun 1.4.2+ (source build), Node.js 22.19+ (source build), Model provider API key or subscription sign-in · Models: Anthropic, OpenAI, Google, DeepSeek, Qwen · [Repo](https://github.com/whitetowerai/ohmygame) · [📖 Docs ↗](https://github.com/WhiteTowerAI/ohmygame/blob/main/docs/README.md) · [🌐 Site ↗](https://ohmygame.ai/download/mac) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ohmygame/)</sub>
 
 <a name="baocut"></a>
-### #&#8288;45 [baocut](https://github.com/jimliu/baocut) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
+### #&#8288;45 [baocut](https://github.com/jimliu/baocut) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
 
 **Desktop video editor that coding agents drive through a CLI and MCP.**
 

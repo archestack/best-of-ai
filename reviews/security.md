@@ -257,7 +257,7 @@ T3MP3ST runs a recon, exploit and report kill chain against authorized targets f
 <sub>GPU optional · Docker + Compose · Needs Node.js/npm, git, Docker (optional), Ollama or OpenAI-compatible server (optional) · Models: Claude Code, Codex, Hermes, OpenCode, Oh My Pi · port 3333 · [Repo](https://github.com/elder-plinius/t3mp3st) · [📖 Docs ↗](https://github.com/elder-plinius/T3MP3ST/blob/main/docs/GETTING_STARTED.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/t3mp3st/)</sub>
 
 <a name="pyrit"></a>
-### #&#8288;15 [pyrit](https://github.com/microsoft/pyrit) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
+### #&#8288;15 [pyrit](https://github.com/microsoft/pyrit) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
 
 **AI red teaming toolkit for scanning generative AI models and applications.**
 

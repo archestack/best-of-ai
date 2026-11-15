@@ -419,7 +419,7 @@ AutoRAG Agent (@autorag/librarian, TypeScript, Node 24+ or Bun) is a single-mode
 <sub>Needs Node.js >= 24 or Bun >= 1.2, MinSync, Pi coding agent, filee-cli, Jikji (optional, Rust), fsearch-cli (optional) · Models: Provider-configured LLMs via Pi, Qwen3-Embedding-0.6B (local embeddings), KURE-Sparse-nano (SPLADE) · [Repo](https://github.com/marker-inc-korea/autorag) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autorag/)</sub>
 
 <a name="db-gpt"></a>
-### #&#8288;24 [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
+### #&#8288;24 [DB-GPT](https://github.com/eosphoros-ai/db-gpt) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
 
 **Agentic data assistant that writes SQL and code over your databases.**
 
@@ -562,7 +562,7 @@ paperless-gpt is a Go service that sits next to paperless-ngx and uses an LLM to
 <sub>GPU optional · Docker + Compose · Needs paperless-ngx, OpenAI, Anthropic, Mistral or Ollama LLM provider, Docker · Models: OpenAI, Azure OpenAI, Mistral, Anthropic, Ollama · port 8080 · [Repo](https://github.com/icereed/paperless-gpt) · [📖 Docs ↗](https://github.com/icereed/paperless-gpt/blob/main/docs/workflows.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperless-gpt/)</sub>
 
 <a name="deepwiki-open"></a>
-### #&#8288;32 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
+### #&#8288;32 [DeepWiki-Open](https://github.com/asyncfuncai/deepwiki-open) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
 
 **Generates browsable wikis with diagrams from Git repositories.**
 
@@ -634,7 +634,7 @@ Knowhere ingests PDFs, slides, Office files, images and audio, then builds hiera
 <sub>Docker + Compose · Needs PostgreSQL, Redis, S3-compatible storage, LLM provider API key, Vision-capable model provider, VERCEL_KEY for embeddings, uv · Models: DeepSeek, OpenAI, Qwen, GLM, Volcengine · port 5005 · [Repo](https://github.com/ontos-ai/knowhere) · [📖 Docs ↗](https://docs.knowhereto.ai/) · [🌐 Site ↗](https://knowhereto.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/knowhere/)</sub>
 
 <a name="localgpt"></a>
-### #&#8288;36 [localgpt](https://github.com/promtengineer/localgpt) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Aug 2026</sub>
+### #&#8288;36 [localgpt](https://github.com/promtengineer/localgpt) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Aug 2026</sub>
 
 **Private document Q&A with hybrid search and reranking over Ollama models.**
 
@@ -706,7 +706,7 @@ Next.js answer engine (formerly Perplexica) that runs searches through a bundled
 <sub>no GPU · Docker + Compose · Needs SearXNG (bundled in the default image), LLM provider (Ollama, OpenAI-compatible server or cloud API) · Models: Ollama, OpenAI, Anthropic Claude, Google Gemini, Groq · port 3000 · [Repo](https://github.com/itzcrazykns/vane) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vane/)</sub>
 
 <a name="llm-for-zotero"></a>
-### #&#8288;40 [llm-for-zotero](https://github.com/yilewang/llm-for-zotero) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;40 [llm-for-zotero](https://github.com/yilewang/llm-for-zotero) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · AGPL-3.0 · Nov 2026</sub>
 
 **Zotero plugin for chatting with papers and running an agent over your library.**
 
@@ -1047,7 +1047,7 @@ A GitHub Actions workflow crawls arXiv daily (cs.CV, cs.GR, cs.CL, cs.AI, cs.CE,
 <sub>no GPU · Needs GitHub Actions, GitHub Pages, OpenAI-compatible LLM API (e.g. DeepSeek), arXiv · Models: DeepSeek, OpenAI-compatible APIs · [Repo](https://github.com/dw-dengwei/daily-arxiv-ai-enhanced) · [▶️ Demo ↗](https://dw-dengwei.github.io/daily-arXiv-ai-enhanced/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/daily-arxiv-ai-enhanced/)</sub>
 
 <a name="jamaibase"></a>
-### #&#8288;59 [jamaibase](https://github.com/embeddedllm/jamaibase) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (0) · Freshness: recent (70) · Maintenance: patchy (34) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;59 [jamaibase](https://github.com/embeddedllm/jamaibase) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (0) · Freshness: recent (70) · Maintenance: patchy (32) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Oct 2026</sub>
 
 **RAG backend with spreadsheet-style tables over SQLite and LanceDB.**
 

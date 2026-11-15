@@ -203,7 +203,7 @@ Holds the shared libraries, test frameworks and build pipelines for Microsoft's 
 <sub>no GPU · Docker · Needs Azure subscription, Microsoft Fabric · [Repo](https://github.com/microsoft/mcp) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/azure-mcp-server/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp/)</sub>
 
 <a name="supergateway"></a>
-### #&#8288;12 [supergateway](https://github.com/supercorp-ai/supergateway) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+### #&#8288;12 [supergateway](https://github.com/supercorp-ai/supergateway) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
 
 **Bridges MCP servers between stdio, SSE, WebSocket and Streamable HTTP.**
 
@@ -347,7 +347,7 @@ Python MCP server built on Telethon that lets Claude, Cursor and other MCP clien
 <sub>GPU optional · Docker + Compose · Needs Telegram account and API credentials, Telethon, Groq API key (optional, default transcription), faster-whisper (optional) · Models: MCP clients (Claude, Cursor), Groq whisper-large-v3-turbo, OpenAI-compatible /audio/transcriptions, faster-whisper · [Repo](https://github.com/chigwell/telegram-mcp) · [📖 Docs ↗](https://github.com/chigwell/telegram-mcp/blob/main/skills/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/telegram-mcp/)</sub>
 
 <a name="pomerado"></a>
-### #&#8288;20 [pomerado](https://github.com/pomerado/pomerado) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
+### #&#8288;20 [pomerado](https://github.com/pomerado/pomerado) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Nov 2026</sub>
 
 **Generates MCP servers for websites from a plain-language task description.**
 

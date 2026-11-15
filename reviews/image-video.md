@@ -112,7 +112,7 @@ AutoClip takes a video URL or local file, transcribes it (author subtitles, loca
 <sub>GPU optional · Docker + Compose · Needs FFmpeg, Python 3.10+, Docker Compose v2, Ollama or LM Studio (optional), Cloud LLM API key (optional) · Models: OpenAI-compatible APIs, Ollama, LM Studio, Whisper, SenseVoice · port 3000 · [Repo](https://github.com/zhouxiaoka/autoclip) · [📖 Docs ↗](https://github.com/zhouxiaoka/autoclip/blob/main/docs/USER_INSTALLATION_GUIDE.md) · [🌐 Site ↗](https://zhouxiaoka.github.io/autoclip_intro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autoclip/)</sub>
 
 <a name="banana-slides"></a>
-### #&#8288;7 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (77) · Freshness: active (92) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;7 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (77) · Freshness: active (92) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Nov 2026</sub>
 
 **AI slide deck generator that exports PPTX, PDF and narrated video.**
 
@@ -166,7 +166,7 @@ Runs diffusion models for image and video generation in plain C/C++ on top of gg
 <sub>GPU optional · Docker · Models: SD1.x, SD2.x, SDXL, SD3/SD3.5, FLUX.1 · [Repo](https://github.com/leejet/stable-diffusion.cpp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stable-diffusion-cpp/)</sub>
 
 <a name="infinite-canvas"></a>
-### #&#8288;10 [infinite-canvas](https://github.com/basketikun/infinite-canvas) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
+### #&#8288;10 [infinite-canvas](https://github.com/basketikun/infinite-canvas) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
 
 **Browser-based infinite canvas for AI image and video generation.**
 
@@ -291,7 +291,7 @@ Mochi Diffusion is a SwiftUI macOS app that generates images locally using Apple
 <sub>GPU required · Needs Apple Core ML Stable Diffusion, iris.c, Xcode 26.0 or later (to build) · Models: Core ML Stable Diffusion (split_einsum, original), ControlNet (Core ML), FLUX.2 Klein 4B, FLUX.2 Klein 9B · [Repo](https://github.com/mochidiffusion/mochidiffusion) · [📖 Docs ↗](https://github.com/MochiDiffusion/MochiDiffusion/wiki/How-to-convert-Stable-Diffusion-models-to-Core-ML) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mochidiffusion/)</sub>
 
 <a name="stabilitymatrix"></a>
-### #&#8288;17 [stabilitymatrix](https://github.com/lykosai/stabilitymatrix) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;17 [stabilitymatrix](https://github.com/lykosai/stabilitymatrix) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · AGPL-3.0 · Nov 2026</sub>
 
 **Desktop package manager and built-in inference UI for Stable Diffusion tools.**
 
@@ -325,7 +325,7 @@ Modly is an Electron and TypeScript desktop app with a Python FastAPI backend th
 <sub>GPU required · Needs Node.js, Python, Hugging Face (model weights) · Models: Hunyuan3D 2 Mini, Hunyuan3D 2 Mini Turbo, Hunyuan3D 2 Mini Fast, TripoSG, Trellis2 GGUF · [Repo](https://github.com/lightningpixel/modly) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modly/)</sub>
 
 <a name="openfilm"></a>
-### #&#8288;19 [openfilm](https://github.com/openfilm/openfilm) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
+### #&#8288;19 [openfilm](https://github.com/openfilm/openfilm) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
 
 **Video editor and CLI that lets coding agents write films as HTML pages.**
 
@@ -379,7 +379,7 @@ ComfyUI-Manager is a custom node for ComfyUI that adds a Manager menu to install
 <sub>no GPU · Needs ComfyUI, git, Python 3 · [Repo](https://github.com/comfy-org/comfyui-manager) · [📖 Docs ↗](https://docs.comfy.org/registry/overview) · [🌐 Site ↗](https://ltdrdata.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-manager/)</sub>
 
 <a name="printfilm"></a>
-### #&#8288;22 [printfilm](https://github.com/yi1108/printfilm) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · MIT · Nov 2026</sub>
+### #&#8288;22 [printfilm](https://github.com/yi1108/printfilm) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · MIT · Nov 2026</sub>
 
 **Step-by-step AI short video and serial drama maker, from script to final cut.**
 
@@ -1295,7 +1295,7 @@ Jaaz is a desktop app (Windows, macOS) with an infinite canvas and a chat agent 
 <sub>GPU optional · Needs Python >=3.12, Node.js/npm, ComfyUI (optional), Ollama (optional) · Models: GPT-4o, Midjourney, VEO3, Kling, Seedance · [Repo](https://github.com/11cafe/jaaz) · [📖 Docs ↗](https://mxnpt25l6k.feishu.cn/docx/LvcTdlVbFoRAZWxnhBYcqVydnpc) · [🌐 Site ↗](https://jaaz.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jaaz/)</sub>
 
 <a name="skyreels-v2"></a>
-### #&#8288;73 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: popular (53) · Freshness: quiet (27) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Jan 2026</sub>
+### #&#8288;73 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: popular (53) · Freshness: quiet (27) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Jan 2026</sub>
 
 **Open-weight video diffusion models for long text- and image-to-video generation.**
 

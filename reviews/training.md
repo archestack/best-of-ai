@@ -343,7 +343,7 @@ Liger Kernel is a PyTorch library of Triton kernels for RMSNorm, RoPE, SwiGLU, C
 <sub>GPU required · Needs torch >= 2.1.2, triton >= 2.3.1, transformers >= 5.0.0 (optional) · Models: Hugging Face transformers models, LLaMA 3, Qwen2-VL, Llama 3.2-Vision · [Repo](https://github.com/linkedin/liger-kernel) · [📖 Docs ↗](https://linkedin.github.io/Liger-Kernel/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/liger-kernel/)</sub>
 
 <a name="model-optimizer"></a>
-### #&#8288;20 [model-optimizer](https://github.com/nvidia/model-optimizer) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;20 [model-optimizer](https://github.com/nvidia/model-optimizer) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Nov 2026</sub>
 
 **Python library for quantizing, pruning and distilling models for NVIDIA inference.**
 
@@ -557,7 +557,7 @@ LightlySSL is a Python framework of modular building blocks (loss functions, mod
 <sub>Needs PyTorch 2.0+, timm, PyTorch Lightning · Models: MoCo, SimCLR, BYOL, SwAV, DINO · [Repo](https://github.com/lightly-ai/lightly) · [📖 Docs ↗](https://docs.lightly.ai/self-supervised-learning/) · [🌐 Site ↗](https://www.lightly.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightly/)</sub>
 
 <a name="mergekit"></a>
-### #&#8288;32 [mergekit](https://github.com/arcee-ai/mergekit) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · LGPL-3.0 · Oct 2026</sub>
+### #&#8288;32 [mergekit](https://github.com/arcee-ai/mergekit) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · LGPL-3.0 · Oct 2026</sub>
 
 **Merge pre-trained language models in weight space from YAML configs.**
 
@@ -698,26 +698,8 @@ MedicalGPT is a set of Python scripts that train domain LLMs through continued p
 
 <sub>GPU required · Needs PyTorch, Hugging Face Transformers, PEFT, DeepSpeed · Models: Qwen 2/2.5/3.5, Llama-3, Mixtral 8x7B, Baichuan, ChatGLM · [Repo](https://github.com/shibing624/medicalgpt) · [📖 Docs ↗](https://github.com/shibing624/MedicalGPT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/medicalgpt/)</sub>
 
-<a name="ignite"></a>
-### #&#8288;40 [ignite](https://github.com/pytorch/ignite) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · BSD-3-Clause · Nov 2026</sub>
-
-**PyTorch library for training and evaluating models with engines, events and metrics.**
-
-Ignite is a Python library on top of PyTorch that replaces hand-written epoch and iteration loops with an Engine object plus event handlers. It ships metrics (Precision, Recall, Accuracy, Confusion Matrix, IoU, about 20 regression metrics) and handlers for saving artifacts and logging. It is used as a library, so the training script keeps control flow.
-
-- **+** Handlers can be any callable, with no base class to inherit
-- **+** Event filtering (every, once, custom filter), stacking with |, and custom events
-- **+** Metrics can be composed with arithmetic and torch methods
-- **+** Library approach: no inversion of control over your training script
-- **−** Tied to PyTorch; no support for other frameworks
-- **−** Full-featured template examples are listed as coming soon
-- **−** Reproducible example logs on the Ignite Trains server are listed as coming soon
-- **−** You still write the train step yourself; it is not a turnkey trainer
-
-<sub>GPU optional · Docker · Needs PyTorch · Models: PyTorch models · [Repo](https://github.com/pytorch/ignite) · [▶️ Demo ↗](https://code-generator.pytorch-ignite.ai/) · [📖 Docs ↗](https://pytorch.org/ignite/) · [🌐 Site ↗](https://pytorch-ignite.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ignite/)</sub>
-
 <a name="transformerlab-app"></a>
-### #&#8288;41 [transformerlab-app](https://github.com/transformerlab/transformerlab-app) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (29) · Freshness: active (97) · Maintenance: weak (27) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;40 [transformerlab-app](https://github.com/transformerlab/transformerlab-app) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (29) · Freshness: active (97) · Maintenance: weak (27) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · AGPL-3.0 · Aug 2026</sub>
 
 **ML research workbench for training, fine-tuning, evaluating and chatting with models.**
 
@@ -733,6 +715,24 @@ Transformer Lab is a web UI and Python backend for downloading LLMs, fine-tuning
 - **−** Install is a curl-piped shell script into ~/.transformerlab
 
 <sub>GPU required · Compose · Needs Conda, Node.js 22 (frontend development), Slurm or SkyPilot (Teams edition) · Models: Llama 3, DeepSeek, Mistral, Qwen, Phi · port 8338 · [Repo](https://github.com/transformerlab/transformerlab-app) · [▶️ Demo ↗](https://youtu.be/tY5TAvKviLo) · [📖 Docs ↗](https://lab.cloud/for-teams/) · [🌐 Site ↗](https://lab.cloud) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/transformerlab-app/)</sub>
+
+<a name="ignite"></a>
+### #&#8288;41 [ignite](https://github.com/pytorch/ignite) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · BSD-3-Clause · Nov 2026</sub>
+
+**PyTorch library for training and evaluating models with engines, events and metrics.**
+
+Ignite is a Python library on top of PyTorch that replaces hand-written epoch and iteration loops with an Engine object plus event handlers. It ships metrics (Precision, Recall, Accuracy, Confusion Matrix, IoU, about 20 regression metrics) and handlers for saving artifacts and logging. It is used as a library, so the training script keeps control flow.
+
+- **+** Handlers can be any callable, with no base class to inherit
+- **+** Event filtering (every, once, custom filter), stacking with |, and custom events
+- **+** Metrics can be composed with arithmetic and torch methods
+- **+** Library approach: no inversion of control over your training script
+- **−** Tied to PyTorch; no support for other frameworks
+- **−** Full-featured template examples are listed as coming soon
+- **−** Reproducible example logs on the Ignite Trains server are listed as coming soon
+- **−** You still write the train step yourself; it is not a turnkey trainer
+
+<sub>GPU optional · Docker · Needs PyTorch · Models: PyTorch models · [Repo](https://github.com/pytorch/ignite) · [▶️ Demo ↗](https://code-generator.pytorch-ignite.ai/) · [📖 Docs ↗](https://pytorch.org/ignite/) · [🌐 Site ↗](https://pytorch-ignite.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ignite/)</sub>
 
 <a name="lightly-train"></a>
 ### #&#8288;42 [lightly-train](https://github.com/lightly-ai/lightly-train) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · AGPL-3.0 · Nov 2026</sub>
