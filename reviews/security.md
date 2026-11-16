@@ -113,7 +113,7 @@ PentAGI takes a target and goal in plain language, then uses a team of specializ
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose, PostgreSQL with pgvector, Neo4j (optional), Langfuse (optional), Grafana/Prometheus (optional) · Models: OpenAI, Anthropic, Google Gemini, AWS Bedrock, Ollama · [Repo](https://github.com/vxcontrol/pentagi) · [🌐 Site ↗](https://vxcontrol.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentagi/)</sub>
 
 <a name="failproofai"></a>
-### #&#8288;7 [failproofai](https://github.com/failproofai/failproofai) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · custom license · Nov 2026</sub>
+### #&#8288;7 [failproofai](https://github.com/failproofai/failproofai) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · custom license · Nov 2026</sub>
 
 **Policy enforcement and run tracing for coding agent CLIs and gateways.**
 
@@ -347,7 +347,7 @@ HexStrike AI runs a Python Flask-style server (hexstrike_server.py, default port
 <sub>GPU optional · Needs Python 3.8+, nmap, nuclei, sqlmap and other security tools, Chrome/Chromium with chromedriver, MCP-compatible client · Models: Claude, GPT, Copilot, any MCP-compatible client · port 8888 · [Repo](https://github.com/0x4m4/hexstrike-ai) · [🌐 Site ↗](https://overthetop.ae/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hexstrike-ai/)</sub>
 
 <a name="pwnagotchi"></a>
-### #&#8288;20 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (63) · Freshness: recent (70) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
+### #&#8288;20 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (63) · Freshness: recent (70) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
 
 **WiFi handshake-capturing agent that tunes its attacks with reinforcement learning.**
 

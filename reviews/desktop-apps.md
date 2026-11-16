@@ -113,7 +113,7 @@ ArtCraft is a Rust desktop app for Windows, macOS and Linux that combines a 2D c
 <sub>Needs ArtCraft hosted generation service, Grok, Midjourney, Sora, World Labs · Models: Nano Banana, GPT Image, FLUX, Seedream, Seedance · [Repo](https://github.com/storytold/artcraft) · [▶️ Demo ↗](https://www.youtube.com/watch?v=kzvQMdg66Go) · [🌐 Site ↗](https://getartcraft.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/artcraft/)</sub>
 
 <a name="aionui"></a>
-### #&#8288;7 [aionui](https://github.com/iofficeai/aionui) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;7 [aionui](https://github.com/iofficeai/aionui) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · Apache-2.0 · Nov 2026</sub>
 
 **Desktop and WebUI app that runs a built-in agent plus external CLI agents.**
 
@@ -167,7 +167,7 @@ Python desktop app (Tkinter GUI, with a CLI) that swaps a face from one source i
 <sub>GPU optional · Needs Python 3.11-3.14, ffmpeg, onnxruntime, gfpgan-1024.onnx, inswapper_128_fp16.onnx, CUDA 12.8 (NVIDIA) · Models: ONNX, inswapper_128_fp16, GFPGAN · [Repo](https://github.com/hacksider/deep-live-cam) · [📖 Docs ↗](https://deeplivecam.net/index.php/quickstart) · [🌐 Site ↗](https://deeplivecam.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-live-cam/)</sub>
 
 <a name="jan"></a>
-### #&#8288;10 [jan](https://github.com/janhq/jan) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · custom license · Nov 2026</sub>
+### #&#8288;10 [jan](https://github.com/janhq/jan) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · custom license · Nov 2026</sub>
 
 **Desktop app that runs local models or cloud APIs, with a local server.**
 
@@ -275,7 +275,7 @@ DSH Desktop wraps the DeepSeek Harness agent runtime in a native Electron-style 
 <sub>Needs DeepSeek Harness, Cloudflare Quick Tunnel (optional, phone access), Pinggy (optional fallback tunnel) · Models: Third-party model providers via configurable provider setup · [Repo](https://github.com/dataelement/dsh-desktop) · [🌐 Site ↗](https://www.dshdesktop.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataelement-dsh-desktop/)</sub>
 
 <a name="read-frog"></a>
-### #&#8288;16 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;16 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · GPL-3.0 · Nov 2026</sub>
 
 **Browser extension that translates pages and subtitles for language learners.**
 
@@ -383,7 +383,7 @@ PocketPal AI is a React Native app for iOS and Android that runs quantized GGUF 
 <sub>GPU optional · Needs llama.rn, llama.cpp, ONNX Runtime, WatermelonDB · Models: GGUF, ONNX (TTS) · [Repo](https://github.com/a-ghorbani/pocketpal-ai) · [🌐 Site ↗](https://pocketpal.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pocketpal-ai/)</sub>
 
 <a name="deepchat"></a>
-### #&#8288;22 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;22 [deepchat](https://github.com/thinkinaixyz/deepchat) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
 
 **Electron desktop client for cloud and Ollama models with MCP, Skills and ACP.**
 
@@ -507,8 +507,26 @@ Koharu is a Rust desktop app that translates manga pages in a pipeline of text a
 
 <sub>GPU optional · Needs WebGPU-capable graphics driver, Hugging Face model downloads, Rust, Bun and LLVM (build from source only) · Models: GGUF, Gemma 4, Qwen 3.5/3.6/3.8, Ministral 3, LFM 2.5 · [Repo](https://github.com/koharu-rs/koharu) · [📖 Docs ↗](https://koharu.rs/installation) · [🌐 Site ↗](https://koharu.rs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/koharu/)</sub>
 
+<a name="holaos"></a>
+### #&#8288;29 [holaos](https://github.com/holaboss-ai/holaos) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Nov 2026</sub>
+
+**Electron desktop workspace that runs agents beside live apps, with local memory.**
+
+holaOS is an Electron desktop app where agents (Claude Code, Codex, or a built-in holaOS agent) run next to interactive apps such as Notion or a browser. It connects Slack, Feishu, DingTalk and WeChat, 50+ OAuth integrations and MCP servers, and keeps memory as plain local files. Models are either built in through a holaOS account or supplied with your own OpenAI/Anthropic-compatible keys.
+
+- **+** Runs Claude Code, Codex and its own agent over shared memory, skills and tools
+- **+** Memory, embeddings and session history stored locally as readable, editable files
+- **+** Supports MCP servers, 50+ OAuth integrations and bring-your-own-key providers
+- **+** Runs on macOS (Apple Silicon and Intel), Windows and Linux
+- **−** Modified Apache 2.0 license with commercial-distribution and branding conditions
+- **−** Built-in models and marketplace tie into a holaOS account; sign-in required for those
+- **−** Source install needs Node 24.14.1 and an Electron dev build; no Docker or compose
+- **−** SSO, per-role permissions and audit logs are in the Enterprise tier
+
+<sub>no GPU · Needs Node.js 24.14.1, npm, git, Electron · Models: Kimi K3, GLM 5.2, GPT 5.6, Claude Opus 5, OpenAI-compatible endpoints · [Repo](https://github.com/holaboss-ai/holaos) · [📖 Docs ↗](https://www.holaos.ai/docs/getting-started) · [🌐 Site ↗](https://www.holaos.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/holaos/)</sub>
+
 <a name="everywhere"></a>
-### #&#8288;29 [everywhere](https://github.com/sylinko/everywhere) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
+### #&#8288;30 [everywhere](https://github.com/sylinko/everywhere) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
 
 **Hotkey-invoked desktop AI assistant that reads on-screen context in Windows and macOS apps.**
 
@@ -526,7 +544,7 @@ Everywhere is a C# desktop app (.NET 10, Avalonia) for Windows and macOS. A glob
 <sub>Needs Ollama (optional, for local models) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Moonshot (Kimi) · [Repo](https://github.com/sylinko/everywhere) · [📖 Docs ↗](https://everywhere.sylinko.com) · [🌐 Site ↗](https://everywhere.sylinko.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/everywhere/)</sub>
 
 <a name="open-science"></a>
-### #&#8288;30 [open-science](https://github.com/aipoch/open-science) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [open-science](https://github.com/aipoch/open-science) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · Apache-2.0 · Nov 2026</sub>
 
 **Local-first research workbench with provenance tracking and portable .science exports.**
 
@@ -543,26 +561,8 @@ AIPOCH Open-Science is a desktop app (macOS, Windows, Linux) with a standalone C
 
 <sub>Needs Node.js 22.13.0+ (npm install only), Python or R (optional, for notebooks) · Models: Codex subscriptions, Claude, DeepSeek, Gemini, configurable provider via API key and endpoint · [Repo](https://github.com/aipoch/open-science) · [▶️ Demo ↗](https://www.youtube.com/watch?v=to_BhE5DDMw) · [📖 Docs ↗](https://aipoch.com/docs/guides/research-packages/) · [🌐 Site ↗](https://aipoch.com/open-science) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-science/)</sub>
 
-<a name="holaos"></a>
-### #&#8288;31 [holaos](https://github.com/holaboss-ai/holaos) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Nov 2026</sub>
-
-**Electron desktop workspace that runs agents beside live apps, with local memory.**
-
-holaOS is an Electron desktop app where agents (Claude Code, Codex, or a built-in holaOS agent) run next to interactive apps such as Notion or a browser. It connects Slack, Feishu, DingTalk and WeChat, 50+ OAuth integrations and MCP servers, and keeps memory as plain local files. Models are either built in through a holaOS account or supplied with your own OpenAI/Anthropic-compatible keys.
-
-- **+** Runs Claude Code, Codex and its own agent over shared memory, skills and tools
-- **+** Memory, embeddings and session history stored locally as readable, editable files
-- **+** Supports MCP servers, 50+ OAuth integrations and bring-your-own-key providers
-- **+** Runs on macOS (Apple Silicon and Intel), Windows and Linux
-- **−** Modified Apache 2.0 license with commercial-distribution and branding conditions
-- **−** Built-in models and marketplace tie into a holaOS account; sign-in required for those
-- **−** Source install needs Node 24.14.1 and an Electron dev build; no Docker or compose
-- **−** SSO, per-role permissions and audit logs are in the Enterprise tier
-
-<sub>no GPU · Needs Node.js 24.14.1, npm, git, Electron · Models: Kimi K3, GLM 5.2, GPT 5.6, Claude Opus 5, OpenAI-compatible endpoints · [Repo](https://github.com/holaboss-ai/holaos) · [📖 Docs ↗](https://www.holaos.ai/docs/getting-started) · [🌐 Site ↗](https://www.holaos.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/holaos/)</sub>
-
 <a name="smartsub"></a>
-### #&#8288;32 [smartsub](https://github.com/buxuku/smartsub) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Nov 2026</sub>
+### #&#8288;32 [smartsub](https://github.com/buxuku/smartsub) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Nov 2026</sub>
 
 **Desktop app for subtitle transcription, translation, dubbing and burn-in.**
 
@@ -687,26 +687,8 @@ DigUp indexes folders you choose (images, PDFs, documents, spreadsheets, audio, 
 
 <sub>GPU optional · Needs llama.cpp, SQLite, EmbeddingGemma 2 (865 MB download) · Models: EmbeddingGemma 2 (8-bit GGUF) · [Repo](https://github.com/arahim3/digup) · [🌐 Site ↗](https://digup.arahim.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/digup/)</sub>
 
-<a name="pagekin"></a>
-### #&#8288;39 [pagekin](https://github.com/ethanyoq/pagekin) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · GPL-3.0 · Nov 2026</sub>
-
-**Desktop app for writing novels chapter by chapter with your own LLM.**
-
-Pagekin (formerly AI Novel Writer) is a Windows and macOS desktop app that takes a novel through settings, architecture, chapter blueprints, drafting, review, revision and finalization. Works are stored locally in SQLite, and generation uses your own OpenAI-compatible or Gemini API key, or a local Ollama model. It can also import .txt, .md or .epub novels for style analysis or continuation, and load prompt-only SKILL.md writing rules.
-
-- **+** Works stored in a local folder plus SQLite database
-- **+** Revisions shown as per-paragraph diffs instead of overwriting the draft
-- **+** Each chapter prompt uses blueprint, characters, worldbuilding and summaries, not full chat history
-- **+** Presets for DeepSeek, OpenAI, Gemini, xAI and Ollama via OpenAI-compatible /v1
-- **−** No bundled model; needs your own API key or local Ollama
-- **−** Only OpenAI-compatible and Gemini protocols; Anthropic and Azure need separate adapters
-- **−** Windows installer unsigned; macOS builds not notarized and no auto-update there
-- **−** Assistant chat hidden in 1.3.0; batch writing capped at 10 chapters per run
-
-<sub>GPU optional · Needs LLM API key or Ollama, Embedding model (optional, for semantic search), Node.js 22.14+ and pnpm (source build only) · Models: OpenAI-compatible Chat Completions, Google Gemini, DeepSeek, SiliconFlow, BigModel · [Repo](https://github.com/ethanyoq/pagekin) · [▶️ Demo ↗](https://www.orz.md/ai-novel-writer/demo/) · [🌐 Site ↗](https://www.orz.md/ai-novel-writer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pagekin/)</sub>
-
 <a name="oh-my-ppt"></a>
-### #&#8288;40 [oh-my-ppt](https://github.com/arcsin1/oh-my-ppt) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;39 [oh-my-ppt](https://github.com/arcsin1/oh-my-ppt) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Nov 2026</sub>
 
 **Desktop app that generates editable HTML slide decks and exports to PPTX.**
 
@@ -722,6 +704,24 @@ Oh My PPT is an Electron and React desktop app that has an LLM plan an outline, 
 - **−** README recommends 14B+ models; PPTX fidelity drops on complex charts and tables
 
 <sub>no GPU · Needs Text LLM API or local Ollama, Image generation provider (optional) · Models: OpenAI-compatible APIs, Ollama, DeepSeek, Kimi, Qwen · [Repo](https://github.com/arcsin1/oh-my-ppt) · [📖 Docs ↗](https://www.ohmyppt.cc/#/help) · [🌐 Site ↗](https://www.ohmyppt.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oh-my-ppt/)</sub>
+
+<a name="pagekin"></a>
+### #&#8288;40 [pagekin](https://github.com/ethanyoq/pagekin) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · GPL-3.0 · Nov 2026</sub>
+
+**Desktop app for writing novels chapter by chapter with your own LLM.**
+
+Pagekin (formerly AI Novel Writer) is a Windows and macOS desktop app that takes a novel through settings, architecture, chapter blueprints, drafting, review, revision and finalization. Works are stored locally in SQLite, and generation uses your own OpenAI-compatible or Gemini API key, or a local Ollama model. It can also import .txt, .md or .epub novels for style analysis or continuation, and load prompt-only SKILL.md writing rules.
+
+- **+** Works stored in a local folder plus SQLite database
+- **+** Revisions shown as per-paragraph diffs instead of overwriting the draft
+- **+** Each chapter prompt uses blueprint, characters, worldbuilding and summaries, not full chat history
+- **+** Presets for DeepSeek, OpenAI, Gemini, xAI and Ollama via OpenAI-compatible /v1
+- **−** No bundled model; needs your own API key or local Ollama
+- **−** Only OpenAI-compatible and Gemini protocols; Anthropic and Azure need separate adapters
+- **−** Windows installer unsigned; macOS builds not notarized and no auto-update there
+- **−** Assistant chat hidden in 1.3.0; batch writing capped at 10 chapters per run
+
+<sub>GPU optional · Needs LLM API key or Ollama, Embedding model (optional, for semantic search), Node.js 22.14+ and pnpm (source build only) · Models: OpenAI-compatible Chat Completions, Google Gemini, DeepSeek, SiliconFlow, BigModel · [Repo](https://github.com/ethanyoq/pagekin) · [▶️ Demo ↗](https://www.orz.md/ai-novel-writer/demo/) · [🌐 Site ↗](https://www.orz.md/ai-novel-writer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pagekin/)</sub>
 
 <a name="craft-agents-oss"></a>
 ### #&#8288;41 [craft-agents-oss](https://github.com/craft-ai-agents/craft-agents-oss) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (70) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
@@ -778,7 +778,7 @@ Everroom is an Electron + React desktop app backed by a local Fastify gateway an
 <sub>no GPU · Needs Node.js 22+, pnpm 11, MemoryCore (optional), Knowledge service (optional), OpenConnector (optional), Nango (optional) · Models: OpenAI-compatible APIs via Pi runtime, OpenAI Responses API · [Repo](https://github.com/nxcoreai/everroom) · [🌐 Site ↗](https://r.nxcore.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/everroom/)</sub>
 
 <a name="ohmygame"></a>
-### #&#8288;44 [ohmygame](https://github.com/whitetowerai/ohmygame) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;44 [ohmygame](https://github.com/whitetowerai/ohmygame) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Nov 2026</sub>
 
 **Desktop studio where an AI agent designs, builds and playtests games.**
 
@@ -1030,7 +1030,7 @@ Tauri 2 desktop app that captures system audio or microphone input, transcribes 
 <sub>GPU optional · Needs Soniox API key, OpenAI API key, Alibaba DashScope API key, Edge TTS / Google Cloud TTS / ElevenLabs (optional) · Models: Soniox, OpenAI gpt-realtime-translate, qwen3-livetranslate-flash-realtime, MLX Whisper + Gemma · [Repo](https://github.com/phuc-nt/my-translator) · [📖 Docs ↗](https://github.com/phuc-nt/my-translator/blob/main/docs/installation_guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/my-translator/)</sub>
 
 <a name="aichat"></a>
-### #&#8288;58 [aichat](https://github.com/sigoden/aichat) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: popular (63) · Freshness: quiet (29) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;58 [aichat](https://github.com/sigoden/aichat) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: popular (64) · Freshness: quiet (29) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
 
 **Rust command-line LLM client with shell assistant, REPL, RAG and agents.**
 

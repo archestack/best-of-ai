@@ -5,7 +5,7 @@ Speech-to-text, text-to-speech, voice agents and meeting tools that run locally.
 <sub>🌐 Also on the web: [Voice on archestack.com](https://archestack.com/best-of-ai/voice/), each project on its own page.</sub>
 
 <a name="voicestudio"></a>
-### 🥇 [voicestudio](https://github.com/debpalash/voicestudio) <sub>score [98](../README.md#-how-we-rank "Score 98/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 111k · AGPL-3.0 · Nov 2026</sub>
+### 🥇 [voicestudio](https://github.com/debpalash/voicestudio) <sub>score [98](../README.md#-how-we-rank "Score 98/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 112k · AGPL-3.0 · Nov 2026</sub>
 
 **Desktop app for voice cloning, dubbing, dictation and audiobooks.**
 
@@ -292,7 +292,7 @@ Pocket TTS is a roughly 100M-parameter text-to-speech model from Kyutai that run
 <sub>GPU optional · Docker + Compose · Needs PyTorch 2.5+, Python 3.10-3.14, Hugging Face (model and voice downloads) · Models: Pocket TTS 100M, english_18m_2026-10, english_7m_2026-10, english_2m_2026-10, community models via --config · port 8000 · [Repo](https://github.com/kyutai-labs/pocket-tts) · [▶️ Demo ↗](https://kyutai.org/pocket-tts) · [📖 Docs ↗](https://kyutai-labs.github.io/pocket-tts/) · [🌐 Site ↗](https://kyutai.org/pocket-tts) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pocket-tts/)</sub>
 
 <a name="espnet"></a>
-### #&#8288;17 [espnet](https://github.com/espnet/espnet) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;17 [espnet](https://github.com/espnet/espnet) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **PyTorch toolkit for speech recognition, synthesis, translation and enhancement.**
 
@@ -362,7 +362,7 @@ Moonshine Voice is a C++ library with bindings for Python, JavaScript/WASM, iOS,
 <sub>no GPU · Models: Moonshine speech-to-text models, Moonshine tiny 1MB models · [Repo](https://github.com/moonshine-ai/moonshine) · [📖 Docs ↗](https://moonshine-voice.readthedocs.io/) · [🌐 Site ↗](https://moonshine.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moonshine/)</sub>
 
 <a name="vibe"></a>
-### #&#8288;21 [vibe](https://github.com/thewh1teagle/vibe) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
+### #&#8288;21 [vibe](https://github.com/thewh1teagle/vibe) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
 
 **Desktop app that transcribes audio and video offline with Whisper models.**
 
@@ -539,7 +539,7 @@ VoxCPM2 is a 2B-parameter text-to-speech model on a MiniCPM-4 backbone that gene
 <sub>GPU required · Docker + Compose · Needs PyTorch >= 2.5.0, CUDA >= 12.0, Python 3.10-3.12 · Models: VoxCPM2, VoxCPM1.5, VoxCPM-0.5B, GGUF (via llama.cpp-omni) · port 8808 · [Repo](https://github.com/openbmb/voxcpm) · [▶️ Demo ↗](https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo) · [📖 Docs ↗](https://voxcpm.readthedocs.io/en/latest/) · [🌐 Site ↗](https://github.com/OpenBMB/VoxCPM/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/voxcpm/)</sub>
 
 <a name="voiceink"></a>
-### #&#8288;31 [voiceink](https://github.com/beingpax/voiceink) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · custom license · Nov 2026</sub>
+### #&#8288;31 [voiceink](https://github.com/beingpax/voiceink) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · custom license · Nov 2026</sub>
 
 **Native macOS dictation app using local speech-to-text models.**
 
@@ -627,26 +627,8 @@ WhisperX transcribes audio with Whisper through a faster-whisper backend, using 
 
 <sub>GPU optional · Needs CUDA toolkit 12.8 (GPU only), ffmpeg, Hugging Face token (diarization), pyannote-audio, faster-whisper · Models: Whisper (faster-whisper/CTranslate2), wav2vec2 alignment models, pyannote speaker-diarization-community-1, silero-vad · [Repo](https://github.com/m-bain/whisperx) · [▶️ Demo ↗](https://replicate.com/victor-upmeet/whisperx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisperx/)</sub>
 
-<a name="index-tts"></a>
-### #&#8288;36 [IndexTTS](https://github.com/index-tts/index-tts) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Sep 2026</sub>
-
-**Zero-shot TTS with emotion, speed and pronunciation control.**
-
-Clones a voice from one reference clip and synthesizes speech in Chinese, English, Japanese, Spanish and Arabic (IndexTTS-2.5). Emotion comes from a second reference clip, an 8-value vector or the text itself; speed is set by duration_factor (0.5x to 2.0x) and pronunciation by inline Pinyin, CMU phonemes or Kana. Ships a Gradio web UI on port 7860 and a Python API; a vLLM recipe covers production serving.
-
-- **+** Emotion control via reference audio, an 8-value vector or a text description
-- **+** Inline pronunciation overrides: Pinyin, CMU phonemes and Japanese Kana
-- **+** BF16 inference with optional DeepSpeed and compiled CUDA kernels
-- **+** Published vLLM recipe for production deployment
-- **−** No Dockerfile or compose file; install is uv plus CUDA Toolkit 12.8 or newer
-- **−** Model weights (IndexTTS-2.5, IndexTTS-2) are separate multi-GB downloads
-- **−** Five languages only; no streaming API is documented in the README
-- **−** License is non-standard (GitHub reports NOASSERTION); check terms before commercial use
-
-<sub>Needs uv · Models: IndexTTS-2.5, IndexTTS-2, IndexTTS-1.5 (legacy) · port 7860 · [Repo](https://github.com/index-tts/index-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/IndexTeam/IndexTTS-2.5-Demo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/index-tts/)</sub>
-
 <a name="applio"></a>
-### #&#8288;37 [applio](https://github.com/iahispano/applio) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Nov 2026</sub>
+### #&#8288;36 [applio](https://github.com/iahispano/applio) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Nov 2026</sub>
 
 **Voice conversion tool with a Gradio UI, training and plugin support.**
 
@@ -662,6 +644,24 @@ Applio converts the voice in an audio clip to another voice and includes model t
 - **−** Updater script is documented only for compiled Windows releases
 
 <sub>Docker + Compose · Needs Gradio, TensorBoard · [Repo](https://github.com/iahispano/applio) · [▶️ Demo ↗](https://applio.org/playground) · [📖 Docs ↗](https://docs.applio.org) · [🌐 Site ↗](https://applio.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/applio/)</sub>
+
+<a name="index-tts"></a>
+### #&#8288;37 [IndexTTS](https://github.com/index-tts/index-tts) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Sep 2026</sub>
+
+**Zero-shot TTS with emotion, speed and pronunciation control.**
+
+Clones a voice from one reference clip and synthesizes speech in Chinese, English, Japanese, Spanish and Arabic (IndexTTS-2.5). Emotion comes from a second reference clip, an 8-value vector or the text itself; speed is set by duration_factor (0.5x to 2.0x) and pronunciation by inline Pinyin, CMU phonemes or Kana. Ships a Gradio web UI on port 7860 and a Python API; a vLLM recipe covers production serving.
+
+- **+** Emotion control via reference audio, an 8-value vector or a text description
+- **+** Inline pronunciation overrides: Pinyin, CMU phonemes and Japanese Kana
+- **+** BF16 inference with optional DeepSpeed and compiled CUDA kernels
+- **+** Published vLLM recipe for production deployment
+- **−** No Dockerfile or compose file; install is uv plus CUDA Toolkit 12.8 or newer
+- **−** Model weights (IndexTTS-2.5, IndexTTS-2) are separate multi-GB downloads
+- **−** Five languages only; no streaming API is documented in the README
+- **−** License is non-standard (GitHub reports NOASSERTION); check terms before commercial use
+
+<sub>Needs uv · Models: IndexTTS-2.5, IndexTTS-2, IndexTTS-1.5 (legacy) · port 7860 · [Repo](https://github.com/index-tts/index-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/IndexTeam/IndexTTS-2.5-Demo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/index-tts/)</sub>
 
 <a name="sokuji"></a>
 ### #&#8288;38 [sokuji](https://github.com/kizuna-ai-lab/sokuji) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Nov 2026</sub>
@@ -772,7 +772,7 @@ OpenLess is a Tauri 2 and Rust voice-input app for macOS, Windows and Linux, wit
 <sub>Needs Cloud ASR/LLM API credentials (unless using local ASR), Microphone and accessibility permissions · Models: Qwen3-ASR 0.6B/1.7B, Whisper (Foundry Local), sherpa-onnx, OpenAI-compatible endpoints · README: alternative to Wispr Flow · [Repo](https://github.com/open-less/openless) · [🌐 Site ↗](https://openless.top) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openless/)</sub>
 
 <a name="openreader"></a>
-### #&#8288;44 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 585 · MIT · Nov 2026</sub>
+### #&#8288;44 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 586 · MIT · Nov 2026</sub>
 
 **Text-to-speech reader for EPUB, PDF, TXT, MD and DOCX with read-along highlighting.**
 
@@ -1131,7 +1131,7 @@ Java server for Xiaozhi ESP32 hardware, split into two Spring Boot processes: an
 <sub>Compose · Needs MySQL 8.0, Redis 7, Qdrant, JDK 21 (source build), Node 22 (source build) · Models: OpenAI, Zhipu AI, Xunfei Spark, Volcengine Ark, Ollama · port 8084 · [Repo](https://github.com/joey-zhou/xiaozhi-esp32-server-java) · [📖 Docs ↗](https://github.com/joey-zhou/xiaozhi-esp32-server-java/blob/main/docs/DOCKER.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xiaozhi-esp32-server-java/)</sub>
 
 <a name="chatterbox"></a>
-### #&#8288;64 [chatterbox](https://github.com/resemble-ai/chatterbox) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (84) · Freshness: recent (72) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · MIT · Nov 2026</sub>
+### #&#8288;64 [chatterbox](https://github.com/resemble-ai/chatterbox) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (84) · Freshness: recent (72) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · MIT · Nov 2026</sub>
 
 **Open text-to-speech models with zero-shot voice cloning in 23+ languages.**
 
@@ -1437,7 +1437,7 @@ ASRT is a Chinese speech recognition system. A DCNN+CTC acoustic model maps audi
 <sub>RAM ≥ 16 GB · GPU optional · Docker · Needs TensorFlow 2.5+, Python 3.9+, Flask, Waitress, grpcio, CUDA 11.2 and cuDNN 8.1 for GPU training · Models: DCNN+CTC acoustic models 24, 25, 251, 251bn, pinyin-to-text statistical language model · port 20001 · [Repo](https://github.com/nl8590687/asrt_speechrecognition) · [▶️ Demo ↗](https://www.ailemon.net/asrt/demo) · [📖 Docs ↗](https://wiki.ailemon.net/docs/asrt-doc) · [🌐 Site ↗](https://www.ailemon.net/asrt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/asrt-speechrecognition/)</sub>
 
 <a name="megatts3"></a>
-### #&#8288;81 [megatts3](https://github.com/bytedance/megatts3) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (35) · Freshness: recent (77) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;81 [megatts3](https://github.com/bytedance/megatts3) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (35) · Freshness: recent (77) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Jun 2026</sub>
 
 **Zero-shot Chinese and English voice-cloning TTS with a 0.45B diffusion transformer.**
 

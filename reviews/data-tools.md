@@ -148,7 +148,7 @@ CocoIndex is a Python framework with a Rust core for declaring how source data (
 <sub>Needs Python 3.10-3.13, Postgres (pgvector) or LanceDB as target · Models: sentence-transformers · [Repo](https://github.com/cocoindex-io/cocoindex) · [📖 Docs ↗](https://cocoindex.io/docs) · [🌐 Site ↗](https://cocoindex.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cocoindex/)</sub>
 
 <a name="labelme"></a>
-### #&#8288;9 [labelme](https://github.com/wkentaro/labelme) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;9 [labelme](https://github.com/wkentaro/labelme) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · GPL-3.0 · Nov 2026</sub>
 
 **Desktop image annotation tool with polygon labeling and SAM-assisted masks.**
 
@@ -255,7 +255,7 @@ Firecrawl exposes REST endpoints to search the web, scrape a URL, crawl a site, 
 <sub>Compose · Needs Firecrawl API key (hosted service) · Models: spark-2 · [Repo](https://github.com/firecrawl/firecrawl) · [▶️ Demo ↗](https://firecrawl.dev/playground) · [📖 Docs ↗](https://docs.firecrawl.dev) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl/)</sub>
 
 <a name="tesseract"></a>
-### #&#8288;15 [tesseract](https://github.com/tesseract-ocr/tesseract) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 78k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [tesseract](https://github.com/tesseract-ocr/tesseract) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 78k · Apache-2.0 · Nov 2026</sub>
 
 **OCR engine and command-line tool with LSTM recognition for 100+ languages.**
 
@@ -362,7 +362,7 @@ The unstructured library parses documents such as PDF, HTML, Word, email and ima
 <sub>Docker · Needs poppler-utils, tesseract-ocr, libmagic-dev, libreoffice · [Repo](https://github.com/unstructured-io/unstructured) · [📖 Docs ↗](https://docs.unstructured.io) · [🌐 Site ↗](https://unstructured.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unstructured/)</sub>
 
 <a name="skill-seekers"></a>
-### #&#8288;21 [skill_seekers](https://github.com/yusufkaraaslan/skill_seekers) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Sep 2026</sub>
+### #&#8288;21 [skill_seekers](https://github.com/yusufkaraaslan/skill_seekers) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Nov 2026</sub>
 
 **CLI that turns docs, repos, PDFs and videos into AI skills and RAG data.**
 
@@ -415,7 +415,7 @@ Trafilatura downloads web pages, crawls sitemaps and feeds, and extracts main te
 <sub>no GPU · Needs jusText, readability-lxml · [Repo](https://github.com/adbar/trafilatura) · [📖 Docs ↗](https://trafilatura.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trafilatura/)</sub>
 
 <a name="rea-video"></a>
-### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · Apache-2.0 · Nov 2026</sub>
 
 **Agent skill and CLI that breaks a video into shots and judges how each was made.**
 
@@ -432,26 +432,8 @@ rea-video splits a video into shots and decides for each whether it was filmed, 
 
 <sub>Needs ffmpeg, Python 3.10+ · Models: Gemini, Doubao · [Repo](https://github.com/juneyaooo/rea-video) · [🌐 Site ↗](https://www.reavideo.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rea-video/)</sub>
 
-<a name="kordoc"></a>
-### #&#8288;25 [kordoc](https://github.com/chrisryugj/kordoc) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
-
-**Parses HWP, HWPX, PDF and Office files into Markdown, as library, CLI and MCP server.**
-
-kordoc converts Korean government document formats (HWP 3.x/5.x, HWPX, HWPML) plus PDF, XLS/XLSX, DOCX, PPTX and images into Markdown and structured blocks. It also writes HWPX from Markdown, converts HWP to HWPX, fills forms and lints documents. It runs as a Node.js library, a CLI, and an MCP server with 22 tools, with local CPU OCR and an offline mode.
-
-- **+** Reads HWP/HWPX without Hancom Office; 10,342/10,342 tables matched on 2,424 HWPX files
-- **+** Local OCR on CPU with no API key; KORDOC_OFFLINE=1 blocks all external network calls
-- **+** Emits RAG chunks with heading paths, plus Python and Java SDKs
-- **+** Also generates HWPX from Markdown, converts HWP to HWPX, and fills forms
-- **−** README is written in Korean; an English version is linked separately
-- **−** OCR table structure matched only 33 of 65 tables in its own benchmark
-- **−** Parallel batch conversion with --jobs increases memory use
-- **−** HWP to HWPX conversion fully matches only 69 of 232 compared pairs
-
-<sub>no GPU · Needs Node.js 20+ · Models: HWP 3.x/5.x, HWPX, HWPML, PDF, XLS/XLSX · [Repo](https://github.com/chrisryugj/kordoc) · [📖 Docs ↗](https://github.com/chrisryugj/kordoc/blob/main/docs/usage.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kordoc/)</sub>
-
 <a name="dataflow"></a>
-### #&#8288;26 [dataflow](https://github.com/opendcai/dataflow) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;25 [dataflow](https://github.com/opendcai/dataflow) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · Apache-2.0 · Nov 2026</sub>
 
 **Operator-based Python pipelines for generating and cleaning LLM training data.**
 
@@ -468,8 +450,26 @@ DataFlow is a Python framework that turns noisy sources (PDFs, plain text, low-q
 
 <sub>GPU optional · Docker · Needs OpenAI-compatible LLM API or vLLM, uv · Models: OpenAI-compatible APIs, vLLM local models · [Repo](https://github.com/opendcai/dataflow) · [▶️ Demo ↗](https://colab.research.google.com/drive/1haosl2QS4N4HM7u7HvSsz_MnLabxexXl?usp=sharing) · [📖 Docs ↗](https://OpenDCAI.github.io/DataFlow-Doc/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataflow/)</sub>
 
+<a name="kordoc"></a>
+### #&#8288;26 [kordoc](https://github.com/chrisryugj/kordoc) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+
+**Parses HWP, HWPX, PDF and Office files into Markdown, as library, CLI and MCP server.**
+
+kordoc converts Korean government document formats (HWP 3.x/5.x, HWPX, HWPML) plus PDF, XLS/XLSX, DOCX, PPTX and images into Markdown and structured blocks. It also writes HWPX from Markdown, converts HWP to HWPX, fills forms and lints documents. It runs as a Node.js library, a CLI, and an MCP server with 22 tools, with local CPU OCR and an offline mode.
+
+- **+** Reads HWP/HWPX without Hancom Office; 10,342/10,342 tables matched on 2,424 HWPX files
+- **+** Local OCR on CPU with no API key; KORDOC_OFFLINE=1 blocks all external network calls
+- **+** Emits RAG chunks with heading paths, plus Python and Java SDKs
+- **+** Also generates HWPX from Markdown, converts HWP to HWPX, and fills forms
+- **−** README is written in Korean; an English version is linked separately
+- **−** OCR table structure matched only 33 of 65 tables in its own benchmark
+- **−** Parallel batch conversion with --jobs increases memory use
+- **−** HWP to HWPX conversion fully matches only 69 of 232 compared pairs
+
+<sub>no GPU · Needs Node.js 20+ · Models: HWP 3.x/5.x, HWPX, HWPML, PDF, XLS/XLSX · [Repo](https://github.com/chrisryugj/kordoc) · [📖 Docs ↗](https://github.com/chrisryugj/kordoc/blob/main/docs/usage.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kordoc/)</sub>
+
 <a name="data-juicer"></a>
-### #&#8288;27 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;27 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
 
 **Operator-based pipelines for cleaning and deduplicating multimodal training data.**
 
@@ -738,7 +738,7 @@ GROBID parses scientific and technical PDFs into structured XML/TEI using a casc
 <sub>GPU optional · Docker · Needs OpenJDK 21 (source builds), Python 3.10-3.11 with JEP (deep learning models), DeLFT, pdfalto, biblio-glutton or CrossRef API (optional consolidation) · Models: CRF, RNN, transformers (via DeLFT) · port 8080 · [Repo](https://github.com/grobidorg/grobid) · [▶️ Demo ↗](https://grobidOrg-grobid.hf.space/) · [📖 Docs ↗](https://grobid.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/grobid/)</sub>
 
 <a name="indra"></a>
-### #&#8288;42 [indra](https://github.com/datalab-to/indra) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;42 [indra](https://github.com/datalab-to/indra) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
 
 **CPU-only OCR model that converts PDFs and images to markdown or JSON.**
 
@@ -934,7 +934,7 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
 <a name="oxr"></a>
-### #&#8288;53 [oxr](https://github.com/somarkai/oxr) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Nov 2026</sub>
+### #&#8288;53 [oxr](https://github.com/somarkai/oxr) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Nov 2026</sub>
 
 **1.3B document parsing model that turns PDFs and images into Markdown or JSON.**
 

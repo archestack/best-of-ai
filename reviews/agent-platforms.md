@@ -40,26 +40,8 @@ Python app that pulls quotes, K-lines, news and fundamentals for A-share, HK, US
 
 <sub>no GPU · Docker + Compose · Needs LLM API key (or Ollama), Notification channel webhook/token, Optional: Tushare, Longbridge, SerpAPI, Tavily, Anspire, SearXNG · Models: Gemini, Claude, OpenAI-compatible, DeepSeek, Qwen · port 8000 · [Repo](https://github.com/zhulinsen/daily_stock_analysis) · [📖 Docs ↗](https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/docs/full-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/daily-stock-analysis/)</sub>
 
-<a name="langflow"></a>
-### 🥉 [Langflow](https://github.com/langflow-ai/langflow) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 157k · MIT · Nov 2026</sub>
-
-**Visual builder for AI agents and workflows, served as API or MCP server.**
-
-Langflow is a visual editor for building agent and RAG workflows from components whose Python source can be edited. Each flow can be deployed as an HTTP API, exported as JSON for Python apps, or served as an MCP server for MCP clients. It installs with uv/pip (Python 3.10 to 3.14), Docker, or a Windows/macOS desktop app, and serves its UI on port 7860.
-
-- **+** Every flow can be served as an HTTP API or as an MCP server
-- **+** Component source is editable in Python, so custom logic needs no fork
-- **+** Interactive playground allows step-by-step testing of flows
-- **+** Observability integrations include LangSmith and LangFuse
-- **−** Official releases need LANGFLOW_SUPERUSER_PASSWORD set; dev branches default to auto-login
-- **−** Desktop app exists only for Windows and macOS
-- **−** Requires a Python 3.10 to 3.14 environment for non-Docker installs
-- **−** Multi-agent orchestration is listed but not described in detail
-
-<sub>Docker + Compose · Needs Python 3.10-3.14, uv · Models: all major LLMs, vector databases · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs ↗](https://docs.langflow.org) · [🌐 Site ↗](https://langflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langflow/)</sub>
-
 <a name="deer-flow"></a>
-### #&#8288;4 [deer-flow](https://github.com/bytedance/deer-flow) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · MIT · Nov 2026</sub>
+### 🥉 [deer-flow](https://github.com/bytedance/deer-flow) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · MIT · Nov 2026</sub>
 
 **Agent harness running sub-agents, memory and sandboxes with pluggable skills.**
 
@@ -76,8 +58,26 @@ DeerFlow 2.0 is a ground-up rewrite of ByteDance's deep research framework. It i
 
 <sub>Docker + Compose · Needs LLM provider API key, Python 3.12+, Node.js 22+, Docker (recommended) · Models: OpenAI-compatible endpoints, Gemini, Claude, Codex, Doubao-Seed-2.0-Code · [Repo](https://github.com/bytedance/deer-flow) · [🌐 Site ↗](https://deerflow.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deer-flow/)</sub>
 
+<a name="langflow"></a>
+### #&#8288;4 [Langflow](https://github.com/langflow-ai/langflow) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 157k · MIT · Nov 2026</sub>
+
+**Visual builder for AI agents and workflows, served as API or MCP server.**
+
+Langflow is a visual editor for building agent and RAG workflows from components whose Python source can be edited. Each flow can be deployed as an HTTP API, exported as JSON for Python apps, or served as an MCP server for MCP clients. It installs with uv/pip (Python 3.10 to 3.14), Docker, or a Windows/macOS desktop app, and serves its UI on port 7860.
+
+- **+** Every flow can be served as an HTTP API or as an MCP server
+- **+** Component source is editable in Python, so custom logic needs no fork
+- **+** Interactive playground allows step-by-step testing of flows
+- **+** Observability integrations include LangSmith and LangFuse
+- **−** Official releases need LANGFLOW_SUPERUSER_PASSWORD set; dev branches default to auto-login
+- **−** Desktop app exists only for Windows and macOS
+- **−** Requires a Python 3.10 to 3.14 environment for non-Docker installs
+- **−** Multi-agent orchestration is listed but not described in detail
+
+<sub>Docker + Compose · Needs Python 3.10-3.14, uv · Models: all major LLMs, vector databases · port 7860 · [Repo](https://github.com/langflow-ai/langflow) · [📖 Docs ↗](https://docs.langflow.org) · [🌐 Site ↗](https://langflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langflow/)</sub>
+
 <a name="dify"></a>
-### #&#8288;5 [Dify](https://github.com/langgenius/dify) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 161k · custom license · Nov 2026</sub>
+### #&#8288;5 [Dify](https://github.com/langgenius/dify) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 161k · custom license · Nov 2026</sub>
 
 **Visual builder for LLM workflows, RAG pipelines and agents, with APIs.**
 
@@ -185,7 +185,7 @@ FastGPT is a TypeScript platform for building AI agents and chat apps with a vis
 <sub>Compose · port 3000 · [Repo](https://github.com/labring/fastgpt) · [📖 Docs ↗](https://doc.fastgpt.cn/zh-CN/guide/getting-started) · [🌐 Site ↗](https://fastgpt.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fastgpt/)</sub>
 
 <a name="openmaic"></a>
-### #&#8288;11 [openmaic](https://github.com/thu-maic/openmaic) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 44k · MIT · Nov 2026</sub>
+### #&#8288;11 [openmaic](https://github.com/thu-maic/openmaic) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 44k · MIT · Nov 2026</sub>
 
 **Generates interactive AI-taught classrooms from a topic or document.**
 
@@ -274,7 +274,7 @@ Vibe-Trading turns plain-English finance questions into research reports, backte
 <sub>Docker + Compose · Needs LLM provider API, Optional broker accounts, Optional Gildata token · Models: OpenRouter, Codex OAuth · [Repo](https://github.com/hkuds/vibe-trading) · [📖 Docs ↗](https://vibetrading.wiki/docs/) · [🌐 Site ↗](https://vibetrading.wiki/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vibe-trading/)</sub>
 
 <a name="block-buzz"></a>
-### #&#8288;16 [buzz](https://github.com/block/buzz) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [buzz](https://github.com/block/buzz) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted team workspace where humans and agents share channels on a Nostr relay.**
 
@@ -327,7 +327,7 @@ Skyvern drives websites with vision LLMs instead of selectors: a Playwright-comp
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · port 8080 · [Repo](https://github.com/skyvern-ai/skyvern) · [▶️ Demo ↗](https://app.skyvern.com) · [📖 Docs ↗](https://www.skyvern.com/docs/) · [🌐 Site ↗](https://www.skyvern.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skyvern/)</sub>
 
 <a name="crm"></a>
-### #&#8288;19 [crm](https://github.com/trycompai/crm) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
+### #&#8288;19 [crm](https://github.com/trycompai/crm) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
 
 **Single-tenant CRM where a background agent researches and fills in contact records.**
 
@@ -415,7 +415,7 @@ Agent Zero runs an agent inside a Docker-hosted Linux workspace with a terminal,
 <sub>Docker + Compose · Needs Docker, LLM provider API key, AI account or local model server · Models: Cloud providers, ChatGPT/Codex account, Local model servers, Provider plugins (e.g. OpenCode Go) · port 5080 · [Repo](https://github.com/agent0ai/agent-zero) · [📖 Docs ↗](https://www.agent-zero.ai/p/docs/installation/#installation) · [🌐 Site ↗](https://agent-zero.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-zero/)</sub>
 
 <a name="yuxi"></a>
-### #&#8288;24 [yuxi](https://github.com/xerrors/yuxi) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Nov 2026</sub>
+### #&#8288;24 [yuxi](https://github.com/xerrors/yuxi) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Nov 2026</sub>
 
 **Multi-tenant agent platform with Milvus RAG, Neo4j graphs and LangGraph agents.**
 
@@ -540,7 +540,7 @@ Reef is a Python server that exposes OpenAI- and Anthropic-compatible endpoints,
 <sub>GPU optional · Docker · Needs git-lfs, Slime, SGLang, uv · Models: Qwen/Qwen2.5-1.5B-Instruct, Ollama-served models (gemma4:26b), OpenAI-compatible upstream providers · port 8900 · [Repo](https://github.com/human-agent-society/reef) · [📖 Docs ↗](https://reefinfra.ai/docs/getting-started/quickstart/) · [🌐 Site ↗](https://reefinfra.ai/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/reef/)</sub>
 
 <a name="opencreator"></a>
-### #&#8288;31 [opencreator](https://github.com/krillinai/opencreator) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [opencreator](https://github.com/krillinai/opencreator) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
 
 **Creator workspace for video translation, image and video generation, built on Codex CLI.**
 
@@ -701,8 +701,26 @@ ZenML lets you wrap Python code in steps and pipelines, then run them on configu
 
 <sub>GPU optional · Docker + Compose · Needs Python, Kubernetes (optional), MLflow (optional), Object storage (optional) · Models: scikit-learn, PyTorch, LangGraph, LlamaIndex, LiteLLM · [Repo](https://github.com/zenml-io/zenml) · [▶️ Demo ↗](https://zenml.io/demo-video) · [📖 Docs ↗](https://docs.zenml.io/) · [🌐 Site ↗](https://zenml.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zenml/)</sub>
 
+<a name="skillhub"></a>
+### #&#8288;40 [skillhub](https://github.com/iflytek/skillhub) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · Apache-2.0 · Nov 2026</sub>
+
+**Self-hosted registry for publishing and installing versioned agent skill packages.**
+
+SkillHub is a private registry for agent skill packages, with a Java 21 backend and a React 19 web UI. Teams publish semver-versioned skills into team or global namespaces, review them, and install them through an npm-distributed CLI or the REST API. Storage is local filesystem or S3/MinIO, and it deploys via Docker Compose, Kubernetes manifests or a Helm chart.
+
+- **+** Namespaces with Owner/Admin/Member roles, review flow and audit-logged governance actions
+- **+** Semantic versioning with custom tags and automatic latest tracking
+- **+** CLI and REST API, plus a compatibility layer for ClawHub-style clients
+- **+** Compose, Kubernetes manifests and Helm chart; S3/MinIO storage for production
+- **−** Needs PostgreSQL and Redis alongside the Java backend and web frontend
+- **−** Release template enables a default bootstrap admin password that must be changed
+- **−** Prometheus monitoring example is not ready to scrape without extra configuration
+- **−** ClawHub protocol compatibility is still expanding; native APIs are the primary path
+
+<sub>no GPU · Compose · Needs PostgreSQL, Redis, S3/MinIO (optional), Docker Compose · port 3000 · [Repo](https://github.com/iflytek/skillhub) · [📖 Docs ↗](https://iflytek.github.io/skillhub/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skillhub/)</sub>
+
 <a name="clawith"></a>
-### #&#8288;40 [clawith](https://github.com/dataelement/clawith) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;41 [clawith](https://github.com/dataelement/clawith) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · Apache-2.0 · Aug 2026</sub>
 
 **Multi-agent platform with persistent agent identity, memory and org-chart awareness.**
 
@@ -720,7 +738,7 @@ Clawith is a FastAPI and React web app where each agent keeps a soul.md personal
 <sub>RAM ≥ 4 GB · no GPU · Compose · Needs PostgreSQL 15+ or SQLite, Redis, Docker, External LLM API (OpenAI, Anthropic, etc.), Python 3.12+, Node.js 20+ · Models: OpenAI, Anthropic, External LLM APIs · port 3008 · [Repo](https://github.com/dataelement/clawith) · [▶️ Demo ↗](https://try.clawith.ai) · [🌐 Site ↗](https://www.clawith.ai/blog/clawith-technical-whitepaper) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawith/)</sub>
 
 <a name="flyte"></a>
-### #&#8288;41 [flyte](https://github.com/flyteorg/flyte) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;42 [flyte](https://github.com/flyteorg/flyte) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Nov 2026</sub>
 
 **Python-native orchestrator for ML pipelines, model serving and agents.**
 
@@ -736,24 +754,6 @@ Flyte 2 lets you define tasks and workflows in plain Python with async/await, th
 - **−** SDK code lives in a separate flyte-sdk repository
 
 <sub>Docker · Needs Python, Kubernetes (planned OSS backend) · [Repo](https://github.com/flyteorg/flyte) · [📖 Docs ↗](https://www.union.ai/docs/v2/flyte/user-guide/get-started/run-modes/running-devbox/) · [🌐 Site ↗](https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flyte/)</sub>
-
-<a name="skillhub"></a>
-### #&#8288;42 [skillhub](https://github.com/iflytek/skillhub) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · Apache-2.0 · Nov 2026</sub>
-
-**Self-hosted registry for publishing and installing versioned agent skill packages.**
-
-SkillHub is a private registry for agent skill packages, with a Java 21 backend and a React 19 web UI. Teams publish semver-versioned skills into team or global namespaces, review them, and install them through an npm-distributed CLI or the REST API. Storage is local filesystem or S3/MinIO, and it deploys via Docker Compose, Kubernetes manifests or a Helm chart.
-
-- **+** Namespaces with Owner/Admin/Member roles, review flow and audit-logged governance actions
-- **+** Semantic versioning with custom tags and automatic latest tracking
-- **+** CLI and REST API, plus a compatibility layer for ClawHub-style clients
-- **+** Compose, Kubernetes manifests and Helm chart; S3/MinIO storage for production
-- **−** Needs PostgreSQL and Redis alongside the Java backend and web frontend
-- **−** Release template enables a default bootstrap admin password that must be changed
-- **−** Prometheus monitoring example is not ready to scrape without extra configuration
-- **−** ClawHub protocol compatibility is still expanding; native APIs are the primary path
-
-<sub>no GPU · Compose · Needs PostgreSQL, Redis, S3/MinIO (optional), Docker Compose · port 3000 · [Repo](https://github.com/iflytek/skillhub) · [📖 Docs ↗](https://iflytek.github.io/skillhub/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skillhub/)</sub>
 
 <a name="mindshub"></a>
 ### #&#8288;43 [mindshub](https://github.com/mindsdb/mindshub) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (89) · Freshness: active (98) · Maintenance: patchy (34) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
@@ -792,7 +792,7 @@ Yao Agents runs agents on machines you own and manages them from one place, thro
 <sub>Docker · Models: DeepSeek Harness, Jev · [Repo](https://github.com/yaoapp/yao) · [📖 Docs ↗](https://yaoagents.com/docs) · [🌐 Site ↗](https://yaoagents.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yao/)</sub>
 
 <a name="openpencil"></a>
-### #&#8288;45 [openpencil](https://github.com/zseven-w/openpencil) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
+### #&#8288;45 [openpencil](https://github.com/zseven-w/openpencil) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · MIT · Nov 2026</sub>
 
 **Vector design editor that generates UI on canvas from prompts.**
 
@@ -917,8 +917,26 @@ PilotDeck is a Node.js/TypeScript agent system that isolates files, memory and s
 
 <sub>no GPU · Docker + Compose · Needs Node.js 22.13+ (<23), pnpm via corepack, Model provider API key or local Ollama · Models: OpenAI-compatible, Anthropic, Google Gemini, DeepSeek, Qwen · port 3001 · [Repo](https://github.com/openbmb/pilotdeck) · [▶️ Demo ↗](https://pilotdeck.openbmb.cn/pilotdeck.github.io/demo/p/pilotdeck-demo) · [📖 Docs ↗](https://pilotdeck.openbmb.cn/pilotdeck.github.io/docs/en/introduction) · [🌐 Site ↗](https://pilotdeck.openbmb.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pilotdeck/)</sub>
 
+<a name="openagents"></a>
+### #&#8288;52 [openagents](https://github.com/openagents-org/openagents) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
+
+**Shared workspace where people and coding agents collaborate in threads.**
+
+OpenAgents Workspace is a Slack-like hub where agents such as Claude Code, Codex CLI, OpenClaw, Cursor and Kiro share threads, files and a browser with human teammates. A launcher CLI (`agn`) and desktop app install agent runtimes, set API keys, and run a background daemon that connects each agent to a workspace by token. Version 1.1 adds approvals, issues, and per-agent sharing between teammates.
+
+- **+** Connects 25+ existing agent CLIs (Claude Code, Codex, Aider, Goose) to one workspace
+- **+** Approval cards let agents ask before deploying, spending, emailing or deleting data
+- **+** Agents and devices are private by default and shared per teammate
+- **+** Shared browser and files stay attached to the thread that produced them
+- **−** Aider, Goose and Cline integrations are Beta; DeepSeek Harness is a preview
+- **−** Headless Goose runs in auto mode, so tools execute without prompting
+- **−** Self-hosted upgrade to v1.1 changes device ownership and sharing defaults
+- **−** No Docker or compose files detected for self-hosting
+
+<sub>no GPU · Needs Node.js, agent runtimes (Claude Code, Codex CLI, etc.), LLM API keys · Models: Anthropic, OpenAI, OpenRouter, Gemini, DeepSeek · [Repo](https://github.com/openagents-org/openagents) · [▶️ Demo ↗](https://openagents.org/api/create-workspace) · [📖 Docs ↗](https://openagents.org/docs) · [🌐 Site ↗](https://openagents.org/workspace) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openagents/)</sub>
+
 <a name="goclaw"></a>
-### #&#8288;52 [goclaw](https://github.com/nextlevelbuilder/goclaw) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · custom license · Nov 2026</sub>
+### #&#8288;53 [goclaw](https://github.com/nextlevelbuilder/goclaw) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · custom license · Nov 2026</sub>
 
 **Multi-tenant agent gateway in Go with team delegation, memory and chat channels.**
 
@@ -936,7 +954,7 @@ GoClaw is a Go gateway that runs multiple agents, each with its own identity, to
 <sub>no GPU · Docker + Compose · Needs PostgreSQL 18 with pgvector, Docker (optional), Headless Chrome (optional), Redis (optional) · Models: Anthropic, OpenAI, OpenRouter, Groq, DeepSeek · port 18790 · [Repo](https://github.com/nextlevelbuilder/goclaw) · [📖 Docs ↗](https://docs.goclaw.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/goclaw/)</sub>
 
 <a name="kiln"></a>
-### #&#8288;53 [kiln](https://github.com/kiln-ai/kiln) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · custom license · Nov 2026</sub>
+### #&#8288;54 [kiln](https://github.com/kiln-ai/kiln) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · custom license · Nov 2026</sub>
 
 **Desktop app and Python library for AI task evals, optimization and fine-tuning.**
 
@@ -954,7 +972,7 @@ Kiln is a desktop app for Mac, Windows and Linux plus an MIT-licensed Python lib
 <sub>GPU optional · Needs Ollama (optional, for offline use), Git (for team sync) · Models: OpenAI, Anthropic, Gemini, Bedrock, Ollama · [Repo](https://github.com/kiln-ai/kiln) · [▶️ Demo ↗](https://kiln.tech#demo) · [📖 Docs ↗](https://docs.kiln.tech) · [🌐 Site ↗](https://kiln.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kiln/)</sub>
 
 <a name="evoscientist"></a>
-### #&#8288;54 [evoscientist](https://github.com/evoscientist/evoscientist) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;55 [evoscientist](https://github.com/evoscientist/evoscientist) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
 
 **Multi-agent research assistant with persistent memory, CLI, WebUI and chat channels.**
 
@@ -972,7 +990,7 @@ EvoScientist is a Python research agent built on LangChain's DeepAgents. It runs
 <sub>no GPU · Docker + Compose · Needs LLM provider API key (Anthropic, OpenAI, Google, MiniMax, NVIDIA, OpenRouter and others), langgraph dev server, deepagents · Models: Anthropic, OpenAI, Google, MiniMax, NVIDIA · [Repo](https://github.com/evoscientist/evoscientist) · [🌐 Site ↗](https://EvoScientist.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evoscientist/)</sub>
 
 <a name="rd-agent"></a>
-### #&#8288;55 [rd-agent](https://github.com/microsoft/rd-agent) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Sep 2026</sub>
+### #&#8288;56 [rd-agent](https://github.com/microsoft/rd-agent) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Sep 2026</sub>
 
 **LLM agent that proposes and implements ML experiments for quant and data science.**
 
@@ -990,7 +1008,7 @@ RD-Agent splits automated R&D into a research agent that proposes ideas and a de
 <sub>Needs Docker, Conda, Qlib, LiteLLM, LLM API with embeddings · Models: OpenAI, Azure OpenAI, DeepSeek, LiteLLM providers, SiliconFlow embeddings · [Repo](https://github.com/microsoft/rd-agent) · [▶️ Demo ↗](https://rdagent.azurewebsites.net) · [📖 Docs ↗](https://rdagent.readthedocs.io/en/latest/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rd-agent/)</sub>
 
 <a name="cloudflare-os"></a>
-### #&#8288;56 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;57 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Agent chat workspace where AI builds sandboxed per-user apps with approval-gated access.**
 
@@ -1008,7 +1026,7 @@ Cloudflare OS is an internal Cloudflare productivity environment, now open sourc
 <sub>no GPU · Needs pnpm, wrangler, workerd, Cloudflare account (for hosted deploy), LLM provider · Models: Many major LLM providers via pi-agent-core, self-hosted models · port 8787 · [Repo](https://github.com/cloudflare/cloudflare-os) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cloudflare-os/)</sub>
 
 <a name="harnessrouter"></a>
-### #&#8288;57 [harnessrouter](https://github.com/harnessrouter/harnessrouter) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;58 [harnessrouter](https://github.com/harnessrouter/harnessrouter) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
 
 **One API that runs agent harnesses like Codex and Claude Code as backends.**
 
@@ -1026,7 +1044,7 @@ HarnessRouter wraps existing agent harnesses (31 listed, including Codex, Claude
 <sub>no GPU · Docker + Compose · Needs Docker, Model provider API key · Models: OpenAI Responses API, Provider API keys (bring your own) · port 3000 · [Repo](https://github.com/harnessrouter/harnessrouter) · [📖 Docs ↗](https://github.com/HarnessRouter/harnessrouter/blob/main/docs/self-hosting-guide.md) · [🌐 Site ↗](https://harnessrouter.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/harnessrouter/)</sub>
 
 <a name="mirofish"></a>
-### #&#8288;58 [mirofish](https://github.com/666ghj/mirofish) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (96) · Freshness: active (94) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;59 [mirofish](https://github.com/666ghj/mirofish) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (96) · Freshness: active (94) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · AGPL-3.0 · Oct 2026</sub>
 
 **Multi-agent social simulation engine that predicts outcomes from seed documents.**
 
@@ -1044,7 +1062,7 @@ MiroFish builds a GraphRAG knowledge graph from uploaded seed material such as n
 <sub>no GPU · Docker + Compose · Needs Zep Cloud, OpenAI-compatible LLM API, Node.js 18+, Python 3.11-3.12, uv · Models: OpenAI-compatible APIs, Qwen-plus (recommended) · port 3000 · [Repo](https://github.com/666ghj/mirofish) · [▶️ Demo ↗](https://666ghj.github.io/mirofish-demo/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mirofish/)</sub>
 
 <a name="paperbanana"></a>
-### #&#8288;59 [paperbanana](https://github.com/dwzhu-pku/paperbanana) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;60 [paperbanana](https://github.com/dwzhu-pku/paperbanana) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · Apache-2.0 · Nov 2026</sub>
 
 **Multi-agent pipeline that drafts academic paper diagrams and plots from method text.**
 
@@ -1062,7 +1080,7 @@ PaperBanana turns a paper's method section and figure caption into publication-s
 <sub>no GPU · Docker · Needs Google Gemini or OpenRouter API key, uv, Python 3.12, PaperBananaBench dataset (Hugging Face) · Models: Gemini, OpenRouter, OpenAI gpt-image · [Repo](https://github.com/dwzhu-pku/paperbanana) · [▶️ Demo ↗](https://huggingface.co/spaces/dwzhu/PaperBanana) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperbanana/)</sub>
 
 <a name="solace-agent-mesh"></a>
-### #&#8288;60 [solace-agent-mesh](https://github.com/solaceproducts/solace-agent-mesh) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · custom license · Oct 2026</sub>
+### #&#8288;61 [solace-agent-mesh](https://github.com/solaceproducts/solace-agent-mesh) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · custom license · Oct 2026</sub>
 
 **Agent build-and-runtime platform coordinating agents over a Solace event broker.**
 
@@ -1078,24 +1096,6 @@ Solace Agent Mesh hosts agents and their tools and coordinates them over an even
 - **−** Repository accepts no issues or pull requests; examples are not production-ready
 
 <sub>Needs Solace event broker, Kubernetes (production) · Models: unknown · [Repo](https://github.com/solaceproducts/solace-agent-mesh) · [▶️ Demo ↗](https://solace.com/agent-mesh-demo/) · [📖 Docs ↗](https://docs.solace.com/Agent-Mesh/Framework/installing/desktop.htm) · [🌐 Site ↗](https://solace.com/products/agent-mesh/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/solace-agent-mesh/)</sub>
-
-<a name="openagents"></a>
-### #&#8288;61 [openagents](https://github.com/openagents-org/openagents) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
-
-**Shared workspace where people and coding agents collaborate in threads.**
-
-OpenAgents Workspace is a Slack-like hub where agents such as Claude Code, Codex CLI, OpenClaw, Cursor and Kiro share threads, files and a browser with human teammates. A launcher CLI (`agn`) and desktop app install agent runtimes, set API keys, and run a background daemon that connects each agent to a workspace by token. Version 1.1 adds approvals, issues, and per-agent sharing between teammates.
-
-- **+** Connects 25+ existing agent CLIs (Claude Code, Codex, Aider, Goose) to one workspace
-- **+** Approval cards let agents ask before deploying, spending, emailing or deleting data
-- **+** Agents and devices are private by default and shared per teammate
-- **+** Shared browser and files stay attached to the thread that produced them
-- **−** Aider, Goose and Cline integrations are Beta; DeepSeek Harness is a preview
-- **−** Headless Goose runs in auto mode, so tools execute without prompting
-- **−** Self-hosted upgrade to v1.1 changes device ownership and sharing defaults
-- **−** No Docker or compose files detected for self-hosting
-
-<sub>no GPU · Needs Node.js, agent runtimes (Claude Code, Codex CLI, etc.), LLM API keys · Models: Anthropic, OpenAI, OpenRouter, Gemini, DeepSeek · [Repo](https://github.com/openagents-org/openagents) · [▶️ Demo ↗](https://openagents.org/api/create-workspace) · [📖 Docs ↗](https://openagents.org/docs) · [🌐 Site ↗](https://openagents.org/workspace) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openagents/)</sub>
 
 <a name="cumora"></a>
 ### #&#8288;62 [cumora](https://github.com/yetone/cumora) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · MIT · Nov 2026</sub>
@@ -1116,7 +1116,7 @@ Cumora is a team chat app (Electron, PWA, iOS, Android) in which AI agents are r
 <sub>no GPU · Needs PostgreSQL, Redis, OpenAI API, Kubernetes (cloud agent pods), Resend (email), Cloudflare Workers (email, R2) · Models: OpenAI Responses API, Claude Code, Codex, Grok Build, Cursor Agent · port 5180 · [Repo](https://github.com/yetone/cumora) · [▶️ Demo ↗](https://app.cumora.ai) · [🌐 Site ↗](https://cumora.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cumora/)</sub>
 
 <a name="dsha"></a>
-### #&#8288;63 [dsha](https://github.com/dsh-app/dsha) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · MIT · Nov 2026</sub>
+### #&#8288;63 [dsha](https://github.com/dsh-app/dsha) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Nov 2026</sub>
 
 **Android app that runs DeepSeek Harness in a bundled Ubuntu rootfs, no root.**
 
@@ -1205,7 +1205,7 @@ Runs a 23-stage pipeline from a topic to a paper. It searches literature via Ope
 <sub>GPU optional · Needs Python 3.11+, LLM API or ACP agent CLI, OpenAlex / Semantic Scholar / arXiv, LaTeX, Docker (optional) · Models: OpenAI-compatible APIs, ACP agents (Claude Code, Codex CLI, Gemini CLI, Copilot CLI, Kimi CLI, OpenCode) · [Repo](https://github.com/aiming-lab/autoresearchclaw) · [📖 Docs ↗](https://github.com/aiming-lab/AutoResearchClaw/blob/main/docs/integration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autoresearchclaw/)</sub>
 
 <a name="cosmo-edge"></a>
-### #&#8288;68 [cosmo-edge](https://github.com/cosmo-wander-ai/cosmo-edge) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;68 [cosmo-edge](https://github.com/cosmo-wander-ai/cosmo-edge) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Nov 2026</sub>
 
 **C++ engine for video analytics and VLM tasks on Sophon, Rockchip and x86.**
 

@@ -76,7 +76,7 @@ Supermemory extracts facts from conversations, tracks updates and contradictions
 <sub>GPU optional · Needs LLM provider (OpenAI, Anthropic, Gemini, Groq, or Ollama), Docker (optional) · Models: OpenAI, Anthropic, Gemini, Groq, Ollama · port 6767 · [Repo](https://github.com/supermemoryai/supermemory) · [📖 Docs ↗](https://supermemory.ai/docs) · [🌐 Site ↗](https://supermemory.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/supermemory/)</sub>
 
 <a name="mem0"></a>
-### #&#8288;5 [Mem0](https://github.com/mem0ai/mem0) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;5 [Mem0](https://github.com/mem0ai/mem0) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · Apache-2.0 · Nov 2026</sub>
 
 **Long-term memory layer that stores and retrieves user facts for LLM agents.**
 
@@ -130,7 +130,7 @@ Graphiti is a Python library (graphiti-core) that ingests text and JSON episodes
 <sub>no GPU · Docker + Compose · Needs Neo4j 5.26, FalkorDB 1.1.2, Amazon Neptune + OpenSearch Serverless, OpenAI API key · Models: OpenAI, Anthropic, Google Gemini, Groq, OpenAI-compatible endpoints (Ollama, vLLM, llama.cpp, LM Studio) · [Repo](https://github.com/getzep/graphiti) · [🌐 Site ↗](https://www.getzep.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graphiti/)</sub>
 
 <a name="openviking"></a>
-### #&#8288;8 [OpenViking](https://github.com/volcengine/openviking) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;8 [OpenViking](https://github.com/volcengine/openviking) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · AGPL-3.0 · Nov 2026</sub>
 
 **Filesystem-style context database for agent memory, resources and skills.**
 
@@ -345,7 +345,7 @@ Letta (formerly MemGPT) builds agents that keep memory and learn across sessions
 <sub>Needs Node.js (npm) · [Repo](https://github.com/letta-ai/letta) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letta-ai-letta/)</sub>
 
 <a name="obsidian-wiki"></a>
-### #&#8288;20 [obsidian-wiki](https://github.com/ar9av/obsidian-wiki) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
+### #&#8288;20 [obsidian-wiki](https://github.com/ar9av/obsidian-wiki) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Nov 2026</sub>
 
 **Markdown skills that let coding agents compile notes into an Obsidian wiki.**
 
@@ -417,7 +417,7 @@ Letta Code is a TypeScript CLI for running long-lived agents that keep memory, s
 <sub>no GPU · Docker · Needs Node.js or Python 3.9+ (uv/pipx), Letta Cloud (default backend), LLM API keys via /connect · Models: OpenAI / ChatGPT, Anthropic, Z.ai coding plan · [Repo](https://github.com/letta-ai/letta-code) · [▶️ Demo ↗](https://chat.letta.com) · [📖 Docs ↗](https://docs.letta.com/letta-code/cli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letta/)</sub>
 
 <a name="ob1"></a>
-### #&#8288;24 [ob1](https://github.com/natebjones-projects/ob1) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Sep 2026</sub>
+### #&#8288;24 [ob1](https://github.com/natebjones-projects/ob1) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Sep 2026</sub>
 
 **Shared Postgres vector memory exposed to any AI client over MCP.**
 

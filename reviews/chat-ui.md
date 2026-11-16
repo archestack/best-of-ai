@@ -507,7 +507,7 @@ A Vue front-end for ChatGPT-style chat that supports multiple users, multiple in
 <sub>Docker + Compose · Needs chatgpt-ui-server · [Repo](https://github.com/wongsaang/chatgpt-ui) · [📖 Docs ↗](https://wongsaang.github.io/chatgpt-ui/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgpt-ui/)</sub>
 
 <a name="chatany"></a>
-### #&#8288;29 [chatany](https://github.com/chatanyteam/chatany) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (37) · Freshness: slowing (35) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
+### #&#8288;29 [chatany](https://github.com/chatanyteam/chatany) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (36) · Freshness: slowing (35) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
 
 **ChatGPT-Next-Web fork adding Midjourney and Stability AI image generation.**
 

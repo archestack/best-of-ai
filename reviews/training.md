@@ -148,7 +148,7 @@ verl is the open-source implementation of the HybridFlow paper from ByteDance Se
 <sub>GPU required · Docker · Needs Ray, PyTorch, vLLM, SGLang, Megatron-LM · Models: Qwen3.5, Qwen3, Qwen2.5, Qwen2.5-VL, Kimi-VL · [Repo](https://github.com/verl-project/verl) · [📖 Docs ↗](https://verl.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/verl/)</sub>
 
 <a name="ms-swift"></a>
-### #&#8288;9 [ms-swift](https://github.com/modelscope/ms-swift) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [ms-swift](https://github.com/modelscope/ms-swift) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **Fine-tuning, RL, quantization and serving toolkit for 600+ text and 400+ multimodal LLMs.**
 
@@ -238,7 +238,7 @@ Oumi covers the model lifecycle from one YAML-driven CLI: data synthesis with LL
 <sub>GPU optional · Docker · Needs PyTorch, Transformers, TRL, vLLM, SGLang, verl · Models: Llama, Gemma, Qwen, DeepSeek, GLM · [Repo](https://github.com/oumi-ai/oumi) · [📖 Docs ↗](https://oumi.ai/docs/en/latest/index.html) · [🌐 Site ↗](https://oumi.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oumi/)</sub>
 
 <a name="areal"></a>
-### #&#8288;14 [areal](https://github.com/areal-project/areal) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [areal](https://github.com/areal-project/areal) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Nov 2026</sub>
 
 **Asynchronous reinforcement learning system for training reasoning and agentic LLMs.**
 
@@ -256,7 +256,7 @@ AReaL trains LLMs with reinforcement learning using a fully asynchronous rollout
 <sub>GPU required · Docker · Needs SGLang or vLLM, Megatron or PyTorch FSDP, flash-attn, Ray (optional) · Models: Qwen2/3, Qwen3-MoE, Qwen3.5, Qwen2.5-VL, Qwen3-VL · [Repo](https://github.com/areal-project/areal) · [📖 Docs ↗](https://areal-project.github.io/AReaL/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/areal/)</sub>
 
 <a name="llamafactory"></a>
-### #&#8288;15 [llamafactory](https://github.com/hiyouga/llamafactory) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [llamafactory](https://github.com/hiyouga/llamafactory) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · Apache-2.0 · Nov 2026</sub>
 
 **Fine-tuning toolkit for 100+ LLMs with a CLI and Gradio web UI.**
 
@@ -307,7 +307,7 @@ OpenRLHF trains language and vision-language models with reinforcement learning 
 <sub>GPU required · Needs Ray, vLLM, DeepSpeed, HuggingFace Transformers, NCCL · Models: HuggingFace Transformers models, VLMs (e.g. Qwen3.5), MoE, LoRA/QLoRA · [Repo](https://github.com/openrlhf/openrlhf) · [📖 Docs ↗](https://openrlhf.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openrlhf/)</sub>
 
 <a name="torchtitan"></a>
-### #&#8288;18 [torchtitan](https://github.com/pytorch/torchtitan) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;18 [torchtitan](https://github.com/pytorch/torchtitan) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · BSD-3-Clause · Nov 2026</sub>
 
 **PyTorch-native training stack for pretraining, fine-tuning and RL of large models.**
 
@@ -985,26 +985,8 @@ EasyR1 is a fork of veRL that adds vision-language model support to RL post-trai
 
 <sub>GPU required · Docker · Needs Ray, vLLM, flash-attn, transformers, Docker or Apptainer (optional) · Models: Llama3, Qwen2, Qwen2.5, Qwen3, Qwen2-VL · [Repo](https://github.com/hiyouga/easyr1) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easyr1/)</sub>
 
-<a name="autoresearch"></a>
-### #&#8288;56 [autoresearch](https://github.com/karpathy/autoresearch) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: widely used (99) · Freshness: slowing (47) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 100k · no license · Mar 2026</sub>
-
-**Agent loop that edits a small GPT training script and keeps changes that lower val_bpb.**
-
-A coding agent (Claude, Codex or similar) is pointed at a single-GPU nanochat-derived training setup and edits train.py in a loop. Each experiment trains for a fixed 5 minutes and is kept or discarded based on validation bits per byte (val_bpb). The human edits program.md, the agent instructions, rather than the Python code.
-
-- **+** Fixed 5-minute budget makes runs comparable: about 12 experiments per hour, around 100 overnight
-- **+** Small codebase: agent edits only train.py, so diffs stay reviewable
-- **+** val_bpb is vocab-size independent, so architecture changes compare fairly
-- **+** Works with any coding agent that can read program.md
-- **−** Requires a single NVIDIA GPU (tested on H100); no CPU, MPS or AMD support in main repo
-- **−** Results are not comparable across different hardware because of the fixed time budget
-- **−** Default program.md is a bare baseline for one agent; multi-agent setups are left to the user
-- **−** README says to disable agent permissions, which is a safety risk without extra sandboxing
-
-<sub>GPU required · Needs uv, PyTorch, Python 3.10+, a coding agent (Claude, Codex or similar) · Models: GPT (nanochat-style, trained from scratch), Muon + AdamW optimizer · [Repo](https://github.com/karpathy/autoresearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autoresearch/)</sub>
-
 <a name="qwen-vl-series-finetune"></a>
-### #&#8288;57 [qwen-vl-series-finetune](https://github.com/2u1/qwen-vl-series-finetune) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;56 [qwen-vl-series-finetune](https://github.com/2u1/qwen-vl-series-finetune) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Sep 2026</sub>
 
 **Fine-tuning scripts for Qwen2-VL, Qwen2.5-VL, Qwen3-VL and Qwen3.5.**
 
@@ -1020,6 +1002,24 @@ Training scripts built on HuggingFace and Liger-Kernel for fine-tuning Qwen visi
 - **−** Limited to Qwen-VL family; other models live in separate repos
 
 <sub>GPU required · Needs PyTorch, HuggingFace Transformers 5.3.0, Liger-Kernel 0.8.0, DeepSpeed, flash-attn, qwen-vl-utils, CUDA 12.8 · Models: Qwen2-VL, Qwen2.5-VL, Qwen3-VL, Qwen3-VL-MoE, Qwen3.5 · [Repo](https://github.com/2u1/qwen-vl-series-finetune) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwen-vl-series-finetune/)</sub>
+
+<a name="autoresearch"></a>
+### #&#8288;57 [autoresearch](https://github.com/karpathy/autoresearch) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: widely used (99) · Freshness: slowing (47) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 100k · no license · Mar 2026</sub>
+
+**Agent loop that edits a small GPT training script and keeps changes that lower val_bpb.**
+
+A coding agent (Claude, Codex or similar) is pointed at a single-GPU nanochat-derived training setup and edits train.py in a loop. Each experiment trains for a fixed 5 minutes and is kept or discarded based on validation bits per byte (val_bpb). The human edits program.md, the agent instructions, rather than the Python code.
+
+- **+** Fixed 5-minute budget makes runs comparable: about 12 experiments per hour, around 100 overnight
+- **+** Small codebase: agent edits only train.py, so diffs stay reviewable
+- **+** val_bpb is vocab-size independent, so architecture changes compare fairly
+- **+** Works with any coding agent that can read program.md
+- **−** Requires a single NVIDIA GPU (tested on H100); no CPU, MPS or AMD support in main repo
+- **−** Results are not comparable across different hardware because of the fixed time budget
+- **−** Default program.md is a bare baseline for one agent; multi-agent setups are left to the user
+- **−** README says to disable agent permissions, which is a safety risk without extra sandboxing
+
+<sub>GPU required · Needs uv, PyTorch, Python 3.10+, a coding agent (Claude, Codex or similar) · Models: GPT (nanochat-style, trained from scratch), Muon + AdamW optimizer · [Repo](https://github.com/karpathy/autoresearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autoresearch/)</sub>
 
 <a name="vlm-r1"></a>
 ### #&#8288;58 [vlm-r1](https://github.com/om-ai-lab/vlm-r1) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (42) · Freshness: recent (59) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>

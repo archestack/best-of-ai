@@ -95,7 +95,7 @@ Python MCP server that lets an AI client search, read, create and update Jira is
 <sub>no GPU · Docker · Needs Jira, Confluence, uv · [Repo](https://github.com/sooperset/mcp-atlassian) · [📖 Docs ↗](https://mcp-atlassian.soomiles.com/docs/installation) · [🌐 Site ↗](https://mcp-atlassian.soomiles.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-atlassian/)</sub>
 
 <a name="excel-mcp-server"></a>
-### #&#8288;6 [excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
+### #&#8288;6 [excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI clients create and edit Excel files without Excel.**
 
@@ -113,7 +113,7 @@ Python MCP server built on openpyxl that exposes tools for reading and editing .
 <sub>no GPU · Docker · Needs uv, openpyxl · Models: Claude, Cursor, VS Code Copilot, OpenAI Codex, Gemini CLI · port 8017 · [Repo](https://github.com/haris-musa/excel-mcp-server) · [🌐 Site ↗](https://excelmcpserver.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/excel-mcp-server/)</sub>
 
 <a name="davinci-resolve-mcp"></a>
-### #&#8288;7 [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Nov 2026</sub>
+### #&#8288;7 [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI assistants drive DaVinci Resolve via its scripting API.**
 
@@ -311,7 +311,7 @@ Python MCP server exposing 39 tools to MCP clients such as Claude, Cursor, ChatG
 <sub>no GPU · Docker + Compose · Needs Python 3.10-3.13, uv, Marketaux API key (optional), Yahoo Finance, TradingView public endpoints · [Repo](https://github.com/atilaahmettaner/tradingview-mcp) · [📖 Docs ↗](https://tradingmcp.ai/docs) · [🌐 Site ↗](https://tradingmcp.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tradingview-mcp/)</sub>
 
 <a name="open-seo-mcp-skills"></a>
-### #&#8288;18 [open-seo-mcp-skills](https://github.com/ryze-ai-adgent/open-seo-mcp-skills) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
+### #&#8288;18 [open-seo-mcp-skills](https://github.com/ryze-ai-adgent/open-seo-mcp-skills) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
 
 **Claude skills for SEO and AI-visibility work via the hosted Ryze MCP.**
 
@@ -436,26 +436,8 @@ Python MCP server that lets an MCP client such as Claude Desktop list, read, sea
 
 <sub>no GPU · Docker + Compose · Needs Obsidian, obsidian-local-rest-api plugin, Python >= 3.11, uv · [Repo](https://github.com/markuspfundstein/mcp-obsidian) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-obsidian/)</sub>
 
-<a name="opennews-mcp"></a>
-### #&#8288;25 [opennews-mcp](https://github.com/6551team/opennews-mcp) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Aug 2026</sub>
-
-**MCP server exposing crypto and financial news, signals and filings to AI assistants.**
-
-Python MCP server that wraps the hosted 6551 API (ai.6551.io) and gives assistants tools to search news from 85+ sources across news, listing, onchain, meme, market and prediction engines. Articles carry an AI impact score (0-100), a long/short/neutral signal and EN/ZH summaries. It also offers SEC/DART company lookups, 13F holdings, and a WebSocket feed for live updates.
-
-- **+** Filters by coin, source, engine type, AI score and trading signal
-- **+** WebSocket subscription for live news with coin and engine filters
-- **+** Small dependency set: mcp, httpx, websockets
-- **+** Also covers company filings, 13F holdings and politician stock disclosures
-- **−** Requires an API token from 6551.io; data comes from a hosted service
-- **−** Strategy tools and strategy.triggered pushes need a paid subscription
-- **−** Each strategy REST/MCP call consumes quota
-- **−** No Docker image or release published
-
-<sub>no GPU · Needs 6551 API (ai.6551.io), OPENNEWS_TOKEN, uv · [Repo](https://github.com/6551team/opennews-mcp) · [🌐 Site ↗](https://6551.io/mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opennews-mcp/)</sub>
-
 <a name="mcp-server-mysql"></a>
-### #&#8288;26 [mcp-server-mysql](https://github.com/benborla/mcp-server-mysql) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (9) · Freshness: active (94) · Maintenance: weak (4) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Jul 2026</sub>
+### #&#8288;25 [mcp-server-mysql](https://github.com/benborla/mcp-server-mysql) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (9) · Freshness: active (94) · Maintenance: weak (4) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Jul 2026</sub>
 
 **MCP server that lets LLMs inspect and query MySQL databases.**
 
@@ -471,5 +453,23 @@ Exposes a MySQL database to MCP clients such as Claude Code and Claude Desktop t
 - **−** Quick-install examples use the root user and a plaintext password in env
 
 <sub>no GPU · Docker · Needs Node.js 20+, MySQL 5.7+ (8.0+ recommended) · Models: Claude Code, Claude Desktop, Any MCP client · [Repo](https://github.com/benborla/mcp-server-mysql) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-server-mysql/)</sub>
+
+<a name="opennews-mcp"></a>
+### #&#8288;26 [opennews-mcp](https://github.com/6551team/opennews-mcp) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Aug 2026</sub>
+
+**MCP server exposing crypto and financial news, signals and filings to AI assistants.**
+
+Python MCP server that wraps the hosted 6551 API (ai.6551.io) and gives assistants tools to search news from 85+ sources across news, listing, onchain, meme, market and prediction engines. Articles carry an AI impact score (0-100), a long/short/neutral signal and EN/ZH summaries. It also offers SEC/DART company lookups, 13F holdings, and a WebSocket feed for live updates.
+
+- **+** Filters by coin, source, engine type, AI score and trading signal
+- **+** WebSocket subscription for live news with coin and engine filters
+- **+** Small dependency set: mcp, httpx, websockets
+- **+** Also covers company filings, 13F holdings and politician stock disclosures
+- **−** Requires an API token from 6551.io; data comes from a hosted service
+- **−** Strategy tools and strategy.triggered pushes need a paid subscription
+- **−** Each strategy REST/MCP call consumes quota
+- **−** No Docker image or release published
+
+<sub>no GPU · Needs 6551 API (ai.6551.io), OPENNEWS_TOKEN, uv · [Repo](https://github.com/6551team/opennews-mcp) · [🌐 Site ↗](https://6551.io/mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opennews-mcp/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
