@@ -23,7 +23,7 @@ OmniRoute is a TypeScript gateway that exposes one endpoint at localhost:20128/v
 <sub>no GPU · Docker + Compose · Needs Provider accounts or API keys, Node.js (npm) or Docker · Models: OpenAI API, Claude API, Gemini API, Responses API · port 20128 · [Repo](https://github.com/cheaper-inference/omniroute) · [🌐 Site ↗](https://omniroute.online) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omniroute/)</sub>
 
 <a name="headroom"></a>
-### 🥈 [headroom](https://github.com/headroomlabs-ai/headroom) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · Apache-2.0 · Nov 2026</sub>
+### 🥈 [headroom](https://github.com/headroomlabs-ai/headroom) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · Apache-2.0 · Nov 2026</sub>
 
 **Compresses tool outputs, logs and history before they reach the LLM.**
 
@@ -255,26 +255,8 @@ Bifrost is a Go AI gateway that fronts 23+ providers (OpenAI, Anthropic, Bedrock
 
 <sub>no GPU · Models: OpenAI, Anthropic, AWS Bedrock, Google Vertex, Azure, Cerebras, Cohere, Mistral, Ollama, Groq and more · port 8080 · [Repo](https://github.com/maximhq/bifrost) · [📖 Docs ↗](https://docs.getbifrost.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bifrost/)</sub>
 
-<a name="clawrouter"></a>
-### #&#8288;15 [clawrouter](https://github.com/blockrunai/clawrouter) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · MIT · Nov 2026</sub>
-
-**Local LLM router that picks the cheapest capable model per request.**
-
-ClawRouter runs a local proxy on port 8402 with an OpenAI-compatible endpoint. It scores each request across 15 dimensions and picks the cheapest model that can handle it, from about 90 chat models behind BlockRun's gateway. Payment is USDC over x402 on Solana or Base, or a card-funded API key. Seven free models need no signup. It also installs as an OpenClaw plugin.
-
-- **+** Routing runs locally in under 1 ms, with no external calls for the decision
-- **+** OpenAI-compatible proxy works with Cursor, continue.dev and the OpenAI SDK
-- **+** Seven free models usable without signup, key or wallet
-- **+** Pay by x402 USDC per request or by card-funded API key
-- **−** Paid models go through BlockRun's hosted gateway, not directly to each provider
-- **−** Savings figures come from the vendor's own published workload mix
-- **−** About 90 chat models, fewer than OpenRouter's listed 200+
-- **−** Card top-ups cost 5.5% + $0.30; wallet use adds $0.001 per transaction
-
-<sub>no GPU · Needs Node.js, BlockRun gateway (blockrun.ai), USDC wallet (Solana or Base) or BlockRun API key · Models: OpenAI, Anthropic, Google, xAI, DeepSeek · port 8402 · [Repo](https://github.com/blockrunai/clawrouter) · [🌐 Site ↗](https://blockrun.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawrouter/)</sub>
-
 <a name="treg"></a>
-### #&#8288;16 [treg](https://github.com/superdesigndev/treg) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · custom license · Nov 2026</sub>
+### #&#8288;15 [treg](https://github.com/superdesigndev/treg) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · custom license · Nov 2026</sub>
 
 **Tool registry proxy giving agents one token for a priced API catalog.**
 
@@ -291,8 +273,26 @@ treg is a proxy and CLI that lets an agent call a catalog of third-party endpoin
 
 <sub>no GPU · Needs uv, tmux, Node 22.12+ (dashboard build), SQLite, PostHog (CLI telemetry, optional) · port 18790 · [Repo](https://github.com/superdesigndev/treg) · [📖 Docs ↗](https://treg.to/llms.txt) · [🌐 Site ↗](https://treg.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/treg/)</sub>
 
+<a name="clawrouter"></a>
+### #&#8288;16 [clawrouter](https://github.com/blockrunai/clawrouter) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · MIT · Nov 2026</sub>
+
+**Local LLM router that picks the cheapest capable model per request.**
+
+ClawRouter runs a local proxy on port 8402 with an OpenAI-compatible endpoint. It scores each request across 15 dimensions and picks the cheapest model that can handle it, from about 90 chat models behind BlockRun's gateway. Payment is USDC over x402 on Solana or Base, or a card-funded API key. Seven free models need no signup. It also installs as an OpenClaw plugin.
+
+- **+** Routing runs locally in under 1 ms, with no external calls for the decision
+- **+** OpenAI-compatible proxy works with Cursor, continue.dev and the OpenAI SDK
+- **+** Seven free models usable without signup, key or wallet
+- **+** Pay by x402 USDC per request or by card-funded API key
+- **−** Paid models go through BlockRun's hosted gateway, not directly to each provider
+- **−** Savings figures come from the vendor's own published workload mix
+- **−** About 90 chat models, fewer than OpenRouter's listed 200+
+- **−** Card top-ups cost 5.5% + $0.30; wallet use adds $0.001 per transaction
+
+<sub>no GPU · Needs Node.js, BlockRun gateway (blockrun.ai), USDC wallet (Solana or Base) or BlockRun API key · Models: OpenAI, Anthropic, Google, xAI, DeepSeek · port 8402 · [Repo](https://github.com/blockrunai/clawrouter) · [🌐 Site ↗](https://blockrun.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawrouter/)</sub>
+
 <a name="higress"></a>
-### #&#8288;17 [Higress](https://github.com/higress-group/higress) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;17 [Higress](https://github.com/higress-group/higress) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Nov 2026</sub>
 
 **Istio and Envoy API gateway with LLM proxying and MCP server hosting.**
 
@@ -327,7 +327,7 @@ AxonHub is a Go gateway that accepts requests in OpenAI, Anthropic or Gemini for
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Gemini, DeepSeek, Zhipu · port 8090 · [Repo](https://github.com/looplj/axonhub) · [▶️ Demo ↗](https://axonhub.reveric.app) · [📖 Docs ↗](https://deepwiki.com/looplj/axonhub) · [🌐 Site ↗](https://github.com/looplj/axonhub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/axonhub/)</sub>
 
 <a name="deepeval"></a>
-### #&#8288;19 [deepeval](https://github.com/confident-ai/deepeval) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [deepeval](https://github.com/confident-ai/deepeval) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Nov 2026</sub>
 
 **Pytest-style framework for unit testing LLM apps, RAG pipelines and agents.**
 
@@ -612,7 +612,7 @@ Captures traces, sessions and tool calls via a one-line SDK (TypeScript, Python)
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, ClickHouse, Redis · Models: OpenAI, Anthropic, Bedrock, Vercel AI SDK and LangChain apps, any OpenTelemetry source · [Repo](https://github.com/latitude-dev/latitude-llm) · [📖 Docs ↗](https://docs.latitude.so) · [🌐 Site ↗](https://latitude.so) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/latitude-llm/)</sub>
 
 <a name="evalscope"></a>
-### #&#8288;35 [evalscope](https://github.com/modelscope/evalscope) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;35 [evalscope](https://github.com/modelscope/evalscope) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
 
 **Evaluation and stress-testing framework for LLM, VLM and embedding models.**
 
@@ -718,7 +718,7 @@ Laminar is a Rust-based observability backend for AI agents. Its OpenTelemetry-n
 <sub>no GPU · Compose · Needs ClickHouse, Postgres, Docker Compose · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs ↗](https://laminar.sh/docs) · [🌐 Site ↗](https://laminar.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmnr/)</sub>
 
 <a name="future-agi"></a>
-### #&#8288;41 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;41 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Nov 2026</sub>
 
 **Tracing, evals, simulation, guardrails and an LLM gateway for AI agents.**
 
@@ -754,7 +754,7 @@ Evidently is a Python library with 100+ built-in metrics for tabular and text da
 <sub>no GPU · Docker · Needs Python, pandas · Models: tabular data, text, LLM-as-a-judge · port 8000 · [Repo](https://github.com/evidentlyai/evidently) · [▶️ Demo ↗](https://demo.evidentlyai.com) · [📖 Docs ↗](https://docs.evidentlyai.com) · [🌐 Site ↗](https://www.evidentlyai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evidently/)</sub>
 
 <a name="traceroot"></a>
-### #&#8288;43 [traceroot](https://github.com/traceroot-ai/traceroot) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · custom license · Nov 2026</sub>
+### #&#8288;43 [traceroot](https://github.com/traceroot-ai/traceroot) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · custom license · Nov 2026</sub>
 
 **LLM tracing, detectors and evals that feed fixes back to your coding agent.**
 

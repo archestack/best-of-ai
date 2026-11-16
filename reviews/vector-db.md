@@ -58,7 +58,7 @@ Meilisearch is a search engine with a RESTful API for full-text, semantic and hy
 <sub>no GPU · Docker · Models: embedding models for semantic search (providers unknown) · port 7700 · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meilisearch/)</sub>
 
 <a name="faiss"></a>
-### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Nov 2026</sub>
+### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Nov 2026</sub>
 
 **C++ library for similarity search and clustering of dense vectors.**
 
@@ -147,7 +147,7 @@ HelixDB is a transactional labeled-property graph database that also does approx
 <sub>no GPU · Docker · Needs Docker or Podman (local server) · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helix-db/)</sub>
 
 <a name="zvec"></a>
-### #&#8288;9 [zvec](https://github.com/alibaba/zvec) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [zvec](https://github.com/alibaba/zvec) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **In-process vector database library with hybrid and full-text search.**
 
@@ -308,26 +308,8 @@ Hnswlib implements the HNSW graph index for approximate nearest neighbor search 
 
 <sub>no GPU · [Repo](https://github.com/nmslib/hnswlib) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hnswlib/)</sub>
 
-<a name="sptag"></a>
-### #&#8288;18 [sptag](https://github.com/microsoft/sptag) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
-
-**C++ library for approximate nearest neighbor search over large vector sets.**
-
-SPTAG is a Microsoft Research and Bing library for approximate nearest neighbor search over vectors using L2 or cosine distance. It offers two index types: SPTAG-KDT (kd-tree plus relative neighborhood graph) and SPTAG-BKT (balanced k-means tree plus graph). It supports online insertion and deletion, and search across multiple machines.
-
-- **+** Two index types: KDT for cheaper builds, BKT for accuracy on very high-dimensional data
-- **+** Supports online vector insertion and deletion without a full rebuild
-- **+** Distributed serving across multiple machines
-- **+** Backed by published papers (SPANN, SPFresh, VBASE) and MIT licensed
-- **−** Source build needs swig, cmake and boost; optional SPDK and RocksDB builds are involved
-- **−** Only L2 and cosine distances are documented
-- **−** No tagged releases; build from source or the Dockerfile
-- **−** Library, not a standalone server; an online service needs the Python wrapper
-
-<sub>Docker · Needs swig >= 4.0.2, cmake >= 3.12.0, boost >= 1.67.0, SPDK (optional), RocksDB (optional) · [Repo](https://github.com/microsoft/sptag) · [📖 Docs ↗](https://github.com/microsoft/SPTAG/blob/master/docs/GettingStart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sptag/)</sub>
-
 <a name="attu"></a>
-### #&#8288;19 [attu](https://github.com/zilliztech/attu) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
+### #&#8288;18 [attu](https://github.com/zilliztech/attu) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
 
 **Management UI for Milvus clusters with data browsing, search and an AI agent.**
 
@@ -344,8 +326,26 @@ Attu is a management console for Milvus vector databases. One instance connects 
 
 <sub>no GPU · Needs Milvus 2.6.0+ or 3.x, or Zilliz Cloud, SQLite (bundled), Node.js 24.x (standalone server package) · Models: OpenAI, Anthropic Claude, DeepSeek, Google Gemini, OpenRouter · port 3000 · [Repo](https://github.com/zilliztech/attu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/attu/)</sub>
 
+<a name="sptag"></a>
+### #&#8288;19 [sptag](https://github.com/microsoft/sptag) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
+
+**C++ library for approximate nearest neighbor search over large vector sets.**
+
+SPTAG is a Microsoft Research and Bing library for approximate nearest neighbor search over vectors using L2 or cosine distance. It offers two index types: SPTAG-KDT (kd-tree plus relative neighborhood graph) and SPTAG-BKT (balanced k-means tree plus graph). It supports online insertion and deletion, and search across multiple machines.
+
+- **+** Two index types: KDT for cheaper builds, BKT for accuracy on very high-dimensional data
+- **+** Supports online vector insertion and deletion without a full rebuild
+- **+** Distributed serving across multiple machines
+- **+** Backed by published papers (SPANN, SPFresh, VBASE) and MIT licensed
+- **−** Source build needs swig, cmake and boost; optional SPDK and RocksDB builds are involved
+- **−** Only L2 and cosine distances are documented
+- **−** No tagged releases; build from source or the Dockerfile
+- **−** Library, not a standalone server; an online service needs the Python wrapper
+
+<sub>Docker · Needs swig >= 4.0.2, cmake >= 3.12.0, boost >= 1.67.0, SPDK (optional), RocksDB (optional) · [Repo](https://github.com/microsoft/sptag) · [📖 Docs ↗](https://github.com/microsoft/SPTAG/blob/master/docs/GettingStart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sptag/)</sub>
+
 <a name="deeplake"></a>
-### #&#8288;20 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (54) · Freshness: recent (69) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;20 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (54) · Freshness: recent (69) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
 
 **Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
 
