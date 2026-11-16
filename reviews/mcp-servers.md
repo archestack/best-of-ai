@@ -23,7 +23,7 @@ Official collection of reference Model Context Protocol servers maintained by th
 <sub>no GPU · Needs Node.js (npx), uv or pip (Python servers), MCP client · [Repo](https://github.com/modelcontextprotocol/servers) · [📖 Docs ↗](https://modelcontextprotocol.io/introduction) · [🌐 Site ↗](https://modelcontextprotocol.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/servers/)</sub>
 
 <a name="apify-mcp-server"></a>
-### 🥈 [apify-mcp-server](https://github.com/apify/apify-mcp-server) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Nov 2026</sub>
+### 🥈 [apify-mcp-server](https://github.com/apify/apify-mcp-server) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
 
 **Official MCP server exposing Apify Store Actors as tools for web scraping.**
 
@@ -40,26 +40,8 @@ MCP server that lets an agent search Apify Store, read an Actor's input schema a
 
 <sub>no GPU · Docker · Needs Apify account and API token or OAuth, Apify platform (Actors), Node.js 22+ for local stdio · [Repo](https://github.com/apify/apify-mcp-server) · [📖 Docs ↗](https://docs.apify.com/mcp) · [🌐 Site ↗](https://mcp.apify.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/apify-mcp-server/)</sub>
 
-<a name="xiaohongshu-mcp"></a>
-### 🥉 [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Nov 2026</sub>
-
-**MCP server that lets AI clients post, search and comment on Xiaohongshu.**
-
-A Go MCP server that drives a headless browser to operate a logged-in Xiaohongshu account. It exposes 13 tools over streamable HTTP at /mcp: publish image or video posts (with tags, scheduling, visibility), search with filters, read feeds, post details and comments, reply, like, favorite and fetch user profiles. Works with Claude Code, Cursor, VS Code, Gemini CLI and Cline.
-
-- **+** Covers publishing, search, comments, likes, favorites and profiles as MCP tools
-- **+** Prebuilt binaries for macOS arm64, Windows x64 and Linux x64, plus Docker images
-- **+** Optional Bearer token auth via AUTH_TOKEN and optional proxy via XHS_PROXY
-- **+** README gives config snippets for Claude Code, Cursor, VS Code, Gemini CLI and Cline
-- **−** Automates the web UI, so site changes or risk controls can break posting
-- **−** One account cannot stay logged in on other web clients without kicking the MCP session
-- **−** No prebuilt binary for macOS Intel or Linux ARM64
-- **−** Auth is off by default; the noVNC GUI image has no password and must not be public
-
-<sub>no GPU · Docker + Compose · Needs Headless browser (about 150MB, auto-downloaded on first run), Xiaohongshu account · port 18060 · [Repo](https://github.com/xpzouying/xiaohongshu-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xiaohongshu-mcp/)</sub>
-
 <a name="ha-mcp"></a>
-### #&#8288;4 [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2026</sub>
+### 🥉 [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI assistants configure and control Home Assistant.**
 
@@ -75,6 +57,24 @@ ha-mcp exposes 87 tools over the Model Context Protocol so clients such as Claud
 - **−** Several install paths exist; running more than one per client causes connection hangs
 
 <sub>no GPU · Docker + Compose · Needs Home Assistant 2026.8.0+, Home Assistant administrator access token, FastMCP · Models: Claude, ChatGPT, Gemini CLI, Open WebUI, Cursor · port 9584 · [Repo](https://github.com/homeassistant-ai/ha-mcp) · [📖 Docs ↗](https://homeassistant-ai.github.io/ha-mcp/faq/) · [🌐 Site ↗](https://homeassistant-ai.github.io/ha-mcp/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ha-mcp/)</sub>
+
+<a name="xiaohongshu-mcp"></a>
+### #&#8288;4 [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Nov 2026</sub>
+
+**MCP server that lets AI clients post, search and comment on Xiaohongshu.**
+
+A Go MCP server that drives a headless browser to operate a logged-in Xiaohongshu account. It exposes 13 tools over streamable HTTP at /mcp: publish image or video posts (with tags, scheduling, visibility), search with filters, read feeds, post details and comments, reply, like, favorite and fetch user profiles. Works with Claude Code, Cursor, VS Code, Gemini CLI and Cline.
+
+- **+** Covers publishing, search, comments, likes, favorites and profiles as MCP tools
+- **+** Prebuilt binaries for macOS arm64, Windows x64 and Linux x64, plus Docker images
+- **+** Optional Bearer token auth via AUTH_TOKEN and optional proxy via XHS_PROXY
+- **+** README gives config snippets for Claude Code, Cursor, VS Code, Gemini CLI and Cline
+- **−** Automates the web UI, so site changes or risk controls can break posting
+- **−** One account cannot stay logged in on other web clients without kicking the MCP session
+- **−** No prebuilt binary for macOS Intel or Linux ARM64
+- **−** Auth is off by default; the noVNC GUI image has no password and must not be public
+
+<sub>no GPU · Docker + Compose · Needs Headless browser (about 150MB, auto-downloaded on first run), Xiaohongshu account · port 18060 · [Repo](https://github.com/xpzouying/xiaohongshu-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xiaohongshu-mcp/)</sub>
 
 <a name="mcp-atlassian"></a>
 ### #&#8288;5 [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Nov 2026</sub>
@@ -95,7 +95,7 @@ Python MCP server that lets an AI client search, read, create and update Jira is
 <sub>no GPU · Docker · Needs Jira, Confluence, uv · [Repo](https://github.com/sooperset/mcp-atlassian) · [📖 Docs ↗](https://mcp-atlassian.soomiles.com/docs/installation) · [🌐 Site ↗](https://mcp-atlassian.soomiles.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-atlassian/)</sub>
 
 <a name="excel-mcp-server"></a>
-### #&#8288;6 [excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
+### #&#8288;6 [excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI clients create and edit Excel files without Excel.**
 
@@ -113,7 +113,7 @@ Python MCP server built on openpyxl that exposes tools for reading and editing .
 <sub>no GPU · Docker · Needs uv, openpyxl · Models: Claude, Cursor, VS Code Copilot, OpenAI Codex, Gemini CLI · port 8017 · [Repo](https://github.com/haris-musa/excel-mcp-server) · [🌐 Site ↗](https://excelmcpserver.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/excel-mcp-server/)</sub>
 
 <a name="davinci-resolve-mcp"></a>
-### #&#8288;7 [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Nov 2026</sub>
+### #&#8288;7 [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI assistants drive DaVinci Resolve via its scripting API.**
 
