@@ -717,7 +717,7 @@ Ignite is a Python library on top of PyTorch that replaces hand-written epoch an
 <sub>GPU optional · Docker · Needs PyTorch · Models: PyTorch models · [Repo](https://github.com/pytorch/ignite) · [▶️ Demo ↗](https://code-generator.pytorch-ignite.ai/) · [📖 Docs ↗](https://pytorch.org/ignite/) · [🌐 Site ↗](https://pytorch-ignite.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ignite/)</sub>
 
 <a name="transformerlab-app"></a>
-### #&#8288;41 [transformerlab-app](https://github.com/transformerlab/transformerlab-app) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (29) · Freshness: active (97) · Maintenance: weak (27) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;41 [transformerlab-app](https://github.com/transformerlab/transformerlab-app) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (29) · Freshness: active (97) · Maintenance: weak (27) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · AGPL-3.0 · Aug 2026</sub>
 
 **ML research workbench for training, fine-tuning, evaluating and chatting with models.**
 
@@ -841,26 +841,8 @@ GPT-NeoX is a training library for autoregressive language models with billions 
 
 <sub>GPU required · Docker + Compose · Needs PyTorch, DeeperSpeed, Slurm, MPI or pdsh for multi-node, Flash Attention (optional), Transformer Engine (optional), WandB, Comet or TensorBoard (optional) · Models: GPT-NeoX, Pythia, LLaMA 1 and 2, Falcon, PaLM · [Repo](https://github.com/eleutherai/gpt-neox) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-neox/)</sub>
 
-<a name="lmflow"></a>
-### #&#8288;48 [lmflow](https://github.com/optimalscale/lmflow) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (54) · Freshness: recent (72) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Aug 2026</sub>
-
-**Toolbox for full, LoRA and LISA finetuning of large language models.**
-
-LMFlow is a Python toolbox that finetunes decoder language models with full-parameter training, LoRA/QLoRA or LISA, driven by shell scripts and Accelerate. It adds conversation templates, optional DeepSpeed, FlashAttention-2, vLLM or SGLang inference, DPO via TRL, and a Gradio chatbot demo. The README lists estimated memory per model size, for example 16GB for 7B with LoRA.
-
-- **+** Covers full, LoRA, QLoRA and LISA finetuning from ready-made shell scripts
-- **+** README gives memory estimates per method, from 0.5B to 70B models
-- **+** Optional extras for DeepSpeed, FlashAttention, vLLM, SGLang and TRL-based DPO
-- **+** Preset conversation templates such as llama3, llama2, phi3 and chatml
-- **−** Tested only on Ubuntu 20.04; macOS and Windows may hit unexpected errors
-- **−** vLLM and SGLang need incompatible CUDA/PyTorch versions, so separate envs are required
-- **−** LISA script is only tested on a single GPU
-- **−** Last release is 2025-07-11; no Docker image or compose file
-
-<sub>GPU required · Needs Python 3.9+, conda, mpi4py, PyTorch, WandB (optional, on by default) · Models: Hugging Face decoder models, LLaMA, Llama-2, Llama-3, Qwen · [Repo](https://github.com/optimalscale/lmflow) · [📖 Docs ↗](https://optimalscale.github.io/LMFlow/) · [🌐 Site ↗](https://lmflow.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmflow/)</sub>
-
 <a name="xtuner"></a>
-### #&#8288;49 [xtuner](https://github.com/internlm/xtuner) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (31) · Freshness: recent (74) · Maintenance: patchy (42) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;48 [xtuner](https://github.com/internlm/xtuner) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (31) · Freshness: recent (74) · Maintenance: patchy (42) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · Apache-2.0 · Nov 2026</sub>
 
 **Training engine for fine-tuning and RL of large MoE and dense LLMs.**
 
@@ -878,7 +860,7 @@ XTuner V1 is a PyTorch training engine for pre-training, instruction fine-tuning
 <sub>GPU required · Docker · Needs PyTorch · Models: Intern S1, Intern VL, Qwen3 Dense, Qwen3 MoE, GPT OSS · [Repo](https://github.com/internlm/xtuner) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xtuner/)</sub>
 
 <a name="reagent"></a>
-### #&#8288;50 [reagent](https://github.com/facebookresearch/reagent) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;49 [reagent](https://github.com/facebookresearch/reagent) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · BSD-3-Clause · Nov 2026</sub>
 
 **Archived Meta platform for offline reinforcement learning on PyTorch.**
 
@@ -894,6 +876,24 @@ ReAgent is a Python platform from Meta for applied reinforcement learning, using
 - **−** Copyright notice is 2022, so dependencies may be outdated
 
 <sub>Needs PyTorch, TorchScript · Models: PyTorch, TorchScript · [Repo](https://github.com/facebookresearch/reagent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/reagent/)</sub>
+
+<a name="lmflow"></a>
+### #&#8288;50 [lmflow](https://github.com/optimalscale/lmflow) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (54) · Freshness: recent (72) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Aug 2026</sub>
+
+**Toolbox for full, LoRA and LISA finetuning of large language models.**
+
+LMFlow is a Python toolbox that finetunes decoder language models with full-parameter training, LoRA/QLoRA or LISA, driven by shell scripts and Accelerate. It adds conversation templates, optional DeepSpeed, FlashAttention-2, vLLM or SGLang inference, DPO via TRL, and a Gradio chatbot demo. The README lists estimated memory per model size, for example 16GB for 7B with LoRA.
+
+- **+** Covers full, LoRA, QLoRA and LISA finetuning from ready-made shell scripts
+- **+** README gives memory estimates per method, from 0.5B to 70B models
+- **+** Optional extras for DeepSpeed, FlashAttention, vLLM, SGLang and TRL-based DPO
+- **+** Preset conversation templates such as llama3, llama2, phi3 and chatml
+- **−** Tested only on Ubuntu 20.04; macOS and Windows may hit unexpected errors
+- **−** vLLM and SGLang need incompatible CUDA/PyTorch versions, so separate envs are required
+- **−** LISA script is only tested on a single GPU
+- **−** Last release is 2025-07-11; no Docker image or compose file
+
+<sub>GPU required · Needs Python 3.9+, conda, mpi4py, PyTorch, WandB (optional, on by default) · Models: Hugging Face decoder models, LLaMA, Llama-2, Llama-3, Qwen · [Repo](https://github.com/optimalscale/lmflow) · [📖 Docs ↗](https://optimalscale.github.io/LMFlow/) · [🌐 Site ↗](https://lmflow.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmflow/)</sub>
 
 <a name="paddlenlp"></a>
 ### #&#8288;51 [paddlenlp](https://github.com/paddlepaddle/paddlenlp) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (69) · Freshness: slowing (48) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · May 2026</sub>
@@ -1201,7 +1201,7 @@ Research repository behind ModernBERT, a BERT-style bidirectional encoder. It pr
 <sub>GPU required · Needs conda, composer, flash-attn 2.6.3, Sentence Transformers, PyLate · Models: ModernBERT, FlexBERT, BERT (GLUE evals), ColBERT (PyLate) · [Repo](https://github.com/answerdotai/modernbert) · [📖 Docs ↗](https://arxiv.org/abs/2412.13663) · [🌐 Site ↗](https://huggingface.co/collections/answerdotai/modernbert-67627ad707a4acbf33c41deb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modernbert/)</sub>
 
 <a name="agentflow"></a>
-### #&#8288;68 [agentflow](https://github.com/lupantech/agentflow) <sub>score [10](../README.md#-how-we-rank "Score 10/100. Adoption: niche (6) · Freshness: quiet (26) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
+### #&#8288;68 [agentflow](https://github.com/lupantech/agentflow) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (6) · Freshness: quiet (26) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
 
 **Agent system with an RL-trained planner, executor, verifier and generator.**
 
