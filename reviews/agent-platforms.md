@@ -1492,7 +1492,7 @@ This repository holds the TypeScript devtools for Botpress Cloud: the @botpress/
 <sub>no GPU · Docker · Models: OpenAI · [Repo](https://github.com/botpress/botpress) · [▶️ Demo ↗](https://app.botpress.cloud) · [📖 Docs ↗](https://botpress.com/docs) · [🌐 Site ↗](https://botpress.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/botpress/)</sub>
 
 <a name="openfang"></a>
-### #&#8288;84 [openfang](https://github.com/rightnow-ai/openfang) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (74) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · May 2026</sub>
+### #&#8288;84 [openfang](https://github.com/rightnow-ai/openfang) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (74) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · May 2026</sub>
 
 **Rust agent runtime with scheduled autonomous agents and 40 chat channel adapters.**
 
@@ -1545,7 +1545,7 @@ Refly is a workflow builder where you describe a process in natural language (Vi
 <sub>Compose · Needs LLM provider API key (e.g. OpenAI, Anthropic) · Models: OpenAI, Anthropic, providers in config/provider-catalog.json · port 5700 · [Repo](https://github.com/refly-ai/refly) · [▶️ Demo ↗](https://refly.ai/workspace) · [📖 Docs ↗](https://docs.refly.ai/) · [🌐 Site ↗](https://refly.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/refly/)</sub>
 
 <a name="claude-for-legal"></a>
-### #&#8288;87 [claude-for-legal](https://github.com/anthropics/claude-for-legal) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (57) · Freshness: active (91) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;87 [claude-for-legal](https://github.com/anthropics/claude-for-legal) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (57) · Freshness: active (90) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Jul 2026</sub>
 
 **Claude plugins for in-house, litigation and law-school legal workflows.**
 
@@ -1652,26 +1652,8 @@ AI-Trader is a platform where AI agents register by reading a SKILL.md file, pub
 
 <sub>no GPU · Needs PostgreSQL or SQLite, Alpha Vantage (optional), yfinance · [Repo](https://github.com/hkuds/ai-trader) · [▶️ Demo ↗](https://ai4trade.ai) · [🌐 Site ↗](https://ai4trade.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-trader/)</sub>
 
-<a name="biomni"></a>
-### #&#8288;93 [biomni](https://github.com/snap-stanford/biomni) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (20) · Freshness: active (83) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Nov 2026</sub>
-
-**Biomedical research agent that plans and runs code across bio tools and databases.**
-
-Biomni is a Python agent (class A1) that takes natural-language biomedical tasks, such as CRISPR screen planning, scRNA-seq annotation or ADMET prediction, and runs LLM-generated code against bundled tools, software and an ~11GB data lake. It works with Anthropic, OpenAI, Azure, Gemini, Bedrock, Groq, Ollama or custom endpoints, supports MCP servers, and includes a Gradio UI.
-
-- **+** Many LLM providers supported, including Ollama and any OpenAI-compatible custom endpoint
-- **+** Bundles biomedical tools, databases and a retrievable Know-How protocol library
-- **+** Adds external tools via MCP; local Gradio UI served on port 7860
-- **+** Ships Biomni-R0 32B reasoning model and Biomni-Eval1 benchmark (433 instances)
-- **−** Executes LLM-generated code with full system privileges; needs external sandboxing
-- **−** Large conda environment via setup script plus ~11GB data lake download on first run
-- **−** Release frozen at April 2025, so it differs from the hosted web platform
-- **−** Some integrated tools and databases carry restrictive commercial licenses; some packages conflict
-
-<sub>GPU optional · Needs conda, LLM API key (Anthropic by default), ~11GB data lake, Gradio 5.x (optional), SGLang (optional, for Biomni-R0) · Models: Anthropic, OpenAI, Azure OpenAI, Gemini, AWS Bedrock · port 7860 · [Repo](https://github.com/snap-stanford/biomni) · [▶️ Demo ↗](https://biomni.stanford.edu) · [🌐 Site ↗](https://biomni.stanford.edu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biomni/)</sub>
-
 <a name="karpathy"></a>
-### #&#8288;94 [karpathy](https://github.com/k-dense-ai/karpathy) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Aug 2026</sub>
+### #&#8288;93 [karpathy](https://github.com/k-dense-ai/karpathy) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Aug 2026</sub>
 
 **ML engineer agent that trains models in a local sandbox using Agent Skills.**
 
@@ -1687,6 +1669,24 @@ Runs an agent built on the Claude Agent SDK and Google ADK that writes and runs 
 - **−** README calls it a simple demo; fuller capabilities point to the paid K-Dense service
 
 <sub>Needs Python 3.13+, uv, Claude Code, OpenRouter API key, Google ADK · Models: OpenRouter models via AGENT_MODEL · port 8000 · [Repo](https://github.com/k-dense-ai/karpathy) · [🌐 Site ↗](https://www.k-dense.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/karpathy/)</sub>
+
+<a name="biomni"></a>
+### #&#8288;94 [biomni](https://github.com/snap-stanford/biomni) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (20) · Freshness: active (83) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Nov 2026</sub>
+
+**Biomedical research agent that plans and runs code across bio tools and databases.**
+
+Biomni is a Python agent (class A1) that takes natural-language biomedical tasks, such as CRISPR screen planning, scRNA-seq annotation or ADMET prediction, and runs LLM-generated code against bundled tools, software and an ~11GB data lake. It works with Anthropic, OpenAI, Azure, Gemini, Bedrock, Groq, Ollama or custom endpoints, supports MCP servers, and includes a Gradio UI.
+
+- **+** Many LLM providers supported, including Ollama and any OpenAI-compatible custom endpoint
+- **+** Bundles biomedical tools, databases and a retrievable Know-How protocol library
+- **+** Adds external tools via MCP; local Gradio UI served on port 7860
+- **+** Ships Biomni-R0 32B reasoning model and Biomni-Eval1 benchmark (433 instances)
+- **−** Executes LLM-generated code with full system privileges; needs external sandboxing
+- **−** Large conda environment via setup script plus ~11GB data lake download on first run
+- **−** Release frozen at April 2025, so it differs from the hosted web platform
+- **−** Some integrated tools and databases carry restrictive commercial licenses; some packages conflict
+
+<sub>GPU optional · Needs conda, LLM API key (Anthropic by default), ~11GB data lake, Gradio 5.x (optional), SGLang (optional, for Biomni-R0) · Models: Anthropic, OpenAI, Azure OpenAI, Gemini, AWS Bedrock · port 7860 · [Repo](https://github.com/snap-stanford/biomni) · [▶️ Demo ↗](https://biomni.stanford.edu) · [🌐 Site ↗](https://biomni.stanford.edu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biomni/)</sub>
 
 <a name="cultivation-world-simulator"></a>
 ### #&#8288;95 [cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (7) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · custom license · Aug 2026</sub>
@@ -1815,7 +1815,7 @@ Takes a research topic in Markdown, brainstorms ideas with literature-based nove
 <sub>GPU required · Needs PyTorch with CUDA, conda, poppler, chktex, LaTeX tools, Semantic Scholar API (optional) · Models: OpenAI, Gemini, Claude via AWS Bedrock · [Repo](https://github.com/sakanaai/ai-scientist-v2) · [📖 Docs ↗](https://pub.sakana.ai/ai-scientist-v2/paper) · [🌐 Site ↗](https://sakana.ai/ai-scientist-first-publication/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-scientist-v2/)</sub>
 
 <a name="nof0"></a>
-### #&#8288;102 [nof0](https://github.com/wquguru/nof0) <sub>score [6](../README.md#-how-we-rank "Score 6/100. Adoption: niche (11) · Freshness: quiet (8) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.8k · no license · Dec 2025</sub>
+### #&#8288;102 [nof0](https://github.com/wquguru/nof0) <sub>score [6](../README.md#-how-we-rank "Score 6/100. Adoption: niche (11) · Freshness: quiet (7) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.8k · no license · Dec 2025</sub>
 
 **Dashboard and backend for pitting LLM trading agents against each other on crypto.**
 

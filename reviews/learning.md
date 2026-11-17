@@ -915,7 +915,7 @@ A text-only reference with chapters on LLM internals, RAG, agentic systems, MCP 
 <sub>no GPU · [Repo](https://github.com/ombharatiya/ai-system-design-guide) · [🌐 Site ↗](https://www.aidaddy.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-system-design-guide/)</sub>
 
 <a name="micrograd"></a>
-### #&#8288;52 [micrograd](https://github.com/karpathy/micrograd) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: popular (74) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Aug 2026</sub>
+### #&#8288;52 [micrograd](https://github.com/karpathy/micrograd) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: popular (74) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Aug 2026</sub>
 
 **Scalar-valued autograd engine and tiny neural net library in about 150 lines of Python.**
 
@@ -1194,7 +1194,7 @@ A learning repository of Jupyter notebooks, PDF guides and small example project
 <sub>Needs Jupyter, CrewAI, LangGraph, Neo4j, PostgreSQL, Ollama · Models: OpenAI, Gemini, Claude, Groq, Ollama · [Repo](https://github.com/genieincodebottle/generative-ai) · [📖 Docs ↗](https://github.com/genieincodebottle/generative-ai/tree/main/docs) · [🌐 Site ↗](https://aimlcompanion.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genieincodebottle-generative-ai/)</sub>
 
 <a name="prompt-engineering-guide"></a>
-### #&#8288;68 [prompt-engineering-guide](https://github.com/dair-ai/prompt-engineering-guide) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: widely used (95) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Mar 2026</sub>
+### #&#8288;68 [prompt-engineering-guide](https://github.com/dair-ai/prompt-engineering-guide) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: widely used (95) · Freshness: slowing (41) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · MIT · Mar 2026</sub>
 
 **Written guide to prompt engineering techniques, with papers, notebooks and example prompts.**
 
@@ -1319,7 +1319,7 @@ A course repository that walks through building a text classifier end to end: a 
 <sub>GPU optional · Needs Ray, MLflow, Anyscale, AWS S3, pytest, pre-commit · port 8000 · [Repo](https://github.com/gokumohandas/made-with-ml) · [📖 Docs ↗](https://madewithml.com/) · [🌐 Site ↗](https://madewithml.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/made-with-ml/)</sub>
 
 <a name="hands-on-large-language-models"></a>
-### #&#8288;75 [hands-on-large-language-models](https://github.com/handsonllm/hands-on-large-language-models) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (83) · Freshness: recent (58) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;75 [hands-on-large-language-models](https://github.com/handsonllm/hands-on-large-language-models) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (83) · Freshness: recent (57) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Apr 2026</sub>
 
 **Companion notebooks for the O'Reilly book Hands-On Large Language Models.**
 
@@ -1691,7 +1691,7 @@ Transformer Explainer runs a live GPT-2 model in the browser and shows the inter
 <sub>no GPU · Needs Node.js 20+, npm 10+ · Models: GPT-2 · port 5173 · [Repo](https://github.com/poloclub/transformer-explainer) · [▶️ Demo ↗](http://poloclub.github.io/transformer-explainer) · [🌐 Site ↗](http://poloclub.github.io/transformer-explainer) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/transformer-explainer/)</sub>
 
 <a name="deep-learning-for-image-processing"></a>
-### #&#8288;96 [deep-learning-for-image-processing](https://github.com/wzmiaomiao/deep-learning-for-image-processing) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: widely used (82) · Freshness: quiet (17) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · GPL-3.0 · Jan 2026</sub>
+### #&#8288;96 [deep-learning-for-image-processing](https://github.com/wzmiaomiao/deep-learning-for-image-processing) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: widely used (82) · Freshness: quiet (16) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · GPL-3.0 · Jan 2026</sub>
 
 **Chinese video course on vision networks with PyTorch and TensorFlow code.**
 
@@ -1708,25 +1708,8 @@ A Chinese-language course covering image classification, object detection, seman
 
 <sub>Needs PyTorch, TensorFlow 2 · [Repo](https://github.com/wzmiaomiao/deep-learning-for-image-processing) · [🌐 Site ↗](https://space.bilibili.com/18161609/channel/index) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-learning-for-image-processing/)</sub>
 
-<a name="llm-trading-lab"></a>
-### #&#8288;97 [llm-trading-lab](https://github.com/luckyone7777/llm-trading-lab) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (46) · Freshness: recent (80) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.6k · no license · Jun 2026</sub>
-
-**Logs of a live ChatGPT-managed micro-cap stock portfolio, with analysis scripts.**
-
-A research repository recording a six-month, real-money experiment in which ChatGPT picked micro-cap stocks under fixed rules, starting from $100. It contains a Python trading script, daily CSV accounting, automated stop-loss enforcement, comparisons against the S&P 500 and Russell 2000, and a 40-page PDF evaluation. It documents one experiment rather than a general framework; the author points to a separate project, LIBB, for new experiments.
-
-- **+** Trade logs, chat transcripts and weekly research files are kept for audit
-- **+** Includes CAPM, Sharpe, Sortino and drawdown analytics against S&P 500 and Russell 2000
-- **+** Small Python stack: pandas, yfinance with Stooq fallback, Matplotlib
-- **−** No license, so reuse terms are unclear
-- **−** Single experiment with one model (ChatGPT) and a $100 starting portfolio
-- **−** Reusable framework work lives in a separate repository (LIBB)
-- **−** No release and no run instructions in the README
-
-<sub>no GPU · Needs Python 3.11+, pandas, yfinance, Stooq, Matplotlib · Models: ChatGPT · [Repo](https://github.com/luckyone7777/llm-trading-lab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-trading-lab/)</sub>
-
 <a name="fun-rec"></a>
-### #&#8288;98 [fun-rec](https://github.com/datawhalechina/fun-rec) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (45) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.5k · no license · Jun 2026</sub>
+### #&#8288;97 [fun-rec](https://github.com/datawhalechina/fun-rec) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (45) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.5k · no license · Jun 2026</sub>
 
 **Chinese-language textbook on recommender systems, from cascades to generative models.**
 
@@ -1742,7 +1725,7 @@ An online book (小麦书) on recommender algorithms in two parts. The first cov
 <sub>[Repo](https://github.com/datawhalechina/fun-rec) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fun-rec/)</sub>
 
 <a name="practicalai-cn"></a>
-### #&#8288;99 [practicalai-cn](https://github.com/mleveryday/practicalai-cn) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (43) · Freshness: slowing (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Apr 2026</sub>
+### #&#8288;98 [practicalai-cn](https://github.com/mleveryday/practicalai-cn) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (43) · Freshness: slowing (49) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Apr 2026</sub>
 
 **Chinese translation of practicalAI machine learning notebooks using PyTorch.**
 
@@ -1760,7 +1743,7 @@ A Chinese-language fork of Goku Mohandas's practicalAI course: Jupyter notebooks
 <sub>Needs Google Colab, PyTorch, Jupyter · [Repo](https://github.com/mleveryday/practicalai-cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/practicalai-cn/)</sub>
 
 <a name="notebooks"></a>
-### #&#8288;100 [notebooks](https://github.com/roboflow/notebooks) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (55) · Freshness: recent (68) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.7k · no license · Aug 2026</sub>
+### #&#8288;99 [notebooks](https://github.com/roboflow/notebooks) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (55) · Freshness: recent (68) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.7k · no license · Aug 2026</sub>
 
 **Jupyter notebooks for computer vision models, with Colab and Kaggle links.**
 
@@ -1777,8 +1760,25 @@ A collection of 61 Jupyter notebooks from Roboflow covering computer vision task
 
 <sub>GPU optional · Needs Google Colab or Kaggle, Google Gemini API (some notebooks) · Models: RF-DETR, YOLO26, YOLOv12, YOLOE, SAM3 · [Repo](https://github.com/roboflow/notebooks) · [📖 Docs ↗](https://docs.roboflow.com) · [🌐 Site ↗](https://roboflow.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/notebooks/)</sub>
 
+<a name="llm-trading-lab"></a>
+### #&#8288;100 [llm-trading-lab](https://github.com/luckyone7777/llm-trading-lab) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (46) · Freshness: recent (79) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.6k · no license · Jun 2026</sub>
+
+**Logs of a live ChatGPT-managed micro-cap stock portfolio, with analysis scripts.**
+
+A research repository recording a six-month, real-money experiment in which ChatGPT picked micro-cap stocks under fixed rules, starting from $100. It contains a Python trading script, daily CSV accounting, automated stop-loss enforcement, comparisons against the S&P 500 and Russell 2000, and a 40-page PDF evaluation. It documents one experiment rather than a general framework; the author points to a separate project, LIBB, for new experiments.
+
+- **+** Trade logs, chat transcripts and weekly research files are kept for audit
+- **+** Includes CAPM, Sharpe, Sortino and drawdown analytics against S&P 500 and Russell 2000
+- **+** Small Python stack: pandas, yfinance with Stooq fallback, Matplotlib
+- **−** No license, so reuse terms are unclear
+- **−** Single experiment with one model (ChatGPT) and a $100 starting portfolio
+- **−** Reusable framework work lives in a separate repository (LIBB)
+- **−** No release and no run instructions in the README
+
+<sub>no GPU · Needs Python 3.11+, pandas, yfinance, Stooq, Matplotlib · Models: ChatGPT · [Repo](https://github.com/luckyone7777/llm-trading-lab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-trading-lab/)</sub>
+
 <a name="reinforcement-learning"></a>
-### #&#8288;101 [reinforcement-learning](https://github.com/rlcode/reinforcement-learning) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (12) · Freshness: recent (76) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Jun 2026</sub>
+### #&#8288;101 [reinforcement-learning](https://github.com/rlcode/reinforcement-learning) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (12) · Freshness: recent (75) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Jun 2026</sub>
 
 **PyTorch reference implementations of classic and deep RL algorithms, one file each.**
 
@@ -1796,7 +1796,7 @@ A set of single-file PyTorch implementations of reinforcement learning algorithm
 <sub>GPU optional · Needs Python 3.11, uv, PyTorch, gymnasium, pygame, Weights & Biases (optional) · [Repo](https://github.com/rlcode/reinforcement-learning) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/reinforcement-learning/)</sub>
 
 <a name="homemade-machine-learning"></a>
-### #&#8288;102 [homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (80) · Freshness: quiet (3) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · MIT · Nov 2025</sub>
+### #&#8288;102 [homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (80) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · MIT · Nov 2025</sub>
 
 **From-scratch Python implementations of classic ML algorithms with Jupyter demos.**
 
@@ -1849,7 +1849,7 @@ A Chinese-language tutorial that teaches LangChain through worked Python example
 <sub>no GPU · Needs OpenAI API, SerpAPI, Pinecone, Chroma, Zapier NLA · Models: text-davinci-003, gpt-3.5-turbo, text-embedding-ada-002 · [Repo](https://github.com/liaokongvfx/langchain-chinese-getting-started-guide) · [📖 Docs ↗](https://python.langchain.com/en/latest/) · [🌐 Site ↗](https://liaokong.gitbook.io/llm-kai-fa-jiao-cheng/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain-chinese-getting-started-guide/)</sub>
 
 <a name="unet"></a>
-### #&#8288;105 [unet](https://github.com/zhixuhao/unet) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (30) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Mar 2026</sub>
+### #&#8288;105 [unet](https://github.com/zhixuhao/unet) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (30) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Mar 2026</sub>
 
 **Keras U-Net for binary image segmentation on the ISBI membrane dataset.**
 
@@ -1955,7 +1955,7 @@ Jupyter notebooks with solutions to the practice quizzes, optional labs and prog
 <sub>no GPU · Needs Jupyter, NumPy, scikit-learn, TensorFlow · [Repo](https://github.com/greyhatguy007/machine-learning-specialization-coursera) · [🌐 Site ↗](https://www.coursera.org/specializations/machine-learning-introduction/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/machine-learning-specialization-coursera/)</sub>
 
 <a name="ml-nlp"></a>
-### #&#8288;111 [ml-nlp](https://github.com/nlp-love/ml-nlp) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: popular (71) · Freshness: quiet (20) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 18k · no license · Jan 2026</sub>
+### #&#8288;111 [ml-nlp](https://github.com/nlp-love/ml-nlp) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: popular (71) · Freshness: quiet (19) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 18k · no license · Jan 2026</sub>
 
 **Chinese-language ML and NLP interview study notes with code examples.**
 
@@ -2027,7 +2027,7 @@ Learning material for the Panaversity agentic AI program, organized around the D
 <sub>Needs Dapr, Kubernetes, OpenAI Agents SDK, Postgres, Redis, RabbitMQ, CockroachDB · Models: OpenAI Agents SDK, Dapr Agents, Google ADK · [Repo](https://github.com/panaversity/learn-agentic-ai) · [🌐 Site ↗](https://panaversity.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learn-agentic-ai/)</sub>
 
 <a name="clue"></a>
-### #&#8288;115 [clue](https://github.com/cluebenchmark/clue) <sub>score [5](../README.md#-how-we-rank "Score 5/100. Adoption: niche (20) · Freshness: quiet (30) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 4.3k · no license · Feb 2026</sub>
+### #&#8288;115 [clue](https://github.com/cluebenchmark/clue) <sub>score [5](../README.md#-how-we-rank "Score 5/100. Adoption: niche (20) · Freshness: quiet (29) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 4.3k · no license · Feb 2026</sub>
 
 **Chinese language understanding benchmark with datasets, baselines and leaderboard.**
 
@@ -2045,7 +2045,7 @@ CLUE is a benchmark for Chinese NLP. It bundles classification and reading-compr
 <sub>GPU optional · Needs TensorFlow 1.12, CUDA 9.0, cuDNN 7.0, PyTorch · Models: BERT, RoBERTa, ALBERT, ERNIE, XLNet · [Repo](https://github.com/cluebenchmark/clue) · [🌐 Site ↗](http://www.CLUEbenchmarks.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clue/)</sub>
 
 <a name="tvm-cn"></a>
-### #&#8288;116 [tvm-cn](https://github.com/hyperai/tvm-cn) <sub>score [5](../README.md#-how-we-rank "Score 5/100. Adoption: niche (16) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2025</sub>
+### #&#8288;116 [tvm-cn](https://github.com/hyperai/tvm-cn) <sub>score [5](../README.md#-how-we-rank "Score 5/100. Adoption: niche (16) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2025</sub>
 
 **Chinese translation of the Apache TVM deep learning compiler documentation.**
 
@@ -2062,7 +2062,7 @@ A Docusaurus site holding the Chinese translation of the Apache TVM docs, locali
 <sub>no GPU · Docker · Needs Node.js, pnpm · [Repo](https://github.com/hyperai/tvm-cn) · [📖 Docs ↗](https://tvm.hyper.ai/) · [🌐 Site ↗](https://tvm.hyper.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tvm-cn/)</sub>
 
 <a name="deeplearing-interview-awesome-2024"></a>
-### #&#8288;117 [deeplearing-interview-awesome-2024](https://github.com/315386775/deeplearing-interview-awesome-2024) <sub>score [4](../README.md#-how-we-rank "Score 4/100. Adoption: niche (7) · Freshness: slowing (40) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.9k · no license · Mar 2026</sub>
+### #&#8288;117 [deeplearing-interview-awesome-2024](https://github.com/315386775/deeplearing-interview-awesome-2024) <sub>score [4](../README.md#-how-we-rank "Score 4/100. Adoption: niche (7) · Freshness: slowing (39) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.9k · no license · Mar 2026</sub>
 
 **Chinese-language deep learning and LLM interview question collection.**
 

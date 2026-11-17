@@ -1,5 +1,5 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
-updated_at: 2026-11-16
+updated_at: 2026-11-17
 entries:
   - id: exo
     repo: exo-explore/exo
@@ -4498,7 +4498,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 46
+    score: 45
   - id: voicestudio
     repo: debpalash/voicestudio
     name: voicestudio
@@ -10388,7 +10388,7 @@ entries:
       has_compose: true
       is_template: false
       language: Rust
-    score: 52
+    score: 51
   - id: megatron-lm
     repo: nvidia/megatron-lm
     name: megatron-lm
@@ -15104,7 +15104,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 52
+    score: 51
   - id: axolotl
     repo: axolotl-ai-cloud/axolotl
     name: axolotl
@@ -18420,7 +18420,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 29
+    score: 28
   - id: metaflow
     repo: netflix/metaflow
     name: metaflow
@@ -21420,7 +21420,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 45
+    score: 44
   - id: geniex
     repo: qualcomm/geniex
     name: geniex
@@ -24752,7 +24752,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 29
+    score: 28
   - id: langchaingo
     repo: tmc/langchaingo
     name: langchaingo
@@ -31058,7 +31058,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 30
+    score: 29
   - id: hunyuan3d-2
     repo: tencent-hunyuan/hunyuan3d-2
     name: hunyuan3d-2
@@ -33646,7 +33646,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 22
+    score: 21
   - id: openalice
     repo: traderalice/openalice
     name: openalice
@@ -34694,7 +34694,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 28
+    score: 27
   - id: rivet
     repo: rivet-dev/rivet
     name: rivet
@@ -40998,7 +40998,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 10
+    score: 9
   - id: show-o
     repo: showlab/show-o
     name: show-o
@@ -43855,7 +43855,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 20
+    score: 19
   - id: failproofai
     repo: failproofai/failproofai
     name: failproofai
@@ -47478,7 +47478,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 24
+    score: 23
   - id: internnav
     repo: internrobotics/internnav
     name: internnav
@@ -48520,7 +48520,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 55
+    score: 54
   - id: kaolin
     repo: nvidiagameworks/kaolin
     name: kaolin
@@ -49518,7 +49518,7 @@ entries:
       has_compose: false
       is_template: false
       language: HTML
-    score: 11
+    score: 10
   - id: csharp-sdk
     repo: modelcontextprotocol/csharp-sdk
     name: csharp-sdk
@@ -50329,7 +50329,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 37
+    score: 36
   - id: ag2
     repo: ag2ai/ag2
     name: ag2
@@ -52932,7 +52932,7 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 35
+    score: 34
   - id: echomimic-v2
     repo: antgroup/echomimic_v2
     name: echomimic_v2
@@ -54305,7 +54305,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 47
+    score: 46
   - id: all-agentic-architectures
     repo: fareedkhan-dev/all-agentic-architectures
     name: all-agentic-architectures
@@ -55092,7 +55092,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 27
+    score: 26
   - id: lmms-eval
     repo: evolvinglmms-lab/lmms-eval
     name: lmms-eval
@@ -59251,7 +59251,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 21
+    score: 20
   - id: rapid-mlx
     repo: raullenchai/rapid-mlx
     name: rapid-mlx
@@ -59640,7 +59640,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 36
+    score: 35
   - id: personalive
     repo: gvclab/personalive
     name: personalive
@@ -69878,7 +69878,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 29
+    score: 28
   - id: openreader
     repo: richardr1126/openreader
     name: OpenReader

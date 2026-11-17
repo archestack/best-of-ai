@@ -6,10 +6,10 @@
   <img alt="projects" src="https://img.shields.io/badge/1504_projects-ff6b6b?style=for-the-badge" />
   <img alt="stars" src="https://img.shields.io/badge/25.6M_stars_combined-ffd166?style=for-the-badge" />
   <img alt="categories" src="https://img.shields.io/badge/21_categories-5ac4bf?style=for-the-badge" />
-  <img alt="updated" src="https://img.shields.io/badge/updated-2026--11--16-8ac926?style=for-the-badge" />
+  <img alt="updated" src="https://img.shields.io/badge/updated-2026--11--17-8ac926?style=for-the-badge" />
 </p>
 
-<p align="center">Best of Open-Source AI is a ranked list of 1,504 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-16 (UTC).</sub></p>
+<p align="center">Best of Open-Source AI is a ranked list of 1,504 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-17 (UTC).</sub></p>
 
 > [!TIP]
 > 🔎 **Every project fact-checked** on GitHub before it is listed &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; ▶️ **Demo links** so you can try before you deploy
