@@ -183,7 +183,7 @@ Companion code for Stefan Jansen's Machine Learning for Trading, 3rd edition: 27
 <sub>Compose · Needs Docker, Interactive Brokers, Alpaca, QuantConnect · Models: XGBoost, LightGBM, CatBoost, PyTorch · [Repo](https://github.com/stefan-jansen/machine-learning-for-trading) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/machine-learning-for-trading/)</sub>
 
 <a name="openai-cookbook"></a>
-### #&#8288;11 [openai-cookbook](https://github.com/openai/openai-cookbook) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · MIT · Nov 2026</sub>
+### #&#8288;11 [openai-cookbook](https://github.com/openai/openai-cookbook) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (51) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · MIT · Nov 2026</sub>
 
 **Runnable notebooks and guides for common tasks with the OpenAI API.**
 
@@ -343,7 +343,7 @@ Tutorial repo that implements a transformer in plain PyTorch and trains it from 
 <sub>GPU optional · Docker · Needs PyTorch, tiktoken, Hugging Face datasets, Streamlit, wandb, HDF5 · Models: Custom transformer (classic and modern), PyTorch checkpoints · [Repo](https://github.com/fareedkhan-dev/train-llm-from-scratch) · [📖 Docs ↗](https://fareedkhan-dev.github.io/train-llm-from-scratch/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/train-llm-from-scratch/)</sub>
 
 <a name="hello-agents"></a>
-### #&#8288;20 [hello-agents](https://github.com/datawhalechina/hello-agents) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 87k · custom license · Nov 2026</sub>
+### #&#8288;20 [hello-agents](https://github.com/datawhalechina/hello-agents) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 87k · custom license · Nov 2026</sub>
 
 **Chinese-language course on building AI-native agents from scratch, with code.**
 
@@ -451,7 +451,7 @@ A set of 22 Jupyter notebooks covering prompt engineering, from basic prompt str
 <sub>no GPU · Needs OpenAI API, LangChain, Jinja2 · Models: OpenAI GPT · [Repo](https://github.com/nirdiamant/prompt_engineering) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/prompt-engineering/)</sub>
 
 <a name="ai-infra-book"></a>
-### #&#8288;26 [ai-infra-book](https://github.com/bojieli/ai-infra-book) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;26 [ai-infra-book](https://github.com/bojieli/ai-infra-book) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · Apache-2.0 · Oct 2026</sub>
 
 **A quantitative book on AI infrastructure design, with calculation tools.**
 
@@ -558,25 +558,8 @@ Synapsa Commons is a set of 103 Jupyter notebook lessons that build AI component
 
 <sub>RAM ≥ 8 GB · no GPU · Needs Python, Jupyter, numpy · [Repo](https://github.com/tarrysingh/artificial-intelligence-deep-learning-machine-learning-tutorials) · [🌐 Site ↗](https://synapsa.realai.eu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/artificial-intelligence-deep-learning-machine-learning-tutorials/)</sub>
 
-<a name="agents-course"></a>
-### #&#8288;32 [agents-course](https://github.com/huggingface/agents-course) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Nov 2026</sub>
-
-**Free Hugging Face course on building agents with smolagents, LlamaIndex, LangGraph.**
-
-Source repository for the Hugging Face Agents Course, written as MDX lessons hosted at hf.co/learn/agents-course. It runs from agent basics through three frameworks (smolagents, LlamaIndex, LangGraph) to agentic RAG and a final assignment scored automatically on a leaderboard. Bonus units cover function-calling fine-tuning, observability and evaluation, and agents in Pokemon games.
-
-- **+** Covers three frameworks: smolagents, LlamaIndex and LangGraph
-- **+** Final project has automated evaluation and a student leaderboard
-- **+** Bonus units on function-calling fine-tuning and agent tracing and evaluation
-- **+** Apache-2.0 licensed, with an open contribution process
-- **−** Repository holds course source; lessons are read on the Hugging Face site
-- **−** Requires basic Python and basic LLM knowledge
-- **−** Sign-up needed for the course; certification details are not in the README
-
-<sub>[Repo](https://github.com/huggingface/agents-course) · [🌐 Site ↗](https://hf.co/learn/agents-course) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agents-course/)</sub>
-
 <a name="ai-engineering-hub"></a>
-### #&#8288;33 [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Oct 2026</sub>
+### #&#8288;32 [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Oct 2026</sub>
 
 **Collection of 93 runnable AI tutorials on RAG, agents, MCP and fine-tuning.**
 
@@ -592,6 +575,23 @@ A monorepo of about 93 example projects, mostly Jupyter notebooks and small apps
 - **−** No releases or versioning; project freshness and quality vary
 
 <sub>Needs Ollama, LlamaIndex, CrewAI, Qdrant, Milvus, Firecrawl, AssemblyAI, Opik · Models: Llama 3.2, Llama 3.3, Llama 4, DeepSeek-R1, Qwen3 · [Repo](https://github.com/patchy631/ai-engineering-hub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-engineering-hub/)</sub>
+
+<a name="agents-course"></a>
+### #&#8288;33 [agents-course](https://github.com/huggingface/agents-course) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Nov 2026</sub>
+
+**Free Hugging Face course on building agents with smolagents, LlamaIndex, LangGraph.**
+
+Source repository for the Hugging Face Agents Course, written as MDX lessons hosted at hf.co/learn/agents-course. It runs from agent basics through three frameworks (smolagents, LlamaIndex, LangGraph) to agentic RAG and a final assignment scored automatically on a leaderboard. Bonus units cover function-calling fine-tuning, observability and evaluation, and agents in Pokemon games.
+
+- **+** Covers three frameworks: smolagents, LlamaIndex and LangGraph
+- **+** Final project has automated evaluation and a student leaderboard
+- **+** Bonus units on function-calling fine-tuning and agent tracing and evaluation
+- **+** Apache-2.0 licensed, with an open contribution process
+- **−** Repository holds course source; lessons are read on the Hugging Face site
+- **−** Requires basic Python and basic LLM knowledge
+- **−** Sign-up needed for the course; certification details are not in the README
+
+<sub>[Repo](https://github.com/huggingface/agents-course) · [🌐 Site ↗](https://hf.co/learn/agents-course) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agents-course/)</sub>
 
 <a name="learnopencv"></a>
 ### #&#8288;34 [learnopencv](https://github.com/spmallick/learnopencv) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 23k · no license · Nov 2026</sub>
@@ -1813,7 +1813,7 @@ Educational repository implementing linear regression, logistic regression, k-me
 <sub>no GPU · Needs Python, Jupyter Notebook · port 8888 · [Repo](https://github.com/trekhleb/homemade-machine-learning) · [▶️ Demo ↗](https://mybinder.org/v2/gh/trekhleb/homemade-machine-learning/master?filepath=notebooks) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/homemade-machine-learning/)</sub>
 
 <a name="llm-twin-course"></a>
-### #&#8288;103 [llm-twin-course](https://github.com/decodingai-magazine/llm-twin-course) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (25) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Apr 2026</sub>
+### #&#8288;103 [llm-twin-course](https://github.com/decodingai-magazine/llm-twin-course) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (24) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Apr 2026</sub>
 
 **Course and code for building an end-to-end LLM and RAG system.**
 
@@ -1831,7 +1831,7 @@ A free, self-paced course with 12 lessons and matching Python code that builds a
 <sub>no GPU · Docker + Compose · Needs AWS SageMaker, MongoDB, RabbitMQ, Qdrant, Comet ML, Opik, OpenAI API, Hugging Face, Bytewax, Superlinked, Redis · Models: LoRA/QLoRA fine-tuned LLMs, Hugging Face model registry · [Repo](https://github.com/decodingai-magazine/llm-twin-course) · [📖 Docs ↗](https://github.com/decodingml/llm-twin-course/blob/main/INSTALL_AND_USAGE.md) · [🌐 Site ↗](https://decodingai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-twin-course/)</sub>
 
 <a name="langchain-chinese-getting-started-guide"></a>
-### #&#8288;104 [langchain-chinese-getting-started-guide](https://github.com/liaokongvfx/langchain-chinese-getting-started-guide) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (52) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.2k · no license · Apr 2026</sub>
+### #&#8288;104 [langchain-chinese-getting-started-guide](https://github.com/liaokongvfx/langchain-chinese-getting-started-guide) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (52) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.1k · no license · Apr 2026</sub>
 
 **Chinese-language LangChain tutorial with runnable OpenAI examples.**
 
@@ -2045,7 +2045,7 @@ CLUE is a benchmark for Chinese NLP. It bundles classification and reading-compr
 <sub>GPU optional · Needs TensorFlow 1.12, CUDA 9.0, cuDNN 7.0, PyTorch · Models: BERT, RoBERTa, ALBERT, ERNIE, XLNet · [Repo](https://github.com/cluebenchmark/clue) · [🌐 Site ↗](http://www.CLUEbenchmarks.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clue/)</sub>
 
 <a name="tvm-cn"></a>
-### #&#8288;116 [tvm-cn](https://github.com/hyperai/tvm-cn) <sub>score [5](../README.md#-how-we-rank "Score 5/100. Adoption: niche (16) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2025</sub>
+### #&#8288;116 [tvm-cn](https://github.com/hyperai/tvm-cn) <sub>score [5](../README.md#-how-we-rank "Score 5/100. Adoption: niche (15) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2025</sub>
 
 **Chinese translation of the Apache TVM deep learning compiler documentation.**
 

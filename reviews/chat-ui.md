@@ -131,7 +131,7 @@ Web front-end for Nous Research's Hermes Agent, written in Python with vanilla J
 <sub>Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, Nous Portal · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-webui/)</sub>
 
 <a name="big-agi"></a>
-### #&#8288;8 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
+### #&#8288;8 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
 
 **Multi-model chat web app that sends one prompt to several LLMs.**
 
@@ -185,7 +185,7 @@ ChatGPTBox is a JavaScript browser extension that opens a chat dialog on any pag
 <sub>no GPU · Needs Browser (Chrome, Edge, Firefox, Safari or Android), LLM API key or endpoint · Models: ChatGPT web API, GPT-3.5, GPT-4, Claude, New Bing · [Repo](https://github.com/chatgptbox-dev/chatgptbox) · [📖 Docs ↗](https://github.com/ChatGPTBox-dev/chatGPTBox/wiki/Guide) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgptbox/)</sub>
 
 <a name="cherry-studio-app"></a>
-### #&#8288;11 [cherry-studio-app](https://github.com/cherryhq/cherry-studio-app) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;11 [cherry-studio-app](https://github.com/cherryhq/cherry-studio-app) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Nov 2026</sub>
 
 **Mobile AI chat and agent app for iOS and Android.**
 
@@ -221,7 +221,7 @@ Odysseus is a self-hosted web workspace that combines chat with local or API mod
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose · Models: local models, API models, MCP · port 7011 · [Repo](https://github.com/odysseus-dev/odysseus) · [▶️ Demo ↗](https://odysseus-dev.github.io/odysseus/) · [📖 Docs ↗](https://github.com/odysseus-dev/odysseus/blob/dev/website/setup.md) · [🌐 Site ↗](https://odysseus-dev.github.io/odysseus/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/odysseus/)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;13 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;13 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Sep 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 
@@ -239,7 +239,7 @@ SillyTavern is a locally installed Node.js 20+ interface for text-generation LLM
 <sub>no GPU · Docker + Compose · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/sillytavern/sillytavern) · [📖 Docs ↗](https://docs.sillytavern.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sillytavern/)</sub>
 
 <a name="page-assist"></a>
-### #&#8288;14 [page-assist](https://github.com/n4ze3m/page-assist) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Nov 2026</sub>
+### #&#8288;14 [page-assist](https://github.com/n4ze3m/page-assist) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Nov 2026</sub>
 
 **Browser extension with a sidebar and web UI for local models.**
 

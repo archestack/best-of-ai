@@ -76,7 +76,7 @@ Agent Reach is a Python CLI that wraps upstream tools such as bili-cli, yt-dlp, 
 <sub>no GPU · Needs uv, Python 3.10+, bili-cli, yt-dlp, Jina Reader, Exa, Groq or OpenAI API key (transcription) · [Repo](https://github.com/panniantong/agent-reach) · [📖 Docs ↗](https://github.com/Panniantong/Agent-Reach/blob/main/docs/README_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-reach/)</sub>
 
 <a name="markitdown"></a>
-### #&#8288;5 [markitdown](https://github.com/microsoft/markitdown) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 196k · MIT · Nov 2026</sub>
+### #&#8288;5 [markitdown](https://github.com/microsoft/markitdown) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 197k · MIT · Nov 2026</sub>
 
 **Python library and CLI that converts office files, PDFs and audio to Markdown.**
 
@@ -130,7 +130,7 @@ CocoIndex is a Python framework with a Rust core for declaring how source data (
 <sub>Needs Python 3.10-3.13, Postgres (pgvector) or LanceDB as target · Models: sentence-transformers · [Repo](https://github.com/cocoindex-io/cocoindex) · [📖 Docs ↗](https://cocoindex.io/docs) · [🌐 Site ↗](https://cocoindex.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cocoindex/)</sub>
 
 <a name="crawl4ai"></a>
-### #&#8288;8 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 87k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;8 [Crawl4AI](https://github.com/unclecode/crawl4ai) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 88k · Apache-2.0 · Nov 2026</sub>
 
 **Async Python web crawler that outputs LLM-ready Markdown and structured JSON.**
 
@@ -220,7 +220,7 @@ Moli is a standalone browser kernel written in Rust (V8, Stylo, Taffy, Parley), 
 <sub>no GPU · Needs libcurl · port 9222 · [Repo](https://github.com/lexmount/moli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moli/)</sub>
 
 <a name="firecrawl"></a>
-### #&#8288;13 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 203k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;13 [Firecrawl](https://github.com/firecrawl/firecrawl) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 203k · AGPL-3.0 · Nov 2026</sub>
 
 **Web API that turns sites and searches into markdown or JSON for LLMs.**
 
@@ -273,7 +273,7 @@ Tesseract is a C++ OCR engine (libtesseract) with a tesseract command-line progr
 <sub>no GPU · Needs Leptonica, traineddata files · Models: LSTM traineddata, legacy Tesseract 3 traineddata · [Repo](https://github.com/tesseract-ocr/tesseract) · [📖 Docs ↗](https://tesseract-ocr.github.io/tessdoc/) · [🌐 Site ↗](https://tesseract-ocr.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tesseract/)</sub>
 
 <a name="rerun"></a>
-### #&#8288;16 [rerun](https://github.com/rerun-io/rerun) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;16 [rerun](https://github.com/rerun-io/rerun) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Multimodal data logging, viewer and query engine for robotics.**
 
@@ -343,26 +343,8 @@ Label Studio is a web-based annotation tool for preparing and correcting ML trai
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL (optional, Compose), Nginx (optional, Compose), MinIO (optional) · Models: Custom ML backends via Label Studio ML SDK · port 8080 · [Repo](https://github.com/humansignal/label-studio) · [📖 Docs ↗](https://labelstud.io/guide/) · [🌐 Site ↗](https://labelstud.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/label-studio/)</sub>
 
-<a name="cvat"></a>
-### #&#8288;20 [cvat](https://github.com/cvat-ai/cvat) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
-
-**Self-hosted annotation tool for image, video, audio and 3D point cloud datasets.**
-
-CVAT is a web-based labeling platform for computer vision datasets. It supports boxes, polygons, masks, keypoints and cuboids on images, video, audio and point clouds, organized into projects, tasks and jobs with roles and review. Auto-annotation runs through Nuclio serverless functions (SAM, YOLO v7, RetinaNet and others), and data exports in 20+ formats such as COCO and YOLO.
-
-- **+** Covers image, video, audio and 3D point cloud annotation in one tool
-- **+** Exports and imports 20+ formats including COCO, YOLO, Pascal VOC and KITTI
-- **+** Python SDK, CLI and REST API for scripting task creation and exports
-- **+** Multi-user organizations with roles, task assignment, comments and review workflows
-- **−** Auto-annotation needs a separate Nuclio serverless stack and manual nuctl function deployment
-- **−** Built-in SAM 2/SAM 3 labeling, SSO and quality control UI are paid-only
-- **−** Serverless model code may use third-party assets with non-commercial licenses
-- **−** Safari is unsupported and Firefox has caveats; testing targets Chromium browsers
-
-<sub>Docker + Compose · Needs Docker Engine, Docker Compose, Git, Nuclio (for auto-annotation), Grafana (for analytics) · Models: SAM, IOG, RetinaNet R101, HRNet32, TransT · port 8080 · [Repo](https://github.com/cvat-ai/cvat) · [▶️ Demo ↗](https://app.cvat.ai) · [📖 Docs ↗](https://docs.cvat.ai/docs/) · [🌐 Site ↗](https://www.cvat.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cvat/)</sub>
-
 <a name="unstructured"></a>
-### #&#8288;21 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;20 [unstructured](https://github.com/unstructured-io/unstructured) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **Python library that parses PDFs, Office files and HTML into typed elements.**
 
@@ -378,6 +360,24 @@ The unstructured library parses documents such as PDF, HTML, Word, email and ima
 - **−** Highest-quality output is only in the hosted Transform API, not this library
 
 <sub>Docker · Needs poppler-utils, tesseract-ocr, libmagic-dev, libreoffice · [Repo](https://github.com/unstructured-io/unstructured) · [📖 Docs ↗](https://docs.unstructured.io) · [🌐 Site ↗](https://unstructured.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unstructured/)</sub>
+
+<a name="cvat"></a>
+### #&#8288;21 [cvat](https://github.com/cvat-ai/cvat) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
+
+**Self-hosted annotation tool for image, video, audio and 3D point cloud datasets.**
+
+CVAT is a web-based labeling platform for computer vision datasets. It supports boxes, polygons, masks, keypoints and cuboids on images, video, audio and point clouds, organized into projects, tasks and jobs with roles and review. Auto-annotation runs through Nuclio serverless functions (SAM, YOLO v7, RetinaNet and others), and data exports in 20+ formats such as COCO and YOLO.
+
+- **+** Covers image, video, audio and 3D point cloud annotation in one tool
+- **+** Exports and imports 20+ formats including COCO, YOLO, Pascal VOC and KITTI
+- **+** Python SDK, CLI and REST API for scripting task creation and exports
+- **+** Multi-user organizations with roles, task assignment, comments and review workflows
+- **−** Auto-annotation needs a separate Nuclio serverless stack and manual nuctl function deployment
+- **−** Built-in SAM 2/SAM 3 labeling, SSO and quality control UI are paid-only
+- **−** Serverless model code may use third-party assets with non-commercial licenses
+- **−** Safari is unsupported and Firefox has caveats; testing targets Chromium browsers
+
+<sub>Docker + Compose · Needs Docker Engine, Docker Compose, Git, Nuclio (for auto-annotation), Grafana (for analytics) · Models: SAM, IOG, RetinaNet R101, HRNet32, TransT · port 8080 · [Repo](https://github.com/cvat-ai/cvat) · [▶️ Demo ↗](https://app.cvat.ai) · [📖 Docs ↗](https://docs.cvat.ai/docs/) · [🌐 Site ↗](https://www.cvat.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cvat/)</sub>
 
 <a name="trafilatura"></a>
 ### #&#8288;22 [trafilatura](https://github.com/adbar/trafilatura) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
@@ -397,7 +397,7 @@ Trafilatura downloads web pages, crawls sitemaps and feeds, and extracts main te
 <sub>no GPU · Needs jusText, readability-lxml · [Repo](https://github.com/adbar/trafilatura) · [📖 Docs ↗](https://trafilatura.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trafilatura/)</sub>
 
 <a name="anydoc"></a>
-### #&#8288;23 [anydoc](https://github.com/firecrawl/anydoc) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Nov 2026</sub>
+### #&#8288;23 [anydoc](https://github.com/firecrawl/anydoc) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Nov 2026</sub>
 
 **Rust library converting Office, EPUB, CSV and PDF files to Markdown.**
 
@@ -415,7 +415,7 @@ anydoc parses Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV and text-bas
 <sub>no GPU · Needs Firecrawl Parse API (optional, for OCR) · [Repo](https://github.com/firecrawl/anydoc) · [▶️ Demo ↗](https://firecrawl.github.io/anydoc/) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anydoc/)</sub>
 
 <a name="rea-video"></a>
-### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
 
 **Agent skill and CLI that breaks a video into shots and judges how each was made.**
 
@@ -541,7 +541,7 @@ OpenMed is a Python SDK with a registry of clinical NER and PII models. It extra
 <sub>GPU optional · Docker + Compose · Needs Hugging Face Hub (model download), PyTorch, MLX (optional, Apple Silicon), ONNX Runtime (optional) · Models: Hugging Face PyTorch, MLX, ONNX, CoreML, Transformers.js · port 8080 · [Repo](https://github.com/maziyarpanahi/openmed) · [📖 Docs ↗](https://openmed.life/docs) · [🌐 Site ↗](https://openmed.life/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmed/)</sub>
 
 <a name="paddleocr"></a>
-### #&#8288;31 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 93k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;31 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 93k · Apache-2.0 · Sep 2026</sub>
 
 **OCR and document parsing toolkit that outputs Markdown and JSON from PDFs and images.**
 
@@ -792,7 +792,7 @@ EasyOCR is a Python package that detects text regions with the CRAFT model and r
 <sub>GPU optional · Docker · Needs PyTorch, torchvision · Models: CRAFT detection, CRNN recognition (ResNet/VGG, LSTM, CTC) · [Repo](https://github.com/jaidedai/easyocr) · [▶️ Demo ↗](https://huggingface.co/spaces/tomofi/EasyOCR) · [📖 Docs ↗](https://www.jaided.ai/easyocr/documentation) · [🌐 Site ↗](https://www.jaided.ai/easyocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easyocr/)</sub>
 
 <a name="docetl"></a>
-### #&#8288;45 [docetl](https://github.com/ucbepic/docetl) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: patchy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
+### #&#8288;45 [docetl](https://github.com/ucbepic/docetl) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: patchy (50) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
 
 **Declarative LLM map-reduce pipelines over documents, with automatic optimization.**
 
@@ -828,7 +828,7 @@ JioNLP is a pip-installable Python library of Chinese NLP preprocessing function
 <sub>Needs Cloud machine-translation APIs (BackTranslation only) · [Repo](https://github.com/dongrixinyu/jionlp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jionlp/)</sub>
 
 <a name="ai-youtube-shorts-generator"></a>
-### #&#8288;47 [ai-youtube-shorts-generator](https://github.com/anil-matcha/ai-youtube-shorts-generator) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (39) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · MIT · Nov 2026</sub>
+### #&#8288;47 [ai-youtube-shorts-generator](https://github.com/anil-matcha/ai-youtube-shorts-generator) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (40) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · MIT · Nov 2026</sub>
 
 **CLI that cuts long YouTube videos into ranked vertical shorts.**
 
