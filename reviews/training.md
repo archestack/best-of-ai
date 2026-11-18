@@ -878,7 +878,7 @@ LMFlow is a Python toolbox that finetunes decoder language models with full-para
 <sub>GPU required · Needs Python 3.9+, conda, mpi4py, PyTorch, WandB (optional, on by default) · Models: Hugging Face decoder models, LLaMA, Llama-2, Llama-3, Qwen · [Repo](https://github.com/optimalscale/lmflow) · [📖 Docs ↗](https://optimalscale.github.io/LMFlow/) · [🌐 Site ↗](https://lmflow.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmflow/)</sub>
 
 <a name="reagent"></a>
-### #&#8288;50 [reagent](https://github.com/facebookresearch/reagent) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;50 [reagent](https://github.com/facebookresearch/reagent) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · BSD-3-Clause · Nov 2026</sub>
 
 **Archived Meta platform for offline reinforcement learning on PyTorch.**
 
@@ -1201,7 +1201,7 @@ Research repository behind ModernBERT, a BERT-style bidirectional encoder. It pr
 <sub>GPU required · Needs conda, composer, flash-attn 2.6.3, Sentence Transformers, PyLate · Models: ModernBERT, FlexBERT, BERT (GLUE evals), ColBERT (PyLate) · [Repo](https://github.com/answerdotai/modernbert) · [📖 Docs ↗](https://arxiv.org/abs/2412.13663) · [🌐 Site ↗](https://huggingface.co/collections/answerdotai/modernbert-67627ad707a4acbf33c41deb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modernbert/)</sub>
 
 <a name="agentflow"></a>
-### #&#8288;68 [agentflow](https://github.com/lupantech/agentflow) <sub>score [10](../README.md#-how-we-rank "Score 10/100. Adoption: niche (6) · Freshness: quiet (25) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
+### #&#8288;68 [agentflow](https://github.com/lupantech/agentflow) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (6) · Freshness: quiet (25) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
 
 **Agent system with an RL-trained planner, executor, verifier and generator.**
 

@@ -41,7 +41,7 @@ iFixAi runs up to 60 inspections against a model or a deployed agent's HTTP endp
 <sub>no GPU · Needs Python 3.10+, LLM provider API keys (system under test and judge), uv (for skill install) · Models: OpenAI, Anthropic, Gemini, Azure, Bedrock · [Repo](https://github.com/ifixai-ai/ifixai) · [🌐 Site ↗](https://www.ifixai.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ifixai/)</sub>
 
 <a name="strix"></a>
-### 🥉 [Strix](https://github.com/usestrix/strix) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [Strix](https://github.com/usestrix/strix) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · Apache-2.0 · Nov 2026</sub>
 
 **Autonomous multi-agent pentesting CLI that validates vulnerabilities with working PoCs.**
 
@@ -221,7 +221,7 @@ BLA (npm package bla-agents) is a TypeScript CLI and MCP server that rewrites re
 <sub>no GPU · Needs Node.js ^22.23.4 or >=24, Wabt (optional, red-team suite), tshark (optional, red-team suite) · Models: Safetensors, GGUF · [Repo](https://github.com/qybaihe/bla) · [📖 Docs ↗](https://bla.tools/guides/) · [🌐 Site ↗](https://bla.tools/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bla/)</sub>
 
 <a name="agentic-bug-hunter"></a>
-### #&#8288;13 [agentic-bug-hunter](https://github.com/awarexone/agentic-bug-hunter) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Nov 2026</sub>
+### #&#8288;13 [agentic-bug-hunter](https://github.com/awarexone/agentic-bug-hunter) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Nov 2026</sub>
 
 **Bug bounty CLI that runs recon, hunting, validation and report writing with LLMs.**
 
@@ -274,8 +274,26 @@ PyRIT is a Microsoft AI Red Team toolkit for finding security and safety weaknes
 
 <sub>Docker + Compose · Needs Model provider API keys, Playwright (optional, browser targets), LiteLLM (optional adapter) · Models: OpenAI, Anthropic, Azure OpenAI, Microsoft Foundry, Azure Machine Learning · [Repo](https://github.com/microsoft/pyrit) · [📖 Docs ↗](https://microsoft.github.io/PyRIT/latest/code/framework/) · [🌐 Site ↗](https://microsoft.github.io/PyRIT/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyrit/)</sub>
 
+<a name="cyberstrike"></a>
+### #&#8288;16 [cyberstrike](https://github.com/cyberstrikeus/cyberstrike) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · AGPL-3.0 · Nov 2026</sub>
+
+**Terminal agent that runs LLM-driven web penetration tests and writes reports.**
+
+CyberStrike is a TypeScript CLI that drives an LLM through reconnaissance, vulnerability testing and reporting against a target. It loads OWASP methodology documents as skills, uses a built-in intercepting browser (HackBrowser) and HTTP engine (Vortex), and confirms findings with a baseline, attack and response-diff check. Tools can run on remote hosts through Bolt, and MCP servers add more security tooling.
+
+- **+** Works with Anthropic, OpenAI, Gemini, Bedrock, or local Ollama/LM Studio models
+- **+** Findings confirmed by a 3-gate baseline/attack/response-diff check; speculative results discarded
+- **+** Built-in intercepting browser and traffic engine feed requests straight to testing agents
+- **+** Bolt runs tools on remote servers, paired with Ed25519 keys
+- **−** Cloud, internal network and mobile agents are in the paid Pro edition
+- **−** AGPL-3.0 license; commercial use needs a separate license
+- **−** Open-source agents focus on web testing (OWASP WSTG)
+- **−** No Docker image or compose file; installs through npm, Homebrew, Scoop or curl
+
+<sub>no GPU · Needs Node.js/npm, LLM provider account or local model server · Models: Anthropic Claude, OpenAI GPT, Google Gemini, Amazon Bedrock, Azure OpenAI · [Repo](https://github.com/cyberstrikeus/cyberstrike) · [▶️ Demo ↗](https://app.cyberstrike.io) · [📖 Docs ↗](https://docs.cyberstrike.io) · [🌐 Site ↗](https://cyberstrike.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cyberstrike/)</sub>
+
 <a name="vulnclaw"></a>
-### #&#8288;16 [vulnclaw](https://github.com/netw0rknoob/vulnclaw) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Oct 2026</sub>
+### #&#8288;17 [vulnclaw](https://github.com/netw0rknoob/vulnclaw) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Oct 2026</sub>
 
 **LLM agent CLI that runs penetration tests from natural-language prompts.**
 
@@ -293,7 +311,7 @@ VulnClaw is a Python CLI and agent that takes a target and a plain-language goal
 <sub>no GPU · Docker + Compose · Needs Python 3.10+, LLM API key or Ollama, Node.js 18+ (Web UI build, npx MCP servers), nmap (optional), Burp Suite Professional (optional), Chrome (optional) · Models: OpenAI, Anthropic, MiniMax, DeepSeek, Zhipu · port 7788 · [Repo](https://github.com/netw0rknoob/vulnclaw) · [🌐 Site ↗](https://unclecheng-li.github.io/vulnclaw.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vulnclaw/)</sub>
 
 <a name="dsh-infinite-gen-5"></a>
-### #&#8288;17 [dsh-infinite-gen-5](https://github.com/minglink/dsh-infinite-gen-5) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
+### #&#8288;18 [dsh-infinite-gen-5](https://github.com/minglink/dsh-infinite-gen-5) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
 
 **Reverse-engineering plugin for DeepSeek Harness using Ghidra, x64dbg and Unicorn.**
 
@@ -309,24 +327,6 @@ IG5 is a plugin for DeepSeek Harness (DSH) that exposes 43 reverse-engineering t
 - **−** README is heavy on self-promotion; star and fork counts there differ from detected 2,745
 
 <sub>Needs DeepSeek Harness (@deepseek-ai/dsh >=0.2.0-rc.1 <0.3.0-0), Ghidra, x64dbg, Unicorn, PowerShell · [Repo](https://github.com/minglink/dsh-infinite-gen-5) · [📖 Docs ↗](https://github.com/Minglink/dsh-infinite-gen-5/blob/master/docs/CAPABILITIES.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-infinite-gen-5/)</sub>
-
-<a name="cyberstrike"></a>
-### #&#8288;18 [cyberstrike](https://github.com/cyberstrikeus/cyberstrike) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (12) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · AGPL-3.0 · Nov 2026</sub>
-
-**Terminal agent that runs LLM-driven web penetration tests and writes reports.**
-
-CyberStrike is a TypeScript CLI that drives an LLM through reconnaissance, vulnerability testing and reporting against a target. It loads OWASP methodology documents as skills, uses a built-in intercepting browser (HackBrowser) and HTTP engine (Vortex), and confirms findings with a baseline, attack and response-diff check. Tools can run on remote hosts through Bolt, and MCP servers add more security tooling.
-
-- **+** Works with Anthropic, OpenAI, Gemini, Bedrock, or local Ollama/LM Studio models
-- **+** Findings confirmed by a 3-gate baseline/attack/response-diff check; speculative results discarded
-- **+** Built-in intercepting browser and traffic engine feed requests straight to testing agents
-- **+** Bolt runs tools on remote servers, paired with Ed25519 keys
-- **−** Cloud, internal network and mobile agents are in the paid Pro edition
-- **−** AGPL-3.0 license; commercial use needs a separate license
-- **−** Open-source agents focus on web testing (OWASP WSTG)
-- **−** No Docker image or compose file; installs through npm, Homebrew, Scoop or curl
-
-<sub>no GPU · Needs Node.js/npm, LLM provider account or local model server · Models: Anthropic Claude, OpenAI GPT, Google Gemini, Amazon Bedrock, Azure OpenAI · [Repo](https://github.com/cyberstrikeus/cyberstrike) · [▶️ Demo ↗](https://app.cyberstrike.io) · [📖 Docs ↗](https://docs.cyberstrike.io) · [🌐 Site ↗](https://cyberstrike.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cyberstrike/)</sub>
 
 <a name="pentestgpt"></a>
 ### #&#8288;19 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (79) · Freshness: recent (78) · Maintenance: weak (7) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Jul 2026</sub>
@@ -364,26 +364,8 @@ HexStrike AI runs a Python Flask-style server (hexstrike_server.py, default port
 
 <sub>GPU optional · Needs Python 3.8+, nmap, nuclei, sqlmap and other security tools, Chrome/Chromium with chromedriver, MCP-compatible client · Models: Claude, GPT, Copilot, any MCP-compatible client · port 8888 · [Repo](https://github.com/0x4m4/hexstrike-ai) · [🌐 Site ↗](https://overthetop.ae/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hexstrike-ai/)</sub>
 
-<a name="textattack"></a>
-### #&#8288;21 [textattack](https://github.com/qdata/textattack) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (9) · Freshness: active (99) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Aug 2026</sub>
-
-**Python framework for adversarial attacks, augmentation and training of NLP models.**
-
-TextAttack is a Python library and `textattack` CLI that runs published adversarial attack recipes (TextFooler, BAE, DeepWordBug, HotFlip, PWWS and others) against NLP classification and sequence-to-sequence models. Attacks are built from goal functions, constraints, transformations and search methods. It also provides text augmentation recipes and single-command model training.
-
-- **+** About 20 attack recipes from papers, runnable with one `textattack attack` command
-- **+** Attacks are composable: swap transformation, constraints, goal function and search method
-- **+** Augmentation recipes (wordnet, embedding, charswap, eda, back_trans) with a CSV CLI
-- **+** Multi-GPU attacks via --parallel; GPU is optional
-- **−** Targets classification and seq2seq models; no LLM jailbreak or prompt-injection tooling listed
-- **−** Many recipes need downloaded embeddings, sentence encoders and masked language models
-- **−** seq2sick is implemented black-box, unlike the white-box attack in its paper
-- **−** README gives Python 3.6+ as the baseline, which is dated
-
-<sub>GPU optional · Needs Python 3.6+, pip · Models: BERT, DistilBERT, LSTM, T5, Keras models · [Repo](https://github.com/qdata/textattack) · [📖 Docs ↗](https://textattack.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/textattack/)</sub>
-
 <a name="adversarial-robustness-toolbox"></a>
-### #&#8288;22 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (40) · Freshness: recent (73) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+### #&#8288;21 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (40) · Freshness: recent (73) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
 
 **Python library for attacking and defending ML models against adversarial threats.**
 
@@ -401,7 +383,7 @@ ART is a Python library for evaluating and hardening machine learning models aga
 <sub>GPU optional · Docker · Models: TensorFlow, Keras, PyTorch, scikit-learn, XGBoost · [Repo](https://github.com/trusted-ai/adversarial-robustness-toolbox) · [📖 Docs ↗](https://adversarial-robustness-toolbox.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adversarial-robustness-toolbox/)</sub>
 
 <a name="pwnagotchi"></a>
-### #&#8288;23 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (63) · Freshness: recent (70) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
+### #&#8288;22 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (63) · Freshness: recent (70) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
 
 **WiFi handshake-capturing agent that tunes its attacks with reinforcement learning.**
 
@@ -419,7 +401,7 @@ Pwnagotchi runs an A2C reinforcement-learning agent (LSTM policy with MLP featur
 <sub>Needs bettercap, hashcat · Models: A2C (stable-baselines, MlpLstmPolicy) · [Repo](https://github.com/evilsocket/pwnagotchi) · [📖 Docs ↗](https://www.pwnagotchi.ai) · [🌐 Site ↗](https://pwnagotchi.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pwnagotchi/)</sub>
 
 <a name="purplellama"></a>
-### #&#8288;24 [purplellama](https://github.com/meta-llama/purplellama) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
+### #&#8288;23 [purplellama](https://github.com/meta-llama/purplellama) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
 
 **Meta's safety classifiers and cybersecurity benchmarks for LLM inputs, outputs and code.**
 
@@ -437,7 +419,7 @@ Purple Llama is an umbrella repo from Meta with input/output safeguards and secu
 <sub>Models: Llama Guard 3-8B, Llama Guard 3-1B, Llama Guard 3-11B-vision, Llama Guard 2, Llama Guard · [Repo](https://github.com/meta-llama/purplellama) · [📖 Docs ↗](https://github.com/meta-llama/llama-recipes) · [🌐 Site ↗](https://ai.meta.com/llama/purple-llama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/purplellama/)</sub>
 
 <a name="superagent"></a>
-### #&#8288;25 [superagent](https://github.com/superagent-ai/superagent) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (46) · Freshness: recent (79) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
+### #&#8288;24 [superagent](https://github.com/superagent-ai/superagent) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (46) · Freshness: recent (79) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
 
 **SDK that blocks prompt injections and redacts PII in AI agent apps.**
 
@@ -455,7 +437,7 @@ Superagent is a TypeScript and Python SDK (package `safety-agent`) with a guard 
 <sub>Needs Superagent API key (superagent.sh) · Models: OpenAI, Anthropic, Google, Groq, Bedrock · [Repo](https://github.com/superagent-ai/superagent) · [📖 Docs ↗](https://docs.superagent.sh) · [🌐 Site ↗](https://superagent.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/superagent/)</sub>
 
 <a name="cairn"></a>
-### #&#8288;26 [cairn](https://github.com/oritera/cairn) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (31) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;25 [cairn](https://github.com/oritera/cairn) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (31) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · AGPL-3.0 · Sep 2026</sub>
 
 **Blackboard-based multi-agent engine for AI penetration testing and CTF solving.**
 
@@ -473,7 +455,7 @@ Cairn searches for a path from an origin to a goal by having agent workers read 
 <sub>no GPU · Docker + Compose · Needs Docker (not needed in local mode), Python >= 3.12, uv, Claude Code, Codex or Pi CLI/LLM endpoints · Models: Claude Code, Codex, Pi · port 8000 · [Repo](https://github.com/oritera/cairn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cairn/)</sub>
 
 <a name="pentest-ai-agents"></a>
-### #&#8288;27 [pentest-ai-agents](https://github.com/0xsteph/pentest-ai-agents) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (5) · Freshness: active (99) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Aug 2026</sub>
+### #&#8288;26 [pentest-ai-agents](https://github.com/0xsteph/pentest-ai-agents) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (5) · Freshness: active (99) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Aug 2026</sub>
 
 **Claude Code subagents for pentesting, from recon to reporting.**
 
@@ -489,5 +471,23 @@ A set of Claude Code subagent definition files, each covering one pentest area s
 - **−** Includes C2, evasion and payload agents that are easy to misuse outside authorized work
 
 <sub>no GPU · Docker · Needs Claude Code, nmap, nuclei, sqlmap and other CLI pentest tools (optional, via install.sh --tools), SQLite · Models: Claude · [Repo](https://github.com/0xsteph/pentest-ai-agents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentest-ai-agents/)</sub>
+
+<a name="textattack"></a>
+### #&#8288;27 [textattack](https://github.com/qdata/textattack) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (9) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Aug 2026</sub>
+
+**Python framework for adversarial attacks, augmentation and training of NLP models.**
+
+TextAttack is a Python library and `textattack` CLI that runs published adversarial attack recipes (TextFooler, BAE, DeepWordBug, HotFlip, PWWS and others) against NLP classification and sequence-to-sequence models. Attacks are built from goal functions, constraints, transformations and search methods. It also provides text augmentation recipes and single-command model training.
+
+- **+** About 20 attack recipes from papers, runnable with one `textattack attack` command
+- **+** Attacks are composable: swap transformation, constraints, goal function and search method
+- **+** Augmentation recipes (wordnet, embedding, charswap, eda, back_trans) with a CSV CLI
+- **+** Multi-GPU attacks via --parallel; GPU is optional
+- **−** Targets classification and seq2seq models; no LLM jailbreak or prompt-injection tooling listed
+- **−** Many recipes need downloaded embeddings, sentence encoders and masked language models
+- **−** seq2sick is implemented black-box, unlike the white-box attack in its paper
+- **−** README gives Python 3.6+ as the baseline, which is dated
+
+<sub>GPU optional · Needs Python 3.6+, pip · Models: BERT, DistilBERT, LSTM, T5, Keras models · [Repo](https://github.com/qdata/textattack) · [📖 Docs ↗](https://textattack.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/textattack/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

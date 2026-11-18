@@ -23,7 +23,7 @@ A Claude Code project you fork and fill in with your profile. Slash commands (/s
 <sub>no GPU · Needs Claude Code, Python 3.10+, Bun, LaTeX (lualatex, xelatex), pypdf or poppler (optional) · Models: Claude (via Claude Code) · [Repo](https://github.com/ai-job-search-dev/ai-job-search) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-job-search/)</sub>
 
 <a name="career-ops"></a>
-### 🥈 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · MIT · Nov 2026</sub>
+### 🥈 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 84k · MIT · Nov 2026</sub>
 
 **Job-search agent that scores listings, tailors CVs and drafts applications.**
 
@@ -719,8 +719,26 @@ PicoClaw is a single Go binary for x86_64, ARM64, MIPS, RISC-V and LoongArch tha
 
 <sub>RAM ≥ 0.02 GB · no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek · port 18800 · [Repo](https://github.com/sipeed/picoclaw) · [📖 Docs ↗](https://docs.picoclaw.io/) · [🌐 Site ↗](https://picoclaw.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/picoclaw/)</sub>
 
+<a name="py-xiaozhi"></a>
+### #&#8288;41 [py-xiaozhi](https://github.com/huangjunsen0406/py-xiaozhi) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Nov 2026</sub>
+
+**Python voice client for Xiaozhi AI servers with MCP tools and GPIO.**
+
+py-xiaozhi is an async Python client for the Xiaozhi voice assistant protocol. It streams Opus audio over WebSocket or MQTT, runs offline wake-word detection with Sherpa-ONNX, and exposes an MCP tool server (music, camera, screenshot, apps, weather, volume). It runs with a PySide6 GUI, a Textual TUI, or a GPIO mode on boards such as Raspberry Pi.
+
+- **+** Three front ends: PySide6/QML GUI, Textual TUI, and GPIO for headless boards
+- **+** Offline wake word via Sherpa-ONNX with custom keywords
+- **+** Runs on Windows, macOS, Linux, and ARM boards (Raspberry Pi, RDK, Jetson Nano)
+- **+** New MCP tools go in src/mcp/tools; plugin system and Protocol base class
+- **−** Needs a Xiaozhi-compatible backend and internet; no local LLM is run
+- **−** Python 3.10 to 3.12 only; GUI and TUI need separate extras
+- **−** Docs are mostly in Chinese; main branch needs manual dependency reinstall
+- **−** Built-in tools limited to music, camera, screenshot, apps, weather, volume
+
+<sub>RAM ≥ 4 GB · no GPU · Needs Xiaozhi-compatible server (WebSocket or MQTT), Microphone and speaker, FFmpeg (wheel installs), Sherpa-ONNX models (wake word), OpenCV and camera (optional) · Models: Sherpa-ONNX (wake word), Opus audio codec · [Repo](https://github.com/huangjunsen0406/py-xiaozhi) · [▶️ Demo ↗](https://www.bilibili.com/video/BV1HmPjeSED2/#reply255921347937) · [📖 Docs ↗](https://huangjunsen0406.github.io/py-xiaozhi/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/py-xiaozhi/)</sub>
+
 <a name="openclaw-windows-node"></a>
-### #&#8288;41 [openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+### #&#8288;42 [openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
 
 **Windows tray app that connects a PC to an OpenClaw gateway as an agent node.**
 
@@ -738,7 +756,7 @@ Native WinUI 3 companion for the OpenClaw gateway. It provides a tray flyout, wo
 <sub>GPU optional · Needs OpenClaw gateway, WSL (for local gateway), WebView2, Microsoft.Mxc.Sdk · Models: Ollama (shared from Windows), Managed Local AI profiles · port 18789 · [Repo](https://github.com/openclaw/openclaw-windows-node) · [📖 Docs ↗](https://docs.openclaw.ai/platforms/windows) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-windows-node/)</sub>
 
 <a name="invisible-dots"></a>
-### #&#8288;42 [invisible_dots](https://github.com/feder-cr/invisible_dots) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 55 · MIT · Nov 2026</sub>
+### #&#8288;43 [invisible_dots](https://github.com/feder-cr/invisible_dots) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 55 · MIT · Nov 2026</sub>
 
 **Self-hosted agent that works on its own VM desktop with a patched Firefox.**
 
@@ -756,7 +774,7 @@ invisible_dots runs each agent (a "Dot") on its own hardware-accelerated QEMU VM
 <sub>no GPU · Needs Node 24+, Go 1.25+, Git, QEMU, KVM or Windows Hypervisor Platform, OpenRouter API key · Models: OpenRouter · port 3000 · [Repo](https://github.com/feder-cr/invisible_dots) · [📖 Docs ↗](https://github.com/feder-cr/invisible_dots/blob/main/docs/guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/invisible-dots/)</sub>
 
 <a name="goutoujunshi"></a>
-### #&#8288;43 [goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Sep 2026</sub>
+### #&#8288;44 [goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Sep 2026</sub>
 
 **Codex Skill that analyzes relationship chats and suggests concrete next steps.**
 
@@ -774,7 +792,7 @@ Goutoujunshi is a Codex Skill for dating and relationship advice, covering attra
 <sub>Needs Codex-compatible AI assistant, ChatLab (optional) · [Repo](https://github.com/shengjidaguai-china/goutoujunshi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/goutoujunshi/)</sub>
 
 <a name="cloddsbot"></a>
-### #&#8288;44 [cloddsbot](https://github.com/alsk1992/cloddsbot) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Sep 2026</sub>
+### #&#8288;45 [cloddsbot](https://github.com/alsk1992/cloddsbot) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Sep 2026</sub>
 
 **Chat-driven trading assistant for prediction markets, crypto and perp futures.**
 
@@ -792,7 +810,7 @@ Clodds is a Node.js/TypeScript gateway that lets you place and monitor trades by
 <sub>no GPU · Docker + Compose · Needs Node.js 22+, Anthropic API key, SQLite, LanceDB, PostgreSQL (optional, analytics) · Models: Claude, GPT-4, Gemini, Groq, Together · port 18789 · [Repo](https://github.com/alsk1992/cloddsbot) · [▶️ Demo ↗](https://cloddsbot.com/onboard.mp4) · [🌐 Site ↗](https://cloddsbot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cloddsbot/)</sub>
 
 <a name="openmuse"></a>
-### #&#8288;45 [openmuse](https://github.com/copilotkit/openmuse) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (39) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Nov 2026</sub>
+### #&#8288;46 [openmuse](https://github.com/copilotkit/openmuse) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (39) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Nov 2026</sub>
 
 **Personal agent with browser, terminal and durable tasks for mobile and web.**
 
@@ -810,7 +828,7 @@ OpenMuse is a personal-agent app built on CopilotKit React Native (Expo) with a 
 <sub>no GPU · Needs CopilotKit Intelligence API key, Node 24, pnpm 11.19.0, Playwright Chromium, Docker (optional, Linux computer), Google OAuth client (optional), Parallel Search MCP (web search) · Models: OpenAI, Anthropic, Google · port 8081 · [Repo](https://github.com/copilotkit/openmuse) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmuse/)</sub>
 
 <a name="openclawchinesetranslation"></a>
-### #&#8288;46 [openclawchinesetranslation](https://github.com/1186258278/openclawchinesetranslation) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Nov 2026</sub>
+### #&#8288;47 [openclawchinesetranslation](https://github.com/1186258278/openclawchinesetranslation) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Nov 2026</sub>
 
 **Chinese-localized build of the OpenClaw personal assistant.**
 
@@ -828,7 +846,7 @@ Repackages the upstream OpenClaw personal assistant as the npm package @qingchen
 <sub>Docker + Compose · Needs Node.js >= 22.19.0, LLM provider API key or local Ollama endpoint · Models: OpenAI-compatible APIs, Ollama · port 18789 · [Repo](https://github.com/1186258278/openclawchinesetranslation) · [📖 Docs ↗](https://github.com/1186258278/OpenClawChineseTranslation/blob/main/docs/INSTALL_GUIDE.md) · [🌐 Site ↗](https://openclaw.qt.cool/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclawchinesetranslation/)</sub>
 
 <a name="khoj"></a>
-### #&#8288;47 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (87) · Freshness: active (91) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;48 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (87) · Freshness: active (91) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
 
 **Personal assistant that chats with your documents and the web.**
 
@@ -844,24 +862,6 @@ Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Wor
 - **−** Enterprise and cloud tiers exist; feature parity with self-hosting is not stated
 
 <sub>Docker + Compose · Compose runs PostgreSQL, SearXNG · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/khoj/)</sub>
-
-<a name="py-xiaozhi"></a>
-### #&#8288;48 [py-xiaozhi](https://github.com/huangjunsen0406/py-xiaozhi) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (17) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Sep 2026</sub>
-
-**Python voice client for Xiaozhi AI servers with MCP tools and GPIO.**
-
-py-xiaozhi is an async Python client for the Xiaozhi voice assistant protocol. It streams Opus audio over WebSocket or MQTT, runs offline wake-word detection with Sherpa-ONNX, and exposes an MCP tool server (music, camera, screenshot, apps, weather, volume). It runs with a PySide6 GUI, a Textual TUI, or a GPIO mode on boards such as Raspberry Pi.
-
-- **+** Three front ends: PySide6/QML GUI, Textual TUI, and GPIO for headless boards
-- **+** Offline wake word via Sherpa-ONNX with custom keywords
-- **+** Runs on Windows, macOS, Linux, and ARM boards (Raspberry Pi, RDK, Jetson Nano)
-- **+** New MCP tools go in src/mcp/tools; plugin system and Protocol base class
-- **−** Needs a Xiaozhi-compatible backend and internet; no local LLM is run
-- **−** Python 3.10 to 3.12 only; GUI and TUI need separate extras
-- **−** Docs are mostly in Chinese; main branch needs manual dependency reinstall
-- **−** Built-in tools limited to music, camera, screenshot, apps, weather, volume
-
-<sub>RAM ≥ 4 GB · no GPU · Needs Xiaozhi-compatible server (WebSocket or MQTT), Microphone and speaker, FFmpeg (wheel installs), Sherpa-ONNX models (wake word), OpenCV and camera (optional) · Models: Sherpa-ONNX (wake word), Opus audio codec · [Repo](https://github.com/huangjunsen0406/py-xiaozhi) · [▶️ Demo ↗](https://www.bilibili.com/video/BV1HmPjeSED2/#reply255921347937) · [📖 Docs ↗](https://huangjunsen0406.github.io/py-xiaozhi/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/py-xiaozhi/)</sub>
 
 <a name="openduet"></a>
 ### #&#8288;49 [openduet](https://github.com/copilotkit/openduet) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Nov 2026</sub>
@@ -971,26 +971,8 @@ Spacebot is a Rust agent server built for many concurrent users: channel process
 
 <sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs ↗](https://docs.spacebot.sh) · [🌐 Site ↗](https://spacebot.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spacebot/)</sub>
 
-<a name="agent"></a>
-### #&#8288;55 [agent](https://github.com/stakpak/agent) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (4) · Freshness: active (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Jul 2026</sub>
-
-**Rust DevOps agent that runs on your servers with secret redaction and guardrails.**
-
-Stakpak is a Rust CLI and TUI agent for DevOps work such as Terraform, Kubernetes, CI/CD and deployments. Autopilot mode runs it in the background on cron schedules and takes tasks from Slack, Telegram or Discord. Secrets are substituted so the LLM never sees them. It can also run as an MCP server, MCP proxy or ACP agent for Zed.
-
-- **+** Secret substitution and privacy mode keep credentials and IPs out of the LLM context
-- **+** Autopilot runs scheduled agent tasks and routes notifications to Slack, Telegram or Discord
-- **+** Works with Anthropic, OpenAI, Gemini or any OpenAI-compatible endpoint such as Ollama
-- **+** Also serves as an MCP server, MCP proxy and ACP agent for Zed
-- **−** Autopilot requires Docker on the host; 2GB+ RAM recommended
-- **−** Remote and combined MCP tool modes need a Stakpak API key
-- **−** Rulebooks use stakpak:// URIs, which suggests a dependency on the hosted Stakpak service
-- **−** Subagents are off by default and need the --enable-subagents flag
-
-<sub>RAM ≥ 2 GB · no GPU · Docker · Needs Docker (for autopilot), LLM provider API key or OpenAI-compatible endpoint · Models: Anthropic, OpenAI, Gemini, OpenAI-compatible endpoints (Ollama, LM Studio) · [Repo](https://github.com/stakpak/agent) · [📖 Docs ↗](https://stakpak.gitbook.io/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent/)</sub>
-
 <a name="open-llm-vtuber"></a>
-### #&#8288;56 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (70) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
+### #&#8288;55 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (70) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
 
 **Voice-chat AI companion with a Live2D avatar and desktop pet mode.**
 
@@ -1007,26 +989,8 @@ Open-LLM-VTuber is a Python server with web and desktop clients for real-time vo
 
 <sub>GPU optional · Docker · Needs uv, ffmpeg · Models: Ollama, OpenAI-compatible, Gemini, Claude, Mistral · [Repo](https://github.com/open-llm-vtuber/open-llm-vtuber) · [📖 Docs ↗](https://open-llm-vtuber.github.io/docs/quick-start) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-llm-vtuber/)</sub>
 
-<a name="metaclaw"></a>
-### #&#8288;57 [metaclaw](https://github.com/aiming-lab/metaclaw) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (16) · Freshness: recent (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Jun 2026</sub>
-
-**Proxy that injects skills and runs RL on live agent conversations.**
-
-MetaClaw is a local proxy between a personal agent (OpenClaw, CoPaw, IronClaw, PicoClaw, ZeroClaw, NanoClaw, NemoClaw, Hermes, or any OpenAI-compatible client) and its LLM API. It injects Markdown skills each turn, summarizes new skills after sessions, and keeps cross-session memory. Optionally it runs LoRA RL training (GRPO) through a Tinker, MinT or Weaver backend, scheduled for sleep or idle windows.
-
-- **+** Auto-configures eight agent types on start; manual OpenAI and Anthropic-compatible endpoints otherwise
-- **+** Skills-only mode needs no GPU or training backend, just an LLM API key
-- **+** Scheduler defers RL weight updates to sleep, idle or calendar-meeting windows
-- **+** Ships a built-in bank of 40+ skills plus cross-session memory
-- **−** RL mode depends on external training services (Tinker, MinT or Weaver) and a judge LLM
-- **−** Rewrites other agents' config files and restarts their gateways on start
-- **−** No Docker or compose files provided
-- **−** Default RL judge and evolver models point at OpenAI, adding API cost
-
-<sub>no GPU · Needs OpenAI-compatible LLM API, Tinker, MinT or Weaver (RL mode only), Google Calendar (optional) · Models: OpenAI-compatible APIs, Anthropic /v1/messages, Kimi, Qwen, OpenAI · port 30000 · [Repo](https://github.com/aiming-lab/metaclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metaclaw/)</sub>
-
 <a name="moltworker"></a>
-### #&#8288;58 [moltworker](https://github.com/cloudflare/moltworker) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (59) · Freshness: slowing (48) · Maintenance: weak (11) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;56 [moltworker](https://github.com/cloudflare/moltworker) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (59) · Freshness: slowing (48) · Maintenance: weak (11) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Mar 2026</sub>
 
 **Cloudflare Worker that runs the OpenClaw assistant inside a Cloudflare Sandbox container.**
 
@@ -1043,8 +1007,26 @@ Packages the OpenClaw personal assistant (formerly Moltbot/Clawdbot) to run in a
 
 <sub>RAM ≥ 4 GB · no GPU · Docker · Needs Cloudflare Workers Paid plan, Cloudflare Sandbox/Containers, Cloudflare Access, Anthropic API key or Cloudflare AI Gateway, R2 (optional) · Models: Anthropic Claude, OpenAI, Groq, Workers AI · [Repo](https://github.com/cloudflare/moltworker) · [📖 Docs ↗](https://developers.cloudflare.com/sandbox/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moltworker/)</sub>
 
+<a name="agent"></a>
+### #&#8288;57 [agent](https://github.com/stakpak/agent) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (4) · Freshness: active (89) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Jul 2026</sub>
+
+**Rust DevOps agent that runs on your servers with secret redaction and guardrails.**
+
+Stakpak is a Rust CLI and TUI agent for DevOps work such as Terraform, Kubernetes, CI/CD and deployments. Autopilot mode runs it in the background on cron schedules and takes tasks from Slack, Telegram or Discord. Secrets are substituted so the LLM never sees them. It can also run as an MCP server, MCP proxy or ACP agent for Zed.
+
+- **+** Secret substitution and privacy mode keep credentials and IPs out of the LLM context
+- **+** Autopilot runs scheduled agent tasks and routes notifications to Slack, Telegram or Discord
+- **+** Works with Anthropic, OpenAI, Gemini or any OpenAI-compatible endpoint such as Ollama
+- **+** Also serves as an MCP server, MCP proxy and ACP agent for Zed
+- **−** Autopilot requires Docker on the host; 2GB+ RAM recommended
+- **−** Remote and combined MCP tool modes need a Stakpak API key
+- **−** Rulebooks use stakpak:// URIs, which suggests a dependency on the hosted Stakpak service
+- **−** Subagents are off by default and need the --enable-subagents flag
+
+<sub>RAM ≥ 2 GB · no GPU · Docker · Needs Docker (for autopilot), LLM provider API key or OpenAI-compatible endpoint · Models: Anthropic, OpenAI, Gemini, OpenAI-compatible endpoints (Ollama, LM Studio) · [Repo](https://github.com/stakpak/agent) · [📖 Docs ↗](https://stakpak.gitbook.io/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent/)</sub>
+
 <a name="gpt-ai-assistant"></a>
-### #&#8288;59 [gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: known (44) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Jun 2026</sub>
+### #&#8288;58 [gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: known (44) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Jun 2026</sub>
 
 **LINE chatbot backed by the OpenAI API.**
 
@@ -1059,6 +1041,24 @@ JavaScript application that lets you chat with an OpenAI-backed assistant throug
 - **−** Long-term memory and tool actions are not described in the README
 
 <sub>no GPU · Docker + Compose · Needs OpenAI API, LINE Messaging API · Models: OpenAI · [Repo](https://github.com/memochou1993/gpt-ai-assistant) · [📖 Docs ↗](https://memochou1993.github.io/gpt-ai-assistant-docs/en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-ai-assistant/)</sub>
+
+<a name="metaclaw"></a>
+### #&#8288;59 [metaclaw](https://github.com/aiming-lab/metaclaw) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (16) · Freshness: recent (78) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Jun 2026</sub>
+
+**Proxy that injects skills and runs RL on live agent conversations.**
+
+MetaClaw is a local proxy between a personal agent (OpenClaw, CoPaw, IronClaw, PicoClaw, ZeroClaw, NanoClaw, NemoClaw, Hermes, or any OpenAI-compatible client) and its LLM API. It injects Markdown skills each turn, summarizes new skills after sessions, and keeps cross-session memory. Optionally it runs LoRA RL training (GRPO) through a Tinker, MinT or Weaver backend, scheduled for sleep or idle windows.
+
+- **+** Auto-configures eight agent types on start; manual OpenAI and Anthropic-compatible endpoints otherwise
+- **+** Skills-only mode needs no GPU or training backend, just an LLM API key
+- **+** Scheduler defers RL weight updates to sleep, idle or calendar-meeting windows
+- **+** Ships a built-in bank of 40+ skills plus cross-session memory
+- **−** RL mode depends on external training services (Tinker, MinT or Weaver) and a judge LLM
+- **−** Rewrites other agents' config files and restarts their gateways on start
+- **−** No Docker or compose files provided
+- **−** Default RL judge and evolver models point at OpenAI, adding API cost
+
+<sub>no GPU · Needs OpenAI-compatible LLM API, Tinker, MinT or Weaver (RL mode only), Google Calendar (optional) · Models: OpenAI-compatible APIs, Anthropic /v1/messages, Kimi, Qwen, OpenAI · port 30000 · [Repo](https://github.com/aiming-lab/metaclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metaclaw/)</sub>
 
 <a name="openclaw-studio"></a>
 ### #&#8288;60 [openclaw-studio](https://github.com/grp06/openclaw-studio) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (5) · Freshness: recent (79) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jun 2026</sub>

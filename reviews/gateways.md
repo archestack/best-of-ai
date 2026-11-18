@@ -5,7 +5,7 @@ LLM gateways and proxies for routing, caching and cost control, and tracing, eva
 <sub>🌐 Also on the web: [Gateways and observability on archestack.com](https://archestack.com/best-of-ai/gateways/), each project on its own page.</sub>
 
 <a name="omniroute"></a>
-### 🥇 [OmniRoute](https://github.com/cheaper-inference/omniroute) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Nov 2026</sub>
+### 🥇 [OmniRoute](https://github.com/cheaper-inference/omniroute) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Nov 2026</sub>
 
 **LLM gateway routing one OpenAI-compatible endpoint across 372 providers.**
 
@@ -593,8 +593,26 @@ Plano is an Envoy-based proxy for agentic apps: a YAML file declares agents (HTT
 
 <sub>no GPU · Docker · Needs Plano-Orchestrator routing model (hosted or local) · Models: OpenAI, Anthropic and other providers configured as model_providers · [Repo](https://github.com/katanemo/plano) · [📖 Docs ↗](https://docs.planoai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/plano/)</sub>
 
+<a name="switchyard"></a>
+### #&#8288;34 [switchyard](https://github.com/nvidia-nemo/switchyard) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Nov 2026</sub>
+
+**Rust library that routes each agent request to an efficient or capable model.**
+
+Switchyard is a Rust routing library (libsy) that decides which model handles each agent request, mixing efficient and more capable models to trade off task success, cost and latency. Algorithms include Auto (a Stage preset), Task (LLM classifier), Execution (tool-activity signals) and Composite. It embeds in your gateway or harness, with integrations for Agent Router (Envoy), LiteLLM, NeMo Relay and OpenRouter, plus Python and TypeScript bindings.
+
+- **+** Routing can change mid-run using recent tool activity, not only the first prompt
+- **+** You keep model clients and credentials; the library only returns the routing decision
+- **+** Several algorithms: Auto, Task, Execution, Composite, escalation, advisor, sub-agent, random
+- **+** Integrations for Agent Router, LiteLLM, NeMo Relay, OpenRouter; Python and TypeScript bindings
+- **−** Pre-1.0: libsy is Beta and its API will change before v1.0
+- **−** Standalone server is demo-only, not a supported production path
+- **−** LiteLLM integration is experimental and cannot serve classifier or escalation algorithms
+- **−** Cheaper calls may not mean cheaper completed tasks; needs your own evaluation
+
+<sub>Docker · Needs Rust toolchain, Python 3 (NeMo Relay plugin source build) · Models: OpenAI-compatible APIs, Anthropic-compatible APIs · [Repo](https://github.com/nvidia-nemo/switchyard) · [📖 Docs ↗](https://nvidia-nemo.github.io/Switchyard/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/switchyard/)</sub>
+
 <a name="router"></a>
-### #&#8288;34 [router](https://github.com/weave-os/router) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;35 [router](https://github.com/weave-os/router) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Nov 2026</sub>
 
 **Proxy that picks a model per request across Anthropic, OpenAI and Gemini APIs.**
 
@@ -612,7 +630,7 @@ Weave Router is a Go proxy that chooses a model for each request using an embedd
 <sub>no GPU · Docker + Compose · Needs Docker, Postgres, Go 1.26+, Node 18+ (installer), Provider API key, Pub/Sub (multi-replica) · Models: Anthropic, OpenAI, Gemini, OpenRouter, OpenAI-compatible endpoints · port 8080 · [Repo](https://github.com/weave-os/router) · [📖 Docs ↗](https://github.com/weave-os/router/blob/main/docs/README.md) · [🌐 Site ↗](https://weaveos.com/router/quickstart) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/router/)</sub>
 
 <a name="evalscope"></a>
-### #&#8288;35 [evalscope](https://github.com/modelscope/evalscope) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;36 [evalscope](https://github.com/modelscope/evalscope) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
 
 **Evaluation and stress-testing framework for LLM, VLM and embedding models.**
 
@@ -630,7 +648,7 @@ EvalScope is a Python CLI and library from the ModelScope community that runs be
 <sub>GPU optional · Needs Docker or E2B (agent/code benchmarks), OpenCompass, VLMEvalKit, RAGEval (optional backends) · Models: OpenAI-compatible API, Anthropic API, LLM, VLM, Embedding · [Repo](https://github.com/modelscope/evalscope) · [📖 Docs ↗](https://evalscope.readthedocs.io/en/latest/) · [🌐 Site ↗](https://modelscope.github.io/evalscope/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evalscope/)</sub>
 
 <a name="openlit"></a>
-### #&#8288;36 [OpenLIT](https://github.com/openlit/openlit) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;37 [OpenLIT](https://github.com/openlit/openlit) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Nov 2026</sub>
 
 **OpenTelemetry-based tracing, evals and guardrails for LLM apps and coding agents.**
 
@@ -647,7 +665,7 @@ OpenLIT is a self-hosted dashboard plus Python and TypeScript SDKs that auto-ins
 <sub>GPU optional · Compose · Needs ClickHouse, Docker Compose · Models: OpenAI, Anthropic, Ollama, vLLM, Amazon Bedrock · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/) · [🌐 Site ↗](https://openlit.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openlit/)</sub>
 
 <a name="trulens"></a>
-### #&#8288;37 [trulens](https://github.com/truera/trulens) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
+### #&#8288;38 [trulens](https://github.com/truera/trulens) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
 
 **Tracing and LLM-judge evaluation for agents and RAG apps on OpenTelemetry.**
 
@@ -665,7 +683,7 @@ TruLens instruments Python LLM apps with an `@instrument` decorator that records
 <sub>no GPU · Needs LLM provider for judges (OpenAI, Bedrock, Gemini, LiteLLM, HuggingFace, Snowflake Cortex) · Models: OpenAI, Azure OpenAI, LiteLLM, Google Gemini, AWS Bedrock · [Repo](https://github.com/truera/trulens) · [📖 Docs ↗](https://www.trulens.org/getting_started/) · [🌐 Site ↗](https://www.trulens.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trulens/)</sub>
 
 <a name="gomodel"></a>
-### #&#8288;38 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
+### #&#8288;39 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
 
 **Go LLM gateway with OpenAI and Anthropic-compatible APIs, caching and budgets.**
 
@@ -683,7 +701,7 @@ GoModel is a gateway written in Go that exposes OpenAI-compatible (/v1) and Anth
 <sub>no GPU · Docker + Compose · Needs Redis (optional), PostgreSQL (optional), MongoDB (optional), Prometheus (optional) · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Amazon Bedrock · port 8080 · [Repo](https://github.com/enterpilot/gomodel) · [▶️ Demo ↗](https://demo.enterpilot.io/admin/dashboard?utm_source=readme) · [📖 Docs ↗](https://gomodel.enterpilot.io/docs?utm_source=readme) · [🌐 Site ↗](https://gomodel.enterpilot.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gomodel/)</sub>
 
 <a name="cost-xray"></a>
-### #&#8288;39 [cost-xray](https://github.com/tigerless-labs/cost-xray) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (41) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Nov 2026</sub>
+### #&#8288;40 [cost-xray](https://github.com/tigerless-labs/cost-xray) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (41) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Nov 2026</sub>
 
 **Per-source token and cost breakdown of Claude Code and Codex API requests.**
 
@@ -701,7 +719,7 @@ cost-xray captures the real API traffic from Claude Code and Codex through a loc
 <sub>no GPU · Needs mitmproxy, Claude Code or Codex, systemd (optional, Linux) · Models: Claude Code (Anthropic wire), Codex (OpenAI Responses wire) · [Repo](https://github.com/tigerless-labs/cost-xray) · [🌐 Site ↗](https://tigerless.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cost-xray/)</sub>
 
 <a name="lmnr"></a>
-### #&#8288;40 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;41 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Nov 2026</sub>
 
 **Observability platform for AI agents with tracing, evals and SQL-queryable traces.**
 
@@ -716,24 +734,6 @@ Laminar is a Rust-based observability backend for AI agents. Its OpenTelemetry-n
 - **−** Self-hosted deployments send anonymous telemetry unless disabled by env variable
 
 <sub>no GPU · Compose · Needs ClickHouse, Postgres, Docker Compose · Models: OpenAI, Anthropic, Gemini, AWS Bedrock, Azure AI Foundry · port 5667 · [Repo](https://github.com/lmnr-ai/lmnr) · [📖 Docs ↗](https://laminar.sh/docs) · [🌐 Site ↗](https://laminar.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmnr/)</sub>
-
-<a name="switchyard"></a>
-### #&#8288;41 [switchyard](https://github.com/nvidia-nemo/switchyard) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (15) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Nov 2026</sub>
-
-**Rust library that routes each agent request to an efficient or capable model.**
-
-Switchyard is a Rust routing library (libsy) that decides which model handles each agent request, mixing efficient and more capable models to trade off task success, cost and latency. Algorithms include Auto (a Stage preset), Task (LLM classifier), Execution (tool-activity signals) and Composite. It embeds in your gateway or harness, with integrations for Agent Router (Envoy), LiteLLM, NeMo Relay and OpenRouter, plus Python and TypeScript bindings.
-
-- **+** Routing can change mid-run using recent tool activity, not only the first prompt
-- **+** You keep model clients and credentials; the library only returns the routing decision
-- **+** Several algorithms: Auto, Task, Execution, Composite, escalation, advisor, sub-agent, random
-- **+** Integrations for Agent Router, LiteLLM, NeMo Relay, OpenRouter; Python and TypeScript bindings
-- **−** Pre-1.0: libsy is Beta and its API will change before v1.0
-- **−** Standalone server is demo-only, not a supported production path
-- **−** LiteLLM integration is experimental and cannot serve classifier or escalation algorithms
-- **−** Cheaper calls may not mean cheaper completed tasks; needs your own evaluation
-
-<sub>Docker · Needs Rust toolchain, Python 3 (NeMo Relay plugin source build) · Models: OpenAI-compatible APIs, Anthropic-compatible APIs · [Repo](https://github.com/nvidia-nemo/switchyard) · [📖 Docs ↗](https://nvidia-nemo.github.io/Switchyard/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/switchyard/)</sub>
 
 <a name="future-agi"></a>
 ### #&#8288;42 [Future AGI](https://github.com/future-agi/future-agi) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Nov 2026</sub>

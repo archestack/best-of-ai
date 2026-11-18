@@ -23,7 +23,7 @@ Official collection of reference Model Context Protocol servers maintained by th
 <sub>no GPU · Needs Node.js (npx), uv or pip (Python servers), MCP client · [Repo](https://github.com/modelcontextprotocol/servers) · [📖 Docs ↗](https://modelcontextprotocol.io/introduction) · [🌐 Site ↗](https://modelcontextprotocol.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/servers/)</sub>
 
 <a name="apify-mcp-server"></a>
-### 🥈 [apify-mcp-server](https://github.com/apify/apify-mcp-server) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
+### 🥈 [apify-mcp-server](https://github.com/apify/apify-mcp-server) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Nov 2026</sub>
 
 **Official MCP server exposing Apify Store Actors as tools for web scraping.**
 
@@ -418,26 +418,8 @@ Python MCP server and Claude Code skill that searches papers across arXiv, PubMe
 
 <sub>no GPU · Docker · Needs Python 3.10+, Unpaywall email (optional), API keys for CORE, Semantic Scholar, OpenAlex, DOAJ, IEEE (optional) · [Repo](https://github.com/openags/paper-search-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paper-search-mcp/)</sub>
 
-<a name="mcp-obsidian"></a>
-### #&#8288;24 [mcp-obsidian](https://github.com/markuspfundstein/mcp-obsidian) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (47) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Aug 2026</sub>
-
-**MCP server that reads and edits Obsidian notes via the Local REST API plugin.**
-
-Python MCP server that lets an MCP client such as Claude Desktop list, read, search, append to, patch and delete notes in an Obsidian vault. It talks to Obsidian through the Local REST API community plugin, using an API key plus host and port (defaults 127.0.0.1 and 27124). It runs over stdio via uvx, uv, or a Docker Compose service.
-
-- **+** Seven tools: list, read, search, append, patch, delete files and directories
-- **+** Runs via uvx with no clone, or through a provided Docker Compose file
-- **+** Patch inserts relative to a heading, block reference or frontmatter field
-- **+** MIT licensed, small Python codebase
-- **−** Requires Obsidian running with the Local REST API plugin enabled
-- **−** Pinned to mcp 1.x; mcp 2.0 crashes at import
-- **−** Search is a plain text query; no semantic or embedding search
-- **−** delete_file can remove files or directories, so client permissions need care
-
-<sub>no GPU · Docker + Compose · Needs Obsidian, obsidian-local-rest-api plugin, Python >= 3.11, uv · [Repo](https://github.com/markuspfundstein/mcp-obsidian) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-obsidian/)</sub>
-
 <a name="open-websearch"></a>
-### #&#8288;25 [open-websearch](https://github.com/aas-ee/open-websearch) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (8) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [open-websearch](https://github.com/aas-ee/open-websearch) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
 
 **Keyless web search and page fetching over MCP, CLI or local HTTP.**
 
@@ -453,6 +435,24 @@ open-websearch scrapes results from engines such as Bing, DuckDuckGo, Brave, Exa
 - **−** Local browser profiles persist cookies, so sharing one daemon across untrusted callers needs isolated browsers
 
 <sub>no GPU · Docker + Compose · Needs Node.js, Playwright (optional) · port 3000 · [Repo](https://github.com/aas-ee/open-websearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-websearch/)</sub>
+
+<a name="mcp-obsidian"></a>
+### #&#8288;25 [mcp-obsidian](https://github.com/markuspfundstein/mcp-obsidian) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (47) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Aug 2026</sub>
+
+**MCP server that reads and edits Obsidian notes via the Local REST API plugin.**
+
+Python MCP server that lets an MCP client such as Claude Desktop list, read, search, append to, patch and delete notes in an Obsidian vault. It talks to Obsidian through the Local REST API community plugin, using an API key plus host and port (defaults 127.0.0.1 and 27124). It runs over stdio via uvx, uv, or a Docker Compose service.
+
+- **+** Seven tools: list, read, search, append, patch, delete files and directories
+- **+** Runs via uvx with no clone, or through a provided Docker Compose file
+- **+** Patch inserts relative to a heading, block reference or frontmatter field
+- **+** MIT licensed, small Python codebase
+- **−** Requires Obsidian running with the Local REST API plugin enabled
+- **−** Pinned to mcp 1.x; mcp 2.0 crashes at import
+- **−** Search is a plain text query; no semantic or embedding search
+- **−** delete_file can remove files or directories, so client permissions need care
+
+<sub>no GPU · Docker + Compose · Needs Obsidian, obsidian-local-rest-api plugin, Python >= 3.11, uv · [Repo](https://github.com/markuspfundstein/mcp-obsidian) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-obsidian/)</sub>
 
 <a name="mcp-server-mysql"></a>
 ### #&#8288;26 [mcp-server-mysql](https://github.com/benborla/mcp-server-mysql) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (13) · Freshness: active (94) · Maintenance: weak (4) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Jul 2026</sub>
@@ -491,7 +491,7 @@ Python MCP server that wraps the hosted 6551 API (ai.6551.io) and gives assistan
 <sub>no GPU · Needs 6551 API (ai.6551.io), OPENNEWS_TOKEN, uv · [Repo](https://github.com/6551team/opennews-mcp) · [🌐 Site ↗](https://6551.io/mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opennews-mcp/)</sub>
 
 <a name="slack-mcp-server"></a>
-### #&#8288;28 [slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (6) · Freshness: recent (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
+### #&#8288;28 [slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (6) · Freshness: recent (74) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
 
 **Slack workspace MCP server for reading, searching and posting messages.**
 
