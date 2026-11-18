@@ -468,26 +468,8 @@ kordoc converts Korean government document formats (HWP 3.x/5.x, HWPX, HWPML) pl
 
 <sub>no GPU · Needs Node.js 20+ · Models: HWP 3.x/5.x, HWPX, HWPML, PDF, XLS/XLSX · [Repo](https://github.com/chrisryugj/kordoc) · [📖 Docs ↗](https://github.com/chrisryugj/kordoc/blob/main/docs/usage.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kordoc/)</sub>
 
-<a name="data-juicer"></a>
-### #&#8288;27 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
-
-**Operator-based pipelines for cleaning and deduplicating multimodal training data.**
-
-Data-Juicer is a Python library and CLI (dj-process) that runs YAML-defined pipelines of 200+ operators over text, image, audio and video data, covering filtering, mapping, deduplication and analysis. It runs locally or on Ray clusters, and the README cites 70B samples in 2h on 50 Ray nodes and 5TB deduplicated in 2.8h on 1280 cores. It also ships LLM-based operators and a natural-language refinement model, Juicer.
-
-- **+** 200+ operators across text, image, audio, video and multimodal data
-- **+** Reproducible YAML recipes, plus a Python API for composing operators
-- **+** Ray-based distributed execution with partitioning, checkpoints and OP fusion
-- **+** Supports S3 and HDFS I/O, and loads Hugging Face datasets and gz JSONL
-- **−** Many operators need extra dependencies or GPUs; the install is split into extras
-- **−** Large-scale performance figures come from big clusters (1280 to 6400 cores)
-- **−** Frequent releases with many operator behavior fixes; pin versions for reproducibility
-- **−** Docs and several tools are spread across separate repos (hub, agents, sandbox)
-
-<sub>GPU optional · Docker · Needs Ray (distributed mode), S3 or HDFS (optional), Hugging Face / ModelScope models (optional) · Models: Hugging Face models, OpenAI-compatible API, LiteLLM, Juicer-35B-A3B · [Repo](https://github.com/datajuicer/data-juicer) · [▶️ Demo ↗](http://8.138.149.181/) · [📖 Docs ↗](https://datajuicer.github.io/data-juicer/en/main/docs_index.html) · [🌐 Site ↗](https://datajuicer.github.io/data-juicer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-juicer/)</sub>
-
 <a name="chandra"></a>
-### #&#8288;28 [chandra](https://github.com/datalab-to/chandra) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;27 [chandra](https://github.com/datalab-to/chandra) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **OCR model that converts PDFs and images to Markdown, HTML or JSON with layout.**
 
@@ -503,6 +485,24 @@ Chandra OCR 2 is a vision-language OCR model and Python CLI that turns images an
 - **−** The chandra_vllm launcher depends on Docker; VRAM and RAM requirements are unknown
 
 <sub>GPU required · Needs vLLM, Docker, HuggingFace Transformers, PyTorch · Models: datalab-to/chandra-ocr-2, HuggingFace, vLLM · port 8000 · [Repo](https://github.com/datalab-to/chandra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chandra/)</sub>
+
+<a name="data-juicer"></a>
+### #&#8288;28 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
+
+**Operator-based pipelines for cleaning and deduplicating multimodal training data.**
+
+Data-Juicer is a Python library and CLI (dj-process) that runs YAML-defined pipelines of 200+ operators over text, image, audio and video data, covering filtering, mapping, deduplication and analysis. It runs locally or on Ray clusters, and the README cites 70B samples in 2h on 50 Ray nodes and 5TB deduplicated in 2.8h on 1280 cores. It also ships LLM-based operators and a natural-language refinement model, Juicer.
+
+- **+** 200+ operators across text, image, audio, video and multimodal data
+- **+** Reproducible YAML recipes, plus a Python API for composing operators
+- **+** Ray-based distributed execution with partitioning, checkpoints and OP fusion
+- **+** Supports S3 and HDFS I/O, and loads Hugging Face datasets and gz JSONL
+- **−** Many operators need extra dependencies or GPUs; the install is split into extras
+- **−** Large-scale performance figures come from big clusters (1280 to 6400 cores)
+- **−** Frequent releases with many operator behavior fixes; pin versions for reproducibility
+- **−** Docs and several tools are spread across separate repos (hub, agents, sandbox)
+
+<sub>GPU optional · Docker · Needs Ray (distributed mode), S3 or HDFS (optional), Hugging Face / ModelScope models (optional) · Models: Hugging Face models, OpenAI-compatible API, LiteLLM, Juicer-35B-A3B · [Repo](https://github.com/datajuicer/data-juicer) · [▶️ Demo ↗](http://8.138.149.181/) · [📖 Docs ↗](https://datajuicer.github.io/data-juicer/en/main/docs_index.html) · [🌐 Site ↗](https://datajuicer.github.io/data-juicer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-juicer/)</sub>
 
 <a name="unstract"></a>
 ### #&#8288;29 [unstract](https://github.com/zipstack/unstract) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · AGPL-3.0 · Nov 2026</sub>
@@ -540,26 +540,8 @@ OpenMed is a Python SDK with a registry of clinical NER and PII models. It extra
 
 <sub>GPU optional · Docker + Compose · Needs Hugging Face Hub (model download), PyTorch, MLX (optional, Apple Silicon), ONNX Runtime (optional) · Models: Hugging Face PyTorch, MLX, ONNX, CoreML, Transformers.js · port 8080 · [Repo](https://github.com/maziyarpanahi/openmed) · [📖 Docs ↗](https://openmed.life/docs) · [🌐 Site ↗](https://openmed.life/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmed/)</sub>
 
-<a name="doctr"></a>
-### #&#8288;31 [doctr](https://github.com/mindee/doctr) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
-
-**Two-stage OCR library for PDFs and images, built on PyTorch.**
-
-docTR is a Python library that extracts text from PDFs and images by running a text detection model, then a text recognition model on each detected word. It returns a structured Document (pages, blocks, lines, words) that can be exported as JSON, and also offers a KIE predictor, optional layout detection and a FastAPI template. Detection and recognition architectures are selectable, with pretrained weights.
-
-- **+** Swappable detection (DBNet, LinkNet, FAST) and recognition (CRNN, SAR, MASTER, ViTSTR, PARSeq, VIPTR) models
-- **+** Handles rotated pages and returns nested page/block/line/word output exportable to JSON
-- **+** Includes KIE predictor, layout detection and a FastAPI template with OCR and KIE routes
-- **+** Hosted Hugging Face Space and Streamlit demo for trying it before installing
-- **−** Python 3.11 or higher required; PyTorch is the only supported framework
-- **−** API template is minimal; README example uses port 8080 while the server runs on 8002
-- **−** Docker GPU images need host CUDA 12.2 or newer
-- **−** Default pipeline is OCR only; table structure and layout models are listed but sparsely documented in README
-
-<sub>GPU optional · Docker · Needs PyTorch, Streamlit (demo), FastAPI (API template), weasyprint (URL input) · Models: DBNet, LinkNet, FAST, CRNN, SAR · port 8002 · [Repo](https://github.com/mindee/doctr) · [▶️ Demo ↗](https://huggingface.co/spaces/mindee/doctr) · [📖 Docs ↗](https://mindee.github.io/doctr/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doctr/)</sub>
-
 <a name="paddleocr"></a>
-### #&#8288;32 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 93k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;31 [paddleocr](https://github.com/paddlepaddle/paddleocr) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 93k · Apache-2.0 · Sep 2026</sub>
 
 **OCR and document parsing toolkit that outputs Markdown and JSON from PDFs and images.**
 
@@ -575,6 +557,24 @@ PaddleOCR runs text recognition (PP-OCRv6) and document parsing (PaddleOCR-VL 0.
 - **−** Several pipelines and models, so choosing between PP-OCR, VL and StructureV3 takes reading
 
 <sub>GPU optional · Needs PaddlePaddle · Models: PP-OCRv6, PaddleOCR-VL-1.6, PP-StructureV3, HPD-Parsing, ONNX · [Repo](https://github.com/paddlepaddle/paddleocr) · [▶️ Demo ↗](https://www.paddleocr.com) · [📖 Docs ↗](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/pipeline_overview.html) · [🌐 Site ↗](https://www.paddleocr.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paddleocr/)</sub>
+
+<a name="doctr"></a>
+### #&#8288;32 [doctr](https://github.com/mindee/doctr) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (41) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
+
+**Two-stage OCR library for PDFs and images, built on PyTorch.**
+
+docTR is a Python library that extracts text from PDFs and images by running a text detection model, then a text recognition model on each detected word. It returns a structured Document (pages, blocks, lines, words) that can be exported as JSON, and also offers a KIE predictor, optional layout detection and a FastAPI template. Detection and recognition architectures are selectable, with pretrained weights.
+
+- **+** Swappable detection (DBNet, LinkNet, FAST) and recognition (CRNN, SAR, MASTER, ViTSTR, PARSeq, VIPTR) models
+- **+** Handles rotated pages and returns nested page/block/line/word output exportable to JSON
+- **+** Includes KIE predictor, layout detection and a FastAPI template with OCR and KIE routes
+- **+** Hosted Hugging Face Space and Streamlit demo for trying it before installing
+- **−** Python 3.11 or higher required; PyTorch is the only supported framework
+- **−** API template is minimal; README example uses port 8080 while the server runs on 8002
+- **−** Docker GPU images need host CUDA 12.2 or newer
+- **−** Default pipeline is OCR only; table structure and layout models are listed but sparsely documented in README
+
+<sub>GPU optional · Docker · Needs PyTorch, Streamlit (demo), FastAPI (API template), weasyprint (URL input) · Models: DBNet, LinkNet, FAST, CRNN, SAR · port 8002 · [Repo](https://github.com/mindee/doctr) · [▶️ Demo ↗](https://huggingface.co/spaces/mindee/doctr) · [📖 Docs ↗](https://mindee.github.io/doctr/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doctr/)</sub>
 
 <a name="babeldoc"></a>
 ### #&#8288;33 [babeldoc](https://github.com/funstory-ai/babeldoc) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · AGPL-3.0 · Nov 2026</sub>

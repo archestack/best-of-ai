@@ -1294,26 +1294,8 @@ Jaaz is a desktop app (Windows, macOS) with an infinite canvas and a chat agent 
 
 <sub>GPU optional · Needs Python >=3.12, Node.js/npm, ComfyUI (optional), Ollama (optional) · Models: GPT-4o, Midjourney, VEO3, Kling, Seedance · [Repo](https://github.com/11cafe/jaaz) · [📖 Docs ↗](https://mxnpt25l6k.feishu.cn/docx/LvcTdlVbFoRAZWxnhBYcqVydnpc) · [🌐 Site ↗](https://jaaz.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jaaz/)</sub>
 
-<a name="skyreels-v2"></a>
-### #&#8288;73 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: popular (52) · Freshness: quiet (26) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Jan 2026</sub>
-
-**Open-weight video diffusion models for long text- and image-to-video generation.**
-
-SkyReels V2 provides weights and Python inference scripts for autoregressive diffusion-forcing video models at 1.3B and 14B parameters, at 540P and 720P. It supports text-to-video, image-to-video, video extension and start/end frame control, with clips generated in chunks to reach 30 to 60 seconds. Models are on Hugging Face and ModelScope, and Diffusers pipelines are included.
-
-- **+** Diffusion-forcing models extend length by chunking; README gives frame counts for 10s to 60s clips
-- **+** Covers T2V, I2V, video extension and start/end frame control from one script
-- **+** Diffusers pipelines provided alongside native scripts
-- **+** Peak VRAM documented: about 14.7GB for 1.3B at 540P
-- **−** 14B at 540P needs about 43 to 51GB peak VRAM, per the README
-- **−** 5B checkpoints and Camera Director models are still listed as coming soon
-- **−** Async mode needs frame counts divisible by causal_block_size, and is slower than sync
-- **−** No web UI or API server; inference runs through command-line scripts
-
-<sub>GPU required · Needs PyTorch, Hugging Face model weights, diffusers (optional) · Models: SkyReels-V2-DF 1.3B/14B, SkyReels-V2-T2V 14B, SkyReels-V2-I2V 1.3B/14B, SkyCaptioner-V1 · [Repo](https://github.com/skyworkai/skyreels-v2) · [▶️ Demo ↗](https://www.skyreels.ai/home?utm_campaign=github_SkyReels_V2) · [📖 Docs ↗](https://arxiv.org/pdf/2504.13074) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skyreels-v2/)</sub>
-
 <a name="hunyuan3d-2"></a>
-### #&#8288;74 [hunyuan3d-2](https://github.com/tencent-hunyuan/hunyuan3d-2) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (75) · Freshness: quiet (0) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · Oct 2025</sub>
+### #&#8288;73 [hunyuan3d-2](https://github.com/tencent-hunyuan/hunyuan3d-2) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (75) · Freshness: quiet (0) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · Oct 2025</sub>
 
 **Image-to-3D mesh and texture generation models from Tencent.**
 
@@ -1329,6 +1311,24 @@ Hunyuan3D 2.0 generates textured 3D assets in two stages: a flow-based diffusion
 - **−** No Docker image or tagged release; TensorRT version still unchecked in the plan
 
 <sub>GPU required · Needs PyTorch, Gradio, trimesh, Hugging Face model weights · Models: Hunyuan3D-DiT, Hunyuan3D-Paint, Hunyuan3D-2mini, Hunyuan3D-2mv, Hunyuan3D-Delight · port 8080 · [Repo](https://github.com/tencent-hunyuan/hunyuan3d-2) · [▶️ Demo ↗](https://huggingface.co/spaces/tencent/Hunyuan3D-2) · [📖 Docs ↗](https://3d-models.hunyuan.tencent.com/) · [🌐 Site ↗](https://3d.hunyuan.tencent.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuan3d-2/)</sub>
+
+<a name="skyreels-v2"></a>
+### #&#8288;74 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (52) · Freshness: quiet (26) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Jan 2026</sub>
+
+**Open-weight video diffusion models for long text- and image-to-video generation.**
+
+SkyReels V2 provides weights and Python inference scripts for autoregressive diffusion-forcing video models at 1.3B and 14B parameters, at 540P and 720P. It supports text-to-video, image-to-video, video extension and start/end frame control, with clips generated in chunks to reach 30 to 60 seconds. Models are on Hugging Face and ModelScope, and Diffusers pipelines are included.
+
+- **+** Diffusion-forcing models extend length by chunking; README gives frame counts for 10s to 60s clips
+- **+** Covers T2V, I2V, video extension and start/end frame control from one script
+- **+** Diffusers pipelines provided alongside native scripts
+- **+** Peak VRAM documented: about 14.7GB for 1.3B at 540P
+- **−** 14B at 540P needs about 43 to 51GB peak VRAM, per the README
+- **−** 5B checkpoints and Camera Director models are still listed as coming soon
+- **−** Async mode needs frame counts divisible by causal_block_size, and is slower than sync
+- **−** No web UI or API server; inference runs through command-line scripts
+
+<sub>GPU required · Needs PyTorch, Hugging Face model weights, diffusers (optional) · Models: SkyReels-V2-DF 1.3B/14B, SkyReels-V2-T2V 14B, SkyReels-V2-I2V 1.3B/14B, SkyCaptioner-V1 · [Repo](https://github.com/skyworkai/skyreels-v2) · [▶️ Demo ↗](https://www.skyreels.ai/home?utm_campaign=github_SkyReels_V2) · [📖 Docs ↗](https://arxiv.org/pdf/2504.13074) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skyreels-v2/)</sub>
 
 <a name="hunyuanvideo-1-5"></a>
 ### #&#8288;75 [hunyuanvideo-1.5](https://github.com/tencent-hunyuan/hunyuanvideo-1.5) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (30) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · custom license · Apr 2026</sub>

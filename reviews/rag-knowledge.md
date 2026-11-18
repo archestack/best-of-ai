@@ -167,7 +167,7 @@ PageIndex builds a hierarchical tree index from each long PDF and has an LLM rea
 <sub>no GPU · Needs LLM API key (OpenAI or other supported provider), PageIndex API key (Cloud mode only) · Models: OpenAI models, Claude via Claude Code subscription, PageIndex Cloud compatible models · [Repo](https://github.com/vectifyai/pageindex) · [▶️ Demo ↗](https://app.pageindex.ai) · [📖 Docs ↗](https://docs.pageindex.ai) · [🌐 Site ↗](https://pageindex.ai/developer) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pageindex/)</sub>
 
 <a name="weknora"></a>
-### #&#8288;10 [WeKnora](https://github.com/tencent/weknora) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · custom license · Nov 2026</sub>
+### #&#8288;10 [WeKnora](https://github.com/tencent/weknora) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · custom license · Nov 2026</sub>
 
 **Knowledge base framework with RAG Q&A, tool-using agents and auto-generated wikis.**
 
@@ -615,26 +615,8 @@ llmware is a Python library that combines a model catalog (300+ models in GGUF, 
 
 <sub>GPU optional · Needs Milvus, ChromaDB · Models: GGUF, OpenVINO, ONNXRuntime, ONNXRuntime-QNN, PyTorch · [Repo](https://github.com/llmware-ai/llmware) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llmware/)</sub>
 
-<a name="knowhere"></a>
-### #&#8288;35 [knowhere](https://github.com/ontos-ai/knowhere) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Nov 2026</sub>
-
-**Document parsing and retrieval backend that builds navigable memory for agents.**
-
-Knowhere ingests PDFs, slides, Office files, images and audio, then builds hierarchy-aware chunks, a cross-document entity graph and page-grounded citations. PDF and PowerPoint go through vision-model parsing, other formats are parsed natively, and agents query the result through built-in retrieval, MCP or a REST tools endpoint. It is a Python API plus worker that needs Postgres, Redis and S3-compatible storage.
-
-- **+** Progressive ingestion makes documents searchable before background enrichment finishes
-- **+** Citations keep source document, section path, page number and rendered page image
-- **+** External agents can call the same corpus tools via MCP or POST /v2/retrieval/tools/invoke
-- **+** Model-agnostic: DeepSeek, OpenAI, Qwen, GLM or any compatible provider
-- **−** Setup needs Postgres, Redis, S3-compatible storage and several external API keys
-- **−** PDF and PowerPoint parsing depends on a vision-capable model provider
-- **−** Anonymous PostHog telemetry is on by default in self-hosted installs
-- **−** Benchmark figures come from an internal evaluation, not independent runs
-
-<sub>Docker + Compose · Needs PostgreSQL, Redis, S3-compatible storage, LLM provider API key, Vision-capable model provider, VERCEL_KEY for embeddings, uv · Models: DeepSeek, OpenAI, Qwen, GLM, Volcengine · port 5005 · [Repo](https://github.com/ontos-ai/knowhere) · [📖 Docs ↗](https://docs.knowhereto.ai/) · [🌐 Site ↗](https://knowhereto.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/knowhere/)</sub>
-
 <a name="audiomuse-ai"></a>
-### #&#8288;36 [audiomuse-ai](https://github.com/neptunehub/audiomuse-ai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;35 [audiomuse-ai](https://github.com/neptunehub/audiomuse-ai) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · AGPL-3.0 · Nov 2026</sub>
 
 **Self-hosted sonic analysis and playlist generation for Navidrome, Jellyfin and Plex.**
 
@@ -650,6 +632,24 @@ AudioMuse-AI analyzes the audio in your music library on your own server and use
 - **−** Major or minor releases can require re-running the full library analysis
 
 <sub>RAM ≥ 8 GB · GPU optional · Docker + Compose · Needs PostgreSQL 15, Navidrome, Jellyfin, LMS, Lyrion, Emby or Plex server · port 8000 · [Repo](https://github.com/neptunehub/audiomuse-ai) · [📖 Docs ↗](https://github.com/NeptuneHub/AudioMuse-AI/tree/main/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/audiomuse-ai/)</sub>
+
+<a name="knowhere"></a>
+### #&#8288;36 [knowhere](https://github.com/ontos-ai/knowhere) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Nov 2026</sub>
+
+**Document parsing and retrieval backend that builds navigable memory for agents.**
+
+Knowhere ingests PDFs, slides, Office files, images and audio, then builds hierarchy-aware chunks, a cross-document entity graph and page-grounded citations. PDF and PowerPoint go through vision-model parsing, other formats are parsed natively, and agents query the result through built-in retrieval, MCP or a REST tools endpoint. It is a Python API plus worker that needs Postgres, Redis and S3-compatible storage.
+
+- **+** Progressive ingestion makes documents searchable before background enrichment finishes
+- **+** Citations keep source document, section path, page number and rendered page image
+- **+** External agents can call the same corpus tools via MCP or POST /v2/retrieval/tools/invoke
+- **+** Model-agnostic: DeepSeek, OpenAI, Qwen, GLM or any compatible provider
+- **−** Setup needs Postgres, Redis, S3-compatible storage and several external API keys
+- **−** PDF and PowerPoint parsing depends on a vision-capable model provider
+- **−** Anonymous PostHog telemetry is on by default in self-hosted installs
+- **−** Benchmark figures come from an internal evaluation, not independent runs
+
+<sub>Docker + Compose · Needs PostgreSQL, Redis, S3-compatible storage, LLM provider API key, Vision-capable model provider, VERCEL_KEY for embeddings, uv · Models: DeepSeek, OpenAI, Qwen, GLM, Volcengine · port 5005 · [Repo](https://github.com/ontos-ai/knowhere) · [📖 Docs ↗](https://docs.knowhereto.ai/) · [🌐 Site ↗](https://knowhereto.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/knowhere/)</sub>
 
 <a name="flashrag"></a>
 ### #&#8288;37 [flashrag](https://github.com/ruc-nlpir/flashrag) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Oct 2026</sub>
