@@ -1472,7 +1472,7 @@ GEPA (Genetic-Pareto) optimizes text parameters such as prompts, code and agent 
 <sub>no GPU · Needs LLM API for task and reflection models (e.g. OpenAI) · Models: OpenAI-style provider/model strings, any LLM via adapter, DSPy programs, LangChain pipelines · [Repo](https://github.com/gepa-ai/gepa) · [📖 Docs ↗](https://gepa-ai.github.io/gepa/guides/quickstart/) · [🌐 Site ↗](https://gepa-ai.github.io/gepa/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gepa/)</sub>
 
 <a name="rivet"></a>
-### #&#8288;83 [rivet](https://github.com/rivet-dev/rivet) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;83 [rivet](https://github.com/rivet-dev/rivet) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · Apache-2.0 · Nov 2026</sub>
 
 **Stateful Actor runtime with SQLite and WebSockets for durable agents and realtime apps.**
 
@@ -2567,7 +2567,7 @@ AgentDock Core is a backend-first TypeScript framework where agents, tools and c
 <sub>no GPU · Compose · Needs Node.js >= 20.11.0, pnpm >= 9.15.0, LLM provider API key, Serper API key (search tool), Firecrawl API key (deeper web search) · Models: Anthropic, OpenAI, Google Gemini, DeepSeek, Groq · [Repo](https://github.com/agentdock/agentdock) · [▶️ Demo ↗](https://hub.agentdock.ai) · [📖 Docs ↗](https://hub.agentdock.ai/docs) · [🌐 Site ↗](https://agentdock.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentdock/)</sub>
 
 <a name="founder-skill"></a>
-### #&#8288;144 [founder-skill](https://github.com/jakeschincariol/founder-skill) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Oct 2026</sub>
+### #&#8288;144 [founder-skill](https://github.com/jakeschincariol/founder-skill) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Oct 2026</sub>
 
 **Eleven Claude skills that test a business idea before launch.**
 
@@ -2782,7 +2782,7 @@ LatentMAS is the reference code for an ICML 2026 paper on multi-agent systems in
 <sub>GPU required · Needs PyTorch, Hugging Face Transformers, vLLM (optional), conda · Models: Hugging Face models, Qwen3-4B, Qwen3-8B, Qwen3-14B, vLLM · [Repo](https://github.com/gen-verse/latentmas) · [📖 Docs ↗](https://arxiv.org/abs/2511.20639) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/latentmas/)</sub>
 
 <a name="paper2code"></a>
-### #&#8288;156 [paper2code](https://github.com/going-doer/paper2code) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (29) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;156 [paper2code](https://github.com/going-doer/paper2code) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (28) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Mar 2026</sub>
 
 **Multi-agent pipeline that turns ML papers into code repositories.**
 

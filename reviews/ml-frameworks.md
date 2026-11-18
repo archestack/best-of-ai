@@ -183,7 +183,7 @@ Official implementation of FlashAttention and FlashAttention-2 as CUDA and ROCm 
 <sub>GPU required · Needs PyTorch 2.2+, CUDA 12.0+ or ROCm 6.0+, ninja, packaging, psutil · Models: fp16, bf16, fp8 (FA3 forward), fp32 (ROCm Triton) · [Repo](https://github.com/dao-ailab/flash-attention) · [📖 Docs ↗](https://github.com/Dao-AILab/flash-attention/blob/main/usage.md) · [🌐 Site ↗](https://tridao.me/blog/2024/flash3/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flash-attention/)</sub>
 
 <a name="onnx"></a>
-### #&#8288;11 [onnx](https://github.com/onnx/onnx) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;11 [onnx](https://github.com/onnx/onnx) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Nov 2026</sub>
 
 **Open model format and operator spec for exchanging ML models between frameworks.**
 
@@ -1213,7 +1213,7 @@ PyOD is a Python library for outlier detection covering tabular, time series, gr
 <sub>Needs numba, SUOD, mcp (optional extra) · Models: tabular, time series, graph, text, image · [Repo](https://github.com/yzhao062/pyod) · [▶️ Demo ↗](https://htmlpreview.github.io/?https://github.com/yzhao062/pyod/blob/development/examples/agentic_demo.html) · [📖 Docs ↗](https://pyod.readthedocs.io/en/latest/) · [🌐 Site ↗](https://pyod.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyod/)</sub>
 
 <a name="transformerlens"></a>
-### #&#8288;69 [transformerlens](https://github.com/transformerlensorg/transformerlens) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Nov 2026</sub>
+### #&#8288;69 [transformerlens](https://github.com/transformerlensorg/transformerlens) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Nov 2026</sub>
 
 **Python library for inspecting and editing activations in language models.**
 
@@ -2141,7 +2141,7 @@ Causal ML is a Python package that estimates the Conditional Average Treatment E
 <sub>Models: uplift trees, meta-learners, doubly robust estimators, neural network CATE estimators · [Repo](https://github.com/uber/causalml) · [📖 Docs ↗](https://causalml.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/causalml/)</sub>
 
 <a name="iree"></a>
-### #&#8288;121 [iree](https://github.com/iree-org/iree) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;121 [iree](https://github.com/iree-org/iree) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2026</sub>
 
 **MLIR-based compiler and runtime for deploying ML models from datacenter to edge.**
 
@@ -3033,7 +3033,7 @@ Argos Translate translates text offline using OpenNMT models run through CTransl
 <sub>GPU optional · Needs OpenNMT, CTranslate2 · Models: .argosmodel packages (OpenNMT) · [Repo](https://github.com/argosopentech/argos-translate) · [▶️ Demo ↗](https://libretranslate.com) · [📖 Docs ↗](https://argos-translate.readthedocs.io) · [🌐 Site ↗](https://www.argosopentech.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/argos-translate/)</sub>
 
 <a name="vlmevalkit"></a>
-### #&#8288;171 [vlmevalkit](https://github.com/open-compass/vlmevalkit) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (29) · Freshness: recent (70) · Maintenance: patchy (48) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;171 [vlmevalkit](https://github.com/open-compass/vlmevalkit) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (28) · Freshness: recent (70) · Maintenance: patchy (48) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Nov 2026</sub>
 
 **Evaluation toolkit that runs vision-language models on 70+ image and video benchmarks.**
 
@@ -3211,26 +3211,8 @@ Kaolin is NVIDIA's PyTorch library of GPU-optimized modules for 3D deep learning
 
 <sub>GPU required · Needs PyTorch, CUDA, NVIDIA Warp · Models: PLY, USD, OBJ, GLTF · [Repo](https://github.com/nvidiagameworks/kaolin) · [📖 Docs ↗](https://kaolin.readthedocs.io/en/latest/) · [🌐 Site ↗](https://developer.nvidia.com/kaolin) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kaolin/)</sub>
 
-<a name="scenic"></a>
-### #&#8288;181 [scenic](https://github.com/google-research/scenic) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
-
-**JAX/Flax library for training attention-based vision models at scale.**
-
-Scenic is a JAX and Flax codebase for research on attention-based computer vision models. It provides shared libraries for multi-host, multi-device training (input pipelines, losses, metrics, bipartite matchers, trainers) plus project directories with full training and evaluation loops. It includes reimplemented baselines such as ViT, DETR, CLIP, U-Net and SAM, and code for research projects like ViViT.
-
-- **+** Includes reproduced baselines: ViT, DETR, Deformable DETR, CLIP, MAE, ResNet, U-Net, SAM
-- **+** Input pipelines handle multi-host and multi-device splitting, caching and prefetching
-- **+** Projects can be config-only or fork the trainers, losses and models entirely
-- **+** Hosts code for published research such as ViViT, TokenLearner and OWL-ViT
-- **−** JAX/Flax only, no PyTorch or TensorFlow support
-- **−** Philosophy favors forking and copy-pasting, so code is duplicated across projects
-- **−** Many projects need extra packages from their own requirements files
-- **−** No tagged releases; install is from a git clone
-
-<sub>Needs JAX, Flax, Python 3.9+ · Models: ViT, DETR, CLIP, ResNet, U-Net · [Repo](https://github.com/google-research/scenic) · [▶️ Demo ↗](https://colab.research.google.com/github/google-research/scenic/blob/main/scenic/common_lib/colabs/scenic_playground.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scenic/)</sub>
-
 <a name="handwired"></a>
-### #&#8288;182 [handwired](https://github.com/chenglou/handwired) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+### #&#8288;181 [handwired](https://github.com/chenglou/handwired) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
 
 **Compiles plain JavaScript into an exact, differentiable matmul-and-ReGLU network.**
 
@@ -3246,6 +3228,24 @@ Handwired rewrites JavaScript control flow (if-else, loops, state) as matrix mul
 - **−** Setup requires Bun and cloning the repo; no package install shown
 
 <sub>GPU optional · Needs Bun · [Repo](https://github.com/chenglou/handwired) · [▶️ Demo ↗](https://chenglou.me/handwired/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/handwired/)</sub>
+
+<a name="scenic"></a>
+### #&#8288;182 [scenic](https://github.com/google-research/scenic) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
+
+**JAX/Flax library for training attention-based vision models at scale.**
+
+Scenic is a JAX and Flax codebase for research on attention-based computer vision models. It provides shared libraries for multi-host, multi-device training (input pipelines, losses, metrics, bipartite matchers, trainers) plus project directories with full training and evaluation loops. It includes reimplemented baselines such as ViT, DETR, CLIP, U-Net and SAM, and code for research projects like ViViT.
+
+- **+** Includes reproduced baselines: ViT, DETR, Deformable DETR, CLIP, MAE, ResNet, U-Net, SAM
+- **+** Input pipelines handle multi-host and multi-device splitting, caching and prefetching
+- **+** Projects can be config-only or fork the trainers, losses and models entirely
+- **+** Hosts code for published research such as ViViT, TokenLearner and OWL-ViT
+- **−** JAX/Flax only, no PyTorch or TensorFlow support
+- **−** Philosophy favors forking and copy-pasting, so code is duplicated across projects
+- **−** Many projects need extra packages from their own requirements files
+- **−** No tagged releases; install is from a git clone
+
+<sub>Needs JAX, Flax, Python 3.9+ · Models: ViT, DETR, CLIP, ResNet, U-Net · [Repo](https://github.com/google-research/scenic) · [▶️ Demo ↗](https://colab.research.google.com/github/google-research/scenic/blob/main/scenic/common_lib/colabs/scenic_playground.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scenic/)</sub>
 
 <a name="time-series-library"></a>
 ### #&#8288;183 [time-series-library](https://github.com/thuml/time-series-library) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (72) · Freshness: recent (55) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Apr 2026</sub>
@@ -3821,7 +3821,7 @@ PySlowFast is FAIR's PyTorch codebase for video understanding research. It imple
 <sub>Needs PyTorch, PyTorchVideo · Models: SlowFast, Slow, C2D, I3D, Non-local · [Repo](https://github.com/facebookresearch/slowfast) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/slowfast/)</sub>
 
 <a name="tensortrade"></a>
-### #&#8288;215 [tensortrade](https://github.com/tensortrade-org/tensortrade) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (51) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;215 [tensortrade](https://github.com/tensortrade-org/tensortrade) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (50) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Feb 2026</sub>
 
 **Python framework for training reinforcement learning agents on trading environments.**
 
@@ -3839,7 +3839,7 @@ TensorTrade provides composable pieces for RL trading: environments, action sche
 <sub>GPU optional · Docker · Needs Ray RLlib, Optuna, TensorFlow, Jupyter · Models: PPO · [Repo](https://github.com/tensortrade-org/tensortrade) · [📖 Docs ↗](https://www.tensortrade.org/en/latest/) · [🌐 Site ↗](https://www.tensortrade.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tensortrade/)</sub>
 
 <a name="hummingbird"></a>
-### #&#8288;216 [hummingbird](https://github.com/microsoft/hummingbird) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (16) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Sep 2026</sub>
+### #&#8288;216 [hummingbird](https://github.com/microsoft/hummingbird) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (15) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Sep 2026</sub>
 
 **Compiles trained scikit-learn, LightGBM and XGBoost models into PyTorch tensor ops.**
 

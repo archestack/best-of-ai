@@ -864,7 +864,7 @@ Python CLI and library that downloads a YouTube video or local file, transcribes
 <sub>GPU optional · Needs MuAPI (API mode), ffmpeg (local mode), yt-dlp, faster-whisper, OpenCV, OpenAI or Gemini API key (local mode) · Models: OpenAI gpt-4o-mini, Gemini gemini-2.5-flash, faster-whisper tiny to large-v3, MuAPI gpt-5-mini · [Repo](https://github.com/anil-matcha/ai-youtube-shorts-generator) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-youtube-shorts-generator/)</sub>
 
 <a name="sumy"></a>
-### #&#8288;49 [sumy](https://github.com/miso-belica/sumy) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;49 [sumy](https://github.com/miso-belica/sumy) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
 
 **Extractive text summarizer for web pages and plain text, as library and CLI.**
 
@@ -970,7 +970,7 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
 <a name="oxr"></a>
-### #&#8288;55 [oxr](https://github.com/somarkai/oxr) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Nov 2026</sub>
+### #&#8288;55 [oxr](https://github.com/somarkai/oxr) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Nov 2026</sub>
 
 **1.3B document parsing model that turns PDFs and images into Markdown or JSON.**
 

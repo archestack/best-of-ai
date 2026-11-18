@@ -41,7 +41,7 @@ Laya answers structured questions (choice, score, yes/no) about text in one non-
 <sub>GPU optional · Docker + Compose · Needs PyTorch, Hugging Face Hub, ffmpeg (video input) · Models: laya (English), laya-multilingual, laya-typed-decisions, vega-U 0.8B, Qwen3.5-4B reader · [Repo](https://github.com/nandhakishorm/laya) · [▶️ Demo ↗](https://huggingface.co/spaces/convaiinnovations/laya-demo) · [📖 Docs ↗](https://nandhakishorm.github.io/laya/) · [🌐 Site ↗](https://huggingface.co/convaiinnovations/laya) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/laya/)</sub>
 
 <a name="rf-detr"></a>
-### 🥉 [rf-detr](https://github.com/roboflow/rf-detr) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [rf-detr](https://github.com/roboflow/rf-detr) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Real-time transformer models for object detection, segmentation and keypoints.**
 
@@ -808,7 +808,7 @@ TRELLIS.2 is Microsoft's 4B-parameter image-to-3D model built on a sparse voxel 
 <sub>GPU required · Needs CUDA Toolkit 12.4, PyTorch 2.6.0, Conda, flash-attn, nvdiffrast, nvdiffrec, CuMesh, FlexGEMM · Models: TRELLIS.2-4B · [Repo](https://github.com/microsoft/trellis.2) · [▶️ Demo ↗](https://huggingface.co/spaces/microsoft/TRELLIS.2) · [🌐 Site ↗](https://microsoft.github.io/TRELLIS.2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trellis-2/)</sub>
 
 <a name="moss-tts"></a>
-### #&#8288;46 [moss-tts](https://github.com/openmoss/moss-tts) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;46 [moss-tts](https://github.com/openmoss/moss-tts) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Sep 2026</sub>
 
 **Open-weight TTS model family for cloning, dialogue, realtime speech and sound effects.**
 
@@ -826,7 +826,7 @@ MOSS-TTS is a family of open-weight speech and sound generation models from MOSI
 <sub>GPU optional · Needs PyTorch, Hugging Face Transformers, FlashAttention 2 (optional), llama.cpp (optional), ONNX Runtime (optional) · Models: MOSS-TTS-v1.5 (8B), MOSS-TTS-Local-Transformer-v1.5 (4B), MOSS-TTSD-v1.0, MOSS-VoiceGenerator, MOSS-TTS-Realtime · [Repo](https://github.com/openmoss/moss-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTS) · [📖 Docs ↗](https://studio.mosi.cn/docs/moss-tts) · [🌐 Site ↗](https://mosi.cn/#models) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moss-tts/)</sub>
 
 <a name="glm-4"></a>
-### #&#8288;47 [glm-4](https://github.com/zai-org/glm-4) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (49) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;47 [glm-4](https://github.com/zai-org/glm-4) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (48) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Aug 2026</sub>
 
 **Open-weight GLM-4 9B and 32B chat and reasoning models.**
 

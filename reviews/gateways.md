@@ -523,7 +523,7 @@ vLLM Semantic Router sits between an agent harness and several configured model 
 <sub>Docker · Models: local, private and cloud backends · [Repo](https://github.com/vllm-project/semantic-router) · [▶️ Demo ↗](https://app.vllm-sr.ai/playground) · [📖 Docs ↗](https://vllm-sr.ai/docs/intro/) · [🌐 Site ↗](https://vllm-sr.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-router/)</sub>
 
 <a name="optillm"></a>
-### #&#8288;30 [optillm](https://github.com/algorithmicsuperintelligence/optillm) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;30 [optillm](https://github.com/algorithmicsuperintelligence/optillm) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Nov 2026</sub>
 
 **OpenAI-compatible proxy that applies inference-time reasoning techniques to any LLM.**
 
@@ -1005,7 +1005,7 @@ mcpo wraps an MCP server command, SSE or Streamable HTTP endpoint and exposes it
 <sub>no GPU · Docker · Needs MCP servers to proxy · port 8000 · [Repo](https://github.com/open-webui/mcpo) · [📖 Docs ↗](https://docs.openwebui.com/openapi-servers/open-webui/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcpo/)</sub>
 
 <a name="openclaw-control-center"></a>
-### #&#8288;57 [openclaw-control-center](https://github.com/tianyidatascience/openclaw-control-center) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (21) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Apr 2026</sub>
+### #&#8288;57 [openclaw-control-center](https://github.com/tianyidatascience/openclaw-control-center) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (20) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Apr 2026</sub>
 
 **Local dashboard for monitoring and coordinating an existing OpenClaw agent setup.**
 

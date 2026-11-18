@@ -1814,7 +1814,7 @@ A Chinese-language fork of Goku Mohandas's practicalAI course: Jupyter notebooks
 <sub>Needs Google Colab, PyTorch, Jupyter · [Repo](https://github.com/mleveryday/practicalai-cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/practicalai-cn/)</sub>
 
 <a name="notebooks"></a>
-### #&#8288;103 [notebooks](https://github.com/roboflow/notebooks) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (57) · Freshness: recent (68) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.7k · no license · Aug 2026</sub>
+### #&#8288;103 [notebooks](https://github.com/roboflow/notebooks) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (56) · Freshness: recent (68) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.7k · no license · Aug 2026</sub>
 
 **Jupyter notebooks for computer vision models, with Colab and Kaggle links.**
 

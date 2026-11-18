@@ -397,7 +397,7 @@ Fractal pairs a Python Flask control plane (FractalCore) with a Kotlin Android n
 <sub>Needs Firebase Firestore, Android Studio, Python 3.10+, Docker Compose, TFLite, ExecuTorch, torchao, XNNPACK · Models: Llama 3 8B, TinyLlama, TFLite (.tflite), ExecuTorch (.pte) · port 5000 · [Repo](https://github.com/fractal-compute-orchestrations/fractalworkspace) · [🌐 Site ↗](https://www.behance.net/gallery/221459335/Fractal) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fractalworkspace/)</sub>
 
 <a name="marin"></a>
-### #&#8288;23 [marin](https://github.com/marin-community/marin) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [marin](https://github.com/marin-community/marin) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Nov 2026</sub>
 
 **Python platform for training LLMs from data curation through evaluation.**
 
