@@ -327,26 +327,8 @@ ChatOllama is a SvelteKit/TypeScript chat workspace that runs as one Node.js ser
 
 <sub>no GPU · Docker + Compose · Needs OpenAI-compatible chat endpoint, OpenAI-compatible embedding endpoint (for knowledge bases), Node.js 24.22.2 and pnpm 10.8.1 (non-Docker install) · Models: OpenAI-compatible APIs, Ollama (via /v1), ChatGPT/Claude subscriptions · port 3000 · [Repo](https://github.com/sugarforever/chat-ollama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chat-ollama/)</sub>
 
-<a name="geekai"></a>
-### #&#8288;19 [geekai](https://github.com/yangjian102621/geekai) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
-
-**Multi-user web app for AI chat, image, music and video generation with billing.**
-
-GeekAI is a Go (Gin) backend with a Vue 3 front end that wraps chat models and third-party generation services in one web app. It covers chat with ChatGPT and Claude, image generation through MidJourney, DALL-E and others, Suno music, Luma/KeLing/Veo3 video, and mind maps. It includes user registration, credit top-ups, per-use or subscription billing, and an admin console.
-
-- **+** Chat, image, music, video and mind-map tools in one app
-- **+** Built-in user accounts, credit top-ups, and per-use or subscription billing
-- **+** Stores output on Qiniu, Aliyun OSS, Tencent COS or Minio
-- **+** Separate admin backend; separate desktop and mobile UIs (Element Plus, Vant)
-- **−** Generation relies on external services such as MidJourney, Suno and Luma
-- **−** Requires MySQL and Redis alongside the Go backend
-- **−** Private deployments cannot be upgraded in place; manual upgrade required
-- **−** README is Chinese only, with unsourced claims such as an 80% speedup
-
-<sub>Compose · Needs MySQL, Redis, Object storage (Qiniu, Aliyun OSS, Tencent COS or Minio) · Models: ChatGPT, Claude, MidJourney, DALL-E, Nano-Banana · [Repo](https://github.com/yangjian102621/geekai) · [▶️ Demo ↗](https://chat.geekai.me) · [📖 Docs ↗](https://docs.geekai.me) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/geekai/)</sub>
-
 <a name="chathub"></a>
-### #&#8288;20 [chathub](https://github.com/chathub-dev/chathub) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;19 [chathub](https://github.com/chathub-dev/chathub) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
 
 **Browser extension that chats with several AI chatbots side by side.**
 
@@ -362,6 +344,24 @@ ChatHub is a Chromium browser extension that puts multiple chatbots in one windo
 - **−** No tagged releases; install from the web store or build from source
 
 <sub>no GPU · Needs Chromium-based browser, Node.js with corepack and yarn (build only) · Models: ChatGPT, Gemini, Claude, Grok, DeepSeek · [Repo](https://github.com/chathub-dev/chathub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chathub/)</sub>
+
+<a name="geekai"></a>
+### #&#8288;20 [geekai](https://github.com/yangjian102621/geekai) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
+
+**Multi-user web app for AI chat, image, music and video generation with billing.**
+
+GeekAI is a Go (Gin) backend with a Vue 3 front end that wraps chat models and third-party generation services in one web app. It covers chat with ChatGPT and Claude, image generation through MidJourney, DALL-E and others, Suno music, Luma/KeLing/Veo3 video, and mind maps. It includes user registration, credit top-ups, per-use or subscription billing, and an admin console.
+
+- **+** Chat, image, music, video and mind-map tools in one app
+- **+** Built-in user accounts, credit top-ups, and per-use or subscription billing
+- **+** Stores output on Qiniu, Aliyun OSS, Tencent COS or Minio
+- **+** Separate admin backend; separate desktop and mobile UIs (Element Plus, Vant)
+- **−** Generation relies on external services such as MidJourney, Suno and Luma
+- **−** Requires MySQL and Redis alongside the Go backend
+- **−** Private deployments cannot be upgraded in place; manual upgrade required
+- **−** README is Chinese only, with unsourced claims such as an 80% speedup
+
+<sub>Compose · Needs MySQL, Redis, Object storage (Qiniu, Aliyun OSS, Tencent COS or Minio) · Models: ChatGPT, Claude, MidJourney, DALL-E, Nano-Banana · [Repo](https://github.com/yangjian102621/geekai) · [▶️ Demo ↗](https://chat.geekai.me) · [📖 Docs ↗](https://docs.geekai.me) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/geekai/)</sub>
 
 <a name="sqlchat"></a>
 ### #&#8288;21 [sqlchat](https://github.com/sqlchat/sqlchat) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (33) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Oct 2026</sub>

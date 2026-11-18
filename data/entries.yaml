@@ -22476,7 +22476,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 73
+    score: 72
   - id: upsonic
     repo: upsonic/upsonic
     name: upsonic
@@ -43564,7 +43564,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 39
+    score: 38
   - id: minecontext
     repo: volcengine/minecontext
     name: minecontext
@@ -48939,7 +48939,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 53
+    score: 52
   - id: tradingview-mcp
     repo: atilaahmettaner/tradingview-mcp
     name: tradingview-mcp
@@ -52792,7 +52792,7 @@ entries:
       has_compose: true
       is_template: false
       language: Vue
-    score: 56
+    score: 55
   - id: stable-diffusion-videos
     repo: nateraw/stable-diffusion-videos
     name: stable-diffusion-videos
@@ -59541,7 +59541,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 71
+    score: 70
   - id: deepchecks
     repo: deepchecks/deepchecks
     name: deepchecks
@@ -61745,7 +61745,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 41
   - id: graphembedding
     repo: shenweichen/graphembedding
     name: graphembedding
@@ -62415,7 +62415,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 32
+    score: 33
   - id: founder-skill
     repo: jakeschincariol/founder-skill
     name: founder-skill
@@ -66164,58 +66164,6 @@ entries:
       is_template: false
       language: Python
     score: 46
-  - id: veyra-nrvideo
-    repo: likely7/veyra-nrvideo
-    name: veyra-nrvideo
-    status: listed
-    tagline: Real-time GPU video upscaling, denoising and frame generation player for Windows
-    summary: Veyra is a Windows 11 C++/DirectX 12 application that applies super resolution, neural denoising (NR), HDR conversion and frame generation to local video, capture cards, PS5, Xbox, Sunshine PC streams and screen capture. It offers a list-based effect pipeline and a node editor, plus a queued MP4/MKV export. It ships as NVIDIA and AMD portable zips with a Qt UI.
-    categories:
-      - image-video
-    strengths:
-      - Handles files, capture cards, PS5, Sunshine PC streams and screen capture in one pipeline
-      - Up to four independent NR layers with per-layer strength and internal resolution
-      - Portable zips for NVIDIA and AMD; Qt and runtimes included
-      - Export queue with trimming, MP4/MKV and multiple audio/subtitle tracks
-    weaknesses:
-      - Windows 11 x64 with DirectX 12 only
-      - Node mode has no offline export or global NR protection region
-      - Video export NR uses at most internal 1080p inference, not native 4K
-      - Xbox streaming is unofficial and experimental; AMD NR is experimental
-    specs:
-      ram_min_gb: null
-      gpu: required
-      external_deps:
-        - Windows 11 x64
-        - DirectX 12
-        - NVIDIA or AMD GPU drivers
-        - Sunshine (PC streaming, not bundled)
-        - VB-CABLE (optional, capture audio)
-      model_support:
-        - RTX Video SR
-        - DLSS
-        - XeSS
-        - FSR
-        - SF310.9.16 NR
-        - NVIDIA original NR
-        - AMD NR (RedDuke/lmxxf)
-      web_port: null
-    links:
-      demo: null
-      website: null
-      docs: https://github.com/Likely7/Veyra-NRVideo/wiki
-    audience: Windows users enhancing video, game capture or console streams on NVIDIA/AMD
-    confidence: 0.8
-    facts:
-      stars: 3522
-      license: GPL-3.0
-      last_commit: 2026-11-18
-      last_release: 2026-11-15
-      has_docker: false
-      has_compose: false
-      is_template: false
-      language: C++
-    score: 61
   - id: bkn-foundry
     repo: openbkn-ai/bkn-foundry
     name: bkn-foundry
