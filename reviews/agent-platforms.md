@@ -185,7 +185,7 @@ FastGPT is a TypeScript platform for building AI agents and chat apps with a vis
 <sub>Compose · port 3000 · [Repo](https://github.com/labring/fastgpt) · [📖 Docs ↗](https://doc.fastgpt.cn/zh-CN/guide/getting-started) · [🌐 Site ↗](https://fastgpt.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fastgpt/)</sub>
 
 <a name="openmaic"></a>
-### #&#8288;11 [openmaic](https://github.com/thu-maic/openmaic) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 44k · MIT · Nov 2026</sub>
+### #&#8288;11 [openmaic](https://github.com/thu-maic/openmaic) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 44k · MIT · Nov 2026</sub>
 
 **Generates interactive AI-taught classrooms from a topic or document.**
 
@@ -845,26 +845,8 @@ Nexent generates executable agents from a plain-language description instead of 
 
 <sub>RAM ≥ 8 GB · Docker + Compose · Needs Docker 24+, Docker Compose v2+, Elasticsearch, PostgreSQL, Redis, MinIO, Kubernetes 1.24+ and Helm 3+ (optional) · Models: OpenAI-compatible providers, LLM, Embedding, VLM, STT · [Repo](https://github.com/modelengine-group/nexent) · [📖 Docs ↗](https://modelengine-group.github.io/nexent) · [🌐 Site ↗](https://nexent.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nexent/)</sub>
 
-<a name="kagent"></a>
-### #&#8288;48 [kagent](https://github.com/kagent-dev/kagent) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
-
-**Kubernetes-native framework for defining and running AI agents as custom resources.**
-
-kagent defines agents, agent templates, model configs and remote MCP servers as Kubernetes custom resources. A controller reconciles them and runs agents on Go or Python ADKs, Codex, Claude or custom runtimes, with sessions and task history stored in PostgreSQL. It ships a web UI, a CLI, and an MCP server with tools for Kubernetes, Istio, Helm, Argo, Prometheus, Grafana and Cilium.
-
-- **+** Agents, tools and model configs are YAML resources, fitting kubectl and GitOps workflows
-- **+** Bundled MCP tools for Kubernetes, Istio, Helm, Argo, Prometheus, Grafana and Cilium
-- **+** Sessions persist in PostgreSQL, with suspend, resume, checkpoint and fork
-- **+** OpenTelemetry tracing for agent, model and tool execution
-- **−** Requires a Kubernetes cluster and PostgreSQL; no standalone mode described
-- **−** Model provider support depends on the chosen harness
-- **−** README says the project is in active development
-- **−** No hosted demo linked in the README
-
-<sub>Needs Kubernetes, PostgreSQL · Models: OpenAI, Azure OpenAI, Anthropic, Google Vertex AI, Ollama · [Repo](https://github.com/kagent-dev/kagent) · [📖 Docs ↗](https://kagent.dev/docs/kagent/1.x/setup/installation/) · [🌐 Site ↗](https://kagent.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kagent/)</sub>
-
 <a name="openagents"></a>
-### #&#8288;49 [openagents](https://github.com/openagents-org/openagents) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;48 [openagents](https://github.com/openagents-org/openagents) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
 
 **Shared workspace where people and coding agents collaborate in threads.**
 
@@ -880,6 +862,24 @@ OpenAgents Workspace is a Slack-like hub where agents such as Claude Code, Codex
 - **−** No Docker or compose files detected for self-hosting
 
 <sub>no GPU · Needs Node.js, agent runtimes (Claude Code, Codex CLI, etc.), LLM API keys · Models: Anthropic, OpenAI, OpenRouter, Gemini, DeepSeek · [Repo](https://github.com/openagents-org/openagents) · [▶️ Demo ↗](https://openagents.org/api/create-workspace) · [📖 Docs ↗](https://openagents.org/docs) · [🌐 Site ↗](https://openagents.org/workspace) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openagents/)</sub>
+
+<a name="kagent"></a>
+### #&#8288;49 [kagent](https://github.com/kagent-dev/kagent) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
+
+**Kubernetes-native framework for defining and running AI agents as custom resources.**
+
+kagent defines agents, agent templates, model configs and remote MCP servers as Kubernetes custom resources. A controller reconciles them and runs agents on Go or Python ADKs, Codex, Claude or custom runtimes, with sessions and task history stored in PostgreSQL. It ships a web UI, a CLI, and an MCP server with tools for Kubernetes, Istio, Helm, Argo, Prometheus, Grafana and Cilium.
+
+- **+** Agents, tools and model configs are YAML resources, fitting kubectl and GitOps workflows
+- **+** Bundled MCP tools for Kubernetes, Istio, Helm, Argo, Prometheus, Grafana and Cilium
+- **+** Sessions persist in PostgreSQL, with suspend, resume, checkpoint and fork
+- **+** OpenTelemetry tracing for agent, model and tool execution
+- **−** Requires a Kubernetes cluster and PostgreSQL; no standalone mode described
+- **−** Model provider support depends on the chosen harness
+- **−** README says the project is in active development
+- **−** No hosted demo linked in the README
+
+<sub>Needs Kubernetes, PostgreSQL · Models: OpenAI, Azure OpenAI, Anthropic, Google Vertex AI, Ollama · [Repo](https://github.com/kagent-dev/kagent) · [📖 Docs ↗](https://kagent.dev/docs/kagent/1.x/setup/installation/) · [🌐 Site ↗](https://kagent.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kagent/)</sub>
 
 <a name="pilotdeck"></a>
 ### #&#8288;50 [pilotdeck](https://github.com/openbmb/pilotdeck) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · AGPL-3.0 · Nov 2026</sub>
