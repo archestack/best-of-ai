@@ -23,7 +23,7 @@ Shannon reads a target app's source, builds a queue of candidate attack paths, t
 <sub>no GPU · Docker + Compose · Needs Docker, Node.js 22+, LLM provider credentials · Models: Anthropic, OpenAI, xAI, AWS Bedrock, Ollama · [Repo](https://github.com/keygraphhq/shannon) · [📖 Docs ↗](https://github.com/KeygraphHQ/shannon-action) · [🌐 Site ↗](https://keygraph.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/shannon/)</sub>
 
 <a name="ifixai"></a>
-### 🥈 [ifixai](https://github.com/ifixai-ai/ifixai) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · Apache-2.0 · Nov 2026</sub>
+### 🥈 [ifixai](https://github.com/ifixai-ai/ifixai) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · Apache-2.0 · Nov 2026</sub>
 
 **Python CLI that audits AI agents for policy, access and reliability failures.**
 
@@ -41,7 +41,7 @@ iFixAi runs up to 60 inspections against a model or a deployed agent's HTTP endp
 <sub>no GPU · Needs Python 3.10+, LLM provider API keys (system under test and judge), uv (for skill install) · Models: OpenAI, Anthropic, Gemini, Azure, Bedrock · [Repo](https://github.com/ifixai-ai/ifixai) · [🌐 Site ↗](https://www.ifixai.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ifixai/)</sub>
 
 <a name="strix"></a>
-### 🥉 [Strix](https://github.com/usestrix/strix) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [Strix](https://github.com/usestrix/strix) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 76k · Apache-2.0 · Nov 2026</sub>
 
 **Autonomous multi-agent pentesting CLI that validates vulnerabilities with working PoCs.**
 
@@ -76,8 +76,26 @@ A.I.G (AI-Infra-Guard) from Tencent Zhuque Lab is a web platform that fingerprin
 
 <sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker 20.10+, LLM API key for skill, MCP and jailbreak scans · Models: OpenAI-compatible LLM APIs (base URL + key) · port 8088 · [Repo](https://github.com/tencent/ai-infra-guard) · [📖 Docs ↗](https://tencent.github.io/AI-Infra-Guard/) · [🌐 Site ↗](https://aigsec.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-infra-guard/)</sub>
 
+<a name="failproofai"></a>
+### #&#8288;5 [failproofai](https://github.com/failproofai/failproofai) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · custom license · Nov 2026</sub>
+
+**Policy enforcement and run tracing for coding agent CLIs and gateways.**
+
+Failproof AI installs hooks into 12 agent harnesses (Claude Code, Codex, Copilot CLI, Cursor Agent, OpenCode, Hermes, OpenClaw and others). It blocks tool calls such as rm -rf, sudo, force pushes and .env reads before they run, using 40 built-in policies plus custom JS policies. A local dashboard on localhost:8020 shows session history, hook decisions and an offline audit of past runs.
+
+- **+** Pre-execution blocking of tool calls verified on all 12 supported harnesses
+- **+** Custom policies are JS files in .failproofai/policies/, committed and shared with the team
+- **+** Local dashboard and audit read existing history with no account or upload
+- **+** Policy API is small: allow, deny, instruct
+- **−** License is MIT with Commons Clause, not OSI open source; resale needs a separate agreement
+- **−** Setup selects no policies; only block-failproofai-commands is active until a pack is added
+- **−** Turn-end gates work on 8 of 12 harnesses; capabilities differ per harness
+- **−** Fleet-wide observability and cluster self-hosting are hosted or Enterprise offerings
+
+<sub>no GPU · Docker · Needs Node.js (npm) · port 8020 · [Repo](https://github.com/failproofai/failproofai) · [📖 Docs ↗](https://docs.befailproof.ai/) · [🌐 Site ↗](https://befailproof.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/failproofai/)</sub>
+
 <a name="aisoc"></a>
-### #&#8288;5 [aisoc](https://github.com/beenuar/aisoc) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Nov 2026</sub>
+### #&#8288;6 [aisoc](https://github.com/beenuar/aisoc) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
 
 **Self-hosted SOC that detects threats and investigates alerts with auditable AI agents.**
 
@@ -95,7 +113,7 @@ AiSOC ingests security telemetry through 91 connectors and four cloud collectors
 <sub>RAM ≥ 8 GB · GPU optional · Compose · Needs Docker Compose v2, Kafka, Postgres, Redis, Qdrant, Ollama, ClickHouse (full), Neo4j (full), OpenSearch (full) · Models: Ollama llama3.2:3b-instruct-q4_K_M (bundled), Local OpenAI-compatible endpoints, Custom providers via console · [Repo](https://github.com/beenuar/aisoc) · [📖 Docs ↗](https://beenuar.github.io/AiSOC/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aisoc/)</sub>
 
 <a name="pentagi"></a>
-### #&#8288;6 [pentagi](https://github.com/vxcontrol/pentagi) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Oct 2026</sub>
+### #&#8288;7 [pentagi](https://github.com/vxcontrol/pentagi) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · MIT · Oct 2026</sub>
 
 **Autonomous multi-agent penetration testing system with sandboxed security tools.**
 
@@ -111,24 +129,6 @@ PentAGI takes a target and goal in plain language, then uses a team of specializ
 - **−** Report export limited to web, Markdown and PDF; no JSON export
 
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose, PostgreSQL with pgvector, Neo4j (optional), Langfuse (optional), Grafana/Prometheus (optional) · Models: OpenAI, Anthropic, Google Gemini, AWS Bedrock, Ollama · [Repo](https://github.com/vxcontrol/pentagi) · [🌐 Site ↗](https://vxcontrol.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentagi/)</sub>
-
-<a name="failproofai"></a>
-### #&#8288;7 [failproofai](https://github.com/failproofai/failproofai) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Nov 2026</sub>
-
-**Policy enforcement and run tracing for coding agent CLIs and gateways.**
-
-Failproof AI installs hooks into 12 agent harnesses (Claude Code, Codex, Copilot CLI, Cursor Agent, OpenCode, Hermes, OpenClaw and others). It blocks tool calls such as rm -rf, sudo, force pushes and .env reads before they run, using 40 built-in policies plus custom JS policies. A local dashboard on localhost:8020 shows session history, hook decisions and an offline audit of past runs.
-
-- **+** Pre-execution blocking of tool calls verified on all 12 supported harnesses
-- **+** Custom policies are JS files in .failproofai/policies/, committed and shared with the team
-- **+** Local dashboard and audit read existing history with no account or upload
-- **+** Policy API is small: allow, deny, instruct
-- **−** License is MIT with Commons Clause, not OSI open source; resale needs a separate agreement
-- **−** Setup selects no policies; only block-failproofai-commands is active until a pack is added
-- **−** Turn-end gates work on 8 of 12 harnesses; capabilities differ per harness
-- **−** Fleet-wide observability and cluster self-hosting are hosted or Enterprise offerings
-
-<sub>no GPU · Docker · Needs Node.js (npm) · port 8020 · [Repo](https://github.com/failproofai/failproofai) · [📖 Docs ↗](https://docs.befailproof.ai/) · [🌐 Site ↗](https://befailproof.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/failproofai/)</sub>
 
 <a name="garak"></a>
 ### #&#8288;8 [garak](https://github.com/nvidia/garak) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
@@ -185,7 +185,7 @@ Decepticon is a red-team system with 16 specialist agents covering recon, exploi
 <sub>no GPU · Docker + Compose · Needs Docker, Docker Compose v2, LiteLLM, PostgreSQL, Neo4j, LangGraph · Models: Anthropic, OpenAI, Google Gemini, MiniMax, DeepSeek · [Repo](https://github.com/bittersecurity/decepticon) · [▶️ Demo ↗](https://app.decepticon.red) · [📖 Docs ↗](https://docs.decepticon.red) · [🌐 Site ↗](https://decepticon.red) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/decepticon/)</sub>
 
 <a name="cyberstrikeai"></a>
-### #&#8288;11 [cyberstrikeai](https://github.com/aipentest/cyberstrikeai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;11 [cyberstrikeai](https://github.com/aipentest/cyberstrikeai) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · Apache-2.0 · Nov 2026</sub>
 
 **AI agent platform for authorized penetration testing.**
 
@@ -203,7 +203,7 @@ CyberStrikeAI is a Go-based platform that turns natural-language intent into gov
 <sub>Needs Go 1.25+, Python 3.10+, OpenAI-compatible API, nmap, metasploit, sqlmap, nuclei, SQLite · Models: OpenAI-compatible models (e.g. GPT-4o, DeepSeek, Qwen) · port 8080 · [Repo](https://github.com/aipentest/cyberstrikeai) · [📖 Docs ↗](https://github.com/aipentest/cyberstrikeai/blob/main/docs/en-US/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cyberstrikeai/)</sub>
 
 <a name="bla"></a>
-### #&#8288;12 [bla](https://github.com/qybaihe/bla) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
+### #&#8288;12 [bla](https://github.com/qybaihe/bla) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Nov 2026</sub>
 
 **Hardens release artifacts against AI reverse-engineering agents.**
 
@@ -221,7 +221,7 @@ BLA (npm package bla-agents) is a TypeScript CLI and MCP server that rewrites re
 <sub>no GPU · Needs Node.js ^22.23.4 or >=24, Wabt (optional, red-team suite), tshark (optional, red-team suite) · Models: Safetensors, GGUF · [Repo](https://github.com/qybaihe/bla) · [📖 Docs ↗](https://bla.tools/guides/) · [🌐 Site ↗](https://bla.tools/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bla/)</sub>
 
 <a name="agentic-bug-hunter"></a>
-### #&#8288;13 [agentic-bug-hunter](https://github.com/awarexone/agentic-bug-hunter) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
+### #&#8288;13 [agentic-bug-hunter](https://github.com/awarexone/agentic-bug-hunter) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Nov 2026</sub>
 
 **Bug bounty CLI that runs recon, hunting, validation and report writing with LLMs.**
 
@@ -257,7 +257,7 @@ T3MP3ST runs a recon, exploit and report kill chain against authorized targets f
 <sub>GPU optional · Docker + Compose · Needs Node.js/npm, git, Docker (optional), Ollama or OpenAI-compatible server (optional) · Models: Claude Code, Codex, Hermes, OpenCode, Oh My Pi · port 3333 · [Repo](https://github.com/elder-plinius/t3mp3st) · [📖 Docs ↗](https://github.com/elder-plinius/T3MP3ST/blob/main/docs/GETTING_STARTED.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/t3mp3st/)</sub>
 
 <a name="pyrit"></a>
-### #&#8288;15 [pyrit](https://github.com/microsoft/pyrit) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Nov 2026</sub>
+### #&#8288;15 [pyrit](https://github.com/microsoft/pyrit) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Nov 2026</sub>
 
 **AI red teaming toolkit for scanning generative AI models and applications.**
 
@@ -293,7 +293,7 @@ VulnClaw is a Python CLI and agent that takes a target and a plain-language goal
 <sub>no GPU · Docker + Compose · Needs Python 3.10+, LLM API key or Ollama, Node.js 18+ (Web UI build, npx MCP servers), nmap (optional), Burp Suite Professional (optional), Chrome (optional) · Models: OpenAI, Anthropic, MiniMax, DeepSeek, Zhipu · port 7788 · [Repo](https://github.com/netw0rknoob/vulnclaw) · [🌐 Site ↗](https://unclecheng-li.github.io/vulnclaw.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vulnclaw/)</sub>
 
 <a name="dsh-infinite-gen-5"></a>
-### #&#8288;17 [dsh-infinite-gen-5](https://github.com/minglink/dsh-infinite-gen-5) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · custom license · Nov 2026</sub>
+### #&#8288;17 [dsh-infinite-gen-5](https://github.com/minglink/dsh-infinite-gen-5) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
 
 **Reverse-engineering plugin for DeepSeek Harness using Ghidra, x64dbg and Unicorn.**
 
@@ -311,7 +311,7 @@ IG5 is a plugin for DeepSeek Harness (DSH) that exposes 43 reverse-engineering t
 <sub>Needs DeepSeek Harness (@deepseek-ai/dsh >=0.2.0-rc.1 <0.3.0-0), Ghidra, x64dbg, Unicorn, PowerShell · [Repo](https://github.com/minglink/dsh-infinite-gen-5) · [📖 Docs ↗](https://github.com/Minglink/dsh-infinite-gen-5/blob/master/docs/CAPABILITIES.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-infinite-gen-5/)</sub>
 
 <a name="pentestgpt"></a>
-### #&#8288;18 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (78) · Freshness: recent (79) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Jul 2026</sub>
+### #&#8288;18 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (78) · Freshness: recent (78) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Jul 2026</sub>
 
 **Autonomous pentest agent that drives Claude Code or Codex against a target.**
 
@@ -346,26 +346,8 @@ HexStrike AI runs a Python Flask-style server (hexstrike_server.py, default port
 
 <sub>GPU optional · Needs Python 3.8+, nmap, nuclei, sqlmap and other security tools, Chrome/Chromium with chromedriver, MCP-compatible client · Models: Claude, GPT, Copilot, any MCP-compatible client · port 8888 · [Repo](https://github.com/0x4m4/hexstrike-ai) · [🌐 Site ↗](https://overthetop.ae/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hexstrike-ai/)</sub>
 
-<a name="pwnagotchi"></a>
-### #&#8288;20 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (61) · Freshness: recent (70) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
-
-**WiFi handshake-capturing agent that tunes its attacks with reinforcement learning.**
-
-Pwnagotchi runs an A2C reinforcement-learning agent (LSTM policy with MLP feature extractor) on top of bettercap to capture WPA key material from nearby WiFi. It saves PMKIDs and full or half handshakes as PCAP files that hashcat can crack. It adjusts its parameters over epochs, and nearby units can split channels between them.
-
-- **+** Captures PMKIDs and full or half WPA handshakes as PCAPs usable by hashcat
-- **+** Agent tunes its own parameters per environment over time using A2C with an LSTM policy
-- **+** Multiple units detect each other and divide channels between them
-- **+** Docs, forum and community channels are listed on the project site
-- **−** Last tagged release is 2021-04-18, though commits continue
-- **−** License detected as NOASSERTION, while the README states GPL3
-- **−** Performs poorly at first and needs time in varied WiFi environments to learn
-- **−** README gives no hardware requirements, RAM figures or supported boards
-
-<sub>Needs bettercap, hashcat · Models: A2C (stable-baselines, MlpLstmPolicy) · [Repo](https://github.com/evilsocket/pwnagotchi) · [📖 Docs ↗](https://www.pwnagotchi.ai) · [🌐 Site ↗](https://pwnagotchi.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pwnagotchi/)</sub>
-
 <a name="adversarial-robustness-toolbox"></a>
-### #&#8288;21 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (37) · Freshness: recent (74) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+### #&#8288;20 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (37) · Freshness: recent (73) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
 
 **Python library for attacking and defending ML models against adversarial threats.**
 
@@ -382,26 +364,26 @@ ART is a Python library for evaluating and hardening machine learning models aga
 
 <sub>GPU optional · Docker · Models: TensorFlow, Keras, PyTorch, scikit-learn, XGBoost · [Repo](https://github.com/trusted-ai/adversarial-robustness-toolbox) · [📖 Docs ↗](https://adversarial-robustness-toolbox.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adversarial-robustness-toolbox/)</sub>
 
-<a name="purplellama"></a>
-### #&#8288;22 [purplellama](https://github.com/meta-llama/purplellama) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
+<a name="pwnagotchi"></a>
+### #&#8288;21 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (61) · Freshness: recent (70) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
 
-**Meta's safety classifiers and cybersecurity benchmarks for LLM inputs, outputs and code.**
+**WiFi handshake-capturing agent that tunes its attacks with reinforcement learning.**
 
-Purple Llama is an umbrella repo from Meta with input/output safeguards and security evals for generative AI. It includes Llama Guard 3 moderation models, Prompt Guard for prompt injection and jailbreak detection, and Code Shield for filtering insecure LLM-generated code. The CyberSec Eval benchmarks (v1 to v3) measure insecure code suggestions, code interpreter abuse, prompt injection, spear phishing and autonomous offensive operations.
+Pwnagotchi runs an A2C reinforcement-learning agent (LSTM policy with MLP feature extractor) on top of bettercap to capture WPA key material from nearby WiFi. It saves PMKIDs and full or half handshakes as PCAP files that hashcat can crack. It adjusts its parameters over epochs, and nearby units can split channels between them.
 
-- **+** Covers both defence (Llama Guard, Prompt Guard, Code Shield) and attack-side evals in one repo
-- **+** CyberSec Eval maps to CWE and MITRE ATT&CK; public leaderboard on Hugging Face
-- **+** Llama Guard 3 supports MLCommons hazard taxonomy, 128k context, and 1B, 8B and 11B-vision sizes
-- **+** Code Shield example notebook provided; evals and Code Shield are MIT licensed
-- **−** Mixed licensing: MIT for evals and Code Shield, Llama Community licenses for models
-- **−** README has no install, hardware or usage instructions; points to llama-recipes instead
-- **−** Llama Guard weights are hosted on Hugging Face, not in this repo
-- **−** Safeguard models are tied to the Llama family and its license terms
+- **+** Captures PMKIDs and full or half WPA handshakes as PCAPs usable by hashcat
+- **+** Agent tunes its own parameters per environment over time using A2C with an LSTM policy
+- **+** Multiple units detect each other and divide channels between them
+- **+** Docs, forum and community channels are listed on the project site
+- **−** Last tagged release is 2021-04-18, though commits continue
+- **−** License detected as NOASSERTION, while the README states GPL3
+- **−** Performs poorly at first and needs time in varied WiFi environments to learn
+- **−** README gives no hardware requirements, RAM figures or supported boards
 
-<sub>Models: Llama Guard 3-8B, Llama Guard 3-1B, Llama Guard 3-11B-vision, Llama Guard 2, Llama Guard · [Repo](https://github.com/meta-llama/purplellama) · [📖 Docs ↗](https://github.com/meta-llama/llama-recipes) · [🌐 Site ↗](https://ai.meta.com/llama/purple-llama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/purplellama/)</sub>
+<sub>Needs bettercap, hashcat · Models: A2C (stable-baselines, MlpLstmPolicy) · [Repo](https://github.com/evilsocket/pwnagotchi) · [📖 Docs ↗](https://www.pwnagotchi.ai) · [🌐 Site ↗](https://pwnagotchi.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pwnagotchi/)</sub>
 
 <a name="superagent"></a>
-### #&#8288;23 [superagent](https://github.com/superagent-ai/superagent) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (43) · Freshness: recent (79) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
+### #&#8288;22 [superagent](https://github.com/superagent-ai/superagent) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (43) · Freshness: recent (79) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
 
 **SDK that blocks prompt injections and redacts PII in AI agent apps.**
 
@@ -418,8 +400,26 @@ Superagent is a TypeScript and Python SDK (package `safety-agent`) with a guard 
 
 <sub>Needs Superagent API key (superagent.sh) · Models: OpenAI, Anthropic, Google, Groq, Bedrock · [Repo](https://github.com/superagent-ai/superagent) · [📖 Docs ↗](https://docs.superagent.sh) · [🌐 Site ↗](https://superagent.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/superagent/)</sub>
 
+<a name="purplellama"></a>
+### #&#8288;23 [purplellama](https://github.com/meta-llama/purplellama) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
+
+**Meta's safety classifiers and cybersecurity benchmarks for LLM inputs, outputs and code.**
+
+Purple Llama is an umbrella repo from Meta with input/output safeguards and security evals for generative AI. It includes Llama Guard 3 moderation models, Prompt Guard for prompt injection and jailbreak detection, and Code Shield for filtering insecure LLM-generated code. The CyberSec Eval benchmarks (v1 to v3) measure insecure code suggestions, code interpreter abuse, prompt injection, spear phishing and autonomous offensive operations.
+
+- **+** Covers both defence (Llama Guard, Prompt Guard, Code Shield) and attack-side evals in one repo
+- **+** CyberSec Eval maps to CWE and MITRE ATT&CK; public leaderboard on Hugging Face
+- **+** Llama Guard 3 supports MLCommons hazard taxonomy, 128k context, and 1B, 8B and 11B-vision sizes
+- **+** Code Shield example notebook provided; evals and Code Shield are MIT licensed
+- **−** Mixed licensing: MIT for evals and Code Shield, Llama Community licenses for models
+- **−** README has no install, hardware or usage instructions; points to llama-recipes instead
+- **−** Llama Guard weights are hosted on Hugging Face, not in this repo
+- **−** Safeguard models are tied to the Llama family and its license terms
+
+<sub>Models: Llama Guard 3-8B, Llama Guard 3-1B, Llama Guard 3-11B-vision, Llama Guard 2, Llama Guard · [Repo](https://github.com/meta-llama/purplellama) · [📖 Docs ↗](https://github.com/meta-llama/llama-recipes) · [🌐 Site ↗](https://ai.meta.com/llama/purple-llama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/purplellama/)</sub>
+
 <a name="cairn"></a>
-### #&#8288;24 [cairn](https://github.com/oritera/cairn) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (27) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;24 [cairn](https://github.com/oritera/cairn) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (27) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · AGPL-3.0 · Sep 2026</sub>
 
 **Blackboard-based multi-agent engine for AI penetration testing and CTF solving.**
 

@@ -5,7 +5,7 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 <sub>🌐 Also on the web: [Assistants on archestack.com](https://archestack.com/best-of-ai/assistants/), each project on its own page.</sub>
 
 <a name="ai-job-search"></a>
-### 🥇 [ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) <sub>score [97](../README.md#-how-we-rank "Score 97/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · MIT · Nov 2026</sub>
+### 🥇 [ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) <sub>score [97](../README.md#-how-we-rank "Score 97/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · MIT · Nov 2026</sub>
 
 **Claude Code workflow that searches job boards and drafts tailored CVs and cover letters.**
 
@@ -23,7 +23,7 @@ A Claude Code project you fork and fill in with your profile. Slash commands (/s
 <sub>no GPU · Needs Claude Code, Python 3.10+, Bun, LaTeX (lualatex, xelatex), pypdf or poppler (optional) · Models: Claude (via Claude Code) · [Repo](https://github.com/ai-job-search-dev/ai-job-search) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-job-search/)</sub>
 
 <a name="career-ops"></a>
-### 🥈 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · MIT · Nov 2026</sub>
+### 🥈 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · MIT · Nov 2026</sub>
 
 **Job-search agent that scores listings, tailors CVs and drafts applications.**
 
@@ -77,7 +77,7 @@ OpenClaw runs a local Gateway that connects an AI assistant to 20+ messaging cha
 <sub>GPU optional · Docker + Compose · Needs Node.js 24.16+ or 26.1+, model provider account or local model · Models: Claude, Codex, local models · [Repo](https://github.com/openclaw/openclaw) · [📖 Docs ↗](https://docs.openclaw.ai) · [🌐 Site ↗](https://openclaw.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw/)</sub>
 
 <a name="airi"></a>
-### #&#8288;5 [airi](https://github.com/moeru-ai/airi) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 51k · MIT · Nov 2026</sub>
+### #&#8288;5 [airi](https://github.com/moeru-ai/airi) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 52k · MIT · Nov 2026</sub>
 
 **AI VTuber companion with VRM and Live2D avatars, voice, and game-playing.**
 
@@ -95,7 +95,7 @@ AIRI is a TypeScript/Vue monorepo for an animated AI character modeled on Neuro-
 <sub>GPU optional · Needs Node.js, pnpm · Models: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Ollama · [Repo](https://github.com/moeru-ai/airi) · [▶️ Demo ↗](https://airi.moeru.ai) · [📖 Docs ↗](https://airi.moeru.ai/docs/en/) · [🌐 Site ↗](https://airi.moeru.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/airi/)</sub>
 
 <a name="zeroclaw"></a>
-### #&#8288;6 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;6 [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 33k · Apache-2.0 · Nov 2026</sub>
 
 **Single-binary Rust agent runtime that answers across 30+ chat channels.**
 
@@ -148,7 +148,7 @@ Hermes Agent is a Python agent from Nous Research that runs from a terminal UI o
 <sub>no GPU · Docker + Compose · Needs Python, Node.js, ripgrep, FFmpeg, Honcho (user modeling) · Models: Nous Portal, OpenRouter, OpenAI, custom endpoints · [Repo](https://github.com/nousresearch/hermes-agent) · [📖 Docs ↗](https://hermes-agent.nousresearch.com/docs/) · [🌐 Site ↗](https://hermes-agent.nousresearch.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-agent/)</sub>
 
 <a name="nanobot"></a>
-### #&#8288;9 [nanobot](https://github.com/hkuds/nanobot) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 50k · MIT · Nov 2026</sub>
+### #&#8288;9 [nanobot](https://github.com/hkuds/nanobot) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 50k · MIT · Nov 2026</sub>
 
 **Self-hosted personal AI agent reachable from browser, terminal and chat apps.**
 
@@ -217,8 +217,26 @@ CowAgent is a Python agent that plans tasks, runs built-in tools (file I/O, bash
 
 <sub>no GPU · Docker + Compose · Needs LLM provider API key or custom endpoint · Models: Claude, OpenAI, Gemini, DeepSeek, Qwen · port 9899 · [Repo](https://github.com/zhayujie/cowagent) · [📖 Docs ↗](https://docs.cowagent.ai/intro/index) · [🌐 Site ↗](https://cowagent.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cowagent/)</sub>
 
+<a name="rowboat"></a>
+### #&#8288;13 [rowboat](https://github.com/rowboatlabs/rowboat) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
+
+**Desktop assistant that builds a Markdown knowledge graph from email and meetings.**
+
+Rowboat is an Electron desktop app that indexes email, meetings and Slack into a local, Obsidian-style backlinked Markdown knowledge graph. It adds an email client, browser, meeting note-taker, background agents and a code mode that drives Claude Code or Codex. Spaces, backed by the self-hostable Harbor server on Postgres, let teammates share a channel and files while each person's own Rowboat answers @mentions locally.
+
+- **+** Data stored as plain Markdown on your machine, editable and inspectable
+- **+** Works with Ollama, LM Studio or hosted models via your own API key
+- **+** Connects external tools through MCP servers or Composio
+- **+** Harbor Spaces server is open source, with HTTP, WebSocket and MCP endpoints
+- **−** Voice, web search and Composio each need separate third-party API keys
+- **−** Google services require manual setup steps
+- **−** Harbor contract is still v0; README warns of breaking changes
+- **−** Hosted Spaces require a Rowboat account sign-in via Google or Microsoft
+
+<sub>GPU optional · Needs Postgres (Harbor), Deepgram (optional), ElevenLabs (optional), Exa (optional), Composio (optional) · Models: Ollama, LM Studio, Hosted models via API key · port 4272 · [Repo](https://github.com/rowboatlabs/rowboat) · [▶️ Demo ↗](https://www.youtube.com/watch?v=et5yQABJ3xI) · [🌐 Site ↗](https://www.rowboatlabs.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rowboat/)</sub>
+
 <a name="inbox-zero"></a>
-### #&#8288;13 [inbox-zero](https://github.com/elie222/inbox-zero) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Nov 2026</sub>
+### #&#8288;14 [inbox-zero](https://github.com/elie222/inbox-zero) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Nov 2026</sub>
 
 **AI assistant that sorts Gmail and Outlook, drafts replies, and files attachments.**
 
@@ -236,7 +254,7 @@ Inbox Zero runs against a Gmail or Outlook account to organize mail by plain-Eng
 <sub>no GPU · Docker + Compose · Needs Docker, Node.js 24+, PostgreSQL, Redis, Gmail or Outlook OAuth app · port 3000 · [Repo](https://github.com/elie222/inbox-zero) · [📖 Docs ↗](https://docs.getinboxzero.com) · [🌐 Site ↗](https://www.getinboxzero.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/inbox-zero/)</sub>
 
 <a name="qwenpaw"></a>
-### #&#8288;14 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [QwenPaw](https://github.com/agentscope-ai/qwenpaw) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted personal AI assistant with memory, skills, and many chat channels.**
 
@@ -251,24 +269,6 @@ QwenPaw is a Python assistant you run yourself, with a web Console on port 8088.
 - **−** Many bundled subsystems (Hub, Mail, Creator, Data) add surface area to learn
 
 <sub>GPU optional · Docker + Compose · Needs Python 3.11-3.13, Docker (optional), Ollama or LM Studio (optional) · Models: QwenPaw-Flash (2B/4B/9B/35B-A3B/27B), Ollama, LM Studio, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/docs/channels) · [🌐 Site ↗](https://qwenpaw.agentscope.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwenpaw/)</sub>
-
-<a name="rowboat"></a>
-### #&#8288;15 [rowboat](https://github.com/rowboatlabs/rowboat) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
-
-**Desktop assistant that builds a Markdown knowledge graph from email and meetings.**
-
-Rowboat is an Electron desktop app that indexes email, meetings and Slack into a local, Obsidian-style backlinked Markdown knowledge graph. It adds an email client, browser, meeting note-taker, background agents and a code mode that drives Claude Code or Codex. Spaces, backed by the self-hostable Harbor server on Postgres, let teammates share a channel and files while each person's own Rowboat answers @mentions locally.
-
-- **+** Data stored as plain Markdown on your machine, editable and inspectable
-- **+** Works with Ollama, LM Studio or hosted models via your own API key
-- **+** Connects external tools through MCP servers or Composio
-- **+** Harbor Spaces server is open source, with HTTP, WebSocket and MCP endpoints
-- **−** Voice, web search and Composio each need separate third-party API keys
-- **−** Google services require manual setup steps
-- **−** Harbor contract is still v0; README warns of breaking changes
-- **−** Hosted Spaces require a Rowboat account sign-in via Google or Microsoft
-
-<sub>GPU optional · Needs Postgres (Harbor), Deepgram (optional), ElevenLabs (optional), Exa (optional), Composio (optional) · Models: Ollama, LM Studio, Hosted models via API key · port 4272 · [Repo](https://github.com/rowboatlabs/rowboat) · [▶️ Demo ↗](https://www.youtube.com/watch?v=et5yQABJ3xI) · [🌐 Site ↗](https://www.rowboatlabs.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rowboat/)</sub>
 
 <a name="qm"></a>
 ### #&#8288;16 [qm](https://github.com/yc-software/qm) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Nov 2026</sub>
@@ -288,26 +288,8 @@ QM is a self-hosted agent for teams, reachable from Slack and a web UI. Each per
 
 <sub>Docker · Needs Postgres, Node 24.15+, Slack (optional), Cloud account (Fly or AWS target) · Models: Multiple providers via Pi, Model gateway routing · [Repo](https://github.com/yc-software/qm) · [📖 Docs ↗](https://labs.ycombinator.com/qm/) · [🌐 Site ↗](https://labs.ycombinator.com/qm/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qm/)</sub>
 
-<a name="ironclaw"></a>
-### #&#8288;17 [IronClaw](https://github.com/nearai/ironclaw) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Sep 2026</sub>
-
-**Rust assistant that sandboxes every untrusted tool in WebAssembly.**
-
-IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAssembly sandboxes with capability permissions, endpoint allowlists, host-side credential injection and leak scans. It exposes a REPL, HTTP webhooks, Telegram and Slack channels and a browser gateway with SSE/WebSocket streaming, runs cron and event routines, connects to MCP servers and keeps hybrid-search memory in PostgreSQL.
-
-- **+** WASM sandbox with per-tool rate, memory, CPU and time limits
-- **+** Secrets encrypted with AES-256-GCM, never exposed to tool code; full audit log
-- **+** Describe a tool in chat and IronClaw builds it as a WASM module
-- **+** No telemetry; onboard installs a background service on macOS and Linux
-- **−** Requires PostgreSQL for persistence; SQLite is not an option
-- **−** Installer needs a release tag chosen by hand; no latest channel
-- **−** Slack and Telegram are configured only through the WebUI Extensions page
-- **−** Windows has no background service; WebUI runs in the foreground via ironclaw serve
-
-<sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ironclaw/)</sub>
-
 <a name="xiaobei"></a>
-### #&#8288;18 [xiaobei](https://github.com/teamwiseflow/xiaobei) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · custom license · Nov 2026</sub>
+### #&#8288;17 [xiaobei](https://github.com/teamwiseflow/xiaobei) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · custom license · Nov 2026</sub>
 
 **Self-media marketing agent team on openclaw, controlled through WeChat.**
 
@@ -324,8 +306,26 @@ xiaobei is an openclaw-based agent team for small businesses. It writes and publ
 
 <sub>RAM ≥ 8 GB · no GPU · Docker + Compose · Needs openclaw, camoufox, Alibaba Bailian API key, WeChat, Feishu or WeCom, Git Bash or WSL on Windows · Models: Alibaba Bailian (Qwen, HappyHorse, Wan), Volcano Ark (Seedance, GLM), MiniMax, OpenAI-compatible embeddings · [Repo](https://github.com/teamwiseflow/xiaobei) · [🌐 Site ↗](https://openclaw-for-business.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xiaobei/)</sub>
 
+<a name="ironclaw"></a>
+### #&#8288;18 [IronClaw](https://github.com/nearai/ironclaw) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Sep 2026</sub>
+
+**Rust assistant that sandboxes every untrusted tool in WebAssembly.**
+
+IronClaw is a Rust take on the OpenClaw idea that runs untrusted tools in WebAssembly sandboxes with capability permissions, endpoint allowlists, host-side credential injection and leak scans. It exposes a REPL, HTTP webhooks, Telegram and Slack channels and a browser gateway with SSE/WebSocket streaming, runs cron and event routines, connects to MCP servers and keeps hybrid-search memory in PostgreSQL.
+
+- **+** WASM sandbox with per-tool rate, memory, CPU and time limits
+- **+** Secrets encrypted with AES-256-GCM, never exposed to tool code; full audit log
+- **+** Describe a tool in chat and IronClaw builds it as a WASM module
+- **+** No telemetry; onboard installs a background service on macOS and Linux
+- **−** Requires PostgreSQL for persistence; SQLite is not an option
+- **−** Installer needs a release tag chosen by hand; no latest channel
+- **−** Slack and Telegram are configured only through the WebUI Extensions page
+- **−** Windows has no background service; WebUI runs in the foreground via ironclaw serve
+
+<sub>no GPU · Docker + Compose · Needs PostgreSQL · Models: OpenAI · [Repo](https://github.com/nearai/ironclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ironclaw/)</sub>
+
 <a name="rakazo"></a>
-### #&#8288;19 [rakazo](https://github.com/elie222/rakazo) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [rakazo](https://github.com/elie222/rakazo) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted AI assistant with persistent bots on sandboxed computers.**
 
@@ -343,7 +343,7 @@ Rakazo runs persistent bots that each keep their own conversations, memory, rout
 <sub>Needs Docker, PostgreSQL, OpenSSL, curl · Models: Bring-your-own model credentials via Pi, OpenRouter · port 5173 · [Repo](https://github.com/elie222/rakazo) · [🌐 Site ↗](https://rakazo.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rakazo/)</sub>
 
 <a name="obsidian-copilot"></a>
-### #&#8288;20 [obsidian-copilot](https://github.com/logancyang/obsidian-copilot) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;20 [obsidian-copilot](https://github.com/logancyang/obsidian-copilot) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · AGPL-3.0 · Nov 2026</sub>
 
 **Obsidian plugin that runs OpenCode, Claude Code and Codex agents on your vault.**
 
@@ -397,7 +397,7 @@ Brigade is a Node.js gateway and terminal chat UI that runs multiple isolated ag
 <sub>no GPU · Needs Node.js 22.12+, Composio (optional), Convex (optional), Ollama (optional), headless Chrome and FFmpeg (optional, video) · Models: Anthropic, OpenAI, Gemini, OpenRouter, Groq · port 7777 · [Repo](https://github.com/spinabot/brigade) · [🌐 Site ↗](https://brigade.spinabot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/brigade/)</sub>
 
 <a name="osaurus"></a>
-### #&#8288;23 [osaurus](https://github.com/osaurus-ai/osaurus) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · MIT · Nov 2026</sub>
+### #&#8288;23 [osaurus](https://github.com/osaurus-ai/osaurus) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · MIT · Nov 2026</sub>
 
 **Native macOS agent harness with memory, sandbox and tools over local or cloud models.**
 
@@ -450,8 +450,26 @@ TrendRadar pulls hot-list data from Chinese platforms (via the newsnow API) and 
 
 <sub>no GPU · Docker + Compose · Needs newsnow API, LLM API via LiteLLM (optional) · Models: LiteLLM providers (OpenAI, Anthropic, Gemini, DeepSeek) · [Repo](https://github.com/sansan0/trendradar) · [▶️ Demo ↗](https://sansan0.github.io/TrendRadar) · [📖 Docs ↗](https://trendradar.sandev.cc/zh/docs/quick-start/) · [🌐 Site ↗](https://trendradar.sandev.cc/zh/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trendradar/)</sub>
 
+<a name="ds-bot"></a>
+### #&#8288;26 [ds-bot](https://github.com/fei2411/ds-bot) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Nov 2026</sub>
+
+**Desktop app and DeepSeek Harness plugin for bots that collaborate in group chats.**
+
+DS Bot is a desktop app and a plugin for DeepSeek Harness (DSH) for creating multiple bots, each with its own memory and model. Bots work together in group chats led by an admin bot, hand off tasks with @mentions, and can use MCP servers, connectors, local coding-agent CLIs, Office files and IM apps. It is a community project, not an official DeepSeek product.
+
+- **+** Group chats with admin bot, @ handoffs, per-group memory and staged goals
+- **+** Links bots to Telegram, WeChat, Feishu, DingTalk, WeCom, QQ, Discord, Slack with no open port
+- **+** Data stays in the local DSH home folder; connector credentials never reach a bot
+- **+** Installers for Windows, macOS, Linux, plus a DSH plugin and Docker image
+- **−** Windows installer is unsigned and can be blocked by SmartScreen or Smart App Control
+- **−** Labeled v0.3 preview
+- **−** Built on DSH; the README names DeepSeek as the main model provider
+- **−** Docker image is configured for linux/amd64 only; old-glibc systems must use Docker
+
+<sub>no GPU · Docker + Compose · Needs DeepSeek Harness (bundled in desktop app), DeepSeek account or API key, Node.js 22.19+ (source run or DSH Web only) · Models: DeepSeek, Claude Code, Codex CLI, OpenCode and other ACP agents via Local agents · [Repo](https://github.com/fei2411/ds-bot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ds-bot/)</sub>
+
 <a name="openagent"></a>
-### #&#8288;26 [openagent](https://github.com/the-open-agent/openagent) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;27 [openagent](https://github.com/the-open-agent/openagent) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted AI assistant with RAG, browser-use agents and MCP tools.**
 
@@ -468,7 +486,7 @@ OpenAgent is a Go application that combines a chat front-end, a document knowled
 <sub>no GPU · Docker + Compose · Compose runs MySQL · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 14000 · [Repo](https://github.com/the-open-agent/openagent) · [▶️ Demo ↗](https://demo.openagentai.org) · [📖 Docs ↗](https://www.openagentai.org) · [🌐 Site ↗](https://www.openagentai.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openagent/)</sub>
 
 <a name="anymodelbot"></a>
-### #&#8288;27 [anymodelbot](https://github.com/modelflare-ai/anymodelbot) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
+### #&#8288;28 [anymodelbot](https://github.com/modelflare-ai/anymodelbot) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Nov 2026</sub>
 
 **Multi-bot desktop assistant with memory, file access and chat-app channels.**
 
@@ -486,7 +504,7 @@ AnyModelBot is an Electron/Node.js app for Windows, macOS and Linux that runs se
 <sub>no GPU · Docker · Needs Modelflare account or official provider API keys, Node.js 22.13+ and Go 1.26.8+ (source builds only), Python 3.10+ and FFmpeg (video studio bot only) · Models: Modelflare-hosted models, OpenAI, Anthropic, Google Gemini, xAI · port 3600 · [Repo](https://github.com/modelflare-ai/anymodelbot) · [📖 Docs ↗](https://github.com/modelflare-ai/AnyModelBot/blob/master/docs/development.md) · [🌐 Site ↗](https://anymodel.bot/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anymodelbot/)</sub>
 
 <a name="agenticseek"></a>
-### #&#8288;28 [agenticseek](https://github.com/fosowl/agenticseek) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;29 [agenticseek](https://github.com/fosowl/agenticseek) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · GPL-3.0 · Nov 2026</sub>
 
 **Local agent that browses the web, writes code and plans tasks.**
 
@@ -504,7 +522,7 @@ AgenticSeek is a self-hosted Manus-style assistant that routes each request to a
 <sub>GPU optional · Docker + Compose · Needs Docker Compose, SearxNG, Redis, Python 3.10, Ollama or LM Studio (for local models) · Models: Ollama, LM Studio, OpenAI-compatible (llama.cpp), OpenAI, Google Gemini · port 3000 · README: alternative to Manus · [Repo](https://github.com/fosowl/agenticseek) · [🌐 Site ↗](https://fosowl.github.io/agenticSeek.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agenticseek/)</sub>
 
 <a name="mika"></a>
-### #&#8288;29 [mika](https://github.com/wangzan101/mika) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;30 [mika](https://github.com/wangzan101/mika) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Nov 2026</sub>
 
 **Android assistant that operates phone apps and the web from one sentence.**
 
@@ -521,26 +539,8 @@ Mika is a Kotlin Android app that takes a plain-language request and carries it 
 
 <sub>no GPU · Needs Android 11+ (12+ for phone control), Model provider API key or account sign-in, Wireless debugging pairing for app control · Models: OpenAI, Anthropic, Gemini, xAI, Mistral · [Repo](https://github.com/wangzan101/mika) · [📖 Docs ↗](https://github.com/wangzan101/Mika/blob/main/docs/README.en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mika/)</sub>
 
-<a name="ds-bot"></a>
-### #&#8288;30 [ds-bot](https://github.com/fei2411/ds-bot) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · Apache-2.0 · Nov 2026</sub>
-
-**Desktop app and DeepSeek Harness plugin for bots that collaborate in group chats.**
-
-DS Bot is a desktop app and a plugin for DeepSeek Harness (DSH) for creating multiple bots, each with its own memory and model. Bots work together in group chats led by an admin bot, hand off tasks with @mentions, and can use MCP servers, connectors, local coding-agent CLIs, Office files and IM apps. It is a community project, not an official DeepSeek product.
-
-- **+** Group chats with admin bot, @ handoffs, per-group memory and staged goals
-- **+** Links bots to Telegram, WeChat, Feishu, DingTalk, WeCom, QQ, Discord, Slack with no open port
-- **+** Data stays in the local DSH home folder; connector credentials never reach a bot
-- **+** Installers for Windows, macOS, Linux, plus a DSH plugin and Docker image
-- **−** Windows installer is unsigned and can be blocked by SmartScreen or Smart App Control
-- **−** Labeled v0.3 preview
-- **−** Built on DSH; the README names DeepSeek as the main model provider
-- **−** Docker image is configured for linux/amd64 only; old-glibc systems must use Docker
-
-<sub>no GPU · Docker + Compose · Needs DeepSeek Harness (bundled in desktop app), DeepSeek account or API key, Node.js 22.19+ (source run or DSH Web only) · Models: DeepSeek, Claude Code, Codex CLI, OpenCode and other ACP agents via Local agents · [Repo](https://github.com/fei2411/ds-bot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ds-bot/)</sub>
-
 <a name="sellbird"></a>
-### #&#8288;31 [sellbird](https://github.com/ethanplusai/sellbird) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;31 [sellbird](https://github.com/ethanplusai/sellbird) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · AGPL-3.0 · Nov 2026</sub>
 
 **Cold outreach pipeline that finds prospects, verifies emails, drafts and sends.**
 
@@ -611,23 +611,23 @@ Reads a conversation on screen, works out the other person's intent and the risk
 
 <sub>Needs Model provider API key (user-configured), Android accessibility service and overlay permission · Models: User-configured model provider via own API key, Local model on macOS · [Repo](https://github.com/jev-chat/jev-chat-jarvis) · [🌐 Site ↗](https://chatjevs.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jev-chat-jarvis/)</sub>
 
-<a name="nullclaw"></a>
-### #&#8288;35 [nullclaw](https://github.com/nullclaw/nullclaw) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · MIT · Oct 2026</sub>
+<a name="opensquilla"></a>
+### #&#8288;35 [opensquilla](https://github.com/tokenrhythm/opensquilla) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
-**Personal AI assistant runtime in a single 678 KB static Zig binary.**
+**Personal AI agent that routes each turn to the cheapest capable model.**
 
-NullClaw is a self-hosted autonomous assistant written in Zig that connects 50+ model providers to 19 chat channels such as Telegram, Discord, Signal, Slack and Matrix. It ships 35+ tools, subagents, MCP support, cron and heartbeat tasks, and SQLite-backed memory with FTS5 plus vector hybrid search. Config follows the OpenClaw layout, and a migrate command imports existing OpenClaw memory.
+OpenSquilla is a Python agent that runs through a CLI, a Web UI, a desktop app and chat channels, all sharing one turn loop. An on-device router (SquillaRouter) sends each turn to the cheapest model that can handle it, and it adds persistent memory, a layered sandbox and built-in web search. It connects to 20+ LLM providers including OpenAI, Anthropic, Ollama, OpenRouter and Gemini.
 
-- **+** README reports a 678 KB static binary, about 1 MB peak RSS, and under 8 ms startup
-- **+** Gateway binds 127.0.0.1 by default, requires pairing, and encrypts API keys with ChaCha20-Poly1305
-- **+** Sandbox backends: Landlock, Firejail, Bubblewrap and Docker, auto-detected
-- **+** Memory backends include SQLite, Markdown, PostgreSQL, Redis, ClickHouse and LanceDB
-- **−** Source builds need exactly Zig 0.16.0; other versions are unsupported
-- **−** Benchmark comparisons are the project's own, from a single macOS arm64 run
-- **−** Nostr channel requires the external nak tool in PATH
-- **−** Vertex AI service-account auth requires openssl in PATH
+- **+** Local model router picks a cheaper model per turn to cut token spend
+- **+** Same turn loop for CLI, Web UI and chat channels
+- **+** Supports 20+ providers, including Ollama for local models
+- **+** Desktop installers for macOS and Windows, plus a uv-based terminal install
+- **−** Usage statistics reporting is enabled by default and must be turned off
+- **−** Router needs native libraries (libomp, VC++ runtime) on terminal installs, or it falls back
+- **−** Source install needs Git LFS, Node.js 22.12+ and uv
+- **−** Desktop installers cover only macOS Apple Silicon and Windows x64
 
-<sub>no GPU · Docker + Compose · Needs Zig 0.16.0 (source builds), nak (Nostr channel), openssl (Vertex service-account auth) · Models: OpenRouter, Anthropic, OpenAI, Azure OpenAI, Gemini · port 3000 · [Repo](https://github.com/nullclaw/nullclaw) · [📖 Docs ↗](https://nullclaw.github.io) · [🌐 Site ↗](https://nullclaw.github.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nullclaw/)</sub>
+<sub>no GPU · Docker + Compose · Needs Python 3.12+, uv, Git LFS (source install), Node.js 22.12+ (source install) · Models: OpenAI, Anthropic, OpenRouter, Ollama, DeepSeek · [Repo](https://github.com/tokenrhythm/opensquilla) · [🌐 Site ↗](https://opensquilla.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensquilla/)</sub>
 
 <a name="ods"></a>
 ### #&#8288;36 [ods](https://github.com/osmantic/ods) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Nov 2026</sub>
@@ -647,26 +647,8 @@ ODS installs and wires together llama-server inference, Open WebUI, a control da
 
 <sub>GPU optional · Needs Docker, WSL2 (Windows), Docker Desktop (Windows/macOS) · Models: GGUF, llama.cpp, OpenAI API, Anthropic API, Together API · port 3001 · [Repo](https://github.com/osmantic/ods) · [▶️ Demo ↗](https://youtu.be/nO8xFNHX-HA) · [🌐 Site ↗](https://osmantic.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ods/)</sub>
 
-<a name="opensquilla"></a>
-### #&#8288;37 [opensquilla](https://github.com/tokenrhythm/opensquilla) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
-
-**Personal AI agent that routes each turn to the cheapest capable model.**
-
-OpenSquilla is a Python agent that runs through a CLI, a Web UI, a desktop app and chat channels, all sharing one turn loop. An on-device router (SquillaRouter) sends each turn to the cheapest model that can handle it, and it adds persistent memory, a layered sandbox and built-in web search. It connects to 20+ LLM providers including OpenAI, Anthropic, Ollama, OpenRouter and Gemini.
-
-- **+** Local model router picks a cheaper model per turn to cut token spend
-- **+** Same turn loop for CLI, Web UI and chat channels
-- **+** Supports 20+ providers, including Ollama for local models
-- **+** Desktop installers for macOS and Windows, plus a uv-based terminal install
-- **−** Usage statistics reporting is enabled by default and must be turned off
-- **−** Router needs native libraries (libomp, VC++ runtime) on terminal installs, or it falls back
-- **−** Source install needs Git LFS, Node.js 22.12+ and uv
-- **−** Desktop installers cover only macOS Apple Silicon and Windows x64
-
-<sub>no GPU · Docker + Compose · Needs Python 3.12+, uv, Git LFS (source install), Node.js 22.12+ (source install) · Models: OpenAI, Anthropic, OpenRouter, Ollama, DeepSeek · [Repo](https://github.com/tokenrhythm/opensquilla) · [🌐 Site ↗](https://opensquilla.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensquilla/)</sub>
-
 <a name="easel"></a>
-### #&#8288;38 [easel](https://github.com/zju-real/easel) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;37 [easel](https://github.com/zju-real/easel) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
 
 **Social media content workbench for planning, creating and publishing posts.**
 
@@ -683,8 +665,26 @@ Easel is a Python and React workbench built on an OpenClaw agent. It keeps per-a
 
 <sub>no GPU · Needs OpenClaw, Python 3.10+, Node.js 24.22.1+, FFmpeg, Playwright Chromium, LLM API key · Models: Anthropic, OpenAI, OpenAI-compatible, Anthropic-compatible · port 7860 · [Repo](https://github.com/zju-real/easel) · [📖 Docs ↗](https://github.com/ZJU-REAL/Easel/blob/main/docs/skill-function-mapping.md) · [🌐 Site ↗](https://zju-real.github.io/Easel/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easel/)</sub>
 
+<a name="nullclaw"></a>
+### #&#8288;38 [nullclaw](https://github.com/nullclaw/nullclaw) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · MIT · Oct 2026</sub>
+
+**Personal AI assistant runtime in a single 678 KB static Zig binary.**
+
+NullClaw is a self-hosted autonomous assistant written in Zig that connects 50+ model providers to 19 chat channels such as Telegram, Discord, Signal, Slack and Matrix. It ships 35+ tools, subagents, MCP support, cron and heartbeat tasks, and SQLite-backed memory with FTS5 plus vector hybrid search. Config follows the OpenClaw layout, and a migrate command imports existing OpenClaw memory.
+
+- **+** README reports a 678 KB static binary, about 1 MB peak RSS, and under 8 ms startup
+- **+** Gateway binds 127.0.0.1 by default, requires pairing, and encrypts API keys with ChaCha20-Poly1305
+- **+** Sandbox backends: Landlock, Firejail, Bubblewrap and Docker, auto-detected
+- **+** Memory backends include SQLite, Markdown, PostgreSQL, Redis, ClickHouse and LanceDB
+- **−** Source builds need exactly Zig 0.16.0; other versions are unsupported
+- **−** Benchmark comparisons are the project's own, from a single macOS arm64 run
+- **−** Nostr channel requires the external nak tool in PATH
+- **−** Vertex AI service-account auth requires openssl in PATH
+
+<sub>no GPU · Docker + Compose · Needs Zig 0.16.0 (source builds), nak (Nostr channel), openssl (Vertex service-account auth) · Models: OpenRouter, Anthropic, OpenAI, Azure OpenAI, Gemini · port 3000 · [Repo](https://github.com/nullclaw/nullclaw) · [📖 Docs ↗](https://nullclaw.github.io) · [🌐 Site ↗](https://nullclaw.github.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nullclaw/)</sub>
+
 <a name="moltis"></a>
-### #&#8288;39 [Moltis](https://github.com/moltis-org/moltis) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Oct 2026</sub>
+### #&#8288;39 [Moltis](https://github.com/moltis-org/moltis) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Oct 2026</sub>
 
 **Self-hosted personal agent server in Rust with chat channels and sandboxing.**
 
@@ -702,7 +702,7 @@ Moltis is a single Rust binary that runs a persistent agent server. It connects 
 <sub>no GPU · Docker + Compose · Needs Docker, Podman or Apple Container (sandbox), just and Node.js (source build only) · Models: OpenAI Codex, GitHub Copilot, Local models · port 13131 · [Repo](https://github.com/moltis-org/moltis) · [📖 Docs ↗](https://docs.moltis.org) · [🌐 Site ↗](https://moltis.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moltis/)</sub>
 
 <a name="picoclaw"></a>
-### #&#8288;40 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
+### #&#8288;40 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
 
 **Go assistant agent that runs in under 20 MB on $10 boards.**
 
@@ -720,7 +720,7 @@ PicoClaw is a single Go binary for x86_64, ARM64, MIPS, RISC-V and LoongArch tha
 <sub>RAM ≥ 0.02 GB · no GPU · Docker + Compose · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek · port 18800 · [Repo](https://github.com/sipeed/picoclaw) · [📖 Docs ↗](https://docs.picoclaw.io/) · [🌐 Site ↗](https://picoclaw.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/picoclaw/)</sub>
 
 <a name="openclaw-windows-node"></a>
-### #&#8288;41 [openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+### #&#8288;41 [openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
 
 **Windows tray app that connects a PC to an OpenClaw gateway as an agent node.**
 
@@ -738,7 +738,7 @@ Native WinUI 3 companion for the OpenClaw gateway. It provides a tray flyout, wo
 <sub>GPU optional · Needs OpenClaw gateway, WSL (for local gateway), WebView2, Microsoft.Mxc.Sdk · Models: Ollama (shared from Windows), Managed Local AI profiles · port 18789 · [Repo](https://github.com/openclaw/openclaw-windows-node) · [📖 Docs ↗](https://docs.openclaw.ai/platforms/windows) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-windows-node/)</sub>
 
 <a name="invisible-dots"></a>
-### #&#8288;42 [invisible_dots](https://github.com/feder-cr/invisible_dots) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 53 · MIT · Nov 2026</sub>
+### #&#8288;42 [invisible_dots](https://github.com/feder-cr/invisible_dots) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 54 · MIT · Nov 2026</sub>
 
 **Self-hosted agent that works on its own VM desktop with a patched Firefox.**
 
@@ -774,7 +774,7 @@ Clodds is a Node.js/TypeScript gateway that lets you place and monitor trades by
 <sub>no GPU · Docker + Compose · Needs Node.js 22+, Anthropic API key, SQLite, LanceDB, PostgreSQL (optional, analytics) · Models: Claude, GPT-4, Gemini, Groq, Together · port 18789 · [Repo](https://github.com/alsk1992/cloddsbot) · [▶️ Demo ↗](https://cloddsbot.com/onboard.mp4) · [🌐 Site ↗](https://cloddsbot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cloddsbot/)</sub>
 
 <a name="goutoujunshi"></a>
-### #&#8288;44 [goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · MIT · Sep 2026</sub>
+### #&#8288;44 [goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Sep 2026</sub>
 
 **Codex Skill that analyzes relationship chats and suggests concrete next steps.**
 
@@ -864,7 +864,7 @@ OpenDuet is a self-hosted personal agent built on OpenBot and CopilotKit. It rea
 <sub>no GPU · Needs Docker, Bun 1.3+, Node (npx), Postgres, CopilotKit Intelligence project, Model API key · Models: OpenAI, Anthropic, OpenAI-compatible endpoints · port 3010 · [Repo](https://github.com/copilotkit/openduet) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openduet/)</sub>
 
 <a name="shell-gpt"></a>
-### #&#8288;49 [shell_gpt](https://github.com/ther1d/shell_gpt) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (64) · Freshness: active (87) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Jul 2026</sub>
+### #&#8288;49 [shell_gpt](https://github.com/ther1d/shell_gpt) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (64) · Freshness: active (86) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Jul 2026</sub>
 
 **Command-line tool that generates shell commands and code from LLM prompts.**
 
@@ -881,26 +881,8 @@ ShellGPT installs as `sgpt` via pip and sends prompts from arguments or stdin to
 
 <sub>no GPU · Docker · Needs OpenAI API key or a local backend such as Ollama, Python and pip · Models: OpenAI GPT models, Ollama (via LiteLLM) · [Repo](https://github.com/ther1d/shell_gpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/shell-gpt/)</sub>
 
-<a name="mimiclaw"></a>
-### #&#8288;50 [mimiclaw](https://github.com/memovai/mimiclaw) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (33) · Freshness: active (95) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Oct 2026</sub>
-
-**C firmware that runs a Telegram-controlled AI agent on an ESP32-S3 board.**
-
-MimiClaw is ESP-IDF firmware that turns an ESP32-S3 board with 16 MB flash and 8 MB PSRAM into a personal assistant reached through Telegram. It runs a ReAct agent loop against Anthropic or OpenAI APIs, with web search, cron scheduling and a periodic heartbeat. Memory, chat history and config are kept as plain text files on the chip's flash.
-
-- **+** Runs on a single ESP32-S3 board with no Linux or Node.js; written in C
-- **+** Memory, personality and tasks are plain editable files (SOUL.md, MEMORY.md, HEARTBEAT.md)
-- **+** Switches between Anthropic and OpenAI at runtime via serial CLI, stored in NVS
-- **+** Persistent cron jobs and a 30-minute heartbeat let the agent act unprompted
-- **−** Requires specific hardware: ESP32-S3 with 16 MB flash and 8 MB PSRAM
-- **−** Needs ESP-IDF v5.5+ toolchain; build-time secrets changes require a full rebuild
-- **−** Telegram is the only chat channel; models are remote APIs, no local inference
-- **−** Small tool set: web search, current time and cron management only
-
-<sub>no GPU · Needs ESP32-S3 board (16 MB flash, 8 MB PSRAM), ESP-IDF v5.5+, Telegram bot token, Anthropic or OpenAI API key, Tavily or Brave Search API key (optional) · Models: Anthropic Claude, OpenAI GPT · port 18789 · [Repo](https://github.com/memovai/mimiclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mimiclaw/)</sub>
-
 <a name="wechat-intelligence-hub"></a>
-### #&#8288;51 [wechat-intelligence-hub](https://github.com/rion-wu-tech/wechat-intelligence-hub) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;50 [wechat-intelligence-hub](https://github.com/rion-wu-tech/wechat-intelligence-hub) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · AGPL-3.0 · Oct 2026</sub>
 
 **Turns local WeChat history into daily reports, follow-ups and commitments.**
 
@@ -916,6 +898,24 @@ Read-only toolkit that indexes a user's own local WeChat databases and produces 
 - **−** AGPL-3.0; closed-source use needs a separate commercial license
 
 <sub>Needs Codex, SQLCipher, Zstandard, Pandoc (HTML reports), nh3 (HTML sanitizing), Local WeChat database and key material · [Repo](https://github.com/rion-wu-tech/wechat-intelligence-hub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wechat-intelligence-hub/)</sub>
+
+<a name="mimiclaw"></a>
+### #&#8288;51 [mimiclaw](https://github.com/memovai/mimiclaw) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (32) · Freshness: active (95) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Oct 2026</sub>
+
+**C firmware that runs a Telegram-controlled AI agent on an ESP32-S3 board.**
+
+MimiClaw is ESP-IDF firmware that turns an ESP32-S3 board with 16 MB flash and 8 MB PSRAM into a personal assistant reached through Telegram. It runs a ReAct agent loop against Anthropic or OpenAI APIs, with web search, cron scheduling and a periodic heartbeat. Memory, chat history and config are kept as plain text files on the chip's flash.
+
+- **+** Runs on a single ESP32-S3 board with no Linux or Node.js; written in C
+- **+** Memory, personality and tasks are plain editable files (SOUL.md, MEMORY.md, HEARTBEAT.md)
+- **+** Switches between Anthropic and OpenAI at runtime via serial CLI, stored in NVS
+- **+** Persistent cron jobs and a 30-minute heartbeat let the agent act unprompted
+- **−** Requires specific hardware: ESP32-S3 with 16 MB flash and 8 MB PSRAM
+- **−** Needs ESP-IDF v5.5+ toolchain; build-time secrets changes require a full rebuild
+- **−** Telegram is the only chat channel; models are remote APIs, no local inference
+- **−** Small tool set: web search, current time and cron management only
+
+<sub>no GPU · Needs ESP32-S3 board (16 MB flash, 8 MB PSRAM), ESP-IDF v5.5+, Telegram bot token, Anthropic or OpenAI API key, Tavily or Brave Search API key (optional) · Models: Anthropic Claude, OpenAI GPT · port 18789 · [Repo](https://github.com/memovai/mimiclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mimiclaw/)</sub>
 
 <a name="spacebot"></a>
 ### #&#8288;52 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (8) · Freshness: active (99) · Maintenance: weak (29) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Sep 2026</sub>
@@ -954,7 +954,7 @@ Node.js CLI (`wb`) that logs into WeChat by QR code through Wechaty and replies 
 <sub>no GPU · Docker · Needs Node.js >= 18, Wechaty, OpenCLI wx-cli, lark-cli, Pi agent · Models: ChatGPT, DeepSeek, Ollama, Claude, Kimi · port 3000 · [Repo](https://github.com/wangrongding/wechat-bot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wechat-bot/)</sub>
 
 <a name="open-llm-vtuber"></a>
-### #&#8288;54 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (69) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
+### #&#8288;54 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (69) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
 
 **Voice-chat AI companion with a Live2D avatar and desktop pet mode.**
 
@@ -990,7 +990,7 @@ Packages the OpenClaw personal assistant (formerly Moltbot/Clawdbot) to run in a
 <sub>RAM ≥ 4 GB · no GPU · Docker · Needs Cloudflare Workers Paid plan, Cloudflare Sandbox/Containers, Cloudflare Access, Anthropic API key or Cloudflare AI Gateway, R2 (optional) · Models: Anthropic Claude, OpenAI, Groq, Workers AI · [Repo](https://github.com/cloudflare/moltworker) · [📖 Docs ↗](https://developers.cloudflare.com/sandbox/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moltworker/)</sub>
 
 <a name="gpt-ai-assistant"></a>
-### #&#8288;56 [gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (42) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Jun 2026</sub>
+### #&#8288;56 [gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (42) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Jun 2026</sub>
 
 **LINE chatbot backed by the OpenAI API.**
 
@@ -1043,7 +1043,7 @@ PaperDebugger is a Chrome extension that adds a chat panel to Overleaf projects.
 <sub>no GPU · Docker · Needs Chrome, Overleaf, MongoDB, OpenAI API · Models: OpenAI API · [Repo](https://github.com/paperdebugger/paperdebugger) · [🌐 Site ↗](https://chromewebstore.google.com/detail/paperdebugger/dfkedikhakpapbfcnbpmfhpklndgiaog) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperdebugger/)</sub>
 
 <a name="openclaw-china-docker"></a>
-### #&#8288;59 [openclaw-china-docker](https://github.com/justlovemaki/openclaw-china-docker) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (17) · Freshness: recent (54) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · GPL-3.0 · Apr 2026</sub>
+### #&#8288;59 [openclaw-china-docker](https://github.com/justlovemaki/openclaw-china-docker) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (17) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · GPL-3.0 · Apr 2026</sub>
 
 **OpenClaw image preloaded with Feishu, DingTalk, QQ and WeCom chat plugins.**
 
@@ -1078,7 +1078,7 @@ FreeTodo is a todo app with a FastAPI backend (SQLite and ChromaDB) and a Next.j
 <sub>GPU optional · Needs Python 3.12, uv, Node.js 20+, pnpm, SQLite, ChromaDB · port 3001 · [Repo](https://github.com/freeu-group/freetodo) · [📖 Docs ↗](https://freeyou.club/lifetrace/introduction.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/freetodo/)</sub>
 
 <a name="open-health"></a>
-### #&#8288;61 [open-health](https://github.com/openhealthforall/open-health) <sub>score [10](../README.md#-how-we-rank "Score 10/100. Adoption: niche (20) · Freshness: quiet (13) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · AGPL-3.0 · Jan 2026</sub>
+### #&#8288;61 [open-health](https://github.com/openhealthforall/open-health) <sub>score [10](../README.md#-how-we-rank "Score 10/100. Adoption: niche (20) · Freshness: quiet (12) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · AGPL-3.0 · Jan 2026</sub>
 
 **Web app that parses personal health records and chats about them with an LLM.**
 
