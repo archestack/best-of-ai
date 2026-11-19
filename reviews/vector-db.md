@@ -165,7 +165,7 @@ Zvec is a C++ vector database that embeds in the application process instead of 
 <sub>no GPU · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
 
 <a name="lance"></a>
-### #&#8288;10 [lance](https://github.com/lance-format/lance) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [lance](https://github.com/lance-format/lance) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
 
 **Columnar table format for multimodal AI data with vector and full-text search.**
 
@@ -290,8 +290,26 @@ USearch is a header-only C++20 library for approximate nearest-neighbor search o
 
 <sub>GPU optional · [Repo](https://github.com/unum-cloud/usearch) · [📖 Docs ↗](https://github.com/unum-cloud/USearch/blob/main/include/usearch/dense/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/usearch/)</sub>
 
+<a name="seekdb"></a>
+### #&#8288;17 [seekdb](https://github.com/oceanbase/seekdb) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
+
+**MySQL-compatible database with hybrid vector and full-text search and forkable databases.**
+
+seekdb is a C++ database built on the OceanBase SQL engine. It speaks the MySQL protocol and runs embedded (Python, Node.js, Go bindings), as a single-node server, or in an OceanBase cluster. It combines vector, full-text and scalar filters in one SQL query, and adds FORK DATABASE / MERGE TABLE copy-on-write sandboxes aimed at agent state and memory.
+
+- **+** Vector, full-text and scalar filters run in a single SQL execution plan
+- **+** Runs embedded from Python, Node.js or Go, or as a MySQL-protocol server
+- **+** FORK DATABASE and MERGE TABLE give copy-on-write branching with FAIL/THEIRS/OURS strategies
+- **+** Async index pipeline with two-level HNSW; README reports 1,523 QPS at 21.7 ms P99
+- **−** Benchmark claims against Milvus and Elasticsearch come from the project's own test
+- **−** Embedded use needs Python 3.11+, Node.js 22+, or Go 1.24+ with CGO and a C compiler
+- **−** Building from source requires the OceanBase C++ toolchain via build.py
+- **−** Hosted zero-install instances are free for only 7 days
+
+<sub>no GPU · [Repo](https://github.com/oceanbase/seekdb) · [▶️ Demo ↗](https://d0.seekdb.ai) · [📖 Docs ↗](https://docs.seekdb.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/seekdb/)</sub>
+
 <a name="hnswlib"></a>
-### #&#8288;17 [hnswlib](https://github.com/nmslib/hnswlib) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (35) · Freshness: active (95) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;18 [hnswlib](https://github.com/nmslib/hnswlib) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (35) · Freshness: active (95) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · Apache-2.0 · Sep 2026</sub>
 
 **Header-only C++ library for approximate nearest neighbor search with HNSW graphs.**
 
@@ -307,24 +325,6 @@ Hnswlib implements the HNSW graph index for approximate nearest neighbor search 
 - **−** Python filtered search is slow in multithreaded mode because of the GIL
 
 <sub>no GPU · [Repo](https://github.com/nmslib/hnswlib) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hnswlib/)</sub>
-
-<a name="attu"></a>
-### #&#8288;18 [attu](https://github.com/zilliztech/attu) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
-
-**Management UI for Milvus clusters with data browsing, search and an AI agent.**
-
-Attu is a management console for Milvus vector databases. One instance connects to several Milvus clusters or Zilliz Cloud, and lets you browse collections, edit data, run vector and BM25 searches, manage backups and RBAC, and view Prometheus metrics. A built-in agent with 50+ tools performs Milvus operations from chat, using OpenAI, Claude, DeepSeek, Gemini, OpenRouter or a custom endpoint.
-
-- **+** Multiple Milvus clusters managed from one instance, each with its own workspace
-- **+** Ships as Docker image, Linux server package, or desktop app for macOS, Linux, Windows
-- **+** Local login, audit logs of write operations, TLS/mTLS and SSRF protection built in
-- **+** Backup and restore to S3, MinIO, GCS or Azure Blob, plus CSV, JSON, Parquet import/export
-- **−** Supports only Milvus 2.6.0+ and 3.x plus Zilliz Cloud; 2.5.x and earlier are unsupported
-- **−** Works only with Milvus; no other vector stores
-- **−** Desktop build is single-user and has no multi-user login
-- **−** Desktop SSRF rules block local and LAN services unless allowlisted via environment variable
-
-<sub>no GPU · Needs Milvus 2.6.0+ or 3.x, or Zilliz Cloud, SQLite (bundled), Node.js 24.x (standalone server package) · Models: OpenAI, Anthropic Claude, DeepSeek, Google Gemini, OpenRouter · port 3000 · [Repo](https://github.com/zilliztech/attu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/attu/)</sub>
 
 <a name="sptag"></a>
 ### #&#8288;19 [sptag](https://github.com/microsoft/sptag) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (32) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
@@ -344,44 +344,26 @@ SPTAG is a Microsoft Research and Bing library for approximate nearest neighbor 
 
 <sub>Docker · Needs swig >= 4.0.2, cmake >= 3.12.0, boost >= 1.67.0, SPDK (optional), RocksDB (optional) · [Repo](https://github.com/microsoft/sptag) · [📖 Docs ↗](https://github.com/microsoft/SPTAG/blob/master/docs/GettingStart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sptag/)</sub>
 
-<a name="seekdb"></a>
-### #&#8288;20 [seekdb](https://github.com/oceanbase/seekdb) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (9) · Freshness: active (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · Apache-2.0 · Oct 2026</sub>
+<a name="attu"></a>
+### #&#8288;20 [attu](https://github.com/zilliztech/attu) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
 
-**MySQL-compatible database with hybrid vector and full-text search and forkable databases.**
+**Management UI for Milvus clusters with data browsing, search and an AI agent.**
 
-seekdb is a C++ database built on the OceanBase SQL engine. It speaks the MySQL protocol and runs embedded (Python, Node.js, Go bindings), as a single-node server, or in an OceanBase cluster. It combines vector, full-text and scalar filters in one SQL query, and adds FORK DATABASE / MERGE TABLE copy-on-write sandboxes aimed at agent state and memory.
+Attu is a management console for Milvus vector databases. One instance connects to several Milvus clusters or Zilliz Cloud, and lets you browse collections, edit data, run vector and BM25 searches, manage backups and RBAC, and view Prometheus metrics. A built-in agent with 50+ tools performs Milvus operations from chat, using OpenAI, Claude, DeepSeek, Gemini, OpenRouter or a custom endpoint.
 
-- **+** Vector, full-text and scalar filters run in a single SQL execution plan
-- **+** Runs embedded from Python, Node.js or Go, or as a MySQL-protocol server
-- **+** FORK DATABASE and MERGE TABLE give copy-on-write branching with FAIL/THEIRS/OURS strategies
-- **+** Async index pipeline with two-level HNSW; README reports 1,523 QPS at 21.7 ms P99
-- **−** Benchmark claims against Milvus and Elasticsearch come from the project's own test
-- **−** Embedded use needs Python 3.11+, Node.js 22+, or Go 1.24+ with CGO and a C compiler
-- **−** Building from source requires the OceanBase C++ toolchain via build.py
-- **−** Hosted zero-install instances are free for only 7 days
+- **+** Multiple Milvus clusters managed from one instance, each with its own workspace
+- **+** Ships as Docker image, Linux server package, or desktop app for macOS, Linux, Windows
+- **+** Local login, audit logs of write operations, TLS/mTLS and SSRF protection built in
+- **+** Backup and restore to S3, MinIO, GCS or Azure Blob, plus CSV, JSON, Parquet import/export
+- **−** Supports only Milvus 2.6.0+ and 3.x plus Zilliz Cloud; 2.5.x and earlier are unsupported
+- **−** Works only with Milvus; no other vector stores
+- **−** Desktop build is single-user and has no multi-user login
+- **−** Desktop SSRF rules block local and LAN services unless allowlisted via environment variable
 
-<sub>no GPU · [Repo](https://github.com/oceanbase/seekdb) · [▶️ Demo ↗](https://d0.seekdb.ai) · [📖 Docs ↗](https://docs.seekdb.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/seekdb/)</sub>
-
-<a name="deeplake"></a>
-### #&#8288;21 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (58) · Freshness: recent (68) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
-
-**Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
-
-Deep Lake is a Python-installed database that stores embeddings alongside raw data such as images, video, audio, text and PDFs in a chunked columnar format. It serves as a vector store for LLM apps (LangChain, LlamaIndex) and as a streaming dataset layer for PyTorch and TensorFlow training. Computation runs client-side, and data can live on S3, GCP, Azure, S3-compatible storage like MinIO, or local disk.
-
-- **+** Stores raw media and embeddings together, not just vectors with light metadata
-- **+** Built-in dataset version control and PyTorch/TensorFlow dataloaders
-- **+** Serverless and client-side; works with S3, GCP, Azure, MinIO, local or in-memory storage
-- **+** Integrates with LangChain, LlamaIndex, Weights & Biases and MMDetection
-- **−** README says full features require registering in the hosted Deep Lake App
-- **−** Visualizer and public dataset hub are tied to Activeloop's cloud service
-- **−** No server mode; README gives no benchmarks for large-scale vector search
-- **−** README links mix old and new docs sites, and comparisons look dated
-
-<sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
+<sub>no GPU · Needs Milvus 2.6.0+ or 3.x, or Zilliz Cloud, SQLite (bundled), Node.js 24.x (standalone server package) · Models: OpenAI, Anthropic Claude, DeepSeek, Google Gemini, OpenRouter · port 3000 · [Repo](https://github.com/zilliztech/attu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/attu/)</sub>
 
 <a name="pgvectorscale"></a>
-### #&#8288;22 [pgvectorscale](https://github.com/timescale/pgvectorscale) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (7) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · PostgreSQL · Oct 2026</sub>
+### #&#8288;21 [pgvectorscale](https://github.com/timescale/pgvectorscale) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · PostgreSQL · Oct 2026</sub>
 
 **PostgreSQL extension adding a StreamingDiskANN vector index on top of pgvector.**
 
@@ -397,6 +379,24 @@ pgvectorscale is a Rust extension (built with PGRX) that adds a StreamingDiskANN
 - **−** Cannot be built on Intel macOS; inner product indexes are incompatible with plain storage
 
 <sub>no GPU · Needs PostgreSQL, pgvector, Rust toolchain (source build) · [Repo](https://github.com/timescale/pgvectorscale) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvectorscale/)</sub>
+
+<a name="deeplake"></a>
+### #&#8288;22 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (58) · Freshness: recent (68) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+
+**Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
+
+Deep Lake is a Python-installed database that stores embeddings alongside raw data such as images, video, audio, text and PDFs in a chunked columnar format. It serves as a vector store for LLM apps (LangChain, LlamaIndex) and as a streaming dataset layer for PyTorch and TensorFlow training. Computation runs client-side, and data can live on S3, GCP, Azure, S3-compatible storage like MinIO, or local disk.
+
+- **+** Stores raw media and embeddings together, not just vectors with light metadata
+- **+** Built-in dataset version control and PyTorch/TensorFlow dataloaders
+- **+** Serverless and client-side; works with S3, GCP, Azure, MinIO, local or in-memory storage
+- **+** Integrates with LangChain, LlamaIndex, Weights & Biases and MMDetection
+- **−** README says full features require registering in the hosted Deep Lake App
+- **−** Visualizer and public dataset hub are tied to Activeloop's cloud service
+- **−** No server mode; README gives no benchmarks for large-scale vector search
+- **−** README links mix old and new docs sites, and comparisons look dated
+
+<sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
 
 <a name="sqlite-vec"></a>
 ### #&#8288;23 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (54) · Freshness: recent (71) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · May 2026</sub>
