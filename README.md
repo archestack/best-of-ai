@@ -48,11 +48,11 @@
 
 | Project | Stars this week | Rank |
 |---|--:|---|
-| [andee](reviews/assistants.md#andee) | +1,137 (+23%) | #&#8288;35 in Assistants |
-| [toonflow-app](reviews/image-video.md#toonflow-app) | +761 (+3.5%) | 🥈 in Image and video |
-| [moli](reviews/data-tools.md#moli) | +632 (+2.7%) | #&#8288;12 in Data and scraping for AI |
-| [ggml](reviews/ml-frameworks.md#ggml) | +512 (+3.3%) | #&#8288;54 in ML frameworks and libraries |
-| [sapper-v2](reviews/security.md#sapper-v2) | +476 (+24%) | #&#8288;27 in Security |
+| [dsh-go](reviews/desktop-apps.md#dsh-go) | +6,231 (+29%) | #&#8288;8 in Desktop AI apps |
+| [voicestudio](reviews/voice.md#voicestudio) | +4,624 (+4.2%) | 🥇 in Voice |
+| [freellmapi](reviews/gateways.md#freellmapi) | +3,422 (+6.7%) | #&#8288;6 in Gateways and observability |
+| [paper-orchestra](reviews/agent-platforms.md#paper-orchestra) | +3,241 (+222%) | #&#8288;94 in Agent platforms |
+| [Obscura](reviews/sandboxes.md#obscura) | +3,178 (+9.5%) | #&#8288;5 in Sandboxes |
 
 ## ⚡ Pick by vibe
 
