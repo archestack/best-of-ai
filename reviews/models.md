@@ -41,7 +41,7 @@ Laya answers structured questions (choice, score, yes/no) about text in one non-
 <sub>GPU optional · Docker + Compose · Needs PyTorch, Hugging Face Hub, ffmpeg (video input) · Models: laya (English), laya-multilingual, laya-typed-decisions, vega-U 0.8B, Qwen3.5-4B reader · [Repo](https://github.com/nandhakishorm/laya) · [▶️ Demo ↗](https://huggingface.co/spaces/convaiinnovations/laya-demo) · [📖 Docs ↗](https://nandhakishorm.github.io/laya/) · [🌐 Site ↗](https://huggingface.co/convaiinnovations/laya) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/laya/)</sub>
 
 <a name="rf-detr"></a>
-### 🥉 [rf-detr](https://github.com/roboflow/rf-detr) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [rf-detr](https://github.com/roboflow/rf-detr) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Real-time transformer models for object detection, segmentation and keypoints.**
 
@@ -59,7 +59,7 @@ RF-DETR is a Python package (`pip install rfdetr`, Python 3.10+) from Roboflow t
 <sub>GPU optional · Needs PyTorch, supervision · Models: RF-DETR detection (Atto to 2XL), RF-DETR instance segmentation (Seg-N to Seg-2XL), RF-DETR keypoint (preview), DINOv2 backbone, COCO and custom datasets · [Repo](https://github.com/roboflow/rf-detr) · [▶️ Demo ↗](https://huggingface.co/spaces/SkalskiP/RF-DETR) · [🌐 Site ↗](https://blog.roboflow.com/rf-detr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rf-detr/)</sub>
 
 <a name="timesfm"></a>
-### #&#8288;4 [timesfm](https://github.com/google-research/timesfm) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;4 [timesfm](https://github.com/google-research/timesfm) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Nov 2026</sub>
 
 **Pretrained time-series foundation model for zero-shot forecasting from Google Research.**
 
@@ -77,7 +77,7 @@ TimesFM is a pretrained decoder-only model for time-series forecasting, installe
 <sub>GPU optional · Needs PyTorch or MLX, Hugging Face checkpoints · Models: TimesFM 3.0 (PyTorch checkpoint), TimesFM 2.5 (200M params, 16k context), TimesFM 1.0 and 2.0 (v1 archive) · [Repo](https://github.com/google-research/timesfm) · [🌐 Site ↗](https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/timesfm/)</sub>
 
 <a name="open-clip"></a>
-### #&#8288;5 [open_clip](https://github.com/mlfoundations/open_clip) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · custom license · Nov 2026</sub>
+### #&#8288;5 [open_clip](https://github.com/mlfoundations/open_clip) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · custom license · Nov 2026</sub>
 
 **PyTorch library for training and running CLIP-style image-text models.**
 
@@ -113,7 +113,7 @@ YuE2 generates full songs with vocals and accompaniment from lyrics and a style 
 <sub>GPU required · Needs Hugging Face model downloads, SheetSage2 (separate environment, for covers), PyTorch · Models: YuE2-3B, YuE2-Vae, YuE2-Vae-legacy, SheetSage2, MERT-v2 · [Repo](https://github.com/multimodal-art-projection/yue) · [▶️ Demo ↗](https://yue.noizai.net/) · [📖 Docs ↗](https://github.com/multimodal-art-projection/YuE/blob/main/docs/generation.md) · [🌐 Site ↗](https://map-yue2.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yue/)</sub>
 
 <a name="kev"></a>
-### #&#8288;7 [kev](https://github.com/jaredpalmer/kev) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;7 [kev](https://github.com/jaredpalmer/kev) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Small decision models answering yes/no, choice and score questions over text.**
 
@@ -149,7 +149,7 @@ YOLOv5 provides pretrained COCO checkpoints (n/s/m/l/x, plus 1280px P6 variants)
 <sub>GPU optional · Needs Python>=3.8, PyTorch>=1.8 · Models: PyTorch .pt, ONNX, TensorRT, CoreML, TFLite · [Repo](https://github.com/ultralytics/yolov5) · [📖 Docs ↗](https://docs.ultralytics.com/yolov5) · [🌐 Site ↗](https://www.ultralytics.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yolov5/)</sub>
 
 <a name="speech"></a>
-### #&#8288;9 [speech](https://github.com/nvidia-nemo/speech) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [speech](https://github.com/nvidia-nemo/speech) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Nov 2026</sub>
 
 **PyTorch toolkit for training and deploying ASR, TTS and speech LLM models.**
 
@@ -185,7 +185,7 @@ ACE-Step 1.5 generates full songs from text prompts and lyrics using a Qwen3-bas
 <sub>GPU optional · Docker + Compose · Needs uv, Python 3.11-3.12, Gradio · Models: ACE-Step DiT 2B (base, sft, turbo), ACE-Step XL DiT 4B (base, sft, turbo), acestep-5Hz-lm 0.6B/1.7B/4B (Qwen3-based), LoRA adapters · port 7860 · [Repo](https://github.com/ace-step/ace-step-1.5) · [▶️ Demo ↗](https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5) · [📖 Docs ↗](https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md) · [🌐 Site ↗](https://ace-step.github.io/ace-step-v1.5.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ace-step-1-5/)</sub>
 
 <a name="cosmos"></a>
-### #&#8288;11 [cosmos](https://github.com/nvidia/cosmos) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
+### #&#8288;11 [cosmos](https://github.com/nvidia/cosmos) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
 
 **Open world foundation models for robotics and driving: video, reasoning, policies.**
 
@@ -203,7 +203,7 @@ Landing repo for Cosmos 3, a family of omnimodal world models with a Reasoner (t
 <sub>GPU required · Needs Hugging Face account and token, Cosmos-1.0-Guardrail (gated), PyTorch, diffusers · Models: Cosmos3-Super 64B, Cosmos3-Nano 16B, Cosmos3-Edge 4B, Diffusers, Transformers · [Repo](https://github.com/nvidia/cosmos) · [▶️ Demo ↗](https://build.nvidia.com/nvidia/cosmos3-nano-reasoner) · [📖 Docs ↗](https://github.com/NVIDIA/cosmos/blob/main/COOKBOOK.md) · [🌐 Site ↗](https://research.nvidia.com/labs/cosmos-lab/cosmos3/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cosmos/)</sub>
 
 <a name="flagembedding"></a>
-### #&#8288;12 [flagembedding](https://github.com/flagopen/flagembedding) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
+### #&#8288;12 [flagembedding](https://github.com/flagopen/flagembedding) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Oct 2026</sub>
 
 **BGE embedding and reranker models with inference, fine-tuning and evaluation code.**
 
@@ -221,7 +221,7 @@ FlagEmbedding is the Python package and code repository for BAAI's BGE embedding
 <sub>GPU optional · Models: BGE embedding models (Hugging Face), BGE rerankers, BGE-M3, bge-en-icl, bge-multilingual-gemma2 · [Repo](https://github.com/flagopen/flagembedding) · [📖 Docs ↗](https://www.bge-model.com) · [🌐 Site ↗](https://flagopen.baai.ac.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flagembedding/)</sub>
 
 <a name="alphafold3"></a>
-### #&#8288;13 [alphafold3](https://github.com/google-deepmind/alphafold3) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [alphafold3](https://github.com/google-deepmind/alphafold3) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · Apache-2.0 · Nov 2026</sub>
 
 **Inference pipeline for AlphaFold 3 biomolecular structure prediction.**
 
@@ -275,7 +275,7 @@ Weights and code for the MiniCPM series of compact dense LLMs. The current relea
 <sub>GPU optional · Needs vLLM, SGLang, llama.cpp, Transformers · Models: BF16, GGUF, MLX, GPTQ, MiniCPM5-2B · [Repo](https://github.com/openbmb/minicpm) · [▶️ Demo ↗](https://huggingface.co/spaces/openbmb/MiniCPM5-2B-Demo) · [📖 Docs ↗](https://modelbest.feishu.cn/wiki/UtWxwcERfiRIpIkBOjuc3h9tn1D?fromScene=spaceOverview) · [🌐 Site ↗](https://ultradata.openbmb.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minicpm/)</sub>
 
 <a name="yolov3"></a>
-### #&#8288;16 [yolov3](https://github.com/ultralytics/yolov3) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (69) · Freshness: recent (70) · Maintenance: fair (62) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;16 [yolov3](https://github.com/ultralytics/yolov3) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (70) · Freshness: recent (70) · Maintenance: fair (62) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · AGPL-3.0 · Nov 2026</sub>
 
 **PyTorch implementation of YOLOv3, YOLOv3-SPP and YOLOv3-tiny object detectors.**
 
@@ -292,8 +292,25 @@ PyTorch code for the three classic YOLOv3 object detection models, with scripts 
 
 <sub>GPU optional · Needs Python>=3.8, PyTorch>=1.8 · Models: YOLOv3, YOLOv3-SPP, YOLOv3-tiny, COCO, ONNX · [Repo](https://github.com/ultralytics/yolov3) · [📖 Docs ↗](https://docs.ultralytics.com/models/yolov3) · [🌐 Site ↗](https://www.ultralytics.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yolov3/)</sub>
 
+<a name="sensenova-u1"></a>
+### #&#8288;17 [sensenova-u1](https://github.com/opensensenova/sensenova-u1) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · Apache-2.0 · Nov 2026</sub>
+
+**Open 8B multimodal model for image generation, editing and visual Q&A.**
+
+SenseNova-U1 and U1.5 are open-weight native multimodal models (8B-MoT, plus an A3B variant) that handle text-to-image, image editing, interleaved image-text generation and visual question answering in one model. The repo ships Python inference scripts for Transformers, optional GGUF checkpoint loading, 8-step LoRA checkpoints, a ComfyUI workflow and full-parameter fine-tuning code. Production serving is documented separately with LightLLM and LightX2V.
+
+- **+** One checkpoint covers text-to-image, editing, interleaved generation and VQA
+- **+** Native 4K generation and bounding-box or reference-based visual control in U1.5
+- **+** 8-step LoRA and GGUF checkpoints reduce latency and VRAM use
+- **+** Training code, technical reports and a ComfyUI workflow are included
+- **−** README admits dense text, hands, small faces and multi-turn edits can still fail
+- **−** Official GGUF weights for U1.5 are not out yet; current GGUFs are community-made
+- **−** No tagged release; weights are distributed via Hugging Face and ModelScope
+
+<sub>Needs PyTorch, Transformers, LightLLM (production serving), LightX2V (production serving), gguf and diffusers (optional GGUF) · Models: SenseNova-U1.5-8B-MoT, SenseNova-U1-8B-MoT, SenseNova-U1-A3B-MoT, safetensors LoRA, GGUF Q8 · [Repo](https://github.com/opensensenova/sensenova-u1) · [▶️ Demo ↗](https://unify.light-ai.top/) · [📖 Docs ↗](https://github.com/OpenSenseNova/SenseNova-U1/blob/main/docs/deployment.md) · [🌐 Site ↗](https://huggingface.co/blog/sensenova/neo-unify) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sensenova-u1/)</sub>
+
 <a name="gliner"></a>
-### #&#8288;17 [gliner](https://github.com/urchade/gliner) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;18 [gliner](https://github.com/urchade/gliner) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Nov 2026</sub>
 
 **Small zero-shot named entity recognition models with training and serving code.**
 
@@ -309,23 +326,6 @@ GLiNER is a Python framework for training and running small transformer models t
 - **−** Serving layer depends on Ray Serve, an extra install
 
 <sub>GPU optional · Compose · Needs PyTorch, Ray Serve (optional, for serving) · Models: GLiNER uni-encoder, GLiNER bi-encoder, GLiNER RelEx, GLiNER Decoder, StreamingSpan · port 8000 · [Repo](https://github.com/urchade/gliner) · [▶️ Demo ↗](https://huggingface.co/spaces/urchade/gliner_mediumv2.1) · [📖 Docs ↗](https://urchade.github.io/GLiNER) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gliner/)</sub>
-
-<a name="sensenova-u1"></a>
-### #&#8288;18 [sensenova-u1](https://github.com/opensensenova/sensenova-u1) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · Apache-2.0 · Nov 2026</sub>
-
-**Open 8B multimodal model for image generation, editing and visual Q&A.**
-
-SenseNova-U1 and U1.5 are open-weight native multimodal models (8B-MoT, plus an A3B variant) that handle text-to-image, image editing, interleaved image-text generation and visual question answering in one model. The repo ships Python inference scripts for Transformers, optional GGUF checkpoint loading, 8-step LoRA checkpoints, a ComfyUI workflow and full-parameter fine-tuning code. Production serving is documented separately with LightLLM and LightX2V.
-
-- **+** One checkpoint covers text-to-image, editing, interleaved generation and VQA
-- **+** Native 4K generation and bounding-box or reference-based visual control in U1.5
-- **+** 8-step LoRA and GGUF checkpoints reduce latency and VRAM use
-- **+** Training code, technical reports and a ComfyUI workflow are included
-- **−** README admits dense text, hands, small faces and multi-turn edits can still fail
-- **−** Official GGUF weights for U1.5 are not out yet; current GGUFs are community-made
-- **−** No tagged release; weights are distributed via Hugging Face and ModelScope
-
-<sub>Needs PyTorch, Transformers, LightLLM (production serving), LightX2V (production serving), gguf and diffusers (optional GGUF) · Models: SenseNova-U1.5-8B-MoT, SenseNova-U1-8B-MoT, SenseNova-U1-A3B-MoT, safetensors LoRA, GGUF Q8 · [Repo](https://github.com/opensensenova/sensenova-u1) · [▶️ Demo ↗](https://unify.light-ai.top/) · [📖 Docs ↗](https://github.com/OpenSenseNova/SenseNova-U1/blob/main/docs/deployment.md) · [🌐 Site ↗](https://huggingface.co/blog/sensenova/neo-unify) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sensenova-u1/)</sub>
 
 <a name="insightface"></a>
 ### #&#8288;19 [insightface](https://github.com/deepinsight/insightface) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 30k · no license · Oct 2026</sub>
@@ -364,7 +364,7 @@ LingBot-Map is a PyTorch model, the Geometric Context Transformer, that reconstr
 <sub>GPU required · Needs PyTorch 2.8.0 (CUDA 12.8), FlashInfer (recommended, SDPA fallback), viser, onnxruntime, NVIDIA Kaolin (offline renderer), ffmpeg (offline renderer), open3d (offline renderer) · Models: lingbot-map checkpoint (.pt), lingbot-map-stage1 checkpoint · port 8080 · [Repo](https://github.com/robbyant/lingbot-map) · [🌐 Site ↗](https://technology.robbyant.com/lingbot-map) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lingbot-map/)</sub>
 
 <a name="glm-5"></a>
-### #&#8288;21 [glm-5](https://github.com/zai-org/glm-5) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;21 [glm-5](https://github.com/zai-org/glm-5) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Oct 2026</sub>
 
 **Open-weight GLM-5 series LLMs for coding and long-horizon agent tasks.**
 
@@ -382,7 +382,7 @@ Release repository for the GLM-5, 5.1, 5.2 and 5.3 model families from Z.ai, wit
 <sub>GPU required · Needs SGLang, vLLM, Transformers, KTransformers, Unsloth · Models: GLM-5, GLM-5.1, GLM-5.2, GLM-5.3, GLM-5.3-Flash · [Repo](https://github.com/zai-org/glm-5) · [▶️ Demo ↗](https://z.ai) · [📖 Docs ↗](https://docs.z.ai/guides/llm/glm-5.3) · [🌐 Site ↗](https://z.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-5/)</sub>
 
 <a name="esm"></a>
-### #&#8288;22 [esm](https://github.com/biohub/esm) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · custom license · Nov 2026</sub>
+### #&#8288;22 [esm](https://github.com/biohub/esm) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · custom license · Nov 2026</sub>
 
 **Protein language model and structure predictor with SAE interpretability tools.**
 
@@ -436,7 +436,7 @@ The `alphagenome` package is a Python client for the hosted AlphaGenome API; no 
 <sub>no GPU · Needs AlphaGenome API key, gRPC, pandas, anndata · Models: AlphaGenome 2, AlphaGenome 1 · [Repo](https://github.com/google-deepmind/alphagenome) · [▶️ Demo ↗](https://alphagenome.google/atlas) · [📖 Docs ↗](https://www.alphagenomedocs.com/) · [🌐 Site ↗](https://alphagenome.google/api) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/alphagenome/)</sub>
 
 <a name="chronos-forecasting"></a>
-### #&#8288;25 [chronos-forecasting](https://github.com/amazon-science/chronos-forecasting) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;25 [chronos-forecasting](https://github.com/amazon-science/chronos-forecasting) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Oct 2026</sub>
 
 **Pretrained zero-shot time series forecasting models with a Python pipeline.**
 
@@ -453,7 +453,7 @@ Python package that loads the Chronos family of pretrained time series models (C
 <sub>GPU optional · Needs Hugging Face model hub, pandas[pyarrow] · Models: Chronos-2, Chronos-Bolt, Chronos-T5 · [Repo](https://github.com/amazon-science/chronos-forecasting) · [📖 Docs ↗](https://auto.gluon.ai/cloud/stable/tutorials/foundation-model-timeseries.html) · [🌐 Site ↗](https://huggingface.co/collections/amazon/chronos-models-65f1791d630a8d57cb718444) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chronos-forecasting/)</sub>
 
 <a name="deepanalyze"></a>
-### #&#8288;26 [deepanalyze](https://github.com/ruc-datalab/deepanalyze) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (45) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
+### #&#8288;26 [deepanalyze](https://github.com/ruc-datalab/deepanalyze) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
 
 **8B agentic LLM that runs data science tasks and writes analyst-style reports.**
 
@@ -489,7 +489,7 @@ TRELLIS generates 3D assets from an image or text prompt using a structured late
 <sub>GPU required · Needs CUDA Toolkit 11.8 or 12.2, Conda, PyTorch 2.4.0, flash-attn or xformers, spconv, kaolin, nvdiffrast, Gradio (demo) · Models: TRELLIS-image-large (1.2B), TRELLIS-text-base (342M), TRELLIS-text-large (1.1B), TRELLIS-text-xlarge (2.0B) · [Repo](https://github.com/microsoft/trellis) · [▶️ Demo ↗](https://huggingface.co/spaces/Microsoft/TRELLIS) · [🌐 Site ↗](https://microsoft.github.io/TRELLIS/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trellis/)</sub>
 
 <a name="gpt-oss"></a>
-### #&#8288;28 [gpt-oss](https://github.com/openai/gpt-oss) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (85) · Freshness: active (89) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;28 [gpt-oss](https://github.com/openai/gpt-oss) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (85) · Freshness: active (89) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · Apache-2.0 · Oct 2026</sub>
 
 **OpenAI's open-weight gpt-oss-120b and 20b models with reference inference code.**
 
@@ -525,7 +525,7 @@ MOSS-003 is a 16B-parameter Chinese/English conversational language model from F
 <sub>GPU required · Needs PyTorch, transformers, accelerate, triton (quantized models), conda · Models: moss-moon-003-base, moss-moon-003-sft, moss-moon-003-sft-plugin, GPTQ int4, GPTQ int8 · [Repo](https://github.com/openmoss/moss) · [🌐 Site ↗](https://txsun1997.github.io/blogs/moss.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moss/)</sub>
 
 <a name="longlive"></a>
-### #&#8288;30 [longlive](https://github.com/nvlabs/longlive) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;30 [longlive](https://github.com/nvlabs/longlive) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Nov 2026</sub>
 
 **NVIDIA research code for long video generation and robot world-action models.**
 
@@ -543,7 +543,7 @@ A monorepo of four NVIDIA research projects: Long-WAM (long-context robot polici
 <sub>GPU required · Needs PyTorch, Hugging Face checkpoints · Models: LongLive-1.3B, LongLive-2.0-5B, Wan2.1-T2V-14B, Wan2.2-TI2V-5B, MiniMax-H3 · [Repo](https://github.com/nvlabs/longlive) · [▶️ Demo ↗](https://nvlabs.github.io/LongLive/) · [🌐 Site ↗](https://nvlabs.github.io/LongLive/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/longlive/)</sub>
 
 <a name="ailia-models"></a>
-### #&#8288;31 [ailia-models](https://github.com/ailia-ai/ailia-models) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Nov 2026</sub>
+### #&#8288;31 [ailia-models](https://github.com/ailia-ai/ailia-models) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Nov 2026</sub>
 
 **427 pre-trained vision, audio and NLP models with runnable ailia scripts.**
 
@@ -561,7 +561,7 @@ A repository of per-model sample scripts for 427 pre-trained models covering det
 <sub>Needs ailia (PyPI), Python 3.9-3.12 · [Repo](https://github.com/ailia-ai/ailia-models) · [▶️ Demo ↗](https://www.ailia.ai/launch_to_colab) · [📖 Docs ↗](https://docs.ailia.ai/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ailia-models/)</sub>
 
 <a name="mamba"></a>
-### #&#8288;32 [mamba](https://github.com/state-spaces/mamba) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (83) · Freshness: active (91) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;32 [mamba](https://github.com/state-spaces/mamba) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (84) · Freshness: active (91) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Jul 2026</sub>
 
 **Reference PyTorch code for Mamba, Mamba-2 and Mamba-3 state space models.**
 
@@ -578,8 +578,26 @@ Official implementation of the Mamba selective state space architecture, with Ma
 
 <sub>GPU required · Needs PyTorch 1.12+, Python 3.10+, CUDA 11.6+, causal-conv1d (optional), lm-evaluation-harness (for evals) · Models: Mamba, Mamba-2, Mamba-3, Hugging Face checkpoints (state-spaces) · [Repo](https://github.com/state-spaces/mamba) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mamba/)</sub>
 
+<a name="weathernext"></a>
+### #&#8288;33 [weathernext](https://github.com/google-deepmind/weathernext) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Sep 2026</sub>
+
+**JAX code and weights for DeepMind's WeatherNext 2 and cyclone forecast models.**
+
+Research code to run WeatherNext 2, WeatherNext Cyclones, and the earlier GraphCast and GenCast models for global medium-range weather and tropical cyclone forecasting. Pretrained weights are in a Google Cloud bucket, and a Colab notebook covers loading weights, autoregressive rollouts, plotting and the cyclone tracker. Full-size 0.25° models need an H100 or TPU; the 1° Mini models are meant for smaller hardware.
+
+- **+** Includes weights for operational 0.25° models and checkpoints that reproduce the Nature cyclone paper
+- **+** Colab notebook defaults to the 1° Mini model on a free v5e-1 TPU runtime
+- **+** Also contains GraphCast and GenCast code plus shared rollout and loss utilities
+- **+** Includes training loss and gradient-step code, not just inference
+- **−** README calls it research code with no API stability guarantees; pinning a release is advised
+- **−** Non-Mini models need an H100 or TPU v5p; Mini models run on a P100
+- **−** Optimised for TPU; GPU use requires switching the attention implementation
+- **−** Non-code materials are CC BY 4.0; only code and notebooks are Apache 2.0
+
+<sub>GPU required · Needs JAX, Google Cloud Storage (weights), ERA5 (training), ECMWF HRES (initial conditions), WeatherBench2 · Models: WeatherNext 2, WeatherNext Cyclones, WeatherNext Cyclones Mini, GraphCast, GenCast · [Repo](https://github.com/google-deepmind/weathernext) · [▶️ Demo ↗](https://colab.research.google.com/github/google-deepmind/weathernext/blob/master/docs/weathernext2/wn2_demo.ipynb) · [📖 Docs ↗](https://developers.google.com/weathernext/guides/models) · [🌐 Site ↗](https://deepmind.google.com/science/weatherlab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weathernext/)</sub>
+
 <a name="colpali"></a>
-### #&#8288;33 [colpali](https://github.com/illuin-tech/colpali) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Aug 2026</sub>
+### #&#8288;34 [colpali](https://github.com/illuin-tech/colpali) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Aug 2026</sub>
 
 **Training and inference code for ColPali visual document retrieval models.**
 
@@ -597,7 +615,7 @@ colpali-engine is a Python library for training and running multi-vector (ColBER
 <sub>GPU optional · Needs PyTorch, Hugging Face Transformers, fast-plaid (optional), late-interaction-kernels (optional) · Models: ColPali, ColQwen2, ColQwen2.5, ColQwen3, ColSmol · [Repo](https://github.com/illuin-tech/colpali) · [▶️ Demo ↗](https://huggingface.co/spaces/manu/ColPali-demo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/colpali/)</sub>
 
 <a name="strands-decider"></a>
-### #&#8288;34 [strands-decider](https://github.com/strands-labs/strands-decider) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;35 [strands-decider](https://github.com/strands-labs/strands-decider) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Nov 2026</sub>
 
 **Small classification and scoring model for decisions inside agent workflows.**
 
@@ -615,7 +633,7 @@ Strands Decider is a family of fine-tuned Qwen3.5-2B and Gemma 4 models whose la
 <sub>GPU optional · Docker · Needs Hugging Face model weights, PyTorch/transformers, MLX (optional, Apple silicon) · Models: Qwen3.5-2B, Gemma 4 E2B, Gemma 4 E4B, Gemma 4 12B, Gemma 4 26B-A4B · port 8000 · [Repo](https://github.com/strands-labs/strands-decider) · [🌐 Site ↗](https://strandsagents.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/strands-decider/)</sub>
 
 <a name="spleeter"></a>
-### #&#8288;35 [spleeter](https://github.com/deezer/spleeter) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: widely used (90) · Freshness: recent (70) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · MIT · Oct 2026</sub>
+### #&#8288;36 [spleeter](https://github.com/deezer/spleeter) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: widely used (90) · Freshness: recent (70) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · MIT · Oct 2026</sub>
 
 **Pretrained TensorFlow models that split music into vocals, drums, bass and other stems.**
 
@@ -632,26 +650,8 @@ Spleeter is Deezer's music source separation library, usable as a CLI (`spleeter
 
 <sub>GPU optional · Docker · Needs ffmpeg, libsndfile, TensorFlow · Models: spleeter:2stems, spleeter:4stems, spleeter:5stems · [Repo](https://github.com/deezer/spleeter) · [▶️ Demo ↗](https://colab.research.google.com/github/deezer/spleeter/blob/master/spleeter.ipynb) · [📖 Docs ↗](https://github.com/deezer/spleeter/wiki/1.-Installation) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spleeter/)</sub>
 
-<a name="weathernext"></a>
-### #&#8288;36 [weathernext](https://github.com/google-deepmind/weathernext) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Sep 2026</sub>
-
-**JAX code and weights for DeepMind's WeatherNext 2 and cyclone forecast models.**
-
-Research code to run WeatherNext 2, WeatherNext Cyclones, and the earlier GraphCast and GenCast models for global medium-range weather and tropical cyclone forecasting. Pretrained weights are in a Google Cloud bucket, and a Colab notebook covers loading weights, autoregressive rollouts, plotting and the cyclone tracker. Full-size 0.25° models need an H100 or TPU; the 1° Mini models are meant for smaller hardware.
-
-- **+** Includes weights for operational 0.25° models and checkpoints that reproduce the Nature cyclone paper
-- **+** Colab notebook defaults to the 1° Mini model on a free v5e-1 TPU runtime
-- **+** Also contains GraphCast and GenCast code plus shared rollout and loss utilities
-- **+** Includes training loss and gradient-step code, not just inference
-- **−** README calls it research code with no API stability guarantees; pinning a release is advised
-- **−** Non-Mini models need an H100 or TPU v5p; Mini models run on a P100
-- **−** Optimised for TPU; GPU use requires switching the attention implementation
-- **−** Non-code materials are CC BY 4.0; only code and notebooks are Apache 2.0
-
-<sub>GPU required · Needs JAX, Google Cloud Storage (weights), ERA5 (training), ECMWF HRES (initial conditions), WeatherBench2 · Models: WeatherNext 2, WeatherNext Cyclones, WeatherNext Cyclones Mini, GraphCast, GenCast · [Repo](https://github.com/google-deepmind/weathernext) · [▶️ Demo ↗](https://colab.research.google.com/github/google-deepmind/weathernext/blob/master/docs/weathernext2/wn2_demo.ipynb) · [📖 Docs ↗](https://developers.google.com/weathernext/guides/models) · [🌐 Site ↗](https://deepmind.google.com/science/weatherlab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weathernext/)</sub>
-
 <a name="gemma"></a>
-### #&#8288;37 [gemma](https://github.com/google-deepmind/gemma) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;37 [gemma](https://github.com/google-deepmind/gemma) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Oct 2026</sub>
 
 **JAX library for running and fine-tuning Google's Gemma open-weight models.**
 
@@ -669,7 +669,7 @@ The gemma PyPI package is a JAX implementation for sampling from and fine-tuning
 <sub>RAM ≥ 8 GB · GPU optional · Needs JAX · Models: Gemma 2, Gemma 3, Gemma 3n, Gemma 4 · [Repo](https://github.com/google-deepmind/gemma) · [📖 Docs ↗](https://gemma-llm.readthedocs.io/) · [🌐 Site ↗](https://ai.google.dev/gemma) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gemma/)</sub>
 
 <a name="lc0"></a>
-### #&#8288;38 [lc0](https://github.com/leelachesszero/lc0) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (28) · Freshness: active (85) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;38 [lc0](https://github.com/leelachesszero/lc0) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (29) · Freshness: active (85) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · GPL-3.0 · Nov 2026</sub>
 
 **UCI chess engine that evaluates positions with LeelaChessZero neural networks.**
 
@@ -686,8 +686,26 @@ Lc0 is a C++20 chess engine that speaks the UCI protocol and plays using neural 
 
 <sub>GPU optional · Needs Meson, Ninja, Python, C++20 compiler, CUDA, ROCm, onnxruntime, OpenBLAS, oneDNN · Models: LeelaChessZero networks · [Repo](https://github.com/leelachesszero/lc0) · [🌐 Site ↗](https://lczero.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lc0/)</sub>
 
+<a name="csghub-server"></a>
+### #&#8288;39 [csghub-server](https://github.com/opencsgs/csghub-server) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (1) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · Oct 2026</sub>
+
+**Go REST API server for hosting and managing models and datasets.**
+
+CSGHub Server is the backend of the CSGHub asset platform. It exposes a REST API for users, organizations, models and datasets, with Git-based repositories (Gitea supported), Git LFS, S3-compatible storage such as MinIO, auto-tagging, search and optional content moderation. It also integrates with OpenCSG llm-inference for one-click model deployment.
+
+- **+** Git LFS support, including downloads of individual LFS files
+- **+** LFS storage can be local or any S3-compatible service
+- **+** Git server is pluggable; Gitea is supported, GitLab is a stated target
+- **+** Online preview of dataset files such as .parquet, plus auto-tagging
+- **−** Backend only; the web UI lives in the separate CSGHub repository
+- **−** Model format conversion is still unchecked on the roadmap
+- **−** Quick start needs a manually set API token of at least 128 characters
+- **−** One-click deploy depends on OpenCSG llm-inference, a separate component
+
+<sub>RAM ≥ 8 GB · no GPU · Compose · Needs Gitea, MinIO, Docker Compose · [Repo](https://github.com/opencsgs/csghub-server) · [▶️ Demo ↗](https://portal.opencsg.com/models) · [🌐 Site ↗](https://github.com/OpenCSGs/CSGHub/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/csghub-server/)</sub>
+
 <a name="onnx-models"></a>
-### #&#8288;39 [models](https://github.com/onnx/models) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;40 [models](https://github.com/onnx/models) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Oct 2026</sub>
 
 **Archived collection of pre-trained models exported to ONNX format.**
 
@@ -704,7 +722,7 @@ Git LFS repository of pre-trained ONNX models for image classification, object d
 <sub>GPU optional · Needs Git LFS · Models: ONNX, INT8 (QDQ) · [Repo](https://github.com/onnx/models) · [🌐 Site ↗](https://huggingface.co/onnxmodelzoo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/onnx-models/)</sub>
 
 <a name="glm-v"></a>
-### #&#8288;40 [glm-v](https://github.com/zai-org/glm-v) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;41 [glm-v](https://github.com/zai-org/glm-v) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Nov 2026</sub>
 
 **Open-weight GLM-4.6V, 4.5V and 4.1V vision-language models with examples.**
 
@@ -721,7 +739,7 @@ Repository for Zhipu/Z.ai's GLM-4.6V, GLM-4.5V and GLM-4.1V vision-language mode
 <sub>Needs SGLang, vLLM, Transformers, LLaMA-Factory · Models: GLM-4.6V, GLM-4.6V-FP8, GLM-4.6V-Flash, GLM-4.5V, GLM-4.5V-FP8 · [Repo](https://github.com/zai-org/glm-v) · [▶️ Demo ↗](https://huggingface.co/spaces/zai-org/GLM-4.5V-Demo-App) · [📖 Docs ↗](https://arxiv.org/abs/2507.01006) · [🌐 Site ↗](https://z.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-v/)</sub>
 
 <a name="unilm"></a>
-### #&#8288;41 [unilm](https://github.com/microsoft/unilm) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: widely used (86) · Freshness: recent (70) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Sep 2026</sub>
+### #&#8288;42 [unilm](https://github.com/microsoft/unilm) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: widely used (87) · Freshness: recent (70) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Sep 2026</sub>
 
 **Microsoft research code and weights for pre-trained text, vision, speech and document AI.**
 
@@ -738,7 +756,7 @@ A monorepo of Microsoft Research projects on large-scale self-supervised pre-tra
 <sub>Models: PyTorch, Hugging Face Transformers · [Repo](https://github.com/microsoft/unilm) · [▶️ Demo ↗](https://huggingface.co/spaces/JingyeChen22/TextDiffuser-2) · [🌐 Site ↗](https://aka.ms/GeneralAI) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unilm/)</sub>
 
 <a name="rwkv-lm"></a>
-### #&#8288;42 [rwkv-lm](https://github.com/blinkdl/rwkv-lm) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (78) · Freshness: recent (70) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;43 [rwkv-lm](https://github.com/blinkdl/rwkv-lm) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (78) · Freshness: recent (70) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Nov 2026</sub>
 
 **Reference code for training and running RWKV, an attention-free RNN language model.**
 
@@ -755,26 +773,8 @@ Reference implementation of RWKV-7 (and earlier v5/v6), an RNN-style language mo
 
 <sub>GPU required · Needs PyTorch 2.5+, CUDA 12.4+, DeepSpeed, pytorch-lightning 1.9.5, wandb, ninja · Models: RWKV-7, RWKV-6, RWKV-5, PyTorch .pth, GGUF (linked) · [Repo](https://github.com/blinkdl/rwkv-lm) · [▶️ Demo ↗](https://huggingface.co/spaces/BlinkDL/RWKV-Gradio-1) · [📖 Docs ↗](https://wiki.rwkv.com) · [🌐 Site ↗](https://rwkv.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rwkv-lm/)</sub>
 
-<a name="open-model-zoo"></a>
-### #&#8288;43 [open_model_zoo](https://github.com/openvinotoolkit/open_model_zoo) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (42) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Oct 2026</sub>
-
-**Pre-trained OpenVINO vision models with demos, downloader and accuracy checker.**
-
-Repository of Intel and public pre-trained deep learning models prepared for OpenVINO inference, plus demo applications showing how to run them. It also ships a Model Downloader and other automation tools, and an Accuracy Checker for validating model accuracy. The README states the project is in maintenance mode as a source of models and points to OpenVINO Jupyter notebooks instead.
-
-- **+** Includes both Intel-trained and public pre-trained model collections with indexed documentation
-- **+** Model Downloader tool automates fetching models
-- **+** Accuracy Checker validates model accuracy
-- **+** Demos show end-to-end inference usage with OpenVINO
-- **−** In maintenance mode as a source of models; README redirects to notebooks
-- **−** Documentation links point to the 2023.0 OpenVINO docs
-- **−** No tagged release published
-- **−** Tied to the OpenVINO runtime; not a general-purpose model hub
-
-<sub>Needs OpenVINO Toolkit · Models: OpenVINO · [Repo](https://github.com/openvinotoolkit/open_model_zoo) · [📖 Docs ↗](https://docs.openvino.ai/2023.0/model_zoo.html) · [🌐 Site ↗](https://docs.openvino.ai/2023.0/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-model-zoo/)</sub>
-
 <a name="totalsegmentator"></a>
-### #&#8288;44 [totalsegmentator](https://github.com/wasserth/totalsegmentator) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (26) · Freshness: recent (70) · Maintenance: fair (62) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;44 [totalsegmentator](https://github.com/wasserth/totalsegmentator) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (28) · Freshness: recent (70) · Maintenance: fair (62) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · Apache-2.0 · Nov 2026</sub>
 
 **nnU-Net based segmentation of anatomical structures in CT and MR images.**
 
@@ -791,8 +791,43 @@ TotalSegmentator is a Python command-line tool and package that segments anatomi
 
 <sub>GPU optional · Docker · Needs Python >= 3.10, PyTorch >= 2.0.0, nnU-Net · Models: nnU-Net, CT, MR, NIfTI, DICOM · [Repo](https://github.com/wasserth/totalsegmentator) · [▶️ Demo ↗](https://totalsegmentator.com/) · [🌐 Site ↗](https://totalsegmentator.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/totalsegmentator/)</sub>
 
+<a name="unetplusplus"></a>
+### #&#8288;45 [unetplusplus](https://github.com/mrgiovanni/unetplusplus) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (18) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · custom license · Aug 2026</sub>
+
+**Official Keras and PyTorch code for the UNet++ segmentation model.**
+
+Reference implementation of UNet++, a nested U-Net for medical image segmentation. It stacks U-Nets of varying depths and connects their decoders densely at each resolution through redesigned skip pathways. The repository has keras/ and pytorch/ directories and links to the two papers (DLMIA 2018, IEEE TMI 2020).
+
+- **+** Official code from the paper authors, in both Keras and PyTorch
+- **+** Architecture is described in peer-reviewed papers (IEEE TMI 2020, DLMIA 2018)
+- **+** README links several third-party PyTorch and Keras implementations for comparison
+- **−** README has no install, training or inference instructions
+- **−** License is not recognized (NOASSERTION) and README says the technology is patent-pending
+- **−** No releases or pretrained weights are listed
+- **−** Covers one architecture, not a general segmentation toolkit
+
+<sub>Needs Keras, PyTorch · Models: UNet++ (nested U-Net) · [Repo](https://github.com/mrgiovanni/unetplusplus) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unetplusplus/)</sub>
+
+<a name="open-model-zoo"></a>
+### #&#8288;46 [open_model_zoo](https://github.com/openvinotoolkit/open_model_zoo) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (43) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Oct 2026</sub>
+
+**Pre-trained OpenVINO vision models with demos, downloader and accuracy checker.**
+
+Repository of Intel and public pre-trained deep learning models prepared for OpenVINO inference, plus demo applications showing how to run them. It also ships a Model Downloader and other automation tools, and an Accuracy Checker for validating model accuracy. The README states the project is in maintenance mode as a source of models and points to OpenVINO Jupyter notebooks instead.
+
+- **+** Includes both Intel-trained and public pre-trained model collections with indexed documentation
+- **+** Model Downloader tool automates fetching models
+- **+** Accuracy Checker validates model accuracy
+- **+** Demos show end-to-end inference usage with OpenVINO
+- **−** In maintenance mode as a source of models; README redirects to notebooks
+- **−** Documentation links point to the 2023.0 OpenVINO docs
+- **−** No tagged release published
+- **−** Tied to the OpenVINO runtime; not a general-purpose model hub
+
+<sub>Needs OpenVINO Toolkit · Models: OpenVINO · [Repo](https://github.com/openvinotoolkit/open_model_zoo) · [📖 Docs ↗](https://docs.openvino.ai/2023.0/model_zoo.html) · [🌐 Site ↗](https://docs.openvino.ai/2023.0/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-model-zoo/)</sub>
+
 <a name="coreml-models"></a>
-### #&#8288;45 [coreml-models](https://github.com/john-rocky/coreml-models) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;47 [coreml-models](https://github.com/john-rocky/coreml-models) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
 
 **Converted Core ML models for iOS and macOS, with sample apps.**
 
@@ -810,7 +845,7 @@ A model zoo of pre-converted Core ML (.mlpackage) models covering image classifi
 <sub>Needs Xcode, Core ML · Models: Core ML .mlpackage · [Repo](https://github.com/john-rocky/coreml-models) · [📖 Docs ↗](https://john-rocky.github.io/core-ai/) · [🌐 Site ↗](https://john-rocky.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/coreml-models/)</sub>
 
 <a name="omniparser"></a>
-### #&#8288;46 [omniparser](https://github.com/microsoft/omniparser) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: widely used (88) · Freshness: recent (71) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · CC-BY-4.0 · Jul 2026</sub>
+### #&#8288;48 [omniparser](https://github.com/microsoft/omniparser) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: widely used (88) · Freshness: recent (71) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · CC-BY-4.0 · Jul 2026</sub>
 
 **Screenshot parser that turns GUI screens into labeled elements for vision LLM agents.**
 
@@ -827,26 +862,8 @@ OmniParser detects interactable regions in UI screenshots with a YOLO-based dete
 
 <sub>Needs conda, Python 3.12, Hugging Face model weights, Gradio · Models: YOLOv9-E icon detector, Florence icon captioner, OpenAI 4o/o1/o3-mini, DeepSeek R1, Qwen 2.5VL · [Repo](https://github.com/microsoft/omniparser) · [▶️ Demo ↗](https://huggingface.co/spaces/microsoft/OmniParser-v2) · [🌐 Site ↗](https://microsoft.github.io/OmniParser/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omniparser/)</sub>
 
-<a name="chinese-bert-wwm"></a>
-### #&#8288;47 [chinese-bert-wwm](https://github.com/ymcui/chinese-bert-wwm) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (68) · Freshness: recent (55) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Apr 2026</sub>
-
-**Chinese BERT and RoBERTa checkpoints pre-trained with whole word masking.**
-
-Pre-trained Chinese BERT-wwm, BERT-wwm-ext, RoBERTa-wwm-ext (base and large), RBT3 and RBTL3 checkpoints from HFL. Whole word masking uses LTP word segmentation so all characters of a word are masked together. Weights are TensorFlow checkpoints (Baidu Netdisk) and PyTorch weights on Hugging Face, loadable with BertTokenizer/BertModel; the README includes benchmark tables on CMRC 2018, DRCD, XNLI and others.
-
-- **+** Hugging Face and PaddleHub loading, via BertTokenizer/BertModel with hfl/ model names
-- **+** Includes 3-layer RBT3 (38M) and RBTL3 (61M) models for lower-cost inference
-- **+** Benchmark tables report max and mean over 10 seeds on eight Chinese datasets
-- **+** Same vocab and config as Google's Chinese BERT, so existing BERT code works unchanged
-- **−** Pre-training code is not provided; the FAQ points to issue threads only
-- **−** Released weights omit the MLM head, so masked-LM use needs further pre-training
-- **−** Original checkpoints are TensorFlow; PyTorch needs conversion or the HF download
-- **−** README is mostly Chinese, and the repo is a 2019-era encoder line, with a banner promoting newer LLM projects
-
-<sub>GPU optional · Needs transformers, TensorFlow or PyTorch, PaddleHub (optional) · Models: BERT-wwm, BERT-wwm-ext, RoBERTa-wwm-ext, RoBERTa-wwm-ext-large, RBT3 · [Repo](https://github.com/ymcui/chinese-bert-wwm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chinese-bert-wwm/)</sub>
-
 <a name="moss-tts"></a>
-### #&#8288;48 [moss-tts](https://github.com/openmoss/moss-tts) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (41) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;49 [moss-tts](https://github.com/openmoss/moss-tts) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (42) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Sep 2026</sub>
 
 **Open-weight TTS model family for cloning, dialogue, realtime speech and sound effects.**
 
@@ -863,8 +880,26 @@ MOSS-TTS is a family of open-weight speech and sound generation models from MOSI
 
 <sub>GPU optional · Needs PyTorch, Hugging Face Transformers, FlashAttention 2 (optional), llama.cpp (optional), ONNX Runtime (optional) · Models: MOSS-TTS-v1.5 (8B), MOSS-TTS-Local-Transformer-v1.5 (4B), MOSS-TTSD-v1.0, MOSS-VoiceGenerator, MOSS-TTS-Realtime · [Repo](https://github.com/openmoss/moss-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTS) · [📖 Docs ↗](https://studio.mosi.cn/docs/moss-tts) · [🌐 Site ↗](https://mosi.cn/#models) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moss-tts/)</sub>
 
+<a name="chinese-bert-wwm"></a>
+### #&#8288;50 [chinese-bert-wwm](https://github.com/ymcui/chinese-bert-wwm) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (69) · Freshness: recent (55) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Apr 2026</sub>
+
+**Chinese BERT and RoBERTa checkpoints pre-trained with whole word masking.**
+
+Pre-trained Chinese BERT-wwm, BERT-wwm-ext, RoBERTa-wwm-ext (base and large), RBT3 and RBTL3 checkpoints from HFL. Whole word masking uses LTP word segmentation so all characters of a word are masked together. Weights are TensorFlow checkpoints (Baidu Netdisk) and PyTorch weights on Hugging Face, loadable with BertTokenizer/BertModel; the README includes benchmark tables on CMRC 2018, DRCD, XNLI and others.
+
+- **+** Hugging Face and PaddleHub loading, via BertTokenizer/BertModel with hfl/ model names
+- **+** Includes 3-layer RBT3 (38M) and RBTL3 (61M) models for lower-cost inference
+- **+** Benchmark tables report max and mean over 10 seeds on eight Chinese datasets
+- **+** Same vocab and config as Google's Chinese BERT, so existing BERT code works unchanged
+- **−** Pre-training code is not provided; the FAQ points to issue threads only
+- **−** Released weights omit the MLM head, so masked-LM use needs further pre-training
+- **−** Original checkpoints are TensorFlow; PyTorch needs conversion or the HF download
+- **−** README is mostly Chinese, and the repo is a 2019-era encoder line, with a banner promoting newer LLM projects
+
+<sub>GPU optional · Needs transformers, TensorFlow or PyTorch, PaddleHub (optional) · Models: BERT-wwm, BERT-wwm-ext, RoBERTa-wwm-ext, RoBERTa-wwm-ext-large, RBT3 · [Repo](https://github.com/ymcui/chinese-bert-wwm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chinese-bert-wwm/)</sub>
+
 <a name="eagle"></a>
-### #&#8288;49 [eagle](https://github.com/nvlabs/eagle) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (36) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;51 [eagle](https://github.com/nvlabs/eagle) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (37) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · Apache-2.0 · Nov 2026</sub>
 
 **Vision-language model family from NVIDIA: Eagle, Eagle 2.5, LocateAnything.**
 
@@ -881,8 +916,26 @@ Code and checkpoints for NVIDIA's Eagle vision-language models: Eagle, Eagle 2, 
 
 <sub>Needs Hugging Face model hub · Models: Eagle, Eagle 2, Eagle 2.5, LocateAnything-3B, VFlash · [Repo](https://github.com/nvlabs/eagle) · [▶️ Demo ↗](https://huggingface.co/spaces/nvidia/LocateAnything) · [🌐 Site ↗](https://nvlabs.github.io/Eagle/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eagle/)</sub>
 
+<a name="zdtaichu5-0-9b"></a>
+### #&#8288;52 [zdtaichu5.0-9b](https://github.com/taichu-ai/zdtaichu5.0-9b) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Sep 2026</sub>
+
+**9B multimodal model for visual understanding, spatial reasoning and tool use.**
+
+ZDTaichu5.0-9B is an open-weight vision-language model built on a Qwen3.5-9B backbone with a C-RADIOv4-H vision encoder. It accepts text, multiple images and video at any resolution, and targets spatial reasoning, embodied-AI research and multi-step tool use. Weights ship in BF16, FP8, NVFP4 and DSpark variants, served through a patched vLLM v0.26.0 fork with an OpenAI-compatible API on port 18050.
+
+- **+** Reported lead on spatial benchmarks among compared 10B VLMs: ViewSpatial 62.5, MindCube-tiny 78.3
+- **+** Reports TAU2-Bench 87.7 and IFEval 93.7 for agentic and instruction tasks
+- **+** FP8, NVFP4 and DSpark variants published alongside the BF16 weights
+- **+** Serve example sets a 220k-token context on a single GPU
+- **−** Serving needs a custom vLLM fork or a Docker image from a non-Docker-Hub registry
+- **−** Trails Qwen3.5-9B on OCRBench, MMStar, MMLU-Pro and RealWorldQA in its own tables
+- **−** Agent scores use a DeepSeek model as simulated user and judge, and are self-reported
+- **−** Install command has a typo ('tranformer') and pins exact torch and transformers versions
+
+<sub>GPU required · Needs vLLM fork (Taichu-AI/vllm, branch v0.26.0-zdtaichu), Hugging Face Transformers 5.3.0, PyTorch 2.10.0, CUDA >= 12.9 · Models: BF16, FP8, NVFP4, DSpark, Hugging Face Transformers · port 18050 · [Repo](https://github.com/taichu-ai/zdtaichu5.0-9b) · [🌐 Site ↗](https://taichu-ai.github.io/ZDTaichu5.0-9B/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zdtaichu5-0-9b/)</sub>
+
 <a name="kronos"></a>
-### #&#8288;50 [kronos](https://github.com/shiyu-coder/kronos) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (96) · Freshness: recent (53) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Apr 2026</sub>
+### #&#8288;53 [kronos](https://github.com/shiyu-coder/kronos) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (96) · Freshness: recent (53) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Apr 2026</sub>
 
 **Pretrained decoder-only models that forecast financial candlestick (K-line) series.**
 
@@ -900,7 +953,7 @@ Kronos is a family of decoder-only Transformers pretrained on OHLCV candlestick 
 <sub>GPU optional · Needs PyTorch, Hugging Face Hub, pyqlib (fine-tuning only), Comet.ml (optional) · Models: Kronos-mini, Kronos-small, Kronos-base, Hugging Face · [Repo](https://github.com/shiyu-coder/kronos) · [▶️ Demo ↗](https://shiyu-coder.github.io/Kronos-demo/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kronos/)</sub>
 
 <a name="trellis-2"></a>
-### #&#8288;51 [trellis.2](https://github.com/microsoft/trellis.2) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (74) · Freshness: recent (72) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Jun 2026</sub>
+### #&#8288;54 [trellis.2](https://github.com/microsoft/trellis.2) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (75) · Freshness: recent (72) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Jun 2026</sub>
 
 **Image-to-3D generator producing PBR-textured meshes from a 4B-parameter model.**
 
@@ -917,26 +970,26 @@ TRELLIS.2 is Microsoft's 4B-parameter image-to-3D model built on a sparse voxel 
 
 <sub>GPU required · Needs CUDA Toolkit 12.4, PyTorch 2.6.0, Conda, flash-attn, nvdiffrast, nvdiffrec, CuMesh, FlexGEMM · Models: TRELLIS.2-4B · [Repo](https://github.com/microsoft/trellis.2) · [▶️ Demo ↗](https://huggingface.co/spaces/microsoft/TRELLIS.2) · [🌐 Site ↗](https://microsoft.github.io/TRELLIS.2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trellis-2/)</sub>
 
-<a name="zdtaichu5-0-9b"></a>
-### #&#8288;52 [zdtaichu5.0-9b](https://github.com/taichu-ai/zdtaichu5.0-9b) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Sep 2026</sub>
+<a name="glm-4"></a>
+### #&#8288;55 [glm-4](https://github.com/zai-org/glm-4) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (58) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Aug 2026</sub>
 
-**9B multimodal model for visual understanding, spatial reasoning and tool use.**
+**Open-weight GLM-4 9B and 32B chat and reasoning models.**
 
-ZDTaichu5.0-9B is an open-weight vision-language model built on a Qwen3.5-9B backbone with a C-RADIOv4-H vision encoder. It accepts text, multiple images and video at any resolution, and targets spatial reasoning, embodied-AI research and multi-step tool use. Weights ship in BF16, FP8, NVFP4 and DSpark variants, served through a patched vLLM v0.26.0 fork with an OpenAI-compatible API on port 18050.
+Repository for the GLM-4-0414 model family from Z.ai (Zhipu): 9B and 32B chat, base and reasoning (GLM-Z1, Z1-Rumination) models, plus the earlier GLM-4-9B series. Weights are on Hugging Face and ModelScope, and the repo adds inference code and LoRA fine-tuning scripts. Support is merged upstream in vLLM, transformers and llama.cpp.
 
-- **+** Reported lead on spatial benchmarks among compared 10B VLMs: ViewSpatial 62.5, MindCube-tiny 78.3
-- **+** Reports TAU2-Bench 87.7 and IFEval 93.7 for agentic and instruction tasks
-- **+** FP8, NVFP4 and DSpark variants published alongside the BF16 weights
-- **+** Serve example sets a 220k-token context on a single GPU
-- **−** Serving needs a custom vLLM fork or a Docker image from a non-Docker-Hub registry
-- **−** Trails Qwen3.5-9B on OCRBench, MMStar, MMLU-Pro and RealWorldQA in its own tables
-- **−** Agent scores use a DeepSeek model as simulated user and judge, and are self-reported
-- **−** Install command has a typo ('tranformer') and pins exact torch and transformers versions
+- **+** Chat, base and reasoning variants at 9B and 32B, Apache-2.0 licensed
+- **+** Implementations merged upstream in vLLM, transformers and llama.cpp
+- **+** Includes a single-GPU LoRA fine-tuning example for GLM-4-9B-0414
+- **+** Native 32K context, extendable to 128K via documented YaRN rope_scaling config
+- **−** GLM-4-9B-0414 lacks the agent tuning applied to the 32B model
+- **−** Inputs beyond 32K need manual YaRN edits to config.json
+- **−** SWE-bench Verified scores of 27-34% vary with the agent framework used
+- **−** Repo holds model cards and scripts, not a ready serving stack
 
-<sub>GPU required · Needs vLLM fork (Taichu-AI/vllm, branch v0.26.0-zdtaichu), Hugging Face Transformers 5.3.0, PyTorch 2.10.0, CUDA >= 12.9 · Models: BF16, FP8, NVFP4, DSpark, Hugging Face Transformers · port 18050 · [Repo](https://github.com/taichu-ai/zdtaichu5.0-9b) · [🌐 Site ↗](https://taichu-ai.github.io/ZDTaichu5.0-9B/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zdtaichu5-0-9b/)</sub>
+<sub>GPU required · Needs PyTorch, transformers, vLLM or llama.cpp (optional) · Models: GLM-4-9B-0414, GLM-Z1-9B-0414, GLM-4-32B-0414, GLM-4-32B-Base-0414, GLM-Z1-32B-0414 · [Repo](https://github.com/zai-org/glm-4) · [▶️ Demo ↗](https://chat.z.ai) · [🌐 Site ↗](https://bigmodel.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-4/)</sub>
 
 <a name="matrix-game"></a>
-### #&#8288;53 [matrix-game](https://github.com/skyworkai/matrix-game) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Oct 2026</sub>
+### #&#8288;56 [matrix-game](https://github.com/skyworkai/matrix-game) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Oct 2026</sub>
 
 **Interactive world models that neural-render playable game scenes from an engine.**
 
@@ -954,7 +1007,7 @@ Matrix-Game is Skywork AI's series of interactive world models. Version 4.0 keep
 <sub>GPU required · Needs Hugging Face model weights and game assets, SageAttention (optional) · Models: Matrix-Game 4.0 fps-castle, Matrix-Game 4.0 fps-egypt, Matrix-Game 4.0 driving_game · [Repo](https://github.com/skyworkai/matrix-game) · [🌐 Site ↗](https://matrix-game-v4-0.github.io/page/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/matrix-game/)</sub>
 
 <a name="qwen"></a>
-### #&#8288;54 [qwen](https://github.com/qwenlm/qwen) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: widely used (86) · Freshness: slowing (39) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;57 [qwen](https://github.com/qwenlm/qwen) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: widely used (86) · Freshness: slowing (39) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Mar 2026</sub>
 
 **First-generation Qwen open-weight LLMs, 1.8B to 72B, with inference and finetuning code.**
 
@@ -971,26 +1024,8 @@ Repository for the original Qwen base and chat models at 1.8B, 7B, 14B and 72B, 
 
 <sub>GPU optional · Docker · Needs PyTorch, Transformers, flash-attention (optional), vLLM (optional), FastChat (optional) · Models: Qwen-1.8B, Qwen-7B, Qwen-14B, Qwen-72B, Qwen-Chat · [Repo](https://github.com/qwenlm/qwen) · [▶️ Demo ↗](https://modelscope.cn/studios/qwen/Qwen-72B-Chat-Demo/summary) · [📖 Docs ↗](https://arxiv.org/abs/2309.16609) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwen/)</sub>
 
-<a name="glm-4"></a>
-### #&#8288;55 [glm-4](https://github.com/zai-org/glm-4) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (57) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Aug 2026</sub>
-
-**Open-weight GLM-4 9B and 32B chat and reasoning models.**
-
-Repository for the GLM-4-0414 model family from Z.ai (Zhipu): 9B and 32B chat, base and reasoning (GLM-Z1, Z1-Rumination) models, plus the earlier GLM-4-9B series. Weights are on Hugging Face and ModelScope, and the repo adds inference code and LoRA fine-tuning scripts. Support is merged upstream in vLLM, transformers and llama.cpp.
-
-- **+** Chat, base and reasoning variants at 9B and 32B, Apache-2.0 licensed
-- **+** Implementations merged upstream in vLLM, transformers and llama.cpp
-- **+** Includes a single-GPU LoRA fine-tuning example for GLM-4-9B-0414
-- **+** Native 32K context, extendable to 128K via documented YaRN rope_scaling config
-- **−** GLM-4-9B-0414 lacks the agent tuning applied to the 32B model
-- **−** Inputs beyond 32K need manual YaRN edits to config.json
-- **−** SWE-bench Verified scores of 27-34% vary with the agent framework used
-- **−** Repo holds model cards and scripts, not a ready serving stack
-
-<sub>GPU required · Needs PyTorch, transformers, vLLM or llama.cpp (optional) · Models: GLM-4-9B-0414, GLM-Z1-9B-0414, GLM-4-32B-0414, GLM-4-32B-Base-0414, GLM-Z1-32B-0414 · [Repo](https://github.com/zai-org/glm-4) · [▶️ Demo ↗](https://chat.z.ai) · [🌐 Site ↗](https://bigmodel.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-4/)</sub>
-
 <a name="hunyuan3d-1"></a>
-### #&#8288;56 [hunyuan3d-1](https://github.com/tencent-hunyuan/hunyuan3d-1) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (32) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
+### #&#8288;58 [hunyuan3d-1](https://github.com/tencent-hunyuan/hunyuan3d-1) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (34) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
 
 **Text-to-3D and image-to-3D mesh generation from multi-view diffusion.**
 
@@ -1008,7 +1043,7 @@ Hunyuan3D-1.0 generates textured 3D meshes from a text prompt or a single image.
 <sub>GPU required · Needs PyTorch (CUDA 12.1), pytorch3d, nvdiffrast, DUSt3R, Hunyuan-DiT weights, huggingface-cli · Models: Hunyuan3D-1 lite, Hunyuan3D-1 std, Hunyuan3D-1 svrm, HunyuanDiT-v1.1-Diffusers-Distilled · port 8080 · [Repo](https://github.com/tencent-hunyuan/hunyuan3d-1) · [▶️ Demo ↗](https://huggingface.co/spaces/Tencent/Hunyuan3D-1) · [🌐 Site ↗](http://3d-models.hunyuan.tencent.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuan3d-1/)</sub>
 
 <a name="sketch-code"></a>
-### #&#8288;57 [sketch-code](https://github.com/ashnkumar/sketch-code) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (48) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · MIT · Aug 2026</sub>
+### #&#8288;59 [sketch-code](https://github.com/ashnkumar/sketch-code) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (49) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · MIT · Aug 2026</sub>
 
 **CNN-LSTM model that turns hand-drawn wireframe images into HTML.**
 
@@ -1025,26 +1060,8 @@ SketchCode is a 2018 proof-of-concept that treats HTML as the caption of a wiref
 
 <sub>Needs Python 3, TensorFlow 1.x, Keras · Models: CNN encoder + LSTM decoder (Keras JSON + H5 weights) · [Repo](https://github.com/ashnkumar/sketch-code) · [📖 Docs ↗](https://medium.com/insight-data/automated-front-end-development-using-deep-learning-3169dd086e82) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sketch-code/)</sub>
 
-<a name="clip"></a>
-### #&#8288;58 [clip](https://github.com/openai/clip) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (93) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · MIT · Mar 2026</sub>
-
-**OpenAI's reference PyTorch code and weights for contrastive image-text embeddings.**
-
-CLIP is a Python package that loads OpenAI's pretrained image-text models and exposes encode_image, encode_text and a similarity forward pass. It supports zero-shot image classification from natural-language labels and feature extraction for linear-probe training. The README targets PyTorch 1.7.1 or later on CUDA or CPU, with weights downloaded on demand.
-
-- **+** Small API: clip.load, clip.tokenize, encode_image, encode_text
-- **+** Zero-shot classification from text labels without task-specific training
-- **+** MIT license; runs on CPU or CUDA GPU
-- **+** README has runnable zero-shot and linear-probe examples on CIFAR-100
-- **−** Inference and evaluation only; no training code in this repo
-- **−** Installed from git via pip; no tagged releases
-- **−** Text context length defaults to 77 tokens
-- **−** Larger independently trained models are in OpenCLIP, not here
-
-<sub>GPU optional · Needs PyTorch 1.7.1+, torchvision, ftfy, regex, tqdm · Models: CLIP ViT-B/32, other names via clip.available_models() · [Repo](https://github.com/openai/clip) · [▶️ Demo ↗](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb) · [🌐 Site ↗](https://openai.com/blog/clip/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clip/)</sub>
-
 <a name="pinto-model-zoo"></a>
-### #&#8288;59 [pinto_model_zoo](https://github.com/pinto0309/pinto_model_zoo) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (44) · Freshness: recent (70) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · MIT · Oct 2026</sub>
+### #&#8288;60 [pinto_model_zoo](https://github.com/pinto0309/pinto_model_zoo) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (45) · Freshness: recent (70) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · MIT · Oct 2026</sub>
 
 **Pre-converted vision models across TFLite, ONNX, OpenVINO, CoreML and more.**
 
@@ -1061,8 +1078,26 @@ A repository of models converted between frameworks, mostly image classification
 
 <sub>Models: TensorFlow, TFLite, EdgeTPU, OpenVINO, CoreML · [Repo](https://github.com/pinto0309/pinto_model_zoo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pinto-model-zoo/)</sub>
 
+<a name="clip"></a>
+### #&#8288;61 [clip](https://github.com/openai/clip) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (93) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · MIT · Mar 2026</sub>
+
+**OpenAI's reference PyTorch code and weights for contrastive image-text embeddings.**
+
+CLIP is a Python package that loads OpenAI's pretrained image-text models and exposes encode_image, encode_text and a similarity forward pass. It supports zero-shot image classification from natural-language labels and feature extraction for linear-probe training. The README targets PyTorch 1.7.1 or later on CUDA or CPU, with weights downloaded on demand.
+
+- **+** Small API: clip.load, clip.tokenize, encode_image, encode_text
+- **+** Zero-shot classification from text labels without task-specific training
+- **+** MIT license; runs on CPU or CUDA GPU
+- **+** README has runnable zero-shot and linear-probe examples on CIFAR-100
+- **−** Inference and evaluation only; no training code in this repo
+- **−** Installed from git via pip; no tagged releases
+- **−** Text context length defaults to 77 tokens
+- **−** Larger independently trained models are in OpenCLIP, not here
+
+<sub>GPU optional · Needs PyTorch 1.7.1+, torchvision, ftfy, regex, tqdm · Models: CLIP ViT-B/32, other names via clip.available_models() · [Repo](https://github.com/openai/clip) · [▶️ Demo ↗](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb) · [🌐 Site ↗](https://openai.com/blog/clip/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clip/)</sub>
+
 <a name="deepresearch"></a>
-### #&#8288;60 [deepresearch](https://github.com/alibaba-nlp/deepresearch) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: widely used (84) · Freshness: slowing (36) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;62 [deepresearch](https://github.com/alibaba-nlp/deepresearch) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: widely used (85) · Freshness: slowing (36) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Feb 2026</sub>
 
 **Open 30B-A3B web research agent model with ReAct inference scripts.**
 
@@ -1080,7 +1115,7 @@ Tongyi DeepResearch is a 30.5B-parameter mixture-of-experts model (3.3B active p
 <sub>GPU optional · Needs Serper, Jina, OpenAI-compatible API, DashScope, SandboxFusion · Models: Tongyi-DeepResearch-30B-A3B, OpenRouter · [Repo](https://github.com/alibaba-nlp/deepresearch) · [▶️ Demo ↗](https://huggingface.co/spaces/Alibaba-NLP/Tongyi-DeepResearch) · [🌐 Site ↗](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepresearch/)</sub>
 
 <a name="moondream"></a>
-### #&#8288;61 [moondream](https://github.com/m87-labs/moondream) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (68) · Freshness: recent (55) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;63 [moondream](https://github.com/m87-labs/moondream) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (68) · Freshness: recent (55) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Apr 2026</sub>
 
 **Small vision language model for captioning, visual Q&A and object detection.**
 
@@ -1096,44 +1131,8 @@ Moondream is an open-weight vision language model that answers questions about i
 
 <sub>Models: Moondream 2B, Moondream 0.5B · [Repo](https://github.com/m87-labs/moondream) · [▶️ Demo ↗](https://moondream.ai/playground) · [📖 Docs ↗](https://moondream.ai/c/docs/quickstart) · [🌐 Site ↗](https://moondream.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moondream/)</sub>
 
-<a name="d-fine"></a>
-### #&#8288;62 [d-fine](https://github.com/peterande/d-fine) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (31) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Aug 2026</sub>
-
-**Real-time DETR object detector with COCO and Objects365 checkpoints.**
-
-Official PyTorch implementation of D-FINE, a real-time DETR-style object detector that treats box regression as fine-grained distribution refinement with self-distillation. It ships five sizes (N to X, 4M to 62M parameters) with training, testing and fine-tuning configs for COCO, Objects365 and custom COCO-format datasets. The N model reports 42.8 AP on COCO and the X model 55.8 AP, or 59.3 AP with Objects365 pretraining.
-
-- **+** Five model sizes, N to X, with COCO AP from 42.8 to 55.8
-- **+** Latency listed per model on a T4 with TensorRT 10.4.0, fp16
-- **+** Configs and commands for fine-tuning on custom COCO-format datasets
-- **+** Checkpoints and training logs published for every listed model
-- **−** Objects365-trained checkpoints may not be cleared for commercial use
-- **−** Training commands assume a 4-GPU torchrun setup
-- **−** Object detection only, no segmentation or language features
-- **−** Objects365 data prep needs several manual remap and resize steps
-
-<sub>GPU required · Docker · Needs PyTorch, conda, Python 3.11.9, TensorRT (for latency benchmarks) · Models: D-FINE N/S/M/L/X (HGNetv2), COCO, Objects365, custom COCO-format datasets · [Repo](https://github.com/peterande/d-fine) · [▶️ Demo ↗](https://huggingface.co/spaces/developer0hye/D-FINE) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/d-fine/)</sub>
-
-<a name="nba-machine-learning-sports-betting"></a>
-### #&#8288;63 [nba-machine-learning-sports-betting](https://github.com/kyleskom/nba-machine-learning-sports-betting) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.8k · no license · Nov 2026</sub>
-
-**NBA game winner and over/under predictor using XGBoost and neural nets.**
-
-Predicts NBA moneyline and totals outcomes from team stats (2007-08 onward) and sportsbook odds scraped from SBR, storing data in SQLite. It trains XGBoost, neural network and logistic regression models, then prints win probabilities, expected value and optional Kelly Criterion stake sizing for today's games. A small Flask app browses outputs.
-
-- **+** Full pipeline in one repo: data pull, feature build, training and daily prediction
-- **+** Fetches live odds from seven named sportsbooks, with manual odds entry as fallback
-- **+** Outputs expected value and Kelly Criterion fractions, not just win probabilities
-- **+** Backfill flags fill missing stats and odds by date or season
-- **−** No license file, so reuse terms are unclear
-- **−** NN training scripts use hard-coded dataset and model paths
-- **−** Depends on scraped NBA endpoints and SBR odds, which can change or break
-- **−** No Docker setup; requires Python 3.11 with TensorFlow installed manually
-
-<sub>Needs Python 3.11, TensorFlow, XGBoost, SQLite, Flask, NBA stats endpoints, SBR odds data · Models: XGBoost, TensorFlow neural network, Logistic regression · [Repo](https://github.com/kyleskom/nba-machine-learning-sports-betting) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nba-machine-learning-sports-betting/)</sub>
-
 <a name="promptenhancer"></a>
-### #&#8288;64 [promptenhancer](https://github.com/hunyuan-promptenhancer/promptenhancer) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (35) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Aug 2026</sub>
+### #&#8288;64 [promptenhancer](https://github.com/hunyuan-promptenhancer/promptenhancer) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (36) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Aug 2026</sub>
 
 **Prompt-rewriting LLMs that expand short prompts for text-to-image and image editing.**
 
@@ -1150,8 +1149,26 @@ Tencent Hunyuan's PromptEnhancer rewrites short or vague image prompts into stru
 
 <sub>RAM ≥ 8 GB · GPU optional · Needs PyTorch/Transformers, llama.cpp (GGUF), Hugging Face CLI · Models: PromptEnhancer-7B, PromptEnhancer-32B, PromptEnhancer-Img2Img-Edit (Qwen2.5-VL), GGUF Q8_0/Q6_K/Q4_K_M · [Repo](https://github.com/hunyuan-promptenhancer/promptenhancer) · [▶️ Demo ↗](https://huggingface.co/spaces/PromptEnhancer/PromptEnhancer_32B) · [🌐 Site ↗](https://hunyuan-promptenhancer.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/promptenhancer/)</sub>
 
+<a name="d-fine"></a>
+### #&#8288;65 [d-fine](https://github.com/peterande/d-fine) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (32) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Aug 2026</sub>
+
+**Real-time DETR object detector with COCO and Objects365 checkpoints.**
+
+Official PyTorch implementation of D-FINE, a real-time DETR-style object detector that treats box regression as fine-grained distribution refinement with self-distillation. It ships five sizes (N to X, 4M to 62M parameters) with training, testing and fine-tuning configs for COCO, Objects365 and custom COCO-format datasets. The N model reports 42.8 AP on COCO and the X model 55.8 AP, or 59.3 AP with Objects365 pretraining.
+
+- **+** Five model sizes, N to X, with COCO AP from 42.8 to 55.8
+- **+** Latency listed per model on a T4 with TensorRT 10.4.0, fp16
+- **+** Configs and commands for fine-tuning on custom COCO-format datasets
+- **+** Checkpoints and training logs published for every listed model
+- **−** Objects365-trained checkpoints may not be cleared for commercial use
+- **−** Training commands assume a 4-GPU torchrun setup
+- **−** Object detection only, no segmentation or language features
+- **−** Objects365 data prep needs several manual remap and resize steps
+
+<sub>GPU required · Docker · Needs PyTorch, conda, Python 3.11.9, TensorRT (for latency benchmarks) · Models: D-FINE N/S/M/L/X (HGNetv2), COCO, Objects365, custom COCO-format datasets · [Repo](https://github.com/peterande/d-fine) · [▶️ Demo ↗](https://huggingface.co/spaces/developer0hye/D-FINE) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/d-fine/)</sub>
+
 <a name="vipe"></a>
-### #&#8288;65 [vipe](https://github.com/nv-tlabs/vipe) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · custom license · Nov 2026</sub>
+### #&#8288;66 [vipe](https://github.com/nv-tlabs/vipe) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · custom license · Nov 2026</sub>
 
 **Estimates camera pose, intrinsics and dense depth from raw video.**
 
@@ -1168,8 +1185,26 @@ ViPE is a Python pipeline from NVIDIA that estimates camera intrinsics, camera m
 
 <sub>GPU required · Needs CUDA 12.8, conda, uv, xformers 0.0.33.post1, PyPose (optional, loop closure), SALAD (optional, loop closure) · Models: MoGe v2 (moge2-l), Depth-Anything 3, DINO-DPVO, DINOv3 ViT-S/16, Unik3D · [Repo](https://github.com/nv-tlabs/vipe) · [📖 Docs ↗](https://nv-tlabs.github.io/vipe/) · [🌐 Site ↗](https://research.nvidia.com/labs/toronto-ai/vipe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vipe/)</sub>
 
+<a name="nba-machine-learning-sports-betting"></a>
+### #&#8288;67 [nba-machine-learning-sports-betting](https://github.com/kyleskom/nba-machine-learning-sports-betting) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.8k · no license · Nov 2026</sub>
+
+**NBA game winner and over/under predictor using XGBoost and neural nets.**
+
+Predicts NBA moneyline and totals outcomes from team stats (2007-08 onward) and sportsbook odds scraped from SBR, storing data in SQLite. It trains XGBoost, neural network and logistic regression models, then prints win probabilities, expected value and optional Kelly Criterion stake sizing for today's games. A small Flask app browses outputs.
+
+- **+** Full pipeline in one repo: data pull, feature build, training and daily prediction
+- **+** Fetches live odds from seven named sportsbooks, with manual odds entry as fallback
+- **+** Outputs expected value and Kelly Criterion fractions, not just win probabilities
+- **+** Backfill flags fill missing stats and odds by date or season
+- **−** No license file, so reuse terms are unclear
+- **−** NN training scripts use hard-coded dataset and model paths
+- **−** Depends on scraped NBA endpoints and SBR odds, which can change or break
+- **−** No Docker setup; requires Python 3.11 with TensorFlow installed manually
+
+<sub>Needs Python 3.11, TensorFlow, XGBoost, SQLite, Flask, NBA stats endpoints, SBR odds data · Models: XGBoost, TensorFlow neural network, Logistic regression · [Repo](https://github.com/kyleskom/nba-machine-learning-sports-betting) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nba-machine-learning-sports-betting/)</sub>
+
 <a name="huatuo-llama-med-chinese"></a>
-### #&#8288;66 [huatuo-llama-med-chinese](https://github.com/scir-hi/huatuo-llama-med-chinese) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: known (47) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;68 [huatuo-llama-med-chinese](https://github.com/scir-hi/huatuo-llama-med-chinese) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: known (48) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Jul 2026</sub>
 
 **LoRA-tuned Chinese medical Q&A models on LLaMA, Alpaca, Bloom and Huozi.**
 
@@ -1186,26 +1221,8 @@ BenTsao (formerly HuaTuo) releases LoRA adapters that instruction-tune 7B base m
 
 <sub>GPU required · Needs PyTorch, Hugging Face Transformers, PEFT, CUDA · Models: LLaMA-7B, Alpaca-Chinese-7B, Bloom-7B, Huozi 1.0 · [Repo](https://github.com/scir-hi/huatuo-llama-med-chinese) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/huatuo-llama-med-chinese/)</sub>
 
-<a name="hle"></a>
-### #&#8288;67 [hle](https://github.com/centerforaisafety/hle) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Sep 2026</sub>
-
-**Benchmark of 2,500 expert-written questions with an OpenAI-API evaluation script.**
-
-Humanity's Last Exam (HLE) is a multi-modal benchmark of 2,500 multiple-choice and short-answer questions across dozens of subjects, written by subject-matter experts. The repo links the Hugging Face dataset (cais/hle) and includes scripts that query a model through the openai-python interface and then grade the answers with a judge model, reporting accuracy and calibration error.
-
-- **+** Questions are closed-ended, so grading is automated by a judge script
-- **+** Dataset loads with one datasets.load_dataset call from Hugging Face
-- **+** Includes a canary string to help filter the data out of training corpora
-- **+** Evaluation reports accuracy with confidence interval and calibration error
-- **−** Evaluation scripts only support OpenAI-style APIs; other providers need an compatible endpoint
-- **−** Judge step needs a hosted model, adding API cost and a dependency
-- **−** Not a model or runtime; it only measures models
-- **−** Dataset questions have known errors; feedback is collected through an external form
-
-<sub>no GPU · Needs openai-python, Hugging Face datasets, OpenAI-compatible API · Models: OpenAI-compatible chat API models · [Repo](https://github.com/centerforaisafety/hle) · [🌐 Site ↗](https://lastexam.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hle/)</sub>
-
 <a name="lingbot-world"></a>
-### #&#8288;68 [lingbot-world](https://github.com/robbyant/lingbot-world) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (43) · Freshness: active (84) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;69 [lingbot-world](https://github.com/robbyant/lingbot-world) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: known (44) · Freshness: active (84) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Jul 2026</sub>
 
 **Image-to-video world model with camera or action control, built on Wan2.2.**
 
@@ -1223,7 +1240,7 @@ LingBot-World generates interactive video from an input image and text prompt, s
 <sub>GPU required · Needs PyTorch >= 2.4.0, flash-attn, Wan2.2 codebase, ViPE (optional, for camera poses) · Models: LingBot-World-Base (Cam), LingBot-World-Base (Act), LingBot-World-Fast, NF4 4-bit quantized Base (Cam), community · [Repo](https://github.com/robbyant/lingbot-world) · [▶️ Demo ↗](https://www.reactor.inc/) · [🌐 Site ↗](https://technology.robbyant.com/lingbot-world) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lingbot-world/)</sub>
 
 <a name="hy-world-2-0"></a>
-### #&#8288;69 [hy-world-2.0](https://github.com/tencent-hunyuan/hy-world-2.0) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (19) · Freshness: active (97) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · custom license · Aug 2026</sub>
+### #&#8288;70 [hy-world-2.0](https://github.com/tencent-hunyuan/hy-world-2.0) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (21) · Freshness: active (97) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · custom license · Aug 2026</sub>
 
 **Generates and reconstructs 3D worlds (meshes, Gaussian splats) from text, images or video.**
 
@@ -1240,8 +1257,44 @@ HY-World 2.0 is Tencent Hunyuan's PyTorch code and weights for two jobs: reconst
 
 <sub>GPU required · Needs CUDA 12.8, Python 3.11+, PyTorch, FlashAttention, gsplat, recastnavigation · Models: WorldMirror 2.0 (~1.2B), HY-Pano 2.0 (~80B), HY-Pano-2-Qwen LoRA (~425M), WorldStereo 2.0 (~17B), Hugging Face safetensors · [Repo](https://github.com/tencent-hunyuan/hy-world-2.0) · [▶️ Demo ↗](https://3d.hunyuan.tencent.com/sceneTo3D) · [📖 Docs ↗](https://arxiv.org/abs/2604.14268) · [🌐 Site ↗](https://3d-models.hunyuan.tencent.com/world/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hy-world-2-0/)</sub>
 
+<a name="hle"></a>
+### #&#8288;71 [hle](https://github.com/centerforaisafety/hle) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Sep 2026</sub>
+
+**Benchmark of 2,500 expert-written questions with an OpenAI-API evaluation script.**
+
+Humanity's Last Exam (HLE) is a multi-modal benchmark of 2,500 multiple-choice and short-answer questions across dozens of subjects, written by subject-matter experts. The repo links the Hugging Face dataset (cais/hle) and includes scripts that query a model through the openai-python interface and then grade the answers with a judge model, reporting accuracy and calibration error.
+
+- **+** Questions are closed-ended, so grading is automated by a judge script
+- **+** Dataset loads with one datasets.load_dataset call from Hugging Face
+- **+** Includes a canary string to help filter the data out of training corpora
+- **+** Evaluation reports accuracy with confidence interval and calibration error
+- **−** Evaluation scripts only support OpenAI-style APIs; other providers need an compatible endpoint
+- **−** Judge step needs a hosted model, adding API cost and a dependency
+- **−** Not a model or runtime; it only measures models
+- **−** Dataset questions have known errors; feedback is collected through an external form
+
+<sub>no GPU · Needs openai-python, Hugging Face datasets, OpenAI-compatible API · Models: OpenAI-compatible chat API models · [Repo](https://github.com/centerforaisafety/hle) · [🌐 Site ↗](https://lastexam.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hle/)</sub>
+
+<a name="tabfm"></a>
+### #&#8288;72 [tabfm](https://github.com/google-research/tabfm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (20) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Aug 2026</sub>
+
+**Scikit-learn style pretrained model for zero-shot tabular prediction.**
+
+TabFM is a tabular foundation model that predicts on new rows by reading your training table as in-context examples, so no parameters are trained on your data. It provides TabFMClassifier and TabFMRegressor with fit, predict and predict_proba, handles mixed numeric and categorical columns, and runs on a JAX or PyTorch backend. Default weights download from Hugging Face under a non-commercial license.
+
+- **+** Scikit-learn style estimators taking pandas DataFrames
+- **+** No per-dataset training; predictions come from in-context learning
+- **+** Handles mixed numeric and categorical columns, classification and regression
+- **+** JAX (CPU/GPU) or PyTorch backend
+- **−** Default pretrained weights are non-commercial, non-production use only
+- **−** Default context is limited to 100 rows and 500 features
+- **−** No technical report or paper in the repository
+- **−** Installed from a git clone with pinned JAX, Flax or PyTorch versions
+
+<sub>GPU optional · Needs Hugging Face Hub, JAX 0.10.1 and Flax 0.12.7, or PyTorch 2.12.1, Python >= 3.11 · Models: TabFM v1.0.0 classification, TabFM v1.0.0 regression · [Repo](https://github.com/google-research/tabfm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tabfm/)</sub>
+
 <a name="deimv2"></a>
-### #&#8288;70 [deimv2](https://github.com/intellindust-ai-lab/deimv2) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · custom license · Oct 2026</sub>
+### #&#8288;73 [deimv2](https://github.com/intellindust-ai-lab/deimv2) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · custom license · Oct 2026</sub>
 
 **Real-time object detector family built on DINOv3 and HGNetv2 backbones.**
 
@@ -1259,7 +1312,7 @@ DEIMv2 is a PyTorch object detection codebase with eight COCO-trained variants, 
 <sub>GPU required · Needs PyTorch 2.5.1 or 2.4.1, Python 3.11, DINOv3 checkpoints, onnx, onnxsim, TensorRT >= 10.6 for FP16 · Models: DEIMv2 Atto/Femto/Pico/N (HGNetv2), DEIMv2 S/M/L/X (DINOv3), COCO-format datasets, ONNX, TensorRT · [Repo](https://github.com/intellindust-ai-lab/deimv2) · [🌐 Site ↗](https://intellindust-ai-lab.github.io/projects/DEIMv2/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deimv2/)</sub>
 
 <a name="wan2-1"></a>
-### #&#8288;71 [wan2.1](https://github.com/wan-video/wan2.1) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: widely used (81) · Freshness: slowing (39) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;74 [wan2.1](https://github.com/wan-video/wan2.1) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: widely used (81) · Freshness: slowing (39) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Mar 2026</sub>
 
 **Open-weight video generation models with PyTorch inference code for text and image input.**
 
@@ -1276,8 +1329,26 @@ Wan2.1 is a set of open-weight video diffusion models (T2V 1.3B and 14B, I2V 14B
 
 <sub>GPU required · Needs PyTorch >= 2.4.0, Hugging Face Hub or ModelScope for weights, xfuser >= 0.4.1 for multi-GPU, Dashscope API or local Qwen (optional, prompt extension) · Models: Wan2.1-T2V-1.3B, Wan2.1-T2V-14B, Wan2.1-I2V-14B-480P/720P, Wan2.1-FLF2V-14B-720P, Wan2.1-VACE-1.3B/14B · [Repo](https://github.com/wan-video/wan2.1) · [🌐 Site ↗](https://wan.video) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wan2-1/)</sub>
 
+<a name="alphafold"></a>
+### #&#8288;75 [alphafold](https://github.com/google-deepmind/alphafold) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (79) · Freshness: slowing (39) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Apr 2026</sub>
+
+**Protein structure prediction inference pipeline from AlphaFold v2, including Multimer.**
+
+Runs the AlphaFold v2 inference pipeline: takes FASTA sequences, searches genetic databases for MSAs and templates, and predicts 3D structures with monomer, pTM and Multimer model presets. It is driven by a Docker wrapper (run_docker.py) and requires a Linux machine with an NVIDIA GPU. Code is Apache-2.0; the model parameters are CC BY 4.0.
+
+- **+** Presets for monomer, CASP14 ensemble, pTM and AlphaFold-Multimer complexes
+- **+** Reduced_dbs preset runs with 8 CPU cores, 8 GB RAM and 600 GB disk
+- **+** Download scripts fetch databases and parameters; MSAs can be reused via --use_precomputed_msas
+- **+** README publishes A100 runtimes by residue count, from 4.9 s at 100 to 18,824 s at 5,000
+- **−** Full databases need about 556 GB download and 2.62 TB unpacked
+- **−** Linux only; requires a modern NVIDIA GPU and the NVIDIA Container Toolkit
+- **−** Last release was 2023-04-05; Multimer described as work in progress
+- **−** Model parameters are CC BY 4.0, separate from the Apache-2.0 code
+
+<sub>RAM ≥ 8 GB · GPU required · Docker · Needs Docker, NVIDIA Container Toolkit, aria2c, rsync, BFD, MGnify, PDB70, PDB mmCIF, UniRef30, UniRef90, UniProt · Models: AlphaFold v2 monomer, monomer_casp14, monomer_ptm, AlphaFold-Multimer · [Repo](https://github.com/google-deepmind/alphafold) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/alphafold/)</sub>
+
 <a name="evo2"></a>
-### #&#8288;72 [evo2](https://github.com/arcinstitute/evo2) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (40) · Freshness: recent (77) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;76 [evo2](https://github.com/arcinstitute/evo2) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (41) · Freshness: recent (77) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Jun 2026</sub>
 
 **DNA language model for scoring, embedding and generating sequences up to 1M bp.**
 
@@ -1295,7 +1366,7 @@ Evo 2 is a DNA language model trained on OpenGenome2 (8.8 trillion tokens across
 <sub>GPU required · Docker · Needs Vortex, PyTorch, Flash Attention 2.8.0.post2, Transformer Engine 2.3.0 (20B, 40B, 1B), CUDA 12.1+, cuDNN 9.3+ · Models: evo2_40b, evo2_20b, evo2_7b, evo2_40b_base, evo2_7b_base · [Repo](https://github.com/arcinstitute/evo2) · [▶️ Demo ↗](https://build.nvidia.com/arc/evo2-40b) · [📖 Docs ↗](https://docs.nvidia.com/nim/bionemo/evo2/latest/overview.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evo2/)</sub>
 
 <a name="deepvariant"></a>
-### #&#8288;73 [deepvariant](https://github.com/google/deepvariant) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (35) · Freshness: recent (54) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · BSD-3-Clause · Mar 2026</sub>
+### #&#8288;77 [deepvariant](https://github.com/google/deepvariant) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (37) · Freshness: recent (54) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · BSD-3-Clause · Mar 2026</sub>
 
 **CNN-based germline variant caller that turns BAM/CRAM reads into VCF/gVCF.**
 
@@ -1312,26 +1383,8 @@ DeepVariant builds pileup image tensors from aligned reads (BAM or CRAM), classi
 
 <sub>GPU optional · Docker · Needs Docker, TensorFlow, Nucleus, GLnexus (DeepTrio merging) · Models: BAM, CRAM, VCF, gVCF, WGS · [Repo](https://github.com/google/deepvariant) · [🌐 Site ↗](https://goo.gl/deepvariant) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepvariant/)</sub>
 
-<a name="tabfm"></a>
-### #&#8288;74 [tabfm](https://github.com/google-research/tabfm) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (18) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Aug 2026</sub>
-
-**Scikit-learn style pretrained model for zero-shot tabular prediction.**
-
-TabFM is a tabular foundation model that predicts on new rows by reading your training table as in-context examples, so no parameters are trained on your data. It provides TabFMClassifier and TabFMRegressor with fit, predict and predict_proba, handles mixed numeric and categorical columns, and runs on a JAX or PyTorch backend. Default weights download from Hugging Face under a non-commercial license.
-
-- **+** Scikit-learn style estimators taking pandas DataFrames
-- **+** No per-dataset training; predictions come from in-context learning
-- **+** Handles mixed numeric and categorical columns, classification and regression
-- **+** JAX (CPU/GPU) or PyTorch backend
-- **−** Default pretrained weights are non-commercial, non-production use only
-- **−** Default context is limited to 100 rows and 500 features
-- **−** No technical report or paper in the repository
-- **−** Installed from a git clone with pinned JAX, Flax or PyTorch versions
-
-<sub>GPU optional · Needs Hugging Face Hub, JAX 0.10.1 and Flax 0.12.7, or PyTorch 2.12.1, Python >= 3.11 · Models: TabFM v1.0.0 classification, TabFM v1.0.0 regression · [Repo](https://github.com/google-research/tabfm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tabfm/)</sub>
-
 <a name="chinese-llama-alpaca"></a>
-### #&#8288;75 [chinese-llama-alpaca](https://github.com/ymcui/chinese-llama-alpaca) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: widely used (83) · Freshness: slowing (38) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;78 [chinese-llama-alpaca](https://github.com/ymcui/chinese-llama-alpaca) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: widely used (83) · Freshness: slowing (38) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Apr 2026</sub>
 
 **Chinese-vocabulary LLaMA and Alpaca LoRA weights with pretraining and tuning scripts.**
 
@@ -1348,26 +1401,8 @@ Releases LoRA weights that extend LLaMA with a Chinese vocabulary (49,953 tokens
 
 <sub>GPU optional · Needs Original LLaMA weights, transformers, PEFT, llama.cpp · Models: LLaMA 7B/13B/33B LoRA, Alpaca Plus/Pro, HF transformers, llama.cpp 8-bit and 4-bit quantized · [Repo](https://github.com/ymcui/chinese-llama-alpaca) · [▶️ Demo ↗](http://llm-arena.ymcui.com/) · [📖 Docs ↗](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chinese-llama-alpaca/)</sub>
 
-<a name="alphafold"></a>
-### #&#8288;76 [alphafold](https://github.com/google-deepmind/alphafold) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: popular (78) · Freshness: slowing (39) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Apr 2026</sub>
-
-**Protein structure prediction inference pipeline from AlphaFold v2, including Multimer.**
-
-Runs the AlphaFold v2 inference pipeline: takes FASTA sequences, searches genetic databases for MSAs and templates, and predicts 3D structures with monomer, pTM and Multimer model presets. It is driven by a Docker wrapper (run_docker.py) and requires a Linux machine with an NVIDIA GPU. Code is Apache-2.0; the model parameters are CC BY 4.0.
-
-- **+** Presets for monomer, CASP14 ensemble, pTM and AlphaFold-Multimer complexes
-- **+** Reduced_dbs preset runs with 8 CPU cores, 8 GB RAM and 600 GB disk
-- **+** Download scripts fetch databases and parameters; MSAs can be reused via --use_precomputed_msas
-- **+** README publishes A100 runtimes by residue count, from 4.9 s at 100 to 18,824 s at 5,000
-- **−** Full databases need about 556 GB download and 2.62 TB unpacked
-- **−** Linux only; requires a modern NVIDIA GPU and the NVIDIA Container Toolkit
-- **−** Last release was 2023-04-05; Multimer described as work in progress
-- **−** Model parameters are CC BY 4.0, separate from the Apache-2.0 code
-
-<sub>RAM ≥ 8 GB · GPU required · Docker · Needs Docker, NVIDIA Container Toolkit, aria2c, rsync, BFD, MGnify, PDB70, PDB mmCIF, UniRef30, UniRef90, UniProt · Models: AlphaFold v2 monomer, monomer_casp14, monomer_ptm, AlphaFold-Multimer · [Repo](https://github.com/google-deepmind/alphafold) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/alphafold/)</sub>
-
 <a name="boltz"></a>
-### #&#8288;77 [boltz](https://github.com/jwohlwend/boltz) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (40) · Freshness: recent (57) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · May 2026</sub>
+### #&#8288;79 [boltz](https://github.com/jwohlwend/boltz) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (41) · Freshness: recent (57) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · May 2026</sub>
 
 **Open biomolecular structure and binding affinity prediction models.**
 
@@ -1384,8 +1419,26 @@ Boltz is a family of open biomolecular interaction models, Boltz-1 and Boltz-2, 
 
 <sub>GPU optional · Needs Python, MSA server (via --use_msa_server), NVIDIA cuEquivariance (optional) · Models: Boltz-1, Boltz-2 · [Repo](https://github.com/jwohlwend/boltz) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/boltz/)</sub>
 
+<a name="ask-anything"></a>
+### #&#8288;80 [ask-anything](https://github.com/opengvlab/ask-anything) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (31) · Freshness: active (87) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · MIT · Jul 2026</sub>
+
+**Video chat models and code for asking questions about video and images.**
+
+Ask-Anything is OpenGVLab's VideoChat family: code, checkpoints and demos for chatting about video and images. It includes end-to-end VideoChat, VideoChat2 (UMT plus Vicuna, Mistral, Phi3 and HD variants), and text-bridged versions using ChatGPT, StableLM, MOSS and MiniGPT-4. It also hosts the MVBench benchmark and 2M instruction-tuning samples.
+
+- **+** Multiple variants: VideoChat2 on Mistral, Phi3 and HD, plus ChatGPT-based pipelines
+- **+** Releases MVBench benchmark and 2M instruction-tuning samples alongside the models
+- **+** Hosted demos on Hugging Face Spaces, OpenXLab and vchat.opengvlab.com
+- **+** Reports scores such as 60.4% on MVBench and 54.8% on Video-MME (HD)
+- **−** Research code split across subfolders and branches, with no single install path
+- **−** Newer work moved to separate repos (VideoChat-Flash, VideoChat3), so this repo acts as an index
+- **−** No releases, Docker setup or packaged server in the repo
+- **−** Text-based variant depends on external ChatGPT access
+
+<sub>Needs ChatGPT (text-based variant) · Models: VideoChat, VideoChat2, Vicuna, Mistral, Phi3 · [Repo](https://github.com/opengvlab/ask-anything) · [▶️ Demo ↗](https://vchat.opengvlab.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ask-anything/)</sub>
+
 <a name="skywork-r1v"></a>
-### #&#8288;78 [skywork-r1v](https://github.com/skyworkai/skywork-r1v) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (27) · Freshness: active (92) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Jul 2026</sub>
+### #&#8288;81 [skywork-r1v](https://github.com/skyworkai/skywork-r1v) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (28) · Freshness: active (92) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Jul 2026</sub>
 
 **Open-weight 38B multimodal reasoning model with inference and eval code.**
 
@@ -1403,7 +1456,7 @@ Skywork-R1V3 is a 38B vision-language reasoning model post-trained mainly with r
 <sub>GPU required · Needs conda, Python 3.10, Transformers, vLLM · Models: Skywork-R1V3-38B, Skywork-R1V2-38B, Skywork-R1V2-38B-AWQ, Skywork-R1V-38B, Skywork-R1V-38B-AWQ · [Repo](https://github.com/skyworkai/skywork-r1v) · [📖 Docs ↗](https://arxiv.org/abs/2507.06167) · [🌐 Site ↗](https://huggingface.co/Skywork/Skywork-R1V3-38B) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skywork-r1v/)</sub>
 
 <a name="bindcraft"></a>
-### #&#8288;79 [bindcraft](https://github.com/martinpacesa/bindcraft) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (4) · Freshness: active (97) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Sep 2026</sub>
+### #&#8288;82 [bindcraft](https://github.com/martinpacesa/bindcraft) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (5) · Freshness: active (97) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Sep 2026</sub>
 
 **Protein binder design with AlphaFold2 backpropagation, ProteinMPNN and PyRosetta.**
 
@@ -1420,26 +1473,8 @@ BindCraft designs de novo protein binders for a target PDB. It runs AlphaFold2 b
 
 <sub>GPU required · Needs CUDA, conda or mamba, PyRosetta, AlphaFold2 weights (about 5.3 GB), ColabDesign, ProteinMPNN · Models: AlphaFold2 (ptm and multimer), ProteinMPNN · [Repo](https://github.com/martinpacesa/bindcraft) · [▶️ Demo ↗](https://colab.research.google.com/github/martinpacesa/BindCraft/blob/main/notebooks/BindCraft.ipynb) · [📖 Docs ↗](https://github.com/martinpacesa/BindCraft/wiki/De-novo-binder-design-with-BindCraft) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bindcraft/)</sub>
 
-<a name="ask-anything"></a>
-### #&#8288;80 [ask-anything](https://github.com/opengvlab/ask-anything) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (30) · Freshness: active (87) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · MIT · Jul 2026</sub>
-
-**Video chat models and code for asking questions about video and images.**
-
-Ask-Anything is OpenGVLab's VideoChat family: code, checkpoints and demos for chatting about video and images. It includes end-to-end VideoChat, VideoChat2 (UMT plus Vicuna, Mistral, Phi3 and HD variants), and text-bridged versions using ChatGPT, StableLM, MOSS and MiniGPT-4. It also hosts the MVBench benchmark and 2M instruction-tuning samples.
-
-- **+** Multiple variants: VideoChat2 on Mistral, Phi3 and HD, plus ChatGPT-based pipelines
-- **+** Releases MVBench benchmark and 2M instruction-tuning samples alongside the models
-- **+** Hosted demos on Hugging Face Spaces, OpenXLab and vchat.opengvlab.com
-- **+** Reports scores such as 60.4% on MVBench and 54.8% on Video-MME (HD)
-- **−** Research code split across subfolders and branches, with no single install path
-- **−** Newer work moved to separate repos (VideoChat-Flash, VideoChat3), so this repo acts as an index
-- **−** No releases, Docker setup or packaged server in the repo
-- **−** Text-based variant depends on external ChatGPT access
-
-<sub>Needs ChatGPT (text-based variant) · Models: VideoChat, VideoChat2, Vicuna, Mistral, Phi3 · [Repo](https://github.com/opengvlab/ask-anything) · [▶️ Demo ↗](https://vchat.opengvlab.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ask-anything/)</sub>
-
 <a name="gorilla"></a>
-### #&#8288;81 [gorilla](https://github.com/shishirpatil/gorilla) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (75) · Freshness: slowing (36) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;83 [gorilla](https://github.com/shishirpatil/gorilla) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (75) · Freshness: slowing (36) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Mar 2026</sub>
 
 **Function-calling LLMs, API dataset, and the Berkeley Function Calling Leaderboard.**
 
@@ -1457,7 +1492,7 @@ Gorilla is a Berkeley research project on getting LLMs to call APIs correctly. T
 <sub>Models: Gorilla 7B (Hugging Face), Gorilla OpenFunctions-V2, OpenAI-compatible endpoints · [Repo](https://github.com/shishirpatil/gorilla) · [▶️ Demo ↗](https://huggingface.co/spaces/gorilla-llm/gorilla-demo/) · [🌐 Site ↗](https://gorilla.cs.berkeley.edu/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gorilla/)</sub>
 
 <a name="bagel"></a>
-### #&#8288;82 [bagel](https://github.com/bytedance-seed/bagel) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (53) · Freshness: recent (60) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · May 2026</sub>
+### #&#8288;84 [bagel](https://github.com/bytedance-seed/bagel) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (54) · Freshness: recent (60) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · May 2026</sub>
 
 **Open multimodal model for image understanding, text-to-image and image editing.**
 
@@ -1475,7 +1510,7 @@ BAGEL is a 7B-active (14B total) Mixture-of-Transformer-Experts model that handl
 <sub>GPU required · Needs Python 3.10, conda, flash_attn 2.5.8, Hugging Face Hub · Models: BAGEL-7B-MoT safetensors, NF4, INT8, DF11 · [Repo](https://github.com/bytedance-seed/bagel) · [▶️ Demo ↗](https://demo.bagel-ai.org/) · [🌐 Site ↗](https://bagel-ai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bagel/)</sub>
 
 <a name="magi-1"></a>
-### #&#8288;83 [magi-1](https://github.com/sandai-org/magi-1) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (34) · Freshness: recent (76) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;85 [magi-1](https://github.com/sandai-org/magi-1) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (36) · Freshness: recent (76) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Jun 2026</sub>
 
 **Autoregressive video generation model with open weights and inference code.**
 
@@ -1493,7 +1528,7 @@ MAGI-1 generates video chunk by chunk (24 frames per chunk), with up to four chu
 <sub>GPU required · Needs PyTorch 2.4.0, CUDA 12.4, ffmpeg 4.4, MagiAttention (optional, Hopper GPUs), T5 and VAE weights from Hugging Face · Models: MAGI-1 24B, MAGI-1 4.5B, MAGI-1.1 24B, distill, distill+fp8_quant · [Repo](https://github.com/sandai-org/magi-1) · [▶️ Demo ↗](https://magi.sand.ai) · [📖 Docs ↗](https://arxiv.org/abs/2505.13211) · [🌐 Site ↗](https://sand.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/magi-1/)</sub>
 
 <a name="rfdiffusion"></a>
-### #&#8288;84 [rfdiffusion](https://github.com/rosettacommons/rfdiffusion) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (26) · Freshness: recent (61) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · custom license · Jul 2026</sub>
+### #&#8288;86 [rfdiffusion](https://github.com/rosettacommons/rfdiffusion) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (27) · Freshness: recent (61) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · custom license · Jul 2026</sub>
 
 **Diffusion model for generating protein backbones, binders and scaffolds.**
 
@@ -1510,44 +1545,8 @@ RFdiffusion generates protein structures with a diffusion model, either uncondit
 
 <sub>GPU required · Docker · Needs conda, PyTorch, NVIDIA SE(3)-Transformer, Hydra · Models: Base_ckpt.pt, Complex_base_ckpt.pt, Complex_Fold_base_ckpt.pt, InpaintSeq_ckpt.pt, ActiveSite_ckpt.pt · [Repo](https://github.com/rosettacommons/rfdiffusion) · [▶️ Demo ↗](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.1/rf/examples/diffusion.ipynb) · [📖 Docs ↗](https://sites.google.com/omsf.io/rfdiffusion/overview) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rfdiffusion/)</sub>
 
-<a name="cogagent"></a>
-### #&#8288;85 [cogagent](https://github.com/zai-org/cogagent) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Oct 2026</sub>
-
-**Open 9B vision-language model that reads screenshots and outputs GUI actions.**
-
-CogAgent-9B-20241220 is a GLM-4V-9B-based vision-language model that takes a screenshot, a task and step history, and returns a grounded GUI operation such as CLICK with a bounding box. It supports Windows, macOS and Android screens in Chinese and English. The repo provides transformers inference scripts, a Gradio-style web demo, and SFT/LoRA fine-tuning code.
-
-- **+** Returns grounded actions with box coordinates for Windows, macOS and Android screenshots
-- **+** Selectable output formats, e.g. Action-Operation-Sensitive flags sensitive operations
-- **+** Includes SFT and LoRA fine-tuning code plus INT4/INT8 inference options
-- **+** Weights on HuggingFace, ModelScope, WiseModel and Ascend-targeted Modelers
-- **−** Needs about 29GB VRAM at BF16; INT4 (about 8GB) is discouraged for quality loss
-- **−** Not conversational: no continuous dialogue, caller must build the history string
-- **−** Output is a strict-format string, not JSON, so callers must parse it themselves
-- **−** Online demo cannot control a computer; LoRA fine-tuning needs 70GB on one GPU
-
-<sub>GPU required · Needs PyTorch, transformers · Models: cogagent-9b-20241220, GLM-4V-9B base, BF16, INT8, INT4 · port 7860 · [Repo](https://github.com/zai-org/cogagent) · [▶️ Demo ↗](https://huggingface.co/spaces/THUDM-HF-SPACE/CogAgent-Demo) · [📖 Docs ↗](https://cogagent.aminer.cn/blog#/articles/cogagent-9b-20241220-technical-report) · [🌐 Site ↗](https://cogagent.aminer.cn/home) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cogagent/)</sub>
-
-<a name="z-image"></a>
-### #&#8288;86 [z-image](https://github.com/tongyi-mai/z-image) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (71) · Freshness: quiet (30) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Feb 2026</sub>
-
-**6B-parameter text-to-image diffusion model family with an 8-step Turbo variant.**
-
-Z-Image is a family of 6B-parameter image generation models built on a single-stream diffusion transformer (S3-DiT), with PyTorch and diffusers inference code. Z-Image-Turbo is a distilled variant that runs in 8 function evaluations and fits in 16 GB VRAM, while Z-Image is the 50-step base model with CFG and negative prompts. Omni-Base and Edit variants are listed as not yet released.
-
-- **+** Turbo variant needs 8 NFEs and fits in 16 GB VRAM consumer GPUs
-- **+** Base Z-Image supports CFG and negative prompts, and is aimed at fine-tuning
-- **+** Renders English and Chinese text in images
-- **+** Community ports: stable-diffusion.cpp runs it on 4 GB VRAM, plus vllm-omni and SGLang support
-- **−** Omni-Base and Edit checkpoints are marked 'To be released' in the model zoo
-- **−** Turbo has low output diversity and no CFG, per the README table
-- **−** Diffusers support requires installing from source per the README
-- **−** No release tags; inference is a script plus library, not a server or UI
-
-<sub>GPU required · Needs PyTorch, diffusers · Models: Z-Image, Z-Image-Turbo, Hugging Face safetensors checkpoints, diffusers ZImagePipeline · [Repo](https://github.com/tongyi-mai/z-image) · [▶️ Demo ↗](https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo) · [🌐 Site ↗](https://tongyi-mai.github.io/Z-Image-blog/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/z-image/)</sub>
-
 <a name="tribev2"></a>
-### #&#8288;87 [tribev2](https://github.com/facebookresearch/tribev2) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (30) · Freshness: recent (79) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · custom license · Jun 2026</sub>
+### #&#8288;87 [tribev2](https://github.com/facebookresearch/tribev2) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (31) · Freshness: recent (79) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · custom license · Jun 2026</sub>
 
 **Pretrained model predicting fMRI brain responses to video, audio and text.**
 
@@ -1565,7 +1564,7 @@ TRIBE v2 is a multimodal Transformer that predicts fMRI responses on the fsavera
 <sub>Needs Python 3.11+, PyTorch Lightning (training), Weights & Biases (training), Slurm (grid search) · Models: facebook/tribev2 (Hugging Face), fsaverage5 cortical mesh · [Repo](https://github.com/facebookresearch/tribev2) · [▶️ Demo ↗](https://aidemos.atmeta.com/tribev2/) · [📖 Docs ↗](https://arxiv.org/abs/2605.04326) · [🌐 Site ↗](https://huggingface.co/facebook/tribev2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tribev2/)</sub>
 
 <a name="hunyuanimage-3-0"></a>
-### #&#8288;88 [hunyuanimage-3.0](https://github.com/tencent-hunyuan/hunyuanimage-3.0) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (29) · Freshness: recent (79) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · custom license · Jun 2026</sub>
+### #&#8288;88 [hunyuanimage-3.0](https://github.com/tencent-hunyuan/hunyuanimage-3.0) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (30) · Freshness: recent (79) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · custom license · Jun 2026</sub>
 
 **80B-parameter MoE model for text-to-image generation and image editing.**
 
@@ -1583,7 +1582,7 @@ Inference code and weights for HunyuanImage-3.0, an autoregressive multimodal mo
 <sub>GPU required · Docker · Needs PyTorch 2.8.0 (CUDA 12.8), Transformers, FlashInfer 0.5.0 (optional), Gradio (optional), tencentcloud-sdk-python (base model prompt enhancement) · Models: HunyuanImage-3.0, HunyuanImage-3.0-Instruct, HunyuanImage-3.0-Instruct-Distil · port 443 · [Repo](https://github.com/tencent-hunyuan/hunyuanimage-3.0) · [▶️ Demo ↗](https://hunyuan.tencent.com/chat/HunyuanDefault?from=modelSquare&modelId=Hunyuan-Image-3.0-Instruct) · [🌐 Site ↗](https://hunyuan.tencent.com/image) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuanimage-3-0/)</sub>
 
 <a name="lyra"></a>
-### #&#8288;89 [lyra](https://github.com/nv-tlabs/lyra) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (19) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;89 [lyra](https://github.com/nv-tlabs/lyra) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (21) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Jul 2026</sub>
 
 **NVIDIA research code for generating explorable 3D worlds from images.**
 
@@ -1599,8 +1598,44 @@ Official implementations of NVIDIA's Lyra 1.0 and Lyra 2.0 generative 3D world m
 
 <sub>Models: Lyra 1.0, Lyra 2.0 · [Repo](https://github.com/nv-tlabs/lyra) · [🌐 Site ↗](https://research.nvidia.com/labs/sil/projects/lyra2/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lyra/)</sub>
 
+<a name="cogagent"></a>
+### #&#8288;90 [cogagent](https://github.com/zai-org/cogagent) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Oct 2026</sub>
+
+**Open 9B vision-language model that reads screenshots and outputs GUI actions.**
+
+CogAgent-9B-20241220 is a GLM-4V-9B-based vision-language model that takes a screenshot, a task and step history, and returns a grounded GUI operation such as CLICK with a bounding box. It supports Windows, macOS and Android screens in Chinese and English. The repo provides transformers inference scripts, a Gradio-style web demo, and SFT/LoRA fine-tuning code.
+
+- **+** Returns grounded actions with box coordinates for Windows, macOS and Android screenshots
+- **+** Selectable output formats, e.g. Action-Operation-Sensitive flags sensitive operations
+- **+** Includes SFT and LoRA fine-tuning code plus INT4/INT8 inference options
+- **+** Weights on HuggingFace, ModelScope, WiseModel and Ascend-targeted Modelers
+- **−** Needs about 29GB VRAM at BF16; INT4 (about 8GB) is discouraged for quality loss
+- **−** Not conversational: no continuous dialogue, caller must build the history string
+- **−** Output is a strict-format string, not JSON, so callers must parse it themselves
+- **−** Online demo cannot control a computer; LoRA fine-tuning needs 70GB on one GPU
+
+<sub>GPU required · Needs PyTorch, transformers · Models: cogagent-9b-20241220, GLM-4V-9B base, BF16, INT8, INT4 · port 7860 · [Repo](https://github.com/zai-org/cogagent) · [▶️ Demo ↗](https://huggingface.co/spaces/THUDM-HF-SPACE/CogAgent-Demo) · [📖 Docs ↗](https://cogagent.aminer.cn/blog#/articles/cogagent-9b-20241220-technical-report) · [🌐 Site ↗](https://cogagent.aminer.cn/home) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cogagent/)</sub>
+
+<a name="z-image"></a>
+### #&#8288;91 [z-image](https://github.com/tongyi-mai/z-image) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (72) · Freshness: quiet (30) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Feb 2026</sub>
+
+**6B-parameter text-to-image diffusion model family with an 8-step Turbo variant.**
+
+Z-Image is a family of 6B-parameter image generation models built on a single-stream diffusion transformer (S3-DiT), with PyTorch and diffusers inference code. Z-Image-Turbo is a distilled variant that runs in 8 function evaluations and fits in 16 GB VRAM, while Z-Image is the 50-step base model with CFG and negative prompts. Omni-Base and Edit variants are listed as not yet released.
+
+- **+** Turbo variant needs 8 NFEs and fits in 16 GB VRAM consumer GPUs
+- **+** Base Z-Image supports CFG and negative prompts, and is aimed at fine-tuning
+- **+** Renders English and Chinese text in images
+- **+** Community ports: stable-diffusion.cpp runs it on 4 GB VRAM, plus vllm-omni and SGLang support
+- **−** Omni-Base and Edit checkpoints are marked 'To be released' in the model zoo
+- **−** Turbo has low output diversity and no CFG, per the README table
+- **−** Diffusers support requires installing from source per the README
+- **−** No release tags; inference is a script plus library, not a server or UI
+
+<sub>GPU required · Needs PyTorch, diffusers · Models: Z-Image, Z-Image-Turbo, Hugging Face safetensors checkpoints, diffusers ZImagePipeline · [Repo](https://github.com/tongyi-mai/z-image) · [▶️ Demo ↗](https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo) · [🌐 Site ↗](https://tongyi-mai.github.io/Z-Image-blog/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/z-image/)</sub>
+
 <a name="deepdanbooru"></a>
-### #&#8288;90 [deepdanbooru](https://github.com/kichangkim/deepdanbooru) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (22) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Jul 2026</sub>
+### #&#8288;92 [deepdanbooru](https://github.com/kichangkim/deepdanbooru) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (23) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Jul 2026</sub>
 
 **TensorFlow tagger that predicts Danbooru tags for anime-style images.**
 
@@ -1618,7 +1653,7 @@ DeepDanbooru is a Python CLI that trains and runs a TensorFlow multi-label class
 <sub>Needs Python 3.11, tensorflow>=2.17.0, tensorflow-io, scikit-image, SQLite dataset · Models: TensorFlow · [Repo](https://github.com/kichangkim/deepdanbooru) · [▶️ Demo ↗](https://apps.kanotype.net/deepdanbooru/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepdanbooru/)</sub>
 
 <a name="chinese-clip"></a>
-### #&#8288;91 [chinese-clip](https://github.com/ofa-sys/chinese-clip) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: popular (52) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Mar 2026</sub>
+### #&#8288;93 [chinese-clip](https://github.com/ofa-sys/chinese-clip) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: popular (53) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Mar 2026</sub>
 
 **Chinese-language CLIP models for image-text embedding and cross-modal retrieval.**
 
@@ -1636,7 +1671,7 @@ Chinese-CLIP provides CLIP models trained on about 200M Chinese image-text pairs
 <sub>GPU optional · Needs PyTorch >= 1.8.0, torchvision >= 0.9.0, modelscope (optional, for model download) · Models: ViT-B/16, ViT-L/14, ViT-L/14-336, ViT-H/14, RN50 · [Repo](https://github.com/ofa-sys/chinese-clip) · [▶️ Demo ↗](https://www.modelscope.cn/studios/damo/chinese_clip_applications/summary) · [📖 Docs ↗](https://arxiv.org/abs/2211.01335) · [🌐 Site ↗](https://qwenlm.github.io/zh/blog/chinese-clip/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chinese-clip/)</sub>
 
 <a name="chinese-llama-alpaca-2"></a>
-### #&#8288;92 [chinese-llama-alpaca-2](https://github.com/ymcui/chinese-llama-alpaca-2) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: popular (57) · Freshness: slowing (38) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;94 [chinese-llama-alpaca-2](https://github.com/ymcui/chinese-llama-alpaca-2) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: popular (58) · Freshness: slowing (38) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Apr 2026</sub>
 
 **Llama-2 models with extended Chinese vocabulary, plus training scripts.**
 
@@ -1654,7 +1689,7 @@ Releases Chinese-LLaMA-2 base and Chinese-Alpaca-2 instruction models (1.3B, 7B,
 <sub>GPU optional · Needs Llama-2 base weights (for LoRA merge), transformers, llama.cpp · Models: Chinese-LLaMA-2, Chinese-Alpaca-2, GGUF, AWQ, LoRA · [Repo](https://github.com/ymcui/chinese-llama-alpaca-2) · [▶️ Demo ↗](http://llm-arena.ymcui.com/) · [📖 Docs ↗](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chinese-llama-alpaca-2/)</sub>
 
 <a name="qwen-image"></a>
-### #&#8288;93 [qwen-image](https://github.com/qwenlm/qwen-image) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (62) · Freshness: slowing (30) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;95 [qwen-image](https://github.com/qwenlm/qwen-image) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (63) · Freshness: slowing (30) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Feb 2026</sub>
 
 **20B MMDiT image generation and editing model with strong text rendering.**
 
@@ -1671,7 +1706,7 @@ Qwen-Image is a 20B MMDiT image foundation model from the Qwen team, covering te
 <sub>GPU optional · Needs diffusers, transformers>=4.51.3, PyTorch, DashScope API (optional, prompt enhancement) · Models: Qwen-Image, Qwen-Image-2512, Qwen-Image-Edit, Qwen-Image-Edit-2509, Qwen-Image-Edit-2511 · [Repo](https://github.com/qwenlm/qwen-image) · [▶️ Demo ↗](https://huggingface.co/spaces/Qwen/Qwen-Image) · [📖 Docs ↗](https://arxiv.org/abs/2508.02324) · [🌐 Site ↗](https://qwenlm.github.io/blog/qwen-image/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwen-image/)</sub>
 
 <a name="chinese-ocr"></a>
-### #&#8288;94 [chinese-ocr](https://github.com/xiaofengshi/chinese-ocr) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.0k · no license · Aug 2026</sub>
+### #&#8288;96 [chinese-ocr](https://github.com/xiaofengshi/chinese-ocr) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.0k · no license · Aug 2026</sub>
 
 **Chinese text detection and recognition with CTPN and CRNN in Keras/PyTorch.**
 
@@ -1689,7 +1724,7 @@ Three-stage OCR pipeline for Chinese and English text in natural scenes: a VGG16
 <sub>GPU optional · Needs Python 3.6, TensorFlow 1.7, Keras, PyTorch, OpenCV · Models: CTPN, CRNN, VGG16 · [Repo](https://github.com/xiaofengshi/chinese-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chinese-ocr/)</sub>
 
 <a name="lumina-dimoo"></a>
-### #&#8288;95 [lumina-dimoo](https://github.com/alpha-vllm/lumina-dimoo) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (1) · Freshness: recent (66) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · May 2026</sub>
+### #&#8288;97 [lumina-dimoo](https://github.com/alpha-vllm/lumina-dimoo) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (1) · Freshness: recent (66) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · May 2026</sub>
 
 **Discrete diffusion model for text-to-image, image editing and image understanding.**
 
@@ -1707,7 +1742,7 @@ Lumina-DiMOO is an open-weight diffusion language model that handles text-to-ima
 <sub>GPU required · Needs conda, PyTorch, VLMEvalKit (evaluation only), OpenAI-compatible API for evaluation judge · Models: Lumina-DiMOO (Hugging Face), Diffusers, ComfyUI · [Repo](https://github.com/alpha-vllm/lumina-dimoo) · [▶️ Demo ↗](https://synbol.github.io/Lumina-DiMOO/) · [📖 Docs ↗](http://arxiv.org/abs/2510.06308) · [🌐 Site ↗](https://synbol.github.io/Lumina-DiMOO/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lumina-dimoo/)</sub>
 
 <a name="qwen3"></a>
-### #&#8288;96 [qwen3](https://github.com/qwenlm/qwen3) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: widely used (89) · Freshness: quiet (19) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 28k · no license · Jan 2026</sub>
+### #&#8288;98 [qwen3](https://github.com/qwenlm/qwen3) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: widely used (90) · Freshness: quiet (19) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 28k · no license · Jan 2026</sub>
 
 **Open-weight Qwen3 LLM family with dense and MoE models, 0.6B to 235B.**
 
@@ -1725,7 +1760,7 @@ Qwen3 is Alibaba's open-weight LLM series, with dense models from 0.6B to 32B an
 <sub>GPU optional · Needs transformers>=4.51.0, llama.cpp>=b5401, vllm>=0.9.0, sglang>=0.4.6.post1 · Models: Transformers, GGUF, GPTQ, AWQ, MLX · [Repo](https://github.com/qwenlm/qwen3) · [▶️ Demo ↗](https://huggingface.co/spaces/Qwen/Qwen3-Demo) · [📖 Docs ↗](https://qwen.readthedocs.io/) · [🌐 Site ↗](https://chat.qwen.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwen3/)</sub>
 
 <a name="ernie"></a>
-### #&#8288;97 [ernie](https://github.com/paddlepaddle/ernie) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: popular (60) · Freshness: quiet (12) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;99 [ernie](https://github.com/paddlepaddle/ernie) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: popular (61) · Freshness: quiet (12) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · Apache-2.0 · Dec 2025</sub>
 
 **Open-weight ERNIE 4.5 multimodal MoE models with ERNIEKit fine-tuning tools.**
 
@@ -1743,7 +1778,7 @@ Baidu's ERNIE 4.5 repository covers ten open-weight models: MoE LLMs (300B-A47B,
 <sub>GPU required · Docker · Needs PaddlePaddle, FastDeploy, Hugging Face CLI · Models: ERNIE-4.5-300B-A47B, ERNIE-4.5-21B-A3B, ERNIE-4.5-VL-424B-A47B, ERNIE-4.5-VL-28B-A3B, ERNIE-4.5-0.3B · port 9904 · [Repo](https://github.com/paddlepaddle/ernie) · [📖 Docs ↗](https://github.com/PaddlePaddle/ERNIE/blob/develop/docs/erniekit.md) · [🌐 Site ↗](https://ernie.baidu.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ernie/)</sub>
 
 <a name="flownet2-pytorch"></a>
-### #&#8288;98 [flownet2-pytorch](https://github.com/nvidia/flownet2-pytorch) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (28) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · custom license · Mar 2026</sub>
+### #&#8288;100 [flownet2-pytorch](https://github.com/nvidia/flownet2-pytorch) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (30) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · custom license · Mar 2026</sub>
 
 **PyTorch implementation of FlowNet 2.0 optical flow estimation networks.**
 
@@ -1761,7 +1796,7 @@ PyTorch port of the FlowNet 2.0 optical flow networks (FlowNet2, S, C, CS, CSS, 
 <sub>GPU required · Docker · Needs PyTorch 0.4.1, numpy, scipy, scikit-image, tensorboardX, colorama, tqdm, setproctitle · Models: FlowNet2, FlowNet2-C, FlowNet2-CS, FlowNet2-CSS, FlowNet2-CSS-ft-sd · [Repo](https://github.com/nvidia/flownet2-pytorch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flownet2-pytorch/)</sub>
 
 <a name="hunyuanworld-1-0"></a>
-### #&#8288;99 [hunyuanworld-1.0](https://github.com/tencent-hunyuan/hunyuanworld-1.0) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (23) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · custom license · Apr 2026</sub>
+### #&#8288;101 [hunyuanworld-1.0](https://github.com/tencent-hunyuan/hunyuanworld-1.0) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (25) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · custom license · Apr 2026</sub>
 
 **Generates explorable 360° 3D mesh worlds from text or a single image.**
 
@@ -1778,8 +1813,26 @@ HunyuanWorld 1.0 builds a 3D scene in two steps: a Flux-based diffusion model ge
 
 <sub>GPU required · Needs Python 3.10, PyTorch 2.5.0+cu124, conda, Real-ESRGAN, ZIM, Draco, Hugging Face account · Models: HunyuanWorld-PanoDiT-Text, HunyuanWorld-PanoDiT-Image, HunyuanWorld-PanoInpaint-Scene, HunyuanWorld-PanoInpaint-Sky · [Repo](https://github.com/tencent-hunyuan/hunyuanworld-1.0) · [🌐 Site ↗](https://3d.hunyuan.tencent.com/sceneTo3D) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuanworld-1-0/)</sub>
 
+<a name="rex-omni"></a>
+### #&#8288;102 [rex-omni](https://github.com/idea-research/rex-omni) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (8) · Freshness: slowing (35) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · custom license · Feb 2026</sub>
+
+**3B multimodal model for detection, pointing, OCR and keypoints.**
+
+Rex-Omni is a 3B-parameter multimodal LLM, based on Qwen2.5-VL, that emits boxes, points, polygons and keypoints as text tokens. The repo provides a Python wrapper with transformers and vLLM backends, tutorials for each task, a Gradio demo, evaluation code, and SFT/GRPO fine-tuning for pointing. An AWQ-quantized checkpoint is also published.
+
+- **+** One model covers detection, pointing, visual prompting, OCR boxes/polygons, keypoints and GUI grounding
+- **+** Two backends: transformers for simplicity, vLLM for batch throughput
+- **+** AWQ checkpoint published, which the README says halves storage
+- **+** Includes evaluation code, fine-tuning code, and a SAM pairing for masks
+- **−** Custom IDEA License 1.0 on a Qwen research-licensed base; not a standard OSI license
+- **−** Install pins torch 2.7.0 with CUDA 12.8 wheels, so it targets NVIDIA GPUs
+- **−** Gradio demo default server_name is a hardcoded private IP and needs overriding
+- **−** No release tags and no Docker setup
+
+<sub>GPU required · Needs PyTorch 2.7.0, CUDA 12.8, transformers, vLLM (optional), Gradio · Models: Rex-Omni 3B, Rex-Omni-AWQ, Hugging Face checkpoints · port 5211 · [Repo](https://github.com/idea-research/rex-omni) · [▶️ Demo ↗](https://huggingface.co/spaces/Mountchicken/Rex-Omni) · [🌐 Site ↗](https://rex-omni.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rex-omni/)</sub>
+
 <a name="needle"></a>
-### #&#8288;100 [needle](https://github.com/cactus-compute/needle) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 11 · no license · Nov 2026</sub>
+### #&#8288;103 [needle](https://github.com/cactus-compute/needle) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 11 · no license · Nov 2026</sub>
 
 **8-29 MB on-device model for tool calling, extraction and embeddings.**
 
@@ -1797,7 +1850,7 @@ Needle is a small model from Cactus Compute that picks functions and fills their
 <sub>no GPU · Needs Python (pip install cactus-needle), JAX (for local fine-tuning) · Models: Needle 3 (.cact), Needle 2, Whistle speech-to-text (.cact) · [Repo](https://github.com/cactus-compute/needle) · [▶️ Demo ↗](https://cactuscompute.com/needle) · [📖 Docs ↗](https://cactuscompute.com/blog/needle-python-docs) · [🌐 Site ↗](https://cactuscompute.com/needle) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/needle/)</sub>
 
 <a name="llama3-chinese-chat"></a>
-### #&#8288;101 [llama3-chinese-chat](https://github.com/crazyboym/llama3-chinese-chat) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: known (38) · Freshness: slowing (34) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Feb 2026</sub>
+### #&#8288;104 [llama3-chinese-chat](https://github.com/crazyboym/llama3-chinese-chat) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: known (39) · Freshness: slowing (34) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · MIT · Feb 2026</sub>
 
 **Curated Llama 3 Chinese fine-tunes with training data and deployment guides.**
 
@@ -1814,26 +1867,8 @@ A Chinese-language index of Llama 3 and 3.1 fine-tunes (SFT, DPO, ORPO, MoE, lon
 
 <sub>GPU optional · Needs transformers 4.40.1, streamlit, peft, bitsandbytes, Ollama, vLLM, LM Studio · Models: Llama 3 8B, Llama 3.1 8B, GGUF, Hugging Face Transformers, LoRA adapters · [Repo](https://github.com/crazyboym/llama3-chinese-chat) · [▶️ Demo ↗](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) · [📖 Docs ↗](https://github.com/CrazyBoyM/llama3-Chinese-chat/tree/main/deploy/vLLM) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama3-chinese-chat/)</sub>
 
-<a name="rex-omni"></a>
-### #&#8288;102 [rex-omni](https://github.com/idea-research/rex-omni) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (7) · Freshness: slowing (35) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · custom license · Feb 2026</sub>
-
-**3B multimodal model for detection, pointing, OCR and keypoints.**
-
-Rex-Omni is a 3B-parameter multimodal LLM, based on Qwen2.5-VL, that emits boxes, points, polygons and keypoints as text tokens. The repo provides a Python wrapper with transformers and vLLM backends, tutorials for each task, a Gradio demo, evaluation code, and SFT/GRPO fine-tuning for pointing. An AWQ-quantized checkpoint is also published.
-
-- **+** One model covers detection, pointing, visual prompting, OCR boxes/polygons, keypoints and GUI grounding
-- **+** Two backends: transformers for simplicity, vLLM for batch throughput
-- **+** AWQ checkpoint published, which the README says halves storage
-- **+** Includes evaluation code, fine-tuning code, and a SAM pairing for masks
-- **−** Custom IDEA License 1.0 on a Qwen research-licensed base; not a standard OSI license
-- **−** Install pins torch 2.7.0 with CUDA 12.8 wheels, so it targets NVIDIA GPUs
-- **−** Gradio demo default server_name is a hardcoded private IP and needs overriding
-- **−** No release tags and no Docker setup
-
-<sub>GPU required · Needs PyTorch 2.7.0, CUDA 12.8, transformers, vLLM (optional), Gradio · Models: Rex-Omni 3B, Rex-Omni-AWQ, Hugging Face checkpoints · port 5211 · [Repo](https://github.com/idea-research/rex-omni) · [▶️ Demo ↗](https://huggingface.co/spaces/Mountchicken/Rex-Omni) · [🌐 Site ↗](https://rex-omni.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rex-omni/)</sub>
-
 <a name="text2vec"></a>
-### #&#8288;103 [text2vec](https://github.com/shibing624/text2vec) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (47) · Freshness: quiet (22) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;105 [text2vec](https://github.com/shibing624/text2vec) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (48) · Freshness: quiet (22) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Feb 2026</sub>
 
 **Python library for sentence embeddings and Chinese text similarity models.**
 
@@ -1850,8 +1885,25 @@ text2vec is a PyTorch-based Python library that encodes words, sentences and par
 
 <sub>GPU optional · Needs PyTorch, transformers, gensim · Models: Word2Vec, SBERT, CoSENT, BGE, Hugging Face transformers models · [Repo](https://github.com/shibing624/text2vec) · [▶️ Demo ↗](https://huggingface.co/spaces/shibing624/text2vec) · [📖 Docs ↗](https://github.com/shibing624/text2vec/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/text2vec/)</sub>
 
+<a name="deepjazz"></a>
+### #&#8288;106 [deepjazz](https://github.com/jisungk/deepjazz) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (22) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Mar 2026</sub>
+
+**Generates jazz melodies from a MIDI file with a two-layer LSTM.**
+
+deepjazz trains a two-layer LSTM in Keras and Theano on a single MIDI file, then generates new jazz-style music from it. It was written in 36 hours at a hackathon and runs as a Python script on CPU or an NVIDIA GPU. The author states it is no longer actively developed.
+
+- **+** Small codebase: one generator script plus MIDI preprocessing, easy to read end to end
+- **+** Runs on CPU, with an optional Theano GPU mode for NVIDIA cards
+- **+** Code is Apache-2.0 licensed
+- **−** No longer actively developed, per the README
+- **−** Needs bleeding-edge Theano from GitHub, an obsolete backend
+- **−** Other MIDI files require editing preprocess.py to select the melody part
+- **−** Images and media are copyrighted separately from the Apache-2.0 code
+
+<sub>GPU optional · Needs Keras, Theano, music21 · Models: MIDI input, two-layer LSTM · [Repo](https://github.com/jisungk/deepjazz) · [🌐 Site ↗](https://deepjazz.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepjazz/)</sub>
+
 <a name="alphageometry"></a>
-### #&#8288;104 [alphageometry](https://github.com/google-deepmind/alphageometry) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: known (46) · Freshness: quiet (17) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;107 [alphageometry](https://github.com/google-deepmind/alphageometry) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: known (47) · Freshness: quiet (17) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Jan 2026</sub>
 
 **Research code for DDAR and AlphaGeometry olympiad geometry theorem provers.**
 
@@ -1868,25 +1920,8 @@ Reproduces the two geometry provers from the 2024 Nature paper: DDAR, a symbolic
 
 <sub>GPU optional · Needs meliad, JAX, Flax, TensorFlow, gin-config, SentencePiece, Python 3.10 · Models: AlphaGeometry 150M transformer checkpoint · [Repo](https://github.com/google-deepmind/alphageometry) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/alphageometry/)</sub>
 
-<a name="deepjazz"></a>
-### #&#8288;105 [deepjazz](https://github.com/jisungk/deepjazz) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (20) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Mar 2026</sub>
-
-**Generates jazz melodies from a MIDI file with a two-layer LSTM.**
-
-deepjazz trains a two-layer LSTM in Keras and Theano on a single MIDI file, then generates new jazz-style music from it. It was written in 36 hours at a hackathon and runs as a Python script on CPU or an NVIDIA GPU. The author states it is no longer actively developed.
-
-- **+** Small codebase: one generator script plus MIDI preprocessing, easy to read end to end
-- **+** Runs on CPU, with an optional Theano GPU mode for NVIDIA cards
-- **+** Code is Apache-2.0 licensed
-- **−** No longer actively developed, per the README
-- **−** Needs bleeding-edge Theano from GitHub, an obsolete backend
-- **−** Other MIDI files require editing preprocess.py to select the melody part
-- **−** Images and media are copyrighted separately from the Apache-2.0 code
-
-<sub>GPU optional · Needs Keras, Theano, music21 · Models: MIDI input, two-layer LSTM · [Repo](https://github.com/jisungk/deepjazz) · [🌐 Site ↗](https://deepjazz.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepjazz/)</sub>
-
 <a name="materials-discovery"></a>
-### #&#8288;106 [materials_discovery](https://github.com/google-deepmind/materials_discovery) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (3) · Freshness: recent (59) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;108 [materials_discovery](https://github.com/google-deepmind/materials_discovery) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (4) · Freshness: recent (59) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Apr 2026</sub>
 
 **GNoME dataset of stable crystals plus JAX model definitions for materials discovery.**
 
@@ -1904,7 +1939,7 @@ Google DeepMind's release of the GNoME materials dataset: over 520,000 inorganic
 <sub>Needs Google Colab, Cloud bucket for structure data · Models: GNoME (message passing GNN), NequIP (JAX) · [Repo](https://github.com/google-deepmind/materials_discovery) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/materials-discovery/)</sub>
 
 <a name="basic-pitch"></a>
-### #&#8288;107 [basic-pitch](https://github.com/spotify/basic-pitch) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: popular (52) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2025</sub>
+### #&#8288;109 [basic-pitch](https://github.com/spotify/basic-pitch) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: popular (53) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2025</sub>
 
 **Python library that transcribes audio to MIDI with pitch bends.**
 
@@ -1921,8 +1956,26 @@ Basic Pitch is a Spotify Audio Intelligence Lab library for automatic music tran
 
 <sub>Docker · Needs librosa, TensorFlow (optional) · Models: TensorFlow, CoreML, TensorFlow Lite, ONNX · [Repo](https://github.com/spotify/basic-pitch) · [▶️ Demo ↗](https://basicpitch.io) · [🌐 Site ↗](https://basicpitch.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/basic-pitch/)</sub>
 
+<a name="star-vector"></a>
+### #&#8288;110 [star-vector](https://github.com/joanrod/star-vector) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: known (45) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2025</sub>
+
+**Vision-language model that converts images and text into SVG code.**
+
+StarVector is a multimodal model built on StarCoder that generates SVG code directly from an image (image2SVG) or a text prompt (text2SVG). The repo has inference code, 1B and 8B checkpoints on Hugging Face, training scripts (DeepSpeed for 1B, FSDP for 8B), the SVG-Stack dataset and the SVG-Bench evaluation suite. A Gradio demo runs on the HF backend or a vLLM fork.
+
+- **+** Outputs SVG code using primitives like ellipses, polygons and text, not only path curves
+- **+** Ships 1B and 8B checkpoints plus SVG-Stack (2.1M train) and SVG-Bench datasets
+- **+** Includes training and evaluation scripts, with HF and vLLM generation backends
+- **+** 8B has the highest listed DinoScore on all five SVG-Bench sets in the README table
+- **−** Not trained on natural images or illustrations; suited to icons, logos, diagrams, charts
+- **−** vLLM backend needs a separate StarVector fork of vLLM
+- **−** Demo needs three processes (controller, web server, worker) started by hand
+- **−** Reference training commands assume 8 GPUs
+
+<sub>GPU required · Docker · Needs PyTorch, Hugging Face Transformers, Gradio, vLLM fork (optional), DeepSpeed and Accelerate (training) · Models: starvector-1b-im2svg, starvector-8b-im2svg, Hugging Face Transformers, vLLM · port 7000 · [Repo](https://github.com/joanrod/star-vector) · [🌐 Site ↗](https://starvector.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/star-vector/)</sub>
+
 <a name="mambavision"></a>
-### #&#8288;108 [mambavision](https://github.com/nvlabs/mambavision) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (14) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Mar 2026</sub>
+### #&#8288;111 [mambavision](https://github.com/nvlabs/mambavision) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (14) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Mar 2026</sub>
 
 **Hybrid Mamba-Transformer vision backbone with pretrained ImageNet checkpoints.**
 
@@ -1940,7 +1993,7 @@ Official PyTorch implementation of MambaVision, a hierarchical vision backbone t
 <sub>GPU required · Docker · Needs PyTorch, timm, transformers · Models: PyTorch .pth.tar checkpoints, Hugging Face transformers · [Repo](https://github.com/nvlabs/mambavision) · [▶️ Demo ↗](https://colab.research.google.com/drive/1WR8LAzRMoK19RiFA-Br0Xxir_Htb3pLf) · [📖 Docs ↗](https://arxiv.org/abs/2407.08083) · [🌐 Site ↗](https://huggingface.co/collections/nvidia/mambavision-66943871a6b36c9e78b327d3) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mambavision/)</sub>
 
 <a name="omdet"></a>
-### #&#8288;109 [omdet](https://github.com/om-ai-lab/omdet) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (5) · Freshness: slowing (41) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;112 [omdet](https://github.com/om-ai-lab/omdet) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (6) · Freshness: slowing (41) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Mar 2026</sub>
 
 **Real-time open-vocabulary object detector driven by text prompts.**
 
@@ -1958,7 +2011,7 @@ Official PyTorch implementation of OmDet-Turbo, a transformer-based open-vocabul
 <sub>Needs PyTorch, CLIP ViT-B-16 checkpoint · Models: OmDet-Turbo-Tiny (Swin-T), ONNX export · port 8000 · [Repo](https://github.com/om-ai-lab/omdet) · [🌐 Site ↗](https://arxiv.org/abs/2403.06892) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omdet/)</sub>
 
 <a name="dreamdojo"></a>
-### #&#8288;110 [dreamdojo](https://github.com/nvidia/dreamdojo) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (1) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;113 [dreamdojo](https://github.com/nvidia/dreamdojo) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (2) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Mar 2026</sub>
 
 **Robot world model trained on 44k hours of human egocentric video.**
 
@@ -1975,26 +2028,8 @@ DreamDojo is NVIDIA's interactive world model for robots, pretrained on 44k hour
 
 <sub>Docker · Needs Hugging Face · Models: DreamDojo 2B, DreamDojo 14B · [Repo](https://github.com/nvidia/dreamdojo) · [📖 Docs ↗](https://github.com/NVIDIA/DreamDojo/blob/main/docs/SETUP.md) · [🌐 Site ↗](https://dreamdojo-world.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dreamdojo/)</sub>
 
-<a name="star-vector"></a>
-### #&#8288;111 [star-vector](https://github.com/joanrod/star-vector) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: known (44) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2025</sub>
-
-**Vision-language model that converts images and text into SVG code.**
-
-StarVector is a multimodal model built on StarCoder that generates SVG code directly from an image (image2SVG) or a text prompt (text2SVG). The repo has inference code, 1B and 8B checkpoints on Hugging Face, training scripts (DeepSpeed for 1B, FSDP for 8B), the SVG-Stack dataset and the SVG-Bench evaluation suite. A Gradio demo runs on the HF backend or a vLLM fork.
-
-- **+** Outputs SVG code using primitives like ellipses, polygons and text, not only path curves
-- **+** Ships 1B and 8B checkpoints plus SVG-Stack (2.1M train) and SVG-Bench datasets
-- **+** Includes training and evaluation scripts, with HF and vLLM generation backends
-- **+** 8B has the highest listed DinoScore on all five SVG-Bench sets in the README table
-- **−** Not trained on natural images or illustrations; suited to icons, logos, diagrams, charts
-- **−** vLLM backend needs a separate StarVector fork of vLLM
-- **−** Demo needs three processes (controller, web server, worker) started by hand
-- **−** Reference training commands assume 8 GPUs
-
-<sub>GPU required · Docker · Needs PyTorch, Hugging Face Transformers, Gradio, vLLM fork (optional), DeepSpeed and Accelerate (training) · Models: starvector-1b-im2svg, starvector-8b-im2svg, Hugging Face Transformers, vLLM · port 7000 · [Repo](https://github.com/joanrod/star-vector) · [🌐 Site ↗](https://starvector.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/star-vector/)</sub>
-
 <a name="objectron"></a>
-### #&#8288;112 [objectron](https://github.com/google-research-datasets/objectron) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (15) · Freshness: quiet (27) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Mar 2026</sub>
+### #&#8288;114 [objectron](https://github.com/google-research-datasets/objectron) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (15) · Freshness: quiet (27) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Mar 2026</sub>
 
 **Dataset of object-centric videos with 3D bounding box and camera pose annotations.**
 
@@ -2012,7 +2047,7 @@ Objectron is a dataset of 15K short object-centric video clips and over 4M annot
 <sub>GPU optional · Needs Google Cloud Storage bucket, TensorFlow, PyTorch, Apache Beam · Models: tf.Example, tf.SequenceExample, protobuf · [Repo](https://github.com/google-research-datasets/objectron) · [🌐 Site ↗](https://www.objectron.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/objectron/)</sub>
 
 <a name="openfold"></a>
-### #&#8288;113 [openfold](https://github.com/aqlaboratory/openfold) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: known (32) · Freshness: quiet (7) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;115 [openfold](https://github.com/aqlaboratory/openfold) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: known (33) · Freshness: quiet (7) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Dec 2025</sub>
 
 **Trainable PyTorch reproduction of DeepMind's AlphaFold 2.**
 
@@ -2030,7 +2065,7 @@ OpenFold reimplements AlphaFold 2 in PyTorch so the model can be run for protein
 <sub>Docker · Models: AlphaFold 2 parameters, AlphaFold-Multimer · [Repo](https://github.com/aqlaboratory/openfold) · [📖 Docs ↗](https://openfold.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openfold/)</sub>
 
 <a name="joycaption"></a>
-### #&#8288;114 [joycaption](https://github.com/fpgaminer/joycaption) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (5) · Freshness: slowing (35) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;116 [joycaption](https://github.com/fpgaminer/joycaption) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (5) · Freshness: slowing (35) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Feb 2026</sub>
 
 **Llama 3.1-based image captioning VLM for building diffusion training datasets.**
 
@@ -2048,7 +2083,7 @@ JoyCaption is an open-weight vision-language model built on Llama 3.1 that write
 <sub>GPU required · Needs PyTorch, Hugging Face Transformers, vLLM (optional) · Models: Llama 3.1 LLaVA-style HF checkpoint (bfloat16), 8-bit and 4-bit quantization · [Repo](https://github.com/fpgaminer/joycaption) · [▶️ Demo ↗](https://huggingface.co/spaces/fancyfeast/joy-caption-beta-one) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/joycaption/)</sub>
 
 <a name="show-o"></a>
-### #&#8288;115 [show-o](https://github.com/showlab/show-o) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (11) · Freshness: quiet (18) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;117 [show-o](https://github.com/showlab/show-o) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (12) · Freshness: quiet (18) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Jan 2026</sub>
 
 **Unified transformer for multimodal understanding and image generation.**
 
@@ -2065,26 +2100,8 @@ Show-o and Show-o2 are research models from NUS Show Lab and ByteDance that use 
 
 <sub>Needs PyTorch, wandb, accelerate, Hugging Face Hub · Models: Show-o 1.3B, Show-o2 1.5B, Show-o2 7B · [Repo](https://github.com/showlab/show-o) · [▶️ Demo ↗](https://huggingface.co/spaces/showlab/Show-o) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/show-o/)</sub>
 
-<a name="yolov13"></a>
-### #&#8288;116 [yolov13](https://github.com/imoonlab/yolov13) <sub>score [3](../README.md#-how-we-rank "Score 3/100. Adoption: niche (8) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · AGPL-3.0 · Nov 2025</sub>
-
-**YOLOv13 real-time object detection models built on the Ultralytics codebase.**
-
-YOLOv13 is a research implementation of a real-time object detector, forked from Ultralytics, with Nano, Small, Large and X-Large variants. It adds hypergraph-based feature correlation (HyperACE), a full-pipeline feature distribution scheme (FullPAD) and depthwise-separable blocks. Training, validation, prediction and export to ONNX or TensorRT go through the Ultralytics YOLO Python API, with pretrained COCO weights on the releases page.
-
-- **+** Reported COCO AP50:95 of 41.6 (N), 48.0 (S), 53.4 (L), 54.8 (X), above YOLOv12 at each size
-- **+** Pretrained weights for four sizes, usable through the familiar Ultralytics YOLO API
-- **+** Exports to ONNX and TensorRT; community ports to Ascend, RKNN and Android are linked
-- **+** Includes a FastAPI REST example and public demos on Hugging Face Spaces and HyperAI
-- **−** Latency in the README table is higher than YOLOv12 at every size, e.g. 14.67 ms vs 12.46 ms for X
-- **−** AGPL-3.0 license restricts closed-source and network-service use
-- **−** Install instructions pin a Flash Attention wheel for Python 3.11, CUDA 11 and Linux
-- **−** Last release was 2025-06-22; the README gives no versioned release notes
-
-<sub>GPU optional · Docker · Needs Ultralytics, PyTorch, Flash Attention, Python 3.11 · Models: YOLOv13 N/S/L/X .pt weights, ONNX export, TensorRT export · [Repo](https://github.com/imoonlab/yolov13) · [▶️ Demo ↗](https://huggingface.co/spaces/atalaydenknalbant/Yolov13) · [📖 Docs ↗](https://arxiv.org/abs/2506.17733) · [🌐 Site ↗](https://github.com/iMoonLab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yolov13/)</sub>
-
 <a name="spacy-models"></a>
-### #&#8288;117 [spacy-models](https://github.com/explosion/spacy-models) <sub>score [2](../README.md#-how-we-rank "Score 2/100. Adoption: niche (11) · Freshness: slowing (31) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.9k · no license · Mar 2026</sub>
+### #&#8288;118 [spacy-models](https://github.com/explosion/spacy-models) <sub>score [3](../README.md#-how-we-rank "Score 3/100. Adoption: niche (11) · Freshness: slowing (31) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.9k · no license · Mar 2026</sub>
 
 **Pretrained spaCy NLP pipelines, published as pip packages in GitHub releases.**
 
@@ -2100,5 +2117,23 @@ Release repository for the pretrained statistical pipelines used by the spaCy NL
 - **−** Statistical models make errors; issues go to the spaCy tracker
 
 <sub>Needs spaCy, Python, pip · Models: spaCy pipelines (.whl, .tar.gz) · [Repo](https://github.com/explosion/spacy-models) · [📖 Docs ↗](https://spacy.io/usage/models) · [🌐 Site ↗](https://spacy.io/models) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spacy-models/)</sub>
+
+<a name="yolov13"></a>
+### #&#8288;119 [yolov13](https://github.com/imoonlab/yolov13) <sub>score [3](../README.md#-how-we-rank "Score 3/100. Adoption: niche (8) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · AGPL-3.0 · Nov 2025</sub>
+
+**YOLOv13 real-time object detection models built on the Ultralytics codebase.**
+
+YOLOv13 is a research implementation of a real-time object detector, forked from Ultralytics, with Nano, Small, Large and X-Large variants. It adds hypergraph-based feature correlation (HyperACE), a full-pipeline feature distribution scheme (FullPAD) and depthwise-separable blocks. Training, validation, prediction and export to ONNX or TensorRT go through the Ultralytics YOLO Python API, with pretrained COCO weights on the releases page.
+
+- **+** Reported COCO AP50:95 of 41.6 (N), 48.0 (S), 53.4 (L), 54.8 (X), above YOLOv12 at each size
+- **+** Pretrained weights for four sizes, usable through the familiar Ultralytics YOLO API
+- **+** Exports to ONNX and TensorRT; community ports to Ascend, RKNN and Android are linked
+- **+** Includes a FastAPI REST example and public demos on Hugging Face Spaces and HyperAI
+- **−** Latency in the README table is higher than YOLOv12 at every size, e.g. 14.67 ms vs 12.46 ms for X
+- **−** AGPL-3.0 license restricts closed-source and network-service use
+- **−** Install instructions pin a Flash Attention wheel for Python 3.11, CUDA 11 and Linux
+- **−** Last release was 2025-06-22; the README gives no versioned release notes
+
+<sub>GPU optional · Docker · Needs Ultralytics, PyTorch, Flash Attention, Python 3.11 · Models: YOLOv13 N/S/L/X .pt weights, ONNX export, TensorRT export · [Repo](https://github.com/imoonlab/yolov13) · [▶️ Demo ↗](https://huggingface.co/spaces/atalaydenknalbant/Yolov13) · [📖 Docs ↗](https://arxiv.org/abs/2506.17733) · [🌐 Site ↗](https://github.com/iMoonLab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yolov13/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
