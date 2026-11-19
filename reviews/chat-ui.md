@@ -41,7 +41,7 @@ Onyx indexes content from 50+ applications along with metadata and permissions, 
 <sub>GPU optional · Docker + Compose · Needs Redis, MinIO, vector and keyword index, Docker or Kubernetes · Models: Ollama, vLLM, LiteLLM, OpenAI, Anthropic · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/auth/signup) · [📖 Docs ↗](https://docs.onyx.app/welcome) · [🌐 Site ↗](https://www.onyx.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/onyx/)</sub>
 
 <a name="lobehub"></a>
-### 🥉 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · custom license · Nov 2026</sub>
+### 🥉 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · custom license · Nov 2026</sub>
 
 **Multi-agent chat workspace connected to team IM apps and 40+ model providers.**
 
@@ -202,26 +202,8 @@ Cherry Studio Mobile is an Expo and React Native app for iOS and Android that co
 
 <sub>no GPU · Needs Node.js 24, pnpm 12.2.1, Expo development client, AI provider account or API key · Models: Multiple AI providers via API, Image generation models, MCP servers · [Repo](https://github.com/cherryhq/cherry-studio-app) · [📖 Docs ↗](https://github.com/CherryHQ/cherry-studio-app/blob/main/docs/README.md) · [🌐 Site ↗](https://cherry-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cherry-studio-app/)</sub>
 
-<a name="odysseus"></a>
-### #&#8288;12 [odysseus](https://github.com/odysseus-dev/odysseus) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 96k · AGPL-3.0 · Nov 2026</sub>
-
-**Self-hosted workspace for chat, agents, email, documents and calendar.**
-
-Odysseus is a self-hosted web workspace that combines chat with local or API models, tool-using agents, deep research, a document editor, an IMAP/SMTP email client and a CalDAV-synced calendar. Agents can use MCP, files, shell, skills and memory. It runs through Docker Compose on port 7011 and prints the first admin password to the container logs.
-
-- **+** Covers chat, agents, email, documents, notes, tasks and calendar in one app
-- **+** Agents support MCP, shell, files, skills and memory
-- **+** Includes blind side-by-side model comparison and a hardware-aware model cookbook
-- **+** Official multi-arch image with immutable version-plus-SHA tags for pinning
-- **−** Agents have shell and local tool access, so auth must stay enabled
-- **−** AGPL-3.0 license limits closed-source network deployments
-- **−** No tagged releases; default dev branch gets the newest changes first
-- **−** README gives no RAM or GPU requirements
-
-<sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose · Models: local models, API models, MCP · port 7011 · [Repo](https://github.com/odysseus-dev/odysseus) · [▶️ Demo ↗](https://odysseus-dev.github.io/odysseus/) · [📖 Docs ↗](https://github.com/odysseus-dev/odysseus/blob/dev/website/setup.md) · [🌐 Site ↗](https://odysseus-dev.github.io/odysseus/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/odysseus/)</sub>
-
 <a name="sillytavern"></a>
-### #&#8288;13 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;12 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Nov 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 
@@ -237,6 +219,24 @@ SillyTavern is a locally installed Node.js 20+ interface for text-generation LLM
 - **−** Installation and Docker instructions live only on the docs site
 
 <sub>no GPU · Docker + Compose · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/sillytavern/sillytavern) · [📖 Docs ↗](https://docs.sillytavern.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sillytavern/)</sub>
+
+<a name="odysseus"></a>
+### #&#8288;13 [odysseus](https://github.com/odysseus-dev/odysseus) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 96k · AGPL-3.0 · Nov 2026</sub>
+
+**Self-hosted workspace for chat, agents, email, documents and calendar.**
+
+Odysseus is a self-hosted web workspace that combines chat with local or API models, tool-using agents, deep research, a document editor, an IMAP/SMTP email client and a CalDAV-synced calendar. Agents can use MCP, files, shell, skills and memory. It runs through Docker Compose on port 7011 and prints the first admin password to the container logs.
+
+- **+** Covers chat, agents, email, documents, notes, tasks and calendar in one app
+- **+** Agents support MCP, shell, files, skills and memory
+- **+** Includes blind side-by-side model comparison and a hardware-aware model cookbook
+- **+** Official multi-arch image with immutable version-plus-SHA tags for pinning
+- **−** Agents have shell and local tool access, so auth must stay enabled
+- **−** AGPL-3.0 license limits closed-source network deployments
+- **−** No tagged releases; default dev branch gets the newest changes first
+- **−** README gives no RAM or GPU requirements
+
+<sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose · Models: local models, API models, MCP · port 7011 · [Repo](https://github.com/odysseus-dev/odysseus) · [▶️ Demo ↗](https://odysseus-dev.github.io/odysseus/) · [📖 Docs ↗](https://github.com/odysseus-dev/odysseus/blob/dev/website/setup.md) · [🌐 Site ↗](https://odysseus-dev.github.io/odysseus/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/odysseus/)</sub>
 
 <a name="page-assist"></a>
 ### #&#8288;14 [page-assist](https://github.com/n4ze3m/page-assist) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Nov 2026</sub>
@@ -488,26 +488,8 @@ GPT Academic is a Python Gradio app that sends text to OpenAI, Azure, Qwen, GLM,
 
 <sub>GPU optional · Docker + Compose · Needs Python 3.9-3.11, Gradio, LaTeX (for LaTeX plugins), Docker (optional) · Models: OpenAI GPT, Azure, Qwen, ChatGLM, GLM4 · [Repo](https://github.com/binary-husky/gpt_academic) · [▶️ Demo ↗](https://huggingface.co/spaces/qingxu98/gpt-academic) · [📖 Docs ↗](https://github.com/binary-husky/gpt_academic/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-academic/)</sub>
 
-<a name="tavernai-v1"></a>
-### #&#8288;28 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (10) · Freshness: recent (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
-
-**Legacy Node.js chat and story frontend for Kobold, OpenAI, Claude.**
-
-TavernAI v1 is a Node.js web frontend for character chat and story writing. It connects to backends such as KoboldAI, KoboldCpp, Horde, Oobabooga, OpenAI, NovelAI, Claude and Ollama. The README marks this repository as legacy and points to TavernAI 2 as the current version.
-
-- **+** Supports Kobold, Oobabooga, OpenAI, NovelAI, Claude and Ollama backends
-- **+** Group chat, world info, story mode and message swiping
-- **+** Starts with Start.bat, start-linux.sh, or npm install and node server.js
-- **+** Picture recognition with GPT and Claude models
-- **−** README labels this a legacy repository; TavernAI 2 is the successor
-- **−** Last release was 2024-03-05
-- **−** No user accounts or multi-user support mentioned
-- **−** Install links point to Node.js 20 and 21 builds
-
-<sub>no GPU · Docker + Compose · Needs Node.js, A model backend (KoboldAI, Oobabooga, OpenAI, NovelAI, Claude or Ollama) · Models: KoboldAI, KoboldCpp, Horde, Oobabooga Text Generation Web UI, OpenAI · [Repo](https://github.com/tavernai/tavernai-v1) · [📖 Docs ↗](https://github.com/TavernAI/TavernAI/wiki/How-to-install) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tavernai-v1/)</sub>
-
 <a name="chatgpt-ui"></a>
-### #&#8288;29 [ChatGPT UI](https://github.com/wongsaang/chatgpt-ui) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (5) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Oct 2026</sub>
+### #&#8288;28 [ChatGPT UI](https://github.com/wongsaang/chatgpt-ui) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (5) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Oct 2026</sub>
 
 **Multi-user ChatGPT web client with multilingual UI and selectable database backends.**
 
@@ -525,7 +507,7 @@ A Vue front-end for ChatGPT-style chat that supports multiple users, multiple in
 <sub>Docker + Compose · Needs chatgpt-ui-server · [Repo](https://github.com/wongsaang/chatgpt-ui) · [📖 Docs ↗](https://wongsaang.github.io/chatgpt-ui/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgpt-ui/)</sub>
 
 <a name="chatany"></a>
-### #&#8288;30 [chatany](https://github.com/chatanyteam/chatany) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (42) · Freshness: slowing (34) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
+### #&#8288;29 [chatany](https://github.com/chatanyteam/chatany) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (42) · Freshness: slowing (34) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
 
 **ChatGPT-Next-Web fork adding Midjourney and Stability AI image generation.**
 
@@ -543,7 +525,7 @@ ChatAny is a web chat client forked from ChatGPT-Next-Web that adds an image gen
 <sub>no GPU · Docker + Compose · Needs midjourney-proxy (for Midjourney), OpenAI-compatible API · Models: OpenAI API, Midjourney (via proxy), Stable Image Ultra, Stable Image Core, Stable Diffusion 3 · port 3000 · [Repo](https://github.com/chatanyteam/chatany) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatany/)</sub>
 
 <a name="aidea"></a>
-### #&#8288;31 [aidea](https://github.com/mylxsw/aidea) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (45) · Freshness: quiet (27) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
+### #&#8288;30 [aidea](https://github.com/mylxsw/aidea) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (45) · Freshness: quiet (27) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
 
 **Flutter client for chatting with LLMs and generating images.**
 
@@ -558,5 +540,23 @@ AIdea is a Flutter app for mobile, macOS and Windows that gives one interface to
 - **−** README says Flutter builds often fail as versions change
 
 <sub>Docker · Needs aidea-server (Go backend) · [Repo](https://github.com/mylxsw/aidea) · [📖 Docs ↗](https://github.com/mylxsw/aidea-server/blob/main/docs/deploy.md) · [🌐 Site ↗](https://aidea.aicode.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aidea/)</sub>
+
+<a name="tavernai-v1"></a>
+### #&#8288;31 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (10) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
+
+**Legacy Node.js chat and story frontend for Kobold, OpenAI, Claude.**
+
+TavernAI v1 is a Node.js web frontend for character chat and story writing. It connects to backends such as KoboldAI, KoboldCpp, Horde, Oobabooga, OpenAI, NovelAI, Claude and Ollama. The README marks this repository as legacy and points to TavernAI 2 as the current version.
+
+- **+** Supports Kobold, Oobabooga, OpenAI, NovelAI, Claude and Ollama backends
+- **+** Group chat, world info, story mode and message swiping
+- **+** Starts with Start.bat, start-linux.sh, or npm install and node server.js
+- **+** Picture recognition with GPT and Claude models
+- **−** README labels this a legacy repository; TavernAI 2 is the successor
+- **−** Last release was 2024-03-05
+- **−** No user accounts or multi-user support mentioned
+- **−** Install links point to Node.js 20 and 21 builds
+
+<sub>no GPU · Docker + Compose · Needs Node.js, A model backend (KoboldAI, Oobabooga, OpenAI, NovelAI, Claude or Ollama) · Models: KoboldAI, KoboldCpp, Horde, Oobabooga Text Generation Web UI, OpenAI · [Repo](https://github.com/tavernai/tavernai-v1) · [📖 Docs ↗](https://github.com/TavernAI/TavernAI/wiki/How-to-install) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tavernai-v1/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
