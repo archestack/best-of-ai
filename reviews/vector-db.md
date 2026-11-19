@@ -22,8 +22,25 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 
 <sub>GPU optional · Compose · Compose runs Milvus, MinIO · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [▶️ Demo ↗](https://milvus.io/milvus-demos) · [📖 Docs ↗](https://milvus.io/docs) · [🌐 Site ↗](https://milvus.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/milvus/)</sub>
 
+<a name="meilisearch"></a>
+### 🥈 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Nov 2026</sub>
+
+**Rust search engine with typo tolerance, filtering and hybrid semantic search.**
+
+Meilisearch is a search engine with a RESTful API for full-text, semantic and hybrid search, including typo tolerance, facets, sorting, synonyms and geosearch. It runs as a single binary or Docker image on port 7700, and ships an experimental MCP server at /mcp plus a LangChain vector store integration. The Community Edition is MIT licensed; sharding is in the Enterprise Edition.
+
+- **+** Single binary or Docker image; quick start is one command on port 7700
+- **+** Typo tolerance, facets, filters, sorting, synonyms and geosearch built in
+- **+** Hybrid full-text plus semantic search through one REST API
+- **+** SDKs for JavaScript, Python, PHP, Ruby, Go and Rust, plus a React integration
+- **−** Sharding and other advanced features need the Enterprise Edition and a commercial agreement
+- **−** README recommends Meilisearch Cloud over self-hosting
+- **−** MCP server at /mcp is marked experimental
+
+<sub>no GPU · Docker · Models: embedding models for semantic search (providers unknown) · port 7700 · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meilisearch/)</sub>
+
 <a name="qdrant"></a>
-### 🥈 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Nov 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -39,23 +56,6 @@ Qdrant is a Rust vector database exposing REST (OpenAPI 3.0) and gRPC on port 63
 - **−** Sharding and tenant isolation require upfront design
 
 <sub>GPU optional · Docker · Models: any embedding model; dense, sparse and late-interaction (ColBERT) vectors · port 6333 · [Repo](https://github.com/qdrant/qdrant) · [▶️ Demo ↗](https://qdrant.to/semantic-search-demo) · [📖 Docs ↗](https://qdrant.tech/documentation/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qdrant/)</sub>
-
-<a name="meilisearch"></a>
-### 🥉 [Meilisearch](https://github.com/meilisearch/meilisearch) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 60k · custom license · Nov 2026</sub>
-
-**Rust search engine with typo tolerance, filtering and hybrid semantic search.**
-
-Meilisearch is a search engine with a RESTful API for full-text, semantic and hybrid search, including typo tolerance, facets, sorting, synonyms and geosearch. It runs as a single binary or Docker image on port 7700, and ships an experimental MCP server at /mcp plus a LangChain vector store integration. The Community Edition is MIT licensed; sharding is in the Enterprise Edition.
-
-- **+** Single binary or Docker image; quick start is one command on port 7700
-- **+** Typo tolerance, facets, filters, sorting, synonyms and geosearch built in
-- **+** Hybrid full-text plus semantic search through one REST API
-- **+** SDKs for JavaScript, Python, PHP, Ruby, Go and Rust, plus a React integration
-- **−** Sharding and other advanced features need the Enterprise Edition and a commercial agreement
-- **−** README recommends Meilisearch Cloud over self-hosting
-- **−** MCP server at /mcp is marked experimental
-
-<sub>no GPU · Docker · Models: embedding models for semantic search (providers unknown) · port 7700 · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meilisearch/)</sub>
 
 <a name="faiss"></a>
 ### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Nov 2026</sub>
@@ -94,7 +94,7 @@ LEANN is a Python vector database that stores a pruned graph and recomputes embe
 <sub>GPU optional · Docker · Needs uv, Ollama or OpenAI-compatible API (optional, for generation) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [▶️ Demo ↗](https://colab.research.google.com/github/yichuan-w/LEANN/blob/main/demo.ipynb) · [📖 Docs ↗](https://github.com/yichuan-w/LEANN/blob/main/docs/configuration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
 
 <a name="lancedb"></a>
-### #&#8288;6 [lancedb](https://github.com/lancedb/lancedb) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;6 [lancedb](https://github.com/lancedb/lancedb) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Embedded vector database built on the Lance columnar format.**
 
@@ -110,26 +110,8 @@ LanceDB is a vector database written in Rust on top of the Lance columnar format
 
 <sub>GPU optional · Docker + Compose · [Repo](https://github.com/lancedb/lancedb) · [📖 Docs ↗](https://docs.lancedb.com) · [🌐 Site ↗](https://lancedb.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lancedb/)</sub>
 
-<a name="helix-db"></a>
-### #&#8288;7 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
-
-**Graph database with built-in vector and BM25 search, written in Rust.**
-
-HelixDB is a transactional labeled-property graph database that also does approximate nearest-neighbor vector search, prefiltered by graph traversal, and BM25 full-text search over node and edge properties. Queries are written with Rust, TypeScript, Python or Go SDKs and sent as JSON to POST /v2/query on port 6969. It runs locally via the helix CLI, embedded in-process, or on the managed Helix Cloud.
-
-- **+** Graph, vector and BM25 queries in one transactional engine
-- **+** SDKs for Rust, TypeScript, Python and Go emit the same JSON request
-- **+** No build or deploy step for queries; embedded mode runs in-process
-- **+** Apache-2.0 licensed; durable storage on object storage
-- **−** Local dev needs Docker or Podman; data is in memory unless started with --disk
-- **−** Cypher support is only in source builds
-- **−** Python SDK is at 0.3.4 and Go at v0.3.1, so pre-1.0
-- **−** HA, auto-scaling readers are in the managed Helix Cloud, not the local server
-
-<sub>no GPU · Docker · Needs Docker or Podman (local server) · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helix-db/)</sub>
-
 <a name="weaviate"></a>
-### #&#8288;8 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Nov 2026</sub>
+### #&#8288;7 [Weaviate](https://github.com/weaviate/weaviate) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · custom license · Nov 2026</sub>
 
 **Go vector database with built-in vectorizers, hybrid search and RAG.**
 
@@ -145,6 +127,24 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 - **−** Both REST 8080 and gRPC 50051 must be exposed
 
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weaviate/)</sub>
+
+<a name="helix-db"></a>
+### #&#8288;8 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
+
+**Graph database with built-in vector and BM25 search, written in Rust.**
+
+HelixDB is a transactional labeled-property graph database that also does approximate nearest-neighbor vector search, prefiltered by graph traversal, and BM25 full-text search over node and edge properties. Queries are written with Rust, TypeScript, Python or Go SDKs and sent as JSON to POST /v2/query on port 6969. It runs locally via the helix CLI, embedded in-process, or on the managed Helix Cloud.
+
+- **+** Graph, vector and BM25 queries in one transactional engine
+- **+** SDKs for Rust, TypeScript, Python and Go emit the same JSON request
+- **+** No build or deploy step for queries; embedded mode runs in-process
+- **+** Apache-2.0 licensed; durable storage on object storage
+- **−** Local dev needs Docker or Podman; data is in memory unless started with --disk
+- **−** Cypher support is only in source builds
+- **−** Python SDK is at 0.3.4 and Go at v0.3.1, so pre-1.0
+- **−** HA, auto-scaling readers are in the managed Helix Cloud, not the local server
+
+<sub>no GPU · Docker · Needs Docker or Podman (local server) · port 6969 · [Repo](https://github.com/helixdb/helix-db) · [📖 Docs ↗](https://docs.helix-db.com) · [🌐 Site ↗](https://helix-db.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helix-db/)</sub>
 
 <a name="zvec"></a>
 ### #&#8288;9 [zvec](https://github.com/alibaba/zvec) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
@@ -165,7 +165,7 @@ Zvec is a C++ vector database that embeds in the application process instead of 
 <sub>no GPU · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
 
 <a name="lance"></a>
-### #&#8288;10 [lance](https://github.com/lance-format/lance) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [lance](https://github.com/lance-format/lance) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
 
 **Columnar table format for multimodal AI data with vector and full-text search.**
 
@@ -201,7 +201,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
 
 <a name="pgvector"></a>
-### #&#8288;12 [pgvector](https://github.com/pgvector/pgvector) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Nov 2026</sub>
+### #&#8288;12 [pgvector](https://github.com/pgvector/pgvector) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Nov 2026</sub>
 
 **Postgres extension for exact and approximate vector similarity search.**
 
@@ -345,7 +345,7 @@ Attu is a management console for Milvus vector databases. One instance connects 
 <sub>no GPU · Needs Milvus 2.6.0+ or 3.x, or Zilliz Cloud, SQLite (bundled), Node.js 24.x (standalone server package) · Models: OpenAI, Anthropic Claude, DeepSeek, Google Gemini, OpenRouter · port 3000 · [Repo](https://github.com/zilliztech/attu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/attu/)</sub>
 
 <a name="sptag"></a>
-### #&#8288;20 [sptag](https://github.com/microsoft/sptag) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (36) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
+### #&#8288;20 [sptag](https://github.com/microsoft/sptag) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (34) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
 
 **C++ library for approximate nearest neighbor search over large vector sets.**
 
@@ -380,26 +380,8 @@ pgvectorscale is a Rust extension (built with PGRX) that adds a StreamingDiskANN
 
 <sub>no GPU · Needs PostgreSQL, pgvector, Rust toolchain (source build) · [Repo](https://github.com/timescale/pgvectorscale) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvectorscale/)</sub>
 
-<a name="deeplake"></a>
-### #&#8288;22 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (60) · Freshness: recent (68) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
-
-**Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
-
-Deep Lake is a Python-installed database that stores embeddings alongside raw data such as images, video, audio, text and PDFs in a chunked columnar format. It serves as a vector store for LLM apps (LangChain, LlamaIndex) and as a streaming dataset layer for PyTorch and TensorFlow training. Computation runs client-side, and data can live on S3, GCP, Azure, S3-compatible storage like MinIO, or local disk.
-
-- **+** Stores raw media and embeddings together, not just vectors with light metadata
-- **+** Built-in dataset version control and PyTorch/TensorFlow dataloaders
-- **+** Serverless and client-side; works with S3, GCP, Azure, MinIO, local or in-memory storage
-- **+** Integrates with LangChain, LlamaIndex, Weights & Biases and MMDetection
-- **−** README says full features require registering in the hosted Deep Lake App
-- **−** Visualizer and public dataset hub are tied to Activeloop's cloud service
-- **−** No server mode; README gives no benchmarks for large-scale vector search
-- **−** README links mix old and new docs sites, and comparisons look dated
-
-<sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
-
 <a name="vectordbbench"></a>
-### #&#8288;23 [vectordbbench](https://github.com/zilliztech/vectordbbench) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (1) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+### #&#8288;22 [vectordbbench](https://github.com/zilliztech/vectordbbench) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
 
 **Benchmark tool for comparing vector databases on insert, search and full-text workloads.**
 
@@ -415,6 +397,24 @@ VectorDBBench (VDBBench) runs repeatable insertion, vector search, filtered sear
 - **−** Each backend needs its own optional client install and per-database CLI options
 
 <sub>no GPU · Docker · Needs Python >= 3.11, Target vector database to benchmark · [Repo](https://github.com/zilliztech/vectordbbench) · [🌐 Site ↗](https://zilliz.com/vdbbench-leaderboard) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vectordbbench/)</sub>
+
+<a name="deeplake"></a>
+### #&#8288;23 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (60) · Freshness: recent (68) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+
+**Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
+
+Deep Lake is a Python-installed database that stores embeddings alongside raw data such as images, video, audio, text and PDFs in a chunked columnar format. It serves as a vector store for LLM apps (LangChain, LlamaIndex) and as a streaming dataset layer for PyTorch and TensorFlow training. Computation runs client-side, and data can live on S3, GCP, Azure, S3-compatible storage like MinIO, or local disk.
+
+- **+** Stores raw media and embeddings together, not just vectors with light metadata
+- **+** Built-in dataset version control and PyTorch/TensorFlow dataloaders
+- **+** Serverless and client-side; works with S3, GCP, Azure, MinIO, local or in-memory storage
+- **+** Integrates with LangChain, LlamaIndex, Weights & Biases and MMDetection
+- **−** README says full features require registering in the hosted Deep Lake App
+- **−** Visualizer and public dataset hub are tied to Activeloop's cloud service
+- **−** No server mode; README gives no benchmarks for large-scale vector search
+- **−** README links mix old and new docs sites, and comparisons look dated
+
+<sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
 
 <a name="sqlite-vec"></a>
 ### #&#8288;24 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (57) · Freshness: recent (71) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · May 2026</sub>
