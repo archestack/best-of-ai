@@ -41,7 +41,7 @@ MCP server that lets an agent search Apify Store, read an Actor's input schema a
 <sub>no GPU · Docker · Needs Apify account and API token or OAuth, Apify platform (Actors), Node.js 22+ for local stdio · [Repo](https://github.com/apify/apify-mcp-server) · [📖 Docs ↗](https://docs.apify.com/mcp) · [🌐 Site ↗](https://mcp.apify.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/apify-mcp-server/)</sub>
 
 <a name="ha-mcp"></a>
-### 🥉 [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Nov 2026</sub>
+### 🥉 [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI assistants configure and control Home Assistant.**
 
@@ -184,8 +184,26 @@ Wraps 42 Korean Ministry of Government Legislation (법제처) Open APIs into 10
 
 <sub>no GPU · Docker · Needs 법제처 Open API (OC key), Node.js 20.19+, taxlaw.nts.go.kr · [Repo](https://github.com/chrisryugj/korean-law-mcp) · [📖 Docs ↗](https://github.com/chrisryugj/korean-law-mcp/blob/main/docs/API.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/korean-law-mcp/)</sub>
 
+<a name="mcp"></a>
+### #&#8288;11 [mcp](https://github.com/microsoft/mcp) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Nov 2026</sub>
+
+**Monorepo for Microsoft's Azure and Fabric MCP servers, written in C#.**
+
+Holds the shared libraries, test frameworks and build pipelines for Microsoft's MCP servers, mainly the Azure MCP Server and the Microsoft Fabric MCP Server. The Azure server exposes Azure service tools to AI agents and installs through extensions for VS Code, Visual Studio, IntelliJ, Eclipse and Claude Code. The README also indexes other Microsoft MCP servers (Foundry, ARM, Azure DevOps, AKS, GitHub, Markitdown) that live in separate repositories or are hosted remotely.
+
+- **+** Azure MCP Server bundles all Azure tools into one local server
+- **+** Install paths for VS Code, Visual Studio, IntelliJ, Eclipse and Claude Code
+- **+** Shared libraries and test tooling reduce duplication across Microsoft MCP servers
+- **+** Per-server changelogs, troubleshooting guides and releases, plus Microsoft Learn docs
+- **−** Tools target Azure and Fabric, so they are of little use outside Microsoft's cloud
+- **−** Many listed servers live in other repos or are remote-only hosted endpoints
+- **−** README is largely an index; setup detail sits in per-server READMEs
+- **−** Needs Azure credentials and subscriptions to do anything useful
+
+<sub>no GPU · Docker · Needs Azure subscription, Microsoft Fabric · [Repo](https://github.com/microsoft/mcp) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/azure-mcp-server/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp/)</sub>
+
 <a name="supergateway"></a>
-### #&#8288;11 [supergateway](https://github.com/supercorp-ai/supergateway) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+### #&#8288;12 [supergateway](https://github.com/supercorp-ai/supergateway) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
 
 **Bridges MCP servers between stdio, SSE, WebSocket and Streamable HTTP.**
 
@@ -203,7 +221,7 @@ Supergateway is a TypeScript CLI that wraps an MCP server and exposes it over a 
 <sub>no GPU · Docker · Needs Node.js (or standalone executable) · port 8000 · [Repo](https://github.com/supercorp-ai/supergateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/supergateway/)</sub>
 
 <a name="letsfg"></a>
-### #&#8288;12 [letsfg](https://github.com/letsfg/letsfg) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
+### #&#8288;13 [letsfg](https://github.com/letsfg/letsfg) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
 
 **Flight and hotel search and booking for AI agents via MCP, CLI and API.**
 
@@ -219,24 +237,6 @@ LetsFG is a hosted flight and hotel search and booking service that agents reach
 - **−** Price-saving claims come from the vendor's own five-route comparison on one day
 
 <sub>no GPU · Docker + Compose · Needs letsfg.co hosted API, Revolut payment setup for booking · [Repo](https://github.com/letsfg/letsfg) · [▶️ Demo ↗](https://letsfg.co) · [📖 Docs ↗](https://letsfg.co/developers/api/docs) · [🌐 Site ↗](https://letsfg.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letsfg/)</sub>
-
-<a name="mcp"></a>
-### #&#8288;13 [mcp](https://github.com/microsoft/mcp) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Nov 2026</sub>
-
-**Monorepo for Microsoft's Azure and Fabric MCP servers, written in C#.**
-
-Holds the shared libraries, test frameworks and build pipelines for Microsoft's MCP servers, mainly the Azure MCP Server and the Microsoft Fabric MCP Server. The Azure server exposes Azure service tools to AI agents and installs through extensions for VS Code, Visual Studio, IntelliJ, Eclipse and Claude Code. The README also indexes other Microsoft MCP servers (Foundry, ARM, Azure DevOps, AKS, GitHub, Markitdown) that live in separate repositories or are hosted remotely.
-
-- **+** Azure MCP Server bundles all Azure tools into one local server
-- **+** Install paths for VS Code, Visual Studio, IntelliJ, Eclipse and Claude Code
-- **+** Shared libraries and test tooling reduce duplication across Microsoft MCP servers
-- **+** Per-server changelogs, troubleshooting guides and releases, plus Microsoft Learn docs
-- **−** Tools target Azure and Fabric, so they are of little use outside Microsoft's cloud
-- **−** Many listed servers live in other repos or are remote-only hosted endpoints
-- **−** README is largely an index; setup detail sits in per-server READMEs
-- **−** Needs Azure credentials and subscriptions to do anything useful
-
-<sub>no GPU · Docker · Needs Azure subscription, Microsoft Fabric · [Repo](https://github.com/microsoft/mcp) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/azure-mcp-server/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp/)</sub>
 
 <a name="toolhive"></a>
 ### #&#8288;14 [toolhive](https://github.com/stacklok/toolhive) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Nov 2026</sub>
@@ -311,7 +311,7 @@ Eight Markdown skills for Claude (seo-audit, keyword-research, rank-tracking, co
 <sub>no GPU · Needs Ryze MCP connector (connector.get-ryze.ai/mcp), Google Search Console, Google Analytics 4, Google Ads, DataForSEO (via Ryze), Claude Code or other MCP client · Models: Claude · [Repo](https://github.com/ryze-ai-adgent/open-seo-mcp-skills) · [📖 Docs ↗](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-seo-mcp-skills/)</sub>
 
 <a name="tradingview-mcp"></a>
-### #&#8288;18 [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
+### #&#8288;18 [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
 
 **MCP server for market data, technical analysis and backtesting across stocks and crypto.**
 
