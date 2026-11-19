@@ -57,7 +57,7 @@ Node.js app that runs a YouTube channel pipeline on your own machine: topic rese
 <sub>no GPU · Needs Node.js 18.17+, YouTube Data API v3 credentials, Playwright Chromium, ffmpeg-static, text provider API key · Models: Gemini, OpenAI, OpenRouter, Kimi, MiMo · port 3456 · [Repo](https://github.com/darkzogx/youtube-automation-agent) · [📖 Docs ↗](https://github.com/darkzOGx/youtube-automation-agent/blob/main/docs/features.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/youtube-automation-agent/)</sub>
 
 <a name="openoutreach"></a>
-### #&#8288;4 [openoutreach](https://github.com/eracle/openoutreach) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;4 [openoutreach](https://github.com/eracle/openoutreach) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Nov 2026</sub>
 
 **CLI that finds B2B leads from a product description and emails them.**
 

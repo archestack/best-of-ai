@@ -5,7 +5,7 @@ Generation UIs and pipelines for images and video, usually around diffusion mode
 <sub>🌐 Also on the web: [Image and video on archestack.com](https://archestack.com/best-of-ai/image-video/), each project on its own page.</sub>
 
 <a name="frigate"></a>
-### 🥇 [frigate](https://github.com/blakeblackshear/frigate) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · MIT · Nov 2026</sub>
+### 🥇 [frigate](https://github.com/blakeblackshear/frigate) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · MIT · Nov 2026</sub>
 
 **Local NVR with realtime object detection for IP cameras.**
 
@@ -112,7 +112,7 @@ ComfyUI is a node-graph interface and execution engine for diffusion and other g
 <sub>RAM ≥ 8 GB · GPU optional · Needs PyTorch, Python 3.13 recommended · Models: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1, Flux.2 · [Repo](https://github.com/comfy-org/comfyui) · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://www.comfy.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui/)</sub>
 
 <a name="banana-slides"></a>
-### #&#8288;7 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (80) · Freshness: active (91) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;7 [banana-slides](https://github.com/anionex/banana-slides) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (80) · Freshness: active (91) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · AGPL-3.0 · Nov 2026</sub>
 
 **AI slide deck generator that exports PPTX, PDF and narrated video.**
 
@@ -130,7 +130,7 @@ Banana Slides generates presentations from a topic, outline, page descriptions o
 <sub>no GPU · Docker + Compose · Needs Gemini/OpenAI/Volcengine/Vertex or LazyLLM API key, FFmpeg with libass (video export), LibreOffice (optional, PPTX upload), Baidu API key (optional, editable export) · Models: Gemini (Nano Banana Pro), OpenAI-compatible (gpt-image-2), Volcengine Doubao/Seedream, Vertex AI, LazyLLM vendors (Qwen, DeepSeek, GLM, Kimi, MiniMax, SiliconFlow) · port 3011 · [Repo](https://github.com/anionex/banana-slides) · [▶️ Demo ↗](https://bananaslides.online/) · [📖 Docs ↗](https://docs.bananaslides.online/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/banana-slides/)</sub>
 
 <a name="arcreel"></a>
-### #&#8288;8 [arcreel](https://github.com/arcreel/arcreel) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;8 [arcreel](https://github.com/arcreel/arcreel) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · AGPL-3.0 · Nov 2026</sub>
 
 **Self-hosted workbench that turns novels or scripts into short videos.**
 
@@ -148,7 +148,7 @@ ArcReel runs a pipeline from novel, finished script or product material through 
 <sub>no GPU · Docker + Compose · Needs Docker, Docker Compose, text/image/video/TTS provider APIs, SQLite or PostgreSQL · Models: text LLM providers, image generation providers, video generation providers, TTS providers · port 1241 · [Repo](https://github.com/arcreel/arcreel) · [📖 Docs ↗](https://docs.arc-reel.com/guide/getting-started) · [🌐 Site ↗](https://docs.arc-reel.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/arcreel/)</sub>
 
 <a name="stable-diffusion-cpp"></a>
-### #&#8288;9 [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
+### #&#8288;9 [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
 
 **C/C++ inference for Stable Diffusion, Flux, Qwen-Image and Wan video models.**
 
@@ -165,44 +165,8 @@ Runs diffusion models for image and video generation in plain C/C++ on top of gg
 
 <sub>GPU optional · Docker · Models: SD1.x, SD2.x, SDXL, SD3/SD3.5, FLUX.1 · [Repo](https://github.com/leejet/stable-diffusion.cpp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stable-diffusion-cpp/)</sub>
 
-<a name="infinite-canvas"></a>
-### #&#8288;10 [infinite-canvas](https://github.com/basketikun/infinite-canvas) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
-
-**Browser-based infinite canvas for AI image and video generation.**
-
-A React and Vite web workbench where images, prompts and chat nodes are laid out on a pannable canvas and wired together. The browser calls your own OpenAI-compatible Base URL and API Key for text-to-image, image editing, text, audio and video. Canvases, assets and keys are stored in the browser; an optional local Canvas Agent lets Codex or Claude Code edit the canvas over MCP.
-
-- **+** Browser calls the API directly; keys, canvases and assets stay in local browser storage
-- **+** Custom scripts adapt image and video calls to non-standard OpenAI-compatible relays
-- **+** Remote node plugins installable by URL, with a TypeScript SDK
-- **+** Local Canvas Agent exposes the canvas to Codex or Claude Code through MCP
-- **−** Generates nothing itself; needs an external OpenAI-compatible image or video API
-- **−** README warns of development stage; local storage formats may change without compatibility
-- **−** Data lives in the browser, so no server-side sync or multi-user accounts are described
-- **−** Docs and README are mostly in Chinese; README is heavy with sponsor ads
-
-<sub>no GPU · Docker + Compose · Needs OpenAI-compatible API endpoint and key · Models: OpenAI-compatible image, text, audio and video APIs · port 3000 · [Repo](https://github.com/basketikun/infinite-canvas) · [📖 Docs ↗](https://github.com/basketikun/infinite-canvas/blob/main/docs/content/docs/overview/quick-start.mdx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinite-canvas/)</sub>
-
-<a name="remove-ai-watermarks"></a>
-### #&#8288;11 [remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
-
-**CLI that strips visible AI marks, metadata and invisible watermarks from images and video.**
-
-Python CLI and library that finds and removes AI provenance marks from your own images, video and text. It covers visible labels (Gemini sparkle, Veo, Sora, Doubao, Kling and others), C2PA/EXIF/XMP metadata, and invisible pixel watermarks via diffusion regeneration. Visible and metadata paths run without a GPU; invisible image removal needs CUDA.
-
-- **+** Visible and metadata removal run on CPU with OpenCV, MI-GAN or LaMa fill backends
-- **+** Handles images, video (MP4, MOV, WebM, MKV) and text provenance from one CLI
-- **+** Video path scans all frames for a stable mark and copies audio without re-encoding
-- **+** Installable by feature extras, so metadata-only use pulls no torch
-- **−** Invisible image removal is CUDA-only, with no CPU or MPS fallback
-- **−** No local SynthID pixel detector; detection relies on signed provenance
-- **−** qwen21-zimage profile is restricted to non-commercial use by the Qwen Research License
-- **−** Some jurisdictions, including China, restrict removing AI labels; legal risk falls on the user
-
-<sub>GPU optional · Needs ffmpeg, NVIDIA CUDA (invisible removal), PyTorch (diffusion extras) · Models: Qwen-Image-2512 Lightning, SDXL, Chroma1, Z-Image, MI-GAN · [Repo](https://github.com/wiltodelta/remove-ai-watermarks) · [📖 Docs ↗](https://github.com/wiltodelta/remove-ai-watermarks/blob/main/docs/cli.md) · [🌐 Site ↗](https://raiw.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/remove-ai-watermarks/)</sub>
-
 <a name="openmotion"></a>
-### #&#8288;12 [openmotion](https://github.com/nexu-io/openmotion) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [openmotion](https://github.com/nexu-io/openmotion) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
 
 **Agent-driven studio that recreates reference videos as editable HTML projects.**
 
@@ -219,8 +183,61 @@ OpenMotion is a local video studio where a coding agent breaks down a reference 
 
 <sub>Docker + Compose · Needs Node.js 26.11.1, npm, Git, a local coding agent (Claude Code, Codex, etc.), provider API keys · Models: GPT Image 2.6, Seedance 2.5, Suno, Eleven v4 · [Repo](https://github.com/nexu-io/openmotion) · [📖 Docs ↗](https://github.com/nexu-io/openmotion/blob/main/install.md) · [🌐 Site ↗](https://open-design.ai/motion/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmotion/)</sub>
 
+<a name="infinite-canvas"></a>
+### #&#8288;11 [infinite-canvas](https://github.com/basketikun/infinite-canvas) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
+
+**Browser-based infinite canvas for AI image and video generation.**
+
+A React and Vite web workbench where images, prompts and chat nodes are laid out on a pannable canvas and wired together. The browser calls your own OpenAI-compatible Base URL and API Key for text-to-image, image editing, text, audio and video. Canvases, assets and keys are stored in the browser; an optional local Canvas Agent lets Codex or Claude Code edit the canvas over MCP.
+
+- **+** Browser calls the API directly; keys, canvases and assets stay in local browser storage
+- **+** Custom scripts adapt image and video calls to non-standard OpenAI-compatible relays
+- **+** Remote node plugins installable by URL, with a TypeScript SDK
+- **+** Local Canvas Agent exposes the canvas to Codex or Claude Code through MCP
+- **−** Generates nothing itself; needs an external OpenAI-compatible image or video API
+- **−** README warns of development stage; local storage formats may change without compatibility
+- **−** Data lives in the browser, so no server-side sync or multi-user accounts are described
+- **−** Docs and README are mostly in Chinese; README is heavy with sponsor ads
+
+<sub>no GPU · Docker + Compose · Needs OpenAI-compatible API endpoint and key · Models: OpenAI-compatible image, text, audio and video APIs · port 3000 · [Repo](https://github.com/basketikun/infinite-canvas) · [📖 Docs ↗](https://github.com/basketikun/infinite-canvas/blob/main/docs/content/docs/overview/quick-start.mdx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinite-canvas/)</sub>
+
+<a name="civitai"></a>
+### #&#8288;12 [civitai](https://github.com/civitai/civitai) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
+
+**Source of the Civitai site for sharing Stable Diffusion models.**
+
+Next.js, tRPC and Prisma/Postgres application behind civitai.com, where users upload and browse Stable Diffusion models (textual inversions, hypernetworks, VAEs and similar), and comment on them. The repo is a web platform for hosting and discussing models, not a generation tool. Local development runs Postgres, Redis, MinIO, Meilisearch, ClickHouse and a mail catcher via Docker Compose.
+
+- **+** Full production site source under Apache-2.0, including Prisma schema and migrations
+- **+** Compose file starts all local dependencies; seed script populates an empty database
+- **+** Nix flake option bootstraps the toolchain and dev server in one command
+- **−** Generation, training, chat, notifications and Buzz do not work locally
+- **−** Signals and buzz containers come from private ghcr.io images, internal members only
+- **−** Requires exact Node 24 and pnpm; wrong Node version only warns, then fails oddly
+- **−** Manual setup: MinIO access keys and env edits, plus slow destructive migrate and reseed steps
+
+<sub>no GPU · Docker + Compose · Needs Docker Compose v2, Node.js 24, pnpm, PostgreSQL, Redis, MinIO, Meilisearch, ClickHouse, Mailpit · Models: Stable Diffusion checkpoints, textual inversions, hypernetworks, VAEs · port 3000 · [Repo](https://github.com/civitai/civitai) · [▶️ Demo ↗](https://civitai.com/) · [🌐 Site ↗](https://civitai.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/civitai/)</sub>
+
+<a name="remove-ai-watermarks"></a>
+### #&#8288;13 [remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
+
+**CLI that strips visible AI marks, metadata and invisible watermarks from images and video.**
+
+Python CLI and library that finds and removes AI provenance marks from your own images, video and text. It covers visible labels (Gemini sparkle, Veo, Sora, Doubao, Kling and others), C2PA/EXIF/XMP metadata, and invisible pixel watermarks via diffusion regeneration. Visible and metadata paths run without a GPU; invisible image removal needs CUDA.
+
+- **+** Visible and metadata removal run on CPU with OpenCV, MI-GAN or LaMa fill backends
+- **+** Handles images, video (MP4, MOV, WebM, MKV) and text provenance from one CLI
+- **+** Video path scans all frames for a stable mark and copies audio without re-encoding
+- **+** Installable by feature extras, so metadata-only use pulls no torch
+- **−** Invisible image removal is CUDA-only, with no CPU or MPS fallback
+- **−** No local SynthID pixel detector; detection relies on signed provenance
+- **−** qwen21-zimage profile is restricted to non-commercial use by the Qwen Research License
+- **−** Some jurisdictions, including China, restrict removing AI labels; legal risk falls on the user
+
+<sub>GPU optional · Needs ffmpeg, NVIDIA CUDA (invisible removal), PyTorch (diffusion extras) · Models: Qwen-Image-2512 Lightning, SDXL, Chroma1, Z-Image, MI-GAN · [Repo](https://github.com/wiltodelta/remove-ai-watermarks) · [📖 Docs ↗](https://github.com/wiltodelta/remove-ai-watermarks/blob/main/docs/cli.md) · [🌐 Site ↗](https://raiw.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/remove-ai-watermarks/)</sub>
+
 <a name="dramaclaw"></a>
-### #&#8288;13 [dramaclaw](https://github.com/dramaclaw/dramaclaw) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Nov 2026</sub>
+### #&#8288;14 [dramaclaw](https://github.com/dramaclaw/dramaclaw) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Nov 2026</sub>
 
 **Node-canvas and pipeline for producing AI short dramas from script to final cut.**
 
@@ -237,25 +254,8 @@ DramaClaw is a source-available production line for AI short drama. It pairs a n
 
 <sub>RAM ≥ 4 GB · GPU optional · Docker + Compose · Needs OpenAI-compatible gateway (RelayClaw or dramaclaw-gateway), Docker · Models: OpenAI-compatible API, Seedance 2.5, open-weight models via gateway · [Repo](https://github.com/dramaclaw/dramaclaw) · [📖 Docs ↗](https://github.com/dramaclaw/dramaclaw/blob/main/docs/en/README.md) · [🌐 Site ↗](https://dramaclaw.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dramaclaw/)</sub>
 
-<a name="civitai"></a>
-### #&#8288;14 [civitai](https://github.com/civitai/civitai) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
-
-**Source of the Civitai site for sharing Stable Diffusion models.**
-
-Next.js, tRPC and Prisma/Postgres application behind civitai.com, where users upload and browse Stable Diffusion models (textual inversions, hypernetworks, VAEs and similar), and comment on them. The repo is a web platform for hosting and discussing models, not a generation tool. Local development runs Postgres, Redis, MinIO, Meilisearch, ClickHouse and a mail catcher via Docker Compose.
-
-- **+** Full production site source under Apache-2.0, including Prisma schema and migrations
-- **+** Compose file starts all local dependencies; seed script populates an empty database
-- **+** Nix flake option bootstraps the toolchain and dev server in one command
-- **−** Generation, training, chat, notifications and Buzz do not work locally
-- **−** Signals and buzz containers come from private ghcr.io images, internal members only
-- **−** Requires exact Node 24 and pnpm; wrong Node version only warns, then fails oddly
-- **−** Manual setup: MinIO access keys and env edits, plus slow destructive migrate and reseed steps
-
-<sub>no GPU · Docker + Compose · Needs Docker Compose v2, Node.js 24, pnpm, PostgreSQL, Redis, MinIO, Meilisearch, ClickHouse, Mailpit · Models: Stable Diffusion checkpoints, textual inversions, hypernetworks, VAEs · port 3000 · [Repo](https://github.com/civitai/civitai) · [▶️ Demo ↗](https://civitai.com/) · [🌐 Site ↗](https://civitai.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/civitai/)</sub>
-
 <a name="krita-ai-diffusion"></a>
-### #&#8288;15 [krita-ai-diffusion](https://github.com/acly/krita-ai-diffusion) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;15 [krita-ai-diffusion](https://github.com/acly/krita-ai-diffusion) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
 
 **Krita plugin for inpainting, live painting and upscaling with diffusion models.**
 
@@ -309,7 +309,7 @@ Generative media studio with separate Image, Video, Audio, Lip Sync and Cinema w
 <sub>RAM ≥ 16 GB · GPU optional · Docker + Compose · Needs MuAPI API key (cloud models), Wan2GP (optional, local video; CUDA/ROCm GPU), Node.js (build from source) · Models: MuAPI hosted models (Flux, Kling, Veo, Sora, Wan 2.2), sd.cpp: SD 1.5, SDXL, Z-Image, Wan2GP: Wan 2.1/2.2, Hunyuan Video 1.5, LTX-2, Flux.1 Dev, Qwen Image · README: alternative to Manus · [Repo](https://github.com/anil-matcha/open-generative-ai) · [▶️ Demo ↗](https://muapi.ai/open-generative-ai?utm_source=github&utm_medium=readme&utm_campaign=open-generative-ai) · [🌐 Site ↗](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=open-generative-ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-generative-ai/)</sub>
 
 <a name="ltx-2"></a>
-### #&#8288;18 [ltx-2](https://github.com/lightricks/ltx-2) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;18 [ltx-2](https://github.com/lightricks/ltx-2) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Text and image to video model with synchronized audio, plus pipelines and trainer.**
 
@@ -326,7 +326,7 @@ LTX-2 is a 22B-parameter DiT model from Lightricks that generates video with syn
 <sub>GPU required · Needs uv, Hugging Face CLI, PyTorch, CUDA · Models: LTX-2.5 22B distilled, LTX-2.5 22B dev, LTX-2.3, Gemma 4 12B text encoder, safetensors · [Repo](https://github.com/lightricks/ltx-2) · [▶️ Demo ↗](https://console.ltx.video/playground) · [🌐 Site ↗](https://ltx.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ltx-2/)</sub>
 
 <a name="mochidiffusion"></a>
-### #&#8288;19 [mochidiffusion](https://github.com/mochidiffusion/mochidiffusion) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;19 [mochidiffusion](https://github.com/mochidiffusion/mochidiffusion) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · GPL-3.0 · Nov 2026</sub>
 
 **Native macOS app for generating images offline with Stable Diffusion and FLUX.2 Klein.**
 
@@ -378,7 +378,7 @@ Modly is an Electron and TypeScript desktop app with a Python FastAPI backend th
 <sub>GPU required · Needs Node.js, Python, Hugging Face (model weights) · Models: Hunyuan3D 2 Mini, Hunyuan3D 2 Mini Turbo, Hunyuan3D 2 Mini Fast, TripoSG, Trellis2 GGUF · [Repo](https://github.com/lightningpixel/modly) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modly/)</sub>
 
 <a name="claude-code-video-toolkit"></a>
-### #&#8288;22 [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Nov 2026</sub>
+### #&#8288;22 [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Nov 2026</sub>
 
 **Claude Code skills and templates that script, voice, score and render videos.**
 
@@ -395,26 +395,8 @@ A workspace of Claude Code skills, slash commands, Remotion and moviepy template
 
 <sub>GPU optional · Docker · Needs Claude Code, Node.js 22+, uv (Python 3.10+), Modal or RunPod, Cloudflare R2, ElevenLabs (optional), FFmpeg (optional) · Models: Qwen3-TTS, FLUX.2, ACE-Step, LTX-2.3, Qwen-Image · [Repo](https://github.com/digitalsamba/claude-code-video-toolkit) · [▶️ Demo ↗](https://www.youtube.com/watch?v=3HjPatdeal4) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/claude-code-video-toolkit/)</sub>
 
-<a name="printfilm"></a>
-### #&#8288;23 [printfilm](https://github.com/yi1108/printfilm) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · MIT · Nov 2026</sub>
-
-**Step-by-step AI short video and serial drama maker, from script to final cut.**
-
-PRINTFILM is a FastAPI and React app that turns an idea or script into a finished short video through staged steps: script, storyboard, reference images, image-to-video, and composition. It also has a serialized-drama mode with episodes and a reusable library of characters, scenes and props. Text, image and video generation go through the TokenFree OpenAI-compatible API, so no local GPU is used.
-
-- **+** Pipeline pauses after each stage so script and storyboard can be edited before continuing
-- **+** Reusable character, scene and prop library keeps drama episodes consistent
-- **+** Compose file pulls prebuilt public images; ARK_MOCK=true shows the UI without a key
-- **+** Admin console covers users, task center and model routing; billing is optional and off by default
-- **−** Real generation depends on a TokenFree API key and credits; otherwise only mock mode works
-- **−** Needs PostgreSQL and Redis alongside the API, web and admin services
-- **−** README and UI are mainly Chinese; contribution rules require Simplified Chinese copy
-- **−** Static-image mode needs an external TTS service for narration
-
-<sub>no GPU · Compose · Needs PostgreSQL, Redis, TokenFree API, FFmpeg, Docker · Models: kimi-k2.6, seedream-5-0-pro, seedance-2-5, OpenAI-compatible API · port 8080 · [Repo](https://github.com/yi1108/printfilm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/printfilm/)</sub>
-
 <a name="comfyui-manager"></a>
-### #&#8288;24 [comfyui-manager](https://github.com/comfy-org/comfyui-manager) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;23 [comfyui-manager](https://github.com/comfy-org/comfyui-manager) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · GPL-3.0 · Nov 2026</sub>
 
 **Manager menu for installing and updating ComfyUI custom nodes and models.**
 
@@ -431,8 +413,44 @@ ComfyUI-Manager is a custom node for ComfyUI that adds a Manager menu to install
 
 <sub>no GPU · Needs ComfyUI, git, Python 3 · [Repo](https://github.com/comfy-org/comfyui-manager) · [📖 Docs ↗](https://docs.comfy.org/registry/overview) · [🌐 Site ↗](https://ltdrdata.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-manager/)</sub>
 
+<a name="printfilm"></a>
+### #&#8288;24 [printfilm](https://github.com/yi1108/printfilm) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · MIT · Nov 2026</sub>
+
+**Step-by-step AI short video and serial drama maker, from script to final cut.**
+
+PRINTFILM is a FastAPI and React app that turns an idea or script into a finished short video through staged steps: script, storyboard, reference images, image-to-video, and composition. It also has a serialized-drama mode with episodes and a reusable library of characters, scenes and props. Text, image and video generation go through the TokenFree OpenAI-compatible API, so no local GPU is used.
+
+- **+** Pipeline pauses after each stage so script and storyboard can be edited before continuing
+- **+** Reusable character, scene and prop library keeps drama episodes consistent
+- **+** Compose file pulls prebuilt public images; ARK_MOCK=true shows the UI without a key
+- **+** Admin console covers users, task center and model routing; billing is optional and off by default
+- **−** Real generation depends on a TokenFree API key and credits; otherwise only mock mode works
+- **−** Needs PostgreSQL and Redis alongside the API, web and admin services
+- **−** README and UI are mainly Chinese; contribution rules require Simplified Chinese copy
+- **−** Static-image mode needs an external TTS service for narration
+
+<sub>no GPU · Compose · Needs PostgreSQL, Redis, TokenFree API, FFmpeg, Docker · Models: kimi-k2.6, seedream-5-0-pro, seedance-2-5, OpenAI-compatible API · port 8080 · [Repo](https://github.com/yi1108/printfilm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/printfilm/)</sub>
+
+<a name="sana"></a>
+### #&#8288;25 [sana](https://github.com/nvlabs/sana) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Nov 2026</sub>
+
+**Efficient diffusion models and training code for high-resolution image and video.**
+
+SANA is NVIDIA's research codebase for linear-attention diffusion models, covering text-to-image up to 4K, one/few-step SANA-Sprint, and video models (SANA-Video, SANA-Video 2.0, SANA-WM, SANA-Streaming). It includes training and inference pipelines, DDP/FSDP, LoRA, ControlNet, and RL post-training recipes. Weights are on Hugging Face, with diffusers, ComfyUI and SGLang integrations.
+
+- **+** Full training and inference code, not only weights, including DDP/FSDP and RL post-training
+- **+** Runs in diffusers, ComfyUI and SGLang (OpenAI-compatible serving)
+- **+** 4-bit and 8-bit variants; README says SANA runs within 8GB VRAM
+- **+** Public demos for image, ControlNet, Sprint and SANA-Video 2.0
+- **−** Research repo with many sub-projects; no single UI or one-command install
+- **−** Some newer pieces (Sol-Engine, H3) live on a separate branch
+- **−** Large video and world models need high-end GPUs; exact VRAM is not stated
+- **−** Docs are spread across project pages and a separate docs site
+
+<sub>GPU required · Docker · Needs PyTorch, diffusers, Hugging Face weights · Models: SANA, SANA-1.5, SANA-Sprint, SANA-Video, SANA-Video 2.0 · [Repo](https://github.com/nvlabs/sana) · [▶️ Demo ↗](https://nv-sana.mit.edu/) · [📖 Docs ↗](https://nvlabs.github.io/Sana/docs/) · [🌐 Site ↗](https://nvlabs.github.io/Sana/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sana/)</sub>
+
 <a name="lichtfeld-studio"></a>
-### #&#8288;25 [lichtfeld-studio](https://github.com/mrnerf/lichtfeld-studio) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;26 [lichtfeld-studio](https://github.com/mrnerf/lichtfeld-studio) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · GPL-3.0 · Nov 2026</sub>
 
 **Native desktop app for training and editing 3D Gaussian Splatting scenes.**
 
@@ -450,7 +468,7 @@ LichtFeld Studio is a C++23/CUDA application that trains 3D Gaussian Splatting s
 <sub>GPU required · Docker + Compose · Needs NVIDIA driver 570+, CUDA 12.8+, COLMAP dataset input · Models: 3D Gaussian Splatting, PLY, SOG, SPZ · [Repo](https://github.com/mrnerf/lichtfeld-studio) · [📖 Docs ↗](https://github.com/MrNeRF/LichtFeld-Studio/wiki/) · [🌐 Site ↗](https://lichtfeld.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lichtfeld-studio/)</sub>
 
 <a name="ai-toolkit"></a>
-### #&#8288;26 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Nov 2026</sub>
+### #&#8288;27 [AI Toolkit](https://github.com/ostris/ai-toolkit) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Nov 2026</sub>
 
 **LoRA and LoKr training suite for image, video and audio diffusion models.**
 
@@ -467,26 +485,8 @@ AI Toolkit trains LoRA and LoKr adapters for diffusion models, driven by YAML co
 
 <sub>GPU required · Docker + Compose · Needs PyTorch, Node.js >20 (UI), Hugging Face model weights, git · Models: FLUX.1, FLUX.2, Qwen-Image, Z-Image, SDXL · port 8675 · [Repo](https://github.com/ostris/ai-toolkit) · [🌐 Site ↗](https://ostris.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-toolkit/)</sub>
 
-<a name="sana"></a>
-### #&#8288;27 [sana](https://github.com/nvlabs/sana) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Nov 2026</sub>
-
-**Efficient diffusion models and training code for high-resolution image and video.**
-
-SANA is NVIDIA's research codebase for linear-attention diffusion models, covering text-to-image up to 4K, one/few-step SANA-Sprint, and video models (SANA-Video, SANA-Video 2.0, SANA-WM, SANA-Streaming). It includes training and inference pipelines, DDP/FSDP, LoRA, ControlNet, and RL post-training recipes. Weights are on Hugging Face, with diffusers, ComfyUI and SGLang integrations.
-
-- **+** Full training and inference code, not only weights, including DDP/FSDP and RL post-training
-- **+** Runs in diffusers, ComfyUI and SGLang (OpenAI-compatible serving)
-- **+** 4-bit and 8-bit variants; README says SANA runs within 8GB VRAM
-- **+** Public demos for image, ControlNet, Sprint and SANA-Video 2.0
-- **−** Research repo with many sub-projects; no single UI or one-command install
-- **−** Some newer pieces (Sol-Engine, H3) live on a separate branch
-- **−** Large video and world models need high-end GPUs; exact VRAM is not stated
-- **−** Docs are spread across project pages and a separate docs site
-
-<sub>GPU required · Docker · Needs PyTorch, diffusers, Hugging Face weights · Models: SANA, SANA-1.5, SANA-Sprint, SANA-Video, SANA-Video 2.0 · [Repo](https://github.com/nvlabs/sana) · [▶️ Demo ↗](https://nv-sana.mit.edu/) · [📖 Docs ↗](https://nvlabs.github.io/Sana/docs/) · [🌐 Site ↗](https://nvlabs.github.io/Sana/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sana/)</sub>
-
 <a name="sdnext"></a>
-### #&#8288;28 [sdnext](https://github.com/vladmandic/sdnext) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;28 [sdnext](https://github.com/vladmandic/sdnext) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Oct 2026</sub>
 
 **Web UI for generating and editing images and video with diffusion models.**
 
@@ -504,7 +504,7 @@ SD.Next is a Python web interface, forked from AUTOMATIC1111's Stable Diffusion 
 <sub>GPU optional · Needs Python, Git · Models: Diffusion models, LoRA, ControlNet, IP-Adapter · [Repo](https://github.com/vladmandic/sdnext) · [📖 Docs ↗](https://vladmandic.github.io/sdnext-docs/) · [🌐 Site ↗](https://vladmandic.github.io/sdnext/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sdnext/)</sub>
 
 <a name="infinigen"></a>
-### #&#8288;29 [infinigen](https://github.com/princeton-vl/infinigen) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;29 [infinigen](https://github.com/princeton-vl/infinigen) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · BSD-3-Clause · Nov 2026</sub>
 
 **Procedural 3D scene generator on Blender with ground-truth renders.**
 
@@ -522,7 +522,7 @@ Infinigen generates 3D scenes procedurally in Python on top of Blender, covering
 <sub>Docker · Needs Blender · [Repo](https://github.com/princeton-vl/infinigen) · [📖 Docs ↗](https://infinigen.cs.princeton.edu/docs/latest/index.html) · [🌐 Site ↗](https://infinigen.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinigen/)</sub>
 
 <a name="fastvideo"></a>
-### #&#8288;30 [fastvideo](https://github.com/hao-ai-lab/fastvideo) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;30 [fastvideo](https://github.com/hao-ai-lab/fastvideo) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
 
 **Post-training and inference framework for accelerated video diffusion models.**
 
@@ -539,26 +539,8 @@ FastVideo is a Python framework for fine-tuning, distilling and running open vid
 
 <sub>GPU required · Docker · Needs PyTorch, uv, VSA attention kernels · Models: Wan2.1, FastWan, FastH3 (MiniMax-H3), Kandinsky 6, PAN 2 · [Repo](https://github.com/hao-ai-lab/fastvideo) · [▶️ Demo ↗](https://dreamverse.fastvideo.org/) · [📖 Docs ↗](https://haoailab.com/FastVideo/inference/inference_quick_start/) · [🌐 Site ↗](https://haoailab.com/FastVideo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fastvideo/)</sub>
 
-<a name="viseron"></a>
-### #&#8288;31 [viseron](https://github.com/roflcoopter/viseron) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
-
-**Local-only NVR with object, motion and face detection for IP cameras.**
-
-Viseron is a self-hosted network video recorder with computer vision features: object detection, motion detection and face recognition. It is configured through a built-in web interface, and its functionality is split into components listed in a Component Explorer. The README states it runs locally only and is started as a Docker container.
-
-- **+** Runs locally only, so camera footage stays on your own host
-- **+** Configuration file is editable from the built-in web interface
-- **+** Modular components, with a searchable Component Explorer in the docs
-- **+** MIT licensed Python project with an active Discord community
-- **−** README gives no hardware, RAM or GPU guidance
-- **−** README lists no supported detection models or camera protocols
-- **−** Configuration is component-based and has a learning curve
-- **−** Support is mainly handled through Discord rather than documented guides
-
-<sub>Docker · Needs Docker · [Repo](https://github.com/roflcoopter/viseron) · [📖 Docs ↗](https://viseron.netlify.app) · [🌐 Site ↗](https://viseron.netlify.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/viseron/)</sub>
-
 <a name="image-to-3dlab"></a>
-### #&#8288;32 [image-to-3dlab](https://github.com/bingeljell/image-to-3dlab) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [image-to-3dlab](https://github.com/bingeljell/image-to-3dlab) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Nov 2026</sub>
 
 **Local pipeline from text or image to rigged, animated 3D game characters.**
 
@@ -575,8 +557,26 @@ AssetFurnace is a browser studio that turns a sentence or picture into a texture
 
 <sub>GPU required · Needs Python 3.11, uv, Xcode (Metal builds on Mac), CUDA toolkit (some NVIDIA builds), ROCm HIP SDK (AMD), Hugging Face access for gated weights · Models: Pixal3D, TRELLIS.2, Hunyuan3D-2.1, Hunyuan3D-MLX, Stable Fast 3D · [Repo](https://github.com/bingeljell/image-to-3dlab) · [📖 Docs ↗](https://assetfurnace.com/blog/how-to-use-assetfurnace) · [🌐 Site ↗](https://assetfurnace.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/image-to-3dlab/)</sub>
 
+<a name="viseron"></a>
+### #&#8288;32 [viseron](https://github.com/roflcoopter/viseron) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
+
+**Local-only NVR with object, motion and face detection for IP cameras.**
+
+Viseron is a self-hosted network video recorder with computer vision features: object detection, motion detection and face recognition. It is configured through a built-in web interface, and its functionality is split into components listed in a Component Explorer. The README states it runs locally only and is started as a Docker container.
+
+- **+** Runs locally only, so camera footage stays on your own host
+- **+** Configuration file is editable from the built-in web interface
+- **+** Modular components, with a searchable Component Explorer in the docs
+- **+** MIT licensed Python project with an active Discord community
+- **−** README gives no hardware, RAM or GPU guidance
+- **−** README lists no supported detection models or camera protocols
+- **−** Configuration is component-based and has a learning curve
+- **−** Support is mainly handled through Discord rather than documented guides
+
+<sub>Docker · Needs Docker · [Repo](https://github.com/roflcoopter/viseron) · [📖 Docs ↗](https://viseron.netlify.app) · [🌐 Site ↗](https://viseron.netlify.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/viseron/)</sub>
+
 <a name="diffsynth-studio"></a>
-### #&#8288;33 [diffsynth-studio](https://github.com/modelscope/diffsynth-studio) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (76) · Freshness: active (85) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;33 [diffsynth-studio](https://github.com/modelscope/diffsynth-studio) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (77) · Freshness: active (85) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **Python engine for running and training diffusion image, video and audio models.**
 
@@ -594,7 +594,7 @@ DiffSynth-Studio is a Python framework from the ModelScope community for inferen
 <sub>GPU optional · Needs PyTorch · Models: Wan, LTX-2, Qwen-Image, FLUX.2, Z-Image · [Repo](https://github.com/modelscope/diffsynth-studio) · [▶️ Demo ↗](https://modelscope.cn/studios/DiffSynth-Studio/Diffusion-Templates) · [📖 Docs ↗](https://diffsynth-studio-doc.readthedocs.io/en/latest/README.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diffsynth-studio/)</sub>
 
 <a name="swarmui"></a>
-### #&#8288;34 [swarmui](https://github.com/mcmonkeyprojects/swarmui) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (41) · Freshness: active (91) · Maintenance: fair (61) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
+### #&#8288;34 [swarmui](https://github.com/mcmonkeyprojects/swarmui) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (42) · Freshness: active (91) · Maintenance: fair (61) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
 
 **Web UI for image, video and audio generation with a ComfyUI backend.**
 
@@ -612,7 +612,7 @@ SwarmUI is a C# web interface for generating images, video and some audio with d
 <sub>Needs git, Python 3.10-3.13, .NET 8 SDK, ComfyUI (auto-installed) · Models: Stable Diffusion, Flux, Wan, LTX-2, ACE-Step · port 7801 · [Repo](https://github.com/mcmonkeyprojects/swarmui) · [📖 Docs ↗](https://github.com/mcmonkeyprojects/SwarmUI/blob/master/docs/README.md) · [🌐 Site ↗](https://swarmui.net/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/swarmui/)</sub>
 
 <a name="local-dream"></a>
-### #&#8288;35 [local-dream](https://github.com/xororz/local-dream) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2026</sub>
+### #&#8288;35 [local-dream](https://github.com/xororz/local-dream) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2026</sub>
 
 **Android app that runs Stable Diffusion on-device, with Snapdragon NPU acceleration.**
 
@@ -630,7 +630,7 @@ Local Dream is a Kotlin Android app that generates images with Stable Diffusion 
 <sub>GPU optional · Needs Qualcomm QNN SDK, MNN · Models: SD1.5, SDXL · [Repo](https://github.com/xororz/local-dream) · [📖 Docs ↗](https://ld-guide.chino.icu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-dream/)</sub>
 
 <a name="dsh-image-gen"></a>
-### #&#8288;36 [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;36 [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2026</sub>
 
 **Image generation plugin for DeepSeek Harness with batch, canvas editing and GIF output.**
 
@@ -647,8 +647,26 @@ A plugin for DeepSeek Harness (DSH) that lets the chat agent generate images thr
 
 <sub>GPU optional · Needs DeepSeek Harness, Node.js ^22.19.0 or >=24, pnpm, ComfyUI (optional) · Models: Google Gemini, OpenAI Images, OpenAI-compatible relays, ByteDance Seedream, Aliyun DashScope / Qwen Image · [Repo](https://github.com/shanliuling/dsh-image-gen) · [📖 Docs ↗](https://github.com/shanliuling/dsh-image-gen/blob/main/docs/providers.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-image-gen/)</sub>
 
+<a name="comfyui-impact-pack"></a>
+### #&#8288;37 [comfyui-impact-pack](https://github.com/ltdrdata/comfyui-impact-pack) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · GPL-3.0 · Nov 2026</sub>
+
+**ComfyUI nodes for detecting and re-detailing regions of generated images.**
+
+A custom node pack for ComfyUI that adds detector nodes (SAM, SAM2, ONNX, bbox/segm), SEGS mask manipulation, and Detailer nodes such as FaceDetailer that re-sample detected regions and paste them back. It also includes pipe bundles, iterative and tiled upscalers with schedule hooks, and video-oriented SEGS nodes. Install via ComfyUI-Manager or clone into custom_nodes and install requirements.txt.
+
+- **+** FaceDetailer and Detailer (SEGS) re-sample detected regions and paste them back
+- **+** Large SEGS toolkit: filters, merge, pixelwise mask ops, tile SEGS, element decomposition
+- **+** Supports SAM and SAM2, including SAM2 video tracking for per-frame masks
+- **+** Iterative and tiled upscalers with denoise, cfg and step schedule hooks
+- **−** UltralyticsDetectorProvider (YOLO) needs the separate ComfyUI-Impact-Subpack
+- **−** Frequent breaking changes across versions, with minimum ComfyUI versions and changed parameters
+- **−** Legacy mmdet nodes were removed in V8.19
+- **−** Some nodes need other extensions, such as Inspire Pack, ComfyUI_Noise or controlnet_aux
+
+<sub>Needs ComfyUI (0.3.63 or higher for V8.24), ComfyUI-Manager (recommended), ComfyUI-Impact-Subpack (for Ultralytics detectors) · Models: SAM, SAM2, ONNX detectors, CLIPSeg, FLUX.1 · [Repo](https://github.com/ltdrdata/comfyui-impact-pack) · [📖 Docs ↗](https://github.com/ltdrdata/ComfyUI-extension-tutorials/blob/Main/ComfyUI-Impact-Pack/tutorial/detectors.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-impact-pack/)</sub>
+
 <a name="clearcam"></a>
-### #&#8288;37 [clearcam](https://github.com/roryclear/clearcam) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;38 [clearcam](https://github.com/roryclear/clearcam) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · GPL-3.0 · Nov 2026</sub>
 
 **Self-hosted NVR adding object detection and phone alerts to RTSP cameras.**
 
@@ -666,7 +684,7 @@ Clearcam is a Python network video recorder that runs object detection and track
 <sub>GPU optional · Needs ffmpeg, python3.11+ · Models: Qwen3 VL · port 8080 · [Repo](https://github.com/roryclear/clearcam) · [🌐 Site ↗](https://www.clearcam.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clearcam/)</sub>
 
 <a name="wan2-2"></a>
-### #&#8288;38 [wan2.2](https://github.com/wan-video/wan2.2) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: weak (14) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;39 [wan2.2](https://github.com/wan-video/wan2.2) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: weak (14) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Sep 2026</sub>
 
 **Open-weight video generation models for text, image, speech and animation.**
 
@@ -683,26 +701,8 @@ Wan2.2 is Alibaba's video diffusion model family with a generate.py CLI for text
 
 <sub>GPU required · Needs PyTorch >= 2.4.0, flash_attn, Dashscope API (optional, prompt extension), CosyVoice (optional, speech-to-video TTS) · Models: Wan2.2-T2V-A14B, Wan2.2-I2V-A14B, Wan2.2-TI2V-5B, Wan2.2-S2V-14B, Wan2.2-Animate-14B · [Repo](https://github.com/wan-video/wan2.2) · [▶️ Demo ↗](https://huggingface.co/spaces/Wan-AI/Wan-2.2-5B) · [📖 Docs ↗](https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aZxe5myC99MelA2WgN7R35y) · [🌐 Site ↗](https://wan.video) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wan2-2/)</sub>
 
-<a name="comfyui-impact-pack"></a>
-### #&#8288;39 [comfyui-impact-pack](https://github.com/ltdrdata/comfyui-impact-pack) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · GPL-3.0 · Nov 2026</sub>
-
-**ComfyUI nodes for detecting and re-detailing regions of generated images.**
-
-A custom node pack for ComfyUI that adds detector nodes (SAM, SAM2, ONNX, bbox/segm), SEGS mask manipulation, and Detailer nodes such as FaceDetailer that re-sample detected regions and paste them back. It also includes pipe bundles, iterative and tiled upscalers with schedule hooks, and video-oriented SEGS nodes. Install via ComfyUI-Manager or clone into custom_nodes and install requirements.txt.
-
-- **+** FaceDetailer and Detailer (SEGS) re-sample detected regions and paste them back
-- **+** Large SEGS toolkit: filters, merge, pixelwise mask ops, tile SEGS, element decomposition
-- **+** Supports SAM and SAM2, including SAM2 video tracking for per-frame masks
-- **+** Iterative and tiled upscalers with denoise, cfg and step schedule hooks
-- **−** UltralyticsDetectorProvider (YOLO) needs the separate ComfyUI-Impact-Subpack
-- **−** Frequent breaking changes across versions, with minimum ComfyUI versions and changed parameters
-- **−** Legacy mmdet nodes were removed in V8.19
-- **−** Some nodes need other extensions, such as Inspire Pack, ComfyUI_Noise or controlnet_aux
-
-<sub>Needs ComfyUI (0.3.63 or higher for V8.24), ComfyUI-Manager (recommended), ComfyUI-Impact-Subpack (for Ultralytics detectors) · Models: SAM, SAM2, ONNX detectors, CLIPSeg, FLUX.1 · [Repo](https://github.com/ltdrdata/comfyui-impact-pack) · [📖 Docs ↗](https://github.com/ltdrdata/ComfyUI-extension-tutorials/blob/Main/ComfyUI-Impact-Pack/tutorial/detectors.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-impact-pack/)</sub>
-
 <a name="hunyuanvideo"></a>
-### #&#8288;40 [hunyuanvideo](https://github.com/tencent-hunyuan/hunyuanvideo) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Oct 2026</sub>
+### #&#8288;40 [hunyuanvideo](https://github.com/tencent-hunyuan/hunyuanvideo) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Oct 2026</sub>
 
 **Text-to-video diffusion model with PyTorch inference code and weights.**
 
@@ -737,8 +737,26 @@ ViMax chains LLM, image and video generation APIs to turn a short idea, a screen
 
 <sub>no GPU · Needs uv, Python 3.12, Node.js 18+ (Web UI), LLM API key, image generation API key, video generation API key · Models: OpenAI-compatible chat APIs, OpenRouter, Google Gemini / Nano Banana, Google Veo, Seedance 2.0 Fast · port 4173 · [Repo](https://github.com/hkuds/vimax) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vimax/)</sub>
 
+<a name="cadam"></a>
+### #&#8288;42 [cadam](https://github.com/adam-cad/cadam) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (47) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · GPL-3.0 · Oct 2026</sub>
+
+**Text-to-CAD web app that generates parametric OpenSCAD models.**
+
+CADAM turns plain-language descriptions or reference images into parametric OpenSCAD code, compiles it in the browser with OpenSCAD WebAssembly, and previews the result with Three.js. Extracted parameters appear as sliders, so dimensions can change without another AI call. Models export as STL, SCAD or DXF. Self-hosting uses the Supabase CLI and a TanStack Start dev server with provider API keys.
+
+- **+** Compiles OpenSCAD in the browser via WebAssembly, so no local CAD install is needed
+- **+** Parameter sliders adjust dimensions without re-running the model
+- **+** Exports STL, SCAD and DXF; bundles BOSL, BOSL2 and MCAD libraries
+- **+** Repo includes benchmarks/ with prompts and source for 13 sample models
+- **−** Local setup needs Supabase CLI, ngrok for webhooks, and several provider API keys
+- **−** No Docker or compose files; setup is manual via npm and Supabase
+- **−** Only hosted LLM APIs are listed; no local model support is documented
+- **−** GPL-3.0 license limits embedding in closed-source products
+
+<sub>no GPU · Needs Node.js 20.19+ or 22.12+, Supabase CLI, ngrok, Anthropic API key, OpenRouter API key, OpenAI API key, Google API key, FAL API key · Models: Anthropic Claude, OpenRouter, OpenAI, Google · port 3000 · [Repo](https://github.com/adam-cad/cadam) · [▶️ Demo ↗](https://adam.new/cadam) · [🌐 Site ↗](https://adam.new) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cadam/)</sub>
+
 <a name="opensplat"></a>
-### #&#8288;42 [opensplat](https://github.com/webodm/opensplat) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;43 [opensplat](https://github.com/webodm/opensplat) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · AGPL-3.0 · Oct 2026</sub>
 
 **C++ trainer that turns COLMAP or OpenSfM camera poses into 3D gaussian splats.**
 
@@ -756,7 +774,7 @@ OpenSplat is a command-line C++ implementation of 3D gaussian splatting. It read
 <sub>GPU optional · Docker · Needs libtorch, OpenCV, CUDA, ROCm, Xcode Metal toolchain, CMake · Models: COLMAP, OpenSfM, ODX, OpenMVG, nerfstudio · [Repo](https://github.com/webodm/opensplat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensplat/)</sub>
 
 <a name="faceswap"></a>
-### #&#8288;43 [faceswap](https://github.com/deepfakes/faceswap) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (96) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · GPL-3.0 · Aug 2026</sub>
+### #&#8288;44 [faceswap](https://github.com/deepfakes/faceswap) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (97) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 58k · GPL-3.0 · Aug 2026</sub>
 
 **Python tool that trains neural models to swap faces in images and video.**
 
@@ -772,24 +790,6 @@ FaceSwap is a Python program with three stages run through `faceswap.py`: extrac
 - **−** Manual workflow: gathering and curating face data is left to the user
 
 <sub>GPU required · Needs CUDA, ROCm (AMD, Linux), ffmpeg (optional) · Models: Villain, Phaze-A, DFL-H128, DFaker, Unbalanced · [Repo](https://github.com/deepfakes/faceswap) · [📖 Docs ↗](https://faceswap.readthedocs.io/en/latest/) · [🌐 Site ↗](https://faceswap.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/faceswap/)</sub>
-
-<a name="cadam"></a>
-### #&#8288;44 [cadam](https://github.com/adam-cad/cadam) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (46) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · GPL-3.0 · Oct 2026</sub>
-
-**Text-to-CAD web app that generates parametric OpenSCAD models.**
-
-CADAM turns plain-language descriptions or reference images into parametric OpenSCAD code, compiles it in the browser with OpenSCAD WebAssembly, and previews the result with Three.js. Extracted parameters appear as sliders, so dimensions can change without another AI call. Models export as STL, SCAD or DXF. Self-hosting uses the Supabase CLI and a TanStack Start dev server with provider API keys.
-
-- **+** Compiles OpenSCAD in the browser via WebAssembly, so no local CAD install is needed
-- **+** Parameter sliders adjust dimensions without re-running the model
-- **+** Exports STL, SCAD and DXF; bundles BOSL, BOSL2 and MCAD libraries
-- **+** Repo includes benchmarks/ with prompts and source for 13 sample models
-- **−** Local setup needs Supabase CLI, ngrok for webhooks, and several provider API keys
-- **−** No Docker or compose files; setup is manual via npm and Supabase
-- **−** Only hosted LLM APIs are listed; no local model support is documented
-- **−** GPL-3.0 license limits embedding in closed-source products
-
-<sub>no GPU · Needs Node.js 20.19+ or 22.12+, Supabase CLI, ngrok, Anthropic API key, OpenRouter API key, OpenAI API key, Google API key, FAL API key · Models: Anthropic Claude, OpenRouter, OpenAI, Google · port 3000 · [Repo](https://github.com/adam-cad/cadam) · [▶️ Demo ↗](https://adam.new/cadam) · [🌐 Site ↗](https://adam.new) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cadam/)</sub>
 
 <a name="kohya-ss"></a>
 ### #&#8288;45 [Kohya's GUI](https://github.com/bmaltais/kohya_ss) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (74) · Freshness: active (89) · Maintenance: weak (4) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jul 2026</sub>
@@ -810,7 +810,7 @@ Wraps kohya-ss/sd-scripts in a Gradio UI that builds the training command for Lo
 <sub>GPU required · Docker + Compose · Needs uv or pip, Python 3.10 with tkinter · Models: SD 1.5/2.x, SDXL, SD3, Flux.1, Lumina Image 2.0 · port 7860 · [Repo](https://github.com/bmaltais/kohya_ss) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kohya-ss/)</sub>
 
 <a name="dream-textures"></a>
-### #&#8288;46 [dream-textures](https://github.com/carson-katri/dream-textures) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (61) · Freshness: recent (70) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · GPL-3.0 · Sep 2026</sub>
+### #&#8288;46 [dream-textures](https://github.com/carson-katri/dream-textures) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (62) · Freshness: recent (70) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · GPL-3.0 · Sep 2026</sub>
 
 **Blender add-on that generates textures and images with Stable Diffusion.**
 
@@ -828,7 +828,7 @@ Dream Textures is a Blender add-on that runs Stable Diffusion locally to generat
 <sub>GPU optional · Needs Blender, PyTorch, DreamStudio (optional cloud) · Models: Stable Diffusion · [Repo](https://github.com/carson-katri/dream-textures) · [📖 Docs ↗](https://github.com/carson-katri/dream-textures/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dream-textures/)</sub>
 
 <a name="heliosgen"></a>
-### #&#8288;47 [heliosgen](https://github.com/segfault42/heliosgen) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (20) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.1k · no license · Sep 2026</sub>
+### #&#8288;47 [heliosgen](https://github.com/segfault42/heliosgen) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (22) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.1k · no license · Sep 2026</sub>
 
 **Node-based desktop canvas for chaining image and video generation models.**
 
@@ -845,8 +845,26 @@ HeliosGen is a Tauri 2 desktop app with a Next.js UI that lets you wire prompts,
 
 <sub>no GPU · Needs kie.ai API key, Codex CLI and uv (optional, for GPT Image 2 via Codex), Node 22+ and Rust (build from source only) · Models: GPT Image 2, Nano Banana, Seedream 5.0, Z-Image, Grok Imagine · [Repo](https://github.com/segfault42/heliosgen) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/heliosgen/)</sub>
 
+<a name="lightx2v"></a>
+### #&#8288;48 [lightx2v](https://github.com/modeltc/lightx2v) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (21) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
+
+**Inference framework for video and image diffusion models.**
+
+LightX2V runs text-to-video, image-to-video, text-to-image and image-editing models (Wan2.1/2.2, HunyuanVideo-1.5, LTX-2, Qwen-Image, MiniMax-H3 and others) behind an HTTP service that listens on port 8000 by default. It adds FP8/NVFP4 quantization, step-distilled weights, CFG/Ulysses parallelism, CPU offload and disaggregated deployment, and it supports several non-NVIDIA accelerators.
+
+- **+** Wide model coverage: Wan, HunyuanVideo-1.5, LTX-2, Qwen-Image, MiniMax-H3, Self-Forcing
+- **+** Ships FP8/NVFP4 quantized and 4-8 step distilled weights on HuggingFace
+- **+** CFG and Ulysses parallelism plus offload; HunyuanVideo-1.5 runs on 24GB RTX 4090
+- **+** Also supports AMD ROCm, Ascend 910B, Hygon DCU, MUSA and Intel
+- **−** Setup is script-driven per model; weights and caches are prepared manually
+- **−** Attention and quantization kernels need separate installation steps
+- **−** No Dockerfile or compose file detected in the repo; README links a Docker Hub image
+- **−** Per-model guides vary, with new models added every few weeks
+
+<sub>GPU required · Needs PyTorch, HuggingFace model weights, ComfyUI (optional) · Models: Wan2.1, Wan2.2, HunyuanVideo-1.5, LTX-2, MiniMax-H3 · port 8000 · [Repo](https://github.com/modeltc/lightx2v) · [▶️ Demo ↗](https://x2v.light-ai.top/) · [📖 Docs ↗](https://lightx2v-en.readthedocs.io/en/latest) · [🌐 Site ↗](https://light-ai.top/LightX2V-BLOG/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightx2v/)</sub>
+
 <a name="was-node-suite-comfyui"></a>
-### #&#8288;48 [was-node-suite-comfyui](https://github.com/wasasquatch/was-node-suite-comfyui) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
+### #&#8288;49 [was-node-suite-comfyui](https://github.com/wasasquatch/was-node-suite-comfyui) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
 
 **ComfyUI custom node pack with 723 nodes for images, masks, text and logic.**
 
@@ -864,7 +882,7 @@ WAS Node Suite v3 adds 723 nodes to ComfyUI covering image filters, colour and L
 <sub>GPU optional · Needs ComfyUI 0.14.0+, Python 3.10+ · Models: GGUF, Hugging Face folders, Ollama, hosted providers · [Repo](https://github.com/wasasquatch/was-node-suite-comfyui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/was-node-suite-comfyui/)</sub>
 
 <a name="html-video"></a>
-### #&#8288;49 [html-video](https://github.com/nexu-io/html-video) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (42) · Freshness: active (100) · Maintenance: weak (13) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;50 [html-video](https://github.com/nexu-io/html-video) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (43) · Freshness: active (100) · Maintenance: weak (13) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Nov 2026</sub>
 
 **Turns prompts, articles or repos into MP4 videos via a local coding agent.**
 
@@ -881,44 +899,8 @@ html-video has a local coding agent write a storyboard and one animated HTML fra
 
 <sub>no GPU · Needs Node.js 20+, pnpm 9+, ffmpeg, Chromium (Playwright), a coding agent CLI or Anthropic API key, MiniMax API key (optional) · Models: Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Qwen Code · port 3071 · [Repo](https://github.com/nexu-io/html-video) · [🌐 Site ↗](https://open-design.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/html-video/)</sub>
 
-<a name="lightx2v"></a>
-### #&#8288;50 [lightx2v](https://github.com/modeltc/lightx2v) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (19) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
-
-**Inference framework for video and image diffusion models.**
-
-LightX2V runs text-to-video, image-to-video, text-to-image and image-editing models (Wan2.1/2.2, HunyuanVideo-1.5, LTX-2, Qwen-Image, MiniMax-H3 and others) behind an HTTP service that listens on port 8000 by default. It adds FP8/NVFP4 quantization, step-distilled weights, CFG/Ulysses parallelism, CPU offload and disaggregated deployment, and it supports several non-NVIDIA accelerators.
-
-- **+** Wide model coverage: Wan, HunyuanVideo-1.5, LTX-2, Qwen-Image, MiniMax-H3, Self-Forcing
-- **+** Ships FP8/NVFP4 quantized and 4-8 step distilled weights on HuggingFace
-- **+** CFG and Ulysses parallelism plus offload; HunyuanVideo-1.5 runs on 24GB RTX 4090
-- **+** Also supports AMD ROCm, Ascend 910B, Hygon DCU, MUSA and Intel
-- **−** Setup is script-driven per model; weights and caches are prepared manually
-- **−** Attention and quantization kernels need separate installation steps
-- **−** No Dockerfile or compose file detected in the repo; README links a Docker Hub image
-- **−** Per-model guides vary, with new models added every few weeks
-
-<sub>GPU required · Needs PyTorch, HuggingFace model weights, ComfyUI (optional) · Models: Wan2.1, Wan2.2, HunyuanVideo-1.5, LTX-2, MiniMax-H3 · port 8000 · [Repo](https://github.com/modeltc/lightx2v) · [▶️ Demo ↗](https://x2v.light-ai.top/) · [📖 Docs ↗](https://lightx2v-en.readthedocs.io/en/latest) · [🌐 Site ↗](https://light-ai.top/LightX2V-BLOG/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightx2v/)</sub>
-
-<a name="pixelle-video"></a>
-### #&#8288;51 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: widely used (91) · Freshness: recent (73) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Jun 2026</sub>
-
-**Topic-to-short-video pipeline built on ComfyUI workflows and TTS.**
-
-Turns a topic into a short video: an LLM (GPT, Qwen, DeepSeek, Ollama) writes the script, ComfyUI or RunningHub workflows or direct APIs (DashScope Wan, GPT Image, Seedream, Seedance, Kling) produce per-sentence images or clips, Edge-TTS or Index-TTS voices it, and HTML templates lay out each frame. Streamlit UI on port 8501, plus digital-human and image-to-video modules. For creators already running ComfyUI.
-
-- **+** Zero-cost path: Ollama for the LLM plus a local ComfyUI instance
-- **+** Image, video, TTS and VLM steps are swappable ComfyUI workflows or direct APIs
-- **+** Custom HTML templates for static, image-backed and video-backed layouts
-- **+** Windows one-click package bundles Python, uv and ffmpeg
-- **−** README and docs are Chinese first; an English README exists separately
-- **−** Local image or video generation needs a running ComfyUI server (default port 8188)
-- **−** Last commit June 2026; update log stops at 2026-06-01
-- **−** Heavy local footprint: ComfyUI plus diffusion and TTS models
-
-<sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ath-maas/pixelle-video) · [📖 Docs ↗](https://aidc-ai.github.io/Pixelle-Video/zh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pixelle-video/)</sub>
-
 <a name="moss-image"></a>
-### #&#8288;52 [moss-image](https://github.com/openmoss/moss-image) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (17) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;51 [moss-image](https://github.com/openmoss/moss-image) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (19) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Nov 2026</sub>
 
 **5B text-to-image diffusion model with layout control and text rendering.**
 
@@ -935,8 +917,26 @@ MOSS-Image provides the Base and SFT text-to-image models plus a Diffusers pipel
 
 <sub>RAM ≥ 14 GB · GPU optional · Needs PyTorch, Diffusers, Gradio, ComfyUI · Models: MOSS-Image-Base, MOSS-Image-SFT, Diffusers, ComfyUI format · [Repo](https://github.com/openmoss/moss-image) · [▶️ Demo ↗](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image) · [📖 Docs ↗](https://github.com/OpenMOSS/MOSS-Image/blob/main/USERGUIDE.md) · [🌐 Site ↗](https://openmoss.github.io/MOSS-Image/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moss-image/)</sub>
 
+<a name="pixelle-video"></a>
+### #&#8288;52 [Pixelle-Video](https://github.com/ath-maas/pixelle-video) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: widely used (91) · Freshness: recent (73) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Jun 2026</sub>
+
+**Topic-to-short-video pipeline built on ComfyUI workflows and TTS.**
+
+Turns a topic into a short video: an LLM (GPT, Qwen, DeepSeek, Ollama) writes the script, ComfyUI or RunningHub workflows or direct APIs (DashScope Wan, GPT Image, Seedream, Seedance, Kling) produce per-sentence images or clips, Edge-TTS or Index-TTS voices it, and HTML templates lay out each frame. Streamlit UI on port 8501, plus digital-human and image-to-video modules. For creators already running ComfyUI.
+
+- **+** Zero-cost path: Ollama for the LLM plus a local ComfyUI instance
+- **+** Image, video, TTS and VLM steps are swappable ComfyUI workflows or direct APIs
+- **+** Custom HTML templates for static, image-backed and video-backed layouts
+- **+** Windows one-click package bundles Python, uv and ffmpeg
+- **−** README and docs are Chinese first; an English README exists separately
+- **−** Local image or video generation needs a running ComfyUI server (default port 8188)
+- **−** Last commit June 2026; update log stops at 2026-06-01
+- **−** Heavy local footprint: ComfyUI plus diffusion and TTS models
+
+<sub>Docker + Compose · Needs uv, ffmpeg, ComfyUI or RunningHub (workflow-based generation), LLM API or Ollama · Models: OpenAI GPT, Qwen (DashScope), DeepSeek, Ollama, Flux via ComfyUI (default image_flux.json) · port 8501 · [Repo](https://github.com/ath-maas/pixelle-video) · [📖 Docs ↗](https://aidc-ai.github.io/Pixelle-Video/zh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pixelle-video/)</sub>
+
 <a name="biniou"></a>
-### #&#8288;53 [biniou](https://github.com/woolverine94/biniou) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;53 [biniou](https://github.com/woolverine94/biniou) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-3.0 · Nov 2026</sub>
 
 **Gradio web UI for local text, image, audio, video and 3D generation.**
 
@@ -972,7 +972,7 @@ Open-Sora is a text-to-video and image-to-video generation project that publishe
 <sub>GPU required · Needs ColossalAI · Models: Open-Sora 2.0 (11B), Open-Sora 1.3 (1B), Open-Sora 1.2, Open-Sora 1.1, Open-Sora 1.0 · [Repo](https://github.com/hpcaitech/open-sora) · [▶️ Demo ↗](https://huggingface.co/spaces/hpcai-tech/open-sora) · [🌐 Site ↗](https://hpcaitech.github.io/Open-Sora/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-sora/)</sub>
 
 <a name="cinecode"></a>
-### #&#8288;55 [cinecode](https://github.com/sarpstar/cinecode) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Nov 2026</sub>
+### #&#8288;55 [cinecode](https://github.com/sarpstar/cinecode) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Nov 2026</sub>
 
 **Claude Code skill that makes finished MP4 films from code.**
 
@@ -989,8 +989,26 @@ cinecode is a skill kit for Claude Code or Cursor. The coding agent writes the s
 
 <sub>GPU required · Needs Claude Code or Cursor, Node.js 22+, Python 3.9+, ffmpeg, Google Chrome, Chromium or Edge, Gemini API key (optional), ElevenLabs (optional), Whisper (optional, footage editing) · Models: Claude Code, Cursor, Gemini TTS, ElevenLabs, EMA Lightning · [Repo](https://github.com/sarpstar/cinecode) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cinecode/)</sub>
 
+<a name="comfyui-nunchaku"></a>
+### #&#8288;56 [comfyui-nunchaku](https://github.com/nunchux-ai/comfyui-nunchaku) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (20) · Freshness: active (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Sep 2026</sub>
+
+**ComfyUI nodes for running 4-bit SVDQuant diffusion models with Nunchaku.**
+
+ComfyUI plugin that loads 4-bit SVDQuant-quantized diffusion models through the Nunchaku inference engine. It covers FLUX.1, FLUX.1-Kontext-dev, Qwen-Image, Qwen-Image-Edit and Z-Image-Turbo, with LoRA, ControlNet-Union-Pro and a 4-bit T5 encoder. The README says async offloading can bring Qwen-Image transformer VRAM down to about 3 GiB.
+
+- **+** Pre-quantized 4-bit models published on Hugging Face and ModelScope, with example workflows
+- **+** Qwen-Image async offloading cuts transformer VRAM to as little as 3 GiB
+- **+** Supports multi-LoRA, ControlNet-Union-Pro, FB Cache and FP16 attention
+- **+** Wheel installer node, and DeepCompressor for quantizing custom models
+- **−** Needs the separate Nunchaku engine wheel installed alongside ComfyUI
+- **−** Only works with models quantized for Nunchaku, not arbitrary checkpoints
+- **−** Last tagged release is January 2026, while the main branch is newer
+- **−** Supported models are limited to the families the maintainers have quantized
+
+<sub>GPU required · Needs ComfyUI, Nunchaku · Models: FLUX.1-dev, FLUX.1-Kontext-dev, Qwen-Image, Qwen-Image-Edit-2509, Z-Image-Turbo · [Repo](https://github.com/nunchux-ai/comfyui-nunchaku) · [▶️ Demo ↗](https://nunchux.ai/) · [📖 Docs ↗](https://nunchaku.tech/docs/ComfyUI-nunchaku/) · [🌐 Site ↗](https://hanlab.mit.edu/projects/svdquant) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-nunchaku/)</sub>
+
 <a name="liveportrait"></a>
-### #&#8288;56 [liveportrait](https://github.com/klingairesearch/liveportrait) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (84) · Freshness: recent (71) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Jun 2026</sub>
+### #&#8288;57 [liveportrait](https://github.com/klingairesearch/liveportrait) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (84) · Freshness: recent (71) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Jun 2026</sub>
 
 **Animates a still portrait from a driving video, with stitching and retargeting.**
 
@@ -1008,7 +1026,7 @@ Official PyTorch implementation of the LivePortrait paper. It animates a source 
 <sub>GPU optional · Needs conda, FFmpeg, PyTorch, Gradio, huggingface_hub, X-Pose (Animals mode) · Models: LivePortrait Humans model, LivePortrait Animals model, KlingTeam/LivePortrait weights on Hugging Face · [Repo](https://github.com/klingairesearch/liveportrait) · [▶️ Demo ↗](https://huggingface.co/spaces/KlingTeam/LivePortrait) · [🌐 Site ↗](https://liveportrait.github.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/liveportrait/)</sub>
 
 <a name="open-sora-plan"></a>
-### #&#8288;57 [open-sora-plan](https://github.com/pku-yuangroup/open-sora-plan) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (72) · Freshness: recent (71) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Nov 2026</sub>
+### #&#8288;58 [open-sora-plan](https://github.com/pku-yuangroup/open-sora-plan) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (73) · Freshness: recent (71) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Nov 2026</sub>
 
 **Open text-to-video diffusion models and training code, reproducing Sora.**
 
@@ -1025,26 +1043,8 @@ Open-Sora Plan releases text-to-video and image-to-video diffusion transformer c
 
 <sub>GPU required · Needs Ascend 910 NPU (v1.5.0), MindSpeed-MM · Models: Text-to-video, Image-to-video, WF-VAE, SUV sparse DiT · [Repo](https://github.com/pku-yuangroup/open-sora-plan) · [📖 Docs ↗](https://github.com/PKU-YuanGroup/Open-Sora-Plan/blob/main/docs/Report-v1.5.0.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-sora-plan/)</sub>
 
-<a name="comfyui-nunchaku"></a>
-### #&#8288;58 [comfyui-nunchaku](https://github.com/nunchux-ai/comfyui-nunchaku) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (18) · Freshness: active (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Sep 2026</sub>
-
-**ComfyUI nodes for running 4-bit SVDQuant diffusion models with Nunchaku.**
-
-ComfyUI plugin that loads 4-bit SVDQuant-quantized diffusion models through the Nunchaku inference engine. It covers FLUX.1, FLUX.1-Kontext-dev, Qwen-Image, Qwen-Image-Edit and Z-Image-Turbo, with LoRA, ControlNet-Union-Pro and a 4-bit T5 encoder. The README says async offloading can bring Qwen-Image transformer VRAM down to about 3 GiB.
-
-- **+** Pre-quantized 4-bit models published on Hugging Face and ModelScope, with example workflows
-- **+** Qwen-Image async offloading cuts transformer VRAM to as little as 3 GiB
-- **+** Supports multi-LoRA, ControlNet-Union-Pro, FB Cache and FP16 attention
-- **+** Wheel installer node, and DeepCompressor for quantizing custom models
-- **−** Needs the separate Nunchaku engine wheel installed alongside ComfyUI
-- **−** Only works with models quantized for Nunchaku, not arbitrary checkpoints
-- **−** Last tagged release is January 2026, while the main branch is newer
-- **−** Supported models are limited to the families the maintainers have quantized
-
-<sub>GPU required · Needs ComfyUI, Nunchaku · Models: FLUX.1-dev, FLUX.1-Kontext-dev, Qwen-Image, Qwen-Image-Edit-2509, Z-Image-Turbo · [Repo](https://github.com/nunchux-ai/comfyui-nunchaku) · [▶️ Demo ↗](https://nunchux.ai/) · [📖 Docs ↗](https://nunchaku.tech/docs/ComfyUI-nunchaku/) · [🌐 Site ↗](https://hanlab.mit.edu/projects/svdquant) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-nunchaku/)</sub>
-
 <a name="openjutsu"></a>
-### #&#8288;59 [openjutsu](https://github.com/d3voz/openjutsu) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Oct 2026</sub>
+### #&#8288;59 [openjutsu](https://github.com/d3voz/openjutsu) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Oct 2026</sub>
 
 **Next.js front end for swapping characters and objects in video via ComfyUI.**
 
@@ -1062,7 +1062,7 @@ Openjutsu replaces the main person in a video with a character from a photo, or 
 <sub>RAM ≥ 64 GB · GPU required · Needs ComfyUI 0.41.2+, comfy-api-proxy 0.1.6, Node.js 22.6+, Python, ComfyUI custom node packs (SolarRenderer, KJNodes, VideoHelperSuite, comfyui-h3-oneclick-swap and others) · Models: MiniMax H3, SAM 3.1, Qwen3-VL 8B INT8, Qwen3-VL 4B FP8, Gemma 4 E2B INT8 · port 3000 · [Repo](https://github.com/d3voz/openjutsu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openjutsu/)</sub>
 
 <a name="digital-human-koubo"></a>
-### #&#8288;60 [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Oct 2026</sub>
+### #&#8288;60 [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Oct 2026</sub>
 
 **Agent skill that turns a photo and a prompt into a talking-head video.**
 
@@ -1098,7 +1098,7 @@ Upscayl is an Electron desktop app that enlarges low-resolution images with Real
 <sub>GPU required · Needs Vulkan-compatible GPU, upscayl-ncnn backend · Models: Real-ESRGAN, NCNN, custom converted models, HFA2k, Remacri · [Repo](https://github.com/upscayl/upscayl) · [📖 Docs ↗](https://docs.upscayl.org/) · [🌐 Site ↗](https://upscayl.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/upscayl/)</sub>
 
 <a name="hunyuandit"></a>
-### #&#8288;62 [hunyuandit](https://github.com/tencent-hunyuan/hunyuandit) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (34) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · custom license · Oct 2026</sub>
+### #&#8288;62 [hunyuandit](https://github.com/tencent-hunyuan/hunyuandit) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (36) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · custom license · Oct 2026</sub>
 
 **Bilingual Chinese-English text-to-image diffusion transformer with training and ControlNet.**
 
@@ -1116,7 +1116,7 @@ PyTorch model definitions, pre-trained weights and inference code for Hunyuan-Di
 <sub>GPU required · Needs PyTorch, CUDA, Conda, flash-attention, huggingface-cli · Models: Hunyuan-DiT v1.1, Hunyuan-DiT v1.2, Distillation, ControlNet, LoRA · [Repo](https://github.com/tencent-hunyuan/hunyuandit) · [▶️ Demo ↗](https://hunyuan.tencent.com/bot/chat) · [🌐 Site ↗](https://dit.hunyuan.tencent.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuandit/)</sub>
 
 <a name="mochi"></a>
-### #&#8288;63 [mochi](https://github.com/genmoai/mochi) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;63 [mochi](https://github.com/genmoai/mochi) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Oct 2026</sub>
 
 **10B-parameter text-to-video diffusion model with inference code and LoRA trainer.**
 
@@ -1133,44 +1133,8 @@ Mochi 1 is Genmo's open-weight text-to-video model, a 10B AsymmDiT diffusion tra
 
 <sub>GPU required · Needs FFmpeg, uv, Python 3.11, T5-XXL text encoder · Models: Mochi 1 preview (AsymmDiT 10B, safetensors), AsymmVAE, LoRA safetensors · [Repo](https://github.com/genmoai/mochi) · [▶️ Demo ↗](https://www.genmo.ai/play) · [🌐 Site ↗](https://www.genmo.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mochi/)</sub>
 
-<a name="dlss5-visual-enhancer"></a>
-### #&#8288;64 [dlss5-visual-enhancer](https://github.com/merserk/dlss5-visual-enhancer) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (2) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · custom license · Oct 2026</sub>
-
-**Windows app for AI image and video enhancement with DLSS and upscaling.**
-
-Visual Enhancer is a Windows desktop app with a reorderable pipeline for images and video: AI denoising, deblurring, DLSS Super Resolution, Ray Reconstruction, RTX Video, AI upscaling, ReShade presets, LUT grading, sharpening and grain. Video adds DLSS and FSR frame generation and SDR-to-HDR conversion. A VE_CLI.exe tool shares the same engines. Only selected source code is published, under a custom license.
-
-- **+** Separate image and video pipelines with drag-to-reorder stages
-- **+** AI upscaling runs on NVIDIA CUDA, Intel XPU or AMD ROCm/HIP GPUs
-- **+** VE_CLI.exe supports batch and scripted use with JSON output and dry runs
-- **+** Wide export support: JPEG XL, AV1, H.265, ProRes, 10-bit HDR
-- **−** Windows 11 only; no Linux or macOS build
-- **−** Only selected source is published; some build components are missing
-- **−** Custom Merserk Source License restricts redistribution and modified builds
-- **−** DLSS features need RTX hardware; DLSS frame generation needs RTX 40 or 50
-
-<sub>GPU required · Needs Windows 11 64-bit, NVIDIA RTX GPU and driver for DLSS and RTX features, Vulkan-capable GPU driver, DirectX 12 GPU for FSR and ReShade AI depth · Models: VisionNext, RazorNext, PeakMagnetar, OptiPulsar, ClearMagnetar · [Repo](https://github.com/merserk/dlss5-visual-enhancer) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dlss5-visual-enhancer/)</sub>
-
-<a name="hivisionidphotos"></a>
-### #&#8288;65 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (85) · Freshness: recent (58) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
-
-**Offline ID photo maker: portrait matting, background swap, sizing and print layouts.**
-
-HivisionIDPhotos cuts out the person with ONNX matting models (MODNet, hivision_modnet, RMBG-1.4, BiRefNet-v1-lite), detects the face, then crops and resizes to standard ID photo sizes with a chosen background color. It also produces print layout sheets (6-inch, 5-inch, A4, 3R, 4R). It runs as a Gradio demo, a CLI script, or a REST API, and the default models run on CPU.
-
-- **+** Default MODNet + MTCNN runs on CPU: about 410MB RAM and 0.2s per image on an M1 Max
-- **+** Gradio UI, inference.py CLI and deploy_api.py REST API all included
-- **+** Fully offline; Face++ cloud face detection is optional
-- **+** Preset sizes and colors editable through CSV files
-- **−** BiRefNet-v1-lite, the most accurate matting option, needs about 6GB RAM and ~16GB VRAM on GPU
-- **−** Model weights must be downloaded separately before running
-- **−** README and docs are mainly Chinese; English is in a separate file
-- **−** Last release is 2025-01-21; the smart outfit-change feature is still marked waiting
-
-<sub>GPU optional · Docker + Compose · Needs onnxruntime, Face++ API (optional) · Models: MODNet, hivision_modnet, RMBG-1.4, BiRefNet-v1-lite, MTCNN · port 7860 · [Repo](https://github.com/zeyi-lin/hivisionidphotos) · [▶️ Demo ↗](https://huggingface.co/spaces/TheEeeeLin/HivisionIDPhotos) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hivisionidphotos/)</sub>
-
 <a name="turbodiffusion"></a>
-### #&#8288;66 [turbodiffusion](https://github.com/thu-ml/turbodiffusion) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;64 [turbodiffusion](https://github.com/thu-ml/turbodiffusion) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (31) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · Apache-2.0 · Nov 2026</sub>
 
 **Speeds up Wan video diffusion models with distilled 4-step sampling.**
 
@@ -1188,7 +1152,7 @@ TurboDiffusion accelerates text-to-video and image-to-video generation for Wan2.
 <sub>GPU required · Needs PyTorch >=2.7.0 (2.8.0 recommended), Python >=3.9, SageAttention, SpargeAttn (optional, for SageSLA), Wan2.1 VAE and umT5 text encoder checkpoints · Models: Wan2.1-T2V-1.3B-480P, Wan2.1-T2V-14B-480P, Wan2.1-T2V-14B-720P, Wan2.2-I2V-A14B-720P, TurboH3-FL2VA-I2VA · [Repo](https://github.com/thu-ml/turbodiffusion) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbodiffusion/)</sub>
 
 <a name="rgthree-comfy"></a>
-### #&#8288;67 [rgthree-comfy](https://github.com/rgthree/rgthree-comfy) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (27) · Freshness: recent (70) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Oct 2026</sub>
+### #&#8288;65 [rgthree-comfy](https://github.com/rgthree/rgthree-comfy) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (28) · Freshness: recent (70) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Oct 2026</sub>
 
 **Custom nodes that tidy and speed up ComfyUI workflows.**
 
@@ -1205,8 +1169,44 @@ rgthree-comfy is a ComfyUI custom node pack for workflow organization: Seed cont
 
 <sub>Needs ComfyUI · Models: SDXL prompt nodes, Loras, embeddings · [Repo](https://github.com/rgthree/rgthree-comfy) · [📖 Docs ↗](https://github.com/rgthree/rgthree-comfy/wiki/Node:-Power-Puter) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rgthree-comfy/)</sub>
 
+<a name="dlss5-visual-enhancer"></a>
+### #&#8288;66 [dlss5-visual-enhancer](https://github.com/merserk/dlss5-visual-enhancer) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (3) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · custom license · Oct 2026</sub>
+
+**Windows app for AI image and video enhancement with DLSS and upscaling.**
+
+Visual Enhancer is a Windows desktop app with a reorderable pipeline for images and video: AI denoising, deblurring, DLSS Super Resolution, Ray Reconstruction, RTX Video, AI upscaling, ReShade presets, LUT grading, sharpening and grain. Video adds DLSS and FSR frame generation and SDR-to-HDR conversion. A VE_CLI.exe tool shares the same engines. Only selected source code is published, under a custom license.
+
+- **+** Separate image and video pipelines with drag-to-reorder stages
+- **+** AI upscaling runs on NVIDIA CUDA, Intel XPU or AMD ROCm/HIP GPUs
+- **+** VE_CLI.exe supports batch and scripted use with JSON output and dry runs
+- **+** Wide export support: JPEG XL, AV1, H.265, ProRes, 10-bit HDR
+- **−** Windows 11 only; no Linux or macOS build
+- **−** Only selected source is published; some build components are missing
+- **−** Custom Merserk Source License restricts redistribution and modified builds
+- **−** DLSS features need RTX hardware; DLSS frame generation needs RTX 40 or 50
+
+<sub>GPU required · Needs Windows 11 64-bit, NVIDIA RTX GPU and driver for DLSS and RTX features, Vulkan-capable GPU driver, DirectX 12 GPU for FSR and ReShade AI depth · Models: VisionNext, RazorNext, PeakMagnetar, OptiPulsar, ClearMagnetar · [Repo](https://github.com/merserk/dlss5-visual-enhancer) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dlss5-visual-enhancer/)</sub>
+
+<a name="hivisionidphotos"></a>
+### #&#8288;67 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (85) · Freshness: recent (58) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
+
+**Offline ID photo maker: portrait matting, background swap, sizing and print layouts.**
+
+HivisionIDPhotos cuts out the person with ONNX matting models (MODNet, hivision_modnet, RMBG-1.4, BiRefNet-v1-lite), detects the face, then crops and resizes to standard ID photo sizes with a chosen background color. It also produces print layout sheets (6-inch, 5-inch, A4, 3R, 4R). It runs as a Gradio demo, a CLI script, or a REST API, and the default models run on CPU.
+
+- **+** Default MODNet + MTCNN runs on CPU: about 410MB RAM and 0.2s per image on an M1 Max
+- **+** Gradio UI, inference.py CLI and deploy_api.py REST API all included
+- **+** Fully offline; Face++ cloud face detection is optional
+- **+** Preset sizes and colors editable through CSV files
+- **−** BiRefNet-v1-lite, the most accurate matting option, needs about 6GB RAM and ~16GB VRAM on GPU
+- **−** Model weights must be downloaded separately before running
+- **−** README and docs are mainly Chinese; English is in a separate file
+- **−** Last release is 2025-01-21; the smart outfit-change feature is still marked waiting
+
+<sub>GPU optional · Docker + Compose · Needs onnxruntime, Face++ API (optional) · Models: MODNet, hivision_modnet, RMBG-1.4, BiRefNet-v1-lite, MTCNN · port 7860 · [Repo](https://github.com/zeyi-lin/hivisionidphotos) · [▶️ Demo ↗](https://huggingface.co/spaces/TheEeeeLin/HivisionIDPhotos) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hivisionidphotos/)</sub>
+
 <a name="autofigure-edit"></a>
-### #&#8288;68 [autofigure-edit](https://github.com/researai/autofigure-edit) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (37) · Freshness: active (97) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Nov 2026</sub>
+### #&#8288;68 [autofigure-edit](https://github.com/researai/autofigure-edit) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (38) · Freshness: active (97) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Nov 2026</sub>
 
 **Turns paper method text into editable SVG figures with a browser editor.**
 
@@ -1223,26 +1223,8 @@ AutoFigure-Edit generates a raster draft figure from method-section text with an
 
 <sub>GPU optional · Docker + Compose · Needs Hugging Face token (briaai/RMBG-2.0), LLM provider API key (OpenRouter, Gemini, OpenAI, Bianxie or custom), SAM3 locally, or Roboflow / fal.ai API, Docker Compose (optional) · Models: OpenRouter, Google Gemini, OpenAI Responses (gpt-5.5, gpt-image-2), OpenAI-compatible custom endpoints, SAM3 · port 8000 · [Repo](https://github.com/researai/autofigure-edit) · [▶️ Demo ↗](https://deepscientist.cc) · [🌐 Site ↗](https://deepscientist.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autofigure-edit/)</sub>
 
-<a name="personalive"></a>
-### #&#8288;69 [personalive](https://github.com/gvclab/personalive) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (33) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · Apache-2.0 · Aug 2026</sub>
-
-**Real-time diffusion portrait animation driven by a webcam or video.**
-
-PersonaLive animates a single reference portrait image from a driving video or webcam, using a streaming diffusion pipeline that can produce arbitrarily long output. It ships a web UI on port 7860, an offline inference script, optional TensorRT acceleration and three-stage training code. It is CVPR 2026 research code, and the README limits use to academic research.
-
-- **+** Streaming generation produces long videos on 12GB VRAM in offline mode
-- **+** Web UI for live animation; optional TensorRT build gives about 2x speedup
-- **+** Includes three-stage training code and weights on Hugging Face and ModelScope
-- **+** ComfyUI integration exists as a community project
-- **−** README states academic research use only, limiting practical deployment
-- **−** TensorRT engine should be rebuilt locally (~20 minutes); shipped one is from an H100
-- **−** xformers is incompatible with RTX 50-series; acceleration must be disabled there
-- **−** No Docker files; manual conda, Node.js 18+ and weight download setup
-
-<sub>GPU required · Needs conda, Python 3.10, Node.js 18+, xformers or TensorRT (optional) · Models: sd-image-variations-diffusers, sd-vae-ft-mse, PersonaLive .pth weights, ONNX, TensorRT · port 7860 · [Repo](https://github.com/gvclab/personalive) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/personalive/)</sub>
-
 <a name="nunchaku"></a>
-### #&#8288;70 [nunchaku](https://github.com/nunchux-ai/nunchaku) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (30) · Freshness: active (90) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;69 [nunchaku](https://github.com/nunchux-ai/nunchaku) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (32) · Freshness: active (90) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Sep 2026</sub>
 
 **4-bit SVDQuant inference engine for FLUX, Qwen-Image and SANA diffusion models.**
 
@@ -1259,26 +1241,44 @@ Nunchaku is a Python inference engine that runs diffusion models quantized to 4-
 
 <sub>GPU required · Needs PyTorch, ComfyUI (optional plugin), DeepCompressor (optional, for quantization) · Models: FLUX.1-dev, FLUX.1-Kontext, FLUX.1-Krea-dev, FLUX.1-tools, Qwen-Image · [Repo](https://github.com/nunchux-ai/nunchaku) · [▶️ Demo ↗](https://nunchux.ai/) · [📖 Docs ↗](https://nunchaku.tech/docs/nunchaku/) · [🌐 Site ↗](https://hanlab.mit.edu/projects/svdquant) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nunchaku/)</sub>
 
-<a name="duix-avatar"></a>
-### #&#8288;71 [duix-avatar](https://github.com/duixcom/duix-avatar) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (80) · Freshness: slowing (49) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · custom license · Apr 2026</sub>
+<a name="wunjo-wladradchenko-ru"></a>
+### #&#8288;70 [wunjo.wladradchenko.ru](https://github.com/wladradchenko/wunjo.wladradchenko.ru) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (1) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-3.0 · Oct 2026</sub>
 
-**Offline talking-avatar video generator with voice cloning and lip-sync.**
+**Desktop video editor built on Kdenlive, with MCP server and Python plugins.**
 
-Duix.Avatar clones a person's face and voice from a short video, then renders lip-synced videos driven by text or audio. It runs as an Electron client plus Docker services for ASR (fun-asr), TTS (fish-speech-ziming) and video synthesis, all on a local NVIDIA GPU. The services expose local HTTP endpoints for voice synthesis (port 18180) and video synthesis (port 8383).
+Wunjo Make v3 is a C++/Qt 6 nonlinear video editor forked from Kdenlive, using MLT and FFmpeg. It ships an MCP server so external agents such as Claude Code, Cursor or Codex can drive the timeline. AI features (face swap, Live Portrait, voice cloning, voice separation, cut finding) are installable Python plugins; Whisper and SAM are built in.
 
-- **+** Runs fully offline; all compute is local, so no footage leaves the machine
-- **+** Exposes local HTTP APIs for audio synthesis (18180) and video synthesis (8383)
-- **+** Scripts supported in eight languages, including English, Chinese, Japanese and Spanish
-- **+** Clients for Windows (installer) and Ubuntu 22.04 (AppImage); lite compose file available
-- **−** Requires an NVIDIA GPU; services will not start without one
-- **−** Heavy setup: about 70GB of image downloads and 100GB free disk recommended
-- **−** Non-real-time only; interactive avatars are routed to the paid duix.com service
-- **−** Custom license: enterprises above 100,000 users or 10M USD revenue need a commercial agreement
+- **+** Multi-track timeline, keyframes, colour correction and FFmpeg rendering inherited from Kdenlive
+- **+** MCP server needs only Python; no local model required to drive the editor from an agent
+- **+** AI tools are isolated Python plugins installed from archives; custom plugins are supported
+- **+** Plugins can run on CPU without a GPU, or call remote APIs
+- **−** No Docker; Linux build is a Flatpak compiled from source, needing about 30 GB scratch space
+- **−** Windows and macOS installers are built with KDE Craft; signed installers are listed as coming soon
+- **−** v3 has fewer features than v2; the Lip Sync plugin is marked soon
+- **−** Local model plugin needs 8GB VRAM and CUDA 12.x; CPU runs are several times slower
 
-<sub>RAM ≥ 32 GB · GPU required · Compose · Needs Docker, NVIDIA Container Toolkit, Node.js 18, guiji2025/fun-asr, guiji2025/fish-speech-ziming, guiji2025/duix.avatar · Models: fun-asr, fish-speech-ziming · [Repo](https://github.com/duixcom/duix-avatar) · [📖 Docs ↗](https://docs.duix.com/api-reference/api/Introduction) · [🌐 Site ↗](http://www.duix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/duix-avatar/)</sub>
+<sub>GPU optional · Needs Qt 6, KDE Frameworks 6, MLT, FFmpeg, Flatpak (Linux build), Python (plugins, MCP server) · Models: Qwen 3.5 (local plugin), Whisper, SAM, LivePortrait · [Repo](https://github.com/wladradchenko/wunjo.wladradchenko.ru) · [📖 Docs ↗](https://docs.wunjo.online) · [🌐 Site ↗](https://wunjo.online) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wunjo-wladradchenko-ru/)</sub>
+
+<a name="personalive"></a>
+### #&#8288;71 [personalive](https://github.com/gvclab/personalive) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (35) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · Apache-2.0 · Aug 2026</sub>
+
+**Real-time diffusion portrait animation driven by a webcam or video.**
+
+PersonaLive animates a single reference portrait image from a driving video or webcam, using a streaming diffusion pipeline that can produce arbitrarily long output. It ships a web UI on port 7860, an offline inference script, optional TensorRT acceleration and three-stage training code. It is CVPR 2026 research code, and the README limits use to academic research.
+
+- **+** Streaming generation produces long videos on 12GB VRAM in offline mode
+- **+** Web UI for live animation; optional TensorRT build gives about 2x speedup
+- **+** Includes three-stage training code and weights on Hugging Face and ModelScope
+- **+** ComfyUI integration exists as a community project
+- **−** README states academic research use only, limiting practical deployment
+- **−** TensorRT engine should be rebuilt locally (~20 minutes); shipped one is from an H100
+- **−** xformers is incompatible with RTX 50-series; acceleration must be disabled there
+- **−** No Docker files; manual conda, Node.js 18+ and weight download setup
+
+<sub>GPU required · Needs conda, Python 3.10, Node.js 18+, xformers or TensorRT (optional) · Models: sd-image-variations-diffusers, sd-vae-ft-mse, PersonaLive .pth weights, ONNX, TensorRT · port 7860 · [Repo](https://github.com/gvclab/personalive) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/personalive/)</sub>
 
 <a name="comfyui-copilot"></a>
-### #&#8288;72 [comfyui-copilot](https://github.com/ath-maas/comfyui-copilot) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (47) · Freshness: recent (77) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · MIT · Sep 2026</sub>
+### #&#8288;72 [comfyui-copilot](https://github.com/ath-maas/comfyui-copilot) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (48) · Freshness: recent (77) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · MIT · Sep 2026</sub>
 
 **ComfyUI custom node that generates, debugs and rewrites workflows from chat.**
 
@@ -1296,7 +1296,7 @@ A ComfyUI custom node that adds a chat panel for building workflows from text, d
 <sub>Needs ComfyUI, Python 3.10+, OpenAI-compatible LLM API key and base URL · Models: OpenAI, LM Studio · [Repo](https://github.com/ath-maas/comfyui-copilot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-copilot/)</sub>
 
 <a name="watermark-removal"></a>
-### #&#8288;73 [watermark-removal](https://github.com/zuruoke/watermark-removal) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (45) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 5.2k · no license · Oct 2026</sub>
+### #&#8288;73 [watermark-removal](https://github.com/zuruoke/watermark-removal) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (46) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 5.2k · no license · Oct 2026</sub>
 
 **Command-line watermark remover using TensorFlow image inpainting.**
 
@@ -1312,8 +1312,26 @@ Removes watermarks from single images with a deep inpainting model based on Cont
 
 <sub>Docker · Needs TensorFlow 1.15.0, neuralgym, Docker, Pretrained checkpoint (Google Drive) · Models: Contextual Attention inpainting, Gated Convolution inpainting · [Repo](https://github.com/zuruoke/watermark-removal) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/watermark-removal/)</sub>
 
+<a name="duix-avatar"></a>
+### #&#8288;74 [duix-avatar](https://github.com/duixcom/duix-avatar) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (81) · Freshness: slowing (49) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · custom license · Apr 2026</sub>
+
+**Offline talking-avatar video generator with voice cloning and lip-sync.**
+
+Duix.Avatar clones a person's face and voice from a short video, then renders lip-synced videos driven by text or audio. It runs as an Electron client plus Docker services for ASR (fun-asr), TTS (fish-speech-ziming) and video synthesis, all on a local NVIDIA GPU. The services expose local HTTP endpoints for voice synthesis (port 18180) and video synthesis (port 8383).
+
+- **+** Runs fully offline; all compute is local, so no footage leaves the machine
+- **+** Exposes local HTTP APIs for audio synthesis (18180) and video synthesis (8383)
+- **+** Scripts supported in eight languages, including English, Chinese, Japanese and Spanish
+- **+** Clients for Windows (installer) and Ubuntu 22.04 (AppImage); lite compose file available
+- **−** Requires an NVIDIA GPU; services will not start without one
+- **−** Heavy setup: about 70GB of image downloads and 100GB free disk recommended
+- **−** Non-real-time only; interactive avatars are routed to the paid duix.com service
+- **−** Custom license: enterprises above 100,000 users or 10M USD revenue need a commercial agreement
+
+<sub>RAM ≥ 32 GB · GPU required · Compose · Needs Docker, NVIDIA Container Toolkit, Node.js 18, guiji2025/fun-asr, guiji2025/fish-speech-ziming, guiji2025/duix.avatar · Models: fun-asr, fish-speech-ziming · [Repo](https://github.com/duixcom/duix-avatar) · [📖 Docs ↗](https://docs.duix.com/api-reference/api/Introduction) · [🌐 Site ↗](http://www.duix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/duix-avatar/)</sub>
+
 <a name="open-higgsfield"></a>
-### #&#8288;74 [open-higgsfield](https://github.com/wide-trace/open-higgsfield) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 6.4k · no license · Sep 2026</sub>
+### #&#8288;75 [open-higgsfield](https://github.com/wide-trace/open-higgsfield) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: weak (15) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 6.4k · no license · Sep 2026</sub>
 
 **Next.js studio for generating images and video with 38 hosted models.**
 
@@ -1331,7 +1349,7 @@ A Next.js 16 web studio with one prompt bar that drives 8 image and 30 video mod
 <sub>no GPU · Needs Generation API (HF_API_BASE_URL) and platform key, Vercel Blob, Node.js and pnpm · Models: Soul 2, Seedance, Kling 3, Wan, Flux · port 3000 · [Repo](https://github.com/wide-trace/open-higgsfield) · [▶️ Demo ↗](https://openhiggsfield.ai) · [🌐 Site ↗](https://openhiggsfield.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-higgsfield/)</sub>
 
 <a name="llmsresearch-paperbanana"></a>
-### #&#8288;75 [paperbanana](https://github.com/llmsresearch/paperbanana) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Sep 2026</sub>
+### #&#8288;76 [paperbanana](https://github.com/llmsresearch/paperbanana) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Sep 2026</sub>
 
 **Generates academic paper diagrams and plots from method text via a multi-agent pipeline.**
 
@@ -1349,7 +1367,7 @@ Unofficial implementation of the PaperBanana paper. It turns methodology text or
 <sub>no GPU · Docker · Needs OpenAI, Azure OpenAI, Google Gemini, Atlas Cloud or OpenRouter API key, PyMuPDF (optional, for PDF input), Gradio (optional, for Studio) · Models: gpt-5.2, gpt-image-1.5, gemini-2.5-flash, gemini-3-pro-image-preview, DeepSeek-V3-0324 (Atlas Cloud) · port 7860 · [Repo](https://github.com/llmsresearch/paperbanana) · [▶️ Demo ↗](https://huggingface.co/spaces/llmsresearch/paperbanana) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llmsresearch-paperbanana/)</sub>
 
 <a name="video2x"></a>
-### #&#8288;76 [video2x](https://github.com/k4yt3x/video2x) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: widely used (87) · Freshness: quiet (27) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Mar 2026</sub>
+### #&#8288;77 [video2x](https://github.com/k4yt3x/video2x) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: widely used (87) · Freshness: quiet (27) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Mar 2026</sub>
 
 **Video upscaler and frame interpolator using Real-ESRGAN, Real-CUGAN, RIFE and Anime4K.**
 
@@ -1367,7 +1385,7 @@ Video2X is a C/C++ tool that upscales video and interpolates frames using Anime4
 <sub>GPU required · Needs Vulkan, FFmpeg, ncnn · Models: Real-ESRGAN, Real-CUGAN, RIFE, Anime4K v4, MPV GLSL shaders · [Repo](https://github.com/k4yt3x/video2x) · [▶️ Demo ↗](https://colab.research.google.com/drive/1gWEwcA9y57EsxwOjmLNmNMXPsafw0kGo) · [📖 Docs ↗](https://docs.video2x.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/video2x/)</sub>
 
 <a name="fluxgym"></a>
-### #&#8288;77 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (22) · Freshness: active (91) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
+### #&#8288;78 [FluxGym](https://github.com/cocktailpeanut/fluxgym) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (24) · Freshness: active (91) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Jul 2026</sub>
 
 **Web UI for training FLUX LoRAs on 12 to 20 GB GPUs.**
 
@@ -1384,26 +1402,8 @@ Gradio front end (forked from AI-Toolkit) over Kohya sd-scripts that trains FLUX
 
 <sub>GPU required · Docker + Compose · Needs kohya-ss/sd-scripts (sd3 branch) · Models: Flux1-dev, Flux1-dev2pro, Flux1-schnell, custom bases via models.yaml · port 7860 · [Repo](https://github.com/cocktailpeanut/fluxgym) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fluxgym/)</sub>
 
-<a name="generative-models"></a>
-### #&#8288;78 [generative-models](https://github.com/stability-ai/generative-models) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: widely used (89) · Freshness: quiet (7) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · MIT · Dec 2025</sub>
-
-**Stability AI reference code for SDXL, Stable Video Diffusion, SV3D and SV4D.**
-
-Config-driven PyTorch codebase (the `sgm` package) from Stability AI for sampling and training diffusion models: SDXL 0.9/1.0, SDXL-Turbo, Stable Video Diffusion, SV3D and SV4D 2.0. It ships Streamlit and Gradio demos plus standalone sampling scripts, with PyTorch Lightning training configs. Weights are downloaded separately from Hugging Face into `checkpoints/`.
-
-- **+** Covers text-to-image, image-to-video, multi-view (SV3D) and video-to-4D (SV4D 2.0) in one repo
-- **+** Config-driven modules via YAML and instantiate_from_config, with example training configs
-- **+** Streamlit and Gradio demos plus simple CLI sampling scripts
-- **+** Low-VRAM flags such as --encoding_t, --decoding_t and --img_size for video models
-- **−** Last release was 2023-07-27; newer models are announced only in the README
-- **−** Weights not bundled; several have research-only or RAIL++-M licenses separate from the MIT code
-- **−** Tested on Python 3.10 only; package does not declare dependencies
-- **−** Manual install of PyTorch, requirements and sdata; no Docker image
-
-<sub>GPU required · Needs PyTorch 2.0, PyTorch Lightning, Streamlit, Hugging Face model weights, Stability-AI/datapipelines (sdata), rembg (optional) · Models: SDXL-base-1.0, SDXL-refiner-1.0, SDXL-Turbo, Stable Video Diffusion (SVD, SVD-XT), SV3D_u · [Repo](https://github.com/stability-ai/generative-models) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/generative-models/)</sub>
-
 <a name="sd-ppp"></a>
-### #&#8288;79 [sd-ppp](https://github.com/zombieyang/sd-ppp) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (10) · Freshness: active (91) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;79 [sd-ppp](https://github.com/zombieyang/sd-ppp) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (11) · Freshness: active (91) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · BSD-3-Clause · Nov 2026</sub>
 
 **Photoshop plugin that sends layers to ComfyUI or cloud image APIs.**
 
@@ -1420,8 +1420,26 @@ SD-PPP is an unofficial Adobe Photoshop plugin that sends selections, layers or 
 
 <sub>Needs Adobe Photoshop 2025 (26.0+), ComfyUI, Replicate or RunningHUB backend · Models: ComfyUI workflows, Replicate models, RunningHUB AI apps, Nano-banana, Flux-Kontext-Pro/Max · [Repo](https://github.com/zombieyang/sd-ppp) · [🌐 Site ↗](https://sdppp.zombee.tech/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sd-ppp/)</sub>
 
+<a name="generative-models"></a>
+### #&#8288;80 [generative-models](https://github.com/stability-ai/generative-models) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: widely used (89) · Freshness: quiet (7) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · MIT · Dec 2025</sub>
+
+**Stability AI reference code for SDXL, Stable Video Diffusion, SV3D and SV4D.**
+
+Config-driven PyTorch codebase (the `sgm` package) from Stability AI for sampling and training diffusion models: SDXL 0.9/1.0, SDXL-Turbo, Stable Video Diffusion, SV3D and SV4D 2.0. It ships Streamlit and Gradio demos plus standalone sampling scripts, with PyTorch Lightning training configs. Weights are downloaded separately from Hugging Face into `checkpoints/`.
+
+- **+** Covers text-to-image, image-to-video, multi-view (SV3D) and video-to-4D (SV4D 2.0) in one repo
+- **+** Config-driven modules via YAML and instantiate_from_config, with example training configs
+- **+** Streamlit and Gradio demos plus simple CLI sampling scripts
+- **+** Low-VRAM flags such as --encoding_t, --decoding_t and --img_size for video models
+- **−** Last release was 2023-07-27; newer models are announced only in the README
+- **−** Weights not bundled; several have research-only or RAIL++-M licenses separate from the MIT code
+- **−** Tested on Python 3.10 only; package does not declare dependencies
+- **−** Manual install of PyTorch, requirements and sdata; no Docker image
+
+<sub>GPU required · Needs PyTorch 2.0, PyTorch Lightning, Streamlit, Hugging Face model weights, Stability-AI/datapipelines (sdata), rembg (optional) · Models: SDXL-base-1.0, SDXL-refiner-1.0, SDXL-Turbo, Stable Video Diffusion (SVD, SVD-XT), SV3D_u · [Repo](https://github.com/stability-ai/generative-models) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/generative-models/)</sub>
+
 <a name="jaaz"></a>
-### #&#8288;80 [jaaz](https://github.com/11cafe/jaaz) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: popular (53) · Freshness: slowing (32) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · custom license · Mar 2026</sub>
+### #&#8288;81 [jaaz](https://github.com/11cafe/jaaz) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: popular (53) · Freshness: slowing (32) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · custom license · Mar 2026</sub>
 
 **Infinite-canvas agent for generating images and video from prompts or sketches.**
 
@@ -1439,7 +1457,7 @@ Jaaz is a desktop app (Windows, macOS) with an infinite canvas and a chat agent 
 <sub>GPU optional · Needs Python >=3.12, Node.js/npm, ComfyUI (optional), Ollama (optional) · Models: GPT-4o, Midjourney, VEO3, Kling, Seedance · [Repo](https://github.com/11cafe/jaaz) · [📖 Docs ↗](https://mxnpt25l6k.feishu.cn/docx/LvcTdlVbFoRAZWxnhBYcqVydnpc) · [🌐 Site ↗](https://jaaz.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jaaz/)</sub>
 
 <a name="gbro-collage-broll"></a>
-### #&#8288;81 [gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (8) · Freshness: active (87) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
+### #&#8288;82 [gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (9) · Freshness: active (87) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
 
 **Agent skill that turns a voiceover line into a paper-collage B-roll clip.**
 
@@ -1456,8 +1474,26 @@ An agent skill for Codex or Claude-style skill directories that converts a rough
 
 <sub>no GPU · Needs GEMINI_API_KEY, Codex image_gen tool, Python >= 3.10, google-genai >= 2.10.0, ffmpeg, ffprobe · Models: gemini-omni-flash-preview · [Repo](https://github.com/pyang5166/gbro-collage-broll) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gbro-collage-broll/)</sub>
 
+<a name="hunyuan3d-2"></a>
+### #&#8288;83 [hunyuan3d-2](https://github.com/tencent-hunyuan/hunyuan3d-2) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (79) · Freshness: quiet (0) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · Oct 2025</sub>
+
+**Image-to-3D mesh and texture generation models from Tencent.**
+
+Hunyuan3D 2.0 generates textured 3D assets in two stages: a flow-based diffusion transformer (Hunyuan3D-DiT) produces a mesh from an image, then Hunyuan3D-Paint creates a texture map. It ships a diffusers-style Python API, a Gradio app, an HTTP API server and a Blender addon, with multiview, mini and turbo variants of the shape model. Shape generation needs about 6 GB VRAM, and shape plus texture about 16 GB.
+
+- **+** Two-stage pipeline lets Paint texture handcrafted meshes as well as generated ones
+- **+** Variants cover multiview input, 0.6B mini, and turbo/fast distilled models
+- **+** Several interfaces: Python API, Gradio app, HTTP API server, Blender addon
+- **+** Shape-only generation runs in about 6 GB VRAM
+- **−** Texture generation needs custom_rasterizer and differentiable_renderer built from source
+- **−** Full shape plus texture generation needs about 16 GB VRAM
+- **−** License is reported as NOASSERTION; terms must be checked in the repo
+- **−** No Docker image or tagged release; TensorRT version still unchecked in the plan
+
+<sub>GPU required · Needs PyTorch, Gradio, trimesh, Hugging Face model weights · Models: Hunyuan3D-DiT, Hunyuan3D-Paint, Hunyuan3D-2mini, Hunyuan3D-2mv, Hunyuan3D-Delight · port 8080 · [Repo](https://github.com/tencent-hunyuan/hunyuan3d-2) · [▶️ Demo ↗](https://huggingface.co/spaces/tencent/Hunyuan3D-2) · [📖 Docs ↗](https://3d-models.hunyuan.tencent.com/) · [🌐 Site ↗](https://3d.hunyuan.tencent.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuan3d-2/)</sub>
+
 <a name="skyreels-v2"></a>
-### #&#8288;82 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (58) · Freshness: quiet (26) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Jan 2026</sub>
+### #&#8288;84 [skyreels-v2](https://github.com/skyworkai/skyreels-v2) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (59) · Freshness: quiet (26) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · custom license · Jan 2026</sub>
 
 **Open-weight video diffusion models for long text- and image-to-video generation.**
 
@@ -1475,7 +1511,7 @@ SkyReels V2 provides weights and Python inference scripts for autoregressive dif
 <sub>GPU required · Needs PyTorch, Hugging Face model weights, diffusers (optional) · Models: SkyReels-V2-DF 1.3B/14B, SkyReels-V2-T2V 14B, SkyReels-V2-I2V 1.3B/14B, SkyCaptioner-V1 · [Repo](https://github.com/skyworkai/skyreels-v2) · [▶️ Demo ↗](https://www.skyreels.ai/home?utm_campaign=github_SkyReels_V2) · [📖 Docs ↗](https://arxiv.org/pdf/2504.13074) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skyreels-v2/)</sub>
 
 <a name="hunyuanvideo-1-5"></a>
-### #&#8288;83 [hunyuanvideo-1.5](https://github.com/tencent-hunyuan/hunyuanvideo-1.5) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (38) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · custom license · Apr 2026</sub>
+### #&#8288;85 [hunyuanvideo-1.5](https://github.com/tencent-hunyuan/hunyuanvideo-1.5) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (39) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · custom license · Apr 2026</sub>
 
 **8.3B text-to-video and image-to-video diffusion model with training code.**
 
@@ -1492,26 +1528,8 @@ HunyuanVideo-1.5 is Tencent's video generation model: an 8.3B-parameter DiT with
 
 <sub>GPU required · Needs PyTorch, CUDA, Flash Attention, SageAttention, flex-block-attn, sgl-kernel, vLLM (optional, prompt rewrite) · Models: HunyuanVideo-1.5 480p/720p T2V, HunyuanVideo-1.5 480p/720p I2V, 720p and 1080p super-resolution, Diffusers · [Repo](https://github.com/tencent-hunyuan/hunyuanvideo-1.5) · [▶️ Demo ↗](https://hunyuan.tencent.com/video/zh?tabIndex=0) · [📖 Docs ↗](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/main/assets/HunyuanVideo_1_5_Prompt_Handbook_EN.md) · [🌐 Site ↗](https://hunyuan.tencent.com/video/zh?tabIndex=0) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuanvideo-1-5/)</sub>
 
-<a name="hunyuan3d-2"></a>
-### #&#8288;84 [hunyuan3d-2](https://github.com/tencent-hunyuan/hunyuan3d-2) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: popular (79) · Freshness: quiet (0) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · Oct 2025</sub>
-
-**Image-to-3D mesh and texture generation models from Tencent.**
-
-Hunyuan3D 2.0 generates textured 3D assets in two stages: a flow-based diffusion transformer (Hunyuan3D-DiT) produces a mesh from an image, then Hunyuan3D-Paint creates a texture map. It ships a diffusers-style Python API, a Gradio app, an HTTP API server and a Blender addon, with multiview, mini and turbo variants of the shape model. Shape generation needs about 6 GB VRAM, and shape plus texture about 16 GB.
-
-- **+** Two-stage pipeline lets Paint texture handcrafted meshes as well as generated ones
-- **+** Variants cover multiview input, 0.6B mini, and turbo/fast distilled models
-- **+** Several interfaces: Python API, Gradio app, HTTP API server, Blender addon
-- **+** Shape-only generation runs in about 6 GB VRAM
-- **−** Texture generation needs custom_rasterizer and differentiable_renderer built from source
-- **−** Full shape plus texture generation needs about 16 GB VRAM
-- **−** License is reported as NOASSERTION; terms must be checked in the repo
-- **−** No Docker image or tagged release; TensorRT version still unchecked in the plan
-
-<sub>GPU required · Needs PyTorch, Gradio, trimesh, Hugging Face model weights · Models: Hunyuan3D-DiT, Hunyuan3D-Paint, Hunyuan3D-2mini, Hunyuan3D-2mv, Hunyuan3D-Delight · port 8080 · [Repo](https://github.com/tencent-hunyuan/hunyuan3d-2) · [▶️ Demo ↗](https://huggingface.co/spaces/tencent/Hunyuan3D-2) · [📖 Docs ↗](https://3d-models.hunyuan.tencent.com/) · [🌐 Site ↗](https://3d.hunyuan.tencent.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuan3d-2/)</sub>
-
 <a name="echomimic"></a>
-### #&#8288;85 [echomimic](https://github.com/antgroup/echomimic) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (35) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;86 [echomimic](https://github.com/antgroup/echomimic) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (36) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Apr 2026</sub>
 
 **Audio-driven talking-head video from a portrait, with editable landmarks.**
 
@@ -1529,7 +1547,7 @@ EchoMimic is the research code and checkpoints for an AAAI 2025 paper on animati
 <sub>GPU required · Needs CUDA >= 11.7, ffmpeg 4.4 static build, git-lfs, conda · Models: EchoMimic checkpoints (denoising_unet, reference_unet, motion_module, face_locator), sd-vae-ft-mse, sd-image-variations-diffusers, Whisper tiny · port 3000 · [Repo](https://github.com/antgroup/echomimic) · [▶️ Demo ↗](https://huggingface.co/spaces/BadToBest/EchoMimic) · [🌐 Site ↗](https://antgroup.github.io/ai/echomimic/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/echomimic/)</sub>
 
 <a name="step1x-edit"></a>
-### #&#8288;86 [step1x-edit](https://github.com/stepfun-ai/step1x-edit) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (11) · Freshness: recent (59) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;87 [step1x-edit](https://github.com/stepfun-ai/step1x-edit) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (12) · Freshness: recent (59) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Apr 2026</sub>
 
 **Instruction-based image editing model with diffusers inference and LoRA fine-tuning.**
 
@@ -1547,7 +1565,7 @@ Step1X-Edit is an open-weight image editing model that pairs a multimodal LLM, w
 <sub>GPU required · Needs PyTorch, diffusers (custom fork), transformers==4.55.0, flash-attn, xDiT (multi-GPU, optional) · Models: Step1X-Edit v1.0, Step1X-Edit v1.1, Step1X-Edit v1.2, Step1X-Edit FP8 (community), LoRA weights (safetensors) · [Repo](https://github.com/stepfun-ai/step1x-edit) · [▶️ Demo ↗](https://huggingface.co/spaces/stepfun-ai/Step1X-Edit) · [🌐 Site ↗](https://step1x-edit.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/step1x-edit/)</sub>
 
 <a name="flux2"></a>
-### #&#8288;87 [flux2](https://github.com/black-forest-labs/flux2) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (16) · Freshness: slowing (41) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;88 [flux2](https://github.com/black-forest-labs/flux2) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (18) · Freshness: slowing (41) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Mar 2026</sub>
 
 **Reference inference code for FLUX.2 image generation and editing models.**
 
@@ -1565,7 +1583,7 @@ Minimal Python inference code and an interactive CLI for Black Forest Labs' FLUX
 <sub>GPU required · Needs PyTorch (CUDA 12.9), Hugging Face model weights, OpenRouter (optional, prompt upsampling) · Models: FLUX.2 [dev] 32B, FLUX.2 [klein] 4B, FLUX.2 [klein] 9B, FLUX.2 [klein] 9B KV, FLUX.2 [klein] 4B Base · [Repo](https://github.com/black-forest-labs/flux2) · [📖 Docs ↗](https://docs.bfl.ai) · [🌐 Site ↗](https://bfl.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flux2/)</sub>
 
 <a name="splatviz"></a>
-### #&#8288;88 [splatviz](https://github.com/florian-barthel/splatviz) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (5) · Freshness: recent (75) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · May 2026</sub>
+### #&#8288;89 [splatviz](https://github.com/florian-barthel/splatviz) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (5) · Freshness: recent (75) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · May 2026</sub>
 
 **Desktop viewer and live editor for 3D Gaussian Splatting scenes.**
 
@@ -1583,7 +1601,7 @@ splatviz is a Python GUI built on imgui that loads 3D Gaussian Splatting scenes 
 <sub>GPU required · Needs uv, CUDA Toolkit, diff-gaussian-rasterization, OpenGL 3.3, Visual Studio 2022 C++ build tools (Windows) · Models: 3D Gaussian Splatting scenes · [Repo](https://github.com/florian-barthel/splatviz) · [▶️ Demo ↗](https://www.youtube.com/watch?v=AJGSa_wnZS8&ab_channel=FlorianBarthel) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/splatviz/)</sub>
 
 <a name="cogvideo"></a>
-### #&#8288;89 [cogvideo](https://github.com/zai-org/cogvideo) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (76) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2025</sub>
+### #&#8288;90 [cogvideo](https://github.com/zai-org/cogvideo) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (76) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2025</sub>
 
 **Open-weight text-to-video and image-to-video diffusion models with inference and LoRA code.**
 
@@ -1600,26 +1618,8 @@ CogVideoX is a family of open text-to-video and image-to-video transformer model
 
 <sub>GPU required · Needs PyTorch, diffusers, SwissArmyTransformer, torchao · Models: CogVideoX-2B, CogVideoX-5B, CogVideoX-5B-I2V, CogVideoX1.5-5B, CogVideoX1.5-5B-I2V · [Repo](https://github.com/zai-org/cogvideo) · [▶️ Demo ↗](https://huggingface.co/spaces/THUDM/CogVideoX-5B) · [📖 Docs ↗](https://zhipu-ai.feishu.cn/wiki/DHCjw1TrJiTyeukfc9RceoSRnCh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cogvideo/)</sub>
 
-<a name="omnigen2"></a>
-### #&#8288;90 [omnigen2](https://github.com/vectorspacelab/omnigen2) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (33) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Mar 2026</sub>
-
-**Multimodal model for image generation, editing and in-context composition.**
-
-OmniGen2 is a multimodal generation model built on a Qwen-VL-2.5 foundation, with separate decoding pathways for text and images. The repo provides PyTorch inference scripts, Gradio demos (image-only and chat), fine-tuning code and the OmniContext benchmark. It covers visual understanding, text-to-image, instruction-guided editing and in-context generation from reference images.
-
-- **+** One model covers understanding, text-to-image, editing and in-context generation
-- **+** Model CPU offload cuts VRAM by about half; sequential offload goes under 3GB
-- **+** TeaCache (~30% speedup) and TaylorSeer (up to 2X) for faster inference
-- **+** Ships fine-tuning code, X2I2 training dataset and OmniContext benchmark
-- **−** Needs about 17GB VRAM (RTX 3090 class) without offloading
-- **−** Sometimes ignores instructions; README suggests generating several images and picking one
-- **−** In-context generation can alter reference objects; README admits a gap versus GPT-4o
-- **−** Output size defaults to 1024x1024; English prompts are recommended
-
-<sub>GPU required · Needs PyTorch 2.6.0, Python 3.11, flash-attn (optional), Gradio · Models: OmniGen2 (Hugging Face), OmniGen2-EditScore7B LoRA, Qwen-VL-2.5 base · [Repo](https://github.com/vectorspacelab/omnigen2) · [▶️ Demo ↗](https://huggingface.co/spaces/OmniGen2/OmniGen2) · [🌐 Site ↗](https://vectorspacelab.github.io/OmniGen2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omnigen2/)</sub>
-
 <a name="echomimic-v2"></a>
-### #&#8288;91 [echomimic_v2](https://github.com/antgroup/echomimic_v2) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: known (39) · Freshness: slowing (35) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;91 [echomimic_v2](https://github.com/antgroup/echomimic_v2) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (40) · Freshness: slowing (35) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Feb 2026</sub>
 
 **Audio-driven half-body human animation from a reference image and pose sequence.**
 
@@ -1636,26 +1636,26 @@ EchoMimicV2 generates talking half-body human videos from a reference image, an 
 
 <sub>GPU required · Needs CUDA >= 11.7, Python 3.10, PyTorch 2.5.1, xformers, ffmpeg-static 4.4, git-lfs, Whisper tiny audio processor, sd-vae-ft-mse · Models: EchoMimicV2 checkpoints (denoising_unet, reference_unet, motion_module, pose_encoder), sd-vae-ft-mse, Whisper tiny · [Repo](https://github.com/antgroup/echomimic_v2) · [📖 Docs ↗](https://github.com/antgroup/echomimic_v2/discussions/53) · [🌐 Site ↗](https://antgroup.github.io/ai/echomimic_v2/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/echomimic-v2/)</sub>
 
-<a name="waifu2x-ncnn-vulkan"></a>
-### #&#8288;92 [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (25) · Freshness: slowing (31) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Feb 2026</sub>
+<a name="omnigen2"></a>
+### #&#8288;92 [omnigen2](https://github.com/vectorspacelab/omnigen2) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (34) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Mar 2026</sub>
 
-**Command-line waifu2x image upscaler and denoiser using ncnn and Vulkan.**
+**Multimodal model for image generation, editing and in-context composition.**
 
-Upscales and denoises anime-style images with the waifu2x models, running inference through ncnn on any Vulkan-capable GPU (Intel, AMD, NVIDIA, Apple Silicon). Ships as a portable Windows/Linux/macOS executable with models bundled, so no CUDA or Caffe install is needed. It takes jpg/png/webp files or directories and supports tiling, multi-GPU and TTA mode.
+OmniGen2 is a multimodal generation model built on a Qwen-VL-2.5 foundation, with separate decoding pathways for text and images. The repo provides PyTorch inference scripts, Gradio demos (image-only and chat), fine-tuning code and the OmniContext benchmark. It covers visual understanding, text-to-image, instruction-guided editing and in-context generation from reference images.
 
-- **+** Portable binary with models included; no CUDA or Caffe runtime required
-- **+** Runs on Intel, AMD, NVIDIA and Apple Silicon GPUs through Vulkan
-- **+** README benchmarks show faster times than waifu2x-caffe-cui on images up to 2000x2000
-- **+** Tile size and load:proc:save thread counts can be tuned to limit GPU memory
-- **−** CLI only; no GUI or web interface
-- **−** Slower than waifu2x-caffe-cui at 4000x4000 input in the README benchmarks
-- **−** Scope is waifu2x models only; no other upscalers or video pipeline
-- **−** Driver crashes are possible; README advises updating the GPU driver
+- **+** One model covers understanding, text-to-image, editing and in-context generation
+- **+** Model CPU offload cuts VRAM by about half; sequential offload goes under 3GB
+- **+** TeaCache (~30% speedup) and TaylorSeer (up to 2X) for faster inference
+- **+** Ships fine-tuning code, X2I2 training dataset and OmniContext benchmark
+- **−** Needs about 17GB VRAM (RTX 3090 class) without offloading
+- **−** Sometimes ignores instructions; README suggests generating several images and picking one
+- **−** In-context generation can alter reference objects; README admits a gap versus GPT-4o
+- **−** Output size defaults to 1024x1024; English prompts are recommended
 
-<sub>GPU optional · Needs Vulkan driver, ncnn, libwebp, libjpeg-turbo, libpng · Models: waifu2x cunet, upconv_7_anime_style_art_rgb, jpg, png, webp · [Repo](https://github.com/nihui/waifu2x-ncnn-vulkan) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/waifu2x-ncnn-vulkan/)</sub>
+<sub>GPU required · Needs PyTorch 2.6.0, Python 3.11, flash-attn (optional), Gradio · Models: OmniGen2 (Hugging Face), OmniGen2-EditScore7B LoRA, Qwen-VL-2.5 base · [Repo](https://github.com/vectorspacelab/omnigen2) · [▶️ Demo ↗](https://huggingface.co/spaces/OmniGen2/OmniGen2) · [🌐 Site ↗](https://vectorspacelab.github.io/OmniGen2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omnigen2/)</sub>
 
 <a name="comfyui-to-python-extension"></a>
-### #&#8288;93 [comfyui-to-python-extension](https://github.com/pydn/comfyui-to-python-extension) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (12) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Apr 2026</sub>
+### #&#8288;93 [comfyui-to-python-extension](https://github.com/pydn/comfyui-to-python-extension) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (13) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Apr 2026</sub>
 
 **Exports ComfyUI node workflows as standalone runnable Python scripts.**
 
@@ -1672,8 +1672,26 @@ A ComfyUI custom node that adds File -> Save As Script to the web UI, downloadin
 
 <sub>GPU optional · Needs ComfyUI, Python 3.12+, uv, torch · [Repo](https://github.com/pydn/comfyui-to-python-extension) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-to-python-extension/)</sub>
 
+<a name="waifu2x-ncnn-vulkan"></a>
+### #&#8288;94 [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (27) · Freshness: slowing (31) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Feb 2026</sub>
+
+**Command-line waifu2x image upscaler and denoiser using ncnn and Vulkan.**
+
+Upscales and denoises anime-style images with the waifu2x models, running inference through ncnn on any Vulkan-capable GPU (Intel, AMD, NVIDIA, Apple Silicon). Ships as a portable Windows/Linux/macOS executable with models bundled, so no CUDA or Caffe install is needed. It takes jpg/png/webp files or directories and supports tiling, multi-GPU and TTA mode.
+
+- **+** Portable binary with models included; no CUDA or Caffe runtime required
+- **+** Runs on Intel, AMD, NVIDIA and Apple Silicon GPUs through Vulkan
+- **+** README benchmarks show faster times than waifu2x-caffe-cui on images up to 2000x2000
+- **+** Tile size and load:proc:save thread counts can be tuned to limit GPU memory
+- **−** CLI only; no GUI or web interface
+- **−** Slower than waifu2x-caffe-cui at 4000x4000 input in the README benchmarks
+- **−** Scope is waifu2x models only; no other upscalers or video pipeline
+- **−** Driver crashes are possible; README advises updating the GPU driver
+
+<sub>GPU optional · Needs Vulkan driver, ncnn, libwebp, libjpeg-turbo, libpng · Models: waifu2x cunet, upconv_7_anime_style_art_rgb, jpg, png, webp · [Repo](https://github.com/nihui/waifu2x-ncnn-vulkan) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/waifu2x-ncnn-vulkan/)</sub>
+
 <a name="fast-stable-diffusion"></a>
-### #&#8288;94 [fast-stable-diffusion](https://github.com/thelastben/fast-stable-diffusion) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: popular (59) · Freshness: quiet (4) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2025</sub>
+### #&#8288;95 [fast-stable-diffusion](https://github.com/thelastben/fast-stable-diffusion) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: popular (59) · Freshness: quiet (4) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2025</sub>
 
 **Google Colab notebooks for running ComfyUI, AUTOMATIC1111 and DreamBooth.**
 
@@ -1690,7 +1708,7 @@ Three Jupyter notebooks that launch ComfyUI, AUTOMATIC1111 and a DreamBooth fine
 <sub>Needs Google Colab · Models: Stable Diffusion · [Repo](https://github.com/thelastben/fast-stable-diffusion) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fast-stable-diffusion/)</sub>
 
 <a name="stable-diffusion-videos"></a>
-### #&#8288;95 [stable-diffusion-videos](https://github.com/nateraw/stable-diffusion-videos) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: known (40) · Freshness: quiet (24) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;96 [stable-diffusion-videos](https://github.com/nateraw/stable-diffusion-videos) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: known (41) · Freshness: quiet (24) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Dec 2025</sub>
 
 **Python library that morphs between Stable Diffusion prompts to make videos.**
 
@@ -1708,7 +1726,7 @@ Provides a StableDiffusionWalkPipeline that interpolates between prompt and seed
 <sub>GPU optional · Needs PyTorch · Models: Stable Diffusion v1-4 (CompVis) · [Repo](https://github.com/nateraw/stable-diffusion-videos) · [▶️ Demo ↗](https://colab.research.google.com/github/nateraw/stable-diffusion-videos/blob/main/stable_diffusion_videos.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stable-diffusion-videos/)</sub>
 
 <a name="comfyui-mixlab-nodes"></a>
-### #&#8288;96 [comfyui-mixlab-nodes](https://github.com/mixlabpro/comfyui-mixlab-nodes) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (7) · Freshness: recent (50) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Jun 2026</sub>
+### #&#8288;97 [comfyui-mixlab-nodes](https://github.com/mixlabpro/comfyui-mixlab-nodes) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (8) · Freshness: recent (50) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Jun 2026</sub>
 
 **ComfyUI custom node pack for prompts, layers, LLM calls and web-app export.**
 
@@ -1726,7 +1744,7 @@ A ComfyUI custom node collection that adds LLM nodes (OpenAI-compatible endpoint
 <sub>GPU optional · Needs ComfyUI, Python 3.11, PyTorch 2.3.1+cu121, fal.ai API (video nodes), Siliconflow API (optional) · Models: OpenAI-compatible LLM APIs, MiniCPM-V 2.6 int4, TripoSR, rembg models, LaMa · port 8189 · [Repo](https://github.com/mixlabpro/comfyui-mixlab-nodes) · [🌐 Site ↗](https://www.mixcomfy.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-mixlab-nodes/)</sub>
 
 <a name="videocrafter"></a>
-### #&#8288;97 [videocrafter](https://github.com/ailab-cvc/videocrafter) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: known (44) · Freshness: quiet (13) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · custom license · Jan 2026</sub>
+### #&#8288;98 [videocrafter](https://github.com/ailab-cvc/videocrafter) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: known (45) · Freshness: quiet (13) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · custom license · Jan 2026</sub>
 
 **Text-to-video and image-to-video diffusion models with inference scripts.**
 
@@ -1744,7 +1762,7 @@ VideoCrafter is a research toolbox of video diffusion models built on Stable Dif
 <sub>Needs conda, Hugging Face checkpoints · Models: VideoCrafter2 T2V 320x512, VideoCrafter1 T2V 576x1024, VideoCrafter1 T2V 320x512, VideoCrafter1 I2V 640x1024, VideoCrafter1 I2V 320x512 · [Repo](https://github.com/ailab-cvc/videocrafter) · [▶️ Demo ↗](https://huggingface.co/spaces/VideoCrafter/VideoCrafter) · [🌐 Site ↗](https://ailab-cvc.github.io/videocrafter2/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/videocrafter/)</sub>
 
 <a name="comfyui-custom-scripts"></a>
-### #&#8288;98 [comfyui-custom-scripts](https://github.com/pythongosssss/comfyui-custom-scripts) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (22) · Freshness: slowing (31) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Feb 2026</sub>
+### #&#8288;99 [comfyui-custom-scripts](https://github.com/pythongosssss/comfyui-custom-scripts) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (23) · Freshness: slowing (31) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Feb 2026</sub>
 
 **ComfyUI extension pack adding UI helpers and utility nodes.**
 
@@ -1762,7 +1780,7 @@ A collection of front-end scripts and nodes for ComfyUI, installed by cloning in
 <sub>Needs ComfyUI · Models: Stable Diffusion checkpoints, LoRA, embeddings · [Repo](https://github.com/pythongosssss/comfyui-custom-scripts) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-custom-scripts/)</sub>
 
 <a name="yolov5-deepsort-inference"></a>
-### #&#8288;99 [yolov5-deepsort-inference](https://github.com/sharpiless/yolov5-deepsort-inference) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (4) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · GPL-3.0 · Mar 2026</sub>
+### #&#8288;100 [yolov5-deepsort-inference](https://github.com/sharpiless/yolov5-deepsort-inference) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (4) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · GPL-3.0 · Mar 2026</sub>
 
 **YOLOv5 detection plus DeepSort tracking for counting vehicles and pedestrians.**
 
@@ -1780,7 +1798,7 @@ Python project that runs YOLOv5 detection and DeepSort tracking on video to trac
 <sub>GPU optional · Needs PyTorch, YOLOv5 (ultralytics), DeepSort · Models: YOLOv5 .pt weights (default yolov5m.pt) · [Repo](https://github.com/sharpiless/yolov5-deepsort-inference) · [📖 Docs ↗](https://blog.csdn.net/weixin_44936889/article/details/112002152) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yolov5-deepsort-inference/)</sub>
 
 <a name="comfyui-examples"></a>
-### #&#8288;100 [comfyui_examples](https://github.com/comfyanonymous/comfyui_examples) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: known (40) · Freshness: quiet (3) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · custom license · Nov 2025</sub>
+### #&#8288;101 [comfyui_examples](https://github.com/comfyanonymous/comfyui_examples) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: known (41) · Freshness: quiet (3) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · custom license · Nov 2025</sub>
 
 **Example workflows for ComfyUI covering image, video, 3D and audio models.**
 
@@ -1797,7 +1815,7 @@ A collection of example pages for ComfyUI, each with images that embed their wor
 <sub>Needs ComfyUI · Models: SD1.x, SDXL, SD3, Flux, Flux 2 · [Repo](https://github.com/comfyanonymous/comfyui_examples) · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://comfyanonymous.github.io/ComfyUI_Blog/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-examples/)</sub>
 
 <a name="omnigen"></a>
-### #&#8288;101 [omnigen](https://github.com/vectorspacelab/omnigen) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: known (36) · Freshness: quiet (5) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Dec 2025</sub>
+### #&#8288;102 [omnigen](https://github.com/vectorspacelab/omnigen) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: known (37) · Freshness: quiet (5) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Dec 2025</sub>
 
 **Single model for text-to-image, subject-driven generation and image editing.**
 
