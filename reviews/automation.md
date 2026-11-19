@@ -22,7 +22,7 @@ n8n is a node-based canvas for building workflows and multi-step AI agents, with
 <sub>no GPU · Needs Docker · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Nov 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Nov 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
@@ -39,7 +39,7 @@ Activepieces is a no-code workflow builder with loops, branches, auto retries, H
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/activepieces/)</sub>
 
 <a name="youtube-automation-agent"></a>
-### 🥉 [youtube-automation-agent](https://github.com/darkzogx/youtube-automation-agent) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Oct 2026</sub>
+### 🥉 [youtube-automation-agent](https://github.com/darkzogx/youtube-automation-agent) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (36) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Oct 2026</sub>
 
 **Agent that researches, produces and schedules YouTube videos after your approval.**
 
@@ -55,5 +55,23 @@ Node.js app that runs a YouTube channel pipeline on your own machine: topic rese
 - **−** Built around a single operator and channel; multi-user support is not described
 
 <sub>no GPU · Needs Node.js 18.17+, YouTube Data API v3 credentials, Playwright Chromium, ffmpeg-static, text provider API key · Models: Gemini, OpenAI, OpenRouter, Kimi, MiMo · port 3456 · [Repo](https://github.com/darkzogx/youtube-automation-agent) · [📖 Docs ↗](https://github.com/darkzOGx/youtube-automation-agent/blob/main/docs/features.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/youtube-automation-agent/)</sub>
+
+<a name="openoutreach"></a>
+### #&#8288;4 [openoutreach](https://github.com/eracle/openoutreach) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (8) · Freshness: active (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · GPL-3.0 · Oct 2026</sub>
+
+**CLI that finds B2B leads from a product description and emails them.**
+
+OpenOutreach is a Python CLI that takes a product description and target market, discovers matching people through BetterContact's Lead Finder, and has an LLM qualify each one with a written reason. It then buys verified work emails for the leads that pass a confidence gate and sends openers from your own SMTP/IMAP mailbox. It orchestrates two separate packages, OpenOutFind and OpenOutSend, and can also export leads as CSV.
+
+- **+** No list upload needed; input is a product description and target market
+- **+** Each lead exports with a written reason for the fit verdict
+- **+** CSV columns match Instantly and Smartlead importers without mapping
+- **+** Discovery is free; credits are spent only on verified work emails
+- **−** Depends on BetterContact, a paid third-party data provider, for discovery and emails
+- **−** Learning loop is stated to be not yet shown to beat random picking
+- **−** Needs an LLM API key and a mailbox app password before first run
+- **−** README says Apache 2.0 while detected license is GPL-3.0
+
+<sub>no GPU · Needs BetterContact API key, SMTP/IMAP mailbox with app password, uv · Models: OpenAI, Anthropic, OpenAI-compatible endpoints · [Repo](https://github.com/eracle/openoutreach) · [🌐 Site ↗](https://openoutreach.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openoutreach/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
