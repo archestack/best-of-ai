@@ -183,7 +183,7 @@ Lance is a file format, table format and catalog spec written in Rust, with Pyth
 <sub>Compose · [Repo](https://github.com/lance-format/lance) · [📖 Docs ↗](https://lance.org) · [🌐 Site ↗](https://lance.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lance/)</sub>
 
 <a name="chroma"></a>
-### #&#8288;11 [Chroma](https://github.com/chroma-core/chroma) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (84) · Freshness: active (99) · Maintenance: patchy (35) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;11 [Chroma](https://github.com/chroma-core/chroma) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: widely used (84) · Freshness: active (98) · Maintenance: patchy (35) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
 
 **Embedding database with a four-function API for Python and JavaScript.**
 
@@ -219,7 +219,7 @@ pgvector is a PostgreSQL extension (Postgres 13+) that adds vector, halfvec, bit
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · Models: any embedding model; stores precomputed vectors · [Repo](https://github.com/pgvector/pgvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvector/)</sub>
 
 <a name="infinity"></a>
-### #&#8288;13 [infinity](https://github.com/infiniflow/infinity) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [infinity](https://github.com/infiniflow/infinity) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
 
 **Database for hybrid dense, sparse, tensor and full-text search.**
 
@@ -309,7 +309,7 @@ Hnswlib implements the HNSW graph index for approximate nearest neighbor search 
 <sub>no GPU · [Repo](https://github.com/nmslib/hnswlib) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hnswlib/)</sub>
 
 <a name="attu"></a>
-### #&#8288;18 [attu](https://github.com/zilliztech/attu) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
+### #&#8288;18 [attu](https://github.com/zilliztech/attu) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
 
 **Management UI for Milvus clusters with data browsing, search and an AI agent.**
 
@@ -345,7 +345,7 @@ SPTAG is a Microsoft Research and Bing library for approximate nearest neighbor 
 <sub>Docker · Needs swig >= 4.0.2, cmake >= 3.12.0, boost >= 1.67.0, SPDK (optional), RocksDB (optional) · [Repo](https://github.com/microsoft/sptag) · [📖 Docs ↗](https://github.com/microsoft/SPTAG/blob/master/docs/GettingStart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sptag/)</sub>
 
 <a name="deeplake"></a>
-### #&#8288;20 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (55) · Freshness: recent (69) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;20 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (55) · Freshness: recent (68) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
 
 **Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
 
@@ -363,7 +363,7 @@ Deep Lake is a Python-installed database that stores embeddings alongside raw da
 <sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
 
 <a name="sqlite-vec"></a>
-### #&#8288;21 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (50) · Freshness: recent (72) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;21 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (50) · Freshness: recent (71) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · May 2026</sub>
 
 **Vector search extension for SQLite, written in pure C.**
 

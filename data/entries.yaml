@@ -1,5 +1,5 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
-updated_at: 2026-11-18
+updated_at: 2026-11-19
 entries:
   - id: exo
     repo: exo-explore/exo
@@ -791,7 +791,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 38
+    score: 37
   - id: hello-agents
     repo: datawhalechina/hello-agents
     name: hello-agents
@@ -1065,7 +1065,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 41
   - id: ai-for-beginners
     repo: microsoft/ai-for-beginners
     name: ai-for-beginners
@@ -1630,7 +1630,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 56
+    score: 55
   - id: faceswap
     repo: deepfakes/faceswap
     name: faceswap
@@ -5743,7 +5743,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 77
+    score: 78
   - id: laya
     repo: nandhakishorm/laya
     name: laya
@@ -6644,7 +6644,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 88
+    score: 89
   - id: haystack
     repo: deepset-ai/haystack
     name: haystack
@@ -7274,7 +7274,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 25
+    score: 24
   - id: genai-agents
     repo: nirdiamant/genai_agents
     name: genai_agents
@@ -12763,7 +12763,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 82
+    score: 83
   - id: carla
     repo: carla-simulator/carla
     name: carla
@@ -13378,7 +13378,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 77
+    score: 78
   - id: semantica
     repo: semantica-agi/semantica
     name: semantica
@@ -16677,7 +16677,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 77
+    score: 78
   - id: tokenizers
     repo: huggingface/tokenizers
     name: tokenizers
@@ -16980,7 +16980,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 48
+    score: 47
   - id: generative-models
     repo: stability-ai/generative-models
     name: generative-models
@@ -18793,7 +18793,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 74
+    score: 75
   - id: sktime
     repo: sktime/sktime
     name: sktime
@@ -19756,7 +19756,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 47
+    score: 46
   - id: cog
     repo: replicate/cog
     name: cog
@@ -19909,7 +19909,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 77
+    score: 78
   - id: local-deep-researcher
     repo: langchain-ai/local-deep-researcher
     name: local-deep-researcher
@@ -20631,7 +20631,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 61
+    score: 62
   - id: machine-learning-examples
     repo: lazyprogrammer/machine_learning_examples
     name: machine_learning_examples
@@ -21420,7 +21420,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 44
+    score: 45
   - id: geniex
     repo: qualcomm/geniex
     name: geniex
@@ -22476,7 +22476,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 72
+    score: 73
   - id: upsonic
     repo: upsonic/upsonic
     name: upsonic
@@ -22743,7 +22743,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 74
+    score: 75
   - id: skyreels-v2
     repo: skyworkai/skyreels-v2
     name: skyreels-v2
@@ -23810,7 +23810,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 63
+    score: 64
   - id: mlx-lm
     repo: ml-explore/mlx-lm
     name: mlx-lm
@@ -25381,7 +25381,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 79
+    score: 80
   - id: nvidia-nemo-guardrails
     repo: nvidia-nemo/guardrails
     name: guardrails
@@ -26524,7 +26524,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 65
+    score: 66
   - id: tabpfn
     repo: priorlabs/tabpfn
     name: tabpfn
@@ -27887,7 +27887,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 62
+    score: 63
   - id: doctr
     repo: mindee/doctr
     name: doctr
@@ -30079,7 +30079,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 60
+    score: 61
   - id: chinese-clip
     repo: ofa-sys/chinese-clip
     name: chinese-clip
@@ -30769,7 +30769,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 34
+    score: 35
   - id: mimiclaw
     repo: memovai/mimiclaw
     name: mimiclaw
@@ -30920,7 +30920,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 74
+    score: 75
   - id: retrieval-based-voice-conversion-webui
     repo: rvc-project/retrieval-based-voice-conversion-webui
     name: retrieval-based-voice-conversion-webui
@@ -32027,7 +32027,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 71
+    score: 72
   - id: coze-loop
     repo: coze-dev/coze-loop
     name: coze-loop
@@ -33511,7 +33511,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 36
+    score: 35
   - id: bert-vits2
     repo: fishaudio/bert-vits2
     name: bert-vits2
@@ -33595,7 +33595,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 76
+    score: 77
   - id: ernie
     repo: paddlepaddle/ernie
     name: ernie
@@ -33880,7 +33880,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 46
+    score: 47
   - id: unet
     repo: zhixuhao/unet
     name: unet
@@ -34827,7 +34827,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 88
+    score: 89
   - id: nightly-labs-openbot
     repo: nightly-labs/openbot
     name: openbot
@@ -34971,7 +34971,7 @@ entries:
       has_compose: false
       is_template: false
       language: Kotlin
-    score: 32
+    score: 33
   - id: ds-bot
     repo: fei2411/ds-bot
     name: ds-bot
@@ -35640,7 +35640,7 @@ entries:
       has_compose: false
       is_template: false
       language: Kotlin
-    score: 63
+    score: 64
   - id: star-vector
     repo: joanrod/star-vector
     name: star-vector
@@ -36041,7 +36041,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 11
+    score: 10
   - id: mesh-llm
     repo: mesh-llm/mesh-llm
     name: mesh-llm
@@ -36710,7 +36710,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 69
+    score: 70
   - id: youdub-webui
     repo: liuzhao1225/youdub-webui
     name: youdub-webui
@@ -36810,7 +36810,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 31
+    score: 32
   - id: figma-console-mcp
     repo: southleft/figma-console-mcp
     name: figma-console-mcp
@@ -37550,7 +37550,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 88
+    score: 89
   - id: budibase
     repo: budibase/budibase
     name: budibase
@@ -40480,7 +40480,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 18
+    score: 17
   - id: eigenflux
     repo: phronesis-io/eigenflux
     name: eigenflux
@@ -41986,7 +41986,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 64
+    score: 65
   - id: claude-for-legal
     repo: anthropics/claude-for-legal
     name: claude-for-legal
@@ -43081,7 +43081,7 @@ entries:
   - id: yolov13
     repo: imoonlab/yolov13
     name: yolov13
-    status: listed
+    status: stale
     tagline: YOLOv13 real-time object detection models built on the Ultralytics codebase
     summary: YOLOv13 is a research implementation of a real-time object detector, forked from Ultralytics, with Nano, Small, Large and X-Large variants. It adds hypergraph-based feature correlation (HyperACE), a full-pipeline feature distribution scheme (FullPAD) and depthwise-separable blocks. Training, validation, prediction and export to ONNX or TensorRT go through the Ultralytics YOLO Python API, with pretrained COCO weights on the releases page.
     categories:
@@ -43227,7 +43227,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 27
+    score: 26
   - id: deim
     repo: intellindust-ai-lab/deim
     name: deim
@@ -46122,7 +46122,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 72
+    score: 73
   - id: cuml
     repo: nvidia/cuml
     name: cuml
@@ -48167,7 +48167,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 45
+    score: 46
   - id: kiln
     repo: kiln-ai/kiln
     name: kiln
@@ -48464,7 +48464,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 38
+    score: 39
   - id: transformerlab-app
     repo: transformerlab/transformerlab-app
     name: transformerlab-app
@@ -48520,7 +48520,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 54
+    score: 55
   - id: kaolin
     repo: nvidiagameworks/kaolin
     name: kaolin
@@ -48887,7 +48887,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 62
+    score: 63
   - id: cadam
     repo: adam-cad/cadam
     name: cadam
@@ -48939,7 +48939,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 52
+    score: 53
   - id: tradingview-mcp
     repo: atilaahmettaner/tradingview-mcp
     name: tradingview-mcp
@@ -49126,7 +49126,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 66
+    score: 67
   - id: libpostal
     repo: openvenues/libpostal
     name: libpostal
@@ -51069,7 +51069,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 62
+    score: 63
   - id: mujoco-menagerie
     repo: google-deepmind/mujoco_menagerie
     name: mujoco_menagerie
@@ -51204,7 +51204,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 44
+    score: 45
   - id: behaviortree-cpp
     repo: behaviortree/behaviortree.cpp
     name: behaviortree.cpp
@@ -51423,7 +51423,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 62
+    score: 63
   - id: nixtla
     repo: nixtla/nixtla
     name: nixtla
@@ -51508,7 +51508,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 72
+    score: 73
   - id: openclaw-control-center
     repo: tianyidatascience/openclaw-control-center
     name: openclaw-control-center
@@ -51929,7 +51929,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 35
+    score: 34
   - id: diffsinger
     repo: moonintheriver/diffsinger
     name: diffsinger
@@ -52155,7 +52155,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 56
+    score: 57
   - id: fastvideo
     repo: hao-ai-lab/fastvideo
     name: fastvideo
@@ -52352,7 +52352,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 55
+    score: 56
   - id: linfa
     repo: rust-ml/linfa
     name: linfa
@@ -52792,7 +52792,7 @@ entries:
       has_compose: true
       is_template: false
       language: Vue
-    score: 55
+    score: 56
   - id: stable-diffusion-videos
     repo: nateraw/stable-diffusion-videos
     name: stable-diffusion-videos
@@ -53392,7 +53392,7 @@ entries:
       has_compose: false
       is_template: false
       language: C#
-    score: 70
+    score: 71
   - id: deepvariant
     repo: google/deepvariant
     name: deepvariant
@@ -54063,7 +54063,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 52
+    score: 53
   - id: viseron
     repo: roflcoopter/viseron
     name: viseron
@@ -54203,7 +54203,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 68
+    score: 69
   - id: pinto-model-zoo
     repo: pinto0309/pinto_model_zoo
     name: pinto_model_zoo
@@ -55431,7 +55431,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 53
+    score: 54
   - id: researchstudio
     repo: microsoft/researchstudio
     name: researchstudio
@@ -57095,7 +57095,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 33
+    score: 34
   - id: neuralforecast
     repo: nixtla/neuralforecast
     name: neuralforecast
@@ -57351,7 +57351,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 32
+    score: 33
   - id: hunyuandit
     repo: tencent-hunyuan/hunyuandit
     name: hunyuandit
@@ -57646,7 +57646,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 49
+    score: 50
   - id: colabfold
     repo: sokrypton/colabfold
     name: colabfold
@@ -58712,7 +58712,7 @@ entries:
       has_compose: false
       is_template: false
       language: Zig
-    score: 51
+    score: 52
   - id: docetl
     repo: ucbepic/docetl
     name: docetl
@@ -59541,7 +59541,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 70
+    score: 71
   - id: deepchecks
     repo: deepchecks/deepchecks
     name: deepchecks
@@ -59929,7 +59929,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 65
+    score: 66
   - id: burr
     repo: apache/burr
     name: burr
@@ -60062,7 +60062,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 19
+    score: 18
   - id: code-interpreter
     repo: e2b-dev/code-interpreter
     name: code-interpreter
@@ -61240,7 +61240,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 40
   - id: applio
     repo: iahispano/applio
     name: applio
@@ -61485,7 +61485,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 58
   - id: flagai
     repo: flagai-open/flagai
     name: flagai
@@ -61745,7 +61745,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 42
   - id: graphembedding
     repo: shenweichen/graphembedding
     name: graphembedding
@@ -62137,7 +62137,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 36
+    score: 37
   - id: openless
     repo: open-less/openless
     name: openless
@@ -62415,7 +62415,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 33
+    score: 32
   - id: founder-skill
     repo: jakeschincariol/founder-skill
     name: founder-skill
@@ -64335,7 +64335,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 35
+    score: 34
   - id: nndl-practice
     repo: nndl/nndl-practice
     name: nndl-practice
@@ -65682,7 +65682,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 69
+    score: 70
   - id: bonsai-demo
     repo: prismml-eng/bonsai-demo
     name: bonsai-demo
@@ -65734,7 +65734,7 @@ entries:
       has_compose: false
       is_template: false
       language: Shell
-    score: 53
+    score: 54
   - id: maniskill
     repo: mani-skill/maniskill
     name: maniskill
@@ -65927,7 +65927,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 70
+    score: 71
   - id: agentcore-samples
     repo: awslabs/agentcore-samples
     name: agentcore-samples
@@ -65976,7 +65976,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 44
+    score: 45
   - id: compozy
     repo: compozy/compozy
     name: compozy
@@ -66299,7 +66299,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 75
+    score: 76
   - id: phiflow
     repo: tum-pbs/phiflow
     name: phiflow
@@ -66805,7 +66805,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 62
+    score: 63
   - id: textattack
     repo: qdata/textattack
     name: textattack
@@ -66898,7 +66898,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 18
+    score: 19
   - id: geoai
     repo: opengeos/geoai
     name: geoai
@@ -67048,7 +67048,351 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 62
+    score: 63
+  - id: distilabel
+    repo: argilla-io/distilabel
+    name: distilabel
+    status: listed
+    tagline: Python framework for building synthetic data and AI feedback pipelines
+    summary: Distilabel is a Python library for building pipelines that generate synthetic datasets and judge them with LLM feedback. It wraps many LLM providers and local engines behind one API, and results can be pushed to the Hugging Face Hub or exported to Argilla. The original authors have moved on, and community collaborators now maintain it, with recent fixes on the develop branch.
+    categories:
+      - training
+      - agent-frameworks
+    strengths:
+      - One API across OpenAI, Anthropic, vLLM, Ollama, llama.cpp, Transformers, MLX and others
+      - Optional Ray extra distributes pipelines; clustering and minhash dedup extras included
+      - Structured generation through outlines and instructor extras
+      - Pushes datasets to the Hugging Face Hub or exports to Argilla
+    weaknesses:
+      - Original authors have moved on; maintained by community collaborators
+      - Last release was 2025-01-28; latest fixes only on the develop branch
+      - Library only, with no UI; pipelines are written in Python
+      - Each provider integration is an optional extra installed separately
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python 3.9+
+      model_support:
+        - OpenAI
+        - Anthropic
+        - Cohere
+        - Groq
+        - Mistral AI
+        - Vertex AI
+        - Hugging Face Inference Endpoints
+        - Transformers
+        - vLLM
+        - llama.cpp
+        - Ollama
+        - MLX
+        - LiteLLM
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: http://distilabel.argilla.io/
+    audience: Engineers generating synthetic datasets and AI feedback for fine-tuning
+    confidence: 0.8
+    facts:
+      stars: 3456
+      license: Apache-2.0
+      last_commit: 2025-12-15
+      last_release: 2025-01-28
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 8
+  - id: openfold
+    repo: aqlaboratory/openfold
+    name: openfold
+    status: listed
+    tagline: Trainable PyTorch reproduction of DeepMind's AlphaFold 2
+    summary: OpenFold reimplements AlphaFold 2 in PyTorch so the model can be run for protein structure prediction and also retrained. The README defers installation, inference and training instructions to a ReadTheDocs site. Code is Apache-2.0, while DeepMind's pretrained parameters are under CC BY 4.0.
+    categories:
+      - models
+      - ml-frameworks
+    strengths:
+      - Trainable, not inference-only, so AlphaFold 2 can be retrained on new data
+      - Code is Apache-2.0; pretrained parameters are CC BY 4.0
+      - Separate docs site covers installation, inference and training
+      - Backed by a paper and the OpenProteinSet training data
+    weaknesses:
+      - README has no install steps, hardware requirements or usage examples
+      - Pretrained weights come from DeepMind and have a different license than the code
+      - "Narrow scope: protein structure prediction, not a general model library"
+      - Last release (April 2025) is older than the latest commit (December 2025)
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps: []
+      model_support:
+        - AlphaFold 2 parameters
+        - AlphaFold-Multimer
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://openfold.readthedocs.io/en/latest/
+    audience: Structural biology researchers who run or retrain AlphaFold 2
+    confidence: 0.7
+    facts:
+      stars: 3455
+      license: Apache-2.0
+      last_commit: 2025-12-16
+      last_release: 2025-04-26
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 11
+  - id: parl
+    repo: paddlepaddle/parl
+    name: parl
+    status: listed
+    tagline: Reinforcement learning framework with a decorator-based distributed training API
+    summary: PARL is a Python reinforcement learning framework built around Model, Algorithm and Agent abstractions. It ships reference implementations of DQN, DDPG, TD3, SAC, PPO, A2C, IMPALA, QMIX, MADDPG, CQL and ES. The xparl module distributes actors across CPUs or machines by decorating a class with parl.remote_class and calling parl.connect.
+    categories:
+      - ml-frameworks
+      - training
+    strengths:
+      - Many reference RL algorithms (DQN, PPO, SAC, IMPALA, QMIX) with examples
+      - Distributed actors via @parl.remote_class and parl.connect, little code change
+      - Parallelization API usable without paddlepaddle installed
+      - xparl uses CURVE-authenticated, encrypted ZeroMQ and binds to loopback by default
+    weaknesses:
+      - Training algorithms depend on paddlepaddle (>=2.3.1), not PyTorch
+      - xparl executes submitted Python, so only for trusted machines
+      - Security fixes require upgrading all nodes and clients together
+      - Focused on RL only, not LLM agents or serving
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - paddlepaddle>=2.3.1 (optional, for training)
+        - Python 3.6+
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://parl.readthedocs.io/en/latest/index.html
+    audience: RL researchers needing reproducible algorithms and CPU-cluster parallel training
+    confidence: 0.85
+    facts:
+      stars: 3455
+      license: Apache-2.0
+      last_commit: 2026-11-02
+      last_release: 2026-11-02
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 49
+  - id: physicsnemo
+    repo: nvidia/physicsnemo
+    name: physicsnemo
+    status: listed
+    tagline: PyTorch framework for training physics and scientific ML models
+    summary: PhysicsNeMo is a PyTorch library of physics ML models, layers, datapipes and training recipes for CFD, weather, structural mechanics, geophysics and healthcare. Models are plain torch.nn.Module objects (FNO, MeshGraphNet, Transolver, GeoTransolver, DoMINO, GraphCast, diffusion U-Nets and others). ShardTensor domain parallelism splits a single high-resolution sample across GPUs, alongside DDP or FSDP2.
+    categories:
+      - ml-frameworks
+      - training
+    strengths:
+      - Models are ordinary torch.nn.Module objects, usable inside existing PyTorch code
+      - ShardTensor domain parallelism shards one large sample across GPUs, with DDP or FSDP2
+      - "Wide model coverage: FNO, MeshGraphNet, Transolver, DoMINO, GraphCast, Pangu, FengWu, TopoDiff"
+      - Many end-to-end recipes for aerodynamics, weather, crash dynamics, geophysics and healthcare
+    weaknesses:
+      - Install extras target CUDA 12 or 13, so it is built around NVIDIA GPUs
+      - Narrow domain focus; not meant for LLM or general deep learning work
+      - Some models, such as AeroJEPA, are experimental and their API may change
+      - Recipes need domain datasets; separate repos (Curator, CFD) handle data prep and inference
+    specs:
+      ram_min_gb: null
+      gpu: required
+      external_deps:
+        - PyTorch
+        - CUDA 12 or 13
+      model_support:
+        - FNO
+        - MeshGraphNet
+        - Transolver
+        - GeoTransolver
+        - DoMINO
+        - GraphCast
+        - Pangu-Weather
+        - AFNO
+        - Diffusion U-Nets
+        - TopoDiff
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://docs.nvidia.com/physicsnemo/latest/
+    audience: Scientific ML researchers and CAE engineers using NVIDIA GPUs
+    confidence: 0.8
+    facts:
+      stars: 3442
+      license: Apache-2.0
+      last_commit: 2026-11-14
+      last_release: 2026-09-11
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 49
+  - id: claw0
+    repo: shareai-lab/claw0
+    name: claw0
+    status: listed
+    tagline: Ten-section Python tutorial for building an agent gateway from scratch
+    summary: claw0 is a teaching repository of ten runnable Python files, about 7,000 lines in total, that build an AI agent gateway step by step. It covers the agent loop, tool use, JSONL sessions, Telegram and Feishu channels, routing, memory, cron, delivery queues, retries and concurrency lanes. Code and docs are provided in English, Chinese and Japanese, and the sections are meant to prepare readers for the OpenClaw codebase.
+    categories:
+      - learning
+      - assistants
+    strengths:
+      - Each section is one runnable Python file adding a single concept
+      - "Covers production topics: write-ahead delivery queue, auth rotation, overflow compaction, named lanes"
+      - Code and docs co-located in English, Chinese and Japanese
+      - "Small dependency set: anthropic, websockets, croniter, python-telegram-bot, httpx"
+    weaknesses:
+      - Teaching code, not a deployable gateway or installable package
+      - Examples target the Anthropic API; other providers only via compatible endpoints
+      - Only Telegram and Feishu channels are implemented
+      - No release published and no Docker setup
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3.11+
+        - Anthropic API key
+        - Telegram bot (s04)
+        - Feishu (s04)
+      model_support:
+        - Anthropic Claude (or compatible provider)
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Engineers learning how to build a chat-connected agent gateway in Python
+    confidence: 0.85
+    facts:
+      stars: 3440
+      license: null
+      last_commit: 2026-06-30
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 29
+  - id: evoagentx
+    repo: anative-lab/evoagentx
+    name: evoagentx
+    status: listed
+    tagline: Python framework that generates, evaluates and optimizes multi-agent LLM workflows
+    summary: EvoAgentX is a Python library that builds multi-agent workflows from a natural-language goal using WorkFlowGenerator, then runs them with AgentManager and WorkFlow. It includes evaluators and self-evolution algorithms that tune workflows against a dataset. It also ships toolkits (Python/Docker interpreters, search, databases, browser), short- and long-term memory, human-in-the-loop checkpoints and MCP tool support.
+    categories:
+      - agent-frameworks
+      - agent-platforms
+    strengths:
+      - Generates a multi-agent workflow graph from one prompt; graphs can be saved and reloaded
+      - Built-in evaluators and evolution algorithms optimize workflows against your dataset
+      - Toolkits for Python/Docker interpreters, search, MongoDB, PostgreSQL, FAISS and browser automation
+      - Human-in-the-loop approval gating via HITLManager; MCP tools supported
+    weaknesses:
+      - Library only; no web UI or server mentioned in the README
+      - Local models only through LiteLLM; no native local runtime
+      - Detected license is NOASSERTION while the README badge says MIT
+      - Several toolkits need third-party API keys (Google, SerpAPI, Serper, OpenAI image)
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3.11
+        - LLM API key (e.g. OPENAI_API_KEY)
+      model_support:
+        - OpenAI
+        - Qwen (Aliyun)
+        - LiteLLM
+        - SiliconFlow
+        - OpenRouter
+        - Claude
+        - DeepSeek
+        - Kimi
+      web_port: null
+    links:
+      demo: null
+      website: https://evoagentx.org/
+      docs: https://EvoAgentX.github.io/EvoAgentX/
+    audience: Researchers and engineers building and optimizing agentic workflows in Python
+    confidence: 0.8
+    facts:
+      stars: 3435
+      license: NOASSERTION
+      last_commit: 2026-10-31
+      last_release: 2026-06-28
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 47
+  - id: roll
+    repo: alibaba/roll
+    name: roll
+    status: listed
+    tagline: Ray-based reinforcement learning library for post-training LLMs on GPU clusters
+    summary: ROLL is an Alibaba library for reinforcement learning on large language models, covering RLVR (math, code, reasoning), multi-turn agentic RL, distillation, DPO and SFT pipelines. It uses Ray to place roles across GPUs, with vLLM or SGLang for generation and FSDP2 or Megatron-Core for training. Algorithms include PPO, GRPO, GSPO, Reinforce++, TOPR and GiGPO.
+    categories:
+      - training
+    strengths:
+      - Supports Megatron-LM 5D parallelism and FSDP2, scaling from one node to large clusters
+      - Generation runs on vLLM or SGLang; training on FSDP2 or Megatron
+      - Async rollout and async training for both RLVR and agentic pipelines
+      - Runs on NVIDIA, AMD and Huawei Ascend hardware; logs to SwanLab, WandB, TensorBoard
+    weaknesses:
+      - Needs multi-GPU infrastructure and Ray; not practical on a single consumer GPU
+      - No Dockerfile or compose file detected in the repository
+      - Some features are labeled under development, such as FP8 rollout with BF16 training
+      - Many YAML configs and backend choices make initial setup involved
+    specs:
+      ram_min_gb: null
+      gpu: required
+      external_deps:
+        - Ray
+        - vLLM
+        - SGLang
+        - Megatron-Core
+        - FSDP2
+      model_support:
+        - Qwen2.5
+        - Qwen3
+        - Qwen3-MoE
+        - Qwen3-Next
+        - Qwen3.5
+        - Qwen2.5-VL
+        - Qwen3-Omni
+        - Wan2.2
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://alibaba.github.io/ROLL/
+    audience: ML engineers running RL post-training of LLMs on multi-GPU clusters
+    confidence: 0.9
+    facts:
+      stars: 3420
+      license: Apache-2.0
+      last_commit: 2026-10-13
+      last_release: 2026-09-29
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 53
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
@@ -67677,7 +68021,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 62
+    score: 61
   - id: lobehub
     repo: lobehub/lobehub
     name: LobeHub
@@ -69573,7 +69917,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 49
+    score: 48
   - id: maxkb
     repo: 1panel-dev/maxkb
     name: MaxKB
@@ -70967,7 +71311,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 47
+    score: 46
   - id: higress
     repo: higress-group/higress
     name: Higress
@@ -71178,7 +71522,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 70
+    score: 71
   - id: mcp-context-forge
     repo: ibm/mcp-context-forge
     name: ContextForge MCP Gateway
@@ -72375,7 +72719,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 50
+    score: 49
   - id: invokeai
     repo: invoke-ai/invokeai
     name: InvokeAI
@@ -73363,7 +73707,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 75
+    score: 76
   - id: latitude-llm
     repo: latitude-dev/latitude-llm
     name: Latitude
@@ -73455,7 +73799,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 60
+    score: 61
   - id: pezzo
     repo: pezzolabs/pezzo
     name: Pezzo
@@ -73784,7 +74128,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 49
+    score: 48
   - id: openshell
     repo: nvidia/openshell
     name: OpenShell
