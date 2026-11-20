@@ -22,7 +22,7 @@ n8n is a node-based canvas for building workflows and multi-step AI agents, with
 <sub>no GPU · Needs Docker · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Nov 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Nov 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
@@ -39,7 +39,7 @@ Activepieces is a no-code workflow builder with loops, branches, auto retries, H
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/activepieces/)</sub>
 
 <a name="youtube-automation-agent"></a>
-### 🥉 [youtube-automation-agent](https://github.com/darkzogx/youtube-automation-agent) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
+### 🥉 [youtube-automation-agent](https://github.com/darkzogx/youtube-automation-agent) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
 
 **Agent that researches, produces and schedules YouTube videos after your approval.**
 
@@ -57,7 +57,7 @@ Node.js app that runs a YouTube channel pipeline on your own machine: topic rese
 <sub>no GPU · Needs Node.js 18.17+, YouTube Data API v3 credentials, Playwright Chromium, ffmpeg-static, text provider API key · Models: Gemini, OpenAI, OpenRouter, Kimi, MiMo · port 3456 · [Repo](https://github.com/darkzogx/youtube-automation-agent) · [📖 Docs ↗](https://github.com/darkzOGx/youtube-automation-agent/blob/HEAD/docs/features.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/youtube-automation-agent/)</sub>
 
 <a name="openoutreach"></a>
-### #&#8288;4 [openoutreach](https://github.com/eracle/openoutreach) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;4 [openoutreach](https://github.com/eracle/openoutreach) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Nov 2026</sub>
 
 **CLI that finds B2B leads from a product description and emails them.**
 
@@ -73,5 +73,23 @@ OpenOutreach is a Python CLI that takes a product description and target market,
 - **−** README says Apache 2.0 while detected license is GPL-3.0
 
 <sub>no GPU · Needs BetterContact API key, SMTP/IMAP mailbox with app password, uv · Models: OpenAI, Anthropic, OpenAI-compatible endpoints · [Repo](https://github.com/eracle/openoutreach) · [🌐 Site ↗](https://openoutreach.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openoutreach/)</sub>
+
+<a name="flyto-core"></a>
+### #&#8288;5 [flyto-core](https://github.com/flytohub/flyto-core) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (0) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 483 · Apache-2.0 · Nov 2026</sub>
+
+**Python engine that runs YAML workflows of browser, API and file steps.**
+
+flyto-core is the Python execution engine behind Flyto2. It ships 482 registered modules and 41 built-in recipes covering browser automation, APIs, files and data, and can be driven from Python, YAML workflows, a local HTTP API or an MCP server. Each run keeps a per-step record, with checkpoints and replay where safe.
+
+- **+** Per-step run records, with checkpoints and replay where safe
+- **+** Usable from Python, YAML, local HTTP API or MCP
+- **+** 482 modules and 41 built-in recipes ready to run
+- **+** Checks reported tool evidence against the action's contract
+- **−** ROS 2 robot support still lacks full end-to-end hardware sign-off
+- **−** Physical device actions need a trusted host to approve them
+- **−** Browser recipes need Playwright and a Chromium install
+- **−** README gives no LLM or model integration details
+
+<sub>no GPU · Docker · Needs Python, Playwright, Chromium · [Repo](https://github.com/flytohub/flyto-core) · [📖 Docs ↗](https://docs.flyto2.com) · [🌐 Site ↗](https://flyto2.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flyto-core/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
