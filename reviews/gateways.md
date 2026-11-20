@@ -23,7 +23,7 @@ OmniRoute is a TypeScript gateway that exposes one endpoint at localhost:20128/v
 <sub>no GPU · Docker + Compose · Needs Provider accounts or API keys, Node.js (npm) or Docker · Models: OpenAI API, Claude API, Gemini API, Responses API · port 20128 · [Repo](https://github.com/cheaper-inference/omniroute) · [🌐 Site ↗](https://omniroute.online) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omniroute/)</sub>
 
 <a name="headroom"></a>
-### 🥈 [headroom](https://github.com/headroomlabs-ai/headroom) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · Apache-2.0 · Nov 2026</sub>
+### 🥈 [headroom](https://github.com/headroomlabs-ai/headroom) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 80k · Apache-2.0 · Nov 2026</sub>
 
 **Compresses tool outputs, logs and history before they reach the LLM.**
 
@@ -256,7 +256,7 @@ ClawRouter runs a local proxy on port 8402 with an OpenAI-compatible endpoint. I
 <sub>no GPU · Needs Node.js, BlockRun gateway (blockrun.ai), USDC wallet (Solana or Base) or BlockRun API key · Models: OpenAI, Anthropic, Google, xAI, DeepSeek · port 8402 · [Repo](https://github.com/blockrunai/clawrouter) · [🌐 Site ↗](https://blockrun.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawrouter/)</sub>
 
 <a name="bifrost"></a>
-### #&#8288;15 [Bifrost](https://github.com/maximhq/bifrost) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [Bifrost](https://github.com/maximhq/bifrost) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Nov 2026</sub>
 
 **Go AI gateway with web UI, fallbacks, budgets and semantic caching.**
 
@@ -273,26 +273,8 @@ Bifrost is a Go AI gateway that fronts 23+ providers (OpenAI, Anthropic, Bedrock
 
 <sub>no GPU · Models: OpenAI, Anthropic, AWS Bedrock, Google Vertex, Azure, Cerebras, Cohere, Mistral, Ollama, Groq and more · port 8080 · [Repo](https://github.com/maximhq/bifrost) · [📖 Docs ↗](https://docs.getbifrost.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bifrost/)</sub>
 
-<a name="axonhub"></a>
-### #&#8288;16 [axonhub](https://github.com/looplj/axonhub) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · Apache-2.0 · Nov 2026</sub>
-
-**LLM gateway that translates between OpenAI, Anthropic and Gemini APIs.**
-
-AxonHub is a Go gateway that accepts requests in OpenAI, Anthropic or Gemini format and translates them for the configured provider channel, so a client SDK can call another vendor's model without code changes. It adds request tracing, RBAC with usage quotas, per-request cost tracking and load balancing with failover. Embedding, rerank and image generation endpoints are also supported.
-
-- **+** Cross-format translation: call Claude with the OpenAI SDK or GPT with the Anthropic SDK
-- **+** Per-request cost breakdown for input, output and cached tokens, plus thread-level tracing
-- **+** Covers text, image generation, embedding and rerank APIs across about a dozen providers
-- **+** Public demo instance with a demo account for trying the admin UI
-- **−** Realtime API is listed as Todo; AWS Bedrock and Google Cloud channels are still in testing
-- **−** Mixed licensing: Apache-2.0 plus LGPL-3.0 for the llm directory
-- **−** Deployment is delegated to an agent skill; the README gives no manual install steps
-- **−** Main README is mostly Chinese, with sponsor blocks taking much of the page
-
-<sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Gemini, DeepSeek, Zhipu · port 8090 · [Repo](https://github.com/looplj/axonhub) · [▶️ Demo ↗](https://axonhub.reveric.app) · [📖 Docs ↗](https://deepwiki.com/looplj/axonhub) · [🌐 Site ↗](https://github.com/looplj/axonhub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/axonhub/)</sub>
-
 <a name="treg"></a>
-### #&#8288;17 [treg](https://github.com/superdesigndev/treg) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · custom license · Nov 2026</sub>
+### #&#8288;16 [treg](https://github.com/superdesigndev/treg) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · custom license · Nov 2026</sub>
 
 **Tool registry proxy giving agents one token for a priced API catalog.**
 
@@ -308,6 +290,24 @@ treg is a proxy and CLI that lets an agent call a catalog of third-party endpoin
 - **−** Sends anonymous usage to PostHog by default when using treg.to
 
 <sub>no GPU · Needs uv, tmux, Node 22.12+ (dashboard build), SQLite, PostHog (CLI telemetry, optional) · port 18790 · [Repo](https://github.com/superdesigndev/treg) · [📖 Docs ↗](https://treg.to/llms.txt) · [🌐 Site ↗](https://treg.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/treg/)</sub>
+
+<a name="axonhub"></a>
+### #&#8288;17 [axonhub](https://github.com/looplj/axonhub) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · Apache-2.0 · Nov 2026</sub>
+
+**LLM gateway that translates between OpenAI, Anthropic and Gemini APIs.**
+
+AxonHub is a Go gateway that accepts requests in OpenAI, Anthropic or Gemini format and translates them for the configured provider channel, so a client SDK can call another vendor's model without code changes. It adds request tracing, RBAC with usage quotas, per-request cost tracking and load balancing with failover. Embedding, rerank and image generation endpoints are also supported.
+
+- **+** Cross-format translation: call Claude with the OpenAI SDK or GPT with the Anthropic SDK
+- **+** Per-request cost breakdown for input, output and cached tokens, plus thread-level tracing
+- **+** Covers text, image generation, embedding and rerank APIs across about a dozen providers
+- **+** Public demo instance with a demo account for trying the admin UI
+- **−** Realtime API is listed as Todo; AWS Bedrock and Google Cloud channels are still in testing
+- **−** Mixed licensing: Apache-2.0 plus LGPL-3.0 for the llm directory
+- **−** Deployment is delegated to an agent skill; the README gives no manual install steps
+- **−** Main README is mostly Chinese, with sponsor blocks taking much of the page
+
+<sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Gemini, DeepSeek, Zhipu · port 8090 · [Repo](https://github.com/looplj/axonhub) · [▶️ Demo ↗](https://axonhub.reveric.app) · [📖 Docs ↗](https://deepwiki.com/looplj/axonhub) · [🌐 Site ↗](https://github.com/looplj/axonhub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/axonhub/)</sub>
 
 <a name="higress"></a>
 ### #&#8288;18 [Higress](https://github.com/higress-group/higress) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · Apache-2.0 · Nov 2026</sub>
@@ -433,7 +433,7 @@ Logfire is a Python SDK wrapping OpenTelemetry that emits traces, metrics and lo
 <sub>no GPU · Needs Logfire platform or other OTel-compatible backend · [Repo](https://github.com/pydantic/logfire) · [📖 Docs ↗](https://pydantic.dev/docs/logfire/) · [🌐 Site ↗](https://pydantic.dev/logfire) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/logfire/)</sub>
 
 <a name="archestra"></a>
-### #&#8288;25 [archestra](https://github.com/archestra-ai/archestra) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · custom license · Nov 2026</sub>
+### #&#8288;25 [archestra](https://github.com/archestra-ai/archestra) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
 
 **Self-hosted LLM and MCP gateway with chat, agents, and guardrails.**
 
@@ -522,26 +522,8 @@ OptiLLM is a Python proxy that exposes an OpenAI-compatible chat completions end
 
 <sub>GPU optional · Docker + Compose · Needs OpenAI-compatible API or LiteLLM provider, spaCy (privacy plugin), Selenium and Chrome (web_search plugin) · Models: OpenAI, Azure OpenAI, Cerebras, Anthropic, Google Gemini · port 8000 · [Repo](https://github.com/algorithmicsuperintelligence/optillm) · [▶️ Demo ↗](https://huggingface.co/spaces/codelion/optillm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/optillm/)</sub>
 
-<a name="semantic-router"></a>
-### #&#8288;30 [semantic-router](https://github.com/vllm-project/semantic-router) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
-
-**Policy-driven router that selects or combines models behind one API endpoint.**
-
-vLLM Semantic Router sits between an agent harness and several configured model backends (local, private, cloud) and selects or combines models for each call based on a user-defined policy. Clients call one inference endpoint with a public model ID such as `vllm-sr/auto`. Policy can weigh quality, latency and cost, and keep calls within approved locations. Written in Go.
-
-- **+** One endpoint (vllm-sr/auto) fronts many local, private and cloud backends
-- **+** Policy can set quality, latency and cost priorities and location limits
-- **+** Publishes its own routing models on Hugging Face and a hallucination detection endpoint
-- **+** Hosted playground available; Apache-2.0 with recent commits and releases
-- **−** README gives no RAM, GPU or port requirements
-- **−** Install is a curl-to-bash script; other methods documented only externally
-- **−** README is mostly news and links; configuration details live on the docs site
-- **−** Does not run the agent loop or tools; needs a separate agent harness
-
-<sub>Docker · Models: local, private and cloud backends · [Repo](https://github.com/vllm-project/semantic-router) · [📖 Docs ↗](https://vllm-sr.ai/docs/intro/) · [🌐 Site ↗](https://vllm-sr.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-router/)</sub>
-
 <a name="latitude-llm"></a>
-### #&#8288;31 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
+### #&#8288;30 [Latitude](https://github.com/latitude-dev/latitude-llm) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
 
 **Agent observability that groups failures and dispatches coding agents to fix them.**
 
@@ -558,7 +540,7 @@ Captures traces, sessions and tool calls via a one-line SDK (TypeScript, Python)
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, ClickHouse, Redis · Models: OpenAI, Anthropic, Bedrock, Vercel AI SDK and LangChain apps, any OpenTelemetry source · [Repo](https://github.com/latitude-dev/latitude-llm) · [📖 Docs ↗](https://docs.latitude.so) · [🌐 Site ↗](https://latitude.so) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/latitude-llm/)</sub>
 
 <a name="switchyard"></a>
-### #&#8288;32 [switchyard](https://github.com/nvidia-nemo/switchyard) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [switchyard](https://github.com/nvidia-nemo/switchyard) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
 
 **Rust library that routes each agent request to an efficient or capable model.**
 
@@ -574,6 +556,24 @@ Switchyard is a Rust routing library (libsy) that decides which model handles ea
 - **−** Cheaper calls may not mean cheaper completed tasks; needs your own evaluation
 
 <sub>Docker · Needs Rust toolchain, Python 3 (NeMo Relay plugin source build) · Models: OpenAI-compatible APIs, Anthropic-compatible APIs · [Repo](https://github.com/nvidia-nemo/switchyard) · [📖 Docs ↗](https://nvidia-nemo.github.io/Switchyard/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/switchyard/)</sub>
+
+<a name="semantic-router"></a>
+### #&#8288;32 [semantic-router](https://github.com/vllm-project/semantic-router) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
+
+**Policy-driven router that selects or combines models behind one API endpoint.**
+
+vLLM Semantic Router sits between an agent harness and several configured model backends (local, private, cloud) and selects or combines models for each call based on a user-defined policy. Clients call one inference endpoint with a public model ID such as `vllm-sr/auto`. Policy can weigh quality, latency and cost, and keep calls within approved locations. Written in Go.
+
+- **+** One endpoint (vllm-sr/auto) fronts many local, private and cloud backends
+- **+** Policy can set quality, latency and cost priorities and location limits
+- **+** Publishes its own routing models on Hugging Face and a hallucination detection endpoint
+- **+** Hosted playground available; Apache-2.0 with recent commits and releases
+- **−** README gives no RAM, GPU or port requirements
+- **−** Install is a curl-to-bash script; other methods documented only externally
+- **−** README is mostly news and links; configuration details live on the docs site
+- **−** Does not run the agent loop or tools; needs a separate agent harness
+
+<sub>Docker · Models: local, private and cloud backends · [Repo](https://github.com/vllm-project/semantic-router) · [📖 Docs ↗](https://vllm-sr.ai/docs/intro/) · [🌐 Site ↗](https://vllm-sr.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-router/)</sub>
 
 <a name="agentgateway"></a>
 ### #&#8288;33 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
@@ -611,26 +611,8 @@ Plano is an Envoy-based proxy for agentic apps: a YAML file declares agents (HTT
 
 <sub>no GPU · Docker · Needs Plano-Orchestrator routing model (hosted or local) · Models: OpenAI, Anthropic and other providers configured as model_providers · [Repo](https://github.com/katanemo/plano) · [📖 Docs ↗](https://docs.planoai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/plano/)</sub>
 
-<a name="router"></a>
-### #&#8288;35 [router](https://github.com/weave-os/router) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Nov 2026</sub>
-
-**Proxy that picks a model per request across Anthropic, OpenAI and Gemini APIs.**
-
-Weave Router is a Go proxy that chooses a model for each request using an embedding and cluster scorer based on Avengers-Pro. It accepts Anthropic Messages, OpenAI Chat Completions and Gemini requests, and forwards to Anthropic, OpenAI, Gemini, OpenRouter or any OpenAI-compatible endpoint. A hosted router is offered, or it can be self-hosted with Postgres and a dashboard.
-
-- **+** Accepts Anthropic, OpenAI and Gemini request formats, with streaming, tool calls and vision
-- **+** Installer configures Claude Code, Codex, Copilot, opencode and pi, with on/off switching
-- **+** POST /v1/route shows a routing decision without calling a model
-- **+** Self-hosted mode includes a dashboard, rk_ keys and OpenTelemetry tracing
-- **−** README recommends the Weave-managed router over self-hosting
-- **−** Self-hosted HMM policy is frozen, without training, online learning or registry
-- **−** Cursor cannot reach a localhost router; needs a public URL and a paid seat
-- **−** Multi-replica deployments additionally need Pub/Sub for cache invalidation
-
-<sub>no GPU · Docker + Compose · Needs Docker, Postgres, Go 1.26+, Node 18+ (installer), Provider API key, Pub/Sub (multi-replica) · Models: Anthropic, OpenAI, Gemini, OpenRouter, OpenAI-compatible endpoints · port 8080 · [Repo](https://github.com/weave-os/router) · [📖 Docs ↗](https://github.com/weave-os/router/blob/main/docs/README.md) · [🌐 Site ↗](https://weaveos.com/router/quickstart) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/router/)</sub>
-
 <a name="evalscope"></a>
-### #&#8288;36 [evalscope](https://github.com/modelscope/evalscope) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;35 [evalscope](https://github.com/modelscope/evalscope) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
 
 **Evaluation and stress-testing framework for LLM, VLM and embedding models.**
 
@@ -646,6 +628,24 @@ EvalScope is a Python CLI and library from the ModelScope community that runs be
 - **−** No Docker image or compose file provided in the repository
 
 <sub>GPU optional · Needs Docker or E2B (agent/code benchmarks), OpenCompass, VLMEvalKit, RAGEval (optional backends) · Models: OpenAI-compatible API, Anthropic API, LLM, VLM, Embedding · [Repo](https://github.com/modelscope/evalscope) · [📖 Docs ↗](https://evalscope.readthedocs.io/en/latest/) · [🌐 Site ↗](https://modelscope.github.io/evalscope/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evalscope/)</sub>
+
+<a name="router"></a>
+### #&#8288;36 [router](https://github.com/weave-os/router) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Nov 2026</sub>
+
+**Proxy that picks a model per request across Anthropic, OpenAI and Gemini APIs.**
+
+Weave Router is a Go proxy that chooses a model for each request using an embedding and cluster scorer based on Avengers-Pro. It accepts Anthropic Messages, OpenAI Chat Completions and Gemini requests, and forwards to Anthropic, OpenAI, Gemini, OpenRouter or any OpenAI-compatible endpoint. A hosted router is offered, or it can be self-hosted with Postgres and a dashboard.
+
+- **+** Accepts Anthropic, OpenAI and Gemini request formats, with streaming, tool calls and vision
+- **+** Installer configures Claude Code, Codex, Copilot, opencode and pi, with on/off switching
+- **+** POST /v1/route shows a routing decision without calling a model
+- **+** Self-hosted mode includes a dashboard, rk_ keys and OpenTelemetry tracing
+- **−** README recommends the Weave-managed router over self-hosting
+- **−** Self-hosted HMM policy is frozen, without training, online learning or registry
+- **−** Cursor cannot reach a localhost router; needs a public URL and a paid seat
+- **−** Multi-replica deployments additionally need Pub/Sub for cache invalidation
+
+<sub>no GPU · Docker + Compose · Needs Docker, Postgres, Go 1.26+, Node 18+ (installer), Provider API key, Pub/Sub (multi-replica) · Models: Anthropic, OpenAI, Gemini, OpenRouter, OpenAI-compatible endpoints · port 8080 · [Repo](https://github.com/weave-os/router) · [📖 Docs ↗](https://github.com/weave-os/router/blob/main/docs/README.md) · [🌐 Site ↗](https://weaveos.com/router/quickstart) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/router/)</sub>
 
 <a name="inspect-ai"></a>
 ### #&#8288;37 [inspect_ai](https://github.com/ukgovernmentbeis/inspect_ai) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Nov 2026</sub>
@@ -735,7 +735,7 @@ GoModel is a gateway written in Go that exposes OpenAI-compatible (/v1) and Anth
 <sub>no GPU · Docker + Compose · Needs Redis (optional), PostgreSQL (optional), MongoDB (optional), Prometheus (optional) · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Amazon Bedrock · port 8080 · [Repo](https://github.com/enterpilot/gomodel) · [▶️ Demo ↗](https://demo.enterpilot.io/admin/dashboard?utm_source=readme) · [📖 Docs ↗](https://gomodel.enterpilot.io/docs?utm_source=readme) · [🌐 Site ↗](https://gomodel.enterpilot.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gomodel/)</sub>
 
 <a name="cost-xray"></a>
-### #&#8288;42 [cost-xray](https://github.com/tigerless-labs/cost-xray) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Nov 2026</sub>
+### #&#8288;42 [cost-xray](https://github.com/tigerless-labs/cost-xray) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Nov 2026</sub>
 
 **Per-source token and cost breakdown of Claude Code and Codex API requests.**
 
@@ -825,7 +825,7 @@ Sits as an OpenAI-compatible gateway in front of 100+ models with routing and au
 <sub>no GPU · Docker + Compose · Needs Supabase (database and auth), ClickHouse, MinIO, Cloudflare Workers runtime (proxy) · Models: 100+ providers via gateway (OpenAI, Azure, Anthropic, Bedrock, Gemini, Groq, Together, Fireworks, Ollama) · [Repo](https://github.com/helicone/helicone) · [▶️ Demo ↗](https://helicone.ai/demo) · [📖 Docs ↗](https://docs.helicone.ai/) · [🌐 Site ↗](https://www.helicone.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helicone/)</sub>
 
 <a name="claude-tap"></a>
-### #&#8288;47 [claude-tap](https://github.com/liaohch3/claude-tap) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · MIT · Nov 2026</sub>
+### #&#8288;47 [claude-tap](https://github.com/liaohch3/claude-tap) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · MIT · Nov 2026</sub>
 
 **Local proxy and trace viewer for inspecting AI coding agent API traffic.**
 
@@ -861,7 +861,7 @@ Traceroot records model calls, tool calls and responses from agent applications,
 <sub>no GPU · Docker + Compose · Needs Docker Compose, Make, Git · Models: OpenAI, Anthropic, Google Gemini, Mistral, OpenRouter · port 3000 · [Repo](https://github.com/traceroot-ai/traceroot) · [📖 Docs ↗](https://traceroot.ai/docs) · [🌐 Site ↗](https://traceroot.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/traceroot/)</sub>
 
 <a name="coze-loop"></a>
-### #&#8288;49 [coze-loop](https://github.com/coze-dev/coze-loop) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (51) · Freshness: active (90) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;49 [coze-loop](https://github.com/coze-dev/coze-loop) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (50) · Freshness: active (90) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Nov 2026</sub>
 
 **Prompt playground, evaluation and tracing platform for developing and monitoring AI agents.**
 
@@ -931,26 +931,8 @@ Metorial sits between AI clients or agents (Claude, Cursor, Codex, custom agents
 
 <sub>no GPU · Needs Docker, PostgreSQL, Redis, MongoDB, Bun · Models: OpenAI, Anthropic, Google Gemini, Mistral, DeepSeek · [Repo](https://github.com/metorial/metorial) · [📖 Docs ↗](https://metorial.com/docs) · [🌐 Site ↗](https://metorial.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metorial/)</sub>
 
-<a name="paritok-4b-v1"></a>
-### #&#8288;53 [paritok-4b-v1](https://github.com/paritok-official/paritok-4b-v1) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Nov 2026</sub>
-
-**Compression proxy that shrinks coding-agent prompts before they reach the LLM API.**
-
-Paritok is a proxy between a coding agent (Claude Code, Cursor, Codex, OpenHands) and the Anthropic or OpenAI-compatible API. It filters tool schemas with a local embedding model, compresses tool results and file reads with a fine-tuned Qwen3-4B model, and summarizes old history. Compressed segments are tagged [REF:id] and the agent can fetch the originals with read_original. Savings figures come from the project's own tests.
-
-- **+** Works by setting ANTHROPIC_BASE_URL or OPENAI_BASE_URL; no agent code changes
-- **+** Compressed content stays recoverable through read_original, so nothing is permanently dropped
-- **+** Tool-schema filter runs locally on CPU with bge-small (~130MB); README reports ~29K to ~8K tokens
-- **+** Self-hosted via Ollama (~2.5GB q4) or vLLM LoRA serving; hosted GPU option exists
-- **−** Savings figures come from the authors' own tests, with long-session numbers partly projected
-- **−** Content compression gives only a few percent on a single turn
-- **−** Needs Ollama or a vLLM server (24GB GPU) running alongside the proxy
-- **−** First request waits ~10-15s while the embedding model downloads
-
-<sub>GPU optional · Needs Ollama, vLLM (alternative), sentence-transformers (toolselect extra), Anthropic or OpenAI-compatible upstream API · Models: Anthropic API, OpenAI-compatible APIs (Groq, OpenRouter), Qwen3-4B LoRA (paritok-4b-v1) · port 8080 · [Repo](https://github.com/paritok-official/paritok-4b-v1) · [🌐 Site ↗](https://paritok.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paritok-4b-v1/)</sub>
-
 <a name="llmrouter"></a>
-### #&#8288;54 [llmrouter](https://github.com/ulab-uiuc/llmrouter) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Oct 2026</sub>
+### #&#8288;53 [llmrouter](https://github.com/ulab-uiuc/llmrouter) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Nov 2026</sub>
 
 **Python library for training and running routers that pick an LLM per query.**
 
@@ -967,44 +949,26 @@ LLMRouter is a Python library and CLI for training, evaluating and running route
 
 <sub>GPU optional · Needs Python 3.10, LLM provider API keys (NVIDIA, OpenAI, Anthropic) or a local OpenAI-compatible server · Models: OpenAI-compatible APIs, NVIDIA endpoints, OpenAI, Anthropic, Ollama · [Repo](https://github.com/ulab-uiuc/llmrouter) · [📖 Docs ↗](https://ulab-uiuc.github.io/LLMRouter/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llmrouter/)</sub>
 
-<a name="portkey-gateway"></a>
-### #&#8288;55 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (78) · Freshness: recent (66) · Maintenance: weak (2) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
+<a name="paritok-4b-v1"></a>
+### #&#8288;54 [paritok-4b-v1](https://github.com/paritok-official/paritok-4b-v1) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Nov 2026</sub>
 
-**Node.js LLM gateway with fallbacks, load balancing and guardrails.**
+**Compression proxy that shrinks coding-agent prompts before they reach the LLM API.**
 
-Portkey Gateway is a Node.js proxy that routes requests to 250+ LLM providers through an OpenAI-style API on port 8787, runnable with npx, Docker or Cloudflare Workers. Config objects add retries, fallbacks, load balancing, conditional routing, timeouts and 40+ guardrails; a console at /public shows local logs. Semantic caching, prompt management and RBAC are hosted or enterprise features.
+Paritok is a proxy between a coding agent (Claude Code, Cursor, Codex, OpenHands) and the Anthropic or OpenAI-compatible API. It filters tool schemas with a local embedding model, compresses tool results and file reads with a fine-tuned Qwen3-4B model, and summarizes old history. Compressed segments are tagged [REF:id] and the agent can fetch the originals with read_original. Savings figures come from the project's own tests.
 
-- **+** Runs with npx in Node.js; 122 KB footprint, sub-millisecond overhead claimed
-- **+** Fallbacks, retries, load balancing, conditional routing and timeouts via config
-- **+** 40+ built-in guardrails plus bring-your-own
-- **+** Works with OpenAI, LangChain, LlamaIndex, CrewAI and Autogen SDKs
-- **−** Semantic caching, prompt management and provider optimization are hosted or enterprise only
-- **−** Last commit 2026-05-25; Gateway 2.0 enterprise merge still pre-release
-- **−** Docs links are portkey.wiki short links
-- **−** RBAC, PII redaction and compliance features are enterprise
+- **+** Works by setting ANTHROPIC_BASE_URL or OPENAI_BASE_URL; no agent code changes
+- **+** Compressed content stays recoverable through read_original, so nothing is permanently dropped
+- **+** Tool-schema filter runs locally on CPU with bge-small (~130MB); README reports ~29K to ~8K tokens
+- **+** Self-hosted via Ollama (~2.5GB q4) or vLLM LoRA serving; hosted GPU option exists
+- **−** Savings figures come from the authors' own tests, with long-session numbers partly projected
+- **−** Content compression gives only a few percent on a single turn
+- **−** Needs Ollama or a vLLM server (24GB GPU) running alongside the proxy
+- **−** First request waits ~10-15s while the embedding model downloads
 
-<sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Cohere, Mistral, Together, Perplexity, Ollama, Bedrock, Groq and 45+ providers · port 8787 · [Repo](https://github.com/portkey-ai/gateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/portkey-gateway/)</sub>
-
-<a name="terminal-bench-1"></a>
-### #&#8288;56 [terminal-bench-1](https://github.com/harbor-framework/terminal-bench-1) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (14) · Freshness: active (85) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Jul 2026</sub>
-
-**Benchmark of about 100 terminal tasks with a harness for testing LLM agents.**
-
-Terminal-Bench is a dataset of command-line tasks plus an execution harness that connects a language model to a sandboxed terminal. Each task has an English instruction, a test script and a reference solution. The `tb` CLI, installed from pip, runs agents such as `terminus` against terminal-bench-core v0.1.1, which matches the leaderboard. The README points new users to harbor for Terminal-Bench 2.0.
-
-- **+** Each task ships an instruction, a test script and an oracle solution
-- **+** Installs as a pip package and runs through the `tb run` CLI
-- **+** Versioned dataset (core 0.1.1) tied to a public leaderboard
-- **+** Runs tasks in a Docker sandbox with configurable concurrency (--n-concurrent)
-- **−** README marks it beta with roughly 100 tasks
-- **−** New users are directed to harbor for Terminal-Bench 2.0
-- **−** Requires Docker and uv installed on the host
-- **−** README example uses a hosted model API; local model setup is not described
-
-<sub>no GPU · Docker + Compose · Needs Docker, uv · Models: anthropic/claude-3-7-latest (README example) · [Repo](https://github.com/harbor-framework/terminal-bench-1) · [📖 Docs ↗](https://www.tbench.ai/docs) · [🌐 Site ↗](https://www.tbench.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/terminal-bench-1/)</sub>
+<sub>GPU optional · Needs Ollama, vLLM (alternative), sentence-transformers (toolselect extra), Anthropic or OpenAI-compatible upstream API · Models: Anthropic API, OpenAI-compatible APIs (Groq, OpenRouter), Qwen3-4B LoRA (paritok-4b-v1) · port 8080 · [Repo](https://github.com/paritok-official/paritok-4b-v1) · [🌐 Site ↗](https://paritok.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paritok-4b-v1/)</sub>
 
 <a name="orcareplay"></a>
-### #&#8288;57 [orcareplay](https://github.com/continuum-ai-corp/orcareplay) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (0) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 780 · Apache-2.0 · Oct 2026</sub>
+### #&#8288;55 [orcareplay](https://github.com/continuum-ai-corp/orcareplay) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · Oct 2026</sub>
 
 **Record coding-agent runs and replay or fork them offline onto other models.**
 
@@ -1021,8 +985,26 @@ OrcaReplay puts a local proxy in front of an unmodified coding agent (Claude Cod
 
 <sub>no GPU · Docker · Needs Node.js 20+, Provider API keys or an OpenAI-compatible gateway (for fork and compare) · Models: Anthropic, OpenAI, OpenAI-compatible gateways (OrcaRouter default) · [Repo](https://github.com/continuum-ai-corp/orcareplay) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/orcareplay/)</sub>
 
+<a name="portkey-gateway"></a>
+### #&#8288;56 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (78) · Freshness: recent (66) · Maintenance: weak (2) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
+
+**Node.js LLM gateway with fallbacks, load balancing and guardrails.**
+
+Portkey Gateway is a Node.js proxy that routes requests to 250+ LLM providers through an OpenAI-style API on port 8787, runnable with npx, Docker or Cloudflare Workers. Config objects add retries, fallbacks, load balancing, conditional routing, timeouts and 40+ guardrails; a console at /public shows local logs. Semantic caching, prompt management and RBAC are hosted or enterprise features.
+
+- **+** Runs with npx in Node.js; 122 KB footprint, sub-millisecond overhead claimed
+- **+** Fallbacks, retries, load balancing, conditional routing and timeouts via config
+- **+** 40+ built-in guardrails plus bring-your-own
+- **+** Works with OpenAI, LangChain, LlamaIndex, CrewAI and Autogen SDKs
+- **−** Semantic caching, prompt management and provider optimization are hosted or enterprise only
+- **−** Last commit 2026-05-25; Gateway 2.0 enterprise merge still pre-release
+- **−** Docs links are portkey.wiki short links
+- **−** RBAC, PII redaction and compliance features are enterprise
+
+<sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Cohere, Mistral, Together, Perplexity, Ollama, Bedrock, Groq and 45+ providers · port 8787 · [Repo](https://github.com/portkey-ai/gateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/portkey-gateway/)</sub>
+
 <a name="evals"></a>
-### #&#8288;58 [evals](https://github.com/openai/evals) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (84) · Freshness: recent (53) · Maintenance: weak (1) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
+### #&#8288;57 [evals](https://github.com/openai/evals) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (84) · Freshness: recent (53) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
 
 **Python framework and registry for evaluating LLMs and LLM-based systems.**
 
@@ -1040,7 +1022,7 @@ Runs evals against OpenAI models and LLM-built systems, using a registry of exis
 <sub>no GPU · Needs OpenAI API key, Git-LFS, Snowflake (optional) · Models: OpenAI models, custom completion functions · [Repo](https://github.com/openai/evals) · [📖 Docs ↗](https://platform.openai.com/docs/guides/evals) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evals/)</sub>
 
 <a name="openclaw-bot-review"></a>
-### #&#8288;59 [openclaw-bot-review](https://github.com/xmanrui/openclaw-bot-review) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (9) · Freshness: active (91) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
+### #&#8288;58 [openclaw-bot-review](https://github.com/xmanrui/openclaw-bot-review) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (9) · Freshness: active (91) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
 
 **Web dashboard for monitoring OpenClaw agents, models, sessions and token usage.**
 
@@ -1058,7 +1040,7 @@ A Next.js dashboard that reads ~/.openclaw/openclaw.json and local session files
 <sub>no GPU · Docker · Needs OpenClaw, Node.js 18+ · Models: MiniMax-M2.7, MiniMax-M2.7-highspeed, OpenAI-compatible providers via OpenClaw config · port 3000 · [Repo](https://github.com/xmanrui/openclaw-bot-review) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-bot-review/)</sub>
 
 <a name="agentops"></a>
-### #&#8288;60 [agentops](https://github.com/agentops-ai/agentops) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (54) · Freshness: recent (63) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
+### #&#8288;59 [agentops](https://github.com/agentops-ai/agentops) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (54) · Freshness: recent (63) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
 
 **Tracing, session replay and LLM cost tracking for AI agents.**
 
@@ -1076,7 +1058,7 @@ AgentOps is a Python SDK plus a dashboard and API backend that records agent run
 <sub>no GPU · Needs AgentOps API key (hosted dashboard) · Models: OpenAI, Anthropic, Mistral, Cohere, LiteLLM · [Repo](https://github.com/agentops-ai/agentops) · [🌐 Site ↗](https://agentops.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentops/)</sub>
 
 <a name="coai"></a>
-### #&#8288;61 [CoAI](https://github.com/coaidev/coai) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (70) · Freshness: slowing (41) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;60 [CoAI](https://github.com/coaidev/coai) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (70) · Freshness: slowing (41) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
 
 **Multi-user chat site plus OpenAI-compatible proxy with billing.**
 
@@ -1092,6 +1074,24 @@ CoAI pairs a multi-user chat frontend with an OpenAI-compatible API proxy and bi
 - **−** Last commit 2026-03-12
 
 <sub>no GPU · Docker + Compose · Needs MySQL, Redis, SearXNG (optional web search), CoAI blob-service (optional file parsing) · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Midjourney, SparkDesk, Zhipu, Qwen, Hunyuan, Baichuan, Moonshot, DeepSeek, Skylark, Groq, OpenRouter, 360, LocalAI, Ollama · port 8000 · [Repo](https://github.com/coaidev/coai) · [🌐 Site ↗](https://coai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/coai/)</sub>
+
+<a name="terminal-bench-1"></a>
+### #&#8288;61 [terminal-bench-1](https://github.com/harbor-framework/terminal-bench-1) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (14) · Freshness: active (85) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Jul 2026</sub>
+
+**Benchmark of about 100 terminal tasks with a harness for testing LLM agents.**
+
+Terminal-Bench is a dataset of command-line tasks plus an execution harness that connects a language model to a sandboxed terminal. Each task has an English instruction, a test script and a reference solution. The `tb` CLI, installed from pip, runs agents such as `terminus` against terminal-bench-core v0.1.1, which matches the leaderboard. The README points new users to harbor for Terminal-Bench 2.0.
+
+- **+** Each task ships an instruction, a test script and an oracle solution
+- **+** Installs as a pip package and runs through the `tb run` CLI
+- **+** Versioned dataset (core 0.1.1) tied to a public leaderboard
+- **+** Runs tasks in a Docker sandbox with configurable concurrency (--n-concurrent)
+- **−** README marks it beta with roughly 100 tasks
+- **−** New users are directed to harbor for Terminal-Bench 2.0
+- **−** Requires Docker and uv installed on the host
+- **−** README example uses a hosted model API; local model setup is not described
+
+<sub>no GPU · Docker + Compose · Needs Docker, uv · Models: anthropic/claude-3-7-latest (README example) · [Repo](https://github.com/harbor-framework/terminal-bench-1) · [📖 Docs ↗](https://www.tbench.ai/docs) · [🌐 Site ↗](https://www.tbench.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/terminal-bench-1/)</sub>
 
 <a name="simple-evals"></a>
 ### #&#8288;62 [simple-evals](https://github.com/openai/simple-evals) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: known (42) · Freshness: recent (56) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Apr 2026</sub>
