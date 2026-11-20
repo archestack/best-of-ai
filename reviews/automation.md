@@ -5,7 +5,7 @@ Workflow and integration platforms with AI steps or agent nodes, for wiring mode
 <sub>🌐 Also on the web: [Workflow automation with AI on archestack.com](https://archestack.com/best-of-ai/automation/), each project on its own page.</sub>
 
 <a name="n8n"></a>
-### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 211k · custom license · Nov 2026</sub>
+### 🥇 [n8n](https://github.com/n8n-io/n8n) <sub>score [95](../README.md#-how-we-rank "Score 95/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 212k · custom license · Nov 2026</sub>
 
 **Visual workflow automation with AI agent nodes and 1500+ integrations.**
 
@@ -39,7 +39,7 @@ Activepieces is a no-code workflow builder with loops, branches, auto retries, H
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL, Redis · Models: OpenAI · [Repo](https://github.com/activepieces/activepieces) · [📖 Docs ↗](https://www.activepieces.com/docs) · [🌐 Site ↗](https://activepieces.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/activepieces/)</sub>
 
 <a name="youtube-automation-agent"></a>
-### 🥉 [youtube-automation-agent](https://github.com/darkzogx/youtube-automation-agent) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
+### 🥉 [youtube-automation-agent](https://github.com/darkzogx/youtube-automation-agent) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
 
 **Agent that researches, produces and schedules YouTube videos after your approval.**
 
@@ -75,7 +75,7 @@ OpenOutreach is a Python CLI that takes a product description and target market,
 <sub>no GPU · Needs BetterContact API key, SMTP/IMAP mailbox with app password, uv · Models: OpenAI, Anthropic, OpenAI-compatible endpoints · [Repo](https://github.com/eracle/openoutreach) · [🌐 Site ↗](https://openoutreach.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openoutreach/)</sub>
 
 <a name="flyto-core"></a>
-### #&#8288;5 [flyto-core](https://github.com/flytohub/flyto-core) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (0) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 483 · Apache-2.0 · Nov 2026</sub>
+### #&#8288;5 [flyto-core](https://github.com/flytohub/flyto-core) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 483 · Apache-2.0 · Nov 2026</sub>
 
 **Python engine that runs YAML workflows of browser, API and file steps.**
 
