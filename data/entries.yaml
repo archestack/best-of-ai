@@ -3240,7 +3240,7 @@ entries:
     links:
       demo: null
       website: https://dshdesktop.cn
-      docs: null
+      docs: https://github.com/anywhere-labs/dsh-desktop/blob/HEAD/docs/user-guide.md
     audience: Windows and macOS users who want DeepSeek Harness as an installable desktop app
     confidence: 0.75
     facts:
@@ -33646,7 +33646,7 @@ entries:
     links:
       demo: null
       website: https://ernie.baidu.com/
-      docs: null
+      docs: https://github.com/PaddlePaddle/ERNIE/blob/HEAD/docs/erniekit.md
     audience: Teams fine-tuning or serving Baidu's ERNIE 4.5 models on PaddlePaddle
     confidence: 0.8
     facts:
@@ -50825,7 +50825,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: null
+      docs: https://github.com/darkzOGx/youtube-automation-agent/blob/HEAD/docs/features.md
     audience: YouTube creators who self-host and want AI-produced videos with manual sign-off
     confidence: 0.8
     facts:
