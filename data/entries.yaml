@@ -1710,7 +1710,7 @@ entries:
         - VibeVoice-TTS-1.5B
       web_port: null
     links:
-      demo: https://aka.ms/vibevoice-asr
+      demo: null
       website: https://microsoft.github.io/VibeVoice
       docs: https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-asr.md
     audience: Engineers needing local long-form transcription or streaming TTS
@@ -3240,7 +3240,7 @@ entries:
     links:
       demo: null
       website: https://dshdesktop.cn
-      docs: https://github.com/anywhere-labs/dsh-desktop/blob/main/docs/user-guide.md
+      docs: null
     audience: Windows and macOS users who want DeepSeek Harness as an installable desktop app
     confidence: 0.75
     facts:
@@ -6153,7 +6153,7 @@ entries:
         - MXNet
       web_port: null
     links:
-      demo: http://demo.insightface.ai:7007/
+      demo: null
       website: https://www.insightface.ai
       docs: https://github.com/deepinsight/insightface/blob/master/python-package/README.md
     audience: Engineers building face recognition, detection or video privacy pipelines
@@ -9316,7 +9316,7 @@ entries:
     links:
       demo: null
       website: https://www.camel-ai.org/
-      docs: https://docs.camel-ai.org/key_modules/models.html#supported-model-platforms-in-camel
+      docs: null
     audience: Developers building multi-agent task automation or reproducing GAIA results
     confidence: 0.8
     facts:
@@ -12086,7 +12086,7 @@ entries:
     links:
       demo: null
       website: https://www.eigent.ai
-      docs: https://docs.eigent.ai
+      docs: null
     audience: Users wanting a local desktop agent workspace with multi-agent task execution
     confidence: 0.8
     facts:
@@ -14635,7 +14635,7 @@ entries:
         - CosyVoice-300M-Instruct
       web_port: 50000
     links:
-      demo: https://funaudiollm.github.io/cosyvoice3/
+      demo: null
       website: null
       docs: null
     audience: Engineers self-hosting multilingual TTS and voice cloning
@@ -17982,7 +17982,7 @@ entries:
       model_support: []
       web_port: 8000
     links:
-      demo: http://doccano.herokuapp.com
+      demo: null
       website: null
       docs: https://doccano.github.io/doccano/
     audience: ML teams who need to label text datasets for NLP training
@@ -20256,7 +20256,7 @@ entries:
     links:
       demo: null
       website: https://www.modelscope.cn
-      docs: https://modelscope.cn/docs/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85
+      docs: null
     audience: Python developers running or fine-tuning ModelScope Hub models
     confidence: 0.8
     facts:
@@ -21316,8 +21316,8 @@ entries:
         - gpt-3.5-turbo-16k (backup)
       web_port: 5173
     links:
-      demo: https://www.x-agent.net/
-      website: https://www.x-agent.net/
+      demo: null
+      website: null
       docs: https://xagent-doc.readthedocs.io/en/latest/
     audience: Researchers and developers experimenting with autonomous GPT-4 task agents
     confidence: 0.8
@@ -21419,7 +21419,7 @@ entries:
       web_port: null
     links:
       demo: null
-      website: https://lmflow.com
+      website: null
       docs: https://optimalscale.github.io/LMFlow/
     audience: ML engineers finetuning open LLMs on their own GPUs
     confidence: 0.85
@@ -22285,8 +22285,8 @@ entries:
       web_port: 3000
     links:
       demo: null
-      website: https://nullclaw.github.io
-      docs: https://nullclaw.github.io
+      website: null
+      docs: null
     audience: Self-hosters running a chat-reachable agent on low-power or edge hardware
     confidence: 0.85
     facts:
@@ -22383,7 +22383,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://r2r-docs.sciphi.ai/
+      docs: null
     audience: Developers building document Q&A or agentic RAG backends over a REST API
     confidence: 0.8
     facts:
@@ -23565,7 +23565,7 @@ entries:
     links:
       demo: null
       website: https://www.guardrailsai.com
-      docs: https://guardrailsai.com/guardrails/docs
+      docs: null
     audience: Python developers adding validation and structured output to LLM apps
     confidence: 0.7
     facts:
@@ -28372,7 +28372,7 @@ entries:
       model_support: []
       web_port: null
     links:
-      demo: https://play.aimstack.io/nmt/metrics
+      demo: null
       website: https://aimstack.io
       docs: https://aimstack.readthedocs.io/en/latest/
     audience: ML engineers who want a self-hosted tracker for training runs
@@ -28814,7 +28814,7 @@ entries:
     links:
       demo: null
       website: http://www.duix.com
-      docs: https://docs.duix.com/api-reference/api/Introduction
+      docs: null
     audience: Creators and developers wanting local avatar video generation on an NVIDIA GPU
     confidence: 0.8
     facts:
@@ -28913,7 +28913,7 @@ entries:
         - LoRA
       web_port: null
     links:
-      demo: https://nv-sana.mit.edu/
+      demo: null
       website: https://nvlabs.github.io/Sana/
       docs: https://nvlabs.github.io/Sana/docs/
     audience: ML engineers and researchers training or running diffusion image/video models
@@ -29650,7 +29650,7 @@ entries:
     links:
       demo: null
       website: https://cactuscompute.com/
-      docs: https://cactus-compute.github.io/cactus/
+      docs: null
     audience: Mobile and edge developers embedding local LLM, vision and speech models in apps
     confidence: 0.8
     facts:
@@ -29947,7 +29947,7 @@ entries:
         - local, private and cloud backends
       web_port: null
     links:
-      demo: https://app.vllm-sr.ai/playground
+      demo: null
       website: https://vllm-sr.ai
       docs: https://vllm-sr.ai/docs/intro/
     audience: Teams routing agent traffic across multiple LLM backends by policy
@@ -30279,7 +30279,7 @@ entries:
       web_port: null
     links:
       demo: null
-      website: https://nexent.tech
+      website: null
       docs: https://modelengine-group.github.io/nexent
     audience: Teams self-hosting a multi-tenant agent platform with MCP and knowledge bases
     confidence: 0.8
@@ -30514,7 +30514,7 @@ entries:
     links:
       demo: null
       website: https://agentops.ai
-      docs: https://docs.agentops.ai/introduction
+      docs: null
     audience: Developers who need tracing and cost visibility for agents in production
     confidence: 0.8
     facts:
@@ -33646,7 +33646,7 @@ entries:
     links:
       demo: null
       website: https://ernie.baidu.com/
-      docs: https://github.com/PaddlePaddle/ERNIE/blob/develop/docs/erniekit.md
+      docs: null
     audience: Teams fine-tuning or serving Baidu's ERNIE 4.5 models on PaddlePaddle
     confidence: 0.8
     facts:
@@ -36133,7 +36133,7 @@ entries:
       web_port: 3000
     links:
       demo: null
-      website: https://docs.opendeep.wiki/pricing
+      website: null
       docs: null
     audience: Teams wanting auto-generated, searchable docs and MCP access for their repos
     confidence: 0.8
@@ -38061,7 +38061,7 @@ entries:
     links:
       demo: null
       website: https://scriberr.app
-      docs: https://scriberr.app/docs/
+      docs: null
     audience: Self-hosters who want private, local transcription of recordings and meetings
     confidence: 0.85
     facts:
@@ -38686,7 +38686,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://ivy-llc.github.io/docs/
+      docs: null
     audience: Engineers porting PyTorch models or libraries to TensorFlow, JAX or NumPy
     confidence: 0.85
     facts:
@@ -40389,7 +40389,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://docs.transmogrif.ai
+      docs: null
     audience: Scala/Spark teams building ML models on tabular data
     confidence: 0.85
     facts:
@@ -50825,7 +50825,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://github.com/darkzOGx/youtube-automation-agent/blob/main/docs/features.md
+      docs: null
     audience: YouTube creators who self-host and want AI-produced videos with manual sign-off
     confidence: 0.8
     facts:
@@ -51162,7 +51162,7 @@ entries:
         - Ollama
       web_port: null
     links:
-      demo: https://openagents.org/api/create-workspace
+      demo: null
       website: https://openagents.org/workspace
       docs: https://openagents.org/docs
     audience: Teams running several coding agents who want one supervised workspace
@@ -52259,7 +52259,7 @@ entries:
       web_port: 8000
     links:
       demo: null
-      website: https://labs.chonkie.ai
+      website: null
       docs: https://docs.chonkie.ai
     audience: Python engineers building RAG ingestion pipelines
     confidence: 0.85
@@ -52301,7 +52301,7 @@ entries:
       web_port: null
     links:
       demo: null
-      website: https://www.seldon.io/
+      website: null
       docs: https://docs.seldon.ai/seldon-core-2
     audience: Platform and MLOps teams serving many models on Kubernetes
     confidence: 0.8
@@ -54153,7 +54153,7 @@ entries:
     links:
       demo: https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTS-Nano
       website: https://openmoss.github.io/MOSS-TTS-Nano-Demo/
-      docs: https://studio.mosi.cn/docs/moss-tts-nano
+      docs: null
     audience: Developers needing small local multilingual TTS with voice cloning on CPU
     confidence: 0.85
     facts:
@@ -56473,8 +56473,8 @@ entries:
         - RMBG-2.0
       web_port: 8000
     links:
-      demo: https://deepscientist.cc
-      website: https://deepscientist.cc
+      demo: null
+      website: null
       docs: null
     audience: Researchers who need editable method-overview figures for papers
     confidence: 0.7
@@ -57006,7 +57006,7 @@ entries:
     links:
       demo: https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTS
       website: https://mosi.cn/#models
-      docs: https://studio.mosi.cn/docs/moss-tts
+      docs: null
     audience: Engineers self-hosting TTS, voice cloning or voice agents with open weights
     confidence: 0.85
     facts:
@@ -60377,7 +60377,7 @@ entries:
       web_port: null
     links:
       demo: null
-      website: https://www.objectron.dev
+      website: null
       docs: null
     audience: Computer vision researchers training or evaluating 3D object detection models
     confidence: 0.7
@@ -61598,7 +61598,7 @@ entries:
       web_port: 8000
     links:
       demo: https://aiming-lab.github.io/SimpleMem-Page
-      website: https://mcp.simplemem.cloud
+      website: null
       docs: https://github.com/aiming-lab/SimpleMem/blob/main/MCP/README.md
     audience: Developers adding persistent memory to LLM agents or MCP clients
     confidence: 0.8
@@ -64389,7 +64389,7 @@ entries:
       web_port: null
     links:
       demo: null
-      website: https://nndl.ai/nndl-practice/
+      website: null
       docs: https://github.com/nndl/nndl-practice/blob/main/pytorch/README.md
     audience: Chinese-reading students and engineers learning deep learning in PyTorch
     confidence: 0.85
@@ -85536,7 +85536,7 @@ entries:
     links:
       demo: null
       website: https://memos.openmem.net/
-      docs: https://memos-docs.openmem.net/home/overview/
+      docs: null
     audience: Developers adding persistent memory to agents, self-hosted or via plugins
     confidence: 0.9
     facts:
@@ -87449,7 +87449,7 @@ entries:
     links:
       demo: null
       website: https://coai.dev
-      docs: https://coai.dev/docs/deploy
+      docs: null
     audience: operators running a paid multi-user ChatGPT-style site
     confidence: 0.8
     facts:
@@ -87658,7 +87658,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://docs.openwebui.com/openapi-servers/open-webui/
+      docs: null
     audience: Open WebUI users exposing MCP tools over HTTP
     confidence: 0.85
     facts:
@@ -88769,7 +88769,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://aidc-ai.github.io/Pixelle-Video/zh
+      docs: null
     audience: Creators who already run ComfyUI and want automated shorts
     confidence: 0.7
     facts:
@@ -89893,7 +89893,7 @@ entries:
       web_port: 4200
     links:
       demo: null
-      website: https://pezzo.ai
+      website: null
       docs: https://docs.pezzo.ai/
     audience: Small teams managing prompts outside application code
     confidence: 0.7
