@@ -76,7 +76,7 @@ Faiss is a C++ library with Python/numpy wrappers for nearest-neighbor search ov
 <sub>GPU optional · Needs BLAS, CUDA or ROCm (optional), NVIDIA cuVS (optional) · [Repo](https://github.com/facebookresearch/faiss) · [📖 Docs ↗](https://github.com/facebookresearch/faiss/wiki) · [🌐 Site ↗](https://faiss.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/faiss/)</sub>
 
 <a name="leann"></a>
-### #&#8288;5 [leann](https://github.com/startrail-org/leann) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
+### #&#8288;5 [leann](https://github.com/startrail-org/leann) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
 
 **Vector index that recomputes embeddings on demand to cut storage.**
 
@@ -237,7 +237,7 @@ Infinity is a C++ database that runs hybrid search over dense vectors, sparse ve
 <sub>no GPU · Models: dense embeddings, sparse embeddings, tensors, ColBERT reranking · [Repo](https://github.com/infiniflow/infinity) · [📖 Docs ↗](https://infiniflow.org/docs/dev/category/get-started) · [🌐 Site ↗](https://infiniflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinity/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;14 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -362,8 +362,26 @@ Attu is a management console for Milvus vector databases. One instance connects 
 
 <sub>no GPU · Needs Milvus 2.6.0+ or 3.x, or Zilliz Cloud, SQLite (bundled), Node.js 24.x (standalone server package) · Models: OpenAI, Anthropic Claude, DeepSeek, Google Gemini, OpenRouter · port 3000 · [Repo](https://github.com/zilliztech/attu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/attu/)</sub>
 
+<a name="jvector"></a>
+### #&#8288;21 [jvector](https://github.com/datastax/jvector) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+
+**Java graph-based vector index combining HNSW layers with DiskANN's Vamana.**
+
+JVector is an embeddable Java library for approximate nearest neighbor search. It builds a multi-layer graph that borrows HNSW's hierarchy and uses Vamana within each layer, with upper layers in memory and the bottom layer on disk. Searches run in two passes: compressed vectors (PQ, BQ or fused PQ) in memory first, then full float32 or NVQ vectors from disk.
+
+- **+** Index construction scales with core count via nonblocking concurrency control
+- **+** Can build larger-than-memory indexes using two-pass search during construction
+- **+** Multiple quantization options: PQ with anisotropic weighting, BQ, fused PQ, NVQ
+- **+** Multirelease jar works from Java 11 code and uses SIMD on newer JVMs
+- **−** Library only; no standalone server or network API is described
+- **−** Native Highway SIMD provider bundled only for Linux x86-64 and AArch64
+- **−** Native SIMD needs Java 22+ with incubator Vector module and JVM flags
+- **−** Building native library requires g++ 11+, Meson, Ninja and a git submodule
+
+<sub>no GPU · Needs Java 11+ (Java 20+ for Vector API, 22+ for native SIMD), Maven, g++ 11+, Meson, Ninja (native build only) · [Repo](https://github.com/datastax/jvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jvector/)</sub>
+
 <a name="sptag"></a>
-### #&#8288;21 [sptag](https://github.com/microsoft/sptag) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (41) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
+### #&#8288;22 [sptag](https://github.com/microsoft/sptag) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (41) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
 
 **C++ library for approximate nearest neighbor search over large vector sets.**
 
@@ -381,7 +399,7 @@ SPTAG is a Microsoft Research and Bing library for approximate nearest neighbor 
 <sub>Docker · Needs swig >= 4.0.2, cmake >= 3.12.0, boost >= 1.67.0, SPDK (optional), RocksDB (optional) · [Repo](https://github.com/microsoft/sptag) · [📖 Docs ↗](https://github.com/microsoft/SPTAG/blob/master/docs/GettingStart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sptag/)</sub>
 
 <a name="pgvectorscale"></a>
-### #&#8288;22 [pgvectorscale](https://github.com/timescale/pgvectorscale) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · PostgreSQL · Oct 2026</sub>
+### #&#8288;23 [pgvectorscale](https://github.com/timescale/pgvectorscale) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · PostgreSQL · Oct 2026</sub>
 
 **PostgreSQL extension adding a StreamingDiskANN vector index on top of pgvector.**
 
@@ -399,7 +417,7 @@ pgvectorscale is a Rust extension (built with PGRX) that adds a StreamingDiskANN
 <sub>no GPU · Needs PostgreSQL, pgvector, Rust toolchain (source build) · [Repo](https://github.com/timescale/pgvectorscale) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvectorscale/)</sub>
 
 <a name="vectordbbench"></a>
-### #&#8288;23 [vectordbbench](https://github.com/zilliztech/vectordbbench) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+### #&#8288;24 [vectordbbench](https://github.com/zilliztech/vectordbbench) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
 
 **Benchmark tool for comparing vector databases on insert, search and full-text workloads.**
 
@@ -417,7 +435,7 @@ VectorDBBench (VDBBench) runs repeatable insertion, vector search, filtered sear
 <sub>no GPU · Docker · Needs Python >= 3.11, Target vector database to benchmark · [Repo](https://github.com/zilliztech/vectordbbench) · [🌐 Site ↗](https://zilliz.com/vdbbench-leaderboard) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vectordbbench/)</sub>
 
 <a name="deeplake"></a>
-### #&#8288;24 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (64) · Freshness: recent (67) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;25 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (64) · Freshness: recent (67) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
 
 **Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
 
@@ -433,24 +451,6 @@ Deep Lake is a Python-installed database that stores embeddings alongside raw da
 - **−** README links mix old and new docs sites, and comparisons look dated
 
 <sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
-
-<a name="jvector"></a>
-### #&#8288;25 [jvector](https://github.com/datastax/jvector) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (6) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
-
-**Java graph-based vector index combining HNSW layers with DiskANN's Vamana.**
-
-JVector is an embeddable Java library for approximate nearest neighbor search. It builds a multi-layer graph that borrows HNSW's hierarchy and uses Vamana within each layer, with upper layers in memory and the bottom layer on disk. Searches run in two passes: compressed vectors (PQ, BQ or fused PQ) in memory first, then full float32 or NVQ vectors from disk.
-
-- **+** Index construction scales with core count via nonblocking concurrency control
-- **+** Can build larger-than-memory indexes using two-pass search during construction
-- **+** Multiple quantization options: PQ with anisotropic weighting, BQ, fused PQ, NVQ
-- **+** Multirelease jar works from Java 11 code and uses SIMD on newer JVMs
-- **−** Library only; no standalone server or network API is described
-- **−** Native Highway SIMD provider bundled only for Linux x86-64 and AArch64
-- **−** Native SIMD needs Java 22+ with incubator Vector module and JVM flags
-- **−** Building native library requires g++ 11+, Meson, Ninja and a git submodule
-
-<sub>no GPU · Needs Java 11+ (Java 20+ for Vector API, 22+ for native SIMD), Maven, g++ 11+, Meson, Ninja (native build only) · [Repo](https://github.com/datastax/jvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jvector/)</sub>
 
 <a name="sqlite-vec"></a>
 ### #&#8288;26 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (61) · Freshness: recent (71) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · May 2026</sub>
