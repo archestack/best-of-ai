@@ -3,7 +3,7 @@ updated_at: 2026-11-21
 entries:
   - id: exo
     repo: exo-explore/exo
-    name: exo
+    name: exo-explore/exo
     status: listed
     tagline: Pools Macs and other devices into one cluster to run large models
     summary: exo discovers devices on the same network and splits a model across them using topology-aware parallelism, so models too large for one machine can run. It uses MLX for inference and MLX distributed for communication, with optional RDMA over Thunderbolt 5 on macOS 26.2 or later. It exposes OpenAI Chat Completions, Claude Messages, OpenAI Responses and Ollama-compatible APIs plus a built-in dashboard.
@@ -833,7 +833,7 @@ entries:
     score: 71
   - id: models
     repo: tensorflow/models
-    name: models
+    name: tensorflow/models
     status: listed
     tagline: Reference TensorFlow 2 model implementations, plus the Orbit training-loop library
     summary: Repository of TensorFlow model implementations split into official (maintained by the TensorFlow team), research (maintained by researchers, TF1 or TF2) and a curated community list. It also includes Orbit, a lightweight library for custom TF2 training loops that works with tf.distribute on CPU, GPU and TPU. Installable as tf-models-official or the nightly tf-models-nightly package.
@@ -3213,7 +3213,7 @@ entries:
     score: 75
   - id: dsh-desktop
     repo: anywhere-labs/dsh-desktop
-    name: dsh-desktop
+    name: anywhere-labs/dsh-desktop
     status: listed
     tagline: Native Windows and macOS desktop client for DeepSeek Harness, built on plugins
     summary: Wraps the pinned upstream DeepSeek Harness local Web UI, host service and plugin system in a desktop app with window, tray, terminal, auto-update and work profiles. The desktop shell is itself a DSH plugin. It includes a plugin market and phone remote control (2.0.9 and later). Installers cover Windows x64 and macOS Universal, and no Node.js install is needed.
@@ -4691,7 +4691,7 @@ entries:
     score: 93
   - id: shannon
     repo: keygraphhq/shannon
-    name: shannon
+    name: keygraphhq/shannon
     status: listed
     tagline: Autonomous pentester that exploits web apps and APIs using source analysis
     summary: Shannon reads a target app's source, builds a queue of candidate attack paths, then uses browser automation and CLI tools to try real exploits against the running app. Only findings with a working proof of concept reach the PDF, Markdown, JSON or SARIF 2.1.0 report. It runs from an npx launcher with a Docker worker, and has GitHub Actions and GitLab CI components that can fail a pipeline on exploited vulnerabilities.
@@ -6600,7 +6600,7 @@ entries:
     score: 67
   - id: ai
     repo: vercel/ai
-    name: ai
+    name: vercel/ai
     status: listed
     tagline: Provider-agnostic TypeScript toolkit for text, structured output, agents and chat UIs
     summary: The AI SDK is a TypeScript library with one API for generating text and structured data across model providers such as OpenAI, Anthropic and Google. It includes a ToolLoopAgent for tool-calling agents and UI hooks (useChat) for React, Svelte, Vue and Angular. Model strings route through the Vercel AI Gateway by default, or you can install per-provider @ai-sdk packages.
@@ -7206,7 +7206,7 @@ entries:
     score: 87
   - id: letta-ai-letta
     repo: letta-ai/letta
-    name: letta
+    name: letta-ai/letta
     status: listed
     tagline: Stateful agents with persistent memory, run from a terminal UI or App Server
     summary: Letta (formerly MemGPT) builds agents that keep memory and improve over time. This repository now only points to letta-ai/letta-code, which holds the agent harness, terminal UI, App Server and channel integrations. The original V1 API server is retired and kept on the archive branch.
@@ -8317,7 +8317,7 @@ entries:
     score: 41
   - id: datasets
     repo: huggingface/datasets
-    name: datasets
+    name: huggingface/datasets
     status: listed
     tagline: Python library for loading, streaming and preprocessing ML datasets on Apache Arrow
     summary: Hugging Face Datasets loads public datasets from the Hub or local files (CSV, JSON, Parquet, Arrow, XML, text, audio, image, video, PDF, NIfTI) with `load_dataset()`. Data is stored as memory-mapped Apache Arrow, so datasets larger than RAM work, and `map()` results are cached and can run in parallel with `num_proc`. A streaming mode iterates over remote data without downloading it.
@@ -8409,7 +8409,7 @@ entries:
     score: 85
   - id: buzz
     repo: chidiwilliams/buzz
-    name: buzz
+    name: chidiwilliams/buzz
     status: listed
     tagline: Offline desktop app for transcribing and translating audio with Whisper
     summary: Buzz is a desktop app that transcribes and translates audio and video files, YouTube links, or live microphone input with OpenAI's Whisper, on the local machine. It supports several Whisper backends (Whisper.cpp with Vulkan, CUDA, Apple Silicon, Hugging Face models) and exports to TXT, SRT and VTT. It also has a CLI, a watch folder and a plugin system.
@@ -8454,7 +8454,7 @@ entries:
     score: 81
   - id: recommenders
     repo: recommenders-team/recommenders
-    name: recommenders
+    name: recommenders-team/recommenders
     status: listed
     tagline: Recommender-system algorithms and Jupyter notebooks in Python
     summary: Recommenders is a Python package and notebook collection for building recommendation systems. It includes about 30 algorithm implementations, such as ALS, SAR, NCF, LightGCN, SASRec and xDeepFM. It also has utilities for dataset loading, train/test splitting and offline metrics. A MovieLens benchmark notebook compares the collaborative filtering models. The project is hosted by the Linux Foundation of AI and Data.
@@ -10597,7 +10597,7 @@ entries:
     score: 76
   - id: camel
     repo: camel-ai/camel
-    name: camel
+    name: camel-ai/camel
     status: listed
     tagline: Python framework for multi-agent systems, role-playing and synthetic data generation
     summary: CAMEL is a Python library, installed with pip install camel-ai, for building LLM agents and multi-agent societies. It provides ChatAgent, role-playing and workforce modules, toolkits, memory, retrievers, interpreters and benchmarks, plus data generation pipelines such as CoT, Self-Instruct and Source2Synth. It is run by a research community studying agent scaling behavior.
@@ -10684,7 +10684,7 @@ entries:
     score: 52
   - id: cookbook
     repo: google-gemini/cookbook
-    name: cookbook
+    name: google-gemini/cookbook
     status: listed
     tagline: Jupyter notebook tutorials for the Gemini API, from basics to Live API and agents
     summary: Official Google collection of Colab-ready notebooks for the hosted Gemini API. Quickstarts cover prompting, thinking levels, TTS, Live API, transcription, image, video and music generation, grounding, code execution, File Search and an Agents API. A separate Examples folder combines several features into larger use cases.
@@ -10779,7 +10779,7 @@ entries:
     score: 83
   - id: generative-ai
     repo: googlecloudplatform/generative-ai
-    name: generative-ai
+    name: googlecloudplatform/generative-ai
     status: listed
     tagline: Notebooks and sample apps for Gemini, Imagen, Veo and Chirp on Google Cloud
     summary: Jupyter notebooks, code samples and sample apps for building with Gemini, Imagen, Veo and Chirp through Google Cloud's Agent Platform. Folders cover Gemini starters and function calling, Agent Search, RAG and grounding, vision, audio and environment setup. It needs a Google Cloud account, and the README says the code is demonstrative and not an officially supported Google product.
@@ -12591,7 +12591,7 @@ entries:
     score: 52
   - id: agents
     repo: livekit/agents
-    name: agents
+    name: livekit/agents
     status: listed
     tagline: Python framework for realtime voice and multimodal agents on LiveKit WebRTC
     summary: LiveKit Agents is a Python framework for building server-side agents that join LiveKit rooms as realtime participants. It wires together VAD, STT, LLM and TTS (or a realtime model API) through plugins, with tool calling, multi-agent handoff, job dispatch, SIP telephony and MCP tool support. A built-in test framework can run agent sessions and judge replies with an LLM.
@@ -12918,7 +12918,7 @@ entries:
     score: 45
   - id: hermes-desktop
     repo: fathah/hermes-desktop
-    name: hermes-desktop
+    name: fathah/hermes-desktop
     status: listed
     tagline: Desktop GUI for installing and chatting with Hermes Agent
     summary: Community-maintained desktop app that installs Hermes Agent into ~/.hermes with the official script, then provides a GUI for chat, sessions, profiles, memory, skills, toolsets, cron schedules and messaging gateways. It can run Hermes locally on 127.0.0.1:8642 or connect to a remote Hermes API server with a URL and key. Not affiliated with Nous Research.
@@ -13664,7 +13664,7 @@ entries:
     score: 85
   - id: ax
     repo: google/ax
-    name: ax
+    name: google/ax
     status: listed
     tagline: Kubectl-style orchestrator that runs sandboxed agent tasks from YAML manifests
     summary: AX is a Go CLI and control plane that schedules agent workloads on Kubernetes through ax.io/v1alpha1 manifests (Task, Workspace, Model). Each task runs as a sandboxed actor on Agent Substrate, with Git repos, MCP servers and skills pre-wired. Tasks can be suspended and resumed, and `ax ssh` opens a shell in a running sandbox. The README warns of heavy development and likely breaking changes.
@@ -19377,7 +19377,7 @@ entries:
     score: 40
   - id: onnx-models
     repo: onnx/models
-    name: models
+    name: onnx/models
     status: listed
     tagline: Archived collection of pre-trained models exported to ONNX format
     summary: "Git LFS repository of pre-trained ONNX models for image classification, object detection and segmentation, face analysis, style transfer, machine comprehension, translation and language modelling. Models come from timm, torchvision, torch_hub and transformers, exported with TurnkeyML, with INT8 variants from Intel Neural Compressor. The repo is deprecated: LFS downloads ended July 1, 2025, and the models are now at huggingface.co/onnxmodelzoo."
@@ -19419,7 +19419,7 @@ entries:
     score: 53
   - id: notebooks
     repo: roboflow/notebooks
-    name: notebooks
+    name: roboflow/notebooks
     status: listed
     tagline: Jupyter notebooks for computer vision models, with Colab and Kaggle links
     summary: "A collection of 61 Jupyter notebooks from Roboflow covering computer vision tasks: object detection, segmentation, tracking, OCR, keypoints and JSON data extraction. Each notebook targets a specific model such as RF-DETR, YOLO26, YOLOv12, SAM3, Qwen2.5-VL, Qwen3-VL, PaliGemma 2 or Gemini, and links to Colab, Kaggle, a paper and often a video or blog post."
@@ -21780,7 +21780,7 @@ entries:
     score: 87
   - id: examples
     repo: tensorflow/examples
-    name: examples
+    name: tensorflow/examples
     status: listed
     tagline: Official TensorFlow example notebooks, community samples and course material
     summary: Repository of example code maintained by the TensorFlow team. It holds material referenced from tensorflow.org, community-contributed examples, Udacity Deep Learning course files, and supporting code for the TensorFlow blog and YouTube channel. The README points to the tensorflow/docs repo as the main place to learn TensorFlow.
@@ -23533,7 +23533,7 @@ entries:
     score: 76
   - id: guardrails
     repo: guardrails-ai/guardrails
-    name: guardrails
+    name: guardrails-ai/guardrails
     status: listed
     tagline: Python framework for validating LLM inputs and outputs and generating structured data
     summary: Guardrails is a Python library that wraps LLM calls with input and output guards built from validators, such as regex match, competitor check and toxic language. It also produces structured output from Pydantic models, using function calling or a schema added to the prompt. Guards run in-process or behind a Flask REST server started with `guardrails start`, which exposes an OpenAI SDK-compatible endpoint.
@@ -23968,7 +23968,7 @@ entries:
     score: 70
   - id: autoresearch
     repo: karpathy/autoresearch
-    name: autoresearch
+    name: karpathy/autoresearch
     status: listed
     tagline: Agent loop that edits a small GPT training script and keeps changes that lower val_bpb
     summary: A coding agent (Claude, Codex or similar) is pointed at a single-GPU nanochat-derived training setup and edits train.py in a loop. Each experiment trains for a fixed 5 minutes and is kept or discarded based on validation bits per byte (val_bpb). The human edits program.md, the agent instructions, rather than the Python code.
@@ -25259,7 +25259,7 @@ entries:
     score: 78
   - id: paperbanana
     repo: dwzhu-pku/paperbanana
-    name: paperbanana
+    name: dwzhu-pku/paperbanana
     status: listed
     tagline: Multi-agent pipeline that drafts academic paper diagrams and plots from method text
     summary: PaperBanana turns a paper's method section and figure caption into publication-style diagrams and plots. It chains Retriever, Planner, Stylist, Visualizer and Critic agents, using reference examples from PaperBananaBench and multi-round critic refinement. It runs through a Gradio app, a Streamlit demo or a CLI, calling Gemini or OpenRouter models over API.
@@ -25394,7 +25394,7 @@ entries:
     score: 83
   - id: nvidia-nemo-guardrails
     repo: nvidia-nemo/guardrails
-    name: guardrails
+    name: nvidia-nemo/guardrails
     status: listed
     tagline: Programmable input, output and dialog guardrails for LLM applications
     summary: Python library that sits between application code and the LLM and applies input, dialog, retrieval, execution and output rails. Rails are configured in config.yml and Colang files, and run through the LLMRails API or an HTTP server with a /v1/chat/completions endpoint. Built-in rails cover jailbreak detection, sensitive data masking, fact-checking, hallucination checks and NVIDIA content and topic safety models.
@@ -26388,7 +26388,7 @@ entries:
     score: 24
   - id: deep-research
     repo: dzhng/deep-research
-    name: deep-research
+    name: dzhng/deep-research
     status: listed
     tagline: Iterative deep-research agent that searches, reads and writes a markdown report
     summary: A TypeScript CLI that takes a query, asks follow-up questions, then runs recursive search rounds through Firecrawl and an LLM, controlled by breadth and depth parameters. Each round extracts learnings and new research directions, and the result is written to report.md or answer.md. The code is kept deliberately small (target under 500 lines) so it can be read and extended.
@@ -27419,7 +27419,7 @@ entries:
     score: 77
   - id: openbot
     repo: copilotkit/openbot
-    name: openbot
+    name: copilotkit/openbot
     status: listed
     tagline: Self-hosted team assistant where each bot gets its own browser and audited actions
     summary: OpenBot is a clonable template for a company-run, ChatGPT-style assistant. Any AG-UI agent endpoint becomes a Bot with its own container, Chromium profile and workspace. Every browser, file, shell and MCP action passes a gateway that applies a CEL policy and writes an audit row first. Data is stored in PostgreSQL, and threads go through CopilotKit Intelligence. The README labels it alpha.
@@ -28153,7 +28153,7 @@ entries:
     score: 83
   - id: ed-donner-agents
     repo: ed-donner/agents
-    name: agents
+    name: ed-donner/agents
     status: listed
     tagline: Six-week course with notebooks for building and deploying AI agents
     summary: Course repository for the Agentic AI Engineering course by Ed Donner. It holds Jupyter notebooks and guides covering the OpenAI Agents SDK, CrewAI, LangGraph, Google ADK, Pydantic AI and MCP over six weeks. Setup guides exist for Windows, Mac and Linux; the README says the content was refreshed in Summer 2026.
@@ -29920,7 +29920,7 @@ entries:
     score: 78
   - id: semantic-router
     repo: vllm-project/semantic-router
-    name: semantic-router
+    name: vllm-project/semantic-router
     status: listed
     tagline: Policy-driven router that selects or combines models behind one API endpoint
     summary: vLLM Semantic Router sits between an agent harness and several configured model backends (local, private, cloud) and selects or combines models for each call based on a user-defined policy. Clients call one inference endpoint with a public model ID such as `vllm-sr/auto`. Policy can weigh quality, latency and cost, and keep calls within approved locations. Written in Go.
@@ -30345,7 +30345,7 @@ entries:
     score: 79
   - id: harbor
     repo: harbor-framework/harbor
-    name: harbor
+    name: harbor-framework/harbor
     status: listed
     tagline: Evaluation harness for running agents and models against container-based benchmarks
     summary: Harbor is a Python CLI from the Terminal-Bench team that runs agents such as Claude Code, OpenHands and Codex CLI against benchmark datasets in container environments. It runs locally on Docker or fans out to cloud sandbox providers like Daytona and Modal. It is the official harness for Terminal-Bench 2.0 and can also generate rollouts for RL optimization.
@@ -31121,7 +31121,7 @@ entries:
     score: 27
   - id: trellis
     repo: microsoft/trellis
-    name: trellis
+    name: microsoft/trellis
     status: listed
     tagline: Image- and text-to-3D asset generation model from Microsoft Research
     summary: TRELLIS generates 3D assets from an image or text prompt using a structured latent (SLat) representation and rectified flow transformers. One latent decodes to 3D Gaussians, radiance fields or meshes, with GLB and PLY export. Pretrained models range from 342M to 2.0B parameters, and the repo includes training code and TRELLIS-500K dataset tooling.
@@ -32363,7 +32363,7 @@ entries:
     score: 65
   - id: openui
     repo: thesysdev/openui
-    name: openui
+    name: thesysdev/openui
     status: listed
     tagline: Generative UI framework that streams model-written UI via a compact language
     summary: OpenUI defines OpenUI Lang, a compact streaming-first language that models emit to describe UI, and renders it progressively as tokens arrive. You register a component library, generate a system prompt from it, and a renderer for React, Vue, Svelte or Angular draws the output. React also gets prebuilt chat layouts and two component libraries. The README reports up to 67% fewer tokens than equivalent JSON formats.
@@ -34707,7 +34707,7 @@ entries:
     score: 31
   - id: rivet
     repo: rivet-dev/rivet
-    name: rivet
+    name: rivet-dev/rivet
     status: listed
     tagline: Stateful Actor runtime with SQLite and WebSockets for durable agents and realtime apps
     summary: Rivet runs long-lived Actors with in-memory state, a per-Actor SQLite database, WebSockets and scheduling, one per agent, user or session. A Rust control plane schedules and persists them, using an S3-compatible bucket as the only dependency. Actors are written with the RivetKit TypeScript library (Rust SDK also available) on plain Node.js or Bun, and the project pitches them as a lighter place to run agent loops than per-agent sandboxes.
@@ -34840,7 +34840,7 @@ entries:
     score: 92
   - id: nightly-labs-openbot
     repo: nightly-labs/openbot
-    name: openbot
+    name: nightly-labs/openbot
     status: listed
     tagline: Desktop workspace that runs coding-agent CLIs as persistent teammates
     summary: OpenBot is an Electron desktop app that wraps local agent CLIs (Codex, Claude Code, Grok, OpenCode, Gemini, Cursor, Cline, Kimi, Devin, Copilot, Mistral Vibe, Hermes) as persistent agents. Each agent gets its own workspace and conversation, with FIFO message queues, agent-to-agent messaging, file transfer and an embedded browser they can control. It also runs headless on Linux servers or in Docker.
@@ -34942,7 +34942,7 @@ entries:
     score: 70
   - id: mlkit
     repo: googlesamples/mlkit
-    name: mlkit
+    name: googlesamples/mlkit
     status: listed
     tagline: Android and iOS quickstart apps for Google's ML Kit on-device APIs
     summary: Sample apps showing how to call the ML Kit APIs from Android and iOS. The README is brief and links to the ML Kit developer site for the API details. Pull requests are not accepted directly; changes are patched internally and synced out.
@@ -35452,7 +35452,7 @@ entries:
     score: 87
   - id: block-buzz
     repo: block/buzz
-    name: buzz
+    name: block/buzz
     status: listed
     tagline: Self-hosted team workspace where humans and agents share channels on a Nostr relay
     summary: Buzz is a Rust Nostr relay (Axum, Postgres, Redis, S3/MinIO) with a Tauri and React desktop app. Messages, workflows, git events and audit entries are all signed events in one log. Agents get their own keys and channel memberships, and connect through buzz-cli or an ACP harness for Goose, Codex and Claude Code.
@@ -35950,7 +35950,7 @@ entries:
     score: 47
   - id: google-gemma-cookbook
     repo: google-gemma/cookbook
-    name: cookbook
+    name: google-gemma/cookbook
     status: listed
     tagline: Jupyter notebooks and demo apps for working with Google's Gemma models
     summary: Official collection of tutorials, full-stack demo apps, research notebooks and responsible-AI notebooks for the Gemma model family, including Gemma 2, 3, 3n and 4 and variants such as CodeGemma, PaliGemma, MedGemma and ShieldGemma. Content is organized into tutorials, apps, experiments, responsible, and docs folders, with older notebooks kept in an archive.
@@ -36629,7 +36629,7 @@ entries:
     score: 71
   - id: eve
     repo: vercel/eve
-    name: eve
+    name: vercel/eve
     status: listed
     tagline: TypeScript framework for durable agents defined as files in an agent/ directory
     summary: "eve is a TypeScript framework where an agent is defined by a conventional directory: instructions.md, typed tools, on-demand skills, message channels (HTTP, Slack, Discord) and cron schedules. It scaffolds with `npx eve@latest init` and picks models by AI Gateway model ID. Web Chat can be added with Vercel sign-in, and `eve deploy` publishes the agent."
@@ -38508,7 +38508,7 @@ entries:
     score: 47
   - id: llmsresearch-paperbanana
     repo: llmsresearch/paperbanana
-    name: paperbanana
+    name: llmsresearch/paperbanana
     status: listed
     tagline: Generates academic paper diagrams and plots from method text via a multi-agent pipeline
     summary: Unofficial implementation of the PaperBanana paper. It turns methodology text or PDFs plus a caption into publication-style diagrams using a retriever, planner, stylist, visualizer and critic loop. Statistical plots are rendered from CSV/JSON via VLM-generated matplotlib code. It ships a CLI, Python API, MCP server, Claude Code skills and a local Gradio UI.
@@ -39535,7 +39535,7 @@ entries:
     score: 56
   - id: jenly1314-mlkit
     repo: jenly1314/mlkit
-    name: mlkit
+    name: jenly1314/mlkit
     status: listed
     tagline: Kotlin Android library wrapping Google ML Kit vision APIs with camera-scan helpers
     summary: MLKit is a set of Android Gradle modules built on Google ML Kit and the CameraScan library. They cover barcode and QR scanning, face detection, face mesh, image labeling, object detection, pose detection, selfie segmentation and text recognition. Each module provides an Analyzer plus ready-made camera scan Activity and Fragment base classes. The project is published to Maven Central and JitPack, and a sample app is included.
@@ -39827,7 +39827,7 @@ entries:
     score: 78
   - id: dataelement-dsh-desktop
     repo: dataelement/dsh-desktop
-    name: dsh-desktop
+    name: dataelement/dsh-desktop
     status: listed
     tagline: Desktop agent app for macOS and Windows with Office document templates
     summary: DSH Desktop wraps the DeepSeek Harness agent runtime in a native Electron-style desktop app for macOS (Apple Silicon and Intel) and Windows x64. It adds model provider setup, Word, Excel and PPT template modes that output DOCX, XLSX and PPTX, a workbench app market, safe-mode recovery from broken plugins, and phone pairing over LAN or a tunnel. Sessions and config stay in the local user data directory.
@@ -40301,7 +40301,7 @@ entries:
     score: 83
   - id: kocoro-lab-shannon
     repo: kocoro-lab/shannon
-    name: shannon
+    name: kocoro-lab/shannon
     status: listed
     tagline: Multi-agent orchestration on Temporal with token budgets and replay debugging
     summary: Shannon is a multi-agent orchestration stack with a Go gateway and orchestrator, a Rust agent core with a WASI sandbox, and a Python LLM service. Tasks are submitted over REST, an OpenAI-compatible API or a Python SDK, then routed by complexity to strategies such as DAG, ReAct, research and swarm. Temporal provides workflow replay, and per-task token budgets fall back to cheaper models.
@@ -43773,7 +43773,7 @@ entries:
     score: 34
   - id: open-science
     repo: aipoch/open-science
-    name: open-science
+    name: aipoch/open-science
     status: listed
     tagline: Local-first research workbench with provenance tracking and portable .science exports
     summary: AIPOCH Open-Science is a desktop app (macOS, Windows, Linux) with a standalone CLI and Web UI, also installable via npm on Node.js 22.13.0 or later. An agent works over papers and project data, with Python/R notebooks, Zotero import, literature screening and a Provenance view of inputs, code and execution history. Completed sessions export as portable read-only .science packages that others can import and replay.
@@ -46409,7 +46409,7 @@ entries:
     score: 48
   - id: skills
     repo: browser-act/skills
-    name: skills
+    name: browser-act/skills
     status: listed
     tagline: Browser automation skill that gives coding agents stealth and local Chrome control
     summary: BrowserAct Skills adds a `browser-act` CLI and Skill that agents such as Claude Code, Cursor and Codex load to drive a real browser. It supports local Chrome profile reuse and stealth browsers with fingerprint and proxy handling, and exposes indexed page state (`state`, `click 3`, `input 2`). It also offers CAPTCHA solving, human handoff via `remote-assist`, and Skill Forge, which generates site-specific scraping Skills.
@@ -48580,7 +48580,7 @@ entries:
     score: 49
   - id: router
     repo: weave-os/router
-    name: router
+    name: weave-os/router
     status: listed
     tagline: Proxy that picks a model per request across Anthropic, OpenAI and Gemini APIs
     summary: Weave Router is a Go proxy that chooses a model for each request using an embedding and cluster scorer based on Avengers-Pro. It accepts Anthropic Messages, OpenAI Chat Completions and Gemini requests, and forwards to Anthropic, OpenAI, Gemini, OpenRouter or any OpenAI-compatible endpoint. A hosted router is offered, or it can be self-hosted with Postgres and a dashboard.
@@ -50303,7 +50303,7 @@ entries:
     score: 50
   - id: cube-studio
     repo: tencentmusic/cube-studio
-    name: cube-studio
+    name: tencentmusic/cube-studio
     status: listed
     tagline: Archived Cube Studio repository, development moved to data-infra/cube-studio
     summary: Cube Studio is a Tencent Music project whose README contains only an architecture diagram and a link to a wiki. The repository was archived on 2026-05-18 and is no longer maintained, with development moved to data-infra/cube-studio. The README does not describe features, install steps or supported models.
@@ -52125,7 +52125,7 @@ entries:
     score: 49
   - id: ignite
     repo: pytorch/ignite
-    name: ignite
+    name: pytorch/ignite
     status: listed
     tagline: PyTorch library for training and evaluating models with engines, events and metrics
     summary: Ignite is a Python library on top of PyTorch that replaces hand-written epoch and iteration loops with an Engine object plus event handlers. It ships metrics (Precision, Recall, Accuracy, Confusion Matrix, IoU, about 20 regression metrics) and handlers for saving artifacts and logging. It is used as a library, so the training script keeps control flow.
@@ -52414,7 +52414,7 @@ entries:
     score: 43
   - id: infinity
     repo: infiniflow/infinity
-    name: infinity
+    name: infiniflow/infinity
     status: listed
     tagline: Database for hybrid dense, sparse, tensor and full-text search
     summary: Infinity is a C++ database that runs hybrid search over dense vectors, sparse vectors, tensors and full-text, with filtering on structured columns. It supports RRF, weighted-sum and ColBERT rerankers, and is used from a Python SDK (embedded or over the network) or an HTTP API. The README reports 0.1 ms latency and 15K+ QPS on million-scale vector sets, and 1 ms latency on full-text search over 33M documents.
@@ -52892,7 +52892,7 @@ entries:
     score: 31
   - id: u14app-deep-research
     repo: u14app/deep-research
-    name: deep-research
+    name: u14app/deep-research
     status: listed
     tagline: Next.js app that runs multi-step web research and writes a Markdown report
     summary: Deep Research takes a topic, asks clarifying questions, drafts a research plan, then runs rounds of search queries and compiles a Markdown report using separate thinking and task models. It works with many LLM providers (Gemini, OpenAI, Anthropic, Ollama, OpenRouter and others) and search backends (Searxng, Tavily, Firecrawl, Exa, Brave). It also exposes an SSE API and an MCP server.
@@ -53053,7 +53053,7 @@ entries:
     score: 75
   - id: huggingface-notebooks
     repo: huggingface/notebooks
-    name: notebooks
+    name: huggingface/notebooks
     status: listed
     tagline: Jupyter notebooks demonstrating the Hugging Face libraries
     summary: A collection of Jupyter notebooks that use the Hugging Face libraries. The README is a single line and does not list which libraries, tasks or models are covered, so the contents have to be browsed in the repository.
@@ -53363,7 +53363,7 @@ entries:
     score: 46
   - id: mcp
     repo: microsoft/mcp
-    name: mcp
+    name: microsoft/mcp
     status: listed
     tagline: Monorepo for Microsoft's Azure and Fabric MCP servers, written in C#
     summary: Holds the shared libraries, test frameworks and build pipelines for Microsoft's MCP servers, mainly the Azure MCP Server and the Microsoft Fabric MCP Server. The Azure server exposes Azure service tools to AI agents and installs through extensions for VS Code, Visual Studio, IntelliJ, Eclipse and Claude Code. The README also indexes other Microsoft MCP servers (Foundry, ARM, Azure DevOps, AKS, GitHub, Markitdown) that live in separate repositories or are hosted remotely.
@@ -54420,7 +54420,7 @@ entries:
     score: 65
   - id: tensorflow-datasets
     repo: tensorflow/datasets
-    name: datasets
+    name: tensorflow/datasets
     status: listed
     tagline: Python library that loads public datasets as tf.data pipelines
     summary: TensorFlow Datasets (TFDS) is a Python library that downloads and prepares public datasets, such as MNIST, and returns them as tf.data.Dataset objects through tfds.load. It aims for the same examples in the same order for every user, and it has a guide for adding custom datasets. It does not host the datasets; it fetches them from their original sources.
@@ -57712,7 +57712,7 @@ entries:
     score: 54
   - id: openai
     repo: macpaw/openai
-    name: openai
+    name: macpaw/openai
     status: listed
     tagline: Swift client library for the OpenAI API and compatible providers
     summary: "A community-maintained Swift package that wraps the OpenAI REST API: Responses, Chat Completions, images, audio, embeddings, moderations, Assistants, files and models. It supports async/await, closures and Combine, plus streaming and request cancellation. A configurable host, base path and a relaxed parsing mode let it talk to other OpenAI-compatible providers such as Gemini, DeepSeek, Perplexity and OpenRouter."
@@ -58401,7 +58401,7 @@ entries:
     score: 66
   - id: genieincodebottle-generative-ai
     repo: genieincodebottle/generative-ai
-    name: generative-ai
+    name: genieincodebottle/generative-ai
     status: listed
     tagline: Notebook-based GenAI tutorials and example apps on RAG, agents and prompting
     summary: A learning repository of Jupyter notebooks, PDF guides and small example projects on generative AI. Use cases include advanced RAG patterns, multi-agent systems with CrewAI and LangGraph, text-to-SQL, Neo4j graph Q&A, prompt engineering, and a React + FastAPI + PostgreSQL analytics app. It also links to the author's interactive learning site, AI-ML Companion.
@@ -59851,7 +59851,7 @@ entries:
     score: 79
   - id: aurelio-labs-semantic-router
     repo: aurelio-labs/semantic-router
-    name: semantic-router
+    name: aurelio-labs/semantic-router
     status: listed
     tagline: Python library that routes queries to predefined routes by embedding similarity
     summary: Semantic Router is a Python library that decides which predefined route a user message belongs to by comparing embeddings of example utterances, instead of waiting on an LLM generation. Routers can be calibrated with labelled queries so the confidence threshold acts as a probability and can return no match. The 1.x line also adds a DecisionRouter backed by small decision models, plus Chain and Merge for combining routers.
@@ -60534,7 +60534,7 @@ entries:
     score: 54
   - id: inspector
     repo: mcpjam/inspector
-    name: inspector
+    name: mcpjam/inspector
     status: listed
     tagline: Inspector and eval runner for testing MCP servers across clients and models
     summary: MCPJam is a TypeScript tool for developers building MCP servers. It lets you call tools, resources and prompts by hand, step through OAuth flows, and chat with a server in a playground that logs every JSON-RPC message. It also runs eval test cases with expected tool calls across multiple LLMs, and ships a CLI, SDK and CI integration.
@@ -64972,7 +64972,7 @@ entries:
     score: 55
   - id: ironclad-rivet
     repo: ironclad/rivet
-    name: rivet
+    name: ironclad/rivet
     status: listed
     tagline: Visual desktop IDE for building LLM prompt-chaining graphs and agents
     summary: Rivet is a desktop application for building AI agents and prompt chains as node graphs. Graphs can be run from your own TypeScript code through the @ironclad/rivet-core and @ironclad/rivet-node NPM packages, and graphs can call back into application code. Built-in LLM support covers OpenAI, Anthropic Claude and AssemblyAI LeMUR.
@@ -65115,7 +65115,7 @@ entries:
     score: 28
   - id: agentdock
     repo: agentdock/agentdock
-    name: agentdock
+    name: agentdock/agentdock
     status: listed
     tagline: TypeScript node-based framework for agents with a Next.js reference client
     summary: AgentDock Core is a backend-first TypeScript framework where agents, tools and custom logic are nodes, with session management, orchestration and pluggable storage. The repo also ships a Next.js client with example agents (research, reasoning, vision) that uses your own LLM provider keys. Workflows can mix LLM-driven tool choice with fixed execution paths.
@@ -66677,7 +66677,7 @@ entries:
     score: 62
   - id: agent
     repo: stakpak/agent
-    name: agent
+    name: stakpak/agent
     status: listed
     tagline: Rust DevOps agent that runs on your servers with secret redaction and guardrails
     summary: Stakpak is a Rust CLI and TUI agent for DevOps work such as Terraform, Kubernetes, CI/CD and deployments. Autopilot mode runs it in the background on cron schedules and takes tasks from Slack, Telegram or Discord. Secrets are substituted so the LLM never sees them. It can also run as an MCP server, MCP proxy or ACP agent for Zed.
@@ -69552,7 +69552,7 @@ entries:
     score: 73
   - id: av-harbor
     repo: av/harbor
-    name: harbor
+    name: av/harbor
     status: listed
     tagline: CLI that starts a pre-wired local LLM stack with one command
     summary: Harbor is a CLI and companion desktop app that orchestrates Docker Compose services for local LLM use. `harbor up` starts a backend such as Ollama, llama.cpp or vLLM together with Open WebUI, and optional services like SearXNG, Speaches, ComfyUI, n8n and Dify are connected automatically. It also offers config profiles, tunneling, QR codes for phone access, and `harbor eject` to export a standalone compose file.
@@ -70958,7 +70958,7 @@ entries:
     score: 57
   - id: ouroboros
     repo: razzant/ouroboros
-    name: ouroboros
+    name: razzant/ouroboros
     status: listed
     tagline: Self-modifying desktop AI agent with persistent memory and subagent swarm
     summary: Ouroboros is a general-purpose agent that keeps identity, memory and history across restarts and can rewrite its own code, prompts, tools and dependencies, with changes passing deterministic checks and independent review. It runs as a native desktop app (macOS, Windows, Linux) or headless CLI, and can coordinate parallel subagents and work on external Git projects. Inference uses configured remote APIs, a connected Codex account, or a local GGUF model.
@@ -72174,7 +72174,7 @@ entries:
     score: 45
   - id: core
     repo: cheshire-cat-ai/core
-    name: core
+    name: cheshire-cat-ai/core
     status: listed
     tagline: Python agent framework with a web UI and REST API, built for learning
     summary: Cheshire Cat AI (Stregatto) is a Python framework for building and studying AI agents, installed with uv and started with the `ccat` command. It serves a web UI on port 1865 and a REST API playground at /docs. The README says it is meant to be easy to understand and extend, mainly for education and research. Version 2 is marked unstable alpha.
@@ -72703,7 +72703,7 @@ entries:
     score: 14
   - id: pinecone-io-examples
     repo: pinecone-io/examples
-    name: examples
+    name: pinecone-io/examples
     status: listed
     tagline: Jupyter notebooks and sample apps for building with Pinecone vector databases
     summary: Official Pinecone repository of runnable Jupyter Notebooks and sample applications covering vector database usage and common AI patterns. It is split into `./docs`, with examples reviewed by Pinecone engineering, and `./learn`, with learning-oriented examples from the Developer Advocacy team. A Google Colab walkthrough is linked for running the notebooks.
@@ -72895,7 +72895,7 @@ entries:
     score: 49
   - id: evomap-autoresearch
     repo: evomap/autoresearch
-    name: autoresearch
+    name: evomap/autoresearch
     status: listed
     tagline: Agent workflow that turns research ideas into reviewed ML experiment evidence
     summary: AutoResearch is a Python pipeline for ML research. It collects recent papers and community signals, combines them with a local Markdown knowledge base, and has three or more distinct models generate and cross-review ideas and experiment plans. Execution runs through the Claude Code CLI in ar-runtime/, writing plans, code, logs, critic reports and blind reviews to disk so runs can resume or be taken over.
@@ -72945,7 +72945,7 @@ entries:
     score: 48
   - id: tensorflow-agents
     repo: tensorflow/agents
-    name: agents
+    name: tensorflow/agents
     status: listed
     tagline: TensorFlow library of reinforcement learning and contextual bandit algorithms
     summary: TF-Agents implements reinforcement learning agents (DQN, DDQN, DDPG, TD3, REINFORCE, PPO, SAC) and a multi-armed bandits suite as modular TensorFlow components. Each agent bundles a policy with the logic to train it from collected experience, with per-agent train_eval examples and Colab tutorials. It targets classic RL and bandit problems such as CartPole, not LLM agents.
@@ -73940,7 +73940,7 @@ entries:
     score: 56
   - id: betalgo-openai
     repo: betalgo/openai
-    name: openai
+    name: betalgo/openai
     status: listed
     tagline: Community .NET client library for the OpenAI API
     summary: Betalgo.Ranul.OpenAI is a C# NuGet package that wraps OpenAI's HTTP API, including chat completions, images, function tools and the Realtime API. It can be constructed directly or registered through ASP.NET dependency injection with AddOpenAIService. The repo includes an OpenAI.Playground sample project, and a separate experimental Utilities package is published.
@@ -74270,7 +74270,7 @@ entries:
     score: 55
   - id: michaelfeil-infinity
     repo: michaelfeil/infinity
-    name: infinity
+    name: michaelfeil/infinity
     status: listed
     tagline: Rust server for embeddings, reranking and classification over a REST API
     summary: Infinity v3 is a native Rust server that runs models through LibTorch and exposes embeddings, reranking, classification, token classification, SPLADE sparse embeddings and typed decisions over REST endpoints. It runs a full model replica on each visible CUDA GPU and picks pooling from checkpoint metadata. The older Python server (v2) lives in the same repo as a separate package.
@@ -74360,7 +74360,7 @@ entries:
     score: 33
   - id: ax-llm-ax
     repo: ax-llm/ax
-    name: ax
+    name: ax-llm/ax
     status: listed
     tagline: DSPy-style typed LLM signatures, agents and flows for TypeScript and ports
     summary: Ax is a TypeScript library for typed LLM programs. You declare a signature as a string, an f() builder or a Standard Schema validator (Zod, Valibot, ArkType), and it handles prompting, parsing, retries and streaming validation. It adds agents with a sandboxed JS runtime, typed flows, GEPA optimizers, and generated Python, Java, C++, Go and Rust ports.
@@ -75162,7 +75162,7 @@ entries:
     score: 50
   - id: nx
     repo: elixir-nx/nx
-    name: nx
+    name: elixir-nx/nx
     status: listed
     tagline: Tensors and numerical definitions for Elixir, with XLA and LibTorch backends
     summary: Nx is a multi-dimensional array (tensor) library for Elixir with numerical definitions. This repository also holds EXLA, a backend built on Google's XLA compiler, and Torchx, a backend built on LibTorch. Each subproject has its own README, and the README says they will later be extracted into separate repositories.
@@ -77062,7 +77062,7 @@ entries:
     score: 28
   - id: meta-ax
     repo: meta/ax
-    name: ax
+    name: meta/ax
     status: listed
     tagline: Python library for Bayesian and bandit optimization of adaptive experiments
     summary: "Ax is a Python platform for running adaptive experiments: it proposes parameter configurations, records results, and iterates toward an optimum. Bayesian optimization is provided by BoTorch on PyTorch, alongside bandit optimization. It supports multiple objectives, parameter and outcome constraints, noisy observations, parallel trials and early stopping."
@@ -78091,7 +78091,7 @@ entries:
     score: 61
   - id: tylerprogramming-ai
     repo: tylerprogramming/ai
-    name: ai
+    name: tylerprogramming/ai
     status: listed
     tagline: Example projects for AutoGen, CrewAI, PydanticAI, Smolagents and OpenAI Agents
     summary: "Companion code for the TylerReedAI YouTube channel: standalone Python examples for AutoGen 0.7.5, CrewAI 1.15, PydanticAI 2.58, Smolagents 1.26, OpenAI Agents SDK and AgentOps. It also has mini projects, n8n and MCP integrations, a Crawl4AI scraping tool and a Claude Code skill that scaffolds agent projects. Examples default to gpt-5.4-mini, with Ollama and LM Studio listed for local models."
@@ -78184,7 +78184,7 @@ entries:
     score: 60
   - id: nebula
     repo: berylliumsec/nebula
-    name: nebula
+    name: berylliumsec/nebula
     status: listed
     tagline: Pentest workbench with AI agents, Kali containers and an intercepting browser
     summary: "Nebula groups a penetration-testing engagement into one Project: assets, Kali terminals, an intercepting security browser with Repeater, notes, findings and reports. AI assistants and missions run within operator-set scope, approvals and budgets, using Codex, Grok or Claude harnesses, or Claude, OpenRouter, Ollama and vLLM providers. Evidence is kept as hashed artifacts with execution provenance."
@@ -78791,7 +78791,7 @@ entries:
     score: 22
   - id: roboflow-maestro
     repo: roboflow/maestro
-    name: maestro
+    name: roboflow/maestro
     status: listed
     tagline: Fine-tuning CLI and Python SDK for vision-language models
     summary: maestro wraps configuration, data loading and the training loop for fine-tuning vision-language models. It ships recipes for Florence-2, PaliGemma 2 and Qwen2.5-VL, with LoRA, QLoRA and graph freezing to limit hardware needs. Training runs through one CLI command or a Python train() function, using a JSONL dataset format.
@@ -79550,7 +79550,7 @@ entries:
     score: 65
   - id: mirage
     repo: mirage-project/mirage
-    name: mirage
+    name: mirage-project/mirage
     status: listed
     tagline: Compiler that fuses LLM inference into a single persistent CUDA megakernel
     summary: Mirage Persistent Kernel (MPK) compiles a Hugging Face LLM's computation graph into one fused GPU kernel that handles compute and communication in a single launch. The README reports 1.2x to 6.7x lower inference latency and covers multi-GPU setups. You define the graph in Python with fused ops such as rmsnorm_linear_layer, and a Qwen3-8B demo script is included.
@@ -80462,7 +80462,7 @@ entries:
     score: 50
   - id: data-infra-cube-studio
     repo: data-infra/cube-studio
-    name: cube-studio
+    name: data-infra/cube-studio
     status: listed
     tagline: Kubernetes MLOps platform for pipelines, training, serving and LLM gateway
     summary: "CubeStudio is a Kubernetes-based platform covering the ML lifecycle: notebooks, drag-and-drop pipeline orchestration, distributed training, hyperparameter search, model registry and inference services. It also handles LLM work, including vLLM and MindIE multi-node inference, llama-factory fine-tuning, an LLM gateway with rate limits and token quotas, and an AIHub model market. It schedules NVIDIA and Chinese accelerators (Ascend, Cambricon, Hygon, Moore Threads, MetaX) with vGPU and RDMA."
@@ -80713,7 +80713,7 @@ entries:
     score: 13
   - id: hivemind
     repo: learning-at-home/hivemind
-    name: hivemind
+    name: learning-at-home/hivemind
     status: listed
     tagline: PyTorch library for training one model across volunteer machines over the Internet
     summary: Hivemind is a PyTorch library for decentralized training across unreliable peers on the Internet. It connects workers through a Distributed Hash Table with no master node, and provides decentralized parameter averaging and a Decentralized Mixture-of-Experts layer. Petals and a PyTorch Lightning integration build on it.
@@ -84155,7 +84155,7 @@ entries:
     score: 30
   - id: jarvis
     repo: isair/jarvis
-    name: jarvis
+    name: isair/jarvis
     status: listed
     tagline: Voice-first desktop assistant that listens to room conversation and answers by name
     summary: Jarvis is a desktop app for macOS, Windows and Linux that listens through the microphone, keeps a short rolling transcript of nearby speech, and answers when addressed by name. Speech recognition (Whisper), chat models via Ollama or an OpenAI-compatible server, and TTS (Piper) run locally. It stores a diary and knowledge graph on disk, and supports MCP servers, web search and dictation.
@@ -85179,7 +85179,7 @@ entries:
     score: 62
   - id: runtime
     repo: capsulerun/runtime
-    name: runtime
+    name: capsulerun/runtime
     status: listed
     tagline: WebAssembly sandbox runtime for running untrusted Python and TypeScript tasks
     summary: Capsule compiles Python or TypeScript/JavaScript functions into WebAssembly modules and runs each decorated task in its own wasmtime sandbox. Per-task limits cover CPU (via Wasm fuel metering), RAM, timeout and retries, plus allowlists for files, hosts and environment variables. It can be driven from the CLI (`capsule run`) or embedded through a `run()` function in the Python and TypeScript SDKs.
@@ -87521,7 +87521,7 @@ entries:
     score: 43
   - id: ai4s-research-open-science
     repo: ai4s-research/open-science
-    name: open-science
+    name: ai4s-research/open-science
     status: listed
     tagline: Desktop AI research workbench with agents, notebooks, and provenance tracking
     summary: Open Science Desktop is a Tauri 2 and React app for macOS, Windows and Linux that runs a bundled OpenCode sidecar to drive research agents. Bundled skills chain literature survey, experiment code, figures and paper writing, and a local provenance log links artifacts to the code and inputs that produced them. It also ships a headless `osd` CLI and server, plus a token-authenticated web gateway.
@@ -88202,7 +88202,7 @@ entries:
     score: 61
   - id: tensorflow-recommenders
     repo: tensorflow/recommenders
-    name: recommenders
+    name: tensorflow/recommenders
     status: listed
     tagline: Keras-based library for building TensorFlow recommender models
     summary: TensorFlow Recommenders is a Python library on top of Keras for building recommender models in TensorFlow 2.x. It covers data preparation, model definition, training, evaluation and deployment, with built-in retrieval tasks and factorized top-K metrics. The README's quick start trains a Movielens 100K factorization model with embedding layers in a short script.
@@ -88587,7 +88587,7 @@ entries:
     score: 29
   - id: redplanethq-core
     repo: redplanethq/core
-    name: core
+    name: redplanethq/core
     status: listed
     tagline: Self-hosted assistant with knowledge-graph memory, tasks, and coding-agent delegation
     summary: CORE is a self-hosted assistant that indexes email, meetings, GitHub, Linear and Slack into a temporal knowledge graph and uses it as context for tasks. Tasks are written in a daily scratchpad, by voice, or via WhatsApp, Slack and Telegram, then planned for human approval. Execution can spawn Claude Code or Codex sessions, drive a built-in browser, or call 50+ MCP-based app integrations.
@@ -95129,7 +95129,7 @@ entries:
     score: 81
   - id: letta
     repo: letta-ai/letta-code
-    name: Letta
+    name: letta-ai/letta-code
     status: listed
     tagline: Stateful CLI agent harness with self-editing memory, skills and chat integrations
     summary: Letta Code is a TypeScript CLI for running long-lived agents that keep memory, skills and prompts across sessions and rewrite them over time. Agents can be driven from the terminal, from chat.letta.com (including mobile), or through Telegram, Slack, Discord and custom channels. Memory is tracked in git (MemFS), and agents can use subagents, hooks, crons and permission modes.
@@ -98860,7 +98860,7 @@ entries:
     score: 87
   - id: maestro
     repo: murtaza-nasir/maestro
-    name: MAESTRO
+    name: murtaza-nasir/maestro
     status: listed
     tagline: Multi-agent research platform that writes long reports from documents and web
     summary: Planning, Research, Reflection and Writing agents run research missions over uploaded PDF, Word and Markdown documents and web search, producing long reports with visible agent steps. Retrieval uses BGE-M3 embeddings in PostgreSQL with pgvector; any OpenAI-compatible API, including Azure OpenAI, can serve the models. Docker Compose stack on http://localhost with CPU and NVIDIA variants.
@@ -99085,7 +99085,7 @@ entries:
     score: 87
   - id: phoenix
     repo: arize-ai/phoenix
-    name: Phoenix
+    name: arize-ai/phoenix
     status: listed
     tagline: LLM tracing, evaluation and prompt management built on OpenTelemetry
     summary: Phoenix collects OpenTelemetry/OpenInference traces from LLM applications and provides evaluations, versioned datasets, experiments, a prompt playground and prompt version management. It also includes a built-in agent (PXI) and a remote MCP endpoint at /mcp for clients such as Claude Code and Cursor. It installs with pip or uvx, or runs from a Docker image or Helm chart.
