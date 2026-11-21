@@ -415,7 +415,7 @@ Trafilatura downloads web pages, crawls sitemaps and feeds, and extracts main te
 <sub>no GPU · Needs jusText, readability-lxml · [Repo](https://github.com/adbar/trafilatura) · [📖 Docs ↗](https://trafilatura.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trafilatura/)</sub>
 
 <a name="rea-video"></a>
-### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;24 [rea-video](https://github.com/juneyaooo/rea-video) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
 
 **Agent skill and CLI that breaks a video into shots and judges how each was made.**
 
@@ -468,26 +468,8 @@ DataFlow is a Python framework that turns noisy sources (PDFs, plain text, low-q
 
 <sub>GPU optional · Docker · Needs OpenAI-compatible LLM API or vLLM, uv · Models: OpenAI-compatible APIs, vLLM local models · [Repo](https://github.com/opendcai/dataflow) · [▶️ Demo ↗](https://colab.research.google.com/drive/1haosl2QS4N4HM7u7HvSsz_MnLabxexXl?usp=sharing) · [📖 Docs ↗](https://OpenDCAI.github.io/DataFlow-Doc/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataflow/)</sub>
 
-<a name="data-juicer"></a>
-### #&#8288;27 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
-
-**Operator-based pipelines for cleaning and deduplicating multimodal training data.**
-
-Data-Juicer is a Python library and CLI (dj-process) that runs YAML-defined pipelines of 200+ operators over text, image, audio and video data, covering filtering, mapping, deduplication and analysis. It runs locally or on Ray clusters, and the README cites 70B samples in 2h on 50 Ray nodes and 5TB deduplicated in 2.8h on 1280 cores. It also ships LLM-based operators and a natural-language refinement model, Juicer.
-
-- **+** 200+ operators across text, image, audio, video and multimodal data
-- **+** Reproducible YAML recipes, plus a Python API for composing operators
-- **+** Ray-based distributed execution with partitioning, checkpoints and OP fusion
-- **+** Supports S3 and HDFS I/O, and loads Hugging Face datasets and gz JSONL
-- **−** Many operators need extra dependencies or GPUs; the install is split into extras
-- **−** Large-scale performance figures come from big clusters (1280 to 6400 cores)
-- **−** Frequent releases with many operator behavior fixes; pin versions for reproducibility
-- **−** Docs and several tools are spread across separate repos (hub, agents, sandbox)
-
-<sub>GPU optional · Docker · Needs Ray (distributed mode), S3 or HDFS (optional), Hugging Face / ModelScope models (optional) · Models: Hugging Face models, OpenAI-compatible API, LiteLLM, Juicer-35B-A3B · [Repo](https://github.com/datajuicer/data-juicer) · [▶️ Demo ↗](http://8.138.149.181/) · [📖 Docs ↗](https://datajuicer.github.io/data-juicer/en/main/docs_index.html) · [🌐 Site ↗](https://datajuicer.github.io/data-juicer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-juicer/)</sub>
-
 <a name="anydoc"></a>
-### #&#8288;28 [anydoc](https://github.com/firecrawl/anydoc) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Nov 2026</sub>
+### #&#8288;27 [anydoc](https://github.com/firecrawl/anydoc) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Nov 2026</sub>
 
 **Rust library converting Office, EPUB, CSV and PDF files to Markdown.**
 
@@ -503,6 +485,24 @@ anydoc parses Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV and text-bas
 - **−** CSV needs an explicit format or extension because it has no content signature
 
 <sub>no GPU · Needs Firecrawl Parse API (optional, for OCR) · [Repo](https://github.com/firecrawl/anydoc) · [▶️ Demo ↗](https://firecrawl.github.io/anydoc/) · [🌐 Site ↗](https://firecrawl.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anydoc/)</sub>
+
+<a name="data-juicer"></a>
+### #&#8288;28 [data-juicer](https://github.com/datajuicer/data-juicer) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · Apache-2.0 · Nov 2026</sub>
+
+**Operator-based pipelines for cleaning and deduplicating multimodal training data.**
+
+Data-Juicer is a Python library and CLI (dj-process) that runs YAML-defined pipelines of 200+ operators over text, image, audio and video data, covering filtering, mapping, deduplication and analysis. It runs locally or on Ray clusters, and the README cites 70B samples in 2h on 50 Ray nodes and 5TB deduplicated in 2.8h on 1280 cores. It also ships LLM-based operators and a natural-language refinement model, Juicer.
+
+- **+** 200+ operators across text, image, audio, video and multimodal data
+- **+** Reproducible YAML recipes, plus a Python API for composing operators
+- **+** Ray-based distributed execution with partitioning, checkpoints and OP fusion
+- **+** Supports S3 and HDFS I/O, and loads Hugging Face datasets and gz JSONL
+- **−** Many operators need extra dependencies or GPUs; the install is split into extras
+- **−** Large-scale performance figures come from big clusters (1280 to 6400 cores)
+- **−** Frequent releases with many operator behavior fixes; pin versions for reproducibility
+- **−** Docs and several tools are spread across separate repos (hub, agents, sandbox)
+
+<sub>GPU optional · Docker · Needs Ray (distributed mode), S3 or HDFS (optional), Hugging Face / ModelScope models (optional) · Models: Hugging Face models, OpenAI-compatible API, LiteLLM, Juicer-35B-A3B · [Repo](https://github.com/datajuicer/data-juicer) · [▶️ Demo ↗](http://8.138.149.181/) · [📖 Docs ↗](https://datajuicer.github.io/data-juicer/en/main/docs_index.html) · [🌐 Site ↗](https://datajuicer.github.io/data-juicer/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-juicer/)</sub>
 
 <a name="unstract"></a>
 ### #&#8288;29 [unstract](https://github.com/zipstack/unstract) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · AGPL-3.0 · Nov 2026</sub>
@@ -917,26 +917,8 @@ Oxen is a Rust version control system with git-like commands (init, add, commit,
 
 <sub>no GPU · Docker + Compose · Needs FFmpeg libraries (optional, thumbnails), cmake (build only) · [Repo](https://github.com/oxen-ai/oxen) · [📖 Docs ↗](https://docs.oxen.ai) · [🌐 Site ↗](https://oxen.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oxen/)</sub>
 
-<a name="subtitle-translator"></a>
-### #&#8288;52 [subtitle-translator](https://github.com/rockbenben/subtitle-translator) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
-
-**Browser-based batch subtitle translator for SRT, ASS, VTT and LRC files.**
-
-Parses .srt, .ass, .vtt and .lrc files locally, strips timecodes and headers, and sends only dialogue text to one of 8 machine-translation APIs or 27 LLM providers and gateways. It handles whole seasons in batch, multiple target languages per pass, and bilingual output including two-style ASS. A `yarn cli` command runs the same engine headlessly, and it can be self-hosted with Node.js 24 or newer.
-
-- **+** Timecodes and cue numbers never reach the model, so timing cannot be rewritten
-- **+** Free GTX and Edge engines work with no key or setup
-- **+** Local models work through any OpenAI-compatible URL, e.g. Ollama at localhost:11434
-- **+** CLI shares engine and cache with the web app, and runs resume after interruption
-- **−** Complex inline ASS effect tags are simplified during translation
-- **−** Context mode with models under 70B parameters may produce misaligned output
-- **−** CORS-blocked providers go through a relay, built-in or self-deployed Worker
-- **−** Free GTX and Edge engines are rate-limited and rated lower for stability
-
-<sub>no GPU · Docker · Needs Node.js >= 24, Yarn · Models: DeepL, Google Translate, Azure Translate, DeepLX, Qwen-MT · port 3000 · [Repo](https://github.com/rockbenben/subtitle-translator) · [▶️ Demo ↗](https://tools.newzone.top/en/subtitle-translator) · [📖 Docs ↗](https://docs.newzone.top/en/guide/translation/subtitle-translator/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/subtitle-translator/)</sub>
-
 <a name="ai-youtube-shorts-generator"></a>
-### #&#8288;53 [ai-youtube-shorts-generator](https://github.com/anil-matcha/ai-youtube-shorts-generator) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · MIT · Nov 2026</sub>
+### #&#8288;52 [ai-youtube-shorts-generator](https://github.com/anil-matcha/ai-youtube-shorts-generator) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: weak (29) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · MIT · Nov 2026</sub>
 
 **CLI that cuts long YouTube videos into ranked vertical shorts.**
 
@@ -954,7 +936,7 @@ Python CLI and library that downloads a YouTube video or local file, transcribes
 <sub>GPU optional · Needs MuAPI (API mode), ffmpeg (local mode), yt-dlp, faster-whisper, OpenCV, OpenAI or Gemini API key (local mode) · Models: OpenAI gpt-4o-mini, Gemini gemini-2.5-flash, faster-whisper tiny to large-v3, MuAPI gpt-5-mini · [Repo](https://github.com/anil-matcha/ai-youtube-shorts-generator) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-youtube-shorts-generator/)</sub>
 
 <a name="sumy"></a>
-### #&#8288;54 [sumy](https://github.com/miso-belica/sumy) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (35) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;53 [sumy](https://github.com/miso-belica/sumy) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (36) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
 
 **Extractive text summarizer for web pages and plain text, as library and CLI.**
 
@@ -971,7 +953,7 @@ Sumy is a Python library and command line tool that summarizes HTML pages (by UR
 <sub>no GPU · Docker · [Repo](https://github.com/miso-belica/sumy) · [▶️ Demo ↗](https://huggingface.co/spaces/issam9/sumy_space) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sumy/)</sub>
 
 <a name="indra"></a>
-### #&#8288;55 [indra](https://github.com/datalab-to/indra) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;54 [indra](https://github.com/datalab-to/indra) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
 
 **CPU-only OCR model that converts PDFs and images to markdown or JSON.**
 
@@ -987,6 +969,24 @@ Indra OCR is a small ONNX Runtime OCR pipeline (about 76 MB of default models, n
 - **−** Weights use modified OpenRAIL-M; commercial use above $20M funding or revenue needs a license
 
 <sub>no GPU · Needs onnxruntime, opencv, pypdfium2, Hugging Face (model download) · Models: ONNX, indra-ocr · port 8765 · [Repo](https://github.com/datalab-to/indra) · [▶️ Demo ↗](https://www.datalab.to/playground) · [📖 Docs ↗](https://documentation.datalab.to) · [🌐 Site ↗](https://www.datalab.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/indra/)</sub>
+
+<a name="subtitle-translator"></a>
+### #&#8288;55 [subtitle-translator](https://github.com/rockbenben/subtitle-translator) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+
+**Browser-based batch subtitle translator for SRT, ASS, VTT and LRC files.**
+
+Parses .srt, .ass, .vtt and .lrc files locally, strips timecodes and headers, and sends only dialogue text to one of 8 machine-translation APIs or 27 LLM providers and gateways. It handles whole seasons in batch, multiple target languages per pass, and bilingual output including two-style ASS. A `yarn cli` command runs the same engine headlessly, and it can be self-hosted with Node.js 24 or newer.
+
+- **+** Timecodes and cue numbers never reach the model, so timing cannot be rewritten
+- **+** Free GTX and Edge engines work with no key or setup
+- **+** Local models work through any OpenAI-compatible URL, e.g. Ollama at localhost:11434
+- **+** CLI shares engine and cache with the web app, and runs resume after interruption
+- **−** Complex inline ASS effect tags are simplified during translation
+- **−** Context mode with models under 70B parameters may produce misaligned output
+- **−** CORS-blocked providers go through a relay, built-in or self-deployed Worker
+- **−** Free GTX and Edge engines are rate-limited and rated lower for stability
+
+<sub>no GPU · Docker · Needs Node.js >= 24, Yarn · Models: DeepL, Google Translate, Azure Translate, DeepLX, Qwen-MT · port 3000 · [Repo](https://github.com/rockbenben/subtitle-translator) · [▶️ Demo ↗](https://tools.newzone.top/en/subtitle-translator) · [📖 Docs ↗](https://docs.newzone.top/en/guide/translation/subtitle-translator/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/subtitle-translator/)</sub>
 
 <a name="easyocr"></a>
 ### #&#8288;56 [easyocr](https://github.com/jaidedai/easyocr) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (87) · Freshness: recent (70) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
@@ -1007,7 +1007,7 @@ EasyOCR is a Python package that detects and reads text in images with a CRAFT d
 <sub>GPU optional · Docker · Needs PyTorch, torchvision, Ninja (optional, for DBNet) · Models: CRAFT detector, CRNN recognizer, DBNet detector (optional) · [Repo](https://github.com/jaidedai/easyocr) · [▶️ Demo ↗](https://huggingface.co/spaces/tomofi/EasyOCR) · [📖 Docs ↗](https://www.jaided.ai/easyocr/documentation) · [🌐 Site ↗](https://www.jaided.ai/easyocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easyocr/)</sub>
 
 <a name="quant-mind"></a>
-### #&#8288;57 [quant-mind](https://github.com/llmquant/quant-mind) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (29) · Freshness: active (97) · Maintenance: weak (24) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Aug 2026</sub>
+### #&#8288;57 [quant-mind](https://github.com/llmquant/quant-mind) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (29) · Freshness: active (97) · Maintenance: weak (24) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Aug 2026</sub>
 
 **Python library turning financial papers and news into typed, cited knowledge records.**
 
@@ -1060,26 +1060,8 @@ Python CLI that rewrites AI-drafted text in four steps: two high-temperature LLM
 
 <sub>no GPU · Docker + Compose · Needs LLM API (DeepSeek default), Niutrans API, Google Translate, n8n (optional) · Models: DeepSeek, OpenRouter, Atlas Cloud, OrcaRouter, LiteLLM · [Repo](https://github.com/lynote-ai/humanize-text) · [▶️ Demo ↗](https://lynote.ai/ai-humanizer) · [📖 Docs ↗](https://github.com/lynote-ai/humanize-text/blob/main/docs/installation.md) · [🌐 Site ↗](https://lynote.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/humanize-text/)</sub>
 
-<a name="oxr"></a>
-### #&#8288;60 [oxr](https://github.com/somarkai/oxr) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (37) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · custom license · Nov 2026</sub>
-
-**1.3B document parsing model that turns PDFs and images into Markdown or JSON.**
-
-OXR is a 1.3B-parameter model from SoMark that parses PDFs and document images into Markdown or JSON with layout coordinates, covering 13 element types such as formulas, tables, chemical structures and code blocks. Layout analysis runs as a separate, replaceable model, while OXR handles recognition and reading order. It serves a SoMark-compatible parsing API and a demo page on port 8000, using vLLM for the model.
-
-- **+** Layout model is swappable while OXR keeps recognition and reading order
-- **+** Outputs Markdown or JSON with bounding boxes for 13 element types
-- **+** API works with somark-py and somark-js CLIs by changing the base URL
-- **+** Local demo at /demo plus a free hosted API for trying it
-- **−** Needs Linux and an NVIDIA BF16 GPU; 24GB VRAM minimum, 48GB recommended
-- **−** Custom license based on Apache 2.0 with extra terms
-- **−** Official vLLM lacks OXR support; an out-of-tree plugin is required
-- **−** Benchmark rankings are self-reported; technical report not yet published
-
-<sub>GPU required · Docker · Needs NVIDIA driver (CUDA 13.0 compatible), vLLM 0.25.1, PyTorch 2.11.0, Python 3.12, Docker · Models: OXR-1.0 (BF16, 1.3B), D-FINE layout analysis model · port 8000 · [Repo](https://github.com/somarkai/oxr) · [▶️ Demo ↗](https://free-oxr.somark.ai) · [📖 Docs ↗](https://docs.somark.ai/api-reference) · [🌐 Site ↗](https://somark.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oxr/)</sub>
-
 <a name="jina-reader"></a>
-### #&#8288;61 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (73) · Freshness: recent (67) · Maintenance: weak (10) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+### #&#8288;60 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (73) · Freshness: recent (66) · Maintenance: weak (10) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
 
 **Converts any URL or search query into LLM-friendly markdown.**
 
@@ -1097,7 +1079,7 @@ Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page
 <sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jina-reader/)</sub>
 
 <a name="glm-ocr"></a>
-### #&#8288;62 [glm-ocr](https://github.com/zai-org/glm-ocr) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (60) · Freshness: active (96) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;61 [glm-ocr](https://github.com/zai-org/glm-ocr) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (60) · Freshness: active (96) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Oct 2026</sub>
 
 **0.9B OCR model and SDK that parses documents into Markdown and JSON.**
 
@@ -1112,6 +1094,24 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 - **−** Code is Apache-2.0 but model is MIT, and PP-DocLayoutV3 adds a third license to follow
 
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
+
+<a name="oxr"></a>
+### #&#8288;62 [oxr](https://github.com/somarkai/oxr) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (34) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
+
+**1.3B document parsing model that turns PDFs and images into Markdown or JSON.**
+
+OXR is a 1.3B-parameter model from SoMark that parses PDFs and document images into Markdown or JSON with layout coordinates, covering 13 element types such as formulas, tables, chemical structures and code blocks. Layout analysis runs as a separate, replaceable model, while OXR handles recognition and reading order. It serves a SoMark-compatible parsing API and a demo page on port 8000, using vLLM for the model.
+
+- **+** Layout model is swappable while OXR keeps recognition and reading order
+- **+** Outputs Markdown or JSON with bounding boxes for 13 element types
+- **+** API works with somark-py and somark-js CLIs by changing the base URL
+- **+** Local demo at /demo plus a free hosted API for trying it
+- **−** Needs Linux and an NVIDIA BF16 GPU; 24GB VRAM minimum, 48GB recommended
+- **−** Custom license based on Apache 2.0 with extra terms
+- **−** Official vLLM lacks OXR support; an out-of-tree plugin is required
+- **−** Benchmark rankings are self-reported; technical report not yet published
+
+<sub>GPU required · Docker · Needs NVIDIA driver (CUDA 13.0 compatible), vLLM 0.25.1, PyTorch 2.11.0, Python 3.12, Docker · Models: OXR-1.0 (BF16, 1.3B), D-FINE layout analysis model · port 8000 · [Repo](https://github.com/somarkai/oxr) · [▶️ Demo ↗](https://free-oxr.somark.ai) · [📖 Docs ↗](https://docs.somark.ai/api-reference) · [🌐 Site ↗](https://somark.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oxr/)</sub>
 
 <a name="mnbvc"></a>
 ### #&#8288;63 [mnbvc](https://github.com/esbatmop/mnbvc) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (43) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Oct 2026</sub>
@@ -1167,26 +1167,8 @@ Official Python SDK for the hosted Tavily API. It wraps search, content extracti
 
 <sub>no GPU · Needs Tavily API (hosted), Tavily API key (except keyless search/extract) · [Repo](https://github.com/tavily-ai/tavily-python) · [📖 Docs ↗](https://docs.tavily.com/sdk/python/reference) · [🌐 Site ↗](https://tavily.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tavily-python/)</sub>
 
-<a name="anakin"></a>
-### #&#8288;66 [anakin](https://github.com/anakin-inc/anakin) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (36) · Freshness: active (94) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · AGPL-3.0 · Aug 2026</sub>
-
-**Self-hosted scraping API that returns LLM-ready markdown or JSON.**
-
-AnakinScraper OSS is a Go server exposing sync, async and batch REST endpoints that fetch a URL and return HTML, cleaned HTML and markdown. Each job runs a handler chain: plain HTTP fetch, then a Camoufox anti-detect Firefox service, then an optional external API such as anakin.io. Per-domain configs, failure-pattern detection, Thompson Sampling proxy selection and optional Gemini JSON extraction are included, plus a React dashboard.
-
-- **+** Runs as a single Go binary with in-memory jobs; PostgreSQL is optional
-- **+** Handler chain falls back from HTTP to Camoufox browser to external API automatically
-- **+** Per-domain configs with failure and required patterns trigger retries on the next handler
-- **+** Includes React dashboard, CLI support and an OpenClaw skill wrapper
-- **−** AGPL-3.0 license requires open-sourcing modifications offered as a hosted service
-- **−** JavaScript-heavy sites need the separate Python Camoufox browser service
-- **−** Structured JSON extraction depends on a Google Gemini API key
-- **−** Anonymous telemetry is on by default and must be disabled with TELEMETRY=off
-
-<sub>no GPU · Compose · Needs PostgreSQL (optional), Camoufox browser service (optional), Gemini API (optional), anakin.io API (optional), Go 1.25+ · Models: Google Gemini (JSON extraction) · port 8080 · [Repo](https://github.com/anakin-inc/anakin) · [🌐 Site ↗](https://anakin.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anakin/)</sub>
-
 <a name="agentql"></a>
-### #&#8288;67 [agentql](https://github.com/tinyfish-io/agentql) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
+### #&#8288;66 [agentql](https://github.com/tinyfish-io/agentql) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
 
 **Natural-language queries to extract data and automate live web pages.**
 
@@ -1203,8 +1185,26 @@ AgentQL is a query language with Python and JavaScript SDKs that locates element
 
 <sub>Needs Playwright, AgentQL REST API · [Repo](https://github.com/tinyfish-io/agentql) · [▶️ Demo ↗](https://playground.agentql.com/) · [📖 Docs ↗](https://docs.agentql.com) · [🌐 Site ↗](https://agentql.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentql/)</sub>
 
+<a name="anakin"></a>
+### #&#8288;67 [anakin](https://github.com/anakin-inc/anakin) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (37) · Freshness: active (93) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · AGPL-3.0 · Aug 2026</sub>
+
+**Self-hosted scraping API that returns LLM-ready markdown or JSON.**
+
+AnakinScraper OSS is a Go server exposing sync, async and batch REST endpoints that fetch a URL and return HTML, cleaned HTML and markdown. Each job runs a handler chain: plain HTTP fetch, then a Camoufox anti-detect Firefox service, then an optional external API such as anakin.io. Per-domain configs, failure-pattern detection, Thompson Sampling proxy selection and optional Gemini JSON extraction are included, plus a React dashboard.
+
+- **+** Runs as a single Go binary with in-memory jobs; PostgreSQL is optional
+- **+** Handler chain falls back from HTTP to Camoufox browser to external API automatically
+- **+** Per-domain configs with failure and required patterns trigger retries on the next handler
+- **+** Includes React dashboard, CLI support and an OpenClaw skill wrapper
+- **−** AGPL-3.0 license requires open-sourcing modifications offered as a hosted service
+- **−** JavaScript-heavy sites need the separate Python Camoufox browser service
+- **−** Structured JSON extraction depends on a Google Gemini API key
+- **−** Anonymous telemetry is on by default and must be disabled with TELEMETRY=off
+
+<sub>no GPU · Compose · Needs PostgreSQL (optional), Camoufox browser service (optional), Gemini API (optional), anakin.io API (optional), Go 1.25+ · Models: Google Gemini (JSON extraction) · port 8080 · [Repo](https://github.com/anakin-inc/anakin) · [🌐 Site ↗](https://anakin.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anakin/)</sub>
+
 <a name="olmocr"></a>
-### #&#8288;68 [olmocr](https://github.com/allenai/olmocr) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (81) · Freshness: recent (56) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;68 [olmocr](https://github.com/allenai/olmocr) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (81) · Freshness: recent (55) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
 
 **PDF and image to Markdown converter built on a 7B vision-language model.**
 
@@ -1348,7 +1348,7 @@ JSON2YOLO is a set of Python scripts that convert COCO detection, segmentation a
 <sub>no GPU · Needs Python 3.8+, ultralytics (for convert_coco) · Models: COCO JSON, LabelMe JSON, Labelbox JSON, YOLO format · [Repo](https://github.com/ultralytics/json2yolo) · [📖 Docs ↗](https://docs.ultralytics.com/reference/data/converter) · [🌐 Site ↗](https://www.ultralytics.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/json2yolo/)</sub>
 
 <a name="doccano"></a>
-### #&#8288;76 [doccano](https://github.com/doccano/doccano) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (68) · Freshness: slowing (34) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
+### #&#8288;76 [doccano](https://github.com/doccano/doccano) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (68) · Freshness: slowing (33) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
 
 **Web-based text annotation tool for labeling NLP datasets.**
 
@@ -1366,7 +1366,7 @@ doccano is a web application for annotating text for classification, sequence la
 <sub>no GPU · Docker + Compose · Needs SQLite (default), PostgreSQL (optional), RabbitMQ (Docker Compose) · port 8000 · [Repo](https://github.com/doccano/doccano) · [📖 Docs ↗](https://doccano.github.io/doccano/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/doccano/)</sub>
 
 <a name="cleanlab"></a>
-### #&#8288;77 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (70) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;77 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (70) · Freshness: slowing (32) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
 
 **Python library that finds label errors and outliers in ML datasets.**
 
@@ -1402,7 +1402,7 @@ DeepKE is a PyTorch toolkit that trains and runs models for named entity recogni
 <sub>Docker · Needs PyTorch, transformers, hydra-core, wandb (optional) · Models: BERT-style encoders, W2NER, LightNER, KnowPrompt, PRGC · [Repo](https://github.com/zjunlp/deepke) · [▶️ Demo ↗](http://deepke.zjukg.cn/) · [📖 Docs ↗](https://zjunlp.github.io/DeepKE/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepke/)</sub>
 
 <a name="kubric"></a>
-### #&#8288;79 [kubric](https://github.com/google-research/kubric) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (26) · Freshness: recent (66) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · May 2026</sub>
+### #&#8288;79 [kubric](https://github.com/google-research/kubric) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (26) · Freshness: recent (66) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · May 2026</sub>
 
 **Synthetic multi-object video generator with segmentation, depth and optical flow labels.**
 
@@ -1420,7 +1420,7 @@ Kubric generates semi-realistic synthetic videos of multiple objects, using pybu
 <sub>Docker · Needs Blender 2.93, pybullet, Docker · [Repo](https://github.com/google-research/kubric) · [📖 Docs ↗](https://kubric.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kubric/)</sub>
 
 <a name="scattertext"></a>
-### #&#8288;80 [scattertext](https://github.com/jasonkessler/scattertext) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (21) · Freshness: recent (58) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;80 [scattertext](https://github.com/jasonkessler/scattertext) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (21) · Freshness: recent (57) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Jul 2026</sub>
 
 **Python library that plots distinguishing terms between text corpora as interactive HTML.**
 
@@ -1438,7 +1438,7 @@ Scattertext is a Python library that scores which words and phrases are characte
 <sub>no GPU · Needs Python 3.11+, spacy (optional), gensim (optional), empath (optional), umap-learn (optional), jieba (optional), flashtext (optional), astropy (optional) · [Repo](https://github.com/jasonkessler/scattertext) · [▶️ Demo ↗](https://jasonkessler.github.io/demo_compact.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scattertext/)</sub>
 
 <a name="fg-data-synthetic"></a>
-### #&#8288;81 [fg-data-synthetic](https://github.com/data-centric-ai-community/fg-data-synthetic) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (8) · Freshness: recent (67) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Apr 2026</sub>
+### #&#8288;81 [fg-data-synthetic](https://github.com/data-centric-ai-community/fg-data-synthetic) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (8) · Freshness: recent (66) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Apr 2026</sub>
 
 **Python library for synthetic tabular and time-series data using GANs and Gaussian Mixture.**
 
@@ -1491,26 +1491,8 @@ Diffgram is a self-installed platform for storing AI data (schemas, blobs, predi
 
 <sub>Compose · [Repo](https://github.com/diffgram/diffgram) · [📖 Docs ↗](https://diffgram.readme.io/docs) · [🌐 Site ↗](https://diffgram.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diffgram/)</sub>
 
-<a name="deepseek-ocr-app"></a>
-### #&#8288;84 [deepseek_ocr_app](https://github.com/rdumasia303/deepseek_ocr_app) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (11) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Mar 2026</sub>
-
-**Web UI and API for running DeepSeek-OCR on images and PDFs.**
-
-A React frontend and FastAPI backend that wrap the DeepSeek-OCR model from Hugging Face. It does image OCR in four modes (plain, describe, find with bounding boxes, freeform prompt) and multi-page PDF processing, exporting to Markdown, HTML, DOCX or JSON. It is started with docker compose and needs an NVIDIA GPU.
-
-- **+** PDF input up to 100MB with Markdown, HTML, DOCX and JSON export
-- **+** Find mode draws bounding boxes, rescaled from the model's 0-999 coordinates
-- **+** REST endpoints /api/ocr and /api/process-pdf, with Swagger docs at /docs
-- **+** Ports, upload limit, model name and crop sizes set through .env
-- **−** Requires an NVIDIA GPU with CUDA and the NVIDIA Container Toolkit
-- **−** Only 4 of the original 12 modes remain; tables, layout and PII modes are disabled
-- **−** First run downloads about 5-10GB of weights; roughly 20GB disk needed
-- **−** No authentication mentioned, and no tagged releases
-
-<sub>RAM ≥ 16 GB · GPU required · Compose · Needs Docker Compose, NVIDIA Container Toolkit, NVIDIA driver · Models: deepseek-ai/DeepSeek-OCR · port 3000 · [Repo](https://github.com/rdumasia303/deepseek_ocr_app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepseek-ocr-app/)</sub>
-
 <a name="lingua-py"></a>
-### #&#8288;85 [lingua-py](https://github.com/pemistahl/lingua-py) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (10) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;84 [lingua-py](https://github.com/pemistahl/lingua-py) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (10) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Mar 2026</sub>
 
 **Offline language detector for Python, accurate on short text and single words.**
 
@@ -1526,6 +1508,24 @@ Python bindings to a Rust implementation that identifies which of 75 languages a
 - **−** Single-word accuracy is lower; the German example scores 74.2% on words
 
 <sub>no GPU · [Repo](https://github.com/pemistahl/lingua-py) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lingua-py/)</sub>
+
+<a name="deepseek-ocr-app"></a>
+### #&#8288;85 [deepseek_ocr_app](https://github.com/rdumasia303/deepseek_ocr_app) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (11) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Mar 2026</sub>
+
+**Web UI and API for running DeepSeek-OCR on images and PDFs.**
+
+A React frontend and FastAPI backend that wrap the DeepSeek-OCR model from Hugging Face. It does image OCR in four modes (plain, describe, find with bounding boxes, freeform prompt) and multi-page PDF processing, exporting to Markdown, HTML, DOCX or JSON. It is started with docker compose and needs an NVIDIA GPU.
+
+- **+** PDF input up to 100MB with Markdown, HTML, DOCX and JSON export
+- **+** Find mode draws bounding boxes, rescaled from the model's 0-999 coordinates
+- **+** REST endpoints /api/ocr and /api/process-pdf, with Swagger docs at /docs
+- **+** Ports, upload limit, model name and crop sizes set through .env
+- **−** Requires an NVIDIA GPU with CUDA and the NVIDIA Container Toolkit
+- **−** Only 4 of the original 12 modes remain; tables, layout and PII modes are disabled
+- **−** First run downloads about 5-10GB of weights; roughly 20GB disk needed
+- **−** No authentication mentioned, and no tagged releases
+
+<sub>RAM ≥ 16 GB · GPU required · Compose · Needs Docker Compose, NVIDIA Container Toolkit, NVIDIA driver · Models: deepseek-ai/DeepSeek-OCR · port 3000 · [Repo](https://github.com/rdumasia303/deepseek_ocr_app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepseek-ocr-app/)</sub>
 
 <a name="libpostal"></a>
 ### #&#8288;86 [libpostal](https://github.com/openvenues/libpostal) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: known (48) · Freshness: quiet (4) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Dec 2025</sub>
@@ -1546,7 +1546,7 @@ libpostal is a C library that parses free-form street addresses into components 
 <sub>no GPU · Needs autoconf, automake, libtool, pkg-config, curl · Models: Conditional Random Field address parser, Senzing alternative model · [Repo](https://github.com/openvenues/libpostal) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/libpostal/)</sub>
 
 <a name="gosseract"></a>
-### #&#8288;87 [gosseract](https://github.com/otiai10/gosseract) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (30) · Freshness: quiet (15) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Jan 2026</sub>
+### #&#8288;87 [gosseract](https://github.com/otiai10/gosseract) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (30) · Freshness: quiet (14) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Jan 2026</sub>
 
 **Go bindings for the Tesseract OCR C++ library.**
 

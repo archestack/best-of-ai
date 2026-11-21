@@ -328,7 +328,7 @@ srt wraps any command in filesystem and network restrictions using sandbox-exec 
 <sub>no GPU · Needs bubblewrap (Linux), sandbox-exec (macOS), Node.js/npm · [Repo](https://github.com/anthropics/sandbox-runtime) · [📖 Docs ↗](https://docs.claude.com/en/docs/claude-code/sandboxing) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandbox-runtime/)</sub>
 
 <a name="sandstorm"></a>
-### #&#8288;19 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
 
 **Sandbox host that pauses and snapshots idle gVisor or Firecracker sandboxes.**
 
@@ -382,7 +382,7 @@ Provides file streaming, S3-compatible bucket mounts and R2 directory backups fo
 <sub>Needs Cloudflare Workers, Cloudflare Durable Objects, Cloudflare Containers, R2 or S3-compatible storage (optional) · [Repo](https://github.com/cloudflare/sandbox-sdk) · [📖 Docs ↗](https://developers.cloudflare.com/sandbox/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandbox-sdk/)</sub>
 
 <a name="space"></a>
-### #&#8288;22 [space](https://github.com/perplexityai/space) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;22 [space](https://github.com/perplexityai/space) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Nov 2026</sub>
 
 **Firecracker microVM sandboxes for agent code, managed over an HTTP API.**
 
@@ -399,26 +399,8 @@ SPACE (Sandboxed Platform for Agentic Code Execution) creates Linux sandboxes in
 
 <sub>no GPU · Docker · Needs Kubernetes, Kind, Firecracker, Tilt · [Repo](https://github.com/perplexityai/space) · [📖 Docs ↗](https://space.docs.perplexity.ai/guide/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/space/)</sub>
 
-<a name="browser-use-web-ui"></a>
-### #&#8288;23 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: popular (80) · Freshness: recent (53) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
-
-**Gradio UI for running browser-use agents with your own Chrome.**
-
-Gradio front end over the browser-use library that takes a task, drives a Playwright browser with an LLM (Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek or Ollama) and shows the run. Can attach to your own Chrome profile to reuse logins, keep the browser open between tasks and record video. Runs with uv and Python 3.11 on port 7788, or via docker compose with a noVNC viewer on port 6080.
-
-- **+** Own-browser mode reuses existing Chrome logins and cookies
-- **+** Docker compose includes noVNC so you can watch the agent at localhost:6080
-- **+** Persistent browser sessions keep history visible between tasks
-- **+** Supports Ollama and DeepSeek-R1 alongside cloud providers
-- **−** Changelog stops in January 2025; last commit May 2026
-- **−** Default VNC password is published in the README; change VNC_PASSWORD
-- **−** Own-browser mode requires closing all Chrome windows and using another browser for the UI
-- **−** Gradio single-user UI; no auth or multi-user features described
-
-<sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs ↗](https://docs.browser-use.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/browser-use-web-ui/)</sub>
-
 <a name="code-interpreter"></a>
-### #&#8288;24 [code-interpreter](https://github.com/e2b-dev/code-interpreter) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [code-interpreter](https://github.com/e2b-dev/code-interpreter) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Nov 2026</sub>
 
 **Runs AI-generated code in isolated cloud sandboxes via JS and Python SDKs.**
 
@@ -434,6 +416,24 @@ E2B Code Interpreter lets an app start isolated cloud sandboxes and run AI-gener
 - **−** Sandbox resource limits and pricing are not in the README
 
 <sub>no GPU · Needs E2B account and API key (E2B_API_KEY) · [Repo](https://github.com/e2b-dev/code-interpreter) · [📖 Docs ↗](https://docs.e2b.dev/) · [🌐 Site ↗](https://e2b.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/code-interpreter/)</sub>
+
+<a name="browser-use-web-ui"></a>
+### #&#8288;24 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (80) · Freshness: recent (52) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+
+**Gradio UI for running browser-use agents with your own Chrome.**
+
+Gradio front end over the browser-use library that takes a task, drives a Playwright browser with an LLM (Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek or Ollama) and shows the run. Can attach to your own Chrome profile to reuse logins, keep the browser open between tasks and record video. Runs with uv and Python 3.11 on port 7788, or via docker compose with a noVNC viewer on port 6080.
+
+- **+** Own-browser mode reuses existing Chrome logins and cookies
+- **+** Docker compose includes noVNC so you can watch the agent at localhost:6080
+- **+** Persistent browser sessions keep history visible between tasks
+- **+** Supports Ollama and DeepSeek-R1 alongside cloud providers
+- **−** Changelog stops in January 2025; last commit May 2026
+- **−** Default VNC password is published in the README; change VNC_PASSWORD
+- **−** Own-browser mode requires closing all Chrome windows and using another browser for the UI
+- **−** Gradio single-user UI; no auth or multi-user features described
+
+<sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs ↗](https://docs.browser-use.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/browser-use-web-ui/)</sub>
 
 <a name="runtime"></a>
 ### #&#8288;25 [runtime](https://github.com/capsulerun/runtime) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (0) · Freshness: active (98) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 304 · Apache-2.0 · Oct 2026</sub>

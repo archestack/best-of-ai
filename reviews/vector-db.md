@@ -58,7 +58,7 @@ Meilisearch is a search engine with a RESTful API for full-text, semantic and hy
 <sub>no GPU · Docker · Models: embedding models for semantic search (providers unknown) · port 7700 · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meilisearch/)</sub>
 
 <a name="faiss"></a>
-### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Nov 2026</sub>
+### #&#8288;4 [faiss](https://github.com/facebookresearch/faiss) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Nov 2026</sub>
 
 **C++ library for similarity search and clustering of dense vectors.**
 
@@ -94,7 +94,7 @@ LEANN is a Python vector database that stores a pruned graph and recomputes embe
 <sub>GPU optional · Docker · Needs uv, Ollama or OpenAI-compatible API (optional, for generation) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [▶️ Demo ↗](https://colab.research.google.com/github/yichuan-w/LEANN/blob/main/demo.ipynb) · [📖 Docs ↗](https://github.com/yichuan-w/LEANN/blob/main/docs/configuration-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
 
 <a name="helix-db"></a>
-### #&#8288;6 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;6 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
 
 **Graph database with built-in vector and BM25 search, written in Rust.**
 
@@ -165,7 +165,7 @@ Zvec is a C++ vector database that embeds in the application process instead of 
 <sub>no GPU · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
 
 <a name="lance"></a>
-### #&#8288;10 [lance](https://github.com/lance-format/lance) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [lance](https://github.com/lance-format/lance) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
 
 **Columnar table format for multimodal AI data with vector and full-text search.**
 
@@ -237,7 +237,7 @@ Infinity is a C++ database that runs hybrid search over dense vectors, sparse ve
 <sub>no GPU · Models: dense embeddings, sparse embeddings, tensors, ColBERT reranking · [Repo](https://github.com/infiniflow/infinity) · [📖 Docs ↗](https://infiniflow.org/docs/dev/category/get-started) · [🌐 Site ↗](https://infiniflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinity/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;14 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -417,7 +417,7 @@ VectorDBBench (VDBBench) runs repeatable insertion, vector search, filtered sear
 <sub>no GPU · Docker · Needs Python >= 3.11, Target vector database to benchmark · [Repo](https://github.com/zilliztech/vectordbbench) · [🌐 Site ↗](https://zilliz.com/vdbbench-leaderboard) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vectordbbench/)</sub>
 
 <a name="deeplake"></a>
-### #&#8288;24 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (63) · Freshness: recent (68) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;24 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (63) · Freshness: recent (67) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
 
 **Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
 
