@@ -203,7 +203,7 @@ OpenMausBot is a desktop messaging-style app for macOS, Windows and Ubuntu in wh
 <sub>no GPU · Docker + Compose · Needs claude CLI, codex CLI, grok CLI, Composio, boat.dev · Models: Claude, Codex, Grok · port 5199 · README: alternative to Manus · [Repo](https://github.com/milind-soni/openmausbot) · [🌐 Site ↗](https://www.openmausbot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmausbot/)</sub>
 
 <a name="deep-live-cam"></a>
-### #&#8288;12 [deep-live-cam](https://github.com/hacksider/deep-live-cam) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 98k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;12 [deep-live-cam](https://github.com/hacksider/deep-live-cam) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 99k · AGPL-3.0 · Nov 2026</sub>
 
 **Real-time webcam face swap and video deepfake from a single source image.**
 
@@ -364,7 +364,7 @@ LobsterAI is an Electron app for macOS and Windows where an agent works on a loc
 <sub>no GPU · Needs OpenClaw runtime (bundled), SQLite (local), Node.js >=24.15.0 <25 (build from source) · Models: DeepSeek, GLM, Kimi, Qwen, MiniMax · [Repo](https://github.com/netease-youdao/lobsterai) · [🌐 Site ↗](https://lobsterai.youdao.com/#/download-list) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobsterai/)</sub>
 
 <a name="pocketpal-ai"></a>
-### #&#8288;21 [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · MIT · Nov 2026</sub>
+### #&#8288;21 [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · MIT · Nov 2026</sub>
 
 **Phone app that runs GGUF language models offline on iOS and Android.**
 
@@ -400,7 +400,7 @@ OpenBot is an Electron desktop app that wraps local agent CLIs (Codex, Claude Co
 <sub>no GPU · Docker + Compose · Needs Agent CLIs (Codex, Claude Code, etc.), Bun 1.4.2 and Node.js 24 (development only), Cloudflare Workers and D1 (optional accounts) · Models: Codex, Claude Code, Grok CLI, OpenCode, Gemini · [Repo](https://github.com/nightly-labs/openbot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nightly-labs-openbot/)</sub>
 
 <a name="gallery"></a>
-### #&#8288;23 [gallery](https://github.com/google-ai-edge/gallery) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [gallery](https://github.com/google-ai-edge/gallery) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · Nov 2026</sub>
 
 **Mobile app for running open LLMs offline on Android and iOS.**
 
@@ -435,8 +435,26 @@ Presenton is a self-hosted presentation generator that builds slides from a prom
 
 <sub>GPU optional · Docker + Compose · Needs Docker, or Node.js, Python 3.11 and uv for Electron, LLM provider or API key · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Azure OpenAI · port 5001 · [Repo](https://github.com/presenton/presenton) · [📖 Docs ↗](https://docs.presenton.ai/) · [🌐 Site ↗](https://presenton.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/presenton/)</sub>
 
+<a name="koharu"></a>
+### #&#8288;25 [koharu](https://github.com/koharu-rs/koharu) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · Apache-2.0 · Nov 2026</sub>
+
+**Desktop manga translator with local detection, OCR, inpainting and LLM translation.**
+
+Koharu is a Rust desktop app that translates manga pages in a pipeline of text and bubble detection, OCR, inpainting to remove source text, and LLM or machine translation. Vision models and GGUF LLMs run locally, with optional hosted providers such as OpenAI, Gemini, Claude, DeepL and OpenAI-compatible endpoints. It includes a WebGPU canvas editor for manual cleanup and typesetting, and exports layered PSD.
+
+- **+** Full pipeline in one app: detection, OCR, inpainting, translation, typesetting and layered PSD export
+- **+** Runs vision models and GGUF LLMs locally; hosted LLM and MT providers are optional
+- **+** GPU backends: CUDA, ROCm/HIP, Metal and Vulkan; no full CUDA SDK install needed
+- **+** Handles images, archives and PDFs, with vertical CJK and right-to-left text layout
+- **−** CPU inference is documented as substantially slower than GPU
+- **−** Editor canvas needs WebGPU and a current graphics driver even with CPU inference
+- **−** Narrow use case: manga translation only, not a general chat or assistant app
+- **−** README gives no RAM or VRAM figures; larger local models need extra hardware
+
+<sub>GPU optional · Needs WebGPU-capable graphics driver, Hugging Face model downloads, Rust, Bun and LLVM (build from source only) · Models: GGUF, Gemma 4, Qwen 3.5/3.6/3.8, Ministral 3, LFM 2.5 · [Repo](https://github.com/koharu-rs/koharu) · [📖 Docs ↗](https://koharu.rs/installation) · [🌐 Site ↗](https://koharu.rs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/koharu/)</sub>
+
 <a name="kun"></a>
-### #&#8288;25 [kun](https://github.com/kunagent/kun) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
+### #&#8288;26 [kun](https://github.com/kunagent/kun) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
 
 **Desktop AI workbench for coding, documents and multi-agent chats.**
 
@@ -454,7 +472,7 @@ Kun is a desktop app where Code, Work and chat modes share one local runtime. It
 <sub>Needs Node.js 22.19+ (source builds only) · Models: OpenAI-compatible APIs, Anthropic-compatible APIs, Ollama, DeepSeek, Kimi · [Repo](https://github.com/kunagent/kun) · [📖 Docs ↗](https://www.kun-agent.com/docs) · [🌐 Site ↗](https://www.kun-agent.com/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kun/)</sub>
 
 <a name="openworker"></a>
-### #&#8288;26 [openworker](https://github.com/andrewyng/openworker) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · MIT · Nov 2026</sub>
+### #&#8288;27 [openworker](https://github.com/andrewyng/openworker) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
 
 **Desktop AI coworker for approval-gated work across files, terminal and apps.**
 
@@ -472,7 +490,7 @@ OpenWorker is a macOS and Windows desktop app backed by a local Python agent ser
 <sub>no GPU · Docker + Compose · Needs Python 3.10+ (source), Node 20+ (source), Rust toolchain (desktop build from source), Ollama (optional), NVIDIA OpenShell (optional) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen · port 8765 · [Repo](https://github.com/andrewyng/openworker) · [🌐 Site ↗](https://openworker.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openworker/)</sub>
 
 <a name="clawx"></a>
-### #&#8288;27 [clawx](https://github.com/valuecell-ai/clawx) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
+### #&#8288;28 [clawx](https://github.com/valuecell-ai/clawx) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
 
 **Electron desktop app for running and managing OpenClaw agents without a terminal.**
 
@@ -489,26 +507,8 @@ ClawX is an Electron and React desktop client that embeds the OpenClaw runtime a
 
 <sub>RAM ≥ 4 GB · no GPU · Needs OpenClaw (bundled), Electron, pnpm (build from source) · Models: OpenAI, Anthropic, Z.AI / GLM, custom providers · [Repo](https://github.com/valuecell-ai/clawx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawx/)</sub>
 
-<a name="koharu"></a>
-### #&#8288;28 [koharu](https://github.com/koharu-rs/koharu) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.8k · Apache-2.0 · Nov 2026</sub>
-
-**Desktop manga translator with local detection, OCR, inpainting and LLM translation.**
-
-Koharu is a Rust desktop app that translates manga pages in a pipeline of text and bubble detection, OCR, inpainting to remove source text, and LLM or machine translation. Vision models and GGUF LLMs run locally, with optional hosted providers such as OpenAI, Gemini, Claude, DeepL and OpenAI-compatible endpoints. It includes a WebGPU canvas editor for manual cleanup and typesetting, and exports layered PSD.
-
-- **+** Full pipeline in one app: detection, OCR, inpainting, translation, typesetting and layered PSD export
-- **+** Runs vision models and GGUF LLMs locally; hosted LLM and MT providers are optional
-- **+** GPU backends: CUDA, ROCm/HIP, Metal and Vulkan; no full CUDA SDK install needed
-- **+** Handles images, archives and PDFs, with vertical CJK and right-to-left text layout
-- **−** CPU inference is documented as substantially slower than GPU
-- **−** Editor canvas needs WebGPU and a current graphics driver even with CPU inference
-- **−** Narrow use case: manga translation only, not a general chat or assistant app
-- **−** README gives no RAM or VRAM figures; larger local models need extra hardware
-
-<sub>GPU optional · Needs WebGPU-capable graphics driver, Hugging Face model downloads, Rust, Bun and LLVM (build from source only) · Models: GGUF, Gemma 4, Qwen 3.5/3.6/3.8, Ministral 3, LFM 2.5 · [Repo](https://github.com/koharu-rs/koharu) · [📖 Docs ↗](https://koharu.rs/installation) · [🌐 Site ↗](https://koharu.rs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/koharu/)</sub>
-
 <a name="open-science"></a>
-### #&#8288;29 [open-science](https://github.com/aipoch/open-science) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;29 [open-science](https://github.com/aipoch/open-science) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Nov 2026</sub>
 
 **Local-first research workbench with provenance tracking and portable .science exports.**
 
@@ -525,26 +525,8 @@ AIPOCH Open-Science is a desktop app (macOS, Windows, Linux) with a standalone C
 
 <sub>Needs Node.js 22.13.0+ (npm install only), Python or R (optional, for notebooks) · Models: Codex subscriptions, Claude, DeepSeek, Gemini, configurable provider via API key and endpoint · [Repo](https://github.com/aipoch/open-science) · [▶️ Demo ↗](https://www.youtube.com/watch?v=to_BhE5DDMw) · [📖 Docs ↗](https://aipoch.com/docs/guides/research-packages/) · [🌐 Site ↗](https://aipoch.com/open-science) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-science/)</sub>
 
-<a name="learnharness"></a>
-### #&#8288;30 [learnharness](https://github.com/amosblomqvist/learnharness) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · AGPL-3.0 · Nov 2026</sub>
-
-**Desktop tutoring app that plans lessons from a model of what you understand.**
-
-LearnHarness is a desktop app (macOS Apple Silicon, Windows x64, Linux x64) where AI agents measure your current understanding, plan a dependency map to your goal, teach step by step, and run separate practice sessions. Answers and free-text "thinking" fields drive what comes next, and a persistent knowledge graph of propositions and reasoning chains carries across sessions. It uses your own provider API keys, Claude Code CLI, or an OpenAI-compatible endpoint; data is stored locally.
-
-- **+** Persistent knowledge graph links claims to source sessions and can import notes
-- **+** Works with provider keys, Claude Code CLI, or custom OpenAI-compatible endpoints including local servers
-- **+** Chats, graph and settings stored locally as inspectable plain files; system prompts editable
-- **+** Signed installers for three platforms with in-app updates
-- **−** AGPL-3.0 license restricts use in proprietary or hosted derivatives
-- **−** Web research and dictation need separate external service keys
-- **−** Windows installer is unsigned and triggers SmartScreen warnings
-- **−** Cost meter only estimates known API costs, not subscription, CLI or custom-endpoint charges
-
-<sub>Needs LLM provider API key, Claude Code CLI, or OpenAI-compatible endpoint, Optional: Tavily, Brave, Exa, Firecrawl or Ollama key for web search, Optional: dictation service key · Models: Provider APIs, Claude Code CLI, Custom OpenAI-compatible endpoints, Local model servers · port 3000 · [Repo](https://github.com/amosblomqvist/learnharness) · [📖 Docs ↗](https://github.com/amosblomqvist/learnharness/blob/main/docs/README.md) · [🌐 Site ↗](https://learnharness.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learnharness/)</sub>
-
 <a name="coopanion"></a>
-### #&#8288;31 [coopanion](https://github.com/pal-ai-lab/coopanion) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · custom license · Nov 2026</sub>
+### #&#8288;30 [coopanion](https://github.com/pal-ai-lab/coopanion) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · custom license · Nov 2026</sub>
 
 **Desktop pet that chats, listens, and can operate your computer with an LLM.**
 
@@ -561,8 +543,26 @@ Coopanion is a desktop app for Windows, macOS and Linux that shows an animated p
 
 <sub>no GPU · Needs Git (optional, for memory history), xdotool and zenity (Linux computer use), API key from a model provider or ChatGPT account · Models: OpenAI, Anthropic, Gemini, xAI, OpenRouter · [Repo](https://github.com/pal-ai-lab/coopanion) · [🌐 Site ↗](https://coo.palailab.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/coopanion/)</sub>
 
+<a name="learnharness"></a>
+### #&#8288;31 [learnharness](https://github.com/amosblomqvist/learnharness) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · AGPL-3.0 · Nov 2026</sub>
+
+**Desktop tutoring app that plans lessons from a model of what you understand.**
+
+LearnHarness is a desktop app (macOS Apple Silicon, Windows x64, Linux x64) where AI agents measure your current understanding, plan a dependency map to your goal, teach step by step, and run separate practice sessions. Answers and free-text "thinking" fields drive what comes next, and a persistent knowledge graph of propositions and reasoning chains carries across sessions. It uses your own provider API keys, Claude Code CLI, or an OpenAI-compatible endpoint; data is stored locally.
+
+- **+** Persistent knowledge graph links claims to source sessions and can import notes
+- **+** Works with provider keys, Claude Code CLI, or custom OpenAI-compatible endpoints including local servers
+- **+** Chats, graph and settings stored locally as inspectable plain files; system prompts editable
+- **+** Signed installers for three platforms with in-app updates
+- **−** AGPL-3.0 license restricts use in proprietary or hosted derivatives
+- **−** Web research and dictation need separate external service keys
+- **−** Windows installer is unsigned and triggers SmartScreen warnings
+- **−** Cost meter only estimates known API costs, not subscription, CLI or custom-endpoint charges
+
+<sub>Needs LLM provider API key, Claude Code CLI, or OpenAI-compatible endpoint, Optional: Tavily, Brave, Exa, Firecrawl or Ollama key for web search, Optional: dictation service key · Models: Provider APIs, Claude Code CLI, Custom OpenAI-compatible endpoints, Local model servers · port 3000 · [Repo](https://github.com/amosblomqvist/learnharness) · [📖 Docs ↗](https://github.com/amosblomqvist/learnharness/blob/main/docs/README.md) · [🌐 Site ↗](https://learnharness.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learnharness/)</sub>
+
 <a name="everywhere"></a>
-### #&#8288;32 [everywhere](https://github.com/sylinko/everywhere) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
+### #&#8288;32 [everywhere](https://github.com/sylinko/everywhere) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · custom license · Nov 2026</sub>
 
 **Hotkey-invoked desktop AI assistant that reads on-screen context in Windows and macOS apps.**
 
@@ -742,7 +742,7 @@ Tauri-based desktop app (TypeScript) that puts chat, a coding agent, tool-using 
 <sub>RAM ≥ 8 GB · GPU optional · Needs Ollama or LM Studio (installed by the app if missing), ComfyUI (installed by the app) · Models: Ollama models, LM Studio models, GGUF, SDXL, FLUX · [Repo](https://github.com/purpledoubled/locally-uncensored) · [📖 Docs ↗](https://locallyuncensored.com/guide/) · [🌐 Site ↗](https://locallyuncensored.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/locally-uncensored/)</sub>
 
 <a name="natively-cluely-ai-assistant"></a>
-### #&#8288;42 [natively-cluely-ai-assistant](https://github.com/natively-ai-assistant/natively-cluely-ai-assistant) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · custom license · Nov 2026</sub>
+### #&#8288;42 [natively-cluely-ai-assistant](https://github.com/natively-ai-assistant/natively-cluely-ai-assistant) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · custom license · Nov 2026</sub>
 
 **Desktop overlay that transcribes meetings and drafts live interview answers.**
 
@@ -796,7 +796,7 @@ Oh My PPT is an Electron and React desktop app that has an LLM plan an outline, 
 <sub>no GPU · Needs Text LLM API or local Ollama, Image generation provider (optional) · Models: OpenAI-compatible APIs, Ollama, DeepSeek, Kimi, Qwen · [Repo](https://github.com/arcsin1/oh-my-ppt) · [📖 Docs ↗](https://www.ohmyppt.cc/#/help) · [🌐 Site ↗](https://www.ohmyppt.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oh-my-ppt/)</sub>
 
 <a name="agentero"></a>
-### #&#8288;45 [agentero](https://github.com/poco-ai/agentero) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Nov 2026</sub>
+### #&#8288;45 [agentero](https://github.com/poco-ai/agentero) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Nov 2026</sub>
 
 **Desktop reference manager and PDF reader that connects local agents over ACP and MCP.**
 
@@ -814,7 +814,7 @@ Agentero is a desktop app for managing research papers, with a PDF reader, annot
 <sub>no GPU · Needs ACP-compatible agent (e.g. Claude Code, OpenCode, Codex), webkit2gtk 4.1 on Linux (Ubuntu 22.04+), S3-compatible storage (optional sync) · Models: Any agent via ACP, Local models via ACP agents · [Repo](https://github.com/poco-ai/agentero) · [📖 Docs ↗](https://agentero-docs.poco-ai.com) · [🌐 Site ↗](https://agentero.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentero/)</sub>
 
 <a name="translatebookswithllms"></a>
-### #&#8288;46 [translatebookswithllms](https://github.com/hydropix/translatebookswithllms) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;46 [translatebookswithllms](https://github.com/hydropix/translatebookswithllms) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · AGPL-3.0 · Nov 2026</sub>
 
 **Translates EPUB, SRT, DOCX, PDF, TXT and PGN files with local or cloud LLMs.**
 
@@ -1084,7 +1084,7 @@ Tauri desktop app for macOS, Windows and Linux, with iOS and Android versions, t
 <sub>RAM ≥ 8 GB · GPU optional · Needs Node.js >= 20 (build from source), Yarn >= 4.5.3 (build from source), Rust (build from source), Vulkan loader (optional, Linux GPU), WSL 2 (vLLM, SGLang, TensorRT-LLM on Windows) · Models: GGUF, MLX, ONNX, LiteRT-LM, Hugging Face checkpoints · port 1337 · [Repo](https://github.com/atomicbot-ai/atomic-chat) · [🌐 Site ↗](https://atomic.chat/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/atomic-chat/)</sub>
 
 <a name="openfic"></a>
-### #&#8288;61 [openfic](https://github.com/syrizelink/openfic) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;61 [openfic](https://github.com/syrizelink/openfic) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Nov 2026</sub>
 
 **AI-assisted editor for writing novels, with configurable agents and retrieval.**
 

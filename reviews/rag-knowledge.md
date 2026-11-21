@@ -23,7 +23,7 @@ Open Notebook organizes PDFs, videos, audio, web pages and Office docs into note
 <sub>GPU optional · Docker + Compose · Needs SurrealDB, Docker Compose, LLM provider API key or Ollama · Models: OpenAI, Anthropic, Google, Mistral, Groq · port 8502 · README: alternative to NotebookLM · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-notebook/)</sub>
 
 <a name="lightrag"></a>
-### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Nov 2026</sub>
+### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Nov 2026</sub>
 
 **Graph-based RAG framework with a REST server and WebUI.**
 
@@ -171,18 +171,18 @@ Morphic is a Next.js (TypeScript) AI search app that answers queries with cited 
 
 **Python library for RAG over PDFs, Office files, images, tables and equations.**
 
-RAG-Anything is a Python framework built on LightRAG that parses mixed-content documents with MinerU, Docling or PaddleOCR. It runs separate processors for images, tables and equations, builds a multimodal knowledge graph, and answers queries with combined vector and graph retrieval. LLM, vision and embedding functions are supplied by the caller, with OpenAI-style examples.
+RAG-Anything is a Python framework built on LightRAG. It parses mixed-content documents with MinerU (or Docling), analyzes images, tables and equations with dedicated processors, and indexes them in a multimodal knowledge graph. Queries combine vector search with graph traversal, and a VLM-enhanced mode can pass document images to a vision model.
 
-- **+** Handles images, tables and LaTeX equations with dedicated processors instead of text-only chunking
-- **+** Selectable parsers: MinerU, Docling or PaddleOCR
-- **+** Can insert pre-parsed content lists, skipping document parsing
-- **+** VLM-enhanced query mode sends document images to a vision model
-- **−** Library only; the visible README shows no web UI, server or user accounts
-- **−** Office formats require a separate LibreOffice install
-- **−** Needs external LLM and vision model functions that you wire up yourself
-- **−** RAM and GPU requirements are not stated; MinerU models download on first use
+- **+** Indexes images, tables and LaTeX equations as graph entities, not just text chunks
+- **+** Parses PDF, DOC/DOCX, PPT/PPTX, XLS/XLSX and images; accepts pre-parsed content lists
+- **+** Hybrid retrieval combines vector similarity with knowledge graph traversal
+- **+** Installs from PyPI, with optional extras for image and text formats
+- **−** Default MinerU parser needs MinerU 3.x and Python 3.10-3.13; MinerU 4.x is unsupported
+- **−** Office documents require a separate LibreOffice installation
+- **−** Library only; README shows no bundled web UI or user accounts
+- **−** LLM, vision and embedding models must be configured by the user
 
-<sub>Docker + Compose · Needs LightRAG, MinerU, LibreOffice (Office files), Pillow (image extra), ReportLab (text extra) · Models: OpenAI-compatible LLM, vision and embedding functions · [Repo](https://github.com/hkuds/rag-anything) · [🌐 Site ↗](https://github.com/HKUDS/RAG-Anything) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rag-anything/)</sub>
+<sub>Docker + Compose · Needs MinerU 3.x, LibreOffice (Office files), LightRAG, Docling (optional, for Python 3.14) · Models: User-supplied LLM function, Vision language models, Embedding models · [Repo](https://github.com/hkuds/rag-anything) · [🌐 Site ↗](https://github.com/HKUDS/RAG-Anything) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rag-anything/)</sub>
 
 <a name="wrenai"></a>
 ### #&#8288;11 [wrenai](https://github.com/canner/wrenai) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · custom license · Nov 2026</sub>
@@ -257,7 +257,7 @@ DB-GPT connects to databases, CSV and Excel files, warehouses and knowledge base
 <sub>GPU optional · Docker + Compose · Compose runs MySQL · Models: OpenAI-compatible APIs, DashScope/Tongyi, Moonshot (Kimi), MiniMax, local models via vLLM or llama.cpp: DeepSeek, Qwen, GLM, Llama, Gemma, Yi · port 5670 · [Repo](https://github.com/eosphoros-ai/db-gpt) · [📖 Docs ↗](http://docs.dbgpt.cn/docs/overview/) · [🌐 Site ↗](http://dbgpt.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/db-gpt/)</sub>
 
 <a name="docsgpt"></a>
-### #&#8288;15 [docsgpt](https://github.com/arc53/docsgpt) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
+### #&#8288;15 [docsgpt](https://github.com/arc53/docsgpt) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
 
 **Builds agents and workflows that answer from your documents with citations.**
 
@@ -293,7 +293,7 @@ Local Deep Research runs multi-step research on a question using an LLM (Ollama 
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible LLM endpoint, SearXNG, Docker (optional) · Models: Ollama, OpenAI-compatible endpoints · port 5000 · [Repo](https://github.com/learningcircuit/local-deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-research/)</sub>
 
 <a name="txtai"></a>
-### #&#8288;17 [txtai](https://github.com/neuml/txtai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;17 [txtai](https://github.com/neuml/txtai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
 
 **Python embeddings database with pipelines, workflows and agents for search and RAG.**
 
@@ -544,7 +544,7 @@ Hyper-Extract is a Python CLI (`he`) and library that parses documents such as P
 <sub>GPU optional · Needs LLM provider API or local vLLM, OpenAI-compatible embedding endpoint, uv or pipx · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Alibaba Bailian · [Repo](https://github.com/yifanfeng97/hyper-extract) · [📖 Docs ↗](https://yifanfeng97.github.io/Hyper-Extract/latest/) · [🌐 Site ↗](https://yifanfeng97.github.io/Hyper-Extract/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hyper-extract/)</sub>
 
 <a name="opendeepwiki"></a>
-### #&#8288;31 [opendeepwiki](https://github.com/aidotnet/opendeepwiki) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Oct 2026</sub>
+### #&#8288;31 [opendeepwiki](https://github.com/aidotnet/opendeepwiki) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Oct 2026</sub>
 
 **Generates wiki-style docs and chat for Git repos, with per-repo MCP endpoints.**
 
@@ -778,7 +778,7 @@ llmware is a Python library that combines a model catalog (300+ models in GGUF, 
 <sub>GPU optional · Needs Milvus, ChromaDB · Models: GGUF, OpenVINO, ONNXRuntime, ONNXRuntime-QNN, PyTorch · [Repo](https://github.com/llmware-ai/llmware) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llmware/)</sub>
 
 <a name="llm-for-zotero"></a>
-### #&#8288;44 [llm-for-zotero](https://github.com/yilewang/llm-for-zotero) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;44 [llm-for-zotero](https://github.com/yilewang/llm-for-zotero) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · AGPL-3.0 · Nov 2026</sub>
 
 **Zotero plugin for chatting with papers and running an agent over your library.**
 
@@ -960,20 +960,19 @@ PapersGPT is a Zotero plugin (.xpi) that indexes PDFs locally and answers questi
 <a name="docling-serve"></a>
 ### #&#8288;54 [Docling Serve](https://github.com/docling-project/docling-serve) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
 
-**Docling document conversion as an HTTP API with playground UI.**
+**HTTP API server that converts documents to structured text using Docling.**
 
-Docling Serve wraps the Docling document converter in a FastAPI service: POST a URL or file to /v1/convert/source and get structured text back, with OpenAPI docs at /docs and a playground UI at /ui on port 5001. Container images cover CPU (4.4 GB), CUDA 12.8 (11.4 GB) and CUDA 13.0 on amd64 and arm64; a ROCm image builds locally. Suited to RAG pipelines that need a document-to-text service.
+Docling Serve wraps the Docling document conversion toolkit in a FastAPI service. You POST sources, such as HTTP URLs, to a v1 endpoint like /v1/convert/source and get converted documents back. It installs via pip or container images for CPU, CUDA 12.8 and CUDA 13.0, and includes OpenAPI docs and an optional UI playground.
 
-- **+** Single container with API, OpenAPI docs and a playground UI
-- **+** Stable v1 API after migration
-- **+** CPU and CUDA 12.8/13.0 images for amd64 and arm64
-- **+** Converts from HTTP sources or uploads in one call
-- **−** Images are large: 4.4 GB CPU, 8.7 GB base amd64, 11.4 GB CUDA
-- **−** CUDA images carry no latest tag; pin explicit versions
-- **−** ROCm image is not published; build it yourself
-- **−** Slim images without bundled weights are only announced
+- **+** Published images for CPU, CUDA 12.8 and CUDA 13.0, on ghcr.io and quay.io
+- **+** Ships OpenAPI docs at /docs and an optional /ui playground for testing conversions
+- **+** Installs with pip install docling-serve or runs as a single container on port 5001
+- **+** Stable v1 API with a documented migration guide
+- **−** Container images are large: 4.4 GB CPU, 11.4 GB for the CUDA 12.8 build
+- **−** CUDA images have no latest tag, so versions must be pinned explicitly
+- **−** Slim images without bundled model weights are only announced as coming soon
 
-<sub>GPU optional · Docker · Models: bundled Docling parsing models · port 5001 · [Repo](https://github.com/docling-project/docling-serve) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling-serve/)</sub>
+<sub>GPU optional · Docker · Needs Docling, PyTorch · port 5001 · [Repo](https://github.com/docling-project/docling-serve) · [📖 Docs ↗](https://github.com/docling-project/docling-serve/blob/main/docs/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/docling-serve/)</sub>
 
 <a name="localgpt"></a>
 ### #&#8288;55 [localgpt](https://github.com/promtengineer/localgpt) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (84) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Aug 2026</sub>
@@ -1263,7 +1262,7 @@ A TypeScript CLI that takes a query, asks follow-up questions, then runs recursi
 <sub>no GPU · Docker + Compose · Needs Firecrawl API or self-hosted Firecrawl, OpenAI API key or OpenAI-compatible endpoint, Node.js · Models: OpenAI o3-mini, DeepSeek R1 via Fireworks, OpenAI-compatible endpoints (OpenRouter, Gemini, local servers) · [Repo](https://github.com/dzhng/deep-research) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-research/)</sub>
 
 <a name="daily-arxiv-ai-enhanced"></a>
-### #&#8288;71 [daily-arxiv-ai-enhanced](https://github.com/dw-dengwei/daily-arxiv-ai-enhanced) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (31) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · custom license · Sep 2026</sub>
+### #&#8288;71 [daily-arxiv-ai-enhanced](https://github.com/dw-dengwei/daily-arxiv-ai-enhanced) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (31) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · custom license · Sep 2026</sub>
 
 **Daily arXiv crawler that adds LLM-written summaries, hosted on GitHub Pages.**
 

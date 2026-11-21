@@ -814,8 +814,26 @@ Terminator is a Rust project that drives Windows applications through the access
 
 <sub>Needs Node.js (npx), Chrome extension for browser automation, Windows · [Repo](https://github.com/mediar-ai/terminator) · [📖 Docs ↗](https://github.com/mediar-ai/terminator/tree/main/terminator-mcp-agent) · [🌐 Site ↗](https://t8r.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/terminator/)</sub>
 
+<a name="mcp-server-youtube-transcript"></a>
+### #&#8288;46 [mcp-server-youtube-transcript](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 609 · MIT · Nov 2026</sub>
+
+**MCP server that fetches YouTube video transcripts for AI assistants.**
+
+A TypeScript MCP server run over stdio via npx. Its get_transcript tool takes a YouTube URL, Shorts URL or video ID and returns captions, with optional timestamps, language fallback and chapter-based sponsorship stripping. An optional analyze_video tool calls TwelveLabs Pegasus for videos with little speech, and needs a TwelveLabs API key and a direct video URL.
+
+- **+** Accepts watch URLs, Shorts URLs and bare video IDs
+- **+** Transcript fetching needs no API key or extra services
+- **+** Ad and sponsorship stripping from chapter markers, on by default
+- **+** Falls back to an available caption language when the requested one is missing
+- **−** Only works on videos that have captions or subtitles
+- **−** analyze_video needs a TwelveLabs key and rejects YouTube watch page URLs
+- **−** Ad stripping depends on chapter markers being present
+- **−** No tagged releases; installed from npm via npx
+
+<sub>no GPU · Docker · Needs Node.js 18+, TwelveLabs API key (optional, for analyze_video) · Models: TwelveLabs Pegasus 1.2, TwelveLabs Pegasus 1.5 · [Repo](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-server-youtube-transcript/)</sub>
+
 <a name="slack-mcp-server"></a>
-### #&#8288;46 [slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: known (30) · Freshness: recent (73) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
+### #&#8288;47 [slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: known (30) · Freshness: recent (73) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
 
 **Slack workspace MCP server for reading, searching and posting messages.**
 
@@ -833,7 +851,7 @@ Go MCP server that exposes Slack to MCP clients over Stdio, SSE or HTTP. It prov
 <sub>no GPU · Docker + Compose · Needs Slack workspace, Slack OAuth or browser session tokens · [Repo](https://github.com/korotovsky/slack-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/slack-mcp-server/)</sub>
 
 <a name="mcp-massive"></a>
-### #&#8288;47 [mcp_massive](https://github.com/massive-com/mcp_massive) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (3) · Freshness: active (98) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 405 · MIT · Oct 2026</sub>
+### #&#8288;48 [mcp_massive](https://github.com/massive-com/mcp_massive) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (3) · Freshness: active (98) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 405 · MIT · Oct 2026</sub>
 
 **MCP server exposing the Massive.com financial data API via search, call and SQL tools.**
 
@@ -849,24 +867,6 @@ Python MCP server for the Massive.com market data API. Instead of one tool per e
 - **−** Tied to one vendor's API, not a general financial data server
 
 <sub>no GPU · Docker + Compose · Needs Massive.com API key, Python 3.12+, uv 0.4.0+ · Models: Any MCP client (Claude Code, Claude Desktop) · [Repo](https://github.com/massive-com/mcp_massive) · [▶️ Demo ↗](https://mcp.massive.com) · [📖 Docs ↗](https://massive.com/docs) · [🌐 Site ↗](https://massive.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-massive/)</sub>
-
-<a name="mcp-server-youtube-transcript"></a>
-### #&#8288;48 [mcp-server-youtube-transcript](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (6) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 609 · MIT · Jul 2026</sub>
-
-**MCP server that fetches YouTube video transcripts for AI assistants.**
-
-A TypeScript MCP server run over stdio via npx. Its get_transcript tool takes a YouTube URL, Shorts URL or video ID and returns captions, with optional timestamps, language fallback and chapter-based sponsorship stripping. An optional analyze_video tool calls TwelveLabs Pegasus for videos with little speech, and needs a TwelveLabs API key and a direct video URL.
-
-- **+** Accepts watch URLs, Shorts URLs and bare video IDs
-- **+** Transcript fetching needs no API key or extra services
-- **+** Ad and sponsorship stripping from chapter markers, on by default
-- **+** Falls back to an available caption language when the requested one is missing
-- **−** Only works on videos that have captions or subtitles
-- **−** analyze_video needs a TwelveLabs key and rejects YouTube watch page URLs
-- **−** Ad stripping depends on chapter markers being present
-- **−** No tagged releases; installed from npm via npx
-
-<sub>no GPU · Docker · Needs Node.js 18+, TwelveLabs API key (optional, for analyze_video) · Models: TwelveLabs Pegasus 1.2, TwelveLabs Pegasus 1.5 · [Repo](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-server-youtube-transcript/)</sub>
 
 <a name="evm-mcp-server"></a>
 ### #&#8288;49 [evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (1) · Freshness: recent (65) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 380 · MIT · Jun 2026</sub>

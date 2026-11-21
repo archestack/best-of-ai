@@ -43,20 +43,20 @@ OpenShell runs each agent in an isolated sandbox where kernel controls limit fil
 <a name="nemoclaw"></a>
 ### 🥉 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
 
-**Reference stack for running OpenClaw, Hermes and Deep Agents in OpenShell sandboxes.**
+**Reference stack for running AI agents inside OpenShell sandboxes.**
 
-NemoClaw is a CLI-driven reference stack that installs a supported AI agent (OpenClaw by default, Hermes, or LangChain Deep Agents Code) inside an NVIDIA OpenShell sandbox. It adds guided onboarding, managed inference, network egress policy with operator approval, managed integrations and state persistence. The README labels it alpha.
+NemoClaw is NVIDIA's CLI-driven reference stack that installs and runs supported agents (OpenClaw by default, Hermes, LangChain Deep Agents Code) inside NVIDIA OpenShell sandboxes. It adds guided onboarding, managed inference, egress network policy with operator approval, managed integrations and state persistence. The README labels it alpha and points new projects to a separate Agent Configs line.
 
-- **+** Network policy with baseline rules, presets and operator approval for egress
-- **+** Supports three agents: OpenClaw, Hermes and LangChain Deep Agents Code
-- **+** Guided installer with express presets for DGX and WSL hosts
-- **+** Official docs cover architecture, sandbox hardening and CLI commands
-- **−** Labeled alpha; maintainer responses carry no guaranteed timelines
-- **−** Depends on NVIDIA OpenShell as the sandbox runtime
-- **−** No tagged release published
-- **−** Hardware and RAM requirements are only in external docs, not the README
+- **+** Runs three agents (OpenClaw, Hermes, Deep Agents Code) under one CLI and sandbox model
+- **+** Network policy with baseline rules, operator approval flow and presets for egress control
+- **+** Guided installer with express presets for supported DGX and WSL hosts
+- **+** Apache-2.0, backed by NVIDIA with published docs and private security reporting
+- **−** Alpha project; no guaranteed response times on issues, discussions or pull requests
+- **−** README says new development focuses on Agent Configs, not this main-branch experience
+- **−** Depends on NVIDIA OpenShell, so it is not a standalone sandbox
+- **−** No tagged release; installation goes through a terminal installer
 
-<sub>Docker · Needs NVIDIA OpenShell · Models: OpenClaw, Hermes, LangChain Deep Agents Code · [Repo](https://github.com/nvidia/nemoclaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nemoclaw/)</sub>
+<sub>Docker · Needs NVIDIA OpenShell · [Repo](https://github.com/nvidia/nemoclaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nemoclaw/)</sub>
 
 <a name="opensandbox"></a>
 ### #&#8288;4 [opensandbox](https://github.com/opensandbox-group/opensandbox) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
@@ -166,7 +166,7 @@ smolvm runs each workload in its own libkrun microVM with a separate guest kerne
 <sub>GPU optional · Needs KVM (Linux), Hypervisor.framework (macOS), Windows Hypervisor Platform (Windows), libkrun · [Repo](https://github.com/smol-machines/smolvm) · [📖 Docs ↗](https://smolmachines.com/docs/) · [🌐 Site ↗](https://smolmachines.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/smolvm/)</sub>
 
 <a name="substrate"></a>
-### #&#8288;10 [substrate](https://github.com/agent-substrate/substrate) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [substrate](https://github.com/agent-substrate/substrate) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · Apache-2.0 · Nov 2026</sub>
 
 **Kubernetes runtime that sandboxes agents and suspends idle ones to snapshots.**
 
@@ -328,7 +328,7 @@ srt wraps any command in filesystem and network restrictions using sandbox-exec 
 <sub>no GPU · Needs bubblewrap (Linux), sandbox-exec (macOS), Node.js/npm · [Repo](https://github.com/anthropics/sandbox-runtime) · [📖 Docs ↗](https://docs.claude.com/en/docs/claude-code/sandboxing) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandbox-runtime/)</sub>
 
 <a name="sandstorm"></a>
-### #&#8288;19 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Nov 2026</sub>
 
 **Sandbox host that pauses and snapshots idle gVisor or Firecracker sandboxes.**
 
