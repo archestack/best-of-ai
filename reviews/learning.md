@@ -2135,8 +2135,26 @@ Companion repository to the 2nd edition of the textbook Machine Learning Refined
 
 <sub>no GPU · Docker + Compose · Needs Jupyter, Python, Google Colab (optional) · [Repo](https://github.com/neonwatty/machine-learning-refined) · [📖 Docs ↗](https://www.mlrefined.com/resources) · [🌐 Site ↗](https://www.mlrefined.com/learn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/machine-learning-refined/)</sub>
 
+<a name="practicalai-cn"></a>
+### #&#8288;121 [practicalai-cn](https://github.com/mleveryday/practicalai-cn) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (57) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Apr 2026</sub>
+
+**Chinese translation of practicalAI machine learning notebooks using PyTorch.**
+
+A Chinese-language fork of Goku Mohandas's practicalAI course: Jupyter notebooks covering Python, NumPy, Pandas, regression, random forests, PyTorch, CNNs, RNNs and embeddings. Notebooks run in Google Colab without local setup, or can be read through nbviewer. Several advanced and topic notebooks appear in the table without links.
+
+- **+** Runs in Google Colab in the browser, no local install needed
+- **+** Progresses from Python basics to CNNs, RNNs and embeddings in numbered notebooks
+- **+** Includes a notebook on object-oriented ML code structure in PyTorch
+- **+** Notebooks can be read without running via nbviewer URL swap
+- **−** Many advanced and topic notebooks are listed without links
+- **−** Translator credits for notebooks 11, 13, 14 and 15 are blank
+- **−** Classic deep learning only; no LLM or generative AI tooling
+- **−** Setup relies on a Google account; local run steps are not documented
+
+<sub>Needs Google Colab, PyTorch, Jupyter · [Repo](https://github.com/mleveryday/practicalai-cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/practicalai-cn/)</sub>
+
 <a name="reinforcement-learning"></a>
-### #&#8288;121 [reinforcement-learning](https://github.com/rlcode/reinforcement-learning) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: known (34) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Jun 2026</sub>
+### #&#8288;122 [reinforcement-learning](https://github.com/rlcode/reinforcement-learning) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: known (34) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Jun 2026</sub>
 
 **PyTorch reference implementations of classic and deep RL algorithms, one file each.**
 
@@ -2154,7 +2172,7 @@ A set of single-file PyTorch implementations of reinforcement learning algorithm
 <sub>GPU optional · Needs Python 3.11, uv, PyTorch, gymnasium, pygame, Weights & Biases (optional) · [Repo](https://github.com/rlcode/reinforcement-learning) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/reinforcement-learning/)</sub>
 
 <a name="llm-trading-lab"></a>
-### #&#8288;122 [llm-trading-lab](https://github.com/luckyone7777/llm-trading-lab) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (59) · Freshness: recent (78) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.6k · no license · Jun 2026</sub>
+### #&#8288;123 [llm-trading-lab](https://github.com/luckyone7777/llm-trading-lab) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (59) · Freshness: recent (78) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.6k · no license · Jun 2026</sub>
 
 **Logs of a live ChatGPT-managed micro-cap stock portfolio, with analysis scripts.**
 
@@ -2171,7 +2189,7 @@ A research repository recording a six-month, real-money experiment in which Chat
 <sub>no GPU · Needs Python 3.11+, pandas, yfinance, Stooq, Matplotlib · Models: ChatGPT · [Repo](https://github.com/luckyone7777/llm-trading-lab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-trading-lab/)</sub>
 
 <a name="fun-rec"></a>
-### #&#8288;123 [fun-rec](https://github.com/datawhalechina/fun-rec) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (59) · Freshness: recent (79) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.5k · no license · Jun 2026</sub>
+### #&#8288;124 [fun-rec](https://github.com/datawhalechina/fun-rec) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (59) · Freshness: recent (79) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.5k · no license · Jun 2026</sub>
 
 **Chinese-language textbook on recommender systems, from cascades to generative models.**
 
@@ -2185,24 +2203,6 @@ An online book (小麦书) on recommender algorithms in two parts. The first cov
 - **−** CC BY-NC-SA 4.0 license bars commercial use
 
 <sub>[Repo](https://github.com/datawhalechina/fun-rec) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fun-rec/)</sub>
-
-<a name="practicalai-cn"></a>
-### #&#8288;124 [practicalai-cn](https://github.com/mleveryday/practicalai-cn) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (57) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Apr 2026</sub>
-
-**Chinese translation of practicalAI machine learning notebooks using PyTorch.**
-
-A Chinese-language fork of Goku Mohandas's practicalAI course: Jupyter notebooks covering Python, NumPy, Pandas, regression, random forests, PyTorch, CNNs, RNNs and embeddings. Notebooks run in Google Colab without local setup, or can be read through nbviewer. Several advanced and topic notebooks appear in the table without links.
-
-- **+** Runs in Google Colab in the browser, no local install needed
-- **+** Progresses from Python basics to CNNs, RNNs and embeddings in numbered notebooks
-- **+** Includes a notebook on object-oriented ML code structure in PyTorch
-- **+** Notebooks can be read without running via nbviewer URL swap
-- **−** Many advanced and topic notebooks are listed without links
-- **−** Translator credits for notebooks 11, 13, 14 and 15 are blank
-- **−** Classic deep learning only; no LLM or generative AI tooling
-- **−** Setup relies on a Google account; local run steps are not documented
-
-<sub>Needs Google Colab, PyTorch, Jupyter · [Repo](https://github.com/mleveryday/practicalai-cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/practicalai-cn/)</sub>
 
 <a name="ai-agents-the-definitive-guide"></a>
 ### #&#8288;125 [ai-agents-the-definitive-guide](https://github.com/nicolepcx/ai-agents-the-definitive-guide) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (27) · Freshness: active (92) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.0k · no license · Aug 2026</sub>
