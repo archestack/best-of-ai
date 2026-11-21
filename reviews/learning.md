@@ -201,20 +201,19 @@ A collection of example code and guides, mostly Python Jupyter notebooks, showin
 <a name="genai-agents"></a>
 ### #&#8288;12 [genai_agents](https://github.com/nirdiamant/genai_agents) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
 
-**Notebook tutorials for building GenAI agents with LangGraph, LangChain and AutoGen.**
+**Notebook tutorials for building GenAI agents, mostly with LangGraph.**
 
-A collection of 57 Jupyter notebooks that walk through agent designs, from simple conversational and Q&A agents to multi-agent systems. Most examples use LangGraph, with others using LangChain, PydanticAI, AutoGen and MCP, across business, educational and creative use cases. The README also promotes the author's paid course and newsletter.
+A collection of 64 tutorial notebooks covering agent patterns: the basic agent loop, routing, tool design, plan-then-execute, reflection and trace-based evals. Use-case examples such as customer support, contract analysis and E2E testing are mostly built on LangGraph, with some LangChain and PydanticAI. Each notebook needs its own provider API keys, and not every one was re-run end to end after the latest model-ID update.
 
-- **+** 57 notebooks spanning beginner to multi-agent examples, each runnable on its own
-- **+** Covers several frameworks: LangGraph, LangChain, PydanticAI, AutoGen, MCP
-- **+** Applied examples such as contract analysis, customer support and E2E testing agents
-- **+** Companion blog post and YouTube explainers for some topics
-- **−** Tutorial code, not an installable library or deployable agent product
-- **−** Most notebooks depend on LangGraph or LangChain, so framework coverage is narrow
-- **−** README carries heavy course, newsletter and sponsor promotion
-- **−** License is not identified (NOASSERTION); no releases published
+- **+** Core-pattern notebooks are mostly plain Python plus one SDK, so they depend less on framework churn
+- **+** Covers routing, agent loop, skills, context engineering, trace-based evals and human approval
+- **+** Notebooks updated to import on LangChain 1.x and LangGraph 1.x, with retired model IDs replaced
+- **−** Many use-case notebooks date from late 2024 and were not all run against live services
+- **−** Every notebook needs its own API keys; no local-model setup is described
+- **−** README carries heavy promotion for a paid book, newsletter and sponsors
+- **−** Tutorials only; no installable library or reusable agent package
 
-<sub>Needs LangGraph, LangChain, LLM provider API · [Repo](https://github.com/nirdiamant/genai_agents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genai-agents/)</sub>
+<sub>no GPU · Needs Jupyter, LangChain, LangGraph, LLM provider API keys · Models: OpenAI, Gemini, Claude, Groq · [Repo](https://github.com/nirdiamant/genai_agents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genai-agents/)</sub>
 
 <a name="ml-for-beginners"></a>
 ### #&#8288;13 [ml-for-beginners](https://github.com/microsoft/ml-for-beginners) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 92k · MIT · Nov 2026</sub>
@@ -598,18 +597,17 @@ Jupyter notebooks, code samples and sample apps for building with Gemini, Imagen
 
 **Code for LearnOpenCV blog tutorials on computer vision and deep learning.**
 
-Per-article code folders for the LearnOpenCV.com blog, mostly Jupyter notebooks plus Python and C++ examples. Topics run from classic OpenCV (contours, calibration, optical flow, homography) to YOLO26, RF-DETR, SAM 3, VLMs, RAG and edge deployment on Jetson and Arduino. Maintained by BigVision.AI, a consulting company.
+Per-article code folders for the LearnOpenCV blog, mostly Jupyter notebooks and Python/C++ scripts. Topics run from OpenCV basics (contours, calibration, optical flow, homography) to YOLO26, RF-DETR, SAM 3, VLMs, and edge deployment on Jetson and Arduino. Maintained by BigVision.AI, a consulting company.
 
-- **+** Covers classic OpenCV and recent models (YOLO26, SAM 3, Qwen3-VL) in one repo
-- **+** Many tutorials provide both Python and C++ versions
-- **+** Each blog post links to its own code folder
-- **+** Active: last commit 2026-10-06, last release 2026-08-29
-- **−** No license declared, so reuse terms are unclear
-- **−** Several recent posts list no code folder
-- **−** Each folder has its own dependencies; no shared environment or Docker setup
-- **−** Meant to be read alongside the blog, not used as a library
+- **+** Covers classic OpenCV topics in Python and C++ with a matching blog post each
+- **+** Recent entries track current models such as YOLO26, SAM 3, RF-DETR and Qwen3-VL
+- **+** Each tutorial lives in its own folder, so examples run independently
+- **−** No license detected, so reuse terms are unclear
+- **−** Several listed posts have no code link
+- **−** No shared environment; dependencies differ per folder
+- **−** At least one code link points to a contributor's fork
 
-<sub>GPU optional · Needs OpenCV, Python, C++ · Models: YOLO26, RF-DETR, SAM 3, Qwen3-VL, MiniCPM-o 4.5 · [Repo](https://github.com/spmallick/learnopencv) · [🌐 Site ↗](https://www.LearnOpenCV.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learnopencv/)</sub>
+<sub>GPU optional · Needs OpenCV · Models: YOLO26, RF-DETR, SAM 3, Qwen3-VL, MiniCPM-o 4.5 · [Repo](https://github.com/spmallick/learnopencv) · [🌐 Site ↗](https://www.LearnOpenCV.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learnopencv/)</sub>
 
 <a name="amazon-sagemaker-examples"></a>
 ### #&#8288;35 [amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
@@ -1958,26 +1956,8 @@ A tutorial repository with 18 progressive steps, each with a README on design de
 
 <sub>no GPU · Needs LiteLLM, LLM provider API key · Models: LiteLLM providers · [Repo](https://github.com/czl9707/build-your-own-openclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/build-your-own-openclaw/)</sub>
 
-<a name="pyprobml"></a>
-### #&#8288;111 [pyprobml](https://github.com/probml/pyprobml) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (57) · Freshness: quiet (25) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Feb 2026</sub>
-
-**Notebooks that reproduce figures from the Probabilistic Machine Learning books.**
-
-Python 3 Jupyter notebooks that regenerate the figures in "Probabilistic Machine Learning: An Introduction" (book 1) and "Advanced Topics" (book 2). Code uses numpy, scipy, matplotlib and sklearn, with JAX in much of book 2 and TensorFlow 2 or Torch in parts of book 1. The repo has been in maintenance mode since September 2022.
-
-- **+** Notebooks organized by chapter for both book 1 and book 2
-- **+** Runs in Colab with free GPU/TPU; Colab intro notebook included
-- **+** Status dashboards show which figure notebooks currently run
-- **+** Shared plotting helpers live in the separate probml-utils package
-- **−** Maintenance mode since September 2022; last release 2022-05-05
-- **−** Tied to the books; not a standalone library or course
-- **−** JAX, TensorFlow and Torch must be installed manually first
-- **−** No Docker setup; local install is a requirements.txt plus manual steps
-
-<sub>GPU optional · Needs JAX, TensorFlow 2, Torch, numpy, scipy, matplotlib, scikit-learn · [Repo](https://github.com/probml/pyprobml) · [📖 Docs ↗](https://probml.github.io/notebooks) · [🌐 Site ↗](https://probml.github.io/pml-book/book1.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyprobml/)</sub>
-
 <a name="devops-ai-guidelines"></a>
-### #&#8288;112 [devops-ai-guidelines](https://github.com/versuscontrol/devops-ai-guidelines) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Sep 2026</sub>
+### #&#8288;111 [devops-ai-guidelines](https://github.com/versuscontrol/devops-ai-guidelines) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
 
 **Written guides for DevOps engineers learning to build and adopt AI agents.**
 
@@ -1993,6 +1973,24 @@ A Markdown collection of tutorials and team guidelines for DevOps engineers movi
 - **−** No releases or versioning for the 18-month roadmap
 
 <sub>no GPU · [Repo](https://github.com/versuscontrol/devops-ai-guidelines) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/devops-ai-guidelines/)</sub>
+
+<a name="pyprobml"></a>
+### #&#8288;112 [pyprobml](https://github.com/probml/pyprobml) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (57) · Freshness: quiet (25) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Feb 2026</sub>
+
+**Notebooks that reproduce figures from the Probabilistic Machine Learning books.**
+
+Python 3 Jupyter notebooks that regenerate the figures in "Probabilistic Machine Learning: An Introduction" (book 1) and "Advanced Topics" (book 2). Code uses numpy, scipy, matplotlib and sklearn, with JAX in much of book 2 and TensorFlow 2 or Torch in parts of book 1. The repo has been in maintenance mode since September 2022.
+
+- **+** Notebooks organized by chapter for both book 1 and book 2
+- **+** Runs in Colab with free GPU/TPU; Colab intro notebook included
+- **+** Status dashboards show which figure notebooks currently run
+- **+** Shared plotting helpers live in the separate probml-utils package
+- **−** Maintenance mode since September 2022; last release 2022-05-05
+- **−** Tied to the books; not a standalone library or course
+- **−** JAX, TensorFlow and Torch must be installed manually first
+- **−** No Docker setup; local install is a requirements.txt plus manual steps
+
+<sub>GPU optional · Needs JAX, TensorFlow 2, Torch, numpy, scipy, matplotlib, scikit-learn · [Repo](https://github.com/probml/pyprobml) · [📖 Docs ↗](https://probml.github.io/notebooks) · [🌐 Site ↗](https://probml.github.io/pml-book/book1.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyprobml/)</sub>
 
 <a name="the-little-book-of-ml-metrics"></a>
 ### #&#8288;113 [the-little-book-of-ml-metrics](https://github.com/nannyml/the-little-book-of-ml-metrics) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.0k · no license · Oct 2026</sub>
