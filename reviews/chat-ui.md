@@ -578,7 +578,7 @@ Go server that backs the AIdea client app, wrapping multiple LLM and image-gener
 <sub>Docker · Needs MySQL, Redis, Qiniu Cloud Storage · Models: OpenAI-compatible API, multiple hosted LLM providers, image generation models · [Repo](https://github.com/mylxsw/aidea-server) · [▶️ Demo ↗](https://aidea.aicode.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aidea-server/)</sub>
 
 <a name="tavernai-v1"></a>
-### #&#8288;33 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (19) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
+### #&#8288;33 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (19) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
 
 **Legacy Node.js chat and story frontend for Kobold, OpenAI, Claude.**
 

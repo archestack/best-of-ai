@@ -1543,7 +1543,7 @@ Snorkel is a Python library for building and managing training data programmatic
 <sub>Needs Python 3.11+ · [Repo](https://github.com/snorkel-team/snorkel) · [📖 Docs ↗](https://snorkel.readthedocs.io/) · [🌐 Site ↗](https://snorkel.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/snorkel/)</sub>
 
 <a name="training"></a>
-### #&#8288;87 [training](https://github.com/mlcommons/training) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (5) · Freshness: recent (70) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;87 [training](https://github.com/mlcommons/training) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (6) · Freshness: recent (70) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Oct 2026</sub>
 
 **MLPerf Training reference implementations for LLM, image and recommendation benchmarks.**
 

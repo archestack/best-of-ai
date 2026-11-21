@@ -1508,7 +1508,7 @@ Command-line tool, with a Gradio web UI, that splits an EPUB into chapters and r
 <sub>no GPU · Docker + Compose · Needs Azure Speech key (Azure TTS), OpenAI API key (OpenAI TTS), Piper executable and voice models (Piper), Audiobookshelf (optional) · Models: Azure TTS, OpenAI TTS, Edge TTS, Piper, Kokoro (via OpenAI-compatible endpoint) · port 7860 · [Repo](https://github.com/p0n1/epub_to_audiobook) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/epub-to-audiobook/)</sub>
 
 <a name="breeze-tts"></a>
-### #&#8288;85 [breeze-tts](https://github.com/breezeblue-ai/breeze-tts) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (9) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;85 [breeze-tts](https://github.com/breezeblue-ai/breeze-tts) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (10) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
 
 **Open-weight English and Chinese TTS with voice cloning, design and streaming.**
 
@@ -1882,8 +1882,26 @@ whisper-timestamped extends the openai-whisper Python package to output start/en
 
 <sub>GPU optional · Docker · Needs python3, ffmpeg, openai-whisper, torch, onnxruntime (VAD), torchaudio (VAD), transformers (HF models), matplotlib (plots) · Models: OpenAI Whisper models, Hugging Face fine-tuned Whisper models, local Whisper model folders · [Repo](https://github.com/linto-ai/whisper-timestamped) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisper-timestamped/)</sub>
 
+<a name="audionotes"></a>
+### #&#8288;106 [audionotes](https://github.com/harry0703/audionotes) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (23) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Jul 2026</sub>
+
+**Local audio and video transcription with Markdown notes and Q&A.**
+
+AudioNotes transcribes uploaded audio, video or browser recordings with FunASR (Fun-ASR-Nano-2512 by default), then uses an Ollama model (qwen3.5:2b by default) to turn the transcript into Markdown notes and answer follow-up questions. It runs on Chainlit with login, history and domain hot words, and stores data locally in a folder. Audio and notes are not sent to third-party AI APIs by default.
+
+- **+** Transcription and LLM both run locally via FunASR and Ollama
+- **+** No database service needed; data lives in one folder
+- **+** Optional NVIDIA GPU compose file for faster recognition on Linux
+- **+** Web UI binds to localhost by default
+- **−** Docker needs 12GB RAM or more; 8GB reportedly insufficient for long audio
+- **−** Default login is admin/admin until .env is edited
+- **−** Cannot switch ASR model at runtime; multilingual needs .env change and restart
+- **−** README is Chinese only; default models are tuned for Chinese
+
+<sub>RAM ≥ 12 GB · GPU optional · Docker + Compose · Needs Ollama, Docker Desktop, ffmpeg (source install), Python 3.12 (source install) · Models: FunAudioLLM/Fun-ASR-Nano-2512, FunAudioLLM/Fun-ASR-MLT-Nano-2512, qwen3.5:2b (Ollama) · port 15433 · [Repo](https://github.com/harry0703/audionotes) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/audionotes/)</sub>
+
 <a name="bert-vits2"></a>
-### #&#8288;106 [bert-vits2](https://github.com/fishaudio/bert-vits2) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: popular (63) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · AGPL-3.0 · May 2026</sub>
+### #&#8288;107 [bert-vits2](https://github.com/fishaudio/bert-vits2) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: popular (63) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · AGPL-3.0 · May 2026</sub>
 
 **Multilingual text-to-speech model combining VITS2 with BERT text features.**
 
@@ -1900,7 +1918,7 @@ Bert-VITS2 is a text-to-speech training and inference codebase that pairs the VI
 <sub>Models: VITS2, multilingual BERT · [Repo](https://github.com/fishaudio/bert-vits2) · [▶️ Demo ↗](https://www.bilibili.com/video/BV18E421371Q) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bert-vits2/)</sub>
 
 <a name="diffsinger"></a>
-### #&#8288;107 [diffsinger](https://github.com/moonintheriver/diffsinger) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (46) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Jul 2026</sub>
+### #&#8288;108 [diffsinger](https://github.com/moonintheriver/diffsinger) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (46) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Jul 2026</sub>
 
 **Official PyTorch code for DiffSinger singing synthesis and DiffSpeech TTS.**
 
@@ -1916,24 +1934,6 @@ Research implementation of the AAAI-2022 DiffSinger paper: a shallow diffusion a
 - **−** Training depends on external datasets such as OpenCpop and LJSpeech
 
 <sub>Needs Python 3.8, PyTorch 1.9, PyTorch Lightning, OpenCpop dataset, LJSpeech dataset · Models: DiffSinger, DiffSpeech, FFT-Singer, NSF-HiFiGAN, HiFiGAN · [Repo](https://github.com/moonintheriver/diffsinger) · [▶️ Demo ↗](https://huggingface.co/spaces/Silentlin/DiffSinger) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diffsinger/)</sub>
-
-<a name="audionotes"></a>
-### #&#8288;108 [audionotes](https://github.com/harry0703/audionotes) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (23) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Jul 2026</sub>
-
-**Local audio and video transcription with Markdown notes and Q&A.**
-
-AudioNotes transcribes uploaded audio, video or browser recordings with FunASR (Fun-ASR-Nano-2512 by default), then uses an Ollama model (qwen3.5:2b by default) to turn the transcript into Markdown notes and answer follow-up questions. It runs on Chainlit with login, history and domain hot words, and stores data locally in a folder. Audio and notes are not sent to third-party AI APIs by default.
-
-- **+** Transcription and LLM both run locally via FunASR and Ollama
-- **+** No database service needed; data lives in one folder
-- **+** Optional NVIDIA GPU compose file for faster recognition on Linux
-- **+** Web UI binds to localhost by default
-- **−** Docker needs 12GB RAM or more; 8GB reportedly insufficient for long audio
-- **−** Default login is admin/admin until .env is edited
-- **−** Cannot switch ASR model at runtime; multilingual needs .env change and restart
-- **−** README is Chinese only; default models are tuned for Chinese
-
-<sub>RAM ≥ 12 GB · GPU optional · Docker + Compose · Needs Ollama, Docker Desktop, ffmpeg (source install), Python 3.12 (source install) · Models: FunAudioLLM/Fun-ASR-Nano-2512, FunAudioLLM/Fun-ASR-MLT-Nano-2512, qwen3.5:2b (Ollama) · port 15433 · [Repo](https://github.com/harry0703/audionotes) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/audionotes/)</sub>
 
 <a name="parlor"></a>
 ### #&#8288;109 [parlor](https://github.com/fikrikarim/parlor) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (16) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Aug 2026</sub>

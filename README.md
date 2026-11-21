@@ -3,13 +3,13 @@
 <h3 align="center">Open-source AI, ranked. 🏆</h3>
 <p align="center">AI apps, agents and models you run, and the parts to build with. Paid never moves a rank.</p>
 <p align="center">
-  <img alt="projects" src="https://img.shields.io/badge/2098_projects-ff6b6b?style=for-the-badge" />
+  <img alt="projects" src="https://img.shields.io/badge/2099_projects-ff6b6b?style=for-the-badge" />
   <img alt="stars" src="https://img.shields.io/badge/27.2M_stars_combined-ffd166?style=for-the-badge" />
   <img alt="categories" src="https://img.shields.io/badge/21_categories-5ac4bf?style=for-the-badge" />
   <img alt="updated" src="https://img.shields.io/badge/updated-2026--11--21-8ac926?style=for-the-badge" />
 </p>
 
-<p align="center">Best of Open-Source AI is a ranked list of 2,098 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-21 (UTC).</sub></p>
+<p align="center">Best of Open-Source AI is a ranked list of 2,099 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-21 (UTC).</sub></p>
 
 > [!TIP]
 > 🔎 **Every project fact-checked** on GitHub before it is listed &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; ▶️ **Demo links** so you can try before you deploy
@@ -23,7 +23,7 @@
 
 ## 🔥 Top 10 right now
 
-<sub>2098 projects ranked in 21 categories · data from 2026-11-21 · re-ranked twice a day</sub>
+<sub>2099 projects ranked in 21 categories · data from 2026-11-21 · re-ranked twice a day</sub>
 
 <sub>**How to read it:** rank 🥇🥈🥉 then #&#8288;4, #&#8288;5… (equal scores: more stars first) · ▲▼ places moved in the last month, 🆕 new this month · score out of 100 sets the order: hover it to see what it is made of, or read [how we rank](#-how-we-rank) · click a project name for its review · ↗ opens another site (Cmd/Ctrl-click for a new tab)</sub>
 
@@ -135,7 +135,7 @@
 - 🧰 [Agent frameworks and SDKs](#-agent-frameworks-and-sdks) · 206
 - 🗂️ [Memory](#%EF%B8%8F-memory) · 40
 - 🧠 [Model serving](#-model-serving) · 109
-- 🧬 [Open models](#-open-models) · 142
+- 🧬 [Open models](#-open-models) · 143
 - 🏋️ [Training and fine-tuning](#%EF%B8%8F-training-and-fine-tuning) · 101
 - 🔬 [ML frameworks and libraries](#-ml-frameworks-and-libraries) · 342
 - 🔀 [Gateways and observability](#-gateways-and-observability) · 73
@@ -519,15 +519,15 @@ Inference engines and model servers that expose local models over an API. <sub>1
 
 ## 🧬 Open models
 
-Repositories of open-weight models with the code to run them: LLMs, vision, speech and embedding models. <sub>142 ranked · [📝 all reviews](reviews/models.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/models/)</sub>
+Repositories of open-weight models with the code to run them: LLMs, vision, speech and embedding models. <sub>143 ranked · [📝 all reviews](reviews/models.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/models/)</sub>
 
-**ruview leads with 94**, ahead of laya (89) and rf-detr (86).
+**ruview leads with 94**, ahead of laya (89) and rf-detr (87).
 
 | Rank | Move | Project | Score | Stars |
 |:-:|:-:|---|:-:|--:|
 | 🥇 | 🆕 | **[ruview](reviews/models.md#ruview "Review: strengths, weaknesses, specs")**<br><sub>WiFi CSI sensing on ESP32 for presence, breathing, heart rate and pose</sub><br><sub>🐳 Docker · MIT · GPU optional · [📖 Docs ↗](https://github.com/ruvnet/RuView/blob/main/docs/user-guide.md) · [🌐 Site ↗](https://cognitum.one/seed)</sub> | [94](#-how-we-rank "Score 94/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 105k |
 | 🥈 | ▼1 | **[laya](reviews/models.md#laya "Review: strengths, weaknesses, specs")**<br><sub>Single-pass multilingual classifier returning typed decisions with calibrated odds</sub><br><sub>🐳 Docker · Apache-2.0 · GPU optional · [▶️ Demo ↗](https://huggingface.co/spaces/convaiinnovations/laya-demo) · [📖 Docs ↗](https://nandhakishorm.github.io/laya/) · [🌐 Site ↗](https://huggingface.co/convaiinnovations/laya)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 36k |
-| 🥉 | 🆕 | **[rf-detr](reviews/models.md#rf-detr "Review: strengths, weaknesses, specs")**<br><sub>Real-time transformer models for object detection, segmentation and keypoints</sub><br><sub>Apache-2.0 · GPU optional · [▶️ Demo ↗](https://huggingface.co/spaces/SkalskiP/RF-DETR) · [🌐 Site ↗](https://blog.roboflow.com/rf-detr)</sub> | [86](#-how-we-rank "Score 86/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 10k |
+| 🥉 | 🆕 | **[rf-detr](reviews/models.md#rf-detr "Review: strengths, weaknesses, specs")**<br><sub>Real-time transformer models for object detection, segmentation and keypoints</sub><br><sub>Apache-2.0 · GPU optional · [▶️ Demo ↗](https://huggingface.co/spaces/SkalskiP/RF-DETR) · [🌐 Site ↗](https://blog.roboflow.com/rf-detr)</sub> | [87](#-how-we-rank "Score 87/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 10k |
 | #&#8288;4 | ▲6 | **[open_clip](reviews/models.md#open-clip "Review: strengths, weaknesses, specs")**<br><sub>PyTorch library for training and running CLIP-style image-text models</sub><br><sub>custom license · GPU optional</sub> | [82](#-how-we-rank "Score 82/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 14k |
 | #&#8288;5 | ▼3 | **[timesfm](reviews/models.md#timesfm "Review: strengths, weaknesses, specs")**<br><sub>Pretrained time-series foundation model for zero-shot forecasting from Google Research</sub><br><sub>Apache-2.0 · GPU optional · [🌐 Site ↗](https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/)</sub> | [81](#-how-we-rank "Score 81/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 36k |
 | #&#8288;6 | ▼2 | **[yue](reviews/models.md#yue "Review: strengths, weaknesses, specs")**<br><sub>Lyrics-to-song model that writes an editable melody and chord score first</sub><br><sub>Apache-2.0 · GPU required · [▶️ Demo ↗](https://yue.noizai.net/) · [📖 Docs ↗](https://github.com/multimodal-art-projection/YuE/blob/main/docs/generation.md) · [🌐 Site ↗](https://map-yue2.github.io/)</sub> | [81](#-how-we-rank "Score 81/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 14k |
@@ -536,7 +536,7 @@ Repositories of open-weight models with the code to run them: LLMs, vision, spee
 | #&#8288;9 | 🆕 | **[yolov5](reviews/models.md#yolov5 "Review: strengths, weaknesses, specs")**<br><sub>PyTorch YOLOv5 object detection, segmentation and classification models with training code</sub><br><sub>AGPL-3.0 · GPU optional · [📖 Docs ↗](https://docs.ultralytics.com/yolov5) · [🌐 Site ↗](https://www.ultralytics.com)</sub> | [76](#-how-we-rank "Score 76/100. Adoption: widely used (98) · Freshness: recent (70) · Maintenance: fair (64) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 58k |
 | #&#8288;10 | ▼5 | **[ace-step-1.5](reviews/models.md#ace-step-1-5 "Review: strengths, weaknesses, specs")**<br><sub>Text-to-music model with LM planner, DiT decoder, Gradio UI and REST API</sub><br><sub>🐳 Docker · MIT · GPU optional · [▶️ Demo ↗](https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5) · [📖 Docs ↗](https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md) · [🌐 Site ↗](https://ace-step.github.io/ace-step-v1.5.github.io/)</sub> | [74](#-how-we-rank "Score 74/100. Adoption: widely used (82) · Freshness: active (99) · Maintenance: patchy (49) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 15k |
 
-<sub>Top 10 of 142. [See all 142, ranked, with reviews →](reviews/models.md)</sub>
+<sub>Top 10 of 143. [See all 143, ranked, with reviews →](reviews/models.md)</sub>
 
 <details><summary>💡 How to choose</summary>
 

@@ -1456,8 +1456,26 @@ Unofficial implementation of the PaperBanana paper. It turns methodology text or
 
 <sub>no GPU · Docker · Needs OpenAI, Azure OpenAI, Google Gemini, Atlas Cloud or OpenRouter API key, PyMuPDF (optional, for PDF input), Gradio (optional, for Studio) · Models: gpt-5.2, gpt-image-1.5, gemini-2.5-flash, gemini-3-pro-image-preview, DeepSeek-V3-0324 (Atlas Cloud) · port 7860 · [Repo](https://github.com/llmsresearch/paperbanana) · [▶️ Demo ↗](https://huggingface.co/spaces/llmsresearch/paperbanana) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llmsresearch-paperbanana/)</sub>
 
+<a name="helios"></a>
+### #&#8288;82 [helios](https://github.com/pku-yuangroup/helios) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Nov 2026</sub>
+
+**14B video model generating minute-long clips from text, images or video.**
+
+Helios is the official code and weights for a 14B video diffusion model that generates video autoregressively in 33-frame chunks, up to minute-scale clips. It ships three checkpoints (Base, Mid, Distilled) covering T2V, I2V and V2V, with inference scripts, training code, and Diffusers, SGLang-Diffusion and vLLM-Omni support. The README reports 19.5 FPS on a single H100 and about 10 FPS on an Ascend NPU.
+
+- **+** Reported 19.5 FPS on one H100 without KV-cache, quantization or sparse attention
+- **+** Group offloading brings VRAM down to about 6 GB
+- **+** Context parallelism across GPUs: Ulysses, Ring, Unified, Ulysses Anything
+- **+** Diffusers, SGLang-Diffusion, vLLM-Omni and Ascend NPU support
+- **−** Interactive mode is marked as still under development
+- **−** I2V and V2V are weaker than T2V since training was T2V-based
+- **−** Helios-Mid is an intermediate checkpoint and may not meet expected quality
+- **−** Frame counts round up to multiples of 33; speed depends on CPU and driver
+
+<sub>GPU required · Needs PyTorch 2.10.0, Python 3.11.2, conda, Diffusers · Models: Helios-Base, Helios-Mid, Helios-Distilled, T2V, I2V · [Repo](https://github.com/pku-yuangroup/helios) · [▶️ Demo ↗](https://huggingface.co/spaces/BestWishYsh/Helios-14B-RealTime) · [🌐 Site ↗](https://pku-yuangroup.github.io/Helios-Page) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helios/)</sub>
+
 <a name="duix-avatar"></a>
-### #&#8288;82 [duix-avatar](https://github.com/duixcom/duix-avatar) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: widely used (84) · Freshness: slowing (49) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · custom license · Apr 2026</sub>
+### #&#8288;83 [duix-avatar](https://github.com/duixcom/duix-avatar) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: widely used (84) · Freshness: slowing (49) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · custom license · Apr 2026</sub>
 
 **Offline talking-avatar video generator with voice cloning and lip-sync.**
 
@@ -1475,7 +1493,7 @@ Duix.Avatar clones a person's face and voice from a short video, then renders li
 <sub>RAM ≥ 32 GB · GPU required · Compose · Needs Docker, NVIDIA Container Toolkit, Node.js 18, guiji2025/fun-asr, guiji2025/fish-speech-ziming, guiji2025/duix.avatar · Models: fun-asr, fish-speech-ziming · [Repo](https://github.com/duixcom/duix-avatar) · [🌐 Site ↗](http://www.duix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/duix-avatar/)</sub>
 
 <a name="stable-video-infinity"></a>
-### #&#8288;83 [stable-video-infinity](https://github.com/vita-epfl/stable-video-infinity) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Sep 2026</sub>
+### #&#8288;84 [stable-video-infinity](https://github.com/vita-epfl/stable-video-infinity) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Sep 2026</sub>
 
 **LoRA adapters for Wan video models that generate arbitrarily long videos clip by clip.**
 
@@ -1493,7 +1511,7 @@ Stable Video Infinity provides LoRA adapters, training and evaluation scripts fo
 <sub>GPU required · Needs Wan2.1-I2V-14B-480P weights, PyTorch, flash-attn, ffmpeg, ComfyUI (optional) · Models: Wan 2.1 I2V 14B, Wan 2.2, safetensors LoRA · [Repo](https://github.com/vita-epfl/stable-video-infinity) · [📖 Docs ↗](https://arxiv.org/abs/2510.09212) · [🌐 Site ↗](https://stable-video-infinity.github.io/homepage/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stable-video-infinity/)</sub>
 
 <a name="code2video"></a>
-### #&#8288;84 [code2video](https://github.com/showlab/code2video) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Nov 2026</sub>
+### #&#8288;85 [code2video](https://github.com/showlab/code2video) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Nov 2026</sub>
 
 **Generates Manim educational videos from a topic using planner, coder and critic agents.**
 
@@ -1509,24 +1527,6 @@ Code2Video takes a knowledge point such as "Linear transformations and matrices"
 - **−** Shell scripts and JSON config only; no web UI, Docker image or tagged release
 
 <sub>Needs Manim Community v0.19.0, LLM API (Claude-4-Opus recommended), Gemini API key (VLM critic), IconFinder API key (optional) · Models: Claude-4-Opus, gemini-2.5-pro-preview-05-06 · [Repo](https://github.com/showlab/code2video) · [🌐 Site ↗](https://showlab.github.io/Code2Video/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/code2video/)</sub>
-
-<a name="helios"></a>
-### #&#8288;85 [helios](https://github.com/pku-yuangroup/helios) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Nov 2026</sub>
-
-**14B video model generating minute-long clips from text, images or video.**
-
-Helios is the official code and weights for a 14B video diffusion model that generates video autoregressively in 33-frame chunks, up to minute-scale clips. It ships three checkpoints (Base, Mid, Distilled) covering T2V, I2V and V2V, with inference scripts, training code, and Diffusers, SGLang-Diffusion and vLLM-Omni support. The README reports 19.5 FPS on a single H100 and about 10 FPS on an Ascend NPU.
-
-- **+** Reported 19.5 FPS on one H100 without KV-cache, quantization or sparse attention
-- **+** Group offloading brings VRAM down to about 6 GB
-- **+** Context parallelism across GPUs: Ulysses, Ring, Unified, Ulysses Anything
-- **+** Diffusers, SGLang-Diffusion, vLLM-Omni and Ascend NPU support
-- **−** Interactive mode is marked as still under development
-- **−** I2V and V2V are weaker than T2V since training was T2V-based
-- **−** Helios-Mid is an intermediate checkpoint and may not meet expected quality
-- **−** Frame counts round up to multiples of 33; speed depends on CPU and driver
-
-<sub>GPU required · Needs PyTorch 2.10.0, Python 3.11.2, conda, Diffusers · Models: Helios-Base, Helios-Mid, Helios-Distilled, T2V, I2V · [Repo](https://github.com/pku-yuangroup/helios) · [▶️ Demo ↗](https://huggingface.co/spaces/BestWishYsh/Helios-14B-RealTime) · [🌐 Site ↗](https://pku-yuangroup.github.io/Helios-Page) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/helios/)</sub>
 
 <a name="video2x"></a>
 ### #&#8288;86 [video2x](https://github.com/k4yt3x/video2x) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: widely used (89) · Freshness: quiet (27) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · AGPL-3.0 · Mar 2026</sub>
@@ -1565,7 +1565,7 @@ Gradio front end (forked from AI-Toolkit) over Kohya sd-scripts that trains FLUX
 <sub>GPU required · Docker + Compose · Needs kohya-ss/sd-scripts (sd3 branch) · Models: Flux1-dev, Flux1-dev2pro, Flux1-schnell, custom bases via models.yaml · port 7860 · [Repo](https://github.com/cocktailpeanut/fluxgym) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fluxgym/)</sub>
 
 <a name="sd-ppp"></a>
-### #&#8288;88 [sd-ppp](https://github.com/zombieyang/sd-ppp) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (15) · Freshness: active (91) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;88 [sd-ppp](https://github.com/zombieyang/sd-ppp) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (16) · Freshness: active (91) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · BSD-3-Clause · Nov 2026</sub>
 
 **Photoshop plugin that sends layers to ComfyUI or cloud image APIs.**
 
@@ -1673,7 +1673,7 @@ HunyuanVideo-1.5 is Tencent's video generation model: an 8.3B-parameter DiT with
 <sub>GPU required · Needs PyTorch, CUDA, Flash Attention, SageAttention, flex-block-attn, sgl-kernel, vLLM (optional, prompt rewrite) · Models: HunyuanVideo-1.5 480p/720p T2V, HunyuanVideo-1.5 480p/720p I2V, 720p and 1080p super-resolution, Diffusers · [Repo](https://github.com/tencent-hunyuan/hunyuanvideo-1.5) · [▶️ Demo ↗](https://hunyuan.tencent.com/video/zh?tabIndex=0) · [📖 Docs ↗](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/main/assets/HunyuanVideo_1_5_Prompt_Handbook_EN.md) · [🌐 Site ↗](https://hunyuan.tencent.com/video/zh?tabIndex=0) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuanvideo-1-5/)</sub>
 
 <a name="youtube-shorts-pipeline"></a>
-### #&#8288;94 [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (20) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Jun 2026</sub>
+### #&#8288;94 [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (21) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Jun 2026</sub>
 
 **CLI that turns a topic into a captioned, voiced YouTube Short.**
 

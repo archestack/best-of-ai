@@ -29238,7 +29238,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 31
+    score: 32
   - id: jaaz
     repo: 11cafe/jaaz
     name: jaaz
@@ -31557,7 +31557,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 86
+    score: 87
   - id: so-vits-svc-fork
     repo: voicepaw/so-vits-svc-fork
     name: so-vits-svc-fork
@@ -38648,7 +38648,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 58
   - id: ivy
     repo: unifyai/ivy
     name: ivy
@@ -40588,7 +40588,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 43
   - id: ai-market-maker
     repo: olaxbt/ai-market-maker
     name: ai-market-maker
@@ -57361,7 +57361,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 38
+    score: 39
   - id: hunyuandit
     repo: tencent-hunyuan/hunyuandit
     name: hunyuandit
@@ -57754,7 +57754,7 @@ entries:
       has_compose: false
       is_template: false
       language: Swift
-    score: 68
+    score: 69
   - id: supergateway
     repo: supercorp-ai/supergateway
     name: supergateway
@@ -61044,7 +61044,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 43
   - id: cumora
     repo: yetone/cumora
     name: cumora
@@ -69599,7 +69599,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 77
+    score: 78
   - id: shapash
     repo: maif/shapash
     name: shapash
@@ -75069,7 +75069,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 44
+    score: 45
   - id: tokenspeed
     repo: lightseekorg/tokenspeed
     name: tokenspeed
@@ -76202,7 +76202,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 22
+    score: 23
   - id: thinc
     repo: explosion/thinc
     name: thinc
@@ -78653,7 +78653,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 58
+    score: 59
   - id: robosuite
     repo: arise-initiative/robosuite
     name: robosuite
@@ -78788,7 +78788,7 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 21
+    score: 22
   - id: roboflow-maestro
     repo: roboflow/maestro
     name: maestro
@@ -80954,7 +80954,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 33
+    score: 34
   - id: chemprop
     repo: chemprop/chemprop
     name: chemprop
@@ -85417,7 +85417,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 42
   - id: forge
     repo: antoinezambelli/forge
     name: forge
@@ -87717,7 +87717,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 20
+    score: 21
   - id: deepmd-kit
     repo: deepmodeling/deepmd-kit
     name: deepmd-kit
@@ -92940,6 +92940,48 @@ entries:
       is_template: false
       language: Java
     score: 45
+  - id: birdnet-analyzer
+    repo: birdnet-team/birdnet-analyzer
+    name: birdnet-analyzer
+    status: listed
+    tagline: Bird species identification from audio recordings, with CLI and GUI
+    summary: BirdNET-Analyzer runs a deep-learning classifier over single audio files or large batches and reports detected bird species. It ships command line tools for analysis, segment extraction, species lists, custom classifier training, evaluation, embeddings and similarity search, plus an optional GUI. Installs from PyPI (Python 3.11 to 3.13), as standalone installers, or as a Docker image.
+    categories:
+      - models
+    strengths:
+      - Separate CLI tools for analysis, segments, species lists, training and evaluation
+      - Trains custom classifiers; optional embedding extraction and similarity search
+      - Installers for Windows, macOS and Linux (AppImage, .deb), plus pip and winget
+      - Source code is MIT licensed, and the README lists 6512 supported species
+    weaknesses:
+      - Most BirdNET models are CC BY-NC-SA 4.0, which restricts commercial use
+      - Only BirdNET 3.0 model is Apache 2.0, with an acceptable use policy
+      - Limited to bird sound classification, not a general audio or speech tool
+      - Model files are downloaded separately from Zenodo
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps: []
+      model_support:
+        - BirdNET acoustic models
+        - custom classifiers
+      web_port: null
+    links:
+      demo: null
+      website: https://birdnet.cornell.edu
+      docs: https://birdnet-team.github.io/BirdNET-Analyzer/
+    audience: Bioacoustics researchers and ecologists analyzing bird audio recordings
+    confidence: 0.7
+    facts:
+      stars: 1755
+      license: MIT
+      last_commit: 2026-11-10
+      last_release: 2025-11-07
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 50
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw

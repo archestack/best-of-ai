@@ -1190,7 +1190,7 @@ Index repo for the trace.moe system, which matches an anime screenshot to its ti
 <sub>Compose · Needs Docker Compose, PostgreSQL, Milvus, zstd (for database dump) · Models: .mp4, .mkv, .webm · port 3000 · [Repo](https://github.com/soruly/trace.moe) · [▶️ Demo ↗](https://trace.moe) · [📖 Docs ↗](https://soruly.github.io/trace.moe-api/) · [🌐 Site ↗](https://trace.moe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trace-moe/)</sub>
 
 <a name="kag"></a>
-### #&#8288;67 [kag](https://github.com/openspg/kag) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (65) · Freshness: recent (72) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;67 [kag](https://github.com/openspg/kag) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (66) · Freshness: recent (72) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Nov 2026</sub>
 
 **Knowledge-graph Q&A framework with logic-form reasoning, built on OpenSPG.**
 

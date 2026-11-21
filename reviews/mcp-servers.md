@@ -509,7 +509,7 @@ TypeScript MCP server that maps each tool 1-to-1 to a Microsoft Graph endpoint, 
 <sub>no GPU · Docker · Needs Node.js >= 20, Microsoft 365 account, Azure app registration (custom or GCC High use) · [Repo](https://github.com/softeria/ms-365-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ms-365-mcp-server/)</sub>
 
 <a name="paper-search-mcp"></a>
-### #&#8288;29 [paper-search-mcp](https://github.com/openags/paper-search-mcp) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Oct 2026</sub>
+### #&#8288;29 [paper-search-mcp](https://github.com/openags/paper-search-mcp) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Oct 2026</sub>
 
 **MCP server for searching and downloading academic papers from 20+ sources.**
 

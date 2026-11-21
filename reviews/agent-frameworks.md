@@ -1687,8 +1687,26 @@ BeeAI Framework is a library for building agents and multi-agent systems in Pyth
 
 <sub>GPU optional · Needs Ollama (for the example) · Models: Ollama, watsonx, DeepSeek R1, LLaMa 3.3, Granite · [Repo](https://github.com/i-am-bee/beeai-framework) · [📖 Docs ↗](https://framework.beeai.dev/introduction/welcome) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/beeai-framework/)</sub>
 
+<a name="openai"></a>
+### #&#8288;95 [openai](https://github.com/macpaw/openai) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+
+**Swift client library for the OpenAI API and compatible providers.**
+
+A community-maintained Swift package that wraps the OpenAI REST API: Responses, Chat Completions, images, audio, embeddings, moderations, Assistants, files and models. It supports async/await, closures and Combine, plus streaming and request cancellation. A configurable host, base path and a relaxed parsing mode let it talk to other OpenAI-compatible providers such as Gemini, DeepSeek, Perplexity and OpenRouter.
+
+- **+** Covers Responses, Chat Completions, audio, images, embeddings, Assistants and MCP tools in one package
+- **+** Offers async/await, closure and Combine APIs, with request cancellation for each
+- **+** Configurable host, port, base path and headers, with a relaxed parsing mode for other providers
+- **+** Installs through Swift Package Manager with Xcode or Package.swift
+- **−** Swift and Apple-platform oriented; no support for other languages
+- **−** Needs a hosted API key; the README warns against embedding it in client apps
+- **−** Compatibility with non-OpenAI providers depends on their API matching OpenAI's
+- **−** Some documented image limits (256x256 to 1024x1024, DALL-E era) look dated
+
+<sub>no GPU · Needs OpenAI API key or OpenAI-compatible provider, Swift Package Manager · Models: OpenAI Responses API, OpenAI Chat Completions API, OpenAI-compatible providers (Gemini, DeepSeek, Perplexity, OpenRouter) · [Repo](https://github.com/macpaw/openai) · [📖 Docs ↗](https://platform.openai.com/docs/api-reference) · [🌐 Site ↗](https://swiftpackageindex.com/MacPaw/OpenAI) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai/)</sub>
+
 <a name="agent-squad"></a>
-### #&#8288;95 [agent-squad](https://github.com/2fastlabs/agent-squad) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;96 [agent-squad](https://github.com/2fastlabs/agent-squad) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
 
 **Routes queries to specialized agents in Python, TypeScript and Swift.**
 
@@ -1706,7 +1724,7 @@ Agent Squad classifies each user query, picks the most suitable agent from those
 <sub>no GPU · Needs LLM provider API (Bedrock, Anthropic or OpenAI), TypeSafe AI API key (JevClassifier only) · Models: Amazon Bedrock, Anthropic, OpenAI, Amazon Lex, AWS Lambda · [Repo](https://github.com/2fastlabs/agent-squad) · [📖 Docs ↗](https://2fastlabs.github.io/agent-squad/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-squad/)</sub>
 
 <a name="rust-sdk"></a>
-### #&#8288;96 [rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2026</sub>
+### #&#8288;97 [rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2026</sub>
 
 **Official Rust SDK for building MCP servers and clients on tokio.**
 
@@ -1722,24 +1740,6 @@ RMCP is the official Rust implementation of the Model Context Protocol, built on
 - **−** License is reported as NOASSERTION by detection, so terms need checking
 
 <sub>no GPU · Needs tokio, serde, schemars · [Repo](https://github.com/modelcontextprotocol/rust-sdk) · [📖 Docs ↗](https://docs.rs/rmcp/latest/rmcp) · [🌐 Site ↗](https://modelcontextprotocol.io/specification/2026-07-28) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rust-sdk/)</sub>
-
-<a name="openai"></a>
-### #&#8288;97 [openai](https://github.com/macpaw/openai) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
-
-**Swift client library for the OpenAI API and compatible providers.**
-
-A community-maintained Swift package that wraps the OpenAI REST API: Responses, Chat Completions, images, audio, embeddings, moderations, Assistants, files and models. It supports async/await, closures and Combine, plus streaming and request cancellation. A configurable host, base path and a relaxed parsing mode let it talk to other OpenAI-compatible providers such as Gemini, DeepSeek, Perplexity and OpenRouter.
-
-- **+** Covers Responses, Chat Completions, audio, images, embeddings, Assistants and MCP tools in one package
-- **+** Offers async/await, closure and Combine APIs, with request cancellation for each
-- **+** Configurable host, port, base path and headers, with a relaxed parsing mode for other providers
-- **+** Installs through Swift Package Manager with Xcode or Package.swift
-- **−** Swift and Apple-platform oriented; no support for other languages
-- **−** Needs a hosted API key; the README warns against embedding it in client apps
-- **−** Compatibility with non-OpenAI providers depends on their API matching OpenAI's
-- **−** Some documented image limits (256x256 to 1024x1024, DALL-E era) look dated
-
-<sub>no GPU · Needs OpenAI API key or OpenAI-compatible provider, Swift Package Manager · Models: OpenAI Responses API, OpenAI Chat Completions API, OpenAI-compatible providers (Gemini, DeepSeek, Perplexity, OpenRouter) · [Repo](https://github.com/macpaw/openai) · [📖 Docs ↗](https://platform.openai.com/docs/api-reference) · [🌐 Site ↗](https://swiftpackageindex.com/MacPaw/OpenAI) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai/)</sub>
 
 <a name="skill-recorder"></a>
 ### #&#8288;98 [skill-recorder](https://github.com/microsoft/skill-recorder) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
@@ -2960,26 +2960,8 @@ Guidance is a Python library that constrains language model output with regex, s
 
 <sub>GPU optional · Needs Python, pip, Transformers, llama.cpp or OpenAI backend · Models: Transformers, llama.cpp, OpenAI · [Repo](https://github.com/guidance-ai/guidance) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/guidance/)</sub>
 
-<a name="founder-skill"></a>
-### #&#8288;166 [founder-skill](https://github.com/jakeschincariol/founder-skill) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (40) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Oct 2026</sub>
-
-**Eleven Claude skills that test a business idea before launch.**
-
-A set of eleven Claude skills (board, competitors, consumer panel, pricing, offer, CFO, marketing, brand, ops, launch, plan) that run in sequence and share files in a `founder/` folder. Four standard-library Python tools handle unit economics, persona dealing, Van Westendorp pricing and plan compilation. The consumer panel uses simulated buyer agents, and the README says to treat its buy rate as an upper bound.
-
-- **+** Python tools use only the standard library and make no network calls
-- **+** Plan verdict is computed from the numbers, not written by the model
-- **+** Same seed gives the same persona cards from the panel tool
-- **+** Works as a Claude Code plugin, copied folders, or a pasted SKILL.md
-- **−** Simulated buyers lean agreeable, so panel buy rates overstate real demand
-- **−** Sub-agents and Python tools need Claude Code; pasted SKILL.md loses both
-- **−** Board lenses are summaries of three books, not the authors' own views
-- **−** Output quality depends on user-supplied cost and customer inputs
-
-<sub>no GPU · Needs Claude (Claude Code for sub-agents), Python 3.8+ · Models: Claude · [Repo](https://github.com/jakeschincariol/founder-skill) · [🌐 Site ↗](https://opusjake.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/founder-skill/)</sub>
-
 <a name="mini-agi"></a>
-### #&#8288;167 [mini-agi](https://github.com/muellerberndt/mini-agi) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Nov 2026</sub>
+### #&#8288;166 [mini-agi](https://github.com/muellerberndt/mini-agi) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Nov 2026</sub>
 
 **Minimal autonomous agent that runs shell and Python to reach a goal.**
 
@@ -2995,6 +2977,24 @@ MiniAGI is a Python command-line agent for GPT-3.5-Turbo and GPT-4. Given an obj
 - **−** No release published; some examples show the agent simulating tasks it could not do
 
 <sub>no GPU · Docker · Needs Python 3.10+, OpenAI API · Models: GPT-3.5-Turbo, GPT-4 · [Repo](https://github.com/muellerberndt/mini-agi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mini-agi/)</sub>
+
+<a name="founder-skill"></a>
+### #&#8288;167 [founder-skill](https://github.com/jakeschincariol/founder-skill) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (40) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Oct 2026</sub>
+
+**Eleven Claude skills that test a business idea before launch.**
+
+A set of eleven Claude skills (board, competitors, consumer panel, pricing, offer, CFO, marketing, brand, ops, launch, plan) that run in sequence and share files in a `founder/` folder. Four standard-library Python tools handle unit economics, persona dealing, Van Westendorp pricing and plan compilation. The consumer panel uses simulated buyer agents, and the README says to treat its buy rate as an upper bound.
+
+- **+** Python tools use only the standard library and make no network calls
+- **+** Plan verdict is computed from the numbers, not written by the model
+- **+** Same seed gives the same persona cards from the panel tool
+- **+** Works as a Claude Code plugin, copied folders, or a pasted SKILL.md
+- **−** Simulated buyers lean agreeable, so panel buy rates overstate real demand
+- **−** Sub-agents and Python tools need Claude Code; pasted SKILL.md loses both
+- **−** Board lenses are summaries of three books, not the authors' own views
+- **−** Output quality depends on user-supplied cost and customer inputs
+
+<sub>no GPU · Needs Claude (Claude Code for sub-agents), Python 3.8+ · Models: Claude · [Repo](https://github.com/jakeschincariol/founder-skill) · [🌐 Site ↗](https://opusjake.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/founder-skill/)</sub>
 
 <a name="julep"></a>
 ### #&#8288;168 [julep](https://github.com/julep-ai/julep) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (54) · Freshness: active (91) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · Apache-2.0 · Jul 2026</sub>
@@ -3392,7 +3392,7 @@ Eko is a TypeScript/JavaScript framework that turns a natural-language task into
 <sub>no GPU · Needs Node.js, pnpm, Playwright (Node.js example), LLM provider API key · Models: Anthropic, Google Gemini, OpenAI, OpenAI-compatible (Qwen, Doubao) · [Repo](https://github.com/fellouai/eko) · [📖 Docs ↗](https://eko.fellou.ai/docs) · [🌐 Site ↗](https://eko.fellou.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eko/)</sub>
 
 <a name="promptify"></a>
-### #&#8288;190 [promptify](https://github.com/promptslab/promptify) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (42) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;190 [promptify](https://github.com/promptslab/promptify) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (43) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Mar 2026</sub>
 
 **Python library for typed NLP tasks like NER and classification via LLMs.**
 
@@ -3499,7 +3499,7 @@ Yeager.ai Agent is a Python command-line tool, installed with pip, for creating 
 <sub>no GPU · Needs OpenAI GPT-4 API, LangChain · Models: GPT-4 · [Repo](https://github.com/genlayerlabs/yeagerai-agent) · [📖 Docs ↗](https://yeagerai.gitbook.io/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yeagerai-agent/)</sub>
 
 <a name="magentic"></a>
-### #&#8288;196 [magentic](https://github.com/jackmpcollins/magentic) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (19) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Mar 2026</sub>
+### #&#8288;196 [magentic](https://github.com/jackmpcollins/magentic) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (20) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Mar 2026</sub>
 
 **Python decorators that turn LLM prompts into typed, structured-output functions.**
 

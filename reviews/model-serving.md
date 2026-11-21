@@ -614,8 +614,26 @@ KServe is a Kubernetes custom-resource platform that deploys LLMs and classic ML
 
 <sub>GPU optional · Docker · Needs Kubernetes, Knative (serverless mode), ModelMesh (optional) · Models: vLLM, llm-d, Hugging Face, TensorFlow, PyTorch · [Repo](https://github.com/kserve/kserve) · [📖 Docs ↗](https://kserve.github.io/website/docs/getting-started/genai-first-isvc) · [🌐 Site ↗](https://kserve.github.io/website/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kserve/)</sub>
 
+<a name="av-harbor"></a>
+### #&#8288;35 [harbor](https://github.com/av/harbor) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
+
+**CLI that starts a pre-wired local LLM stack with one command.**
+
+Harbor is a CLI and companion desktop app that orchestrates Docker Compose services for local LLM use. `harbor up` starts a backend such as Ollama, llama.cpp or vLLM together with Open WebUI, and optional services like SearXNG, Speaches, ComfyUI, n8n and Dify are connected automatically. It also offers config profiles, tunneling, QR codes for phone access, and `harbor eject` to export a standalone compose file.
+
+- **+** Many backends (Ollama, llama.cpp, vLLM, SGLang, TGI, mistral.rs) behind one CLI
+- **+** Services come pre-connected, e.g. SearXNG web search and Speaches voice in Open WebUI
+- **+** `harbor eject` exports chosen services as a standalone docker-compose file
+- **+** `harbor launch` wires Harbor backends into coding CLIs like codex, claude and opencode
+- **−** Relies on Docker Compose; host-native inference is limited to a few macOS options
+- **−** Very large service catalog means a broad surface to configure and troubleshoot
+- **−** Built-in tunnel can expose services to the internet; README warns to configure auth
+- **−** Wraps third-party projects, so behavior and updates depend on each upstream service
+
+<sub>GPU optional · Docker + Compose · Needs Docker Compose · Models: Ollama, llama.cpp, vLLM, SGLang, TGI · [Repo](https://github.com/av/harbor) · [📖 Docs ↗](https://github.com/av/harbor/wiki/1.-Harbor-User-Guide) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/av-harbor/)</sub>
+
 <a name="exo"></a>
-### #&#8288;35 [exo](https://github.com/exo-explore/exo) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (95) · Freshness: active (97) · Maintenance: patchy (39) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;36 [exo](https://github.com/exo-explore/exo) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (95) · Freshness: active (97) · Maintenance: patchy (39) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · Apache-2.0 · Nov 2026</sub>
 
 **Pools Macs and other devices into one cluster to run large models.**
 
@@ -633,7 +651,7 @@ exo discovers devices on the same network and splits a model across them using t
 <sub>GPU optional · Needs MLX, uv, Node.js, Rust, Xcode (macOS source build) · Models: MLX, HuggingFace hub custom models · port 52415 · [Repo](https://github.com/exo-explore/exo) · [📖 Docs ↗](https://github.com/exo-explore/exo/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/exo/)</sub>
 
 <a name="turbo-fieldfare"></a>
-### #&#8288;36 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;37 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
 
 **Swift and Metal runtime that runs Gemma 4 26B-A4B in about 2 GB RAM.**
 
@@ -651,7 +669,7 @@ TurboFieldfare is a model-specific Swift and Metal inference runtime for Gemma 4
 <sub>RAM ≥ 8 GB · GPU required · Needs Swift 6.2+, macOS 26 SDK, Metal 4, Hugging Face (model download) · Models: Gemma 4 26B-A4B IT (MLX 4-bit, .gturbo format) · port 8080 · [Repo](https://github.com/drumih/turbo-fieldfare) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbo-fieldfare/)</sub>
 
 <a name="laya-mlx"></a>
-### #&#8288;37 [laya-mlx](https://github.com/mizorewww/laya-mlx) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;38 [laya-mlx](https://github.com/mizorewww/laya-mlx) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **MLX port of Laya typed-decision models for Apple Silicon, no token decoding.**
 
@@ -669,7 +687,7 @@ Independent MLX port of Convai Innovations' Laya models, which answer typed ques
 <sub>GPU required · Needs Apple Silicon, MLX, Python 3.11+, Hugging Face Hub (checkpoint download) · Models: convaiinnovations/laya (ModernBERT-large, 421M), convaiinnovations/laya-multilingual (mmBERT-base, 322M), convaiinnovations/laya-typed-decisions (ModernBERT-large, 421M) · [Repo](https://github.com/mizorewww/laya-mlx) · [📖 Docs ↗](https://github.com/mizorewww/laya-mlx/blob/main/BENCHMARKS.md) · [🌐 Site ↗](https://huggingface.co/aac6fef/laya-mlx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/laya-mlx/)</sub>
 
 <a name="lemonade"></a>
-### #&#8288;38 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;39 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
 
 **Local multi-modal AI server with OpenAI, Anthropic and Ollama APIs.**
 
@@ -685,24 +703,6 @@ Lemonade is a C++ local inference server that exposes text generation, speech-to
 - **−** Several TTS and audio backends have no macOS support
 
 <sub>GPU optional · Docker · Models: GGUF, ONNX, FLM, Whisper, Stable Diffusion · [Repo](https://github.com/lemonade-sdk/lemonade) · [📖 Docs ↗](https://github.com/lemonade-sdk/lemonade/blob/main/docs/README.md) · [🌐 Site ↗](https://lemonade-server.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lemonade/)</sub>
-
-<a name="av-harbor"></a>
-### #&#8288;39 [harbor](https://github.com/av/harbor) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
-
-**CLI that starts a pre-wired local LLM stack with one command.**
-
-Harbor is a CLI and companion desktop app that orchestrates Docker Compose services for local LLM use. `harbor up` starts a backend such as Ollama, llama.cpp or vLLM together with Open WebUI, and optional services like SearXNG, Speaches, ComfyUI, n8n and Dify are connected automatically. It also offers config profiles, tunneling, QR codes for phone access, and `harbor eject` to export a standalone compose file.
-
-- **+** Many backends (Ollama, llama.cpp, vLLM, SGLang, TGI, mistral.rs) behind one CLI
-- **+** Services come pre-connected, e.g. SearXNG web search and Speaches voice in Open WebUI
-- **+** `harbor eject` exports chosen services as a standalone docker-compose file
-- **+** `harbor launch` wires Harbor backends into coding CLIs like codex, claude and opencode
-- **−** Relies on Docker Compose; host-native inference is limited to a few macOS options
-- **−** Very large service catalog means a broad surface to configure and troubleshoot
-- **−** Built-in tunnel can expose services to the internet; README warns to configure auth
-- **−** Wraps third-party projects, so behavior and updates depend on each upstream service
-
-<sub>GPU optional · Docker + Compose · Needs Docker Compose · Models: Ollama, llama.cpp, vLLM, SGLang, TGI · [Repo](https://github.com/av/harbor) · [📖 Docs ↗](https://github.com/av/harbor/wiki/1.-Harbor-User-Guide) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/av-harbor/)</sub>
 
 <a name="llamafile"></a>
 ### #&#8288;40 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · custom license · Nov 2026</sub>
