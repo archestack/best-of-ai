@@ -789,7 +789,7 @@ Ludwig trains, fine-tunes and serves models from a YAML config and a CLI, with n
 <sub>GPU optional · Docker · Needs PyTorch 2.7+, Transformers 5, Ray 2.54, Hugging Face Hub token (gated models) · Models: Hugging Face Transformers, LoRA, QLoRA, DoRA, VeRA · port 8000 · [Repo](https://github.com/ludwig-ai/ludwig) · [📖 Docs ↗](https://ludwig.ai/latest/getting_started/) · [🌐 Site ↗](https://ludwig.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ludwig/)</sub>
 
 <a name="ignite"></a>
-### #&#8288;45 [ignite](https://github.com/pytorch/ignite) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (51) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;45 [pytorch/ignite](https://github.com/pytorch/ignite) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (51) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · BSD-3-Clause · Nov 2026</sub>
 
 **PyTorch library for training and evaluating models with engines, events and metrics.**
 
@@ -1454,7 +1454,7 @@ Hypersim is a photorealistic synthetic dataset of 77,400 images across 461 indoo
 <sub>Needs V-Ray Standalone, V-Ray AppSDK, curl, unzip, Python · [Repo](https://github.com/apple-aiml-research/ml-hypersim) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ml-hypersim/)</sub>
 
 <a name="autoresearch"></a>
-### #&#8288;82 [autoresearch](https://github.com/karpathy/autoresearch) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: widely used (99) · Freshness: slowing (45) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 100k · no license · Mar 2026</sub>
+### #&#8288;82 [karpathy/autoresearch](https://github.com/karpathy/autoresearch) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: widely used (99) · Freshness: slowing (45) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 100k · no license · Mar 2026</sub>
 
 **Agent loop that edits a small GPT training script and keeps changes that lower val_bpb.**
 
@@ -1633,7 +1633,7 @@ Adapters is a Python library that adds 10+ parameter-efficient fine-tuning metho
 <sub>Needs PyTorch 2.0+, HuggingFace Transformers, Python 3.9+ · Models: HuggingFace Transformers (20+ architectures, PyTorch), Q-LoRA quantized training · [Repo](https://github.com/adapter-hub/adapters) · [📖 Docs ↗](https://docs.adapterhub.ml) · [🌐 Site ↗](https://adapterhub.ml) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adapters/)</sub>
 
 <a name="roboflow-maestro"></a>
-### #&#8288;92 [maestro](https://github.com/roboflow/maestro) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (25) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;92 [roboflow/maestro](https://github.com/roboflow/maestro) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (25) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · Apache-2.0 · Jul 2026</sub>
 
 **Fine-tuning CLI and Python SDK for vision-language models.**
 
@@ -1704,7 +1704,7 @@ Search-R1 is a training pipeline built on veRL that uses rule-based outcome rewa
 <sub>GPU required · Needs veRL, vLLM 0.6.3, PyTorch 2.4.0, flash-attn, faiss-gpu 1.8.0, pyserini, FastAPI, wandb · Models: Llama-3.2-3B, Qwen2.5-3B, Qwen2.5-7B · port 8000 · [Repo](https://github.com/petergriffinjin/search-r1) · [📖 Docs ↗](https://github.com/PeterGriffinJin/Search-R1/blob/main/docs/retriever.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/search-r1/)</sub>
 
 <a name="hivemind"></a>
-### #&#8288;96 [hivemind](https://github.com/learning-at-home/hivemind) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (23) · Freshness: quiet (29) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Jan 2026</sub>
+### #&#8288;96 [learning-at-home/hivemind](https://github.com/learning-at-home/hivemind) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (23) · Freshness: quiet (29) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Jan 2026</sub>
 
 **PyTorch library for training one model across volunteer machines over the Internet.**
 
