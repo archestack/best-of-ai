@@ -40,26 +40,8 @@ OpenShell runs each agent in an isolated sandbox where kernel controls limit fil
 
 <sub>GPU optional · Docker + Compose · Needs Docker, Podman or host virtualization, Kubernetes with NetworkPolicy-enforcing CNI (optional, for Helm) · [Repo](https://github.com/nvidia/openshell) · [▶️ Demo ↗](https://brev.nvidia.com/launchable/deploy/now?launchableID=env-3Ap3tL55zq4a8kew1AuW0FpSLsg) · [📖 Docs ↗](https://docs.nvidia.com/openshell/latest/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openshell/)</sub>
 
-<a name="nemoclaw"></a>
-### 🥉 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
-
-**Reference stack for running AI agents inside OpenShell sandboxes.**
-
-NemoClaw is NVIDIA's CLI-driven reference stack that installs and runs supported agents (OpenClaw by default, Hermes, LangChain Deep Agents Code) inside NVIDIA OpenShell sandboxes. It adds guided onboarding, managed inference, egress network policy with operator approval, managed integrations and state persistence. The README labels it alpha and points new projects to a separate Agent Configs line.
-
-- **+** Runs three agents (OpenClaw, Hermes, Deep Agents Code) under one CLI and sandbox model
-- **+** Network policy with baseline rules, operator approval flow and presets for egress control
-- **+** Guided installer with express presets for supported DGX and WSL hosts
-- **+** Apache-2.0, backed by NVIDIA with published docs and private security reporting
-- **−** Alpha project; no guaranteed response times on issues, discussions or pull requests
-- **−** README says new development focuses on Agent Configs, not this main-branch experience
-- **−** Depends on NVIDIA OpenShell, so it is not a standalone sandbox
-- **−** No tagged release; installation goes through a terminal installer
-
-<sub>Docker · Needs NVIDIA OpenShell · [Repo](https://github.com/nvidia/nemoclaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nemoclaw/)</sub>
-
 <a name="opensandbox"></a>
-### #&#8288;4 [opensandbox](https://github.com/opensandbox-group/opensandbox) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [opensandbox](https://github.com/opensandbox-group/opensandbox) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
 
 **Sandbox API for running AI agent code, commands and browsers in isolation.**
 
@@ -77,7 +59,7 @@ OpenSandbox provides isolated environments where agents execute code, run shell 
 <sub>no GPU · Needs Docker, Python 3.10+, Kubernetes (optional, for cluster deployment) · [Repo](https://github.com/opensandbox-group/opensandbox) · [📖 Docs ↗](https://open-sandbox.ai) · [🌐 Site ↗](https://open-sandbox.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensandbox/)</sub>
 
 <a name="obscura"></a>
-### #&#8288;5 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;4 [Obscura](https://github.com/h4ckf0r0day/obscura) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Nov 2026</sub>
 
 **Headless browser engine in Rust with V8 and a Chrome DevTools Protocol server.**
 
@@ -93,6 +75,24 @@ Obscura is a headless browser written in Rust that runs JavaScript through embed
 - **−** Hosted Obscura Cloud is only a waitlist; self-hosting means running your own proxies
 
 <sub>no GPU · Docker · port 9222 · [Repo](https://github.com/h4ckf0r0day/obscura) · [📖 Docs ↗](https://github.com/h4ckf0r0day/obscura/tree/main/docs) · [🌐 Site ↗](https://obscura.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obscura/)</sub>
+
+<a name="nemoclaw"></a>
+### #&#8288;5 [NemoClaw](https://github.com/nvidia/nemoclaw) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · Apache-2.0 · Nov 2026</sub>
+
+**Reference stack for running AI agents inside OpenShell sandboxes.**
+
+NemoClaw is NVIDIA's CLI-driven reference stack that installs and runs supported agents (OpenClaw by default, Hermes, LangChain Deep Agents Code) inside NVIDIA OpenShell sandboxes. It adds guided onboarding, managed inference, egress network policy with operator approval, managed integrations and state persistence. The README labels it alpha and points new projects to a separate Agent Configs line.
+
+- **+** Runs three agents (OpenClaw, Hermes, Deep Agents Code) under one CLI and sandbox model
+- **+** Network policy with baseline rules, operator approval flow and presets for egress control
+- **+** Guided installer with express presets for supported DGX and WSL hosts
+- **+** Apache-2.0, backed by NVIDIA with published docs and private security reporting
+- **−** Alpha project; no guaranteed response times on issues, discussions or pull requests
+- **−** README says new development focuses on Agent Configs, not this main-branch experience
+- **−** Depends on NVIDIA OpenShell, so it is not a standalone sandbox
+- **−** No tagged release; installation goes through a terminal installer
+
+<sub>Docker · Needs NVIDIA OpenShell · [Repo](https://github.com/nvidia/nemoclaw) · [📖 Docs ↗](https://docs.nvidia.com/nemoclaw/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nemoclaw/)</sub>
 
 <a name="cubesandbox"></a>
 ### #&#8288;6 [cubesandbox](https://github.com/tencentcloud/cubesandbox) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Nov 2026</sub>
@@ -148,7 +148,7 @@ Microsandbox boots OCI images inside hardware-isolated microVMs, with a stated a
 <sub>no GPU · Docker · Needs KVM (Linux), WHP (Windows), OCI registry access · [Repo](https://github.com/superradcompany/microsandbox) · [📖 Docs ↗](https://docs.microsandbox.dev) · [🌐 Site ↗](https://microsandbox.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/microsandbox/)</sub>
 
 <a name="smolvm"></a>
-### #&#8288;9 [smolvm](https://github.com/smol-machines/smolvm) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [smolvm](https://github.com/smol-machines/smolvm) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **MicroVM runtime with live checkpoints and branching for agent sandboxes.**
 
@@ -274,7 +274,7 @@ Steel runs managed Chrome instances behind a REST API and exposes them over CDP,
 <sub>no GPU · Docker + Compose · Needs Chrome, Docker · port 3000 · [Repo](https://github.com/steel-dev/steel-browser) · [📖 Docs ↗](https://docs.steel.dev/) · [🌐 Site ↗](https://steel.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/steel-browser/)</sub>
 
 <a name="notte"></a>
-### #&#8288;16 [notte](https://github.com/nottelabs/notte) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · custom license · Nov 2026</sub>
+### #&#8288;16 [notte](https://github.com/nottelabs/notte) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · custom license · Nov 2026</sub>
 
 **Python SDK for local and stealth cloud browser sessions used by agents.**
 
@@ -328,7 +328,7 @@ srt wraps any command in filesystem and network restrictions using sandbox-exec 
 <sub>no GPU · Needs bubblewrap (Linux), sandbox-exec (macOS), Node.js/npm · [Repo](https://github.com/anthropics/sandbox-runtime) · [📖 Docs ↗](https://docs.claude.com/en/docs/claude-code/sandboxing) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandbox-runtime/)</sub>
 
 <a name="sandstorm"></a>
-### #&#8288;19 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [sandstorm](https://github.com/deeplethe/sandstorm) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · Apache-2.0 · Nov 2026</sub>
 
 **Sandbox host that pauses and snapshots idle gVisor or Firecracker sandboxes.**
 
