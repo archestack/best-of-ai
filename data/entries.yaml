@@ -1,5 +1,5 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
-updated_at: 2026-11-21
+updated_at: 2026-11-22
 entries:
   - id: exo
     repo: exo-explore/exo
@@ -547,28 +547,28 @@ entries:
     repo: rasbt/llms-from-scratch
     name: llms-from-scratch
     status: listed
-    tagline: Code for the book on building a GPT-style LLM in PyTorch
-    summary: Official code for the Manning book "Build a Large Language Model (From Scratch)". Notebooks and scripts implement tokenization, attention, a GPT model, pretraining, classification finetuning, instruction finetuning and LoRA in plain PyTorch, without external LLM libraries. Bonus folders add from-scratch Llama 3.2, Qwen3, Gemma 3, Olmo 3, KV cache, MoE and DPO.
+    tagline: Book code for building, pretraining and finetuning a GPT-style LLM in PyTorch
+    summary: Official code for the book Build a Large Language Model (From Scratch). Jupyter notebooks walk through a tokenizer, attention, a GPT model, pretraining, classification finetuning, instruction finetuning, DPO and LoRA in plain PyTorch, with no external LLM libraries. Bonus folders cover Llama 3.2, Qwen3, Gemma 3, Olmo 3, KV cache, GQA and MoE.
     categories:
       - learning
       - training
     strengths:
-      - Main chapter code runs on a conventional laptop and uses a GPU automatically if present
-      - Plain PyTorch with no external LLM libraries, so every component is readable
-      - Bonus material covers KV cache, GQA, MoE, DPO and several model architectures
-      - Exercise solutions, a companion video course and CI tests on Linux, Windows and macOS
+      - Chapter notebooks with exercise solutions, plus a 17-hour companion video course
+      - Implements everything in plain PyTorch without external LLM libraries
+      - Main chapter code runs on a laptop and uses a GPU automatically if present
+      - Bonus folders cover KV cache, GQA, MoE, DPO and several open model architectures
     weaknesses:
-      - Tied to a print book; contributions extending main chapter code are not accepted
-      - Produces a small educational model, not a production-grade LLM
-      - License is reported as NOASSERTION; the README states no license terms
-      - Video course and quiz PDF are hosted by the publisher, not in the repo
+      - Tied to a print book; extensions to main chapter code are not accepted
+      - Trains small educational models, not production-scale ones
+      - License is detected as NOASSERTION, so terms need checking in the repo
+      - Study material only; not a library or tool to deploy
     specs:
       ram_min_gb: null
       gpu: optional
       external_deps:
         - PyTorch
         - Jupyter
-        - Ollama (optional, ch07 evaluation)
+        - Ollama (optional, chapter 7 evaluation)
       model_support:
         - GPT-2
         - Llama 3.2
@@ -579,8 +579,8 @@ entries:
     links:
       demo: null
       website: http://mng.bz/orYv
-      docs: null
-    audience: Python developers learning how LLMs work by coding one in PyTorch
+      docs: https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md
+    audience: Engineers learning how LLMs work by coding one in PyTorch
     confidence: 0.9
     facts:
       stars: 108766
@@ -1627,7 +1627,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 56
+    score: 55
   - id: faceswap
     repo: deepfakes/faceswap
     name: faceswap
@@ -2006,7 +2006,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 43
+    score: 42
   - id: jan
     repo: janhq/jan
     name: jan
@@ -2384,7 +2384,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 56
   - id: pageindex
     repo: vectifyai/pageindex
     name: pageindex
@@ -4496,7 +4496,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 46
+    score: 45
   - id: voicestudio
     repo: debpalash/voicestudio
     name: voicestudio
@@ -12339,7 +12339,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 45
+    score: 44
   - id: optuna
     repo: optuna/optuna
     name: optuna
@@ -17194,7 +17194,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 38
+    score: 37
   - id: easy-rl
     repo: datawhalechina/easy-rl
     name: easy-rl
@@ -17757,7 +17757,7 @@ entries:
       has_compose: false
       is_template: false
       language: Java
-    score: 69
+    score: 68
   - id: amazon-sagemaker-examples
     repo: aws/amazon-sagemaker-examples
     name: amazon-sagemaker-examples
@@ -19374,7 +19374,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 40
+    score: 39
   - id: onnx-models
     repo: onnx/models
     name: onnx/models
@@ -19816,7 +19816,7 @@ entries:
   - id: paddleseg
     repo: paddlepaddle/paddleseg
     name: paddleseg
-    status: listed
+    status: stale
     tagline: Image segmentation toolkit on PaddlePaddle, from training to deployment
     summary: PaddleSeg is a PaddlePaddle-based toolkit for image segmentation with 45+ model algorithms and 140+ pretrained models. It covers semantic, interactive, matting and panoptic segmentation, driven by YAML configs or a Python API, and includes compression and deployment tooling. The README also points to PaddleX for low-code use of 19 segmentation and anomaly-detection models.
     categories:
@@ -20308,7 +20308,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 63
+    score: 62
   - id: langchain-chinese-getting-started-guide
     repo: liaokongvfx/langchain-chinese-getting-started-guide
     name: langchain-chinese-getting-started-guide
@@ -24623,7 +24623,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 43
+    score: 42
   - id: all-in-rag
     repo: datawhalechina/all-in-rag
     name: all-in-rag
@@ -25679,7 +25679,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 32
+    score: 31
   - id: pyprobml
     repo: probml/pyprobml
     name: pyprobml
@@ -26673,7 +26673,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 40
+    score: 39
   - id: turbo-fieldfare
     repo: drumih/turbo-fieldfare
     name: turbo-fieldfare
@@ -29238,7 +29238,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 32
+    score: 31
   - id: jaaz
     repo: 11cafe/jaaz
     name: jaaz
@@ -30185,7 +30185,7 @@ entries:
       has_compose: false
       is_template: false
       language: Swift
-    score: 53
+    score: 52
   - id: shimmy
     repo: michael-a-kuykendall/shimmy
     name: shimmy
@@ -32678,7 +32678,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 40
+    score: 39
   - id: dream-textures
     repo: carson-katri/dream-textures
     name: dream-textures
@@ -35031,7 +35031,7 @@ entries:
   - id: tvm-cn
     repo: hyperai/tvm-cn
     name: tvm-cn
-    status: listed
+    status: stale
     tagline: Chinese translation of the Apache TVM deep learning compiler documentation
     summary: A Docusaurus site holding the Chinese translation of the Apache TVM docs, localized from TVM v0.10.0. TVM is a deep learning compiler targeting CPUs, GPUs, ARM and other hardware. The repo is for reading and contributing translations, not for running models.
     categories:
@@ -36820,7 +36820,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 37
+    score: 36
   - id: figma-console-mcp
     repo: southleft/figma-console-mcp
     name: figma-console-mcp
@@ -43622,7 +43622,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 37
+    score: 36
   - id: luxtts
     repo: ysharma3501/luxtts
     name: luxtts
@@ -43865,7 +43865,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 25
+    score: 24
   - id: failproofai
     repo: failproofai/failproofai
     name: failproofai
@@ -45978,7 +45978,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 42
+    score: 41
   - id: 5ire
     repo: nanbingxyz/5ire
     name: 5ire
@@ -47385,7 +47385,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 20
+    score: 19
   - id: better-chatbot
     repo: keinsaasforever/better-chatbot
     name: better-chatbot
@@ -50672,7 +50672,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 27
+    score: 26
   - id: evoscientist
     repo: evoscientist/evoscientist
     name: evoscientist
@@ -51990,7 +51990,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 33
+    score: 32
   - id: dreamdojo
     repo: nvidia/dreamdojo
     name: dreamdojo
@@ -56065,7 +56065,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 14
+    score: 13
   - id: chaterm
     repo: chaterm/chaterm
     name: chaterm
@@ -56962,7 +56962,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 29
+    score: 28
   - id: moss-tts
     repo: openmoss/moss-tts
     name: moss-tts
@@ -57207,7 +57207,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 33
+    score: 32
   - id: evo2
     repo: arcinstitute/evo2
     name: evo2
@@ -57361,7 +57361,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 38
   - id: hunyuandit
     repo: tencent-hunyuan/hunyuandit
     name: hunyuandit
@@ -68695,7 +68695,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 19
+    score: 18
   - id: openclaw-android
     repo: aidanpark/openclaw-android
     name: openclaw-android
@@ -69178,7 +69178,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 23
+    score: 22
   - id: openmldb
     repo: 4paradigm/openmldb
     name: openmldb
@@ -72024,7 +72024,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 24
+    score: 23
   - id: deepcamera
     repo: sharpai/deepcamera
     name: deepcamera
@@ -73217,7 +73217,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 13
+    score: 12
   - id: llm-master
     repo: youngyangyang04/llm-master
     name: llm-master
@@ -76202,7 +76202,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 23
+    score: 22
   - id: thinc
     repo: explosion/thinc
     name: thinc
@@ -77865,7 +77865,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 32
+    score: 31
   - id: ekho
     repo: hgneng/ekho
     name: ekho
@@ -78788,7 +78788,7 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 22
+    score: 21
   - id: roboflow-maestro
     repo: roboflow/maestro
     name: roboflow/maestro
@@ -80061,7 +80061,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 4
+    score: 3
   - id: antomnievo
     repo: ant-research/antomnievo
     name: antomnievo
@@ -82849,7 +82849,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 22
+    score: 21
   - id: bionic-gpt
     repo: bionic-gpt/bionic-gpt
     name: bionic-gpt
@@ -89442,7 +89442,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 33
+    score: 32
   - id: nao
     repo: getnao/nao
     name: nao
@@ -90418,7 +90418,7 @@ entries:
       has_compose: true
       is_template: false
       language: Vue
-    score: 28
+    score: 27
   - id: audio8-tts
     repo: edge0-ai/audio8_tts
     name: audio8_tts
@@ -98758,7 +98758,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 49
+    score: 48
   - id: local-deep-research
     repo: learningcircuit/local-deep-research
     name: Local Deep Research

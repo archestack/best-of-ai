@@ -1352,7 +1352,7 @@ A TypeScript agent that loops through search, page reading and reasoning until i
 <sub>no GPU · Docker + Compose · Needs Jina Reader API key, Gemini or OpenAI API key, or a local OpenAI-compatible LLM endpoint, Node.js · Models: Gemini (gemini-2.0-flash), OpenAI, Ollama / LMStudio via OpenAI-compatible endpoint (e.g. qwen2.5-7b) · port 3000 · [Repo](https://github.com/jina-ai/node-deepresearch) · [▶️ Demo ↗](https://search.jina.ai) · [📖 Docs ↗](https://jina.ai/news/a-practical-guide-to-implementing-deepsearch-deepresearch) · [🌐 Site ↗](https://jina.ai/deepsearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/node-deepresearch/)</sub>
 
 <a name="u14app-deep-research"></a>
-### #&#8288;76 [u14app/deep-research](https://github.com/u14app/deep-research) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (49) · Freshness: recent (75) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Jun 2026</sub>
+### #&#8288;76 [u14app/deep-research](https://github.com/u14app/deep-research) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (49) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · MIT · Jun 2026</sub>
 
 **Next.js app that runs multi-step web research and writes a Markdown report.**
 
@@ -1495,7 +1495,7 @@ RAG Web UI lets you upload PDF, DOCX, Markdown and text files, chunks and embeds
 <sub>RAM ≥ 8 GB · GPU optional · Compose · Needs MySQL, MinIO, ChromaDB or Qdrant, Docker Compose · Models: OpenAI, DeepSeek, MiniMax, Ollama, DashScope embeddings · [Repo](https://github.com/rag-web-ui/rag-web-ui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rag-web-ui/)</sub>
 
 <a name="videorag"></a>
-### #&#8288;84 [videorag](https://github.com/hkuds/videorag) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (38) · Freshness: slowing (43) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Mar 2026</sub>
+### #&#8288;84 [videorag](https://github.com/hkuds/videorag) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (38) · Freshness: slowing (42) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Mar 2026</sub>
 
 **Desktop app and algorithm for question answering over very long videos.**
 
@@ -1531,7 +1531,7 @@ R2R is a retrieval-augmented generation server built around a RESTful API, with 
 <sub>Compose · Needs OpenAI API key (default in quick start), Postgres (full mode via Docker Compose) · Models: OpenAI, Anthropic · port 7272 · [Repo](https://github.com/sciphi-ai/r2r) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/r2r/)</sub>
 
 <a name="kernel-memory"></a>
-### #&#8288;86 [kernel-memory](https://github.com/dluc/kernel-memory) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (18) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Jun 2026</sub>
+### #&#8288;86 [kernel-memory](https://github.com/dluc/kernel-memory) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (18) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Jun 2026</sub>
 
 **.NET RAG service that ingests documents and answers questions with citations.**
 
@@ -1584,7 +1584,7 @@ Planning, Research, Reflection and Writing agents run research missions over upl
 <sub>RAM ≥ 16 GB · GPU optional · Compose · Needs Docker Compose v2+, API key for an AI provider or an OpenAI-compatible endpoint, PostgreSQL with pgvector (in compose) · Models: OpenAI-compatible APIs, Azure OpenAI (GPT-5), BGE-M3 embeddings · port 80 · [Repo](https://github.com/murtaza-nasir/maestro) · [📖 Docs ↗](https://murtaza-nasir.github.io/maestro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/maestro/)</sub>
 
 <a name="trieve"></a>
-### #&#8288;89 [trieve](https://github.com/devflowinc/trieve) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (27) · Freshness: quiet (17) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jan 2026</sub>
+### #&#8288;89 [trieve](https://github.com/devflowinc/trieve) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (27) · Freshness: quiet (16) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jan 2026</sub>
 
 **Search, recommendation and RAG API server built on Qdrant and Postgres.**
 
@@ -1619,26 +1619,8 @@ Builds a Neo4j knowledge graph from TXT, PDF, MD, DOCX, CSV, JSON and YAML files
 
 <sub>Compose · Needs Neo4j, LLM API · [Repo](https://github.com/1517005260/graph-rag-agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graph-rag-agent/)</sub>
 
-<a name="rocketnotes"></a>
-### #&#8288;91 [rocketnotes](https://github.com/fynnfluegge/rocketnotes) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (5) · Freshness: quiet (23) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Feb 2026</sub>
-
-**Markdown note-taking app with AI chat, semantic search and agentic filing.**
-
-Rocketnotes is a web and Electron Markdown notes app with a nested document tree, Katex and Mermaid support, and code highlighting. AI features include chat over your documents, Copilot-style text completion, voice-to-text, semantic search, and an inbox where an agent files snippets into relevant existing documents. It runs hosted on AWS or fully locally with Docker, using Ollama and ChromaDB.
-
-- **+** Local Docker mode uses Ollama and ChromaDB, so AI processing stays on your machine
-- **+** Exposes the knowledge base as an MCP server for other LLM apps
-- **+** Agentic Zettelkasten inbox files snippets into existing documents automatically
-- **+** Cloud LLM options: OpenAI, Anthropic and Together AI, switchable per use
-- **−** Hosted version depends on AWS stack (Cognito, DynamoDB, S3, S3 Vectors)
-- **−** macOS dmg is not signed with an Apple developer license; needs manual override
-- **−** Local setup details live in separate INSTALLATION.md, not in the README
-- **−** Mixed Go, Python and Angular backend and frontend adds moving parts to self-host
-
-<sub>GPU optional · Docker + Compose · Needs Ollama, ChromaDB, AWS (DynamoDB, S3, Cognito, S3 Vectors) for hosted version · Models: Ollama, OpenAI, Anthropic, Together AI · [Repo](https://github.com/fynnfluegge/rocketnotes) · [▶️ Demo ↗](https://app.takeniftynotes.net) · [🌐 Site ↗](https://www.takeniftynotes.net/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rocketnotes/)</sub>
-
 <a name="huixiangdou"></a>
-### #&#8288;92 [huixiangdou](https://github.com/internlm/huixiangdou) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (24) · Freshness: quiet (15) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · BSD-3-Clause · Nov 2025</sub>
+### #&#8288;91 [huixiangdou](https://github.com/internlm/huixiangdou) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (24) · Freshness: quiet (15) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · BSD-3-Clause · Nov 2025</sub>
 
 **RAG assistant that answers technical questions in group chats without flooding.**
 
@@ -1654,6 +1636,24 @@ HuixiangDou builds a knowledge base from documents (pdf, word, excel, ppt, html,
 - **−** Authors point to HuixiangDou2 for GraphRAG, so this repo is the older version
 
 <sub>GPU optional · Needs Hugging Face login (BCE embedding model), faiss, LLM API or vLLM server, apt packages (antiword, tesseract-ocr, poppler-utils, ffmpeg) · Models: DeepSeek, InternLM, GLM, KIMI, StepFun · port 23333 · [Repo](https://github.com/internlm/huixiangdou) · [▶️ Demo ↗](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web) · [📖 Docs ↗](https://huixiangdou.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/huixiangdou/)</sub>
+
+<a name="rocketnotes"></a>
+### #&#8288;92 [rocketnotes](https://github.com/fynnfluegge/rocketnotes) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (5) · Freshness: quiet (23) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Feb 2026</sub>
+
+**Markdown note-taking app with AI chat, semantic search and agentic filing.**
+
+Rocketnotes is a web and Electron Markdown notes app with a nested document tree, Katex and Mermaid support, and code highlighting. AI features include chat over your documents, Copilot-style text completion, voice-to-text, semantic search, and an inbox where an agent files snippets into relevant existing documents. It runs hosted on AWS or fully locally with Docker, using Ollama and ChromaDB.
+
+- **+** Local Docker mode uses Ollama and ChromaDB, so AI processing stays on your machine
+- **+** Exposes the knowledge base as an MCP server for other LLM apps
+- **+** Agentic Zettelkasten inbox files snippets into existing documents automatically
+- **+** Cloud LLM options: OpenAI, Anthropic and Together AI, switchable per use
+- **−** Hosted version depends on AWS stack (Cognito, DynamoDB, S3, S3 Vectors)
+- **−** macOS dmg is not signed with an Apple developer license; needs manual override
+- **−** Local setup details live in separate INSTALLATION.md, not in the README
+- **−** Mixed Go, Python and Angular backend and frontend adds moving parts to self-host
+
+<sub>GPU optional · Docker + Compose · Needs Ollama, ChromaDB, AWS (DynamoDB, S3, Cognito, S3 Vectors) for hosted version · Models: Ollama, OpenAI, Anthropic, Together AI · [Repo](https://github.com/fynnfluegge/rocketnotes) · [▶️ Demo ↗](https://app.takeniftynotes.net) · [🌐 Site ↗](https://www.takeniftynotes.net/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rocketnotes/)</sub>
 
 <a name="atomspace"></a>
 ### #&#8288;93 [atomspace](https://github.com/opencog/atomspace) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (1) · Freshness: quiet (29) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · custom license · Feb 2026</sub>
