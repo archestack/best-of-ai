@@ -13757,7 +13757,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 73
+    score: 74
   - id: eino
     repo: cloudwego/eino
     name: eino
@@ -20308,7 +20308,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 62
+    score: 63
   - id: langchain-chinese-getting-started-guide
     repo: liaokongvfx/langchain-chinese-getting-started-guide
     name: langchain-chinese-getting-started-guide
@@ -37926,7 +37926,7 @@ entries:
       has_compose: false
       is_template: false
       language: Kotlin
-    score: 77
+    score: 78
   - id: sandstorm
     repo: deeplethe/sandstorm
     name: sandstorm
@@ -56065,7 +56065,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 13
+    score: 14
   - id: chaterm
     repo: chaterm/chaterm
     name: chaterm
@@ -56962,7 +56962,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 28
+    score: 29
   - id: moss-tts
     repo: openmoss/moss-tts
     name: moss-tts
@@ -65986,7 +65986,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 50
+    score: 51
   - id: compozy
     repo: compozy/compozy
     name: compozy
@@ -66721,7 +66721,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 33
+    score: 34
   - id: machine-learning
     repo: ethen8181/machine-learning
     name: machine-learning
@@ -69599,7 +69599,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 77
+    score: 78
   - id: shapash
     repo: maif/shapash
     name: shapash
@@ -88631,7 +88631,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 53
+    score: 54
   - id: scispacy
     repo: allenai/scispacy
     name: scispacy
@@ -92983,6 +92983,61 @@ entries:
       is_template: false
       language: Python
     score: 70
+  - id: openclaw-termux
+    repo: mithun50/openclaw-termux
+    name: openclaw-termux
+    status: listed
+    tagline: Android app that runs the OpenClaw AI gateway in an Ubuntu proot
+    summary: Flutter app and Termux CLI that install Ubuntu via proot, Node.js 22 and the OpenClaw gateway on Android without root. It adds a built-in terminal, a WebView dashboard and API key setup for 9 providers. It also exposes device hardware (camera, location, sensors, USB serial) to the assistant as 21 node commands.
+    categories:
+      - assistants
+    strengths:
+      - No root required; one-tap setup downloads Ubuntu rootfs, Node.js 22 and OpenClaw
+      - Exposes 9 Android capabilities (21 commands) such as camera, location and serial to the AI
+      - Configures 9 providers including Anthropic, OpenAI, Gemini, DeepSeek and Ollama
+      - Also ships as an npm Termux CLI (openclawx) with pass-through OpenClaw commands
+    weaknesses:
+      - Wrapper around upstream OpenClaw; the gateway itself is not implemented here
+      - Initial setup downloads about 500 MB and needs Android 10 or newer
+      - Gateway can be killed in the background unless battery optimization is disabled
+      - Camera, screen and sensor commands need the app in the foreground, screen unlocked
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Android 10+ (API 29)
+        - proot-distro
+        - Ubuntu
+        - Node.js 22
+        - OpenClaw
+        - Termux from F-Droid (CLI only)
+      model_support:
+        - Anthropic
+        - OpenAI
+        - Google Gemini
+        - OpenRouter
+        - NVIDIA NIM
+        - DeepSeek
+        - xAI
+        - MiniMax
+        - Ollama
+      web_port: 18789
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Android users who want to self-host an OpenClaw assistant on their phone
+    confidence: 0.8
+    facts:
+      stars: 1752
+      license: MIT
+      last_commit: 2026-11-12
+      last_release: 2026-10-28
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Dart
+    score: 51
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
@@ -93502,7 +93557,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 48
+    score: 49
   - id: open-webui
     repo: open-webui/open-webui
     name: Open WebUI
