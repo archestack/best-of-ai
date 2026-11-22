@@ -504,7 +504,7 @@ AI Toolkit trains LoRA and LoKr adapters for diffusion models, driven by YAML co
 <sub>GPU required · Docker + Compose · Needs PyTorch, Node.js >20 (UI), Hugging Face model weights, git · Models: FLUX.1, FLUX.2, Qwen-Image, Z-Image, SDXL · port 8675 · [Repo](https://github.com/ostris/ai-toolkit) · [🌐 Site ↗](https://ostris.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-toolkit/)</sub>
 
 <a name="infinigen"></a>
-### #&#8288;29 [infinigen](https://github.com/princeton-vl/infinigen) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;29 [infinigen](https://github.com/princeton-vl/infinigen) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · BSD-3-Clause · Nov 2026</sub>
 
 **Procedural 3D scene generator on Blender with ground-truth renders.**
 
@@ -1708,26 +1708,8 @@ SkyReels V2 provides weights and Python inference scripts for autoregressive dif
 
 <sub>GPU required · Needs PyTorch, Hugging Face model weights, diffusers (optional) · Models: SkyReels-V2-DF 1.3B/14B, SkyReels-V2-T2V 14B, SkyReels-V2-I2V 1.3B/14B, SkyCaptioner-V1 · [Repo](https://github.com/skyworkai/skyreels-v2) · [▶️ Demo ↗](https://www.skyreels.ai/home?utm_campaign=github_SkyReels_V2) · [📖 Docs ↗](https://arxiv.org/pdf/2504.13074) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skyreels-v2/)</sub>
 
-<a name="gbro-collage-broll"></a>
-### #&#8288;96 [gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (12) · Freshness: active (85) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
-
-**Agent skill that turns a voiceover line into a paper-collage B-roll clip.**
-
-An agent skill for Codex or Claude-style skill directories that converts a roughly 5-second voiceover line into a halftone paper-collage assemble-from-empty video. It runs a three-gate approval flow (metaphor, still frame, video) and renders the clip with gemini-omni-flash-preview first/last-frame generation. Output is a silent 9:16, 720x1280, 24fps, 5-second MP4.
-
-- **+** Metaphor and still-frame gates run before any video spend, so bad ideas cost little
-- **+** Includes QA: per-second frame extraction, empty first-frame check, last-frame comparison
-- **+** Batch mode lets only approved items move on to the next stage
-- **+** Bundled generation scripts and a setup self-check script
-- **−** Gate 2 stills depend on Codex's built-in image_gen tool
-- **−** Video generation needs a Gemini API key and is billed per use
-- **−** Defaults to a preview model; other models only when explicitly requested
-- **−** First frame may show slight paper edges; strict empty start needs another editor
-
-<sub>no GPU · Needs GEMINI_API_KEY, Codex image_gen tool, Python >= 3.10, google-genai >= 2.10.0, ffmpeg, ffprobe · Models: gemini-omni-flash-preview · [Repo](https://github.com/pyang5166/gbro-collage-broll) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gbro-collage-broll/)</sub>
-
 <a name="echomimic"></a>
-### #&#8288;97 [echomimic](https://github.com/antgroup/echomimic) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (46) · Freshness: slowing (49) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;96 [echomimic](https://github.com/antgroup/echomimic) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: known (46) · Freshness: slowing (49) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Apr 2026</sub>
 
 **Audio-driven talking-head video from a portrait, with editable landmarks.**
 
@@ -1743,6 +1725,24 @@ EchoMimic is the research code and checkpoints for an AAAI 2025 paper on animati
 - **−** Better singing model and Chinese talking-head dataset are still listed as TBD
 
 <sub>GPU required · Needs CUDA >= 11.7, ffmpeg 4.4 static build, git-lfs, conda · Models: EchoMimic checkpoints (denoising_unet, reference_unet, motion_module, face_locator), sd-vae-ft-mse, sd-image-variations-diffusers, Whisper tiny · port 3000 · [Repo](https://github.com/antgroup/echomimic) · [▶️ Demo ↗](https://huggingface.co/spaces/BadToBest/EchoMimic) · [🌐 Site ↗](https://antgroup.github.io/ai/echomimic/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/echomimic/)</sub>
+
+<a name="gbro-collage-broll"></a>
+### #&#8288;97 [gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (12) · Freshness: active (85) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
+
+**Agent skill that turns a voiceover line into a paper-collage B-roll clip.**
+
+An agent skill for Codex or Claude-style skill directories that converts a roughly 5-second voiceover line into a halftone paper-collage assemble-from-empty video. It runs a three-gate approval flow (metaphor, still frame, video) and renders the clip with gemini-omni-flash-preview first/last-frame generation. Output is a silent 9:16, 720x1280, 24fps, 5-second MP4.
+
+- **+** Metaphor and still-frame gates run before any video spend, so bad ideas cost little
+- **+** Includes QA: per-second frame extraction, empty first-frame check, last-frame comparison
+- **+** Batch mode lets only approved items move on to the next stage
+- **+** Bundled generation scripts and a setup self-check script
+- **−** Gate 2 stills depend on Codex's built-in image_gen tool
+- **−** Video generation needs a Gemini API key and is billed per use
+- **−** Defaults to a preview model; other models only when explicitly requested
+- **−** First frame may show slight paper edges; strict empty start needs another editor
+
+<sub>no GPU · Needs GEMINI_API_KEY, Codex image_gen tool, Python >= 3.10, google-genai >= 2.10.0, ffmpeg, ffprobe · Models: gemini-omni-flash-preview · [Repo](https://github.com/pyang5166/gbro-collage-broll) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gbro-collage-broll/)</sub>
 
 <a name="step1x-edit"></a>
 ### #&#8288;98 [step1x-edit](https://github.com/stepfun-ai/step1x-edit) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (19) · Freshness: recent (57) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Apr 2026</sub>

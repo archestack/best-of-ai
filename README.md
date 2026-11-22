@@ -3,13 +3,13 @@
 <h3 align="center">Open-source AI, ranked. 🏆</h3>
 <p align="center">AI apps, agents and models you run, and the parts to build with. Paid never moves a rank.</p>
 <p align="center">
-  <img alt="projects" src="https://img.shields.io/badge/2099_projects-ff6b6b?style=for-the-badge" />
+  <img alt="projects" src="https://img.shields.io/badge/2100_projects-ff6b6b?style=for-the-badge" />
   <img alt="stars" src="https://img.shields.io/badge/27.2M_stars_combined-ffd166?style=for-the-badge" />
   <img alt="categories" src="https://img.shields.io/badge/21_categories-5ac4bf?style=for-the-badge" />
   <img alt="updated" src="https://img.shields.io/badge/updated-2026--11--22-8ac926?style=for-the-badge" />
 </p>
 
-<p align="center">Best of Open-Source AI is a ranked list of 2,099 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-22 (UTC).</sub></p>
+<p align="center">Best of Open-Source AI is a ranked list of 2,100 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-22 (UTC).</sub></p>
 
 > [!TIP]
 > 🔎 **Every project fact-checked** on GitHub before it is listed &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; ▶️ **Demo links** so you can try before you deploy
@@ -23,7 +23,7 @@
 
 ## 🔥 Top 10 right now
 
-<sub>2099 projects ranked in 21 categories · data from 2026-11-22 · re-ranked twice a day</sub>
+<sub>2100 projects ranked in 21 categories · data from 2026-11-22 · re-ranked twice a day</sub>
 
 <sub>**How to read it:** rank 🥇🥈🥉 then #&#8288;4, #&#8288;5… (equal scores: more stars first) · ▲▼ places moved in the last month, 🆕 new this month · score out of 100 sets the order: hover it to see what it is made of, or read [how we rank](#-how-we-rank) · click a project name for its review · ↗ opens another site (Cmd/Ctrl-click for a new tab)</sub>
 
@@ -111,7 +111,7 @@
 
 | What you have | Projects | Top picks |
 |---|--:|---|
-| No GPU needed | 485 | [ai-job-search](reviews/assistants.md#ai-job-search) · [career-ops](reviews/assistants.md#career-ops) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [n8n](reviews/automation.md#n8n) · [OmniRoute](reviews/gateways.md#omniroute) · [servers](reviews/mcp-servers.md#servers) |
+| No GPU needed | 486 | [ai-job-search](reviews/assistants.md#ai-job-search) · [career-ops](reviews/assistants.md#career-ops) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [n8n](reviews/automation.md#n8n) · [OmniRoute](reviews/gateways.md#omniroute) · [servers](reviews/mcp-servers.md#servers) |
 | A GPU helps, not required | 351 | [voicestudio](reviews/voice.md#voicestudio) · [openhuman](reviews/assistants.md#openhuman) · [llama.cpp](reviews/model-serving.md#llama-cpp) · [frigate](reviews/image-video.md#frigate) · [airi](reviews/assistants.md#airi) · [Open Notebook](reviews/rag-knowledge.md#open-notebook) |
 | Needs a GPU | 109 | [strata](reviews/model-serving.md#strata) · [modular](reviews/model-serving.md#modular) · [freetoken](reviews/model-serving.md#freetoken) · [tensorrt-llm](reviews/model-serving.md#tensorrt-llm) · [omlx](reviews/model-serving.md#omlx) · [vllm-omni](reviews/model-serving.md#vllm-omni) |
 | A Mac or another arm64 machine | 444 | [voicestudio](reviews/voice.md#voicestudio) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [hindsight](reviews/memory.md#hindsight) · [OmniRoute](reviews/gateways.md#omniroute) · [openhuman](reviews/assistants.md#openhuman) · [Lightpanda](reviews/sandboxes.md#lightpanda) |
@@ -120,7 +120,7 @@
 
 **🧑‍💻 Apps you run**
 
-- 🤖 [Assistants](#-assistants) · 89
+- 🤖 [Assistants](#-assistants) · 90
 - 💬 [Chat UIs](#-chat-uis) · 33
 - 🖥️ [Desktop AI apps](#%EF%B8%8F-desktop-ai-apps) · 83
 - 🧩 [Agent platforms](#-agent-platforms) · 134
@@ -152,7 +152,7 @@
 
 ## 🤖 Assistants
 
-Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. <sub>89 ranked · [📝 all reviews](reviews/assistants.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/assistants/)</sub>
+Personal AI assistants you run yourself and talk to through chat apps, with memory and the ability to act. <sub>90 ranked · [📝 all reviews](reviews/assistants.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/assistants/)</sub>
 
 **ai-job-search leads with 97**, ahead of career-ops (96) and openhuman (95).
 
@@ -169,7 +169,7 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 | #&#8288;9 | ▼2 | **[AstrBot](reviews/assistants.md#astrbot "Review: strengths, weaknesses, specs")**<br><sub>Agent chatbot platform connecting LLMs to QQ, Telegram, Slack and other chat apps</sub><br><sub>🐳 Docker · AGPL-3.0 · [📖 Docs ↗](https://docs.astrbot.app/) · [🌐 Site ↗](https://astrbot.app/)</sub> | [88](#-how-we-rank "Score 88/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 47k |
 | #&#8288;10 | ▼4 | **[Hermes Agent](reviews/assistants.md#hermes-agent "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted agent with skill learning, memory and Telegram/Discord/Slack gateway</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://hermes-agent.nousresearch.com/docs/) · [🌐 Site ↗](https://hermes-agent.nousresearch.com/)</sub> | [87](#-how-we-rank "Score 87/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 265k |
 
-<sub>Top 10 of 89. [See all 89, ranked, with reviews →](reviews/assistants.md)</sub>
+<sub>Top 10 of 90. [See all 90, ranked, with reviews →](reviews/assistants.md)</sub>
 
 <details><summary>💡 How to choose</summary>
 
@@ -534,7 +534,7 @@ Repositories of open-weight models with the code to run them: LLMs, vision, spee
 | #&#8288;7 | – | **[kev](reviews/models.md#kev "Review: strengths, weaknesses, specs")**<br><sub>Small decision models answering yes/no, choice and score questions over text</sub><br><sub>Apache-2.0 · GPU optional · [▶️ Demo ↗](https://huggingface.co/spaces/jaredpalmer/kev)</sub> | [79](#-how-we-rank "Score 79/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 10k |
 | #&#8288;8 | ▼4 | **[speech](reviews/models.md#speech "Review: strengths, weaknesses, specs")**<br><sub>PyTorch toolkit for training and deploying ASR, TTS and speech LLM models</sub><br><sub>🐳 Docker · Apache-2.0 · GPU required · [▶️ Demo ↗](https://huggingface.co/spaces/nvidia/magpie_tts_multilingual_demo) · [📖 Docs ↗](https://docs.nvidia.com/nemo/speech/nightly/) · [🌐 Site ↗](https://huggingface.co/collections/nvidia/nemotron-speech)</sub> | [77](#-how-we-rank "Score 77/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 19k |
 | #&#8288;9 | ▼6 | **[yolov5](reviews/models.md#yolov5 "Review: strengths, weaknesses, specs")**<br><sub>PyTorch YOLOv5 object detection, segmentation and classification models with training code</sub><br><sub>AGPL-3.0 · GPU optional · [📖 Docs ↗](https://docs.ultralytics.com/yolov5) · [🌐 Site ↗](https://www.ultralytics.com)</sub> | [76](#-how-we-rank "Score 76/100. Adoption: widely used (98) · Freshness: recent (70) · Maintenance: fair (64) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 58k |
-| #&#8288;10 | ▼4 | **[ace-step-1.5](reviews/models.md#ace-step-1-5 "Review: strengths, weaknesses, specs")**<br><sub>Text-to-music model with LM planner, DiT decoder, Gradio UI and REST API</sub><br><sub>🐳 Docker · MIT · GPU optional · [▶️ Demo ↗](https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5) · [📖 Docs ↗](https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md) · [🌐 Site ↗](https://ace-step.github.io/ace-step-v1.5.github.io/)</sub> | [73](#-how-we-rank "Score 73/100. Adoption: widely used (82) · Freshness: active (99) · Maintenance: patchy (48) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 15k |
+| #&#8288;10 | ▼4 | **[ace-step-1.5](reviews/models.md#ace-step-1-5 "Review: strengths, weaknesses, specs")**<br><sub>Text-to-music model with LM planner, DiT decoder, Gradio UI and REST API</sub><br><sub>🐳 Docker · MIT · GPU optional · [▶️ Demo ↗](https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5) · [📖 Docs ↗](https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md) · [🌐 Site ↗](https://ace-step.github.io/ace-step-v1.5.github.io/)</sub> | [74](#-how-we-rank "Score 74/100. Adoption: widely used (82) · Freshness: active (99) · Maintenance: patchy (48) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 15k |
 
 <sub>Top 10 of 143. [See all 143, ranked, with reviews →](reviews/models.md)</sub>
 
@@ -561,7 +561,7 @@ Tools to fine-tune, train or distill models on your own data and GPUs, from LoRA
 | 🥉 | ▼2 | **[unsloth](reviews/training.md#unsloth "Review: strengths, weaknesses, specs")**<br><sub>Desktop and web app to run and fine-tune local models</sub><br><sub>🐳 Docker · Apache-2.0 · GPU optional · [▶️ Demo ↗](https://colab.research.google.com/github/unslothai/unsloth/blob/main/studio/Unsloth_Studio_Colab.ipynb) · [📖 Docs ↗](https://unsloth.ai/docs) · [🌐 Site ↗](https://unsloth.ai)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 80k |
 | #&#8288;4 | ▲2 | **[megatron-lm](reviews/training.md#megatron-lm "Review: strengths, weaknesses, specs")**<br><sub>Distributed training library for large transformer models on NVIDIA GPUs</sub><br><sub>🐳 Docker · custom license · GPU required · [📖 Docs ↗](https://docs.nvidia.com/megatron-core/developer-guide/latest/index.html)</sub> | [88](#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 18k |
 | #&#8288;5 | ▼3 | **[deepspeed](reviews/training.md#deepspeed "Review: strengths, weaknesses, specs")**<br><sub>PyTorch library for distributed training of very large models with ZeRO</sub><br><sub>🐳 Docker · Apache-2.0 · GPU optional · [📖 Docs ↗](https://www.deepspeed.ai/getting-started/) · [🌐 Site ↗](https://www.deepspeed.ai/)</sub> | [87](#-how-we-rank "Score 87/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 43k |
-| #&#8288;6 | ▲2 | **[axolotl](reviews/training.md#axolotl "Review: strengths, weaknesses, specs")**<br><sub>YAML-driven fine-tuning framework for LLMs with LoRA, QLoRA, RL and multi-GPU</sub><br><sub>🐳 Docker · Apache-2.0 · GPU required · [▶️ Demo ↗](https://colab.research.google.com/github/axolotl-ai-cloud/axolotl/blob/main/examples/colab-notebooks/colab-axolotl-example.ipynb) · [📖 Docs ↗](https://docs.axolotl.ai/docs/getting-started.html)</sub> | [87](#-how-we-rank "Score 87/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 13k |
+| #&#8288;6 | ▲2 | **[axolotl](reviews/training.md#axolotl "Review: strengths, weaknesses, specs")**<br><sub>YAML-driven fine-tuning framework for LLMs with LoRA, QLoRA, RL and multi-GPU</sub><br><sub>🐳 Docker · Apache-2.0 · GPU required · [▶️ Demo ↗](https://colab.research.google.com/github/axolotl-ai-cloud/axolotl/blob/main/examples/colab-notebooks/colab-axolotl-example.ipynb) · [📖 Docs ↗](https://docs.axolotl.ai/docs/getting-started.html)</sub> | [87](#-how-we-rank "Score 87/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 13k |
 | #&#8288;7 | ▲3 | **[heretic](reviews/training.md#heretic "Review: strengths, weaknesses, specs")**<br><sub>Modifies LLM behavior, such as refusals, without training, via ablation</sub><br><sub>AGPL-3.0 · GPU required · [▶️ Demo ↗](https://huggingface.co/spaces/heretic-org/Heretic-Grimoire)</sub> | [85](#-how-we-rank "Score 85/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 43k |
 | #&#8288;8 | ▼5 | **[verl](reviews/training.md#verl "Review: strengths, weaknesses, specs")**<br><sub>RL post-training library for LLMs with PPO, GRPO, FSDP and Megatron</sub><br><sub>🐳 Docker · Apache-2.0 · GPU required · [📖 Docs ↗](https://verl.readthedocs.io/en/latest/)</sub> | [84](#-how-we-rank "Score 84/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 24k |
 | #&#8288;9 | ▼2 | **[ms-swift](reviews/training.md#ms-swift "Review: strengths, weaknesses, specs")**<br><sub>Fine-tuning, RL, quantization and serving toolkit for 600+ text and 400+ multimodal LLMs</sub><br><sub>Apache-2.0 · GPU optional · [📖 Docs ↗](https://swift.readthedocs.io/en/latest/) · [🌐 Site ↗](https://modelscope.cn/home)</sub> | [84](#-how-we-rank "Score 84/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 16k |
