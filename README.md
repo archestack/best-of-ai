@@ -3,13 +3,13 @@
 <h3 align="center">Open-source AI, ranked. 🏆</h3>
 <p align="center">AI apps, agents and models you run, and the parts to build with. Paid never moves a rank.</p>
 <p align="center">
-  <img alt="projects" src="https://img.shields.io/badge/2098_projects-ff6b6b?style=for-the-badge" />
+  <img alt="projects" src="https://img.shields.io/badge/2099_projects-ff6b6b?style=for-the-badge" />
   <img alt="stars" src="https://img.shields.io/badge/27.2M_stars_combined-ffd166?style=for-the-badge" />
   <img alt="categories" src="https://img.shields.io/badge/21_categories-5ac4bf?style=for-the-badge" />
   <img alt="updated" src="https://img.shields.io/badge/updated-2026--11--22-8ac926?style=for-the-badge" />
 </p>
 
-<p align="center">Best of Open-Source AI is a ranked list of 2,098 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-22 (UTC).</sub></p>
+<p align="center">Best of Open-Source AI is a ranked list of 2,099 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-22 (UTC).</sub></p>
 
 > [!TIP]
 > 🔎 **Every project fact-checked** on GitHub before it is listed &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; ▶️ **Demo links** so you can try before you deploy
@@ -23,7 +23,7 @@
 
 ## 🔥 Top 10 right now
 
-<sub>2098 projects ranked in 21 categories · data from 2026-11-21 · re-ranked twice a day</sub>
+<sub>2099 projects ranked in 21 categories · data from 2026-11-21 · re-ranked twice a day</sub>
 
 <sub>**How to read it:** rank 🥇🥈🥉 then #&#8288;4, #&#8288;5… (equal scores: more stars first) · ▲▼ places moved in the last month, 🆕 new this month · score out of 100 sets the order: hover it to see what it is made of, or read [how we rank](#-how-we-rank) · click a project name for its review · ↗ opens another site (Cmd/Ctrl-click for a new tab)</sub>
 
@@ -111,7 +111,7 @@
 
 | What you have | Projects | Top picks |
 |---|--:|---|
-| No GPU needed | 484 | [ai-job-search](reviews/assistants.md#ai-job-search) · [OmniRoute](reviews/gateways.md#omniroute) · [career-ops](reviews/assistants.md#career-ops) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [n8n](reviews/automation.md#n8n) · [servers](reviews/mcp-servers.md#servers) |
+| No GPU needed | 485 | [ai-job-search](reviews/assistants.md#ai-job-search) · [OmniRoute](reviews/gateways.md#omniroute) · [career-ops](reviews/assistants.md#career-ops) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [n8n](reviews/automation.md#n8n) · [servers](reviews/mcp-servers.md#servers) |
 | A GPU helps, not required | 351 | [voicestudio](reviews/voice.md#voicestudio) · [openhuman](reviews/assistants.md#openhuman) · [llama.cpp](reviews/model-serving.md#llama-cpp) · [frigate](reviews/image-video.md#frigate) · [cherry-studio](reviews/desktop-apps.md#cherry-studio) · [airi](reviews/assistants.md#airi) |
 | Needs a GPU | 109 | [strata](reviews/model-serving.md#strata) · [modular](reviews/model-serving.md#modular) · [freetoken](reviews/model-serving.md#freetoken) · [tensorrt-llm](reviews/model-serving.md#tensorrt-llm) · [omlx](reviews/model-serving.md#omlx) · [vllm-omni](reviews/model-serving.md#vllm-omni) |
 | A Mac or another arm64 machine | 444 | [voicestudio](reviews/voice.md#voicestudio) · [OmniRoute](reviews/gateways.md#omniroute) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [hindsight](reviews/memory.md#hindsight) · [openhuman](reviews/assistants.md#openhuman) · [Lightpanda](reviews/sandboxes.md#lightpanda) |
@@ -123,7 +123,7 @@
 - 🤖 [Assistants](#-assistants) · 89
 - 💬 [Chat UIs](#-chat-uis) · 33
 - 🖥️ [Desktop AI apps](#%EF%B8%8F-desktop-ai-apps) · 83
-- 🧩 [Agent platforms](#-agent-platforms) · 133
+- 🧩 [Agent platforms](#-agent-platforms) · 134
 - 🔁 [Workflow automation with AI](#-workflow-automation-with-ai) · 5
 - 📚 [RAG, knowledge and search](#-rag-knowledge-and-search) · 94
 - 🎙️ [Voice](#%EF%B8%8F-voice) · 125
@@ -245,7 +245,7 @@ Apps you install on your own computer to chat with local or API models, often wi
 
 ## 🧩 Agent platforms
 
-Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. <sub>133 ranked · [📝 all reviews](reviews/agent-platforms.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/agent-platforms/)</sub>
+Visual or code-first builders for agents and workflows, with orchestration, tools and deployment. <sub>134 ranked · [📝 all reviews](reviews/agent-platforms.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/agent-platforms/)</sub>
 
 **daily_stock_analysis leads with 96**, ahead of AutoGPT (95) and Langflow (94).
 
@@ -262,7 +262,7 @@ Visual or code-first builders for agents and workflows, with orchestration, tool
 | #&#8288;9 | ▲2 | **[Sim](reviews/agent-platforms.md#sim "Review: strengths, weaknesses, specs")**<br><sub>Visual workspace for building and running AI agents and workflows</sub><br><sub>🐳 Docker · Apache-2.0 · GPU optional · [📖 Docs ↗](https://docs.sim.ai) · [🌐 Site ↗](https://sim.ai)</sub> | [91](#-how-we-rank "Score 91/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 30k |
 | #&#8288;10 | ▼4 | **[Multica](reviews/agent-platforms.md#multica "Review: strengths, weaknesses, specs")**<br><sub>Issue board where coding agent CLIs are assigned work like teammates</sub><br><sub>🐳 Docker · custom license · [📖 Docs ↗](https://multica.ai/docs) · [🌐 Site ↗](https://multica.ai)</sub> | [90](#-how-we-rank "Score 90/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 57k |
 
-<sub>Top 10 of 133. [See all 133, ranked, with reviews →](reviews/agent-platforms.md)</sub>
+<sub>Top 10 of 134. [See all 134, ranked, with reviews →](reviews/agent-platforms.md)</sub>
 
 <details><summary>💡 How to choose</summary>
 

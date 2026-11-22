@@ -900,7 +900,7 @@ OpenSplat is a command-line C++ implementation of 3D gaussian splatting. It read
 <sub>GPU optional · Docker · Needs libtorch, OpenCV, CUDA, ROCm, Xcode Metal toolchain, CMake · Models: COLMAP, OpenSfM, ODX, OpenMVG, nerfstudio · [Repo](https://github.com/webodm/opensplat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensplat/)</sub>
 
 <a name="cadam"></a>
-### #&#8288;51 [cadam](https://github.com/adam-cad/cadam) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;51 [cadam](https://github.com/adam-cad/cadam) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · GPL-3.0 · Oct 2026</sub>
 
 **Text-to-CAD web app that generates parametric OpenSCAD models.**
 
@@ -1350,7 +1350,7 @@ Upscayl is an Electron desktop app that enlarges low-resolution images with Real
 <sub>GPU required · Needs Vulkan-compatible GPU, upscayl-ncnn backend · Models: Real-ESRGAN, NCNN, custom converted models, HFA2k, Remacri · [Repo](https://github.com/upscayl/upscayl) · [📖 Docs ↗](https://docs.upscayl.org/) · [🌐 Site ↗](https://upscayl.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/upscayl/)</sub>
 
 <a name="comfyui-nunchaku"></a>
-### #&#8288;76 [comfyui-nunchaku](https://github.com/nunchux-ai/comfyui-nunchaku) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (30) · Freshness: active (90) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;76 [comfyui-nunchaku](https://github.com/nunchux-ai/comfyui-nunchaku) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (30) · Freshness: active (90) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Sep 2026</sub>
 
 **ComfyUI nodes for running 4-bit SVDQuant diffusion models with Nunchaku.**
 
@@ -1673,7 +1673,7 @@ HunyuanVideo-1.5 is Tencent's video generation model: an 8.3B-parameter DiT with
 <sub>GPU required · Needs PyTorch, CUDA, Flash Attention, SageAttention, flex-block-attn, sgl-kernel, vLLM (optional, prompt rewrite) · Models: HunyuanVideo-1.5 480p/720p T2V, HunyuanVideo-1.5 480p/720p I2V, 720p and 1080p super-resolution, Diffusers · [Repo](https://github.com/tencent-hunyuan/hunyuanvideo-1.5) · [▶️ Demo ↗](https://hunyuan.tencent.com/video/zh?tabIndex=0) · [📖 Docs ↗](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/main/assets/HunyuanVideo_1_5_Prompt_Handbook_EN.md) · [🌐 Site ↗](https://hunyuan.tencent.com/video/zh?tabIndex=0) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hunyuanvideo-1-5/)</sub>
 
 <a name="youtube-shorts-pipeline"></a>
-### #&#8288;94 [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (20) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Jun 2026</sub>
+### #&#8288;94 [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (21) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Jun 2026</sub>
 
 **CLI that turns a topic into a captioned, voiced YouTube Short.**
 

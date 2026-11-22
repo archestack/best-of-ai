@@ -2819,7 +2819,7 @@ Intel Neural Compressor is a Python library that applies static and dynamic quan
 <sub>GPU optional · Needs PyTorch, JAX, intel_extension_for_pytorch, AutoRound, Intel Gaudi software stack (for HPU) · Models: PyTorch, JAX, Keras, Hugging Face transformers, GPTQ · [Repo](https://github.com/intel/neural-compressor) · [📖 Docs ↗](https://intel.github.io/neural-compressor) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/neural-compressor/)</sub>
 
 <a name="fairlearn"></a>
-### #&#8288;159 [fairlearn](https://github.com/fairlearn/fairlearn) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Nov 2026</sub>
+### #&#8288;159 [fairlearn](https://github.com/fairlearn/fairlearn) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Nov 2026</sub>
 
 **Python library for measuring and reducing group unfairness in ML models.**
 
@@ -2979,7 +2979,7 @@ BoTorch is a Python library for composing Bayesian optimization loops from Gauss
 <sub>GPU optional · Needs PyTorch >= 2.0.1, gpytorch >= 1.14, linear_operator >= 0.6, pyro-ppl >= 1.8.4, scipy, multiple-dispatch · Models: Gaussian processes (GPyTorch), multi-task GPs, deep kernel learning, deep GPs · [Repo](https://github.com/meta-pytorch/botorch) · [📖 Docs ↗](https://botorch.org/docs/introduction) · [🌐 Site ↗](https://botorch.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/botorch/)</sub>
 
 <a name="lingvo"></a>
-### #&#8288;168 [lingvo](https://github.com/tensorflow/lingvo) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;168 [lingvo](https://github.com/tensorflow/lingvo) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Oct 2026</sub>
 
 **TensorFlow framework for building sequence models, with reference ASR, MT and LM tasks.**
 
@@ -4178,7 +4178,7 @@ PaddleClas is a PaddlePaddle toolkit for training and deploying image classifica
 <sub>GPU optional · Needs PaddlePaddle · Models: PP-LCNet, PP-LCNetV2, PP-HGNet, PULC, PP-ShiTuV2 · [Repo](https://github.com/paddlepaddle/paddleclas) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paddleclas/)</sub>
 
 <a name="linfa"></a>
-### #&#8288;235 [linfa](https://github.com/rust-ml/linfa) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (50) · Freshness: active (87) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;235 [linfa](https://github.com/rust-ml/linfa) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (50) · Freshness: active (87) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
 
 **Rust toolkit of classical ML algorithms, modeled on scikit-learn.**
 
@@ -4267,7 +4267,7 @@ Feature-engine is a Python library of transformers for imputation, categorical e
 <sub>no GPU · Models: scikit-learn · [Repo](https://github.com/feature-engine/feature_engine) · [📖 Docs ↗](https://feature-engine.readthedocs.io/en/latest/index.html) · [🌐 Site ↗](https://feature-engine.trainindata.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/feature-engine/)</sub>
 
 <a name="snntorch"></a>
-### #&#8288;240 [snntorch](https://github.com/jeshraghian/snntorch) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (15) · Freshness: recent (70) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Oct 2026</sub>
+### #&#8288;240 [snntorch](https://github.com/jeshraghian/snntorch) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (16) · Freshness: recent (70) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Oct 2026</sub>
 
 **PyTorch library for training spiking neural networks with surrogate gradients.**
 
@@ -5125,7 +5125,7 @@ Gensim implements streamed, out-of-core versions of LSA/LSI, LDA, Random Project
 <sub>no GPU · Needs NumPy, BLAS (MKL, ATLAS or OpenBLAS recommended) · Models: LSA/LSI, LDA, HDP, Random Projections, word2vec · [Repo](https://github.com/piskvorky/gensim) · [📖 Docs ↗](https://radimrehurek.com/gensim/auto_examples/) · [🌐 Site ↗](https://radimrehurek.com/gensim/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gensim/)</sub>
 
 <a name="flow-forecast"></a>
-### #&#8288;288 [flow-forecast](https://github.com/aistream-peelout/flow-forecast) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (19) · Freshness: recent (67) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · GPL-3.0 · Aug 2026</sub>
+### #&#8288;288 [flow-forecast](https://github.com/aistream-peelout/flow-forecast) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (20) · Freshness: recent (67) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · GPL-3.0 · Aug 2026</sub>
 
 **Deep learning library for time series forecasting, classification and anomaly detection.**
 
@@ -5680,7 +5680,7 @@ keras-tcn provides a TCN layer for Keras built from dilated causal convolutions 
 <sub>GPU optional · Needs TensorFlow · Models: Keras TCN layer, dilated causal convolutions · [Repo](https://github.com/philipperemy/keras-tcn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/keras-tcn/)</sub>
 
 <a name="phiflow"></a>
-### #&#8288;319 [phiflow](https://github.com/tum-pbs/phiflow) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (12) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · May 2026</sub>
+### #&#8288;319 [phiflow](https://github.com/tum-pbs/phiflow) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (13) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · May 2026</sub>
 
 **Differentiable PDE and fluid simulation toolkit for PyTorch, Jax and TensorFlow.**
 

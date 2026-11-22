@@ -634,7 +634,7 @@ React Native app for Android, iOS and Apple Silicon Macs that runs GGUF models o
 <sub>GPU optional · Models: GGUF, Stable Diffusion, Whisper, SmolVLM, Qwen3-VL · [Repo](https://github.com/off-grid-ai/ogam) · [📖 Docs ↗](https://github.com/off-grid-ai/OGAM/blob/main/docs/ARCHITECTURE.md) · [🌐 Site ↗](https://getoffgridai.co/pro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ogam/)</sub>
 
 <a name="chaterm"></a>
-### #&#8288;36 [chaterm](https://github.com/chaterm/chaterm) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · custom license · Nov 2026</sub>
+### #&#8288;36 [chaterm](https://github.com/chaterm/chaterm) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · custom license · Nov 2026</sub>
 
 **AI-native SSH terminal that plans and runs ops tasks across servers and Kubernetes.**
 
