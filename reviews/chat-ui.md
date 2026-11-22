@@ -4,26 +4,8 @@ Web front-ends for local or API models, usually with user accounts, chat history
 
 <sub>🌐 Also on the web: [Chat UIs on archestack.com](https://archestack.com/best-of-ai/chat-ui/), each project on its own page.</sub>
 
-<a name="onyx"></a>
-### 🥇 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Nov 2026</sub>
-
-**Team knowledge search and chat that indexes 50+ connected apps with permissions.**
-
-Onyx indexes content from 50+ applications along with metadata and permissions, then serves it through a chat UI with agentic RAG, deep research, custom agents, web search, MCP actions and a code sandbox. It works with self-hosted and hosted LLM providers such as Ollama, vLLM, LiteLLM, OpenAI, Anthropic and Gemini. A Lite mode runs the chat and agents without document indexing.
-
-- **+** Indexes 50+ connectors with source permissions, so answers respect existing access controls
-- **+** Hybrid vector and keyword index plus a retrieval-tuned agent for search
-- **+** Works with Ollama, vLLM, LiteLLM and major hosted LLM providers
-- **+** Exposes an MCP server, Slack and Discord bots, Chrome extension and embeddable widget
-- **−** Standard mode needs a multi-service stack: index, workers, Redis, MinIO and model inference servers
-- **−** SSO, SCIM, RBAC and analytics are in the Enterprise Edition
-- **−** Lite mode cannot index documents
-- **−** License detected as NOASSERTION; README claims MIT for Community Edition only
-
-<sub>GPU optional · Docker + Compose · Needs Redis, MinIO, vector and keyword index, Docker or Kubernetes · Models: Ollama, vLLM, LiteLLM, OpenAI, Anthropic · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/auth/signup) · [📖 Docs ↗](https://docs.onyx.app/welcome) · [🌐 Site ↗](https://www.onyx.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/onyx/)</sub>
-
 <a name="open-webui"></a>
-### 🥈 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 159k · custom license · Nov 2026</sub>
+### 🥇 [Open WebUI](https://github.com/open-webui/open-webui) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 159k · custom license · Nov 2026</sub>
 
 **Self-hosted web UI for Ollama and OpenAI-compatible models with users and RAG.**
 
@@ -39,6 +21,24 @@ Open WebUI is a self-hosted chat front-end for Ollama and any OpenAI-compatible 
 - **−** Does not run models itself; needs Ollama or an API unless using the :ollama image
 
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible API, Docker (optional), PostgreSQL (optional), Redis (optional) · Models: Ollama, OpenAI-compatible APIs, vLLM, LMStudio, GroqCloud · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-webui/)</sub>
+
+<a name="onyx"></a>
+### 🥈 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Nov 2026</sub>
+
+**Team knowledge search and chat that indexes 50+ connected apps with permissions.**
+
+Onyx indexes content from 50+ applications along with metadata and permissions, then serves it through a chat UI with agentic RAG, deep research, custom agents, web search, MCP actions and a code sandbox. It works with self-hosted and hosted LLM providers such as Ollama, vLLM, LiteLLM, OpenAI, Anthropic and Gemini. A Lite mode runs the chat and agents without document indexing.
+
+- **+** Indexes 50+ connectors with source permissions, so answers respect existing access controls
+- **+** Hybrid vector and keyword index plus a retrieval-tuned agent for search
+- **+** Works with Ollama, vLLM, LiteLLM and major hosted LLM providers
+- **+** Exposes an MCP server, Slack and Discord bots, Chrome extension and embeddable widget
+- **−** Standard mode needs a multi-service stack: index, workers, Redis, MinIO and model inference servers
+- **−** SSO, SCIM, RBAC and analytics are in the Enterprise Edition
+- **−** Lite mode cannot index documents
+- **−** License detected as NOASSERTION; README claims MIT for Community Edition only
+
+<sub>GPU optional · Docker + Compose · Needs Redis, MinIO, vector and keyword index, Docker or Kubernetes · Models: Ollama, vLLM, LiteLLM, OpenAI, Anthropic · [Repo](https://github.com/onyx-dot-app/onyx) · [▶️ Demo ↗](https://cloud.onyx.app/auth/signup) · [📖 Docs ↗](https://docs.onyx.app/welcome) · [🌐 Site ↗](https://www.onyx.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/onyx/)</sub>
 
 <a name="lobehub"></a>
 ### 🥉 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · custom license · Nov 2026</sub>
