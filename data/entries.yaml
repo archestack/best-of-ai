@@ -6483,7 +6483,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://tencentcloud.github.io/TencentDB-Agent-Memory/best-practices
+      docs: null
     audience: Teams running several coding agents who want shared, access-controlled memory
     confidence: 0.8
     facts:
@@ -12963,7 +12963,7 @@ entries:
       web_port: 8642
     links:
       demo: null
-      website: https://hermesone.org
+      website: null
       docs: null
     audience: Hermes Agent users who want a native GUI instead of the CLI
     confidence: 0.85
@@ -67337,8 +67337,8 @@ entries:
       web_port: null
     links:
       demo: null
-      website: https://evoagentx.org/
-      docs: https://EvoAgentX.github.io/EvoAgentX/
+      website: null
+      docs: null
     audience: Researchers and engineers building and optimizing agentic workflows in Python
     confidence: 0.8
     facts:
@@ -67484,7 +67484,7 @@ entries:
       web_port: 20999
     links:
       demo: null
-      website: https://deepscientist.cc/
+      website: null
       docs: https://github.com/ResearAI/DeepScientist/blob/main/docs/en/README.md
     audience: Researchers and ML engineers running long experiment loops on their own machine
     confidence: 0.8
@@ -67685,7 +67685,7 @@ entries:
     links:
       demo: null
       website: https://minitap.ai/benchmark
-      docs: https://docs.minitap.ai/v2/mcp-server/introduction
+      docs: null
     audience: Developers automating or testing mobile apps with LLM agents
     confidence: 0.8
     facts:
@@ -67888,7 +67888,7 @@ entries:
         - MiniGPT-4
       web_port: null
     links:
-      demo: https://vchat.opengvlab.com
+      demo: null
       website: null
       docs: null
     audience: Researchers and engineers working on video understanding with multimodal LLMs
@@ -69167,7 +69167,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://docs.sendai.fun/v0/introduction
+      docs: null
     audience: TypeScript developers building AI agents that trade or transact on Solana
     confidence: 0.85
     facts:
@@ -69207,8 +69207,8 @@ entries:
       web_port: null
     links:
       demo: null
-      website: https://openmldb.ai/en
-      docs: https://openmldb.ai/docs/en/
+      website: null
+      docs: null
     audience: ML and data engineers building real-time feature pipelines
     confidence: 0.6
     facts:
@@ -70905,7 +70905,7 @@ entries:
     links:
       demo: null
       website: https://t8r.tech
-      docs: https://github.com/mediar-ai/terminator/tree/main/terminator-mcp-agent
+      docs: null
     audience: Developers automating Windows desktop apps from MCP clients or code
     confidence: 0.8
     facts:
@@ -72160,7 +72160,7 @@ entries:
     links:
       demo: null
       website: https://www.trydeepteam.com
-      docs: https://www.trydeepteam.com/docs/guidelines-and-frameworks
+      docs: null
     audience: Engineers red-teaming LLM apps, agents and RAG pipelines before release
     confidence: 0.85
     facts:
@@ -72688,7 +72688,7 @@ entries:
       web_port: null
     links:
       demo: https://prompttools.streamlit.app/
-      website: https://hegel-ai.com
+      website: null
       docs: http://prompttools.readthedocs.io/
     audience: Developers comparing prompts, models and vector DBs from code or notebooks
     confidence: 0.65
@@ -73205,7 +73205,7 @@ entries:
       web_port: null
     links:
       demo: https://app.takeniftynotes.net
-      website: https://www.takeniftynotes.net/
+      website: null
       docs: null
     audience: Self-hosters wanting a Markdown notes app with local-LLM chat and search
     confidence: 0.72
@@ -74256,7 +74256,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://github.com/thu-pacman/chitu/blob/main/docs/zh/DEVELOPMENT.md
+      docs: https://github.com/thu-pacman/chitu/blob/HEAD/docs/zh/DEVELOPMENT.md
     audience: Teams serving large LLMs on NVIDIA or Chinese accelerators
     confidence: 0.7
     facts:
@@ -75013,7 +75013,7 @@ entries:
       web_port: 8019
     links:
       demo: https://app.memobase.io/playground
-      website: https://memobase.io
+      website: null
       docs: https://docs.memobase.io/
     audience: Developers adding long-term per-user memory to chatbots and companion apps
     confidence: 0.82
@@ -75383,7 +75383,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://docs.poco-ai.com/
+      docs: null
     audience: Self-hosters who want a team web UI for sandboxed Claude Code agents
     confidence: 0.7
     facts:
@@ -76379,8 +76379,8 @@ entries:
         - TensorFlow
       web_port: null
     links:
-      demo: https://aif360.res.ibm.com/data
-      website: https://aif360.res.ibm.com/
+      demo: null
+      website: null
       docs: https://aif360.readthedocs.io/en/latest/
     audience: Data scientists auditing and debiasing tabular ML classifiers
     confidence: 0.8
@@ -77383,7 +77383,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://github.com/tensorflow/graphics/blob/master/tensorflow_graphics/g3doc/api_docs/python/tfg.md
+      docs: null
     audience: Researchers building 3D vision or differentiable rendering models in TensorFlow
     confidence: 0.8
     facts:
@@ -78491,7 +78491,7 @@ entries:
       web_port: 8090
     links:
       demo: https://dashboard.trieve.ai
-      website: https://trieve.ai
+      website: null
       docs: https://docs.trieve.ai
     audience: Developers self-hosting search and RAG APIs over their own content
     confidence: 0.8
@@ -79344,7 +79344,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: http://localhost:8000/docs
+      docs: null
     audience: Individuals and agent builders wanting a private, cited document knowledge base
     confidence: 0.8
     facts:
@@ -79390,7 +79390,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://pytorch.org/torchrec/
+      docs: null
     audience: ML engineers training large recommendation models on multi-GPU clusters
     confidence: 0.85
     facts:
@@ -80311,7 +80311,7 @@ entries:
       model_support: []
       web_port: null
     links:
-      demo: https://portal.opencsg.com/models
+      demo: null
       website: https://github.com/OpenCSGs/CSGHub/
       docs: null
     audience: Teams self-hosting a Hugging Face-style registry for models and datasets
@@ -80699,7 +80699,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://docs.seldon.io/projects/alibi-detect/en/stable/
+      docs: null
     audience: ML engineers monitoring production models for drift and outliers
     confidence: 0.75
     facts:
@@ -81082,7 +81082,7 @@ entries:
     links:
       demo: null
       website: https://community.konduit.ai
-      docs: https://deeplearning4j.konduit.ai/config/maven
+      docs: null
     audience: Java developers learning Deeplearning4J, ND4J and SameDiff
     confidence: 0.85
     facts:
