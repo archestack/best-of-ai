@@ -2868,7 +2868,7 @@ EvoAgentX is a Python library that builds multi-agent workflows from a natural-l
 - **−** Detected license is NOASSERTION while the README badge says MIT
 - **−** Several toolkits need third-party API keys (Google, SerpAPI, Serper, OpenAI image)
 
-<sub>no GPU · Needs Python 3.11, LLM API key (e.g. OPENAI_API_KEY) · Models: OpenAI, Qwen (Aliyun), LiteLLM, SiliconFlow, OpenRouter · [Repo](https://github.com/anative-lab/evoagentx) · [📖 Docs ↗](https://EvoAgentX.github.io/EvoAgentX/) · [🌐 Site ↗](https://evoagentx.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evoagentx/)</sub>
+<sub>no GPU · Needs Python 3.11, LLM API key (e.g. OPENAI_API_KEY) · Models: OpenAI, Qwen (Aliyun), LiteLLM, SiliconFlow, OpenRouter · [Repo](https://github.com/anative-lab/evoagentx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evoagentx/)</sub>
 
 <a name="antomnievo"></a>
 ### #&#8288;161 [antomnievo](https://github.com/ant-research/antomnievo) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Nov 2026</sub>
@@ -2922,7 +2922,7 @@ Python agent that drives an Android device, emulator or iOS simulator through AD
 - **−** Docker quickstart is Android-only and needs the device on the same Wi-Fi network
 - **−** Last release is January 2026, while commits continue through November 2026
 
-<sub>no GPU · Docker + Compose · Needs Android Debug Bridge (ADB), Xcode and fb-idb idb_companion (iOS, macOS only), uv, Python 3.12+, LLM provider API key · Models: OpenAI, Google, Google Vertex AI, xAI, OpenRouter · [Repo](https://github.com/minitap-ai/mobile-use) · [📖 Docs ↗](https://docs.minitap.ai/v2/mcp-server/introduction) · [🌐 Site ↗](https://minitap.ai/benchmark) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mobile-use/)</sub>
+<sub>no GPU · Docker + Compose · Needs Android Debug Bridge (ADB), Xcode and fb-idb idb_companion (iOS, macOS only), uv, Python 3.12+, LLM provider API key · Models: OpenAI, Google, Google Vertex AI, xAI, OpenRouter · [Repo](https://github.com/minitap-ai/mobile-use) · [🌐 Site ↗](https://minitap.ai/benchmark) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mobile-use/)</sub>
 
 <a name="guidance"></a>
 ### #&#8288;164 [guidance](https://github.com/guidance-ai/guidance) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (84) · Freshness: recent (70) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · May 2026</sub>
@@ -3479,7 +3479,7 @@ Solana Agent Kit is an npm library that exposes 60+ Solana actions (token deploy
 - **−** Many integrations depend on third-party APIs and RPC keys that you must supply
 - **−** Quick start sample mixes up names, e.g. a LangChain comment on a Vercel tools call
 
-<sub>no GPU · Needs Solana RPC URL, Solana wallet or keypair, OpenAI API key (for the examples) · Models: OpenAI, Vercel AI SDK models, LangChain models · [Repo](https://github.com/sendaifun/solana-agent-kit) · [📖 Docs ↗](https://docs.sendai.fun/v0/introduction) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/solana-agent-kit/)</sub>
+<sub>no GPU · Needs Solana RPC URL, Solana wallet or keypair, OpenAI API key (for the examples) · Models: OpenAI, Vercel AI SDK models, LangChain models · [Repo](https://github.com/sendaifun/solana-agent-kit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/solana-agent-kit/)</sub>
 
 <a name="magentic"></a>
 ### #&#8288;195 [magentic](https://github.com/jackmpcollins/magentic) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (19) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Mar 2026</sub>

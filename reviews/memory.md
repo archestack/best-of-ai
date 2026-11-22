@@ -306,7 +306,7 @@ Runs a memory core, a web panel (Memory Hub) and an LLM proxy between agents suc
 - **−** License detected as NOASSERTION, while the README badge says MIT
 - **−** Only one benchmark reported: PersonaMem, 48% to 76%
 
-<sub>Docker · Needs Docker, LLM API (memory and proxy parameter groups), MongoDB (optional, experimental) · Models: OpenAI Chat Completions-compatible endpoints · port 8125 · [Repo](https://github.com/tencentcloud/tencentdb-agent-memory) · [📖 Docs ↗](https://tencentcloud.github.io/TencentDB-Agent-Memory/best-practices) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tencentdb-agent-memory/)</sub>
+<sub>Docker · Needs Docker, LLM API (memory and proxy parameter groups), MongoDB (optional, experimental) · Models: OpenAI Chat Completions-compatible endpoints · port 8125 · [Repo](https://github.com/tencentcloud/tencentdb-agent-memory) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tencentdb-agent-memory/)</sub>
 
 <a name="honcho"></a>
 ### #&#8288;18 [Honcho](https://github.com/plastic-labs/honcho) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · AGPL-3.0 · Nov 2026</sub>
@@ -719,6 +719,6 @@ Memobase is a FastAPI server backed by Postgres and Redis that builds a structur
 - **−** Memory updates lag until the buffer flushes (about 1024 tokens or 1 hour idle)
 - **−** No tagged release is listed for the repository
 
-<sub>no GPU · Needs PostgreSQL, Redis, LLM API, Embedding API · Models: OpenAI-compatible APIs, Ollama · port 8019 · [Repo](https://github.com/memodb-io/memobase) · [▶️ Demo ↗](https://app.memobase.io/playground) · [📖 Docs ↗](https://docs.memobase.io/) · [🌐 Site ↗](https://memobase.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memobase/)</sub>
+<sub>no GPU · Needs PostgreSQL, Redis, LLM API, Embedding API · Models: OpenAI-compatible APIs, Ollama · port 8019 · [Repo](https://github.com/memodb-io/memobase) · [▶️ Demo ↗](https://app.memobase.io/playground) · [📖 Docs ↗](https://docs.memobase.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memobase/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

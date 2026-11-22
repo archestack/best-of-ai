@@ -1289,7 +1289,7 @@ prompttools runs prompt and parameter grids across LLM APIs such as OpenAI, Anth
 - **−** Sends usage and error data to Sentry unless SENTRY_OPT_OUT is set
 - **−** Hosted playground does not support LlamaCpp
 
-<sub>GPU optional · Needs Jupyter notebook, Streamlit, LLM provider API keys · Models: OpenAI, Anthropic, Mistral AI, Google Gemini, Vertex AI · [Repo](https://github.com/hegelai/prompttools) · [▶️ Demo ↗](https://prompttools.streamlit.app/) · [📖 Docs ↗](http://prompttools.readthedocs.io/) · [🌐 Site ↗](https://hegel-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/prompttools/)</sub>
+<sub>GPU optional · Needs Jupyter notebook, Streamlit, LLM provider API keys · Models: OpenAI, Anthropic, Mistral AI, Google Gemini, Vertex AI · [Repo](https://github.com/hegelai/prompttools) · [▶️ Demo ↗](https://prompttools.streamlit.app/) · [📖 Docs ↗](http://prompttools.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/prompttools/)</sub>
 
 <a name="deepchecks"></a>
 ### #&#8288;73 [deepchecks](https://github.com/deepchecks/deepchecks) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: known (40) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2025</sub>

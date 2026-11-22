@@ -920,7 +920,7 @@ Terminator is a Rust project that drives Windows applications through the access
 - **−** Speed and >95% success claims come with no benchmark method in the README
 - **−** Browser control needs a Chrome extension; README says many parts are experimental
 
-<sub>Needs Node.js (npx), Chrome extension for browser automation, Windows · [Repo](https://github.com/mediar-ai/terminator) · [📖 Docs ↗](https://github.com/mediar-ai/terminator/tree/main/terminator-mcp-agent) · [🌐 Site ↗](https://t8r.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/terminator/)</sub>
+<sub>Needs Node.js (npx), Chrome extension for browser automation, Windows · [Repo](https://github.com/mediar-ai/terminator) · [🌐 Site ↗](https://t8r.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/terminator/)</sub>
 
 <a name="mcp-server-youtube-transcript"></a>
 ### #&#8288;52 [mcp-server-youtube-transcript](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 609 · MIT · Nov 2026</sub>

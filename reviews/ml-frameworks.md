@@ -2278,7 +2278,7 @@ TorchRec is a PyTorch domain library providing sparsity and parallelism primitiv
 - **−** Multi-GPU setups are the main use case; install test runs through TorchX
 - **−** Bundled examples limited to DLRM, Criteo and MovieLens
 
-<sub>GPU optional · Needs PyTorch, FBGEMM, TorchX · Models: DLRM, PyTorch embedding-table recommender models · [Repo](https://github.com/meta-pytorch/torchrec) · [📖 Docs ↗](https://pytorch.org/torchrec/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/torchrec/)</sub>
+<sub>GPU optional · Needs PyTorch, FBGEMM, TorchX · Models: DLRM, PyTorch embedding-table recommender models · [Repo](https://github.com/meta-pytorch/torchrec) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/torchrec/)</sub>
 
 <a name="ml"></a>
 ### #&#8288;129 [ml](https://github.com/rubixml/ml) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Oct 2026</sub>
@@ -4765,7 +4765,7 @@ TensorFlow Graphics provides differentiable graphics and geometry layers (camera
 - **−** Tutorials are explicitly unstable and not part of the API
 - **−** Input checks are off by default and must be enabled manually
 
-<sub>GPU optional · Needs TensorFlow · [Repo](https://github.com/tensorflow/graphics) · [📖 Docs ↗](https://github.com/tensorflow/graphics/blob/master/tensorflow_graphics/g3doc/api_docs/python/tfg.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graphics/)</sub>
+<sub>GPU optional · Needs TensorFlow · [Repo](https://github.com/tensorflow/graphics) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graphics/)</sub>
 
 <a name="evaluate"></a>
 ### #&#8288;268 [evaluate](https://github.com/huggingface/evaluate) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (22) · Freshness: recent (79) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Oct 2026</sub>
@@ -5087,7 +5087,7 @@ OpenMLDB is a C++ database for ML feature engineering. Features are written once
 - **−** Offline batch engine needs a custom Spark build, adding operational weight
 - **−** Features must be expressed in SQL dialect extensions, which means learning the extra syntax
 
-<sub>Docker · Needs Tailored Spark distribution (batch engine) · [Repo](https://github.com/4paradigm/openmldb) · [📖 Docs ↗](https://openmldb.ai/docs/en/) · [🌐 Site ↗](https://openmldb.ai/en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmldb/)</sub>
+<sub>Docker · Needs Tailored Spark distribution (batch engine) · [Repo](https://github.com/4paradigm/openmldb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmldb/)</sub>
 
 <a name="neuralgcm"></a>
 ### #&#8288;286 [neuralgcm](https://github.com/neuralgcm/neuralgcm) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (1) · Freshness: recent (75) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · Nov 2026</sub>
@@ -5444,7 +5444,7 @@ AIF360 is a library of fairness metrics and bias mitigation algorithms for datas
 - **−** Example datasets must be downloaded manually and placed in specific folders
 - **−** Targets classical tabular classifiers; no LLM-specific fairness tooling described
 
-<sub>no GPU · Needs TensorFlow (AdversarialDebiasing only), CVXPY (OptimPreproc only) · Models: scikit-learn style classifiers, TensorFlow · [Repo](https://github.com/trusted-ai/aif360) · [▶️ Demo ↗](https://aif360.res.ibm.com/data) · [📖 Docs ↗](https://aif360.readthedocs.io/en/latest/) · [🌐 Site ↗](https://aif360.res.ibm.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aif360/)</sub>
+<sub>no GPU · Needs TensorFlow (AdversarialDebiasing only), CVXPY (OptimPreproc only) · Models: scikit-learn style classifiers, TensorFlow · [Repo](https://github.com/trusted-ai/aif360) · [📖 Docs ↗](https://aif360.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aif360/)</sub>
 
 <a name="vbench"></a>
 ### #&#8288;306 [vbench](https://github.com/vchitect/vbench) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (10) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Aug 2026</sub>
@@ -5999,7 +5999,7 @@ Alibi Detect is a Python library with online and offline detectors for outliers,
 - **−** Library only; no server, UI or monitoring dashboard included
 - **−** Detector coverage is uneven across data types, e.g. no text outlier detectors
 
-<sub>GPU optional · Needs TensorFlow (optional), PyTorch (optional), KeOps (optional), Prophet (optional) · Models: TensorFlow, PyTorch, transformers embeddings · [Repo](https://github.com/seldonio/alibi-detect) · [📖 Docs ↗](https://docs.seldon.io/projects/alibi-detect/en/stable/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/alibi-detect/)</sub>
+<sub>GPU optional · Needs TensorFlow (optional), PyTorch (optional), KeOps (optional), Prophet (optional) · Models: TensorFlow, PyTorch, transformers embeddings · [Repo](https://github.com/seldonio/alibi-detect) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/alibi-detect/)</sub>
 
 <a name="gplearn"></a>
 ### #&#8288;337 [gplearn](https://github.com/trevorstephens/gplearn) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (11) · Freshness: slowing (31) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · BSD-3-Clause · Jan 2026</sub>

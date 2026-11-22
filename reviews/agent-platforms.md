@@ -2027,7 +2027,7 @@ DeepScientist wraps an existing coding CLI (Codex, Claude Code, Kimi Code or Ope
 - **−** No Docker or compose files in the repo
 - **−** Hardware needs depend on the experiments; no RAM or GPU figures given
 
-<sub>Needs Node.js/npm, git, Python 3.11+, one runner CLI: codex, claude, kimi or opencode · Models: Codex, Claude Code, Kimi Code, OpenCode, Ollama (via runners) · port 20999 · [Repo](https://github.com/researai/deepscientist) · [📖 Docs ↗](https://github.com/ResearAI/DeepScientist/blob/main/docs/en/README.md) · [🌐 Site ↗](https://deepscientist.cc/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepscientist/)</sub>
+<sub>Needs Node.js/npm, git, Python 3.11+, one runner CLI: codex, claude, kimi or opencode · Models: Codex, Claude Code, Kimi Code, OpenCode, Ollama (via runners) · port 20999 · [Repo](https://github.com/researai/deepscientist) · [📖 Docs ↗](https://github.com/ResearAI/DeepScientist/blob/main/docs/en/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepscientist/)</sub>
 
 <a name="kubectl-ai"></a>
 ### #&#8288;114 [kubectl-ai](https://github.com/googlecloudplatform/kubectl-ai) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (61) · Freshness: active (85) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Jul 2026</sub>

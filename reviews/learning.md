@@ -2684,7 +2684,7 @@ Collection of separate Maven Java projects showing how to use DL4J, ND4J, SameDi
 - **−** README mentions no LLM or transformer examples; focus is classic deep learning
 - **−** Java and Maven only; no Docker setup and no tagged release
 
-<sub>GPU optional · Needs Maven, Java, Apache Spark (distributed examples), CUDA (GPU examples) · Models: Keras h5, TensorFlow frozen pb · [Repo](https://github.com/deeplearning4j/deeplearning4j-examples) · [📖 Docs ↗](https://deeplearning4j.konduit.ai/config/maven) · [🌐 Site ↗](https://community.konduit.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplearning4j-examples/)</sub>
+<sub>GPU optional · Needs Maven, Java, Apache Spark (distributed examples), CUDA (GPU examples) · Models: Keras h5, TensorFlow frozen pb · [Repo](https://github.com/deeplearning4j/deeplearning4j-examples) · [🌐 Site ↗](https://community.konduit.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplearning4j-examples/)</sub>
 
 <a name="evaluation-guidebook"></a>
 ### #&#8288;152 [evaluation-guidebook](https://github.com/huggingface/evaluation-guidebook) <sub>score [6](../README.md#-how-we-rank "Score 6/100. Adoption: niche (15) · Freshness: quiet (4) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · custom license · Dec 2025</sub>
