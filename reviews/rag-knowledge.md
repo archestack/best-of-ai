@@ -185,7 +185,7 @@ RAG-Anything is a Python framework built on LightRAG. It parses mixed-content do
 <sub>Docker + Compose · Needs MinerU 3.x, LibreOffice (Office files), LightRAG, Docling (optional, for Python 3.14) · Models: User-supplied LLM function, Vision language models, Embedding models · [Repo](https://github.com/hkuds/rag-anything) · [🌐 Site ↗](https://github.com/HKUDS/RAG-Anything) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rag-anything/)</sub>
 
 <a name="wrenai"></a>
-### #&#8288;11 [wrenai](https://github.com/canner/wrenai) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · custom license · Nov 2026</sub>
+### #&#8288;11 [wrenai](https://github.com/canner/wrenai) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · custom license · Nov 2026</sub>
 
 **Semantic layer and context engine that lets agents write governed SQL.**
 
@@ -814,7 +814,7 @@ Python/Flask web app where you upload Excel or CSV files, or connect SQLite, MyS
 <sub>no GPU · Docker + Compose · Needs Python 3.10+, LLM API (OpenAI-compatible) · Models: OpenAI, DeepSeek, AtlasCloud, OpenAI-compatible APIs, local OpenAI-compatible services · port 5001 · [Repo](https://github.com/zafer-liu/data-analysis-agent) · [🌐 Site ↗](https://sage-agent.online/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-analysis-agent/)</sub>
 
 <a name="trustgraph"></a>
-### #&#8288;46 [trustgraph](https://github.com/trustgraph-ai/trustgraph) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;46 [trustgraph](https://github.com/trustgraph-ai/trustgraph) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · Apache-2.0 · Nov 2026</sub>
 
 **Ontology-grounded GraphRAG runtime with SHACL query policies and PROV-O audit trails.**
 

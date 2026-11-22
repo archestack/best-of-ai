@@ -1350,7 +1350,7 @@ BentoML is a Python library that wraps model inference code in a service class w
 <sub>GPU optional · Needs Python 3.9+, Docker (for containerize) · Models: PyTorch, Transformers, vLLM, Stable Diffusion, any Python ML framework · port 3000 · [Repo](https://github.com/bentoml/bentoml) · [📖 Docs ↗](https://docs.bentoml.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bentoml/)</sub>
 
 <a name="splash"></a>
-### #&#8288;76 [splash](https://github.com/incoai/splash) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;76 [splash](https://github.com/incoai/splash) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Nov 2026</sub>
 
 **Apple silicon inference server with speculative decoding and OpenAI/Anthropic APIs.**
 
@@ -1367,26 +1367,8 @@ Splash is a C++ inference engine for Macs that serves GGUF and MLX models using 
 
 <sub>GPU required · Needs Homebrew, macOS 26.4 or later, Apple M3 or newer · Models: GGUF, MLX, Qwen3.8-27B, Qwen3.6-35B-A3B, Ornith-1.5-122B · port 8000 · [Repo](https://github.com/incoai/splash) · [📖 Docs ↗](https://github.com/incoai/splash/blob/main/docs/README.md) · [🌐 Site ↗](https://inco.ai/blog/splash/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/splash/)</sub>
 
-<a name="metarank"></a>
-### #&#8288;77 [metarank](https://github.com/metarank/metarank) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Oct 2026</sub>
-
-**Ranking service that reranks search and recommendation results from click signals.**
-
-Metarank is a Scala service that reranks items from an existing search or recommendation system using LambdaMART models trained on visitor events such as clicks and purchases. It exposes HTTP endpoints for ranking and feedback, computes built-in ranking features (CTR, referer, User-Agent, session), and supports trending and similar-item recommendations via matrix factorization (ALS). State lives in Redis for horizontal scaling; a standalone mode trains and serves in one process.
-
-- **+** Reranks large result sets in 10-20ms, per the project's benchmarks
-- **+** Dozens of built-in ranking features, so little custom feature code
-- **+** Standalone mode trains and serves in one command with in-memory store
-- **+** Stateless service with Redis state, scales horizontally on Kubernetes
-- **−** Needs a click and impression event stream to train useful models
-- **−** README leaves semantic search and recommendation guides as TODO placeholders
-- **−** Reranks results only; you still need a separate retrieval engine
-- **−** Not a drop-in for LLM or RAG pipelines despite the LLM encoder features
-
-<sub>Needs Redis (production state store), Elasticsearch/OpenSearch (optional, for LTR integration) · Models: LambdaMART (XGBoost), Matrix factorization ALS, LLM bi-encoder and cross-encoder text features · port 8080 · [Repo](https://github.com/metarank/metarank) · [▶️ Demo ↗](https://demo.metarank.ai) · [📖 Docs ↗](https://docs.metarank.ai) · [🌐 Site ↗](https://metarank.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metarank/)</sub>
-
 <a name="sonar"></a>
-### #&#8288;78 [sonar](https://github.com/dphnai/sonar) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;77 [sonar](https://github.com/dphnai/sonar) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · AGPL-3.0 · Nov 2026</sub>
 
 **vLLM-based inference engine for Hugging Face models with OpenAI-compatible API.**
 
@@ -1402,6 +1384,24 @@ Sonar is a vLLM-based inference engine that serves Hugging Face-compatible langu
 - **−** Primary install path is a curl-to-bash script
 
 <sub>GPU optional · Docker · Needs PyTorch, NIXL (optional, for prefill/decode disaggregation) · Models: Hugging Face-compatible LLMs, multimodal (image, audio, video), embedding models, LoRA adapters, quantized weights · port 2242 · [Repo](https://github.com/dphnai/sonar) · [📖 Docs ↗](https://sonar.dphn.ai/) · [🌐 Site ↗](https://sonar.dphn.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sonar/)</sub>
+
+<a name="metarank"></a>
+### #&#8288;78 [metarank](https://github.com/metarank/metarank) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Oct 2026</sub>
+
+**Ranking service that reranks search and recommendation results from click signals.**
+
+Metarank is a Scala service that reranks items from an existing search or recommendation system using LambdaMART models trained on visitor events such as clicks and purchases. It exposes HTTP endpoints for ranking and feedback, computes built-in ranking features (CTR, referer, User-Agent, session), and supports trending and similar-item recommendations via matrix factorization (ALS). State lives in Redis for horizontal scaling; a standalone mode trains and serves in one process.
+
+- **+** Reranks large result sets in 10-20ms, per the project's benchmarks
+- **+** Dozens of built-in ranking features, so little custom feature code
+- **+** Standalone mode trains and serves in one command with in-memory store
+- **+** Stateless service with Redis state, scales horizontally on Kubernetes
+- **−** Needs a click and impression event stream to train useful models
+- **−** README leaves semantic search and recommendation guides as TODO placeholders
+- **−** Reranks results only; you still need a separate retrieval engine
+- **−** Not a drop-in for LLM or RAG pipelines despite the LLM encoder features
+
+<sub>Needs Redis (production state store), Elasticsearch/OpenSearch (optional, for LTR integration) · Models: LambdaMART (XGBoost), Matrix factorization ALS, LLM bi-encoder and cross-encoder text features · port 8080 · [Repo](https://github.com/metarank/metarank) · [▶️ Demo ↗](https://demo.metarank.ai) · [📖 Docs ↗](https://docs.metarank.ai) · [🌐 Site ↗](https://metarank.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metarank/)</sub>
 
 <a name="text-generation-webui"></a>
 ### #&#8288;79 [Text Generation Web UI](https://github.com/oobabooga/textgen) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (95) · Freshness: active (98) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · AGPL-3.0 · Aug 2026</sub>

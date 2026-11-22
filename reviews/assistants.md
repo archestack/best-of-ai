@@ -755,26 +755,8 @@ py-xiaozhi is an async Python client for the Xiaozhi voice assistant protocol. I
 
 <sub>RAM ≥ 4 GB · no GPU · Needs Xiaozhi-compatible server (WebSocket or MQTT), Microphone and speaker, FFmpeg (wheel installs), Sherpa-ONNX models (wake word), OpenCV and camera (optional) · Models: Sherpa-ONNX (wake word), Opus audio codec · [Repo](https://github.com/huangjunsen0406/py-xiaozhi) · [▶️ Demo ↗](https://www.bilibili.com/video/BV1HmPjeSED2/#reply255921347937) · [📖 Docs ↗](https://huangjunsen0406.github.io/py-xiaozhi/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/py-xiaozhi/)</sub>
 
-<a name="inno-agent"></a>
-### #&#8288;43 [inno-agent](https://github.com/hhyqhh/inno-agent) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
-
-**Personal learning agent with layered memory, cron scheduler and Feishu/WeChat channels.**
-
-Inno Agent is a single-user learning companion built on the Pi coding-agent SDK without modifying its kernel. It keeps an editable learner profile (L1), a wiki knowledge base with BM25 and graph retrieval (L2), and SQLite FTS5 session recall (L3), and adds a cron scheduler, a browser terminal Practice Lab, and Feishu and WeChat messaging. It runs as an Electron desktop app, a Node web server with a React UI, or a terminal CLI.
-
-- **+** Three separate memory layers: editable learner profile, wiki, and SQLite FTS5 session recall
-- **+** Works with any openai-completions or anthropic-messages endpoint, including Ollama; models switch live
-- **+** Desktop, web and CLI share the same runtime state
-- **+** Permission modes plus optional OS-level sandbox (sandbox-exec on macOS, bubblewrap on Linux)
-- **−** Single user only: no auth, no tenant isolation, one active agent session per process
-- **−** Cross-session operations return 409 session_busy while another turn is running
-- **−** No lint or test runner is wired up; the TypeScript build is the only check
-- **−** Web UI bundles AGPL-3.0 PPTist component, which carries obligations for distributed builds
-
-<sub>no GPU · Docker + Compose · Needs Node.js >=20.6.0, ripgrep (sandbox mode), Pi SDK (@earendil-works/pi-coding-agent) · Models: openai-completions endpoints, anthropic-messages endpoints, Anthropic, OpenAI, DeepSeek · port 3000 · [Repo](https://github.com/hhyqhh/inno-agent) · [📖 Docs ↗](https://github.com/hhyqhh/inno-agent/blob/main/QUICKSTART.md) · [🌐 Site ↗](https://hhyqhh.github.io/inno-agent-website/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/inno-agent/)</sub>
-
 <a name="qwen-audio-agent"></a>
-### #&#8288;44 [qwen-audio-agent](https://github.com/qwenaudio/qwen-audio-agent) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;43 [qwen-audio-agent](https://github.com/qwenaudio/qwen-audio-agent) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
 
 **Realtime voice front end that delegates tasks to backend coding agents.**
 
@@ -790,6 +772,24 @@ A Node.js runtime that pairs a realtime voice model with a backend agent, so con
 - **−** No Docker or compose files; requires Node.js 22.22.2+ or 24.15.0+
 
 <sub>GPU optional · Needs Node.js 22.22.2+ or 24.15.0+, npm 10+, Bailian/DashScope API key (default frontend), Backend agent (optional) · Models: Qwen Audio 3.0/3.1 Realtime, OpenAI Realtime, Google Gemini Live, Qwen3.5-Omni Realtime, Doubao Seeduplex 3.0 · [Repo](https://github.com/qwenaudio/qwen-audio-agent) · [📖 Docs ↗](https://qwenaudio.github.io/qwen-audio-agent/getting-started/quickstart) · [🌐 Site ↗](https://qwenaudio.github.io/qwen-audio-agent/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwen-audio-agent/)</sub>
+
+<a name="inno-agent"></a>
+### #&#8288;44 [inno-agent](https://github.com/hhyqhh/inno-agent) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
+
+**Personal learning agent with layered memory, cron scheduler and Feishu/WeChat channels.**
+
+Inno Agent is a single-user learning companion built on the Pi coding-agent SDK without modifying its kernel. It keeps an editable learner profile (L1), a wiki knowledge base with BM25 and graph retrieval (L2), and SQLite FTS5 session recall (L3), and adds a cron scheduler, a browser terminal Practice Lab, and Feishu and WeChat messaging. It runs as an Electron desktop app, a Node web server with a React UI, or a terminal CLI.
+
+- **+** Three separate memory layers: editable learner profile, wiki, and SQLite FTS5 session recall
+- **+** Works with any openai-completions or anthropic-messages endpoint, including Ollama; models switch live
+- **+** Desktop, web and CLI share the same runtime state
+- **+** Permission modes plus optional OS-level sandbox (sandbox-exec on macOS, bubblewrap on Linux)
+- **−** Single user only: no auth, no tenant isolation, one active agent session per process
+- **−** Cross-session operations return 409 session_busy while another turn is running
+- **−** No lint or test runner is wired up; the TypeScript build is the only check
+- **−** Web UI bundles AGPL-3.0 PPTist component, which carries obligations for distributed builds
+
+<sub>no GPU · Docker + Compose · Needs Node.js >=20.6.0, ripgrep (sandbox mode), Pi SDK (@earendil-works/pi-coding-agent) · Models: openai-completions endpoints, anthropic-messages endpoints, Anthropic, OpenAI, DeepSeek · port 3000 · [Repo](https://github.com/hhyqhh/inno-agent) · [📖 Docs ↗](https://github.com/hhyqhh/inno-agent/blob/main/QUICKSTART.md) · [🌐 Site ↗](https://hhyqhh.github.io/inno-agent-website/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/inno-agent/)</sub>
 
 <a name="ai-chatbot-framework"></a>
 ### #&#8288;45 [ai-chatbot-framework](https://github.com/alfredfrancis/ai-chatbot-framework) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
@@ -1260,7 +1260,7 @@ OpenDuet is a self-hosted personal agent built on OpenBot and CopilotKit. It rea
 <sub>no GPU · Needs Docker, Bun 1.3+, Node (npx), Postgres, CopilotKit Intelligence project, Model API key · Models: OpenAI, Anthropic, OpenAI-compatible endpoints · port 3010 · [Repo](https://github.com/copilotkit/openduet) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openduet/)</sub>
 
 <a name="poco-claw"></a>
-### #&#8288;71 [poco-claw](https://github.com/poco-ai/poco-claw) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Sep 2026</sub>
+### #&#8288;71 [poco-claw](https://github.com/poco-ai/poco-claw) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Sep 2026</sub>
 
 **Self-hosted web workspace running Claude Code agents in isolated containers.**
 

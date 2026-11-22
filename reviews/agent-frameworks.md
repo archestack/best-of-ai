@@ -882,7 +882,7 @@ RubyLLM is a Ruby gem with one API for chat, streaming, attachments, structured 
 <sub>no GPU · Needs Ruby, Provider API keys, Rails (optional) · Models: OpenAI, Anthropic, Gemini, VertexAI, Bedrock · [Repo](https://github.com/crmne/ruby_llm) · [📖 Docs ↗](https://rubyllm.com/getting-started/) · [🌐 Site ↗](https://rubyllm.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ruby-llm/)</sub>
 
 <a name="agentscope-java"></a>
-### #&#8288;50 [agentscope-java](https://github.com/agentscope-ai/agentscope-java) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;50 [agentscope-java](https://github.com/agentscope-ai/agentscope-java) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Nov 2026</sub>
 
 **Java framework for building multi-tenant agents with sandboxes and tool approvals.**
 
@@ -1652,7 +1652,7 @@ Java implementation of the Model Context Protocol, covering both client and serv
 <sub>no GPU · Needs Java 17+, Maven, Project Reactor, Jackson, SLF4J · [Repo](https://github.com/modelcontextprotocol/java-sdk) · [📖 Docs ↗](https://java.sdk.modelcontextprotocol.io/latest/quickstart/) · [🌐 Site ↗](https://modelcontextprotocol.io/docs/concepts/architecture) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/java-sdk/)</sub>
 
 <a name="openai"></a>
-### #&#8288;93 [macpaw/openai](https://github.com/macpaw/openai) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+### #&#8288;93 [macpaw/openai](https://github.com/macpaw/openai) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
 
 **Swift client library for the OpenAI API and compatible providers.**
 
@@ -1742,7 +1742,7 @@ BeeAI Framework is a library for building agents and multi-agent systems in Pyth
 <sub>GPU optional · Needs Ollama (for the example) · Models: Ollama, watsonx, DeepSeek R1, LLaMa 3.3, Granite · [Repo](https://github.com/i-am-bee/beeai-framework) · [📖 Docs ↗](https://framework.beeai.dev/introduction/welcome) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/beeai-framework/)</sub>
 
 <a name="skill-recorder"></a>
-### #&#8288;98 [skill-recorder](https://github.com/microsoft/skill-recorder) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
+### #&#8288;98 [skill-recorder](https://github.com/microsoft/skill-recorder) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
 
 **Electron app that turns a screen recording into an agent skill.**
 
@@ -2173,8 +2173,26 @@ Guardrails is a Python library that wraps LLM calls with input and output guards
 
 <sub>Needs Guardrails Hub validators (pip packages), LLM provider API (e.g. OpenAI) · Models: OpenAI, any LLM, proprietary or open-source · port 8000 · [Repo](https://github.com/guardrails-ai/guardrails) · [🌐 Site ↗](https://www.guardrailsai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/guardrails/)</sub>
 
+<a name="sprix-sage-router"></a>
+### #&#8288;122 [sprix-sage-router](https://github.com/wang2122/sprix-sage-router) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Aug 2026</sub>
+
+**Python router that picks continue, collaborate or hand off for in-flight A2A tasks.**
+
+SAGE is a Python reference implementation of a routing layer between A2A agent discovery and task execution. Given a partially completed task DAG, it scores three routes (SELF, COLLABORATE, HANDOFF) under budget and deadline limits, using per-requirement trust and artifact reuse, and returns an auditable decision. It is a research preview, and its benchmarks use synthetic evaluators written with the project.
+
+- **+** No runtime dependencies; Python 3.10+ and `python demo.py` to try it
+- **+** Decision traces list excluded agents and alternatives, so routing choices are auditable
+- **+** Learned trust state can be exported as versioned JSON snapshots
+- **+** Deterministic seeded benchmarks with JSON output; README states their synthetic limits
+- **−** Does not send tasks, authenticate endpoints or verify signatures; client handles A2A transport
+- **−** Benchmarks use synthetic evaluators only; no real A2A endpoint evaluation yet
+- **−** Real A2A adapters and signed Agent Card ingestion are unchecked on the roadmap
+- **−** Labelled early-stage research preview with no production SLA
+
+<sub>no GPU · [Repo](https://github.com/wang2122/sprix-sage-router) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sprix-sage-router/)</sub>
+
 <a name="forge"></a>
-### #&#8288;122 [forge](https://github.com/antoinezambelli/forge) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Nov 2026</sub>
+### #&#8288;123 [forge](https://github.com/antoinezambelli/forge) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Nov 2026</sub>
 
 **Guardrails proxy and library that make local LLM tool-calling more reliable.**
 
@@ -2192,7 +2210,7 @@ Forge validates tool calls from self-hosted models, rescues malformed ones (JSON
 <sub>GPU optional · Docker · Needs A running LLM backend (llama-server, Ollama, Llamafile, vLLM, or Anthropic API), Python 3.12+ for the library · Models: GGUF, OpenAI-compatible endpoints, Ollama, vLLM AWQ/GPTQ, Anthropic · port 8081 · [Repo](https://github.com/antoinezambelli/forge) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/forge/)</sub>
 
 <a name="trpc-agent-go"></a>
-### #&#8288;123 [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;124 [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
 
 **Go framework for LLM agents, graph workflows, tools, memory and evaluation.**
 
@@ -2210,7 +2228,7 @@ tRPC-Agent-Go is a Go library for building agent services. It provides LLM agent
 <sub>no GPU · Needs LLM provider API key (OpenAI, DeepSeek, etc.), Redis (optional, for memory service) · Models: OpenAI-compatible APIs, DeepSeek · [Repo](https://github.com/trpc-group/trpc-agent-go) · [📖 Docs ↗](https://trpc-group.github.io/trpc-agent-go/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trpc-agent-go/)</sub>
 
 <a name="leancopilot"></a>
-### #&#8288;124 [leancopilot](https://github.com/lean-dojo/leancopilot) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
+### #&#8288;125 [leancopilot](https://github.com/lean-dojo/leancopilot) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
 
 **Lean 4 package for LLM tactic suggestion, proof search and premise selection.**
 
@@ -2228,7 +2246,7 @@ Lean Copilot is a Lean 4 package that runs LLMs inside the prover. It adds the t
 <sub>GPU optional · Docker · Needs Lean 4, Git LFS, CTranslate2, OpenBLAS, CMake >= 3.7 (source builds), CUDA/cuDNN (optional) · Models: ByT5-small (CTranslate2), External models via HTTP API, Hugging Face downloads · [Repo](https://github.com/lean-dojo/leancopilot) · [🌐 Site ↗](https://leandojo.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leancopilot/)</sub>
 
 <a name="clearai-dsh"></a>
-### #&#8288;125 [clearai-dsh](https://github.com/clearailhc/clearai-dsh) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 702 · Apache-2.0 · Nov 2026</sub>
+### #&#8288;126 [clearai-dsh](https://github.com/clearailhc/clearai-dsh) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 702 · Apache-2.0 · Nov 2026</sub>
 
 **DSH plugin that builds a domain ontology from agent research sessions.**
 
@@ -2246,7 +2264,7 @@ ClearAI is a plugin for the DSH agent host that adds an "epistemic loop" preset:
 <sub>Needs DSH >= 0.2.2-rc.1, pnpm, Node.js · [Repo](https://github.com/clearailhc/clearai-dsh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clearai-dsh/)</sub>
 
 <a name="agent-s"></a>
-### #&#8288;126 [agent-s](https://github.com/simular-ai/agent-s) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (74) · Freshness: active (87) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;127 [agent-s](https://github.com/simular-ai/agent-s) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (74) · Freshness: active (87) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **Computer-use agent that operates desktop GUIs via screenshots, mouse and keyboard.**
 
@@ -2262,24 +2280,6 @@ Agent S takes a natural-language task, reads the screen, and completes it by cli
 - **−** Recommended setup uses paid OpenAI models; hosted Sai is the production offering
 
 <sub>GPU optional · Needs Tesseract (pytesseract), Grounding model endpoint (UI-TARS-1.5-7B), LLM API key (OpenAI, Anthropic, etc.) · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Open Router · [Repo](https://github.com/simular-ai/agent-s) · [▶️ Demo ↗](https://cloud.simular.ai/) · [🌐 Site ↗](https://www.simular.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-s/)</sub>
-
-<a name="sprix-sage-router"></a>
-### #&#8288;127 [sprix-sage-router](https://github.com/wang2122/sprix-sage-router) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (66) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Aug 2026</sub>
-
-**Python router that picks continue, collaborate or hand off for in-flight A2A tasks.**
-
-SAGE is a Python reference implementation of a routing layer between A2A agent discovery and task execution. Given a partially completed task DAG, it scores three routes (SELF, COLLABORATE, HANDOFF) under budget and deadline limits, using per-requirement trust and artifact reuse, and returns an auditable decision. It is a research preview, and its benchmarks use synthetic evaluators written with the project.
-
-- **+** No runtime dependencies; Python 3.10+ and `python demo.py` to try it
-- **+** Decision traces list excluded agents and alternatives, so routing choices are auditable
-- **+** Learned trust state can be exported as versioned JSON snapshots
-- **+** Deterministic seeded benchmarks with JSON output; README states their synthetic limits
-- **−** Does not send tasks, authenticate endpoints or verify signatures; client handles A2A transport
-- **−** Benchmarks use synthetic evaluators only; no real A2A endpoint evaluation yet
-- **−** Real A2A adapters and signed Agent Card ingestion are unchecked on the roadmap
-- **−** Labelled early-stage research preview with no production SLA
-
-<sub>no GPU · [Repo](https://github.com/wang2122/sprix-sage-router) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sprix-sage-router/)</sub>
 
 <a name="symbolicai"></a>
 ### #&#8288;128 [symbolicai](https://github.com/extensityai/symbolicai) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · BSD-3-Clause · Oct 2026</sub>

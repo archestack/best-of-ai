@@ -610,25 +610,8 @@ AWS-maintained collection of Jupyter notebooks covering Amazon SageMaker feature
 
 <sub>Needs AWS account, IAM role, Amazon S3, Amazon SageMaker, Jupyter · Models: JumpStart foundation models, custom containers, SageMaker Python SDK v3 · [Repo](https://github.com/aws/amazon-sagemaker-examples) · [📖 Docs ↗](https://sagemaker.readthedocs.io/en/stable/api/sagemaker_core.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/amazon-sagemaker-examples/)</sub>
 
-<a name="learnopencv"></a>
-### #&#8288;35 [learnopencv](https://github.com/spmallick/learnopencv) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 23k · no license · Nov 2026</sub>
-
-**Code for LearnOpenCV blog tutorials on computer vision and deep learning.**
-
-Per-article code folders for the LearnOpenCV blog, mostly Jupyter notebooks and Python/C++ scripts. Topics run from OpenCV basics (contours, calibration, optical flow, homography) to YOLO26, RF-DETR, SAM 3, VLMs, and edge deployment on Jetson and Arduino. Maintained by BigVision.AI, a consulting company.
-
-- **+** Covers classic OpenCV topics in Python and C++ with a matching blog post each
-- **+** Recent entries track current models such as YOLO26, SAM 3, RF-DETR and Qwen3-VL
-- **+** Each tutorial lives in its own folder, so examples run independently
-- **−** No license detected, so reuse terms are unclear
-- **−** Several listed posts have no code link
-- **−** No shared environment; dependencies differ per folder
-- **−** At least one code link points to a contributor's fork
-
-<sub>GPU optional · Needs OpenCV · Models: YOLO26, RF-DETR, SAM 3, Qwen3-VL, MiniCPM-o 4.5 · [Repo](https://github.com/spmallick/learnopencv) · [🌐 Site ↗](https://www.LearnOpenCV.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learnopencv/)</sub>
-
 <a name="hands-on-modern-rl"></a>
-### #&#8288;36 [hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · custom license · Oct 2026</sub>
+### #&#8288;35 [hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · custom license · Oct 2026</sub>
 
 **Open course teaching RL from CartPole and DQN to RLHF, GRPO and agents.**
 
@@ -644,6 +627,23 @@ A bilingual (English/Chinese) online book and code collection that teaches RL in
 - **−** Content is CC BY-NC-SA 4.0, which restricts commercial use
 
 <sub>GPU optional · Needs ModelScope, Stable-Baselines3, veRL, EasyR1, Gymnasium, Node >= 18 (VitePress docs) · [Repo](https://github.com/walkinglabs/hands-on-modern-rl) · [▶️ Demo ↗](https://modelscope.cn/studios/walkinglab/hands-on-modern-rl-experiment01-cartpole) · [📖 Docs ↗](https://walkinglabs.github.io/hands-on-modern-rl/en/labs/) · [🌐 Site ↗](https://walkinglabs.github.io/hands-on-modern-rl/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hands-on-modern-rl/)</sub>
+
+<a name="learnopencv"></a>
+### #&#8288;36 [learnopencv](https://github.com/spmallick/learnopencv) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 23k · no license · Nov 2026</sub>
+
+**Code for LearnOpenCV blog tutorials on computer vision and deep learning.**
+
+Per-article code folders for the LearnOpenCV blog, mostly Jupyter notebooks and Python/C++ scripts. Topics run from OpenCV basics (contours, calibration, optical flow, homography) to YOLO26, RF-DETR, SAM 3, VLMs, and edge deployment on Jetson and Arduino. Maintained by BigVision.AI, a consulting company.
+
+- **+** Covers classic OpenCV topics in Python and C++ with a matching blog post each
+- **+** Recent entries track current models such as YOLO26, SAM 3, RF-DETR and Qwen3-VL
+- **+** Each tutorial lives in its own folder, so examples run independently
+- **−** No license detected, so reuse terms are unclear
+- **−** Several listed posts have no code link
+- **−** No shared environment; dependencies differ per folder
+- **−** At least one code link points to a contributor's fork
+
+<sub>GPU optional · Needs OpenCV · Models: YOLO26, RF-DETR, SAM 3, Qwen3-VL, MiniCPM-o 4.5 · [Repo](https://github.com/spmallick/learnopencv) · [🌐 Site ↗](https://www.LearnOpenCV.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/learnopencv/)</sub>
 
 <a name="ai-engineering-hub"></a>
 ### #&#8288;37 [ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Oct 2026</sub>
@@ -771,7 +771,7 @@ A gallery of 171 numbered prompts with reference images across 31 categories for
 <sub>no GPU · Needs OpenAI GPT Image API, Python 3.11+ · Models: gpt-image-2, gpt-image-2.5-sunburst, gpt-image-2.6-flare · [Repo](https://github.com/wuyoscar/gpt-image2-skill) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-image2-skill/)</sub>
 
 <a name="supervisor-skills"></a>
-### #&#8288;44 [supervisor-skills](https://github.com/hkustdial/supervisor-skills) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Nov 2026</sub>
+### #&#8288;44 [supervisor-skills](https://github.com/hkustdial/supervisor-skills) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · custom license · Nov 2026</sub>
 
 **Prompt-based AI skills for planning, writing and reviewing research papers.**
 
@@ -1443,7 +1443,7 @@ A collection of Python implementations of well-known ML papers, each written in 
 <sub>[Repo](https://github.com/maximevandegar/papers-in-100-lines-of-code) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/papers-in-100-lines-of-code/)</sub>
 
 <a name="microduck-build-tutorial"></a>
-### #&#8288;82 [microduck-build-tutorial](https://github.com/ai-fange/microduck-build-tutorial) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Sep 2026</sub>
+### #&#8288;82 [microduck-build-tutorial](https://github.com/ai-fange/microduck-build-tutorial) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Sep 2026</sub>
 
 **Build guide and code for a Raspberry Pi biped robot walking with an ONNX policy.**
 

@@ -563,7 +563,7 @@ Oracle3 exposes 14 MCP tools for searching Kalshi and Polymarket contracts, read
 <sub>no GPU · Needs Python 3.10+, Kalshi, Polymarket · [Repo](https://github.com/yichengyang-ethan/oracle3-prediction-market-agent) · [📖 Docs ↗](https://yichengyang-ethan.github.io/oracle3-prediction-market-agent/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oracle3-prediction-market-agent/)</sub>
 
 <a name="paper-search-mcp"></a>
-### #&#8288;32 [paper-search-mcp](https://github.com/openags/paper-search-mcp) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Oct 2026</sub>
+### #&#8288;32 [paper-search-mcp](https://github.com/openags/paper-search-mcp) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Oct 2026</sub>
 
 **MCP server for searching and downloading academic papers from 20+ sources.**
 

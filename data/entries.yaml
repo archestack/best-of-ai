@@ -22243,7 +22243,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 72
+    score: 73
   - id: nullclaw
     repo: nullclaw/nullclaw
     name: nullclaw
@@ -25303,7 +25303,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 68
+    score: 69
   - id: flax
     repo: google/flax
     name: flax
@@ -51746,7 +51746,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 59
+    score: 60
   - id: codex-desktop-linux
     repo: ilysenko/codex-desktop-linux
     name: codex-desktop-linux
@@ -54417,7 +54417,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 65
+    score: 66
   - id: tensorflow-datasets
     repo: tensorflow/datasets
     name: tensorflow/datasets
@@ -56817,7 +56817,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 79
+    score: 80
   - id: omnigen
     repo: vectorspacelab/omnigen
     name: omnigen
@@ -60201,7 +60201,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 59
+    score: 60
   - id: claude-code-video-toolkit
     repo: digitalsamba/claude-code-video-toolkit
     name: claude-code-video-toolkit
@@ -70442,7 +70442,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 68
+    score: 69
   - id: ogam
     repo: off-grid-ai/ogam
     name: ogam
@@ -75394,7 +75394,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 52
+    score: 51
   - id: leancopilot
     repo: lean-dojo/leancopilot
     name: leancopilot
@@ -89802,7 +89802,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 62
+    score: 63
   - id: demogpt
     repo: melih-unsal/demogpt
     name: demogpt
@@ -92934,6 +92934,55 @@ entries:
       is_template: false
       language: Python
     score: 49
+  - id: heym
+    repo: heymrun/heym
+    name: heym
+    status: listed
+    tagline: Visual builder and runtime for multi-agent workflows with tracing and evals
+    summary: Heym is a FastAPI and Vue 3 platform for composing agents and deterministic workflows on a canvas, or generating them with an AI assistant. Workflows run via REST, SSE, cron, webhooks or MCP, with human review checkpoints, retries, traces, token and USD cost tracking, and OpenTelemetry export. It stores data in PostgreSQL and supports RAG through pgvector or Qdrant.
+    categories:
+      - agent-platforms
+      - automation
+    strengths:
+      - Built-in traces, per-model cost tracking, alerts and OpenTelemetry span export
+      - Agent review checkpoints pause execution and resume from a saved snapshot
+      - Workflows can be served as REST/SSE endpoints or published as MCP tools
+      - RAG on PostgreSQL/pgvector or Qdrant, plus OIDC SSO (Keycloak, Okta, Entra ID)
+    weaknesses:
+      - MIT license with Commons Clause restricts selling the software; not OSI open source
+      - Requires PostgreSQL; local setup also needs Bun, Python 3.11+, UV and Docker
+      - Docker socket mount grants broad host control for sandboxes and MCP stdio
+      - Large surface (Board, Portal, Drive, evals) means more to operate than a simple workflow tool
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - PostgreSQL
+        - Docker
+        - Bun
+        - Python 3.11+
+        - UV
+        - Qdrant (optional)
+        - RabbitMQ (optional)
+        - Redis (optional)
+      model_support: []
+      web_port: 4017
+    links:
+      demo: null
+      website: https://heym.run
+      docs: null
+    audience: Teams self-hosting agent workflows with tracing, cost tracking and approvals
+    confidence: 0.8
+    facts:
+      stars: 1837
+      license: NOASSERTION
+      last_commit: 2026-11-21
+      last_release: 2026-11-21
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 57
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
