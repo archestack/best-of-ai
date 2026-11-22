@@ -704,7 +704,7 @@ LangMem is a Python library that lets agents store, search and consolidate long-
 <sub>no GPU · Needs LangGraph, LLM provider API key (e.g. Anthropic), Embedding model (e.g. OpenAI text-embedding-3-small), Postgres (optional, for persistent store) · Models: Anthropic, OpenAI · [Repo](https://github.com/langchain-ai/langmem) · [📖 Docs ↗](https://langchain-ai.github.io/langmem/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langmem/)</sub>
 
 <a name="memobase"></a>
-### #&#8288;40 [memobase](https://github.com/memodb-io/memobase) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (26) · Freshness: quiet (19) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;40 [memobase](https://github.com/memodb-io/memobase) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (26) · Freshness: quiet (18) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Jan 2026</sub>
 
 **User-profile memory backend for LLM apps with event timeline.**
 

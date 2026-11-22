@@ -1782,7 +1782,7 @@ Rust crates with Python bindings that convert Messages, Chat Completions and Res
 <sub>no GPU · Needs OpenCV (image preprocessing), Python 3.10+ (bindings) · Models: DeepSeek-V4-Pro, DeepSeek-V4.1-Flash · port 7778 · [Repo](https://github.com/deepseek-ai/deepseek-recipe) · [📖 Docs ↗](https://docs.rs/deepseek-recipe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepseek-recipe/)</sub>
 
 <a name="nano-vllm"></a>
-### #&#8288;100 [nano-vllm](https://github.com/geeeekexplorer/nano-vllm) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (80) · Freshness: recent (57) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Apr 2026</sub>
+### #&#8288;100 [nano-vllm](https://github.com/geeeekexplorer/nano-vllm) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (80) · Freshness: recent (56) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Apr 2026</sub>
 
 **Minimal vLLM-style inference engine in about 1,200 lines of Python.**
 
@@ -1835,26 +1835,8 @@ TensorRT-YOLO deploys YOLO models (YOLOv3 through YOLO26, plus YOLO-World, YOLOE
 
 <sub>GPU required · Docker · Needs CUDA, TensorRT, CMake, pybind11, trtyolo-export, OpenCV (examples) · Models: YOLOv3 to YOLO26, YOLO-World, YOLOE, YOLO-Master, YOLO12 · [Repo](https://github.com/laugh12321/tensorrt-yolo) · [🌐 Site ↗](https://trtyolo.laugh12321.cn/pro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tensorrt-yolo/)</sub>
 
-<a name="powerinfer"></a>
-### #&#8288;103 [powerinfer](https://github.com/tiiny-ai/powerinfer) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (70) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · MIT · May 2026</sub>
-
-**CPU/GPU hybrid LLM inference engine exploiting sparse neuron activation.**
-
-PowerInfer is a C++ inference engine, derived from llama.cpp, that keeps frequently activated "hot" neurons on the GPU and computes the rest on the CPU. It runs ReLU-sparse models in a GGUF variant (*.powerinfer.gguf) that bundles predictor weights, and uses --vram-budget in place of -ngl. The README reports up to 11x speedup over llama.cpp on Falcon(ReLU)-40B on one RTX 4090.
-
-- **+** Hot/cold neuron split lets 40B-70B models run on one consumer GPU with CPU offload
-- **+** Reports up to 11x over llama.cpp on Falcon-40B (RTX 4090), up to 8x with INT4 on RTX 2080Ti
-- **+** Keeps llama.cpp-style examples such as server, batched generation and perplexity
-- **+** NVIDIA (CUDA), AMD (ROCm) and CPU-only builds on Linux and Windows
-- **−** Only ReLU/ReGLU/Squared ReLU models work; Mistral, original Llama and Qwen are unsupported
-- **−** Needs PowerInfer GGUF files with predictor weights; llama.cpp weights give no speedup
-- **−** Short model list: Falcon-40B, Llama 2 family, ProSparse Llama 2, Bamboo-7B
-- **−** macOS is CPU only with little gain; no tagged release
-
-<sub>GPU optional · Docker · Needs CMake 3.17+, Python 3.8+, pip 19.3+, CUDA or ROCm (for GPU builds) · Models: PowerInfer GGUF, ReluLLaMA 7B/13B/70B, ReluFalcon-40B, ProSparse-LLaMA-2, Bamboo-7B · [Repo](https://github.com/tiiny-ai/powerinfer) · [▶️ Demo ↗](https://powerinfer-gradio.vercel.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/powerinfer/)</sub>
-
 <a name="llama2-mojo"></a>
-### #&#8288;104 [llama2.mojo](https://github.com/tairov/llama2.mojo) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Sep 2026</sub>
+### #&#8288;103 [llama2.mojo](https://github.com/tairov/llama2.mojo) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Sep 2026</sub>
 
 **Llama 2 inference in a single Mojo file, run from the CLI.**
 
@@ -1870,6 +1852,24 @@ A port of llama2.c to Mojo that runs Llama 2 architecture checkpoints (stories 2
 - **−** Uses llama2.c .bin checkpoints, not GGUF or safetensors; no tagged releases
 
 <sub>no GPU · Docker · Needs Mojo 1.1.0, MAX 26.6.0, uv, C compiler (gcc) · Models: stories260K, stories15M, stories42M, stories110M, TinyLlama-1.1B-Chat-v0.2 · [Repo](https://github.com/tairov/llama2.mojo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama2-mojo/)</sub>
+
+<a name="powerinfer"></a>
+### #&#8288;104 [powerinfer](https://github.com/tiiny-ai/powerinfer) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (70) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · MIT · May 2026</sub>
+
+**CPU/GPU hybrid LLM inference engine exploiting sparse neuron activation.**
+
+PowerInfer is a C++ inference engine, derived from llama.cpp, that keeps frequently activated "hot" neurons on the GPU and computes the rest on the CPU. It runs ReLU-sparse models in a GGUF variant (*.powerinfer.gguf) that bundles predictor weights, and uses --vram-budget in place of -ngl. The README reports up to 11x speedup over llama.cpp on Falcon(ReLU)-40B on one RTX 4090.
+
+- **+** Hot/cold neuron split lets 40B-70B models run on one consumer GPU with CPU offload
+- **+** Reports up to 11x over llama.cpp on Falcon-40B (RTX 4090), up to 8x with INT4 on RTX 2080Ti
+- **+** Keeps llama.cpp-style examples such as server, batched generation and perplexity
+- **+** NVIDIA (CUDA), AMD (ROCm) and CPU-only builds on Linux and Windows
+- **−** Only ReLU/ReGLU/Squared ReLU models work; Mistral, original Llama and Qwen are unsupported
+- **−** Needs PowerInfer GGUF files with predictor weights; llama.cpp weights give no speedup
+- **−** Short model list: Falcon-40B, Llama 2 family, ProSparse Llama 2, Bamboo-7B
+- **−** macOS is CPU only with little gain; no tagged release
+
+<sub>GPU optional · Docker · Needs CMake 3.17+, Python 3.8+, pip 19.3+, CUDA or ROCm (for GPU builds) · Models: PowerInfer GGUF, ReluLLaMA 7B/13B/70B, ReluFalcon-40B, ProSparse-LLaMA-2, Bamboo-7B · [Repo](https://github.com/tiiny-ai/powerinfer) · [▶️ Demo ↗](https://powerinfer-gradio.vercel.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/powerinfer/)</sub>
 
 <a name="mini-sglang"></a>
 ### #&#8288;105 [mini-sglang](https://github.com/sgl-project/mini-sglang) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (49) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · MIT · May 2026</sub>
@@ -1926,7 +1926,7 @@ gemma.cpp runs Gemma 2, Gemma 3 and PaliGemma 2 models on CPU using Google Highw
 <sub>no GPU · Needs CMake, Clang (C++17), Google Highway, SentencePiece · Models: Gemma 2, Gemma 3, PaliGemma 2, .sbs compressed weights · [Repo](https://github.com/google/gemma.cpp) · [📖 Docs ↗](https://github.com/google/gemma.cpp/blob/main/DEVELOPERS.md) · [🌐 Site ↗](https://ai.google.dev/gemma) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gemma-cpp/)</sub>
 
 <a name="picolm"></a>
-### #&#8288;108 [picolm](https://github.com/rightnow-ai/picolm) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (14) · Freshness: slowing (34) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Feb 2026</sub>
+### #&#8288;108 [picolm](https://github.com/rightnow-ai/picolm) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (14) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Feb 2026</sub>
 
 **Minimal C inference engine for GGUF LLaMA models on low-RAM boards.**
 
@@ -1944,7 +1944,7 @@ PicoLM is a from-scratch LLM inference engine in about 2,500 lines of C11 that r
 <sub>no GPU · Needs libc, libm, libpthread · Models: GGUF v2/v3, LLaMA architecture, TinyLlama 1.1B, Llama 2 7B, Phi-2 · [Repo](https://github.com/rightnow-ai/picolm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/picolm/)</sub>
 
 <a name="deepstream-yolo"></a>
-### #&#8288;109 [deepstream-yolo](https://github.com/marcoslucianops/deepstream-yolo) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: niche (12) · Freshness: quiet (24) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
+### #&#8288;109 [deepstream-yolo](https://github.com/marcoslucianops/deepstream-yolo) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: niche (12) · Freshness: quiet (23) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
 
 **NVIDIA DeepStream configs and GPU parsers for running YOLO and DETR detectors.**
 

@@ -1112,7 +1112,7 @@ A Next.js dashboard that reads ~/.openclaw/openclaw.json and local session files
 <sub>no GPU · Docker · Needs OpenClaw, Node.js 18+ · Models: MiniMax-M2.7, MiniMax-M2.7-highspeed, OpenAI-compatible providers via OpenClaw config · port 3000 · [Repo](https://github.com/xmanrui/openclaw-bot-review) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-bot-review/)</sub>
 
 <a name="agentops"></a>
-### #&#8288;63 [agentops](https://github.com/agentops-ai/agentops) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (57) · Freshness: recent (63) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
+### #&#8288;63 [agentops](https://github.com/agentops-ai/agentops) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (57) · Freshness: recent (62) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
 
 **Tracing, session replay and LLM cost tracking for AI agents.**
 
@@ -1202,7 +1202,7 @@ A small Python library from OpenAI that runs language-model evals (MMLU, MATH, G
 <sub>no GPU · Needs openai, anthropic, human-eval · Models: OpenAI API, Anthropic Claude API · [Repo](https://github.com/openai/simple-evals) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/simple-evals/)</sub>
 
 <a name="one-hub"></a>
-### #&#8288;68 [one-hub](https://github.com/martialbe/one-hub) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (24) · Freshness: slowing (39) · Maintenance: weak (22) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;68 [one-hub](https://github.com/martialbe/one-hub) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (24) · Freshness: slowing (38) · Maintenance: weak (22) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Feb 2026</sub>
 
 **OpenAI-compatible gateway for routing, pricing and billing across LLM providers.**
 
@@ -1220,7 +1220,7 @@ One Hub is a Go fork of one-api that proxies requests to providers such as OpenA
 <sub>no GPU · Docker + Compose · Compose runs Redis, MySQL · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Amazon Bedrock · [Repo](https://github.com/martialbe/one-hub) · [▶️ Demo ↗](https://one-hub.xiao5.info/) · [📖 Docs ↗](https://one-hub-doc.vercel.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/one-hub/)</sub>
 
 <a name="mcpo"></a>
-### #&#8288;69 [mcpo](https://github.com/open-webui/mcpo) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (43) · Freshness: slowing (48) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
+### #&#8288;69 [mcpo](https://github.com/open-webui/mcpo) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (43) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
 
 **Exposes any MCP server as an OpenAPI HTTP endpoint.**
 
@@ -1256,7 +1256,7 @@ A TypeScript web UI that reads an existing OpenClaw installation and shows healt
 <sub>no GPU · Docker + Compose · Needs OpenClaw, OpenClaw Gateway, Node.js, npm · port 4310 · [Repo](https://github.com/tianyidatascience/openclaw-control-center) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-control-center/)</sub>
 
 <a name="skill"></a>
-### #&#8288;71 [skill](https://github.com/pinchbench/skill) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (5) · Freshness: recent (75) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · May 2026</sub>
+### #&#8288;71 [skill](https://github.com/pinchbench/skill) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (5) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · May 2026</sub>
 
 **Benchmark suite that scores LLMs as the model behind an OpenClaw agent.**
 
