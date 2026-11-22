@@ -41,7 +41,7 @@ iFixAi runs an agent against a simulated version of your business, sends it requ
 <sub>no GPU · Needs Python 3.10+, LLM judge API key (OpenAI, Anthropic, Gemini, Azure, Bedrock, OpenRouter) · Models: OpenAI-compatible agent endpoints, OpenAI, Anthropic, Gemini, Azure · [Repo](https://github.com/ifixai-ai/ifixai) · [📖 Docs ↗](https://github.com/ifixai-ai/iFixAi/tree/main/docs) · [🌐 Site ↗](https://www.ifixai.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ifixai/)</sub>
 
 <a name="ai-infra-guard"></a>
-### 🥉 [ai-infra-guard](https://github.com/tencent/ai-infra-guard) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Nov 2026</sub>
+### 🥉 [ai-infra-guard](https://github.com/tencent/ai-infra-guard) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Nov 2026</sub>
 
 **Red-teaming platform for AI infra CVEs, MCP servers, agent skills and jailbreaks.**
 
@@ -94,26 +94,8 @@ Strix runs LLM-driven pentest agents against a local codebase, repository URL, l
 
 <sub>no GPU · Docker · Needs Docker, LLM API key or local LLM endpoint, Caido, Nuclei, Playwright · Models: OpenAI, Anthropic, Google Vertex AI, AWS Bedrock, Azure · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/strix/)</sub>
 
-<a name="failproofai"></a>
-### #&#8288;6 [failproofai](https://github.com/failproofai/failproofai) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · custom license · Nov 2026</sub>
-
-**Policy enforcement and run tracing for coding agent CLIs and gateways.**
-
-Failproof AI installs hooks into 12 agent harnesses (Claude Code, Codex, Copilot CLI, Cursor Agent, OpenCode, Hermes, OpenClaw and others). It blocks tool calls such as rm -rf, sudo, force pushes and .env reads before they run, using 40 built-in policies plus custom JS policies. A local dashboard on localhost:8020 shows session history, hook decisions and an offline audit of past runs.
-
-- **+** Pre-execution blocking of tool calls verified on all 12 supported harnesses
-- **+** Custom policies are JS files in .failproofai/policies/, committed and shared with the team
-- **+** Local dashboard and audit read existing history with no account or upload
-- **+** Policy API is small: allow, deny, instruct
-- **−** License is MIT with Commons Clause, not OSI open source; resale needs a separate agreement
-- **−** Setup selects no policies; only block-failproofai-commands is active until a pack is added
-- **−** Turn-end gates work on 8 of 12 harnesses; capabilities differ per harness
-- **−** Fleet-wide observability and cluster self-hosting are hosted or Enterprise offerings
-
-<sub>no GPU · Docker · Needs Node.js (npm) · port 8020 · [Repo](https://github.com/failproofai/failproofai) · [📖 Docs ↗](https://docs.befailproof.ai/) · [🌐 Site ↗](https://befailproof.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/failproofai/)</sub>
-
 <a name="aisoc"></a>
-### #&#8288;7 [aisoc](https://github.com/beenuar/aisoc) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
+### #&#8288;6 [aisoc](https://github.com/beenuar/aisoc) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.3k · MIT · Nov 2026</sub>
 
 **Self-hosted SOC that detects threats and investigates alerts with auditable AI agents.**
 
@@ -129,6 +111,24 @@ AiSOC ingests security telemetry through 91 connectors and four cloud collectors
 - **−** Splunk rule migration is mostly partial: 1,711 of 1,734 translated rules
 
 <sub>RAM ≥ 8 GB · GPU optional · Compose · Needs Docker Compose v2, Kafka, Postgres, Redis, Qdrant, Ollama, ClickHouse (full), Neo4j (full), OpenSearch (full) · Models: Ollama llama3.2:3b-instruct-q4_K_M (bundled), Local OpenAI-compatible endpoints, Custom providers via console · [Repo](https://github.com/beenuar/aisoc) · [📖 Docs ↗](https://beenuar.github.io/AiSOC/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aisoc/)</sub>
+
+<a name="failproofai"></a>
+### #&#8288;7 [failproofai](https://github.com/failproofai/failproofai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · custom license · Nov 2026</sub>
+
+**Policy enforcement and run tracing for coding agent CLIs and gateways.**
+
+Failproof AI installs hooks into 12 agent harnesses (Claude Code, Codex, Copilot CLI, Cursor Agent, OpenCode, Hermes, OpenClaw and others). It blocks tool calls such as rm -rf, sudo, force pushes and .env reads before they run, using 40 built-in policies plus custom JS policies. A local dashboard on localhost:8020 shows session history, hook decisions and an offline audit of past runs.
+
+- **+** Pre-execution blocking of tool calls verified on all 12 supported harnesses
+- **+** Custom policies are JS files in .failproofai/policies/, committed and shared with the team
+- **+** Local dashboard and audit read existing history with no account or upload
+- **+** Policy API is small: allow, deny, instruct
+- **−** License is MIT with Commons Clause, not OSI open source; resale needs a separate agreement
+- **−** Setup selects no policies; only block-failproofai-commands is active until a pack is added
+- **−** Turn-end gates work on 8 of 12 harnesses; capabilities differ per harness
+- **−** Fleet-wide observability and cluster self-hosting are hosted or Enterprise offerings
+
+<sub>no GPU · Docker · Needs Node.js (npm) · port 8020 · [Repo](https://github.com/failproofai/failproofai) · [📖 Docs ↗](https://docs.befailproof.ai/) · [🌐 Site ↗](https://befailproof.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/failproofai/)</sub>
 
 <a name="nvidia-nemo-guardrails"></a>
 ### #&#8288;8 [nvidia-nemo/guardrails](https://github.com/nvidia-nemo/guardrails) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · custom license · Nov 2026</sub>
@@ -347,7 +347,7 @@ Python CLI (`bughunter`) and Claude Code plugin that drives a bug bounty workflo
 <sub>GPU optional · Needs subfinder, httpx, nuclei, katana, ffuf, nmap, Ollama or a cloud LLM API key · Models: Ollama, Groq, DeepSeek, Claude API, OpenAI · [Repo](https://github.com/awarexone/agentic-bug-hunter) · [📖 Docs ↗](https://github.com/awarexone/Agentic-Bug-Hunter/blob/main/docs/mcp.md) · [🌐 Site ↗](https://www.awarexone.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-bug-hunter/)</sub>
 
 <a name="dsh-infinite-gen-5"></a>
-### #&#8288;20 [dsh-infinite-gen-5](https://github.com/minglink/dsh-infinite-gen-5) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · custom license · Nov 2026</sub>
+### #&#8288;20 [dsh-infinite-gen-5](https://github.com/minglink/dsh-infinite-gen-5) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · custom license · Nov 2026</sub>
 
 **Reverse-engineering plugin for DeepSeek Harness using Ghidra, x64dbg and Unicorn.**
 
@@ -598,7 +598,7 @@ Agentic Security sends jailbreak, prompt-injection, multimodal and fuzzed attack
 <sub>no GPU · Needs Python 3.15+, Hugging Face datasets · Models: Any HTTP endpoint, OpenAI, Claude, Gemini, Azure OpenAI · port 8718 · [Repo](https://github.com/msoedov/agentic_security) · [📖 Docs ↗](https://agentic-security.vercel.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-security/)</sub>
 
 <a name="hexstrike-ai"></a>
-### #&#8288;34 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (83) · Freshness: active (92) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
+### #&#8288;34 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (84) · Freshness: active (92) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
 
 **MCP server that lets AI clients drive 150+ pentesting tools.**
 
@@ -688,7 +688,7 @@ Purple Llama is an umbrella repo from Meta with input/output safeguards and secu
 <sub>Models: Llama Guard 3-8B, Llama Guard 3-1B, Llama Guard 3-11B-vision, Llama Guard 2, Llama Guard · [Repo](https://github.com/meta-llama/purplellama) · [📖 Docs ↗](https://github.com/meta-llama/llama-recipes) · [🌐 Site ↗](https://ai.meta.com/llama/purple-llama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/purplellama/)</sub>
 
 <a name="cairn"></a>
-### #&#8288;39 [cairn](https://github.com/oritera/cairn) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (56) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;39 [cairn](https://github.com/oritera/cairn) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (57) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · AGPL-3.0 · Sep 2026</sub>
 
 **Blackboard-based multi-agent engine for AI penetration testing and CTF solving.**
 

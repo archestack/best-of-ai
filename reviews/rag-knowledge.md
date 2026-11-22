@@ -23,7 +23,7 @@ Open Notebook organizes PDFs, videos, audio, web pages and Office docs into note
 <sub>GPU optional · Docker + Compose · Needs SurrealDB, Docker Compose, LLM provider API key or Ollama · Models: OpenAI, Anthropic, Google, Mistral, Groq · port 8502 · README: alternative to NotebookLM · [Repo](https://github.com/lfnovo/open-notebook) · [🌐 Site ↗](https://www.open-notebook.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-notebook/)</sub>
 
 <a name="lightrag"></a>
-### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Nov 2026</sub>
+### 🥈 [LightRAG](https://github.com/hkuds/lightrag) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Nov 2026</sub>
 
 **Graph-based RAG framework with a REST server and WebUI.**
 
@@ -77,7 +77,7 @@ SurfSense is a desktop app for Windows, macOS (Apple Silicon) and Linux that ans
 <sub>GPU optional · Docker + Compose · Needs LibreOffice (optional, for Office conversion) · Models: OpenAI-compatible APIs, local models · README: alternative to NotebookLM · [Repo](https://github.com/modsetter/surfsense) · [🌐 Site ↗](https://www.surfsense.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/surfsense/)</sub>
 
 <a name="ragflow"></a>
-### #&#8288;5 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 95k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;5 [RAGFlow](https://github.com/infiniflow/ragflow) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 95k · Apache-2.0 · Nov 2026</sub>
 
 **RAG engine with document parsing, agentic retrieval and citations.**
 
@@ -113,7 +113,7 @@ DeepTutor is a Python tutoring application that builds a learning workspace arou
 <sub>Docker + Compose · Needs LLM provider or local model endpoint, Embedding model provider · Models: OpenAI-compatible providers, Anthropic, Gemini, OpenAI Codex OAuth, NVIDIA NIM · [Repo](https://github.com/hkuds/deeptutor) · [📖 Docs ↗](https://deeptutor.info) · [🌐 Site ↗](https://deeptutor.info) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeptutor/)</sub>
 
 <a name="morphic"></a>
-### #&#8288;7 [Morphic](https://github.com/miurla/morphic) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;7 [Morphic](https://github.com/miurla/morphic) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · Apache-2.0 · Nov 2026</sub>
 
 **AI answer engine with cited search results and generative UI components.**
 
@@ -329,7 +329,7 @@ Engine behind aihot.news. It ingests RSS, web lists, JSON APIs, X accounts and W
 <sub>no GPU · Docker + Compose · Needs PostgreSQL 17, Node.js 24, Docker Compose, OpenAI-compatible LLM API · Models: OpenAI-compatible APIs (DeepSeek, Qwen, Zhipu) · port 3000 · [Repo](https://github.com/kkkkhazix/aihot) · [🌐 Site ↗](https://aihot.news) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aihot/)</sub>
 
 <a name="niubigeo"></a>
-### #&#8288;19 [niubigeo](https://github.com/albert-weasker/niubigeo) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [niubigeo](https://github.com/albert-weasker/niubigeo) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted tool for tracking how AI models mention your brand and competitors.**
 
@@ -471,8 +471,26 @@ PandaWiki builds documentation sites, FAQs and blogs from an admin console, and 
 
 <sub>no GPU · Needs Docker 20.x or newer, Linux server with root access, LLM provider (Baizhi Cloud model square suggested) · Models: unknown · port 2443 · [Repo](https://github.com/chaitin/pandawiki) · [📖 Docs ↗](https://pandawiki.docs.baizhi.cloud/node/01971602-bb4e-7c90-99df-6d3c38cfd6d5) · [🌐 Site ↗](https://ly.safepoint.cloud/Br48PoX) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pandawiki/)</sub>
 
+<a name="pixelrag"></a>
+### #&#8288;27 [pixelrag](https://github.com/startrail-org/pixelrag) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
+
+**Visual RAG that renders pages and PDFs to screenshots and searches the images.**
+
+PixelRAG renders web pages, PDFs and images to screenshot tiles with Playwright/CDP, embeds them with a LoRA-fine-tuned Qwen3-VL-Embedding-2B, and serves FAISS (or Qdrant) search through a FastAPI endpoint. Tables, charts and layout are kept because nothing is parsed to text. It also ships a pixelbrowse plugin for Claude Code and opencode, and a hosted index of 8.28M Wikipedia pages.
+
+- **+** Retrieves over screenshots, so tables, charts and layout survive indexing
+- **+** Hosted API over 8.28M Wikipedia pages, no setup or API key
+- **+** Stages run standalone: pixelshot, chunk, embed, build-index, serve
+- **+** Runs on Linux CUDA and Apple Silicon MPS; FAISS default, optional Qdrant backend
+- **−** Pre-built base Wikipedia index is about 217G to download
+- **−** Docker image is not built in CI and runs Chrome without its sandbox
+- **−** Training is a separate uv project with pinned torch 2.9.1+cu129
+- **−** Bundled turbo headless_shell auto-installs on linux-x64 only
+
+<sub>GPU optional · Docker + Compose · Needs Chromium/Chrome (Playwright), FAISS, poppler (PDF), Qdrant (optional) · Models: Qwen3-VL-Embedding-2B, LoRA adapters on Hugging Face · port 30001 · [Repo](https://github.com/startrail-org/pixelrag) · [▶️ Demo ↗](https://pixelrag.ai) · [📖 Docs ↗](https://pixelrag.ai/docs) · [🌐 Site ↗](https://pixelrag.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pixelrag/)</sub>
+
 <a name="ultrarag"></a>
-### #&#8288;27 [ultrarag](https://github.com/openbmb/ultrarag) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (70) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;28 [ultrarag](https://github.com/openbmb/ultrarag) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (70) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Nov 2026</sub>
 
 **MCP-based RAG framework with YAML pipelines and a visual pipeline builder.**
 
@@ -490,7 +508,7 @@ UltraRAG splits RAG components such as retriever and generation into independent
 <sub>GPU optional · Docker · Needs uv, Milvus, Docker, NVIDIA Container Toolkit · Models: vLLM, AgentCPM-Report, MiniCPM-Embedding-Light · port 5050 · [Repo](https://github.com/openbmb/ultrarag) · [📖 Docs ↗](https://ultrarag.openbmb.cn/pages/en/getting_started/introduction) · [🌐 Site ↗](https://ultrarag.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ultrarag/)</sub>
 
 <a name="hyper-extract"></a>
-### #&#8288;28 [hyper-extract](https://github.com/yifanfeng97/hyper-extract) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · custom license · Nov 2026</sub>
+### #&#8288;29 [hyper-extract](https://github.com/yifanfeng97/hyper-extract) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · custom license · Nov 2026</sub>
 
 **CLI that extracts knowledge graphs from documents using LLMs and YAML templates.**
 
@@ -508,7 +526,7 @@ Hyper-Extract is a Python CLI (`he`) and library that parses documents such as P
 <sub>GPU optional · Needs LLM provider API or local vLLM, OpenAI-compatible embedding endpoint, uv or pipx · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Alibaba Bailian · [Repo](https://github.com/yifanfeng97/hyper-extract) · [📖 Docs ↗](https://yifanfeng97.github.io/Hyper-Extract/latest/) · [🌐 Site ↗](https://yifanfeng97.github.io/Hyper-Extract/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hyper-extract/)</sub>
 
 <a name="horizon"></a>
-### #&#8288;29 [horizon](https://github.com/thysrael/horizon) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Nov 2026</sub>
+### #&#8288;30 [horizon](https://github.com/thysrael/horizon) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · MIT · Nov 2026</sub>
 
 **Daily AI-curated news briefings from RSS, Hacker News, Reddit and more.**
 
@@ -524,24 +542,6 @@ Horizon pulls items from RSS, Hacker News, Reddit, Telegram, X, GitHub and other
 - **−** No tagged releases
 
 <sub>no GPU · Docker + Compose · Needs LLM provider API key (OpenAI, Gemini, etc.), uv or pip, SMTP/IMAP for email delivery (optional), Apify for X source (optional) · Models: OpenAI, Gemini, Claude, DeepSeek, Doubao · [Repo](https://github.com/thysrael/horizon) · [▶️ Demo ↗](https://thysrael.github.io/Horizon/) · [📖 Docs ↗](https://thysrael.github.io/Horizon/configuration) · [🌐 Site ↗](https://www.horizon1123.top/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/horizon/)</sub>
-
-<a name="pixelrag"></a>
-### #&#8288;30 [pixelrag](https://github.com/startrail-org/pixelrag) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
-
-**Visual RAG that renders pages and PDFs to screenshots and searches the images.**
-
-PixelRAG renders web pages, PDFs and images to screenshot tiles with Playwright/CDP, embeds them with a LoRA-fine-tuned Qwen3-VL-Embedding-2B, and serves FAISS (or Qdrant) search through a FastAPI endpoint. Tables, charts and layout are kept because nothing is parsed to text. It also ships a pixelbrowse plugin for Claude Code and opencode, and a hosted index of 8.28M Wikipedia pages.
-
-- **+** Retrieves over screenshots, so tables, charts and layout survive indexing
-- **+** Hosted API over 8.28M Wikipedia pages, no setup or API key
-- **+** Stages run standalone: pixelshot, chunk, embed, build-index, serve
-- **+** Runs on Linux CUDA and Apple Silicon MPS; FAISS default, optional Qdrant backend
-- **−** Pre-built base Wikipedia index is about 217G to download
-- **−** Docker image is not built in CI and runs Chrome without its sandbox
-- **−** Training is a separate uv project with pinned torch 2.9.1+cu129
-- **−** Bundled turbo headless_shell auto-installs on linux-x64 only
-
-<sub>GPU optional · Docker + Compose · Needs Chromium/Chrome (Playwright), FAISS, poppler (PDF), Qdrant (optional) · Models: Qwen3-VL-Embedding-2B, LoRA adapters on Hugging Face · port 30001 · [Repo](https://github.com/startrail-org/pixelrag) · [▶️ Demo ↗](https://pixelrag.ai) · [📖 Docs ↗](https://pixelrag.ai/docs) · [🌐 Site ↗](https://pixelrag.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pixelrag/)</sub>
 
 <a name="opendeepwiki"></a>
 ### #&#8288;31 [opendeepwiki](https://github.com/aidotnet/opendeepwiki) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Oct 2026</sub>
@@ -831,8 +831,26 @@ TrustGraph extracts RDF triples from documents using your OWL ontology, stores t
 
 <sub>GPU optional · Docker · Needs Cassandra, Qdrant, Apache Pulsar or RabbitMQ, S3-compatible object storage, Docker, Podman or Kubernetes · Models: OpenAI-compatible, Claude, Gemini, AWS Bedrock, Azure · [Repo](https://github.com/trustgraph-ai/trustgraph) · [📖 Docs ↗](https://docs.trustgraph.ai) · [🌐 Site ↗](https://trustgraph.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trustgraph/)</sub>
 
+<a name="sentrysearch"></a>
+### #&#8288;47 [sentrysearch](https://github.com/ssrajadh/sentrysearch) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2026</sub>
+
+**Semantic search over video footage that returns trimmed clips from text or image queries.**
+
+SentrySearch splits videos into overlapping chunks, embeds them with Gemini, Alibaba DashScope, LiteLLM or a local Qwen3-VL-Embedding model, and stores vectors in a local ChromaDB. Text or image queries are matched against the chunks, and the top match is trimmed from the source file with ffmpeg. It also offers anomaly-based highlights, VLM reranking, and MLX support on Apple Silicon.
+
+- **+** Several backends: Gemini, qwen-cloud, LiteLLM, local PyTorch, and MLX for Apple Silicon
+- **+** Fully local option keeps footage on your machine; vectors stored in local ChromaDB
+- **+** Auto-trims matching clips; supports image queries, reranking and anomaly highlights
+- **+** Backend and model auto-detected from the index; separate indexes avoid mixing embeddings
+- **−** Default Gemini backend sends video chunks to a cloud API and costs money
+- **−** Requires Python 3.11 or 3.12; PyTorch wheels block 3.13+
+- **−** Local backend is impractical on CPU-only or Intel Macs
+- **−** MLX backend does not support --rerank; LiteLLM backend also lacks it
+
+<sub>GPU optional · Needs ffmpeg, ChromaDB, uv, Gemini API (default backend) · Models: Gemini Embedding, Qwen3-VL-Embedding 2B/8B, qwen3-vl-embedding (DashScope), LiteLLM gateways, MLX 4-bit · [Repo](https://github.com/ssrajadh/sentrysearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sentrysearch/)</sub>
+
 <a name="company-research-agent"></a>
-### #&#8288;47 [company-research-agent](https://github.com/guy-hartstein/company-research-agent) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;48 [company-research-agent](https://github.com/guy-hartstein/company-research-agent) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Oct 2026</sub>
 
 **Turns a company name into a source-backed research briefing with PDF export.**
 
@@ -850,7 +868,7 @@ FastAPI backend and React UI that run a research graph (analyzers, collector, cu
 <sub>no GPU · Docker + Compose · Needs Tavily API, OpenRouter or OpenAI API, MongoDB (optional), Google Maps API (optional) · Models: OpenRouter catalog, OpenAI, Gemini · port 5174 · [Repo](https://github.com/guy-hartstein/company-research-agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/company-research-agent/)</sub>
 
 <a name="vane"></a>
-### #&#8288;48 [Vane](https://github.com/itzcrazykns/vane) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: widely used (92) · Freshness: active (96) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · MIT · Sep 2026</sub>
+### #&#8288;49 [Vane](https://github.com/itzcrazykns/vane) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: widely used (92) · Freshness: active (96) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · MIT · Sep 2026</sub>
 
 **Self-hosted answer engine with cited sources over SearXNG.**
 
@@ -866,24 +884,6 @@ Next.js answer engine (formerly Perplexica) that runs searches through a bundled
 - **−** Ollama on Linux must listen on 0.0.0.0 for the container to reach it
 
 <sub>no GPU · Docker + Compose · Needs SearXNG (bundled in the default image), LLM provider (Ollama, OpenAI-compatible server or cloud API) · Models: Ollama, OpenAI, Anthropic Claude, Google Gemini, Groq · port 3000 · [Repo](https://github.com/itzcrazykns/vane) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vane/)</sub>
-
-<a name="sentrysearch"></a>
-### #&#8288;49 [sentrysearch](https://github.com/ssrajadh/sentrysearch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2026</sub>
-
-**Semantic search over video footage that returns trimmed clips from text or image queries.**
-
-SentrySearch splits videos into overlapping chunks, embeds them with Gemini, Alibaba DashScope, LiteLLM or a local Qwen3-VL-Embedding model, and stores vectors in a local ChromaDB. Text or image queries are matched against the chunks, and the top match is trimmed from the source file with ffmpeg. It also offers anomaly-based highlights, VLM reranking, and MLX support on Apple Silicon.
-
-- **+** Several backends: Gemini, qwen-cloud, LiteLLM, local PyTorch, and MLX for Apple Silicon
-- **+** Fully local option keeps footage on your machine; vectors stored in local ChromaDB
-- **+** Auto-trims matching clips; supports image queries, reranking and anomaly highlights
-- **+** Backend and model auto-detected from the index; separate indexes avoid mixing embeddings
-- **−** Default Gemini backend sends video chunks to a cloud API and costs money
-- **−** Requires Python 3.11 or 3.12; PyTorch wheels block 3.13+
-- **−** Local backend is impractical on CPU-only or Intel Macs
-- **−** MLX backend does not support --rerank; LiteLLM backend also lacks it
-
-<sub>GPU optional · Needs ffmpeg, ChromaDB, uv, Gemini API (default backend) · Models: Gemini Embedding, Qwen3-VL-Embedding 2B/8B, qwen3-vl-embedding (DashScope), LiteLLM gateways, MLX 4-bit · [Repo](https://github.com/ssrajadh/sentrysearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sentrysearch/)</sub>
 
 <a name="morphik"></a>
 ### #&#8288;50 [Morphik](https://github.com/morphik-org/morphik-core) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (41) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · custom license · Nov 2026</sub>
