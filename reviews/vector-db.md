@@ -471,7 +471,7 @@ sqlite-vec adds vec0 virtual tables to SQLite for storing float, int8 and binary
 <sub>no GPU · Needs SQLite · Models: float vectors, int8 vectors, binary vectors · [Repo](https://github.com/asg017/sqlite-vec) · [📖 Docs ↗](https://alexgarcia.xyz/sqlite-vec/installation.html) · [🌐 Site ↗](https://alexgarcia.xyz/sqlite-vec/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sqlite-vec/)</sub>
 
 <a name="ann-benchmarks"></a>
-### #&#8288;27 [ann-benchmarks](https://github.com/erikbern/ann-benchmarks) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (48) · Freshness: active (84) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Jul 2026</sub>
+### #&#8288;27 [ann-benchmarks](https://github.com/erikbern/ann-benchmarks) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: known (48) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Jul 2026</sub>
 
 **Benchmark harness comparing approximate nearest neighbor libraries on recall versus speed.**
 

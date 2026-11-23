@@ -1,5 +1,5 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
-updated_at: 2026-11-22
+updated_at: 2026-11-23
 entries:
   - id: exo
     repo: exo-explore/exo
@@ -47,7 +47,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 77
+    score: 76
   - id: hindsight
     repo: vectorize-io/hindsight
     name: hindsight
@@ -2284,7 +2284,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 68
+    score: 67
   - id: bitnet
     repo: microsoft/bitnet
     name: bitnet
@@ -2810,7 +2810,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 42
+    score: 41
   - id: happy-llm
     repo: datawhalechina/happy-llm
     name: happy-llm
@@ -7287,7 +7287,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 26
+    score: 25
   - id: genai-agents
     repo: nirdiamant/genai_agents
     name: genai_agents
@@ -8563,39 +8563,39 @@ entries:
     repo: screenpipe/screenpipe
     name: screenpipe
     status: listed
-    tagline: Records screen and audio locally, makes it searchable for you and your agents
-    summary: Screenpipe captures screen content (accessibility tree, with OCR as fallback), system audio and microphone with local Whisper transcription, and stores it in a local SQLite database. It exposes a localhost REST API on port 3030, an MCP server, and pipes, which are scheduled agents defined in markdown that query this history. Newer versions also target teams, with central config and per-pipe data permissions.
+    tagline: Local screen and audio recorder with search, MCP server and workflow discovery
+    summary: Screenpipe records screen activity (accessibility tree, with OCR fallback) and audio (local Whisper or Deepgram) on your machine and indexes it in SQLite for natural-language and keyword search. It exposes the history through a REST API on localhost:3030, an MCP server, a JS SDK and scheduled markdown-defined agents called pipes. Newer features analyze captures to find repeated workflows to hand off to other agents.
     categories:
       - desktop-apps
       - memory
     strengths:
-      - Event-driven capture uses the accessibility tree first, OCR only as fallback
-      - Local REST API on port 3030, raw SQLite access and an MCP server
+      - Event-driven capture pairs screenshots with accessibility text, using OCR only as fallback
+      - Local REST API on port 3030, MCP server, JS SDK and raw SQLite access
       - Pipes are markdown files with per-pipe app, window and endpoint permissions
       - Runs on macOS, Windows and Linux; works with local models such as Ollama
     weaknesses:
-      - "Source-available license: commercial use requires a paid commercial license"
-      - Continuous capture of everything on screen raises privacy and compliance concerns
-      - Capture alone takes about 5-20% CPU and 0.5-3 GB RAM; storage use is unspecified
-      - Some features depend on paid plans; Linux capture varies by desktop environment
+      - Source-available commercial license; commercial use requires a paid license
+      - Free, Basic and Business plans gate some desktop app features
+      - Continuous capture uses roughly 5-20% CPU and 0.5-3 GB RAM
+      - Cloud AI, sync and team storage send data off-device; local-only needs separate configuration
     specs:
       ram_min_gb: 8
       gpu: optional
       external_deps:
-        - Node.js (npx CLI)
-        - Ollama (optional local LLM)
-        - Deepgram (optional cloud transcription)
+        - Ollama (optional)
+        - Deepgram (optional)
+        - Node.js/npx for CLI and MCP
       model_support:
         - Whisper Large-V3-Turbo
         - Deepgram
-        - Ollama
-        - OpenAI-compatible servers
+        - Ollama local models
+        - cloud LLMs
       web_port: 3030
     links:
       demo: null
       website: https://screenpi.pe
       docs: https://docs.screenpi.pe
-    audience: Developers and teams wanting searchable screen history as agent context
+    audience: Developers and knowledge workers wanting searchable local screen history
     confidence: 0.8
     facts:
       stars: 22506
@@ -13758,7 +13758,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 74
+    score: 73
   - id: eino
     repo: cloudwego/eino
     name: eino
@@ -14498,7 +14498,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 40
   - id: new-api
     repo: quantumnous/new-api
     name: new-api
@@ -20309,7 +20309,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 63
+    score: 62
   - id: langchain-chinese-getting-started-guide
     repo: liaokongvfx/langchain-chinese-getting-started-guide
     name: langchain-chinese-getting-started-guide
@@ -25984,7 +25984,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 31
+    score: 30
   - id: agent-native
     repo: builderio/agent-native
     name: agent-native
@@ -28576,7 +28576,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 27
+    score: 26
   - id: trueforge
     repo: truefoundry/trueforge
     name: trueforge
@@ -28825,7 +28825,7 @@ entries:
       has_compose: true
       is_template: false
       language: C
-    score: 41
+    score: 40
   - id: babeldoc
     repo: funstory-ai/babeldoc
     name: babeldoc
@@ -30525,7 +30525,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 38
   - id: flash-linear-attention
     repo: fla-org/flash-linear-attention
     name: flash-linear-attention
@@ -33805,7 +33805,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 38
   - id: basic-pitch
     repo: spotify/basic-pitch
     name: basic-pitch
@@ -38022,7 +38022,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 38
   - id: scriberr
     repo: rishikanthc/scriberr
     name: scriberr
@@ -40908,7 +40908,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 11
+    score: 10
   - id: cosmo-edge
     repo: cosmo-wander-ai/cosmo-edge
     name: cosmo-edge
@@ -47147,7 +47147,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 40
+    score: 39
   - id: sensenova-skills
     repo: opensensenova/sensenova-skills
     name: sensenova-skills
@@ -48276,7 +48276,7 @@ entries:
       has_compose: false
       is_template: false
       language: Scala
-    score: 63
+    score: 62
   - id: wenet
     repo: wenet-e2e/wenet
     name: wenet
@@ -50134,7 +50134,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 20
+    score: 19
   - id: synonyms
     repo: chatopera/synonyms
     name: synonyms
@@ -54560,7 +54560,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 30
+    score: 29
   - id: lingbot-world
     repo: robbyant/lingbot-world
     name: lingbot-world
@@ -54608,7 +54608,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 40
   - id: pilotdeck
     repo: openbmb/pilotdeck
     name: pilotdeck
@@ -55739,7 +55739,7 @@ entries:
       has_compose: false
       is_template: false
       language: C
-    score: 19
+    score: 18
   - id: pgmpy
     repo: pgmpy/pgmpy
     name: pgmpy
@@ -56066,7 +56066,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 14
+    score: 13
   - id: chaterm
     repo: chaterm/chaterm
     name: chaterm
@@ -61392,7 +61392,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 38
+    score: 37
   - id: audio-cpp
     repo: 0xshug0/audio.cpp
     name: audio.cpp
@@ -61850,7 +61850,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 34
+    score: 33
   - id: lightly
     repo: lightly-ai/lightly
     name: lightly
@@ -64826,7 +64826,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 38
+    score: 37
   - id: surya
     repo: datalab-to/surya
     name: surya
@@ -65255,7 +65255,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 3
+    score: 2
   - id: strands-decider
     repo: strands-labs/strands-decider
     name: strands-decider
@@ -66356,7 +66356,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 20
+    score: 19
   - id: spacy-models
     repo: explosion/spacy-models
     name: spacy-models
@@ -66722,7 +66722,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 34
+    score: 33
   - id: machine-learning
     repo: ethen8181/machine-learning
     name: machine-learning
@@ -67157,7 +67157,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 15
+    score: 14
   - id: parl
     repo: paddlepaddle/parl
     name: parl
@@ -67948,7 +67948,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 36
+    score: 35
   - id: lazypredict
     repo: shankarpandala/lazypredict
     name: lazypredict
@@ -72213,7 +72213,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 40
   - id: quant-mind
     repo: llmquant/quant-mind
     name: quant-mind
@@ -74224,7 +74224,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 24
+    score: 23
   - id: chitu
     repo: thu-pacman/chitu
     name: chitu
@@ -74836,7 +74836,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 35
+    score: 34
   - id: easyedit
     repo: zjunlp/easyedit
     name: easyedit
@@ -75783,7 +75783,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 15
+    score: 14
   - id: openroom
     repo: minimax-ai/openroom
     name: openroom
@@ -77014,7 +77014,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 17
+    score: 16
   - id: adapters
     repo: adapter-hub/adapters
     name: adapters
@@ -80757,7 +80757,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 16
+    score: 15
   - id: deepdetect
     repo: jolibrain/deepdetect
     name: deepdetect
@@ -81244,7 +81244,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 12
+    score: 11
   - id: partcrafter
     repo: wgsxm/partcrafter
     name: partcrafter
@@ -81626,7 +81626,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 27
+    score: 26
   - id: tensorflow-federated
     repo: google-parfait/tensorflow-federated
     name: tensorflow-federated
@@ -82140,7 +82140,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 18
+    score: 17
   - id: internvideo
     repo: opengvlab/internvideo
     name: internvideo
@@ -82538,7 +82538,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 16
+    score: 15
   - id: orcareplay
     repo: continuum-ai-corp/orcareplay
     name: orcareplay
@@ -83246,7 +83246,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 40
   - id: deepbi
     repo: deepinsight-ai/deepbi
     name: deepbi
@@ -88682,7 +88682,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 9
+    score: 8
   - id: webdnn
     repo: mil-tokyo/webdnn
     name: webdnn
@@ -89853,7 +89853,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 14
+    score: 13
   - id: gplearn
     repo: trevorstephens/gplearn
     name: gplearn
@@ -89897,7 +89897,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 13
+    score: 12
   - id: deepseek-ocr-app
     repo: rdumasia303/deepseek_ocr_app
     name: deepseek_ocr_app
@@ -92934,7 +92934,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 49
+    score: 48
   - id: heym
     repo: heymrun/heym
     name: heym
@@ -98382,7 +98382,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 51
+    score: 50
   - id: invokeai
     repo: invoke-ai/invokeai
     name: InvokeAI
@@ -98863,7 +98863,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 48
+    score: 47
   - id: local-deep-research
     repo: learningcircuit/local-deep-research
     name: Local Deep Research
@@ -99789,7 +99789,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 45
+    score: 44
   - id: openshell
     repo: nvidia/openshell
     name: OpenShell

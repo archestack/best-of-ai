@@ -833,7 +833,7 @@ Provides an MCP server (okx-trade-mcp) and a CLI (okx-trade-cli) that expose 170
 <sub>no GPU · Needs Node.js >= 18, OKX API credentials · Models: Any MCP-compatible client (Claude Desktop, Cursor, Claude Code, VS Code) · [Repo](https://github.com/okx/agent-trade-kit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-trade-kit/)</sub>
 
 <a name="mcp-pandoc"></a>
-### #&#8288;47 [mcp-pandoc](https://github.com/vivekvells/mcp-pandoc) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (8) · Freshness: active (98) · Maintenance: weak (17) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 589 · MIT · Aug 2026</sub>
+### #&#8288;47 [mcp-pandoc](https://github.com/vivekvells/mcp-pandoc) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (8) · Freshness: active (97) · Maintenance: weak (17) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 589 · MIT · Aug 2026</sub>
 
 **MCP server that converts documents between formats using pandoc.**
 
@@ -851,7 +851,7 @@ An MCP server that exposes a single `convert-contents` tool, which calls pandoc 
 <sub>no GPU · Docker · Needs pandoc, uv, TeX Live (for PDF output) · [Repo](https://github.com/vivekvells/mcp-pandoc) · [▶️ Demo ↗](https://youtu.be/vN3VOb0rygM) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-pandoc/)</sub>
 
 <a name="opennews-mcp"></a>
-### #&#8288;48 [opennews-mcp](https://github.com/6551team/opennews-mcp) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (45) · Freshness: active (98) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Aug 2026</sub>
+### #&#8288;48 [opennews-mcp](https://github.com/6551team/opennews-mcp) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (45) · Freshness: active (97) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Aug 2026</sub>
 
 **MCP server exposing crypto and financial news, signals and filings to AI assistants.**
 
@@ -869,7 +869,7 @@ Python MCP server that wraps the hosted 6551 API (ai.6551.io) and gives assistan
 <sub>no GPU · Needs 6551 API (ai.6551.io), OPENNEWS_TOKEN, uv · [Repo](https://github.com/6551team/opennews-mcp) · [🌐 Site ↗](https://6551.io/mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opennews-mcp/)</sub>
 
 <a name="opentabs"></a>
-### #&#8288;49 [opentabs](https://github.com/opentabs-dev/opentabs) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (17) · Freshness: active (90) · Maintenance: weak (10) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · MIT · Jul 2026</sub>
+### #&#8288;49 [opentabs](https://github.com/opentabs-dev/opentabs) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (17) · Freshness: active (89) · Maintenance: weak (10) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · MIT · Jul 2026</sub>
 
 **MCP server that lets AI call web APIs through your logged-in Chrome session.**
 
@@ -905,7 +905,7 @@ Python MCP server that lets an AI assistant look up companies by CIK, retrieve 1
 <sub>no GPU · Docker · Needs SEC EDGAR, Docker or Python 3.11+ · port 9870 · [Repo](https://github.com/stefanoamorelli/sec-edgar-mcp) · [📖 Docs ↗](https://sec-edgar-mcp.amorelli.tech/setup/quickstart) · [🌐 Site ↗](https://sec-edgar-mcp.amorelli.tech/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sec-edgar-mcp/)</sub>
 
 <a name="terminator"></a>
-### #&#8288;51 [terminator](https://github.com/mediar-ai/terminator) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (28) · Freshness: recent (75) · Maintenance: weak (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Jun 2026</sub>
+### #&#8288;51 [terminator](https://github.com/mediar-ai/terminator) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (28) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Jun 2026</sub>
 
 **MCP server and SDKs that let AI control Windows desktop apps.**
 
@@ -1031,7 +1031,7 @@ Python bridge that exposes MetaTrader 5 account info, market data, order placeme
 <sub>no GPU · Needs MetaTrader 5 terminal, MT5 trading account, Python 3.10+ · Models: Claude Desktop, Claude Code, Open WebUI · port 8080 · [Repo](https://github.com/ariadng/metatrader-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metatrader-mcp-server/)</sub>
 
 <a name="fetch-mcp"></a>
-### #&#8288;58 [fetch-mcp](https://github.com/zcaceres/fetch-mcp) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (13) · Freshness: slowing (39) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 837 · MIT · Mar 2026</sub>
+### #&#8288;58 [fetch-mcp](https://github.com/zcaceres/fetch-mcp) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (13) · Freshness: slowing (39) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 837 · MIT · Mar 2026</sub>
 
 **MCP server that fetches web pages as HTML, Markdown, text, JSON or transcripts.**
 

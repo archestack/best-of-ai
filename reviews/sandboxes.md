@@ -418,7 +418,7 @@ E2B Code Interpreter lets an app start isolated cloud sandboxes and run AI-gener
 <sub>no GPU · Needs E2B account and API key (E2B_API_KEY) · [Repo](https://github.com/e2b-dev/code-interpreter) · [📖 Docs ↗](https://docs.e2b.dev/) · [🌐 Site ↗](https://e2b.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/code-interpreter/)</sub>
 
 <a name="browser-use-web-ui"></a>
-### #&#8288;24 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (80) · Freshness: recent (52) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+### #&#8288;24 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (80) · Freshness: recent (52) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
 
 **Gradio UI for running browser-use agents with your own Chrome.**
 
@@ -436,7 +436,7 @@ Gradio front end over the browser-use library that takes a task, drives a Playwr
 <sub>no GPU · Docker + Compose · Needs Playwright browsers, LLM API key or Ollama, Chrome (optional, own-browser mode) · Models: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek · port 7788 · [Repo](https://github.com/browser-use/web-ui) · [📖 Docs ↗](https://docs.browser-use.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/browser-use-web-ui/)</sub>
 
 <a name="runtime"></a>
-### #&#8288;25 [capsulerun/runtime](https://github.com/capsulerun/runtime) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (0) · Freshness: active (98) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 304 · Apache-2.0 · Oct 2026</sub>
+### #&#8288;25 [capsulerun/runtime](https://github.com/capsulerun/runtime) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (0) · Freshness: active (97) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 304 · Apache-2.0 · Oct 2026</sub>
 
 **WebAssembly sandbox runtime for running untrusted Python and TypeScript tasks.**
 

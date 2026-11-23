@@ -632,26 +632,8 @@ Harbor is a CLI and companion desktop app that orchestrates Docker Compose servi
 
 <sub>GPU optional · Docker + Compose · Needs Docker Compose · Models: Ollama, llama.cpp, vLLM, SGLang, TGI · [Repo](https://github.com/av/harbor) · [📖 Docs ↗](https://github.com/av/harbor/wiki/1.-Harbor-User-Guide) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/av-harbor/)</sub>
 
-<a name="exo"></a>
-### #&#8288;36 [exo-explore/exo](https://github.com/exo-explore/exo) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (95) · Freshness: active (97) · Maintenance: patchy (39) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · Apache-2.0 · Nov 2026</sub>
-
-**Pools Macs and other devices into one cluster to run large models.**
-
-exo discovers devices on the same network and splits a model across them using topology-aware parallelism, so models too large for one machine can run. It uses MLX for inference and MLX distributed for communication, with optional RDMA over Thunderbolt 5 on macOS 26.2 or later. It exposes OpenAI Chat Completions, Claude Messages, OpenAI Responses and Ollama-compatible APIs plus a built-in dashboard.
-
-- **+** Automatic device discovery, no manual cluster configuration
-- **+** Tensor parallelism: up to 1.8x on 2 devices, 3.2x on 4 devices
-- **+** Serves OpenAI, Claude Messages, Responses and Ollama-style APIs from one endpoint
-- **+** Ships a macOS menu bar app and a built-in dashboard with chat
-- **−** On Linux it currently runs on CPU only; GPU support is under development
-- **−** All devices must run the same exo version and build, or they do not join
-- **−** RDMA needs Thunderbolt 5 Macs, macOS 26.2+, Recovery-mode setup and full-mesh cabling
-- **−** Source install needs Xcode, Rust, Node and uv; no Docker image provided
-
-<sub>GPU optional · Needs MLX, uv, Node.js, Rust, Xcode (macOS source build) · Models: MLX, HuggingFace hub custom models · port 52415 · [Repo](https://github.com/exo-explore/exo) · [📖 Docs ↗](https://github.com/exo-explore/exo/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/exo/)</sub>
-
 <a name="turbo-fieldfare"></a>
-### #&#8288;37 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;36 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
 
 **Swift and Metal runtime that runs Gemma 4 26B-A4B in about 2 GB RAM.**
 
@@ -669,7 +651,7 @@ TurboFieldfare is a model-specific Swift and Metal inference runtime for Gemma 4
 <sub>RAM ≥ 8 GB · GPU required · Needs Swift 6.2+, macOS 26 SDK, Metal 4, Hugging Face (model download) · Models: Gemma 4 26B-A4B IT (MLX 4-bit, .gturbo format) · port 8080 · [Repo](https://github.com/drumih/turbo-fieldfare) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbo-fieldfare/)</sub>
 
 <a name="laya-mlx"></a>
-### #&#8288;38 [laya-mlx](https://github.com/mizorewww/laya-mlx) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;37 [laya-mlx](https://github.com/mizorewww/laya-mlx) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **MLX port of Laya typed-decision models for Apple Silicon, no token decoding.**
 
@@ -687,7 +669,7 @@ Independent MLX port of Convai Innovations' Laya models, which answer typed ques
 <sub>GPU required · Needs Apple Silicon, MLX, Python 3.11+, Hugging Face Hub (checkpoint download) · Models: convaiinnovations/laya (ModernBERT-large, 421M), convaiinnovations/laya-multilingual (mmBERT-base, 322M), convaiinnovations/laya-typed-decisions (ModernBERT-large, 421M) · [Repo](https://github.com/mizorewww/laya-mlx) · [📖 Docs ↗](https://github.com/mizorewww/laya-mlx/blob/main/BENCHMARKS.md) · [🌐 Site ↗](https://huggingface.co/aac6fef/laya-mlx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/laya-mlx/)</sub>
 
 <a name="lemonade"></a>
-### #&#8288;39 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;38 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
 
 **Local multi-modal AI server with OpenAI, Anthropic and Ollama APIs.**
 
@@ -703,6 +685,24 @@ Lemonade is a C++ local inference server that exposes text generation, speech-to
 - **−** Several TTS and audio backends have no macOS support
 
 <sub>GPU optional · Docker · Models: GGUF, ONNX, FLM, Whisper, Stable Diffusion · [Repo](https://github.com/lemonade-sdk/lemonade) · [📖 Docs ↗](https://github.com/lemonade-sdk/lemonade/blob/main/docs/README.md) · [🌐 Site ↗](https://lemonade-server.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lemonade/)</sub>
+
+<a name="exo"></a>
+### #&#8288;39 [exo-explore/exo](https://github.com/exo-explore/exo) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: widely used (95) · Freshness: active (97) · Maintenance: patchy (39) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · Apache-2.0 · Nov 2026</sub>
+
+**Pools Macs and other devices into one cluster to run large models.**
+
+exo discovers devices on the same network and splits a model across them using topology-aware parallelism, so models too large for one machine can run. It uses MLX for inference and MLX distributed for communication, with optional RDMA over Thunderbolt 5 on macOS 26.2 or later. It exposes OpenAI Chat Completions, Claude Messages, OpenAI Responses and Ollama-compatible APIs plus a built-in dashboard.
+
+- **+** Automatic device discovery, no manual cluster configuration
+- **+** Tensor parallelism: up to 1.8x on 2 devices, 3.2x on 4 devices
+- **+** Serves OpenAI, Claude Messages, Responses and Ollama-style APIs from one endpoint
+- **+** Ships a macOS menu bar app and a built-in dashboard with chat
+- **−** On Linux it currently runs on CPU only; GPU support is under development
+- **−** All devices must run the same exo version and build, or they do not join
+- **−** RDMA needs Thunderbolt 5 Macs, macOS 26.2+, Recovery-mode setup and full-mesh cabling
+- **−** Source install needs Xcode, Rust, Node and uv; no Docker image provided
+
+<sub>GPU optional · Needs MLX, uv, Node.js, Rust, Xcode (macOS source build) · Models: MLX, HuggingFace hub custom models · port 52415 · [Repo](https://github.com/exo-explore/exo) · [📖 Docs ↗](https://github.com/exo-explore/exo/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/exo/)</sub>
 
 <a name="llamafile"></a>
 ### #&#8288;40 [llamafile](https://github.com/mozilla-ai/llamafile) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · custom license · Nov 2026</sub>
@@ -1404,7 +1404,7 @@ Metarank is a Scala service that reranks items from an existing search or recomm
 <sub>Needs Redis (production state store), Elasticsearch/OpenSearch (optional, for LTR integration) · Models: LambdaMART (XGBoost), Matrix factorization ALS, LLM bi-encoder and cross-encoder text features · port 8080 · [Repo](https://github.com/metarank/metarank) · [▶️ Demo ↗](https://demo.metarank.ai) · [📖 Docs ↗](https://docs.metarank.ai) · [🌐 Site ↗](https://metarank.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metarank/)</sub>
 
 <a name="text-generation-webui"></a>
-### #&#8288;79 [Text Generation Web UI](https://github.com/oobabooga/textgen) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (95) · Freshness: active (98) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;79 [Text Generation Web UI](https://github.com/oobabooga/textgen) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (95) · Freshness: active (97) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · AGPL-3.0 · Aug 2026</sub>
 
 **Local LLM chat UI and API with five switchable loader backends.**
 
@@ -1656,7 +1656,7 @@ FastFlowLM runs LLMs, vision, audio, embedding and MoE models on the XDNA2 NPU o
 <sub>no GPU · Docker · Needs AMD Ryzen AI NPU (XDNA2), AMD NPU driver 32.0.203.311+, HuggingFace (model download) · Models: LLM, Vision, Audio, Embedding, MoE · port 52625 · [Repo](https://github.com/rocm/fastflowlm) · [📖 Docs ↗](https://fastflowlm.com/docs) · [🌐 Site ↗](https://www.fastflowlm.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fastflowlm/)</sub>
 
 <a name="bitnet"></a>
-### #&#8288;93 [bitnet](https://github.com/microsoft/bitnet) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (93) · Freshness: active (90) · Maintenance: weak (1) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Jul 2026</sub>
+### #&#8288;93 [bitnet](https://github.com/microsoft/bitnet) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (93) · Freshness: active (89) · Maintenance: weak (1) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Jul 2026</sub>
 
 **Inference framework for 1.58-bit ternary LLMs on CPU and GPU.**
 
@@ -1854,7 +1854,7 @@ A port of llama2.c to Mojo that runs Llama 2 architecture checkpoints (stories 2
 <sub>no GPU · Docker · Needs Mojo 1.1.0, MAX 26.6.0, uv, C compiler (gcc) · Models: stories260K, stories15M, stories42M, stories110M, TinyLlama-1.1B-Chat-v0.2 · [Repo](https://github.com/tairov/llama2.mojo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama2-mojo/)</sub>
 
 <a name="powerinfer"></a>
-### #&#8288;104 [powerinfer](https://github.com/tiiny-ai/powerinfer) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (70) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · MIT · May 2026</sub>
+### #&#8288;104 [powerinfer](https://github.com/tiiny-ai/powerinfer) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (70) · Freshness: recent (61) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · MIT · May 2026</sub>
 
 **CPU/GPU hybrid LLM inference engine exploiting sparse neuron activation.**
 
@@ -1890,7 +1890,7 @@ Mini-SGLang is a compact Python reimplementation of SGLang. It serves Hugging Fa
 <sub>GPU required · Docker · Needs NVIDIA CUDA Toolkit, FlashInfer, sgl-kernel, uv · Models: Hugging Face models, Qwen3, Llama 3.1, ModelScope download · port 1919 · [Repo](https://github.com/sgl-project/mini-sglang) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mini-sglang/)</sub>
 
 <a name="seldon-core"></a>
-### #&#8288;106 [seldon-core](https://github.com/seldonio/seldon-core) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (45) · Freshness: slowing (32) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Jan 2026</sub>
+### #&#8288;106 [seldon-core](https://github.com/seldonio/seldon-core) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (45) · Freshness: slowing (31) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Jan 2026</sub>
 
 **Kubernetes framework for serving ML models and Kafka-connected pipelines.**
 
@@ -1944,7 +1944,7 @@ PicoLM is a from-scratch LLM inference engine in about 2,500 lines of C11 that r
 <sub>no GPU · Needs libc, libm, libpthread · Models: GGUF v2/v3, LLaMA architecture, TinyLlama 1.1B, Llama 2 7B, Phi-2 · [Repo](https://github.com/rightnow-ai/picolm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/picolm/)</sub>
 
 <a name="deepstream-yolo"></a>
-### #&#8288;109 [deepstream-yolo](https://github.com/marcoslucianops/deepstream-yolo) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: niche (12) · Freshness: quiet (23) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
+### #&#8288;109 [deepstream-yolo](https://github.com/marcoslucianops/deepstream-yolo) <sub>score [10](../README.md#-how-we-rank "Score 10/100. Adoption: niche (12) · Freshness: quiet (23) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
 
 **NVIDIA DeepStream configs and GPU parsers for running YOLO and DETR detectors.**
 

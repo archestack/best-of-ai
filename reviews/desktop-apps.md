@@ -7,20 +7,20 @@ Apps you install on your own computer to chat with local or API models, often wi
 <a name="screenpipe"></a>
 ### 🥇 [screenpipe](https://github.com/screenpipe/screenpipe) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 23k · custom license · Nov 2026</sub>
 
-**Records screen and audio locally, makes it searchable for you and your agents.**
+**Local screen and audio recorder with search, MCP server and workflow discovery.**
 
-Screenpipe captures screen content (accessibility tree, with OCR as fallback), system audio and microphone with local Whisper transcription, and stores it in a local SQLite database. It exposes a localhost REST API on port 3030, an MCP server, and pipes, which are scheduled agents defined in markdown that query this history. Newer versions also target teams, with central config and per-pipe data permissions.
+Screenpipe records screen activity (accessibility tree, with OCR fallback) and audio (local Whisper or Deepgram) on your machine and indexes it in SQLite for natural-language and keyword search. It exposes the history through a REST API on localhost:3030, an MCP server, a JS SDK and scheduled markdown-defined agents called pipes. Newer features analyze captures to find repeated workflows to hand off to other agents.
 
-- **+** Event-driven capture uses the accessibility tree first, OCR only as fallback
-- **+** Local REST API on port 3030, raw SQLite access and an MCP server
+- **+** Event-driven capture pairs screenshots with accessibility text, using OCR only as fallback
+- **+** Local REST API on port 3030, MCP server, JS SDK and raw SQLite access
 - **+** Pipes are markdown files with per-pipe app, window and endpoint permissions
 - **+** Runs on macOS, Windows and Linux; works with local models such as Ollama
-- **−** Source-available license: commercial use requires a paid commercial license
-- **−** Continuous capture of everything on screen raises privacy and compliance concerns
-- **−** Capture alone takes about 5-20% CPU and 0.5-3 GB RAM; storage use is unspecified
-- **−** Some features depend on paid plans; Linux capture varies by desktop environment
+- **−** Source-available commercial license; commercial use requires a paid license
+- **−** Free, Basic and Business plans gate some desktop app features
+- **−** Continuous capture uses roughly 5-20% CPU and 0.5-3 GB RAM
+- **−** Cloud AI, sync and team storage send data off-device; local-only needs separate configuration
 
-<sub>RAM ≥ 8 GB · GPU optional · Needs Node.js (npx CLI), Ollama (optional local LLM), Deepgram (optional cloud transcription) · Models: Whisper Large-V3-Turbo, Deepgram, Ollama, OpenAI-compatible servers · port 3030 · [Repo](https://github.com/screenpipe/screenpipe) · [📖 Docs ↗](https://docs.screenpi.pe) · [🌐 Site ↗](https://screenpi.pe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/screenpipe/)</sub>
+<sub>RAM ≥ 8 GB · GPU optional · Needs Ollama (optional), Deepgram (optional), Node.js/npx for CLI and MCP · Models: Whisper Large-V3-Turbo, Deepgram, Ollama local models, cloud LLMs · port 3030 · [Repo](https://github.com/screenpipe/screenpipe) · [📖 Docs ↗](https://docs.screenpi.pe) · [🌐 Site ↗](https://screenpi.pe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/screenpipe/)</sub>
 
 <a name="cherry-studio"></a>
 ### 🥈 [cherry-studio](https://github.com/cherryhq/cherry-studio) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 54k · AGPL-3.0 · Nov 2026</sub>
@@ -1281,7 +1281,7 @@ Noi is a desktop app that runs AI chat sessions in multiple windows with isolate
 <sub>[Repo](https://github.com/lencx/noi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/noi/)</sub>
 
 <a name="b"></a>
-### #&#8288;72 [b](https://github.com/ahmadhassan-bted/b) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: known (49) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · MIT · Jul 2026</sub>
+### #&#8288;72 [b](https://github.com/ahmadhassan-bted/b) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: known (49) · Freshness: active (82) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · MIT · Jul 2026</sub>
 
 **Proactive desktop companion that reads your screen and speaks.**
 
@@ -1407,7 +1407,7 @@ Electron desktop chat client with a Node/Express backend that runs the Claude Ag
 <sub>no GPU · Needs Anthropic API key, Composio API key, Opencode API key (optional), Node.js, Electron · Models: Claude (Claude Agent SDK), Opencode SDK models · port 3001 · [Repo](https://github.com/composio-community/open-claude-cowork) · [📖 Docs ↗](https://docs.composio.dev/tool-router/overview) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-claude-cowork/)</sub>
 
 <a name="aichat"></a>
-### #&#8288;79 [aichat](https://github.com/sigoden/aichat) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (73) · Freshness: quiet (27) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;79 [aichat](https://github.com/sigoden/aichat) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (73) · Freshness: quiet (26) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Feb 2026</sub>
 
 **Rust command-line LLM client with shell assistant, REPL, RAG and agents.**
 
@@ -1479,7 +1479,7 @@ Witsy is a bring-your-own-keys desktop app (TypeScript, Electron-style tray app)
 <sub>GPU optional · Needs Ollama (optional, for local models), LLM provider API keys, Tavily API key (optional, for search) · Models: OpenAI, Anthropic, Google Gemini, xAI Grok, Meta Llama · port 8090 · [Repo](https://github.com/kochava-studios/witsy) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/witsy/)</sub>
 
 <a name="llmfarm"></a>
-### #&#8288;83 [llmfarm](https://github.com/guinmoon/llmfarm) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (15) · Freshness: quiet (18) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
+### #&#8288;83 [llmfarm](https://github.com/guinmoon/llmfarm) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (15) · Freshness: quiet (17) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
 
 **iOS and macOS app for running llama.cpp-based LLMs on-device.**
 

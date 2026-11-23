@@ -828,7 +828,7 @@ Native WinUI 3 companion for the OpenClaw gateway. It provides a tray flyout, wo
 <sub>GPU optional · Needs OpenClaw gateway, WSL (for local gateway), WebView2, Microsoft.Mxc.Sdk · Models: Ollama (shared from Windows), Managed Local AI profiles · port 18789 · [Repo](https://github.com/openclaw/openclaw-windows-node) · [📖 Docs ↗](https://docs.openclaw.ai/platforms/windows) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-windows-node/)</sub>
 
 <a name="picoclaw"></a>
-### #&#8288;47 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (87) · Freshness: active (99) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
+### #&#8288;47 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (87) · Freshness: active (98) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
 
 **Go assistant agent that runs in under 20 MB on $10 boards.**
 
@@ -1386,7 +1386,7 @@ MimiClaw is ESP-IDF firmware that turns an ESP32-S3 board with 16 MB flash and 8
 <sub>no GPU · Needs ESP32-S3 board (16 MB flash, 8 MB PSRAM), ESP-IDF v5.5+, Telegram bot token, Anthropic or OpenAI API key, Tavily or Brave Search API key (optional) · Models: Anthropic Claude, OpenAI GPT · port 18789 · [Repo](https://github.com/memovai/mimiclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mimiclaw/)</sub>
 
 <a name="open-llm-vtuber"></a>
-### #&#8288;78 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (78) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
+### #&#8288;78 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (78) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
 
 **Voice-chat AI companion with a Live2D avatar and desktop pet mode.**
 
@@ -1439,8 +1439,25 @@ MetaClaw is a local proxy between a personal agent (OpenClaw, CoPaw, IronClaw, P
 
 <sub>no GPU · Needs OpenAI-compatible LLM API, Tinker, MinT or Weaver (RL mode only), Google Calendar (optional) · Models: OpenAI-compatible APIs, Anthropic /v1/messages, Kimi, Qwen, OpenAI · port 30000 · [Repo](https://github.com/aiming-lab/metaclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metaclaw/)</sub>
 
+<a name="gpt-ai-assistant"></a>
+### #&#8288;81 [gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: popular (59) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Jun 2026</sub>
+
+**LINE chatbot backed by the OpenAI API.**
+
+JavaScript application that lets you chat with an OpenAI-backed assistant through the LINE mobile app, using the LINE Messaging API as the chat channel. The README mentions commands such as sum and search, but setup details live on a separate documentation site. The author points to a newer successor, fermi, built on Supabase and OpenRouter.
+
+- **+** Uses LINE as the chat front end, so no custom client app is needed
+- **+** MIT license; Dockerfile and Compose file are present in the repo
+- **+** Documentation published in English and Chinese
+- **−** Tied to the OpenAI API and LINE; other providers or chat apps are not described
+- **−** Last release was 2024-07-09; the author points to fermi as the successor
+- **−** README has no setup steps or requirements; it defers to the docs site
+- **−** Long-term memory and tool actions are not described in the README
+
+<sub>no GPU · Docker + Compose · Needs OpenAI API, LINE Messaging API · Models: OpenAI · [Repo](https://github.com/memochou1993/gpt-ai-assistant) · [📖 Docs ↗](https://memochou1993.github.io/gpt-ai-assistant-docs/en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-ai-assistant/)</sub>
+
 <a name="agent"></a>
-### #&#8288;81 [stakpak/agent](https://github.com/stakpak/agent) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (14) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;82 [stakpak/agent](https://github.com/stakpak/agent) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (14) · Freshness: active (87) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Jul 2026</sub>
 
 **Rust DevOps agent that runs on your servers with secret redaction and guardrails.**
 
@@ -1457,25 +1474,8 @@ Stakpak is a Rust CLI and TUI agent for DevOps work such as Terraform, Kubernete
 
 <sub>RAM ≥ 2 GB · no GPU · Docker · Needs Docker (for autopilot), LLM provider API key or OpenAI-compatible endpoint · Models: Anthropic, OpenAI, Gemini, OpenAI-compatible endpoints (Ollama, LM Studio) · [Repo](https://github.com/stakpak/agent) · [📖 Docs ↗](https://stakpak.gitbook.io/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent/)</sub>
 
-<a name="gpt-ai-assistant"></a>
-### #&#8288;82 [gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: popular (59) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Jun 2026</sub>
-
-**LINE chatbot backed by the OpenAI API.**
-
-JavaScript application that lets you chat with an OpenAI-backed assistant through the LINE mobile app, using the LINE Messaging API as the chat channel. The README mentions commands such as sum and search, but setup details live on a separate documentation site. The author points to a newer successor, fermi, built on Supabase and OpenRouter.
-
-- **+** Uses LINE as the chat front end, so no custom client app is needed
-- **+** MIT license; Dockerfile and Compose file are present in the repo
-- **+** Documentation published in English and Chinese
-- **−** Tied to the OpenAI API and LINE; other providers or chat apps are not described
-- **−** Last release was 2024-07-09; the author points to fermi as the successor
-- **−** README has no setup steps or requirements; it defers to the docs site
-- **−** Long-term memory and tool actions are not described in the README
-
-<sub>no GPU · Docker + Compose · Needs OpenAI API, LINE Messaging API · Models: OpenAI · [Repo](https://github.com/memochou1993/gpt-ai-assistant) · [📖 Docs ↗](https://memochou1993.github.io/gpt-ai-assistant-docs/en) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-ai-assistant/)</sub>
-
 <a name="deepbot"></a>
-### #&#8288;83 [deepbot](https://github.com/kevinluosl/deepbot) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (29) · Freshness: recent (75) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · May 2026</sub>
+### #&#8288;83 [deepbot](https://github.com/kevinluosl/deepbot) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (29) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · May 2026</sub>
 
 **Desktop AI assistant with per-tab agents, cron tasks and Feishu/WeChat connectors.**
 
@@ -1529,7 +1529,7 @@ A Docker image and compose setup that bundles OpenClaw with IM channel plugins f
 <sub>no GPU · Docker + Compose · Needs Docker, Docker Compose, LLM API (OpenAI or Claude protocol) · Models: OpenAI-compatible API, Claude API · [Repo](https://github.com/justlovemaki/openclaw-china-docker) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-china-docker/)</sub>
 
 <a name="paperdebugger"></a>
-### #&#8288;86 [paperdebugger](https://github.com/paperdebugger/paperdebugger) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (7) · Freshness: recent (76) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · AGPL-3.0 · Jul 2026</sub>
+### #&#8288;86 [paperdebugger](https://github.com/paperdebugger/paperdebugger) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (7) · Freshness: recent (75) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · AGPL-3.0 · Jul 2026</sub>
 
 **Chrome extension that adds an AI writing and review assistant to Overleaf.**
 
@@ -1582,7 +1582,7 @@ OpenHealth is a Next.js app that takes health inputs such as blood tests, checku
 <sub>GPU optional · Docker + Compose · Needs Docker or Podman Compose, Ollama (for local LLMs), docling (for local parsing), Python parsing server · Models: LLaMA, DeepSeek-V3, GPT, Claude, Gemini · port 3000 · [Repo](https://github.com/openhealthforall/open-health) · [▶️ Demo ↗](https://qna.open-health.me/) · [🌐 Site ↗](https://www.open-health.me/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-health/)</sub>
 
 <a name="openclawinstaller"></a>
-### #&#8288;89 [openclawinstaller](https://github.com/miaoxworld/openclawinstaller) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: known (37) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.4k · no license · Mar 2026</sub>
+### #&#8288;89 [openclawinstaller](https://github.com/miaoxworld/openclawinstaller) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: known (37) · Freshness: slowing (43) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.4k · no license · Mar 2026</sub>
 
 **Shell installer and config menu for the OpenClaw personal AI assistant.**
 
@@ -1600,7 +1600,7 @@ A Shell script that installs OpenClaw through npm on macOS and Linux, then walks
 <sub>RAM ≥ 2 GB · no GPU · Docker + Compose · Needs Node.js 22+, npm, openclaw · Models: Anthropic Claude, OpenAI GPT, Google Gemini, OpenRouter, Groq · [Repo](https://github.com/miaoxworld/openclawinstaller) · [📖 Docs ↗](https://clawd.bot/docs) · [🌐 Site ↗](https://clawd.bot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclawinstaller/)</sub>
 
 <a name="clawflows"></a>
-### #&#8288;90 [clawflows](https://github.com/nikilster/clawflows) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (9) · Freshness: recent (59) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.7k · no license · May 2026</sub>
+### #&#8288;90 [clawflows](https://github.com/nikilster/clawflows) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (9) · Freshness: recent (58) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.7k · no license · May 2026</sub>
 
 **Library of scheduled plain-text workflows for OpenClaw agents.**
 

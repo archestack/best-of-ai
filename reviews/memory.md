@@ -614,7 +614,7 @@ VoiceMem is a Python library that gives real-time voice agents long-term memory.
 <sub>GPU optional · Needs OpenAI API (fact extraction on write, chat, TTS, Realtime), Hugging Face model download (VoiceMem_Default_Models_Env), mem0, FunASR, sherpa-onnx · Models: Qwen2.5-Omni, Qwen3-Omni, Step-Audio2-Mini, OpenAI API, multilingual-e5-small · port 8787 · [Repo](https://github.com/xzf-thu/voicemem) · [🌐 Site ↗](https://xzf-thu.github.io/VoiceMem/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/voicemem/)</sub>
 
 <a name="memvid"></a>
-### #&#8288;35 [memvid](https://github.com/memvid/memvid) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (75) · Freshness: active (90) · Maintenance: weak (6) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;35 [memvid](https://github.com/memvid/memvid) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (75) · Freshness: active (89) · Maintenance: weak (6) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Jul 2026</sub>
 
 **Single-file memory store for AI agents, with search built in.**
 
@@ -668,7 +668,7 @@ OpenClaw plugin that stores preferences, decisions and project context in LanceD
 <sub>no GPU · Needs OpenClaw 2026.3+, LanceDB, Embedding provider API (OpenAI, Jina, Gemini, Ollama or compatible), AVX-capable CPU · Models: OpenAI, Jina, Gemini, Ollama, OpenAI-compatible APIs · [Repo](https://github.com/cortexreach/memory-lancedb-pro) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memory-lancedb-pro/)</sub>
 
 <a name="simplemem"></a>
-### #&#8288;38 [simplemem](https://github.com/aiming-lab/simplemem) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (37) · Freshness: active (92) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Jul 2026</sub>
+### #&#8288;38 [simplemem](https://github.com/aiming-lab/simplemem) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (37) · Freshness: active (91) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Jul 2026</sub>
 
 **Long-term memory for LLM agents, with text and multimodal backends.**
 

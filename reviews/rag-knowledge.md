@@ -1137,7 +1137,7 @@ Takes a topic, has a local LLM write a search query, summarizes the results, ref
 <sub>GPU optional · Docker · Needs Ollama or LM Studio, LangGraph CLI, uv, DuckDuckGo, SearXNG, Tavily or Perplexity for search · Models: Ollama models (default llama3.2), LM Studio OpenAI-compatible server, DeepSeek R1 distills, qwen_qwq-32b · port 2024 · [Repo](https://github.com/langchain-ai/local-deep-researcher) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/local-deep-researcher/)</sub>
 
 <a name="scira"></a>
-### #&#8288;64 [scira](https://github.com/zaidmukaddam/scira) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (74) · Freshness: active (96) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;64 [scira](https://github.com/zaidmukaddam/scira) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (74) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · AGPL-3.0 · Aug 2026</sub>
 
 **AI search engine that plans multi-step research and answers with inline citations.**
 
@@ -1173,7 +1173,7 @@ DeepSearcher is a Python package that loads local files (and web pages via Firec
 <sub>GPU optional · Docker · Needs Milvus or Zilliz Cloud, LLM API key or local Ollama, Firecrawl (optional, web crawling) · Models: OpenAI, DeepSeek, Anthropic, Gemini, xAI Grok · [Repo](https://github.com/zilliztech/deep-searcher) · [📖 Docs ↗](https://deepwiki.com/zilliztech/deep-searcher) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-searcher/)</sub>
 
 <a name="bertopic"></a>
-### #&#8288;66 [bertopic](https://github.com/maartengr/bertopic) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (61) · Freshness: active (86) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Aug 2026</sub>
+### #&#8288;66 [bertopic](https://github.com/maartengr/bertopic) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (61) · Freshness: active (85) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Aug 2026</sub>
 
 **Python topic modeling library using transformer embeddings and c-TF-IDF.**
 
@@ -1424,7 +1424,7 @@ ktx is a TypeScript CLI that ingests warehouse metadata, dbt/Looker/Metabase mod
 <sub>no GPU · Needs Node.js/npm, LLM provider API or local Claude Code/Codex sign-in, SQL warehouse, Embeddings provider · Models: Anthropic API, Google Vertex AI, AI Gateway, Claude Code session, Codex · [Repo](https://github.com/kaelio/ktx) · [📖 Docs ↗](https://docs.kaelio.com/ktx/docs/) · [🌐 Site ↗](https://www.kaelio.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ktx/)</sub>
 
 <a name="swirl-search"></a>
-### #&#8288;80 [swirl-search](https://github.com/swirlai/swirl-search) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: known (32) · Freshness: active (86) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;80 [swirl-search](https://github.com/swirlai/swirl-search) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: known (32) · Freshness: active (85) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Jun 2026</sub>
 
 **Federated search and RAG that queries your apps live, without copying data.**
 
@@ -1513,7 +1513,7 @@ Vimo is an Electron desktop app backed by a Python VideoRAG server. It indexes v
 <sub>GPU required · Needs Python, Electron, Conda, ImageBind, nano-graphrag, LightRAG · Models: MiniCPM-o, MiniCPM-V, ImageBind · [Repo](https://github.com/hkuds/videorag) · [▶️ Demo ↗](https://www.youtube.com/watch?v=D5vsxcp4QZI) · [🌐 Site ↗](https://arxiv.org/abs/2502.01549) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/videorag/)</sub>
 
 <a name="r2r"></a>
-### #&#8288;85 [r2r](https://github.com/sciphi-ai/r2r) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: popular (62) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2025</sub>
+### #&#8288;85 [r2r](https://github.com/sciphi-ai/r2r) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: popular (62) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2025</sub>
 
 **RAG server with REST API, hybrid search, knowledge graphs and a research agent.**
 
@@ -1619,26 +1619,8 @@ Builds a Neo4j knowledge graph from TXT, PDF, MD, DOCX, CSV, JSON and YAML files
 
 <sub>Compose · Needs Neo4j, LLM API · [Repo](https://github.com/1517005260/graph-rag-agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graph-rag-agent/)</sub>
 
-<a name="huixiangdou"></a>
-### #&#8288;91 [huixiangdou](https://github.com/internlm/huixiangdou) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (24) · Freshness: quiet (15) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · BSD-3-Clause · Nov 2025</sub>
-
-**RAG assistant that answers technical questions in group chats without flooding.**
-
-HuixiangDou builds a knowledge base from documents (pdf, word, excel, ppt, html, markdown, txt) and answers through a three-stage pipeline of preprocess, rejection and response. The rejection stage lets it stay silent on off-topic messages in group chats such as WeChat and Lark. It calls remote LLM APIs or a local vLLM server, and ships a Gradio UI, an HTTP server on port 23333, and a web front end and back end.
-
-- **+** Rejection stage filters off-topic group messages, tuned with good and bad question lists
-- **+** Runs CPU-only via a hosted API, or with 2GB or 10GB GPU configs
-- **+** Hybrid retrieval: dense for documents, sparse for code, knowledge graph, web search, image-text
-- **+** Includes WeChat, Lark, Gradio, HTTP API and multi-tenant web integrations
-- **−** WeChat integration needs a paid wkteam service or an Android accessibility workaround
-- **−** Many integration docs are in Chinese only
-- **−** Setup needs a long apt package list and a Hugging Face login for the BCE model
-- **−** Authors point to HuixiangDou2 for GraphRAG, so this repo is the older version
-
-<sub>GPU optional · Needs Hugging Face login (BCE embedding model), faiss, LLM API or vLLM server, apt packages (antiword, tesseract-ocr, poppler-utils, ffmpeg) · Models: DeepSeek, InternLM, GLM, KIMI, StepFun · port 23333 · [Repo](https://github.com/internlm/huixiangdou) · [▶️ Demo ↗](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web) · [📖 Docs ↗](https://huixiangdou.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/huixiangdou/)</sub>
-
 <a name="rocketnotes"></a>
-### #&#8288;92 [rocketnotes](https://github.com/fynnfluegge/rocketnotes) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (5) · Freshness: quiet (23) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;91 [rocketnotes](https://github.com/fynnfluegge/rocketnotes) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (5) · Freshness: quiet (23) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Feb 2026</sub>
 
 **Markdown note-taking app with AI chat, semantic search and agentic filing.**
 
@@ -1654,6 +1636,24 @@ Rocketnotes is a web and Electron Markdown notes app with a nested document tree
 - **−** Mixed Go, Python and Angular backend and frontend adds moving parts to self-host
 
 <sub>GPU optional · Docker + Compose · Needs Ollama, ChromaDB, AWS (DynamoDB, S3, Cognito, S3 Vectors) for hosted version · Models: Ollama, OpenAI, Anthropic, Together AI · [Repo](https://github.com/fynnfluegge/rocketnotes) · [▶️ Demo ↗](https://app.takeniftynotes.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rocketnotes/)</sub>
+
+<a name="huixiangdou"></a>
+### #&#8288;92 [huixiangdou](https://github.com/internlm/huixiangdou) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: niche (24) · Freshness: quiet (14) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · BSD-3-Clause · Nov 2025</sub>
+
+**RAG assistant that answers technical questions in group chats without flooding.**
+
+HuixiangDou builds a knowledge base from documents (pdf, word, excel, ppt, html, markdown, txt) and answers through a three-stage pipeline of preprocess, rejection and response. The rejection stage lets it stay silent on off-topic messages in group chats such as WeChat and Lark. It calls remote LLM APIs or a local vLLM server, and ships a Gradio UI, an HTTP server on port 23333, and a web front end and back end.
+
+- **+** Rejection stage filters off-topic group messages, tuned with good and bad question lists
+- **+** Runs CPU-only via a hosted API, or with 2GB or 10GB GPU configs
+- **+** Hybrid retrieval: dense for documents, sparse for code, knowledge graph, web search, image-text
+- **+** Includes WeChat, Lark, Gradio, HTTP API and multi-tenant web integrations
+- **−** WeChat integration needs a paid wkteam service or an Android accessibility workaround
+- **−** Many integration docs are in Chinese only
+- **−** Setup needs a long apt package list and a Hugging Face login for the BCE model
+- **−** Authors point to HuixiangDou2 for GraphRAG, so this repo is the older version
+
+<sub>GPU optional · Needs Hugging Face login (BCE embedding model), faiss, LLM API or vLLM server, apt packages (antiword, tesseract-ocr, poppler-utils, ffmpeg) · Models: DeepSeek, InternLM, GLM, KIMI, StepFun · port 23333 · [Repo](https://github.com/internlm/huixiangdou) · [▶️ Demo ↗](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web) · [📖 Docs ↗](https://huixiangdou.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/huixiangdou/)</sub>
 
 <a name="atomspace"></a>
 ### #&#8288;93 [atomspace](https://github.com/opencog/atomspace) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (1) · Freshness: quiet (29) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · custom license · Feb 2026</sub>
@@ -1674,7 +1674,7 @@ AtomSpace is OpenCog's in-memory knowledge representation database. It stores im
 <sub>no GPU · [Repo](https://github.com/opencog/atomspace) · [📖 Docs ↗](https://wiki.opencog.org/w/AtomSpace) · [🌐 Site ↗](https://wiki.opencog.org/w/AtomSpace) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/atomspace/)</sub>
 
 <a name="ai-search-hub"></a>
-### #&#8288;94 [ai-search-hub](https://github.com/minsight-ai-info/ai-search-hub) <sub>score [8](../README.md#-how-we-rank "Score 8/100. Adoption: niche (4) · Freshness: recent (57) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.3k · no license · Apr 2026</sub>
+### #&#8288;94 [ai-search-hub](https://github.com/minsight-ai-info/ai-search-hub) <sub>score [8](../README.md#-how-we-rank "Score 8/100. Adoption: niche (4) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.3k · no license · Apr 2026</sub>
 
 **Agent skill that sends one query to Gemini, Grok, Doubao, Kimi and others via Chrome.**
 

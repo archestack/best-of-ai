@@ -1779,7 +1779,7 @@ OpenFang is a Rust agent runtime that ships as a single ~32MB binary with a web 
 <sub>no GPU · Docker + Compose · Needs Node.js >= 18 (WhatsApp Web gateway only), FFmpeg and yt-dlp (Clip Hand), Playwright (Browser Hand) · Models: Anthropic, Gemini, OpenAI-compatible, Ollama, vLLM · port 4200 · [Repo](https://github.com/rightnow-ai/openfang) · [📖 Docs ↗](https://openfang.sh/docs) · [🌐 Site ↗](https://openfang.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openfang/)</sub>
 
 <a name="refly"></a>
-### #&#8288;100 [refly](https://github.com/refly-ai/refly) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (60) · Freshness: active (91) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · custom license · Nov 2026</sub>
+### #&#8288;100 [refly](https://github.com/refly-ai/refly) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (60) · Freshness: active (90) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · custom license · Nov 2026</sub>
 
 **Builder for versioned agent skills, exported as REST APIs, webhooks or MCP.**
 
@@ -1869,7 +1869,7 @@ agent-qa is a TypeScript CLI and dashboard that takes a user journey written in 
 <sub>Docker · Needs Node.js 24+ · Models: gpt-6-sol · [Repo](https://github.com/vostride/agent-qa) · [▶️ Demo ↗](https://vostride.com/demo/agent-qa) · [📖 Docs ↗](https://vostride.com/docs/agent-qa) · [🌐 Site ↗](https://vostride.com/agent-qa) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-qa/)</sub>
 
 <a name="magentic-ui"></a>
-### #&#8288;105 [magentic-ui](https://github.com/microsoft/magentic-ui) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Nov 2026</sub>
+### #&#8288;105 [magentic-ui](https://github.com/microsoft/magentic-ui) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (69) · Freshness: active (99) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Nov 2026</sub>
 
 **Browser and file-system agent built for small orchestrator and browser-use models.**
 
@@ -2030,7 +2030,7 @@ DeepScientist wraps an existing coding CLI (Codex, Claude Code, Kimi Code or Ope
 <sub>Needs Node.js/npm, git, Python 3.11+, one runner CLI: codex, claude, kimi or opencode · Models: Codex, Claude Code, Kimi Code, OpenCode, Ollama (via runners) · port 20999 · [Repo](https://github.com/researai/deepscientist) · [📖 Docs ↗](https://github.com/ResearAI/DeepScientist/blob/main/docs/en/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepscientist/)</sub>
 
 <a name="kubectl-ai"></a>
-### #&#8288;114 [kubectl-ai](https://github.com/googlecloudplatform/kubectl-ai) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (61) · Freshness: active (85) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;114 [kubectl-ai](https://github.com/googlecloudplatform/kubectl-ai) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (61) · Freshness: active (84) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Jul 2026</sub>
 
 **Kubernetes CLI agent that turns plain-language requests into kubectl operations.**
 
@@ -2228,7 +2228,7 @@ Runs LLM-based traders that place perpetual futures orders on Hyperliquid (testn
 <sub>no GPU · Docker + Compose · Needs Docker, PostgreSQL, Hyperliquid or Binance Futures account, OpenAI-compatible LLM API · Models: Deepseek, OpenAI GPT-5/o1/GPT-4o, Claude via compatible endpoints, Any OpenAI-compatible API · port 8802 · [Repo](https://github.com/hammergpt/hyper-alpha-arena) · [📖 Docs ↗](https://www.akooi.com/docs/) · [🌐 Site ↗](https://www.akooi.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hyper-alpha-arena/)</sub>
 
 <a name="ai-market-maker"></a>
-### #&#8288;125 [ai-market-maker](https://github.com/olaxbt/ai-market-maker) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (15) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;125 [ai-market-maker](https://github.com/olaxbt/ai-market-maker) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (15) · Freshness: active (98) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · AGPL-3.0 · Aug 2026</sub>
 
 **LangGraph multi-agent crypto trading stack with a Risk Guard veto.**
 
@@ -2300,7 +2300,7 @@ AGiXT is a Python server that connects agents to OpenAI, Anthropic, Google, Azur
 <sub>Docker + Compose · Compose runs PostgreSQL, Redis, MinIO · Models: OpenAI, Anthropic, Google, Azure, local models · [Repo](https://github.com/josh-xt/agixt) · [📖 Docs ↗](https://docs.agixt.com) · [🌐 Site ↗](https://agixt.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agixt/)</sub>
 
 <a name="karpathy"></a>
-### #&#8288;129 [karpathy](https://github.com/k-dense-ai/karpathy) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (8) · Freshness: active (98) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Aug 2026</sub>
+### #&#8288;129 [karpathy](https://github.com/k-dense-ai/karpathy) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (8) · Freshness: active (97) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Aug 2026</sub>
 
 **ML engineer agent that trains models in a local sandbox using Agent Skills.**
 
@@ -2354,7 +2354,7 @@ Instill Core bundles four parts: Pipeline (AI-first APIs and workflows built fro
 <sub>GPU optional · Docker + Compose · Needs Docker Engine v25+, Docker Compose v2+, yq (Windows via WSL2) · port 3000 · [Repo](https://github.com/instill-ai/instill-core) · [📖 Docs ↗](https://docs.instill-ai.com/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/instill-core/)</sub>
 
 <a name="ai-scientist-v2"></a>
-### #&#8288;132 [ai-scientist-v2](https://github.com/sakanaai/ai-scientist-v2) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: popular (60) · Freshness: quiet (10) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · custom license · Dec 2025</sub>
+### #&#8288;132 [ai-scientist-v2](https://github.com/sakanaai/ai-scientist-v2) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: popular (60) · Freshness: quiet (9) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · custom license · Dec 2025</sub>
 
 **Agentic tree-search pipeline that generates ML experiments and writes research papers.**
 
@@ -2372,7 +2372,7 @@ Takes a research topic in Markdown, brainstorms ideas with literature-based nove
 <sub>GPU required · Needs PyTorch with CUDA, conda, poppler, chktex, LaTeX tools, Semantic Scholar API (optional) · Models: OpenAI, Gemini, Claude via AWS Bedrock · [Repo](https://github.com/sakanaai/ai-scientist-v2) · [📖 Docs ↗](https://pub.sakana.ai/ai-scientist-v2/paper) · [🌐 Site ↗](https://sakana.ai/ai-scientist-first-publication/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-scientist-v2/)</sub>
 
 <a name="claw-empire"></a>
-### #&#8288;133 [claw-empire](https://github.com/greensheep01201/claw-empire) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (6) · Freshness: recent (53) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;133 [claw-empire](https://github.com/greensheep01201/claw-empire) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (6) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Mar 2026</sub>
 
 **Pixel-art office dashboard that runs coding-agent CLIs as a virtual company.**
 

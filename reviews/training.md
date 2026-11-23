@@ -593,26 +593,8 @@ llmcompressor applies post-training quantization and expert pruning to Hugging F
 
 <sub>Needs PyTorch, Hugging Face Transformers, compressed-tensors, vLLM (for inference) · Models: Hugging Face Transformers LLMs, MoE models, Vision-language models, Audio-language models, compressed-tensors output · [Repo](https://github.com/vllm-project/llm-compressor) · [📖 Docs ↗](https://docs.vllm.ai/projects/llm-compressor/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-compressor/)</sub>
 
-<a name="colossalai"></a>
-### #&#8288;34 [colossalai](https://github.com/hpcaitech/colossalai) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: widely used (93) · Freshness: recent (70) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Nov 2026</sub>
-
-**Distributed training library for large models with many parallelism strategies.**
-
-Colossal-AI is a PyTorch-based library for distributed training and inference of large models. It provides data, pipeline, 1D/2D/2.5D/3D tensor and sequence parallelism, ZeRO, auto-parallelism and heterogeneous memory management. The repo also hosts applications such as Colossal-LLaMA-2, ColossalChat (RLHF) and Stable Diffusion acceleration examples.
-
-- **+** Covers data, pipeline, tensor (1D to 3D), sequence parallelism and ZeRO in one library
-- **+** Includes worked examples for LLaMA, GPT-2/3, BERT, ViT, MoE and Stable Diffusion
-- **+** Publishes H200 and B200 benchmarks for 7B and 70B Llama-like training with parallel configs
-- **+** Ships reference apps: Colossal-LLaMA-2 weights, ColossalChat RLHF pipeline
-- **−** README opens with HPC-AI Cloud and Model API promotions, mixed into the project docs
-- **−** Last tagged release is 2025-06-04, well behind recent commits
-- **−** Benchmarks are vendor-run; no comparison against other training frameworks in the visible README
-- **−** Many news and example items date from 2023-2024 and may be stale
-
-<sub>GPU required · Docker · Needs PyTorch · Models: LLaMA, GPT-2, GPT-3, BERT, ViT · [Repo](https://github.com/hpcaitech/colossalai) · [▶️ Demo ↗](https://colossalai.org/zh-Hans/docs/get_started/bonus/) · [📖 Docs ↗](https://www.colossalai.org/) · [🌐 Site ↗](https://www.colossalai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/colossalai/)</sub>
-
 <a name="mergekit"></a>
-### #&#8288;35 [mergekit](https://github.com/arcee-ai/mergekit) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · LGPL-3.0 · Oct 2026</sub>
+### #&#8288;34 [mergekit](https://github.com/arcee-ai/mergekit) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · LGPL-3.0 · Oct 2026</sub>
 
 **Merge pre-trained language models in weight space from YAML configs.**
 
@@ -628,6 +610,24 @@ mergekit combines pre-trained language models by operating on their weights, dri
 - **−** Models with different vocabularies need manual tokenizer configuration
 
 <sub>GPU optional · Needs PyTorch, Hugging Face Hub (optional, for upload) · Models: Llama, Mistral, GPT-NeoX, StableLM, raw PyTorch models · [Repo](https://github.com/arcee-ai/mergekit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mergekit/)</sub>
+
+<a name="colossalai"></a>
+### #&#8288;35 [colossalai](https://github.com/hpcaitech/colossalai) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (93) · Freshness: recent (70) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · Apache-2.0 · Nov 2026</sub>
+
+**Distributed training library for large models with many parallelism strategies.**
+
+Colossal-AI is a PyTorch-based library for distributed training and inference of large models. It provides data, pipeline, 1D/2D/2.5D/3D tensor and sequence parallelism, ZeRO, auto-parallelism and heterogeneous memory management. The repo also hosts applications such as Colossal-LLaMA-2, ColossalChat (RLHF) and Stable Diffusion acceleration examples.
+
+- **+** Covers data, pipeline, tensor (1D to 3D), sequence parallelism and ZeRO in one library
+- **+** Includes worked examples for LLaMA, GPT-2/3, BERT, ViT, MoE and Stable Diffusion
+- **+** Publishes H200 and B200 benchmarks for 7B and 70B Llama-like training with parallel configs
+- **+** Ships reference apps: Colossal-LLaMA-2 weights, ColossalChat RLHF pipeline
+- **−** README opens with HPC-AI Cloud and Model API promotions, mixed into the project docs
+- **−** Last tagged release is 2025-06-04, well behind recent commits
+- **−** Benchmarks are vendor-run; no comparison against other training frameworks in the visible README
+- **−** Many news and example items date from 2023-2024 and may be stale
+
+<sub>GPU required · Docker · Needs PyTorch · Models: LLaMA, GPT-2, GPT-3, BERT, ViT · [Repo](https://github.com/hpcaitech/colossalai) · [▶️ Demo ↗](https://colossalai.org/zh-Hans/docs/get_started/bonus/) · [📖 Docs ↗](https://www.colossalai.org/) · [🌐 Site ↗](https://www.colossalai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/colossalai/)</sub>
 
 <a name="litgpt"></a>
 ### #&#8288;36 [litgpt](https://github.com/lightning-ai/litgpt) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
@@ -1148,7 +1148,7 @@ OneTrainer trains diffusion models through a desktop GUI or command-line scripts
 <sub>Needs Python >=3.11.1,<3.14, tkinter, libGL (Linux), TensorBoard · Models: Stable Diffusion 1.5/2.x/3.x, SDXL, FLUX.1, Flux.2, Qwen Image · [Repo](https://github.com/nerogar/onetrainer) · [📖 Docs ↗](https://github.com/Nerogar/OneTrainer/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/onetrainer/)</sub>
 
 <a name="easy-dataset"></a>
-### #&#8288;65 [easy-dataset](https://github.com/conardli/easy-dataset) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (81) · Freshness: recent (67) · Maintenance: weak (6) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
+### #&#8288;65 [easy-dataset](https://github.com/conardli/easy-dataset) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (81) · Freshness: recent (66) · Maintenance: weak (6) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
 
 **Turns documents into LLM fine-tuning and evaluation datasets.**
 
@@ -1345,26 +1345,8 @@ TensorFlow Federated is a Python framework for running machine learning and othe
 
 <sub>Needs TensorFlow · Models: TensorFlow models · [Repo](https://github.com/google-parfait/tensorflow-federated) · [📖 Docs ↗](https://github.com/google-parfait/tensorflow-federated/blob/main/docs/get_started.md) · [🌐 Site ↗](http://www.tensorflow.org/federated) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tensorflow-federated/)</sub>
 
-<a name="axlearn"></a>
-### #&#8288;76 [axlearn](https://github.com/apple/axlearn) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (19) · Freshness: active (83) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Jul 2026</sub>
-
-**JAX-based library for training large-scale deep learning models.**
-
-AXLearn is a Python library on top of JAX and XLA for building and training large deep learning models. Its object-oriented configuration system composes models from reusable building blocks and integrates with Flax and Hugging Face transformers. It uses GSPMD for a global-computation model and includes tools to deploy and manage jobs on public clouds.
-
-- **+** Built on GSPMD; README claims training up to hundreds of billions of parameters
-- **+** Composable config system for assembling models from reusable building blocks
-- **+** Integrates with Flax and Hugging Face transformers
-- **+** Includes baseline configs for NLP, vision and speech models
-- **−** README warns the API is under active development and subject to change
-- **−** No tagged release; PyPI process is only linked from RELEASE.md
-- **−** Requires JAX/XLA familiarity; not a PyTorch-based toolchain
-- **−** README gives no hardware requirements or concrete model list
-
-<sub>Docker · Needs JAX, XLA, Flax, Hugging Face transformers · Models: NLP models, vision models, speech recognition models · [Repo](https://github.com/apple/axlearn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/axlearn/)</sub>
-
 <a name="opacus"></a>
-### #&#8288;77 [opacus](https://github.com/meta-pytorch/opacus) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (10) · Freshness: active (98) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;76 [opacus](https://github.com/meta-pytorch/opacus) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (10) · Freshness: active (98) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Sep 2026</sub>
 
 **PyTorch library for training models with DP-SGD differential privacy.**
 
@@ -1381,8 +1363,26 @@ Opacus trains PyTorch models with differential privacy. You create a PrivacyEngi
 
 <sub>Needs PyTorch · Models: PyTorch models · [Repo](https://github.com/meta-pytorch/opacus) · [📖 Docs ↗](https://opacus.ai/docs/faq) · [🌐 Site ↗](https://opacus.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opacus/)</sub>
 
+<a name="axlearn"></a>
+### #&#8288;77 [axlearn](https://github.com/apple/axlearn) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (19) · Freshness: active (83) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Jul 2026</sub>
+
+**JAX-based library for training large-scale deep learning models.**
+
+AXLearn is a Python library on top of JAX and XLA for building and training large deep learning models. Its object-oriented configuration system composes models from reusable building blocks and integrates with Flax and Hugging Face transformers. It uses GSPMD for a global-computation model and includes tools to deploy and manage jobs on public clouds.
+
+- **+** Built on GSPMD; README claims training up to hundreds of billions of parameters
+- **+** Composable config system for assembling models from reusable building blocks
+- **+** Integrates with Flax and Hugging Face transformers
+- **+** Includes baseline configs for NLP, vision and speech models
+- **−** README warns the API is under active development and subject to change
+- **−** No tagged release; PyPI process is only linked from RELEASE.md
+- **−** Requires JAX/XLA familiarity; not a PyTorch-based toolchain
+- **−** README gives no hardware requirements or concrete model list
+
+<sub>Docker · Needs JAX, XLA, Flax, Hugging Face transformers · Models: NLP models, vision models, speech recognition models · [Repo](https://github.com/apple/axlearn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/axlearn/)</sub>
+
 <a name="vlm-r1"></a>
-### #&#8288;78 [vlm-r1](https://github.com/om-ai-lab/vlm-r1) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (60) · Freshness: recent (58) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;78 [vlm-r1](https://github.com/om-ai-lab/vlm-r1) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (60) · Freshness: recent (58) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
 
 **GRPO reinforcement-learning training for Qwen2.5-VL and InternVL models.**
 
@@ -1400,7 +1400,7 @@ VLM-R1 applies R1-style GRPO reinforcement learning to vision-language models, w
 <sub>GPU required · Docker · Needs PyTorch, DeepSpeed, LLaMA-Factory (SFT baseline), Hugging Face datasets · Models: Qwen2.5-VL, InternVL · [Repo](https://github.com/om-ai-lab/vlm-r1) · [▶️ Demo ↗](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression) · [📖 Docs ↗](https://arxiv.org/abs/2504.07615) · [🌐 Site ↗](https://om-ai-lab.github.io/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vlm-r1/)</sub>
 
 <a name="stable-audio-tools"></a>
-### #&#8288;79 [stable-audio-tools](https://github.com/stability-ai/stable-audio-tools) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (41) · Freshness: recent (67) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · May 2026</sub>
+### #&#8288;79 [stable-audio-tools](https://github.com/stability-ai/stable-audio-tools) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (41) · Freshness: recent (67) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · May 2026</sub>
 
 **Training and inference code for diffusion-based audio generation models.**
 
@@ -1632,25 +1632,8 @@ Adapters is a Python library that adds 10+ parameter-efficient fine-tuning metho
 
 <sub>Needs PyTorch 2.0+, HuggingFace Transformers, Python 3.9+ · Models: HuggingFace Transformers (20+ architectures, PyTorch), Q-LoRA quantized training · [Repo](https://github.com/adapter-hub/adapters) · [📖 Docs ↗](https://docs.adapterhub.ml) · [🌐 Site ↗](https://adapterhub.ml) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adapters/)</sub>
 
-<a name="ttt-video-dit"></a>
-### #&#8288;92 [ttt-video-dit](https://github.com/test-time-training/ttt-video-dit) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (20) · Freshness: slowing (35) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Feb 2026</sub>
-
-**Fine-tuning code for CogVideoX-5B with TTT layers for 63-second videos.**
-
-Training and inference code that adapts the CogVideoX 5B text-to-video diffusion transformer with Test-Time Training layers. The TTT layers handle global context, while the original attention layers handle each 3-second segment. Training runs in stages at 3, 9, 18, 30 and 63 seconds for style transfer and context extension.
-
-- **+** Staged context extension from 3 s to 63 s video, with training and sampling docs
-- **+** Reuses pretrained CogVideoX-5B attention for local segments instead of training from scratch
-- **+** Architecture described in a CVPR 2025 paper; MIT license
-- **−** TTT-MLP kernel needs CUDA toolkit 12.3+ and gcc11+ to build
-- **−** TTT-MLP training supported only on H100 GPUs
-- **−** Final demo model weights not provided; only base pretrained weights are referenced
-- **−** No Docker image; setup needs a manual kernel build and separate CogVideoX downloads
-
-<sub>GPU required · Needs CUDA toolkit 12.3+, gcc 11+, conda, ttt-tk submodule, CogVideoX-5B weights, VAE and T5 encoder · Models: CogVideoX-5B · [Repo](https://github.com/test-time-training/ttt-video-dit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ttt-video-dit/)</sub>
-
 <a name="roboflow-maestro"></a>
-### #&#8288;93 [roboflow/maestro](https://github.com/roboflow/maestro) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (25) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;92 [roboflow/maestro](https://github.com/roboflow/maestro) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (25) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · Apache-2.0 · Jul 2026</sub>
 
 **Fine-tuning CLI and Python SDK for vision-language models.**
 
@@ -1666,6 +1649,23 @@ maestro wraps configuration, data loading and the training loop for fine-tuning 
 - **−** Last release 1.0.0 dates from February 2025
 
 <sub>Models: Florence-2, PaliGemma 2, Qwen2.5-VL · [Repo](https://github.com/roboflow/maestro) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/roboflow-maestro/)</sub>
+
+<a name="ttt-video-dit"></a>
+### #&#8288;93 [ttt-video-dit](https://github.com/test-time-training/ttt-video-dit) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (20) · Freshness: slowing (34) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Feb 2026</sub>
+
+**Fine-tuning code for CogVideoX-5B with TTT layers for 63-second videos.**
+
+Training and inference code that adapts the CogVideoX 5B text-to-video diffusion transformer with Test-Time Training layers. The TTT layers handle global context, while the original attention layers handle each 3-second segment. Training runs in stages at 3, 9, 18, 30 and 63 seconds for style transfer and context extension.
+
+- **+** Staged context extension from 3 s to 63 s video, with training and sampling docs
+- **+** Reuses pretrained CogVideoX-5B attention for local segments instead of training from scratch
+- **+** Architecture described in a CVPR 2025 paper; MIT license
+- **−** TTT-MLP kernel needs CUDA toolkit 12.3+ and gcc11+ to build
+- **−** TTT-MLP training supported only on H100 GPUs
+- **−** Final demo model weights not provided; only base pretrained weights are referenced
+- **−** No Docker image; setup needs a manual kernel build and separate CogVideoX downloads
+
+<sub>GPU required · Needs CUDA toolkit 12.3+, gcc 11+, conda, ttt-tk submodule, CogVideoX-5B weights, VAE and T5 encoder · Models: CogVideoX-5B · [Repo](https://github.com/test-time-training/ttt-video-dit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ttt-video-dit/)</sub>
 
 <a name="augmentoolkit"></a>
 ### #&#8288;94 [augmentoolkit](https://github.com/e-p-armstrong/augmentoolkit) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (8) · Freshness: recent (56) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Jun 2026</sub>
@@ -1704,7 +1704,7 @@ Search-R1 is a training pipeline built on veRL that uses rule-based outcome rewa
 <sub>GPU required · Needs veRL, vLLM 0.6.3, PyTorch 2.4.0, flash-attn, faiss-gpu 1.8.0, pyserini, FastAPI, wandb · Models: Llama-3.2-3B, Qwen2.5-3B, Qwen2.5-7B · port 8000 · [Repo](https://github.com/petergriffinjin/search-r1) · [📖 Docs ↗](https://github.com/PeterGriffinJin/Search-R1/blob/main/docs/retriever.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/search-r1/)</sub>
 
 <a name="hivemind"></a>
-### #&#8288;96 [learning-at-home/hivemind](https://github.com/learning-at-home/hivemind) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (23) · Freshness: quiet (29) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Jan 2026</sub>
+### #&#8288;96 [learning-at-home/hivemind](https://github.com/learning-at-home/hivemind) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (23) · Freshness: quiet (29) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · MIT · Jan 2026</sub>
 
 **PyTorch library for training one model across volunteer machines over the Internet.**
 
@@ -1758,7 +1758,7 @@ Research repository behind ModernBERT, a BERT-style bidirectional encoder. It pr
 <sub>GPU required · Needs conda, composer, flash-attn 2.6.3, Sentence Transformers, PyLate · Models: ModernBERT, FlexBERT, BERT (GLUE evals), ColBERT (PyLate) · [Repo](https://github.com/answerdotai/modernbert) · [📖 Docs ↗](https://arxiv.org/abs/2412.13663) · [🌐 Site ↗](https://huggingface.co/collections/answerdotai/modernbert-67627ad707a4acbf33c41deb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modernbert/)</sub>
 
 <a name="alphagen"></a>
-### #&#8288;99 [alphagen](https://github.com/ict-find-lab/alphagen) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (2) · Freshness: recent (71) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.3k · no license · Jun 2026</sub>
+### #&#8288;99 [alphagen](https://github.com/ict-find-lab/alphagen) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (2) · Freshness: recent (70) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.3k · no license · Jun 2026</sub>
 
 **Reinforcement-learning miner for formulaic stock alpha factors, from a KDD 2023 paper.**
 
