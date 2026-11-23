@@ -7,20 +7,20 @@ Tools to fine-tune, train or distill models on your own data and GPUs, from LoRA
 <a name="peft"></a>
 ### 🥇 [peft](https://github.com/huggingface/peft) <sub>score [91](../README.md#-how-we-rank "Score 91/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Nov 2026</sub>
 
-**Python library for LoRA and other parameter-efficient fine-tuning of Transformers models.**
+**Python library for LoRA and other parameter-efficient fine-tuning methods.**
 
-PEFT wraps a pretrained model with adapter methods such as LoRA, soft prompts and IA3 so only a small set of extra parameters is trained. Adapters are saved as small checkpoints (19MB versus 11GB for T0_3B in the README's example). It integrates with Transformers, Diffusers, Accelerate and TRL, and can be combined with quantization such as QLoRA.
+PEFT wraps a pretrained model with adapter methods such as LoRA, soft prompts and IA3 through get_peft_model, so only a small set of extra parameters is trained. Adapters are saved as small checkpoints (19MB versus 11GB for T0_3B in the README) and reloaded with PeftModel.from_pretrained. It integrates with Transformers, Diffusers, Accelerate and TRL, and combines with quantization for QLoRA-style training.
 
-- **+** Adapter checkpoints are MBs instead of GBs; 19MB vs 11GB for T0_3B
-- **+** LoRA trained a 12B model (mt0-xxl) on one 80GB GPU where full finetuning ran out of memory
-- **+** Integrates with Transformers, Diffusers, Accelerate and TRL; works with quantized base models
-- **+** Install with pip; get_peft_model wraps an existing model in a few lines
-- **−** Library only: no training UI, scheduler or serving; training loop is your own or Trainer
+- **+** Adapter checkpoints are a few MB instead of GBs, per the T0_3B and Stable Diffusion examples
+- **+** LoRA trains bigscience/mt0-xxl (12B) in 56GB GPU where full fine-tuning runs out of memory
+- **+** Integrates with Transformers, Diffusers, Accelerate and TRL; installs with pip
+- **+** Combines with quantization, e.g. QLoRA on Llama-2-7b with a 16GB GPU
+- **−** Library only: no training UI, you write the loop or use Trainer or TRL
 - **−** Transformers integration lacks some PEFT features, such as merging adapters into the base model
-- **−** Models without official support need manual config for target modules
-- **−** Memory figures in the README assume an A100 80GB with over 64GB CPU RAM
+- **−** Models not officially supported need manual target-module configuration
+- **−** lora-t0-3b scored 0.863 versus 0.892 for Flan-T5 in the README's RAFT table
 
-<sub>GPU optional · Docker · Needs PyTorch, Transformers · Models: LoRA, Soft prompts, IA3, QLoRA, Transformers models · [Repo](https://github.com/huggingface/peft) · [▶️ Demo ↗](https://huggingface.co/spaces/smangrul/peft-lora-sd-dreambooth) · [📖 Docs ↗](https://huggingface.co/docs/peft/main/en/index) · [🌐 Site ↗](https://huggingface.co/PEFT) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/peft/)</sub>
+<sub>GPU optional · Docker · Needs PyTorch, Transformers · Models: LoRA, Soft prompts, IA3, Transformers models, Stable Diffusion · [Repo](https://github.com/huggingface/peft) · [▶️ Demo ↗](https://huggingface.co/spaces/smangrul/peft-lora-sd-dreambooth) · [📖 Docs ↗](https://huggingface.co/docs/peft/main/en/index) · [🌐 Site ↗](https://huggingface.co/PEFT) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/peft/)</sub>
 
 <a name="trl"></a>
 ### 🥈 [trl](https://github.com/huggingface/trl) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Nov 2026</sub>
