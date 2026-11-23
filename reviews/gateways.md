@@ -933,7 +933,7 @@ Traceroot records model calls, tool calls and responses from agent applications,
 <sub>no GPU · Docker + Compose · Needs Docker Compose, Make, Git · Models: OpenAI, Anthropic, Google Gemini, Mistral, OpenRouter · port 3000 · [Repo](https://github.com/traceroot-ai/traceroot) · [📖 Docs ↗](https://traceroot.ai/docs) · [🌐 Site ↗](https://traceroot.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/traceroot/)</sub>
 
 <a name="coze-loop"></a>
-### #&#8288;53 [coze-loop](https://github.com/coze-dev/coze-loop) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (55) · Freshness: active (90) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;53 [coze-loop](https://github.com/coze-dev/coze-loop) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (55) · Freshness: active (89) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · Apache-2.0 · Nov 2026</sub>
 
 **Prompt playground, evaluation and tracing platform for developing and monitoring AI agents.**
 
@@ -1058,7 +1058,7 @@ Paritok is a proxy between a coding agent (Claude Code, Cursor, Codex, OpenHands
 <sub>GPU optional · Needs Ollama, vLLM (alternative), sentence-transformers (toolselect extra), Anthropic or OpenAI-compatible upstream API · Models: Anthropic API, OpenAI-compatible APIs (Groq, OpenRouter), Qwen3-4B LoRA (paritok-4b-v1) · port 8080 · [Repo](https://github.com/paritok-official/paritok-4b-v1) · [🌐 Site ↗](https://paritok.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paritok-4b-v1/)</sub>
 
 <a name="portkey-gateway"></a>
-### #&#8288;60 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (80) · Freshness: recent (66) · Maintenance: weak (2) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
+### #&#8288;60 [Portkey Gateway](https://github.com/portkey-ai/gateway) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (80) · Freshness: recent (65) · Maintenance: weak (2) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · May 2026</sub>
 
 **Node.js LLM gateway with fallbacks, load balancing and guardrails.**
 
@@ -1094,7 +1094,7 @@ Runs evals against OpenAI models and LLM-built systems, using a registry of exis
 <sub>no GPU · Needs OpenAI API key, Git-LFS, Snowflake (optional) · Models: OpenAI models, custom completion functions · [Repo](https://github.com/openai/evals) · [📖 Docs ↗](https://platform.openai.com/docs/guides/evals) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evals/)</sub>
 
 <a name="openclaw-bot-review"></a>
-### #&#8288;62 [openclaw-bot-review](https://github.com/xmanrui/openclaw-bot-review) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (12) · Freshness: active (91) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
+### #&#8288;62 [openclaw-bot-review](https://github.com/xmanrui/openclaw-bot-review) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (12) · Freshness: active (90) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
 
 **Web dashboard for monitoring OpenClaw agents, models, sessions and token usage.**
 
@@ -1112,7 +1112,7 @@ A Next.js dashboard that reads ~/.openclaw/openclaw.json and local session files
 <sub>no GPU · Docker · Needs OpenClaw, Node.js 18+ · Models: MiniMax-M2.7, MiniMax-M2.7-highspeed, OpenAI-compatible providers via OpenClaw config · port 3000 · [Repo](https://github.com/xmanrui/openclaw-bot-review) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-bot-review/)</sub>
 
 <a name="agentops"></a>
-### #&#8288;63 [agentops](https://github.com/agentops-ai/agentops) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (57) · Freshness: recent (62) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
+### #&#8288;63 [agentops](https://github.com/agentops-ai/agentops) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (57) · Freshness: recent (62) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
 
 **Tracing, session replay and LLM cost tracking for AI agents.**
 
@@ -1220,7 +1220,7 @@ mcpo wraps an MCP server command, SSE or Streamable HTTP endpoint and exposes it
 <sub>no GPU · Docker · Needs MCP servers to proxy · port 8000 · [Repo](https://github.com/open-webui/mcpo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcpo/)</sub>
 
 <a name="openclaw-control-center"></a>
-### #&#8288;69 [openclaw-control-center](https://github.com/tianyidatascience/openclaw-control-center) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (39) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Apr 2026</sub>
+### #&#8288;69 [openclaw-control-center](https://github.com/tianyidatascience/openclaw-control-center) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (39) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Apr 2026</sub>
 
 **Local dashboard for monitoring and coordinating an existing OpenClaw agent setup.**
 
@@ -1274,7 +1274,7 @@ PinchBench runs 53 real-world tasks (calendar scheduling, email triage, research
 <sub>Docker · Needs OpenClaw, uv, Python 3.10+, OpenRouter API key (default provider) · Models: OpenRouter, Anthropic, OpenAI, Kilo Gateway · [Repo](https://github.com/pinchbench/skill) · [🌐 Site ↗](https://pinchbench.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skill/)</sub>
 
 <a name="prompttools"></a>
-### #&#8288;72 [prompttools](https://github.com/hegelai/prompttools) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (26) · Freshness: quiet (21) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;72 [prompttools](https://github.com/hegelai/prompttools) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (26) · Freshness: quiet (20) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Feb 2026</sub>
 
 **Python library for testing prompts, LLMs and vector databases in notebooks.**
 
@@ -1292,7 +1292,7 @@ prompttools runs prompt and parameter grids across LLM APIs such as OpenAI, Anth
 <sub>GPU optional · Needs Jupyter notebook, Streamlit, LLM provider API keys · Models: OpenAI, Anthropic, Mistral AI, Google Gemini, Vertex AI · [Repo](https://github.com/hegelai/prompttools) · [▶️ Demo ↗](https://prompttools.streamlit.app/) · [📖 Docs ↗](http://prompttools.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/prompttools/)</sub>
 
 <a name="deepchecks"></a>
-### #&#8288;73 [deepchecks](https://github.com/deepchecks/deepchecks) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: known (40) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2025</sub>
+### #&#8288;73 [deepchecks](https://github.com/deepchecks/deepchecks) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: known (40) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2025</sub>
 
 **Python checks for validating tabular, NLP and vision data and models.**
 

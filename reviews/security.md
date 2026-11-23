@@ -562,7 +562,7 @@ sapper-v2 runs a commander agent that dispatches generals, soldiers and scouts a
 <sub>Docker · Needs tmux, Agent CLI such as Claude Code or Codex, Model gateway and API keys, Competition platform API (BENCHMARK_BASE_URL), Docker (optional, Kali image) · Models: GLM-5.3, DeepSeek V4.1 Flash, Claude Sonnet, any model via agent CLI · [Repo](https://github.com/n1neman/sapper-v2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sapper-v2/)</sub>
 
 <a name="pentestgpt"></a>
-### #&#8288;32 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (86) · Freshness: recent (77) · Maintenance: weak (7) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Jul 2026</sub>
+### #&#8288;32 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (86) · Freshness: recent (76) · Maintenance: weak (7) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Jul 2026</sub>
 
 **Autonomous pentest agent that drives Claude Code or Codex against a target.**
 
@@ -706,7 +706,7 @@ Cairn searches for a path from an origin to a goal by having agent workers read 
 <sub>no GPU · Docker + Compose · Needs Docker (not needed in local mode), Python >= 3.12, uv, Claude Code, Codex or Pi CLI/LLM endpoints · Models: Claude Code, Codex, Pi · port 8000 · [Repo](https://github.com/oritera/cairn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cairn/)</sub>
 
 <a name="pwnagotchi"></a>
-### #&#8288;40 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (76) · Freshness: recent (69) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
+### #&#8288;40 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (76) · Freshness: recent (68) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
 
 **WiFi handshake-capturing agent that tunes its attacks with reinforcement learning.**
 
@@ -742,7 +742,7 @@ Superagent is a TypeScript and Python SDK (package `safety-agent`) with a guard 
 <sub>Needs Superagent API key (superagent.sh) · Models: OpenAI, Anthropic, Google, Groq, Bedrock · [Repo](https://github.com/superagent-ai/superagent) · [📖 Docs ↗](https://docs.superagent.sh) · [🌐 Site ↗](https://superagent.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/superagent/)</sub>
 
 <a name="textattack"></a>
-### #&#8288;42 [textattack](https://github.com/qdata/textattack) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (40) · Freshness: active (98) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Aug 2026</sub>
+### #&#8288;42 [textattack](https://github.com/qdata/textattack) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (40) · Freshness: active (97) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Aug 2026</sub>
 
 **Python framework for adversarial attacks, augmentation and training of NLP models.**
 
@@ -868,7 +868,7 @@ Guardian is a Python 3.11+ CLI that uses planner, tool-selector, analyst and rep
 <sub>no GPU · Docker + Compose · Needs Python 3.11+, LLM provider API key or Ollama, nmap, nuclei, httpx and other security tools (optional), Playwright with Chromium (visual triage) · Models: OpenAI, Anthropic Claude, Google Gemini, OpenRouter, Requesty · [Repo](https://github.com/zakirkun/guardian-cli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/guardian-cli/)</sub>
 
 <a name="hackgpt"></a>
-### #&#8288;49 [hackgpt](https://github.com/nodatafound/hackgpt) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (9) · Freshness: active (96) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.2k · no license · Aug 2026</sub>
+### #&#8288;49 [hackgpt](https://github.com/nodatafound/hackgpt) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (9) · Freshness: active (95) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.2k · no license · Aug 2026</sub>
 
 **Jupyter notebooks and scripts that send security inputs to OpenAI models.**
 
