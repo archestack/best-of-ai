@@ -76,7 +76,7 @@ Faiss is a C++ library with Python/numpy wrappers for nearest-neighbor search ov
 <sub>GPU optional · Needs BLAS, CUDA or ROCm (optional), NVIDIA cuVS (optional) · [Repo](https://github.com/facebookresearch/faiss) · [📖 Docs ↗](https://github.com/facebookresearch/faiss/wiki) · [🌐 Site ↗](https://faiss.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/faiss/)</sub>
 
 <a name="leann"></a>
-### #&#8288;5 [leann](https://github.com/startrail-org/leann) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
+### #&#8288;5 [leann](https://github.com/startrail-org/leann) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
 
 **Vector index that recomputes embeddings on demand to cut storage.**
 
@@ -237,7 +237,7 @@ Infinity is a C++ database that runs hybrid search over dense vectors, sparse ve
 <sub>no GPU · Models: dense embeddings, sparse embeddings, tensors, ColBERT reranking · [Repo](https://github.com/infiniflow/infinity) · [📖 Docs ↗](https://infiniflow.org/docs/dev/category/get-started) · [🌐 Site ↗](https://infiniflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinity/)</sub>
 
 <a name="vespa"></a>
-### #&#8288;14 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
 
 **Serving engine for vectors, tensors, text and ML ranking at scale.**
 
@@ -344,26 +344,8 @@ Hnswlib implements the HNSW graph index for approximate nearest neighbor search 
 
 <sub>no GPU · [Repo](https://github.com/nmslib/hnswlib) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hnswlib/)</sub>
 
-<a name="attu"></a>
-### #&#8288;20 [attu](https://github.com/zilliztech/attu) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
-
-**Management UI for Milvus clusters with data browsing, search and an AI agent.**
-
-Attu is a management console for Milvus vector databases. One instance connects to several Milvus clusters or Zilliz Cloud, and lets you browse collections, edit data, run vector and BM25 searches, manage backups and RBAC, and view Prometheus metrics. A built-in agent with 50+ tools performs Milvus operations from chat, using OpenAI, Claude, DeepSeek, Gemini, OpenRouter or a custom endpoint.
-
-- **+** Multiple Milvus clusters managed from one instance, each with its own workspace
-- **+** Ships as Docker image, Linux server package, or desktop app for macOS, Linux, Windows
-- **+** Local login, audit logs of write operations, TLS/mTLS and SSRF protection built in
-- **+** Backup and restore to S3, MinIO, GCS or Azure Blob, plus CSV, JSON, Parquet import/export
-- **−** Supports only Milvus 2.6.0+ and 3.x plus Zilliz Cloud; 2.5.x and earlier are unsupported
-- **−** Works only with Milvus; no other vector stores
-- **−** Desktop build is single-user and has no multi-user login
-- **−** Desktop SSRF rules block local and LAN services unless allowlisted via environment variable
-
-<sub>no GPU · Needs Milvus 2.6.0+ or 3.x, or Zilliz Cloud, SQLite (bundled), Node.js 24.x (standalone server package) · Models: OpenAI, Anthropic Claude, DeepSeek, Google Gemini, OpenRouter · port 3000 · [Repo](https://github.com/zilliztech/attu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/attu/)</sub>
-
 <a name="jvector"></a>
-### #&#8288;21 [jvector](https://github.com/datastax/jvector) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;20 [jvector](https://github.com/datastax/jvector) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
 
 **Java graph-based vector index combining HNSW layers with DiskANN's Vamana.**
 
@@ -380,26 +362,26 @@ JVector is an embeddable Java library for approximate nearest neighbor search. I
 
 <sub>no GPU · Needs Java 11+ (Java 20+ for Vector API, 22+ for native SIMD), Maven, g++ 11+, Meson, Ninja (native build only) · [Repo](https://github.com/datastax/jvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jvector/)</sub>
 
-<a name="sptag"></a>
-### #&#8288;22 [sptag](https://github.com/microsoft/sptag) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (41) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
+<a name="attu"></a>
+### #&#8288;21 [attu](https://github.com/zilliztech/attu) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
 
-**C++ library for approximate nearest neighbor search over large vector sets.**
+**Management UI for Milvus clusters with data browsing, search and an AI agent.**
 
-SPTAG is a Microsoft Research and Bing library for approximate nearest neighbor search over vectors using L2 or cosine distance. It offers two index types: SPTAG-KDT (kd-tree plus relative neighborhood graph) and SPTAG-BKT (balanced k-means tree plus graph). It supports online insertion and deletion, and search across multiple machines.
+Attu is a management console for Milvus vector databases. One instance connects to several Milvus clusters or Zilliz Cloud, and lets you browse collections, edit data, run vector and BM25 searches, manage backups and RBAC, and view Prometheus metrics. A built-in agent with 50+ tools performs Milvus operations from chat, using OpenAI, Claude, DeepSeek, Gemini, OpenRouter or a custom endpoint.
 
-- **+** Two index types: KDT for cheaper builds, BKT for accuracy on very high-dimensional data
-- **+** Supports online vector insertion and deletion without a full rebuild
-- **+** Distributed serving across multiple machines
-- **+** Backed by published papers (SPANN, SPFresh, VBASE) and MIT licensed
-- **−** Source build needs swig, cmake and boost; optional SPDK and RocksDB builds are involved
-- **−** Only L2 and cosine distances are documented
-- **−** No tagged releases; build from source or the Dockerfile
-- **−** Library, not a standalone server; an online service needs the Python wrapper
+- **+** Multiple Milvus clusters managed from one instance, each with its own workspace
+- **+** Ships as Docker image, Linux server package, or desktop app for macOS, Linux, Windows
+- **+** Local login, audit logs of write operations, TLS/mTLS and SSRF protection built in
+- **+** Backup and restore to S3, MinIO, GCS or Azure Blob, plus CSV, JSON, Parquet import/export
+- **−** Supports only Milvus 2.6.0+ and 3.x plus Zilliz Cloud; 2.5.x and earlier are unsupported
+- **−** Works only with Milvus; no other vector stores
+- **−** Desktop build is single-user and has no multi-user login
+- **−** Desktop SSRF rules block local and LAN services unless allowlisted via environment variable
 
-<sub>Docker · Needs swig >= 4.0.2, cmake >= 3.12.0, boost >= 1.67.0, SPDK (optional), RocksDB (optional) · [Repo](https://github.com/microsoft/sptag) · [📖 Docs ↗](https://github.com/microsoft/SPTAG/blob/master/docs/GettingStart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sptag/)</sub>
+<sub>no GPU · Needs Milvus 2.6.0+ or 3.x, or Zilliz Cloud, SQLite (bundled), Node.js 24.x (standalone server package) · Models: OpenAI, Anthropic Claude, DeepSeek, Google Gemini, OpenRouter · port 3000 · [Repo](https://github.com/zilliztech/attu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/attu/)</sub>
 
 <a name="pgvectorscale"></a>
-### #&#8288;23 [pgvectorscale](https://github.com/timescale/pgvectorscale) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · PostgreSQL · Oct 2026</sub>
+### #&#8288;22 [pgvectorscale](https://github.com/timescale/pgvectorscale) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · PostgreSQL · Oct 2026</sub>
 
 **PostgreSQL extension adding a StreamingDiskANN vector index on top of pgvector.**
 
@@ -415,6 +397,24 @@ pgvectorscale is a Rust extension (built with PGRX) that adds a StreamingDiskANN
 - **−** Cannot be built on Intel macOS; inner product indexes are incompatible with plain storage
 
 <sub>no GPU · Needs PostgreSQL, pgvector, Rust toolchain (source build) · [Repo](https://github.com/timescale/pgvectorscale) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvectorscale/)</sub>
+
+<a name="sptag"></a>
+### #&#8288;23 [sptag](https://github.com/microsoft/sptag) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (41) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
+
+**C++ library for approximate nearest neighbor search over large vector sets.**
+
+SPTAG is a Microsoft Research and Bing library for approximate nearest neighbor search over vectors using L2 or cosine distance. It offers two index types: SPTAG-KDT (kd-tree plus relative neighborhood graph) and SPTAG-BKT (balanced k-means tree plus graph). It supports online insertion and deletion, and search across multiple machines.
+
+- **+** Two index types: KDT for cheaper builds, BKT for accuracy on very high-dimensional data
+- **+** Supports online vector insertion and deletion without a full rebuild
+- **+** Distributed serving across multiple machines
+- **+** Backed by published papers (SPANN, SPFresh, VBASE) and MIT licensed
+- **−** Source build needs swig, cmake and boost; optional SPDK and RocksDB builds are involved
+- **−** Only L2 and cosine distances are documented
+- **−** No tagged releases; build from source or the Dockerfile
+- **−** Library, not a standalone server; an online service needs the Python wrapper
+
+<sub>Docker · Needs swig >= 4.0.2, cmake >= 3.12.0, boost >= 1.67.0, SPDK (optional), RocksDB (optional) · [Repo](https://github.com/microsoft/sptag) · [📖 Docs ↗](https://github.com/microsoft/SPTAG/blob/master/docs/GettingStart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sptag/)</sub>
 
 <a name="vectordbbench"></a>
 ### #&#8288;24 [vectordbbench](https://github.com/zilliztech/vectordbbench) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>

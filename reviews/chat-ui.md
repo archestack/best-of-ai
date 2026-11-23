@@ -166,26 +166,8 @@ Big-AGI Open is a TypeScript web chat client for many LLM providers (README clai
 
 <sub>no GPU · Docker + Compose · Needs LLM provider API keys or a local model server · Models: OpenAI, Anthropic, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-agi) · [▶️ Demo ↗](https://big-agi.com) · [📖 Docs ↗](https://github.com/enricoros/big-AGI/blob/main/docs/README.md) · [🌐 Site ↗](https://big-agi.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/big-agi/)</sub>
 
-<a name="ekko-studio"></a>
-### #&#8288;10 [ekko-studio](https://github.com/ekkolearnai/ekko-studio) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
-
-**Desktop and web workspace for chatting with Hermes, Ekko and coding agents.**
-
-Ekko Studio (formerly Hermes Web UI) is an Electron desktop app and self-hosted Node web console that puts Hermes Agent, a built-in Ekko Agent and 14 coding-agent CLIs, including Claude Code and Codex, behind one chat UI. It adds group chat, a visual workflow editor with approval gates, scheduled jobs, a file browser, web terminal, voice and platform channels such as Telegram and Slack. Sessions are stored in local SQLite.
-
-- **+** One UI for Hermes, Ekko and 14 coding-agent CLIs, shared by chat, group chat and workflows
-- **+** Visual workflows support conditions, loops, approval gates, run budgets and execution history
-- **+** Ships as desktop app (Windows/macOS/Linux), npm CLI and Docker image
-- **+** Many TTS and STT provider adapters, plus 10 chat platform channels
-- **−** License is reported as NOASSERTION, so terms need manual checking
-- **−** Coding agents must be installed on the backend host; some need manual installation
-- **−** Default bootstrap login is admin / 123456 until changed
-- **−** Very broad scope; README gives no RAM or hardware requirements
-
-<sub>no GPU · Docker + Compose · Needs Node.js (npm install), Hermes Agent (npm installs discover an existing install), Coding-agent CLIs installed on the host, pnpm (DSH native plugins) · Models: OpenAI-compatible providers, OpenAI Codex, Claude, GitHub Copilot, Nous Portal · [Repo](https://github.com/ekkolearnai/ekko-studio) · [📖 Docs ↗](https://ekkostudio.xyz/#/docs/getting-started) · [🌐 Site ↗](https://ekkostudio.xyz) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ekko-studio/)</sub>
-
 <a name="cherry-studio-app"></a>
-### #&#8288;11 [cherry-studio-app](https://github.com/cherryhq/cherry-studio-app) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;10 [cherry-studio-app](https://github.com/cherryhq/cherry-studio-app) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Nov 2026</sub>
 
 **Mobile AI chat and agent app for iOS and Android.**
 
@@ -201,6 +183,24 @@ Cherry Studio Mobile is an Expo and React Native app for iOS and Android that co
 - **−** AGPL-3.0 license imposes network copyleft obligations
 
 <sub>no GPU · Needs Node.js 24, pnpm 12.2.1, Expo development client, AI provider account or API key · Models: Multiple AI providers via API, Image generation models, MCP servers · [Repo](https://github.com/cherryhq/cherry-studio-app) · [📖 Docs ↗](https://github.com/CherryHQ/cherry-studio-app/blob/main/docs/README.md) · [🌐 Site ↗](https://cherry-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cherry-studio-app/)</sub>
+
+<a name="ekko-studio"></a>
+### #&#8288;11 [ekko-studio](https://github.com/ekkolearnai/ekko-studio) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
+
+**Desktop and web workspace for chatting with Hermes, Ekko and coding agents.**
+
+Ekko Studio (formerly Hermes Web UI) is an Electron desktop app and self-hosted Node web console that puts Hermes Agent, a built-in Ekko Agent and 14 coding-agent CLIs, including Claude Code and Codex, behind one chat UI. It adds group chat, a visual workflow editor with approval gates, scheduled jobs, a file browser, web terminal, voice and platform channels such as Telegram and Slack. Sessions are stored in local SQLite.
+
+- **+** One UI for Hermes, Ekko and 14 coding-agent CLIs, shared by chat, group chat and workflows
+- **+** Visual workflows support conditions, loops, approval gates, run budgets and execution history
+- **+** Ships as desktop app (Windows/macOS/Linux), npm CLI and Docker image
+- **+** Many TTS and STT provider adapters, plus 10 chat platform channels
+- **−** License is reported as NOASSERTION, so terms need manual checking
+- **−** Coding agents must be installed on the backend host; some need manual installation
+- **−** Default bootstrap login is admin / 123456 until changed
+- **−** Very broad scope; README gives no RAM or hardware requirements
+
+<sub>no GPU · Docker + Compose · Needs Node.js (npm install), Hermes Agent (npm installs discover an existing install), Coding-agent CLIs installed on the host, pnpm (DSH native plugins) · Models: OpenAI-compatible providers, OpenAI Codex, Claude, GitHub Copilot, Nous Portal · [Repo](https://github.com/ekkolearnai/ekko-studio) · [📖 Docs ↗](https://ekkostudio.xyz/#/docs/getting-started) · [🌐 Site ↗](https://ekkostudio.xyz) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ekko-studio/)</sub>
 
 <a name="chatgptbox"></a>
 ### #&#8288;12 [chatgptbox](https://github.com/chatgptbox-dev/chatgptbox) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
@@ -417,7 +417,7 @@ Chuanhu Chat is a Python and Gradio web interface for hosted APIs (OpenAI, Azure
 <sub>GPU optional · Docker · Needs Python, Gradio, API keys for hosted providers · Models: OpenAI, Azure OpenAI, Google Gemini, Claude, DeepSeek · [Repo](https://github.com/gaizhenbiao/chuanhuchatgpt) · [▶️ Demo ↗](https://huggingface.co/spaces/JohnSmith9982/ChuanhuChatGPT) · [📖 Docs ↗](https://github.com/GaiZhenbiao/ChuanhuChatGPT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chuanhuchatgpt/)</sub>
 
 <a name="g0dm0d3"></a>
-### #&#8288;24 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (69) · Freshness: active (85) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · AGPL-3.0 · Jul 2026</sub>
+### #&#8288;24 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (69) · Freshness: active (85) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · AGPL-3.0 · Jul 2026</sub>
 
 **Browser chat UI that races many models and scores their responses.**
 
@@ -543,7 +543,7 @@ ChatAny is a web chat client forked from ChatGPT-Next-Web that adds an image gen
 <sub>no GPU · Docker + Compose · Needs midjourney-proxy (for Midjourney), OpenAI-compatible API · Models: OpenAI API, Midjourney (via proxy), Stable Image Ultra, Stable Image Core, Stable Diffusion 3 · port 3000 · [Repo](https://github.com/chatanyteam/chatany) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatany/)</sub>
 
 <a name="aidea"></a>
-### #&#8288;31 [aidea](https://github.com/mylxsw/aidea) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: popular (50) · Freshness: quiet (26) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
+### #&#8288;31 [aidea](https://github.com/mylxsw/aidea) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: known (50) · Freshness: quiet (26) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
 
 **Flutter client for chatting with LLMs and generating images.**
 
@@ -559,26 +559,8 @@ AIdea is a Flutter app for mobile, macOS and Windows that gives one interface to
 
 <sub>Docker · Needs aidea-server (Go backend) · [Repo](https://github.com/mylxsw/aidea) · [📖 Docs ↗](https://github.com/mylxsw/aidea-server/blob/main/docs/deploy.md) · [🌐 Site ↗](https://aidea.aicode.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aidea/)</sub>
 
-<a name="aidea-server"></a>
-### #&#8288;32 [aidea-server](https://github.com/mylxsw/aidea-server) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (8) · Freshness: recent (70) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.8k · no license · Oct 2026</sub>
-
-**Go backend for the AIdea mobile chat and image-generation app.**
-
-Go server that backs the AIdea client app, wrapping multiple LLM and image-generation providers behind one chat-stream interface. It also exposes an OpenAI-compatible API for third-party clients, with billing, payment, SMS and rate-limiting modules built in. Data access goes through the author's Eloquent ORM (MySQL), and the code includes a Redis package and a task queue.
-
-- **+** Exposes an OpenAI-compatible API usable by any client that speaks that protocol
-- **+** Includes user accounts, coin-based billing, payments and rate limiting in the codebase
-- **+** Wraps several chat and image model providers behind one chat-stream interface
-- **+** MIT license, with example config, nginx and systemd files in the repo
-- **−** README says code comments and technical documentation are limited
-- **−** Built for the separate AIdea client app; no web UI in this repo
-- **−** Integrations lean on Chinese services (Alipay, Aliyun, Tencent, Qiniu, Youdao)
-- **−** Last release is April 2024; no docker compose file in this repo
-
-<sub>Docker · Needs MySQL, Redis, Qiniu Cloud Storage · Models: OpenAI-compatible API, multiple hosted LLM providers, image generation models · [Repo](https://github.com/mylxsw/aidea-server) · [▶️ Demo ↗](https://aidea.aicode.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aidea-server/)</sub>
-
 <a name="tavernai-v1"></a>
-### #&#8288;33 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (19) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
+### #&#8288;32 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (19) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
 
 **Legacy Node.js chat and story frontend for Kobold, OpenAI, Claude.**
 
@@ -594,5 +576,23 @@ TavernAI v1 is a Node.js web frontend for character chat and story writing. It c
 - **−** Install links point to Node.js 20 and 21 builds
 
 <sub>no GPU · Docker + Compose · Needs Node.js, A model backend (KoboldAI, Oobabooga, OpenAI, NovelAI, Claude or Ollama) · Models: KoboldAI, KoboldCpp, Horde, Oobabooga Text Generation Web UI, OpenAI · [Repo](https://github.com/tavernai/tavernai-v1) · [📖 Docs ↗](https://github.com/TavernAI/TavernAI/wiki/How-to-install) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tavernai-v1/)</sub>
+
+<a name="aidea-server"></a>
+### #&#8288;33 [aidea-server](https://github.com/mylxsw/aidea-server) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (8) · Freshness: recent (70) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.8k · no license · Oct 2026</sub>
+
+**Go backend for the AIdea mobile chat and image-generation app.**
+
+Go server that backs the AIdea client app, wrapping multiple LLM and image-generation providers behind one chat-stream interface. It also exposes an OpenAI-compatible API for third-party clients, with billing, payment, SMS and rate-limiting modules built in. Data access goes through the author's Eloquent ORM (MySQL), and the code includes a Redis package and a task queue.
+
+- **+** Exposes an OpenAI-compatible API usable by any client that speaks that protocol
+- **+** Includes user accounts, coin-based billing, payments and rate limiting in the codebase
+- **+** Wraps several chat and image model providers behind one chat-stream interface
+- **+** MIT license, with example config, nginx and systemd files in the repo
+- **−** README says code comments and technical documentation are limited
+- **−** Built for the separate AIdea client app; no web UI in this repo
+- **−** Integrations lean on Chinese services (Alipay, Aliyun, Tencent, Qiniu, Youdao)
+- **−** Last release is April 2024; no docker compose file in this repo
+
+<sub>Docker · Needs MySQL, Redis, Qiniu Cloud Storage · Models: OpenAI-compatible API, multiple hosted LLM providers, image generation models · [Repo](https://github.com/mylxsw/aidea-server) · [▶️ Demo ↗](https://aidea.aicode.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aidea-server/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
