@@ -384,20 +384,20 @@ Page Agent is a TypeScript library that embeds an LLM-driven agent in a web page
 <a name="adk-python"></a>
 ### #&#8288;22 [adk-python](https://github.com/google/adk-python) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Nov 2026</sub>
 
-**Code-first Python framework for building, evaluating and deploying multi-agent apps.**
+**Code-first Python framework for building and deploying multi-agent apps.**
 
-ADK is Google's Python framework for defining agents and graph-based workflows in code, with tool calling (custom functions, OpenAPI specs, MCP), multi-agent hierarchies and a Task API for agent-to-agent delegation. It ships a CLI (`adk run`, `adk web`, `adk eval`, `adk deploy`) and a built-in dev UI. Optimized for Gemini but described as model-agnostic; deploy targets include Docker, Cloud Run and Vertex AI Agent Engine.
+Google's Agent Development Kit lets you define agents in Python with instructions, tools and a model, then compose them into hierarchies or graph-based Workflows with routing, loops, retry and human-in-the-loop. It ships a CLI (adk run, web, eval, deploy) and a dev UI. Optimized for Gemini but model-agnostic, with deploy commands for Docker and Cloud Run.
 
-- **+** Graph-based Workflow runtime with routing, fan-out/fan-in, loops, retry and human-in-the-loop
-- **+** Built-in CLI for running, evaluating (`adk eval`) and deploying agents
-- **+** Dev web UI included for testing and debugging agents
-- **+** Tool confirmation flow guards tool execution; MCP and OpenAPI tools supported
-- **−** Optimized for Gemini and Google Cloud; other model providers are not enumerated in the README
+- **+** Graph Workflow runtime with fan-out/fan-in, loops, retry, nested workflows and human-in-the-loop
+- **+** CLI covers running, web UI testing, eval sets and deployment
+- **+** Tools from plain functions, OpenAPI specs and MCP, plus a tool confirmation flow
+- **+** Sibling SDKs for Java, Kotlin, Go and TypeScript; roughly bi-weekly releases
+- **−** Documented deploy paths and defaults lean toward Gemini and Google Cloud
 - **−** Requires Python 3.11 or newer
-- **−** Roughly bi-weekly releases; main branch may contain experimental changes
-- **−** Managed scaling path points to Vertex AI Agent Engine, a Google Cloud service
+- **−** Optional integrations need the separate google-adk[extensions] install
+- **−** Several overlapping concepts (Agent, Workflow, Task API, Agent Config) to learn
 
-<sub>no GPU · Needs Python 3.11+, Gemini API or Vertex AI (default models), Docker (optional, for deploy), Google Cloud Run (optional) · Models: Gemini, model-agnostic (providers unknown) · [Repo](https://github.com/google/adk-python) · [📖 Docs ↗](https://adk.dev/) · [🌐 Site ↗](https://adk.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adk-python/)</sub>
+<sub>no GPU · Needs Python 3.11+, LLM provider (Gemini by default) · Models: Gemini, other providers (model-agnostic) · [Repo](https://github.com/google/adk-python) · [📖 Docs ↗](https://adk.dev/) · [🌐 Site ↗](https://adk.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adk-python/)</sub>
 
 <a name="ag-ui"></a>
 ### #&#8288;23 [ag-ui](https://github.com/ag-ui-protocol/ag-ui) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · MIT · Nov 2026</sub>
