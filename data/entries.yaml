@@ -8705,38 +8705,36 @@ entries:
     repo: google/adk-python
     name: adk-python
     status: listed
-    tagline: Code-first Python framework for building, evaluating and deploying multi-agent apps
-    summary: ADK is Google's Python framework for defining agents and graph-based workflows in code, with tool calling (custom functions, OpenAPI specs, MCP), multi-agent hierarchies and a Task API for agent-to-agent delegation. It ships a CLI (`adk run`, `adk web`, `adk eval`, `adk deploy`) and a built-in dev UI. Optimized for Gemini but described as model-agnostic; deploy targets include Docker, Cloud Run and Vertex AI Agent Engine.
+    tagline: Code-first Python framework for building and deploying multi-agent apps
+    summary: Google's Agent Development Kit lets you define agents in Python with instructions, tools and a model, then compose them into hierarchies or graph-based Workflows with routing, loops, retry and human-in-the-loop. It ships a CLI (adk run, web, eval, deploy) and a dev UI. Optimized for Gemini but model-agnostic, with deploy commands for Docker and Cloud Run.
     categories:
       - agent-frameworks
     strengths:
-      - Graph-based Workflow runtime with routing, fan-out/fan-in, loops, retry and human-in-the-loop
-      - Built-in CLI for running, evaluating (`adk eval`) and deploying agents
-      - Dev web UI included for testing and debugging agents
-      - Tool confirmation flow guards tool execution; MCP and OpenAPI tools supported
+      - Graph Workflow runtime with fan-out/fan-in, loops, retry, nested workflows and human-in-the-loop
+      - CLI covers running, web UI testing, eval sets and deployment
+      - Tools from plain functions, OpenAPI specs and MCP, plus a tool confirmation flow
+      - Sibling SDKs for Java, Kotlin, Go and TypeScript; roughly bi-weekly releases
     weaknesses:
-      - Optimized for Gemini and Google Cloud; other model providers are not enumerated in the README
+      - Documented deploy paths and defaults lean toward Gemini and Google Cloud
       - Requires Python 3.11 or newer
-      - Roughly bi-weekly releases; main branch may contain experimental changes
-      - Managed scaling path points to Vertex AI Agent Engine, a Google Cloud service
+      - Optional integrations need the separate google-adk[extensions] install
+      - Several overlapping concepts (Agent, Workflow, Task API, Agent Config) to learn
     specs:
       ram_min_gb: null
       gpu: none
       external_deps:
         - Python 3.11+
-        - Gemini API or Vertex AI (default models)
-        - Docker (optional, for deploy)
-        - Google Cloud Run (optional)
+        - LLM provider (Gemini by default)
       model_support:
         - Gemini
-        - model-agnostic (providers unknown)
+        - other providers (model-agnostic)
       web_port: null
     links:
       demo: null
       website: https://adk.dev/
       docs: https://adk.dev/
-    audience: Python developers building and deploying multi-agent LLM applications
-    confidence: 0.85
+    audience: Python developers building multi-agent apps and workflows, esp. on Google Cloud
+    confidence: 0.9
     facts:
       stars: 22313
       license: Apache-2.0
