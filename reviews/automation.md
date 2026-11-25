@@ -90,6 +90,6 @@ flyto-core is the Python execution engine behind Flyto2. It ships 482 registered
 - **−** Browser recipes need Playwright and a Chromium install
 - **−** README gives no LLM or model integration details
 
-<sub>no GPU · Docker · Needs Python, Playwright, Chromium · [Repo](https://github.com/flytohub/flyto-core) · [📖 Docs ↗](https://docs.flyto2.com) · [🌐 Site ↗](https://flyto2.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flyto-core/)</sub>
+<sub>no GPU · Docker · Needs Python, Playwright, Chromium · [Repo](https://github.com/flytohub/flyto-core) · [🌐 Site ↗](https://flyto2.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flyto-core/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>

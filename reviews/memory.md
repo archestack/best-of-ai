@@ -469,26 +469,8 @@ Open Brain is a guide and contribution repo for building a personal memory store
 
 <sub>no GPU · Needs Supabase, PostgreSQL with pgvector, Slack or Discord, AI gateway · Models: MCP clients: Claude, ChatGPT, Cursor, Claude Code · [Repo](https://github.com/natebjones-projects/ob1) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ob1/)</sub>
 
-<a name="m-flow"></a>
-### #&#8288;27 [m_flow](https://github.com/flowelement-xinliuyuansu/m_flow) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (43) · Freshness: active (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Aug 2026</sub>
-
-**Graph-based memory engine that scores retrieval by evidence paths.**
-
-M-flow is a Python memory layer for AI agents that ingests text and files into a four-level graph (Episode, Facet, FacetPoint, Entity). Queries are anchored by vector search at the matching granularity, then scored by graph path cost, and whole Episode bundles are returned. It ships a Python API, a CLI, a FastAPI backend, a Next.js console and an MCP server.
-
-- **+** Multi-granularity graph retrieval; reports 81.8% on LoCoMo-10 and 89% on LongMemEval
-- **+** Resolves pronouns to named entities before indexing, so later turns stay retrievable
-- **+** Supports LanceDB, Neo4j, pgvector, ChromaDB, KùzuDB and Pinecone backends
-- **+** Includes MCP server, CLI, web console and 50+ file format ingestion
-- **−** Benchmark figures are self-reported and compared against vendor cloud products
-- **−** Graph building runs through an LLM at ingestion, so it needs an API key or local model
-- **−** Summaries keep all details, so retrieved context is longer than with compressed approaches
-- **−** Face-aware playground needs a separate companion service and a camera
-
-<sub>Docker + Compose · Needs LLM API key, LanceDB, Neo4j, PostgreSQL/pgvector, ChromaDB, KùzuDB or Pinecone · Models: OpenAI, Anthropic, Mistral, Groq, Ollama · [Repo](https://github.com/flowelement-xinliuyuansu/m_flow) · [📖 Docs ↗](https://github.com/flowelement-xinliuyuansu/m_flow/blob/main/docs/RETRIEVAL_ARCHITECTURE.md) · [🌐 Site ↗](https://m-flow.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/m-flow/)</sub>
-
 <a name="memmy-agent"></a>
-### #&#8288;28 [memmy-agent](https://github.com/memtensor/memmy-agent) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+### #&#8288;27 [memmy-agent](https://github.com/memtensor/memmy-agent) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
 
 **Local memory service and agent that shares context across coding agents.**
 
@@ -504,6 +486,24 @@ Memmy runs a local memory service (default http://127.0.0.1:18960) that records 
 - **−** Team sharing and non-conversation memory sources are only roadmap items
 
 <sub>Needs Node.js 22+, systemd user session (Linux CLI installer), LLM provider API key (BYOK) · Models: OpenAI (e.g. openai/gpt-4.1), Other providers via config.yaml · port 18990 · [Repo](https://github.com/memtensor/memmy-agent) · [📖 Docs ↗](https://memmy.bot/docs/) · [🌐 Site ↗](https://memmy.bot/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memmy-agent/)</sub>
+
+<a name="m-flow"></a>
+### #&#8288;28 [m_flow](https://github.com/flowelement-xinliuyuansu/m_flow) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (43) · Freshness: active (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Aug 2026</sub>
+
+**Graph-based memory engine that scores retrieval by evidence paths.**
+
+M-flow is a Python memory layer for AI agents that ingests text and files into a four-level graph (Episode, Facet, FacetPoint, Entity). Queries are anchored by vector search at the matching granularity, then scored by graph path cost, and whole Episode bundles are returned. It ships a Python API, a CLI, a FastAPI backend, a Next.js console and an MCP server.
+
+- **+** Multi-granularity graph retrieval; reports 81.8% on LoCoMo-10 and 89% on LongMemEval
+- **+** Resolves pronouns to named entities before indexing, so later turns stay retrievable
+- **+** Supports LanceDB, Neo4j, pgvector, ChromaDB, KùzuDB and Pinecone backends
+- **+** Includes MCP server, CLI, web console and 50+ file format ingestion
+- **−** Benchmark figures are self-reported and compared against vendor cloud products
+- **−** Graph building runs through an LLM at ingestion, so it needs an API key or local model
+- **−** Summaries keep all details, so retrieved context is longer than with compressed approaches
+- **−** Face-aware playground needs a separate companion service and a camera
+
+<sub>Docker + Compose · Needs LLM API key, LanceDB, Neo4j, PostgreSQL/pgvector, ChromaDB, KùzuDB or Pinecone · Models: OpenAI, Anthropic, Mistral, Groq, Ollama · [Repo](https://github.com/flowelement-xinliuyuansu/m_flow) · [🌐 Site ↗](https://m-flow.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/m-flow/)</sub>
 
 <a name="memmachine"></a>
 ### #&#8288;29 [memmachine](https://github.com/memmachine/memmachine) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Nov 2026</sub>
@@ -650,7 +650,7 @@ SkillClaw runs a local proxy exposing /v1/chat/completions and /v1/messages betw
 <sub>no GPU · Needs Python 3.10+, OpenAI-compatible API or AWS Bedrock, OpenClaw (only for agent engine), Alibaba OSS or S3 (optional, for sharing) · Models: OpenAI-compatible APIs, AWS Bedrock · port 30000 · [Repo](https://github.com/amap-ml/skillclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skillclaw/)</sub>
 
 <a name="memory-lancedb-pro"></a>
-### #&#8288;37 [memory-lancedb-pro](https://github.com/cortexreach/memory-lancedb-pro) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (42) · Freshness: active (95) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 4.4k · no license · Nov 2026</sub>
+### #&#8288;37 [memory-lancedb-pro](https://github.com/cortexreach/memory-lancedb-pro) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (42) · Freshness: active (94) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 4.4k · no license · Nov 2026</sub>
 
 **LanceDB-backed long-term memory plugin for OpenClaw agents.**
 

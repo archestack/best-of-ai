@@ -1,5 +1,5 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
-updated_at: 2026-11-24
+updated_at: 2026-11-25
 entries:
   - id: exo
     repo: exo-explore/exo
@@ -1485,7 +1485,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 40
+    score: 39
   - id: crewai
     repo: crewaiinc/crewai
     name: crewai
@@ -1676,7 +1676,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 54
+    score: 53
   - id: vibevoice
     repo: microsoft/vibevoice
     name: vibevoice
@@ -2284,7 +2284,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 68
+    score: 67
   - id: bitnet
     repo: microsoft/bitnet
     name: bitnet
@@ -9467,7 +9467,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 41
   - id: eliza
     repo: elizaos/eliza
     name: eliza
@@ -11050,7 +11050,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 33
+    score: 32
   - id: libretranslate
     repo: libretranslate/libretranslate
     name: libretranslate
@@ -14496,7 +14496,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 40
   - id: new-api
     repo: quantumnous/new-api
     name: new-api
@@ -15113,7 +15113,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 54
+    score: 53
   - id: axolotl
     repo: axolotl-ai-cloud/axolotl
     name: axolotl
@@ -15612,7 +15612,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 51
+    score: 50
   - id: speechbrain
     repo: speechbrain/speechbrain
     name: speechbrain
@@ -15870,7 +15870,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 31
+    score: 30
   - id: minicpm
     repo: openbmb/minicpm
     name: minicpm
@@ -16011,7 +16011,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 47
+    score: 46
   - id: camofox-browser
     repo: jo-inc/camofox-browser
     name: camofox-browser
@@ -17093,7 +17093,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 47
+    score: 46
   - id: wan2-2
     repo: wan-video/wan2.2
     name: wan2.2
@@ -17426,7 +17426,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 40
+    score: 39
   - id: hunyuanvideo
     repo: tencent-hunyuan/hunyuanvideo
     name: hunyuanvideo
@@ -20355,7 +20355,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 26
+    score: 25
   - id: pyro
     repo: pyro-ppl/pyro
     name: pyro
@@ -20760,7 +20760,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://docs.bentoml.com
+      docs: null
     audience: Python engineers deploying custom or open models as production inference APIs
     confidence: 0.9
     facts:
@@ -22003,7 +22003,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 34
+    score: 33
   - id: utopia
     repo: deeplethe/utopia
     name: utopia
@@ -22800,7 +22800,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 29
+    score: 28
   - id: weathernext
     repo: google-deepmind/weathernext
     name: weathernext
@@ -23679,7 +23679,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 32
+    score: 31
   - id: yuxi
     repo: xerrors/yuxi
     name: yuxi
@@ -24415,7 +24415,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 19
+    score: 18
   - id: alphafold
     repo: google-deepmind/alphafold
     name: alphafold
@@ -24522,7 +24522,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 28
+    score: 27
   - id: llm-universe
     repo: datawhalechina/llm-universe
     name: llm-universe
@@ -25726,7 +25726,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 35
+    score: 34
   - id: flower
     repo: flwrlabs/flower
     name: flower
@@ -26384,7 +26384,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 24
+    score: 23
   - id: deep-research
     repo: dzhng/deep-research
     name: dzhng/deep-research
@@ -28295,7 +28295,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 43
+    score: 42
   - id: atomic-agents
     repo: eigenwise/atomic-agents
     name: atomic-agents
@@ -28482,7 +28482,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 52
+    score: 51
   - id: anomalib
     repo: open-edge-platform/anomalib
     name: anomalib
@@ -29288,7 +29288,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 31
+    score: 30
   - id: chatany
     repo: chatanyteam/chatany
     name: chatany
@@ -33655,7 +33655,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 26
+    score: 25
   - id: openalice
     repo: traderalice/openalice
     name: openalice
@@ -33934,7 +33934,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 28
+    score: 27
   - id: stt
     repo: jianchang512/stt
     name: stt
@@ -34470,7 +34470,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 38
+    score: 37
   - id: horizon
     repo: thysrael/horizon
     name: horizon
@@ -35899,7 +35899,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 34
+    score: 33
   - id: brag-langchain
     repo: bragai/brag-langchain
     name: brag-langchain
@@ -36757,8 +36757,8 @@ entries:
         - Demucs
       web_port: null
     links:
-      demo: https://liuzhao1225.github.io/YouDub-webui/
-      website: https://liuzhao1225.github.io/YouDub-webui/
+      demo: null
+      website: null
       docs: https://github.com/liuzhao1225/YouDub-webui/blob/main/docs/upgrade.md
     audience: Creators localizing videos into dubbed, subtitled versions on their own machine
     confidence: 0.8
@@ -42178,7 +42178,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 48
+    score: 47
   - id: baml
     repo: boundaryml/baml
     name: baml
@@ -42886,7 +42886,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 19
+    score: 18
   - id: weighted-boxes-fusion
     repo: zfturbo/weighted-boxes-fusion
     name: weighted-boxes-fusion
@@ -44339,7 +44339,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 45
+    score: 44
   - id: refly
     repo: refly-ai/refly
     name: refly
@@ -44954,7 +44954,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 29
+    score: 28
   - id: ai-quant-trade
     repo: charliedream1/ai_quant_trade
     name: ai_quant_trade
@@ -45189,7 +45189,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 14
+    score: 13
   - id: xiaozhi-esp32-server-java
     repo: joey-zhou/xiaozhi-esp32-server-java
     name: xiaozhi-esp32-server-java
@@ -47487,7 +47487,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 24
+    score: 23
   - id: internnav
     repo: internrobotics/internnav
     name: internnav
@@ -47540,7 +47540,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 19
+    score: 18
   - id: oc-sort
     repo: noahcao/oc_sort
     name: oc_sort
@@ -48851,7 +48851,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 59
+    score: 58
   - id: olares
     repo: beclab/olares
     name: olares
@@ -50338,7 +50338,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 42
+    score: 41
   - id: ag2
     repo: ag2ai/ag2
     name: ag2
@@ -52843,7 +52843,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 22
+    score: 21
   - id: simple-evals
     repo: openai/simple-evals
     name: simple-evals
@@ -54032,7 +54032,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 13
+    score: 12
   - id: ai-system-design-guide
     repo: ombharatiya/ai-system-design-guide
     name: ai-system-design-guide
@@ -54877,7 +54877,7 @@ entries:
     links:
       demo: null
       website: https://m-flow.ai
-      docs: https://github.com/flowelement-xinliuyuansu/m_flow/blob/main/docs/RETRIEVAL_ARCHITECTURE.md
+      docs: null
     audience: Developers adding long-term graph memory to agents or RAG apps
     confidence: 0.8
     facts:
@@ -54889,7 +54889,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 62
+    score: 61
   - id: ruby-llm
     repo: crmne/ruby_llm
     name: ruby_llm
@@ -59554,7 +59554,7 @@ entries:
   - id: deepchecks
     repo: deepchecks/deepchecks
     name: deepchecks
-    status: listed
+    status: stale
     tagline: Python checks for validating tabular, NLP and vision data and models
     summary: Deepchecks is a Python package of built-in Checks and Suites that test data integrity, drift, leakage and model performance for tabular, NLP and computer vision projects. Results can be saved as HTML, shown in Jupyter, read as JSON or Python values, and gated with pass/fail conditions in CI. A separate repo, deepchecks/monitoring, reuses the same checks for production models.
     categories:
@@ -60435,7 +60435,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 24
+    score: 23
   - id: toolhive
     repo: stacklok/toolhive
     name: toolhive
@@ -63384,7 +63384,7 @@ entries:
       has_compose: true
       is_template: false
       language: Shell
-    score: 28
+    score: 27
   - id: goclaw
     repo: nextlevelbuilder/goclaw
     name: goclaw
@@ -64344,7 +64344,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 40
+    score: 39
   - id: nndl-practice
     repo: nndl/nndl-practice
     name: nndl-practice
@@ -65350,7 +65350,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 25
+    score: 24
   - id: paper-orchestra
     repo: google-research/paper-orchestra
     name: paper-orchestra
@@ -68476,7 +68476,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 29
+    score: 28
   - id: seep-reverse-lab
     repo: angusdevgo/seep-reverse-lab
     name: seep-reverse-lab
@@ -69090,7 +69090,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 17
+    score: 16
   - id: clawflows
     repo: nikilster/clawflows
     name: clawflows
@@ -69407,7 +69407,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 26
+    score: 25
   - id: fastembed
     repo: qdrant/fastembed
     name: fastembed
@@ -71829,7 +71829,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 11
+    score: 10
   - id: rfdiffusion
     repo: rosettacommons/rfdiffusion
     name: rfdiffusion
@@ -71878,7 +71878,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 37
+    score: 36
   - id: willow
     repo: heywillow/willow
     name: willow
@@ -72255,7 +72255,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 54
+    score: 53
   - id: deepopen
     repo: deepopen-com/deepopen
     name: deepopen
@@ -72593,7 +72593,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 29
+    score: 28
   - id: heliosgen
     repo: segfault42/heliosgen
     name: heliosgen
@@ -76433,7 +76433,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 36
+    score: 35
   - id: flux2
     repo: black-forest-labs/flux2
     name: flux2
@@ -76774,7 +76774,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 28
+    score: 27
   - id: nanomuse
     repo: nano-muse/nanomuse
     name: nanomuse
@@ -81193,7 +81193,7 @@ entries:
   - id: huixiangdou
     repo: internlm/huixiangdou
     name: huixiangdou
-    status: listed
+    status: stale
     tagline: RAG assistant that answers technical questions in group chats without flooding
     summary: HuixiangDou builds a knowledge base from documents (pdf, word, excel, ppt, html, markdown, txt) and answers through a three-stage pipeline of preprocess, rejection and response. The rejection stage lets it stay silent on off-topic messages in group chats such as WeChat and Lark. It calls remote LLM APIs or a local vLLM server, and ships a Gradio UI, an HTTP server on port 23333, and a web front end and back end.
     categories:
@@ -83038,7 +83038,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 25
+    score: 24
   - id: agents-from-scratch
     repo: langchain-ai/agents-from-scratch
     name: agents-from-scratch
@@ -84005,7 +84005,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://docs.instill-ai.com/docs
+      docs: null
     audience: Teams self-hosting AI pipelines, document processing and model serving together
     confidence: 0.6
     facts:
@@ -84801,7 +84801,7 @@ entries:
     links:
       demo: null
       website: https://flyto2.com
-      docs: https://docs.flyto2.com
+      docs: null
     audience: Engineers scripting repeatable browser, API and file workflows
     confidence: 0.7
     facts:
@@ -85809,7 +85809,7 @@ entries:
     links:
       demo: null
       website: null
-      docs: https://microsoft.github.io/kernel-memory/azure
+      docs: null
     audience: .NET developers who want a RAG ingestion and query service to study or adapt
     confidence: 0.8
     facts:
@@ -87816,7 +87816,7 @@ entries:
       has_compose: false
       is_template: false
       language: C
-    score: 15
+    score: 14
   - id: hunyuanocr
     repo: tencent-hunyuan/hunyuanocr
     name: hunyuanocr
@@ -88536,7 +88536,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 15
+    score: 14
   - id: chai-lab
     repo: chaidiscovery/chai-lab
     name: chai-lab
@@ -89838,8 +89838,8 @@ entries:
       web_port: null
     links:
       demo: https://demogpt.streamlit.app
-      website: https://demogpt.io
-      docs: https://docs.demogpt.io
+      website: null
+      docs: null
     audience: Python developers building tool-calling or RAG agents on LangChain
     confidence: 0.8
     facts:
@@ -89985,7 +89985,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 12
+    score: 11
   - id: starnet
     repo: androoagi/starnet
     name: starnet
@@ -90895,7 +90895,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 24
+    score: 23
   - id: orcah-studio
     repo: iliashad/orcah-studio
     name: orcah-studio
@@ -91555,8 +91555,8 @@ entries:
         - time series
       web_port: 8888
     links:
-      demo: https://aix360.res.ibm.com/
-      website: https://aix360.res.ibm.com/
+      demo: null
+      website: null
       docs: https://aix360.readthedocs.io/en/latest/
     audience: Data scientists and ML engineers explaining model predictions and datasets
     confidence: 0.8
@@ -92226,7 +92226,7 @@ entries:
     links:
       demo: null
       website: https://sec-edgar-mcp.amorelli.tech/
-      docs: https://sec-edgar-mcp.amorelli.tech/setup/quickstart
+      docs: null
     audience: Engineers connecting AI assistants to SEC filings and financial data
     confidence: 0.9
     facts:
@@ -93556,7 +93556,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 49
+    score: 48
   - id: open-webui
     repo: open-webui/open-webui
     name: Open WebUI
@@ -95573,7 +95573,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 50
+    score: 49
   - id: maxkb
     repo: 1panel-dev/maxkb
     name: MaxKB
@@ -97054,7 +97054,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 35
+    score: 34
   - id: bifrost
     repo: maximhq/bifrost
     name: Bifrost
@@ -98167,7 +98167,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 35
+    score: 34
   - id: openreader
     repo: richardr1126/openreader
     name: OpenReader

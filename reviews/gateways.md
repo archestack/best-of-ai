@@ -1076,7 +1076,7 @@ Portkey Gateway is a Node.js proxy that routes requests to 250+ LLM providers th
 <sub>no GPU · Docker + Compose · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Cohere, Mistral, Together, Perplexity, Ollama, Bedrock, Groq and 45+ providers · port 8787 · [Repo](https://github.com/portkey-ai/gateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/portkey-gateway/)</sub>
 
 <a name="evals"></a>
-### #&#8288;61 [evals](https://github.com/openai/evals) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (86) · Freshness: recent (51) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
+### #&#8288;61 [evals](https://github.com/openai/evals) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: widely used (86) · Freshness: recent (51) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
 
 **Python framework and registry for evaluating LLMs and LLM-based systems.**
 
@@ -1112,7 +1112,7 @@ A Next.js dashboard that reads ~/.openclaw/openclaw.json and local session files
 <sub>no GPU · Docker · Needs OpenClaw, Node.js 18+ · Models: MiniMax-M2.7, MiniMax-M2.7-highspeed, OpenAI-compatible providers via OpenClaw config · port 3000 · [Repo](https://github.com/xmanrui/openclaw-bot-review) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-bot-review/)</sub>
 
 <a name="agentops"></a>
-### #&#8288;63 [agentops](https://github.com/agentops-ai/agentops) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (57) · Freshness: recent (62) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
+### #&#8288;63 [agentops](https://github.com/agentops-ai/agentops) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (57) · Freshness: recent (61) · Maintenance: weak (4) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · MIT · Jun 2026</sub>
 
 **Tracing, session replay and LLM cost tracking for AI agents.**
 
@@ -1130,7 +1130,7 @@ AgentOps is a Python SDK plus a dashboard and API backend that records agent run
 <sub>no GPU · Needs AgentOps API key (hosted dashboard) · Models: OpenAI, Anthropic, Mistral, Cohere, LiteLLM · [Repo](https://github.com/agentops-ai/agentops) · [🌐 Site ↗](https://agentops.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentops/)</sub>
 
 <a name="mcpo"></a>
-### #&#8288;64 [mcpo](https://github.com/open-webui/mcpo) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (43) · Freshness: slowing (47) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
+### #&#8288;64 [mcpo](https://github.com/open-webui/mcpo) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (43) · Freshness: slowing (46) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Feb 2026</sub>
 
 **Exposes any MCP server as an OpenAPI HTTP endpoint.**
 
@@ -1147,26 +1147,8 @@ mcpo wraps an MCP server command, SSE or Streamable HTTP endpoint and exposes it
 
 <sub>no GPU · Docker · Needs MCP servers to proxy · port 8000 · [Repo](https://github.com/open-webui/mcpo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcpo/)</sub>
 
-<a name="coai"></a>
-### #&#8288;65 [CoAI](https://github.com/coaidev/coai) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (73) · Freshness: slowing (39) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
-
-**Multi-user chat site plus OpenAI-compatible proxy with billing.**
-
-CoAI pairs a multi-user chat frontend with an OpenAI-compatible API proxy and billing for operators of commercial AI sites. A Go backend on MySQL and Redis routes across channels with priority, weight, retries and model redirection for OpenAI, Anthropic, Gemini, Midjourney, Ollama and more; the React UI adds file parsing, SearXNG search and image generation. Docker Compose serves it on port 8000.
-
-- **+** Chat UI and OpenAI-compatible proxy in one deployment
-- **+** Channel priorities, weights, retries and model redirection for routing
-- **+** Subscription and per-token billing with gift and redemption codes
-- **+** Midjourney, DALL-E and Stable Diffusion image generation in chat
-- **−** Default admin login root / chatnio123456 must be changed after deploy
-- **−** RAG, TTS/STT, OAuth login and rate limiting are in the paid Pro version
-- **−** Needs MySQL and Redis
-- **−** Last commit 2026-03-12
-
-<sub>no GPU · Docker + Compose · Needs MySQL, Redis, SearXNG (optional web search), CoAI blob-service (optional file parsing) · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Midjourney, SparkDesk, Zhipu, Qwen, Hunyuan, Baichuan, Moonshot, DeepSeek, Skylark, Groq, OpenRouter, 360, LocalAI, Ollama · port 8000 · [Repo](https://github.com/coaidev/coai) · [🌐 Site ↗](https://coai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/coai/)</sub>
-
 <a name="terminal-bench-1"></a>
-### #&#8288;66 [terminal-bench-1](https://github.com/harbor-framework/terminal-bench-1) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (20) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;65 [terminal-bench-1](https://github.com/harbor-framework/terminal-bench-1) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (20) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Jul 2026</sub>
 
 **Benchmark of about 100 terminal tasks with a harness for testing LLM agents.**
 
@@ -1182,6 +1164,24 @@ Terminal-Bench is a dataset of command-line tasks plus an execution harness that
 - **−** README example uses a hosted model API; local model setup is not described
 
 <sub>no GPU · Docker + Compose · Needs Docker, uv · Models: anthropic/claude-3-7-latest (README example) · [Repo](https://github.com/harbor-framework/terminal-bench-1) · [📖 Docs ↗](https://www.tbench.ai/docs) · [🌐 Site ↗](https://www.tbench.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/terminal-bench-1/)</sub>
+
+<a name="coai"></a>
+### #&#8288;66 [CoAI](https://github.com/coaidev/coai) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (73) · Freshness: slowing (39) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
+
+**Multi-user chat site plus OpenAI-compatible proxy with billing.**
+
+CoAI pairs a multi-user chat frontend with an OpenAI-compatible API proxy and billing for operators of commercial AI sites. A Go backend on MySQL and Redis routes across channels with priority, weight, retries and model redirection for OpenAI, Anthropic, Gemini, Midjourney, Ollama and more; the React UI adds file parsing, SearXNG search and image generation. Docker Compose serves it on port 8000.
+
+- **+** Chat UI and OpenAI-compatible proxy in one deployment
+- **+** Channel priorities, weights, retries and model redirection for routing
+- **+** Subscription and per-token billing with gift and redemption codes
+- **+** Midjourney, DALL-E and Stable Diffusion image generation in chat
+- **−** Default admin login root / chatnio123456 must be changed after deploy
+- **−** RAG, TTS/STT, OAuth login and rate limiting are in the paid Pro version
+- **−** Needs MySQL and Redis
+- **−** Last commit 2026-03-12
+
+<sub>no GPU · Docker + Compose · Needs MySQL, Redis, SearXNG (optional web search), CoAI blob-service (optional file parsing) · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Midjourney, SparkDesk, Zhipu, Qwen, Hunyuan, Baichuan, Moonshot, DeepSeek, Skylark, Groq, OpenRouter, 360, LocalAI, Ollama · port 8000 · [Repo](https://github.com/coaidev/coai) · [🌐 Site ↗](https://coai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/coai/)</sub>
 
 <a name="pezzo"></a>
 ### #&#8288;67 [Pezzo](https://github.com/pezzolabs/pezzo) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (30) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
@@ -1238,7 +1238,7 @@ A TypeScript web UI that reads an existing OpenClaw installation and shows healt
 <sub>no GPU · Docker + Compose · Needs OpenClaw, OpenClaw Gateway, Node.js, npm · port 4310 · [Repo](https://github.com/tianyidatascience/openclaw-control-center) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-control-center/)</sub>
 
 <a name="one-hub"></a>
-### #&#8288;70 [one-hub](https://github.com/martialbe/one-hub) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (24) · Freshness: slowing (38) · Maintenance: weak (19) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;70 [one-hub](https://github.com/martialbe/one-hub) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (24) · Freshness: slowing (37) · Maintenance: weak (19) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Feb 2026</sub>
 
 **OpenAI-compatible gateway for routing, pricing and billing across LLM providers.**
 
@@ -1256,7 +1256,7 @@ One Hub is a Go fork of one-api that proxies requests to providers such as OpenA
 <sub>no GPU · Docker + Compose · Compose runs Redis, MySQL · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Amazon Bedrock · [Repo](https://github.com/martialbe/one-hub) · [▶️ Demo ↗](https://one-hub.xiao5.info/) · [📖 Docs ↗](https://one-hub-doc.vercel.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/one-hub/)</sub>
 
 <a name="skill"></a>
-### #&#8288;71 [skill](https://github.com/pinchbench/skill) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (5) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · May 2026</sub>
+### #&#8288;71 [skill](https://github.com/pinchbench/skill) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (5) · Freshness: recent (73) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · May 2026</sub>
 
 **Benchmark suite that scores LLMs as the model behind an OpenClaw agent.**
 

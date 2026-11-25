@@ -615,26 +615,8 @@ Agentic Security sends jailbreak, prompt-injection, multimodal and fuzzed attack
 
 <sub>no GPU · Needs Python 3.15+, Hugging Face datasets · Models: Any HTTP endpoint, OpenAI, Claude, Gemini, Azure OpenAI · port 8718 · [Repo](https://github.com/msoedov/agentic_security) · [📖 Docs ↗](https://agentic-security.vercel.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-security/)</sub>
 
-<a name="hexstrike-ai"></a>
-### #&#8288;35 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (84) · Freshness: active (92) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
-
-**MCP server that lets AI clients drive 150+ pentesting tools.**
-
-HexStrike AI runs a Python Flask-style server (hexstrike_server.py, default port 8888) and an MCP bridge (hexstrike_mcp.py) that lets clients such as Claude Desktop, Cursor, VS Code Copilot and Roo Code call security tools like nmap, nuclei, sqlmap, hydra, ghidra and prowler. It adds a decision engine for tool selection and 12+ named agent workflows for bug bounty, CTF and CVE work. The tools themselves must be installed separately.
-
-- **+** Covers network, web, cloud, binary, CTF and OSINT tooling behind one MCP interface
-- **+** Works with any MCP client; configs shown for Claude Desktop and VS Code Copilot
-- **+** Includes a headless Chrome browser agent for screenshots, DOM and header analysis
-- **+** MIT license; plain Python setup with requirements.txt
-- **−** Most of the 150+ tools are not bundled and must be installed by hand
-- **−** No Docker image or compose file; no tagged release
-- **−** Can run offensive tools like hydra and sqlmap, so it needs strict scoping and isolation
-- **−** README tool and agent counts are marketing figures; the wrappers are not independently verified
-
-<sub>GPU optional · Needs Python 3.8+, nmap, nuclei, sqlmap and other security tools, Chrome/Chromium with chromedriver, MCP-compatible client · Models: Claude, GPT, Copilot, any MCP-compatible client · port 8888 · [Repo](https://github.com/0x4m4/hexstrike-ai) · [🌐 Site ↗](https://overthetop.ae/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hexstrike-ai/)</sub>
-
 <a name="adr"></a>
-### #&#8288;36 [adr](https://github.com/uber/adr) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;35 [adr](https://github.com/uber/adr) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
 
 **Discovery, telemetry and LLM-based threat detection for enterprise coding agents.**
 
@@ -651,8 +633,26 @@ ADR is Uber's security system for AI agents. The repo includes an endpoint inven
 
 <sub>no GPU · Needs uv, Anthropic API, OpenAI API · Models: Anthropic, OpenAI, LlamaFirewall · [Repo](https://github.com/uber/adr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adr/)</sub>
 
+<a name="hexstrike-ai"></a>
+### #&#8288;36 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: widely used (84) · Freshness: active (91) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
+
+**MCP server that lets AI clients drive 150+ pentesting tools.**
+
+HexStrike AI runs a Python Flask-style server (hexstrike_server.py, default port 8888) and an MCP bridge (hexstrike_mcp.py) that lets clients such as Claude Desktop, Cursor, VS Code Copilot and Roo Code call security tools like nmap, nuclei, sqlmap, hydra, ghidra and prowler. It adds a decision engine for tool selection and 12+ named agent workflows for bug bounty, CTF and CVE work. The tools themselves must be installed separately.
+
+- **+** Covers network, web, cloud, binary, CTF and OSINT tooling behind one MCP interface
+- **+** Works with any MCP client; configs shown for Claude Desktop and VS Code Copilot
+- **+** Includes a headless Chrome browser agent for screenshots, DOM and header analysis
+- **+** MIT license; plain Python setup with requirements.txt
+- **−** Most of the 150+ tools are not bundled and must be installed by hand
+- **−** No Docker image or compose file; no tagged release
+- **−** Can run offensive tools like hydra and sqlmap, so it needs strict scoping and isolation
+- **−** README tool and agent counts are marketing figures; the wrappers are not independently verified
+
+<sub>GPU optional · Needs Python 3.8+, nmap, nuclei, sqlmap and other security tools, Chrome/Chromium with chromedriver, MCP-compatible client · Models: Claude, GPT, Copilot, any MCP-compatible client · port 8888 · [Repo](https://github.com/0x4m4/hexstrike-ai) · [🌐 Site ↗](https://overthetop.ae/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hexstrike-ai/)</sub>
+
 <a name="adversarial-robustness-toolbox"></a>
-### #&#8288;37 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (61) · Freshness: recent (73) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+### #&#8288;37 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (61) · Freshness: recent (73) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
 
 **Python library for attacking and defending ML models against adversarial threats.**
 
