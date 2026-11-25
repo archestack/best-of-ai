@@ -257,7 +257,7 @@ DSH Desktop wraps the DeepSeek Harness agent runtime in a native Electron-style 
 <sub>Needs DeepSeek Harness, Cloudflare Quick Tunnel (optional, phone access), Pinggy (optional fallback tunnel) · Models: Third-party model providers via configurable provider setup · [Repo](https://github.com/dataelement/dsh-desktop) · [🌐 Site ↗](https://www.dshdesktop.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dataelement-dsh-desktop/)</sub>
 
 <a name="read-frog"></a>
-### #&#8288;15 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;15 [read-frog](https://github.com/mengxi-ream/read-frog) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Nov 2026</sub>
 
 **Browser extension that translates pages and subtitles for language learners.**
 
@@ -456,20 +456,20 @@ Koharu is a Rust desktop app that translates manga pages in a pipeline of text a
 <a name="openworker"></a>
 ### #&#8288;26 [openworker](https://github.com/andrewyng/openworker) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
 
-**Desktop AI coworker for approval-gated work across files, terminal and apps.**
+**Desktop AI coworker with approval gates, plus an SDK for agent apps.**
 
-OpenWorker is a macOS and Windows desktop app backed by a local Python agent server built on aisuite. It works across local files, a terminal and 25+ connectors such as GitHub, Slack, Jira and Gmail, plus any MCP tool, and asks for approval before writes, sends or shell commands. Security-review coworkers ship first, and commands can run in an NVIDIA OpenShell, macOS or Windows sandbox.
+OpenWorker is a Tauri desktop app backed by a local Python agent server that researches, writes documents, reviews code and acts across 25+ connectors and MCP tools. Actions are approval-gated, recorded in an audit trail, and can run in an NVIDIA OpenShell, macOS or Windows sandbox. The repo also ships a Harness SDK (TypeScript on npm, Rust engine) for embedding the agent loop in your own apps.
 
-- **+** Approval gating with hard floors, standing rules and a per-tool-call audit trail
-- **+** Optional sandboxing: NVIDIA OpenShell, built-in macOS sandbox, or Windows local account
-- **+** Works with OpenAI, Anthropic, Gemini, DeepSeek, Qwen, Together, Fireworks or local Ollama
-- **+** 25+ connectors plus MCP, scheduled automations, and Slack mentions that open desktop sessions
-- **−** Open beta; README says rough edges remain
-- **−** Windows builds are not code-signed, so SmartScreen warns
-- **−** Prebuilt installers cover only Apple Silicon macOS and Windows x64; Linux not mentioned
-- **−** Connector OAuth goes through a cloud broker; manual keys avoid it
+- **+** Tiered approvals with hard floors and per-tool-call audit records showing approval provenance
+- **+** Sandboxing via OpenShell, built-in macOS sandbox, or a restricted Windows account
+- **+** Works with OpenAI, Anthropic, Gemini, OpenRouter, or local Ollama, LM Studio, llama.cpp, vLLM
+- **+** Local-first: conversations, model keys and connector tokens stay in a local secret store
+- **−** Desktop app is in open beta; Windows builds are not code-signed yet
+- **−** Prebuilt downloads only for macOS Apple Silicon and Windows x64; no Linux build listed
+- **−** Connector OAuth uses a cloud broker service unless you set manual credentials
+- **−** Maintainers may reject PRs that diverge from their internal roadmap
 
-<sub>no GPU · Docker + Compose · Needs Python 3.10+ (source), Node 20+ (source), Rust toolchain (desktop build from source), Ollama (optional), NVIDIA OpenShell (optional) · Models: OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen · port 8765 · [Repo](https://github.com/andrewyng/openworker) · [🌐 Site ↗](https://openworker.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openworker/)</sub>
+<sub>GPU optional · Docker + Compose · Needs Python 3.10+, Node 20+, Rust toolchain (source build), NVIDIA OpenShell (optional sandbox), Ollama (optional local models) · Models: OpenAI, Anthropic, Google Gemini, OpenRouter, Ollama · port 8765 · [Repo](https://github.com/andrewyng/openworker) · [🌐 Site ↗](https://openworker.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openworker/)</sub>
 
 <a name="learnharness"></a>
 ### #&#8288;27 [learnharness](https://github.com/amosblomqvist/learnharness) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · AGPL-3.0 · Nov 2026</sub>
@@ -651,8 +651,26 @@ React Native app for Android, iOS and Apple Silicon Macs that runs GGUF models o
 
 <sub>GPU optional · Models: GGUF, Stable Diffusion, Whisper, SmolVLM, Qwen3-VL · [Repo](https://github.com/off-grid-ai/ogam) · [📖 Docs ↗](https://github.com/off-grid-ai/OGAM/blob/main/docs/ARCHITECTURE.md) · [🌐 Site ↗](https://getoffgridai.co/pro/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ogam/)</sub>
 
+<a name="chaterm"></a>
+### #&#8288;37 [chaterm](https://github.com/chaterm/chaterm) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · custom license · Nov 2026</sub>
+
+**AI-native SSH terminal that plans and runs ops tasks across servers and Kubernetes.**
+
+Chaterm is an Electron terminal app for macOS, Windows and Linux, with iOS and Android clients, that adds an agent to SSH sessions. The agent plans and runs multi-host tasks such as deployment and fault diagnosis, with audit logs and rollback. It also includes a knowledge base with hybrid vector and keyword retrieval, reusable agent skills, and a database workspace for MySQL, PostgreSQL, SQLite and Oracle.
+
+- **+** Agent works across multiple hosts and Kubernetes clusters, with audit trail and rollback
+- **+** Reusable agent skills package ops procedures for repeat use
+- **+** Knowledge base uses hybrid vector and keyword retrieval with RRF fusion and reranking
+- **+** Built-in database client for MySQL, PostgreSQL, SQLite and Oracle
+- **−** License is not identified (NOASSERTION), so reuse terms need checking
+- **−** Parts of the agent system are adapted from Cline
+- **−** Default reranking models are cloud-hosted (Qwen-Plus, Gemini 2.5 Flash)
+- **−** Building from source needs Electron and native module rebuilds for better-sqlite3
+
+<sub>no GPU · Needs Electron, Node.js, LLM API provider · Models: custom models with per-model context and max output limits, Qwen-Plus, Gemini 2.5 Flash · [Repo](https://github.com/chaterm/chaterm) · [📖 Docs ↗](https://chaterm.ai/docs/) · [🌐 Site ↗](https://chaterm.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chaterm/)</sub>
+
 <a name="go-stock"></a>
-### #&#8288;37 [go-stock](https://github.com/arvinlovegood/go-stock) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;38 [go-stock](https://github.com/arvinlovegood/go-stock) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · GPL-3.0 · Nov 2026</sub>
 
 **Desktop stock analysis app with LLM agents for A-share, HK and US markets.**
 
@@ -670,7 +688,7 @@ go-stock is a Wails and NaiveUI desktop app that combines A-share, Hong Kong and
 <sub>GPU optional · Needs Edge browser for news scraping, LLM provider or local Ollama/LM Studio · Models: OpenAI-compatible, Ollama, LM Studio, AnythingLLM, DeepSeek · [Repo](https://github.com/arvinlovegood/go-stock) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/go-stock/)</sub>
 
 <a name="locally-uncensored"></a>
-### #&#8288;38 [locally-uncensored](https://github.com/purpledoubled/locally-uncensored) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;39 [locally-uncensored](https://github.com/purpledoubled/locally-uncensored) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · AGPL-3.0 · Nov 2026</sub>
 
 **Desktop app for local chat, image and video generation, and a coding agent.**
 
@@ -688,7 +706,7 @@ Tauri-based desktop app (TypeScript) that puts chat, a coding agent, tool-using 
 <sub>RAM ≥ 8 GB · GPU optional · Needs Ollama or LM Studio (installed by the app if missing), ComfyUI (installed by the app) · Models: Ollama models, LM Studio models, GGUF, SDXL, FLUX · [Repo](https://github.com/purpledoubled/locally-uncensored) · [📖 Docs ↗](https://locallyuncensored.com/guide/) · [🌐 Site ↗](https://locallyuncensored.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/locally-uncensored/)</sub>
 
 <a name="tgpt"></a>
-### #&#8288;39 [tgpt](https://github.com/aandrew-me/tgpt) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;40 [tgpt](https://github.com/aandrew-me/tgpt) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · GPL-3.0 · Nov 2026</sub>
 
 **Terminal client for chatting with AI providers from the command line.**
 
@@ -704,24 +722,6 @@ tgpt is a Go command-line client that sends prompts to a set of AI providers fro
 - **−** Terminal only, with no web UI or user accounts
 
 <sub>no GPU · Needs Remote AI providers · [Repo](https://github.com/aandrew-me/tgpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tgpt/)</sub>
-
-<a name="chaterm"></a>
-### #&#8288;40 [chaterm](https://github.com/chaterm/chaterm) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · custom license · Nov 2026</sub>
-
-**AI-native SSH terminal that plans and runs ops tasks across servers and Kubernetes.**
-
-Chaterm is an Electron terminal app for macOS, Windows and Linux, with iOS and Android clients, that adds an agent to SSH sessions. The agent plans and runs multi-host tasks such as deployment and fault diagnosis, with audit logs and rollback. It also includes a knowledge base with hybrid vector and keyword retrieval, reusable agent skills, and a database workspace for MySQL, PostgreSQL, SQLite and Oracle.
-
-- **+** Agent works across multiple hosts and Kubernetes clusters, with audit trail and rollback
-- **+** Reusable agent skills package ops procedures for repeat use
-- **+** Knowledge base uses hybrid vector and keyword retrieval with RRF fusion and reranking
-- **+** Built-in database client for MySQL, PostgreSQL, SQLite and Oracle
-- **−** License is not identified (NOASSERTION), so reuse terms need checking
-- **−** Parts of the agent system are adapted from Cline
-- **−** Default reranking models are cloud-hosted (Qwen-Plus, Gemini 2.5 Flash)
-- **−** Building from source needs Electron and native module rebuilds for better-sqlite3
-
-<sub>no GPU · Needs Electron, Node.js, LLM API provider · Models: custom models with per-model context and max output limits, Qwen-Plus, Gemini 2.5 Flash · [Repo](https://github.com/chaterm/chaterm) · [📖 Docs ↗](https://chaterm.ai/docs/) · [🌐 Site ↗](https://chaterm.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chaterm/)</sub>
 
 <a name="digup"></a>
 ### #&#8288;41 [digup](https://github.com/arahim3/digup) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Oct 2026</sub>
@@ -1120,7 +1120,7 @@ OpenFic is a novel-writing app that pairs an editor with configurable AI agents.
 <sub>no GPU · Docker + Compose · Needs OpenAI-compatible LLM provider API · Models: OpenAI-compatible APIs, ChatGPT, Claude, Gemini, Kimi · port 8000 · [Repo](https://github.com/syrizelink/openfic) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openfic/)</sub>
 
 <a name="open-cowork"></a>
-### #&#8288;63 [open-cowork](https://github.com/opencoworkai/open-cowork) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (19) · Freshness: active (99) · Maintenance: fair (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Oct 2026</sub>
+### #&#8288;63 [open-cowork](https://github.com/opencoworkai/open-cowork) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (20) · Freshness: active (99) · Maintenance: fair (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Oct 2026</sub>
 
 **Electron desktop agent that edits files and builds Office documents.**
 
@@ -1227,7 +1227,7 @@ JustHireMe is a Tauri desktop app with a Python FastAPI sidecar. It collects job
 <sub>GPU optional · Needs Ollama (optional), Claude Code CLI (optional), Codex CLI (optional), Playwright (experimental automation only) · Models: Ollama, Claude Code CLI, Codex CLI, OpenAI, Anthropic · [Repo](https://github.com/vasu-devs/justhireme) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/justhireme/)</sub>
 
 <a name="5ire"></a>
-### #&#8288;69 [5ire](https://github.com/nanbingxyz/5ire) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (50) · Freshness: active (94) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · custom license · Nov 2026</sub>
+### #&#8288;69 [5ire](https://github.com/nanbingxyz/5ire) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (50) · Freshness: active (94) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · custom license · Nov 2026</sub>
 
 **Desktop chat app and MCP client with local knowledge base.**
 
@@ -1461,7 +1461,7 @@ Tauri 2 desktop app that captures system audio or microphone input, transcribes 
 <sub>GPU optional · Needs Soniox API key, OpenAI API key, Alibaba DashScope API key, Edge TTS / Google Cloud TTS / ElevenLabs (optional) · Models: Soniox, OpenAI gpt-realtime-translate, qwen3-livetranslate-flash-realtime, MLX Whisper + Gemma · [Repo](https://github.com/phuc-nt/my-translator) · [📖 Docs ↗](https://github.com/phuc-nt/my-translator/blob/main/docs/installation_guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/my-translator/)</sub>
 
 <a name="witsy"></a>
-### #&#8288;82 [witsy](https://github.com/kochava-studios/witsy) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (13) · Freshness: recent (57) · Maintenance: weak (3) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · AGPL-3.0 · Apr 2026</sub>
+### #&#8288;82 [witsy](https://github.com/kochava-studios/witsy) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (14) · Freshness: recent (57) · Maintenance: weak (3) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · AGPL-3.0 · Apr 2026</sub>
 
 **Desktop AI chat app and MCP client that works with many LLM providers.**
 
@@ -1479,7 +1479,7 @@ Witsy is a bring-your-own-keys desktop app (TypeScript, Electron-style tray app)
 <sub>GPU optional · Needs Ollama (optional, for local models), LLM provider API keys, Tavily API key (optional, for search) · Models: OpenAI, Anthropic, Google Gemini, xAI Grok, Meta Llama · port 8090 · [Repo](https://github.com/kochava-studios/witsy) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/witsy/)</sub>
 
 <a name="llmfarm"></a>
-### #&#8288;83 [llmfarm](https://github.com/guinmoon/llmfarm) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (15) · Freshness: quiet (17) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
+### #&#8288;83 [llmfarm](https://github.com/guinmoon/llmfarm) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (15) · Freshness: quiet (17) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
 
 **iOS and macOS app for running llama.cpp-based LLMs on-device.**
 

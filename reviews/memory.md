@@ -469,26 +469,8 @@ Open Brain is a guide and contribution repo for building a personal memory store
 
 <sub>no GPU · Needs Supabase, PostgreSQL with pgvector, Slack or Discord, AI gateway · Models: MCP clients: Claude, ChatGPT, Cursor, Claude Code · [Repo](https://github.com/natebjones-projects/ob1) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ob1/)</sub>
 
-<a name="memmy-agent"></a>
-### #&#8288;27 [memmy-agent](https://github.com/memtensor/memmy-agent) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
-
-**Local memory service and agent that shares context across coding agents.**
-
-Memmy runs a local memory service (default http://127.0.0.1:18960) that records your AI collaboration history as structured memory. It exposes that memory to agents such as Claude Code, Codex, Cursor and OpenCode through a Skill and hooks. It also ships its own agent runtime, as a desktop app and a CLI/TUI, with an OpenAI-compatible API on port 18990.
-
-- **+** Memory is shared across Claude Code, Codex, Cursor, OpenCode and others via Skill and hooks
-- **+** Memory service can run alone, with a memmy-memory CLI for search, add and get
-- **+** BYOK config in ~/.memmy/config.yaml; serves an OpenAI-compatible API on :18990
-- **+** Install does not modify existing agents until you run memmy-memory init
-- **−** Linux installer requires a systemd user session and specific Node.js 22, 24 or 26 versions
-- **−** No Docker or compose files provided
-- **−** Desktop trial runs on hosted credits and needs sign-up before switching to BYOK
-- **−** Team sharing and non-conversation memory sources are only roadmap items
-
-<sub>Needs Node.js 22+, systemd user session (Linux CLI installer), LLM provider API key (BYOK) · Models: OpenAI (e.g. openai/gpt-4.1), Other providers via config.yaml · port 18990 · [Repo](https://github.com/memtensor/memmy-agent) · [📖 Docs ↗](https://memmy.bot/docs/) · [🌐 Site ↗](https://memmy.bot/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memmy-agent/)</sub>
-
 <a name="m-flow"></a>
-### #&#8288;28 [m_flow](https://github.com/flowelement-xinliuyuansu/m_flow) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (43) · Freshness: active (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;27 [m_flow](https://github.com/flowelement-xinliuyuansu/m_flow) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (44) · Freshness: active (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Aug 2026</sub>
 
 **Graph-based memory engine that scores retrieval by evidence paths.**
 
@@ -504,6 +486,24 @@ M-flow is a Python memory layer for AI agents that ingests text and files into a
 - **−** Face-aware playground needs a separate companion service and a camera
 
 <sub>Docker + Compose · Needs LLM API key, LanceDB, Neo4j, PostgreSQL/pgvector, ChromaDB, KùzuDB or Pinecone · Models: OpenAI, Anthropic, Mistral, Groq, Ollama · [Repo](https://github.com/flowelement-xinliuyuansu/m_flow) · [🌐 Site ↗](https://m-flow.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/m-flow/)</sub>
+
+<a name="memmy-agent"></a>
+### #&#8288;28 [memmy-agent](https://github.com/memtensor/memmy-agent) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+
+**Local memory service and agent that shares context across coding agents.**
+
+Memmy runs a local memory service (default http://127.0.0.1:18960) that records your AI collaboration history as structured memory. It exposes that memory to agents such as Claude Code, Codex, Cursor and OpenCode through a Skill and hooks. It also ships its own agent runtime, as a desktop app and a CLI/TUI, with an OpenAI-compatible API on port 18990.
+
+- **+** Memory is shared across Claude Code, Codex, Cursor, OpenCode and others via Skill and hooks
+- **+** Memory service can run alone, with a memmy-memory CLI for search, add and get
+- **+** BYOK config in ~/.memmy/config.yaml; serves an OpenAI-compatible API on :18990
+- **+** Install does not modify existing agents until you run memmy-memory init
+- **−** Linux installer requires a systemd user session and specific Node.js 22, 24 or 26 versions
+- **−** No Docker or compose files provided
+- **−** Desktop trial runs on hosted credits and needs sign-up before switching to BYOK
+- **−** Team sharing and non-conversation memory sources are only roadmap items
+
+<sub>Needs Node.js 22+, systemd user session (Linux CLI installer), LLM provider API key (BYOK) · Models: OpenAI (e.g. openai/gpt-4.1), Other providers via config.yaml · port 18990 · [Repo](https://github.com/memtensor/memmy-agent) · [📖 Docs ↗](https://memmy.bot/docs/) · [🌐 Site ↗](https://memmy.bot/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memmy-agent/)</sub>
 
 <a name="memmachine"></a>
 ### #&#8288;29 [memmachine](https://github.com/memmachine/memmachine) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Nov 2026</sub>
@@ -686,7 +686,7 @@ SimpleMem is a Python package that compresses dialogue into atomic, timestamped 
 <sub>Docker + Compose · Needs OpenAI-compatible LLM API, LanceDB, FAISS, Docker (optional) · Models: OpenAI, Qwen, Azure OpenAI, Ollama, Requesty · port 8000 · [Repo](https://github.com/aiming-lab/simplemem) · [▶️ Demo ↗](https://aiming-lab.github.io/SimpleMem-Page) · [📖 Docs ↗](https://github.com/aiming-lab/SimpleMem/blob/main/MCP/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/simplemem/)</sub>
 
 <a name="langmem"></a>
-### #&#8288;39 [langmem](https://github.com/langchain-ai/langmem) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Nov 2026</sub>
+### #&#8288;39 [langmem](https://github.com/langchain-ai/langmem) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Nov 2026</sub>
 
 **Python library giving LangGraph agents long-term memory tools and background extraction.**
 
