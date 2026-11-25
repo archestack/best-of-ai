@@ -3,13 +3,13 @@
 <h3 align="center">Open-source AI, ranked. 🏆</h3>
 <p align="center">AI apps, agents and models you run, and the parts to build with. Paid never moves a rank.</p>
 <p align="center">
-  <img alt="projects" src="https://img.shields.io/badge/2110_projects-ff6b6b?style=for-the-badge" />
+  <img alt="projects" src="https://img.shields.io/badge/2111_projects-ff6b6b?style=for-the-badge" />
   <img alt="stars" src="https://img.shields.io/badge/27.3M_stars_combined-ffd166?style=for-the-badge" />
   <img alt="categories" src="https://img.shields.io/badge/21_categories-5ac4bf?style=for-the-badge" />
   <img alt="updated" src="https://img.shields.io/badge/updated-2026--11--25-8ac926?style=for-the-badge" />
 </p>
 
-<p align="center">Best of Open-Source AI is a ranked list of 2,110 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-25 (UTC).</sub></p>
+<p align="center">Best of Open-Source AI is a ranked list of 2,111 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-25 (UTC).</sub></p>
 
 > [!TIP]
 > 🔎 **Every project fact-checked** on GitHub before it is listed &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; ▶️ **Demo links** so you can try before you deploy
@@ -23,7 +23,7 @@
 
 ## 🔥 Top 10 right now
 
-<sub>2110 projects ranked in 21 categories · data from 2026-11-25 · re-ranked twice a day</sub>
+<sub>2111 projects ranked in 21 categories · data from 2026-11-25 · re-ranked twice a day</sub>
 
 <sub>**How to read it:** rank 🥇🥈🥉 then #&#8288;4, #&#8288;5… (equal scores: more stars first) · ▲▼ places moved in the last month, 🆕 new this month · score out of 100 sets the order: hover it to see what it is made of, or read [how we rank](#-how-we-rank) · click a project name for its review · ↗ opens another site (Cmd/Ctrl-click for a new tab)</sub>
 
@@ -111,7 +111,7 @@
 
 | What you have | Projects | Top picks |
 |---|--:|---|
-| No GPU needed | 487 | [career-ops](reviews/assistants.md#career-ops) · [ai-job-search](reviews/assistants.md#ai-job-search) · [n8n](reviews/automation.md#n8n) · [OmniRoute](reviews/gateways.md#omniroute) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [servers](reviews/mcp-servers.md#servers) |
+| No GPU needed | 488 | [career-ops](reviews/assistants.md#career-ops) · [ai-job-search](reviews/assistants.md#ai-job-search) · [n8n](reviews/automation.md#n8n) · [OmniRoute](reviews/gateways.md#omniroute) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [servers](reviews/mcp-servers.md#servers) |
 | A GPU helps, not required | 352 | [voicestudio](reviews/voice.md#voicestudio) · [openhuman](reviews/assistants.md#openhuman) · [llama.cpp](reviews/model-serving.md#llama-cpp) · [frigate](reviews/image-video.md#frigate) · [airi](reviews/assistants.md#airi) · [Open Notebook](reviews/rag-knowledge.md#open-notebook) |
 | Needs a GPU | 109 | [strata](reviews/model-serving.md#strata) · [modular](reviews/model-serving.md#modular) · [omlx](reviews/model-serving.md#omlx) · [freetoken](reviews/model-serving.md#freetoken) · [tensorrt-llm](reviews/model-serving.md#tensorrt-llm) · [vllm-omni](reviews/model-serving.md#vllm-omni) |
 | A Mac or another arm64 machine | 446 | [voicestudio](reviews/voice.md#voicestudio) · [hindsight](reviews/memory.md#hindsight) · [OmniRoute](reviews/gateways.md#omniroute) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [openhuman](reviews/assistants.md#openhuman) · [Lightpanda](reviews/sandboxes.md#lightpanda) |
@@ -121,7 +121,7 @@
 **🧑‍💻 Apps you run**
 
 - 🤖 [Assistants](#-assistants) · 90
-- 💬 [Chat UIs](#-chat-uis) · 33
+- 💬 [Chat UIs](#-chat-uis) · 34
 - 🖥️ [Desktop AI apps](#%EF%B8%8F-desktop-ai-apps) · 83
 - 🧩 [Agent platforms](#-agent-platforms) · 134
 - 🔁 [Workflow automation with AI](#-workflow-automation-with-ai) · 5
@@ -183,24 +183,24 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 
 ## 💬 Chat UIs
 
-Web front-ends for local or API models, usually with user accounts, chat history and file upload. <sub>33 ranked · [📝 all reviews](reviews/chat-ui.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/chat-ui/)</sub>
+Web front-ends for local or API models, usually with user accounts, chat history and file upload. <sub>34 ranked · [📝 all reviews](reviews/chat-ui.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/chat-ui/)</sub>
 
-**Open WebUI leads with 89**, ahead of Onyx (89) and LobeHub (87).
+**Onyx leads with 90**, ahead of Open WebUI (89) and LobeHub (87).
 
 | Rank | Move | Project | Score | Stars |
 |:-:|:-:|---|:-:|--:|
-| 🥇 | – | **[Open WebUI](reviews/chat-ui.md#open-webui "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted web UI for Ollama and OpenAI-compatible models with users and RAG</sub><br><sub>🐳 Docker · custom license · GPU optional · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com/)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 160k |
-| 🥈 | ▲1 | **[Onyx](reviews/chat-ui.md#onyx "Review: strengths, weaknesses, specs")**<br><sub>Team knowledge search and chat that indexes 50+ connected apps with permissions</sub><br><sub>🐳 Docker · custom license · GPU optional · [▶️ Demo ↗](https://cloud.onyx.app/auth/signup) · [📖 Docs ↗](https://docs.onyx.app/welcome) · [🌐 Site ↗](https://www.onyx.app/)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 34k |
+| 🥇 | ▲2 | **[Onyx](reviews/chat-ui.md#onyx "Review: strengths, weaknesses, specs")**<br><sub>Team knowledge search and chat that indexes 50+ connected apps with permissions</sub><br><sub>🐳 Docker · custom license · GPU optional · [▶️ Demo ↗](https://cloud.onyx.app/auth/signup) · [📖 Docs ↗](https://docs.onyx.app/welcome) · [🌐 Site ↗](https://www.onyx.app/)</sub> | [90](#-how-we-rank "Score 90/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 34k |
+| 🥈 | ▼1 | **[Open WebUI](reviews/chat-ui.md#open-webui "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted web UI for Ollama and OpenAI-compatible models with users and RAG</sub><br><sub>🐳 Docker · custom license · GPU optional · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com/)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 160k |
 | 🥉 | ▼1 | **[LobeHub](reviews/chat-ui.md#lobehub "Review: strengths, weaknesses, specs")**<br><sub>Multi-agent chat workspace connected to team IM apps and 40+ model providers</sub><br><sub>🐳 Docker · custom license · [📖 Docs ↗](https://lobehub.com/docs/usage/start) · [🌐 Site ↗](https://lobehub.com)</sub> | [87](#-how-we-rank "Score 87/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 86k |
 | #&#8288;4 | – | **[AnythingLLM](reviews/chat-ui.md#anything-llm "Review: strengths, weaknesses, specs")**<br><sub>Document chat app with agents, workspaces and many LLM and vector DB backends</sub><br><sub>🐳 Docker · MIT · GPU optional · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com)</sub> | [86](#-how-we-rank "Score 86/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 69k |
-| #&#8288;5 | 🆕 | **[assistant-ui](reviews/chat-ui.md#assistant-ui "Review: strengths, weaknesses, specs")**<br><sub>React library of chat UI primitives for building AI chat interfaces</sub><br><sub>MIT · [📖 Docs ↗](https://www.assistant-ui.com/docs) · [🌐 Site ↗](https://www.assistant-ui.com)</sub> | [86](#-how-we-rank "Score 86/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 13k |
+| #&#8288;5 | 🆕 | **[assistant-ui](reviews/chat-ui.md#assistant-ui "Review: strengths, weaknesses, specs")**<br><sub>React library of chat UI primitives for building AI chat interfaces</sub><br><sub>MIT · [📖 Docs ↗](https://www.assistant-ui.com/docs) · [🌐 Site ↗](https://www.assistant-ui.com)</sub> | [86](#-how-we-rank "Score 86/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 13k |
 | #&#8288;6 | ▼1 | **[LibreChat](reviews/chat-ui.md#librechat "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted multi-provider chat UI with agents, MCP tools and multi-user auth</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://www.librechat.ai/docs) · [🌐 Site ↗](https://librechat.ai)</sub> | [85](#-how-we-rank "Score 85/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") | 48k |
 | #&#8288;7 | ▼1 | **[Hermes WebUI](reviews/chat-ui.md#hermes-webui "Review: strengths, weaknesses, specs")**<br><sub>Browser UI for Hermes Agent with sessions, workspace file browser and profiles</sub><br><sub>🐳 Docker · MIT · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/)</sub> | [81](#-how-we-rank "Score 81/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 20k |
 | #&#8288;8 | – | **[SillyTavern](reviews/chat-ui.md#sillytavern "Review: strengths, weaknesses, specs")**<br><sub>Local chat front end for role-play across many LLM backends</sub><br><sub>🐳 Docker · AGPL-3.0 · [📖 Docs ↗](https://docs.sillytavern.app/)</sub> | [80](#-how-we-rank "Score 80/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 36k |
-| #&#8288;9 | ▲1 | **[big-AGI](reviews/chat-ui.md#big-agi "Review: strengths, weaknesses, specs")**<br><sub>Multi-model chat web app that sends one prompt to several LLMs</sub><br><sub>🐳 Docker · MIT · [▶️ Demo ↗](https://big-agi.com) · [📖 Docs ↗](https://github.com/enricoros/big-AGI/blob/main/docs/README.md) · [🌐 Site ↗](https://big-agi.com)</sub> | [77](#-how-we-rank "Score 77/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 7.2k |
-| #&#8288;10 | 🆕 | **[cherry-studio-app](reviews/chat-ui.md#cherry-studio-app "Review: strengths, weaknesses, specs")**<br><sub>Mobile AI chat and agent app for iOS and Android</sub><br><sub>AGPL-3.0 · [📖 Docs ↗](https://github.com/CherryHQ/cherry-studio-app/blob/main/docs/README.md) · [🌐 Site ↗](https://cherry-ai.com)</sub> | [77](#-how-we-rank "Score 77/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 4.1k |
+| #&#8288;9 | ▲1 | **[big-AGI](reviews/chat-ui.md#big-agi "Review: strengths, weaknesses, specs")**<br><sub>Multi-model chat web app that sends one prompt to several LLMs</sub><br><sub>🐳 Docker · MIT · [▶️ Demo ↗](https://big-agi.com) · [📖 Docs ↗](https://github.com/enricoros/big-AGI/blob/main/docs/README.md) · [🌐 Site ↗](https://big-agi.com)</sub> | [78](#-how-we-rank "Score 78/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 7.2k |
+| #&#8288;10 | ▼1 | **[ekko-studio](reviews/chat-ui.md#ekko-studio "Review: strengths, weaknesses, specs")**<br><sub>Desktop and web workspace for chatting with Hermes, Ekko and coding agents</sub><br><sub>🐳 Docker · custom license · [📖 Docs ↗](https://ekkostudio.xyz/#/docs/getting-started) · [🌐 Site ↗](https://ekkostudio.xyz)</sub> | [77](#-how-we-rank "Score 77/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 12k |
 
-<sub>Top 10 of 33. [See all 33, ranked, with reviews →](reviews/chat-ui.md)</sub>
+<sub>Top 10 of 34. [See all 34, ranked, with reviews →](reviews/chat-ui.md)</sub>
 
 <details><summary>💡 How to choose</summary>
 

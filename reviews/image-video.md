@@ -575,26 +575,8 @@ BeefTV is a local-first desktop app (React, Go, Wails) for macOS and Windows tha
 
 <sub>Docker + Compose · Needs Third-party or BeefTV account model channels, ComfyUI or AutoDL (optional, via plugins) · Models: Seedance 2.0 Fast, Claude, GPT, Gemini, DeepSeek · [Repo](https://github.com/glanderness/beeftv) · [🌐 Site ↗](https://beeftv.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/beeftv/)</sub>
 
-<a name="freevideo"></a>
-### #&#8288;33 [freevideo](https://github.com/flashml-org/freevideo) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Nov 2026</sub>
-
-**Local MiniMax H3 video generation on consumer GPUs, run as a ComfyUI plugin.**
-
-FreeVideo is a local inference engine for the MiniMax H3 video model, using the 8-step VDN-H3 weights from OpenVDN. It adapts weight format (int8 or FP8), memory streaming and attention kernels to the GPU, and runs inside ComfyUI with launchers for Windows, macOS and Linux. Inputs include text prompts, first and last frames, and image, video or audio references.
-
-- **+** Runs MiniMax H3 with as little as 8 GB VRAM and 16 GB RAM
-- **+** Picks int8 or FP8 weights per GPU and probes available attention kernels
-- **+** Launchers for Windows, macOS and Linux install ComfyUI and models, with offline install
-- **+** Supports text, first/last frame, and image, video and audio references plus community LoRAs
-- **−** Model weights use the MiniMax H3 Community License with territorial and acceptable-use limits
-- **−** macOS support is an Apple silicon preview, tested only on an M5 with 24 GB
-- **−** Mac build is not notarized, so macOS blocks first launch until approved manually
-- **−** Tied to ComfyUI and one model family (MiniMax H3 / VDN-H3)
-
-<sub>RAM ≥ 16 GB · GPU required · Needs ComfyUI · Models: MiniMax H3, VDN-H3, MiniMax H3 LoRAs · [Repo](https://github.com/flashml-org/freevideo) · [📖 Docs ↗](https://github.com/FlashML-org/FreeVideo/blob/main/docs/execution-planning.md) · [🌐 Site ↗](https://freevideo-community.pages.dev/#gallery) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/freevideo/)</sub>
-
 <a name="viseron"></a>
-### #&#8288;34 [viseron](https://github.com/roflcoopter/viseron) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
+### #&#8288;33 [viseron](https://github.com/roflcoopter/viseron) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
 
 **Local-only NVR with object, motion and face detection for IP cameras.**
 
@@ -610,6 +592,24 @@ Viseron is a self-hosted network video recorder with computer vision features: o
 - **−** Support is mainly handled through Discord rather than documented guides
 
 <sub>Docker · Needs Docker · [Repo](https://github.com/roflcoopter/viseron) · [📖 Docs ↗](https://viseron.netlify.app) · [🌐 Site ↗](https://viseron.netlify.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/viseron/)</sub>
+
+<a name="freevideo"></a>
+### #&#8288;34 [freevideo](https://github.com/flashml-org/freevideo) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · Apache-2.0 · Nov 2026</sub>
+
+**Local MiniMax H3 video generation on consumer GPUs, run as a ComfyUI plugin.**
+
+FreeVideo is a local inference engine for the MiniMax H3 video model, using the 8-step VDN-H3 weights from OpenVDN. It adapts weight format (int8 or FP8), memory streaming and attention kernels to the GPU, and runs inside ComfyUI with launchers for Windows, macOS and Linux. Inputs include text prompts, first and last frames, and image, video or audio references.
+
+- **+** Runs MiniMax H3 with as little as 8 GB VRAM and 16 GB RAM
+- **+** Picks int8 or FP8 weights per GPU and probes available attention kernels
+- **+** Launchers for Windows, macOS and Linux install ComfyUI and models, with offline install
+- **+** Supports text, first/last frame, and image, video and audio references plus community LoRAs
+- **−** Model weights use the MiniMax H3 Community License with territorial and acceptable-use limits
+- **−** macOS support is an Apple silicon preview, tested only on an M5 with 24 GB
+- **−** Mac build is not notarized, so macOS blocks first launch until approved manually
+- **−** Tied to ComfyUI and one model family (MiniMax H3 / VDN-H3)
+
+<sub>RAM ≥ 16 GB · GPU required · Needs ComfyUI · Models: MiniMax H3, VDN-H3, MiniMax H3 LoRAs · [Repo](https://github.com/flashml-org/freevideo) · [📖 Docs ↗](https://github.com/FlashML-org/FreeVideo/blob/main/docs/execution-planning.md) · [🌐 Site ↗](https://freevideo-community.pages.dev/#gallery) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/freevideo/)</sub>
 
 <a name="image-to-3dlab"></a>
 ### #&#8288;35 [image-to-3dlab](https://github.com/bingeljell/image-to-3dlab) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Nov 2026</sub>
@@ -1349,8 +1349,26 @@ Upscayl is an Electron desktop app that enlarges low-resolution images with Real
 
 <sub>GPU required · Needs Vulkan-compatible GPU, upscayl-ncnn backend · Models: Real-ESRGAN, NCNN, custom converted models, HFA2k, Remacri · [Repo](https://github.com/upscayl/upscayl) · [📖 Docs ↗](https://docs.upscayl.org/) · [🌐 Site ↗](https://upscayl.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/upscayl/)</sub>
 
+<a name="comfyui-nunchaku"></a>
+### #&#8288;76 [comfyui-nunchaku](https://github.com/nunchux-ai/comfyui-nunchaku) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (30) · Freshness: active (90) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Sep 2026</sub>
+
+**ComfyUI nodes for running 4-bit SVDQuant diffusion models with Nunchaku.**
+
+ComfyUI plugin that loads 4-bit SVDQuant-quantized diffusion models through the Nunchaku inference engine. It covers FLUX.1, FLUX.1-Kontext-dev, Qwen-Image, Qwen-Image-Edit and Z-Image-Turbo, with LoRA, ControlNet-Union-Pro and a 4-bit T5 encoder. The README says async offloading can bring Qwen-Image transformer VRAM down to about 3 GiB.
+
+- **+** Pre-quantized 4-bit models published on Hugging Face and ModelScope, with example workflows
+- **+** Qwen-Image async offloading cuts transformer VRAM to as little as 3 GiB
+- **+** Supports multi-LoRA, ControlNet-Union-Pro, FB Cache and FP16 attention
+- **+** Wheel installer node, and DeepCompressor for quantizing custom models
+- **−** Needs the separate Nunchaku engine wheel installed alongside ComfyUI
+- **−** Only works with models quantized for Nunchaku, not arbitrary checkpoints
+- **−** Last tagged release is January 2026, while the main branch is newer
+- **−** Supported models are limited to the families the maintainers have quantized
+
+<sub>GPU required · Needs ComfyUI, Nunchaku · Models: FLUX.1-dev, FLUX.1-Kontext-dev, Qwen-Image, Qwen-Image-Edit-2509, Z-Image-Turbo · [Repo](https://github.com/nunchux-ai/comfyui-nunchaku) · [▶️ Demo ↗](https://nunchux.ai/) · [📖 Docs ↗](https://nunchaku.tech/docs/ComfyUI-nunchaku/) · [🌐 Site ↗](https://hanlab.mit.edu/projects/svdquant) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-nunchaku/)</sub>
+
 <a name="hivisionidphotos"></a>
-### #&#8288;76 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (88) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;77 [hivisionidphotos](https://github.com/zeyi-lin/hivisionidphotos) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (88) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · Apache-2.0 · Jul 2026</sub>
 
 **Offline ID photo maker: portrait matting, background swap, sizing and print layouts.**
 
@@ -1368,7 +1386,7 @@ HivisionIDPhotos cuts out the person with ONNX matting models (MODNet, hivision_
 <sub>GPU optional · Docker + Compose · Needs onnxruntime, Face++ API (optional) · Models: MODNet, hivision_modnet, RMBG-1.4, BiRefNet-v1-lite, MTCNN · port 7860 · [Repo](https://github.com/zeyi-lin/hivisionidphotos) · [▶️ Demo ↗](https://huggingface.co/spaces/TheEeeeLin/HivisionIDPhotos) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hivisionidphotos/)</sub>
 
 <a name="comfyui-copilot"></a>
-### #&#8288;77 [comfyui-copilot](https://github.com/ath-maas/comfyui-copilot) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (55) · Freshness: recent (76) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · MIT · Sep 2026</sub>
+### #&#8288;78 [comfyui-copilot](https://github.com/ath-maas/comfyui-copilot) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (55) · Freshness: recent (76) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · MIT · Sep 2026</sub>
 
 **ComfyUI custom node that generates, debugs and rewrites workflows from chat.**
 
@@ -1386,7 +1404,7 @@ A ComfyUI custom node that adds a chat panel for building workflows from text, d
 <sub>Needs ComfyUI, Python 3.10+, OpenAI-compatible LLM API key and base URL · Models: OpenAI, LM Studio · [Repo](https://github.com/ath-maas/comfyui-copilot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-copilot/)</sub>
 
 <a name="watermark-removal"></a>
-### #&#8288;78 [watermark-removal](https://github.com/zuruoke/watermark-removal) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 5.2k · no license · Oct 2026</sub>
+### #&#8288;79 [watermark-removal](https://github.com/zuruoke/watermark-removal) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 5.2k · no license · Oct 2026</sub>
 
 **Command-line watermark remover using TensorFlow image inpainting.**
 
@@ -1401,24 +1419,6 @@ Removes watermarks from single images with a deep inpainting model based on Cont
 - **−** Only the istock watermark type is shown; other types are undocumented
 
 <sub>Docker · Needs TensorFlow 1.15.0, neuralgym, Docker, Pretrained checkpoint (Google Drive) · Models: Contextual Attention inpainting, Gated Convolution inpainting · [Repo](https://github.com/zuruoke/watermark-removal) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/watermark-removal/)</sub>
-
-<a name="comfyui-nunchaku"></a>
-### #&#8288;79 [comfyui-nunchaku](https://github.com/nunchux-ai/comfyui-nunchaku) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (30) · Freshness: active (90) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Sep 2026</sub>
-
-**ComfyUI nodes for running 4-bit SVDQuant diffusion models with Nunchaku.**
-
-ComfyUI plugin that loads 4-bit SVDQuant-quantized diffusion models through the Nunchaku inference engine. It covers FLUX.1, FLUX.1-Kontext-dev, Qwen-Image, Qwen-Image-Edit and Z-Image-Turbo, with LoRA, ControlNet-Union-Pro and a 4-bit T5 encoder. The README says async offloading can bring Qwen-Image transformer VRAM down to about 3 GiB.
-
-- **+** Pre-quantized 4-bit models published on Hugging Face and ModelScope, with example workflows
-- **+** Qwen-Image async offloading cuts transformer VRAM to as little as 3 GiB
-- **+** Supports multi-LoRA, ControlNet-Union-Pro, FB Cache and FP16 attention
-- **+** Wheel installer node, and DeepCompressor for quantizing custom models
-- **−** Needs the separate Nunchaku engine wheel installed alongside ComfyUI
-- **−** Only works with models quantized for Nunchaku, not arbitrary checkpoints
-- **−** Last tagged release is January 2026, while the main branch is newer
-- **−** Supported models are limited to the families the maintainers have quantized
-
-<sub>GPU required · Needs ComfyUI, Nunchaku · Models: FLUX.1-dev, FLUX.1-Kontext-dev, Qwen-Image, Qwen-Image-Edit-2509, Z-Image-Turbo · [Repo](https://github.com/nunchux-ai/comfyui-nunchaku) · [▶️ Demo ↗](https://nunchux.ai/) · [📖 Docs ↗](https://nunchaku.tech/docs/ComfyUI-nunchaku/) · [🌐 Site ↗](https://hanlab.mit.edu/projects/svdquant) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-nunchaku/)</sub>
 
 <a name="open-higgsfield"></a>
 ### #&#8288;80 [open-higgsfield](https://github.com/wide-trace/open-higgsfield) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: weak (12) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 6.8k · no license · Sep 2026</sub>
