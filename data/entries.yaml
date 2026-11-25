@@ -1485,7 +1485,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 39
+    score: 40
   - id: crewai
     repo: crewaiinc/crewai
     name: crewai
@@ -16260,7 +16260,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 76
+    score: 77
   - id: brigade
     repo: spinabot/brigade
     name: brigade
@@ -18169,7 +18169,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 55
+    score: 56
   - id: llama-cpp-python
     repo: abetlen/llama-cpp-python
     name: llama-cpp-python
@@ -21902,7 +21902,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 68
+    score: 69
   - id: dataflow
     repo: opendcai/dataflow
     name: dataflow
@@ -51072,7 +51072,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 66
+    score: 67
   - id: mujoco-menagerie
     repo: google-deepmind/mujoco_menagerie
     name: mujoco_menagerie
@@ -52795,7 +52795,7 @@ entries:
       has_compose: true
       is_template: false
       language: Vue
-    score: 59
+    score: 60
   - id: stable-diffusion-videos
     repo: nateraw/stable-diffusion-videos
     name: stable-diffusion-videos
@@ -54107,7 +54107,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 66
+    score: 67
   - id: moss-tts-nano
     repo: openmoss/moss-tts-nano
     name: moss-tts-nano
@@ -54883,7 +54883,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 61
+    score: 62
   - id: ruby-llm
     repo: crmne/ruby_llm
     name: ruby_llm
@@ -60429,7 +60429,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 23
+    score: 24
   - id: toolhive
     repo: stacklok/toolhive
     name: toolhive
@@ -62960,7 +62960,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 57
+    score: 58
   - id: handwired
     repo: chenglou/handwired
     name: handwired
@@ -74972,7 +74972,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 43
+    score: 44
   - id: memobase
     repo: memodb-io/memobase
     name: memobase
@@ -78781,7 +78781,7 @@ entries:
       has_compose: true
       is_template: false
       language: JavaScript
-    score: 21
+    score: 22
   - id: roboflow-maestro
     repo: roboflow/maestro
     name: roboflow/maestro
@@ -90411,7 +90411,7 @@ entries:
       has_compose: true
       is_template: false
       language: Vue
-    score: 27
+    score: 28
   - id: audio8-tts
     repo: edge0-ai/audio8_tts
     name: audio8_tts
@@ -93498,6 +93498,54 @@ entries:
       is_template: false
       language: Python
     score: 41
+  - id: risuai
+    repo: kwaroran/risuai
+    name: risuai
+    status: listed
+    tagline: Roleplay-oriented chat client for many LLM APIs, with lorebooks and regex scripts
+    summary: Risuai is a Svelte and Tauri chat application for character-based conversations, available as a web app, desktop build and Docker image. It connects to hosted and self-run backends such as OpenAI, Claude, Gemini, DeepInfra, Ooba and OpenRouter. It adds lorebooks, group chats, emotion images, regex output scripts, translation, TTS, plugins and memory compression (HypaMemory, SupaMemory).
+    categories:
+      - chat-ui
+      - desktop-apps
+    strengths:
+      - Supports OpenAI, Claude, Gemini, DeepInfra, Ooba and OpenRouter backends
+      - Lorebooks, group chats and emotion images suit character roleplay
+      - Regex scripts and plugins let users change output and add providers
+      - Ships as web app, desktop release and Docker Compose on port 6001
+    weaknesses:
+      - Focused on character roleplay, not document chat or general team use
+      - Documentation is a work-in-progress wiki
+      - No stated multi-user accounts or server-side auth in the README
+      - Does not run models itself; needs an external API or backend
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - LLM API or backend (OpenAI, Claude, Gemini, Ooba, etc.)
+      model_support:
+        - OpenAI
+        - Claude
+        - Gemini
+        - DeepInfra
+        - Ooba
+        - OpenRouter
+      web_port: 6001
+    links:
+      demo: https://risuai.net
+      website: https://risuai.net
+      docs: https://github.com/kwaroran/Risuai/wiki
+    audience: Roleplay and character-chat users who bring their own LLM API keys
+    confidence: 0.8
+    facts:
+      stars: 1725
+      license: GPL-3.0
+      last_commit: 2026-10-13
+      last_release: 2026-08-25
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 50
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
@@ -94376,7 +94424,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 89
+    score: 90
   - id: hermes-webui
     repo: nesquena/hermes-webui
     name: Hermes WebUI
@@ -94529,7 +94577,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 77
+    score: 78
   - id: lollms-webui
     repo: parisneo/lollms-webui
     name: LoLLMs WebUI

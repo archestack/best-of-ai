@@ -1438,7 +1438,7 @@ fastdup is a pip-installable Python package with a C++ engine that analyzes imag
 <sub>GPU optional · Docker · Models: TIMM, ONNX, DINOv2 · [Repo](https://github.com/visual-layer/fastdup) · [📖 Docs ↗](https://visual-layer.readme.io/) · [🌐 Site ↗](https://www.visual-layer.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fastdup/)</sub>
 
 <a name="scattertext"></a>
-### #&#8288;81 [scattertext](https://github.com/jasonkessler/scattertext) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (22) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;81 [scattertext](https://github.com/jasonkessler/scattertext) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (22) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Jul 2026</sub>
 
 **Python library that plots distinguishing terms between text corpora as interactive HTML.**
 
@@ -1546,7 +1546,7 @@ A React frontend and FastAPI backend that wrap the DeepSeek-OCR model from Huggi
 <sub>RAM ≥ 16 GB · GPU required · Compose · Needs Docker Compose, NVIDIA Container Toolkit, NVIDIA driver · Models: deepseek-ai/DeepSeek-OCR · port 3000 · [Repo](https://github.com/rdumasia303/deepseek_ocr_app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepseek-ocr-app/)</sub>
 
 <a name="libpostal"></a>
-### #&#8288;87 [libpostal](https://github.com/openvenues/libpostal) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: known (48) · Freshness: quiet (3) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Dec 2025</sub>
+### #&#8288;87 [libpostal](https://github.com/openvenues/libpostal) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: known (49) · Freshness: quiet (3) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Dec 2025</sub>
 
 **C library for parsing and normalizing street addresses worldwide.**
 
