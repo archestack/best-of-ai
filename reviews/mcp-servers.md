@@ -113,7 +113,7 @@ Python MCP server built on openpyxl that exposes tools for reading and editing .
 <sub>no GPU · Docker · Needs uv, openpyxl · Models: Claude, Cursor, VS Code Copilot, OpenAI Codex, Gemini CLI · port 8017 · [Repo](https://github.com/haris-musa/excel-mcp-server) · [🌐 Site ↗](https://excelmcpserver.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/excel-mcp-server/)</sub>
 
 <a name="mcp-atlassian"></a>
-### #&#8288;7 [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Nov 2026</sub>
+### #&#8288;7 [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Nov 2026</sub>
 
 **MCP server exposing Jira and Confluence tools to AI assistants.**
 
@@ -185,7 +185,7 @@ Wraps 42 Korean Ministry of Government Legislation (법제처) Open APIs into 10
 <sub>no GPU · Docker · Needs 법제처 Open API (OC key), Node.js 20.19+, taxlaw.nts.go.kr · [Repo](https://github.com/chrisryugj/korean-law-mcp) · [📖 Docs ↗](https://github.com/chrisryugj/korean-law-mcp/blob/main/docs/API.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/korean-law-mcp/)</sub>
 
 <a name="letsfg"></a>
-### #&#8288;11 [letsfg](https://github.com/letsfg/letsfg) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
+### #&#8288;11 [letsfg](https://github.com/letsfg/letsfg) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
 
 **Flight and hotel search and booking for AI agents via MCP, CLI and API.**
 
@@ -239,7 +239,7 @@ Holds the shared libraries, test frameworks and build pipelines for Microsoft's 
 <sub>no GPU · Docker · Needs Azure subscription, Microsoft Fabric · [Repo](https://github.com/microsoft/mcp) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/azure-mcp-server/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp/)</sub>
 
 <a name="toolhive"></a>
-### #&#8288;14 [toolhive](https://github.com/stacklok/toolhive) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;14 [toolhive](https://github.com/stacklok/toolhive) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Nov 2026</sub>
 
 **Runs MCP servers in isolated containers behind a gateway and registry.**
 
@@ -257,7 +257,7 @@ ToolHive runs MCP servers in isolated containers locally via Docker or Podman, o
 <sub>no GPU · Docker · Needs Docker or Podman, Kubernetes (for the operator) · [Repo](https://github.com/stacklok/toolhive) · [📖 Docs ↗](https://docs.stacklok.com/toolhive/) · [🌐 Site ↗](https://stacklok.com/download/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/toolhive/)</sub>
 
 <a name="inspector"></a>
-### #&#8288;15 [mcpjam/inspector](https://github.com/mcpjam/inspector) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
+### #&#8288;15 [mcpjam/inspector](https://github.com/mcpjam/inspector) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
 
 **Inspector and eval runner for testing MCP servers across clients and models.**
 
@@ -311,7 +311,7 @@ Wraps the Firecrawl API as an MCP server so clients like Cursor, Windsurf, VS Co
 <sub>no GPU · Docker · Needs Firecrawl API (cloud or self-hosted), Node.js (npx) · port 3000 · [Repo](https://github.com/firecrawl/firecrawl-mcp-server) · [▶️ Demo ↗](https://mcp.so/playground?server=firecrawl-mcp-server) · [📖 Docs ↗](https://docs.firecrawl.dev/mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl-mcp-server/)</sub>
 
 <a name="telegram-mcp"></a>
-### #&#8288;18 [telegram-mcp](https://github.com/chigwell/telegram-mcp) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;18 [telegram-mcp](https://github.com/chigwell/telegram-mcp) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Nov 2026</sub>
 
 **MCP server exposing a Telegram account to AI clients via Telethon.**
 

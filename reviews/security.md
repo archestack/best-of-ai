@@ -40,8 +40,26 @@ iFixAi runs an agent against a simulated version of your business, sends it requ
 
 <sub>no GPU · Needs Python 3.10+, LLM judge API key (OpenAI, Anthropic, Gemini, Azure, Bedrock, OpenRouter) · Models: OpenAI-compatible agent endpoints, OpenAI, Anthropic, Gemini, Azure · [Repo](https://github.com/ifixai-ai/ifixai) · [📖 Docs ↗](https://github.com/ifixai-ai/iFixAi/tree/main/docs) · [🌐 Site ↗](https://www.ifixai.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ifixai/)</sub>
 
+<a name="ai-infra-guard"></a>
+### 🥉 [ai-infra-guard](https://github.com/tencent/ai-infra-guard) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Nov 2026</sub>
+
+**Red-teaming platform for AI infra CVEs, MCP servers, agent skills and jailbreaks.**
+
+A.I.G (AI-Infra-Guard) from Tencent Zhuque Lab is a web platform that fingerprints running AI services such as Ollama, vLLM, ComfyUI and n8n against 2000+ CVE rules. It also scans MCP servers and agent skills from source or URL, runs jailbreak evaluations against a target LLM API, and includes a model and API relay checker. Standalone CLIs exist for skill, MCP and agent scanning.
+
+- **+** Fingerprints 100+ AI components (Ollama, vLLM, ComfyUI, n8n, Triton) against 2000+ CVE rules
+- **+** Covers infra CVEs, MCP and skill scanning, and jailbreak evaluation in one web UI
+- **+** Separate CLIs such as pip-installable aig-skill-scan fit into CI/CD pipelines
+- **+** Rules are YAML files under data/, so contributing fingerprints is straightforward
+- **−** No authentication; README says not to deploy on public networks
+- **−** Skill scanning needs an external LLM API key
+- **−** Online Pro version with extra features requires an invitation code
+- **−** API checker from source needs a Python venv and a Go build
+
+<sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker 20.10+, LLM API key for skill, MCP and jailbreak scans · Models: OpenAI-compatible LLM APIs (base URL + key) · port 8088 · [Repo](https://github.com/tencent/ai-infra-guard) · [📖 Docs ↗](https://tencent.github.io/AI-Infra-Guard/) · [🌐 Site ↗](https://aigsec.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-infra-guard/)</sub>
+
 <a name="decepticon"></a>
-### 🥉 [decepticon](https://github.com/bittersecurity/decepticon) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;4 [decepticon](https://github.com/bittersecurity/decepticon) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · Apache-2.0 · Nov 2026</sub>
 
 **Autonomous red-team agents that run multi-stage attack chains from an approved plan.**
 
@@ -59,7 +77,7 @@ Decepticon is a red-team system with 16 specialist agents covering recon, exploi
 <sub>no GPU · Docker + Compose · Needs Docker, Docker Compose v2, LiteLLM, PostgreSQL, Neo4j, LangGraph · Models: Anthropic, OpenAI, Google Gemini, MiniMax, DeepSeek · [Repo](https://github.com/bittersecurity/decepticon) · [▶️ Demo ↗](https://app.decepticon.red) · [📖 Docs ↗](https://docs.decepticon.red) · [🌐 Site ↗](https://decepticon.red) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/decepticon/)</sub>
 
 <a name="strix"></a>
-### #&#8288;4 [Strix](https://github.com/usestrix/strix) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;5 [Strix](https://github.com/usestrix/strix) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 77k · Apache-2.0 · Nov 2026</sub>
 
 **Autonomous multi-agent pentesting CLI that validates vulnerabilities with working PoCs.**
 
@@ -75,24 +93,6 @@ Strix runs LLM-driven pentest agents against a local codebase, repository URL, l
 - **−** Active testing can cause damage; only usable against systems you are authorized to test
 
 <sub>no GPU · Docker · Needs Docker, LLM API key or local LLM endpoint, Caido, Nuclei, Playwright · Models: OpenAI, Anthropic, Google Vertex AI, AWS Bedrock, Azure · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/strix/)</sub>
-
-<a name="ai-infra-guard"></a>
-### #&#8288;5 [ai-infra-guard](https://github.com/tencent/ai-infra-guard) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Nov 2026</sub>
-
-**Red-teaming platform for AI infra CVEs, MCP servers, agent skills and jailbreaks.**
-
-A.I.G (AI-Infra-Guard) from Tencent Zhuque Lab is a web platform that fingerprints running AI services such as Ollama, vLLM, ComfyUI and n8n against 2000+ CVE rules. It also scans MCP servers and agent skills from source or URL, runs jailbreak evaluations against a target LLM API, and includes a model and API relay checker. Standalone CLIs exist for skill, MCP and agent scanning.
-
-- **+** Fingerprints 100+ AI components (Ollama, vLLM, ComfyUI, n8n, Triton) against 2000+ CVE rules
-- **+** Covers infra CVEs, MCP and skill scanning, and jailbreak evaluation in one web UI
-- **+** Separate CLIs such as pip-installable aig-skill-scan fit into CI/CD pipelines
-- **+** Rules are YAML files under data/, so contributing fingerprints is straightforward
-- **−** No authentication; README says not to deploy on public networks
-- **−** Skill scanning needs an external LLM API key
-- **−** Online Pro version with extra features requires an invitation code
-- **−** API checker from source needs a Python venv and a Go build
-
-<sub>RAM ≥ 4 GB · no GPU · Docker + Compose · Needs Docker 20.10+, LLM API key for skill, MCP and jailbreak scans · Models: OpenAI-compatible LLM APIs (base URL + key) · port 8088 · [Repo](https://github.com/tencent/ai-infra-guard) · [📖 Docs ↗](https://tencent.github.io/AI-Infra-Guard/) · [🌐 Site ↗](https://aigsec.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-infra-guard/)</sub>
 
 <a name="aisoc"></a>
 ### #&#8288;6 [aisoc](https://github.com/beenuar/aisoc) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
@@ -131,7 +131,7 @@ Failproof AI installs hooks into 12 agent harnesses (Claude Code, Codex, Copilot
 <sub>no GPU · Docker · Needs Node.js (npm) · port 8020 · [Repo](https://github.com/failproofai/failproofai) · [📖 Docs ↗](https://docs.befailproof.ai/) · [🌐 Site ↗](https://befailproof.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/failproofai/)</sub>
 
 <a name="bla"></a>
-### #&#8288;8 [bla](https://github.com/qybaihe/bla) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Nov 2026</sub>
+### #&#8288;8 [bla](https://github.com/qybaihe/bla) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Nov 2026</sub>
 
 **Hardens release artifacts against AI reverse-engineering agents.**
 
@@ -615,26 +615,8 @@ Agentic Security sends jailbreak, prompt-injection, multimodal and fuzzed attack
 
 <sub>no GPU · Needs Python 3.15+, Hugging Face datasets · Models: Any HTTP endpoint, OpenAI, Claude, Gemini, Azure OpenAI · port 8718 · [Repo](https://github.com/msoedov/agentic_security) · [📖 Docs ↗](https://agentic-security.vercel.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-security/)</sub>
 
-<a name="adr"></a>
-### #&#8288;35 [adr](https://github.com/uber/adr) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
-
-**Discovery, telemetry and LLM-based threat detection for enterprise coding agents.**
-
-ADR is Uber's security system for AI agents. The repo includes an endpoint inventory of AI tools, a sensor that normalizes telemetry from agents such as Claude Code, Cursor, Codex and Copilot CLI, and a dual-agent detector evaluated on ADR-Bench (304 tasks, 134 MCP servers). The prevention component and the offline Explorer red-teaming engine are not included.
-
-- **+** Deployed in production at Uber; paper accepted at MLSys 2026
-- **+** Sensor covers Claude Code, Cursor, Codex, Copilot CLI, Gemini CLI on macOS, Linux, Windows
-- **+** Includes reproducible benchmark: 304 tasks, 134 MCP servers, figure scripts
-- **+** Two-tier detector: high-recall triage, then deeper agentic review of suspicious sessions
-- **−** Prevention component is not in the open-source release
-- **−** Offline ADR Explorer red-teaming engine is not included
-- **−** Default detector needs Anthropic and OpenAI API keys
-- **−** Benchmark fixtures are synthetic, so results may not match real environments
-
-<sub>no GPU · Needs uv, Anthropic API, OpenAI API · Models: Anthropic, OpenAI, LlamaFirewall · [Repo](https://github.com/uber/adr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adr/)</sub>
-
 <a name="hexstrike-ai"></a>
-### #&#8288;36 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: widely used (84) · Freshness: active (91) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
+### #&#8288;35 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (84) · Freshness: active (91) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
 
 **MCP server that lets AI clients drive 150+ pentesting tools.**
 
@@ -651,8 +633,26 @@ HexStrike AI runs a Python Flask-style server (hexstrike_server.py, default port
 
 <sub>GPU optional · Needs Python 3.8+, nmap, nuclei, sqlmap and other security tools, Chrome/Chromium with chromedriver, MCP-compatible client · Models: Claude, GPT, Copilot, any MCP-compatible client · port 8888 · [Repo](https://github.com/0x4m4/hexstrike-ai) · [🌐 Site ↗](https://overthetop.ae/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hexstrike-ai/)</sub>
 
+<a name="adr"></a>
+### #&#8288;36 [adr](https://github.com/uber/adr) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Oct 2026</sub>
+
+**Discovery, telemetry and LLM-based threat detection for enterprise coding agents.**
+
+ADR is Uber's security system for AI agents. The repo includes an endpoint inventory of AI tools, a sensor that normalizes telemetry from agents such as Claude Code, Cursor, Codex and Copilot CLI, and a dual-agent detector evaluated on ADR-Bench (304 tasks, 134 MCP servers). The prevention component and the offline Explorer red-teaming engine are not included.
+
+- **+** Deployed in production at Uber; paper accepted at MLSys 2026
+- **+** Sensor covers Claude Code, Cursor, Codex, Copilot CLI, Gemini CLI on macOS, Linux, Windows
+- **+** Includes reproducible benchmark: 304 tasks, 134 MCP servers, figure scripts
+- **+** Two-tier detector: high-recall triage, then deeper agentic review of suspicious sessions
+- **−** Prevention component is not in the open-source release
+- **−** Offline ADR Explorer red-teaming engine is not included
+- **−** Default detector needs Anthropic and OpenAI API keys
+- **−** Benchmark fixtures are synthetic, so results may not match real environments
+
+<sub>no GPU · Needs uv, Anthropic API, OpenAI API · Models: Anthropic, OpenAI, LlamaFirewall · [Repo](https://github.com/uber/adr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adr/)</sub>
+
 <a name="adversarial-robustness-toolbox"></a>
-### #&#8288;37 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (61) · Freshness: recent (73) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+### #&#8288;37 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (61) · Freshness: recent (73) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
 
 **Python library for attacking and defending ML models against adversarial threats.**
 
@@ -742,7 +742,7 @@ TextAttack is a Python library and `textattack` CLI that runs published adversar
 <sub>GPU optional · Needs Python 3.6+, pip · Models: BERT, DistilBERT, LSTM, T5, Keras models · [Repo](https://github.com/qdata/textattack) · [📖 Docs ↗](https://textattack.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/textattack/)</sub>
 
 <a name="deepteam"></a>
-### #&#8288;42 [deepteam](https://github.com/confident-ai/deepteam) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (33) · Freshness: active (84) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;42 [deepteam](https://github.com/confident-ai/deepteam) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (34) · Freshness: active (84) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Oct 2026</sub>
 
 **Red teaming framework that attacks LLM apps and scores vulnerabilities.**
 

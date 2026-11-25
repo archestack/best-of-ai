@@ -453,7 +453,7 @@ LoLLMs WebUI is a Python web interface that connects to many LLM backends (GGUF,
 <sub>GPU optional · Docker + Compose · Needs Python 3.11, git submodules · Models: GGUF/GGML, ExLlamaV2, Hugging Face, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
 
 <a name="claraverse"></a>
-### #&#8288;26 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (29) · Freshness: active (94) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
+### #&#8288;26 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (30) · Freshness: active (94) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
 
 **Private AI workspace with chat, agent crews, workflows and Telegram.**
 
@@ -489,7 +489,7 @@ GPT Academic is a Python Gradio app that sends text to OpenAI, Azure, Qwen, GLM,
 <sub>GPU optional · Docker + Compose · Needs Python 3.9-3.11, Gradio, LaTeX (for LaTeX plugins), Docker (optional) · Models: OpenAI GPT, Azure, Qwen, ChatGLM, GLM4 · [Repo](https://github.com/binary-husky/gpt_academic) · [▶️ Demo ↗](https://huggingface.co/spaces/qingxu98/gpt-academic) · [📖 Docs ↗](https://github.com/binary-husky/gpt_academic/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-academic/)</sub>
 
 <a name="chatgpt-web"></a>
-### #&#8288;28 [chatgpt-web](https://github.com/chatgpt-web-dev/chatgpt-web) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (10) · Freshness: slowing (48) · Maintenance: weak (22) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Mar 2026</sub>
+### #&#8288;28 [chatgpt-web](https://github.com/chatgpt-web-dev/chatgpt-web) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (11) · Freshness: slowing (48) · Maintenance: weak (22) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Mar 2026</sub>
 
 **Multi-user ChatGPT web UI with MongoDB-backed history, admin panel and usage limits.**
 

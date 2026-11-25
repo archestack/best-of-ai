@@ -3170,37 +3170,41 @@ entries:
     repo: lightning-ai/pytorch-lightning
     name: pytorch-lightning
     status: listed
-    tagline: PyTorch training framework that removes loop, device and distributed boilerplate
-    summary: PyTorch Lightning wraps PyTorch models in a LightningModule and a Trainer that handles the training loop, mixed precision, checkpointing, logging and multi-device scaling. The same package ships Lightning Fabric, a lower-level API that keeps your own loop and adds device placement and distributed strategies (DDP, FSDP, DeepSpeed). Runs on CPU, CUDA, Apple Silicon (MPS) and TPU.
+    tagline: PyTorch training framework that automates multi-GPU, precision and logging boilerplate
+    summary: PyTorch Lightning structures PyTorch code into a LightningModule and a Trainer that handles the training loop, mixed precision, checkpointing, early stopping and logging. The same code runs on CPU, GPU, TPU or multi-node setups by changing Trainer arguments. The repo also ships Lightning Fabric, a lower-level API that keeps your own training loop while handling device placement, DDP, FSDP and DeepSpeed.
     categories:
       - ml-frameworks
       - training
     strengths:
-      - Same code scales from CPU to multi-node GPU or TPU by changing Trainer arguments
-      - Fabric offers a minimal-diff path for existing PyTorch loops, with DDP, FSDP and DeepSpeed
-      - Built-in early stopping and checkpointing callbacks; loggers for TensorBoard, W&B, Comet, MLflow
-      - Exports to TorchScript and ONNX; README cites about 300 ms per epoch overhead
+      - Scales from CPU to multi-node GPU or TPU by changing Trainer arguments, not model code
+      - Fabric keeps a custom training loop with few changes to plain PyTorch
+      - Built-in loggers for TensorBoard, Weights & Biases, Comet and MLflow
+      - Exports trained modules to TorchScript and ONNX
     weaknesses:
-      - Training only; serving needs the separate LitServe project
-      - Trainer requires restructuring code into LightningModule hooks
-      - README promotes Lightning Cloud, and most examples run as Lightning Studios
-      - Abstraction layer over PyTorch can complicate debugging unusual loops
+      - Requires restructuring code into LightningModule and Trainer conventions
+      - README states about 300 ms per epoch overhead versus plain PyTorch
+      - README promotes Lightning Cloud and Studios for examples and GPUs
+      - PyTorch only; no support for other tensor frameworks
     specs:
       ram_min_gb: null
       gpu: optional
       external_deps:
         - PyTorch
+        - torchvision (for examples)
       model_support:
         - PyTorch nn.Module
         - TorchScript export
         - ONNX export
+        - DDP
+        - FSDP
+        - DeepSpeed
       web_port: null
     links:
       demo: null
       website: https://lightning.ai/
       docs: https://pytorch-lightning.readthedocs.io/en/stable/
     audience: ML engineers training or finetuning PyTorch models across GPUs or nodes
-    confidence: 0.9
+    confidence: 0.85
     facts:
       stars: 31463
       license: Apache-2.0
@@ -3761,7 +3765,7 @@ entries:
       has_compose: false
       is_template: false
       language: C#
-    score: 81
+    score: 82
   - id: fastai
     repo: fastai/fastai
     name: fastai
@@ -8700,7 +8704,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 90
+    score: 91
   - id: adk-python
     repo: google/adk-python
     name: adk-python
@@ -8798,34 +8802,31 @@ entries:
     name: onnx
     status: listed
     tagline: Open model format and operator spec for exchanging ML models between frameworks
-    summary: ONNX defines an extensible computation graph format, built-in operators and standard data types for deep learning and traditional ML models, with a focus on inference. The Python package provides model loading and saving, shape and type inference, opset version conversion and a reference implementation. It is a spec and toolkit, not a runtime; execution is left to other engines.
+    summary: ONNX defines an extensible computation graph format, built-in operators and standard data types for deep learning and traditional ML models. The Python package (pip install onnx) provides APIs to build, load and check models, plus shape and type inference and opset version conversion. The spec focuses on inference (scoring); runtimes and converters live in other projects.
     categories:
       - ml-frameworks
     strengths:
-      - Framework-neutral model format with documented IR spec, operator list and versioning rules
-      - Python API includes shape and type inference and opset version conversion
-      - Supported across many frameworks, tools and hardware, per the project
-      - abi3 wheels from Python 3.12; releases published to PyPI with weekly builds
+      - Vendor-neutral spec with documented IR, operator set and versioning rules
+      - Installs from PyPI; abi3 wheels work across Python 3.12 and later
+      - Includes shape and type inference and opset version conversion utilities
+      - Build workflows set SOURCE_DATE_EPOCH for reproducible-build comparison
     weaknesses:
-      - Does not run models in production; a separate inference runtime is needed
-      - Scope is inference; training is not a stated focus
-      - Graph optimizer lives in a separate repository (onnx/optimizer)
-      - Reference implementation needs the optional onnx[reference] extra
+      - Not a runtime; running models needs a separate inference engine
+      - Scope is inference; training is not a focus
+      - Graph optimization lives in a separate repository (onnx/optimizer)
+      - Converters from source frameworks are separate projects, not in this repo
     specs:
       ram_min_gb: null
       gpu: none
-      external_deps:
-        - pytest (tests only)
+      external_deps: []
       model_support:
         - ONNX
-        - deep learning models
-        - traditional ML models
       web_port: null
     links:
       demo: null
       website: https://onnx.ai
       docs: https://onnx.ai/onnx/
-    audience: Engineers exporting, converting or validating models across ML frameworks
+    audience: Engineers exporting, inspecting or converting models between ML frameworks
     confidence: 0.85
     facts:
       stars: 21748
@@ -8841,20 +8842,20 @@ entries:
     repo: nirdiamant/agents-towards-production
     name: agents-towards-production
     status: listed
-    tagline: Jupyter tutorials for taking LLM agents from prototype to production
-    summary: "A collection of 28 tutorial notebooks on production concerns for GenAI agents: stateful workflows with LangGraph, memory (Redis, Mem0), web search APIs, FastAPI and Docker deployment, guardrails, GPU deployment, observability and evaluation. Many tutorials are contributed by vendors the README lists as sponsors. The README also promotes the author's paid course and newsletter."
+    tagline: Runnable tutorials for taking LLM agents from prototype to production
+    summary: "A collection of 28 tutorials, each in its own folder, covering parts of a production agent stack: LangGraph stateful workflows, memory (Redis, Mem0), web search (Tavily, Bright Data), RAG, GPU deployment on RunPod, durable ingestion with Inngest, guardrails and observability. Several tutorials are sponsor-contributed and built around those vendors' services. The README also promotes a companion paid book and a newsletter."
     categories:
       - learning
       - agent-frameworks
     strengths:
-      - 28 tutorials covering memory, deployment, guardrails, GPU scaling, evaluation and UI
-      - "Spans several stacks: LangGraph, Redis, Mem0, Arcade, Inngest, and Kotlin with JetBrains Koog"
-      - Each topic has its own tutorials/ folder, so one can be read without the rest
+      - 28 tutorials, each in its own folder, spanning memory, search, RAG, security and deployment
+      - "Covers concrete stack pieces: LangGraph, Redis, Mem0, FastAPI, Docker, RunPod, Inngest"
+      - "Actively maintained: last commit 2026-11-15, last release 2026-10-26"
     weaknesses:
-      - Many tutorials are sponsor-contributed and built around the sponsor's hosted product
-      - Several tutorials need external services such as Tavily, Bright Data and RunPod
-      - README leads with course and newsletter promotion before the tutorial list
-      - License is not identified (NOASSERTION); no releases or versioning
+      - Many tutorials are sponsor-contributed and tied to specific commercial services
+      - Several tutorials need third-party accounts or API keys (Tavily, Bright Data, RunPod)
+      - README is heavy with sponsor logos, book promotion and newsletter links
+      - License is detected as NOASSERTION, so reuse terms are unclear
     specs:
       ram_min_gb: null
       gpu: optional
@@ -8864,17 +8865,16 @@ entries:
         - Mem0
         - Tavily
         - Bright Data
-        - Contextual AI
-        - Arcade
         - RunPod
         - Inngest
+        - Contextual AI
       model_support: []
       web_port: null
     links:
       demo: null
       website: https://www.diamant-ai.com/
       docs: null
-    audience: Engineers learning to deploy and operate LLM agents in production
+    audience: Engineers learning to deploy LLM agents beyond notebooks
     confidence: 0.8
     facts:
       stars: 21943
@@ -9034,35 +9034,35 @@ entries:
     repo: modelscope/funasr
     name: funasr
     status: listed
-    tagline: Speech recognition toolkit with VAD, punctuation, speaker labels and streaming
-    summary: FunASR is a Python toolkit that runs speech recognition checkpoints (Fun-ASR-Nano, SenseVoiceSmall, Paraformer) through an AutoModel API, with optional FSMN-VAD, punctuation and CAM++ speaker clustering. It also ships a CLI, an OpenAI-compatible transcription server (funasr-server), a streaming runtime, and llama.cpp/GGUF binaries for CPU and edge devices without Python.
+    tagline: Speech recognition toolkit with VAD, punctuation, speaker labeling and streaming
+    summary: FunASR is a Python toolkit that runs offline and streaming speech recognition through an AutoModel API, a CLI and an OpenAI-compatible transcription server (funasr-server). It bundles ASR checkpoints (Fun-ASR-Nano, SenseVoiceSmall, Paraformer), plus VAD, punctuation, CAM++ speaker clustering and emotion models. GGUF builds run through a llama.cpp binary on CPU or Vulkan/CUDA without Python.
     categories:
       - voice
       - model-serving
     strengths:
-      - Offline and chunked streaming ASR (Paraformer-zh-streaming) in one toolkit
-      - GGUF/llama.cpp binaries run SenseVoice on CPU, Vulkan or CUDA without Python
-      - "Composable pipeline: VAD, punctuation, anonymous speaker labels, emotion and event tags"
-      - OpenAI-style /v1/audio/transcriptions endpoint plus MCP server and CLI with SRT/JSON output
+      - "Composable pipeline: ASR, FSMN-VAD, ct-punc and CAM++ speaker clustering in one AutoModel call"
+      - Streaming Paraformer with chunked input and per-session cache
+      - GGUF llama.cpp binaries run SenseVoice on CPU with no Python at runtime
+      - OpenAI-compatible /v1/audio/transcriptions server, plus CLI with SRT and JSON output
     weaknesses:
-      - Speaker labels are anonymous per recording, not known-person identification
-      - Language coverage is per checkpoint; base Nano is only zh/en/ja plus Chinese dialects
-      - Bundled server is unauthenticated and should stay on loopback
-      - Runtime support differs by backend; GGUF weights are not usable from Python AutoModel
+      - Language coverage differs per checkpoint; Fun-ASR-Nano is only zh/en/ja plus Chinese dialects
+      - Speaker labels are anonymous per recording, not known-speaker identification
+      - Bundled server is unauthenticated and meant for loopback use only
+      - Model weights carry their own licenses, separate from the MIT toolkit
     specs:
       ram_min_gb: null
       gpu: optional
       external_deps:
         - PyTorch
         - torchaudio
-        - FastAPI
-        - uvicorn
+        - FastAPI and uvicorn (server)
         - vLLM (optional, Nano GPU serving)
       model_support:
         - Fun-ASR-Nano
         - Fun-ASR-MLT-Nano
         - SenseVoiceSmall
         - Paraformer-zh
+        - Paraformer-zh-streaming
         - Whisper-large-v3
         - Qwen3-ASR
         - GGUF
@@ -9071,7 +9071,7 @@ entries:
       demo: https://huggingface.co/spaces/FunAudioLLM/Fun-ASR-Nano
       website: https://www.funasr.com/
       docs: https://www.funasr.com/en/docs/
-    audience: Engineers self-hosting speech-to-text, especially Chinese or multilingual
+    audience: "Engineers self-hosting speech-to-text: offline, streaming or edge"
     confidence: 0.85
     facts:
       stars: 21108
@@ -9087,26 +9087,27 @@ entries:
     repo: pydantic/pydantic-ai
     name: pydantic-ai
     status: listed
-    tagline: Typed Python SDK for building agents with swappable model providers
-    summary: Pydantic AI is a Python agent framework where tools, dependencies and outputs are typed with Pydantic models, and the model is chosen by a provider string (OpenAI, Anthropic, Google, Bedrock, Ollama and others). The same agent can run as a CLI, web chat, realtime voice session, or on durable execution engines such as Temporal, DBOS and Prefect. A separate Harness package adds memory, guardrails, sub-agents and a coding agent as composable capabilities.
+    tagline: Typed Python SDK for building LLM agents across many model providers
+    summary: Pydantic AI is a Python agent framework built on Pydantic validation. Agents take typed dependencies, tools and output models, and the provider is chosen with a model string such as 'openai:...' or 'anthropic:...', with fallback models supported. It also covers MCP, durable execution on engines like Temporal, DBOS and Prefect, realtime voice, image generation and embeddings. Evals and Graph ship as separate packages.
     categories:
       - agent-frameworks
     strengths:
-      - Validated structured output and typed dependency injection checked by IDE and type checker
-      - Model swap by string across OpenAI, Anthropic, Google, Bedrock, Ollama and many more
+      - Structured outputs, tools and dependency injection are typed and validated before your code runs
+      - Switch providers with a model string, with fallback models when a provider fails
       - Durable execution integrations for Temporal, DBOS, Prefect, Restate and others
-      - OpenTelemetry instrumentation works with any OTel backend, not only Logfire
+      - OpenTelemetry instrumentation works with any backend, not only Logfire
     weaknesses:
       - Python only
-      - Memory, guardrails, sub-agents and coding agent live in a separate pydantic-ai-harness package
-      - Pydantic Graph and Pydantic Evals are separate packages to install
-      - README promotes Logfire and the Gateway, which are commercial Pydantic products
+      - Memory, guardrails, sub-agents and the coding agent live in the separate Harness package
+      - Evals, Graph and Monty are separate packages to install and learn
+      - README promotes paid Logfire and AI Gateway products alongside the SDK
     specs:
       ram_min_gb: null
       gpu: none
       external_deps:
         - Model provider API key or local model server such as Ollama
-        - Temporal, DBOS or Prefect (optional, for durable execution)
+        - "Optional: Temporal, DBOS or Prefect for durable execution"
+        - "Optional: Logfire or any OpenTelemetry backend"
       model_support:
         - OpenAI
         - Anthropic
@@ -9122,7 +9123,7 @@ entries:
       demo: null
       website: https://pydantic.dev/docs/ai/
       docs: https://pydantic.dev/docs/ai/
-    audience: Python developers building typed LLM agents and production workflows
+    audience: Python developers building typed, production LLM agents
     confidence: 0.9
     facts:
       stars: 21357
@@ -9186,34 +9187,34 @@ entries:
     repo: triton-lang/triton
     name: triton
     status: listed
-    tagline: Python-based language and compiler for writing custom GPU kernels
-    summary: Triton is a Python DSL and MLIR/LLVM-based compiler for writing tiled deep-learning kernels that compile to NVIDIA and AMD GPU code. It aims for higher productivity than CUDA and more flexibility than other DSLs. It installs via pip, with wheels for CPython 3.10-3.14, and includes a CPU interpreter mode for debugging.
+    tagline: Python-based language and compiler for writing custom GPU kernels for deep learning
+    summary: Triton is a language and MLIR/LLVM-based compiler for writing deep-learning kernels in Python and compiling them for NVIDIA and AMD GPUs. It aims for higher productivity than CUDA and more flexibility than other DSLs. It installs with `pip install triton` and includes an interpreter mode and many debug and IR-dump knobs.
     categories:
       - ml-frameworks
     strengths:
-      - Kernels are written in Python and compiled through MLIR and LLVM to PTX or AMDGCN
-      - TRITON_INTERPRET=1 runs kernels without a GPU, allowing Python breakpoints
-      - "Many debug knobs: per-pass MLIR IR dumps, kernel IR override, reproducer files, autotune printing"
-      - Targets both NVIDIA (compute capability 8.0+) and AMD (ROCm 6.2+) GPUs
+      - Supports NVIDIA (compute capability 8.0+) and AMD (ROCm 6.2+) GPUs
+      - TRITON_INTERPRET=1 runs kernels without a GPU, so Python breakpoints work
+      - "Extensive debug knobs: per-pass MLIR dumps, reproducers, kernel IR override"
+      - Prebuilt wheels on pip for CPython 3.10-3.14
     weaknesses:
-      - Linux only; CPU backend is listed as under development
-      - Building from source needs a matching LLVM version; LLVM has no stable API
-      - No single command to run all tests; running them needs a GPU or the nogpu subset
-      - Aimed at kernel authors, not a ready-made model runner
+      - Linux only; CPU backend is still under development
+      - Source builds depend on LLVM, which has no stable API and builds slowly
+      - No single command runs all tests; the full suite needs a GPU
+      - Kernel authors still need to understand GPU memory and tiling
     specs:
       ram_min_gb: null
       gpu: required
       external_deps:
-        - LLVM
-        - PyTorch (for tests)
-        - CUDA or ROCm
+        - LLVM (prebuilt download or custom build)
+        - CUDA or ROCm 6.2+
+        - Python 3.10-3.14
       model_support: []
       web_port: null
     links:
       demo: null
       website: https://triton-lang.org
       docs: https://triton-lang.org
-    audience: GPU kernel authors and ML compiler engineers writing custom DL primitives
+    audience: GPU kernel authors and ML compiler engineers targeting NVIDIA or AMD
     confidence: 0.85
     facts:
       stars: 20626
@@ -9229,38 +9230,40 @@ entries:
     repo: kortix-ai/suna
     name: suna
     status: listed
-    tagline: Git-repo-based agent platform running each session in its own cloud sandbox
-    summary: Kortix keeps agents, skills, memory, connectors and triggers as files in a git repo (kortix.yaml). Each session runs an OpenCode agent in an isolated sandbox on its own branch, and its work reaches main only through a change request a person approves. It is used from the web app, CLI, Slack and Microsoft Teams, with cron and webhook triggers. Self-hosting uses a Docker Compose stack started by the CLI.
+    tagline: Cloud harness that runs custom pi agents on per-session computers
+    summary: Kortix CompanyOS deploys custom agents built on the pi harness to the cloud, each session on its own sandboxed computer that sleeps when idle and wakes with its history. Agents start from schedules, signed webhooks, connector events or messages from Slack, Teams and the web app, and connect to 3,000+ apps plus MCP, OpenAPI and HTTP. Agents, skills and memory live in one git repo, and changes to main go through a human-approved change request.
     categories:
       - agent-platforms
       - sandboxes
     strengths:
-      - Per-session sandbox on its own branch; merge to main needs human approval
-      - Per-tool Allow/Ask/Block rules, audit trail, SAML SSO and SCIM
-      - Any model provider with your own keys; config lives in git
-      - Slack and Teams channels, cron and signed webhook triggers
+      - Agents, skills and connectors are files in one git repo, with approval-gated change requests
+      - Each session gets an isolated cloud computer that sleeps when idle and keeps state
+      - Triggers include schedules, signed webhooks, connector events, Slack, Teams and email
+      - Self-hosts from the same images as the managed cloud; SAML 2.0 SSO and SCIM 2.0 listed
     weaknesses:
-      - License reported as NOASSERTION; terms need checking before commercial use
-      - Self-host setup asks for integration credentials for managed git, GitHub and Pipedream
-      - Self-host pulls images from Docker Hub, so it is not an offline install
-      - Default provider isolates with containers; microVMs only on the Platinum provider
+      - License detected as NOASSERTION; free white-label use requires Platinum as exclusive compute provider
+      - Self-host pulls images from Docker Hub and defaults to Platinum for agent sandboxes
+      - Large surface (web, API, CLI, mobile, desktop, sandbox) to operate
+      - Agents are built on pi, so existing agent code needs porting
     specs:
       ram_min_gb: null
-      gpu: none
+      gpu: unknown
       external_deps:
-        - Docker
-        - Docker Hub
-        - Pipedream
+        - Docker Compose
         - GitHub
+        - Platinum (default sandbox provider)
+        - Model provider keys
       model_support:
-        - Any provider with your own API keys
+        - Kortix-managed models
+        - Own provider keys
         - ChatGPT subscription
+        - Claude subscription
       web_port: null
     links:
       demo: null
       website: https://kortix.com
-      docs: https://kortix.com/docs
-    audience: Teams wanting self-hosted, governed cloud agents as a Claude Cowork alternative
+      docs: https://kortix.com/docs/guide
+    audience: Teams running many always-on agents on company tools, cloud or self-hosted
     confidence: 0.8
     facts:
       stars: 20789
@@ -9467,45 +9470,42 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 42
   - id: eliza
     repo: elizaos/eliza
     name: eliza
     status: listed
-    tagline: TypeScript agent runtime and personal assistant app with a plugin system
-    summary: elizaOS is a TypeScript monorepo containing an agent runtime (@elizaos/core), a standalone agent HTTP host, the Eliza app for web, desktop and mobile, and first-party plugins for connectors, wallets and device bridges. Models can be routed per capability to on-device Eliza-1 (Gemma 4 based, 2B to 27B), direct providers, or the optional Eliza Cloud. It also includes Linux and Android distribution tooling under packages/os.
+    tagline: Specification workspace for Eliza v4, an on-device agent OS built on Vibestack
+    summary: "This repository holds the Eliza v4 specification for Vibestack: requirements, Quint models and generated contracts for the kernel, agent host, device image, cloud services and assistant plugins. Agents run on the device, while the cloud handles identity, billing and model access. Implementation is in VibeLang and Effect, with verification through Quint, Dafny and Bombadil."
     categories:
       - agent-frameworks
       - assistants
     strengths:
-      - Plugins can register actions, providers, evaluators, services, model handlers, routes and app views
-      - Per-capability routing across local, direct-provider and Eliza Cloud backends; Cloud is optional
-      - Ships an app, CLI, standalone agent host and OS distribution tooling in one MIT repo
-      - On-device Eliza-1 text tiers (2B, 4B, 9B, 27B) plus embeddings, speech, vision and image generation
+      - Formal specs with Quint models and Dafny proofs of safety obligations
+      - Generated contracts and replay checks run through pnpm check and pnpm verify
+      - MIT licensed, with recent commits and a release in November 2026
     weaknesses:
-      - Large monorepo; setup needs pinned Bun and Node versions and runs submodule and native build steps
-      - Third-party plugins and registry submissions are no longer accepted
-      - "Strict contribution rules: human-written issues only, UI PRs require video and screenshots"
-      - Capability availability varies by OS, plugins and permissions; hardware requirements not stated
+      - README covers specification and contributor workflow, not installing or running an assistant
+      - Requires Node 26, pnpm 10.24.0 and Dafny 4.11, a narrow toolchain
+      - Depends on the VibeLang and Vibestack toolchain, which is niche
+      - "Contribution rules are strict: full verify suite and before/after evidence required"
     specs:
       ram_min_gb: null
-      gpu: optional
+      gpu: unknown
       external_deps:
-        - Bun
-        - Node.js
-        - Python 3.11+ (benchmarks only)
-      model_support:
-        - Eliza-1 (Gemma 4 based, 2B/4B/9B/27B)
-        - GGUF embeddings
-        - Direct model providers
-        - Eliza Cloud
+        - Node 26
+        - pnpm 10.24.0
+        - Dafny 4.11
+        - Vibestack toolchain
+        - Android 15+ emulator (password tests only)
+      model_support: []
       web_port: null
     links:
-      demo: https://cloud.eliza.app
-      website: https://eliza.app
-      docs: https://docs.elizaos.ai/
-    audience: Developers building TypeScript agents or self-hosting a personal agent app
-    confidence: 0.8
+      demo: null
+      website: null
+      docs: null
+    audience: Contributors working on Eliza v4 and Vibestack specifications
+    confidence: 0.55
     facts:
       stars: 19915
       license: MIT
@@ -9520,20 +9520,20 @@ entries:
     repo: huggingface/trl
     name: trl
     status: listed
-    tagline: Post-training library with SFT, DPO, GRPO and KTO trainers
-    summary: TRL provides trainer classes (SFTTrainer, GRPOTrainer, DPOTrainer, KTOTrainer, RewardTrainer) that wrap the Hugging Face Transformers trainer for post-training language models. It scales through Accelerate with DDP, DeepSpeed ZeRO and FSDP, supports LoRA/QLoRA via PEFT, and ships a `trl` CLI for running SFT, DPO and KTO without code.
+    tagline: Python library for post-training LLMs with SFT, DPO, GRPO and KTO
+    summary: TRL provides trainer classes (SFTTrainer, GRPOTrainer, AsyncGRPOTrainer, DPOTrainer, KTOTrainer, RewardTrainer) for post-training Hugging Face Transformers models. It builds on Accelerate for DDP, DeepSpeed and FSDP scaling, and on PEFT for LoRA/QLoRA. A `trl` CLI runs SFT, DPO and KTO without writing code.
     categories:
       - training
     strengths:
-      - Covers SFT, DPO, GRPO, KTO and reward modeling with one trainer API
-      - Scales from one GPU to multi-node via Accelerate, DDP, DeepSpeed and FSDP
-      - Integrates PEFT (LoRA/QLoRA) and Unsloth for training on modest hardware
-      - CLI commands (trl sft, dpo, kto) run fine-tuning without writing code
+      - Covers SFT, DPO, KTO, GRPO and reward model training behind one trainer API
+      - Scales from one GPU to multi-node via Accelerate, DDP, DeepSpeed ZeRO and FSDP
+      - PEFT integration allows LoRA/QLoRA training of large models on modest hardware
+      - CLI runs sft, dpo and kto jobs from the shell without code
     weaknesses:
-      - Code-first Python library with no web UI
-      - Features under trl.experimental may change or be removed without notice
-      - Built around the Hugging Face Transformers ecosystem
-      - README gives no RAM or VRAM requirements
+      - AsyncGRPOTrainer needs a separate vLLM server on a different GPU than the trainer
+      - Features under trl.experimental may change or be removed in any release
+      - Tied to the Hugging Face Transformers ecosystem and its model formats
+      - accuracy_reward needs the extra math-verify install
     specs:
       ram_min_gb: null
       gpu: optional
@@ -9542,18 +9542,17 @@ entries:
         - accelerate
         - peft
         - datasets
-        - deepspeed
-        - unsloth
+        - vllm (AsyncGRPOTrainer)
+        - math-verify (accuracy_reward)
       model_support:
         - Hugging Face Transformers models
-        - LoRA/QLoRA adapters
-        - AWS Trainium (TorchNeuron)
+        - LoRA/QLoRA adapters via PEFT
       web_port: null
     links:
       demo: null
       website: null
       docs: https://huggingface.co/docs/trl/index
-    audience: ML engineers fine-tuning LLMs with SFT, preference or RL methods
+    audience: ML engineers fine-tuning and aligning LLMs with Hugging Face tooling
     confidence: 0.9
     facts:
       stars: 19802
@@ -9612,27 +9611,27 @@ entries:
     repo: mlc-ai/web-llm
     name: web-llm
     status: listed
-    tagline: In-browser LLM inference engine with an OpenAI-style JavaScript API
-    summary: WebLLM is an npm package that runs MLC-format language models inside the browser using WebGPU, with no server component. It exposes an OpenAI-style engine.chat.completions interface with streaming, JSON mode and seeding, and supports Web Worker, Service Worker and Chrome extension setups. Custom models must be compiled to MLC format with MLC LLM.
+    tagline: Runs LLMs inside the browser on WebGPU with an OpenAI-style JS API
+    summary: WebLLM is a TypeScript npm package that runs quantized LLMs entirely in the browser using WebGPU and WebAssembly, with no server. It exposes an OpenAI-style `engine.chat.completions` API with streaming, JSON mode and seeding, and supports web workers, service workers and Chrome extensions. Models use the MLC format, and custom models are compiled through MLC LLM.
     categories:
       - model-serving
       - agent-frameworks
     strengths:
-      - Runs fully client-side on WebGPU, so no inference server is needed
-      - OpenAI-style chat API with streaming, JSON mode and seed support
-      - Worker, Service Worker and Chrome extension engines, with examples for each
+      - "No server needed: inference and model caching happen client-side, so prompts stay in the browser"
+      - OpenAI-style chat API with streaming, JSON mode, and seed for reproducible output
+      - Web Worker, Service Worker and Chrome extension support, with examples in the repo
       - Optional SRI hash verification of model config, WASM and tokenizer files
     weaknesses:
-      - Requires a WebGPU-capable browser
-      - First load downloads full model weights; large models take a long time
-      - Function calling is marked WIP; the model request parameter is ignored
-      - Custom models must be compiled to MLC format through MLC LLM
+      - Requires a WebGPU-capable browser; the README gives no browser or GPU requirements
+      - First run downloads full model weights, which can take a long time
+      - Function calling is marked WIP, so OpenAI compatibility is partial
+      - Custom models must be compiled to MLC format with MLC LLM
     specs:
       ram_min_gb: null
       gpu: required
       external_deps:
         - WebGPU-capable browser
-        - MLC LLM (for compiling custom models)
+        - MLC LLM (for custom model compilation)
       model_support:
         - Llama 3
         - Llama 2
@@ -9640,13 +9639,13 @@ entries:
         - Gemma-2B
         - Mistral-7B
         - Qwen2
-        - MLC format
+        - MLC-format custom models
       web_port: null
     links:
       demo: https://chat.webllm.ai/
-      website: null
+      website: https://webllm.mlc.ai/
       docs: https://webllm.mlc.ai/docs/
-    audience: Web developers embedding local LLM inference in browser apps or extensions
+    audience: Web developers adding local, in-browser LLM inference to their apps
     confidence: 0.85
     facts:
       stars: 19399
@@ -9662,21 +9661,21 @@ entries:
     repo: huggingface/sentence-transformers
     name: sentence-transformers
     status: listed
-    tagline: Python library for computing, training and reranking with text embedding models
-    summary: Sentence Transformers is a Python library that computes dense embeddings, sparse (SPLADE-style) embeddings, ColBERT-style multi-vector embeddings and Cross-Encoder reranker scores through one API. It loads models from the 15,000+ on the Hugging Face Hub and includes trainers and loss functions for fine-tuning on your own data.
+    tagline: Python library for text embeddings, rerankers, and sparse and ColBERT-style models
+    summary: Sentence Transformers is a Python library that computes dense embeddings, cross-encoder rerank scores, sparse (SPLADE-style) embeddings and multi-vector late-interaction embeddings. It loads any of the 15,000+ compatible models from the Hugging Face Hub and trains or fine-tunes all four model types. Install is via pip, with extras for image, audio, video, ONNX and OpenVINO.
     categories:
       - ml-frameworks
       - training
     strengths:
-      - Four model types (dense, sparse, multi-vector, cross-encoder) behind one consistent encode/similarity/rank API
-      - Loads 15,000+ pretrained models from the Hugging Face Hub, including MTEB leaderboard models
-      - Built-in training with 20+ embedding losses and evaluation during training
-      - Optional extras for image, audio, video, ONNX and OpenVINO
+      - "Four model types behind one API: dense, cross-encoder, sparse and multi-vector"
+      - Loads 15,000+ pretrained models from the Hugging Face Hub, including MTEB leaderboard entries
+      - Built-in training with 20+ embedding loss functions and evaluation during training
+      - Extras for ONNX, OpenVINO, image, audio and video inputs
     weaknesses:
-      - "Library only: no HTTP server, UI or vector store included"
+      - "Library only: no server, vector store or retrieval pipeline included"
       - Requires Python 3.10+, PyTorch 2.2+ and transformers v5.0+
-      - Model weights download from the Hugging Face Hub; gated models need login
-      - README states no RAM or GPU requirements
+      - README calls the repo experimental software tied to the original publication
+      - Gated or private models need a Hugging Face login
     specs:
       ram_min_gb: null
       gpu: optional
@@ -9700,7 +9699,7 @@ entries:
       demo: null
       website: https://www.sbert.net
       docs: https://www.sbert.net/docs/quickstart.html
-    audience: Python developers building semantic search or fine-tuning embedders
+    audience: Python developers building semantic search, reranking or embedding pipelines
     confidence: 0.9
     facts:
       stars: 19303
@@ -9907,38 +9906,37 @@ entries:
     repo: confident-ai/deepeval
     name: deepeval
     status: listed
-    tagline: Pytest-style framework for unit testing LLM apps, RAG pipelines and agents
-    summary: DeepEval is a Python framework that runs LLM evaluations as pytest-style tests via `deepeval test run`. It ships metrics such as G-Eval, DAG, task completion, tool correctness, faithfulness and hallucination, scored by an LLM judge of your choice or local NLP models. It supports end-to-end, trace-based and component-level evals, synthetic dataset generation, and standard benchmarks like MMLU and GSM8K.
+    tagline: Pytest-style framework for evaluating LLM apps, agents and RAG pipelines
+    summary: DeepEval is a Python library that runs LLM app tests through `deepeval test run`, in the style of Pytest. It ships metrics for RAG, agents, multi-turn chats, MCP, voice and multimodal output, scored by an LLM judge, statistical methods or local NLP models. It also supports tracing for component-level and trajectory evals, synthetic dataset generation, and benchmarks such as MMLU and GSM8K.
     categories:
       - gateways
     strengths:
-      - Metrics for RAG, agents, multi-turn chats, MCP and multimodal outputs
-      - Pytest-style tests run in CI with `deepeval test run`
-      - Tracing via @observe supports component-level and agent trajectory evals
-      - Integrations for LangChain, LangGraph, CrewAI, LlamaIndex, OpenAI Agents, Pydantic AI and others
+      - Metrics cover RAG, agent trajectories, multi-turn, MCP, voice and multimodal use cases
+      - Pytest-style assert_test and deepeval test run fit into existing CI pipelines
+      - Integrates with LangChain, LangGraph, CrewAI, OpenAI Agents, LlamaIndex, Pydantic AI
+      - Judge model is configurable, including custom LLMs; some metrics use local NLP models
     weaknesses:
-      - LLM-judge metrics need a model; the quickstart uses an OpenAI API key
-      - Report sharing and production monitoring sit in the hosted Confident AI platform
-      - README pushes account login; test cases are logged to the cloud once logged in
-      - Judge-based scores depend on the chosen judge model and vary between runs
+      - Quickstart expects an OPENAI_API_KEY for the LLM-as-a-judge metrics
+      - README pushes login to the hosted Confident AI platform, a separate commercial product
+      - Judge-based metrics add LLM calls and cost to every test run
+      - Library only, installed with pip; no Docker or compose setup
     specs:
       ram_min_gb: null
       gpu: optional
       external_deps:
+        - Python>=3.10
         - OpenAI API key or custom LLM judge
-        - Confident AI account (optional)
       model_support:
         - OpenAI
         - Anthropic
         - custom LLMs
-        - local NLP models
       web_port: null
     links:
       demo: null
       website: https://www.confident-ai.com
       docs: https://deepeval.com/docs/getting-started
-    audience: Engineers testing LLM apps, RAG pipelines and agents in CI
-    confidence: 0.8
+    audience: Engineers testing LLM apps, agents and RAG pipelines in CI
+    confidence: 0.85
     facts:
       stars: 19609
       license: Apache-2.0
@@ -9953,20 +9951,21 @@ entries:
     repo: microsoft/agent-lightning
     name: agent-lightning
     status: listed
-    tagline: Reinforcement learning framework for training agents through a model-request proxy
-    summary: Agent Lightning is a roughly 3,500-line Python framework that trains agents with RL while they run in their real harnesses. A gateway proxies the agent's model requests and records them as training data, a rollout controller runs agents locally or as Kubernetes Jobs, and a trainer built on verl and vLLM updates the policy. Examples include a Qwen3.5-9B coding agent, which the README reports going from 41.8% to 56.4% on SWE-bench Verified.
+    tagline: Reinforcement learning framework for training agents through a model proxy
+    summary: Agent Lightning v1.0 trains agents with RL while they run in their own harnesses. An API gateway proxies the agent's model requests and records them as training data, and a trainer built on verl and vLLM updates the policy. Rollouts run locally or as Kubernetes Jobs. Examples cover math, search, sandbox and coding agents.
     categories:
       - training
       - agent-frameworks
     strengths:
-      - Agents run unchanged; the gateway captures model calls as training data
+      - Agents run unmodified; the gateway captures training data from model calls
       - Runs rollouts as Kubernetes Jobs without an external sandbox service
-      - "Full coding-agent pipeline released: data cleaning, reward-hacking prevention, training scripts"
-      - Examples cover Calc-X, GSM8K, ScienceWorld, Search-R1, LLM-in-Sandbox and coding agents
+      - "Ships a full coding-agent pipeline: data cleaning, reward-hacking prevention, training scripts"
+      - Small codebase of about 3,500 lines
     weaknesses:
-      - Requires a verl and vLLM GPU stack; install shown for CUDA 13.0 only
-      - No Docker or compose setup shipped in the repo
-      - v1.0 is a full refactor; older releases live on a separate v0.x branch
+      - Requires a verl and vLLM GPU stack; setup example targets CUDA 13.0
+      - v1.0 was a full refactor; earlier releases live on a separate v0.x branch
+      - RL training only; not a general agent runtime or builder
+      - No Docker or compose files provided
     specs:
       ram_min_gb: null
       gpu: required
@@ -9974,7 +9973,8 @@ entries:
         - verl
         - vLLM
         - uv
-        - Kubernetes (optional, for rollouts)
+        - CUDA
+        - Kubernetes (optional)
       model_support:
         - Qwen3.5-9B
         - Qwen3.5-35B-A3B
@@ -9983,7 +9983,7 @@ entries:
       demo: null
       website: https://www.microsoft.com/en-us/research/project/agent-lightning/
       docs: https://microsoft.github.io/agent-lightning/stable/
-    audience: ML engineers doing RL fine-tuning of LLM agents on their own GPUs
+    audience: ML engineers doing RL training of tool-using or coding agents on GPUs
     confidence: 0.85
     facts:
       stars: 18996
@@ -9999,21 +9999,21 @@ entries:
     repo: nvidia-nemo/speech
     name: speech
     status: listed
-    tagline: PyTorch toolkit for training and deploying ASR, TTS and speech LLM models
-    summary: "NVIDIA NeMo Speech is a Python/PyTorch toolkit for building speech models: automatic speech recognition, text-to-speech and speech LLMs. It ships training code and pre-trained checkpoints such as Parakeet, Canary, Nemotron-Speech-Streaming and MagpieTTS, published on Hugging Face. Install from source with uv, from PyPI as nemo-toolkit, or use the NGC container."
+    tagline: PyTorch toolkit for training and running ASR, TTS and speech LLM models
+    summary: NVIDIA NeMo Speech is a Python/PyTorch library for building, fine-tuning and deploying speech recognition, text-to-speech and speech LLM models. It ships with pretrained open-weight checkpoints on Hugging Face, including Parakeet, Canary, Nemotron streaming ASR, MagpieTTS and Nemotron 3.5 Transcribe. The repo was split from the main NeMo project and now covers only audio and multimodal LLMs.
     categories:
       - models
       - training
     strengths:
-      - Covers ASR, TTS and speech LLMs in one codebase with pre-trained open checkpoints
-      - Streaming ASR checkpoint with 80ms-1s configurable latency and 40 languages
-      - MagpieTTS v2607 supports 12 languages; Parakeet V3 and Canary V2 cover 25 European languages
+      - Covers ASR, TTS and speech LLMs in one codebase with pretrained checkpoints
+      - Streaming ASR with controllable latency, 80ms to 1s in Nemotron-3.5-ASR-Streaming
       - Installs over an existing PyTorch 2.7+ build via pip without replacing it
+      - Apache-2.0 licensed, with prebuilt NGC container and a locked uv environment
     weaknesses:
-      - NVIDIA GPU with CUDA required for training; only recommended for inference
+      - NVIDIA GPU with CUDA is required for training and recommended for inference
       - Requires Python 3.12 or newer
-      - Tested stack is pinned to PyTorch 2.11/2.12 with CUDA 12.9 or 13.2
-      - Not an inference server; no HTTP API or web UI described in the README
+      - Library for researchers, not a ready-to-run speech server or desktop app
+      - Tested stack is pinned to specific PyTorch and CUDA versions (2.11/12.9, 2.12/13.2)
     specs:
       ram_min_gb: null
       gpu: required
@@ -10024,15 +10024,16 @@ entries:
       model_support:
         - Parakeet
         - Canary
-        - Nemotron-Speech-Streaming
+        - Nemotron Speech Streaming
         - MagpieTTS
+        - Nemotron 3.5 Transcribe
         - Canary-Qwen-2.5B
       web_port: null
     links:
-      demo: https://huggingface.co/spaces/nvidia/magpie_tts_multilingual_demo
+      demo: https://huggingface.co/spaces/nvidia/nemotron-transcribe
       website: https://huggingface.co/collections/nvidia/nemotron-speech
       docs: https://docs.nvidia.com/nemo/speech/nightly/
-    audience: Researchers and PyTorch developers training ASR, TTS and speech LLMs
+    audience: Researchers and PyTorch developers training or deploying speech models
     confidence: 0.8
     facts:
       stars: 18783
@@ -10098,50 +10099,45 @@ entries:
     repo: andrewyng/openworker
     name: openworker
     status: listed
-    tagline: Desktop AI coworker for approval-gated work across files, terminal and apps
-    summary: OpenWorker is a macOS and Windows desktop app backed by a local Python agent server built on aisuite. It works across local files, a terminal and 25+ connectors such as GitHub, Slack, Jira and Gmail, plus any MCP tool, and asks for approval before writes, sends or shell commands. Security-review coworkers ship first, and commands can run in an NVIDIA OpenShell, macOS or Windows sandbox.
+    tagline: Desktop AI coworker with approval gates, plus an SDK for agent apps
+    summary: OpenWorker is a Tauri desktop app backed by a local Python agent server that researches, writes documents, reviews code and acts across 25+ connectors and MCP tools. Actions are approval-gated, recorded in an audit trail, and can run in an NVIDIA OpenShell, macOS or Windows sandbox. The repo also ships a Harness SDK (TypeScript on npm, Rust engine) for embedding the agent loop in your own apps.
     categories:
       - desktop-apps
       - assistants
     strengths:
-      - Approval gating with hard floors, standing rules and a per-tool-call audit trail
-      - "Optional sandboxing: NVIDIA OpenShell, built-in macOS sandbox, or Windows local account"
-      - Works with OpenAI, Anthropic, Gemini, DeepSeek, Qwen, Together, Fireworks or local Ollama
-      - 25+ connectors plus MCP, scheduled automations, and Slack mentions that open desktop sessions
+      - Tiered approvals with hard floors and per-tool-call audit records showing approval provenance
+      - Sandboxing via OpenShell, built-in macOS sandbox, or a restricted Windows account
+      - Works with OpenAI, Anthropic, Gemini, OpenRouter, or local Ollama, LM Studio, llama.cpp, vLLM
+      - "Local-first: conversations, model keys and connector tokens stay in a local secret store"
     weaknesses:
-      - Open beta; README says rough edges remain
-      - Windows builds are not code-signed, so SmartScreen warns
-      - Prebuilt installers cover only Apple Silicon macOS and Windows x64; Linux not mentioned
-      - Connector OAuth goes through a cloud broker; manual keys avoid it
+      - Desktop app is in open beta; Windows builds are not code-signed yet
+      - Prebuilt downloads only for macOS Apple Silicon and Windows x64; no Linux build listed
+      - Connector OAuth uses a cloud broker service unless you set manual credentials
+      - Maintainers may reject PRs that diverge from their internal roadmap
     specs:
       ram_min_gb: null
-      gpu: none
+      gpu: optional
       external_deps:
-        - Python 3.10+ (source)
-        - Node 20+ (source)
-        - Rust toolchain (desktop build from source)
-        - Ollama (optional)
-        - NVIDIA OpenShell (optional)
+        - Python 3.10+
+        - Node 20+
+        - Rust toolchain (source build)
+        - NVIDIA OpenShell (optional sandbox)
+        - Ollama (optional local models)
       model_support:
         - OpenAI
         - Anthropic
         - Google Gemini
-        - DeepSeek
-        - Qwen
-        - Kimi
-        - GLM
-        - MiniMax
-        - Mistral
-        - Grok
-        - Together
-        - Fireworks
+        - OpenRouter
         - Ollama
+        - LM Studio
+        - llama.cpp
+        - vLLM
       web_port: 8765
     links:
       demo: null
       website: https://openworker.com
       docs: null
-    audience: Desktop users wanting a governed AI coworker for security and everyday work
+    audience: Users wanting a local, permissioned AI coworker; devs embedding agents
     confidence: 0.85
     facts:
       stars: 19558
@@ -10157,21 +10153,20 @@ entries:
     repo: arc53/docsgpt
     name: docsgpt
     status: listed
-    tagline: Builds agents and workflows that answer from your documents with citations
-    summary: DocsGPT ingests documents, web pages and synced sources such as Google Drive, Confluence, GitHub and S3, and runs agents that answer with cited sources. Agents can use tools, MCP servers and sandboxed code, and can be chained in a visual workflow builder. It is served through a web app, an embeddable widget, an OpenAI-compatible /v1 API and an MCP server, with OIDC SSO, teams and quotas.
+    tagline: Document-grounded AI agents and visual workflows with cited answers
+    summary: DocsGPT ingests PDFs, Office files, web pages and synced sources such as Google Drive, Confluence, GitHub and S3, then builds agents that answer with citations. Agents can be chained in a drag-and-drop workflow builder and exposed through a chat widget, an OpenAI-compatible API or an MCP server. The backend is Python with Postgres, Redis and a Celery worker, and it works with cloud or local models.
     categories:
       - rag-knowledge
       - agent-platforms
     strengths:
-      - Connectors sync Google Drive, SharePoint, Confluence, GitHub and S3, with GraphRAG
-      - Exposes agents via widget, OpenAI-compatible API, webhooks and MCP server
-      - SSO (OIDC/SCIM), roles, quotas and audit log are all MIT licensed
-      - Works with OpenAI, Anthropic, Google, Groq, Ollama, vLLM; air-gapped install documented
+      - Answers cite source documents; connectors keep Drive, SharePoint, Confluence, GitHub and S3 in sync
+      - Embeds via script-tag widget, React package, OpenAI-compatible /v1 API or MCP server
+      - SSO (OIDC, SCIM), roles, audit log and usage quotas are included under MIT
+      - Supports FAISS, pgvector, Elasticsearch, Qdrant, Milvus or MongoDB as vector store
     weaknesses:
-      - Stack needs API, Celery worker, Postgres, Redis and a vector store
-      - README gives no RAM or GPU sizing for local models
-      - Wide scope (workflows, guardrails, connectors) means a large surface to operate
-      - Quick install is a curl-pipe-to-shell script that requires Docker
+      - Full stack needs API, worker, Postgres and Redis, heavier than a single-binary tool
+      - One-command installer pipes a script from curl to bash and requires Docker
+      - Broad scope (agents, workflows, connectors, guardrails) means more to configure and secure
     specs:
       ram_min_gb: null
       gpu: optional
@@ -10194,7 +10189,7 @@ entries:
       demo: https://app.docsgpt.cloud/
       website: https://www.docsgpt.cloud
       docs: https://docs.docsgpt.cloud/
-    audience: Teams self-hosting document-grounded agents and support bots
+    audience: Teams self-hosting cited Q&A agents over internal docs and connected sources
     confidence: 0.85
     facts:
       stars: 18380
@@ -10210,37 +10205,40 @@ entries:
     repo: emcie-co/parlant
     name: parlant
     status: listed
-    tagline: Python framework for controlling behavior of customer-facing conversational agents
-    summary: Parlant is a Python SDK where agent behavior is defined as guidelines, observations, journeys, glossary terms and tools instead of one large system prompt. On each turn its engine matches only the relevant rules and tools and builds a narrowed context before generating a reply. It also supports canned-response templates for strict output and OpenTelemetry tracing of every match.
+    tagline: Python framework for customer-facing agents that follow policies
+    summary: Parlant is a Python SDK and server for building customer-facing conversational agents. On each turn it selects the relevant policies, runs allowed tools, and writes a reply guided by canned responses, with optional checks on tool calls and messages. It includes a chat widget, human handoff, simulated test sessions, and a hosted Dashboard for monitoring.
     categories:
       - agent-frameworks
     strengths:
-      - Per-turn matching keeps only relevant guidelines and tools in the LLM context
-      - Strict mode with canned responses gives exact, pre-approved wording at critical moments
-      - OpenTelemetry tracing logs guideline matches and decisions for auditing
-      - External workflows (LangGraph, LlamaIndex, Agno) can be wrapped as tools
+      - Plain-language policies; only the relevant ones are put in front of the model each turn
+      - Optional validation of replies and of tool calls such as refunds before they run
+      - Supports OpenRouter, OpenAI, Anthropic, Gemini, LiteLLM and custom providers, no inference markup
+      - Ships chat widget, human handoff, simulated test sessions and per-reply traceability
     weaknesses:
-      - README says small off-the-shelf models tend to give inconsistent results
-      - Extra matching step per turn; latency and token cost are not documented
-      - Not a workflow builder; README points to LangGraph for workflow automation
-      - Recommended Emcie models are a vendor-specific service; pricing is unknown
+      - Agent behavior must be written in Python; other stacks reach it only over HTTP
+      - Hosting, testing and analytics Dashboard is a flat monthly fee beyond development use
+      - Aimed at customer-facing agents; README points to other frameworks for internal or coding agents
+      - README centers a coding-agent workflow; hand-written setup gets a short example
     specs:
       ram_min_gb: null
       gpu: none
       external_deps:
-        - LLM provider (Emcie, OpenAI, Anthropic or LiteLLM)
+        - LLM provider API key (OpenRouter by default)
+        - Parlant Dashboard project token
       model_support:
-        - Emcie
+        - OpenRouter
         - OpenAI
         - Anthropic
+        - Gemini
         - LiteLLM
+        - custom providers
       web_port: null
     links:
       demo: null
-      website: https://www.parlant.io/
-      docs: https://www.parlant.io/docs/quickstart/installation
-    audience: Teams building compliant, customer-facing conversational agents in Python
-    confidence: 0.85
+      website: https://www.parlant.io
+      docs: https://www.parlant.io/docs/sdk/overview
+    audience: Teams building customer support or sales agents in Python
+    confidence: 0.8
     facts:
       stars: 18339
       license: Apache-2.0
@@ -10255,42 +10253,41 @@ entries:
     repo: xming521/weclone
     name: weclone
     status: listed
-    tagline: Fine-tunes a Qwen VL model on your Telegram chats to build a chat avatar
-    summary: WeClone exports Telegram chat history, strips personal data with Microsoft Presidio and a blocklist, then LoRA fine-tunes Qwen2.5-VL-7B-Instruct through LLaMA Factory. The tuned model is served as an OpenAI-style API (README example port 8005) and can be connected through AstrBot or LangBot to Telegram, Discord or Slack. Personal WeChat deployment is listed, based on openclaw-weixin.
+    tagline: Builds a life portrait from chat history and fine-tunes a personal chat clone
+    summary: WeClone extracts a reviewable, fact-by-fact profile of you from exported chat history (Telegram today) using Codex or any OpenAI-compatible API. The portrait is exposed to assistants such as Claude Code and Codex over MCP. It also keeps the original workflow of LoRA fine-tuning Qwen2.5-7B-Instruct on your chats, served as an OpenAI-compatible API and connected to chat platforms via AstrBot or LangBot.
     categories:
       - training
       - assistants
     strengths:
-      - "Covers the full pipeline: export, PII filtering, LoRA training, API serving, bot deployment"
-      - Presidio redaction plus a manual blocked_words list; encrypted storage default in new templates
-      - Handles image data; other models usable through LLaMA Factory
-      - QLoRA 4-bit on a 7B model needs about 6GB VRAM per the README table
+      - Every portrait fact traces to its source and carries a privacy level
+      - Per-domain and per-level access control for assistants reading the portrait over MCP
+      - Encrypted local storage by default; training data filtered with Microsoft Presidio
+      - Web UI in English and Chinese for reviewing and editing facts
     weaknesses:
-      - Only Telegram works as a data source; WhatsApp, Discord and Slack imports are marked planned
-      - README says 7B results are average; 14B or larger works better
-      - Fine-tuned model has no tool calling; AstrBot tools must be turned off
-      - Requires CUDA 12.6+; Windows not rigorously tested (WSL suggested)
+      - Only Telegram is supported as a data source; WhatsApp, Discord and Slack are pending
+      - Portrait and extraction prompts are in Chinese; English chats untested
+      - Chat content is sent to the configured model service during extraction
+      - Fine-tuning needs an NVIDIA GPU; agent clone is still in development
     specs:
       ram_min_gb: null
-      gpu: required
+      gpu: optional
       external_deps:
-        - CUDA 12.6+
-        - LLaMA Factory
-        - Microsoft Presidio
+        - Python 3.12
+        - Codex CLI or OpenAI-compatible API
         - uv
-        - AstrBot or LangBot (for chat bots)
+        - AstrBot or LangBot (chat bots)
+        - Telegram Desktop (data export)
       model_support:
-        - Qwen2.5-VL-7B-Instruct
-        - LLaMA Factory supported models
-        - LoRA
-        - QLoRA
-      web_port: 8005
+        - Qwen2.5-7B-Instruct (LoRA)
+        - OpenAI-compatible APIs
+        - Codex
+      web_port: 5175
     links:
       demo: null
       website: https://www.weclone.love/
-      docs: https://docs.weclone.love/docs/introduce/what-is-weclone.html
-    audience: Hobbyists with an NVIDIA GPU who want a bot that mimics their texting style
-    confidence: 0.85
+      docs: https://docs.weclone.love/en/
+    audience: Self-hosters wanting chat-derived memory for assistants or a fine-tuned clone
+    confidence: 0.8
     facts:
       stars: 18428
       license: AGPL-3.0
@@ -10402,42 +10399,39 @@ entries:
     repo: nvidia/megatron-lm
     name: megatron-lm
     status: listed
-    tagline: Distributed training library for large transformer models on NVIDIA GPUs
-    summary: Megatron Core is a Python library of transformer building blocks with tensor, pipeline, data, expert and context parallelism, plus FP16, BF16, FP8 and FP4 mixed precision. The repo also ships Megatron-LM, a reference set of pre-configured training scripts built on it. The README reports training models from 2B to 462B parameters, reaching up to 47% MFU on H100 clusters.
+    tagline: NVIDIA's library for training large transformer models across many GPUs
+    summary: Megatron Core is a PyTorch library of transformer building blocks with tensor, pipeline, data, expert and context parallelism, plus FP16, BF16, FP8 and FP4 mixed precision. The repo also ships Megatron-LM, a reference set of pre-configured training scripts, along with distributed checkpointing and post-training tools for quantization, distillation and pruning. Hugging Face checkpoint conversion lives in the separate Megatron Bridge project.
     categories:
       - training
       - ml-frameworks
     strengths:
-      - Supports TP, PP, DP, EP and CP parallelism for multi-node training
-      - Mixed precision down to FP8 and FP4
-      - Benchmarked at 462B parameters on 6,144 H100 GPUs, up to 47% MFU
-      - Includes MoE, hybrid Mamba, post-training and RL code
+      - Supports TP, PP, DP, EP and CP parallelism in one library
+      - Mixed precision from FP16 and BF16 down to FP8 and FP4
+      - Distributed checkpointing with resharding, plus MoE and hybrid model support
+      - Published throughput benchmarks, e.g. DeepSeek-V3 on 256 GB300 GPUs
     weaknesses:
-      - Aimed at multi-GPU NVIDIA clusters; not practical for single-machine hobby fine-tuning
-      - Source builds can run out of memory; MAX_JOBS must be limited
-      - Python 3.10 support dropped; downstream projects need Python 3.12 or later
-      - Some features, such as DeepSeek-V4, are only on the experimental dev branch
+      - Aimed at multi-GPU clusters; no small-scale or CPU workflow described
+      - Source builds can run out of memory and need MAX_JOBS tuning
+      - HF checkpoint conversion is in Megatron Bridge, a separate repo for now
+      - License detected as NOASSERTION while the README badge says Apache
     specs:
       ram_min_gb: null
       gpu: required
       external_deps:
-        - PyTorch
-        - NVIDIA GPUs
-        - NGC container (optional)
+        - PyTorch 2.6.0+
+        - Python 3.12+
+        - NVIDIA NGC PyTorch container (for source development)
       model_support:
-        - GPT
-        - Mixture-of-Experts
         - DeepSeek-V3
-        - Qwen3
-        - Mixtral
-        - Falcon-H1
-        - GPT-OSS
+        - Qwen3-235B-A22B
+        - Nemotron 3 Ultra
+        - DeepSeek-V4 (initial, dev branch)
       web_port: null
     links:
       demo: null
       website: null
       docs: https://docs.nvidia.com/megatron-core/developer-guide/latest/index.html
-    audience: ML engineers and research teams training large LLMs on GPU clusters
+    audience: ML engineers and research teams pretraining LLMs on multi-GPU clusters
     confidence: 0.9
     facts:
       stars: 18467
@@ -13941,7 +13935,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 81
+    score: 82
   - id: txtai
     repo: neuml/txtai
     name: txtai
@@ -14448,7 +14442,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 58
   - id: real-time-voice-cloning
     repo: corentinj/real-time-voice-cloning
     name: real-time-voice-cloning
@@ -15019,7 +15013,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 58
+    score: 59
   - id: deeplearning4j
     repo: deeplearning4j/deeplearning4j
     name: deeplearning4j
@@ -15113,7 +15107,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 53
+    score: 54
   - id: axolotl
     repo: axolotl-ai-cloud/axolotl
     name: axolotl
@@ -16011,7 +16005,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 46
+    score: 47
   - id: camofox-browser
     repo: jo-inc/camofox-browser
     name: camofox-browser
@@ -17426,7 +17420,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 39
+    score: 40
   - id: hunyuanvideo
     repo: tencent-hunyuan/hunyuanvideo
     name: hunyuanvideo
@@ -17462,7 +17456,7 @@ entries:
         - HunyuanVideo-PromptRewrite
       web_port: null
     links:
-      demo: https://video.hunyuan.tencent.com
+      demo: null
       website: https://aivideo.hunyuan.tencent.com
       docs: https://huggingface.co/docs/diffusers/main/api/pipelines/hunyuan_video
     audience: Engineers with 60-80GB NVIDIA GPUs running or building on open video models
@@ -18126,7 +18120,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 74
+    score: 75
   - id: chathub
     repo: chathub-dev/chathub
     name: chathub
@@ -20355,7 +20349,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 25
+    score: 26
   - id: pyro
     repo: pyro-ppl/pyro
     name: pyro
@@ -20866,7 +20860,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 82
+    score: 83
   - id: introtodeeplearning
     repo: mitdeeplearning/introtodeeplearning
     name: introtodeeplearning
@@ -21776,7 +21770,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 86
+    score: 87
   - id: examples
     repo: tensorflow/examples
     name: tensorflow/examples
@@ -21817,7 +21811,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 50
+    score: 51
   - id: umap
     repo: lmcinnes/umap
     name: umap
@@ -22003,7 +21997,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 33
+    score: 34
   - id: utopia
     repo: deeplethe/utopia
     name: utopia
@@ -23420,7 +23414,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 65
+    score: 66
   - id: opencompass
     repo: open-compass/opencompass
     name: opencompass
@@ -23475,7 +23469,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 77
+    score: 78
   - id: openllmetry
     repo: traceloop/openllmetry
     name: openllmetry
@@ -23679,7 +23673,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 31
+    score: 32
   - id: yuxi
     repo: xerrors/yuxi
     name: yuxi
@@ -24233,7 +24227,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 84
+    score: 85
   - id: chatterbox
     repo: resemble-ai/chatterbox
     name: chatterbox
@@ -24415,7 +24409,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 18
+    score: 19
   - id: alphafold
     repo: google-deepmind/alphafold
     name: alphafold
@@ -25726,7 +25720,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 34
+    score: 35
   - id: flower
     repo: flwrlabs/flower
     name: flower
@@ -27185,7 +27179,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 85
+    score: 86
   - id: smol-course
     repo: huggingface/smol-course
     name: smol-course
@@ -28295,7 +28289,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 43
   - id: atomic-agents
     repo: eigenwise/atomic-agents
     name: atomic-agents
@@ -28482,7 +28476,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 51
+    score: 52
   - id: anomalib
     repo: open-edge-platform/anomalib
     name: anomalib
@@ -30778,7 +30772,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 43
   - id: mimiclaw
     repo: memovai/mimiclaw
     name: mimiclaw
@@ -30929,7 +30923,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 79
+    score: 80
   - id: retrieval-based-voice-conversion-webui
     repo: rvc-project/retrieval-based-voice-conversion-webui
     name: retrieval-based-voice-conversion-webui
@@ -33655,7 +33649,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 25
+    score: 26
   - id: openalice
     repo: traderalice/openalice
     name: openalice
@@ -33934,7 +33928,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 27
+    score: 28
   - id: stt
     repo: jianchang512/stt
     name: stt
@@ -37054,7 +37048,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 63
+    score: 64
   - id: opennews-mcp
     repo: 6551team/opennews-mcp
     name: opennews-mcp
@@ -38647,7 +38641,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 58
   - id: ivy
     repo: unifyai/ivy
     name: ivy
@@ -38888,7 +38882,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 55
+    score: 56
   - id: mlpack
     repo: mlpack/mlpack
     name: mlpack
@@ -39030,7 +39024,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 52
+    score: 53
   - id: rea-video
     repo: juneyaooo/rea-video
     name: rea-video
@@ -39961,7 +39955,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 75
+    score: 76
   - id: xiaohongshu-mcp
     repo: xpzouying/xiaohongshu-mcp
     name: xiaohongshu-mcp
@@ -40732,7 +40726,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 49
+    score: 50
   - id: deimv2
     repo: intellindust-ai-lab/deimv2
     name: deimv2
@@ -41055,7 +41049,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 9
+    score: 10
   - id: qwen-vl-series-finetune
     repo: 2u1/qwen-vl-series-finetune
     name: qwen-vl-series-finetune
@@ -41995,7 +41989,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 81
+    score: 82
   - id: claude-for-legal
     repo: anthropics/claude-for-legal
     name: claude-for-legal
@@ -42178,7 +42172,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 47
+    score: 48
   - id: baml
     repo: boundaryml/baml
     name: baml
@@ -42603,7 +42597,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 61
+    score: 62
   - id: open-spiel
     repo: google-deepmind/open_spiel
     name: open_spiel
@@ -42886,7 +42880,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 18
+    score: 19
   - id: weighted-boxes-fusion
     repo: zfturbo/weighted-boxes-fusion
     name: weighted-boxes-fusion
@@ -44339,7 +44333,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 44
+    score: 45
   - id: refly
     repo: refly-ai/refly
     name: refly
@@ -45097,7 +45091,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 15
+    score: 14
   - id: sokuji
     repo: kizuna-ai-lab/sokuji
     name: sokuji
@@ -45395,7 +45389,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 47
+    score: 48
   - id: agentic-rl-lab
     repo: datawhalechina/agentic-rl-lab
     name: agentic-rl-lab
@@ -45583,7 +45577,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 12
+    score: 11
   - id: react-native-fast-tflite
     repo: margelo/react-native-fast-tflite
     name: react-native-fast-tflite
@@ -45871,7 +45865,7 @@ entries:
       has_compose: true
       is_template: false
       language: Go
-    score: 81
+    score: 82
   - id: ai-agents-from-zero
     repo: didilili/ai-agents-from-zero
     name: ai-agents-from-zero
@@ -46869,7 +46863,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 37
+    score: 38
   - id: sqlchat
     repo: sqlchat/sqlchat
     name: sqlchat
@@ -47007,7 +47001,7 @@ entries:
       has_compose: true
       is_template: false
       language: Rust
-    score: 76
+    score: 77
   - id: gpt-image2-skill
     repo: wuyoscar/gpt-image2-skill
     name: gpt-image2-skill
@@ -47145,7 +47139,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 40
   - id: sensenova-skills
     repo: opensensenova/sensenova-skills
     name: sensenova-skills
@@ -48176,7 +48170,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 50
+    score: 51
   - id: kiln
     repo: kiln-ai/kiln
     name: kiln
@@ -48851,7 +48845,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 58
+    score: 59
   - id: olares
     repo: beclab/olares
     name: olares
@@ -50338,7 +50332,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 41
+    score: 42
   - id: ag2
     repo: ag2ai/ag2
     name: ag2
@@ -50429,7 +50423,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 55
+    score: 56
   - id: porcupine
     repo: picovoice/porcupine
     name: porcupine
@@ -50834,7 +50828,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 73
+    score: 74
   - id: semif-openjev
     repo: theoleecj/semif-openjev
     name: semif-openjev
@@ -51989,7 +51983,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 32
+    score: 33
   - id: dreamdojo
     repo: nvidia/dreamdojo
     name: dreamdojo
@@ -52454,7 +52448,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 73
+    score: 74
   - id: ob1
     repo: natebjones-projects/ob1
     name: ob1
@@ -53898,7 +53892,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 58
   - id: surf
     repo: deta/surf
     name: surf
@@ -54032,7 +54026,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 12
+    score: 13
   - id: ai-system-design-guide
     repo: ombharatiya/ai-system-design-guide
     name: ai-system-design-guide
@@ -54416,7 +54410,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 65
+    score: 66
   - id: tensorflow-datasets
     repo: tensorflow/datasets
     name: tensorflow/datasets
@@ -54889,7 +54883,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 61
+    score: 62
   - id: ruby-llm
     repo: crmne/ruby_llm
     name: ruby_llm
@@ -56019,7 +56013,7 @@ entries:
       has_compose: false
       is_template: false
       language: Shell
-    score: 57
+    score: 58
   - id: gosseract
     repo: otiai10/gosseract
     name: gosseract
@@ -56110,7 +56104,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 73
+    score: 74
   - id: mxc
     repo: microsoft/mxc
     name: mxc
@@ -56200,7 +56194,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 44
+    score: 45
   - id: paper-search-mcp
     repo: openags/paper-search-mcp
     name: paper-search-mcp
@@ -56721,7 +56715,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 68
+    score: 69
   - id: lightllm
     repo: modeltc/lightllm
     name: lightllm
@@ -56766,7 +56760,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 55
+    score: 56
   - id: openscience
     repo: synthetic-sciences/openscience
     name: openscience
@@ -57104,7 +57098,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 40
   - id: neuralforecast
     repo: nixtla/neuralforecast
     name: neuralforecast
@@ -58111,7 +58105,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 27
+    score: 28
   - id: numpyro
     repo: pyro-ppl/numpyro
     name: numpyro
@@ -59461,7 +59455,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 68
+    score: 69
   - id: acme
     repo: google-deepmind/acme
     name: acme
@@ -59847,7 +59841,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 79
+    score: 80
   - id: aurelio-labs-semantic-router
     repo: aurelio-labs/semantic-router
     name: aurelio-labs/semantic-router
@@ -60435,7 +60429,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 23
+    score: 24
   - id: toolhive
     repo: stacklok/toolhive
     name: toolhive
@@ -60478,7 +60472,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 76
+    score: 77
   - id: open-cowork
     repo: opencoworkai/open-cowork
     name: open-cowork
@@ -60573,7 +60567,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 74
+    score: 75
   - id: letsfg
     repo: letsfg/letsfg
     name: letsfg
@@ -61043,7 +61037,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 43
   - id: cumora
     repo: yetone/cumora
     name: cumora
@@ -62695,7 +62689,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 5
+    score: 6
   - id: diffrax
     repo: patrick-kidger/diffrax
     name: diffrax
@@ -63187,7 +63181,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 47
+    score: 48
   - id: polyaxon
     repo: polyaxon/polyaxon
     name: polyaxon
@@ -64297,7 +64291,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 34
+    score: 35
   - id: firered-openstoryline
     repo: fireredteam/firered-openstoryline
     name: firered-openstoryline
@@ -64344,7 +64338,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 40
   - id: nndl-practice
     repo: nndl/nndl-practice
     name: nndl-practice
@@ -66574,7 +66568,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 52
+    score: 53
   - id: local-llm
     repo: jamesob/local-llm
     name: local-llm
@@ -67445,7 +67439,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 61
+    score: 62
   - id: deepscientist
     repo: researai/deepscientist
     name: deepscientist
@@ -68385,7 +68379,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 69
+    score: 70
   - id: dm-haiku
     repo: google-deepmind/dm-haiku
     name: dm-haiku
@@ -68567,7 +68561,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 50
+    score: 51
   - id: pyldavis
     repo: bmabey/pyldavis
     name: pyldavis
@@ -69090,7 +69084,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 16
+    score: 17
   - id: clawflows
     repo: nikilster/clawflows
     name: clawflows
@@ -69407,7 +69401,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 25
+    score: 26
   - id: fastembed
     repo: qdrant/fastembed
     name: fastembed
@@ -69647,7 +69641,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 62
+    score: 63
   - id: onetrainer
     repo: nerogar/onetrainer
     name: onetrainer
@@ -70147,7 +70141,7 @@ entries:
       has_compose: false
       is_template: false
       language: Swift
-    score: 76
+    score: 77
   - id: lc0
     repo: leelachesszero/lc0
     name: lc0
@@ -70822,7 +70816,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 68
+    score: 69
   - id: cybermes
     repo: zyrexnn/cybermes
     name: cybermes
@@ -71146,7 +71140,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 47
+    score: 48
   - id: gbro-collage-broll
     repo: pyang5166/gbro-collage-broll
     name: gbro-collage-broll
@@ -71829,7 +71823,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 10
+    score: 11
   - id: rfdiffusion
     repo: rosettacommons/rfdiffusion
     name: rfdiffusion
@@ -71878,7 +71872,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 36
+    score: 37
   - id: willow
     repo: heywillow/willow
     name: willow
@@ -72542,7 +72536,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 51
+    score: 52
   - id: gpa
     repo: autoark/gpa
     name: gpa
@@ -72593,7 +72587,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 28
+    score: 29
   - id: heliosgen
     repo: segfault42/heliosgen
     name: heliosgen
@@ -75393,7 +75387,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 52
+    score: 51
   - id: leancopilot
     repo: lean-dojo/leancopilot
     name: leancopilot
@@ -76250,7 +76244,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 52
+    score: 53
   - id: moss-image
     repo: openmoss/moss-image
     name: moss-image
@@ -76433,7 +76427,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 35
+    score: 36
   - id: flux2
     repo: black-forest-labs/flux2
     name: flux2
@@ -76731,7 +76725,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 35
+    score: 36
   - id: kubric
     repo: google-research/kubric
     name: kubric
@@ -77103,7 +77097,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 55
+    score: 56
   - id: trustgraph
     repo: trustgraph-ai/trustgraph
     name: trustgraph
@@ -80565,7 +80559,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 48
+    score: 49
   - id: reelmimic
     repo: edenfunf/reelmimic
     name: reelmimic
@@ -81844,7 +81838,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 42
   - id: cellpose
     repo: mouseland/cellpose
     name: cellpose
@@ -83038,7 +83032,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 24
+    score: 25
   - id: agents-from-scratch
     repo: langchain-ai/agents-from-scratch
     name: agents-from-scratch
@@ -83287,7 +83281,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 32
+    score: 33
   - id: wanwu
     repo: unicomai/wanwu
     name: wanwu
@@ -83734,7 +83728,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 13
+    score: 14
   - id: audiomentations
     repo: iver56/audiomentations
     name: audiomentations
@@ -83823,7 +83817,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 68
+    score: 69
   - id: langalpha
     repo: ginlix-ai/langalpha
     name: langalpha
@@ -83873,7 +83867,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 65
+    score: 66
   - id: youtube-shorts-pipeline
     repo: rushindrasinha/youtube-shorts-pipeline
     name: youtube-shorts-pipeline
@@ -84200,7 +84194,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 64
+    score: 65
   - id: machine-learning-refined
     repo: neonwatty/machine-learning-refined
     name: machine-learning-refined
@@ -84389,7 +84383,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 67
+    score: 68
   - id: feature-engine
     repo: feature-engine/feature_engine
     name: feature_engine
@@ -85416,7 +85410,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 40
+    score: 41
   - id: forge
     repo: antoinezambelli/forge
     name: forge
@@ -86100,7 +86094,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 46
+    score: 47
   - id: comfyui-rmbg
     repo: 1038lab/comfyui-rmbg
     name: comfyui-rmbg
@@ -86257,7 +86251,7 @@ entries:
       has_compose: false
       is_template: false
       language: PHP
-    score: 66
+    score: 67
   - id: picolm
     repo: rightnow-ai/picolm
     name: picolm
@@ -86652,7 +86646,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 68
+    score: 69
   - id: simplehtr
     repo: githubharald/simplehtr
     name: simplehtr
@@ -87816,7 +87810,7 @@ entries:
       has_compose: false
       is_template: false
       language: C
-    score: 14
+    score: 15
   - id: hunyuanocr
     repo: tencent-hunyuan/hunyuanocr
     name: hunyuanocr
@@ -87962,7 +87956,7 @@ entries:
       has_compose: true
       is_template: false
       language: TeX
-    score: 33
+    score: 34
   - id: robosat
     repo: mapbox/robosat
     name: robosat
@@ -88536,7 +88530,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 14
+    score: 15
   - id: chai-lab
     repo: chaidiscovery/chai-lab
     name: chai-lab
@@ -89005,7 +88999,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 61
+    score: 62
   - id: opacus
     repo: meta-pytorch/opacus
     name: opacus
@@ -89102,7 +89096,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 68
+    score: 69
   - id: fastflowlm
     repo: rocm/fastflowlm
     name: fastflowlm
@@ -89250,7 +89244,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 33
+    score: 34
   - id: beeftv
     repo: glanderness/beeftv
     name: beeftv
@@ -89299,7 +89293,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 67
+    score: 68
   - id: mlj-jl
     repo: juliaai/mlj.jl
     name: mlj.jl
@@ -89713,7 +89707,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 46
+    score: 47
   - id: diffgram
     repo: diffgram/diffgram
     name: diffgram
@@ -89985,7 +89979,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 11
+    score: 12
   - id: starnet
     repo: androoagi/starnet
     name: starnet
@@ -90469,7 +90463,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 51
+    score: 52
   - id: magenta-realtime
     repo: magenta/magenta-realtime
     name: magenta-realtime
@@ -90567,7 +90561,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 40
   - id: hope-agent
     repo: shiwenwen/hope-agent
     name: hope-agent
@@ -90895,7 +90889,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 23
+    score: 24
   - id: orcah-studio
     repo: iliashad/orcah-studio
     name: orcah-studio
@@ -91085,7 +91079,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 33
+    score: 34
   - id: advancedliteratemachinery
     repo: alibabaresearch/advancedliteratemachinery
     name: advancedliteratemachinery
@@ -91178,7 +91172,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 49
+    score: 50
   - id: large-language-model-notebooks-course
     repo: peremartra/large-language-model-notebooks-course
     name: large-language-model-notebooks-course
@@ -91520,7 +91514,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 58
   - id: aix360
     repo: trusted-ai/aix360
     name: aix360
@@ -92376,7 +92370,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 63
+    score: 64
   - id: mage
     repo: microsoft/mage
     name: mage
@@ -92423,7 +92417,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 41
+    score: 42
   - id: symbolicai
     repo: extensityai/symbolicai
     name: symbolicai
@@ -92652,7 +92646,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 59
+    score: 60
   - id: yue2-studio
     repo: timoncool/yue2-studio
     name: yue2-studio
@@ -93037,6 +93031,473 @@ entries:
       is_template: false
       language: Dart
     score: 59
+  - id: circuit-training
+    repo: google-research/circuit_training
+    name: circuit_training
+    status: listed
+    tagline: Reinforcement learning framework for placing macros in chip floorplans
+    summary: "AlphaChip reproduces the Nature 2021 graph placement method: a PPO agent built on TF-Agents and TensorFlow 2.x that places macros in chip netlists, computing location and orientation. It optimizes wirelength, congestion and density, and uses DREAMPlace for standard-cell placement. Training is distributed across multiple GPUs, with data collection scaling to hundreds of actors."
+    categories:
+      - ml-frameworks
+    strengths:
+      - Places netlists with hundreds of macros and millions of clustered stdcells, with orientation and fixed macros
+      - Supports grid alignment, macro spacing constraints and user-defined routing technology parameters
+      - Distributed training over multiple GPUs; data collection scales to 100s of actors
+      - Ships a checkpoint pre-trained on 20 TPU blocks, plus pre-training docs
+    weaknesses:
+      - Linux only; Docker image is Python 3.9 only, local install supports 3.9 to 3.11
+      - Needs a precompiled placement cost binary and a DREAMPlace build that may need compiling
+      - Research code with no PyPI package; HEAD breaks when nightly upstream libraries change
+      - Inputs must be Netlist Protocol Buffer; LEF/DEF conversion is a third-party script
+    specs:
+      ram_min_gb: null
+      gpu: required
+      external_deps:
+        - TensorFlow 2.x
+        - TF-Agents
+        - Reverb
+        - DREAMPlace
+        - plc_wrapper_main placement cost binary
+        - PyTorch 1.13.1
+      model_support:
+        - PPO policy checkpoints (TensorFlow SavedModel)
+      web_port: null
+    links:
+      demo: null
+      website: https://deepmind.google/discover/blog/how-alphachip-transformed-computer-chip-design/
+      docs: https://github.com/google-research/circuit_training/blob/main/docs/ARIANE.md
+    audience: Chip design and EDA researchers working on macro placement
+    confidence: 0.75
+    facts:
+      stars: 1754
+      license: Apache-2.0
+      last_commit: 2026-02-11
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 16
+  - id: auto-synced-translated-dubs
+    repo: thiojoe/auto-synced-translated-dubs
+    name: auto-synced-translated-dubs
+    status: listed
+    tagline: Translates SRT subtitles and dubs videos with synced cloud TTS
+    summary: Takes an existing SRT subtitle file, translates it with Google Cloud or DeepL, then synthesizes speech per line with Azure, Google Cloud or Eleven Labs. Each clip is fitted to its subtitle's duration, by stretching or a second synthesis pass at a computed speed, and placed at the original timestamp. Extra scripts add audio tracks with ffmpeg and handle YouTube titles, descriptions and captions.
+    categories:
+      - voice
+      - data-tools
+    strengths:
+      - Fits each TTS clip to subtitle timings, so dubs stay aligned with the original video
+      - Batch-processes multiple languages from per-language presets in batch.ini
+      - Supports Azure, Google Cloud and Eleven Labs voices, with DeepL or Google for translation
+      - Includes scripts for adding audio tracks and updating YouTube localized titles and captions
+    weaknesses:
+      - Needs paid cloud API accounts for translation and TTS; nothing runs locally
+      - Assumes a single speaker per SRT; multiple voices need separate SRT files
+      - Needs a human-made SRT with gaps between lines, or pauses come out too short
+      - Configured by editing .ini files and script headers; no GUI; last release January 2025
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - ffmpeg
+        - Google Cloud, Azure, DeepL or Eleven Labs API keys
+        - rubberband (optional)
+      model_support:
+        - Azure TTS
+        - Google Cloud TTS
+        - Eleven Labs
+        - Google Translate
+        - DeepL
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/ThioJoe/Auto-Synced-Translated-Dubs/wiki/Instructions:-Obtaining-an-API-Key
+    audience: Video creators who already have SRT subtitles and want multi-language dubs
+    confidence: 0.85
+    facts:
+      stars: 1752
+      license: AGPL-3.0
+      last_commit: 2026-05-11
+      last_release: 2025-01-28
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 23
+  - id: pytorch-scatter
+    repo: rusty1s/pytorch_scatter
+    name: pytorch_scatter
+    status: listed
+    tagline: PyTorch extension for scatter and segment reduce operations
+    summary: torch-scatter adds sparse scatter and segment reductions (sum, mean, min, max) to PyTorch, driven by a group-index tensor. It provides scatter, segment_coo and segment_csr, plus composite ops such as scatter_std, scatter_logsumexp, scatter_softmax and scatter_log_softmax. Operations run on CPU and GPU with backward implementations, and a C++ API is available.
+    categories:
+      - ml-frameworks
+    strengths:
+      - Covers sum, mean, min and max reductions via scatter, segment_coo and segment_csr
+      - CPU and CUDA implementations with backward passes and broadcasting
+      - Prebuilt pip wheels for Linux, Windows and macOS across many PyTorch versions
+      - Includes a C++ API built with CMake, plus MIT license
+    weaknesses:
+      - Last release is 2023-10-06; newer PyTorch support relies on wheels at data.pyg.org
+      - macOS wheels are CPU only; no CUDA builds there
+      - Building from source needs a matching CUDA toolchain and PyTorch 1.4.0 or newer
+      - "Narrow scope: reduce operations only, not a general sparse library"
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+        - CUDA toolkit (source builds with GPU)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://pytorch-scatter.readthedocs.io
+    audience: PyTorch developers, especially graph neural network authors, needing scatter ops
+    confidence: 0.9
+    facts:
+      stars: 1749
+      license: MIT
+      last_commit: 2026-06-03
+      last_release: 2023-10-06
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 24
+  - id: wemm-embedding
+    repo: tencent/wemm-embedding
+    name: wemm-embedding
+    status: listed
+    tagline: Multimodal embedding models for text, images, video and documents
+    summary: WeMM-Embedding is a family of 2B, 4B and 9B embedding models from Tencent's WeChat Vision team. They map text, images, video, visual documents and interleaved inputs into one vector space, taken from the last hidden state at an `<embedding>` token and L2-normalized. The repo has Transformers and Sentence Transformers examples, vLLM and SGLang serving scripts, and MMEB-v3 evaluation code.
+    categories:
+      - models
+    strengths:
+      - Matryoshka dimensions from 64 up to 2048, 2560 or 4096; 2B at 256 dims keeps 98.7% of score
+      - One vector space for text, image, video, visual documents and interleaved inputs
+      - Reports MMEB-v2 average of 77.9 (2B) to 80.6 (9B), above the listed baselines
+      - Serving via vLLM 0.27.0 or SGLang 0.5.9, plus Sentence Transformers support
+    weaknesses:
+      - No audio input; audio tasks score 0.0 in the MMEB-v3 table
+      - Pinned to transformers==5.2.0; newer versions may preprocess differently
+      - SGLang serving needs a video patch script run before launch
+      - Benchmark numbers are self-reported from the tech report; no independent results shown
+    specs:
+      ram_min_gb: null
+      gpu: required
+      external_deps:
+        - PyTorch
+        - transformers==5.2.0
+        - qwen-vl-utils 0.0.14
+        - vLLM 0.27.0 or SGLang 0.5.9 (serving)
+      model_support:
+        - WeMM-Embedding-2B
+        - WeMM-Embedding-4B
+        - WeMM-Embedding-9B
+        - Hugging Face Transformers
+      web_port: null
+    links:
+      demo: null
+      website: https://tencent.github.io/WeMM-Embedding/
+      docs: null
+    audience: Engineers building multimodal retrieval over images, video and documents
+    confidence: 0.8
+    facts:
+      stars: 1747
+      license: NOASSERTION
+      last_commit: 2026-09-20
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 47
+  - id: orcarouter-lite
+    repo: continuum-ai-corp/orcarouter-lite
+    name: orcarouter-lite
+    status: listed
+    tagline: LLM router that tracks and caps coding-agent spend, with a menu-bar app
+    summary: OrcaRouter Lite is a local or self-hosted router that accepts OpenAI, Anthropic and Gemini API requests and forwards them to your provider keys. A menu-bar desktop app connects coding agents such as Claude Code, Codex, Gemini CLI and OpenCode, splits spend per agent against a daily budget, and falls back to other providers or hosted OrcaRouter on failure. model="auto" picks the cheapest model that supports the required capabilities.
+    categories:
+      - gateways
+    strengths:
+      - Per-agent keys split spend, and disconnecting an agent revokes its access at once
+      - Native Anthropic, Responses, Gemini and OpenAI endpoints share one routing pipeline
+      - SQLite by default; Postgres and Redis are optional
+      - One-click connect edits agent configs for many agents, with backup and restore
+    weaknesses:
+      - SSO/SCIM, role-based access and fleet-wide budgets are only in paid hosted OrcaRouter
+      - Desktop installers ship only from the next tagged release; until then use uvx
+      - Cline, Cursor, Zed and OpenHands need a manual paste of URL and key
+      - Hosted fallback needs an OrcaRouter account and routes those requests through their service
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Provider API keys (e.g. OpenAI) or an OrcaRouter key
+        - SQLite (default)
+        - Postgres (optional)
+        - Redis (optional)
+      model_support:
+        - OpenAI API
+        - Anthropic API
+        - Gemini API
+        - 100+ models from LiteLLM pricing catalog
+      web_port: 8000
+    links:
+      demo: null
+      website: https://www.orcarouter.ai
+      docs: https://docs.orcarouter.ai/introduction
+    audience: Developers and small teams who want spend caps and failover for coding agents
+    confidence: 0.85
+    facts:
+      stars: 1746
+      license: MIT
+      last_commit: 2026-10-08
+      last_release: 2026-05-11
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 46
+  - id: vald
+    repo: vdaas/vald
+    name: vald
+    status: listed
+    tagline: Distributed approximate nearest neighbor vector search engine for Kubernetes
+    summary: Vald is a distributed dense-vector search engine written in Go that uses the NGT algorithm for approximate nearest neighbor search. It runs as a set of Kubernetes components (agents, discoverer, gateways, index manager, sidecar) installed with Helm, with automatic indexing and index backup. It targets horizontal scaling to billions of vectors and has official client SDKs.
+    categories:
+      - vector-db
+    strengths:
+      - Horizontal scaling across Kubernetes pods, aimed at billions of vectors
+      - Automatic vector indexing and index backup
+      - Separate lb-gateway and filter-gateway components for routing and filtering
+      - Official SDKs and a Helm operator for managing deployments
+    weaknesses:
+      - Requires Kubernetes 1.19+; no single-node setup described
+      - Agent NGT needs AVX2 CPU instructions
+      - Search is built on NGT; no other index algorithms listed
+      - Default Helm values install nightly images, not a release
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Kubernetes 1.19+
+        - Helm
+        - AVX2-capable CPUs
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://vald.vdaas.org
+      docs: https://vald.vdaas.org/docs/tutorial/get-started
+    audience: Platform engineers running large-scale vector search on Kubernetes
+    confidence: 0.85
+    facts:
+      stars: 1735
+      license: Apache-2.0
+      last_commit: 2026-11-17
+      last_release: 2026-11-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Go
+    score: 50
+  - id: scvi-tools
+    repo: scverse/scvi-tools
+    name: scvi-tools
+    status: listed
+    tagline: PyTorch library of probabilistic models for single-cell omics analysis
+    summary: scvi-tools is a Python package of probabilistic models for single-cell, multi-omic and spatial omics data, built on PyTorch and AnnData. It covers dimensionality reduction, data integration, automated annotation, doublet detection and spatial deconvolution, with a high-level API that works with Scanpy. It also provides building blocks on PyTorch Lightning and Pyro for writing new models.
+    categories:
+      - ml-frameworks
+    strengths:
+      - Models share one API with save/load and GPU acceleration, and work with Scanpy and AnnData
+      - Building blocks on PyTorch Lightning and Pyro for writing custom probabilistic models
+      - Covers integration, annotation, doublet detection, factor analysis and spatial deconvolution
+      - Published in Nature Biotechnology; part of scverse, with a skeleton repo for new models
+    weaknesses:
+      - Domain-specific to single-cell omics; not a general-purpose ML or LLM tool
+      - PyTorch must be installed separately to match your GPU
+      - Assumes familiarity with the Scanpy and AnnData workflow
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - PyTorch
+        - AnnData
+        - PyTorch Lightning
+        - Pyro
+        - Scanpy
+      model_support:
+        - PyTorch
+        - Pyro
+      web_port: null
+    links:
+      demo: null
+      website: https://scvi-tools.org/
+      docs: https://docs.scvi-tools.org/
+    audience: Computational biologists analyzing single-cell and spatial omics data in Python
+    confidence: 0.85
+    facts:
+      stars: 1734
+      license: BSD-3-Clause
+      last_commit: 2026-11-17
+      last_release: 2026-10-28
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 46
+  - id: langchain-course
+    repo: emarco177/langchain-course
+    name: langchain-course
+    status: listed
+    tagline: Course code for building LangChain and LangGraph agents in Python
+    summary: "Companion code for a Udemy course on LangChain and LangGraph. Each project sits on a git branch or in a separate repo: hello-world chains, a Tavily search agent, ReAct-style agent internals, RAG, a code interpreter, and reflection and reflexion agents. Commits are ordered as lessons, and setup uses uv."
+    categories:
+      - learning
+    strengths:
+      - Commit history is ordered as lessons, so you can check out earlier steps
+      - Covers tool calling, RAG with Pinecone and FAISS, and LangGraph reflection agents
+      - Works with Ollama local models or OpenAI, Anthropic and Gemini APIs
+    weaknesses:
+      - Course videos are a paid Udemy product; the repo holds only the code
+      - Several projects live in other repos, so setup differs per project
+      - README gives inconsistent project counts and LangChain versions (v0.3+ vs 1.0+)
+      - Not aimed at beginners; assumes Python, git and debugging skills
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Python 3.10+
+        - uv, poetry or pipenv
+        - Tavily
+        - Pinecone
+        - FAISS
+        - Streamlit
+      model_support:
+        - Ollama
+        - OpenAI
+        - Anthropic
+        - Gemini
+      web_port: null
+    links:
+      demo: null
+      website: https://www.udemy.com/course/langchain/
+      docs: null
+    audience: Python developers learning to build LangChain and LangGraph agents
+    confidence: 0.85
+    facts:
+      stars: 1731
+      license: Apache-2.0
+      last_commit: 2026-10-14
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: null
+    score: 46
+  - id: llmunity
+    repo: undreamai/llmunity
+    name: llmunity
+    status: listed
+    tagline: Unity package for running local llama.cpp LLM characters in games
+    summary: LLM for Unity runs GGUF models inside the Unity engine through LlamaLib, a C++/C# wrapper around llama.cpp. It provides LLM and LLMAgent components for chat characters with system prompts, saved history, grammar-constrained output, LoRA loading, embeddings and a built-in RAG system. Models can run on the player's device (PC, mobile, VR) or on a remote server.
+    categories:
+      - agent-frameworks
+      - rag-knowledge
+    strengths:
+      - Runs GGUF models on-device via llama.cpp, with CPU, Nvidia, AMD and Apple Metal backends
+      - LLM and LLMAgent components plus an async Chat call from C# scripts
+      - Grammar (gbnf/JSON schema) output restriction enables simple function calling
+      - Optional remote server mode, with a standalone server binary from LlamaLib
+    weaknesses:
+      - Tied to the Unity engine; not usable as a general-purpose LLM library
+      - Mobile builds limited to roughly 1-2B parameter models
+      - Function calling is grammar-based; no native tool-call API shown
+      - Default model downloads are several GB each
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Unity 2021 LTS or newer
+        - LlamaLib
+        - llama.cpp
+      model_support:
+        - GGUF
+        - LoRA (GGUF)
+      web_port: null
+    links:
+      demo: null
+      website: https://undream.ai/LLMUnity
+      docs: https://undream.ai/LLMUnity
+    audience: Unity game developers adding local LLM-driven NPCs
+    confidence: 0.85
+    facts:
+      stars: 1731
+      license: Apache-2.0
+      last_commit: 2026-04-29
+      last_release: 2026-03-08
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: C#
+    score: 30
+  - id: fireredtts3
+    repo: fireredteam/fireredtts3
+    name: fireredtts3
+    status: listed
+    tagline: Multilingual zero-shot voice cloning, voice design and speech editing TTS models
+    summary: FireRedTTS3 is PyTorch code and pretrained weights for text-to-speech. The Base model does zero-shot voice cloning across 24 languages and 21 Chinese dialects from a reference clip. The Instruct model adds voice design from a text description and speech editing (insert, delete, substitute, plus speed, pitch and volume). It ships a Python API and Gradio demos for both models.
+    categories:
+      - voice
+      - models
+    strengths:
+      - Clones voices zero-shot in 24 languages and 21 Chinese dialects from a prompt clip
+      - Instruct model designs new voices from text descriptions, no reference audio needed
+      - Semantic and acoustic speech editing in the same model
+      - Gradio demo scripts for both Base and Instruct, Apache-2.0 weights on Hugging Face and ModelScope
+    weaknesses:
+      - Acoustic edits only accept fixed instruction templates, not free-form phrasing
+      - Full-language text normalization needs an external LLM API (30B+ model suggested)
+      - Local TN covers only Chinese and English; other languages get basic cleaning
+      - Base model needs explicit language tags or a separate FastText model for detection
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - PyTorch
+        - torchaudio
+        - wetext
+        - FastText lid.176 (optional)
+        - OpenAI-compatible LLM API for LLM TN (optional)
+        - Gradio (demo)
+      model_support:
+        - FireRedTTS3-Base
+        - FireRedTTS3-Instruct
+      web_port: 7860
+    links:
+      demo: https://fireredteam.github.io/demos/firered_tts_3/
+      website: null
+      docs: null
+    audience: Engineers self-hosting voice cloning, voice design or speech editing
+    confidence: 0.85
+    facts:
+      stars: 1725
+      license: Apache-2.0
+      last_commit: 2026-09-08
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 47
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw
@@ -93556,7 +94017,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 48
+    score: 49
   - id: open-webui
     repo: open-webui/open-webui
     name: Open WebUI
@@ -97054,7 +97515,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 34
+    score: 35
   - id: bifrost
     repo: maximhq/bifrost
     name: Bifrost
@@ -97222,7 +97683,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 78
+    score: 79
   - id: mcpo
     repo: open-webui/mcpo
     name: mcpo
@@ -97699,7 +98160,7 @@ entries:
       has_compose: false
       is_template: false
       language: Rust
-    score: 81
+    score: 82
   - id: gpt-sovits
     repo: rvc-boss/gpt-sovits
     name: GPT-SoVITS
@@ -97794,7 +98255,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 80
+    score: 81
   - id: index-tts
     repo: index-tts/index-tts
     name: IndexTTS
@@ -98024,7 +98485,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 78
+    score: 79
   - id: whisperlive
     repo: collabora/whisperlive
     name: WhisperLive
@@ -98167,7 +98628,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 34
+    score: 35
   - id: openreader
     repo: richardr1126/openreader
     name: OpenReader
@@ -98906,7 +99367,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 83
+    score: 84
   - id: morphic
     repo: miurla/morphic
     name: Morphic
@@ -99149,32 +99610,34 @@ entries:
     repo: comet-ml/opik
     name: Opik
     status: listed
-    tagline: Trace, evaluate and monitor LLM apps and agents, Apache-2.0 end to end
-    summary: Logs trace trees for LLM calls, tool executions and agent steps via Python and TypeScript SDKs, OpenTelemetry or framework integrations, then runs datasets, experiments and LLM-as-a-judge metrics for hallucination, moderation and RAG quality, with online evaluation rules in production. Self-hosts with ./opik.sh (Docker Compose, UI on port 5173) or a Helm chart. For ML engineers moving agents to production.
+    tagline: LLM tracing, evaluation and prompt management platform for agents and LLM apps
+    summary: Opik records traces of LLM calls and multi-step agent runs through Python and TypeScript SDKs, OpenTelemetry, or framework integrations. It adds datasets, experiments, LLM-as-a-judge metrics, online evaluation rules, a prompt playground and production dashboards. The full server and web app can be self-hosted with a Docker Compose script or a Helm chart, or used on Comet Cloud.
     categories:
       - gateways
     strengths:
-      - Full platform (backend, web app, evals, prompt management) under Apache-2.0
-      - Designed for 40M+ traces per day; online evaluation rules on production traffic
-      - PyTest integration gates LLM pipelines in CI
-      - MCP server lets Claude Code, Cursor, Codex or opencode query traces and run evals
+      - Full platform, backend included, is Apache-2.0 and self-hostable without a commercial license
+      - Accepts traces via Python/TypeScript SDKs, OpenTelemetry, and many framework integrations
+      - "Evaluation built in: datasets, experiments, LLM-judge metrics, PyTest integration for CI"
+      - Helm chart for Kubernetes; README claims scale of 40M+ traces/day
     weaknesses:
-      - No Dockerfile or compose file at the repo root; install goes through opik.sh
-      - Multi-service stack (databases, caches, backend, frontend); not a single binary
-      - Guardrails and the optimizer are separate profiles and SDKs to enable
-      - README is heavy with Comet Cloud links and UTM tracking
+      - Local self-host runs several containers (databases, backend, UI), heavier than a single binary
+      - Docker Compose path is described for local development and testing, not production
+      - Guardrails are an optional extra profile that must be enabled separately
+      - Opik Cloud is the README's recommended option over self-hosting
     specs:
       ram_min_gb: null
       gpu: none
-      external_deps: []
+      external_deps:
+        - Docker Compose
+        - Kubernetes and Helm (optional)
       model_support:
-        - any LLM via SDK, OpenTelemetry or framework integrations (Google ADK, AG2, Autogen, Flowise)
+        - Provider-agnostic via SDK, OpenTelemetry and integrations (Google ADK, Autogen, AG2, Flowise)
       web_port: 5173
     links:
       demo: null
       website: https://www.comet.com/site/products/opik/
       docs: https://www.comet.com/docs/opik/
-    audience: ML engineers moving LLM agents to production
+    audience: ML engineers who need self-hosted tracing and evaluation for LLM apps
     confidence: 0.85
     facts:
       stars: 23491
@@ -99460,7 +99923,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 66
+    score: 67
   - id: pezzo
     repo: pezzolabs/pezzo
     name: Pezzo
