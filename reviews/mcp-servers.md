@@ -59,7 +59,7 @@ MCP server that lets an agent search Apify Store, read an Actor's input schema a
 <sub>no GPU · Docker · Needs Apify account and API token or OAuth, Apify platform (Actors), Node.js 22+ for local stdio · [Repo](https://github.com/apify/apify-mcp-server) · [📖 Docs ↗](https://docs.apify.com/mcp) · [🌐 Site ↗](https://mcp.apify.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/apify-mcp-server/)</sub>
 
 <a name="davinci-resolve-mcp"></a>
-### #&#8288;4 [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Nov 2026</sub>
+### #&#8288;4 [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI assistants drive DaVinci Resolve via its scripting API.**
 
@@ -257,7 +257,7 @@ ToolHive runs MCP servers in isolated containers locally via Docker or Podman, o
 <sub>no GPU · Docker · Needs Docker or Podman, Kubernetes (for the operator) · [Repo](https://github.com/stacklok/toolhive) · [📖 Docs ↗](https://docs.stacklok.com/toolhive/) · [🌐 Site ↗](https://stacklok.com/download/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/toolhive/)</sub>
 
 <a name="inspector"></a>
-### #&#8288;15 [mcpjam/inspector](https://github.com/mcpjam/inspector) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
+### #&#8288;15 [mcpjam/inspector](https://github.com/mcpjam/inspector) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
 
 **Inspector and eval runner for testing MCP servers across clients and models.**
 
@@ -310,26 +310,8 @@ Connects MCP clients such as ChatGPT, Claude, Cursor and OpenClaw to the hosted 
 
 <sub>no GPU · Docker · Needs MeiGen hosted service account (OAuth), Node.js 22.19+ (npm bridge only) · Models: Hosted image and video models via MeiGen (list unknown) · [Repo](https://github.com/jau123/meigen-ai-design-mcp) · [📖 Docs ↗](https://github.com/jau123/MeiGen-AI-Design-MCP/blob/main/SETUP.md) · [🌐 Site ↗](https://www.meigen.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meigen-ai-design-mcp/)</sub>
 
-<a name="firecrawl-mcp-server"></a>
-### #&#8288;18 [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2026</sub>
-
-**MCP server giving agents Firecrawl web search, scraping, crawling and browser actions.**
-
-Wraps the Firecrawl API as an MCP server so clients like Cursor, Windsurf, VS Code and Claude Desktop can search, scrape, crawl, map and interact with web pages and get back Markdown or structured data. It runs over stdio via npx or Docker, as local Streamable HTTP on port 3000, or as a hosted endpoint with a keyless free tier limited to scrape, search and parse. It can target the cloud API or a self-hosted Firecrawl through FIRECRAWL_API_URL.
-
-- **+** Covers scrape, crawl, map, search, browser interact, monitoring and agent jobs in one server
-- **+** Hosted keyless endpoint offers scrape, search and parse without signup
-- **+** Runs via npx, Docker image or local Streamable HTTP; supports self-hosted Firecrawl
-- **+** Local HTTP mode checks Host and Origin headers to block DNS rebinding
-- **−** Cloud use needs a Firecrawl API key and consumes paid credits
-- **−** Full profile registers 31 tools, which can strain clients with tool-slot limits
-- **−** Keyless tier is rate-limited and excludes crawl, map and agent
-- **−** Interact calls run one turn to completion; no step-by-step client-side control
-
-<sub>no GPU · Docker · Needs Firecrawl API (cloud or self-hosted), Node.js (npx) · port 3000 · [Repo](https://github.com/firecrawl/firecrawl-mcp-server) · [▶️ Demo ↗](https://mcp.so/playground?server=firecrawl-mcp-server) · [📖 Docs ↗](https://docs.firecrawl.dev/mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl-mcp-server/)</sub>
-
 <a name="pomerado"></a>
-### #&#8288;19 [pomerado](https://github.com/pomerado/pomerado) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Nov 2026</sub>
+### #&#8288;18 [pomerado](https://github.com/pomerado/pomerado) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Nov 2026</sub>
 
 **Generates MCP servers for websites from a plain-language task description.**
 
@@ -347,7 +329,7 @@ Pomerado drives a real Chromium browser to explore a site, complete an example t
 <sub>no GPU · Needs Node 24.21+ (<25), Chromium via Playwright, OpenAI API key, MCP client · Models: OpenAI (minting), any model for the calling agent · [Repo](https://github.com/pomerado/pomerado) · [📖 Docs ↗](https://docs.pomerado.ai) · [🌐 Site ↗](https://pomerado.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pomerado/)</sub>
 
 <a name="tooluniverse"></a>
-### #&#8288;20 [tooluniverse](https://github.com/mims-harvard/tooluniverse) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [tooluniverse](https://github.com/mims-harvard/tooluniverse) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
 
 **Catalog of 2,700+ scientific tools exposed to LLM agents via MCP and Python.**
 
@@ -363,6 +345,24 @@ ToolUniverse packages more than 2,700 scientific models, datasets, APIs and pack
 - **−** Apple Silicon needs macOS 14 or newer because of the faiss-cpu wheel
 
 <sub>GPU optional · Docker · Needs Python 3.10+, uv, third-party data provider APIs (UniProt, openFDA, Open Targets) · Models: Claude, GPT, Gemini, Qwen, Deepseek · [Repo](https://github.com/mims-harvard/tooluniverse) · [📖 Docs ↗](https://zitniklab.hms.harvard.edu/ToolUniverse/) · [🌐 Site ↗](https://aiscientist.tools) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tooluniverse/)</sub>
+
+<a name="firecrawl-mcp-server"></a>
+### #&#8288;20 [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: fair (51) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · MIT · Nov 2026</sub>
+
+**MCP server giving agents Firecrawl web search, scraping, crawling and browser actions.**
+
+Wraps the Firecrawl API as an MCP server so clients like Cursor, Windsurf, VS Code and Claude Desktop can search, scrape, crawl, map and interact with web pages and get back Markdown or structured data. It runs over stdio via npx or Docker, as local Streamable HTTP on port 3000, or as a hosted endpoint with a keyless free tier limited to scrape, search and parse. It can target the cloud API or a self-hosted Firecrawl through FIRECRAWL_API_URL.
+
+- **+** Covers scrape, crawl, map, search, browser interact, monitoring and agent jobs in one server
+- **+** Hosted keyless endpoint offers scrape, search and parse without signup
+- **+** Runs via npx, Docker image or local Streamable HTTP; supports self-hosted Firecrawl
+- **+** Local HTTP mode checks Host and Origin headers to block DNS rebinding
+- **−** Cloud use needs a Firecrawl API key and consumes paid credits
+- **−** Full profile registers 31 tools, which can strain clients with tool-slot limits
+- **−** Keyless tier is rate-limited and excludes crawl, map and agent
+- **−** Interact calls run one turn to completion; no step-by-step client-side control
+
+<sub>no GPU · Docker · Needs Firecrawl API (cloud or self-hosted), Node.js (npx) · port 3000 · [Repo](https://github.com/firecrawl/firecrawl-mcp-server) · [▶️ Demo ↗](https://mcp.so/playground?server=firecrawl-mcp-server) · [📖 Docs ↗](https://docs.firecrawl.dev/mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firecrawl-mcp-server/)</sub>
 
 <a name="maverick-mcp"></a>
 ### #&#8288;21 [maverick-mcp](https://github.com/wshobson/maverick-mcp) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 737 · MIT · Nov 2026</sub>
@@ -419,7 +419,7 @@ BioMCP is a Rust CLI with one command grammar (search, get, pivot helpers, enric
 <sub>no GPU · Docker · Needs Upstream public biomedical APIs, Optional API keys: NCBI, Semantic Scholar, OpenFDA, NCI, OncoKB, DisGeNET, AlphaGenome · port 8080 · [Repo](https://github.com/genomoncology/biomcp) · [📖 Docs ↗](https://biomcp.org/) · [🌐 Site ↗](https://biomcp.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biomcp/)</sub>
 
 <a name="mcpproxy-go"></a>
-### #&#8288;24 [mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 436 · MIT · Nov 2026</sub>
+### #&#8288;24 [mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 438 · MIT · Nov 2026</sub>
 
 **MCP proxy that federates many MCP servers behind one quarantined endpoint.**
 
@@ -599,7 +599,7 @@ Python MCP server built on FastMCP that lets an agent run GAQL queries, read res
 <sub>no GPU · Docker · Needs Google Ads API, Google Cloud project, OAuth client or Application Default Credentials, pipx, Redis or Firestore (optional) · port 8080 · [Repo](https://github.com/googleads/google-ads-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/google-ads-mcp/)</sub>
 
 <a name="jacobian"></a>
-### #&#8288;34 [jacobian](https://github.com/morluto/jacobian) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 378 · MIT · Nov 2026</sub>
+### #&#8288;34 [jacobian](https://github.com/morluto/jacobian) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 377 · MIT · Nov 2026</sub>
 
 **MCP server exposing typed math operations that agents can search and run.**
 
@@ -616,26 +616,8 @@ Jacobian is an MCP server with a library of narrowly scoped mathematical operati
 
 <sub>no GPU · Docker · Needs Python 3.12 or 3.13, uv (uvx), Node.js 20.17+ (for npx setup), Singular (optional), QEPCAD (optional) · [Repo](https://github.com/morluto/jacobian) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jacobian/)</sub>
 
-<a name="open-websearch"></a>
-### #&#8288;35 [open-websearch](https://github.com/aas-ee/open-websearch) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
-
-**Keyless web search and page fetching over MCP, CLI or local HTTP.**
-
-open-websearch scrapes results from engines such as Bing, DuckDuckGo, Brave, Exa, Baidu and Startpage, and returns titles, URLs and descriptions without API keys. It also fetches page content: generic HTTP(S) and Markdown pages, GitHub READMEs, and CSDN and Juejin articles. It runs as an MCP server (stdio, HTTP or SSE), a one-shot CLI, or a local HTTP daemon.
-
-- **+** No API keys needed; supports 12 engines including Bing, DuckDuckGo, Brave, Exa and Hacker News
-- **+** Three interfaces: MCP (stdio/HTTP/SSE), CLI, and a local daemon with POST /search and /fetch-*
-- **+** Optional Playwright fallback can use a remote browser or an existing Chrome over CDP
-- **+** Env vars restrict engines, rename or disable MCP tools, and route traffic through an HTTP proxy
-- **−** Scrapes result pages, so blocking or markup changes can break engines; linux.do is currently unsupported
-- **−** No Google support; it is still listed as a TODO
-- **−** Without Playwright, JS-heavy or cookie-gated pages may fail to fetch
-- **−** Local browser profiles persist cookies, so sharing one daemon across untrusted callers needs isolated browsers
-
-<sub>no GPU · Docker + Compose · Needs Node.js, Playwright (optional) · port 3000 · [Repo](https://github.com/aas-ee/open-websearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-websearch/)</sub>
-
 <a name="alpaca-mcp-server"></a>
-### #&#8288;36 [alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Nov 2026</sub>
+### #&#8288;35 [alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Nov 2026</sub>
 
 **MCP server exposing Alpaca trading and market data tools to AI assistants.**
 
@@ -651,6 +633,24 @@ Python MCP server, built on FastMCP and Alpaca's OpenAPI specs, that lets client
 - **−** Latest 15-minute market data needs a paid Algo Trader Plus subscription
 
 <sub>no GPU · Docker · Needs Alpaca Trading API keys, Python 3.10+, uv, MCP client · [Repo](https://github.com/alpacahq/alpaca-mcp-server) · [📖 Docs ↗](https://docs.alpaca.markets/docs/getting-started) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/alpaca-mcp-server/)</sub>
+
+<a name="open-websearch"></a>
+### #&#8288;36 [open-websearch](https://github.com/aas-ee/open-websearch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
+
+**Keyless web search and page fetching over MCP, CLI or local HTTP.**
+
+open-websearch scrapes results from engines such as Bing, DuckDuckGo, Brave, Exa, Baidu and Startpage, and returns titles, URLs and descriptions without API keys. It also fetches page content: generic HTTP(S) and Markdown pages, GitHub READMEs, and CSDN and Juejin articles. It runs as an MCP server (stdio, HTTP or SSE), a one-shot CLI, or a local HTTP daemon.
+
+- **+** No API keys needed; supports 12 engines including Bing, DuckDuckGo, Brave, Exa and Hacker News
+- **+** Three interfaces: MCP (stdio/HTTP/SSE), CLI, and a local daemon with POST /search and /fetch-*
+- **+** Optional Playwright fallback can use a remote browser or an existing Chrome over CDP
+- **+** Env vars restrict engines, rename or disable MCP tools, and route traffic through an HTTP proxy
+- **−** Scrapes result pages, so blocking or markup changes can break engines; linux.do is currently unsupported
+- **−** No Google support; it is still listed as a TODO
+- **−** Without Playwright, JS-heavy or cookie-gated pages may fail to fetch
+- **−** Local browser profiles persist cookies, so sharing one daemon across untrusted callers needs isolated browsers
+
+<sub>no GPU · Docker + Compose · Needs Node.js, Playwright (optional) · port 3000 · [Repo](https://github.com/aas-ee/open-websearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-websearch/)</sub>
 
 <a name="brave-search-mcp-server"></a>
 ### #&#8288;37 [brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
@@ -670,26 +670,8 @@ TypeScript MCP server that wraps the Brave Search API as tools: web, local, plac
 
 <sub>no GPU · Docker + Compose · Needs Brave Search API key, Node.js 22+ (for local build) · port 8080 · [Repo](https://github.com/brave/brave-search-mcp-server) · [🌐 Site ↗](https://brave.com/search/api/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/brave-search-mcp-server/)</sub>
 
-<a name="duckduckgo-mcp-server"></a>
-### #&#8288;38 [duckduckgo-mcp-server](https://github.com/nickclyde/duckduckgo-mcp-server) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Sep 2026</sub>
-
-**MCP server for DuckDuckGo web search and webpage text fetching.**
-
-Python MCP server exposing three tools: search (DuckDuckGo), fetch_content (page download and text extraction with pagination) and expand_link. It runs over stdio by default, with SSE and streamable HTTP transports available. Search falls back to a curl_cffi Chrome-impersonating backend when DuckDuckGo blocks plain httpx.
-
-- **+** Runs with one command: uvx duckduckgo-mcp-server, no API key mentioned
-- **+** fetch_content has text, main and markdown parse modes plus an in-memory page cache
-- **+** Blocks private, loopback and cloud-metadata addresses in fetch_content by default, including redirects
-- **+** Configurable rate limits, SafeSearch, region, CA bundle and DNS-rebinding allow-lists
-- **−** Search scrapes html.duckduckgo.com, which currently blocks plain httpx and can return no results
-- **−** Reliable search needs the optional [browser] extra (curl_cffi) installed
-- **−** Default limits of 30 searches and 20 fetches per minute
-- **−** Parsed-page cache and ref:// tokens are in memory and lost on restart
-
-<sub>no GPU · Docker · Needs DuckDuckGo (html.duckduckgo.com), uv, curl_cffi (optional, [browser] extra) · port 8000 · [Repo](https://github.com/nickclyde/duckduckgo-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/duckduckgo-mcp-server/)</sub>
-
 <a name="yutu"></a>
-### #&#8288;39 [yutu](https://github.com/eat-pray-ai/yutu) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 737 · Apache-2.0 · Nov 2026</sub>
+### #&#8288;38 [yutu](https://github.com/eat-pray-ai/yutu) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 738 · Apache-2.0 · Nov 2026</sub>
 
 **YouTube API CLI, MCP server and built-in agent for managing channels.**
 
@@ -705,6 +687,24 @@ yutu is a Go CLI that wraps the YouTube Data API with subcommands for videos, pl
 - **−** Analytics and Reporting APIs are optional extra setup in Google Cloud
 
 <sub>no GPU · Docker · Needs Google Cloud project with YouTube Data API v3, OAuth client credentials (client_secret.json), LLM API key (agent mode only) · Models: Google Gemini, OpenAI-compatible (OpenAI, DeepSeek, Ollama, vLLM), Anthropic · port 8216 · [Repo](https://github.com/eat-pray-ai/yutu) · [▶️ Demo ↗](https://asciinema.org/a/wXIHU4ciFBAKrHfaFNkMoIs12) · [🌐 Site ↗](https://yutu.ifor.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yutu/)</sub>
+
+<a name="duckduckgo-mcp-server"></a>
+### #&#8288;39 [duckduckgo-mcp-server](https://github.com/nickclyde/duckduckgo-mcp-server) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: patchy (48) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Sep 2026</sub>
+
+**MCP server for DuckDuckGo web search and webpage text fetching.**
+
+Python MCP server exposing three tools: search (DuckDuckGo), fetch_content (page download and text extraction with pagination) and expand_link. It runs over stdio by default, with SSE and streamable HTTP transports available. Search falls back to a curl_cffi Chrome-impersonating backend when DuckDuckGo blocks plain httpx.
+
+- **+** Runs with one command: uvx duckduckgo-mcp-server, no API key mentioned
+- **+** fetch_content has text, main and markdown parse modes plus an in-memory page cache
+- **+** Blocks private, loopback and cloud-metadata addresses in fetch_content by default, including redirects
+- **+** Configurable rate limits, SafeSearch, region, CA bundle and DNS-rebinding allow-lists
+- **−** Search scrapes html.duckduckgo.com, which currently blocks plain httpx and can return no results
+- **−** Reliable search needs the optional [browser] extra (curl_cffi) installed
+- **−** Default limits of 30 searches and 20 fetches per minute
+- **−** Parsed-page cache and ref:// tokens are in memory and lost on restart
+
+<sub>no GPU · Docker · Needs DuckDuckGo (html.duckduckgo.com), uv, curl_cffi (optional, [browser] extra) · port 8000 · [Repo](https://github.com/nickclyde/duckduckgo-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/duckduckgo-mcp-server/)</sub>
 
 <a name="ros-mcp-server"></a>
 ### #&#8288;40 [ros-mcp-server](https://github.com/robotmcp/ros-mcp-server) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Sep 2026</sub>

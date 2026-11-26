@@ -77,7 +77,7 @@ Strata is a C++ local inference engine packaged as a desktop app (Windows, Linux
 <sub>GPU required · Models: GGUF, Qwen3.8-Flash-Next, Qwen3.6-35B-A3B, NVFP4 · [Repo](https://github.com/niko1221/strata) · [📖 Docs ↗](https://github.com/Niko1221/Strata/tree/main/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/strata/)</sub>
 
 <a name="modular"></a>
-### #&#8288;5 [modular](https://github.com/modular/modular) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Nov 2026</sub>
+### #&#8288;5 [modular](https://github.com/modular/modular) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Nov 2026</sub>
 
 **Mojo language and MAX inference framework with an OpenAI-compatible server.**
 
@@ -166,26 +166,8 @@ oMLX serves MLX-format LLMs, VLMs, OCR models, embeddings and rerankers on Apple
 
 <sub>GPU required · Needs macOS 15+, Python 3.11-3.13, Xcode (for custom kernels), mlx-lm · Models: MLX, GGUF (via Splash external engine), safetensors · port 8000 · [Repo](https://github.com/jundot/omlx) · [🌐 Site ↗](https://omlx.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omlx/)</sub>
 
-<a name="lmcache"></a>
-### #&#8288;10 [lmcache](https://github.com/lmcache/lmcache) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
-
-**KV cache offloading and reuse layer for LLM serving engines.**
-
-LMCache runs as a standalone daemon that stores LLM KV cache outside the inference engine, in tiers spanning CPU RAM, local disk and remote backends. Cached KV can be reused across requests, sessions and engine instances, which cuts repeated prefill and time-to-first-token on long-context, multi-turn and RAG workloads. It also supports non-prefix reuse via CacheBlend and prefill-to-decode KV transfer over NVLink, RDMA or TCP.
-
-- **+** Runs as a separate daemon, so KV cache survives inference engine crashes
-- **+** Backends include CPU RAM, disk, Redis/Valkey, Mooncake, S3-compatible, NIXL and GDS
-- **+** Non-prefix KV reuse at any prompt position through CacheBlend
-- **+** Exposes KV-cache metrics such as request-level and token-level prefix hits
-- **−** Not a standalone server; it needs a supported serving engine in front
-- **−** README gives no hardware requirements or supported-engine version list
-- **−** Multi-node and PD disaggregation setups need external transports and storage
-- **−** No Docker or compose files detected in the repository
-
-<sub>Docker · Needs Redis/Valkey (optional), Mooncake (optional), NIXL (optional), S3-compatible storage (optional) · Models: gpt-oss 20B/120B, multimodal models in vLLM V1 · [Repo](https://github.com/lmcache/lmcache) · [📖 Docs ↗](https://docs.lmcache.ai/) · [🌐 Site ↗](https://blog.lmcache.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmcache/)</sub>
-
 <a name="xinference"></a>
-### #&#8288;11 [Xinference](https://github.com/xorbitsai/inference) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;10 [Xinference](https://github.com/xorbitsai/inference) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Nov 2026</sub>
 
 **Serves LLM, embedding, speech and image models behind an OpenAI-compatible API.**
 
@@ -201,6 +183,24 @@ Xinference runs language, embedding, speech recognition, image and multimodal mo
 - **−** README is mostly a news and model-support list, with little on configuration
 
 <sub>GPU optional · Models: LLMs, embedding models, speech recognition, text-to-speech, image generation · port 9997 · [Repo](https://github.com/xorbitsai/inference) · [📖 Docs ↗](https://inference.readthedocs.io/) · [🌐 Site ↗](https://xinference.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xinference/)</sub>
+
+<a name="lmcache"></a>
+### #&#8288;11 [lmcache](https://github.com/lmcache/lmcache) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Nov 2026</sub>
+
+**KV cache offloading and reuse layer for LLM serving engines.**
+
+LMCache runs as a standalone daemon that stores LLM KV cache outside the inference engine, in tiers spanning CPU RAM, local disk and remote backends. Cached KV can be reused across requests, sessions and engine instances, which cuts repeated prefill and time-to-first-token on long-context, multi-turn and RAG workloads. It also supports non-prefix reuse via CacheBlend and prefill-to-decode KV transfer over NVLink, RDMA or TCP.
+
+- **+** Runs as a separate daemon, so KV cache survives inference engine crashes
+- **+** Backends include CPU RAM, disk, Redis/Valkey, Mooncake, S3-compatible, NIXL and GDS
+- **+** Non-prefix KV reuse at any prompt position through CacheBlend
+- **+** Exposes KV-cache metrics such as request-level and token-level prefix hits
+- **−** Not a standalone server; it needs a supported serving engine in front
+- **−** README gives no hardware requirements or supported-engine version list
+- **−** Multi-node and PD disaggregation setups need external transports and storage
+- **−** No Docker or compose files detected in the repository
+
+<sub>Docker · Needs Redis/Valkey (optional), Mooncake (optional), NIXL (optional), S3-compatible storage (optional) · Models: gpt-oss 20B/120B, multimodal models in vLLM V1 · [Repo](https://github.com/lmcache/lmcache) · [📖 Docs ↗](https://docs.lmcache.ai/) · [🌐 Site ↗](https://blog.lmcache.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lmcache/)</sub>
 
 <a name="tensorrt-llm"></a>
 ### #&#8288;12 [tensorrt-llm](https://github.com/nvidia/tensorrt-llm) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · Nov 2026</sub>
@@ -398,26 +398,8 @@ Rapid-MLX serves MLX models on Apple Silicon over OpenAI-compatible (/v1/chat/co
 
 <sub>RAM ≥ 8 GB · GPU required · Needs Homebrew or uv/pip for install, Apple Silicon Mac, MLX · Models: MLX 4-bit LLMs (Qwen3.5, Qwen3.6, LFM2.5), vision models, image generation (FLUX, SDXL, Qwen Image), video generation, TTS/STT (extra) · port 8000 · [Repo](https://github.com/raullenchai/rapid-mlx) · [📖 Docs ↗](https://rapidmlx.com/docs/) · [🌐 Site ↗](https://rapidmlx.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rapid-mlx/)</sub>
 
-<a name="edge0"></a>
-### #&#8288;23 [edge0](https://github.com/edge0-ai/edge0) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
-
-**Streaming MoE inference that serves 35B models from SSD on Apple Silicon.**
-
-edge0 streams mixture-of-experts weights from SSD on demand, so peak memory tracks the active expert set rather than total parameters. It pairs int4 checkpoints with Recover-LoRA adapters and a trained prerouter that predicts expert routing one step ahead. The Python/MLX framework runs on Apple Silicon and serves an OpenAI-compatible /v1/chat/completions endpoint; macOS, iOS, Android and Windows engines live in the same repo.
-
-- **+** Reported 2.9 GiB peak MLX allocator memory for the 35B tier on a Mac mini M4 Pro
-- **+** Ships trained LoRA and prerouter adapters with the checkpoints, ready to serve
-- **+** Separate engines for macOS (Rust), iOS (Swift), Android (Kotlin) and Windows (C++/Vulkan)
-- **+** Self-run OpenCompass results: int4 averages 3.9 points below fp16 for the 35B tier
-- **−** Python framework supports only macOS on Apple Silicon; CUDA backend is roadmap only
-- **−** Decode speed is 14.9-17.7 tok/s for the 35B tier, 23.9-25.3 for the 8B
-- **−** Only two preview model tiers, built on Qwen3.6-35B-A3B and Ling 3.0
-- **−** Unified cross-platform framework is unreleased; platform engines use separate stacks
-
-<sub>GPU required · Needs MLX 0.30.6, mlx-lm 0.31.0, Python 3.10+ · Models: Edge0-35B-A3B-preview, Edge0-8B-A1B-preview, int4 safetensors · port 8000 · [Repo](https://github.com/edge0-ai/edge0) · [🌐 Site ↗](https://edge0.ai/discord) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/edge0/)</sub>
-
 <a name="cog"></a>
-### #&#8288;24 [cog](https://github.com/replicate/cog) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [cog](https://github.com/replicate/cog) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · Apache-2.0 · Nov 2026</sub>
 
 **Packages Python ML models into Docker images with a generated HTTP API.**
 
@@ -435,7 +417,7 @@ Cog builds a Docker image from a cog.yaml file and a Python class that defines a
 <sub>GPU optional · Needs Docker, Docker Buildx · Models: PyTorch, TensorFlow, arbitrary Python models · port 5000 · [Repo](https://github.com/replicate/cog) · [🌐 Site ↗](https://cog.run) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cog/)</sub>
 
 <a name="mlx-lm"></a>
-### #&#8288;25 [mlx-lm](https://github.com/ml-explore/mlx-lm) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Nov 2026</sub>
+### #&#8288;24 [mlx-lm](https://github.com/ml-explore/mlx-lm) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Nov 2026</sub>
 
 **Python package and CLI for running and fine-tuning LLMs on Apple silicon with MLX.**
 
@@ -453,7 +435,7 @@ MLX LM generates text, chats in a terminal REPL, and fine-tunes LLMs on Apple si
 <sub>Needs MLX, Hugging Face Hub · Models: Hugging Face Hub models in MLX format, quantized models, LoRA, full fine-tuning · [Repo](https://github.com/ml-explore/mlx-lm) · [📖 Docs ↗](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mlx-lm/)</sub>
 
 <a name="llama-swap"></a>
-### #&#8288;26 [llama-swap](https://github.com/mostlygeek/llama-swap) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+### #&#8288;25 [llama-swap](https://github.com/mostlygeek/llama-swap) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
 
 **Go proxy that starts and swaps local model servers per request.**
 
@@ -471,7 +453,7 @@ llama-swap is a single Go binary that reads the `model` field of incoming OpenAI
 <sub>GPU optional · Docker · Needs llama-server or another OpenAI-compatible inference server · Models: GGUF via llama.cpp, vllm, stable-diffusion.cpp, whisper.cpp, audio.cpp · port 8080 · [Repo](https://github.com/mostlygeek/llama-swap) · [📖 Docs ↗](https://github.com/mostlygeek/llama-swap/tree/main/docs/kb) · [🌐 Site ↗](https://llama-swap.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama-swap/)</sub>
 
 <a name="ktransformers"></a>
-### #&#8288;27 [KTransformers](https://github.com/kvcache-ai/ktransformers) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;26 [KTransformers](https://github.com/kvcache-ai/ktransformers) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Nov 2026</sub>
 
 **CPU-GPU hybrid inference and MoE fine-tuning for large models on limited VRAM.**
 
@@ -489,7 +471,7 @@ KTransformers runs and fine-tunes large Mixture-of-Experts models by keeping hot
 <sub>GPU required · Docker · Needs SGLang, LLaMA-Factory · Models: DeepSeek-V3/R1/V4-Flash, Kimi K2/K2.5/K2.6, GLM-5, MiniMax-M2/M3, Qwen3-MoE · [Repo](https://github.com/kvcache-ai/ktransformers) · [📖 Docs ↗](https://kvcache-ai.github.io/ktransformers/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ktransformers/)</sub>
 
 <a name="openvino"></a>
-### #&#8288;28 [openvino](https://github.com/openvinotoolkit/openvino) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;27 [openvino](https://github.com/openvinotoolkit/openvino) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **Inference toolkit for converting and running models on Intel CPUs, GPUs and NPUs.**
 
@@ -505,6 +487,24 @@ OpenVINO converts models from PyTorch, TensorFlow, ONNX, TensorFlow Lite, Paddle
 - **−** Collects usage telemetry by default; opting out requires running a command
 
 <sub>GPU optional · Models: PyTorch, TensorFlow, ONNX, TensorFlow Lite, PaddlePaddle · [Repo](https://github.com/openvinotoolkit/openvino) · [📖 Docs ↗](https://docs.openvino.ai/2026/index.html) · [🌐 Site ↗](https://docs.openvino.ai/2026/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openvino/)</sub>
+
+<a name="edge0"></a>
+### #&#8288;28 [edge0](https://github.com/edge0-ai/edge0) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
+
+**Streaming MoE inference that serves 35B models from SSD on Apple Silicon.**
+
+edge0 streams mixture-of-experts weights from SSD on demand, so peak memory tracks the active expert set rather than total parameters. It pairs int4 checkpoints with Recover-LoRA adapters and a trained prerouter that predicts expert routing one step ahead. The Python/MLX framework runs on Apple Silicon and serves an OpenAI-compatible /v1/chat/completions endpoint; macOS, iOS, Android and Windows engines live in the same repo.
+
+- **+** Reported 2.9 GiB peak MLX allocator memory for the 35B tier on a Mac mini M4 Pro
+- **+** Ships trained LoRA and prerouter adapters with the checkpoints, ready to serve
+- **+** Separate engines for macOS (Rust), iOS (Swift), Android (Kotlin) and Windows (C++/Vulkan)
+- **+** Self-run OpenCompass results: int4 averages 3.9 points below fp16 for the 35B tier
+- **−** Python framework supports only macOS on Apple Silicon; CUDA backend is roadmap only
+- **−** Decode speed is 14.9-17.7 tok/s for the 35B tier, 23.9-25.3 for the 8B
+- **−** Only two preview model tiers, built on Qwen3.6-35B-A3B and Ling 3.0
+- **−** Unified cross-platform framework is unreleased; platform engines use separate stacks
+
+<sub>GPU required · Needs MLX 0.30.6, mlx-lm 0.31.0, Python 3.10+ · Models: Edge0-35B-A3B-preview, Edge0-8B-A1B-preview, int4 safetensors · port 8000 · [Repo](https://github.com/edge0-ai/edge0) · [🌐 Site ↗](https://edge0.ai/discord) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/edge0/)</sub>
 
 <a name="geniex"></a>
 ### #&#8288;29 [geniex](https://github.com/qualcomm/geniex) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · BSD-3-Clause · Nov 2026</sub>
@@ -614,26 +614,8 @@ Runs the 2.78T-parameter Kimi K3 checkpoint (1.56 TB) on CPU in C99, with no BLA
 
 <sub>RAM ≥ 8 GB · no GPU · Needs C99 compiler (GCC >= 9 or Clang >= 10), OpenMP, GNU make or CMake, Python 3.9+ for download and pack tools, Hugging Face token for checkpoint download · Models: Kimi K3 (safetensors, 4-bit packed experts) · [Repo](https://github.com/fareedkhan-dev/kimi-k3-in-c) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kimi-k3-in-c/)</sub>
 
-<a name="lemonade"></a>
-### #&#8288;35 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
-
-**Local multi-modal AI server with OpenAI, Anthropic and Ollama APIs.**
-
-Lemonade is a C++ local inference server that exposes text generation, speech-to-text, text-to-speech and image generation through OpenAI-, Anthropic- and Ollama-compatible APIs. It wraps several engines (llama.cpp, FastFlowLM, Ryzen AI, whisper.cpp, stable-diffusion.cpp, Kokoro) across CPU, GPU and XDNA2 NPU, with AMD-focused optimizations. It also ships a CLI, a Model Manager and an embeddable binary for bundling into other apps.
-
-- **+** Covers text, speech, TTS and image generation behind one server
-- **+** Backends for AMD XDNA2 NPU, ROCm, Vulkan, CUDA and Apple Metal
-- **+** OpenAI, Anthropic and Ollama API compatibility, so existing apps connect
-- **+** Packages for Windows, macOS, Ubuntu, Debian, Fedora, Arch, Snap and Docker
-- **−** Many backends are marked experimental or guest, mostly AMD Strix Halo on Linux
-- **−** NPU paths need XDNA2 hardware; ryzenai-llm NPU backend is Windows only
-- **−** Cloud offload to external providers is labelled experimental
-- **−** Several TTS and audio backends have no macOS support
-
-<sub>GPU optional · Docker · Models: GGUF, ONNX, FLM, Whisper, Stable Diffusion · [Repo](https://github.com/lemonade-sdk/lemonade) · [📖 Docs ↗](https://github.com/lemonade-sdk/lemonade/blob/main/docs/README.md) · [🌐 Site ↗](https://lemonade-server.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lemonade/)</sub>
-
 <a name="triton-inference-server"></a>
-### #&#8288;36 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;35 [Triton Inference Server](https://github.com/triton-inference-server/server) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · BSD-3-Clause · Nov 2026</sub>
 
 **Multi-framework inference server with dynamic batching and HTTP/gRPC APIs.**
 
@@ -651,7 +633,7 @@ Triton Inference Server serves models from TensorRT, PyTorch, ONNX Runtime, Open
 <sub>GPU optional · Docker · Needs Docker, NVIDIA Container Toolkit · Models: TensorRT, PyTorch, ONNX, OpenVINO, Python · [Repo](https://github.com/triton-inference-server/server) · [📖 Docs ↗](https://github.com/triton-inference-server/server/blob/main/docs/README.md) · [🌐 Site ↗](https://developer.nvidia.com/nvidia-triton-inference-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/triton-inference-server/)</sub>
 
 <a name="laya-mlx"></a>
-### #&#8288;37 [laya-mlx](https://github.com/mizorewww/laya-mlx) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;36 [laya-mlx](https://github.com/mizorewww/laya-mlx) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Nov 2026</sub>
 
 **MLX port of Laya typed-decision models for Apple Silicon, no token decoding.**
 
@@ -667,6 +649,24 @@ Independent MLX port of Convai Innovations' Laya models, which answer typed ques
 - **−** Context limit of 512 to 1,024 tokens; language detection is heuristic
 
 <sub>GPU required · Needs Apple Silicon, MLX, Python 3.11+, Hugging Face Hub (checkpoint download) · Models: convaiinnovations/laya (ModernBERT-large, 421M), convaiinnovations/laya-multilingual (mmBERT-base, 322M), convaiinnovations/laya-typed-decisions (ModernBERT-large, 421M) · [Repo](https://github.com/mizorewww/laya-mlx) · [📖 Docs ↗](https://github.com/mizorewww/laya-mlx/blob/main/BENCHMARKS.md) · [🌐 Site ↗](https://huggingface.co/aac6fef/laya-mlx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/laya-mlx/)</sub>
+
+<a name="lemonade"></a>
+### #&#8288;37 [Lemonade](https://github.com/lemonade-sdk/lemonade) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
+
+**Local multi-modal AI server with OpenAI, Anthropic and Ollama APIs.**
+
+Lemonade is a C++ local inference server that exposes text generation, speech-to-text, text-to-speech and image generation through OpenAI-, Anthropic- and Ollama-compatible APIs. It wraps several engines (llama.cpp, FastFlowLM, Ryzen AI, whisper.cpp, stable-diffusion.cpp, Kokoro) across CPU, GPU and XDNA2 NPU, with AMD-focused optimizations. It also ships a CLI, a Model Manager and an embeddable binary for bundling into other apps.
+
+- **+** Covers text, speech, TTS and image generation behind one server
+- **+** Backends for AMD XDNA2 NPU, ROCm, Vulkan, CUDA and Apple Metal
+- **+** OpenAI, Anthropic and Ollama API compatibility, so existing apps connect
+- **+** Packages for Windows, macOS, Ubuntu, Debian, Fedora, Arch, Snap and Docker
+- **−** Many backends are marked experimental or guest, mostly AMD Strix Halo on Linux
+- **−** NPU paths need XDNA2 hardware; ryzenai-llm NPU backend is Windows only
+- **−** Cloud offload to external providers is labelled experimental
+- **−** Several TTS and audio backends have no macOS support
+
+<sub>GPU optional · Docker · Models: GGUF, ONNX, FLM, Whisper, Stable Diffusion · [Repo](https://github.com/lemonade-sdk/lemonade) · [📖 Docs ↗](https://github.com/lemonade-sdk/lemonade/blob/main/docs/README.md) · [🌐 Site ↗](https://lemonade-server.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lemonade/)</sub>
 
 <a name="exo"></a>
 ### #&#8288;38 [exo-explore/exo](https://github.com/exo-explore/exo) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (96) · Freshness: active (97) · Maintenance: patchy (40) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · Apache-2.0 · Nov 2026</sub>
@@ -687,7 +687,7 @@ exo discovers devices on the same network and splits a model across them using t
 <sub>GPU optional · Needs MLX, uv, Node.js, Rust, Xcode (macOS source build) · Models: MLX, HuggingFace hub custom models · port 52415 · [Repo](https://github.com/exo-explore/exo) · [📖 Docs ↗](https://github.com/exo-explore/exo/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/exo/)</sub>
 
 <a name="turbo-fieldfare"></a>
-### #&#8288;39 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;39 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
 
 **Swift and Metal runtime that runs Gemma 4 26B-A4B in about 2 GB RAM.**
 
@@ -705,7 +705,7 @@ TurboFieldfare is a model-specific Swift and Metal inference runtime for Gemma 4
 <sub>RAM ≥ 8 GB · GPU required · Needs Swift 6.2+, macOS 26 SDK, Metal 4, Hugging Face (model download) · Models: Gemma 4 26B-A4B IT (MLX 4-bit, .gturbo format) · port 8080 · [Repo](https://github.com/drumih/turbo-fieldfare) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbo-fieldfare/)</sub>
 
 <a name="llama-cpp-python"></a>
-### #&#8288;40 [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;40 [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **Python bindings and OpenAI-compatible server for llama.cpp.**
 
@@ -883,7 +883,7 @@ audio.cpp is a native C++ inference framework on ggml that runs 143 audio model 
 <sub>GPU optional · Docker · Needs ggml, GGUF model files (Hugging Face / ModelScope) · Models: GGUF, Safetensors, Qwen3-TTS, Kokoro, Fish Audio S2 · [Repo](https://github.com/0xshug0/audio.cpp) · [▶️ Demo ↗](https://colab.research.google.com/github/0xShug0/audio.cpp/blob/main/Notebooks/colab_audio_cpp.ipynb) · [📖 Docs ↗](https://huggingface.co/spaces/audio-cpp/Audio-Model-Architecture-Atlas) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/audio-cpp/)</sub>
 
 <a name="mesh-llm"></a>
-### #&#8288;50 [mesh-llm](https://github.com/mesh-llm/mesh-llm) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;50 [mesh-llm](https://github.com/mesh-llm/mesh-llm) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · Apache-2.0 · Nov 2026</sub>
 
 **Pools GPUs across machines behind one OpenAI-compatible API.**
 
@@ -919,7 +919,7 @@ SIE serves 100+ open models from one server, loading each on demand with LRU evi
 <sub>GPU optional · Needs Hugging Face model downloads, Kubernetes and Helm (production) · Models: Hugging Face models, bge-m3, SPLADE, ColBERT, Qwen3 · port 8080 · [Repo](https://github.com/superlinked/sie) · [📖 Docs ↗](https://superlinked.com/docs/) · [🌐 Site ↗](https://superlinked.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sie/)</sub>
 
 <a name="mlx-vlm"></a>
-### #&#8288;52 [mlx-vlm](https://github.com/neywa-labs/mlx-vlm) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
+### #&#8288;52 [mlx-vlm](https://github.com/neywa-labs/mlx-vlm) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
 
 **Run and fine-tune vision, audio and text models on Apple Silicon with MLX.**
 
@@ -955,7 +955,7 @@ llm-d sits above model servers such as vLLM and SGLang and adds prefix-cache and
 <sub>GPU required · Docker · Needs Kubernetes, vLLM or SGLang, Helm · Models: DeepSeek-V4, Kimi K3, gpt-oss-120b, Llama 3.3 70B, Llama 3.1 70B · [Repo](https://github.com/llm-d/llm-d) · [📖 Docs ↗](https://llm-d.ai/docs/getting-started/quickstart) · [🌐 Site ↗](https://www.llm-d.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-d/)</sub>
 
 <a name="ctranslate2"></a>
-### #&#8288;54 [ctranslate2](https://github.com/opennmt/ctranslate2) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
+### #&#8288;54 [ctranslate2](https://github.com/opennmt/ctranslate2) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (50) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · MIT · Nov 2026</sub>
 
 **C++ and Python inference engine for Transformer models on CPU and GPU.**
 
@@ -1099,7 +1099,7 @@ Olares installs a Kubernetes-based personal cloud on your own machines and manag
 <sub>RAM ≥ 8 GB · GPU optional · Needs Ubuntu or Debian Linux, Kubernetes (bundled), 150 GB SSD · Models: local LLMs via Model Console and Olares Market · [Repo](https://github.com/beclab/olares) · [📖 Docs ↗](https://www.olares.com/docs/manual/get-started/install-olares) · [🌐 Site ↗](https://www.olares.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/olares/)</sub>
 
 <a name="project-maya"></a>
-### #&#8288;62 [project-maya](https://github.com/mw00/project-maya) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (40) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · MIT · Nov 2026</sub>
+### #&#8288;62 [project-maya](https://github.com/mw00/project-maya) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · MIT · Nov 2026</sub>
 
 **Runs very large MoE LLMs locally by streaming experts between GPU, RAM and SSD.**
 
@@ -1153,7 +1153,7 @@ uzu is a Rust library that runs language models inside an application process, w
 <sub>Needs OpenAI API key (optional, for cloud models) · Models: Qwen3.5 (Mirai 4-bit), gpt-5 (cloud via OpenAI) · [Repo](https://github.com/trymirai/uzu) · [📖 Docs ↗](https://docs.trymirai.com) · [🌐 Site ↗](https://trymirai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/uzu/)</sub>
 
 <a name="tensorfold"></a>
-### #&#8288;65 [tensorfold](https://github.com/ashhart/tensorfold) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;65 [tensorfold](https://github.com/ashhart/tensorfold) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Nov 2026</sub>
 
 **Zig inference server for Apple Silicon and NVIDIA GPUs, no Python needed.**
 
@@ -1332,7 +1332,7 @@ MLC LLM compiles language models and runs them through MLCEngine, a single infer
 <sub>GPU optional · [Repo](https://github.com/mlc-ai/mlc-llm) · [📖 Docs ↗](https://llm.mlc.ai/docs/) · [🌐 Site ↗](https://llm.mlc.ai/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mlc-llm/)</sub>
 
 <a name="splash"></a>
-### #&#8288;75 [splash](https://github.com/incoai/splash) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;75 [splash](https://github.com/incoai/splash) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Nov 2026</sub>
 
 **Apple silicon inference server with speculative decoding and OpenAI/Anthropic APIs.**
 
@@ -1601,8 +1601,26 @@ A fork of llama.cpp that serves GGUF models through llama-server, with a built-i
 
 <sub>GPU optional · Docker · Needs CMake, CUDA Toolkit (for GPU builds) · Models: GGUF, DeepSeek-V3/V4, Qwen3/3.5, GLM-4.5/5, Gemma3/4 · port 8080 · [Repo](https://github.com/ikawrakow/ik_llama.cpp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ik-llama-cpp/)</sub>
 
+<a name="airunner"></a>
+### #&#8288;90 [airunner](https://github.com/capsize-games/airunner) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Nov 2026</sub>
+
+**Headless Python service serving local LLM, speech and image models over HTTP.**
+
+AI Runner is a headless daemon with FastAPI HTTP and WebSocket APIs, model workers, runtime orchestration and persistence for other applications to call. It uses llama.cpp and whisper.cpp sidecars for LLM and speech-to-text, and Python extras for image generation and TTS. The earlier Qt desktop app is retired, and several extras currently cannot be resolved from public package indexes.
+
+- **+** Covers LLM, speech-to-text, TTS and image generation in one service
+- **+** Non-loopback binding requires AIRUNNER_API_KEY; default bind is loopback
+- **+** Linux release profile has a hash-locked set of 244 reviewed inputs
+- **+** Provides a /health endpoint and a systemd deployment guide
+- **−** TTS and several other extras cannot be resolved from public indexes
+- **−** airunner-common is not on PyPI; it must come from a GitHub release
+- **−** Requires Python 3.13.3 or newer
+- **−** Desktop UI was retired; headless API only
+
+<sub>Docker + Compose · Needs Python 3.13.3+, llama.cpp sidecar, whisper.cpp sidecar, airunner-common, PyTorch (CUDA 12.9 on Linux profile) · Models: llama.cpp LLMs, whisper.cpp STT, Python TTS, Python image generation · port 8080 · [Repo](https://github.com/capsize-games/airunner) · [🌐 Site ↗](https://capsize.online) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/airunner/)</sub>
+
 <a name="litserve"></a>
-### #&#8288;90 [litserve](https://github.com/lightning-ai/litserve) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (45) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;91 [litserve](https://github.com/lightning-ai/litserve) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (45) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Oct 2026</sub>
 
 **Python framework for writing custom inference servers on FastAPI.**
 
@@ -1620,7 +1638,7 @@ LitServe is a Python library where you subclass LitAPI, implement setup() and pr
 <sub>GPU optional · Needs FastAPI · Models: PyTorch, JAX, TensorFlow, Hugging Face, vLLM · port 8000 · [Repo](https://github.com/lightning-ai/litserve) · [📖 Docs ↗](https://lightning.ai/docs/litserve) · [🌐 Site ↗](https://lightning.ai/litserve) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/litserve/)</sub>
 
 <a name="hyperqwen"></a>
-### #&#8288;91 [hyperqwen](https://github.com/syv-ai/hyperqwen) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;92 [hyperqwen](https://github.com/syv-ai/hyperqwen) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Nov 2026</sub>
 
 **Patched vLLM setup serving Qwen3.8-27B fast on a single 24 GB GPU.**
 
@@ -1638,7 +1656,7 @@ HyperQwen is a patch series against a pinned vLLM 0.33.0 plus a model-preparatio
 <sub>GPU required · Docker + Compose · Needs Docker with NVIDIA Container Toolkit, vLLM 0.33.0, Hugging Face model download · Models: Qwen3.8-27B · port 18020 · [Repo](https://github.com/syv-ai/hyperqwen) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hyperqwen/)</sub>
 
 <a name="fastflowlm"></a>
-### #&#8288;92 [fastflowlm](https://github.com/rocm/fastflowlm) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · custom license · Nov 2026</sub>
+### #&#8288;93 [fastflowlm](https://github.com/rocm/fastflowlm) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · custom license · Nov 2026</sub>
 
 **LLM runtime for AMD Ryzen AI NPUs with Ollama-style CLI and server.**
 
@@ -1656,7 +1674,7 @@ FastFlowLM runs LLMs, vision, audio, embedding and MoE models on the XDNA2 NPU o
 <sub>no GPU · Docker · Needs AMD Ryzen AI NPU (XDNA2), AMD NPU driver 32.0.203.311+, HuggingFace (model download) · Models: LLM, Vision, Audio, Embedding, MoE · port 52625 · [Repo](https://github.com/rocm/fastflowlm) · [📖 Docs ↗](https://fastflowlm.com/docs) · [🌐 Site ↗](https://www.fastflowlm.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fastflowlm/)</sub>
 
 <a name="xgrammar"></a>
-### #&#8288;93 [xgrammar](https://github.com/mlc-ai/xgrammar) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;94 [xgrammar](https://github.com/mlc-ai/xgrammar) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Nov 2026</sub>
 
 **Constrained-decoding library for JSON, regex and grammar-guided LLM output.**
 
@@ -1674,7 +1692,7 @@ XGrammar is a library that constrains LLM token generation so output follows a J
 <sub>GPU optional · Models: Qwen, Llama, DeepSeek, Phi, Gemma · [Repo](https://github.com/mlc-ai/xgrammar) · [📖 Docs ↗](https://xgrammar.mlc.ai/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xgrammar/)</sub>
 
 <a name="halogen-flash-server"></a>
-### #&#8288;94 [halogen-flash-server](https://github.com/peonist-ai/halogen-flash-server) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · custom license · Nov 2026</sub>
+### #&#8288;95 [halogen-flash-server](https://github.com/peonist-ai/halogen-flash-server) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · custom license · Nov 2026</sub>
 
 **Inference server for Qwen3.8-Flash-Next, written only for AMD Strix Halo.**
 
@@ -1691,8 +1709,26 @@ halogen-flash-server serves one model family, Qwen3.8-Flash-Next, over an OpenAI
 
 <sub>GPU required · Compose · Needs Podman or Docker, AMD Strix Halo (Ryzen AI Max+), /dev/kfd and /dev/dri access, Hugging Face weights download · Models: Qwen3.8-Flash-Next (halogen checkpoints), llama.cpp GGUF of Qwen3.8-Flash-Next, Flint 40B MoE (preview) · port 8731 · [Repo](https://github.com/peonist-ai/halogen-flash-server) · [📖 Docs ↗](https://peonist-ai.github.io/halogen-flash-server/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/halogen-flash-server/)</sub>
 
+<a name="kubeai"></a>
+### #&#8288;96 [kubeai](https://github.com/kubeai-project/kubeai) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Nov 2026</sub>
+
+**Kubernetes operator and proxy for serving LLMs, embeddings and speech models.**
+
+KubeAI is a Kubernetes operator plus an OpenAI-compatible proxy that runs vLLM, Ollama, Infinity and FasterWhisper servers through a Model CRD. The proxy does prefix-aware load balancing to improve KV cache use, queues requests while models scale from zero, and retries bad backends. The operator handles model downloads, volume mounting and LoRA adapter loading, and ships a catalog of preconfigured models.
+
+- **+** Scale-from-zero without Istio, Knative or a Prometheus metrics adapter
+- **+** Prefix-aware load balancing across vLLM replicas, with a benchmark paper
+- **+** OpenAI-compatible endpoints incl. chat, embeddings, rerank and audio transcription
+- **+** Model catalog preconfigured for common GPU types; runs on CPU, GPU or TPU
+- **−** Requires a Kubernetes cluster; no standalone or single-host mode
+- **−** Original creators are inactive; maintenance rests on three listed maintainers
+- **−** Proxy and operator are co-deployed; independent deployment is only an open issue
+- **−** Tied to engines it wraps: vLLM, Ollama, Infinity, FasterWhisper
+
+<sub>GPU optional · Docker · Needs Kubernetes, Helm · Models: vLLM, Ollama, Infinity, FasterWhisper, LoRA adapters · [Repo](https://github.com/kubeai-project/kubeai) · [📖 Docs ↗](https://www.kubeai.org) · [🌐 Site ↗](https://www.kubeai.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kubeai/)</sub>
+
 <a name="lucebox"></a>
-### #&#8288;95 [lucebox](https://github.com/luce-org/lucebox) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;97 [lucebox](https://github.com/luce-org/lucebox) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
 
 **Inference server for AMD R9700 and Ryzen AI MAX+ with speculative decoding.**
 
@@ -1710,7 +1746,7 @@ Lucebox is a C++ inference server with HIP kernels for RDNA4 (gfx1201) and RDNA3
 <sub>RAM ≥ 128 GB · GPU required · Docker · Needs ROCm 7.2+, CUDA 12+ (NVIDIA build), CMake, Hugging Face CLI (model download) · Models: Qwen 3.8 27B, Qwen 3.8 Flash-Next, DeepSeek V4 Flash, DeepSeek V4.1 Flash, MOSS-Image 5B · port 8080 · [Repo](https://github.com/luce-org/lucebox) · [📖 Docs ↗](https://github.com/Luce-Org/lucebox/blob/main/server/docs/RECOMMENDED_SETUPS.md) · [🌐 Site ↗](https://www.lucebox.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lucebox/)</sub>
 
 <a name="vllm-mlx"></a>
-### #&#8288;96 [vllm-mlx](https://github.com/waybarrios/vllm-mlx) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;98 [vllm-mlx](https://github.com/waybarrios/vllm-mlx) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Nov 2026</sub>
 
 **vLLM-style inference server for Apple Silicon with OpenAI and Anthropic APIs.**
 
@@ -1728,7 +1764,7 @@ Serves LLMs, vision models, embeddings, TTS and STT on Apple Silicon through MLX
 <sub>GPU required · Needs MLX, mlx-lm, mlx-vlm, mlx-audio, mlx-embeddings, espeak-ng (non-English TTS) · Models: MLX-format LLMs, Vision-language models (Gemma 3/4, Qwen3-VL, Pixtral), Whisper STT, TTS (Kokoro, Chatterbox, VibeVoice, VoxCPM), BERT/XLM-RoBERTa rerankers · port 8000 · [Repo](https://github.com/waybarrios/vllm-mlx) · [📖 Docs ↗](https://vllm-mlx.is-a.dev/) · [🌐 Site ↗](https://vllm-mlx.is-a.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vllm-mlx/)</sub>
 
 <a name="lightllm"></a>
-### #&#8288;97 [lightllm](https://github.com/modeltc/lightllm) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (48) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;99 [lightllm](https://github.com/modeltc/lightllm) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (48) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Nov 2026</sub>
 
 **Python LLM inference server with token-level KV cache management.**
 
@@ -1746,7 +1782,7 @@ LightLLM is a pure-Python inference and serving framework for large language mod
 <sub>Docker · Needs Triton, FlashAttention, flashinfer · Models: DeepSeek-R1, Qwen3-8B · [Repo](https://github.com/modeltc/lightllm) · [📖 Docs ↗](https://lightllm-en.readthedocs.io/en/latest/) · [🌐 Site ↗](https://modeltc.github.io/lightllm-blog/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lightllm/)</sub>
 
 <a name="chitu"></a>
-### #&#8288;98 [chitu](https://github.com/thu-pacman/chitu) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (35) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;100 [chitu](https://github.com/thu-pacman/chitu) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (35) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
 
 **LLM inference engine for NVIDIA and Chinese accelerators, from CPU to clusters.**
 
@@ -1764,7 +1800,7 @@ Chitu is a Python inference framework for large language models, aimed at produc
 <sub>GPU optional · Docker · Models: DeepSeek-R1 671B, Qwen, GLM, Kimi · [Repo](https://github.com/thu-pacman/chitu) · [📖 Docs ↗](https://github.com/thu-pacman/chitu/blob/HEAD/docs/zh/DEVELOPMENT.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chitu/)</sub>
 
 <a name="bitnet"></a>
-### #&#8288;99 [bitnet](https://github.com/microsoft/bitnet) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (93) · Freshness: active (88) · Maintenance: weak (1) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Jul 2026</sub>
+### #&#8288;101 [bitnet](https://github.com/microsoft/bitnet) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (93) · Freshness: active (88) · Maintenance: weak (1) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 43k · MIT · Jul 2026</sub>
 
 **Inference framework for 1.58-bit ternary LLMs on CPU and GPU.**
 
@@ -1782,7 +1818,7 @@ bitnet.cpp is Microsoft's llama.cpp-based inference framework with optimized I2_
 <sub>GPU optional · Needs python>=3.10, cmake>=3.22, clang>=18, conda, huggingface-cli · Models: BitNet-b1.58-2B-4T, BitNet-embedding-0.6B, BitNet-embedding-270M, bitnet_b1_58-large, bitnet_b1_58-3B · [Repo](https://github.com/microsoft/bitnet) · [▶️ Demo ↗](https://demo-bitnet-h0h8hcfqeqhrf5gf.canadacentral-01.azurewebsites.net/) · [📖 Docs ↗](https://github.com/microsoft/BitNet/blob/main/src/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bitnet/)</sub>
 
 <a name="openllm"></a>
-### #&#8288;100 [OpenLLM](https://github.com/bentoml/openllm) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (78) · Freshness: recent (70) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;102 [OpenLLM](https://github.com/bentoml/openllm) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (78) · Freshness: recent (70) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Oct 2026</sub>
 
 **CLI that serves open LLMs as OpenAI-compatible APIs with a built-in chat UI.**
 
@@ -1800,7 +1836,7 @@ OpenLLM starts open-weight LLMs such as Llama, Qwen, Gemma, Phi and DeepSeek wit
 <sub>GPU required · Needs Hugging Face token (gated models), BentoML, vLLM · Models: Llama 3.1/3.2/3.3/4, Qwen2.5, Gemma 2/3, Phi4, Mistral · port 3000 · [Repo](https://github.com/bentoml/openllm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openllm/)</sub>
 
 <a name="metarank"></a>
-### #&#8288;101 [metarank](https://github.com/metarank/metarank) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;103 [metarank](https://github.com/metarank/metarank) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Oct 2026</sub>
 
 **Ranking service that reranks search and recommendation results from click signals.**
 
@@ -1818,7 +1854,7 @@ Metarank is a Scala service that reranks items from an existing search or recomm
 <sub>Needs Redis (production state store), Elasticsearch/OpenSearch (optional, for LTR integration) · Models: LambdaMART (XGBoost), Matrix factorization ALS, LLM bi-encoder and cross-encoder text features · port 8080 · [Repo](https://github.com/metarank/metarank) · [▶️ Demo ↗](https://demo.metarank.ai) · [📖 Docs ↗](https://docs.metarank.ai) · [🌐 Site ↗](https://metarank.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metarank/)</sub>
 
 <a name="chatrwkv"></a>
-### #&#8288;102 [chatrwkv](https://github.com/blinkdl/chatrwkv) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (71) · Freshness: active (85) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;104 [chatrwkv](https://github.com/blinkdl/chatrwkv) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (71) · Freshness: active (85) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · Apache-2.0 · Jul 2026</sub>
 
 **Reference inference code and chat demos for RWKV RNN language models.**
 
@@ -1836,7 +1872,7 @@ ChatRWKV is the Python reference implementation for running RWKV, an RNN-based l
 <sub>GPU optional · Needs PyTorch, ninja (for CUDA kernel), CUDA toolkit (optional) · Models: RWKV-4 Raven, RWKV World (v4/v5/v6), RWKV-7, PyTorch .pth, GGUF (via linked weights) · [Repo](https://github.com/blinkdl/chatrwkv) · [▶️ Demo ↗](https://huggingface.co/spaces/BlinkDL/RWKV-Gradio-1) · [🌐 Site ↗](https://www.rwkv.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatrwkv/)</sub>
 
 <a name="deepseek-recipe"></a>
-### #&#8288;103 [deepseek-recipe](https://github.com/deepseek-ai/deepseek-recipe) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (33) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Oct 2026</sub>
+### #&#8288;105 [deepseek-recipe](https://github.com/deepseek-ai/deepseek-recipe) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (33) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Oct 2026</sub>
 
 **Rust and Python library for DeepSeek V4 prompt rendering and API conversion.**
 
@@ -1854,7 +1890,7 @@ Rust crates with Python bindings that convert Messages, Chat Completions and Res
 <sub>no GPU · Needs OpenCV (image preprocessing), Python 3.10+ (bindings) · Models: DeepSeek-V4-Pro, DeepSeek-V4.1-Flash · port 7778 · [Repo](https://github.com/deepseek-ai/deepseek-recipe) · [📖 Docs ↗](https://docs.rs/deepseek-recipe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepseek-recipe/)</sub>
 
 <a name="beta9"></a>
-### #&#8288;104 [beta9](https://github.com/beam-cloud/beta9) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (17) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;106 [beta9](https://github.com/beam-cloud/beta9) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (16) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · AGPL-3.0 · Nov 2026</sub>
 
 **Serverless Python runtime for GPU inference, background jobs and sandboxes.**
 
@@ -1872,7 +1908,7 @@ Beta9 is the open-source engine behind Beam's managed cloud. Python decorators d
 <sub>GPU optional · [Repo](https://github.com/beam-cloud/beta9) · [📖 Docs ↗](https://docs.beam.cloud) · [🌐 Site ↗](https://beam.cloud) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/beta9/)</sub>
 
 <a name="startlux-decision"></a>
-### #&#8288;105 [startlux-decision](https://github.com/startluxlabs/startlux-decision) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;107 [startlux-decision](https://github.com/startluxlabs/startlux-decision) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Oct 2026</sub>
 
 **Inference server for decision models that return probabilities per typed question.**
 
@@ -1890,7 +1926,7 @@ Inference engine and HTTP server for the StartLux-Decision model family (0.8B to
 <sub>GPU optional · Needs vLLM, StartLux-Prism, llama.cpp, MLX, Hugging Face model weights · Models: StartLux-Decision v1.1 (0.8B, 2B, 4B, 9B, 27B), StartLux-Decision v1 (0.8B to 27B, 35B-A3B), GGUF, MLX 4-bit/8-bit, FP8 · port 8090 · [Repo](https://github.com/startluxlabs/startlux-decision) · [▶️ Demo ↗](https://bamboonode.dev/) · [📖 Docs ↗](https://github.com/startluxlabs/startlux-decision/blob/main/docs/api.md) · [🌐 Site ↗](https://decision.startlux.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/startlux-decision/)</sub>
 
 <a name="tabbyapi"></a>
-### #&#8288;106 [TabbyAPI](https://github.com/theroyallab/tabbyapi) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;108 [TabbyAPI](https://github.com/theroyallab/tabbyapi) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Nov 2026</sub>
 
 **OpenAI-compatible API server for running ExLlamaV3 models.**
 
@@ -1908,7 +1944,7 @@ TabbyAPI is a FastAPI server that loads and serves LLMs through the ExLlamaV3 ba
 <sub>GPU required · Docker + Compose · Needs ExLlamaV3, NVIDIA container toolkit (Docker) · Models: EXL3, FP16, BF16 · port 5000 · [Repo](https://github.com/theroyallab/tabbyapi) · [📖 Docs ↗](https://theroyallab.github.io/tabbyAPI) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tabbyapi/)</sub>
 
 <a name="yolo-ros"></a>
-### #&#8288;107 [yolo_ros](https://github.com/mgonzs13/yolo_ros) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+### #&#8288;109 [yolo_ros](https://github.com/mgonzs13/yolo_ros) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
 
 **ROS 2 node running Ultralytics YOLO ONNX models for detection, pose and segmentation.**
 
@@ -1926,7 +1962,7 @@ C++ ROS 2 package that runs Ultralytics-exported YOLO ONNX models through ONNX R
 <sub>GPU optional · Docker · Needs ROS 2, colcon, ONNX Runtime 1.20.0 (vendored), CUDA and cuDNN (GPU only), TensorRT 10 (optional) · Models: YOLOv3, YOLOv5, YOLOv8, YOLOv9, YOLOv10 · [Repo](https://github.com/mgonzs13/yolo_ros) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yolo-ros/)</sub>
 
 <a name="clm"></a>
-### #&#8288;108 [clm](https://github.com/contrastive-lm/clm) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (38) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;110 [clm](https://github.com/contrastive-lm/clm) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (38) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · Apache-2.0 · Oct 2026</sub>
 
 **Contrastive model that scores candidate actions or answers for a given state.**
 
@@ -1944,7 +1980,7 @@ CLM serves CLM-8B, a contrastive state-action model. It embeds a state and its c
 <sub>GPU required · Needs vLLM, Qwen/Qwen3-8B, PyTorch · Models: CLM-8B (Qwen3-8B backbone), custom projection head checkpoints (.pt) · port 8700 · [Repo](https://github.com/contrastive-lm/clm) · [🌐 Site ↗](https://contrastive-lm.notion.site) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clm/)</sub>
 
 <a name="nano-vllm"></a>
-### #&#8288;109 [nano-vllm](https://github.com/geeeekexplorer/nano-vllm) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (82) · Freshness: recent (55) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Apr 2026</sub>
+### #&#8288;111 [nano-vllm](https://github.com/geeeekexplorer/nano-vllm) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (82) · Freshness: recent (55) · Maintenance: weak (19) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Apr 2026</sub>
 
 **Minimal vLLM-style inference engine in about 1,200 lines of Python.**
 
@@ -1962,7 +1998,7 @@ Nano-vLLM is a from-scratch reimplementation of vLLM for offline batch inference
 <sub>Needs Hugging Face model weights · Models: Qwen3-0.6B · [Repo](https://github.com/geeeekexplorer/nano-vllm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nano-vllm/)</sub>
 
 <a name="ai-horde"></a>
-### #&#8288;110 [ai-horde](https://github.com/haidra-org/ai-horde) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;112 [ai-horde](https://github.com/haidra-org/ai-horde) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · AGPL-3.0 · Nov 2026</sub>
 
 **Server for a volunteer GPU network serving image and text generation.**
 
@@ -1978,42 +2014,6 @@ AI Horde is the server behind a community-run service where volunteers' GPU work
 - **−** Repository is only the server; workers are separate projects
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, S3-compatible object storage · Models: Stable Diffusion, SDXL, Flux, OpenAI-compatible chat backends, KoboldCpp · [Repo](https://github.com/haidra-org/ai-horde) · [▶️ Demo ↗](https://aihorde.net/generate/image) · [📖 Docs ↗](https://haidra-org.github.io/AI-Horde/) · [🌐 Site ↗](https://aihorde.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-horde/)</sub>
-
-<a name="airunner"></a>
-### #&#8288;111 [airunner](https://github.com/capsize-games/airunner) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (4) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Oct 2026</sub>
-
-**Headless Python service serving local LLM, speech and image models over HTTP.**
-
-AI Runner is a headless daemon with FastAPI HTTP and WebSocket APIs, model workers, runtime orchestration and persistence for other applications to call. It uses llama.cpp and whisper.cpp sidecars for LLM and speech-to-text, and Python extras for image generation and TTS. The earlier Qt desktop app is retired, and several extras currently cannot be resolved from public package indexes.
-
-- **+** Covers LLM, speech-to-text, TTS and image generation in one service
-- **+** Non-loopback binding requires AIRUNNER_API_KEY; default bind is loopback
-- **+** Linux release profile has a hash-locked set of 244 reviewed inputs
-- **+** Provides a /health endpoint and a systemd deployment guide
-- **−** TTS and several other extras cannot be resolved from public indexes
-- **−** airunner-common is not on PyPI; it must come from a GitHub release
-- **−** Requires Python 3.13.3 or newer
-- **−** Desktop UI was retired; headless API only
-
-<sub>Docker + Compose · Needs Python 3.13.3+, llama.cpp sidecar, whisper.cpp sidecar, airunner-common, PyTorch (CUDA 12.9 on Linux profile) · Models: llama.cpp LLMs, whisper.cpp STT, Python TTS, Python image generation · port 8080 · [Repo](https://github.com/capsize-games/airunner) · [🌐 Site ↗](https://capsize.online) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/airunner/)</sub>
-
-<a name="kubeai"></a>
-### #&#8288;112 [kubeai](https://github.com/kubeai-project/kubeai) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (3) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Oct 2026</sub>
-
-**Kubernetes operator and proxy for serving LLMs, embeddings and speech models.**
-
-KubeAI is a Kubernetes operator plus an OpenAI-compatible proxy that runs vLLM, Ollama, Infinity and FasterWhisper servers through a Model CRD. The proxy does prefix-aware load balancing to improve KV cache use, queues requests while models scale from zero, and retries bad backends. The operator handles model downloads, volume mounting and LoRA adapter loading, and ships a catalog of preconfigured models.
-
-- **+** Scale-from-zero without Istio, Knative or a Prometheus metrics adapter
-- **+** Prefix-aware load balancing across vLLM replicas, with a benchmark paper
-- **+** OpenAI-compatible endpoints incl. chat, embeddings, rerank and audio transcription
-- **+** Model catalog preconfigured for common GPU types; runs on CPU, GPU or TPU
-- **−** Requires a Kubernetes cluster; no standalone or single-host mode
-- **−** Original creators are inactive; maintenance rests on three listed maintainers
-- **−** Proxy and operator are co-deployed; independent deployment is only an open issue
-- **−** Tied to engines it wraps: vLLM, Ollama, Infinity, FasterWhisper
-
-<sub>GPU optional · Docker · Needs Kubernetes, Helm · Models: vLLM, Ollama, Infinity, FasterWhisper, LoRA adapters · [Repo](https://github.com/kubeai-project/kubeai) · [📖 Docs ↗](https://www.kubeai.org) · [🌐 Site ↗](https://www.kubeai.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kubeai/)</sub>
 
 <a name="llama2-mojo"></a>
 ### #&#8288;113 [llama2.mojo](https://github.com/tairov/llama2.mojo) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Sep 2026</sub>
@@ -2088,7 +2088,7 @@ RTP-LLM is an LLM inference engine built by Alibaba's Foundation Model Inference
 <sub>GPU required · Models: HuggingFace models, SafeTensors, PyTorch, Megatron, GPTQ · [Repo](https://github.com/alibaba/rtp-llm) · [📖 Docs ↗](https://rtp-llm.ai/build/en/start/install.html) · [🌐 Site ↗](https://rtp-llm.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rtp-llm/)</sub>
 
 <a name="mllm"></a>
-### #&#8288;117 [mllm](https://github.com/ubiquitouslearning/mllm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (12) · Freshness: active (91) · Maintenance: weak (17) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Sep 2026</sub>
+### #&#8288;117 [mllm](https://github.com/ubiquitouslearning/mllm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (11) · Freshness: active (91) · Maintenance: weak (17) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Sep 2026</sub>
 
 **C++ inference engine for running multimodal LLMs on phones and edge devices.**
 
@@ -2142,7 +2142,7 @@ Seldon Core 2 deploys and scales models on Kubernetes, with multi-model serving 
 <sub>Needs Kubernetes, Kafka · [Repo](https://github.com/seldonio/seldon-core) · [📖 Docs ↗](https://docs.seldon.ai/seldon-core-2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/seldon-core/)</sub>
 
 <a name="parallax"></a>
-### #&#8288;120 [parallax](https://github.com/gradienthq/parallax) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (7) · Freshness: recent (70) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;120 [parallax](https://github.com/gradienthq/parallax) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (6) · Freshness: recent (70) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Jul 2026</sub>
 
 **Decentralized LLM inference that shards models across mixed personal devices.**
 
