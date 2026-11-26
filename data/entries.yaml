@@ -18281,7 +18281,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 36
+    score: 37
   - id: xformers
     repo: facebookresearch/xformers
     name: xformers
@@ -23418,7 +23418,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 66
+    score: 67
   - id: opencompass
     repo: open-compass/opencompass
     name: opencompass
@@ -27510,7 +27510,7 @@ entries:
       has_compose: false
       is_template: false
       language: Cuda
-    score: 80
+    score: 81
   - id: clawrouter
     repo: blockrunai/clawrouter
     name: clawrouter
@@ -38018,7 +38018,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 40
+    score: 41
   - id: scriberr
     repo: rishikanthc/scriberr
     name: scriberr
@@ -49944,7 +49944,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 81
+    score: 82
   - id: sketch-code
     repo: ashnkumar/sketch-code
     name: sketch-code
@@ -56383,7 +56383,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 46
+    score: 47
   - id: archestra
     repo: archestra-ai/archestra
     name: archestra
@@ -59845,7 +59845,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 81
+    score: 82
   - id: aurelio-labs-semantic-router
     repo: aurelio-labs/semantic-router
     name: aurelio-labs/semantic-router
@@ -63137,7 +63137,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 41
+    score: 42
   - id: mochi
     repo: genmoai/mochi
     name: mochi
@@ -65160,7 +65160,7 @@ entries:
       has_compose: true
       is_template: false
       language: MDX
-    score: 43
+    score: 44
   - id: langmem
     repo: langchain-ai/langmem
     name: langmem
@@ -68651,7 +68651,7 @@ entries:
       has_compose: false
       is_template: false
       language: Kotlin
-    score: 54
+    score: 55
   - id: lingua-py
     repo: pemistahl/lingua-py
     name: lingua-py
@@ -74446,7 +74446,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 35
+    score: 36
   - id: hunyuanworld-1-0
     repo: tencent-hunyuan/hunyuanworld-1.0
     name: hunyuanworld-1.0
@@ -75535,7 +75535,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 68
+    score: 69
   - id: ai-search-hub
     repo: minsight-ai-info/ai-search-hub
     name: ai-search-hub
@@ -79829,7 +79829,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 43
   - id: founderos
     repo: bennettxai/founderos
     name: founderos
@@ -86650,7 +86650,7 @@ entries:
       has_compose: false
       is_template: false
       language: C++
-    score: 71
+    score: 72
   - id: simplehtr
     repo: githubharald/simplehtr
     name: simplehtr
@@ -88486,7 +88486,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 22
+    score: 23
   - id: fireredasr
     repo: fireredteam/fireredasr
     name: fireredasr
@@ -88534,7 +88534,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 17
+    score: 18
   - id: chai-lab
     repo: chaidiscovery/chai-lab
     name: chai-lab
@@ -89983,7 +89983,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 14
+    score: 15
   - id: starnet
     repo: androoagi/starnet
     name: starnet
@@ -90706,7 +90706,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 59
+    score: 60
   - id: gptdiscord
     repo: kav-k/gptdiscord
     name: gptdiscord
@@ -92650,7 +92650,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 62
+    score: 63
   - id: yue2-studio
     repo: timoncool/yue2-studio
     name: yue2-studio
@@ -97412,7 +97412,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 9
+    score: 10
   - id: call-md
     repo: video-db/call.md
     name: call.md
@@ -102011,7 +102011,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 48
+    score: 49
   - id: geti
     repo: open-edge-platform/geti
     name: geti
@@ -103137,7 +103137,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 45
+    score: 46
   - id: ebook-to-mindmap
     repo: ssshooter/ebook-to-mindmap
     name: ebook-to-mindmap
@@ -104387,7 +104387,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 19
+    score: 20
   - id: gptqmodel
     repo: modelcloud/gptqmodel
     name: gptqmodel
@@ -105168,6 +105168,50 @@ entries:
       is_template: false
       language: Python
     score: 55
+  - id: smac3
+    repo: automl/smac3
+    name: smac3
+    status: listed
+    tagline: Bayesian optimization library for hyperparameter tuning with racing
+    summary: SMAC3 is a Python library that searches for well-performing hyperparameter configurations using Bayesian optimization plus a racing mechanism that decides which of two configurations is better. Version 2 supports multi-objective, multi-fidelity and multi-threaded runs in all facades, with an ask-and-tell interface and resumable runs. Since 2.4.0 the default surrogate is scikit-learn's random forest; the older pyrfr (C++) forest remains optional.
+    categories:
+      - ml-frameworks
+    strengths:
+      - Multi-objective, multi-fidelity and multi-threaded runs supported in all facades since v2
+      - Ask-and-tell interface and ability to resume a run where it stopped
+      - Installs with pip install smac; minimal example is about 20 lines
+      - Runs can be visualized with the separate DeepCAVE tool
+    weaknesses:
+      - v2 removed the command-line interface and runtime optimization; v1.4 is needed for those
+      - pSMAC removed; parallelism is multi-threading via the worker count
+      - Old pyrfr surrogate needs gcc, gxx and swig plus the pyrfr extra
+      - Optimizes a Python target function; no UI or hosted service included
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - ConfigSpace
+        - scikit-learn
+        - pyrfr (optional)
+        - gcc, gxx, swig (for pyrfr only)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://automl.github.io/SMAC3/latest/
+    audience: ML engineers and researchers tuning hyperparameters of Python algorithms
+    confidence: 0.8
+    facts:
+      stars: 1273
+      license: NOASSERTION
+      last_commit: 2026-09-10
+      last_release: 2026-09-10
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 44
   - id: openclaw
     repo: openclaw/openclaw
     name: OpenClaw

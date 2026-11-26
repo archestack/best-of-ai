@@ -2779,26 +2779,8 @@ Deep Chat is a front-end web component (<deep-chat>, installed via npm) that you
 
 <sub>GPU optional · Needs npm · Models: OpenAI, Claude, Open WebUI, LiteLLM, Dify · [Repo](https://github.com/ovidijusparsiunas/deep-chat) · [▶️ Demo ↗](https://deepchat.dev/playground) · [📖 Docs ↗](https://deepchat.dev/docs/connect) · [🌐 Site ↗](https://deepchat.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-chat/)</sub>
 
-<a name="instagram-agent-skill"></a>
-### #&#8288;156 [instagram-agent-skill](https://github.com/jakeschincariol/instagram-agent-skill) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: weak (12) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · MIT · Sep 2026</sub>
-
-**Thirteen Claude skills for writing Instagram Reels, captions, carousels and DMs.**
-
-A set of thirteen Claude skills that draft Instagram content: Reel scripts from 26 hook formulas, captions, carousels, stories, profile rewrites, comments, replies and DMs. Five local Python scripts with no dependencies score hooks, time beat sheets, lint captions, strip AI tells from text and rank outlier reels. Nothing is posted; every skill ends with copy-ready text.
-
-- **+** Five Python tools run locally with no dependencies, no network and no uploads
-- **+** Author publishes measured results: hook scorer AUC 0.83 on bad hooks, 0.56 on winners
-- **+** Caption linter previews the 125-character feed cutoff and enforces the five-hashtag cap
-- **+** Humanizer lexicon in slop.json (154 terms) is editable; installs as skills or plugin
-- **−** Hook scorer barely separates a creator's hits from misses (AUC 0.56)
-- **−** Validated on 74 YouTube Shorts hooks, not Instagram Reels
-- **−** Does not post, comment or DM; you publish everything manually
-- **−** Full tooling needs Claude Code; pasted into plain chat it loses the Python tools
-
-<sub>no GPU · Needs Claude Code, Python 3 · Models: Claude · [Repo](https://github.com/jakeschincariol/instagram-agent-skill) · [🌐 Site ↗](https://opusjake.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/instagram-agent-skill/)</sub>
-
 <a name="openai-kotlin"></a>
-### #&#8288;157 [openai-kotlin](https://github.com/aallam/openai-kotlin) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
+### #&#8288;156 [openai-kotlin](https://github.com/aallam/openai-kotlin) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
 
 **Unofficial Kotlin Multiplatform client for the OpenAI API with coroutines.**
 
@@ -2814,6 +2796,24 @@ A Kotlin library that wraps OpenAI's REST API (responses, chat, embeddings, imag
 - **−** Targets OpenAI's API; the README does not mention other providers
 
 <sub>no GPU · Needs OpenAI API key, Ktor client engine, Gradle · Models: OpenAI API models · [Repo](https://github.com/aallam/openai-kotlin) · [📖 Docs ↗](https://mouaad.aallam.com/openai-kotlin/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai-kotlin/)</sub>
+
+<a name="instagram-agent-skill"></a>
+### #&#8288;157 [instagram-agent-skill](https://github.com/jakeschincariol/instagram-agent-skill) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: weak (12) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · MIT · Sep 2026</sub>
+
+**Thirteen Claude skills for writing Instagram Reels, captions, carousels and DMs.**
+
+A set of thirteen Claude skills that draft Instagram content: Reel scripts from 26 hook formulas, captions, carousels, stories, profile rewrites, comments, replies and DMs. Five local Python scripts with no dependencies score hooks, time beat sheets, lint captions, strip AI tells from text and rank outlier reels. Nothing is posted; every skill ends with copy-ready text.
+
+- **+** Five Python tools run locally with no dependencies, no network and no uploads
+- **+** Author publishes measured results: hook scorer AUC 0.83 on bad hooks, 0.56 on winners
+- **+** Caption linter previews the 125-character feed cutoff and enforces the five-hashtag cap
+- **+** Humanizer lexicon in slop.json (154 terms) is editable; installs as skills or plugin
+- **−** Hook scorer barely separates a creator's hits from misses (AUC 0.56)
+- **−** Validated on 74 YouTube Shorts hooks, not Instagram Reels
+- **−** Does not post, comment or DM; you publish everything manually
+- **−** Full tooling needs Claude Code; pasted into plain chat it loses the Python tools
+
+<sub>no GPU · Needs Claude Code, Python 3 · Models: Claude · [Repo](https://github.com/jakeschincariol/instagram-agent-skill) · [🌐 Site ↗](https://opusjake.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/instagram-agent-skill/)</sub>
 
 <a name="tree-of-thoughts"></a>
 ### #&#8288;158 [tree-of-thoughts](https://github.com/kyegomez/tree-of-thoughts) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (48) · Freshness: recent (70) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Sep 2026</sub>
@@ -3245,26 +3245,8 @@ Julep 3 lets you write agents in Python with a define-by-construction `@flow` de
 
 <sub>no GPU · Needs Temporal (optional), DBOS/Postgres (optional), Kubernetes, Helm, S3 (production deploy), Langfuse (optional) · Models: Anthropic (example), multi-provider via any-llm · [Repo](https://github.com/julep-ai/julep) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/julep/)</sub>
 
-<a name="core"></a>
-### #&#8288;182 [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (35) · Freshness: active (92) · Maintenance: weak (14) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · GPL-3.0 · Jul 2026</sub>
-
-**Python agent framework with a web UI and REST API, built for learning.**
-
-Cheshire Cat AI (Stregatto) is a Python framework for building and studying AI agents, installed with uv and started with the `ccat` command. It serves a web UI on port 1865 and a REST API playground at /docs. The README says it is meant to be easy to understand and extend, mainly for education and research. Version 2 is marked unstable alpha.
-
-- **+** Three-command install with uv, no Docker needed to start
-- **+** Ships a web UI and REST API playground out of the box
-- **+** Documentation site and contributor guide are published
-- **+** Small, readable codebase is the stated design goal
-- **−** Version 2 is unstable alpha with breaking changes expected
-- **−** README advises against production use
-- **−** GPL-3.0 license restricts embedding in closed-source products
-- **−** README lists no supported models, providers or hardware needs
-
-<sub>Needs uv · port 1865 · [Repo](https://github.com/cheshire-cat-ai/core) · [📖 Docs ↗](https://cheshire-cat-ai.github.io/docs/) · [🌐 Site ↗](https://cheshirecat.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/core/)</sub>
-
 <a name="agentdock"></a>
-### #&#8288;183 [agentdock/agentdock](https://github.com/agentdock/agentdock) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (18) · Freshness: active (89) · Maintenance: weak (25) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Jul 2026</sub>
+### #&#8288;182 [agentdock/agentdock](https://github.com/agentdock/agentdock) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (18) · Freshness: active (89) · Maintenance: weak (25) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Jul 2026</sub>
 
 **TypeScript node-based framework for agents with a Next.js reference client.**
 
@@ -3280,6 +3262,24 @@ AgentDock Core is a backend-first TypeScript framework where agents, tools and c
 - **−** Labeled Beta; sandboxed code playground is only planned
 
 <sub>no GPU · Compose · Needs Node.js >= 20.11.0, pnpm >= 9.15.0, LLM provider API key, Serper API key (search tool), Firecrawl API key (deeper web search) · Models: Anthropic, OpenAI, Google Gemini, DeepSeek, Groq · [Repo](https://github.com/agentdock/agentdock) · [▶️ Demo ↗](https://hub.agentdock.ai) · [📖 Docs ↗](https://hub.agentdock.ai/docs) · [🌐 Site ↗](https://agentdock.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentdock/)</sub>
+
+<a name="core"></a>
+### #&#8288;183 [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (35) · Freshness: active (92) · Maintenance: weak (14) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · GPL-3.0 · Jul 2026</sub>
+
+**Python agent framework with a web UI and REST API, built for learning.**
+
+Cheshire Cat AI (Stregatto) is a Python framework for building and studying AI agents, installed with uv and started with the `ccat` command. It serves a web UI on port 1865 and a REST API playground at /docs. The README says it is meant to be easy to understand and extend, mainly for education and research. Version 2 is marked unstable alpha.
+
+- **+** Three-command install with uv, no Docker needed to start
+- **+** Ships a web UI and REST API playground out of the box
+- **+** Documentation site and contributor guide are published
+- **+** Small, readable codebase is the stated design goal
+- **−** Version 2 is unstable alpha with breaking changes expected
+- **−** README advises against production use
+- **−** GPL-3.0 license restricts embedding in closed-source products
+- **−** README lists no supported models, providers or hardware needs
+
+<sub>Needs uv · port 1865 · [Repo](https://github.com/cheshire-cat-ai/core) · [📖 Docs ↗](https://cheshire-cat-ai.github.io/docs/) · [🌐 Site ↗](https://cheshirecat.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/core/)</sub>
 
 <a name="sprix-sage-router"></a>
 ### #&#8288;184 [sprix-sage-router](https://github.com/wang2122/sprix-sage-router) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (39) · Freshness: active (100) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Aug 2026</sub>
@@ -4054,7 +4054,7 @@ Betalgo.Ranul.OpenAI is a C# NuGet package that wraps OpenAI's HTTP API, includi
 <sub>no GPU · Needs OpenAI API key, .NET 9 · Models: OpenAI GPT-4o, OpenAI o1, OpenAI o3-mini · [Repo](https://github.com/betalgo/openai) · [📖 Docs ↗](https://github.com/betalgo/openai/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/betalgo-openai/)</sub>
 
 <a name="autoprompt"></a>
-### #&#8288;227 [autoprompt](https://github.com/eladlev/autoprompt) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: known (34) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;227 [autoprompt](https://github.com/eladlev/autoprompt) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: known (35) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Dec 2025</sub>
 
 **Prompt optimizer that tunes prompts against synthetic edge-case benchmarks.**
 

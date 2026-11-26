@@ -579,7 +579,7 @@ DingoDB is a distributed database written in Java that stores tables and vectors
 <sub>Docker + Compose · Needs Dingo-Store · [Repo](https://github.com/dingodb/dingo) · [📖 Docs ↗](https://dingodb.readthedocs.io/en/latest/) · [🌐 Site ↗](https://www.datacanvas.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dingo/)</sub>
 
 <a name="nmslib"></a>
-### #&#8288;33 [nmslib](https://github.com/nmslib/nmslib) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: known (38) · Freshness: quiet (12) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;33 [nmslib](https://github.com/nmslib/nmslib) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: known (39) · Freshness: quiet (12) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Jan 2026</sub>
 
 **Approximate nearest-neighbor search library for metric and non-metric spaces.**
 

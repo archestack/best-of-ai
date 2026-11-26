@@ -3,13 +3,13 @@
 <h3 align="center">Open-source AI, ranked. 🏆</h3>
 <p align="center">AI apps, agents and models you run, and the parts to build with. Paid never moves a rank.</p>
 <p align="center">
-  <img alt="projects" src="https://img.shields.io/badge/2351_projects-ff6b6b?style=for-the-badge" />
+  <img alt="projects" src="https://img.shields.io/badge/2352_projects-ff6b6b?style=for-the-badge" />
   <img alt="stars" src="https://img.shields.io/badge/27.7M_stars_combined-ffd166?style=for-the-badge" />
   <img alt="categories" src="https://img.shields.io/badge/21_categories-5ac4bf?style=for-the-badge" />
   <img alt="updated" src="https://img.shields.io/badge/updated-2026--11--26-8ac926?style=for-the-badge" />
 </p>
 
-<p align="center">Best of Open-Source AI is a ranked list of 2,351 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-26 (UTC).</sub></p>
+<p align="center">Best of Open-Source AI is a ranked list of 2,352 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-26 (UTC).</sub></p>
 
 > [!TIP]
 > 🔎 **Every project fact-checked** on GitHub before it is listed &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; ▶️ **Demo links** so you can try before you deploy
@@ -23,7 +23,7 @@
 
 ## 🔥 Top 10 right now
 
-<sub>2351 projects ranked in 21 categories · data from 2026-11-26 · re-ranked twice a day</sub>
+<sub>2352 projects ranked in 21 categories · data from 2026-11-26 · re-ranked twice a day</sub>
 
 <sub>**How to read it:** rank 🥇🥈🥉 then #&#8288;4, #&#8288;5… (equal scores: more stars first) · ▲▼ places moved in the last month, 🆕 new this month · score out of 100 sets the order: hover it to see what it is made of, or read [how we rank](#-how-we-rank) · click a project name for its review · ↗ opens another site (Cmd/Ctrl-click for a new tab)</sub>
 
@@ -137,7 +137,7 @@
 - 🧠 [Model serving](#-model-serving) · 123
 - 🧬 [Open models](#-open-models) · 168
 - 🏋️ [Training and fine-tuning](#%EF%B8%8F-training-and-fine-tuning) · 116
-- 🔬 [ML frameworks and libraries](#-ml-frameworks-and-libraries) · 393
+- 🔬 [ML frameworks and libraries](#-ml-frameworks-and-libraries) · 394
 - 🔀 [Gateways and observability](#-gateways-and-observability) · 78
 - 🧮 [Vector databases](#-vector-databases) · 33
 - 🛡️ [Sandboxes](#%EF%B8%8F-sandboxes) · 25
@@ -581,7 +581,7 @@ Tools to fine-tune, train or distill models on your own data and GPUs, from LoRA
 
 ## 🔬 ML frameworks and libraries
 
-The libraries models are built and run with: tensor frameworks, model zoos and the tooling around them. <sub>393 ranked · [📝 all reviews](reviews/ml-frameworks.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/ml-frameworks/)</sub>
+The libraries models are built and run with: tensor frameworks, model zoos and the tooling around them. <sub>394 ranked · [📝 all reviews](reviews/ml-frameworks.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/ml-frameworks/)</sub>
 
 **ultralytics leads with 95**, ahead of pytorch-image-models (95) and transformers (94).
 
@@ -598,7 +598,7 @@ The libraries models are built and run with: tensor frameworks, model zoos and t
 | #&#8288;9 | ▲3 | **[onnx](reviews/ml-frameworks.md#onnx "Review: strengths, weaknesses, specs")**<br><sub>Open model format and operator spec for exchanging ML models between frameworks</sub><br><sub>Apache-2.0 · [📖 Docs ↗](https://onnx.ai/onnx/) · [🌐 Site ↗](https://onnx.ai)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 22k |
 | #&#8288;10 | ▲6 | **[burn](reviews/ml-frameworks.md#burn "Review: strengths, weaknesses, specs")**<br><sub>Rust tensor library and deep learning framework for training and inference</sub><br><sub>Apache-2.0 · GPU optional · [📖 Docs ↗](https://burn.dev/docs/burn) · [🌐 Site ↗](https://burn.dev)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 16k |
 
-<sub>Top 10 of 393. [See all 393, ranked, with reviews →](reviews/ml-frameworks.md)</sub>
+<sub>Top 10 of 394. [See all 394, ranked, with reviews →](reviews/ml-frameworks.md)</sub>
 
 <details><summary>💡 How to choose</summary>
 

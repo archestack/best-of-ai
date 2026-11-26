@@ -592,8 +592,26 @@ Wraps OpenAI Whisper, faster-whisper or WhisperX behind a REST API on port 9000,
 
 <sub>GPU optional · Docker + Compose · Needs Docker, FFmpeg · Models: openai/whisper, faster-whisper, whisperX · port 9000 · [Repo](https://github.com/ahmetoner/whisper-asr-webservice) · [📖 Docs ↗](https://ahmetoner.github.io/whisper-asr-webservice) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisper-asr-webservice/)</sub>
 
+<a name="transcribe-cpp"></a>
+### #&#8288;34 [transcribe.cpp](https://github.com/handy-computer/transcribe.cpp) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+
+**C++ speech-to-text library running many ASR models from GGUF files.**
+
+transcribe.cpp is a C/C++ inference library and CLI for speech-to-text. It loads GGUF models from 16 families (Whisper, Parakeet, Canary, Moonshine, Qwen3-ASR, Voxtral and others) on the ggml runtime, with Metal, Vulkan, CUDA and HIP/ROCm backends plus a tinyBLAS CPU path. It also covers diarization, language ID and VAD models, with Python, TypeScript, Rust and Swift bindings.
+
+- **+** Covers 16 ASR families and 60+ variants through one C API and CLI
+- **+** GPU backends for Metal, Vulkan, CUDA and ROCm, plus a CPU path
+- **+** Published models are WER-tested against reference implementations, per the README
+- **+** Official bindings for Python, TypeScript, Rust and Swift; includes a quantization tool
+- **−** Input must be 16 kHz mono WAV; other formats need ffmpeg or sox first
+- **−** Built from source with CMake; no Docker image or prebuilt binaries described
+- **−** No HTTP server or UI described; it is a library and CLI
+- **−** Converter script is documented only for NeMo checkpoints (Parakeet)
+
+<sub>GPU optional · Needs CMake, OpenBLAS (optional), Vulkan SDK, CUDA toolkit or ROCm (optional), ffmpeg or sox (audio conversion) · Models: GGUF, Whisper, Parakeet, Canary, Moonshine · [Repo](https://github.com/handy-computer/transcribe.cpp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/transcribe-cpp/)</sub>
+
 <a name="whisperjav"></a>
-### #&#8288;34 [whisperjav](https://github.com/meizhong986/whisperjav) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Nov 2026</sub>
+### #&#8288;35 [whisperjav](https://github.com/meizhong986/whisperjav) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Nov 2026</sub>
 
 **Local subtitle generator for Japanese video with scene, VAD and ASR pipelines.**
 
@@ -611,7 +629,7 @@ WhisperJAV turns Japanese adult video audio into SRT or WebVTT subtitles on your
 <sub>GPU optional · Needs FFmpeg, Ollama (optional, for translation) · Models: Faster-Whisper, OpenAI Whisper, Qwen3-ASR, anime-whisper, HuggingFace Whisper/Kotoba · [Repo](https://github.com/meizhong986/whisperjav) · [📖 Docs ↗](https://meizhong986.github.io/WhisperJAV/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisperjav/)</sub>
 
 <a name="yovoice"></a>
-### #&#8288;35 [yovoice](https://github.com/leemysw/yovoice) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;36 [yovoice](https://github.com/leemysw/yovoice) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Nov 2026</sub>
 
 **Desktop studio for local speech, voice cloning, song and score generation.**
 
@@ -627,24 +645,6 @@ yovoice is a desktop app for macOS, Windows and Linux that generates speech, clo
 - **−** Hardware requirements per model are deferred to a separate doc, not the README
 
 <sub>GPU optional · Docker · Needs audio.cpp, WebView2 Runtime (Windows), WebKitGTK 4.1 (Linux) · Models: IndexTTS 2.0/2.5, Qwen3-TTS, VoxCPM2, Kokoro-82M, XTTS v2 · [Repo](https://github.com/leemysw/yovoice) · [📖 Docs ↗](https://github.com/leemysw/yovoice/blob/main/docs/cli.md) · [🌐 Site ↗](https://yovoice.leemysw.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yovoice/)</sub>
-
-<a name="transcribe-cpp"></a>
-### #&#8288;36 [transcribe.cpp](https://github.com/handy-computer/transcribe.cpp) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
-
-**C++ speech-to-text library running many ASR models from GGUF files.**
-
-transcribe.cpp is a C/C++ inference library and CLI for speech-to-text. It loads GGUF models from 16 families (Whisper, Parakeet, Canary, Moonshine, Qwen3-ASR, Voxtral and others) on the ggml runtime, with Metal, Vulkan, CUDA and HIP/ROCm backends plus a tinyBLAS CPU path. It also covers diarization, language ID and VAD models, with Python, TypeScript, Rust and Swift bindings.
-
-- **+** Covers 16 ASR families and 60+ variants through one C API and CLI
-- **+** GPU backends for Metal, Vulkan, CUDA and ROCm, plus a CPU path
-- **+** Published models are WER-tested against reference implementations, per the README
-- **+** Official bindings for Python, TypeScript, Rust and Swift; includes a quantization tool
-- **−** Input must be 16 kHz mono WAV; other formats need ffmpeg or sox first
-- **−** Built from source with CMake; no Docker image or prebuilt binaries described
-- **−** No HTTP server or UI described; it is a library and CLI
-- **−** Converter script is documented only for NeMo checkpoints (Parakeet)
-
-<sub>GPU optional · Needs CMake, OpenBLAS (optional), Vulkan SDK, CUDA toolkit or ROCm (optional), ffmpeg or sox (audio conversion) · Models: GGUF, Whisper, Parakeet, Canary, Moonshine · [Repo](https://github.com/handy-computer/transcribe.cpp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/transcribe-cpp/)</sub>
 
 <a name="faster-whisper"></a>
 ### #&#8288;37 [faster-whisper](https://github.com/systran/faster-whisper) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (90) · Freshness: active (82) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · MIT · Nov 2026</sub>
@@ -1131,7 +1131,7 @@ OpenReader is a Next.js document reader that narrates EPUB, PDF, TXT, MD and DOC
 <sub>GPU optional · Docker · Needs NATS JetStream, SeaweedFS or S3-compatible storage, SQLite or Postgres · Models: Kokoro, KittenTTS, Orpheus, Supertonic, OpenAI TTS · [Repo](https://github.com/richardr1126/openreader) · [📖 Docs ↗](https://docs.openreader.richardr.dev/) · [🌐 Site ↗](https://openreader.richardr.dev/download) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openreader/)</sub>
 
 <a name="sensevoice"></a>
-### #&#8288;64 [sensevoice](https://github.com/qwenaudio/sensevoice) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Sep 2026</sub>
+### #&#8288;64 [sensevoice](https://github.com/qwenaudio/sensevoice) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Sep 2026</sub>
 
 **Multilingual speech recognition model with emotion and audio-event tags.**
 
@@ -2439,26 +2439,8 @@ Takes an existing SRT subtitle file, translates it with Google Cloud or DeepL, t
 
 <sub>no GPU · Needs ffmpeg, Google Cloud, Azure, DeepL or Eleven Labs API keys, rubberband (optional) · Models: Azure TTS, Google Cloud TTS, Eleven Labs, Google Translate, DeepL · [Repo](https://github.com/thiojoe/auto-synced-translated-dubs) · [📖 Docs ↗](https://github.com/ThioJoe/Auto-Synced-Translated-Dubs/wiki/Instructions:-Obtaining-an-API-Key) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/auto-synced-translated-dubs/)</sub>
 
-<a name="whisper-webui"></a>
-### #&#8288;137 [whisper-webui](https://github.com/jhj0517/whisper-webui) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: known (36) · Freshness: quiet (20) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Dec 2025</sub>
-
-**Gradio web UI for generating subtitles with Whisper models.**
-
-Whisper-WebUI is a Gradio browser interface that transcribes audio from files, YouTube or a microphone and exports SRT, WebVTT or plain txt. It can run openai/whisper, faster-whisper (the default) or insanely-fast-whisper, and adds optional Silero VAD, UVR background-music separation and pyannote speaker diarization. Subtitles can be translated with NLLB models or the DeepL API.
-
-- **+** Switches between openai/whisper, faster-whisper and insanely-fast-whisper backends
-- **+** Optional VAD, BGM separation and diarization steps before and after transcription
-- **+** Subtitle translation via local NLLB models or the DeepL API
-- **+** Install paths: Pinokio, Docker Compose, install scripts, plus a FastAPI backend
-- **−** Real-time microphone transcription is still an unchecked TODO
-- **−** Default requirements assume Nvidia CUDA 12.8; other devices need manual edits
-- **−** Diarization needs a Hugging Face token and manually accepted model terms
-- **−** Docker image is about 7GB; CLI usage is still on the TODO list
-
-<sub>GPU optional · Docker + Compose · Needs FFmpeg, Python 3.10-3.12, Hugging Face token (diarization), DeepL API key (optional translation) · Models: openai/whisper, faster-whisper, insanely-fast-whisper, NLLB, pyannote · port 7860 · [Repo](https://github.com/jhj0517/whisper-webui) · [▶️ Demo ↗](https://colab.research.google.com/github/jhj0517/Whisper-WebUI/blob/master/notebook/whisper-webui.ipynb) · [📖 Docs ↗](https://github.com/jhj0517/Whisper-WebUI/wiki/Command-Line-Arguments) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisper-webui/)</sub>
-
 <a name="fireredasr"></a>
-### #&#8288;138 [fireredasr](https://github.com/fireredteam/fireredasr) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (25) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;137 [fireredasr](https://github.com/fireredteam/fireredasr) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (25) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Feb 2026</sub>
 
 **Mandarin, dialect and English speech recognition models with Python inference code.**
 
@@ -2474,6 +2456,24 @@ FireRedASR provides two speech recognition models, an 1.1B attention encoder-dec
 - **−** Manual setup: download weights, symlink Qwen2-7B-Instruct, set PATH and PYTHONPATH, convert audio with ffmpeg
 
 <sub>Needs Python 3.10, ffmpeg, Qwen2-7B-Instruct (for LLM variant), Hugging Face model weights · Models: FireRedASR-AED-L, FireRedASR-LLM-L, Qwen2-7B-Instruct · [Repo](https://github.com/fireredteam/fireredasr) · [▶️ Demo ↗](https://huggingface.co/spaces/FireRedTeam/FireRedASR) · [🌐 Site ↗](https://fireredteam.github.io/demos/firered_asr/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fireredasr/)</sub>
+
+<a name="whisper-webui"></a>
+### #&#8288;138 [whisper-webui](https://github.com/jhj0517/whisper-webui) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: known (36) · Freshness: quiet (20) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Dec 2025</sub>
+
+**Gradio web UI for generating subtitles with Whisper models.**
+
+Whisper-WebUI is a Gradio browser interface that transcribes audio from files, YouTube or a microphone and exports SRT, WebVTT or plain txt. It can run openai/whisper, faster-whisper (the default) or insanely-fast-whisper, and adds optional Silero VAD, UVR background-music separation and pyannote speaker diarization. Subtitles can be translated with NLLB models or the DeepL API.
+
+- **+** Switches between openai/whisper, faster-whisper and insanely-fast-whisper backends
+- **+** Optional VAD, BGM separation and diarization steps before and after transcription
+- **+** Subtitle translation via local NLLB models or the DeepL API
+- **+** Install paths: Pinokio, Docker Compose, install scripts, plus a FastAPI backend
+- **−** Real-time microphone transcription is still an unchecked TODO
+- **−** Default requirements assume Nvidia CUDA 12.8; other devices need manual edits
+- **−** Diarization needs a Hugging Face token and manually accepted model terms
+- **−** Docker image is about 7GB; CLI usage is still on the TODO list
+
+<sub>GPU optional · Docker + Compose · Needs FFmpeg, Python 3.10-3.12, Hugging Face token (diarization), DeepL API key (optional translation) · Models: openai/whisper, faster-whisper, insanely-fast-whisper, NLLB, pyannote · port 7860 · [Repo](https://github.com/jhj0517/whisper-webui) · [▶️ Demo ↗](https://colab.research.google.com/github/jhj0517/Whisper-WebUI/blob/master/notebook/whisper-webui.ipynb) · [📖 Docs ↗](https://github.com/jhj0517/Whisper-WebUI/wiki/Command-Line-Arguments) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisper-webui/)</sub>
 
 <a name="chattts-colab"></a>
 ### #&#8288;139 [chattts_colab](https://github.com/6drf21e/chattts_colab) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: known (34) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.6k · no license · May 2026</sub>

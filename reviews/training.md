@@ -1024,7 +1024,7 @@ ROLL is an Alibaba library for reinforcement learning on large language models, 
 <sub>GPU required · Docker · Needs Ray, vLLM, SGLang, Megatron-Core, FSDP2 · Models: Qwen2.5, Qwen3, Qwen3-MoE, Qwen3-Next, Qwen3.5 · [Repo](https://github.com/alibaba/roll) · [📖 Docs ↗](https://alibaba.github.io/ROLL/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/roll/)</sub>
 
 <a name="microduck-rl"></a>
-### #&#8288;58 [microduck_rl](https://github.com/pollen-robotics/microduck_rl) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (38) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;58 [microduck_rl](https://github.com/pollen-robotics/microduck_rl) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (39) · Freshness: active (100) · Maintenance: patchy (38) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
 
 **PPO training environments for the Microduck biped robot.**
 

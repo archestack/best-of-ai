@@ -755,7 +755,7 @@ DataTrove is a Python library for building pipelines that read, extract, filter,
 <sub>GPU optional · Needs Slurm (optional), Ray (optional), fsspec, S3 (optional) · [Repo](https://github.com/huggingface/datatrove) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/datatrove/)</sub>
 
 <a name="new-term-radar"></a>
-### #&#8288;43 [new-term-radar](https://github.com/zhuyansen/new-term-radar) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+### #&#8288;43 [new-term-radar](https://github.com/zhuyansen/new-term-radar) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
 
 **Daily report of new AI model, tool and repo names, with keyword demand.**
 
