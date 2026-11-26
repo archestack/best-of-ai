@@ -41,7 +41,7 @@ Open WebUI is a self-hosted chat front-end for Ollama and any OpenAI-compatible 
 <sub>GPU optional · Docker + Compose · Needs Ollama or OpenAI-compatible API, Docker (optional), PostgreSQL (optional), Redis (optional) · Models: Ollama, OpenAI-compatible APIs, vLLM, LMStudio, GroqCloud · port 8080 · [Repo](https://github.com/open-webui/open-webui) · [📖 Docs ↗](https://docs.openwebui.com/) · [🌐 Site ↗](https://openwebui.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-webui/)</sub>
 
 <a name="lobehub"></a>
-### 🥉 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · custom license · Nov 2026</sub>
+### 🥉 [LobeHub](https://github.com/lobehub/lobehub) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 86k · custom license · Nov 2026</sub>
 
 **Multi-agent chat workspace connected to team IM apps and 40+ model providers.**
 
@@ -435,8 +435,26 @@ SQL Chat is a Next.js web app that connects to MySQL, PostgreSQL, MSSQL, TiDB Cl
 
 <sub>no GPU · Docker · Needs OpenAI API or compatible endpoint, PostgreSQL (optional, for accounts and quotas) · Models: OpenAI API, Ollama (via OPENAI_API_ENDPOINT) · port 3000 · [Repo](https://github.com/sqlchat/sqlchat) · [▶️ Demo ↗](https://sqlchat.ai) · [🌐 Site ↗](https://sqlchat.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sqlchat/)</sub>
 
+<a name="bedrock-chat"></a>
+### #&#8288;25 [bedrock-chat](https://github.com/aws-samples/bedrock-chat) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT-0 · Nov 2026</sub>
+
+**Multi-user chat app on Amazon Bedrock with RAG bots and agents.**
+
+Bedrock Chat is a React and FastAPI chat application deployed to your AWS account with CDK. It talks to Amazon Bedrock models (Claude, Nova, Mistral, Llama, DeepSeek), lets approved users build custom bots backed by Bedrock Knowledge Bases, share them in a bot store, and publish them as APIs. Agents can call external tools and split tasks into steps.
+
+- **+** Runs entirely on AWS managed services; model calls stay inside AWS via Bedrock
+- **+** Cognito auth with WAF IP limits, signup email-domain allowlist and self-signup toggle
+- **+** Custom RAG bots can be shared in a bot store or published as standalone APIs
+- **+** Multi-tenant mode shares one Knowledge Base across bots, avoiding the 100-per-account limit
+- **−** Locked to AWS and Bedrock; no local models or other providers
+- **−** No Docker or compose setup; deployment is through CodeBuild or CDK
+- **−** Initial deployment takes about 35 minutes
+- **−** V2 to V3 upgrade makes existing V2 bots unusable without following the migration guide
+
+<sub>no GPU · Needs AWS account, Amazon Bedrock, Amazon Cognito, DynamoDB, Lambda and API Gateway, CloudFront and S3, OpenSearch Serverless, Bedrock Knowledge Bases · Models: Claude, Amazon Nova, Mistral, DeepSeek R1, Meta Llama · [Repo](https://github.com/aws-samples/bedrock-chat) · [📖 Docs ↗](https://github.com/aws-samples/bedrock-chat/blob/v3/docs/ADMINISTRATOR.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bedrock-chat/)</sub>
+
 <a name="chuanhuchatgpt"></a>
-### #&#8288;25 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (77) · Freshness: recent (76) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
+### #&#8288;26 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (77) · Freshness: recent (76) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
 
 **Gradio web chat UI for OpenAI, Claude, Gemini, DeepSeek and local LLMs.**
 
@@ -454,7 +472,7 @@ Chuanhu Chat is a Python and Gradio web interface for hosted APIs (OpenAI, Azure
 <sub>GPU optional · Docker · Needs Python, Gradio, API keys for hosted providers · Models: OpenAI, Azure OpenAI, Google Gemini, Claude, DeepSeek · [Repo](https://github.com/gaizhenbiao/chuanhuchatgpt) · [▶️ Demo ↗](https://huggingface.co/spaces/JohnSmith9982/ChuanhuChatGPT) · [📖 Docs ↗](https://github.com/GaiZhenbiao/ChuanhuChatGPT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chuanhuchatgpt/)</sub>
 
 <a name="better-chatbot"></a>
-### #&#8288;26 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+### #&#8288;27 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
 
 **Self-hosted chat UI with agents, MCP tools, workflows and pgvector document search.**
 
@@ -471,7 +489,7 @@ keinsaas Navigator Community Edition (formerly better-chatbot) is a Next.js chat
 <sub>no GPU · Docker + Compose · Needs Postgres with pgvector, Vercel AI Gateway (AI_GATEWAY_API_KEY), Supabase (file uploads, optional), Redis (optional), Inngest (optional), E2B (optional), Exa (optional), AssemblyAI (optional), Composio (optional) · Models: Vercel AI Gateway (Anthropic, OpenAI, Google, Mistral, xAI, DeepSeek, Moonshot), Ollama, LM Studio, OpenAI-compatible endpoints, TensorX · port 3000 · [Repo](https://github.com/keinsaasforever/better-chatbot) · [📖 Docs ↗](https://github.com/keinsaasforever/better-chatbot/blob/main/docs/self-hosting.md) · [🌐 Site ↗](https://keinsaas.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/better-chatbot/)</sub>
 
 <a name="g0dm0d3"></a>
-### #&#8288;27 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (73) · Freshness: active (84) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · AGPL-3.0 · Jul 2026</sub>
+### #&#8288;28 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (73) · Freshness: active (84) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · AGPL-3.0 · Jul 2026</sub>
 
 **Browser chat UI that races many models and scores their responses.**
 
@@ -489,7 +507,7 @@ G0DM0D3 is a single-file HTML chat interface that sends one prompt to many model
 <sub>GPU optional · Docker + Compose · Needs OpenRouter, Venice, Ollama, Cloudflare Pages (telemetry), Hugging Face (telemetry) · Models: OpenRouter models, Venice models, OpenAI-compatible local servers, Ollama, LM Studio · port 8000 · [Repo](https://github.com/elder-plinius/g0dm0d3) · [▶️ Demo ↗](https://godmod3.ai) · [📖 Docs ↗](https://github.com/elder-plinius/G0DM0D3/blob/main/API.md) · [🌐 Site ↗](https://godmod3.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/g0dm0d3/)</sub>
 
 <a name="lollms-webui"></a>
-### #&#8288;28 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (47) · Freshness: recent (70) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;29 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (47) · Freshness: recent (70) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
 
 **Web UI for chatting with local and API LLMs, plus image and music generation.**
 
@@ -507,7 +525,7 @@ LoLLMs WebUI is a Python web interface that connects to many LLM backends (GGUF,
 <sub>GPU optional · Docker + Compose · Needs Python 3.11, git submodules · Models: GGUF/GGML, ExLlamaV2, Hugging Face, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
 
 <a name="ptero"></a>
-### #&#8288;29 [ptero](https://github.com/ptero-ai/ptero) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;30 [ptero](https://github.com/ptero-ai/ptero) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
 
 **WordPress plugin that embeds a multi-model AI chat interface via shortcode.**
 
@@ -525,7 +543,7 @@ Ptero is a PHP and JavaScript chat front-end that lets users pick between severa
 <sub>no GPU · Needs WordPress, PHP, hosted model API (ModelRunner, minirouter) · [Repo](https://github.com/ptero-ai/ptero) · [▶️ Demo ↗](https://ptero.pro) · [📖 Docs ↗](https://docs.ptero.pro/) · [🌐 Site ↗](https://ptero.pro) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ptero/)</sub>
 
 <a name="claraverse"></a>
-### #&#8288;30 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (38) · Freshness: active (94) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
+### #&#8288;31 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (38) · Freshness: active (94) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
 
 **Private AI workspace with chat, agent crews, workflows and Telegram.**
 
@@ -541,24 +559,6 @@ ClaraVerse is a Go and React workspace (Docker Compose, port 3000) that auto-det
 - **−** Conversations live in browser IndexedDB by default; sync is optional
 
 <sub>RAM ≥ 4 GB · Docker + Compose · Needs MySQL, MongoDB, Redis, SearXNG, Qdrant (knowledge bases) · Models: Ollama, LM Studio, llama.cpp, OpenAI, Anthropic · port 3000 · [Repo](https://github.com/claraverse-space/claraverse) · [🌐 Site ↗](https://claraverse.space) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/claraverse/)</sub>
-
-<a name="bedrock-chat"></a>
-### #&#8288;31 [bedrock-chat](https://github.com/aws-samples/bedrock-chat) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (4) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT-0 · Oct 2026</sub>
-
-**Multi-user chat app on Amazon Bedrock with RAG bots and agents.**
-
-Bedrock Chat is a React and FastAPI chat application deployed to your AWS account with CDK. It talks to Amazon Bedrock models (Claude, Nova, Mistral, Llama, DeepSeek), lets approved users build custom bots backed by Bedrock Knowledge Bases, share them in a bot store, and publish them as APIs. Agents can call external tools and split tasks into steps.
-
-- **+** Runs entirely on AWS managed services; model calls stay inside AWS via Bedrock
-- **+** Cognito auth with WAF IP limits, signup email-domain allowlist and self-signup toggle
-- **+** Custom RAG bots can be shared in a bot store or published as standalone APIs
-- **+** Multi-tenant mode shares one Knowledge Base across bots, avoiding the 100-per-account limit
-- **−** Locked to AWS and Bedrock; no local models or other providers
-- **−** No Docker or compose setup; deployment is through CodeBuild or CDK
-- **−** Initial deployment takes about 35 minutes
-- **−** V2 to V3 upgrade makes existing V2 bots unusable without following the migration guide
-
-<sub>no GPU · Needs AWS account, Amazon Bedrock, Amazon Cognito, DynamoDB, Lambda and API Gateway, CloudFront and S3, OpenSearch Serverless, Bedrock Knowledge Bases · Models: Claude, Amazon Nova, Mistral, DeepSeek R1, Meta Llama · [Repo](https://github.com/aws-samples/bedrock-chat) · [📖 Docs ↗](https://github.com/aws-samples/bedrock-chat/blob/v3/docs/ADMINISTRATOR.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bedrock-chat/)</sub>
 
 <a name="gpt-academic"></a>
 ### #&#8288;32 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (93) · Freshness: quiet (15) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · GPL-3.0 · Jan 2026</sub>

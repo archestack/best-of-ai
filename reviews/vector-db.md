@@ -23,7 +23,7 @@ Milvus is a distributed vector database (Go and C++, LF AI & Data Foundation) th
 <sub>GPU optional · Compose · Compose runs Milvus, MinIO · Models: any embedding model or service; pymilvus[model] wraps embedding and reranking models · [Repo](https://github.com/milvus-io/milvus) · [▶️ Demo ↗](https://milvus.io/milvus-demos) · [📖 Docs ↗](https://milvus.io/docs) · [🌐 Site ↗](https://milvus.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/milvus/)</sub>
 
 <a name="qdrant"></a>
-### 🥈 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Nov 2026</sub>
+### 🥈 [Qdrant](https://github.com/qdrant/qdrant) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Nov 2026</sub>
 
 **Rust vector database with payload filtering, REST and gRPC.**
 
@@ -146,26 +146,8 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weaviate/)</sub>
 
-<a name="lance"></a>
-### #&#8288;9 [lance-format/lance](https://github.com/lance-format/lance) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
-
-**Columnar table format for multimodal AI data with vector and full-text search.**
-
-Lance is a file format, table format and catalog spec written in Rust, with Python (pylance) and Java bindings. It stores images, video, audio, text and embeddings in one dataset on local disk or object storage, with IVF_PQ vector indices, BM25 full-text search and versioned tables with time travel. It integrates with Arrow, Pandas, Polars, DuckDB, Spark, Ray, Trino and Flink.
-
-- **+** Vector, BM25 full-text and SQL queries run on the same dataset with secondary indices
-- **+** Reads and writes S3, Azure, GCS, Hugging Face Hub and other stores by URI scheme
-- **+** Adds columns with backfilled values without rewriting the whole table
-- **+** Built-in ACID versioning with tags, branches and time travel
-- **−** Library and format, not a server; the README shows no network query API
-- **−** Only stable data_storage_version values carry a compatibility guarantee; next is unstable
-- **−** Mixed Lance versions require pinning data_storage_version for deterministic writes
-- **−** Performance claims such as 100x vs Parquet come from the project's own benchmarks
-
-<sub>Compose · [Repo](https://github.com/lance-format/lance) · [📖 Docs ↗](https://lance.org) · [🌐 Site ↗](https://lance.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lance/)</sub>
-
 <a name="zvec"></a>
-### #&#8288;10 [zvec](https://github.com/alibaba/zvec) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [zvec](https://github.com/alibaba/zvec) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **In-process vector database with dense, sparse, full-text and hybrid search.**
 
@@ -181,6 +163,24 @@ Zvec is a C++ vector database that embeds into the application process as a libr
 - **−** Benchmark figures live only in linked docs and a chart, not in the README text
 
 <sub>no GPU · Models: dense embeddings, sparse embeddings · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
+
+<a name="lance"></a>
+### #&#8288;10 [lance-format/lance](https://github.com/lance-format/lance) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
+
+**Columnar table format for multimodal AI data with vector and full-text search.**
+
+Lance is a file format, table format and catalog spec written in Rust, with Python (pylance) and Java bindings. It stores images, video, audio, text and embeddings in one dataset on local disk or object storage, with IVF_PQ vector indices, BM25 full-text search and versioned tables with time travel. It integrates with Arrow, Pandas, Polars, DuckDB, Spark, Ray, Trino and Flink.
+
+- **+** Vector, BM25 full-text and SQL queries run on the same dataset with secondary indices
+- **+** Reads and writes S3, Azure, GCS, Hugging Face Hub and other stores by URI scheme
+- **+** Adds columns with backfilled values without rewriting the whole table
+- **+** Built-in ACID versioning with tags, branches and time travel
+- **−** Library and format, not a server; the README shows no network query API
+- **−** Only stable data_storage_version values carry a compatibility guarantee; next is unstable
+- **−** Mixed Lance versions require pinning data_storage_version for deterministic writes
+- **−** Performance claims such as 100x vs Parquet come from the project's own benchmarks
+
+<sub>Compose · [Repo](https://github.com/lance-format/lance) · [📖 Docs ↗](https://lance.org) · [🌐 Site ↗](https://lance.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lance/)</sub>
 
 <a name="infinity"></a>
 ### #&#8288;11 [infiniflow/infinity](https://github.com/infiniflow/infinity) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
@@ -579,7 +579,7 @@ DingoDB is a distributed database written in Java that stores tables and vectors
 <sub>Docker + Compose · Needs Dingo-Store · [Repo](https://github.com/dingodb/dingo) · [📖 Docs ↗](https://dingodb.readthedocs.io/en/latest/) · [🌐 Site ↗](https://www.datacanvas.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dingo/)</sub>
 
 <a name="nmslib"></a>
-### #&#8288;33 [nmslib](https://github.com/nmslib/nmslib) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: known (39) · Freshness: quiet (12) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;33 [nmslib](https://github.com/nmslib/nmslib) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: known (39) · Freshness: quiet (12) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Jan 2026</sub>
 
 **Approximate nearest-neighbor search library for metric and non-metric spaces.**
 
