@@ -22,7 +22,7 @@ n8n is a node-based canvas for building workflows and multi-step AI agents, with
 <sub>no GPU · Needs Docker · Models: OpenAI, Anthropic, Google, open-source models · port 5678 · [Repo](https://github.com/n8n-io/n8n) · [📖 Docs ↗](https://docs.n8n.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/n8n/)</sub>
 
 <a name="activepieces"></a>
-### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Nov 2026</sub>
+### 🥈 [Activepieces](https://github.com/activepieces/activepieces) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · custom license · Nov 2026</sub>
 
 **Self-hosted workflow automation with TypeScript integrations, alternative to Zapier.**
 
@@ -57,7 +57,7 @@ Node.js app that runs a YouTube channel pipeline on your own machine: topic rese
 <sub>no GPU · Needs Node.js 18.17+, YouTube Data API v3 credentials, Playwright Chromium, ffmpeg-static, text provider API key · Models: Gemini, OpenAI, OpenRouter, Kimi, MiMo · port 3456 · [Repo](https://github.com/darkzogx/youtube-automation-agent) · [📖 Docs ↗](https://github.com/darkzOGx/youtube-automation-agent/blob/HEAD/docs/features.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/youtube-automation-agent/)</sub>
 
 <a name="openoutreach"></a>
-### #&#8288;4 [openoutreach](https://github.com/eracle/openoutreach) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;4 [openoutreach](https://github.com/eracle/openoutreach) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Nov 2026</sub>
 
 **CLI that finds B2B leads from a product description and emails them.**
 
