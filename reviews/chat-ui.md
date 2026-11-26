@@ -5,7 +5,7 @@ Web front-ends for local or API models, usually with user accounts, chat history
 <sub>🌐 Also on the web: [Chat UIs on archestack.com](https://archestack.com/best-of-ai/chat-ui/), each project on its own page.</sub>
 
 <a name="onyx"></a>
-### 🥇 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Nov 2026</sub>
+### 🥇 [Onyx](https://github.com/onyx-dot-app/onyx) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Nov 2026</sub>
 
 **Team knowledge search and chat that indexes 50+ connected apps with permissions.**
 
@@ -58,8 +58,26 @@ LobeHub is a TypeScript (Next.js plus Vite SPA) web app for running agents and a
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL, Redis, RustFS, SearXNG · Models: 40+ providers, local models · port 3210 · [Repo](https://github.com/lobehub/lobehub) · [📖 Docs ↗](https://lobehub.com/docs/usage/start) · [🌐 Site ↗](https://lobehub.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lobehub/)</sub>
 
+<a name="assistant-ui"></a>
+### #&#8288;4 [assistant-ui](https://github.com/assistant-ui/assistant-ui) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Nov 2026</sub>
+
+**React library of chat UI primitives for building AI chat interfaces.**
+
+assistant-ui is a TypeScript/React library that provides composable chat primitives (Thread, Message, Composer, ThreadList, ActionBar) and an optional shadcn/ui-based starter that a CLI copies into your project. It connects to backends through runtime adapters for the Vercel AI SDK, LangGraph, AG-UI, A2A, Google ADK and custom data-stream endpoints. It handles streaming, attachments, tool-call rendering and inline human approval in the UI.
+
+- **+** Unstyled primitives let you build custom chat layouts instead of one fixed component
+- **+** Runtime adapters for AI SDK, LangGraph, AG-UI, A2A, Google ADK and custom backends
+- **+** Renders tool calls as React components with inline human approval
+- **+** CLI scaffolds a Next.js app or adds components to an existing project
+- **−** Frontend only: you supply the model backend and API routes yourself
+- **−** React and TypeScript only; no other UI framework is listed
+- **−** Managed thread history and file storage need the separate Assistant Cloud service
+- **−** Not a ready-to-run chat app with user accounts
+
+<sub>no GPU · Needs Node.js, React, Vercel AI SDK (default runtime), Assistant Cloud (optional) · Models: OpenAI, Anthropic, Google Gemini, Mistral, Perplexity · [Repo](https://github.com/assistant-ui/assistant-ui) · [📖 Docs ↗](https://www.assistant-ui.com/docs) · [🌐 Site ↗](https://www.assistant-ui.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/assistant-ui/)</sub>
+
 <a name="anything-llm"></a>
-### #&#8288;4 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · MIT · Nov 2026</sub>
+### #&#8288;5 [AnythingLLM](https://github.com/mintplex-labs/anything-llm) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · MIT · Nov 2026</sub>
 
 **Document chat app with agents, workspaces and many LLM and vector DB backends.**
 
@@ -77,7 +95,7 @@ AnythingLLM ingests PDFs, DOCX and TXT files into workspaces and answers questio
 <sub>GPU optional · Docker + Compose · Needs LLM provider (local or API), Docker (for server version) · Models: llama.cpp-compatible models, Ollama, LM Studio, OpenAI, Anthropic · [Repo](https://github.com/mintplex-labs/anything-llm) · [📖 Docs ↗](https://docs.anythingllm.com) · [🌐 Site ↗](https://anythingllm.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anything-llm/)</sub>
 
 <a name="librechat"></a>
-### #&#8288;5 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Nov 2026</sub>
+### #&#8288;6 [LibreChat](https://github.com/librechat-ai/librechat) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Nov 2026</sub>
 
 **Self-hosted multi-provider chat UI with agents, MCP tools and multi-user auth.**
 
@@ -94,26 +112,8 @@ LibreChat is a ChatGPT-style web interface that connects to Anthropic, OpenAI, A
 
 <sub>no GPU · Docker + Compose · Needs Docker Compose (optional), Redis (for scaled deployments), ClickHouse/code-interpreter (for code execution), LibreChat RAG API (for file chat) · Models: Anthropic, OpenAI, Azure OpenAI, Google, Vertex AI · [Repo](https://github.com/librechat-ai/librechat) · [📖 Docs ↗](https://www.librechat.ai/docs) · [🌐 Site ↗](https://librechat.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/librechat/)</sub>
 
-<a name="assistant-ui"></a>
-### #&#8288;6 [assistant-ui](https://github.com/assistant-ui/assistant-ui) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Nov 2026</sub>
-
-**React library of chat UI primitives for building AI chat interfaces.**
-
-assistant-ui is a TypeScript/React library that provides composable chat primitives (Thread, Message, Composer, ThreadList, ActionBar) and an optional shadcn/ui-based starter that a CLI copies into your project. It connects to backends through runtime adapters for the Vercel AI SDK, LangGraph, AG-UI, A2A, Google ADK and custom data-stream endpoints. It handles streaming, attachments, tool-call rendering and inline human approval in the UI.
-
-- **+** Unstyled primitives let you build custom chat layouts instead of one fixed component
-- **+** Runtime adapters for AI SDK, LangGraph, AG-UI, A2A, Google ADK and custom backends
-- **+** Renders tool calls as React components with inline human approval
-- **+** CLI scaffolds a Next.js app or adds components to an existing project
-- **−** Frontend only: you supply the model backend and API routes yourself
-- **−** React and TypeScript only; no other UI framework is listed
-- **−** Managed thread history and file storage need the separate Assistant Cloud service
-- **−** Not a ready-to-run chat app with user accounts
-
-<sub>no GPU · Needs Node.js, React, Vercel AI SDK (default runtime), Assistant Cloud (optional) · Models: OpenAI, Anthropic, Google Gemini, Mistral, Perplexity · [Repo](https://github.com/assistant-ui/assistant-ui) · [📖 Docs ↗](https://www.assistant-ui.com/docs) · [🌐 Site ↗](https://www.assistant-ui.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/assistant-ui/)</sub>
-
 <a name="hermes-webui"></a>
-### #&#8288;7 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
+### #&#8288;7 [Hermes WebUI](https://github.com/nesquena/hermes-webui) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
 
 **Browser UI for Hermes Agent with sessions, workspace file browser and profiles.**
 
@@ -131,7 +131,7 @@ Web front-end for Nous Research's Hermes Agent, written in Python with vanilla J
 <sub>Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, Nous Portal · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-webui/)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Nov 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 
@@ -149,7 +149,7 @@ SillyTavern is a locally installed Node.js 20+ interface for text-generation LLM
 <sub>no GPU · Docker + Compose · Models: KoboldAI/KoboldCpp, Horde, NovelAI, oobabooga, TabbyAPI · [Repo](https://github.com/sillytavern/sillytavern) · [📖 Docs ↗](https://docs.sillytavern.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sillytavern/)</sub>
 
 <a name="big-agi"></a>
-### #&#8288;9 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
+### #&#8288;9 [big-AGI](https://github.com/enricoros/big-agi) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · MIT · Nov 2026</sub>
 
 **Multi-model chat web app that sends one prompt to several LLMs.**
 
@@ -167,7 +167,7 @@ Big-AGI Open is a TypeScript web chat client for many LLM providers (README clai
 <sub>no GPU · Docker + Compose · Needs LLM provider API keys or a local model server · Models: OpenAI, Anthropic, Google Gemini, Ollama, LM Studio · [Repo](https://github.com/enricoros/big-agi) · [▶️ Demo ↗](https://big-agi.com) · [📖 Docs ↗](https://github.com/enricoros/big-AGI/blob/main/docs/README.md) · [🌐 Site ↗](https://big-agi.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/big-agi/)</sub>
 
 <a name="cherry-studio-app"></a>
-### #&#8288;10 [cherry-studio-app](https://github.com/cherryhq/cherry-studio-app) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;10 [cherry-studio-app](https://github.com/cherryhq/cherry-studio-app) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · AGPL-3.0 · Nov 2026</sub>
 
 **Mobile AI chat and agent app for iOS and Android.**
 
@@ -185,7 +185,7 @@ Cherry Studio Mobile is an Expo and React Native app for iOS and Android that co
 <sub>no GPU · Needs Node.js 24, pnpm 12.2.1, Expo development client, AI provider account or API key · Models: Multiple AI providers via API, Image generation models, MCP servers · [Repo](https://github.com/cherryhq/cherry-studio-app) · [📖 Docs ↗](https://github.com/CherryHQ/cherry-studio-app/blob/main/docs/README.md) · [🌐 Site ↗](https://cherry-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cherry-studio-app/)</sub>
 
 <a name="ekko-studio"></a>
-### #&#8288;11 [ekko-studio](https://github.com/ekkolearnai/ekko-studio) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
+### #&#8288;11 [ekko-studio](https://github.com/ekkolearnai/ekko-studio) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
 
 **Desktop and web workspace for chatting with Hermes, Ekko and coding agents.**
 
@@ -239,7 +239,7 @@ Odysseus is a self-hosted web workspace that combines chat with local or API mod
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose · Models: local models, API models, MCP · port 7011 · [Repo](https://github.com/odysseus-dev/odysseus) · [▶️ Demo ↗](https://odysseus-dev.github.io/odysseus/) · [📖 Docs ↗](https://github.com/odysseus-dev/odysseus/blob/dev/website/setup.md) · [🌐 Site ↗](https://odysseus-dev.github.io/odysseus/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/odysseus/)</sub>
 
 <a name="page-assist"></a>
-### #&#8288;14 [page-assist](https://github.com/n4ze3m/page-assist) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · MIT · Nov 2026</sub>
+### #&#8288;14 [page-assist](https://github.com/n4ze3m/page-assist) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · MIT · Nov 2026</sub>
 
 **Browser extension with a sidebar and web UI for local models.**
 
@@ -257,7 +257,7 @@ Page Assist is a browser extension that adds a chat sidebar and a full-tab web U
 <sub>Needs Ollama or an OpenAI-compatible endpoint, Bun (manual build only) · Models: Ollama, Chrome AI (Gemini Nano), OpenAI-compatible endpoints (LM Studio, llamafile) · [Repo](https://github.com/n4ze3m/page-assist) · [▶️ Demo ↗](https://www.youtube.com/watch?v=8VTjlLGXA4s) · [📖 Docs ↗](https://docs.pageassist.xyz) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/page-assist/)</sub>
 
 <a name="jupyter-ai"></a>
-### #&#8288;15 [jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · BSD-3-Clause · Nov 2026</sub>
+### #&#8288;15 [jupyter-ai](https://github.com/jupyterlab/jupyter-ai) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · BSD-3-Clause · Nov 2026</sub>
 
 **JupyterLab chat extension that connects ACP coding agents to notebooks.**
 
@@ -274,7 +274,7 @@ Jupyter AI adds a chat panel to JupyterLab that talks to external agents over th
 <sub>Needs JupyterLab, An ACP-compatible agent (e.g. Claude, Codex, Gemini, OpenCode) · Models: Claude, Codex, GitHub Copilot, Gemini, Goose · [Repo](https://github.com/jupyterlab/jupyter-ai) · [📖 Docs ↗](https://jupyter-ai.readthedocs.io/en/stable/getting-started.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jupyter-ai/)</sub>
 
 <a name="chat-ollama"></a>
-### #&#8288;16 [chat-ollama](https://github.com/sugarforever/chat-ollama) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
+### #&#8288;16 [chat-ollama](https://github.com/sugarforever/chat-ollama) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
 
 **Self-hosted chat app with knowledge bases and MCP tools on SQLite.**
 
@@ -292,7 +292,7 @@ ChatOllama is a SvelteKit/TypeScript chat workspace that runs as one Node.js ser
 <sub>no GPU · Docker + Compose · Needs OpenAI-compatible chat endpoint, OpenAI-compatible embedding endpoint (for knowledge bases), Node.js 24.22.2 and pnpm 10.8.1 (non-Docker install) · Models: OpenAI-compatible APIs, Ollama (via /v1), ChatGPT/Claude subscriptions · port 3000 · [Repo](https://github.com/sugarforever/chat-ollama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chat-ollama/)</sub>
 
 <a name="huggingface-chat-ui"></a>
-### #&#8288;17 [HuggingChat UI](https://github.com/huggingface/chat-ui) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (67) · Freshness: active (98) · Maintenance: patchy (36) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;17 [HuggingChat UI](https://github.com/huggingface/chat-ui) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (68) · Freshness: active (98) · Maintenance: patchy (36) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
 
 **SvelteKit chat front-end for any OpenAI-compatible API, behind HuggingChat.**
 
@@ -310,7 +310,7 @@ Chat UI is a SvelteKit web app that talks to any OpenAI-compatible endpoint, dis
 <sub>no GPU · Docker + Compose · Needs MongoDB 6/7 (embedded fallback for dev), OpenAI-compatible API endpoint, Node.js/npm · Models: OpenAI-compatible APIs, Hugging Face Inference Providers, llama.cpp server, Ollama, OpenRouter · port 3000 · [Repo](https://github.com/huggingface/chat-ui) · [▶️ Demo ↗](https://huggingface.co/chat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/huggingface-chat-ui/)</sub>
 
 <a name="deeix-chat"></a>
-### #&#8288;18 [deeix-chat](https://github.com/deeix-ai/deeix-chat) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;18 [deeix-chat](https://github.com/deeix-ai/deeix-chat) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2026</sub>
 
 **Multi-provider chat platform with model routing, billing, and admin console.**
 
@@ -327,8 +327,26 @@ DEEIX Chat is a Go backend serving a static Next.js chat UI and admin console fr
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL + pgvector (optional), Redis (optional), S3-compatible storage (optional), Apache Tika / Docling / OCR (optional) · Models: OpenAI, Anthropic, Google/Gemini, xAI, OpenRouter · port 8080 · [Repo](https://github.com/deeix-ai/deeix-chat) · [📖 Docs ↗](https://deeix.com/docs/deeix-chat/quickstart) · [🌐 Site ↗](https://deeix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeix-chat/)</sub>
 
+<a name="risuai"></a>
+### #&#8288;19 [risuai](https://github.com/kwaroran/risuai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-3.0 · Nov 2026</sub>
+
+**Roleplay-oriented chat client for many LLM APIs, with lorebooks and regex scripts.**
+
+Risuai is a Svelte and Tauri chat application for character-based conversations, available as a web app, desktop build and Docker image. It connects to hosted and self-run backends such as OpenAI, Claude, Gemini, DeepInfra, Ooba and OpenRouter. It adds lorebooks, group chats, emotion images, regex output scripts, translation, TTS, plugins and memory compression (HypaMemory, SupaMemory).
+
+- **+** Supports OpenAI, Claude, Gemini, DeepInfra, Ooba and OpenRouter backends
+- **+** Lorebooks, group chats and emotion images suit character roleplay
+- **+** Regex scripts and plugins let users change output and add providers
+- **+** Ships as web app, desktop release and Docker Compose on port 6001
+- **−** Focused on character roleplay, not document chat or general team use
+- **−** Documentation is a work-in-progress wiki
+- **−** No stated multi-user accounts or server-side auth in the README
+- **−** Does not run models itself; needs an external API or backend
+
+<sub>no GPU · Docker + Compose · Needs LLM API or backend (OpenAI, Claude, Gemini, Ooba, etc.) · Models: OpenAI, Claude, Gemini, DeepInfra, Ooba · port 6001 · [Repo](https://github.com/kwaroran/risuai) · [▶️ Demo ↗](https://risuai.net) · [📖 Docs ↗](https://github.com/kwaroran/Risuai/wiki) · [🌐 Site ↗](https://risuai.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/risuai/)</sub>
+
 <a name="nextchat"></a>
-### #&#8288;19 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: widely used (96) · Freshness: recent (75) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### #&#8288;20 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (96) · Freshness: recent (75) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Web and desktop chat client for OpenAI, Claude, Gemini and other model APIs.**
 
@@ -346,7 +364,7 @@ NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, A
 <sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
 
 <a name="geekai"></a>
-### #&#8288;20 [geekai](https://github.com/yangjian102621/geekai) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (43) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;21 [geekai](https://github.com/yangjian102621/geekai) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (44) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
 
 **Multi-user web app for AI chat, image, music and video generation with billing.**
 
@@ -363,26 +381,26 @@ GeekAI is a Go (Gin) backend with a Vue 3 front end that wraps chat models and t
 
 <sub>Compose · Needs MySQL, Redis, Object storage (Qiniu, Aliyun OSS, Tencent COS or Minio) · Models: ChatGPT, Claude, MidJourney, DALL-E, Nano-Banana · [Repo](https://github.com/yangjian102621/geekai) · [▶️ Demo ↗](https://chat.geekai.me) · [📖 Docs ↗](https://docs.geekai.me) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/geekai/)</sub>
 
-<a name="risuai"></a>
-### #&#8288;21 [risuai](https://github.com/kwaroran/risuai) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-3.0 · Nov 2026</sub>
+<a name="generative-ai-use-cases"></a>
+### #&#8288;22 [generative-ai-use-cases](https://github.com/aws-samples/generative-ai-use-cases) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT-0 · Nov 2026</sub>
 
-**Roleplay-oriented chat client for many LLM APIs, with lorebooks and regex scripts.**
+**AWS CDK web app with business generative AI use cases on Amazon Bedrock.**
 
-Risuai is a Svelte and Tauri chat application for character-based conversations, available as a web app, desktop build and Docker image. It connects to hosted and self-run backends such as OpenAI, Claude, Gemini, DeepInfra, Ooba and OpenRouter. It adds lorebooks, group chats, emotion images, regex output scripts, translation, TTS, plugins and memory compression (HypaMemory, SupaMemory).
+GenU is a web application deployed to your AWS account with CDK. It provides chat, summarization, translation, meeting minutes, image and video generation, voice chat, RAG chat over Bedrock Knowledge Bases, and agents, all backed by Amazon Bedrock. Cognito handles sign-in, with optional SAML, IP restriction and a closed-network VPC mode.
 
-- **+** Supports OpenAI, Claude, Gemini, DeepInfra, Ooba and OpenRouter backends
-- **+** Lorebooks, group chats and emotion images suit character roleplay
-- **+** Regex scripts and plugins let users change output and add providers
-- **+** Ships as web app, desktop release and Docker Compose on port 6001
-- **−** Focused on character roleplay, not document chat or general team use
-- **−** Documentation is a work-in-progress wiki
-- **−** No stated multi-user accounts or server-side auth in the README
-- **−** Does not run models itself; needs an external API or backend
+- **+** Many ready-made use cases: chat, minutes, translation, RAG, voice chat, image and video generation
+- **+** Per-user token and cost tracking, admin page with CSV export, CloudWatch dashboard
+- **+** SAML auth, IP restrictions and closed-network VPC mode for internal rollout
+- **+** Use Case Builder and Agent Builder create custom tools without code changes
+- **−** Tied to AWS: Bedrock, Cognito and CDK; no local or non-AWS model backends listed
+- **−** Deployment takes about 20 minutes and incurs pay-as-you-go AWS costs
+- **−** RAG relies on Bedrock Knowledge Bases; Kendra option closed to new customers
+- **−** Main branch may hold unreleased changes; deploying a release tag is recommended
 
-<sub>no GPU · Docker + Compose · Needs LLM API or backend (OpenAI, Claude, Gemini, Ooba, etc.) · Models: OpenAI, Claude, Gemini, DeepInfra, Ooba · port 6001 · [Repo](https://github.com/kwaroran/risuai) · [▶️ Demo ↗](https://risuai.net) · [📖 Docs ↗](https://github.com/kwaroran/Risuai/wiki) · [🌐 Site ↗](https://risuai.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/risuai/)</sub>
+<sub>no GPU · Compose · Needs AWS account, Amazon Bedrock, AWS CDK, Amazon Cognito, Node.js/npm · Models: Amazon Bedrock models · [Repo](https://github.com/aws-samples/generative-ai-use-cases) · [📖 Docs ↗](https://aws-samples.github.io/generative-ai-use-cases/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/generative-ai-use-cases/)</sub>
 
 <a name="chathub"></a>
-### #&#8288;22 [chathub](https://github.com/chathub-dev/chathub) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;23 [chathub](https://github.com/chathub-dev/chathub) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · GPL-3.0 · Oct 2026</sub>
 
 **Browser extension that chats with several AI chatbots side by side.**
 
@@ -400,7 +418,7 @@ ChatHub is a Chromium browser extension that puts multiple chatbots in one windo
 <sub>no GPU · Needs Chromium-based browser, Node.js with corepack and yarn (build only) · Models: ChatGPT, Gemini, Claude, Grok, DeepSeek · [Repo](https://github.com/chathub-dev/chathub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chathub/)</sub>
 
 <a name="sqlchat"></a>
-### #&#8288;23 [sqlchat](https://github.com/sqlchat/sqlchat) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (48) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Oct 2026</sub>
+### #&#8288;24 [sqlchat](https://github.com/sqlchat/sqlchat) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (50) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Oct 2026</sub>
 
 **Chat-based SQL client that turns natural language into database queries.**
 
@@ -417,25 +435,8 @@ SQL Chat is a Next.js web app that connects to MySQL, PostgreSQL, MSSQL, TiDB Cl
 
 <sub>no GPU · Docker · Needs OpenAI API or compatible endpoint, PostgreSQL (optional, for accounts and quotas) · Models: OpenAI API, Ollama (via OPENAI_API_ENDPOINT) · port 3000 · [Repo](https://github.com/sqlchat/sqlchat) · [▶️ Demo ↗](https://sqlchat.ai) · [🌐 Site ↗](https://sqlchat.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sqlchat/)</sub>
 
-<a name="better-chatbot"></a>
-### #&#8288;24 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
-
-**Self-hosted chat UI with agents, MCP tools, workflows and pgvector document search.**
-
-keinsaas Navigator Community Edition (formerly better-chatbot) is a Next.js chat and agent app backed by Postgres with pgvector. It supports @-mentioned agents, skills, a visual workflow builder, MCP servers over HTTP or stdio, scheduled tasks and project document retrieval. Models go through the Vercel AI Gateway by default, or through Ollama, LM Studio and other OpenAI-compatible endpoints.
-
-- **+** Project documents are chunked, embedded and searched in Postgres with pgvector, no external service
-- **+** Connects Ollama, LM Studio or any OpenAI-compatible server per account
-- **+** Visual workflow editor publishes workflows as tools callable from chat
-- **+** MIT licensed with no usage caps or telemetry stated for this edition
-- **−** Default model access needs a Vercel AI Gateway key; per-provider keys were removed in 2.0
-- **−** Team workspaces, per-member budgets, billing and Slack bot are only in the hosted edition
-- **−** Upgrade from 1.x is a one-way migration; backup is required
-
-<sub>no GPU · Docker + Compose · Needs Postgres with pgvector, Vercel AI Gateway (AI_GATEWAY_API_KEY), Supabase (file uploads, optional), Redis (optional), Inngest (optional), E2B (optional), Exa (optional), AssemblyAI (optional), Composio (optional) · Models: Vercel AI Gateway (Anthropic, OpenAI, Google, Mistral, xAI, DeepSeek, Moonshot), Ollama, LM Studio, OpenAI-compatible endpoints, TensorX · port 3000 · [Repo](https://github.com/keinsaasforever/better-chatbot) · [📖 Docs ↗](https://github.com/keinsaasforever/better-chatbot/blob/main/docs/self-hosting.md) · [🌐 Site ↗](https://keinsaas.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/better-chatbot/)</sub>
-
 <a name="chuanhuchatgpt"></a>
-### #&#8288;25 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: popular (76) · Freshness: recent (76) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
+### #&#8288;25 [chuanhuchatgpt](https://github.com/gaizhenbiao/chuanhuchatgpt) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (77) · Freshness: recent (76) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · GPL-3.0 · Sep 2026</sub>
 
 **Gradio web chat UI for OpenAI, Claude, Gemini, DeepSeek and local LLMs.**
 
@@ -452,8 +453,25 @@ Chuanhu Chat is a Python and Gradio web interface for hosted APIs (OpenAI, Azure
 
 <sub>GPU optional · Docker · Needs Python, Gradio, API keys for hosted providers · Models: OpenAI, Azure OpenAI, Google Gemini, Claude, DeepSeek · [Repo](https://github.com/gaizhenbiao/chuanhuchatgpt) · [▶️ Demo ↗](https://huggingface.co/spaces/JohnSmith9982/ChuanhuChatGPT) · [📖 Docs ↗](https://github.com/GaiZhenbiao/ChuanhuChatGPT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chuanhuchatgpt/)</sub>
 
+<a name="better-chatbot"></a>
+### #&#8288;26 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+
+**Self-hosted chat UI with agents, MCP tools, workflows and pgvector document search.**
+
+keinsaas Navigator Community Edition (formerly better-chatbot) is a Next.js chat and agent app backed by Postgres with pgvector. It supports @-mentioned agents, skills, a visual workflow builder, MCP servers over HTTP or stdio, scheduled tasks and project document retrieval. Models go through the Vercel AI Gateway by default, or through Ollama, LM Studio and other OpenAI-compatible endpoints.
+
+- **+** Project documents are chunked, embedded and searched in Postgres with pgvector, no external service
+- **+** Connects Ollama, LM Studio or any OpenAI-compatible server per account
+- **+** Visual workflow editor publishes workflows as tools callable from chat
+- **+** MIT licensed with no usage caps or telemetry stated for this edition
+- **−** Default model access needs a Vercel AI Gateway key; per-provider keys were removed in 2.0
+- **−** Team workspaces, per-member budgets, billing and Slack bot are only in the hosted edition
+- **−** Upgrade from 1.x is a one-way migration; backup is required
+
+<sub>no GPU · Docker + Compose · Needs Postgres with pgvector, Vercel AI Gateway (AI_GATEWAY_API_KEY), Supabase (file uploads, optional), Redis (optional), Inngest (optional), E2B (optional), Exa (optional), AssemblyAI (optional), Composio (optional) · Models: Vercel AI Gateway (Anthropic, OpenAI, Google, Mistral, xAI, DeepSeek, Moonshot), Ollama, LM Studio, OpenAI-compatible endpoints, TensorX · port 3000 · [Repo](https://github.com/keinsaasforever/better-chatbot) · [📖 Docs ↗](https://github.com/keinsaasforever/better-chatbot/blob/main/docs/self-hosting.md) · [🌐 Site ↗](https://keinsaas.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/better-chatbot/)</sub>
+
 <a name="g0dm0d3"></a>
-### #&#8288;26 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (72) · Freshness: active (84) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · AGPL-3.0 · Jul 2026</sub>
+### #&#8288;27 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (72) · Freshness: active (84) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · AGPL-3.0 · Jul 2026</sub>
 
 **Browser chat UI that races many models and scores their responses.**
 
@@ -471,7 +489,7 @@ G0DM0D3 is a single-file HTML chat interface that sends one prompt to many model
 <sub>GPU optional · Docker + Compose · Needs OpenRouter, Venice, Ollama, Cloudflare Pages (telemetry), Hugging Face (telemetry) · Models: OpenRouter models, Venice models, OpenAI-compatible local servers, Ollama, LM Studio · port 8000 · [Repo](https://github.com/elder-plinius/g0dm0d3) · [▶️ Demo ↗](https://godmod3.ai) · [📖 Docs ↗](https://github.com/elder-plinius/G0DM0D3/blob/main/API.md) · [🌐 Site ↗](https://godmod3.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/g0dm0d3/)</sub>
 
 <a name="lollms-webui"></a>
-### #&#8288;27 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (44) · Freshness: recent (70) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;28 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (46) · Freshness: recent (70) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
 
 **Web UI for chatting with local and API LLMs, plus image and music generation.**
 
@@ -489,7 +507,7 @@ LoLLMs WebUI is a Python web interface that connects to many LLM backends (GGUF,
 <sub>GPU optional · Docker + Compose · Needs Python 3.11, git submodules · Models: GGUF/GGML, ExLlamaV2, Hugging Face, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
 
 <a name="ptero"></a>
-### #&#8288;28 [ptero](https://github.com/ptero-ai/ptero) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;29 [ptero](https://github.com/ptero-ai/ptero) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
 
 **WordPress plugin that embeds a multi-model AI chat interface via shortcode.**
 
@@ -507,7 +525,7 @@ Ptero is a PHP and JavaScript chat front-end that lets users pick between severa
 <sub>no GPU · Needs WordPress, PHP, hosted model API (ModelRunner, minirouter) · [Repo](https://github.com/ptero-ai/ptero) · [▶️ Demo ↗](https://ptero.pro) · [📖 Docs ↗](https://docs.ptero.pro/) · [🌐 Site ↗](https://ptero.pro) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ptero/)</sub>
 
 <a name="claraverse"></a>
-### #&#8288;29 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (35) · Freshness: active (94) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
+### #&#8288;30 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (37) · Freshness: active (94) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
 
 **Private AI workspace with chat, agent crews, workflows and Telegram.**
 
@@ -525,7 +543,7 @@ ClaraVerse is a Go and React workspace (Docker Compose, port 3000) that auto-det
 <sub>RAM ≥ 4 GB · Docker + Compose · Needs MySQL, MongoDB, Redis, SearXNG, Qdrant (knowledge bases) · Models: Ollama, LM Studio, llama.cpp, OpenAI, Anthropic · port 3000 · [Repo](https://github.com/claraverse-space/claraverse) · [🌐 Site ↗](https://claraverse.space) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/claraverse/)</sub>
 
 <a name="gpt-academic"></a>
-### #&#8288;30 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (93) · Freshness: quiet (15) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · GPL-3.0 · Jan 2026</sub>
+### #&#8288;31 [gpt_academic](https://github.com/binary-husky/gpt_academic) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (93) · Freshness: quiet (15) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · GPL-3.0 · Jan 2026</sub>
 
 **Gradio web UI with plugins for translating and polishing papers and code.**
 
@@ -543,7 +561,7 @@ GPT Academic is a Python Gradio app that sends text to OpenAI, Azure, Qwen, GLM,
 <sub>GPU optional · Docker + Compose · Needs Python 3.9-3.11, Gradio, LaTeX (for LaTeX plugins), Docker (optional) · Models: OpenAI GPT, Azure, Qwen, ChatGLM, GLM4 · [Repo](https://github.com/binary-husky/gpt_academic) · [▶️ Demo ↗](https://huggingface.co/spaces/qingxu98/gpt-academic) · [📖 Docs ↗](https://github.com/binary-husky/gpt_academic/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-academic/)</sub>
 
 <a name="chatgpt-web"></a>
-### #&#8288;31 [chatgpt-web](https://github.com/chatgpt-web-dev/chatgpt-web) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (16) · Freshness: slowing (48) · Maintenance: weak (20) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Mar 2026</sub>
+### #&#8288;32 [chatgpt-web](https://github.com/chatgpt-web-dev/chatgpt-web) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (18) · Freshness: slowing (48) · Maintenance: weak (20) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Mar 2026</sub>
 
 **Multi-user ChatGPT web UI with MongoDB-backed history, admin panel and usage limits.**
 
@@ -561,7 +579,7 @@ A Vue frontend with a Node backend that talks to the OpenAI API or a compatible 
 <sub>no GPU · Docker + Compose · Needs MongoDB, OpenAI-compatible API, Tavily API (optional) · Models: OpenAI API, vLLM API · port 3002 · [Repo](https://github.com/chatgpt-web-dev/chatgpt-web) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgpt-web/)</sub>
 
 <a name="chatany"></a>
-### #&#8288;32 [chatany](https://github.com/chatanyteam/chatany) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (52) · Freshness: slowing (32) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
+### #&#8288;33 [chatany](https://github.com/chatanyteam/chatany) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: popular (53) · Freshness: slowing (32) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Apr 2026</sub>
 
 **ChatGPT-Next-Web fork adding Midjourney and Stability AI image generation.**
 
@@ -579,7 +597,7 @@ ChatAny is a web chat client forked from ChatGPT-Next-Web that adds an image gen
 <sub>no GPU · Docker + Compose · Needs midjourney-proxy (for Midjourney), OpenAI-compatible API · Models: OpenAI API, Midjourney (via proxy), Stable Image Ultra, Stable Image Core, Stable Diffusion 3 · port 3000 · [Repo](https://github.com/chatanyteam/chatany) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatany/)</sub>
 
 <a name="chatgpt-ui"></a>
-### #&#8288;33 [ChatGPT UI](https://github.com/wongsaang/chatgpt-ui) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (8) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Oct 2026</sub>
+### #&#8288;34 [ChatGPT UI](https://github.com/wongsaang/chatgpt-ui) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (10) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Oct 2026</sub>
 
 **Multi-user ChatGPT web client with multilingual UI and selectable database backends.**
 
@@ -597,7 +615,7 @@ A Vue front-end for ChatGPT-style chat that supports multiple users, multiple in
 <sub>Docker + Compose · Needs chatgpt-ui-server · [Repo](https://github.com/wongsaang/chatgpt-ui) · [📖 Docs ↗](https://wongsaang.github.io/chatgpt-ui/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatgpt-ui/)</sub>
 
 <a name="aidea"></a>
-### #&#8288;34 [aidea](https://github.com/mylxsw/aidea) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: popular (54) · Freshness: quiet (25) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
+### #&#8288;35 [aidea](https://github.com/mylxsw/aidea) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: popular (55) · Freshness: quiet (25) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
 
 **Flutter client for chatting with LLMs and generating images.**
 
@@ -614,7 +632,7 @@ AIdea is a Flutter app for mobile, macOS and Windows that gives one interface to
 <sub>Docker · Needs aidea-server (Go backend) · [Repo](https://github.com/mylxsw/aidea) · [📖 Docs ↗](https://github.com/mylxsw/aidea-server/blob/main/docs/deploy.md) · [🌐 Site ↗](https://aidea.aicode.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aidea/)</sub>
 
 <a name="tavernai-v1"></a>
-### #&#8288;35 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (25) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
+### #&#8288;36 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (27) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
 
 **Legacy Node.js chat and story frontend for Kobold, OpenAI, Claude.**
 
@@ -632,7 +650,7 @@ TavernAI v1 is a Node.js web frontend for character chat and story writing. It c
 <sub>no GPU · Docker + Compose · Needs Node.js, A model backend (KoboldAI, Oobabooga, OpenAI, NovelAI, Claude or Ollama) · Models: KoboldAI, KoboldCpp, Horde, Oobabooga Text Generation Web UI, OpenAI · [Repo](https://github.com/tavernai/tavernai-v1) · [📖 Docs ↗](https://github.com/TavernAI/TavernAI/wiki/How-to-install) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tavernai-v1/)</sub>
 
 <a name="aidea-server"></a>
-### #&#8288;36 [aidea-server](https://github.com/mylxsw/aidea-server) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (13) · Freshness: recent (70) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.8k · no license · Oct 2026</sub>
+### #&#8288;37 [aidea-server](https://github.com/mylxsw/aidea-server) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (15) · Freshness: recent (70) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.8k · no license · Oct 2026</sub>
 
 **Go backend for the AIdea mobile chat and image-generation app.**
 
