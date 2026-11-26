@@ -770,7 +770,7 @@ A gallery of 171 numbered prompts with reference images across 31 categories for
 <sub>no GPU · Needs OpenAI GPT Image API, Python 3.11+ · Models: gpt-image-2, gpt-image-2.5-sunburst, gpt-image-2.6-flare · [Repo](https://github.com/wuyoscar/gpt-image2-skill) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-image2-skill/)</sub>
 
 <a name="supervisor-skills"></a>
-### #&#8288;44 [supervisor-skills](https://github.com/hkustdial/supervisor-skills) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · custom license · Nov 2026</sub>
+### #&#8288;44 [supervisor-skills](https://github.com/hkustdial/supervisor-skills) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: weak (28) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · custom license · Nov 2026</sub>
 
 **Prompt-based AI skills for planning, writing and reviewing research papers.**
 
@@ -1283,7 +1283,7 @@ Collection of Jupyter notebooks and PyTorch/Ignite scripts showing how to use MO
 <sub>GPU optional · Docker · Needs MONAI, PyTorch, Jupyter Notebook, matplotlib · Models: UNet, UNETR, DenseNet, VISTA3D, HoVerNet · [Repo](https://github.com/project-monai/tutorials) · [📖 Docs ↗](https://docs.monai.io/en/latest/installation.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tutorials/)</sub>
 
 <a name="zero-to-sglang"></a>
-### #&#8288;73 [zero-to-sglang](https://github.com/datawhalechina/zero-to-sglang) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.4k · no license · Nov 2026</sub>
+### #&#8288;73 [zero-to-sglang](https://github.com/datawhalechina/zero-to-sglang) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.4k · no license · Nov 2026</sub>
 
 **Course on LLM inference: build a mini-sglang, then read SGLang source.**
 
@@ -1530,8 +1530,26 @@ Companion code for a Udemy course on LangChain and LangGraph. Each project sits 
 
 <sub>GPU optional · Needs Python 3.10+, uv, poetry or pipenv, Tavily, Pinecone, FAISS, Streamlit · Models: Ollama, OpenAI, Anthropic, Gemini · [Repo](https://github.com/emarco177/langchain-course) · [🌐 Site ↗](https://www.udemy.com/course/langchain/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain-course/)</sub>
 
+<a name="llms-from-scratch-cn"></a>
+### #&#8288;87 [llms-from-scratch-cn](https://github.com/datawhalechina/llms-from-scratch-cn) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (48) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Sep 2026</sub>
+
+**Chinese notebooks for building GPT, Llama3, RWKV and ChatGLM from scratch.**
+
+Datawhale tutorial repo that walks through implementing a GPT-style LLM in PyTorch notebooks, based on rasbt/LLMs-from-scratch with a Chinese translation. It covers text processing, attention, the GPT model and pretraining on unlabeled data, plus architecture notebooks for ChatGLM3/4, Llama3, RWKV V2 to V6 and MiniCPM. Chapters on fine-tuning and human feedback are still marked as coming soon.
+
+- **+** Runnable notebooks with exercise solutions for chapters 2-5 and appendices A and D
+- **+** Architecture walkthroughs for ChatGLM3/4, Llama3, MiniCPM and RWKV V2 to V6
+- **+** Needs only PyTorch basics; includes a PyTorch intro appendix with a DDP script
+- **+** Offers a condensed Codes track and a detailed Translated_Book track
+- **−** Chapters 6-8 (classification fine-tuning, human feedback, practical use) are marked coming soon
+- **−** Text is Chinese only; core content derives from rasbt's English original
+- **−** License is unclear: README shows both an Apache-2.0 badge and a CC BY-NC-SA 4.0 notice
+- **−** Teaches small educational models; not a training or serving stack
+
+<sub>Needs PyTorch, Jupyter · Models: GPT, Llama3, ChatGLM3, ChatGLM4, RWKV V2-V6 · [Repo](https://github.com/datawhalechina/llms-from-scratch-cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llms-from-scratch-cn/)</sub>
+
 <a name="diffusion-models-class"></a>
-### #&#8288;87 [diffusion-models-class](https://github.com/huggingface/diffusion-models-class) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (47) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;88 [diffusion-models-class](https://github.com/huggingface/diffusion-models-class) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (47) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · Apache-2.0 · Oct 2026</sub>
 
 **Free Hugging Face course on diffusion models with Diffusers notebooks.**
 
@@ -1548,7 +1566,7 @@ A course of Jupyter notebooks and written units that teach diffusion models: the
 <sub>Needs Hugging Face account, Diffusers, PyTorch, Jupyter · Models: Stable Diffusion, Diffusers pipelines · [Repo](https://github.com/huggingface/diffusion-models-class) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diffusion-models-class/)</sub>
 
 <a name="diy-llm"></a>
-### #&#8288;88 [diy-llm](https://github.com/datawhalechina/diy-llm) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.1k · no license · Nov 2026</sub>
+### #&#8288;89 [diy-llm](https://github.com/datawhalechina/diy-llm) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.1k · no license · Nov 2026</sub>
 
 **Chinese-language course on building LLMs, adapted from Stanford CS336.**
 
@@ -1566,7 +1584,7 @@ A community-written Chinese course with 16 chapters and 6 coding assignments, re
 <sub>GPU optional · Needs PyTorch, Triton, W&B, lm-evaluation-harness, evalscope · Models: Qwen, DeepSeek, Qwen-VL, LLaVA · [Repo](https://github.com/datawhalechina/diy-llm) · [📖 Docs ↗](https://datawhalechina.github.io/diy-llm/) · [🌐 Site ↗](https://datawhalechina.github.io/diy-llm/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diy-llm/)</sub>
 
 <a name="bootcamp"></a>
-### #&#8288;89 [bootcamp](https://github.com/milvus-io/bootcamp) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;90 [bootcamp](https://github.com/milvus-io/bootcamp) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · Apache-2.0 · Oct 2026</sub>
 
 **Jupyter notebook tutorials and demos for building RAG and search apps on Milvus.**
 
@@ -1582,7 +1600,7 @@ Official Milvus bootcamp: Jupyter notebooks and demo apps showing how to use the
 <sub>Needs Milvus · [Repo](https://github.com/milvus-io/bootcamp) · [▶️ Demo ↗](https://milvus.io/milvus-demos) · [📖 Docs ↗](https://milvus.io/docs/tutorials-overview.md) · [🌐 Site ↗](https://milvus.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bootcamp/)</sub>
 
 <a name="agentic-rl-lab"></a>
-### #&#8288;90 [agentic-rl-lab](https://github.com/datawhalechina/agentic-rl-lab) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;91 [agentic-rl-lab](https://github.com/datawhalechina/agentic-rl-lab) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2026</sub>
 
 **Tutorials and runnable code for reproducing LLM and agent RL algorithms.**
 
@@ -1600,7 +1618,7 @@ A Chinese-first tutorial repository (English edition available) that explains an
 <sub>no GPU · Needs PyTRIO, SwanLab, uv, DeepSeek Search API (Search-R1), TextWorld (ALFWorld, TEMPO, AgentOPSD) · Models: Qwen3.5-4B, Qwen3.5-9B · [Repo](https://github.com/datawhalechina/agentic-rl-lab) · [📖 Docs ↗](https://datawhalechina.github.io/agentic-rl-lab/) · [🌐 Site ↗](https://datawhalechina.github.io/agentic-rl-lab/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-rl-lab/)</sub>
 
 <a name="agent-learning-hub"></a>
-### #&#8288;91 [agent-learning-hub](https://github.com/datawhalechina/agent-learning-hub) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (69) · Freshness: active (85) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · MIT · Jul 2026</sub>
+### #&#8288;92 [agent-learning-hub](https://github.com/datawhalechina/agent-learning-hub) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (69) · Freshness: active (85) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · MIT · Jul 2026</sub>
 
 **Staged AI agent learning roadmap with checklists and project ideas.**
 
@@ -1616,24 +1634,6 @@ A README-only curated roadmap for learning to build AI agents, written mostly in
 - **−** Link lists go stale as the field changes; no releases or versioning
 
 <sub>no GPU · [Repo](https://github.com/datawhalechina/agent-learning-hub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-learning-hub/)</sub>
-
-<a name="llms-from-scratch-cn"></a>
-### #&#8288;92 [llms-from-scratch-cn](https://github.com/datawhalechina/llms-from-scratch-cn) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (48) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Sep 2026</sub>
-
-**Chinese notebooks for building GPT, Llama3, RWKV and ChatGLM from scratch.**
-
-Datawhale tutorial repo that walks through implementing a GPT-style LLM in PyTorch notebooks, based on rasbt/LLMs-from-scratch with a Chinese translation. It covers text processing, attention, the GPT model and pretraining on unlabeled data, plus architecture notebooks for ChatGLM3/4, Llama3, RWKV V2 to V6 and MiniCPM. Chapters on fine-tuning and human feedback are still marked as coming soon.
-
-- **+** Runnable notebooks with exercise solutions for chapters 2-5 and appendices A and D
-- **+** Architecture walkthroughs for ChatGLM3/4, Llama3, MiniCPM and RWKV V2 to V6
-- **+** Needs only PyTorch basics; includes a PyTorch intro appendix with a DDP script
-- **+** Offers a condensed Codes track and a detailed Translated_Book track
-- **−** Chapters 6-8 (classification fine-tuning, human feedback, practical use) are marked coming soon
-- **−** Text is Chinese only; core content derives from rasbt's English original
-- **−** License is unclear: README shows both an Apache-2.0 badge and a CC BY-NC-SA 4.0 notice
-- **−** Teaches small educational models; not a training or serving stack
-
-<sub>Needs PyTorch, Jupyter · Models: GPT, Llama3, ChatGLM3, ChatGLM4, RWKV V2-V6 · [Repo](https://github.com/datawhalechina/llms-from-scratch-cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llms-from-scratch-cn/)</sub>
 
 <a name="machine-learning"></a>
 ### #&#8288;93 [machine-learning](https://github.com/ethen8181/machine-learning) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (37) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Oct 2026</sub>
@@ -2773,7 +2773,7 @@ A curated list of algorithm interview questions in Chinese, grouped into six top
 <sub>no GPU · [Repo](https://github.com/315386775/deeplearing-interview-awesome-2024) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplearing-interview-awesome-2024/)</sub>
 
 <a name="machine-learning-code-implementation"></a>
-### #&#8288;157 [machine_learning_code_implementation](https://github.com/luwill/machine_learning_code_implementation) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (9) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.6k · no license · Apr 2026</sub>
+### #&#8288;157 [machine_learning_code_implementation](https://github.com/luwill/machine_learning_code_implementation) <sub>score [10](../README.md#-how-we-rank "Score 10/100. Adoption: niche (9) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.6k · no license · Apr 2026</sub>
 
 **Companion code for a Chinese ML textbook covering 26 classic algorithms.**
 

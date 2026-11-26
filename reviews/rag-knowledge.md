@@ -740,26 +740,8 @@ A Zotero add-on (.xpi) that adds an LLM sidebar to the PDF reader for Q&A with c
 
 <sub>no GPU · Needs Zotero, LLM provider API key or local OpenAI-compatible server, Tavily API key (optional, web search), MinerU (optional, PDF parsing) · Models: OpenAI Responses API, OpenAI-compatible chat, Anthropic Messages, Gemini native, Codex App Server · [Repo](https://github.com/yilewang/llm-for-zotero) · [📖 Docs ↗](https://yilewang.github.io/llm-for-zotero) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm-for-zotero/)</sub>
 
-<a name="data-analysis-agent"></a>
-### #&#8288;42 [data-analysis-agent](https://github.com/zafer-liu/data-analysis-agent) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · custom license · Nov 2026</sub>
-
-**Flask app that turns plain-language questions into SQL, charts and reports.**
-
-Python/Flask web app where you upload Excel or CSV files, or connect SQLite, MySQL, PostgreSQL or SQL Server, and ask questions in plain language. It generates SQL, streams progress over SSE, picks from 41 chart types, and exports Excel, Word or PowerPoint. Models are any OpenAI-compatible API, with MCP tools, a knowledge base and slash commands such as /sql, /kmeans and /tree.
-
-- **+** Supports Excel/CSV uploads plus SQLite, MySQL, PostgreSQL and SQL Server connections
-- **+** 41 chart types and export to Excel, Word and PowerPoint
-- **+** Built-in statistics commands: K-Means, decision tree, winsorizing, trimming
-- **+** Runs from source with python app.py, no cloud login required
-- **−** License is CC BY-NC 4.0, non-commercial, so not usable for commercial deployments
-- **−** Windows installer v1.5.0 still depends on a retired cloud login service
-- **−** DuckDB and Spark support are only planned; GPU compute is labelled Planned
-- **−** README carries several sponsor promotions and affiliate links
-
-<sub>no GPU · Docker + Compose · Needs Python 3.10+, LLM API (OpenAI-compatible) · Models: OpenAI, DeepSeek, AtlasCloud, OpenAI-compatible APIs, local OpenAI-compatible services · port 5001 · [Repo](https://github.com/zafer-liu/data-analysis-agent) · [🌐 Site ↗](https://sage-agent.online/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-analysis-agent/)</sub>
-
 <a name="smart-second-brain"></a>
-### #&#8288;43 [smart-second-brain](https://github.com/s2b-dev/smart-second-brain) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
+### #&#8288;42 [smart-second-brain](https://github.com/s2b-dev/smart-second-brain) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
 
 **Obsidian plugin adding hybrid search, a topic graph and an AI agent.**
 
@@ -775,6 +757,24 @@ Smart Second Brain is an Obsidian community plugin that adds keyword plus semant
 - **−** Much of the code is written with AI coding agents
 
 <sub>Needs Obsidian, Embedding model (optional), AI provider (optional, for agent) · [Repo](https://github.com/s2b-dev/smart-second-brain) · [📖 Docs ↗](https://smartsecondbrain.dev/start/installation/) · [🌐 Site ↗](https://smartsecondbrain.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/smart-second-brain/)</sub>
+
+<a name="data-analysis-agent"></a>
+### #&#8288;43 [data-analysis-agent](https://github.com/zafer-liu/data-analysis-agent) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (33) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · custom license · Nov 2026</sub>
+
+**Flask app that turns plain-language questions into SQL, charts and reports.**
+
+Python/Flask web app where you upload Excel or CSV files, or connect SQLite, MySQL, PostgreSQL or SQL Server, and ask questions in plain language. It generates SQL, streams progress over SSE, picks from 41 chart types, and exports Excel, Word or PowerPoint. Models are any OpenAI-compatible API, with MCP tools, a knowledge base and slash commands such as /sql, /kmeans and /tree.
+
+- **+** Supports Excel/CSV uploads plus SQLite, MySQL, PostgreSQL and SQL Server connections
+- **+** 41 chart types and export to Excel, Word and PowerPoint
+- **+** Built-in statistics commands: K-Means, decision tree, winsorizing, trimming
+- **+** Runs from source with python app.py, no cloud login required
+- **−** License is CC BY-NC 4.0, non-commercial, so not usable for commercial deployments
+- **−** Windows installer v1.5.0 still depends on a retired cloud login service
+- **−** DuckDB and Spark support are only planned; GPU compute is labelled Planned
+- **−** README carries several sponsor promotions and affiliate links
+
+<sub>no GPU · Docker + Compose · Needs Python 3.10+, LLM API (OpenAI-compatible) · Models: OpenAI, DeepSeek, AtlasCloud, OpenAI-compatible APIs, local OpenAI-compatible services · port 5001 · [Repo](https://github.com/zafer-liu/data-analysis-agent) · [🌐 Site ↗](https://sage-agent.online/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/data-analysis-agent/)</sub>
 
 <a name="llmware"></a>
 ### #&#8288;44 [llmware](https://github.com/llmware-ai/llmware) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Oct 2026</sub>
