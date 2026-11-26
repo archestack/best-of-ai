@@ -23,7 +23,7 @@ PPT Master is a workflow ("skill") that runs inside an agent-capable AI tool suc
 <sub>no GPU · Needs Python 3.10+, agent-capable AI tool (Claude Code, Cursor, Codex CLI, etc.), pandoc (only for legacy formats like .doc, .rtf), image generation API (optional) · Models: Kimi K3, Claude, GPT, Gemini, gpt-image-2 · [Repo](https://github.com/hugohe3/ppt-master) · [▶️ Demo ↗](https://hugohe3.github.io/ppt-master-examples/) · [📖 Docs ↗](https://github.com/hugohe3/ppt-master/blob/main/docs/getting-started.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ppt-master/)</sub>
 
 <a name="mastra"></a>
-### 🥈 [mastra](https://github.com/mastra-ai/mastra) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Nov 2026</sub>
+### 🥈 [mastra](https://github.com/mastra-ai/mastra) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · custom license · Nov 2026</sub>
 
 **TypeScript framework for building AI agents, workflows and MCP servers.**
 
@@ -166,8 +166,26 @@ The AI SDK is a TypeScript library with one API for generating text and structur
 
 <sub>no GPU · Needs Node.js 22+, Vercel AI Gateway or provider API keys · Models: OpenAI, Anthropic, Google · [Repo](https://github.com/vercel/ai) · [📖 Docs ↗](https://ai-sdk.dev/docs) · [🌐 Site ↗](https://ai-sdk.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai/)</sub>
 
+<a name="pydantic-ai"></a>
+### #&#8288;10 [pydantic-ai](https://github.com/pydantic/pydantic-ai) <sub>score [90](../README.md#-how-we-rank "Score 90/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · MIT · Nov 2026</sub>
+
+**Typed Python SDK for building LLM agents across many model providers.**
+
+Pydantic AI is a Python agent framework built on Pydantic validation. Agents take typed dependencies, tools and output models, and the provider is chosen with a model string such as 'openai:...' or 'anthropic:...', with fallback models supported. It also covers MCP, durable execution on engines like Temporal, DBOS and Prefect, realtime voice, image generation and embeddings. Evals and Graph ship as separate packages.
+
+- **+** Structured outputs, tools and dependency injection are typed and validated before your code runs
+- **+** Switch providers with a model string, with fallback models when a provider fails
+- **+** Durable execution integrations for Temporal, DBOS, Prefect, Restate and others
+- **+** OpenTelemetry instrumentation works with any backend, not only Logfire
+- **−** Python only
+- **−** Memory, guardrails, sub-agents and the coding agent live in the separate Harness package
+- **−** Evals, Graph and Monty are separate packages to install and learn
+- **−** README promotes paid Logfire and AI Gateway products alongside the SDK
+
+<sub>no GPU · Needs Model provider API key or local model server such as Ollama, Optional: Temporal, DBOS or Prefect for durable execution, Optional: Logfire or any OpenTelemetry backend · Models: OpenAI, Anthropic, Google, Bedrock, Azure AI Foundry · [Repo](https://github.com/pydantic/pydantic-ai) · [📖 Docs ↗](https://pydantic.dev/docs/ai/) · [🌐 Site ↗](https://pydantic.dev/docs/ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pydantic-ai/)</sub>
+
 <a name="tradingagents"></a>
-### #&#8288;10 [tradingagents](https://github.com/tauricresearch/tradingagents) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 124k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;11 [tradingagents](https://github.com/tauricresearch/tradingagents) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 124k · Apache-2.0 · Nov 2026</sub>
 
 **Multi-agent LLM framework that simulates a trading firm's analysis process.**
 
@@ -185,7 +203,7 @@ TradingAgents is a LangGraph-based Python framework in which LLM agents act as a
 <sub>GPU optional · Needs LLM provider API key or Ollama, Yahoo Finance, SEC EDGAR, FRED (optional), Alpha Vantage (optional) · Models: OpenAI, Anthropic, Google Gemini, xAI Grok, DeepSeek · [Repo](https://github.com/tauricresearch/tradingagents) · [▶️ Demo ↗](https://www.youtube.com/watch?v=90gr5lwjIho) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tradingagents/)</sub>
 
 <a name="agno"></a>
-### #&#8288;11 [agno](https://github.com/agno-agi/agno) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 43k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [agno](https://github.com/agno-agi/agno) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 43k · Apache-2.0 · Nov 2026</sub>
 
 **Python SDK and runtime for building and serving agents and workflows.**
 
@@ -203,7 +221,7 @@ Agno is a Python framework for building agents, teams and workflows, plus AgentO
 <sub>Needs PostgreSQL · Models: Agno SDK, Claude Agent SDK, Codex SDK · [Repo](https://github.com/agno-agi/agno) · [📖 Docs ↗](https://docs.agno.com) · [🌐 Site ↗](https://agno.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agno/)</sub>
 
 <a name="openai-python"></a>
-### #&#8288;12 [openai-python](https://github.com/openai/openai-python) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [openai-python](https://github.com/openai/openai-python) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Nov 2026</sub>
 
 **Official Python client for the OpenAI REST API, sync and async.**
 
@@ -220,26 +238,8 @@ Typed Python 3.10+ SDK for the OpenAI API, generated from the OpenAPI spec. It c
 
 <sub>no GPU · Needs OpenAI API, HTTPX2, websockets (Realtime), aiohttp (optional) · Models: OpenAI hosted models via Responses API, Chat Completions API, Realtime API · [Repo](https://github.com/openai/openai-python) · [📖 Docs ↗](https://platform.openai.com/docs/api-reference) · [🌐 Site ↗](https://platform.openai.com/docs/api-reference) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai-python/)</sub>
 
-<a name="pydantic-ai"></a>
-### #&#8288;13 [pydantic-ai](https://github.com/pydantic/pydantic-ai) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · MIT · Nov 2026</sub>
-
-**Typed Python SDK for building LLM agents across many model providers.**
-
-Pydantic AI is a Python agent framework built on Pydantic validation. Agents take typed dependencies, tools and output models, and the provider is chosen with a model string such as 'openai:...' or 'anthropic:...', with fallback models supported. It also covers MCP, durable execution on engines like Temporal, DBOS and Prefect, realtime voice, image generation and embeddings. Evals and Graph ship as separate packages.
-
-- **+** Structured outputs, tools and dependency injection are typed and validated before your code runs
-- **+** Switch providers with a model string, with fallback models when a provider fails
-- **+** Durable execution integrations for Temporal, DBOS, Prefect, Restate and others
-- **+** OpenTelemetry instrumentation works with any backend, not only Logfire
-- **−** Python only
-- **−** Memory, guardrails, sub-agents and the coding agent live in the separate Harness package
-- **−** Evals, Graph and Monty are separate packages to install and learn
-- **−** README promotes paid Logfire and AI Gateway products alongside the SDK
-
-<sub>no GPU · Needs Model provider API key or local model server such as Ollama, Optional: Temporal, DBOS or Prefect for durable execution, Optional: Logfire or any OpenTelemetry backend · Models: OpenAI, Anthropic, Google, Bedrock, Azure AI Foundry · [Repo](https://github.com/pydantic/pydantic-ai) · [📖 Docs ↗](https://pydantic.dev/docs/ai/) · [🌐 Site ↗](https://pydantic.dev/docs/ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pydantic-ai/)</sub>
-
 <a name="pipecat"></a>
-### #&#8288;14 [pipecat](https://github.com/pipecat-ai/pipecat) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · BSD-2-Clause · Nov 2026</sub>
+### #&#8288;14 [pipecat](https://github.com/pipecat-ai/pipecat) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · BSD-2-Clause · Nov 2026</sub>
 
 **Python framework for real-time voice and multimodal agent pipelines.**
 
@@ -310,7 +310,7 @@ Deep Agents is a Python library whose create_deep_agent() call returns a preconf
 <sub>GPU optional · Needs LangGraph, LangChain, LLM provider or local model server, LangSmith (optional) · Models: OpenAI, Anthropic, Google, Baseten, Fireworks · [Repo](https://github.com/langchain-ai/deepagents) · [📖 Docs ↗](https://docs.langchain.com/oss/python/deepagents/overview) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepagents/)</sub>
 
 <a name="eliza"></a>
-### #&#8288;18 [eliza](https://github.com/elizaos/eliza) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
+### #&#8288;18 [eliza](https://github.com/elizaos/eliza) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
 
 **Specification workspace for Eliza v4, an on-device agent OS built on Vibestack.**
 
@@ -327,7 +327,7 @@ This repository holds the Eliza v4 specification for Vibestack: requirements, Qu
 <sub>Needs Node 26, pnpm 10.24.0, Dafny 4.11, Vibestack toolchain, Android 15+ emulator (password tests only) · [Repo](https://github.com/elizaos/eliza) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eliza/)</sub>
 
 <a name="nanobrowser"></a>
-### #&#8288;19 [nanobrowser](https://github.com/nanobrowser/nanobrowser) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;19 [nanobrowser](https://github.com/nanobrowser/nanobrowser) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
 
 **Chrome and Edge extension that lets an LLM agent operate your browser tabs.**
 
@@ -399,7 +399,7 @@ Google's Agent Development Kit lets you define agents in Python with instruction
 <sub>no GPU · Needs Python 3.11+, LLM provider (Gemini by default) · Models: Gemini, other providers (model-agnostic) · [Repo](https://github.com/google/adk-python) · [📖 Docs ↗](https://adk.dev/) · [🌐 Site ↗](https://adk.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adk-python/)</sub>
 
 <a name="parlant"></a>
-### #&#8288;23 [parlant](https://github.com/emcie-co/parlant) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;23 [parlant](https://github.com/emcie-co/parlant) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for customer-facing agents that follow policies.**
 
@@ -434,25 +434,8 @@ AG-UI defines about 16 standard event types that agent backends emit during a ru
 
 <sub>no GPU · Needs Node.js (npx create-ag-ui-app), An agent framework or backend · [Repo](https://github.com/ag-ui-protocol/ag-ui) · [▶️ Demo ↗](https://dojo.ag-ui.com/) · [📖 Docs ↗](https://docs.ag-ui.com/) · [🌐 Site ↗](https://ag-ui.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ag-ui/)</sub>
 
-<a name="sandcastle"></a>
-### #&#8288;25 [sandcastle](https://github.com/mattpocock/sandcastle) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · MIT · Nov 2026</sub>
-
-**TypeScript library that runs coding agents in isolated sandboxes on git branches.**
-
-Sandcastle is a TypeScript library where a single `sandcastle.run()` call starts an AI coding agent inside a sandbox, works on a configurable branch strategy, and merges the resulting commits back. Sandbox providers include Bubblewrap (Linux, WSL2), Seatbelt (macOS), Docker, Podman, and cloud options (Daytona, E2B, Fly.io Sprites, Modal, Vercel), plus custom ones.
-
-- **+** Native OS sandboxes (Bubblewrap, Seatbelt) need no container runtime
-- **+** Many providers: Docker, Podman, Daytona, E2B, Fly.io Sprites, Modal, Vercel
-- **+** Branch strategies and merge-back suit parallel agents and review pipelines
-- **+** Custom sandbox providers can be written; hooks and structured output are documented
-- **−** Library only: no UI, you write TypeScript to orchestrate runs
-- **−** Cloud providers require accounts with third-party services
-- **−** No Windows-native sandbox listed; Windows users need WSL2
-
-<sub>no GPU · Needs Node.js, Bubblewrap (Linux/WSL2), Docker or Podman (optional), Daytona, E2B, Fly.io Sprites, Modal or Vercel (optional) · [Repo](https://github.com/mattpocock/sandcastle) · [📖 Docs ↗](https://www.aihero.dev/sandcastle) · [🌐 Site ↗](https://www.aihero.dev/sandcastle) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandcastle/)</sub>
-
 <a name="camofox-browser"></a>
-### #&#8288;26 [camofox-browser](https://github.com/jo-inc/camofox-browser) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Nov 2026</sub>
+### #&#8288;25 [camofox-browser](https://github.com/jo-inc/camofox-browser) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Nov 2026</sub>
 
 **REST API server that gives AI agents an anti-detection Camoufox browser.**
 
@@ -469,26 +452,25 @@ Wraps Camoufox, a Firefox fork with C++-level fingerprint spoofing, in a REST AP
 
 <sub>no GPU · Docker · Needs Camoufox, yt-dlp (optional), Node.js · port 9377 · [Repo](https://github.com/jo-inc/camofox-browser) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/camofox-browser/)</sub>
 
-<a name="open-connector"></a>
-### #&#8288;27 [open-connector](https://github.com/oomol-lab/open-connector) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · custom license · Nov 2026</sub>
+<a name="sandcastle"></a>
+### #&#8288;26 [sandcastle](https://github.com/mattpocock/sandcastle) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · MIT · Nov 2026</sub>
 
-**Connector gateway exposing 1,000+ SaaS providers to agents via MCP, HTTP and SDK.**
+**TypeScript library that runs coding agents in isolated sandboxes on git branches.**
 
-OpenConnector stores user credentials for third-party apps (API key, OAuth2, custom, no-auth) and exposes a shared catalog of 1,000+ providers and 10,000+ prebuilt Actions through MCP, HTTP/OpenAPI, a TypeScript SDK and the oo CLI. Provider secrets stay inside the runtime; agents get schemas, scopes and results. It runs on Node.js or Docker with SQLite or PostgreSQL, on Helm, or on Cloudflare, with a web console for debugging and run logs.
+Sandcastle is a TypeScript library where a single `sandcastle.run()` call starts an AI coding agent inside a sandbox, works on a configurable branch strategy, and merges the resulting commits back. Sandbox providers include Bubblewrap (Linux, WSL2), Seatbelt (macOS), Docker, Podman, and cloud options (Daytona, E2B, Fly.io Sprites, Modal, Vercel), plus custom ones.
 
-- **+** Large catalog: 1,000+ providers and 10,000+ Actions with inspectable request/response schemas and scopes
-- **+** Built-in OAuth 2.1 server with PKCE S256 and revocable, policy-scoped tokens for remote MCP clients
-- **+** Many deployment targets: Docker, Node.js, Helm, Cloudflare Workers, SQLite or PostgreSQL 15+
-- **+** Action allow/block policies and redacted run logs keep provider credentials out of the agent process
-- **−** Modified Apache-2.0 license: offering it to third parties as a hosted service needs a commercial license
-- **−** Self-hosting requires registering your own OAuth apps per provider; managed OAuth is only on OOMOL hosted
-- **−** PostgreSQL migrations must be run manually with npm run runtime:migrate before upgrading
-- **−** Requires recent Node.js (22.23.4+, 24.22.1+ or 26.12.1+) outside Docker
+- **+** Native OS sandboxes (Bubblewrap, Seatbelt) need no container runtime
+- **+** Many providers: Docker, Podman, Daytona, E2B, Fly.io Sprites, Modal, Vercel
+- **+** Branch strategies and merge-back suit parallel agents and review pipelines
+- **+** Custom sandbox providers can be written; hooks and structured output are documented
+- **−** Library only: no UI, you write TypeScript to orchestrate runs
+- **−** Cloud providers require accounts with third-party services
+- **−** No Windows-native sandbox listed; Windows users need WSL2
 
-<sub>no GPU · Docker + Compose · Needs Node.js 22+, SQLite or PostgreSQL 15+, S3-compatible storage (optional), Docker (optional) · port 3000 · [Repo](https://github.com/oomol-lab/open-connector) · [📖 Docs ↗](https://oomol.com/docs/openconnector-self-hosting/) · [🌐 Site ↗](https://oomol.com/apps) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-connector/)</sub>
+<sub>no GPU · Needs Node.js, Bubblewrap (Linux/WSL2), Docker or Podman (optional), Daytona, E2B, Fly.io Sprites, Modal or Vercel (optional) · [Repo](https://github.com/mattpocock/sandcastle) · [📖 Docs ↗](https://www.aihero.dev/sandcastle) · [🌐 Site ↗](https://www.aihero.dev/sandcastle) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sandcastle/)</sub>
 
 <a name="agentscope"></a>
-### #&#8288;28 [agentscope](https://github.com/agentscope-ai/agentscope) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;27 [agentscope](https://github.com/agentscope-ai/agentscope) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for building tool-using agents, with a FastAPI service and web UI.**
 
@@ -506,7 +488,7 @@ AgentScope 2.0 is a Python 3.11+ SDK for composing ReAct agents from a toolkit (
 <sub>no GPU · Needs Python 3.11+, pnpm (web UI), LLM provider API key or Ollama · Models: OpenAI, Anthropic, Gemini, DashScope, DeepSeek · [Repo](https://github.com/agentscope-ai/agentscope) · [📖 Docs ↗](https://docs.agentscope.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentscope/)</sub>
 
 <a name="ego-lite"></a>
-### #&#8288;29 [ego-lite](https://github.com/citrolabs/ego-lite) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · MIT · Nov 2026</sub>
+### #&#8288;28 [ego-lite](https://github.com/citrolabs/ego-lite) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · MIT · Nov 2026</sub>
 
 **Desktop browser that AI agents drive through isolated per-agent Spaces.**
 
@@ -523,80 +505,26 @@ ego lite is a Chromium-based desktop browser for macOS and Windows that gives ea
 
 <sub>Needs Agent CLI (Claude Code, Codex, Cursor or custom), ego lite desktop browser app · Models: Model-agnostic; depends on the agent CLI · [Repo](https://github.com/citrolabs/ego-lite) · [📖 Docs ↗](https://lite.ego.app/document/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ego-lite/)</sub>
 
-<a name="adk-go"></a>
-### #&#8288;30 [adk-go](https://github.com/google/adk-go) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Nov 2026</sub>
+<a name="open-connector"></a>
+### #&#8288;29 [open-connector](https://github.com/oomol-lab/open-connector) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · custom license · Nov 2026</sub>
 
-**Code-first Go toolkit for building and orchestrating multi-agent applications.**
+**Connector gateway exposing 1,000+ SaaS providers to agents via MCP, HTTP and SDK.**
 
-ADK Go is Google's Agent Development Kit for Go, installed as the module google.golang.org/adk/v2. Agent logic, tools and multi-agent composition are defined directly in Go code. It is optimized for Gemini but described as model-agnostic and deployment-agnostic, with containerized deployment aimed at Google Cloud Run.
+OpenConnector stores user credentials for third-party apps (API key, OAuth2, custom, no-auth) and exposes a shared catalog of 1,000+ providers and 10,000+ prebuilt Actions through MCP, HTTP/OpenAPI, a TypeScript SDK and the oo CLI. Provider secrets stay inside the runtime; agents get schemas, scopes and results. It runs on Node.js or Docker with SQLite or PostgreSQL, on Helm, or on Cloudflare, with a web console for debugging and run logs.
 
-- **+** Agents, tools and orchestration are plain Go, so they can be tested and versioned like other code
-- **+** Composes multiple specialized agents into larger systems
-- **+** Sibling ADKs exist for Python, Java, Kotlin and TypeScript
-- **+** Apache-2.0 licensed, with recent commits and a release in October 2026
-- **−** README names no model providers besides Gemini optimization
-- **−** Requires a very recent Go toolchain (1.26.10 or later)
-- **−** README has no code example or quickstart, only links to docs and samples
-- **−** Deployment guidance in the README centers on Google Cloud Run
+- **+** Large catalog: 1,000+ providers and 10,000+ Actions with inspectable request/response schemas and scopes
+- **+** Built-in OAuth 2.1 server with PKCE S256 and revocable, policy-scoped tokens for remote MCP clients
+- **+** Many deployment targets: Docker, Node.js, Helm, Cloudflare Workers, SQLite or PostgreSQL 15+
+- **+** Action allow/block policies and redacted run logs keep provider credentials out of the agent process
+- **−** Modified Apache-2.0 license: offering it to third parties as a hosted service needs a commercial license
+- **−** Self-hosting requires registering your own OAuth apps per provider; managed OAuth is only on OOMOL hosted
+- **−** PostgreSQL migrations must be run manually with npm run runtime:migrate before upgrading
+- **−** Requires recent Node.js (22.23.4+, 24.22.1+ or 26.12.1+) outside Docker
 
-<sub>Needs Go 1.26.10+ · Models: Gemini · [Repo](https://github.com/google/adk-go) · [📖 Docs ↗](https://google.github.io/adk-docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adk-go/)</sub>
-
-<a name="agent-desktop"></a>
-### #&#8288;31 [agent-desktop](https://github.com/vercel-labs/agent-desktop) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Nov 2026</sub>
-
-**Desktop app control for AI agents via the OS accessibility tree.**
-
-agent-desktop is a Rust CLI and C library that reads a desktop app's accessibility tree (AX API on macOS, UI Automation on Windows, AT-SPI on Linux) and returns it as JSON with a ref per actionable element. The calling agent clicks or types on refs and re-reads the UI to verify; no model is bundled. It also serves its commands as MCP tools over stdio.
-
-- **+** Uses accessibility tree refs instead of screenshots or pixel matching
-- **+** Runs on macOS 13+, Windows 10 1809+, and Ubuntu 24.04+
-- **+** Ref actions are headless by default, without moving the pointer or taking focus
-- **+** Ships a CLI, a C library, and an MCP server (agent-desktop mcp)
-- **−** No model or agent loop included; you must supply and drive the agent
-- **−** Refs go stale when the UI changes, so snapshots must be retaken
-- **−** Four commands (key-down, key-up, mouse-down, mouse-up) refuse to run without a daemon
-- **−** Linux support is documented only for Ubuntu 24.04 or later
-
-<sub>no GPU · Needs OS accessibility permissions · [Repo](https://github.com/vercel-labs/agent-desktop) · [📖 Docs ↗](https://agent-browser.dev/desktop) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-desktop/)</sub>
-
-<a name="stagehand"></a>
-### #&#8288;32 [stagehand](https://github.com/browserbase/stagehand) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Nov 2026</sub>
-
-**Playwright-style SDK that drives browsers with act, observe and extract calls.**
-
-Stagehand is an SDK for TypeScript, Python and Go that drives Chrome through Playwright-style methods plus natural-language act(), observe() and extract() calls. extract() returns schema-validated data, and observe() returns real selectors so credentials can be filled without reaching the model. It runs on a local Chrome or on the hosted Browserbase service.
-
-- **+** Same browser driver API in TypeScript, Python and Go
-- **+** observe() returns selectors, so login credentials stay out of model prompts
-- **+** extract() validates output against Zod, Pydantic or Go types
-- **+** Runs on a local Chrome with a persistent user data directory
-- **−** Caching, model gateway, proxies and session recordings need the Browserbase service
-- **−** Local runs need Chrome installed and an LLM provider API key
-- **−** Hosted MCP server requires a Browserbase API key
-- **−** Speed and self-healing claims come without benchmarks in the README
-
-<sub>no GPU · Needs Chrome, LLM provider API key, Browserbase (optional) · Models: OpenAI (openai/gpt-5.4-mini in examples), Browserbase Model Gateway · [Repo](https://github.com/browserbase/stagehand) · [📖 Docs ↗](https://docs.stagehand.dev) · [🌐 Site ↗](https://stagehand.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stagehand/)</sub>
-
-<a name="chatterbot"></a>
-### #&#8288;33 [chatterbot](https://github.com/gunthercox/chatterbot) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · BSD-3-Clause · Nov 2026</sub>
-
-**Python library for retrieval-based chatbots trained on example conversations.**
-
-ChatterBot is a Python library that builds a conversational engine from collections of known conversations. It stores each input and the statement it responded to, then replies by finding the closest known statement and returning the most frequent response to it. It ships training corpora for over a dozen languages and installs with pip.
-
-- **+** Installs with pip; a basic bot takes a few lines of Python
-- **+** Bundled corpus training data for over a dozen languages
-- **+** Language-independent design, trainable on custom conversation data
-- **+** BSD-3-Clause license; last release 2026-08-25
-- **−** Replies come from matching past statements, not an LLM; no generative output
-- **−** Untrained bot has no knowledge; quality depends on training data volume
-- **−** README mentions no tool calling or LLM provider integration
-- **−** No web UI or server included; README shows library usage only
-
-<sub>no GPU · Models: ChatterBot corpus training data · [Repo](https://github.com/gunthercox/chatterbot) · [📖 Docs ↗](https://docs.chatterbot.us) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatterbot/)</sub>
+<sub>no GPU · Docker + Compose · Needs Node.js 22+, SQLite or PostgreSQL 15+, S3-compatible storage (optional), Docker (optional) · port 3000 · [Repo](https://github.com/oomol-lab/open-connector) · [📖 Docs ↗](https://oomol.com/docs/openconnector-self-hosting/) · [🌐 Site ↗](https://oomol.com/apps) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-connector/)</sub>
 
 <a name="runanywhere-sdks"></a>
-### #&#8288;34 [runanywhere-sdks](https://github.com/runanywhereai/runanywhere-sdks) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · custom license · Nov 2026</sub>
+### #&#8288;30 [runanywhere-sdks](https://github.com/runanywhereai/runanywhere-sdks) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · custom license · Nov 2026</sub>
 
 **On-device LLM, speech, vision and RAG SDKs for mobile, web and desktop.**
 
@@ -614,7 +542,7 @@ Eight SDKs (Swift, Kotlin, Flutter, React Native, Web, Electron, Python, and the
 <sub>GPU optional · Models: GGUF, safetensors (MLX), ONNX, Core ML · port 8080 · [Repo](https://github.com/runanywhereai/runanywhere-sdks) · [📖 Docs ↗](https://docs.runanywhere.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/runanywhere-sdks/)</sub>
 
 <a name="harness-sdk"></a>
-### #&#8288;35 [harness-sdk](https://github.com/strands-agents/harness-sdk) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [harness-sdk](https://github.com/strands-agents/harness-sdk) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Nov 2026</sub>
 
 **Python and TypeScript SDK for building agents, with a prebuilt harness.**
 
@@ -630,8 +558,98 @@ Monorepo for the Strands Agents SDKs in Python (3.10+) and TypeScript (Node.js 2
 
 <sub>no GPU · Needs Python 3.10+ or Node.js 22+, Model provider credentials (Amazon Bedrock is the TypeScript SDK default) · Models: Amazon Bedrock, Anthropic, OpenAI, Gemini, Ollama · [Repo](https://github.com/strands-agents/harness-sdk) · [📖 Docs ↗](https://strandsagents.com/docs/user-guide/harness/) · [🌐 Site ↗](https://strandsagents.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/harness-sdk/)</sub>
 
+<a name="adk-go"></a>
+### #&#8288;32 [adk-go](https://github.com/google/adk-go) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.0k · Apache-2.0 · Nov 2026</sub>
+
+**Code-first Go toolkit for building and orchestrating multi-agent applications.**
+
+ADK Go is Google's Agent Development Kit for Go, installed as the module google.golang.org/adk/v2. Agent logic, tools and multi-agent composition are defined directly in Go code. It is optimized for Gemini but described as model-agnostic and deployment-agnostic, with containerized deployment aimed at Google Cloud Run.
+
+- **+** Agents, tools and orchestration are plain Go, so they can be tested and versioned like other code
+- **+** Composes multiple specialized agents into larger systems
+- **+** Sibling ADKs exist for Python, Java, Kotlin and TypeScript
+- **+** Apache-2.0 licensed, with recent commits and a release in October 2026
+- **−** README names no model providers besides Gemini optimization
+- **−** Requires a very recent Go toolchain (1.26.10 or later)
+- **−** README has no code example or quickstart, only links to docs and samples
+- **−** Deployment guidance in the README centers on Google Cloud Run
+
+<sub>Needs Go 1.26.10+ · Models: Gemini · [Repo](https://github.com/google/adk-go) · [📖 Docs ↗](https://google.github.io/adk-docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adk-go/)</sub>
+
+<a name="agent-desktop"></a>
+### #&#8288;33 [agent-desktop](https://github.com/vercel-labs/agent-desktop) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Nov 2026</sub>
+
+**Desktop app control for AI agents via the OS accessibility tree.**
+
+agent-desktop is a Rust CLI and C library that reads a desktop app's accessibility tree (AX API on macOS, UI Automation on Windows, AT-SPI on Linux) and returns it as JSON with a ref per actionable element. The calling agent clicks or types on refs and re-reads the UI to verify; no model is bundled. It also serves its commands as MCP tools over stdio.
+
+- **+** Uses accessibility tree refs instead of screenshots or pixel matching
+- **+** Runs on macOS 13+, Windows 10 1809+, and Ubuntu 24.04+
+- **+** Ref actions are headless by default, without moving the pointer or taking focus
+- **+** Ships a CLI, a C library, and an MCP server (agent-desktop mcp)
+- **−** No model or agent loop included; you must supply and drive the agent
+- **−** Refs go stale when the UI changes, so snapshots must be retaken
+- **−** Four commands (key-down, key-up, mouse-down, mouse-up) refuse to run without a daemon
+- **−** Linux support is documented only for Ubuntu 24.04 or later
+
+<sub>no GPU · Needs OS accessibility permissions · [Repo](https://github.com/vercel-labs/agent-desktop) · [📖 Docs ↗](https://agent-browser.dev/desktop) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-desktop/)</sub>
+
+<a name="stagehand"></a>
+### #&#8288;34 [stagehand](https://github.com/browserbase/stagehand) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · MIT · Nov 2026</sub>
+
+**Playwright-style SDK that drives browsers with act, observe and extract calls.**
+
+Stagehand is an SDK for TypeScript, Python and Go that drives Chrome through Playwright-style methods plus natural-language act(), observe() and extract() calls. extract() returns schema-validated data, and observe() returns real selectors so credentials can be filled without reaching the model. It runs on a local Chrome or on the hosted Browserbase service.
+
+- **+** Same browser driver API in TypeScript, Python and Go
+- **+** observe() returns selectors, so login credentials stay out of model prompts
+- **+** extract() validates output against Zod, Pydantic or Go types
+- **+** Runs on a local Chrome with a persistent user data directory
+- **−** Caching, model gateway, proxies and session recordings need the Browserbase service
+- **−** Local runs need Chrome installed and an LLM provider API key
+- **−** Hosted MCP server requires a Browserbase API key
+- **−** Speed and self-healing claims come without benchmarks in the README
+
+<sub>no GPU · Needs Chrome, LLM provider API key, Browserbase (optional) · Models: OpenAI (openai/gpt-5.4-mini in examples), Browserbase Model Gateway · [Repo](https://github.com/browserbase/stagehand) · [📖 Docs ↗](https://docs.stagehand.dev) · [🌐 Site ↗](https://stagehand.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stagehand/)</sub>
+
+<a name="chatterbot"></a>
+### #&#8288;35 [chatterbot](https://github.com/gunthercox/chatterbot) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · BSD-3-Clause · Nov 2026</sub>
+
+**Python library for retrieval-based chatbots trained on example conversations.**
+
+ChatterBot is a Python library that builds a conversational engine from collections of known conversations. It stores each input and the statement it responded to, then replies by finding the closest known statement and returning the most frequent response to it. It ships training corpora for over a dozen languages and installs with pip.
+
+- **+** Installs with pip; a basic bot takes a few lines of Python
+- **+** Bundled corpus training data for over a dozen languages
+- **+** Language-independent design, trainable on custom conversation data
+- **+** BSD-3-Clause license; last release 2026-08-25
+- **−** Replies come from matching past statements, not an LLM; no generative output
+- **−** Untrained bot has no knowledge; quality depends on training data volume
+- **−** README mentions no tool calling or LLM provider integration
+- **−** No web UI or server included; README shows library usage only
+
+<sub>no GPU · Models: ChatterBot corpus training data · [Repo](https://github.com/gunthercox/chatterbot) · [📖 Docs ↗](https://docs.chatterbot.us) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatterbot/)</sub>
+
+<a name="open-multi-agent"></a>
+### #&#8288;36 [open-multi-agent](https://github.com/open-multi-agent/open-multi-agent) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Nov 2026</sub>
+
+**TypeScript runtime for multi-agent teams with approval gates and offline run review.**
+
+OMA is a TypeScript library that coordinates teams of agents. In runTeam(), one model call plans a task graph, a deterministic scheduler executes it, and a second call writes the final answer. It adds durable human approvals, a run journal checked offline with verifyRun(), and an offline Run Viewer. It has no telemetry or hosted backend.
+
+- **+** Three modes: runAgent, runTasks for explicit pipelines, runTeam for goal-planned task graphs
+- **+** Approval gates before plans, tasks or tool calls; persistent storage lets restarts resume
+- **+** Offline Run Viewer and run journal; no telemetry or hosted control plane
+- **+** Egress policy (offline or allowlist) checked before built-in adapters connect
+- **−** TypeScript and Node.js only; Node 20 is upstream-EOL and slated for removal
+- **−** Approval UI and notifications must be built by the application
+- **−** verifyRun() checks consistency only; it does not prove the journal was never edited
+- **−** Process and ACP external-agent backends sit outside the egress policy
+
+<sub>no GPU · Needs Node.js 20+ · Models: Anthropic, OpenAI, Azure OpenAI, Bedrock, Gemini · [Repo](https://github.com/open-multi-agent/open-multi-agent) · [📖 Docs ↗](https://open-multi-agent.com/getting-started/introduction/?utm_source=github&utm_medium=readme) · [🌐 Site ↗](https://open-multi-agent.com/?utm_source=github&utm_medium=readme) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-multi-agent/)</sub>
+
 <a name="dspy"></a>
-### #&#8288;36 [dspy](https://github.com/stanfordnlp/dspy) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · MIT · Nov 2026</sub>
+### #&#8288;37 [dspy](https://github.com/stanfordnlp/dspy) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · MIT · Nov 2026</sub>
 
 **Python framework for building LM programs and optimizing their prompts and weights.**
 
@@ -649,7 +667,7 @@ DSPy lets you write LM pipelines as modular Python code instead of hand-written 
 <sub>Needs Python, lm15 (bundled) · Models: provider LMs via bundled lm15 engines · [Repo](https://github.com/stanfordnlp/dspy) · [📖 Docs ↗](https://dspy.ai) · [🌐 Site ↗](https://dspy.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dspy/)</sub>
 
 <a name="semantic-kernel"></a>
-### #&#8288;37 [semantic-kernel](https://github.com/microsoft/semantic-kernel) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · MIT · Nov 2026</sub>
+### #&#8288;38 [semantic-kernel](https://github.com/microsoft/semantic-kernel) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 29k · MIT · Nov 2026</sub>
 
 **Model-agnostic SDK for building agents and plugins in C#, Python and Java.**
 
@@ -667,7 +685,7 @@ Semantic Kernel is a Microsoft SDK for building LLM agents and multi-agent syste
 <sub>no GPU · Needs OpenAI or Azure OpenAI API key, or a local model runtime · Models: OpenAI, Azure OpenAI, Hugging Face, NVIDIA, Ollama · [Repo](https://github.com/microsoft/semantic-kernel) · [📖 Docs ↗](https://learn.microsoft.com/en-us/semantic-kernel/get-started/quick-start-guide) · [🌐 Site ↗](https://aka.ms/sk/learn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-kernel/)</sub>
 
 <a name="langchainjs"></a>
-### #&#8288;38 [langchainjs](https://github.com/langchain-ai/langchainjs) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
+### #&#8288;39 [langchainjs](https://github.com/langchain-ai/langchainjs) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Nov 2026</sub>
 
 **TypeScript framework for building LLM apps and agents with swappable model integrations.**
 
@@ -684,8 +702,26 @@ LangChain.js is a TypeScript library that gives agents, chat models, embeddings,
 
 <sub>no GPU · Needs Node.js 20/22/24 or Deno/Bun, LLM provider API · Models: Multiple providers via integrations · [Repo](https://github.com/langchain-ai/langchainjs) · [📖 Docs ↗](https://docs.langchain.com/oss/javascript/langchain/overview) · [🌐 Site ↗](https://www.langchain.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchainjs/)</sub>
 
+<a name="instructor"></a>
+### #&#8288;40 [instructor](https://github.com/567-labs/instructor) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
+
+**Python library that returns Pydantic-validated structured output from LLM calls.**
+
+Instructor wraps LLM provider clients so a chat completion call takes a Pydantic `response_model` and returns a validated, typed object. Failed validations are retried with the error message fed back to the model, and partial objects can be streamed. One `from_provider` interface covers OpenAI, Anthropic, Google, Groq and Ollama, with ports in TypeScript, Ruby, Go, Elixir and Rust.
+
+- **+** Same `response_model` call across OpenAI, Anthropic, Google, Groq and Ollama
+- **+** Automatic retries on Pydantic validation failure via `max_retries`
+- **+** Streams partial objects with `Partial[Model]`
+- **+** Installs with pip, uv or poetry; no server to run
+- **−** Extraction only; README points to PydanticAI for agents, tools and evals
+- **−** No built-in observability or tracing
+- **−** Retries add extra LLM calls, raising cost and latency on failures
+- **−** Other language ports are listed as separate implementations with their own docs
+
+<sub>no GPU · Needs Pydantic, LLM provider API or local Ollama · Models: OpenAI, Anthropic, Google, Groq, Ollama · [Repo](https://github.com/567-labs/instructor) · [📖 Docs ↗](https://python.useinstructor.com) · [🌐 Site ↗](https://python.useinstructor.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/instructor/)</sub>
+
 <a name="praisonai"></a>
-### #&#8288;39 [praisonai](https://github.com/mervinpraison/praisonai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · MIT · Nov 2026</sub>
+### #&#8288;41 [praisonai](https://github.com/mervinpraison/praisonai) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · MIT · Nov 2026</sub>
 
 **Python SDK and CLI for building multi-agent workflows with tools and MCP.**
 
@@ -703,7 +739,7 @@ PraisonAI is a Python framework (praisonaiagents SDK plus praisonai CLI) for def
 <sub>no GPU · Docker + Compose · Needs LLM provider API key (e.g. OpenAI) or local Ollama/vLLM, Optional sandbox backends: Docker, E2B, Modal, Daytona, Fly.io · Models: OpenAI, Anthropic, Google Gemini, Ollama, vLLM · [Repo](https://github.com/mervinpraison/praisonai) · [📖 Docs ↗](https://docs.praison.ai) · [🌐 Site ↗](https://praison.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/praisonai/)</sub>
 
 <a name="rig"></a>
-### #&#8288;40 [rig](https://github.com/0xplaygrounds/rig) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · MIT · Nov 2026</sub>
+### #&#8288;42 [rig](https://github.com/0xplaygrounds/rig) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · MIT · Nov 2026</sub>
 
 **Rust library for building LLM agents, plus a Bevy-based terminal coding agent.**
 
@@ -720,44 +756,26 @@ Rig is a Rust library that puts 20+ model providers and 10+ vector stores behind
 
 <sub>GPU optional · Needs Rust 1.97.1+, tokio, LLM provider API key · Models: OpenAI, AWS Bedrock, Google Vertex AI, Google Gemini gRPC, Candle (local Llama/SmolLM2/Qwen3) · [Repo](https://github.com/0xplaygrounds/rig) · [📖 Docs ↗](https://rig.rs/docs) · [🌐 Site ↗](https://rig.rs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rig/)</sub>
 
-<a name="open-multi-agent"></a>
-### #&#8288;41 [open-multi-agent](https://github.com/open-multi-agent/open-multi-agent) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Nov 2026</sub>
+<a name="ruby-llm"></a>
+### #&#8288;43 [ruby_llm](https://github.com/crmne/ruby_llm) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Nov 2026</sub>
 
-**TypeScript runtime for multi-agent teams with approval gates and offline run review.**
+**Ruby library for chat, tools, agents and evals across 23 LLM providers.**
 
-OMA is a TypeScript library that coordinates teams of agents. In runTeam(), one model call plans a task graph, a deterministic scheduler executes it, and a second call writes the final answer. It adds durable human approvals, a run journal checked offline with verifyRun(), and an offline Run Viewer. It has no telemetry or hosted backend.
+RubyLLM is a Ruby gem with one API for chat, streaming, attachments, structured output, embeddings, and image, video and audio calls across 23 providers plus any OpenAI-compatible endpoint. It adds tools, agents, MCP, evaluations and a Rails integration with Active Record persistence, Hotwire streaming and an optional generated chat UI. Version 2.2 adds sandboxed code execution and skills.
 
-- **+** Three modes: runAgent, runTasks for explicit pipelines, runTeam for goal-planned task graphs
-- **+** Approval gates before plans, tasks or tool calls; persistent storage lets restarts resume
-- **+** Offline Run Viewer and run journal; no telemetry or hosted control plane
-- **+** Egress policy (offline or allowlist) checked before built-in adapters connect
-- **−** TypeScript and Node.js only; Node 20 is upstream-EOL and slated for removal
-- **−** Approval UI and notifications must be built by the application
-- **−** verifyRun() checks consistency only; it does not prove the journal was never edited
-- **−** Process and ACP external-agent backends sit outside the egress policy
+- **+** One API covers 23 providers, including Ollama and OpenAI-compatible endpoints
+- **+** Rails generators give Active Record chat persistence and a working chat UI
+- **+** Built-in evaluations, cost tracking and OpenTelemetry tracing
+- **+** Embeddings, reranking, OCR, moderation, image, video and speech share the same API
+- **−** Ruby only; no bindings for other languages
+- **−** OCR, video and reranking need API keys from specific providers
+- **−** Rails is the documented persistence path; non-Rails storage is not described
+- **−** Large 2.2 feature surface means more to learn than a thin client
 
-<sub>no GPU · Needs Node.js 20+ · Models: Anthropic, OpenAI, Azure OpenAI, Bedrock, Gemini · [Repo](https://github.com/open-multi-agent/open-multi-agent) · [📖 Docs ↗](https://open-multi-agent.com/getting-started/introduction/?utm_source=github&utm_medium=readme) · [🌐 Site ↗](https://open-multi-agent.com/?utm_source=github&utm_medium=readme) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-multi-agent/)</sub>
-
-<a name="instructor"></a>
-### #&#8288;42 [instructor](https://github.com/567-labs/instructor) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
-
-**Python library that returns Pydantic-validated structured output from LLM calls.**
-
-Instructor wraps LLM provider clients so a chat completion call takes a Pydantic `response_model` and returns a validated, typed object. Failed validations are retried with the error message fed back to the model, and partial objects can be streamed. One `from_provider` interface covers OpenAI, Anthropic, Google, Groq and Ollama, with ports in TypeScript, Ruby, Go, Elixir and Rust.
-
-- **+** Same `response_model` call across OpenAI, Anthropic, Google, Groq and Ollama
-- **+** Automatic retries on Pydantic validation failure via `max_retries`
-- **+** Streams partial objects with `Partial[Model]`
-- **+** Installs with pip, uv or poetry; no server to run
-- **−** Extraction only; README points to PydanticAI for agents, tools and evals
-- **−** No built-in observability or tracing
-- **−** Retries add extra LLM calls, raising cost and latency on failures
-- **−** Other language ports are listed as separate implementations with their own docs
-
-<sub>no GPU · Needs Pydantic, LLM provider API or local Ollama · Models: OpenAI, Anthropic, Google, Groq, Ollama · [Repo](https://github.com/567-labs/instructor) · [📖 Docs ↗](https://python.useinstructor.com) · [🌐 Site ↗](https://python.useinstructor.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/instructor/)</sub>
+<sub>no GPU · Needs Ruby, Provider API keys, Rails (optional) · Models: OpenAI, Anthropic, Gemini, VertexAI, Bedrock · [Repo](https://github.com/crmne/ruby_llm) · [📖 Docs ↗](https://rubyllm.com/getting-started/) · [🌐 Site ↗](https://rubyllm.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ruby-llm/)</sub>
 
 <a name="llm"></a>
-### #&#8288;43 [llm](https://github.com/simonw/llm) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;44 [llm](https://github.com/simonw/llm) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **CLI and Python library for prompting local and hosted LLMs, logging to SQLite.**
 
@@ -775,7 +793,7 @@ LLM runs prompts and interactive chats against OpenAI, Anthropic, Gemini and oth
 <sub>no GPU · Needs SQLite, Provider API keys or a local model server (e.g. Ollama, LM Studio) via plugins · Models: OpenAI, Anthropic Claude (plugin), Google Gemini (plugin), Ollama (plugin), OpenAI-compatible endpoints · [Repo](https://github.com/simonw/llm) · [▶️ Demo ↗](https://www.youtube.com/watch?v=QUXQNi6jQ30) · [📖 Docs ↗](https://llm.datasette.io/en/stable/) · [🌐 Site ↗](https://llm.datasette.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llm/)</sub>
 
 <a name="tambo"></a>
-### #&#8288;44 [tambo](https://github.com/tambo-ai/tambo) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
+### #&#8288;45 [tambo](https://github.com/tambo-ai/tambo) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
 
 **React toolkit where an agent picks and renders your components.**
 
@@ -792,7 +810,7 @@ Tambo is a React SDK plus backend for generative UI. You register components wit
 <sub>no GPU · Compose · Needs LLM provider API key · Models: OpenAI, Anthropic, Google Gemini, Mistral, Cerebras · [Repo](https://github.com/tambo-ai/tambo) · [📖 Docs ↗](https://docs.tambo.co) · [🌐 Site ↗](https://tambo.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tambo/)</sub>
 
 <a name="flowgram-ai"></a>
-### #&#8288;45 [flowgram.ai](https://github.com/bytedance/flowgram.ai) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · MIT · Nov 2026</sub>
+### #&#8288;46 [flowgram.ai](https://github.com/bytedance/flowgram.ai) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · MIT · Nov 2026</sub>
 
 **TypeScript toolkit for embedding visual workflow editors in your own product.**
 
@@ -809,7 +827,7 @@ FlowGram is a set of TypeScript packages for building a node-based workflow edit
 <sub>no GPU · Needs Node.js, npm · port 3000 · [Repo](https://github.com/bytedance/flowgram.ai) · [▶️ Demo ↗](https://codesandbox.io/p/github/louisyoungx/flowgram-demo/main) · [📖 Docs ↗](https://flowgram.ai/guide/getting-started/introduction.html) · [🌐 Site ↗](https://flowgram.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flowgram-ai/)</sub>
 
 <a name="paperspine"></a>
-### #&#8288;46 [paperspine](https://github.com/wubing2023/paperspine) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · MIT · Nov 2026</sub>
+### #&#8288;47 [paperspine](https://github.com/wubing2023/paperspine) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · MIT · Nov 2026</sub>
 
 **Agent skill that drafts research papers with analysis, figures and review.**
 
@@ -825,24 +843,6 @@ PaperSpine is a set of agent Skills, invoked as $paper-spine in a chat host such
 - **−** Example papers were all produced with GPT-6.1 Sol; other hosts are not shown
 
 <sub>Needs Python 3.12+, Codex CLI (web workbench), agent host such as Codex · Models: GPT-6.1 Sol (used in example runs) · [Repo](https://github.com/wubing2023/paperspine) · [📖 Docs ↗](https://wubing2023.github.io/PaperSpine/v6/llms.txt) · [🌐 Site ↗](https://wubing2023.github.io/PaperSpine/v6/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperspine/)</sub>
-
-<a name="ruby-llm"></a>
-### #&#8288;47 [ruby_llm](https://github.com/crmne/ruby_llm) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Nov 2026</sub>
-
-**Ruby library for chat, tools, agents and evals across 23 LLM providers.**
-
-RubyLLM is a Ruby gem with one API for chat, streaming, attachments, structured output, embeddings, and image, video and audio calls across 23 providers plus any OpenAI-compatible endpoint. It adds tools, agents, MCP, evaluations and a Rails integration with Active Record persistence, Hotwire streaming and an optional generated chat UI. Version 2.2 adds sandboxed code execution and skills.
-
-- **+** One API covers 23 providers, including Ollama and OpenAI-compatible endpoints
-- **+** Rails generators give Active Record chat persistence and a working chat UI
-- **+** Built-in evaluations, cost tracking and OpenTelemetry tracing
-- **+** Embeddings, reranking, OCR, moderation, image, video and speech share the same API
-- **−** Ruby only; no bindings for other languages
-- **−** OCR, video and reranking need API keys from specific providers
-- **−** Rails is the documented persistence path; non-Rails storage is not described
-- **−** Large 2.2 feature surface means more to learn than a thin client
-
-<sub>no GPU · Needs Ruby, Provider API keys, Rails (optional) · Models: OpenAI, Anthropic, Gemini, VertexAI, Bedrock · [Repo](https://github.com/crmne/ruby_llm) · [📖 Docs ↗](https://rubyllm.com/getting-started/) · [🌐 Site ↗](https://rubyllm.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ruby-llm/)</sub>
 
 <a name="llama-index"></a>
 ### #&#8288;48 [llama_index](https://github.com/run-llama/llama_index) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (70) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 53k · MIT · Nov 2026</sub>
@@ -863,7 +863,7 @@ LlamaIndex is a Python toolkit that loads data from files, APIs and SQL, builds 
 <sub>GPU optional · Needs Python, LLM provider API key or local Ollama, LlamaParse account (optional) · Models: OpenAI, Ollama, Hugging Face embeddings · [Repo](https://github.com/run-llama/llama_index) · [📖 Docs ↗](https://developers.llamaindex.ai/python/framework/) · [🌐 Site ↗](https://llamaindex.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llama-index/)</sub>
 
 <a name="browseros"></a>
-### #&#8288;49 [browseros](https://github.com/browseros-ai/browseros) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;49 [browseros](https://github.com/browseros-ai/browseros) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · AGPL-3.0 · Nov 2026</sub>
 
 **Chromium fork that lets coding agents browse in your signed-in session.**
 
@@ -881,7 +881,7 @@ BrowserOS neo is a Chromium-based desktop browser that exposes itself over MCP, 
 <sub>no GPU · Needs An MCP-capable agent such as Claude Code, Codex or Cursor · Models: Any MCP-capable agent · [Repo](https://github.com/browseros-ai/browseros) · [📖 Docs ↗](https://docs.browseros.com) · [🌐 Site ↗](https://www.browseros.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/browseros/)</sub>
 
 <a name="agentscope-java"></a>
-### #&#8288;50 [agentscope-java](https://github.com/agentscope-ai/agentscope-java) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;50 [agentscope-java](https://github.com/agentscope-ai/agentscope-java) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
 
 **Java framework for building multi-tenant agents with sandboxes and tool approvals.**
 
@@ -917,7 +917,7 @@ TEN is a framework for real-time multimodal conversational agents, built from ex
 <sub>RAM ≥ 4 GB · no GPU · Needs Docker, Node.js 18, Agora App ID and Certificate, OpenAI API key, Deepgram API key, ElevenLabs API key · Models: OpenAI, Deepgram, ElevenLabs · port 3000 · [Repo](https://github.com/ten-framework/ten-framework) · [📖 Docs ↗](https://theten.ai/docs) · [🌐 Site ↗](https://theten.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ten-framework/)</sub>
 
 <a name="copilot-sdk"></a>
-### #&#8288;52 [copilot-sdk](https://github.com/github/copilot-sdk) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;52 [copilot-sdk](https://github.com/github/copilot-sdk) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **SDKs that embed the GitHub Copilot CLI agent runtime in your own apps.**
 
@@ -953,7 +953,7 @@ Mobilerun drives Android and iOS devices from natural-language tasks through a C
 <sub>no GPU · Docker · Needs ADB, Mobilerun Portal app, Android device or iOS device/simulator, LLM provider API or Ollama · Models: OpenAI, Anthropic, Gemini, xAI, Ollama · [Repo](https://github.com/droidrun/mobilerun) · [📖 Docs ↗](https://docs.mobilerun.ai) · [🌐 Site ↗](https://mobilerun.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mobilerun/)</sub>
 
 <a name="eve"></a>
-### #&#8288;54 [vercel/eve](https://github.com/vercel/eve) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;54 [vercel/eve](https://github.com/vercel/eve) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
 
 **TypeScript framework for durable agents defined as files in an agent/ directory.**
 
@@ -970,8 +970,44 @@ eve is a TypeScript framework where an agent is defined by a conventional direct
 
 <sub>no GPU · Needs Node.js and npm, Vercel AI Gateway, Vercel project (for Web Chat and deploy) · Models: AI Gateway model IDs (e.g. openai/gpt-5.6-terra) · [Repo](https://github.com/vercel/eve) · [📖 Docs ↗](https://eve.dev/docs) · [🌐 Site ↗](https://eve.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eve/)</sub>
 
+<a name="langchain4j"></a>
+### #&#8288;55 [langchain4j](https://github.com/langchain4j/langchain4j) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+
+**Java library for building LLM apps with unified provider and vector store APIs.**
+
+LangChain4j is a Java library that puts 20+ LLM providers and 30+ embedding stores behind one API, so providers can be swapped without rewriting code. It covers prompt templating, chat memory, function calling, RAG pipelines and agents, with integrations for Quarkus, Spring Boot, Helidon and Micronaut. It is independent of the Python LangChain project.
+
+- **+** Unified API across 20+ LLM providers and 30+ embedding stores
+- **+** Integrates with Quarkus, Spring Boot, Helidon and Micronaut
+- **+** Covers prompt templates, chat memory, tool calling, RAG and agents
+- **+** Separate examples repo with plain Java and framework samples
+- **−** JVM only; no Python or JavaScript support
+- **−** README says some features are still being worked on
+- **−** Quarkus, Helidon and Micronaut support is in separate dependencies
+- **−** Documentation chatbot is marked experimental
+
+<sub>no GPU · Needs JVM, LLM provider API · Models: OpenAI, Google Vertex AI, Pinecone, Milvus · [Repo](https://github.com/langchain4j/langchain4j) · [📖 Docs ↗](https://docs.langchain4j.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain4j/)</sub>
+
+<a name="spring-ai"></a>
+### #&#8288;56 [spring-ai](https://github.com/spring-projects/spring-ai) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Nov 2026</sub>
+
+**Spring-style Java API for chat models, embeddings, vector stores and tool calling.**
+
+Spring AI is a Java library that gives Spring Boot applications a portable API over model providers such as Anthropic, OpenAI, Amazon Bedrock, Google, Ollama, Mistral AI and DeepSeek. It covers chat, embedding, image, transcription, speech and moderation models, plus vector stores, tool calling, structured output to POJOs, chat memory, RAG and MCP starters. Version 2.x targets Spring Boot 4.x; 1.1.x targets Boot 3.5.x.
+
+- **+** Portable ChatClient API across many providers, with sync and streaming modes
+- **+** Boot starters and auto-configuration for models and vector stores
+- **+** About 20 vector stores behind one SQL-like metadata filter API
+- **+** MCP client and server starters with STDIO, SSE and Streamable-HTTP transports
+- **−** Java and Spring Boot only; no support for other languages or frameworks
+- **−** 2.x requires Spring Boot 4; Boot 3.5 users must stay on 1.1.x
+- **−** A library, not a runnable app: no UI or hosted agent runtime
+- **−** Major-version split means upgrades need migration work per the upgrade notes
+
+<sub>no GPU · Needs Spring Boot, Maven, Model provider API or local runtime such as Ollama, Optional vector store · Models: Anthropic, OpenAI, Amazon Bedrock, Google, Ollama · [Repo](https://github.com/spring-projects/spring-ai) · [📖 Docs ↗](https://docs.spring.io/spring-ai/reference/getting-started.html) · [🌐 Site ↗](https://docs.spring.io/spring-ai/reference/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spring-ai/)</sub>
+
 <a name="flue"></a>
-### #&#8288;55 [flue](https://github.com/withastro/flue) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;57 [flue](https://github.com/withastro/flue) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.7k · Apache-2.0 · Nov 2026</sub>
 
 **TypeScript framework for building autonomous agents with sandboxes, skills and tools.**
 
@@ -989,7 +1025,7 @@ Flue is a TypeScript agent harness where an agent is a function that composes a 
 <sub>no GPU · Needs Node.js, Postgres (optional persistence adapter) · Models: Anthropic (claude-sonnet-4-6 in example) · [Repo](https://github.com/withastro/flue) · [📖 Docs ↗](https://flueframework.com/docs/guide/building-agents/) · [🌐 Site ↗](https://flueframework.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/flue/)</sub>
 
 <a name="aurelio-labs-semantic-router"></a>
-### #&#8288;56 [aurelio-labs/semantic-router](https://github.com/aurelio-labs/semantic-router) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Nov 2026</sub>
+### #&#8288;58 [aurelio-labs/semantic-router](https://github.com/aurelio-labs/semantic-router) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Nov 2026</sub>
 
 **Python library that routes queries to predefined routes by embedding similarity.**
 
@@ -1007,7 +1043,7 @@ Semantic Router is a Python library that decides which predefined route a user m
 <sub>Compose · Needs Pinecone (optional), Qdrant (optional), Postgres (optional) · Models: FastEmbed (BAAI/bge-small-en-v1.5), OpenAI embeddings, Cohere embeddings, Hugging Face encoders, TypeSafe Jev, Laya, Von decision models · [Repo](https://github.com/aurelio-labs/semantic-router) · [📖 Docs ↗](https://docs.aurelio.ai/docs/semantic-router/v1/get-started/introduction) · [🌐 Site ↗](https://aurelio.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aurelio-labs-semantic-router/)</sub>
 
 <a name="openui"></a>
-### #&#8288;57 [thesysdev/openui](https://github.com/thesysdev/openui) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Nov 2026</sub>
+### #&#8288;59 [thesysdev/openui](https://github.com/thesysdev/openui) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Nov 2026</sub>
 
 **Generative UI framework that streams model-written UI via a compact language.**
 
@@ -1024,26 +1060,8 @@ OpenUI defines OpenUI Lang, a compact streaming-first language that models emit 
 
 <sub>no GPU · Needs Node.js, LLM provider · Models: unknown · [Repo](https://github.com/thesysdev/openui) · [▶️ Demo ↗](https://www.openui.com/playground) · [📖 Docs ↗](https://openui.com) · [🌐 Site ↗](https://www.openui.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openui/)</sub>
 
-<a name="langchain4j"></a>
-### #&#8288;58 [langchain4j](https://github.com/langchain4j/langchain4j) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
-
-**Java library for building LLM apps with unified provider and vector store APIs.**
-
-LangChain4j is a Java library that puts 20+ LLM providers and 30+ embedding stores behind one API, so providers can be swapped without rewriting code. It covers prompt templating, chat memory, function calling, RAG pipelines and agents, with integrations for Quarkus, Spring Boot, Helidon and Micronaut. It is independent of the Python LangChain project.
-
-- **+** Unified API across 20+ LLM providers and 30+ embedding stores
-- **+** Integrates with Quarkus, Spring Boot, Helidon and Micronaut
-- **+** Covers prompt templates, chat memory, tool calling, RAG and agents
-- **+** Separate examples repo with plain Java and framework samples
-- **−** JVM only; no Python or JavaScript support
-- **−** README says some features are still being worked on
-- **−** Quarkus, Helidon and Micronaut support is in separate dependencies
-- **−** Documentation chatbot is marked experimental
-
-<sub>no GPU · Needs JVM, LLM provider API · Models: OpenAI, Google Vertex AI, Pinecone, Milvus · [Repo](https://github.com/langchain4j/langchain4j) · [📖 Docs ↗](https://docs.langchain4j.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain4j/)</sub>
-
 <a name="voltagent"></a>
-### #&#8288;59 [voltagent](https://github.com/voltagent/voltagent) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;60 [voltagent](https://github.com/voltagent/voltagent) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **TypeScript framework for building multi-agent apps with workflows and memory.**
 
@@ -1058,24 +1076,6 @@ VoltAgent is a TypeScript framework for defining agents with typed tools, memory
 - **−** No Docker or compose files detected in the repository
 
 <sub>no GPU · Needs Node.js, LLM provider API (e.g. OpenAI), VoltOps Console (optional) · Models: OpenAI, Anthropic, Google · port 3141 · [Repo](https://github.com/voltagent/voltagent) · [▶️ Demo ↗](https://console.voltagent.dev/demo) · [📖 Docs ↗](https://voltagent.dev/docs/) · [🌐 Site ↗](https://voltagent.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/voltagent/)</sub>
-
-<a name="spring-ai"></a>
-### #&#8288;60 [spring-ai](https://github.com/spring-projects/spring-ai) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · Apache-2.0 · Nov 2026</sub>
-
-**Spring-style Java API for chat models, embeddings, vector stores and tool calling.**
-
-Spring AI is a Java library that gives Spring Boot applications a portable API over model providers such as Anthropic, OpenAI, Amazon Bedrock, Google, Ollama, Mistral AI and DeepSeek. It covers chat, embedding, image, transcription, speech and moderation models, plus vector stores, tool calling, structured output to POJOs, chat memory, RAG and MCP starters. Version 2.x targets Spring Boot 4.x; 1.1.x targets Boot 3.5.x.
-
-- **+** Portable ChatClient API across many providers, with sync and streaming modes
-- **+** Boot starters and auto-configuration for models and vector stores
-- **+** About 20 vector stores behind one SQL-like metadata filter API
-- **+** MCP client and server starters with STDIO, SSE and Streamable-HTTP transports
-- **−** Java and Spring Boot only; no support for other languages or frameworks
-- **−** 2.x requires Spring Boot 4; Boot 3.5 users must stay on 1.1.x
-- **−** A library, not a runnable app: no UI or hosted agent runtime
-- **−** Major-version split means upgrades need migration work per the upgrade notes
-
-<sub>no GPU · Needs Spring Boot, Maven, Model provider API or local runtime such as Ollama, Optional vector store · Models: Anthropic, OpenAI, Amazon Bedrock, Google, Ollama · [Repo](https://github.com/spring-projects/spring-ai) · [📖 Docs ↗](https://docs.spring.io/spring-ai/reference/getting-started.html) · [🌐 Site ↗](https://docs.spring.io/spring-ai/reference/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spring-ai/)</sub>
 
 <a name="stickman-video-director"></a>
 ### #&#8288;61 [stickman-video-director](https://github.com/kaomei/stickman-video-director) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · MIT · Nov 2026</sub>
@@ -1095,8 +1095,25 @@ An installable Skill for AI assistants (Codex, Claude Code, Cursor and similar) 
 
 <sub>Needs Codex, Claude Code, Cursor or similar coding agent, Google Flow, Runway, Luma or Kling (Director Mode), CapCut or Premiere (Director Mode editing) · [Repo](https://github.com/kaomei/stickman-video-director) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stickman-video-director/)</sub>
 
+<a name="agent-native"></a>
+### #&#8288;62 [agent-native](https://github.com/builderio/agent-native) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.8k · no license · Nov 2026</sub>
+
+**TypeScript framework for agents that share actions and state with an app UI.**
+
+Agent-Native is a TypeScript framework where each capability is defined once as a zod-validated action. The agent calls it as a tool, and the React UI calls it through hooks such as useActionQuery. The same action is also exposed over HTTP, MCP, A2A and CLI. It ships agent chat, auth and permissions, skills and memory, scheduled automations, and PostgreSQL storage (PGlite for local development).
+
+- **+** One action definition serves agent tool, UI call, HTTP, MCP, A2A and CLI
+- **+** Agent and UI share validation, permissions, data and current UI state
+- **+** Includes auth, memory, automations and agent teams out of the box
+- **+** Sample apps (Mail, Calendar, Slides, Analytics and others) to fork as starting points
+- **−** Examples and hooks are React-oriented; other front-ends are not documented in the README
+- **−** No Docker or compose setup shown in the README
+- **−** Production database is PostgreSQL only, per the README
+
+<sub>Docker · Needs Node.js, PostgreSQL (production), PGlite (local development), LLM provider · [Repo](https://github.com/builderio/agent-native) · [📖 Docs ↗](https://agent-native.com/docs) · [🌐 Site ↗](https://agent-native.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-native/)</sub>
+
 <a name="atomic-agents"></a>
-### #&#8288;62 [atomic-agents](https://github.com/eigenwise/atomic-agents) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+### #&#8288;63 [atomic-agents](https://github.com/eigenwise/atomic-agents) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
 
 **Python framework for building agents from typed Pydantic input and output schemas.**
 
@@ -1114,7 +1131,7 @@ Atomic Agents is a Python library for composing LLM agents and tools from small 
 <sub>no GPU · Needs Instructor, Pydantic, LLM provider API or local model server · Models: OpenAI, Anthropic, Gemini, Groq, Ollama · [Repo](https://github.com/eigenwise/atomic-agents) · [📖 Docs ↗](https://eigenwise.github.io/atomic-agents/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/atomic-agents/)</sub>
 
 <a name="go-sdk"></a>
-### #&#8288;63 [go-sdk](https://github.com/modelcontextprotocol/go-sdk) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · custom license · Nov 2026</sub>
+### #&#8288;64 [go-sdk](https://github.com/modelcontextprotocol/go-sdk) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · custom license · Nov 2026</sub>
 
 **Official Go SDK for building MCP clients and servers.**
 
@@ -1132,7 +1149,7 @@ Go implementation of the Model Context Protocol, maintained under the modelconte
 <sub>no GPU · Needs Go · [Repo](https://github.com/modelcontextprotocol/go-sdk) · [📖 Docs ↗](https://pkg.go.dev/github.com/modelcontextprotocol/go-sdk/mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/go-sdk/)</sub>
 
 <a name="openai-agents-js"></a>
-### #&#8288;64 [openai-agents-js](https://github.com/openai/openai-agents-js) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Nov 2026</sub>
+### #&#8288;65 [openai-agents-js](https://github.com/openai/openai-agents-js) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Nov 2026</sub>
 
 **TypeScript SDK for multi-agent workflows with handoffs, guardrails and tracing.**
 
@@ -1150,7 +1167,7 @@ OpenAI's TypeScript SDK for building agents in code. It covers text agents, sand
 <sub>no GPU · Needs Node.js 22+, zod, OPENAI_API_KEY · Models: OpenAI APIs, other providers (unspecified) · [Repo](https://github.com/openai/openai-agents-js) · [📖 Docs ↗](https://openai.github.io/openai-agents-js) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai-agents-js/)</sub>
 
 <a name="agent-framework"></a>
-### #&#8288;65 [agent-framework](https://github.com/microsoft/agent-framework) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (77) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
+### #&#8288;66 [agent-framework](https://github.com/microsoft/agent-framework) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (78) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Oct 2026</sub>
 
 **Microsoft's Python and .NET framework for agents and multi-agent workflows.**
 
@@ -1168,7 +1185,7 @@ Microsoft Agent Framework is a code-first library for building agents and graph-
 <sub>no GPU · Needs Microsoft Foundry or Azure OpenAI or OpenAI (LLM provider), Azure CLI (for az login in quickstart) · Models: Microsoft Foundry, Azure OpenAI, OpenAI, GitHub Copilot SDK · [Repo](https://github.com/microsoft/agent-framework) · [📖 Docs ↗](https://learn.microsoft.com/en-us/agent-framework/) · [🌐 Site ↗](https://devblogs.microsoft.com/agent-framework/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-framework/)</sub>
 
 <a name="baml"></a>
-### #&#8288;66 [baml](https://github.com/boundaryml/baml) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;67 [baml](https://github.com/boundaryml/baml) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · Apache-2.0 · Nov 2026</sub>
 
 **Typed programming language for writing LLM functions and agents.**
 
@@ -1185,25 +1202,8 @@ BAML is a statically typed language with TypeScript-like syntax, implemented in 
 
 <sub>[Repo](https://github.com/boundaryml/baml) · [📖 Docs ↗](https://boundaryml.com/quickstart) · [🌐 Site ↗](https://www.boundaryml.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/baml/)</sub>
 
-<a name="agent-native"></a>
-### #&#8288;67 [agent-native](https://github.com/builderio/agent-native) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 7.8k · no license · Nov 2026</sub>
-
-**TypeScript framework for agents that share actions and state with an app UI.**
-
-Agent-Native is a TypeScript framework where each capability is defined once as a zod-validated action. The agent calls it as a tool, and the React UI calls it through hooks such as useActionQuery. The same action is also exposed over HTTP, MCP, A2A and CLI. It ships agent chat, auth and permissions, skills and memory, scheduled automations, and PostgreSQL storage (PGlite for local development).
-
-- **+** One action definition serves agent tool, UI call, HTTP, MCP, A2A and CLI
-- **+** Agent and UI share validation, permissions, data and current UI state
-- **+** Includes auth, memory, automations and agent teams out of the box
-- **+** Sample apps (Mail, Calendar, Slides, Analytics and others) to fork as starting points
-- **−** Examples and hooks are React-oriented; other front-ends are not documented in the README
-- **−** No Docker or compose setup shown in the README
-- **−** Production database is PostgreSQL only, per the README
-
-<sub>Docker · Needs Node.js, PostgreSQL (production), PGlite (local development), LLM provider · [Repo](https://github.com/builderio/agent-native) · [📖 Docs ↗](https://agent-native.com/docs) · [🌐 Site ↗](https://agent-native.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-native/)</sub>
-
 <a name="client"></a>
-### #&#8288;68 [client](https://github.com/openai-php/client) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Nov 2026</sub>
+### #&#8288;68 [client](https://github.com/openai-php/client) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Nov 2026</sub>
 
 **PHP client library for the OpenAI API, with typed responses and streaming.**
 
@@ -1220,44 +1220,8 @@ Community-maintained PHP client for the OpenAI API, installed with Composer and 
 
 <sub>no GPU · Needs PHP 8.2+, Composer, PSR-18 HTTP client (e.g. guzzlehttp/guzzle), OpenAI API key · Models: OpenAI API models · [Repo](https://github.com/openai-php/client) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/client/)</sub>
 
-<a name="dimos"></a>
-### #&#8288;69 [dimos](https://github.com/dimensionalos/dimos) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
-
-**Python runtime and SDK for controlling robots with agents and MCP skills.**
-
-DimOS is a Python runtime for robots (quadrupeds, humanoids, arms, drones) built from modules that exchange typed streams and are wired together with composable blueprints. It ships navigation, mapping, perception, spatial memory and manipulation primitives that an LLM agent can call as MCP tools, driven through a `dimos` CLI. Replay and MuJoCo simulation modes run without hardware; a hosted teleop service (dimTELE) is optional.
-
-- **+** Replay and MuJoCo simulation modes run blueprints without robot hardware
-- **+** Hardware list with stability tiers: Unitree Go2, xArm and Piper marked stable
-- **+** Agent skills exposed over MCP and callable from the dimos CLI
-- **+** Transports include Zenoh, LCM, DDS and ROS 2; C++, Lua, TypeScript interop examples
-- **−** Most hardware support is beta, alpha or experimental; only a few platforms are stable
-- **−** Ubuntu is the CI-tested platform; macOS is alpha and Nix is not CI-tested
-- **−** dimTELE teleop depends on a hosted broker and an API key from Dimensional
-- **−** License is reported as NOASSERTION, so terms need checking in the repo
-
-<sub>Docker + Compose · Needs Python 3.12, Git LFS (replay data), MuJoCo (simulation), Ollama (optional, local LLM) · Models: LLM agents via MCP, Ollama (local LLM) · [Repo](https://github.com/dimensionalos/dimos) · [📖 Docs ↗](https://docs.dimensional.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dimos/)</sub>
-
-<a name="langroid"></a>
-### #&#8288;70 [langroid](https://github.com/langroid/langroid) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · MIT · Nov 2026</sub>
-
-**Python framework for multi-agent LLM apps with tools and RAG.**
-
-Langroid is a Python library where Agents, each optionally holding an LLM, a vector store and tools, are wrapped in Tasks and solve problems by exchanging messages. It includes DocChatAgent for RAG, SQLChatAgent, function-calling via ToolMessage, and an MCP tool adapter. It works with OpenAI-compatible APIs and local models such as Ollama, and does not depend on LangChain.
-
-- **+** Small Agent and Task abstractions; a 2-agent loop takes about 20 lines
-- **+** Supports several vector stores: Qdrant, Milvus, pgvector, Pinecone, Weaviate
-- **+** MCP tool adapter converts server tools into ToolMessage instances
-- **+** No LangChain dependency; parsers and most vector DBs are optional extras
-- **−** Pull requests accepted by invitation only, tied to real application use
-- **−** OpenAIAssistant class removed in 0.68.0 after the Assistants API sunset
-- **−** Vector-store env-var naming changed in 0.67.0, requiring migration
-- **−** Code-only; no visual builder or hosted deployment layer
-
-<sub>GPU optional · Docker · Needs LLM provider or local OpenAI-compatible server (e.g. Ollama), Optional vector store (Qdrant, Milvus, pgvector, etc.) · Models: OpenAI, Ollama, Gemini, DeepSeek, OpenRouter · [Repo](https://github.com/langroid/langroid) · [📖 Docs ↗](https://langroid.github.io/langroid/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langroid/)</sub>
-
 <a name="ag2"></a>
-### #&#8288;71 [ag2](https://github.com/ag2ai/ag2) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;69 [ag2](https://github.com/ag2ai/ag2) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.1k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for building single agents and multi-agent networks.**
 
@@ -1274,8 +1238,26 @@ AG2 v1.0 is an async Python library (import ag2) where an Agent calls a model pr
 
 <sub>no GPU · Needs Python >= 3.11, LLM provider API key (OpenAI, Anthropic, Gemini) or Ollama · Models: OpenAI, Anthropic, Gemini, Ollama · [Repo](https://github.com/ag2ai/ag2) · [▶️ Demo ↗](https://playground.ag2.ai) · [📖 Docs ↗](https://docs.ag2.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ag2/)</sub>
 
+<a name="dimos"></a>
+### #&#8288;70 [dimos](https://github.com/dimensionalos/dimos) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (49) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
+
+**Python runtime and SDK for controlling robots with agents and MCP skills.**
+
+DimOS is a Python runtime for robots (quadrupeds, humanoids, arms, drones) built from modules that exchange typed streams and are wired together with composable blueprints. It ships navigation, mapping, perception, spatial memory and manipulation primitives that an LLM agent can call as MCP tools, driven through a `dimos` CLI. Replay and MuJoCo simulation modes run without hardware; a hosted teleop service (dimTELE) is optional.
+
+- **+** Replay and MuJoCo simulation modes run blueprints without robot hardware
+- **+** Hardware list with stability tiers: Unitree Go2, xArm and Piper marked stable
+- **+** Agent skills exposed over MCP and callable from the dimos CLI
+- **+** Transports include Zenoh, LCM, DDS and ROS 2; C++, Lua, TypeScript interop examples
+- **−** Most hardware support is beta, alpha or experimental; only a few platforms are stable
+- **−** Ubuntu is the CI-tested platform; macOS is alpha and Nix is not CI-tested
+- **−** dimTELE teleop depends on a hosted broker and an API key from Dimensional
+- **−** License is reported as NOASSERTION, so terms need checking in the repo
+
+<sub>Docker + Compose · Needs Python 3.12, Git LFS (replay data), MuJoCo (simulation), Ollama (optional, local LLM) · Models: LLM agents via MCP, Ollama (local LLM) · [Repo](https://github.com/dimensionalos/dimos) · [📖 Docs ↗](https://docs.dimensional.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dimos/)</sub>
+
 <a name="agency-swarm"></a>
-### #&#8288;72 [agency-swarm](https://github.com/vrsen/agency-swarm) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · MIT · Nov 2026</sub>
+### #&#8288;71 [agency-swarm](https://github.com/vrsen/agency-swarm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · MIT · Nov 2026</sub>
 
 **Python multi-agent framework built on the OpenAI Agents SDK.**
 
@@ -1292,8 +1274,44 @@ Agency Swarm is a Python framework for building multi-agent applications on top 
 
 <sub>no GPU · Needs OpenAI API key, OpenAI Agents SDK, LiteLLM (for non-OpenAI models) · Models: OpenAI GPT-5 family, GPT-4o, Anthropic Claude via LiteLLM, Google Gemini via LiteLLM, xAI Grok via LiteLLM · [Repo](https://github.com/vrsen/agency-swarm) · [📖 Docs ↗](https://agency-swarm.ai/welcome/installation) · [🌐 Site ↗](https://agency-swarm.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agency-swarm/)</sub>
 
+<a name="langroid"></a>
+### #&#8288;72 [langroid](https://github.com/langroid/langroid) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · MIT · Nov 2026</sub>
+
+**Python framework for multi-agent LLM apps with tools and RAG.**
+
+Langroid is a Python library where Agents, each optionally holding an LLM, a vector store and tools, are wrapped in Tasks and solve problems by exchanging messages. It includes DocChatAgent for RAG, SQLChatAgent, function-calling via ToolMessage, and an MCP tool adapter. It works with OpenAI-compatible APIs and local models such as Ollama, and does not depend on LangChain.
+
+- **+** Small Agent and Task abstractions; a 2-agent loop takes about 20 lines
+- **+** Supports several vector stores: Qdrant, Milvus, pgvector, Pinecone, Weaviate
+- **+** MCP tool adapter converts server tools into ToolMessage instances
+- **+** No LangChain dependency; parsers and most vector DBs are optional extras
+- **−** Pull requests accepted by invitation only, tied to real application use
+- **−** OpenAIAssistant class removed in 0.68.0 after the Assistants API sunset
+- **−** Vector-store env-var naming changed in 0.67.0, requiring migration
+- **−** Code-only; no visual builder or hosted deployment layer
+
+<sub>GPU optional · Docker · Needs LLM provider or local OpenAI-compatible server (e.g. Ollama), Optional vector store (Qdrant, Milvus, pgvector, etc.) · Models: OpenAI, Ollama, Gemini, DeepSeek, OpenRouter · [Repo](https://github.com/langroid/langroid) · [📖 Docs ↗](https://langroid.github.io/langroid/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langroid/)</sub>
+
+<a name="embabel-agent"></a>
+### #&#8288;73 [embabel-agent](https://github.com/embabel/embabel-agent) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2026</sub>
+
+**JVM framework for agents that plan actions toward goals, in Kotlin or Java.**
+
+Embabel is a Kotlin framework, usable from Java, for writing agent flows on Spring Boot. Developers declare actions, goals and conditions over a typed domain model, and the platform plans the action sequence with Goal Oriented Action Planning (or Utility AI) and replans after each step. LLM calls and plain code mix in one flow, and each action can use a different model.
+
+- **+** Non-LLM planner (GOAP, Utility AI option) picks action order and replans after each action
+- **+** Typed domain model and Spring injection; unit and end-to-end agent testing supported
+- **+** Per-action model selection, so cheaper or local models can handle point tasks
+- **+** Java and Kotlin templates, an examples repo and the Tripper sample app
+- **−** JVM and Spring only; no Python or TypeScript SDK
+- **−** Natural-language actions, evolving mode and federation are described as future work
+- **−** Open mode is the least deterministic and can choose paths developers did not foresee
+- **−** Quick start assumes an OpenAI API key and Maven; docs link is a 1.5.0-SNAPSHOT guide
+
+<sub>no GPU · Needs Maven, Spring Boot, OpenAI API key (quick start) · Models: OpenAI, local models (unspecified) · [Repo](https://github.com/embabel/embabel-agent) · [▶️ Demo ↗](https://hub.embabel.com) · [📖 Docs ↗](https://docs.embabel.com/embabel-agent/guide/1.5.0-SNAPSHOT/) · [🌐 Site ↗](https://hub.embabel.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/embabel-agent/)</sub>
+
 <a name="camel"></a>
-### #&#8288;73 [camel-ai/camel](https://github.com/camel-ai/camel) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (82) · Freshness: active (94) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;74 [camel-ai/camel](https://github.com/camel-ai/camel) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (82) · Freshness: active (94) · Maintenance: fair (69) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for multi-agent systems, role-playing and synthetic data generation.**
 
@@ -1311,7 +1329,7 @@ CAMEL is a Python library, installed with pip install camel-ai, for building LLM
 <sub>no GPU · Needs Python, LLM provider API key (e.g. OpenAI) · Models: OpenAI, multiple LLM backends via ModelFactory · [Repo](https://github.com/camel-ai/camel) · [▶️ Demo ↗](https://colab.research.google.com/drive/1AzP33O8rnMW__7ocWJhVBXjKziJXPtim?usp=sharing) · [📖 Docs ↗](https://docs.camel-ai.org) · [🌐 Site ↗](https://www.camel-ai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/camel/)</sub>
 
 <a name="agent-s"></a>
-### #&#8288;74 [agent-s](https://github.com/simular-ai/agent-s) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (70) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;75 [agent-s](https://github.com/simular-ai/agent-s) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: fair (70) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
 
 **Computer-use agent that operates desktop GUIs via screenshots, mouse and keyboard.**
 
@@ -1329,7 +1347,7 @@ Agent S takes a natural-language task, reads the screen, and completes it by cli
 <sub>GPU optional · Needs Tesseract (pytesseract), Grounding model endpoint (UI-TARS-1.5-7B), LLM API key (OpenAI, Anthropic, etc.) · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Open Router · [Repo](https://github.com/simular-ai/agent-s) · [▶️ Demo ↗](https://cloud.simular.ai/) · [🌐 Site ↗](https://www.simular.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-s/)</sub>
 
 <a name="vision-agents"></a>
-### #&#8288;75 [vision-agents](https://github.com/getstream/vision-agents) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;76 [vision-agents](https://github.com/getstream/vision-agents) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for real-time voice and video agents with vision models.**
 
@@ -1346,26 +1364,8 @@ Vision Agents is a Python library for building agents that watch and listen to l
 
 <sub>GPU optional · Compose · Needs Stream API key, LLM provider API (OpenAI, Gemini, etc.), uv · Models: OpenAI, Gemini, xAI, OpenRouter, Hugging Face · [Repo](https://github.com/getstream/vision-agents) · [📖 Docs ↗](https://visionagents.ai/introduction/quickstart) · [🌐 Site ↗](https://visionagents.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vision-agents/)</sub>
 
-<a name="embabel-agent"></a>
-### #&#8288;76 [embabel-agent](https://github.com/embabel/embabel-agent) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Nov 2026</sub>
-
-**JVM framework for agents that plan actions toward goals, in Kotlin or Java.**
-
-Embabel is a Kotlin framework, usable from Java, for writing agent flows on Spring Boot. Developers declare actions, goals and conditions over a typed domain model, and the platform plans the action sequence with Goal Oriented Action Planning (or Utility AI) and replans after each step. LLM calls and plain code mix in one flow, and each action can use a different model.
-
-- **+** Non-LLM planner (GOAP, Utility AI option) picks action order and replans after each action
-- **+** Typed domain model and Spring injection; unit and end-to-end agent testing supported
-- **+** Per-action model selection, so cheaper or local models can handle point tasks
-- **+** Java and Kotlin templates, an examples repo and the Tripper sample app
-- **−** JVM and Spring only; no Python or TypeScript SDK
-- **−** Natural-language actions, evolving mode and federation are described as future work
-- **−** Open mode is the least deterministic and can choose paths developers did not foresee
-- **−** Quick start assumes an OpenAI API key and Maven; docs link is a 1.5.0-SNAPSHOT guide
-
-<sub>no GPU · Needs Maven, Spring Boot, OpenAI API key (quick start) · Models: OpenAI, local models (unspecified) · [Repo](https://github.com/embabel/embabel-agent) · [▶️ Demo ↗](https://hub.embabel.com) · [📖 Docs ↗](https://docs.embabel.com/embabel-agent/guide/1.5.0-SNAPSHOT/) · [🌐 Site ↗](https://hub.embabel.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/embabel-agent/)</sub>
-
 <a name="eino"></a>
-### #&#8288;77 [eino](https://github.com/cloudwego/eino) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;77 [eino](https://github.com/cloudwego/eino) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
 
 **Go framework for building LLM agents and graph-based workflows.**
 
@@ -1418,8 +1418,24 @@ Genkit is a framework from Google's Firebase team for adding model calls, struct
 
 <sub>no GPU · Needs Model provider API key (e.g. Google, OpenAI, Anthropic) or local Ollama · Models: Google Gemini, OpenAI, Anthropic, Ollama, Vertex AI · [Repo](https://github.com/genkit-ai/genkit) · [▶️ Demo ↗](https://examples.genkit.dev) · [📖 Docs ↗](https://genkit.dev/docs/js/get-started/) · [🌐 Site ↗](https://genkit.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genkit/)</sub>
 
+<a name="langchaingo"></a>
+### #&#8288;80 [langchaingo](https://github.com/tmc/langchaingo) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Nov 2026</sub>
+
+**Go port of LangChain for building LLM applications.**
+
+LangChainGo is the Go implementation of LangChain, a library for composing LLM calls in Go programs. The README shows an OpenAI example using the llms package and points to a docs site, a pkg.go.dev reference and an examples directory. Provider, vector store and feature coverage are not listed in the README.
+
+- **+** Native Go library that compiles into your service binary
+- **+** MIT license with a docs site, API reference and examples directory
+- **+** Common llms interface across providers, shown with OpenAI in the README
+- **+** Linked blog posts cover Gemini and Ollama usage from Go
+- **−** README says development is moving to a community effort and seeks maintainers
+- **−** README shows only a basic completion example, no agents or RAG
+
+<sub>no GPU · Needs Go toolchain, LLM provider API (e.g. OpenAI) · Models: OpenAI, Gemini, Ollama · [Repo](https://github.com/tmc/langchaingo) · [📖 Docs ↗](https://tmc.github.io/langchaingo/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchaingo/)</sub>
+
 <a name="claude-trading-skills"></a>
-### #&#8288;80 [claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · MIT · Nov 2026</sub>
+### #&#8288;81 [claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · MIT · Nov 2026</sub>
 
 **Claude Skills for market review, trade planning and journaling by individual investors.**
 
@@ -1436,8 +1452,26 @@ A collection of Claude Skills (SKILL.md folders with Python helpers) for market 
 
 <sub>no GPU · Needs Claude (web app or Claude Code), Python 3.11-3.13, FMP API (optional), FINVIZ Elite (optional), Alpaca (optional) · Models: Claude · [Repo](https://github.com/tradermonty/claude-trading-skills) · [📖 Docs ↗](https://tradermonty.github.io/claude-trading-skills/) · [🌐 Site ↗](https://tradermonty.github.io/claude-trading-skills/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/claude-trading-skills/)</sub>
 
+<a name="fast-agent"></a>
+### #&#8288;82 [fast-agent](https://github.com/evalstate/fast-agent) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2026</sub>
+
+**Python framework and CLI for building MCP-enabled agents and workflows.**
+
+fast-agent is a Python framework and CLI for defining agents with decorators and connecting them to MCP servers. It provides chain, parallel, router, orchestrator, evaluator-optimizer and MAKER workflows. It also runs as an interactive shell-enabled coding agent or as an ACP-compatible agent. Native providers are Anthropic, OpenAI and Google, plus Azure, Ollama and others via TensorZero.
+
+- **+** Covers MCP features: sampling, elicitations, OAuth with keyring storage, Streamable HTTP diagnostics
+- **+** Agents defined with short decorators; prompts and config live in plain files for version control
+- **+** Built-in workflows: chain, parallel, router, orchestrator, evaluator-optimizer, MAKER, agents-as-tools
+- **+** Passthrough and Playback LLMs let you test glue code without calling a real model
+- **−** CLI-first; no web UI or visual workflow builder
+- **−** Python only; setup instructions assume the uv package manager
+- **−** No Docker or compose files provided
+- **−** Providers beyond the native ones depend on TensorZero as an intermediary
+
+<sub>no GPU · Needs uv, MCP servers, LLM provider API or local model server (Ollama, llama.cpp) · Models: Anthropic, OpenAI, Google, Azure, Ollama · [Repo](https://github.com/evalstate/fast-agent) · [📖 Docs ↗](https://fast-agent.ai) · [🌐 Site ↗](https://fast-agent.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fast-agent/)</sub>
+
 <a name="ax-llm-ax"></a>
-### #&#8288;81 [ax-llm/ax](https://github.com/ax-llm/ax) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;83 [ax-llm/ax](https://github.com/ax-llm/ax) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
 
 **DSPy-style typed LLM signatures, agents and flows for TypeScript and ports.**
 
@@ -1455,7 +1489,7 @@ Ax is a TypeScript library for typed LLM programs. You declare a signature as a 
 <sub>no GPU · Needs LLM provider API key (OpenAI, Anthropic, Gemini, etc.), Node, Bun, Deno or browser for the TypeScript package · Models: OpenAI, Anthropic, Google Gemini, Meta, Together · [Repo](https://github.com/ax-llm/ax) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ax-llm-ax/)</sub>
 
 <a name="smolagents"></a>
-### #&#8288;82 [smolagents](https://github.com/huggingface/smolagents) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;84 [smolagents](https://github.com/huggingface/smolagents) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 31k · Apache-2.0 · Nov 2026</sub>
 
 **Python library for agents that write their actions as code.**
 
@@ -1472,24 +1506,26 @@ smolagents is a Python library from Hugging Face for building agents. Its CodeAg
 
 <sub>GPU optional · Needs E2B, Blaxel, Modal or Docker (sandboxed execution), LLM provider or local model · Models: transformers, Ollama, llama.cpp, Hugging Face Inference Providers, LiteLLM · [Repo](https://github.com/huggingface/smolagents) · [📖 Docs ↗](https://huggingface.co/docs/smolagents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/smolagents/)</sub>
 
-<a name="langchaingo"></a>
-### #&#8288;83 [langchaingo](https://github.com/tmc/langchaingo) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Nov 2026</sub>
+<a name="gepa"></a>
+### #&#8288;85 [gepa](https://github.com/gepa-ai/gepa) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
 
-**Go port of LangChain for building LLM applications.**
+**Python library that evolves prompts and other text artifacts using LLM reflection.**
 
-LangChainGo is the Go implementation of LangChain, a library for composing LLM calls in Go programs. The README shows an OpenAI example using the llms package and points to a docs site, a pkg.go.dev reference and an examples directory. Provider, vector store and feature coverage are not listed in the README.
+GEPA (Genetic-Pareto) optimizes text parameters such as prompts, code and agent configurations against a metric you supply. An LLM reads full execution traces to diagnose failures, proposes mutations, and keeps a Pareto frontier of candidates. It exposes gepa.optimize, a general optimize_anything API, adapters for DSPy, MCP, RAG and LangChain, and is also available as dspy.GEPA.
 
-- **+** Native Go library that compiles into your service binary
-- **+** MIT license with a docs site, API reference and examples directory
-- **+** Common llms interface across providers, shown with OpenAI in the README
-- **+** Linked blog posts cover Gemini and Ollama usage from Go
-- **−** README says development is moving to a community effort and seeks maintainers
-- **−** README shows only a basic completion example, no agents or RAG
+- **+** Reads full execution traces, not just a scalar score, to guide each mutation
+- **+** README reports 100-500 evaluations versus 5,000-25,000+ for GRPO
+- **+** Built-in adapters for DSPy, MCP, generic RAG, LangChain and TerminalBench
+- **+** Integrated in DSPy, MLflow, Opik, Pydantic AI and Google ADK
+- **−** Needs a measurable evaluator and a dataset or metric to optimize against
+- **−** Reflection step depends on a strong LLM (examples use openai/gpt-5), adding API cost
+- **−** Optimizes text artifacts only; no weight fine-tuning
+- **−** Benchmark claims in the README come from the authors and partners
 
-<sub>no GPU · Needs Go toolchain, LLM provider API (e.g. OpenAI) · Models: OpenAI, Gemini, Ollama · [Repo](https://github.com/tmc/langchaingo) · [📖 Docs ↗](https://tmc.github.io/langchaingo/docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchaingo/)</sub>
+<sub>no GPU · Needs LLM API for task and reflection models (e.g. OpenAI) · Models: OpenAI-style provider/model strings, any LLM via adapter, DSPy programs, LangChain pipelines · [Repo](https://github.com/gepa-ai/gepa) · [📖 Docs ↗](https://gepa-ai.github.io/gepa/guides/quickstart/) · [🌐 Site ↗](https://gepa-ai.github.io/gepa/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gepa/)</sub>
 
 <a name="kungfu"></a>
-### #&#8288;84 [kungfu](https://github.com/kungfu-systems/kungfu) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;86 [kungfu](https://github.com/kungfu-systems/kungfu) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Sep 2026</sub>
 
 **Durable Work layer that keeps tasks intact across coding agents and failures.**
 
@@ -1507,7 +1543,7 @@ Kungfu is a C++ CLI, TUI and GUI that stores a task (Work) outside any agent ses
 <sub>no GPU · Needs Codex, Claude, OpenCode or Amp (for real agent runs and review) · Models: Codex, Claude, OpenCode, Amp · [Repo](https://github.com/kungfu-systems/kungfu) · [📖 Docs ↗](https://libkungfu.dev) · [🌐 Site ↗](https://kungfu.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kungfu/)</sub>
 
 <a name="behaviortree-cpp"></a>
-### #&#8288;85 [behaviortree.cpp](https://github.com/behaviortree/behaviortree.cpp) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
+### #&#8288;87 [behaviortree.cpp](https://github.com/behaviortree/behaviortree.cpp) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
 
 **C++17 library for building behavior trees for robots and game AI.**
 
@@ -1524,26 +1560,8 @@ BehaviorTree.CPP 4.9 is a C++17 library for defining behavior trees in XML and l
 
 <sub>no GPU · Needs C++17 compiler, CMake, Conan, ZeroMQ, SQLite · [Repo](https://github.com/behaviortree/behaviortree.cpp) · [📖 Docs ↗](https://www.behaviortree.dev/) · [🌐 Site ↗](https://www.behaviortree.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/behaviortree-cpp/)</sub>
 
-<a name="fast-agent"></a>
-### #&#8288;86 [fast-agent](https://github.com/evalstate/fast-agent) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · Apache-2.0 · Nov 2026</sub>
-
-**Python framework and CLI for building MCP-enabled agents and workflows.**
-
-fast-agent is a Python framework and CLI for defining agents with decorators and connecting them to MCP servers. It provides chain, parallel, router, orchestrator, evaluator-optimizer and MAKER workflows. It also runs as an interactive shell-enabled coding agent or as an ACP-compatible agent. Native providers are Anthropic, OpenAI and Google, plus Azure, Ollama and others via TensorZero.
-
-- **+** Covers MCP features: sampling, elicitations, OAuth with keyring storage, Streamable HTTP diagnostics
-- **+** Agents defined with short decorators; prompts and config live in plain files for version control
-- **+** Built-in workflows: chain, parallel, router, orchestrator, evaluator-optimizer, MAKER, agents-as-tools
-- **+** Passthrough and Playback LLMs let you test glue code without calling a real model
-- **−** CLI-first; no web UI or visual workflow builder
-- **−** Python only; setup instructions assume the uv package manager
-- **−** No Docker or compose files provided
-- **−** Providers beyond the native ones depend on TensorZero as an intermediary
-
-<sub>no GPU · Needs uv, MCP servers, LLM provider API or local model server (Ollama, llama.cpp) · Models: Anthropic, OpenAI, Google, Azure, Ollama · [Repo](https://github.com/evalstate/fast-agent) · [📖 Docs ↗](https://fast-agent.ai) · [🌐 Site ↗](https://fast-agent.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fast-agent/)</sub>
-
 <a name="java-sdk"></a>
-### #&#8288;87 [java-sdk](https://github.com/modelcontextprotocol/java-sdk) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Nov 2026</sub>
+### #&#8288;88 [java-sdk](https://github.com/modelcontextprotocol/java-sdk) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Nov 2026</sub>
 
 **Official Java SDK for building MCP clients and servers.**
 
@@ -1561,7 +1579,7 @@ Java implementation of the Model Context Protocol, covering both client and serv
 <sub>no GPU · Needs Java 17+, Maven, Project Reactor, Jackson, SLF4J · [Repo](https://github.com/modelcontextprotocol/java-sdk) · [📖 Docs ↗](https://java.sdk.modelcontextprotocol.io/latest/quickstart/) · [🌐 Site ↗](https://modelcontextprotocol.io/docs/concepts/architecture) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/java-sdk/)</sub>
 
 <a name="openai"></a>
-### #&#8288;88 [macpaw/openai](https://github.com/macpaw/openai) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+### #&#8288;89 [macpaw/openai](https://github.com/macpaw/openai) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
 
 **Swift client library for the OpenAI API and compatible providers.**
 
@@ -1579,7 +1597,7 @@ A community-maintained Swift package that wraps the OpenAI REST API: Responses, 
 <sub>no GPU · Needs OpenAI API key or OpenAI-compatible provider, Swift Package Manager · Models: OpenAI Responses API, OpenAI Chat Completions API, OpenAI-compatible providers (Gemini, DeepSeek, Perplexity, OpenRouter) · [Repo](https://github.com/macpaw/openai) · [📖 Docs ↗](https://platform.openai.com/docs/api-reference) · [🌐 Site ↗](https://swiftpackageindex.com/MacPaw/OpenAI) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai/)</sub>
 
 <a name="a2a"></a>
-### #&#8288;89 [a2a](https://github.com/a2aproject/a2a) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;90 [a2a](https://github.com/a2aproject/a2a) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Nov 2026</sub>
 
 **Open protocol for agent-to-agent communication over JSON-RPC and HTTP.**
 
@@ -1596,26 +1614,8 @@ A2A is a specification, not an application, for letting agents built on differen
 
 <sub>no GPU · [Repo](https://github.com/a2aproject/a2a) · [📖 Docs ↗](https://a2a-protocol.org/latest/specification/) · [🌐 Site ↗](https://a2a-protocol.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/a2a/)</sub>
 
-<a name="gepa"></a>
-### #&#8288;90 [gepa](https://github.com/gepa-ai/gepa) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Nov 2026</sub>
-
-**Python library that evolves prompts and other text artifacts using LLM reflection.**
-
-GEPA (Genetic-Pareto) optimizes text parameters such as prompts, code and agent configurations against a metric you supply. An LLM reads full execution traces to diagnose failures, proposes mutations, and keeps a Pareto frontier of candidates. It exposes gepa.optimize, a general optimize_anything API, adapters for DSPy, MCP, RAG and LangChain, and is also available as dspy.GEPA.
-
-- **+** Reads full execution traces, not just a scalar score, to guide each mutation
-- **+** README reports 100-500 evaluations versus 5,000-25,000+ for GRPO
-- **+** Built-in adapters for DSPy, MCP, generic RAG, LangChain and TerminalBench
-- **+** Integrated in DSPy, MLflow, Opik, Pydantic AI and Google ADK
-- **−** Needs a measurable evaluator and a dataset or metric to optimize against
-- **−** Reflection step depends on a strong LLM (examples use openai/gpt-5), adding API cost
-- **−** Optimizes text artifacts only; no weight fine-tuning
-- **−** Benchmark claims in the README come from the authors and partners
-
-<sub>no GPU · Needs LLM API for task and reflection models (e.g. OpenAI) · Models: OpenAI-style provider/model strings, any LLM via adapter, DSPy programs, LangChain pipelines · [Repo](https://github.com/gepa-ai/gepa) · [📖 Docs ↗](https://gepa-ai.github.io/gepa/guides/quickstart/) · [🌐 Site ↗](https://gepa-ai.github.io/gepa/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gepa/)</sub>
-
 <a name="marvin"></a>
-### #&#8288;91 [marvin](https://github.com/prefecthq/marvin) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;91 [marvin](https://github.com/prefecthq/marvin) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for structured LLM outputs and task-based agent workflows.**
 
@@ -1633,7 +1633,7 @@ Marvin is a Python library that turns LLM calls into typed results (extract, cas
 <sub>no GPU · Needs LLM provider API key (OpenAI by default), SQLite (thread history) · Models: OpenAI, Anthropic, All Pydantic AI models · [Repo](https://github.com/prefecthq/marvin) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/marvin/)</sub>
 
 <a name="rust-sdk"></a>
-### #&#8288;92 [rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2026</sub>
+### #&#8288;92 [rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2026</sub>
 
 **Official Rust SDK for building MCP servers and clients on tokio.**
 
@@ -1651,7 +1651,7 @@ RMCP is the official Rust implementation of the Model Context Protocol, built on
 <sub>no GPU · Needs tokio, serde, schemars · [Repo](https://github.com/modelcontextprotocol/rust-sdk) · [📖 Docs ↗](https://docs.rs/rmcp/latest/rmcp) · [🌐 Site ↗](https://modelcontextprotocol.io/specification/2026-07-28) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rust-sdk/)</sub>
 
 <a name="anthropic-sdk-python"></a>
-### #&#8288;93 [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;93 [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · Apache-2.0 · Nov 2026</sub>
 
 **Official Python client for the Claude API.**
 
@@ -1668,26 +1668,8 @@ Python client library for the Anthropic Claude API, installed with pip install a
 
 <sub>no GPU · Needs Anthropic API key, Python 3.10+ · Models: Claude (via Anthropic API) · [Repo](https://github.com/anthropics/anthropic-sdk-python) · [📖 Docs ↗](https://platform.claude.com/docs/en/api/sdks/python) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anthropic-sdk-python/)</sub>
 
-<a name="agent-squad"></a>
-### #&#8288;94 [agent-squad](https://github.com/2fastlabs/agent-squad) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
-
-**Routes queries to specialized agents in Python, TypeScript and Swift.**
-
-Agent Squad classifies each user query, picks the most suitable agent from those you register, and keeps conversation context across agents and sessions. It ships pre-built agents (Bedrock, Anthropic, OpenAI, Lex, Lambda), classifiers, storage, a SupervisorAgent for parallel team coordination, and a GroundedAgent that separates tool calling from answer writing. Python and TypeScript have feature parity; a Swift runtime targets iOS 16+ and macOS 14+.
-
-- **+** Same orchestration model in Python 3.11+, TypeScript and on-device Swift
-- **+** Classifier routing, streaming and non-streaming responses, pluggable storage and retrievers
-- **+** SupervisorAgent queries sub-agents in parallel; GroundedAgent limits replies to fetched tool output
-- **+** Swift runtime supports MCP tools, realtime voice and OTLP tracing
-- **−** Pre-built agents and examples lean toward AWS (Bedrock, Lex, Lambda)
-- **−** JevClassifier needs a TypeSafe AI API key and a paid external service
-- **−** Swift quick start pins the main branch, not a tagged version
-- **−** Moved from awslabs and renamed from multi-agent-orchestrator; old links and dependencies break
-
-<sub>no GPU · Needs LLM provider API (Bedrock, Anthropic or OpenAI), TypeSafe AI API key (JevClassifier only) · Models: Amazon Bedrock, Anthropic, OpenAI, Amazon Lex, AWS Lambda · [Repo](https://github.com/2fastlabs/agent-squad) · [📖 Docs ↗](https://2fastlabs.github.io/agent-squad/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-squad/)</sub>
-
 <a name="beeai-framework"></a>
-### #&#8288;95 [beeai-framework](https://github.com/i-am-bee/beeai-framework) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;94 [beeai-framework](https://github.com/i-am-bee/beeai-framework) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Nov 2026</sub>
 
 **Python and TypeScript library for building multi-agent systems.**
 
@@ -1704,44 +1686,26 @@ BeeAI Framework is a library for building agents and multi-agent systems in Pyth
 
 <sub>GPU optional · Needs Ollama (for the example) · Models: Ollama, watsonx, DeepSeek R1, LLaMa 3.3, Granite · [Repo](https://github.com/i-am-bee/beeai-framework) · [📖 Docs ↗](https://framework.beeai.dev/introduction/welcome) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/beeai-framework/)</sub>
 
-<a name="agentsociety"></a>
-### #&#8288;96 [agentsociety](https://github.com/tsinghua-fib-lab/agentsociety) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Nov 2026</sub>
+<a name="agent-squad"></a>
+### #&#8288;95 [agent-squad](https://github.com/2fastlabs/agent-squad) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Oct 2026</sub>
 
-**Python framework for simulating LLM agent societies in social science research.**
+**Routes queries to specialized agents in Python, TypeScript and Swift.**
 
-AgentSociety is a Python framework for running social science experiments with LLM-driven agents. Version 2 runs agents as stateless records on Ray, with pluggable environment modules, several reasoning routers (CodeGen, ReAct, Plan-Execute) and DuckDB-backed experiment replay. A VS Code extension provides a research assistant for configuring and running experiments, and the legacy 1.x package covers city-scale simulation.
+Agent Squad classifies each user query, picks the most suitable agent from those you register, and keeps conversation context across agents and sessions. It ships pre-built agents (Bedrock, Anthropic, OpenAI, Lex, Lambda), classifiers, storage, a SupervisorAgent for parallel team coordination, and a GroundedAgent that separates tool calling from answer writing. Python and TypeScript have feature parity; a Swift runtime targets iOS 16+ and macOS 14+.
 
-- **+** Ray-based runtime for running many simulated agents in parallel
-- **+** Five reasoning routers: CodeGen, ReAct, Plan-Execute, Two-Tier and Search
-- **+** JSONL experiment replay with DuckDB reads and distributed tracing
-- **+** Works with any litellm-supported provider, plus MCP tool integration
-- **−** Two parallel packages (v1 and v2) with different APIs add confusion
-- **−** React web console keeps older API contracts; v2 workbench needs VS Code
-- **−** Aimed at social science research, not general-purpose agent apps
-- **−** The v1 `commercial` folder is excluded from the Apache-2.0 license
+- **+** Same orchestration model in Python 3.11+, TypeScript and on-device Swift
+- **+** Classifier routing, streaming and non-streaming responses, pluggable storage and retrievers
+- **+** SupervisorAgent queries sub-agents in parallel; GroundedAgent limits replies to fetched tool output
+- **+** Swift runtime supports MCP tools, realtime voice and OTLP tracing
+- **−** Pre-built agents and examples lean toward AWS (Bedrock, Lex, Lambda)
+- **−** JevClassifier needs a TypeSafe AI API key and a paid external service
+- **−** Swift quick start pins the main branch, not a tagged version
+- **−** Moved from awslabs and renamed from multi-agent-orchestrator; old links and dependencies break
 
-<sub>no GPU · Docker · Needs Ray, DuckDB, LLM API key (OpenAI, Anthropic or litellm provider), VS Code (for the extension) · Models: OpenAI, Anthropic, litellm-supported providers · [Repo](https://github.com/tsinghua-fib-lab/agentsociety) · [📖 Docs ↗](https://agentsociety2.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentsociety/)</sub>
-
-<a name="skill-recorder"></a>
-### #&#8288;97 [skill-recorder](https://github.com/microsoft/skill-recorder) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
-
-**Electron app that turns a screen recording into an agent skill.**
-
-Skill Recorder captures a screen session (window switches, browser URLs, clipboard previews, optional recorded terminal and narration), or imports an MP4/WebM file. GitHub Copilot CLI then reconstructs an intent and ordered steps, from which it generates a SKILL.md or a scheduled automation that prefers native tools over UI replay. Capture and Whisper transcription run locally; analysis sends data to GitHub's cloud.
-
-- **+** Generates SKILL.md files or scheduled automations from a single recorded demonstration
-- **+** Narration is transcribed on-device with Whisper, covering 99 languages
-- **+** Imports MP4/WebM recordings, so no live capture or screen permission is needed
-- **+** Fixture-based eval suite for the describer and builders (npm run eval)
-- **−** Analysis requires a GitHub account with Copilot access; no other model provider is documented
-- **−** Analyze uploads frames, URLs, clipboard previews and terminal output to GitHub's cloud
-- **−** Source release only: installer builds the app locally and takes several minutes
-- **−** Import limited to 512 MiB, 15 minutes and 4K; peak memory about 4.6 GB measured
-
-<sub>no GPU · Needs GitHub Copilot CLI 1.0.78 (bundled), GitHub account with Copilot access, Node.js 24 (development only) · Models: GitHub Copilot, Whisper (local transcription) · [Repo](https://github.com/microsoft/skill-recorder) · [📖 Docs ↗](https://github.com/microsoft/skill-recorder/blob/main/INSTALL.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skill-recorder/)</sub>
+<sub>no GPU · Needs LLM provider API (Bedrock, Anthropic or OpenAI), TypeSafe AI API key (JevClassifier only) · Models: Amazon Bedrock, Anthropic, OpenAI, Amazon Lex, AWS Lambda · [Repo](https://github.com/2fastlabs/agent-squad) · [📖 Docs ↗](https://2fastlabs.github.io/agent-squad/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-squad/)</sub>
 
 <a name="adk-java"></a>
-### #&#8288;98 [adk-java](https://github.com/google/adk-java) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;96 [adk-java](https://github.com/google/adk-java) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
 
 **Java library for building and orchestrating LLM agents in code.**
 
@@ -1758,44 +1722,26 @@ Google's Agent Development Kit for Java lets you define agents, tools and multi-
 
 <sub>Needs Maven, Java · Models: Gemini · [Repo](https://github.com/google/adk-java) · [📖 Docs ↗](https://google.github.io/adk-docs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adk-java/)</sub>
 
-<a name="dexter"></a>
-### #&#8288;99 [dexter](https://github.com/virattt/dexter) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: minimal (30) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 28k · no license · Sep 2026</sub>
+<a name="agentsociety"></a>
+### #&#8288;97 [agentsociety](https://github.com/tsinghua-fib-lab/agentsociety) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Nov 2026</sub>
 
-**Terminal agent that plans and runs financial research using live market data.**
+**Python framework for simulating LLM agent societies in social science research.**
 
-Dexter is a TypeScript agent that runs on Bun. It breaks a financial question into research steps, calls tools for income statements, balance sheets and cash flow data from Financial Datasets, and checks its own results before answering. It supports OpenAI, Anthropic, Google, xAI, OpenRouter and Ollama models, and can also be reached through a WhatsApp gateway.
+AgentSociety is a Python framework for running social science experiments with LLM-driven agents. Version 2 runs agents as stateless records on Ray, with pluggable environment modules, several reasoning routers (CodeGen, ReAct, Plan-Execute) and DuckDB-backed experiment replay. A VS Code extension provides a research assistant for configuring and running experiments, and the legacy 1.x package covers city-scale simulation.
 
-- **+** Logs every tool call and agent step to JSONL scratchpad files for inspection
-- **+** Includes loop detection and step limits against runaway execution
-- **+** Eval suite with LangSmith tracking and LLM-as-judge scoring
-- **+** Multiple model providers, including local Ollama
-- **−** Needs a Financial Datasets API key, a third-party data service
-- **−** Setup lists an OpenAI key as a prerequisite; fully local use is not documented
-- **−** Focused on financial research, not a general-purpose agent library
-- **−** README says it is not intended for real trading or investment
+- **+** Ray-based runtime for running many simulated agents in parallel
+- **+** Five reasoning routers: CodeGen, ReAct, Plan-Execute, Two-Tier and Search
+- **+** JSONL experiment replay with DuckDB reads and distributed tracing
+- **+** Works with any litellm-supported provider, plus MCP tool integration
+- **−** Two parallel packages (v1 and v2) with different APIs add confusion
+- **−** React web console keeps older API contracts; v2 workbench needs VS Code
+- **−** Aimed at social science research, not general-purpose agent apps
+- **−** The v1 `commercial` folder is excluded from the Apache-2.0 license
 
-<sub>no GPU · Needs Bun, Financial Datasets API, Exa or Tavily (optional, web search), LangSmith (evals) · Models: OpenAI, Anthropic, Google, xAI, OpenRouter · [Repo](https://github.com/virattt/dexter) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dexter/)</sub>
-
-<a name="pinchtab"></a>
-### #&#8288;100 [pinchtab](https://github.com/pinchtab/pinchtab) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Sep 2026</sub>
-
-**HTTP server and CLI that lets AI agents drive Chrome with compact snapshots.**
-
-PinchTab is a single Go binary (about 30 MB) that runs a control-plane HTTP server on port 9867 and manages headless or headed Chrome instances with persistent profiles. Agents navigate, snapshot the accessibility tree, click by stable element refs and extract text through a CLI or REST API. It also ships site audit and visual compare commands, and an agent skill for Claude, Cursor, Windsurf and Codex.
-
-- **+** Text extraction at about 800 tokens per page, versus roughly 10,000 for raw output
-- **+** Persistent named profiles keep logins across restarts; multiple isolated instances run in parallel
-- **+** Binds to 127.0.0.1 by default, with sensitive endpoints off and a local-only site allowlist
-- **+** CLI and HTTP API, plus audit and compare commands usable as a CI gate
-- **−** Needs a locally installed Chrome or Chromium; none is bundled in the binary
-- **−** Not designed for multi-tenant or public-internet exposure; remote setups must be secured manually
-- **−** Default allowlist blocks public websites until the operator widens it
-- **−** Windows support is limited and less tested; the daemon workflow is not recommended there
-
-<sub>no GPU · Docker + Compose · Needs Chrome or Chromium, Docker (optional) · port 9867 · [Repo](https://github.com/pinchtab/pinchtab) · [📖 Docs ↗](https://pinchtab.com/docs) · [🌐 Site ↗](https://pinchtab.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pinchtab/)</sub>
+<sub>no GPU · Docker · Needs Ray, DuckDB, LLM API key (OpenAI, Anthropic or litellm provider), VS Code (for the extension) · Models: OpenAI, Anthropic, litellm-supported providers · [Repo](https://github.com/tsinghua-fib-lab/agentsociety) · [📖 Docs ↗](https://agentsociety2.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentsociety/)</sub>
 
 <a name="agent-governance-toolkit"></a>
-### #&#8288;101 [agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Nov 2026</sub>
+### #&#8288;98 [agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Nov 2026</sub>
 
 **Policy enforcement, identity and audit for AI agent tool calls.**
 
@@ -1812,62 +1758,26 @@ Intercepts agent tool calls, messages and delegations in application code and ch
 
 <sub>no GPU · Docker + Compose · Needs Python 3.11+ (quick start), Optional Azure credentials for Azure features · Models: Model-agnostic; governs tool calls for any agent framework · [Repo](https://github.com/microsoft/agent-governance-toolkit) · [📖 Docs ↗](https://microsoft.github.io/agent-governance-toolkit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-governance-toolkit/)</sub>
 
-<a name="csharp-sdk"></a>
-### #&#8288;102 [csharp-sdk](https://github.com/modelcontextprotocol/csharp-sdk) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · custom license · Nov 2026</sub>
+<a name="skill-recorder"></a>
+### #&#8288;99 [skill-recorder](https://github.com/microsoft/skill-recorder) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.9k · MIT · Nov 2026</sub>
 
-**Official C# SDK for building MCP clients and servers on .NET.**
+**Electron app that turns a screen recording into an agent skill.**
 
-Official .NET implementation of the Model Context Protocol, split into NuGet packages: Core for client and low-level server APIs, a hosting/DI package, and an ASP.NET Core package for HTTP-based servers. Extension packages cover MCP Apps, Skills and Tasks. It also supports the Identity Assertion Authorization Grant flow via IdentityAssertionGrantProvider.
+Skill Recorder captures a screen session (window switches, browser URLs, clipboard previews, optional recorded terminal and narration), or imports an MP4/WebM file. GitHub Copilot CLI then reconstructs an intent and ordered steps, from which it generates a SKILL.md or a scheduled automation that prefers native tools over UI replay. Capture and Whisper transcription run locally; analysis sends data to GitHub's cloud.
 
-- **+** Maintained under the modelcontextprotocol organization as the official C# SDK
-- **+** Modular packages: Core has minimal dependencies, separate hosting and ASP.NET Core packages
-- **+** Extension packages for MCP Apps, Skills and long-running Tasks
-- **+** Covers both client and server roles, including HTTP servers via ASP.NET Core
-- **−** Choosing among six NuGet packages requires reading the docs first
-- **−** Limited to .NET; no other language bindings
-- **−** Repository license is detected as NOASSERTION although README cites Apache 2.0
-- **−** README has no code examples; usage lives in external docs and samples
+- **+** Generates SKILL.md files or scheduled automations from a single recorded demonstration
+- **+** Narration is transcribed on-device with Whisper, covering 99 languages
+- **+** Imports MP4/WebM recordings, so no live capture or screen permission is needed
+- **+** Fixture-based eval suite for the describer and builders (npm run eval)
+- **−** Analysis requires a GitHub account with Copilot access; no other model provider is documented
+- **−** Analyze uploads frames, URLs, clipboard previews and terminal output to GitHub's cloud
+- **−** Source release only: installer builds the app locally and takes several minutes
+- **−** Import limited to 512 MiB, 15 minutes and 4K; peak memory about 4.6 GB measured
 
-<sub>no GPU · Needs .NET, NuGet, ASP.NET Core (HTTP servers) · [Repo](https://github.com/modelcontextprotocol/csharp-sdk) · [📖 Docs ↗](https://csharp.sdk.modelcontextprotocol.io/) · [🌐 Site ↗](https://modelcontextprotocol.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/csharp-sdk/)</sub>
-
-<a name="nemo-agent-toolkit"></a>
-### #&#8288;103 [nemo-agent-toolkit](https://github.com/nvidia/nemo-agent-toolkit) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · Apache-2.0 · Nov 2026</sub>
-
-**Python toolkit for profiling, evaluating and tuning agents built on any framework.**
-
-NeMo Agent Toolkit wraps agents from LangChain, LlamaIndex, CrewAI, Semantic Kernel, Google ADK and plain Python. Workflows are defined in YAML and run with the `nat` CLI, with profiling, observability, evaluation and prompt/hyper-parameter optimization added. It can consume or publish tools over MCP and A2A. The README says it was deprecated in October 2026, with end of life by end of 2026, and points to NeMo Relay, Helix and Fabric.
-
-- **+** Works alongside LangChain, LlamaIndex, CrewAI, Semantic Kernel and Google ADK instead of replacing them
-- **+** Built-in profiler, offline evaluation system and hyper-parameter and prompt optimizer
-- **+** MCP client and server support, plus A2A protocol for distributed agents
-- **+** YAML workflow config run with a single `nat run` command
-- **−** Deprecated as of October 2026; end of life by end of 2026
-- **−** Running the examples requires cloning the repo and installing from source
-- **−** Dynamo integration and runtime latency features are marked experimental
-- **−** CLI telemetry consent prompt defaults to yes on first interactive run
-
-<sub>GPU optional · Docker · Needs Python 3.11-3.13, NVIDIA_API_KEY (for NIM in the example) · Models: NVIDIA NIM · [Repo](https://github.com/nvidia/nemo-agent-toolkit) · [📖 Docs ↗](https://docs.nvidia.com/nemo/agent-toolkit/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nemo-agent-toolkit/)</sub>
-
-<a name="open-ai"></a>
-### #&#8288;104 [open-ai](https://github.com/orhanerday/open-ai) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Oct 2026</sub>
-
-**PHP client for the OpenAI REST API with streaming support.**
-
-A community-maintained PHP library that wraps the OpenAI REST API: chat completions, Responses, images, embeddings, audio, files, fine-tuning, vector stores and batches. It needs PHP 7.4+ with cURL and JSON, and has no third-party runtime dependencies. A generic request() method covers endpoints without dedicated methods, and the base URL can be changed for OpenAI-compatible providers.
-
-- **+** No third-party runtime dependencies; only PHP cURL and JSON extensions
-- **+** Generic request() reaches Containers, Evals and admin endpoints without dedicated methods
-- **+** setBaseURL() and setApiVersion() allow OpenAI-compatible providers such as ByteDance Ark
-- **+** Streaming callbacks receive raw SSE chunks for Chat and Responses
-- **−** Methods return raw JSON strings by default; callers must json_decode themselves
-- **−** HTTP 4xx/5xx errors do not throw unless setThrowOnError(true) is enabled
-- **−** No WebSocket support; a separate client is needed for that
-- **−** tts() and translate() wrap endpoints whose documented models are deprecated or limited
-
-<sub>no GPU · Needs PHP 7.4+, cURL extension, JSON extension, OpenAI API key · Models: OpenAI API models, OpenAI-compatible APIs · [Repo](https://github.com/orhanerday/open-ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-ai/)</sub>
+<sub>no GPU · Needs GitHub Copilot CLI 1.0.78 (bundled), GitHub account with Copilot access, Node.js 24 (development only) · Models: GitHub Copilot, Whisper (local transcription) · [Repo](https://github.com/microsoft/skill-recorder) · [📖 Docs ↗](https://github.com/microsoft/skill-recorder/blob/main/INSTALL.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skill-recorder/)</sub>
 
 <a name="opengui"></a>
-### #&#8288;105 [opengui](https://github.com/core-mate/opengui) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
+### #&#8288;100 [opengui](https://github.com/core-mate/opengui) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
 
 **Android GUI agent framework that operates real phones via screenshots.**
 
@@ -1885,7 +1795,7 @@ OpenGUI lets a vision-capable model see Android screens and perform taps, swipes
 <sub>no GPU · Needs Android device with USB debugging or emulator, ADB / scrcpy, Node.js 22.19+ or 24+ (DSH plugin), WorkBuddy 5.5.3+ or DeepSeek Harness, Redis and PostgreSQL (full stack) · Models: Claude, GPT, Gemini, Kimi, MiniMax · [Repo](https://github.com/core-mate/opengui) · [📖 Docs ↗](https://github.com/core-mate/opengui/blob/main/docs/get-started.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opengui/)</sub>
 
 <a name="bub"></a>
-### #&#8288;106 [bub](https://github.com/bubbuild/bub) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;101 [bub](https://github.com/bubbuild/bub) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Nov 2026</sub>
 
 **Python agent kernel and app with plugins, skills, and channel integrations.**
 
@@ -1901,8 +1811,116 @@ Bub is a Python agent kernel (`bub.core.Agent`) where you choose the model, tool
 
 <sub>Docker + Compose · Needs Python 3.12+, uv · [Repo](https://github.com/bubbuild/bub) · [📖 Docs ↗](https://bub.build/docs/getting-started/) · [🌐 Site ↗](https://bub.build) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bub/)</sub>
 
+<a name="dexter"></a>
+### #&#8288;102 [dexter](https://github.com/virattt/dexter) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: minimal (30) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 28k · no license · Sep 2026</sub>
+
+**Terminal agent that plans and runs financial research using live market data.**
+
+Dexter is a TypeScript agent that runs on Bun. It breaks a financial question into research steps, calls tools for income statements, balance sheets and cash flow data from Financial Datasets, and checks its own results before answering. It supports OpenAI, Anthropic, Google, xAI, OpenRouter and Ollama models, and can also be reached through a WhatsApp gateway.
+
+- **+** Logs every tool call and agent step to JSONL scratchpad files for inspection
+- **+** Includes loop detection and step limits against runaway execution
+- **+** Eval suite with LangSmith tracking and LLM-as-judge scoring
+- **+** Multiple model providers, including local Ollama
+- **−** Needs a Financial Datasets API key, a third-party data service
+- **−** Setup lists an OpenAI key as a prerequisite; fully local use is not documented
+- **−** Focused on financial research, not a general-purpose agent library
+- **−** README says it is not intended for real trading or investment
+
+<sub>no GPU · Needs Bun, Financial Datasets API, Exa or Tavily (optional, web search), LangSmith (evals) · Models: OpenAI, Anthropic, Google, xAI, OpenRouter · [Repo](https://github.com/virattt/dexter) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dexter/)</sub>
+
+<a name="pinchtab"></a>
+### #&#8288;103 [pinchtab](https://github.com/pinchtab/pinchtab) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (72) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Sep 2026</sub>
+
+**HTTP server and CLI that lets AI agents drive Chrome with compact snapshots.**
+
+PinchTab is a single Go binary (about 30 MB) that runs a control-plane HTTP server on port 9867 and manages headless or headed Chrome instances with persistent profiles. Agents navigate, snapshot the accessibility tree, click by stable element refs and extract text through a CLI or REST API. It also ships site audit and visual compare commands, and an agent skill for Claude, Cursor, Windsurf and Codex.
+
+- **+** Text extraction at about 800 tokens per page, versus roughly 10,000 for raw output
+- **+** Persistent named profiles keep logins across restarts; multiple isolated instances run in parallel
+- **+** Binds to 127.0.0.1 by default, with sensitive endpoints off and a local-only site allowlist
+- **+** CLI and HTTP API, plus audit and compare commands usable as a CI gate
+- **−** Needs a locally installed Chrome or Chromium; none is bundled in the binary
+- **−** Not designed for multi-tenant or public-internet exposure; remote setups must be secured manually
+- **−** Default allowlist blocks public websites until the operator widens it
+- **−** Windows support is limited and less tested; the daemon workflow is not recommended there
+
+<sub>no GPU · Docker + Compose · Needs Chrome or Chromium, Docker (optional) · port 9867 · [Repo](https://github.com/pinchtab/pinchtab) · [📖 Docs ↗](https://pinchtab.com/docs) · [🌐 Site ↗](https://pinchtab.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pinchtab/)</sub>
+
+<a name="csharp-sdk"></a>
+### #&#8288;104 [csharp-sdk](https://github.com/modelcontextprotocol/csharp-sdk) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (48) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · custom license · Nov 2026</sub>
+
+**Official C# SDK for building MCP clients and servers on .NET.**
+
+Official .NET implementation of the Model Context Protocol, split into NuGet packages: Core for client and low-level server APIs, a hosting/DI package, and an ASP.NET Core package for HTTP-based servers. Extension packages cover MCP Apps, Skills and Tasks. It also supports the Identity Assertion Authorization Grant flow via IdentityAssertionGrantProvider.
+
+- **+** Maintained under the modelcontextprotocol organization as the official C# SDK
+- **+** Modular packages: Core has minimal dependencies, separate hosting and ASP.NET Core packages
+- **+** Extension packages for MCP Apps, Skills and long-running Tasks
+- **+** Covers both client and server roles, including HTTP servers via ASP.NET Core
+- **−** Choosing among six NuGet packages requires reading the docs first
+- **−** Limited to .NET; no other language bindings
+- **−** Repository license is detected as NOASSERTION although README cites Apache 2.0
+- **−** README has no code examples; usage lives in external docs and samples
+
+<sub>no GPU · Needs .NET, NuGet, ASP.NET Core (HTTP servers) · [Repo](https://github.com/modelcontextprotocol/csharp-sdk) · [📖 Docs ↗](https://csharp.sdk.modelcontextprotocol.io/) · [🌐 Site ↗](https://modelcontextprotocol.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/csharp-sdk/)</sub>
+
+<a name="nemo-agent-toolkit"></a>
+### #&#8288;105 [nemo-agent-toolkit](https://github.com/nvidia/nemo-agent-toolkit) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · Apache-2.0 · Nov 2026</sub>
+
+**Python toolkit for profiling, evaluating and tuning agents built on any framework.**
+
+NeMo Agent Toolkit wraps agents from LangChain, LlamaIndex, CrewAI, Semantic Kernel, Google ADK and plain Python. Workflows are defined in YAML and run with the `nat` CLI, with profiling, observability, evaluation and prompt/hyper-parameter optimization added. It can consume or publish tools over MCP and A2A. The README says it was deprecated in October 2026, with end of life by end of 2026, and points to NeMo Relay, Helix and Fabric.
+
+- **+** Works alongside LangChain, LlamaIndex, CrewAI, Semantic Kernel and Google ADK instead of replacing them
+- **+** Built-in profiler, offline evaluation system and hyper-parameter and prompt optimizer
+- **+** MCP client and server support, plus A2A protocol for distributed agents
+- **+** YAML workflow config run with a single `nat run` command
+- **−** Deprecated as of October 2026; end of life by end of 2026
+- **−** Running the examples requires cloning the repo and installing from source
+- **−** Dynamo integration and runtime latency features are marked experimental
+- **−** CLI telemetry consent prompt defaults to yes on first interactive run
+
+<sub>GPU optional · Docker · Needs Python 3.11-3.13, NVIDIA_API_KEY (for NIM in the example) · Models: NVIDIA NIM · [Repo](https://github.com/nvidia/nemo-agent-toolkit) · [📖 Docs ↗](https://docs.nvidia.com/nemo/agent-toolkit/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nemo-agent-toolkit/)</sub>
+
+<a name="open-ai"></a>
+### #&#8288;106 [open-ai](https://github.com/orhanerday/open-ai) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Oct 2026</sub>
+
+**PHP client for the OpenAI REST API with streaming support.**
+
+A community-maintained PHP library that wraps the OpenAI REST API: chat completions, Responses, images, embeddings, audio, files, fine-tuning, vector stores and batches. It needs PHP 7.4+ with cURL and JSON, and has no third-party runtime dependencies. A generic request() method covers endpoints without dedicated methods, and the base URL can be changed for OpenAI-compatible providers.
+
+- **+** No third-party runtime dependencies; only PHP cURL and JSON extensions
+- **+** Generic request() reaches Containers, Evals and admin endpoints without dedicated methods
+- **+** setBaseURL() and setApiVersion() allow OpenAI-compatible providers such as ByteDance Ark
+- **+** Streaming callbacks receive raw SSE chunks for Chat and Responses
+- **−** Methods return raw JSON strings by default; callers must json_decode themselves
+- **−** HTTP 4xx/5xx errors do not throw unless setThrowOnError(true) is enabled
+- **−** No WebSocket support; a separate client is needed for that
+- **−** tts() and translate() wrap endpoints whose documented models are deprecated or limited
+
+<sub>no GPU · Needs PHP 7.4+, cURL extension, JSON extension, OpenAI API key · Models: OpenAI API models, OpenAI-compatible APIs · [Repo](https://github.com/orhanerday/open-ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-ai/)</sub>
+
+<a name="koog"></a>
+### #&#8288;107 [koog](https://github.com/jetbrains/koog) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (49) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Nov 2026</sub>
+
+**Kotlin framework for building tool-calling AI agents on JVM and multiplatform.**
+
+Koog is a Kotlin library for writing AI agents with a type-safe DSL, usable from Kotlin and Java. It supports graph-based workflows, custom tools, MCP and ACP, history compression, agent state persistence, and OpenTelemetry export to W&B Weave and Langfuse. It integrates with Spring Boot and Ktor and targets JVM, JS, WasmJS and iOS.
+
+- **+** Idiomatic Kotlin DSL with Java API, plus Spring Boot and Ktor integrations
+- **+** Multiplatform targets: JVM, JS, WasmJS and iOS from one codebase
+- **+** Agent persistence, retries and history compression for long-running agents
+- **+** Switch LLM providers mid-conversation while keeping history
+- **−** Kotlin and Java only; no Python or TypeScript SDK
+- **−** Requires JDK 17+ and Kotlin 2.3.10+ in existing projects
+- **−** Additions module is published as a beta version (1.3.0-beta)
+- **−** Library only: no UI, server or hosted runtime included
+
+<sub>no GPU · Needs JDK 17+, Kotlin 2.3.10+, Gradle or Maven · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · [Repo](https://github.com/jetbrains/koog) · [📖 Docs ↗](https://docs.koog.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/koog/)</sub>
+
 <a name="spectrum-ts"></a>
-### #&#8288;107 [spectrum-ts](https://github.com/photon-hq/spectrum-ts) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;108 [spectrum-ts](https://github.com/photon-hq/spectrum-ts) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Nov 2026</sub>
 
 **TypeScript SDK for connecting agents to iMessage, Slack, Telegram and WhatsApp.**
 
@@ -1920,7 +1938,7 @@ Spectrum is a TypeScript framework that exposes an agent as an async stream of (
 <sub>no GPU · Needs Spectrum Cloud (app.photon.codes) for hosted providers, Bun or npm · [Repo](https://github.com/photon-hq/spectrum-ts) · [📖 Docs ↗](https://docs.photon.codes) · [🌐 Site ↗](https://photon.codes) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spectrum-ts/)</sub>
 
 <a name="react-native-executorch"></a>
-### #&#8288;108 [react-native-executorch](https://github.com/software-mansion/react-native-executorch) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
+### #&#8288;109 [react-native-executorch](https://github.com/software-mansion/react-native-executorch) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
 
 **On-device model inference library for React Native apps, built on ExecuTorch.**
 
@@ -1938,7 +1956,7 @@ React Native ExecuTorch runs ExecuTorch `.pte` models directly on iOS and Androi
 <sub>GPU optional · Needs react-native-worklets, react-native-blob-util, React Native 0.83+ or Expo SDK 55+ · Models: ExecuTorch .pte, LLMs, computer vision, text-to-speech, transcription · [Repo](https://github.com/software-mansion/react-native-executorch) · [📖 Docs ↗](https://docs.swmansion.com/react-native-executorch/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/react-native-executorch/)</sub>
 
 <a name="mirascope"></a>
-### #&#8288;109 [mirascope](https://github.com/mirascope/mirascope) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
+### #&#8288;110 [mirascope](https://github.com/mirascope/mirascope) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
 
 **Python and TypeScript library for calling LLMs through one interface.**
 
@@ -1955,7 +1973,7 @@ Mirascope is a library that calls LLMs through a single decorator-based interfac
 <sub>no GPU · Needs LLM provider API key · Models: Anthropic · [Repo](https://github.com/mirascope/mirascope) · [📖 Docs ↗](https://mirascope.com/docs) · [🌐 Site ↗](https://mirascope.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mirascope/)</sub>
 
 <a name="spring-ai-alibaba"></a>
-### #&#8288;110 [spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (73) · Freshness: active (93) · Maintenance: weak (28) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;111 [spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (74) · Freshness: active (93) · Maintenance: weak (28) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Oct 2026</sub>
 
 **Java framework for building agents and multi-agent workflows on Spring AI.**
 
@@ -1972,26 +1990,26 @@ Spring AI Alibaba is a Java framework built on Spring AI for writing agents, gra
 
 <sub>no GPU · Needs JDK 17+, LLM provider API key, Nacos (for A2A and dynamic config) · Models: DashScope, OpenAI, DeepSeek · port 8080 · [Repo](https://github.com/alibaba/spring-ai-alibaba) · [📖 Docs ↗](https://java2ai.com/docs/quick-start/) · [🌐 Site ↗](https://java2ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spring-ai-alibaba/)</sub>
 
-<a name="koog"></a>
-### #&#8288;111 [koog](https://github.com/jetbrains/koog) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (48) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Nov 2026</sub>
+<a name="sensenova-skills"></a>
+### #&#8288;112 [sensenova-skills](https://github.com/opensensenova/sensenova-skills) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Nov 2026</sub>
 
-**Kotlin framework for building tool-calling AI agents on JVM and multiplatform.**
+**Agent Skills for office tasks: infographics, PPT, Excel analysis, deep research.**
 
-Koog is a Kotlin library for writing AI agents with a type-safe DSL, usable from Kotlin and Java. It supports graph-based workflows, custom tools, MCP and ACP, history compression, agent state persistence, and OpenTelemetry export to W&B Weave and Langfuse. It integrates with Spring Boot and Ktor and targets JVM, JS, WasmJS and iOS.
+A collection of SKILL.md-based skills that extend agent runtimes such as OpenClaw and hermes-agent with office workflows: image and infographic generation, HTML/PPTX slide decks, Excel analysis, multi-source deep research, code-driven video, and project tracking. They are designed to pair with the SenseNova Platform API and are installed by copying skill directories into the agent's skills folder.
 
-- **+** Idiomatic Kotlin DSL with Java API, plus Spring Boot and Ktor integrations
-- **+** Multiplatform targets: JVM, JS, WasmJS and iOS from one codebase
-- **+** Agent persistence, retries and history compression for long-running agents
-- **+** Switch LLM providers mid-conversation while keeping history
-- **−** Kotlin and Java only; no Python or TypeScript SDK
-- **−** Requires JDK 17+ and Kotlin 2.3.10+ in existing projects
-- **−** Additions module is published as a beta version (1.3.0-beta)
-- **−** Library only: no UI, server or hosted runtime included
+- **+** Follows the Agent Skills convention; each skill is a self-contained directory with SKILL.md
+- **+** Covers a full chain: Excel analysis, deep research, then PPT generation, with an end-to-end example
+- **+** Install is a plain copy into ~/.openclaw/skills/ or ~/.hermes/skills/
+- **+** Search skills aggregate ArXiv, Semantic Scholar, PubMed, GitHub, Stack Overflow, Reddit and YouTube
+- **−** Needs a separate agent runtime (OpenClaw or hermes-agent); not usable standalone
+- **−** Recommended LLM is the SenseNova Platform API, which needs a regional API key
+- **−** Proactive agent still requires a model-configured Hermes CLI for background processing
+- **−** Per-category Python dependencies and keys are scattered across separate docs pages
 
-<sub>no GPU · Needs JDK 17+, Kotlin 2.3.10+, Gradle or Maven · Models: OpenAI, Anthropic, Google, DeepSeek, OpenRouter · [Repo](https://github.com/jetbrains/koog) · [📖 Docs ↗](https://docs.koog.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/koog/)</sub>
+<sub>Needs OpenClaw or hermes-agent, SenseNova Platform API key, Python, Node Playwright and Chromium (PPT export) · Models: SenseNova Platform API, SenseNova U1.5 Lite, SenseNova 6.7 Flash · [Repo](https://github.com/opensensenova/sensenova-skills) · [▶️ Demo ↗](https://office.xiaohuanxiong.com/home) · [📖 Docs ↗](https://platform.sensenova.ai/docs) · [🌐 Site ↗](https://sensenova.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sensenova-skills/)</sub>
 
 <a name="lazyllm"></a>
-### #&#8288;112 [lazyllm](https://github.com/lazyagi/lazyllm) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (41) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;113 [lazyllm](https://github.com/lazyagi/lazyllm) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for building multi-agent and RAG apps with local or hosted models.**
 
@@ -2008,8 +2026,26 @@ LazyLLM is a Python library for assembling multi-agent LLM applications from mod
 
 <sub>GPU optional · Needs lightllm or vllm (local inference), collie or peft (fine-tuning), online provider API key (e.g. OpenAI) · Models: internlm2-chat-7b, OpenAI, SenseNova, Kimi, Zhipu GLM · [Repo](https://github.com/lazyagi/lazyllm) · [📖 Docs ↗](https://docs.lazyllm.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lazyllm/)</sub>
 
+<a name="webbrain"></a>
+### #&#8288;114 [webbrain](https://github.com/webbrain-one/webbrain) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
+
+**Browser extension with a side-panel agent that reads and acts on web pages.**
+
+WebBrain is a Chrome, Firefox and Edge extension that adds an agent to a side panel. It answers questions about the current page, or clicks, types and navigates through multi-step tasks in Ask, Act or Dev mode. It connects to local OpenAI-compatible servers (llama.cpp, Ollama, vLLM, LM Studio), cloud APIs, or a managed default model.
+
+- **+** Works with local servers (llama.cpp, Ollama, vLLM) or 129 built-in cloud provider cards on Chromium
+- **+** Ask, Act and Dev modes limit what the agent may do; plans can be approved first
+- **+** Saved workflows, /schedule and /watch let successful runs be repeated or polled
+- **+** Ships an MCP server to delegate browser tasks from Claude Code, Codex and Cursor
+- **−** Firefox build lacks shadow-DOM piercing, trusted mouse events and CDP screenshots
+- **−** Small local models need large context; 16k is a fallback and Compact may not fit 8k
+- **−** Default WebBrain Compass model is managed, so page content may go to a hosted service
+- **−** README states GPL-3.0-or-later, but the detected license is NOASSERTION
+
+<sub>GPU optional · Needs Chrome, Firefox or Edge browser, LLM provider (local server or cloud API) · Models: llama.cpp, Ollama, vLLM, SGLang, LM Studio · [Repo](https://github.com/webbrain-one/webbrain) · [📖 Docs ↗](https://github.com/webbrain-one/webbrain/tree/main/docs) · [🌐 Site ↗](https://webbrain.one) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/webbrain/)</sub>
+
 <a name="jev-ultrafast"></a>
-### #&#8288;113 [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · MIT · Nov 2026</sub>
+### #&#8288;115 [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · MIT · Nov 2026</sub>
 
 **Browser agent that picks an operation and numbered page element per request.**
 
@@ -2027,7 +2063,7 @@ Jev Ultrafast is an experimental Python browser agent that reads a numbered tabl
 <sub>no GPU · Needs TypeSafe API, OpenRouter or other OpenAI-compatible text model, Chrome, Browser Harness, uv · Models: TypeSafe Jev, inception/mercury-2.5, Gemini, GLM, DeepSeek · port 8766 · [Repo](https://github.com/browser-use/jev-ultrafast) · [📖 Docs ↗](https://docs.typesafe.ai/introduction) · [🌐 Site ↗](https://browser-use.com/ultrafast) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jev-ultrafast/)</sub>
 
 <a name="evolver"></a>
-### #&#8288;114 [evolver](https://github.com/evomap/evolver) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;116 [evolver](https://github.com/evomap/evolver) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.8k · GPL-3.0 · Nov 2026</sub>
 
 **CLI that turns agent logs into reusable Gene and Capsule evolution prompts.**
 
@@ -2044,44 +2080,8 @@ Evolver is a Node.js CLI that scans a project's memory/ logs, selects a matching
 
 <sub>no GPU · Needs Node.js >= 18, Git · [Repo](https://github.com/evomap/evolver) · [📖 Docs ↗](https://evomap.ai/wiki) · [🌐 Site ↗](https://evomap.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evolver/)</sub>
 
-<a name="sensenova-skills"></a>
-### #&#8288;115 [sensenova-skills](https://github.com/opensensenova/sensenova-skills) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Nov 2026</sub>
-
-**Agent Skills for office tasks: infographics, PPT, Excel analysis, deep research.**
-
-A collection of SKILL.md-based skills that extend agent runtimes such as OpenClaw and hermes-agent with office workflows: image and infographic generation, HTML/PPTX slide decks, Excel analysis, multi-source deep research, code-driven video, and project tracking. They are designed to pair with the SenseNova Platform API and are installed by copying skill directories into the agent's skills folder.
-
-- **+** Follows the Agent Skills convention; each skill is a self-contained directory with SKILL.md
-- **+** Covers a full chain: Excel analysis, deep research, then PPT generation, with an end-to-end example
-- **+** Install is a plain copy into ~/.openclaw/skills/ or ~/.hermes/skills/
-- **+** Search skills aggregate ArXiv, Semantic Scholar, PubMed, GitHub, Stack Overflow, Reddit and YouTube
-- **−** Needs a separate agent runtime (OpenClaw or hermes-agent); not usable standalone
-- **−** Recommended LLM is the SenseNova Platform API, which needs a regional API key
-- **−** Proactive agent still requires a model-configured Hermes CLI for background processing
-- **−** Per-category Python dependencies and keys are scattered across separate docs pages
-
-<sub>Needs OpenClaw or hermes-agent, SenseNova Platform API key, Python, Node Playwright and Chromium (PPT export) · Models: SenseNova Platform API, SenseNova U1.5 Lite, SenseNova 6.7 Flash · [Repo](https://github.com/opensensenova/sensenova-skills) · [▶️ Demo ↗](https://office.xiaohuanxiong.com/home) · [📖 Docs ↗](https://platform.sensenova.ai/docs) · [🌐 Site ↗](https://sensenova.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sensenova-skills/)</sub>
-
-<a name="webbrain"></a>
-### #&#8288;116 [webbrain](https://github.com/webbrain-one/webbrain) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
-
-**Browser extension with a side-panel agent that reads and acts on web pages.**
-
-WebBrain is a Chrome, Firefox and Edge extension that adds an agent to a side panel. It answers questions about the current page, or clicks, types and navigates through multi-step tasks in Ask, Act or Dev mode. It connects to local OpenAI-compatible servers (llama.cpp, Ollama, vLLM, LM Studio), cloud APIs, or a managed default model.
-
-- **+** Works with local servers (llama.cpp, Ollama, vLLM) or 129 built-in cloud provider cards on Chromium
-- **+** Ask, Act and Dev modes limit what the agent may do; plans can be approved first
-- **+** Saved workflows, /schedule and /watch let successful runs be repeated or polled
-- **+** Ships an MCP server to delegate browser tasks from Claude Code, Codex and Cursor
-- **−** Firefox build lacks shadow-DOM piercing, trusted mouse events and CDP screenshots
-- **−** Small local models need large context; 16k is a fallback and Compact may not fit 8k
-- **−** Default WebBrain Compass model is managed, so page content may go to a hosted service
-- **−** README states GPL-3.0-or-later, but the detected license is NOASSERTION
-
-<sub>GPU optional · Needs Chrome, Firefox or Edge browser, LLM provider (local server or cloud API) · Models: llama.cpp, Ollama, vLLM, SGLang, LM Studio · [Repo](https://github.com/webbrain-one/webbrain) · [📖 Docs ↗](https://github.com/webbrain-one/webbrain/tree/main/docs) · [🌐 Site ↗](https://webbrain.one) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/webbrain/)</sub>
-
 <a name="jeff"></a>
-### #&#8288;117 [jeff](https://github.com/firelex/jeff) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
+### #&#8288;117 [jeff](https://github.com/firelex/jeff) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
 
 **Typed decision functions with calibrated confidence, run locally or via hosted API.**
 
@@ -2115,8 +2115,26 @@ A skill for Claude Code, Codex and similar shell-capable agents that turns a fol
 
 <sub>no GPU · Needs ffmpeg, ElevenLabs API (Scribe), Claude Code or Codex, uv or pip, yt-dlp (optional) · Models: Claude Code, Codex, Hermes, Openclaw · [Repo](https://github.com/browser-use/video-use) · [🌐 Site ↗](https://video-use.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/video-use/)</sub>
 
+<a name="swarms"></a>
+### #&#8288;119 [swarms](https://github.com/kyegomez/swarms) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (62) · Freshness: recent (70) · Maintenance: fair (54) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
+
+**Python framework for orchestrating multi-agent workflows with MCP support.**
+
+Swarms is a Python library for building LLM agents and combining them into multi-agent structures such as sequential, concurrent, DAG-based, hierarchical and mixture-of-agents workflows. Agents can use MCP servers via mcp_url, and MCPDeployer can serve an agent or swarm as an authenticated MCP server. The README claims 60+ multi-agent structures and a SwarmRouter that switches between them.
+
+- **+** Prebuilt structures: Sequential, Concurrent, GraphWorkflow (DAG), Hierarchical, MixtureOfAgents, GroupChat
+- **+** SwarmRouter switches swarm type through one swarm_type parameter
+- **+** MCP client via mcp_url, plus MCPDeployer to serve agents as MCP servers with auth
+- **+** Official Docker image for linux/amd64 and linux/arm64 on Python 3.13
+- **−** Last tagged release is 2024-12-27, so the PyPI package may lag master
+- **−** README examples use hosted model APIs; local model setup is not shown
+- **−** Environment config lists a SWARMS_TELEMETRY_ON variable
+- **−** Enterprise-grade and production-ready claims come with no benchmarks in the README
+
+<sub>no GPU · Docker · Needs LLM provider API key (OpenAI, Anthropic or Groq), RouteHub or litellm (optional, swarms[fast]), rustworkx (optional) · Models: OpenAI, Anthropic, Groq · [Repo](https://github.com/kyegomez/swarms) · [📖 Docs ↗](https://docs.swarms.world) · [🌐 Site ↗](https://swarms.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/swarms/)</sub>
+
 <a name="osworld"></a>
-### #&#8288;119 [osworld](https://github.com/xlang-ai/osworld) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;120 [osworld](https://github.com/xlang-ai/osworld) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
 
 **Benchmark and VM environment for testing computer-use agents on desktop tasks.**
 
@@ -2134,7 +2152,7 @@ OSWorld is a benchmark and execution environment for multimodal agents that oper
 <sub>no GPU · Needs Python >= 3.10, VMware Workstation Pro/Fusion, VirtualBox, Docker, AWS, Modal or Daytona, OpenAI API key for the baseline agent · Models: GPT-4o baseline (OpenAI-compatible endpoint via OPENAI_BASE_URL) · [Repo](https://github.com/xlang-ai/osworld) · [▶️ Demo ↗](https://os-world.github.io/explorer.html) · [📖 Docs ↗](https://timothyxxx.github.io/OSWorld/) · [🌐 Site ↗](https://os-world.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/osworld/)</sub>
 
 <a name="forge"></a>
-### #&#8288;120 [forge](https://github.com/antoinezambelli/forge) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Nov 2026</sub>
+### #&#8288;121 [forge](https://github.com/antoinezambelli/forge) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · MIT · Nov 2026</sub>
 
 **Guardrails proxy and library that make local LLM tool-calling more reliable.**
 
@@ -2151,8 +2169,26 @@ Forge validates tool calls from self-hosted models, rescues malformed ones (JSON
 
 <sub>GPU optional · Docker · Needs A running LLM backend (llama-server, Ollama, Llamafile, vLLM, or Anthropic API), Python 3.12+ for the library · Models: GGUF, OpenAI-compatible endpoints, Ollama, vLLM AWQ/GPTQ, Anthropic · port 8081 · [Repo](https://github.com/antoinezambelli/forge) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/forge/)</sub>
 
+<a name="trpc-agent-go"></a>
+### #&#8288;122 [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
+
+**Go framework for LLM agents, graph workflows, tools, memory and evaluation.**
+
+tRPC-Agent-Go is a Go library for building agent services. It provides LLM agents, chain, parallel and cycle multi-agent runners, a typed graph workflow engine (GraphAgent), in-memory and Redis memory services, knowledge retrieval, MCP tools, SKILL.md skills, evaluation sets, and OpenTelemetry tracing. It also integrates with the AG-UI and A2A protocols.
+
+- **+** Go-native runner with streaming events and context cancellation of runs
+- **+** GraphAgent offers typed state and multi-conditional fan-out routing, modeled on LangGraph
+- **+** Built-in evaluation sets and OpenTelemetry tracing, with Langfuse examples
+- **+** Supports AG-UI, A2A and MCP for frontends, agent interop and tools
+- **−** Go only; no Python or TypeScript SDK
+- **−** No visual builder or hosted UI; agents are defined in code
+- **−** Needs an external LLM provider API key such as OpenAI or DeepSeek
+- **−** Wide feature surface means docs are spread across many examples
+
+<sub>no GPU · Needs LLM provider API key (OpenAI, DeepSeek, etc.), Redis (optional, for memory service) · Models: OpenAI-compatible APIs, DeepSeek · [Repo](https://github.com/trpc-group/trpc-agent-go) · [📖 Docs ↗](https://trpc-group.github.io/trpc-agent-go/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trpc-agent-go/)</sub>
+
 <a name="llphant"></a>
-### #&#8288;121 [llphant](https://github.com/llphant/llphant) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
+### #&#8288;123 [llphant](https://github.com/llphant/llphant) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
 
 **PHP library for LLM calls, RAG and vector stores, for Symfony and Laravel.**
 
@@ -2169,26 +2205,8 @@ LLPhant is a Composer package that gives PHP 8.1+ applications a client layer fo
 
 <sub>no GPU · Docker + Compose · Needs PHP 8.1+, Composer, OpenAI PHP SDK · Models: OpenAI, Anthropic, Mistral, Ollama, LM Studio · [Repo](https://github.com/llphant/llphant) · [📖 Docs ↗](https://llphant.readthedocs.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llphant/)</sub>
 
-<a name="swarms"></a>
-### #&#8288;122 [swarms](https://github.com/kyegomez/swarms) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (61) · Freshness: recent (70) · Maintenance: fair (54) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
-
-**Python framework for orchestrating multi-agent workflows with MCP support.**
-
-Swarms is a Python library for building LLM agents and combining them into multi-agent structures such as sequential, concurrent, DAG-based, hierarchical and mixture-of-agents workflows. Agents can use MCP servers via mcp_url, and MCPDeployer can serve an agent or swarm as an authenticated MCP server. The README claims 60+ multi-agent structures and a SwarmRouter that switches between them.
-
-- **+** Prebuilt structures: Sequential, Concurrent, GraphWorkflow (DAG), Hierarchical, MixtureOfAgents, GroupChat
-- **+** SwarmRouter switches swarm type through one swarm_type parameter
-- **+** MCP client via mcp_url, plus MCPDeployer to serve agents as MCP servers with auth
-- **+** Official Docker image for linux/amd64 and linux/arm64 on Python 3.13
-- **−** Last tagged release is 2024-12-27, so the PyPI package may lag master
-- **−** README examples use hosted model APIs; local model setup is not shown
-- **−** Environment config lists a SWARMS_TELEMETRY_ON variable
-- **−** Enterprise-grade and production-ready claims come with no benchmarks in the README
-
-<sub>no GPU · Docker · Needs LLM provider API key (OpenAI, Anthropic or Groq), RouteHub or litellm (optional, swarms[fast]), rustworkx (optional) · Models: OpenAI, Anthropic, Groq · [Repo](https://github.com/kyegomez/swarms) · [📖 Docs ↗](https://docs.swarms.world) · [🌐 Site ↗](https://swarms.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/swarms/)</sub>
-
 <a name="llamasharp"></a>
-### #&#8288;123 [llamasharp](https://github.com/scisharp/llamasharp) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Nov 2026</sub>
+### #&#8288;124 [llamasharp](https://github.com/scisharp/llamasharp) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (41) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Nov 2026</sub>
 
 **C# library for running GGUF models locally via llama.cpp bindings.**
 
@@ -2206,7 +2224,7 @@ LLamaSharp is a .NET library that wraps llama.cpp so C# applications can load GG
 <sub>GPU optional · Needs llama.cpp native backend NuGet packages, .NET · Models: GGUF, LLaMA, Mixtral, Phi-2, LLaVA · [Repo](https://github.com/scisharp/llamasharp) · [📖 Docs ↗](https://scisharp.github.io/LLamaSharp/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llamasharp/)</sub>
 
 <a name="webcmd"></a>
-### #&#8288;124 [webcmd](https://github.com/agentrhq/webcmd) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (30) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;125 [webcmd](https://github.com/agentrhq/webcmd) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · Apache-2.0 · Oct 2026</sub>
 
 **Browser CLI for agents that remembers how sites work.**
 
@@ -2223,44 +2241,8 @@ Webcmd is a Node.js CLI that lets coding agents drive a real browser (inspect, c
 
 <sub>no GPU · Needs Node.js 20.6+, Agent harness (Claude, Codex or other) · [Repo](https://github.com/agentrhq/webcmd) · [▶️ Demo ↗](https://github.com/user-attachments/assets/bdb65307-9e2a-4d58-9175-45d59528ae37) · [📖 Docs ↗](https://webcmd.dev/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/webcmd/)</sub>
 
-<a name="trpc-agent-go"></a>
-### #&#8288;125 [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
-
-**Go framework for LLM agents, graph workflows, tools, memory and evaluation.**
-
-tRPC-Agent-Go is a Go library for building agent services. It provides LLM agents, chain, parallel and cycle multi-agent runners, a typed graph workflow engine (GraphAgent), in-memory and Redis memory services, knowledge retrieval, MCP tools, SKILL.md skills, evaluation sets, and OpenTelemetry tracing. It also integrates with the AG-UI and A2A protocols.
-
-- **+** Go-native runner with streaming events and context cancellation of runs
-- **+** GraphAgent offers typed state and multi-conditional fan-out routing, modeled on LangGraph
-- **+** Built-in evaluation sets and OpenTelemetry tracing, with Langfuse examples
-- **+** Supports AG-UI, A2A and MCP for frontends, agent interop and tools
-- **−** Go only; no Python or TypeScript SDK
-- **−** No visual builder or hosted UI; agents are defined in code
-- **−** Needs an external LLM provider API key such as OpenAI or DeepSeek
-- **−** Wide feature surface means docs are spread across many examples
-
-<sub>no GPU · Needs LLM provider API key (OpenAI, DeepSeek, etc.), Redis (optional, for memory service) · Models: OpenAI-compatible APIs, DeepSeek · [Repo](https://github.com/trpc-group/trpc-agent-go) · [📖 Docs ↗](https://trpc-group.github.io/trpc-agent-go/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/trpc-agent-go/)</sub>
-
-<a name="mobileagent"></a>
-### #&#8288;126 [mobileagent](https://github.com/x-plug/mobileagent) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · MIT · Nov 2026</sub>
-
-**GUI agent models and multi-agent code for operating phones, PCs and browsers.**
-
-Research repository from Tongyi Lab (Alibaba) collecting the Mobile-Agent series, from v1 to v3.5, plus related work such as PC-Agent, UI-S1 and GUI-Critic-R1. It centers on the GUI-Owl vision-language models (2B to 235B, Instruct and Thinking, built on Qwen3-VL) and multi-agent frameworks that plan, reflect and keep memory while driving mobile, desktop and web interfaces. The README mostly links out to per-project subfolders, papers and hosted demos.
-
-- **+** Open GUI-Owl weights in several sizes (2B/4B/8B/32B/235B) on Hugging Face and ModelScope
-- **+** Covers mobile, desktop and browser targets, with evaluation code for OSWorld and AndroidWorld
-- **+** Each generation (v1 to v3.5, UI-S1, PC-Agent) has its own paper and code folder
-- **+** MIT license; hosted demos and a Bailian API exist for trying it without local setup
-- **−** Top-level README has no install or quick-start steps; setup lives in subfolders
-- **−** Hosted demos and API depend on Alibaba Cloud services, with docs largely in Chinese
-- **−** Larger models (32B, 235B) need substantial GPU memory; requirements are not stated
-- **−** No tagged releases; the repo is a collection of separate research projects
-
-<sub>Needs Android device or emulator (mobile use), Alibaba Cloud Bailian API (optional hosted inference) · Models: GUI-Owl-1.5 (2B/4B/8B/32B/235B), GUI-Owl-7B, GUI-Owl-32B, UI-S1-7B · [Repo](https://github.com/x-plug/mobileagent) · [▶️ Demo ↗](http://modelscope.cn/studios/MobileAgentTest/computer_use) · [📖 Docs ↗](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mobileagent/)</sub>
-
 <a name="symbolicai"></a>
-### #&#8288;127 [symbolicai](https://github.com/extensityai/symbolicai) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · BSD-3-Clause · Oct 2026</sub>
+### #&#8288;126 [symbolicai](https://github.com/extensityai/symbolicai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · BSD-3-Clause · Oct 2026</sub>
 
 **Python framework mixing LLM calls with operators and contract-validated outputs.**
 
@@ -2277,26 +2259,26 @@ SymbolicAI is a Python library that wraps values in `Symbol` objects whose opera
 
 <sub>Needs LLM provider API key (OpenAI, Anthropic or Gemini), Qdrant (optional indexing engine), WolframAlpha (optional symbolic engine) · Models: openai, anthropic, gemini · [Repo](https://github.com/extensityai/symbolicai) · [📖 Docs ↗](https://extensityai.gitbook.io/symbolicai) · [🌐 Site ↗](https://extensity.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/symbolicai/)</sub>
 
-<a name="unreal-agent"></a>
-### #&#8288;128 [unreal-agent](https://github.com/unreallabsai/unreal-agent) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Oct 2026</sub>
+<a name="mobileagent"></a>
+### #&#8288;127 [mobileagent](https://github.com/x-plug/mobileagent) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.4k · MIT · Nov 2026</sub>
 
-**Go library for async, crash-recoverable LLM agents, with a TUI and runner.**
+**GUI agent models and multi-agent code for operating phones, PCs and browsers.**
 
-Unreal Agent is a Go agent harness built around an append-only, forkable session store and idempotent inputs. A coordinator runs LLM turns and dispatches serializable operations to a swappable operation manager. The repo also ships a cloud agent runner and a terminal UI built on the library, plus benchmark runners.
+Research repository from Tongyi Lab (Alibaba) collecting the Mobile-Agent series, from v1 to v3.5, plus related work such as PC-Agent, UI-S1 and GUI-Critic-R1. It centers on the GUI-Owl vision-language models (2B to 235B, Instruct and Thinking, built on Qwen3-VL) and multi-agent frameworks that plan, reflect and keep memory while driving mobile, desktop and web interfaces. The README mostly links out to per-project subfolders, papers and hosted demos.
 
-- **+** Sessions are append-only, versioned, forkable, and recoverable after a crash
-- **+** Inputs carry caller-supplied IDs, so redelivered events are deduplicated
-- **+** Serializable operations let tools run in a remote sandbox via a proxy manager
-- **+** Context builder, LLM adapter and operation manager are swappable interfaces
-- **−** Built-in tool set is fixed to Bash, ViewImage and skill-use
-- **−** Inbox deduplication is in-memory only and does not persist across restarts
-- **−** No install steps, usage examples or provider list in the README
-- **−** Session compatibility across versions is a stated goal, not a firm commitment
+- **+** Open GUI-Owl weights in several sizes (2B/4B/8B/32B/235B) on Hugging Face and ModelScope
+- **+** Covers mobile, desktop and browser targets, with evaluation code for OSWorld and AndroidWorld
+- **+** Each generation (v1 to v3.5, UI-S1, PC-Agent) has its own paper and code folder
+- **+** MIT license; hosted demos and a Bailian API exist for trying it without local setup
+- **−** Top-level README has no install or quick-start steps; setup lives in subfolders
+- **−** Hosted demos and API depend on Alibaba Cloud services, with docs largely in Chinese
+- **−** Larger models (32B, 235B) need substantial GPU memory; requirements are not stated
+- **−** No tagged releases; the repo is a collection of separate research projects
 
-<sub>Docker · [Repo](https://github.com/unreallabsai/unreal-agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unreal-agent/)</sub>
+<sub>Needs Android device or emulator (mobile use), Alibaba Cloud Bailian API (optional hosted inference) · Models: GUI-Owl-1.5 (2B/4B/8B/32B/235B), GUI-Owl-7B, GUI-Owl-32B, UI-S1-7B · [Repo](https://github.com/x-plug/mobileagent) · [▶️ Demo ↗](http://modelscope.cn/studios/MobileAgentTest/computer_use) · [📖 Docs ↗](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mobileagent/)</sub>
 
 <a name="node-llama-cpp"></a>
-### #&#8288;129 [node-llama-cpp](https://github.com/withcatai/node-llama-cpp) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+### #&#8288;128 [node-llama-cpp](https://github.com/withcatai/node-llama-cpp) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
 
 **Node.js bindings for llama.cpp to run GGUF models locally from TypeScript.**
 
@@ -2313,7 +2295,7 @@ node-llama-cpp is an npm package that wraps llama.cpp so Node.js apps can load G
 <sub>GPU optional · Needs Node.js, cmake (only when building from source) · Models: GGUF · [Repo](https://github.com/withcatai/node-llama-cpp) · [📖 Docs ↗](https://node-llama-cpp.withcat.ai/guide/) · [🌐 Site ↗](https://node-llama-cpp.withcat.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/node-llama-cpp/)</sub>
 
 <a name="anyjev"></a>
-### #&#8288;130 [anyjev](https://github.com/nokia-applied-research/anyjev) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;129 [anyjev](https://github.com/nokia-applied-research/anyjev) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Oct 2026</sub>
 
 **Typed decisions with real probabilities from any open LLM's logits.**
 
@@ -2330,26 +2312,8 @@ AnyJev reads choice, yes/no and score questions from a model's next-token distri
 
 <sub>GPU optional · Needs transformers, vLLM, SGLang or llama.cpp, Hugging Face Tacit checkpoints · Models: Hugging Face transformers causal LMs, vLLM, SGLang, llama.cpp GGUF, Tacit 1.7B/2B/4B/8B/9B · port 8100 · [Repo](https://github.com/nokia-applied-research/anyjev) · [📖 Docs ↗](https://github.com/nokia-applied-research/AnyJev/blob/main/docs/levels.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/anyjev/)</sub>
 
-<a name="ollamasharp"></a>
-### #&#8288;131 [ollamasharp](https://github.com/awaescher/ollamasharp) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
-
-**.NET client library for the Ollama API with streaming and tool support.**
-
-OllamaSharp wraps every Ollama API endpoint in awaitable C# methods, covering chat, generate, embeddings, and model listing, pulling and creation, with response streaming and progress reporting. It also implements Microsoft.Extensions.AI's IChatClient and IEmbeddingGenerator, so Ollama can sit behind that abstraction. A Chat class tracks message history, and tool calling uses source generators.
-
-- **+** Covers every Ollama API endpoint, including model pull, create and embeddings
-- **+** Implements IChatClient and IEmbeddingGenerator from Microsoft.Extensions.AI
-- **+** Streaming responses and pull progress reporting via IAsyncEnumerable
-- **+** Opt-in Native AOT support and source-generated tool calling
-- **−** Ollama only; other providers need Microsoft.Extensions.AI or Semantic Kernel
-- **−** Not an agent framework: no planning, memory or multi-agent orchestration
-- **−** Requires a running Ollama server, local or remote
-- **−** C#/.NET only
-
-<sub>Needs Ollama server, .NET · Models: Ollama models, vision models, Ollama cloud models · [Repo](https://github.com/awaescher/ollamasharp) · [📖 Docs ↗](https://awaescher.github.io/OllamaSharp) · [🌐 Site ↗](https://www.nuget.org/packages/OllamaSharp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ollamasharp/)</sub>
-
 <a name="langchain-rust"></a>
-### #&#8288;132 [langchain-rust](https://github.com/abraxas-365/langchain-rust) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
+### #&#8288;130 [langchain-rust](https://github.com/abraxas-365/langchain-rust) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
 
 **Rust port of LangChain with chains, agents, vector stores and loaders.**
 
@@ -2366,8 +2330,44 @@ A Rust crate implementing LangChain concepts: LLM chains, conversational and ret
 
 <sub>no GPU · Needs serde_json, OpenAI, Azure OpenAI or Anthropic API key, or Ollama, optional vector store backend, Pandoc (for PandocLoader) · Models: OpenAI, Azure OpenAI, Ollama, Anthropic Claude · [Repo](https://github.com/abraxas-365/langchain-rust) · [📖 Docs ↗](https://docs.rs/langchain-rust) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain-rust/)</sub>
 
+<a name="unreal-agent"></a>
+### #&#8288;131 [unreal-agent](https://github.com/unreallabsai/unreal-agent) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Oct 2026</sub>
+
+**Go library for async, crash-recoverable LLM agents, with a TUI and runner.**
+
+Unreal Agent is a Go agent harness built around an append-only, forkable session store and idempotent inputs. A coordinator runs LLM turns and dispatches serializable operations to a swappable operation manager. The repo also ships a cloud agent runner and a terminal UI built on the library, plus benchmark runners.
+
+- **+** Sessions are append-only, versioned, forkable, and recoverable after a crash
+- **+** Inputs carry caller-supplied IDs, so redelivered events are deduplicated
+- **+** Serializable operations let tools run in a remote sandbox via a proxy manager
+- **+** Context builder, LLM adapter and operation manager are swappable interfaces
+- **−** Built-in tool set is fixed to Bash, ViewImage and skill-use
+- **−** Inbox deduplication is in-memory only and does not persist across restarts
+- **−** No install steps, usage examples or provider list in the README
+- **−** Session compatibility across versions is a stated goal, not a firm commitment
+
+<sub>Docker · [Repo](https://github.com/unreallabsai/unreal-agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unreal-agent/)</sub>
+
+<a name="ollamasharp"></a>
+### #&#8288;132 [ollamasharp](https://github.com/awaescher/ollamasharp) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
+
+**.NET client library for the Ollama API with streaming and tool support.**
+
+OllamaSharp wraps every Ollama API endpoint in awaitable C# methods, covering chat, generate, embeddings, and model listing, pulling and creation, with response streaming and progress reporting. It also implements Microsoft.Extensions.AI's IChatClient and IEmbeddingGenerator, so Ollama can sit behind that abstraction. A Chat class tracks message history, and tool calling uses source generators.
+
+- **+** Covers every Ollama API endpoint, including model pull, create and embeddings
+- **+** Implements IChatClient and IEmbeddingGenerator from Microsoft.Extensions.AI
+- **+** Streaming responses and pull progress reporting via IAsyncEnumerable
+- **+** Opt-in Native AOT support and source-generated tool calling
+- **−** Ollama only; other providers need Microsoft.Extensions.AI or Semantic Kernel
+- **−** Not an agent framework: no planning, memory or multi-agent orchestration
+- **−** Requires a running Ollama server, local or remote
+- **−** C#/.NET only
+
+<sub>Needs Ollama server, .NET · Models: Ollama models, vision models, Ollama cloud models · [Repo](https://github.com/awaescher/ollamasharp) · [📖 Docs ↗](https://awaescher.github.io/OllamaSharp) · [🌐 Site ↗](https://www.nuget.org/packages/OllamaSharp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ollamasharp/)</sub>
+
 <a name="leancopilot"></a>
-### #&#8288;133 [leancopilot](https://github.com/lean-dojo/leancopilot) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
+### #&#8288;133 [leancopilot](https://github.com/lean-dojo/leancopilot) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
 
 **Lean 4 package for LLM tactic suggestion, proof search and premise selection.**
 
@@ -2421,7 +2421,7 @@ ClearAI is a plugin for the DSH agent host that adds an "epistemic loop" preset:
 <sub>Needs DSH >= 0.2.2-rc.1, pnpm, Node.js · [Repo](https://github.com/clearailhc/clearai-dsh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clearai-dsh/)</sub>
 
 <a name="seedance-2-0"></a>
-### #&#8288;136 [seedance-2.0](https://github.com/emily2040/seedance-2.0) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Sep 2026</sub>
+### #&#8288;136 [seedance-2.0](https://github.com/emily2040/seedance-2.0) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Sep 2026</sub>
 
 **Agent skill that turns ideas into shot-by-shot Seedance 2.0 video prompts.**
 
@@ -2439,7 +2439,7 @@ Seedance 2.0 Skill OS is an agent skill that plans shots, binds reference assets
 <sub>no GPU · Needs Seedance 2.0 video provider account · Models: Seedance 2.0 · [Repo](https://github.com/emily2040/seedance-2.0) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/seedance-2-0/)</sub>
 
 <a name="guardrails"></a>
-### #&#8288;137 [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (62) · Freshness: active (99) · Maintenance: weak (20) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;137 [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (63) · Freshness: active (99) · Maintenance: weak (20) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · Apache-2.0 · Aug 2026</sub>
 
 **Python framework for validating LLM inputs and outputs and generating structured data.**
 
@@ -2457,7 +2457,7 @@ Guardrails is a Python library that wraps LLM calls with input and output guards
 <sub>Needs Guardrails Hub validators (pip packages), LLM provider API (e.g. OpenAI) · Models: OpenAI, any LLM, proprietary or open-source · port 8000 · [Repo](https://github.com/guardrails-ai/guardrails) · [🌐 Site ↗](https://www.guardrailsai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/guardrails/)</sub>
 
 <a name="oasis"></a>
-### #&#8288;138 [oasis](https://github.com/camel-ai/oasis) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;138 [oasis](https://github.com/camel-ai/oasis) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · Apache-2.0 · Nov 2026</sub>
 
 **LLM-agent social media simulator for Twitter and Reddit-style platforms.**
 
@@ -2474,8 +2474,26 @@ OASIS is a Python library that simulates Twitter and Reddit-like platforms popul
 
 <sub>no GPU · Needs camel-ai, LLM API key (OpenAI in quick start) · Models: OpenAI GPT-4o-mini, Qwen (via CAMEL), OpenAI embeddings for Twhin-Bert recommender · [Repo](https://github.com/camel-ai/oasis) · [▶️ Demo ↗](https://www.youtube.com/watch?v=lprGHqkApus&t=2s) · [📖 Docs ↗](https://docs.oasis.camel-ai.org/) · [🌐 Site ↗](https://www.camel-ai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/oasis/)</sub>
 
+<a name="adalflow"></a>
+### #&#8288;139 [adalflow](https://github.com/sylphai-inc/adalflow) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (45) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · MIT · Nov 2026</sub>
+
+**PyTorch-style Python library for building and auto-optimizing LLM pipelines and agents.**
+
+AdalFlow is a Python library for building LLM task pipelines (chatbots, RAG, agents) with model-agnostic clients that can be switched via config. Its distinguishing feature is a training loop that treats a workflow as an auto-differentiation graph and optimizes prompts through textual gradients and few-shot bootstrapping. It also ships an Agent and Runner API with sync, async and streaming modes, plus tracing and human-in-the-loop support.
+
+- **+** Textual gradient descent and few-shot bootstrap share one Trainer loop
+- **+** Agent Runner offers sync, async and streaming calls with step history and tool events
+- **+** Model-agnostic clients; switching providers is a config change
+- **+** MIT licensed, installs with pip; tracing has an MLflow integration
+- **−** Optimization needs Parameter, Generator, AdalComponent and Trainer concepts, a steeper learning curve
+- **−** Accuracy claims versus other prompt optimizers come from the authors' own research
+- **−** Quickstart calculator tool runs eval() on model-generated input, unsafe outside demos
+- **−** Library only: no UI, server or deployment tooling
+
+<sub>no GPU · Needs LLM provider API key (OPENAI_API_KEY in the quickstart) · Models: OpenAI, other providers via model clients · [Repo](https://github.com/sylphai-inc/adalflow) · [▶️ Demo ↗](https://colab.research.google.com/drive/1_YnD4HshzPRARvishoU4IA-qQuX9jHrT?usp=sharing) · [📖 Docs ↗](https://adalflow.sylph.ai/) · [🌐 Site ↗](https://sylph.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adalflow/)</sub>
+
 <a name="deepagentsjs"></a>
-### #&#8288;139 [deepagentsjs](https://github.com/langchain-ai/deepagentsjs) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
+### #&#8288;140 [deepagentsjs](https://github.com/langchain-ai/deepagentsjs) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
 
 **TypeScript agent harness with planning, filesystem tools and sub-agents on LangGraph.**
 
@@ -2493,7 +2511,7 @@ Deep Agents is a TypeScript package whose createDeepAgent() returns a ready-to-r
 <sub>no GPU · Needs @langchain/core, @langchain/langgraph, @langchain/langgraph-checkpoint, @langchain/langgraph-sdk, langchain, langsmith · Models: Any tool-calling LangChain chat model (e.g. ChatOpenAI) · [Repo](https://github.com/langchain-ai/deepagentsjs) · [📖 Docs ↗](https://docs.langchain.com/oss/javascript/deepagents/overview) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepagentsjs/)</sub>
 
 <a name="uagents"></a>
-### #&#8288;140 [uagents](https://github.com/fetchai/uagents) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;141 [uagents](https://github.com/fetchai/uagents) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2026</sub>
 
 **Python library for agents that run on schedules and message each other.**
 
@@ -2510,44 +2528,8 @@ uAgents is a Python library from Fetch.ai for building agents with decorators su
 
 <sub>no GPU · Needs Fetch.ai blockchain (Almanac contract), Agentverse (optional) · [Repo](https://github.com/fetchai/uagents) · [📖 Docs ↗](https://uagents.fetch.ai/docs) · [🌐 Site ↗](https://fetch.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/uagents/)</sub>
 
-<a name="semif-openjev"></a>
-### #&#8288;141 [semif-openjev](https://github.com/theoleecj/semif-openjev) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (50) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
-
-**Reads typed option probabilities from a local LLM instead of generating text.**
-
-SemIf scores runtime-defined decisions (routing, retry, evidence checks) by reading the logits of declared options in one forward pass, with no sampled answer or JSON parsing. It runs on CUDA, Apple Silicon (MLX or PyTorch/MPS) and CPU through llama.cpp GGUF, and can reuse a shared state across many criteria. It reproduces the interface pattern of TypeSafe's closed Jev service, not its model.
-
-- **+** Direct logits took 1.023 s versus 5.332 s for a JSON array on 21 criteria
-- **+** Shared-state mode reached 20.03 decisions/s on a 37x21 workload versus 2.33 fresh
-- **+** Backends for CUDA, MLX, PyTorch/MPS and CPU-only llama.cpp GGUF
-- **+** Fixtures, row-level outputs, prompt hashes and model revisions are committed, plus per-workload calibration
-- **−** Prefix-reuse paths are experimental; BF16 changed 5-6 of 777 argmaxes
-- **−** 4B baseline reaches 0.845 agreement on the TypeSafe subset versus 0.883 for Jev
-- **−** Probabilities are conditional on the supplied options and need calibration per workload
-- **−** Research baseline with no release and no server or API
-
-<sub>GPU optional · Needs PyTorch, Hugging Face model weights, llama.cpp (CPU backend), MLX (Apple Silicon backend) · Models: Qwen3.5-4B, MiniCPM5-2B, Qwen3-0.6B, Qwen3.8-27B EXL3, GGUF (llama.cpp) · [Repo](https://github.com/theoleecj/semif-openjev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semif-openjev/)</sub>
-
-<a name="adalflow"></a>
-### #&#8288;142 [adalflow](https://github.com/sylphai-inc/adalflow) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · MIT · Nov 2026</sub>
-
-**PyTorch-style Python library for building and auto-optimizing LLM pipelines and agents.**
-
-AdalFlow is a Python library for building LLM task pipelines (chatbots, RAG, agents) with model-agnostic clients that can be switched via config. Its distinguishing feature is a training loop that treats a workflow as an auto-differentiation graph and optimizes prompts through textual gradients and few-shot bootstrapping. It also ships an Agent and Runner API with sync, async and streaming modes, plus tracing and human-in-the-loop support.
-
-- **+** Textual gradient descent and few-shot bootstrap share one Trainer loop
-- **+** Agent Runner offers sync, async and streaming calls with step history and tool events
-- **+** Model-agnostic clients; switching providers is a config change
-- **+** MIT licensed, installs with pip; tracing has an MLflow integration
-- **−** Optimization needs Parameter, Generator, AdalComponent and Trainer concepts, a steeper learning curve
-- **−** Accuracy claims versus other prompt optimizers come from the authors' own research
-- **−** Quickstart calculator tool runs eval() on model-generated input, unsafe outside demos
-- **−** Library only: no UI, server or deployment tooling
-
-<sub>no GPU · Needs LLM provider API key (OPENAI_API_KEY in the quickstart) · Models: OpenAI, other providers via model clients · [Repo](https://github.com/sylphai-inc/adalflow) · [▶️ Demo ↗](https://colab.research.google.com/drive/1_YnD4HshzPRARvishoU4IA-qQuX9jHrT?usp=sharing) · [📖 Docs ↗](https://adalflow.sylph.ai/) · [🌐 Site ↗](https://sylph.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adalflow/)</sub>
-
 <a name="shinkaevolve"></a>
-### #&#8288;143 [shinkaevolve](https://github.com/sakanaai/shinkaevolve) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;142 [shinkaevolve](https://github.com/sakanaai/shinkaevolve) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
 
 **LLM-driven evolutionary search that improves programs against a verifier.**
 
@@ -2565,7 +2547,7 @@ ShinkaEvolve keeps a population of programs and uses an ensemble of LLMs as muta
 <sub>Needs Python >=3.10, LLM API provider or local OpenAI-compatible server, Slurm (optional), Weights & Biases (optional) · Models: OpenAI, Gemini, local OpenAI-compatible endpoints, Headless CLI agents (Codex, Claude) · [Repo](https://github.com/sakanaai/shinkaevolve) · [▶️ Demo ↗](https://colab.research.google.com/github/SakanaAI/ShinkaEvolve/blob/main/examples/shinka_tutorial.ipynb) · [📖 Docs ↗](https://sakanaai.github.io/ShinkaEvolve/) · [🌐 Site ↗](https://sakana.ai/shinka-evolve/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/shinkaevolve/)</sub>
 
 <a name="adk-js"></a>
-### #&#8288;144 [adk-js](https://github.com/google/adk-js) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;143 [adk-js](https://github.com/google/adk-js) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
 
 **Code-first TypeScript SDK for building multi-agent LLM workflows.**
 
@@ -2581,6 +2563,24 @@ Google's Agent Development Kit for TypeScript lets you define agents, tools and 
 - **−** Only Cloud Run is shown as a deployment target
 
 <sub>no GPU · Needs Node.js 20.19+, Google AI Studio API key or Vertex AI · Models: Gemini · [Repo](https://github.com/google/adk-js) · [📖 Docs ↗](https://adk.dev/get-started/typescript) · [🌐 Site ↗](https://adk.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adk-js/)</sub>
+
+<a name="semif-openjev"></a>
+### #&#8288;144 [semif-openjev](https://github.com/theoleecj/semif-openjev) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
+
+**Reads typed option probabilities from a local LLM instead of generating text.**
+
+SemIf scores runtime-defined decisions (routing, retry, evidence checks) by reading the logits of declared options in one forward pass, with no sampled answer or JSON parsing. It runs on CUDA, Apple Silicon (MLX or PyTorch/MPS) and CPU through llama.cpp GGUF, and can reuse a shared state across many criteria. It reproduces the interface pattern of TypeSafe's closed Jev service, not its model.
+
+- **+** Direct logits took 1.023 s versus 5.332 s for a JSON array on 21 criteria
+- **+** Shared-state mode reached 20.03 decisions/s on a 37x21 workload versus 2.33 fresh
+- **+** Backends for CUDA, MLX, PyTorch/MPS and CPU-only llama.cpp GGUF
+- **+** Fixtures, row-level outputs, prompt hashes and model revisions are committed, plus per-workload calibration
+- **−** Prefix-reuse paths are experimental; BF16 changed 5-6 of 777 argmaxes
+- **−** 4B baseline reaches 0.845 agreement on the TypeSafe subset versus 0.883 for Jev
+- **−** Probabilities are conditional on the supplied options and need calibration per workload
+- **−** Research baseline with no release and no server or API
+
+<sub>GPU optional · Needs PyTorch, Hugging Face model weights, llama.cpp (CPU backend), MLX (Apple Silicon backend) · Models: Qwen3.5-4B, MiniCPM5-2B, Qwen3-0.6B, Qwen3.8-27B EXL3, GGUF (llama.cpp) · [Repo](https://github.com/theoleecj/semif-openjev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semif-openjev/)</sub>
 
 <a name="emilia-protocol"></a>
 ### #&#8288;145 [emilia-protocol](https://github.com/emiliaprotocol/emilia-protocol) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (0) · Freshness: active (95) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 522 · Apache-2.0 · Nov 2026</sub>
@@ -2601,7 +2601,7 @@ EMILIA Gate sits in front of a protected tool, such as an MCP payment tool, and 
 <sub>no GPU · Docker + Compose · Needs Node.js 20.19+, npm · [Repo](https://github.com/emiliaprotocol/emilia-protocol) · [▶️ Demo ↗](https://www.emiliaprotocol.ai/try) · [📖 Docs ↗](https://www.emiliaprotocol.ai/proof) · [🌐 Site ↗](https://www.emiliaprotocol.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/emilia-protocol/)</sub>
 
 <a name="aisuite"></a>
-### #&#8288;146 [aisuite](https://github.com/andrewyng/aisuite) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Sep 2026</sub>
+### #&#8288;146 [aisuite](https://github.com/andrewyng/aisuite) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Sep 2026</sub>
 
 **Python library with one chat API across LLM providers, plus an agents layer.**
 
@@ -2619,7 +2619,7 @@ aisuite is a Python library that exposes an OpenAI-style Chat Completions interf
 <sub>no GPU · Needs Provider API keys, Provider SDKs (optional extras), Node/npx for some MCP servers · Models: OpenAI, Anthropic, Google, Mistral, Hugging Face · [Repo](https://github.com/andrewyng/aisuite) · [📖 Docs ↗](https://github.com/andrewyng/aisuite/blob/main/docs/chat-completions-quickstart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aisuite/)</sub>
 
 <a name="outlines"></a>
-### #&#8288;147 [outlines](https://github.com/dottxt-ai/outlines) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: weak (9) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;147 [outlines](https://github.com/dottxt-ai/outlines) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: weak (9) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **Python library that constrains LLM output to a type, schema or grammar.**
 
@@ -2637,7 +2637,7 @@ Outlines enforces structured output during generation: you pass a Python type (L
 <sub>GPU optional · Needs transformers, pydantic · Models: transformers, llama.cpp, vLLM, Ollama, OpenAI · [Repo](https://github.com/dottxt-ai/outlines) · [📖 Docs ↗](https://dottxt-ai.github.io/outlines/latest/features/models/) · [🌐 Site ↗](https://dottxt.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/outlines/)</sub>
 
 <a name="cuawright"></a>
-### #&#8288;148 [cuawright](https://github.com/microsoft/cuawright) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Oct 2026</sub>
+### #&#8288;148 [cuawright](https://github.com/microsoft/cuawright) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Oct 2026</sub>
 
 **Coding-model agent that writes Playwright scripts and runs desktop tasks in a VM.**
 
@@ -2655,7 +2655,7 @@ CUAWright gives a coding model a terminal to automate browsers and desktop appli
 <sub>no GPU · Needs Python 3.10+ (3.12+ for desktop), Playwright Chromium, Docker (desktop), Hugging Face gated datasets (desktop), Browserbase (live-browser config) · Models: OpenAI, Anthropic, OpenRouter, Responses-compatible APIs · [Repo](https://github.com/microsoft/cuawright) · [📖 Docs ↗](https://arxiv.org/abs/2610.04116) · [🌐 Site ↗](https://microsoft.github.io/CUAWright/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cuawright/)</sub>
 
 <a name="rlm"></a>
-### #&#8288;149 [rlm](https://github.com/alexzhang13/rlm) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Nov 2026</sub>
+### #&#8288;149 [rlm](https://github.com/alexzhang13/rlm) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Nov 2026</sub>
 
 **Python library that lets an LLM recursively call itself from a REPL.**
 
@@ -2673,7 +2673,7 @@ rlms replaces a plain llm.completion call with rlm.completion. The prompt is loa
 <sub>no GPU · Needs Python 3.11+, LLM API or vLLM server, Docker (optional), Modal/Prime/Daytona/E2B (optional), Node.js (visualizer) · Models: OpenAI, Anthropic, OpenRouter, Portkey, vLLM · port 3001 · [Repo](https://github.com/alexzhang13/rlm) · [📖 Docs ↗](https://alexzhang13.github.io/rlm/) · [🌐 Site ↗](https://alexzhang13.github.io/blog/2025/rlm/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rlm/)</sub>
 
 <a name="burr"></a>
-### #&#8288;150 [burr](https://github.com/apache/burr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;150 [burr](https://github.com/apache/burr) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Nov 2026</sub>
 
 **Python state-machine library for stateful agents and chatbots, with a tracing UI.**
 
@@ -2726,26 +2726,8 @@ OpenManus is a Python agent framework, an open reimplementation of Manus, that t
 
 <sub>no GPU · Docker · Needs Python 3.12, uv or conda, LLM API key, Browser Use CLI (uvx), Chrome or Chromium, Playwright (BrowserGym) · Models: OpenAI-compatible API (gpt-4o in example config) · [Repo](https://github.com/foundationagents/openmanus) · [▶️ Demo ↗](https://huggingface.co/spaces/lyh-917/OpenManusDemo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmanus/)</sub>
 
-<a name="deep-chat"></a>
-### #&#8288;153 [deep-chat](https://github.com/ovidijusparsiunas/deep-chat) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (39) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Nov 2026</sub>
-
-**Embeddable web component that adds a chat UI to any website.**
-
-Deep Chat is a front-end web component (<deep-chat>, installed via npm) that you embed in a page and point at your own backend or at one of 20+ AI APIs such as OpenAI and Claude. It handles file upload, webcam and microphone capture, speech-to-text, text-to-speech and Markdown rendering. It has examples for React, Vue, Svelte, Angular, Solid, Next and Nuxt, and can run a model in the browser through a separate web-llm module.
-
-- **+** One custom element works across React, Vue, Svelte, Angular, Solid and plain JS
-- **+** directConnection covers 20+ AI APIs, including OpenAI, Claude, Open WebUI, LiteLLM and Dify
-- **+** Built-in camera, microphone, speech-to-text, text-to-speech and file upload
-- **+** Server templates provided for Express, Nest, Flask, Spring, Go, SvelteKit and Next
-- **−** Front-end component only; no user accounts or server-side chat history included
-- **−** directConnection exposes the API key in the browser; README says prototyping only
-- **−** Custom backends must match Deep Chat's request and response format, or use interceptors
-- **−** In-browser model needs the separate deep-chat-web-llm module
-
-<sub>GPU optional · Needs npm · Models: OpenAI, Claude, Open WebUI, LiteLLM, Dify · [Repo](https://github.com/ovidijusparsiunas/deep-chat) · [▶️ Demo ↗](https://deepchat.dev/playground) · [📖 Docs ↗](https://deepchat.dev/docs/connect) · [🌐 Site ↗](https://deepchat.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-chat/)</sub>
-
 <a name="tuyaopen"></a>
-### #&#8288;154 [tuyaopen](https://github.com/tuya/tuyaopen) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · custom license · Nov 2026</sub>
+### #&#8288;153 [tuyaopen](https://github.com/tuya/tuyaopen) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · custom license · Nov 2026</sub>
 
 **C/C++ SDK for building AI voice and agent hardware on Tuya, ESP32 and others.**
 
@@ -2762,8 +2744,43 @@ TuyaOpen is a cross-platform C/C++ SDK for firmware on Tuya T2/T3/T5 modules, ES
 
 <sub>Docker · Needs Tuya Cloud · Models: ChatGPT, Gemini, Claude, Qwen, Doubao · [Repo](https://github.com/tuya/tuyaopen) · [📖 Docs ↗](https://tuyaopen.ai/docs/about-tuyaopen) · [🌐 Site ↗](https://tuyaopen.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tuyaopen/)</sub>
 
+<a name="researchstudio"></a>
+### #&#8288;154 [researchstudio](https://github.com/microsoft/researchstudio) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (41) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Sep 2026</sub>
+
+**Agent skills that take a research direction to idea card, poster, video and blog.**
+
+ResearchStudio is a set of skills for Claude Code and Codex covering both ends of a paper. ResearchStudio-Idea turns an under-specified research direction into a reviewer-defensible idea card, grounded in a taxonomy induced from ICLR, ICML and NeurIPS submissions. ResearchStudio-Reel turns a finished paper PDF into a poster, narrated video, bilingual blog post and interactive reel viewer.
+
+- **+** Covers pre-paper ideation and post-paper deliverables (poster, video, blog, reel) in one suite
+- **+** Each half has an arXiv paper and a live demo page
+- **+** Installs via install.sh or an interactive npx installer that writes .env
+- **+** MIT licensed, active commits
+- **−** Runs only inside Claude Code or Codex, so it needs an account with one of them
+- **−** Recommends claude-opus-4.6 or gpt-5.5 or newer, which limits local model use
+- **−** No tagged releases
+
+<sub>Needs Claude Code or Codex, Python 3.10+, conda or uv, npx (optional installer), API keys (written to .env) · Models: claude-opus-4.6 or newer, gpt-5.5 · [Repo](https://github.com/microsoft/researchstudio) · [▶️ Demo ↗](https://microsoft.github.io/ResearchStudio/reel-page/) · [🌐 Site ↗](https://aka.ms/ResearchStudio) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/researchstudio/)</sub>
+
+<a name="deep-chat"></a>
+### #&#8288;155 [deep-chat](https://github.com/ovidijusparsiunas/deep-chat) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (40) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Nov 2026</sub>
+
+**Embeddable web component that adds a chat UI to any website.**
+
+Deep Chat is a front-end web component (<deep-chat>, installed via npm) that you embed in a page and point at your own backend or at one of 20+ AI APIs such as OpenAI and Claude. It handles file upload, webcam and microphone capture, speech-to-text, text-to-speech and Markdown rendering. It has examples for React, Vue, Svelte, Angular, Solid, Next and Nuxt, and can run a model in the browser through a separate web-llm module.
+
+- **+** One custom element works across React, Vue, Svelte, Angular, Solid and plain JS
+- **+** directConnection covers 20+ AI APIs, including OpenAI, Claude, Open WebUI, LiteLLM and Dify
+- **+** Built-in camera, microphone, speech-to-text, text-to-speech and file upload
+- **+** Server templates provided for Express, Nest, Flask, Spring, Go, SvelteKit and Next
+- **−** Front-end component only; no user accounts or server-side chat history included
+- **−** directConnection exposes the API key in the browser; README says prototyping only
+- **−** Custom backends must match Deep Chat's request and response format, or use interceptors
+- **−** In-browser model needs the separate deep-chat-web-llm module
+
+<sub>GPU optional · Needs npm · Models: OpenAI, Claude, Open WebUI, LiteLLM, Dify · [Repo](https://github.com/ovidijusparsiunas/deep-chat) · [▶️ Demo ↗](https://deepchat.dev/playground) · [📖 Docs ↗](https://deepchat.dev/docs/connect) · [🌐 Site ↗](https://deepchat.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deep-chat/)</sub>
+
 <a name="instagram-agent-skill"></a>
-### #&#8288;155 [instagram-agent-skill](https://github.com/jakeschincariol/instagram-agent-skill) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: weak (12) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · MIT · Sep 2026</sub>
+### #&#8288;156 [instagram-agent-skill](https://github.com/jakeschincariol/instagram-agent-skill) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: weak (12) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.5k · MIT · Sep 2026</sub>
 
 **Thirteen Claude skills for writing Instagram Reels, captions, carousels and DMs.**
 
@@ -2780,25 +2797,8 @@ A set of thirteen Claude skills that draft Instagram content: Reel scripts from 
 
 <sub>no GPU · Needs Claude Code, Python 3 · Models: Claude · [Repo](https://github.com/jakeschincariol/instagram-agent-skill) · [🌐 Site ↗](https://opusjake.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/instagram-agent-skill/)</sub>
 
-<a name="researchstudio"></a>
-### #&#8288;156 [researchstudio](https://github.com/microsoft/researchstudio) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (40) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Sep 2026</sub>
-
-**Agent skills that take a research direction to idea card, poster, video and blog.**
-
-ResearchStudio is a set of skills for Claude Code and Codex covering both ends of a paper. ResearchStudio-Idea turns an under-specified research direction into a reviewer-defensible idea card, grounded in a taxonomy induced from ICLR, ICML and NeurIPS submissions. ResearchStudio-Reel turns a finished paper PDF into a poster, narrated video, bilingual blog post and interactive reel viewer.
-
-- **+** Covers pre-paper ideation and post-paper deliverables (poster, video, blog, reel) in one suite
-- **+** Each half has an arXiv paper and a live demo page
-- **+** Installs via install.sh or an interactive npx installer that writes .env
-- **+** MIT licensed, active commits
-- **−** Runs only inside Claude Code or Codex, so it needs an account with one of them
-- **−** Recommends claude-opus-4.6 or gpt-5.5 or newer, which limits local model use
-- **−** No tagged releases
-
-<sub>Needs Claude Code or Codex, Python 3.10+, conda or uv, npx (optional installer), API keys (written to .env) · Models: claude-opus-4.6 or newer, gpt-5.5 · [Repo](https://github.com/microsoft/researchstudio) · [▶️ Demo ↗](https://microsoft.github.io/ResearchStudio/reel-page/) · [🌐 Site ↗](https://aka.ms/ResearchStudio) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/researchstudio/)</sub>
-
 <a name="openai-kotlin"></a>
-### #&#8288;157 [openai-kotlin](https://github.com/aallam/openai-kotlin) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
+### #&#8288;157 [openai-kotlin](https://github.com/aallam/openai-kotlin) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
 
 **Unofficial Kotlin Multiplatform client for the OpenAI API with coroutines.**
 
@@ -2815,8 +2815,26 @@ A Kotlin library that wraps OpenAI's REST API (responses, chat, embeddings, imag
 
 <sub>no GPU · Needs OpenAI API key, Ktor client engine, Gradle · Models: OpenAI API models · [Repo](https://github.com/aallam/openai-kotlin) · [📖 Docs ↗](https://mouaad.aallam.com/openai-kotlin/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai-kotlin/)</sub>
 
+<a name="tree-of-thoughts"></a>
+### #&#8288;158 [tree-of-thoughts](https://github.com/kyegomez/tree-of-thoughts) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (48) · Freshness: recent (70) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Sep 2026</sub>
+
+**Tree-search reasoning for LLMs with BFS/DFS, pruning and backtracking.**
+
+Implements Tree of Thoughts, now shipped as `TreeOfThoughts` in the Swarms framework. The model proposes candidate steps, scores them by value or vote, prunes below a threshold, and searches breadth-first with a beam or depth-first with backtracking. Outputs are validated function calls against Pydantic schemas, and any LiteLLM model with function calling works. The repo holds examples in Game of 24, physics, logic and math, plus four copy-paste prompts.
+
+- **+** BFS and DFS search, propose or sample generation, value or vote scoring, all configurable
+- **+** Structured function-call outputs validated by Pydantic, so search never parses prose
+- **+** Works with any LiteLLM provider that supports function calling
+- **+** `max_expansions` caps cost; result object exposes steps, LLM calls and token usage
+- **−** Standalone code now lives in Swarms; install requires the full `swarms` package
+- **−** Monte Carlo tree search and tree visualization are unchecked on the roadmap
+- **−** Cost grows with thoughts, breadth, depth and evaluator samples; many model calls per task
+- **−** No tagged release since 2023-07-29
+
+<sub>no GPU · Needs swarms, LiteLLM, Pydantic, LLM provider API key · Models: OpenAI, Anthropic, Groq, any LiteLLM function-calling model · [Repo](https://github.com/kyegomez/tree-of-thoughts) · [📖 Docs ↗](https://docs.swarms.world) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tree-of-thoughts/)</sub>
+
 <a name="roast-room"></a>
-### #&#8288;158 [roast-room](https://github.com/nateherkai/roast-room) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Oct 2026</sub>
+### #&#8288;159 [roast-room](https://github.com/nateherkai/roast-room) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Oct 2026</sub>
 
 **Claude Code skill that runs a council of AI advisors on business decisions.**
 
@@ -2833,8 +2851,26 @@ Roast Room is a set of Claude Code skills and sub-agents that debate a business 
 
 <sub>no GPU · Needs Claude Code, Node.js 20+, kie.ai API key (optional, portraits), yt-dlp (optional), pdftotext (optional), Anthropic API key (optional, api mode) · Models: Claude (via Claude Code), Anthropic API (optional) · port 4730 · [Repo](https://github.com/nateherkai/roast-room) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/roast-room/)</sub>
 
+<a name="skillnet"></a>
+### #&#8288;160 [skillnet](https://github.com/zjunlp/skillnet) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
+
+**Search, create, evaluate and route reusable agent skills.**
+
+SkillNet is a Python SDK and CLI (skillnet-ai) for managing agent skill folders containing SKILL.md. It searches a hosted catalog of 500K+ GitHub skills, downloads them, generates new ones from prompts, repos, documents or traces, and rates them on five quality dimensions. It also builds a relationship graph over local skills, routes tasks to a subset, and includes a local browser UI.
+
+- **+** Search and public downloads need no API key; the REST search endpoint is public
+- **+** Evaluation rates safety, completeness, executability, maintainability and cost without running skill scripts
+- **+** Same six operations in SDK, CLI with --json output, and an installable agent skill
+- **+** Create, evaluate and analyze accept any OpenAI-compatible Chat Completions endpoint
+- **−** Routing needs an embedding endpoint plus a separate Claude, Codex or DeepSeek Harness SDK
+- **−** Hosted search service defaults to a plain HTTP URL on openkg.cn
+- **−** MCP server is a separate community repo needing Node.js and the Python package
+- **−** Scientific demo notebook uses a predefined plan and simulated data in parts
+
+<sub>no GPU · Needs Python 3.10+, OpenAI-compatible Chat Completions endpoint, Embedding endpoint (analyze, route), Claude, Codex or DeepSeek Harness SDK (route), GitHub (downloads) · Models: OpenAI-compatible chat API (default gpt-4o), Claude, Codex, DeepSeek Harness · port 8765 · [Repo](https://github.com/zjunlp/skillnet) · [📖 Docs ↗](https://github.com/zjunlp/skillnet/blob/main/skillnet-ai/README.md) · [🌐 Site ↗](http://skillnet.openkg.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skillnet/)</sub>
+
 <a name="owl"></a>
-### #&#8288;159 [owl](https://github.com/camel-ai/owl) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 20k · no license · Nov 2026</sub>
+### #&#8288;161 [owl](https://github.com/camel-ai/owl) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 20k · no license · Nov 2026</sub>
 
 **Multi-agent framework on CAMEL for browser, search, code and document tasks.**
 
@@ -2851,8 +2887,26 @@ OWL is a Python multi-agent framework built on CAMEL-AI that runs a society of a
 
 <sub>no GPU · Needs Python 3.10-3.12, CAMEL-AI, Playwright, Node.js (for MCP), LLM API key (e.g. OPENAI_API_KEY) · Models: OpenAI, Claude, Gemini, Qwen, Deepseek · [Repo](https://github.com/camel-ai/owl) · [🌐 Site ↗](https://www.camel-ai.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/owl/)</sub>
 
+<a name="promptflow"></a>
+### #&#8288;162 [promptflow](https://github.com/microsoft/promptflow) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (74) · Freshness: recent (70) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
+
+**Python toolkit for building, tracing and evaluating LLM flows from a CLI.**
+
+Prompt flow defines LLM apps as executable flows in a flow.dag.yaml that link LLM calls, prompts and Python code. It provides a pf CLI for testing flows, managing OpenAI and Azure OpenAI connections, tracing LLM calls and batch-evaluating against datasets, plus a VS Code flow designer. Microsoft has announced retirement on April 20, 2027 and no longer recommends it for new development.
+
+- **+** Flows are YAML DAGs linking LLM, prompt and Python nodes, runnable with `pf flow test`
+- **+** Batch runs and evaluation over datasets can be wired into CI/CD
+- **+** Built-in tracing of LLM interactions for debugging flows
+- **+** VS Code extension offers a visual flow designer
+- **−** Retirement announced for April 20, 2027; not recommended for new development
+- **−** Runtime container images no longer receive security or package updates
+- **−** Last release was 2025-01-09; migration to Microsoft Agent Framework is advised
+- **−** Telemetry is on by default; opt out with `pf config set telemetry.enabled=false`
+
+<sub>no GPU · Needs Python 3.9-3.11 recommended, OpenAI or Azure OpenAI API key · Models: OpenAI, Azure OpenAI · [Repo](https://github.com/microsoft/promptflow) · [📖 Docs ↗](https://microsoft.github.io/promptflow/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/promptflow/)</sub>
+
 <a name="upsonic"></a>
-### #&#8288;160 [upsonic](https://github.com/upsonic/upsonic) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (63) · Freshness: active (81) · Maintenance: weak (17) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Jun 2026</sub>
+### #&#8288;163 [upsonic](https://github.com/upsonic/upsonic) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (64) · Freshness: active (81) · Maintenance: weak (17) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Jun 2026</sub>
 
 **Python framework for building autonomous and tool-calling AI agents.**
 
@@ -2870,7 +2924,7 @@ Upsonic is a Python library with two agent types: an AutonomousAgent that works 
 <sub>Needs E2B (optional sandbox), LLM provider API (e.g. Anthropic) · Models: anthropic/claude-sonnet-4-5, DeepSeek OCR via Ollama · [Repo](https://github.com/upsonic/upsonic) · [📖 Docs ↗](https://docs.upsonic.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/upsonic/)</sub>
 
 <a name="youtube-agent-skill"></a>
-### #&#8288;161 [youtube-agent-skill](https://github.com/jakeschincariol/youtube-agent-skill) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Sep 2026</sub>
+### #&#8288;164 [youtube-agent-skill](https://github.com/jakeschincariol/youtube-agent-skill) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · MIT · Sep 2026</sub>
 
 **Eleven Claude skills for scripting, packaging and analyzing YouTube videos.**
 
@@ -2888,7 +2942,7 @@ A set of eleven Claude skills (/yt-script, /yt-package, /yt-edit, /yt-retention,
 <sub>no GPU · Needs Claude, Claude Code, Python 3 · Models: Claude · [Repo](https://github.com/jakeschincariol/youtube-agent-skill) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/youtube-agent-skill/)</sub>
 
 <a name="x"></a>
-### #&#8288;162 [x](https://github.com/ant-design/x) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 4.9k · no license · Oct 2026</sub>
+### #&#8288;165 [x](https://github.com/ant-design/x) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 4.9k · no license · Oct 2026</sub>
 
 **React component library for building LLM chat and agent interfaces.**
 
@@ -2904,26 +2958,8 @@ Ant Design X is a set of npm packages for building AI front-ends in React on top
 
 <sub>no GPU · Needs React, Ant Design, npm · [Repo](https://github.com/ant-design/x) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/x/)</sub>
 
-<a name="tree-of-thoughts"></a>
-### #&#8288;163 [tree-of-thoughts](https://github.com/kyegomez/tree-of-thoughts) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (46) · Freshness: recent (70) · Maintenance: fair (58) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Sep 2026</sub>
-
-**Tree-search reasoning for LLMs with BFS/DFS, pruning and backtracking.**
-
-Implements Tree of Thoughts, now shipped as `TreeOfThoughts` in the Swarms framework. The model proposes candidate steps, scores them by value or vote, prunes below a threshold, and searches breadth-first with a beam or depth-first with backtracking. Outputs are validated function calls against Pydantic schemas, and any LiteLLM model with function calling works. The repo holds examples in Game of 24, physics, logic and math, plus four copy-paste prompts.
-
-- **+** BFS and DFS search, propose or sample generation, value or vote scoring, all configurable
-- **+** Structured function-call outputs validated by Pydantic, so search never parses prose
-- **+** Works with any LiteLLM provider that supports function calling
-- **+** `max_expansions` caps cost; result object exposes steps, LLM calls and token usage
-- **−** Standalone code now lives in Swarms; install requires the full `swarms` package
-- **−** Monte Carlo tree search and tree visualization are unchecked on the roadmap
-- **−** Cost grows with thoughts, breadth, depth and evaluator samples; many model calls per task
-- **−** No tagged release since 2023-07-29
-
-<sub>no GPU · Needs swarms, LiteLLM, Pydantic, LLM provider API key · Models: OpenAI, Anthropic, Groq, any LiteLLM function-calling model · [Repo](https://github.com/kyegomez/tree-of-thoughts) · [📖 Docs ↗](https://docs.swarms.world) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tree-of-thoughts/)</sub>
-
 <a name="griptape"></a>
-### #&#8288;164 [griptape](https://github.com/griptape-ai/griptape) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;166 [griptape](https://github.com/griptape-ai/griptape) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for building LLM agents, pipelines, workflows and RAG apps.**
 
@@ -2939,62 +2975,8 @@ Griptape is a Python library that structures LLM applications around Agents, Pip
 
 <sub>no GPU · Needs LLM provider API (e.g. OpenAI) · Models: OpenAI chat models, pluggable prompt drivers · [Repo](https://github.com/griptape-ai/griptape) · [📖 Docs ↗](https://docs.griptape.ai/) · [🌐 Site ↗](https://www.griptapenodes.com/griptape-nodes-desktop) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/griptape/)</sub>
 
-<a name="skillnet"></a>
-### #&#8288;165 [skillnet](https://github.com/zjunlp/skillnet) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
-
-**Search, create, evaluate and route reusable agent skills.**
-
-SkillNet is a Python SDK and CLI (skillnet-ai) for managing agent skill folders containing SKILL.md. It searches a hosted catalog of 500K+ GitHub skills, downloads them, generates new ones from prompts, repos, documents or traces, and rates them on five quality dimensions. It also builds a relationship graph over local skills, routes tasks to a subset, and includes a local browser UI.
-
-- **+** Search and public downloads need no API key; the REST search endpoint is public
-- **+** Evaluation rates safety, completeness, executability, maintainability and cost without running skill scripts
-- **+** Same six operations in SDK, CLI with --json output, and an installable agent skill
-- **+** Create, evaluate and analyze accept any OpenAI-compatible Chat Completions endpoint
-- **−** Routing needs an embedding endpoint plus a separate Claude, Codex or DeepSeek Harness SDK
-- **−** Hosted search service defaults to a plain HTTP URL on openkg.cn
-- **−** MCP server is a separate community repo needing Node.js and the Python package
-- **−** Scientific demo notebook uses a predefined plan and simulated data in parts
-
-<sub>no GPU · Needs Python 3.10+, OpenAI-compatible Chat Completions endpoint, Embedding endpoint (analyze, route), Claude, Codex or DeepSeek Harness SDK (route), GitHub (downloads) · Models: OpenAI-compatible chat API (default gpt-4o), Claude, Codex, DeepSeek Harness · port 8765 · [Repo](https://github.com/zjunlp/skillnet) · [📖 Docs ↗](https://github.com/zjunlp/skillnet/blob/main/skillnet-ai/README.md) · [🌐 Site ↗](http://skillnet.openkg.cn/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skillnet/)</sub>
-
-<a name="promptflow"></a>
-### #&#8288;166 [promptflow](https://github.com/microsoft/promptflow) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (74) · Freshness: recent (70) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
-
-**Python toolkit for building, tracing and evaluating LLM flows from a CLI.**
-
-Prompt flow defines LLM apps as executable flows in a flow.dag.yaml that link LLM calls, prompts and Python code. It provides a pf CLI for testing flows, managing OpenAI and Azure OpenAI connections, tracing LLM calls and batch-evaluating against datasets, plus a VS Code flow designer. Microsoft has announced retirement on April 20, 2027 and no longer recommends it for new development.
-
-- **+** Flows are YAML DAGs linking LLM, prompt and Python nodes, runnable with `pf flow test`
-- **+** Batch runs and evaluation over datasets can be wired into CI/CD
-- **+** Built-in tracing of LLM interactions for debugging flows
-- **+** VS Code extension offers a visual flow designer
-- **−** Retirement announced for April 20, 2027; not recommended for new development
-- **−** Runtime container images no longer receive security or package updates
-- **−** Last release was 2025-01-09; migration to Microsoft Agent Framework is advised
-- **−** Telemetry is on by default; opt out with `pf config set telemetry.enabled=false`
-
-<sub>no GPU · Needs Python 3.9-3.11 recommended, OpenAI or Azure OpenAI API key · Models: OpenAI, Azure OpenAI · [Repo](https://github.com/microsoft/promptflow) · [📖 Docs ↗](https://microsoft.github.io/promptflow/index.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/promptflow/)</sub>
-
-<a name="skills"></a>
-### #&#8288;167 [browser-act/skills](https://github.com/browser-act/skills) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · MIT · Nov 2026</sub>
-
-**Browser automation skill that gives coding agents stealth and local Chrome control.**
-
-BrowserAct Skills adds a `browser-act` CLI and Skill that agents such as Claude Code, Cursor and Codex load to drive a real browser. It supports local Chrome profile reuse and stealth browsers with fingerprint and proxy handling, and exposes indexed page state (`state`, `click 3`, `input 2`). It also offers CAPTCHA solving, human handoff via `remote-assist`, and Skill Forge, which generates site-specific scraping Skills.
-
-- **+** Indexed text page state lets agents click and type by number, without parsing the DOM
-- **+** Three browser modes: local Chrome, stealth privacy, and stealth fixed identity
-- **+** Sensitive actions like browser creation and proxy changes need fresh user approval, enforced in the Skill
-- **+** Works with any agent that can run shell commands and load Skills; Windows, macOS, Linux
-- **−** Stealth browsers, solve-captcha and remote-assist require a BrowserAct login
-- **−** Managed proxies and more than 5 stealth browsers are paid
-- **−** Anti-bot and CAPTCHA features depend on BrowserAct's hosted services, not only local code
-- **−** Cloud scraping-Bot mode is a commercial product, separate from the MIT-licensed Skills
-
-<sub>no GPU · Needs Chrome, BrowserAct account (for stealth features), AI agent that can run shell commands · [Repo](https://github.com/browser-act/skills) · [▶️ Demo ↗](https://www.youtube.com/watch?v=sTUD4drYYrk) · [📖 Docs ↗](https://docs.browseract.com) · [🌐 Site ↗](https://www.browseract.com/?co-from=github) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skills/)</sub>
-
 <a name="octotools"></a>
-### #&#8288;168 [octotools](https://github.com/octotools/octotools) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
+### #&#8288;167 [octotools](https://github.com/octotools/octotools) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
 
 **Python agent framework with a planner, executor and pluggable tool cards.**
 
@@ -3011,8 +2993,44 @@ OctoTools is a training-free Python framework in which a planner chooses steps a
 
 <sub>GPU optional · Needs Python 3.11, LLM provider API key or local vLLM/Ollama server, Google Custom Search API (optional) · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Grok · [Repo](https://github.com/octotools/octotools) · [▶️ Demo ↗](https://huggingface.co/spaces/OctoTools/octotools) · [📖 Docs ↗](https://github.com/octotools/octotools/tree/main/tutorials) · [🌐 Site ↗](https://octotools.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/octotools/)</sub>
 
+<a name="skills"></a>
+### #&#8288;168 [browser-act/skills](https://github.com/browser-act/skills) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · MIT · Nov 2026</sub>
+
+**Browser automation skill that gives coding agents stealth and local Chrome control.**
+
+BrowserAct Skills adds a `browser-act` CLI and Skill that agents such as Claude Code, Cursor and Codex load to drive a real browser. It supports local Chrome profile reuse and stealth browsers with fingerprint and proxy handling, and exposes indexed page state (`state`, `click 3`, `input 2`). It also offers CAPTCHA solving, human handoff via `remote-assist`, and Skill Forge, which generates site-specific scraping Skills.
+
+- **+** Indexed text page state lets agents click and type by number, without parsing the DOM
+- **+** Three browser modes: local Chrome, stealth privacy, and stealth fixed identity
+- **+** Sensitive actions like browser creation and proxy changes need fresh user approval, enforced in the Skill
+- **+** Works with any agent that can run shell commands and load Skills; Windows, macOS, Linux
+- **−** Stealth browsers, solve-captcha and remote-assist require a BrowserAct login
+- **−** Managed proxies and more than 5 stealth browsers are paid
+- **−** Anti-bot and CAPTCHA features depend on BrowserAct's hosted services, not only local code
+- **−** Cloud scraping-Bot mode is a commercial product, separate from the MIT-licensed Skills
+
+<sub>no GPU · Needs Chrome, BrowserAct account (for stealth features), AI agent that can run shell commands · [Repo](https://github.com/browser-act/skills) · [▶️ Demo ↗](https://www.youtube.com/watch?v=sTUD4drYYrk) · [📖 Docs ↗](https://docs.browseract.com) · [🌐 Site ↗](https://www.browseract.com/?co-from=github) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skills/)</sub>
+
+<a name="clawbench"></a>
+### #&#8288;169 [clawbench](https://github.com/tiger-ai-lab/clawbench) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (6) · Freshness: active (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Nov 2026</sub>
+
+**Benchmark for AI browser agents on everyday tasks across live websites.**
+
+ClawBench runs AI browser agents in isolated Docker or Podman containers with Chromium and records each run in five layers: video, requests, actions, screenshots and agent messages. Scoring is two-stage: a deterministic check that the final HTTP request matched the task, then an LLM judge (default deepseek-v4-pro). It covers 281 tasks across 163 live sites in V1 and V2, plus a 20-task Lite subset.
+
+- **+** Five-layer recording per run, with public trace datasets on Hugging Face
+- **+** Two-stage scoring: deterministic request interception, then lenient or strict LLM judge
+- **+** Reproduce command checks published rows; README claims agreement within ±2 pp on V2
+- **+** 20-task ClawBench-Lite subset allows a cheaper first run
+- **−** Tasks run against live websites, so results can drift as sites change
+- **−** Default judge needs an external API model; running without scoring is possible
+- **−** Needs a running Docker or Podman engine plus API keys for each evaluated model
+- **−** Codex and Claude Code runs on V2 are not yet in the published results
+
+<sub>no GPU · Needs Docker or Podman, uv, Python 3.11+, LLM provider API keys, Chromium (in container) · Models: claude-opus-4-7, gpt-5.5, glm-5.1, deepseek-v4-pro, OpenRouter models · [Repo](https://github.com/tiger-ai-lab/clawbench) · [▶️ Demo ↗](https://claw-bench.com/leaderboard) · [📖 Docs ↗](https://github.com/TIGER-AI-Lab/ClawBench/blob/main/docs/README.md) · [🌐 Site ↗](https://claw-bench.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawbench/)</sub>
+
 <a name="pocketflow"></a>
-### #&#8288;169 [pocketflow](https://github.com/the-pocket/pocketflow) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (74) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jul 2026</sub>
+### #&#8288;170 [pocketflow](https://github.com/the-pocket/pocketflow) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (75) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jul 2026</sub>
 
 **Python LLM framework built on a 100-line graph abstraction.**
 
@@ -3030,7 +3048,7 @@ Pocket Flow is a Python library whose core is a single 100-line file implementin
 <sub>no GPU · Models: any (user-written LLM calls) · [Repo](https://github.com/the-pocket/pocketflow) · [📖 Docs ↗](https://the-pocket.github.io/PocketFlow/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pocketflow/)</sub>
 
 <a name="arcade-mcp"></a>
-### #&#8288;170 [arcade-mcp](https://github.com/arcadeai/arcade-mcp) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Nov 2026</sub>
+### #&#8288;171 [arcade-mcp](https://github.com/arcadeai/arcade-mcp) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: patchy (42) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Nov 2026</sub>
 
 **Python framework for building MCP servers and tools with OAuth handling.**
 
@@ -3048,7 +3066,7 @@ arcade-mcp is a Python framework with a decorator API for writing MCP servers, c
 <sub>no GPU · Needs Python 3.10+, uv, Arcade Cloud (optional, for managed OAuth and deploy) · Models: Any LLM via MCP clients · port 8000 · [Repo](https://github.com/arcadeai/arcade-mcp) · [📖 Docs ↗](https://docs.arcade.dev) · [🌐 Site ↗](https://arcade.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/arcade-mcp/)</sub>
 
 <a name="self-operating-computer"></a>
-### #&#8288;171 [self-operating-computer](https://github.com/othersideai/self-operating-computer) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (71) · Freshness: recent (70) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
+### #&#8288;172 [self-operating-computer](https://github.com/othersideai/self-operating-computer) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (72) · Freshness: recent (70) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Oct 2026</sub>
 
 **CLI that lets multimodal models control a computer through screenshots, mouse and keyboard.**
 
@@ -3066,7 +3084,7 @@ Python framework, installed with pip and run as `operate`, that sends screenshot
 <sub>GPU optional · Needs OpenAI API key (default gpt-4o), Ollama (for LLaVA), portaudio (voice mode) · Models: GPT-4o, GPT-4.1, o1, Gemini Pro Vision, Claude 3 · [Repo](https://github.com/othersideai/self-operating-computer) · [▶️ Demo ↗](https://github.com/OthersideAI/self-operating-computer/assets/42594239/9e8abc96-c76a-46fb-9b13-03678b3c67e0) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/self-operating-computer/)</sub>
 
 <a name="founder-skill"></a>
-### #&#8288;172 [founder-skill](https://github.com/jakeschincariol/founder-skill) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (50) · Freshness: active (100) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Oct 2026</sub>
+### #&#8288;173 [founder-skill](https://github.com/jakeschincariol/founder-skill) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Oct 2026</sub>
 
 **Eleven Claude skills that test a business idea before launch.**
 
@@ -3084,7 +3102,7 @@ A set of eleven Claude skills (board, competitors, consumer panel, pricing, offe
 <sub>no GPU · Needs Claude (Claude Code for sub-agents), Python 3.8+ · Models: Claude · [Repo](https://github.com/jakeschincariol/founder-skill) · [🌐 Site ↗](https://opusjake.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/founder-skill/)</sub>
 
 <a name="mobile-use"></a>
-### #&#8288;173 [mobile-use](https://github.com/minitap-ai/mobile-use) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (36) · Freshness: active (89) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;174 [mobile-use](https://github.com/minitap-ai/mobile-use) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (38) · Freshness: active (89) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Nov 2026</sub>
 
 **LLM agent that operates Android and iOS devices from natural-language commands.**
 
@@ -3102,7 +3120,7 @@ Python agent that drives an Android device, emulator or iOS simulator through AD
 <sub>no GPU · Docker + Compose · Needs Android Debug Bridge (ADB), Xcode and fb-idb idb_companion (iOS, macOS only), uv, Python 3.12+, LLM provider API key · Models: OpenAI, Google, Google Vertex AI, xAI, OpenRouter · [Repo](https://github.com/minitap-ai/mobile-use) · [🌐 Site ↗](https://minitap.ai/benchmark) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mobile-use/)</sub>
 
 <a name="antomnievo"></a>
-### #&#8288;174 [antomnievo](https://github.com/ant-research/antomnievo) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;175 [antomnievo](https://github.com/ant-research/antomnievo) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Nov 2026</sub>
 
 **Evolution loop where a coding agent rewrites skills, prompts and pipelines.**
 
@@ -3120,7 +3138,7 @@ AntOmniEvo optimizes a system's tunable artifacts, such as agent skills, prompts
 <sub>Needs coding-agent Proposer · [Repo](https://github.com/ant-research/antomnievo) · [📖 Docs ↗](https://github.com/ant-research/antomnievo/blob/main/docs/quickstart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/antomnievo/)</sub>
 
 <a name="evoagentx"></a>
-### #&#8288;175 [evoagentx](https://github.com/anative-lab/evoagentx) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (37) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · custom license · Oct 2026</sub>
+### #&#8288;176 [evoagentx](https://github.com/anative-lab/evoagentx) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (38) · Freshness: active (100) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · custom license · Oct 2026</sub>
 
 **Python framework that generates, evaluates and optimizes multi-agent LLM workflows.**
 
@@ -3137,26 +3155,8 @@ EvoAgentX is a Python library that builds multi-agent workflows from a natural-l
 
 <sub>no GPU · Needs Python 3.11, LLM API key (e.g. OPENAI_API_KEY) · Models: OpenAI, Qwen (Aliyun), LiteLLM, SiliconFlow, OpenRouter · [Repo](https://github.com/anative-lab/evoagentx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evoagentx/)</sub>
 
-<a name="guidance"></a>
-### #&#8288;176 [guidance](https://github.com/guidance-ai/guidance) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (85) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · May 2026</sub>
-
-**Python library for constrained generation and control flow with LLMs.**
-
-Guidance is a Python library that constrains language model output with regex, select lists, JSON schemas (including Pydantic models) and context-free grammars. It interleaves Python control flow with generation and works with backends such as Transformers, llama.cpp and OpenAI. When a grammar fixes upcoming tokens, it inserts them without a model forward pass.
-
-- **+** Regex, select, JSON schema and CFG constraints guarantee output syntax
-- **+** Token fast-forwarding skips forward passes when the grammar fixes the next tokens
-- **+** Mock model and grammar.match() allow offline grammar debugging without API calls
-- **+** @guidance functions compose into larger grammars; model objects are immutable
-- **−** Full CFG support depends on the backend; README does not list which qualify
-- **−** Not a full agent framework: no orchestration, memory or deployment tooling
-- **−** README gives no hardware requirements or benchmarks
-- **−** Jupyter widget gives the richer view; command line output is plain text
-
-<sub>GPU optional · Needs Python, pip, Transformers, llama.cpp or OpenAI backend · Models: Transformers, llama.cpp, OpenAI · [Repo](https://github.com/guidance-ai/guidance) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/guidance/)</sub>
-
 <a name="mini-agi"></a>
-### #&#8288;177 [mini-agi](https://github.com/muellerberndt/mini-agi) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (31) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Nov 2026</sub>
+### #&#8288;177 [mini-agi](https://github.com/muellerberndt/mini-agi) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (33) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · MIT · Nov 2026</sub>
 
 **Minimal autonomous agent that runs shell and Python to reach a goal.**
 
@@ -3173,8 +3173,26 @@ MiniAGI is a Python command-line agent for GPT-3.5-Turbo and GPT-4. Given an obj
 
 <sub>no GPU · Docker · Needs Python 3.10+, OpenAI API · Models: GPT-3.5-Turbo, GPT-4 · [Repo](https://github.com/muellerberndt/mini-agi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mini-agi/)</sub>
 
+<a name="guidance"></a>
+### #&#8288;178 [guidance](https://github.com/guidance-ai/guidance) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: widely used (85) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · May 2026</sub>
+
+**Python library for constrained generation and control flow with LLMs.**
+
+Guidance is a Python library that constrains language model output with regex, select lists, JSON schemas (including Pydantic models) and context-free grammars. It interleaves Python control flow with generation and works with backends such as Transformers, llama.cpp and OpenAI. When a grammar fixes upcoming tokens, it inserts them without a model forward pass.
+
+- **+** Regex, select, JSON schema and CFG constraints guarantee output syntax
+- **+** Token fast-forwarding skips forward passes when the grammar fixes the next tokens
+- **+** Mock model and grammar.match() allow offline grammar debugging without API calls
+- **+** @guidance functions compose into larger grammars; model objects are immutable
+- **−** Full CFG support depends on the backend; README does not list which qualify
+- **−** Not a full agent framework: no orchestration, memory or deployment tooling
+- **−** README gives no hardware requirements or benchmarks
+- **−** Jupyter widget gives the richer view; command line output is plain text
+
+<sub>GPU optional · Needs Python, pip, Transformers, llama.cpp or OpenAI backend · Models: Transformers, llama.cpp, OpenAI · [Repo](https://github.com/guidance-ai/guidance) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/guidance/)</sub>
+
 <a name="atlas-gic"></a>
-### #&#8288;178 [atlas-gic](https://github.com/chrisworsey55/atlas-gic) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · custom license · Sep 2026</sub>
+### #&#8288;179 [atlas-gic](https://github.com/chrisworsey55/atlas-gic) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · custom license · Sep 2026</sub>
 
 **Multi-agent LLM trading framework that rewrites its worst agent's prompt.**
 
@@ -3191,26 +3209,8 @@ ATLAS runs 25+ Claude-based agents in four layers (macro, sector, superinvestor,
 
 <sub>no GPU · Needs Anthropic API, FMP, Finnhub, Polygon, FRED, MiroFish · Models: Claude Sonnet · [Repo](https://github.com/chrisworsey55/atlas-gic) · [🌐 Site ↗](https://generalintelligencecapital.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/atlas-gic/)</sub>
 
-<a name="julep"></a>
-### #&#8288;179 [julep](https://github.com/julep-ai/julep) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (58) · Freshness: active (89) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · Apache-2.0 · Jul 2026</sub>
-
-**Python library for durable agent flows that compile to a frozen IR.**
-
-Julep 3 lets you write agents in Python with a define-by-construction `@flow` decorator. Tools, pure functions, reasoners, branches, fan-out, retries and timeouts compile to a frozen wire-format IR. Flows run locally with fake reasoners via `dry_run`, or durably on Temporal or DBOS/Postgres. A `julep` CLI handles lint, run, trace, plan and deploy.
-
-- **+** Flows can crash and resume, with retries and timeouts declared per step
-- **+** Tools are allow-listed: the model cannot call a tool not registered at deploy
-- **+** dry_run executes locally with fake reasoners, so no API key is needed to test
-- **+** Temporal and DBOS backends are optional; the base install needs only PyYAML
-- **−** Ships as a release candidate; `--pre` is required until 3.0.0 is final
-- **−** No migration path from Julep v1; the two are different products
-- **−** Production deploy needs Temporal, Helm, kubectl and S3, which adds operational load
-- **−** No Docker or compose setup in the repo
-
-<sub>no GPU · Needs Temporal (optional), DBOS/Postgres (optional), Kubernetes, Helm, S3 (production deploy), Langfuse (optional) · Models: Anthropic (example), multi-provider via any-llm · [Repo](https://github.com/julep-ai/julep) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/julep/)</sub>
-
 <a name="underthesea"></a>
-### #&#8288;180 [underthesea](https://github.com/undertheseanlp/underthesea) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (18) · Freshness: active (99) · Maintenance: weak (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;180 [underthesea](https://github.com/undertheseanlp/underthesea) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (20) · Freshness: active (99) · Maintenance: weak (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
 
 **Python toolkit for Vietnamese NLP plus a stdlib-only multi-provider LLM agent.**
 
@@ -3227,26 +3227,26 @@ Underthesea is a Python library with two parts: Vietnamese NLP pipelines (word s
 
 <sub>Needs OpenAI, Azure OpenAI, Anthropic or Gemini API key (for agent), Optional: uvicorn, starlette, httpx (agent-server extra), Optional: langfuse · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini · port 8000 · [Repo](https://github.com/undertheseanlp/underthesea) · [▶️ Demo ↗](http://undertheseanlp.com/) · [📖 Docs ↗](https://undertheseanlp.github.io/underthesea/) · [🌐 Site ↗](http://undertheseanlp.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/underthesea/)</sub>
 
-<a name="agentdock"></a>
-### #&#8288;181 [agentdock/agentdock](https://github.com/agentdock/agentdock) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (16) · Freshness: active (89) · Maintenance: weak (25) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Jul 2026</sub>
+<a name="julep"></a>
+### #&#8288;181 [julep](https://github.com/julep-ai/julep) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (59) · Freshness: active (89) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · Apache-2.0 · Jul 2026</sub>
 
-**TypeScript node-based framework for agents with a Next.js reference client.**
+**Python library for durable agent flows that compile to a frozen IR.**
 
-AgentDock Core is a backend-first TypeScript framework where agents, tools and custom logic are nodes, with session management, orchestration and pluggable storage. The repo also ships a Next.js client with example agents (research, reasoning, vision) that uses your own LLM provider keys. Workflows can mix LLM-driven tool choice with fixed execution paths.
+Julep 3 lets you write agents in Python with a define-by-construction `@flow` decorator. Tools, pure functions, reasoners, branches, fan-out, retries and timeouts compile to a frozen wire-format IR. Flows run locally with fake reasoners via `dry_run`, or durably on Temporal or DBOS/Postgres. A `julep` CLI handles lint, run, trace, plan and deploy.
 
-- **+** Node-based design: tools and custom logic extend a single BaseNode class
-- **+** Orchestration controls tool availability by context; fixed sub-workflows can run under an LLM agent
-- **+** Core library usable independently of the bundled Next.js client
-- **+** Key-value storage via Memory, Redis or Vercel KV; BYOK for five LLM providers
-- **−** Vector storage and further storage backends are still in development
-- **−** Visual workflow builder is in AgentDock Pro, which is not yet released
-- **−** Requires pnpm; npm and yarn are not supported
-- **−** Labeled Beta; sandboxed code playground is only planned
+- **+** Flows can crash and resume, with retries and timeouts declared per step
+- **+** Tools are allow-listed: the model cannot call a tool not registered at deploy
+- **+** dry_run executes locally with fake reasoners, so no API key is needed to test
+- **+** Temporal and DBOS backends are optional; the base install needs only PyYAML
+- **−** Ships as a release candidate; `--pre` is required until 3.0.0 is final
+- **−** No migration path from Julep v1; the two are different products
+- **−** Production deploy needs Temporal, Helm, kubectl and S3, which adds operational load
+- **−** No Docker or compose setup in the repo
 
-<sub>no GPU · Compose · Needs Node.js >= 20.11.0, pnpm >= 9.15.0, LLM provider API key, Serper API key (search tool), Firecrawl API key (deeper web search) · Models: Anthropic, OpenAI, Google Gemini, DeepSeek, Groq · [Repo](https://github.com/agentdock/agentdock) · [▶️ Demo ↗](https://hub.agentdock.ai) · [📖 Docs ↗](https://hub.agentdock.ai/docs) · [🌐 Site ↗](https://agentdock.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentdock/)</sub>
+<sub>no GPU · Needs Temporal (optional), DBOS/Postgres (optional), Kubernetes, Helm, S3 (production deploy), Langfuse (optional) · Models: Anthropic (example), multi-provider via any-llm · [Repo](https://github.com/julep-ai/julep) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/julep/)</sub>
 
 <a name="core"></a>
-### #&#8288;182 [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (34) · Freshness: active (92) · Maintenance: weak (14) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · GPL-3.0 · Jul 2026</sub>
+### #&#8288;182 [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (35) · Freshness: active (92) · Maintenance: weak (14) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · GPL-3.0 · Jul 2026</sub>
 
 **Python agent framework with a web UI and REST API, built for learning.**
 
@@ -3263,26 +3263,26 @@ Cheshire Cat AI (Stregatto) is a Python framework for building and studying AI a
 
 <sub>Needs uv · port 1865 · [Repo](https://github.com/cheshire-cat-ai/core) · [📖 Docs ↗](https://cheshire-cat-ai.github.io/docs/) · [🌐 Site ↗](https://cheshirecat.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/core/)</sub>
 
-<a name="swarm"></a>
-### #&#8288;183 [swarm](https://github.com/openai/swarm) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: widely used (85) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Apr 2026</sub>
+<a name="agentdock"></a>
+### #&#8288;183 [agentdock/agentdock](https://github.com/agentdock/agentdock) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (18) · Freshness: active (89) · Maintenance: weak (25) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Jul 2026</sub>
 
-**Educational Python library for multi-agent handoffs on Chat Completions.**
+**TypeScript node-based framework for agents with a Next.js reference client.**
 
-Swarm is a small Python library built around two primitives: Agents (instructions plus Python functions) and handoffs, where a function returns another Agent to take over. client.run() loops over completions, tool calls, agent switches and context variable updates, and keeps no state between calls. The README marks it experimental and educational, and says the OpenAI Agents SDK has replaced it.
+AgentDock Core is a backend-first TypeScript framework where agents, tools and custom logic are nodes, with session management, orchestration and pluggable storage. The repo also ships a Next.js client with example agents (research, reasoning, vision) that uses your own LLM provider keys. Workflows can mix LLM-driven tool choice with fixed execution paths.
 
-- **+** Two primitives, Agent and handoff, keep the whole run loop easy to read
-- **+** Python functions become tool JSON schemas from type hints and docstrings
-- **+** Stateless client.run() with streaming, max_turns and an execute_tools switch
-- **+** Examples cover airline, support bot and triage agents, with eval samples
-- **−** Superseded by the OpenAI Agents SDK, which the README recommends for production
-- **−** Built on the Chat Completions API; README mentions no other providers
-- **−** No persistence or memory; caller must pass state back in each run
-- **−** Installed from GitHub with pip; no release published
+- **+** Node-based design: tools and custom logic extend a single BaseNode class
+- **+** Orchestration controls tool availability by context; fixed sub-workflows can run under an LLM agent
+- **+** Core library usable independently of the bundled Next.js client
+- **+** Key-value storage via Memory, Redis or Vercel KV; BYOK for five LLM providers
+- **−** Vector storage and further storage backends are still in development
+- **−** Visual workflow builder is in AgentDock Pro, which is not yet released
+- **−** Requires pnpm; npm and yarn are not supported
+- **−** Labeled Beta; sandboxed code playground is only planned
 
-<sub>no GPU · Needs OpenAI API, Python 3.10+ · Models: OpenAI Chat Completions models (default gpt-4o) · [Repo](https://github.com/openai/swarm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/swarm/)</sub>
+<sub>no GPU · Compose · Needs Node.js >= 20.11.0, pnpm >= 9.15.0, LLM provider API key, Serper API key (search tool), Firecrawl API key (deeper web search) · Models: Anthropic, OpenAI, Google Gemini, DeepSeek, Groq · [Repo](https://github.com/agentdock/agentdock) · [▶️ Demo ↗](https://hub.agentdock.ai) · [📖 Docs ↗](https://hub.agentdock.ai/docs) · [🌐 Site ↗](https://agentdock.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentdock/)</sub>
 
 <a name="sprix-sage-router"></a>
-### #&#8288;184 [sprix-sage-router](https://github.com/wang2122/sprix-sage-router) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (38) · Freshness: active (100) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Aug 2026</sub>
+### #&#8288;184 [sprix-sage-router](https://github.com/wang2122/sprix-sage-router) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (39) · Freshness: active (100) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · Aug 2026</sub>
 
 **Python router that picks continue, collaborate or hand off for in-flight A2A tasks.**
 
@@ -3299,26 +3299,26 @@ SAGE is a Python reference implementation of a routing layer between A2A agent d
 
 <sub>no GPU · [Repo](https://github.com/wang2122/sprix-sage-router) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sprix-sage-router/)</sub>
 
-<a name="metagpt"></a>
-### #&#8288;185 [metagpt](https://github.com/foundationagents/metagpt) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (98) · Freshness: quiet (14) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · MIT · Jan 2026</sub>
+<a name="swarm"></a>
+### #&#8288;185 [swarm](https://github.com/openai/swarm) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: widely used (86) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Apr 2026</sub>
 
-**Python multi-agent framework that turns one-line requirements into a software repo.**
+**Educational Python library for multi-agent handoffs on Chat Completions.**
 
-MetaGPT assigns LLM-backed roles (product manager, architect, project manager, engineer) to follow predefined SOPs, turning a one-line requirement into user stories, designs, APIs and code. It runs as a CLI (`metagpt "Create a 2048 game"`) or a Python library, and also ships a Data Interpreter role for data analysis. LLM providers such as OpenAI, Azure, Ollama and Groq are set in `~/.metagpt/config2.yaml`.
+Swarm is a small Python library built around two primitives: Agents (instructions plus Python functions) and handoffs, where a function returns another Agent to take over. client.run() loops over completions, tool calls, agent switches and context variable updates, and keeps no state between calls. The README marks it experimental and educational, and says the OpenAI Agents SDK has replaced it.
 
-- **+** Role and SOP model produces requirements, design docs and code repo from one prompt
-- **+** Usable as CLI or Python library; pip install metagpt
-- **+** Provider set in one YAML file: OpenAI, Azure, Ollama, Groq and others
-- **+** MIT license with tutorials, agent and multi-agent guides, and research papers
-- **−** Python 3.9 to below 3.12 only
-- **−** Requires Node and pnpm installed before actual use
-- **−** Last release was 2024-04-22; the PyPI package may lag the main branch
-- **−** README calls the software-company schematic 'gradually implementing'
+- **+** Two primitives, Agent and handoff, keep the whole run loop easy to read
+- **+** Python functions become tool JSON schemas from type hints and docstrings
+- **+** Stateless client.run() with streaming, max_turns and an execute_tools switch
+- **+** Examples cover airline, support bot and triage agents, with eval samples
+- **−** Superseded by the OpenAI Agents SDK, which the README recommends for production
+- **−** Built on the Chat Completions API; README mentions no other providers
+- **−** No persistence or memory; caller must pass state back in each run
+- **−** Installed from GitHub with pip; no release published
 
-<sub>no GPU · Docker · Needs Python 3.9-3.11, Node.js, pnpm, LLM API key or local LLM endpoint · Models: OpenAI, Azure, Ollama, Groq · [Repo](https://github.com/foundationagents/metagpt) · [▶️ Demo ↗](https://huggingface.co/spaces/deepwisdom/MetaGPT-SoftwareCompany) · [📖 Docs ↗](https://docs.deepwisdom.ai/main/en/) · [🌐 Site ↗](https://mgx.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metagpt/)</sub>
+<sub>no GPU · Needs OpenAI API, Python 3.10+ · Models: OpenAI Chat Completions models (default gpt-4o) · [Repo](https://github.com/openai/swarm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/swarm/)</sub>
 
 <a name="browsergym"></a>
-### #&#8288;186 [browsergym](https://github.com/servicenow/browsergym) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (7) · Freshness: active (89) · Maintenance: patchy (37) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · custom license · Nov 2026</sub>
+### #&#8288;186 [browsergym](https://github.com/servicenow/browsergym) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (9) · Freshness: active (89) · Maintenance: patchy (37) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · custom license · Nov 2026</sub>
 
 **Gymnasium environments for web agents, with ten browser benchmarks.**
 
@@ -3335,8 +3335,26 @@ BrowserGym wraps a Playwright-driven Chromium browser as a Gymnasium environment
 
 <sub>Needs Playwright Chromium, OpenAI API key (demo agent only) · Models: OpenAI (demo agent, default gpt-4o-mini) · [Repo](https://github.com/servicenow/browsergym) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/browsergym/)</sub>
 
+<a name="metagpt"></a>
+### #&#8288;187 [metagpt](https://github.com/foundationagents/metagpt) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: widely used (98) · Freshness: quiet (14) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · MIT · Jan 2026</sub>
+
+**Python multi-agent framework that turns one-line requirements into a software repo.**
+
+MetaGPT assigns LLM-backed roles (product manager, architect, project manager, engineer) to follow predefined SOPs, turning a one-line requirement into user stories, designs, APIs and code. It runs as a CLI (`metagpt "Create a 2048 game"`) or a Python library, and also ships a Data Interpreter role for data analysis. LLM providers such as OpenAI, Azure, Ollama and Groq are set in `~/.metagpt/config2.yaml`.
+
+- **+** Role and SOP model produces requirements, design docs and code repo from one prompt
+- **+** Usable as CLI or Python library; pip install metagpt
+- **+** Provider set in one YAML file: OpenAI, Azure, Ollama, Groq and others
+- **+** MIT license with tutorials, agent and multi-agent guides, and research papers
+- **−** Python 3.9 to below 3.12 only
+- **−** Requires Node and pnpm installed before actual use
+- **−** Last release was 2024-04-22; the PyPI package may lag the main branch
+- **−** README calls the software-company schematic 'gradually implementing'
+
+<sub>no GPU · Docker · Needs Python 3.9-3.11, Node.js, pnpm, LLM API key or local LLM endpoint · Models: OpenAI, Azure, Ollama, Groq · [Repo](https://github.com/foundationagents/metagpt) · [▶️ Demo ↗](https://huggingface.co/spaces/deepwisdom/MetaGPT-SoftwareCompany) · [📖 Docs ↗](https://docs.deepwisdom.ai/main/en/) · [🌐 Site ↗](https://mgx.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metagpt/)</sub>
+
 <a name="spacy-llm"></a>
-### #&#8288;187 [spacy-llm](https://github.com/explosion/spacy-llm) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (6) · Freshness: active (94) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Oct 2026</sub>
+### #&#8288;188 [spacy-llm](https://github.com/explosion/spacy-llm) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (8) · Freshness: active (94) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Oct 2026</sub>
 
 **spaCy component that runs LLM prompts for NER, text classification and more.**
 
@@ -3354,7 +3372,7 @@ spacy-llm adds an `llm` component to spaCy pipelines that prompts a hosted or Hu
 <sub>GPU optional · Needs spaCy, OpenAI/Cohere/Anthropic API key (for hosted models) · Models: OpenAI, Cohere, Anthropic, Google PaLM, Microsoft Azure AI · [Repo](https://github.com/explosion/spacy-llm) · [📖 Docs ↗](https://spacy.io/api/large-language-models) · [🌐 Site ↗](https://spacy.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spacy-llm/)</sub>
 
 <a name="xagent"></a>
-### #&#8288;188 [xagent](https://github.com/openbmb/xagent) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (65) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;189 [xagent](https://github.com/openbmb/xagent) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (66) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Jul 2026</sub>
 
 **Autonomous LLM agent that plans subtasks and runs tools in a sandbox.**
 
@@ -3372,7 +3390,7 @@ XAgent is an experimental autonomous agent from OpenBMB. A Dispatcher, Planner a
 <sub>no GPU · Docker + Compose · Needs Docker, docker-compose, OpenAI API key, Python 3.10+ · Models: gpt-4-32k, gpt-4, gpt-3.5-turbo-16k (backup) · port 5173 · [Repo](https://github.com/openbmb/xagent) · [📖 Docs ↗](https://xagent-doc.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xagent/)</sub>
 
 <a name="kalosm"></a>
-### #&#8288;189 [kalosm](https://github.com/floneum/kalosm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (24) · Freshness: recent (70) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;190 [kalosm](https://github.com/floneum/kalosm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (25) · Freshness: recent (70) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Oct 2026</sub>
 
 **Rust library for running local language, audio and image models.**
 
@@ -3390,7 +3408,7 @@ Kalosm is a set of Rust crates for running pre-trained models in-process: Llama,
 <sub>GPU optional · Needs Rust toolchain · Models: Llama, Mistral, Phi, Whisper, Segment Anything · [Repo](https://github.com/floneum/kalosm) · [📖 Docs ↗](https://docs.rs/kalosm) · [🌐 Site ↗](https://floneum.com/kalosm/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kalosm/)</sub>
 
 <a name="skydiscover"></a>
-### #&#8288;190 [skydiscover](https://github.com/skydiscover-ai/skydiscover) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 775 · Apache-2.0 · Sep 2026</sub>
+### #&#8288;191 [skydiscover](https://github.com/skydiscover-ai/skydiscover) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 775 · Apache-2.0 · Sep 2026</sub>
 
 **Evolutionary program search and coding-agent system synthesis from UC Berkeley.**
 
@@ -3408,7 +3426,7 @@ SkyDiscover has two parts. Optimize evolves programs against a scoring function 
 <sub>Needs Python 3.10-3.13, uv, LLM API key (OpenAI, Anthropic or Gemini), Coding agent for Synthesize (Claude Code, Codex, Cursor, Pi) · Models: OpenAI-compatible models, OpenAI, Anthropic, Gemini · [Repo](https://github.com/skydiscover-ai/skydiscover) · [🌐 Site ↗](https://skydiscover-ai.github.io/blogs.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skydiscover/)</sub>
 
 <a name="open-autoglm"></a>
-### #&#8288;191 [open-autoglm](https://github.com/zai-org/open-autoglm) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: widely used (88) · Freshness: slowing (36) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;192 [open-autoglm](https://github.com/zai-org/open-autoglm) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: widely used (88) · Freshness: slowing (36) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Mar 2026</sub>
 
 **Phone-control agent for Android, HarmonyOS and iOS using ADB and a vision model.**
 
@@ -3426,7 +3444,7 @@ Open-AutoGLM is a Python framework that takes a natural-language task, screensho
 <sub>GPU optional · Needs Python 3.10+, ADB or HDC, ADB Keyboard (Android), vLLM or SGLang (self-hosted model), WebDriverAgent (iOS) · Models: AutoGLM-Phone-9B, AutoGLM-Phone-9B-Multilingual, OpenAI-compatible API, Zhipu BigModel, ModelScope · [Repo](https://github.com/zai-org/open-autoglm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-autoglm/)</sub>
 
 <a name="clawteam"></a>
-### #&#8288;192 [clawteam](https://github.com/hkuds/clawteam) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (53) · Freshness: recent (66) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · MIT · May 2026</sub>
+### #&#8288;193 [clawteam](https://github.com/hkuds/clawteam) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (54) · Freshness: recent (66) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · MIT · May 2026</sub>
 
 **CLI that lets a leader agent spawn and coordinate CLI coding agents.**
 
@@ -3444,7 +3462,7 @@ ClawTeam is a Python CLI (Typer) that lets a leader agent spawn worker agents su
 <sub>no GPU · Needs Python 3.10+, tmux, git, a CLI coding agent (claude, codex, nanobot), ZeroMQ (optional, P2P) · Models: Claude Code, Codex, nanobot, OpenClaw, Cursor · port 8080 · [Repo](https://github.com/hkuds/clawteam) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawteam/)</sub>
 
 <a name="sia"></a>
-### #&#8288;193 [sia](https://github.com/hexo-ai/sia) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (23) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Aug 2026</sub>
+### #&#8288;194 [sia](https://github.com/hexo-ai/sia) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (24) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Aug 2026</sub>
 
 **Loop that rewrites a task agent's harness and weights against a benchmark.**
 
@@ -3462,7 +3480,7 @@ Official implementation of the SIA paper. A meta-agent generates a task-specific
 <sub>Needs Python 3.11+, Anthropic, OpenAI, Gemini or OpenRouter API key, Docker (optional, for sandbox), Kaggle API (optional, for MLE-Bench tasks) · Models: Claude, OpenAI, Gemini, OpenRouter models, OpenAI-compatible endpoints · port 8000 · [Repo](https://github.com/hexo-ai/sia) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sia/)</sub>
 
 <a name="openbrowser"></a>
-### #&#8288;194 [openbrowser](https://github.com/ntegrals/openbrowser) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (69) · Freshness: slowing (45) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · MIT · Mar 2026</sub>
+### #&#8288;195 [openbrowser](https://github.com/ntegrals/openbrowser) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (70) · Freshness: slowing (45) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · MIT · Mar 2026</sub>
 
 **TypeScript library and CLI that lets an LLM drive a Playwright browser.**
 
@@ -3480,7 +3498,7 @@ Open Browser is a Bun/TypeScript monorepo where an agent sends page state to an 
 <sub>no GPU · Needs Bun, Playwright, OpenAI, Anthropic or Google API key · Models: OpenAI, Anthropic, Google · [Repo](https://github.com/ntegrals/openbrowser) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openbrowser/)</sub>
 
 <a name="adala"></a>
-### #&#8288;195 [adala](https://github.com/humansignal/adala) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (13) · Freshness: recent (70) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;196 [adala](https://github.com/humansignal/adala) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (15) · Freshness: recent (70) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for LLM agents that learn data labeling skills from ground truth.**
 
@@ -3497,8 +3515,26 @@ Adala is a Python library for building agents that label and process data. You s
 
 <sub>no GPU · Docker + Compose · Needs OpenAI API key or OpenRouter API key, pandas · Models: OpenAI (gpt-4o), OpenRouter (Claude, Gemini, other OpenAI-compatible models) · [Repo](https://github.com/humansignal/adala) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adala/)</sub>
 
+<a name="zetta-embodiment"></a>
+### #&#8288;197 [zetta-embodiment](https://github.com/air-embodied-brain/zetta-embodiment) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (5) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.3k · no license · Oct 2026</sub>
+
+**Closed-loop harness that evolves critics and recovery code for frozen robot policies.**
+
+Zetta wraps a frozen VLA policy (Pi0.5, Pi0, GR00T) in a campaign loop that clusters failed rollouts, diagnoses causes with an LLM, and writes code-based Critic and Recovery bundles. Candidates pass shadow replay, a paired same-seed gate and held-out seeds 1..20 before promotion. A Rollout Runtime splits simulator and model workers via Ray, with backends for LIBERO-Pro, RoboCasa, RoboTwin, Genie Sim, ManiSkill and BEHAVIOR.
+
+- **+** Base policy stays frozen; only critics and recovery skills change, gated by preregistered held-out seeds
+- **+** One runtime covers LIBERO-Pro, RoboCasa, RoboTwin, Genie Sim, ManiSkill and BEHAVIOR
+- **+** FlashRT backend cuts Pi0.5 latency 9.9x model-only on a single RTX 4090
+- **+** Contract tests run without a simulator or model
+- **−** No license detected, so reuse terms are unclear
+- **−** Offline campaign stages require a Codex-compatible LLM provider and API key
+- **−** Simulator tracks need separate venvs; RoboCasa assets ~10GB, RoboTwin ~15GB
+- **−** ManiSkill model validation pending; BEHAVIOR runtime only; Genie Sim single task
+
+<sub>GPU required · Needs Ray, Codex-compatible LLM API, LIBERO-Pro, RoboCasa, RoboTwin, Isaac Sim 5.1, OmniGibson, FlashRT · Models: Pi0.5, Pi0, GR00T, Cosmos-Lite, Genie Sim G2 VLA · port 18730 · [Repo](https://github.com/air-embodied-brain/zetta-embodiment) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zetta-embodiment/)</sub>
+
 <a name="qwen-agent"></a>
-### #&#8288;196 [qwen-agent](https://github.com/qwenlm/qwen-agent) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: widely used (81) · Freshness: quiet (25) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;198 [qwen-agent](https://github.com/qwenlm/qwen-agent) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: widely used (82) · Freshness: quiet (25) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Mar 2026</sub>
 
 **Python framework for building tool-using LLM agents on Qwen models.**
 
@@ -3516,7 +3552,7 @@ Qwen-Agent is a Python library for building agents on Qwen models, with function
 <sub>GPU optional · Needs DashScope API or OpenAI-compatible model server (vLLM, Ollama), Docker (code interpreter), Node.js, uv (MCP examples) · Models: Qwen3.5, Qwen3, Qwen3-Coder, Qwen3-VL, Qwen2.5 · [Repo](https://github.com/qwenlm/qwen-agent) · [📖 Docs ↗](https://qwenlm.github.io/Qwen-Agent/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwen-agent/)</sub>
 
 <a name="omagent"></a>
-### #&#8288;197 [omagent](https://github.com/om-ai-lab/omagent) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (29) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;199 [omagent](https://github.com/om-ai-lab/omagent) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: known (30) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · Apache-2.0 · Oct 2026</sub>
 
 **Python library for building multimodal agents with graph workflows and VLM support.**
 
@@ -3534,7 +3570,7 @@ OmAgent is a Python library for defining agents as graph-based workflows, with w
 <sub>Compose · Needs Python >= 3.10, OpenAI-compatible LLM endpoint or Ollama/LocalAI · Models: OpenAI-compatible APIs, Ollama, LocalAI, VLMs · port 7860 · [Repo](https://github.com/om-ai-lab/omagent) · [📖 Docs ↗](https://om-ai-lab.github.io/OmAgentDocs/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omagent/)</sub>
 
 <a name="deepresearchagent"></a>
-### #&#8288;198 [deepresearchagent](https://github.com/skyworkai/deepresearchagent) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: known (38) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · May 2026</sub>
+### #&#8288;200 [deepresearchagent](https://github.com/skyworkai/deepresearchagent) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: known (39) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · MIT · May 2026</sub>
 
 **Python runtime for agents that version resources and self-improve.**
 
@@ -3550,44 +3586,8 @@ Deep Research Agent defines two protocol layers: RSPL registers prompts, agents,
 
 <sub>Needs LLM provider API key (e.g. OpenRouter) · Models: openrouter/gpt-4o · [Repo](https://github.com/skyworkai/deepresearchagent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepresearchagent/)</sub>
 
-<a name="pandas-ai"></a>
-### #&#8288;199 [pandas-ai](https://github.com/sinaptik-ai/pandas-ai) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: widely used (87) · Freshness: quiet (10) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Oct 2025</sub>
-
-**Python library for asking natural-language questions about DataFrames.**
-
-PandasAI adds a chat method to DataFrames. It sends questions to an LLM through LiteLLM, runs the generated code, and returns answers or charts, including across multiple DataFrames. An optional pandasai-docker package runs the generated code in a Docker sandbox. The repo is MIT except the pandasai/ee directory, which has a separate license.
-
-- **+** Two-line usage: read a CSV, then call df.chat() with a question
-- **+** Handles questions across several DataFrames and generates charts
-- **+** Optional Docker sandbox isolates execution of LLM-generated code
-- **+** LLM backend is swappable via the pandasai-litellm package
-- **−** Without the Docker sandbox, generated code runs in your own Python process
-- **−** Python 3.8 to 3.11 only, per the README
-- **−** pandasai/ee directory is under a separate license; managed and enterprise tiers are paid
-- **−** Needs an LLM API key or provider; local model setup is not covered in the README
-
-<sub>no GPU · Compose · Needs pandasai-litellm, LLM provider API key (e.g. OpenAI), Docker (optional, for sandbox via pandasai-docker) · Models: LiteLLM-supported providers, OpenAI gpt-4.1-mini (example) · [Repo](https://github.com/sinaptik-ai/pandas-ai) · [📖 Docs ↗](https://docs.pandas-ai.com/) · [🌐 Site ↗](https://pandas-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pandas-ai/)</sub>
-
-<a name="rasa"></a>
-### #&#8288;200 [rasa](https://github.com/rasahq/rasa) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: widely used (84) · Freshness: quiet (6) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · Apache-2.0 · Dec 2025</sub>
-
-**Python framework for building contextual text and voice assistants.**
-
-Rasa Open Source is a Python framework for building contextual text and voice assistants, with connectors for Slack, Telegram, Twilio, Facebook Messenger, Microsoft Bot Framework and others. The repository is in maintenance mode. The README points new work to Hello Rasa, a browser playground built on the CALM engine, where an LLM handles dialogue understanding and flows enforce business logic.
-
-- **+** Built-in connectors for Slack, Telegram, Twilio, Mattermost, Rocket.Chat, Webex and custom channels
-- **+** Apache-2.0 license, installable from PyPI, buildable from source with Poetry
-- **+** Handles layered multi-turn conversations with business logic kept in code
-- **+** Semantic Versioning with a published release and maintenance policy
-- **−** Maintenance mode; README directs new development to Hello Rasa and CALM
-- **−** Last release is 2025-01-14, so releases have slowed
-- **−** Hello Rasa is a hosted playground; scaling path leads to the Rasa Platform
-- **−** README gives no hardware requirements, ports or supported model list
-
-<sub>Docker + Compose · Needs Python, Poetry (for development) · [Repo](https://github.com/rasahq/rasa) · [▶️ Demo ↗](https://hello.rasa.ai/) · [📖 Docs ↗](https://rasa.com/docs/rasa/) · [🌐 Site ↗](https://rasa.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rasa/)</sub>
-
 <a name="autohedge"></a>
-### #&#8288;201 [autohedge](https://github.com/the-swarm-corporation/autohedge) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: popular (59) · Freshness: slowing (36) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · MIT · Mar 2026</sub>
+### #&#8288;201 [autohedge](https://github.com/the-swarm-corporation/autohedge) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: popular (60) · Freshness: slowing (36) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · MIT · Mar 2026</sub>
 
 **Multi-agent Python pipeline that analyzes markets and trades on Solana.**
 
@@ -3605,7 +3605,7 @@ AutoHedge chains four agents (Director, Quant, Risk Manager, Execution) built on
 <sub>no GPU · Needs Swarms, Jupiter API key, OpenAI API key, Anthropic API key, Solana wallet private key · Models: OpenAI, Anthropic · [Repo](https://github.com/the-swarm-corporation/autohedge) · [🌐 Site ↗](https://swarms.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autohedge/)</sub>
 
 <a name="internagent"></a>
-### #&#8288;202 [internagent](https://github.com/internscience/internagent) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (8) · Freshness: active (89) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · custom license · Jul 2026</sub>
+### #&#8288;202 [internagent](https://github.com/internscience/internagent) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (10) · Freshness: active (89) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · custom license · Jul 2026</sub>
 
 **Agent framework for hypothesis-to-experiment loops and deep research in science.**
 
@@ -3622,8 +3622,62 @@ InternAgent-1.5 is a Python framework that generates research ideas and runs exp
 
 <sub>Needs Python 3.11, conda, OpenAI-compatible API, OpenRouter, Anthropic API, Claude Code · Models: OpenAI-compatible APIs, OpenRouter, Anthropic Claude · [Repo](https://github.com/internscience/internagent) · [🌐 Site ↗](https://discovery.intern-ai.org.cn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/internagent/)</sub>
 
+<a name="pandas-ai"></a>
+### #&#8288;203 [pandas-ai](https://github.com/sinaptik-ai/pandas-ai) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: widely used (87) · Freshness: quiet (10) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Oct 2025</sub>
+
+**Python library for asking natural-language questions about DataFrames.**
+
+PandasAI adds a chat method to DataFrames. It sends questions to an LLM through LiteLLM, runs the generated code, and returns answers or charts, including across multiple DataFrames. An optional pandasai-docker package runs the generated code in a Docker sandbox. The repo is MIT except the pandasai/ee directory, which has a separate license.
+
+- **+** Two-line usage: read a CSV, then call df.chat() with a question
+- **+** Handles questions across several DataFrames and generates charts
+- **+** Optional Docker sandbox isolates execution of LLM-generated code
+- **+** LLM backend is swappable via the pandasai-litellm package
+- **−** Without the Docker sandbox, generated code runs in your own Python process
+- **−** Python 3.8 to 3.11 only, per the README
+- **−** pandasai/ee directory is under a separate license; managed and enterprise tiers are paid
+- **−** Needs an LLM API key or provider; local model setup is not covered in the README
+
+<sub>no GPU · Compose · Needs pandasai-litellm, LLM provider API key (e.g. OpenAI), Docker (optional, for sandbox via pandasai-docker) · Models: LiteLLM-supported providers, OpenAI gpt-4.1-mini (example) · [Repo](https://github.com/sinaptik-ai/pandas-ai) · [📖 Docs ↗](https://docs.pandas-ai.com/) · [🌐 Site ↗](https://pandas-ai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pandas-ai/)</sub>
+
+<a name="rasa"></a>
+### #&#8288;204 [rasa](https://github.com/rasahq/rasa) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: widely used (85) · Freshness: quiet (6) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · Apache-2.0 · Dec 2025</sub>
+
+**Python framework for building contextual text and voice assistants.**
+
+Rasa Open Source is a Python framework for building contextual text and voice assistants, with connectors for Slack, Telegram, Twilio, Facebook Messenger, Microsoft Bot Framework and others. The repository is in maintenance mode. The README points new work to Hello Rasa, a browser playground built on the CALM engine, where an LLM handles dialogue understanding and flows enforce business logic.
+
+- **+** Built-in connectors for Slack, Telegram, Twilio, Mattermost, Rocket.Chat, Webex and custom channels
+- **+** Apache-2.0 license, installable from PyPI, buildable from source with Poetry
+- **+** Handles layered multi-turn conversations with business logic kept in code
+- **+** Semantic Versioning with a published release and maintenance policy
+- **−** Maintenance mode; README directs new development to Hello Rasa and CALM
+- **−** Last release is 2025-01-14, so releases have slowed
+- **−** Hello Rasa is a hosted playground; scaling path leads to the Rasa Platform
+- **−** README gives no hardware requirements, ports or supported model list
+
+<sub>Docker + Compose · Needs Python, Poetry (for development) · [Repo](https://github.com/rasahq/rasa) · [▶️ Demo ↗](https://hello.rasa.ai/) · [📖 Docs ↗](https://rasa.com/docs/rasa/) · [🌐 Site ↗](https://rasa.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rasa/)</sub>
+
+<a name="baseai"></a>
+### #&#8288;205 [baseai](https://github.com/commandcodeai/baseai) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (5) · Freshness: recent (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · custom license · May 2026</sub>
+
+**Archived TypeScript framework for local AI agent pipes with memory and tools.**
+
+BaseAI is a TypeScript-first framework for defining AI agents as "pipes" with memory (RAG) and tools, run through a local dev server started with `npx baseai@latest dev`. Pipes are configured in code (model, parameters, system prompt) and called from an app via @baseai/core with streaming. The project is archived in favor of Langbase AI Primitives, which are exposed as APIs with TypeScript and Python SDKs.
+
+- **+** Pipes, memory and tools live as plain TypeScript files in a `baseai` directory
+- **+** Local dev server runs pipes and RAG without deploying
+- **+** Provider keys supported for OpenAI, Anthropic, Google, Groq, Mistral, xAI and others
+- **+** Streaming runner exposes connect, content, end and error events
+- **−** Archived; authors recommend Langbase AI Primitives instead of this framework
+- **−** TypeScript only; no Python or other language SDK in this project
+- **−** Needs a Langbase API key, tying it to the Langbase service
+- **−** No release published and license is not identified (NOASSERTION)
+
+<sub>no GPU · Needs Node.js, Langbase API key, LLM provider API keys · Models: OpenAI, Anthropic, Cohere, Fireworks, Google · [Repo](https://github.com/commandcodeai/baseai) · [📖 Docs ↗](https://baseai.dev/docs) · [🌐 Site ↗](https://baseai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/baseai/)</sub>
+
 <a name="ai-scientist"></a>
-### #&#8288;203 [ai-scientist](https://github.com/sakanaai/ai-scientist) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (79) · Freshness: quiet (8) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · Dec 2025</sub>
+### #&#8288;206 [ai-scientist](https://github.com/sakanaai/ai-scientist) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (80) · Freshness: quiet (8) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · Dec 2025</sub>
 
 **Pipeline where LLMs propose ideas, run experiments and write LaTeX papers.**
 
@@ -3641,7 +3695,7 @@ Runs an end-to-end loop in which an LLM generates research ideas, checks novelty
 <sub>GPU required · Needs PyTorch, CUDA, texlive-full, conda, Semantic Scholar API (optional), OpenAlex (optional) · Models: OpenAI GPT-4o, OpenAI o1, Claude Sonnet 3.5, DeepSeek, Llama 3.1 via OpenRouter · [Repo](https://github.com/sakanaai/ai-scientist) · [🌐 Site ↗](https://sakana.ai/ai-scientist/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-scientist/)</sub>
 
 <a name="paper2code"></a>
-### #&#8288;204 [paper2code](https://github.com/going-doer/paper2code) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (50) · Freshness: slowing (43) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;207 [paper2code](https://github.com/going-doer/paper2code) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (51) · Freshness: slowing (43) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Mar 2026</sub>
 
 **Multi-agent pipeline that turns ML papers into code repositories.**
 
@@ -3659,7 +3713,7 @@ PaperCoder is the reference implementation of the Paper2Code ICLR 2026 paper. It
 <sub>GPU optional · Needs OpenAI API, vLLM, s2orc-doc2json, GROBID, tiktoken · Models: OpenAI o3-mini, deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct, vLLM-served open models · [Repo](https://github.com/going-doer/paper2code) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paper2code/)</sub>
 
 <a name="eko"></a>
-### #&#8288;205 [eko](https://github.com/fellouai/eko) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (49) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Mar 2026</sub>
+### #&#8288;208 [eko](https://github.com/fellouai/eko) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: popular (50) · Freshness: slowing (42) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Mar 2026</sub>
 
 **JavaScript framework for natural-language agent workflows in browsers and Node.js.**
 
@@ -3677,7 +3731,7 @@ Eko is a TypeScript/JavaScript framework that turns a natural-language task into
 <sub>no GPU · Needs Node.js, pnpm, Playwright (Node.js example), LLM provider API key · Models: Anthropic, Google Gemini, OpenAI, OpenAI-compatible (Qwen, Doubao) · [Repo](https://github.com/fellouai/eko) · [📖 Docs ↗](https://eko.fellou.ai/docs) · [🌐 Site ↗](https://eko.fellou.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eko/)</sub>
 
 <a name="promptify"></a>
-### #&#8288;206 [promptify](https://github.com/promptslab/promptify) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: known (47) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;209 [promptify](https://github.com/promptslab/promptify) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (48) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · Apache-2.0 · Mar 2026</sub>
 
 **Python library for typed NLP tasks like NER and classification via LLMs.**
 
@@ -3695,7 +3749,7 @@ Promptify is a Python library that wraps LLM calls into task classes (NER, Class
 <sub>no GPU · Needs LiteLLM, Pydantic, LLM provider API key or local Ollama · Models: OpenAI, Anthropic, Google, Azure, Ollama · [Repo](https://github.com/promptslab/promptify) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/promptify/)</sub>
 
 <a name="ai-data-science-team"></a>
-### #&#8288;207 [ai-data-science-team](https://github.com/business-science/ai-data-science-team) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (52) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · MIT · Jan 2026</sub>
+### #&#8288;210 [ai-data-science-team](https://github.com/business-science/ai-data-science-team) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: popular (53) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.5k · MIT · Jan 2026</sub>
 
 **Python library of data science agents with a Streamlit pipeline app.**
 
@@ -3713,7 +3767,7 @@ A Python library of LangChain-based agents for data loading, cleaning, wrangling
 <sub>GPU optional · Needs Python 3.10+, Streamlit, OpenAI API key or Ollama, H2O, MLflow · Models: OpenAI, Ollama · [Repo](https://github.com/business-science/ai-data-science-team) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-data-science-team/)</sub>
 
 <a name="ruby-openai"></a>
-### #&#8288;208 [ruby-openai](https://github.com/alexrudall/ruby-openai) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: known (35) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · May 2026</sub>
+### #&#8288;211 [ruby-openai](https://github.com/alexrudall/ruby-openai) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: known (36) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · May 2026</sub>
 
 **Ruby client gem for the OpenAI API and compatible providers.**
 
@@ -3731,7 +3785,7 @@ ruby-openai is a Ruby gem that wraps the OpenAI REST API: chat, Responses API, e
 <sub>no GPU · Needs OpenAI API key, Faraday · Models: OpenAI, Azure OpenAI, Deepseek, Groq, Gemini · [Repo](https://github.com/alexrudall/ruby-openai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ruby-openai/)</sub>
 
 <a name="solana-agent-kit"></a>
-### #&#8288;209 [solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (16) · Freshness: slowing (47) · Maintenance: weak (4) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · May 2026</sub>
+### #&#8288;212 [solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (18) · Freshness: slowing (47) · Maintenance: weak (4) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · May 2026</sub>
 
 **TypeScript toolkit that lets LLM agents execute Solana transactions and DeFi actions.**
 
@@ -3749,7 +3803,7 @@ Solana Agent Kit is an npm library that exposes 60+ Solana actions (token deploy
 <sub>no GPU · Needs Solana RPC URL, Solana wallet or keypair, OpenAI API key (for the examples) · Models: OpenAI, Vercel AI SDK models, LangChain models · [Repo](https://github.com/sendaifun/solana-agent-kit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/solana-agent-kit/)</sub>
 
 <a name="kaibanjs"></a>
-### #&#8288;210 [kaibanjs](https://github.com/kaiban-ai/kaibanjs) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (9) · Freshness: recent (71) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · May 2026</sub>
+### #&#8288;213 [kaibanjs](https://github.com/kaiban-ai/kaibanjs) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (11) · Freshness: recent (71) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · May 2026</sub>
 
 **JavaScript framework for multi-agent workflows with a Kanban-style task board.**
 
@@ -3766,26 +3820,8 @@ KaibanJS is a JavaScript/TypeScript library where you define Agents, Tasks and T
 
 <sub>no GPU · Needs Node.js, npm, LLM provider API key · Models: OpenAI, Anthropic, Google Gemini · [Repo](https://github.com/kaiban-ai/kaibanjs) · [▶️ Demo ↗](https://www.kaibanjs.com/playground) · [📖 Docs ↗](https://docs.kaibanjs.com/) · [🌐 Site ↗](https://www.kaibanjs.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kaibanjs/)</sub>
 
-<a name="magentic"></a>
-### #&#8288;211 [magentic](https://github.com/jackmpcollins/magentic) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (26) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Mar 2026</sub>
-
-**Python decorators that turn LLM prompts into typed, structured-output functions.**
-
-Magentic is a Python library where `@prompt`, `@chatprompt` and `@prompt_chain` decorators turn a function signature into an LLM call that returns pydantic models or built-in types. It supports streaming of structured output, function calling, asyncio and OpenTelemetry tracing. Backends include OpenAI (default), Anthropic, LiteLLM, Mistral and OpenAI-compatible servers such as Ollama.
-
-- **+** Return type annotations drive structured output, including pydantic models and streamed Iterable items
-- **+** Prompt functions can be passed as tools to other prompt functions, so parts can be tested alone
-- **+** Backends: OpenAI, Anthropic, LiteLLM, Mistral, plus Ollama via an OpenAI-compatible base URL
-- **+** OpenTelemetry observability with a Pydantic Logfire integration
-- **−** APIs without tool-call support cannot return Python objects from prompt functions
-- **−** LiteLLM backend may lack function calling, structured output or streaming for some models
-- **−** Mistral backend does not stream tool calls or structured outputs; they arrive at once
-- **−** Library only: no UI, deployment layer or multi-agent orchestration
-
-<sub>no GPU · Needs OpenAI API key or other LLM provider, pydantic · Models: OpenAI, Anthropic, LiteLLM, Mistral, Ollama · [Repo](https://github.com/jackmpcollins/magentic) · [📖 Docs ↗](https://magentic.dev/configuration) · [🌐 Site ↗](https://magentic.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/magentic/)</sub>
-
 <a name="llmunity"></a>
-### #&#8288;212 [llmunity](https://github.com/undreamai/llmunity) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (15) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;214 [llmunity](https://github.com/undreamai/llmunity) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (17) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Apr 2026</sub>
 
 **Unity package for running local llama.cpp LLM characters in games.**
 
@@ -3802,8 +3838,26 @@ LLM for Unity runs GGUF models inside the Unity engine through LlamaLib, a C++/C
 
 <sub>GPU optional · Needs Unity 2021 LTS or newer, LlamaLib, llama.cpp · Models: GGUF, LoRA (GGUF) · [Repo](https://github.com/undreamai/llmunity) · [📖 Docs ↗](https://undream.ai/LLMUnity) · [🌐 Site ↗](https://undream.ai/LLMUnity) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llmunity/)</sub>
 
+<a name="magentic"></a>
+### #&#8288;215 [magentic](https://github.com/jackmpcollins/magentic) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (28) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Mar 2026</sub>
+
+**Python decorators that turn LLM prompts into typed, structured-output functions.**
+
+Magentic is a Python library where `@prompt`, `@chatprompt` and `@prompt_chain` decorators turn a function signature into an LLM call that returns pydantic models or built-in types. It supports streaming of structured output, function calling, asyncio and OpenTelemetry tracing. Backends include OpenAI (default), Anthropic, LiteLLM, Mistral and OpenAI-compatible servers such as Ollama.
+
+- **+** Return type annotations drive structured output, including pydantic models and streamed Iterable items
+- **+** Prompt functions can be passed as tools to other prompt functions, so parts can be tested alone
+- **+** Backends: OpenAI, Anthropic, LiteLLM, Mistral, plus Ollama via an OpenAI-compatible base URL
+- **+** OpenTelemetry observability with a Pydantic Logfire integration
+- **−** APIs without tool-call support cannot return Python objects from prompt functions
+- **−** LiteLLM backend may lack function calling, structured output or streaming for some models
+- **−** Mistral backend does not stream tool calls or structured outputs; they arrive at once
+- **−** Library only: no UI, deployment layer or multi-agent orchestration
+
+<sub>no GPU · Needs OpenAI API key or other LLM provider, pydantic · Models: OpenAI, Anthropic, LiteLLM, Mistral, Ollama · [Repo](https://github.com/jackmpcollins/magentic) · [📖 Docs ↗](https://magentic.dev/configuration) · [🌐 Site ↗](https://magentic.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/magentic/)</sub>
+
 <a name="latentmas"></a>
-### #&#8288;213 [latentmas](https://github.com/gen-verse/latentmas) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (3) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;216 [latentmas](https://github.com/gen-verse/latentmas) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (3) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Jun 2026</sub>
 
 **Multi-agent LLM reasoning that passes latent states between agents instead of text.**
 
@@ -3821,7 +3875,7 @@ LatentMAS is the reference code for an ICML 2026 paper on multi-agent systems in
 <sub>GPU required · Needs PyTorch, Hugging Face Transformers, vLLM (optional), conda · Models: Hugging Face models, Qwen3-4B, Qwen3-8B, Qwen3-14B, vLLM · [Repo](https://github.com/gen-verse/latentmas) · [📖 Docs ↗](https://arxiv.org/abs/2511.20639) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/latentmas/)</sub>
 
 <a name="mle-bench"></a>
-### #&#8288;214 [mle-bench](https://github.com/openai/mle-bench) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (18) · Freshness: recent (54) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Apr 2026</sub>
+### #&#8288;217 [mle-bench](https://github.com/openai/mle-bench) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (19) · Freshness: recent (54) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Apr 2026</sub>
 
 **Benchmark of 75 Kaggle competitions for scoring ML engineering agents.**
 
@@ -3839,7 +3893,7 @@ MLE-bench is the code behind the paper evaluating AI agents on ML engineering. I
 <sub>RAM ≥ 440 GB · GPU optional · Needs Kaggle API credentials, Git-LFS, Docker · [Repo](https://github.com/openai/mle-bench) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mle-bench/)</sub>
 
 <a name="browserai"></a>
-### #&#8288;215 [browserai](https://github.com/sauravpanda/browserai) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (8) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Apr 2026</sub>
+### #&#8288;218 [browserai](https://github.com/sauravpanda/browserai) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (10) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Apr 2026</sub>
 
 **TypeScript SDK for running LLMs, speech and audio models in the browser.**
 
@@ -3856,25 +3910,8 @@ BrowserAI is an npm package that loads and runs models client-side through WebGP
 
 <sub>GPU required · Needs WebGPU-capable browser · Models: MLC, Transformers.js, GGUF (Flare WASM), Demucs, Whisper · [Repo](https://github.com/sauravpanda/browserai) · [▶️ Demo ↗](https://chat.browserai.dev) · [📖 Docs ↗](https://docs.browserai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/browserai/)</sub>
 
-<a name="yeagerai-agent"></a>
-### #&#8288;216 [yeagerai-agent](https://github.com/genlayerlabs/yeagerai-agent) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (1) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 591 · MIT · Jun 2026</sub>
-
-**Discontinued CLI for building LangChain agents and tools interactively.**
-
-Yeager.ai Agent is a Python command-line tool, installed with pip, for creating and testing LangChain agents and tools interactively. It keeps session memory between runs and works with the LangChain ecosystem. The README marks the project as discontinued and points to genlayerlabs/subzeroclaw as its successor.
-
-- **+** Installs with a single pip command and runs as an interactive CLI
-- **+** Persists session memory across runs
-- **+** Builds on LangChain, so agents and tools fit that ecosystem
-- **−** Marked discontinued by the maintainers, with development moved to subzeroclaw
-- **−** README says GPT-4 API access is required
-- **−** Not tested on Windows, per the README
-- **−** No tagged releases
-
-<sub>no GPU · Needs OpenAI GPT-4 API, LangChain · Models: GPT-4 · [Repo](https://github.com/genlayerlabs/yeagerai-agent) · [📖 Docs ↗](https://yeagerai.gitbook.io/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yeagerai-agent/)</sub>
-
 <a name="agentbench"></a>
-### #&#8288;217 [agentbench](https://github.com/thudm/agentbench) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: known (40) · Freshness: quiet (27) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;219 [agentbench](https://github.com/thudm/agentbench) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (42) · Freshness: quiet (27) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · Apache-2.0 · Feb 2026</sub>
 
 **Benchmark suite for evaluating LLMs as agents across multi-turn environments.**
 
@@ -3891,26 +3928,43 @@ AgentBench evaluates LLMs acting as agents in environments such as OS, database,
 
 <sub>RAM ≥ 16 GB · no GPU · Needs Docker, Docker Compose, Redis 7+, MySQL 8, Freebase/Virtuoso data, Python 3.9 · Models: OpenAI API (gpt-3.5-turbo-0613 in quick start), function-calling LLMs · port 5000 · [Repo](https://github.com/thudm/agentbench) · [📖 Docs ↗](https://github.com/THUDM/AgentBench/blob/main/docs/Introduction_en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentbench/)</sub>
 
-<a name="openroom"></a>
-### #&#8288;218 [openroom](https://github.com/minimax-ai/openroom) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (4) · Freshness: slowing (45) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Mar 2026</sub>
+<a name="yeagerai-agent"></a>
+### #&#8288;220 [yeagerai-agent](https://github.com/genlayerlabs/yeagerai-agent) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: niche (1) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 591 · MIT · Jun 2026</sub>
 
-**Browser-based desktop of apps that an LLM agent can operate.**
+**Discontinued CLI for building LangChain agents and tools interactively.**
 
-OpenRoom (README title: VibeApps) is a React and TypeScript web desktop with draggable windows and nine built-in apps, including Music, Chess, Email and Diary. An in-app chat agent, configured with your own LLM API key, operates these apps through a structured per-app Action system. Data is stored in IndexedDB with no backend, and a Claude Code `/vibe` workflow can generate new apps in the same format.
+Yeager.ai Agent is a Python command-line tool, installed with pip, for creating and testing LangChain agents and tools interactively. It keeps session memory between runs and works with the LangChain ecosystem. The README marks the project as discontinued and points to genlayerlabs/subzeroclaw as its successor.
 
-- **+** Runs fully in the browser; data stays in IndexedDB, no backend or accounts
-- **+** Each app exposes typed actions the agent can call, with a documented app structure
-- **+** Nine built-in apps, including Chess, Email, Music and Diary
-- **+** `/vibe` workflow in Claude Code generates or modifies apps in six or four stages
-- **−** Chat agent needs an external LLM API key; supported providers are not listed
-- **−** App generation depends on Claude Code CLI, not the in-browser chat
-- **−** No Docker image or release; run from source with Node 18+ and pnpm 9+
-- **−** Built-in apps are demos; cloud storage mode is production-only and mocked in open source
+- **+** Installs with a single pip command and runs as an interactive CLI
+- **+** Persists session memory across runs
+- **+** Builds on LangChain, so agents and tools fit that ecosystem
+- **−** Marked discontinued by the maintainers, with development moved to subzeroclaw
+- **−** README says GPT-4 API access is required
+- **−** Not tested on Windows, per the README
+- **−** No tagged releases
 
-<sub>no GPU · Needs Node.js 18+, pnpm 9+, LLM API key, Claude Code CLI (app generation) · port 3000 · [Repo](https://github.com/minimax-ai/openroom) · [🌐 Site ↗](https://www.openroom.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openroom/)</sub>
+<sub>no GPU · Needs OpenAI GPT-4 API, LangChain · Models: GPT-4 · [Repo](https://github.com/genlayerlabs/yeagerai-agent) · [📖 Docs ↗](https://yeagerai.gitbook.io/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yeagerai-agent/)</sub>
+
+<a name="sre"></a>
+### #&#8288;221 [sre](https://github.com/smythos/sre) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (6) · Freshness: slowing (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Mar 2026</sub>
+
+**TypeScript agent runtime and SDK with swappable LLM, storage and vector DB connectors.**
+
+SmythOS SRE is a monorepo with a runtime (packages/core), a TypeScript SDK and a CLI for building agents in code or running .smyth workflow files exported from the SmythOS visual builder. Resources such as LLMs, storage, vector DBs, cache and vault sit behind one interface, so providers can be swapped without changing agent logic. Access to resources goes through a Candidate/ACL check.
+
+- **+** Same API across providers: OpenAI, Anthropic, Bedrock, Groq; S3, GCS, Azure; Pinecone, Milvus
+- **+** Loads and runs .smyth agents built in the visual studio, with stream and chat modes
+- **+** Candidate/ACL access control on resource operations, plus Vault connectors for secrets
+- **+** MIT license; scaffolding via `npm i -g @smythos/cli` then `sre create`
+- **−** Vector DB connectors listed are only Pinecone, Milvus and an in-memory RAMVec
+- **−** No tagged release; install is through npm packages
+- **−** Visual builder is a separate repository, not part of this one
+- **−** Claims such as 'battle-tested' and 'high performance' come with no benchmarks
+
+<sub>no GPU · Needs Node.js, npm, Pinecone (optional), Redis (optional), S3 (optional) · Models: OpenAI, Anthropic, Google AI, AWS Bedrock, Groq · [Repo](https://github.com/smythos/sre) · [📖 Docs ↗](https://smythos.github.io/sre/sdk/) · [🌐 Site ↗](https://smythos.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sre/)</sub>
 
 <a name="graph-of-thoughts"></a>
-### #&#8288;219 [graph-of-thoughts](https://github.com/spcl/graph-of-thoughts) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: known (31) · Freshness: slowing (30) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · custom license · Mar 2026</sub>
+### #&#8288;222 [graph-of-thoughts](https://github.com/spcl/graph-of-thoughts) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: known (32) · Freshness: slowing (30) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · custom license · Mar 2026</sub>
 
 **Python framework that runs LLM reasoning as an executable graph of operations.**
 
@@ -3927,8 +3981,26 @@ Official implementation of the Graph of Thoughts paper (AAAI 2024). You model a 
 
 <sub>no GPU · Needs Python 3.8+, LLM API access (OpenAI shown in quick start) · Models: OpenAI ChatGPT · [Repo](https://github.com/spcl/graph-of-thoughts) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/graph-of-thoughts/)</sub>
 
+<a name="openroom"></a>
+### #&#8288;223 [openroom](https://github.com/minimax-ai/openroom) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (4) · Freshness: slowing (45) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Mar 2026</sub>
+
+**Browser-based desktop of apps that an LLM agent can operate.**
+
+OpenRoom (README title: VibeApps) is a React and TypeScript web desktop with draggable windows and nine built-in apps, including Music, Chess, Email and Diary. An in-app chat agent, configured with your own LLM API key, operates these apps through a structured per-app Action system. Data is stored in IndexedDB with no backend, and a Claude Code `/vibe` workflow can generate new apps in the same format.
+
+- **+** Runs fully in the browser; data stays in IndexedDB, no backend or accounts
+- **+** Each app exposes typed actions the agent can call, with a documented app structure
+- **+** Nine built-in apps, including Chess, Email, Music and Diary
+- **+** `/vibe` workflow in Claude Code generates or modifies apps in six or four stages
+- **−** Chat agent needs an external LLM API key; supported providers are not listed
+- **−** App generation depends on Claude Code CLI, not the in-browser chat
+- **−** No Docker image or release; run from source with Node 18+ and pnpm 9+
+- **−** Built-in apps are demos; cloud storage mode is production-only and mocked in open source
+
+<sub>no GPU · Needs Node.js 18+, pnpm 9+, LLM API key, Claude Code CLI (app generation) · port 3000 · [Repo](https://github.com/minimax-ai/openroom) · [🌐 Site ↗](https://www.openroom.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openroom/)</sub>
+
 <a name="miroflow"></a>
-### #&#8288;220 [miroflow](https://github.com/miromindai/miroflow) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: known (34) · Freshness: quiet (24) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;224 [miroflow](https://github.com/miromindai/miroflow) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: known (36) · Freshness: quiet (24) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · Apache-2.0 · Jan 2026</sub>
 
 **Python framework for multi-step web research agents with sub-agents and MCP tools.**
 
@@ -3946,7 +4018,7 @@ MiroFlow is a Python framework for building multi-step web research agents. It s
 <sub>GPU optional · Needs uv, Python 3.12+, OpenRouter API key, E2B, Google Search · Models: GPT, Claude, Gemini, Qwen, MiroThinker · [Repo](https://github.com/miromindai/miroflow) · [▶️ Demo ↗](https://dr.miromind.ai/) · [📖 Docs ↗](https://miromindai.github.io/MiroFlow/) · [🌐 Site ↗](https://miromind.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/miroflow/)</sub>
 
 <a name="demogpt"></a>
-### #&#8288;221 [demogpt](https://github.com/melih-unsal/demogpt) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (20) · Freshness: slowing (32) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Apr 2026</sub>
+### #&#8288;225 [demogpt](https://github.com/melih-unsal/demogpt) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (21) · Freshness: slowing (32) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Apr 2026</sub>
 
 **Python library of agents, tools and RAG, plus a Streamlit app generator.**
 
@@ -3964,7 +4036,7 @@ DemoGPT has two parts: an app generator that turns an instruction into a plan, t
 <sub>Needs OpenAI API, Tavily API, Streamlit, LangChain, Chroma, Pinecone, FAISS · Models: OpenAI gpt-4o-mini, GPT-3.5-turbo, sentence-transformers/all-mpnet-base-v2 · [Repo](https://github.com/melih-unsal/demogpt) · [▶️ Demo ↗](https://demogpt.streamlit.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/demogpt/)</sub>
 
 <a name="betalgo-openai"></a>
-### #&#8288;222 [betalgo/openai](https://github.com/betalgo/openai) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: known (33) · Freshness: quiet (6) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Dec 2025</sub>
+### #&#8288;226 [betalgo/openai](https://github.com/betalgo/openai) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: known (34) · Freshness: quiet (6) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Dec 2025</sub>
 
 **Community .NET client library for the OpenAI API.**
 
@@ -3982,7 +4054,7 @@ Betalgo.Ranul.OpenAI is a C# NuGet package that wraps OpenAI's HTTP API, includi
 <sub>no GPU · Needs OpenAI API key, .NET 9 · Models: OpenAI GPT-4o, OpenAI o1, OpenAI o3-mini · [Repo](https://github.com/betalgo/openai) · [📖 Docs ↗](https://github.com/betalgo/openai/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/betalgo-openai/)</sub>
 
 <a name="autoprompt"></a>
-### #&#8288;223 [autoprompt](https://github.com/eladlev/autoprompt) <sub>score [10](../README.md#-how-we-rank "Score 10/100. Adoption: known (33) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;227 [autoprompt](https://github.com/eladlev/autoprompt) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: known (34) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Dec 2025</sub>
 
 **Prompt optimizer that tunes prompts against synthetic edge-case benchmarks.**
 
@@ -3999,8 +4071,26 @@ AutoPrompt implements Intent-based Prompt Calibration. From an initial prompt an
 
 <sub>no GPU · Needs OpenAI API key (GPT-4 recommended, GPT-3.5 default predictor), Argilla V1 (optional annotator), Weights & Biases (optional) · Models: OpenAI GPT-4, OpenAI GPT-3.5, other providers and open-source models via config · [Repo](https://github.com/eladlev/autoprompt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autoprompt/)</sub>
 
+<a name="kg-gen"></a>
+### #&#8288;228 [kg-gen](https://github.com/stair-lab/kg-gen) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: niche (5) · Freshness: slowing (44) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.3k · no license · Mar 2026</sub>
+
+**Python library that extracts knowledge graphs from text or chats using LLMs.**
+
+kg-gen is a Python package that turns a string or a list of chat messages into a knowledge graph of entities, edges and relations. It calls models through LiteLLM and uses DSPy for structured output. It supports chunking large inputs, clustering similar entities and relations, merging graphs, and HTML visualization, and ships an MCP server (`kggen mcp`) for agent memory.
+
+- **+** Works with any LiteLLM provider, including OpenAI, Anthropic, Gemini, Deepseek and local Ollama
+- **+** Accepts plain strings or role-tagged message arrays, with chunk_size for large inputs
+- **+** Entity and edge clustering, plus aggregate() to merge graphs from separate texts
+- **+** Built-in visualize() HTML output; paper and MINE benchmark included
+- **−** Extraction quality depends on the chosen model; every run needs LLM calls
+- **−** No graph database integration or query layer described; output is in-memory graph objects
+- **−** Chunking and clustering add model calls, so cost on large corpora is unclear
+- **−** Last release (2025-11) predates the latest commit (2026-03)
+
+<sub>GPU optional · Docker · Needs LiteLLM, DSPy · Models: OpenAI, Anthropic, Gemini, Deepseek, Ollama · [Repo](https://github.com/stair-lab/kg-gen) · [📖 Docs ↗](https://github.com/stair-lab/kg-gen/tree/main/mcp/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kg-gen/)</sub>
+
 <a name="webarena"></a>
-### #&#8288;224 [webarena](https://github.com/web-arena-x/webarena) <sub>score [4](../README.md#-how-we-rank "Score 4/100. Adoption: niche (13) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2025</sub>
+### #&#8288;229 [webarena](https://github.com/web-arena-x/webarena) <sub>score [4](../README.md#-how-we-rank "Score 4/100. Adoption: niche (15) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Nov 2025</sub>
 
 **Self-hostable web environment and benchmark for evaluating browser-based agents.**
 
@@ -4018,7 +4108,7 @@ WebArena provides a Gym-style Playwright browser environment plus 812 test tasks
 <sub>Needs Playwright, OpenAI API key, Self-hosted WebArena websites, Python 3.10 · Models: OpenAI GPT models (gpt-3.5-turbo in example) · [Repo](https://github.com/web-arena-x/webarena) · [🌐 Site ↗](https://webarena.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/webarena/)</sub>
 
 <a name="webthinker"></a>
-### #&#8288;225 [webthinker](https://github.com/ruc-nlpir/webthinker) <sub>score [4](../README.md#-how-we-rank "Score 4/100. Adoption: niche (9) · Freshness: quiet (4) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Dec 2025</sub>
+### #&#8288;230 [webthinker](https://github.com/ruc-nlpir/webthinker) <sub>score [4](../README.md#-how-we-rank "Score 4/100. Adoption: niche (11) · Freshness: quiet (4) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Dec 2025</sub>
 
 **Deep research agent where a reasoning model searches, browses and drafts reports.**
 
@@ -4036,7 +4126,7 @@ WebThinker lets a large reasoning model such as QwQ-32B run web searches, click 
 <sub>GPU required · Needs vLLM, Google Serper API or Bing Search API, Crawl4AI (recommended), Streamlit (demo) · Models: QwQ-32B, Qwen2.5-32B-Instruct, WebThinker-R1-7B/14B/32B, OpenAI-compatible APIs · [Repo](https://github.com/ruc-nlpir/webthinker) · [🌐 Site ↗](https://foremost-beechnut-8ed.notion.site/WebThinker-Empowering-Large-Reasoning-Models-with-Deep-Research-Capability-d13158a27d924a4b9df7f9ab94066b64) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/webthinker/)</sub>
 
 <a name="labclaw"></a>
-### #&#8288;226 [labclaw](https://github.com/wu-yc/labclaw) <sub>score [3](../README.md#-how-we-rank "Score 3/100. Adoption: niche (2) · Freshness: slowing (41) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.1k · no license · Mar 2026</sub>
+### #&#8288;231 [labclaw](https://github.com/wu-yc/labclaw) <sub>score [3](../README.md#-how-we-rank "Score 3/100. Adoption: niche (2) · Freshness: slowing (41) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.1k · no license · Mar 2026</sub>
 
 **Library of 240 biomedical SKILL.md files for OpenClaw agents.**
 
