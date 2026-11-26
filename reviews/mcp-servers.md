@@ -58,26 +58,8 @@ MCP server that lets an agent search Apify Store, read an Actor's input schema a
 
 <sub>no GPU · Docker · Needs Apify account and API token or OAuth, Apify platform (Actors), Node.js 22+ for local stdio · [Repo](https://github.com/apify/apify-mcp-server) · [📖 Docs ↗](https://docs.apify.com/mcp) · [🌐 Site ↗](https://mcp.apify.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/apify-mcp-server/)</sub>
 
-<a name="xiaohongshu-mcp"></a>
-### #&#8288;4 [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Nov 2026</sub>
-
-**MCP server that lets AI clients post, search and comment on Xiaohongshu.**
-
-A Go MCP server that drives a headless browser to operate a logged-in Xiaohongshu account. It exposes 13 tools over streamable HTTP at /mcp: publish image or video posts (with tags, scheduling, visibility), search with filters, read feeds, post details and comments, reply, like, favorite and fetch user profiles. Works with Claude Code, Cursor, VS Code, Gemini CLI and Cline.
-
-- **+** Covers publishing, search, comments, likes, favorites and profiles as MCP tools
-- **+** Prebuilt binaries for macOS arm64, Windows x64 and Linux x64, plus Docker images
-- **+** Optional Bearer token auth via AUTH_TOKEN and optional proxy via XHS_PROXY
-- **+** README gives config snippets for Claude Code, Cursor, VS Code, Gemini CLI and Cline
-- **−** Automates the web UI, so site changes or risk controls can break posting
-- **−** One account cannot stay logged in on other web clients without kicking the MCP session
-- **−** No prebuilt binary for macOS Intel or Linux ARM64
-- **−** Auth is off by default; the noVNC GUI image has no password and must not be public
-
-<sub>no GPU · Docker + Compose · Needs Headless browser (about 150MB, auto-downloaded on first run), Xiaohongshu account · port 18060 · [Repo](https://github.com/xpzouying/xiaohongshu-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xiaohongshu-mcp/)</sub>
-
 <a name="davinci-resolve-mcp"></a>
-### #&#8288;5 [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Nov 2026</sub>
+### #&#8288;4 [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.4k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI assistants drive DaVinci Resolve via its scripting API.**
 
@@ -95,7 +77,7 @@ Python MCP server that controls a live DaVinci Resolve Studio session through th
 <sub>no GPU · Needs DaVinci Resolve Studio 18.5+, Python 3.10+, Node.js (advanced server), ffmpeg (optional, audio tool) · port 8765 · [Repo](https://github.com/samuelgursky/davinci-resolve-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/davinci-resolve-mcp/)</sub>
 
 <a name="excel-mcp-server"></a>
-### #&#8288;6 [excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
+### #&#8288;5 [excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
 
 **MCP server that lets AI clients create and edit Excel files without Excel.**
 
@@ -111,6 +93,24 @@ Python MCP server built on openpyxl that exposes tools for reading and editing .
 - **−** Large PivotTable sources can take a minute and about 2 GB of memory
 
 <sub>no GPU · Docker · Needs uv, openpyxl · Models: Claude, Cursor, VS Code Copilot, OpenAI Codex, Gemini CLI · port 8017 · [Repo](https://github.com/haris-musa/excel-mcp-server) · [🌐 Site ↗](https://excelmcpserver.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/excel-mcp-server/)</sub>
+
+<a name="xiaohongshu-mcp"></a>
+### #&#8288;6 [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · Apache-2.0 · Nov 2026</sub>
+
+**MCP server that lets AI clients post, search and comment on Xiaohongshu.**
+
+A Go MCP server that drives a headless browser to operate a logged-in Xiaohongshu account. It exposes 13 tools over streamable HTTP at /mcp: publish image or video posts (with tags, scheduling, visibility), search with filters, read feeds, post details and comments, reply, like, favorite and fetch user profiles. Works with Claude Code, Cursor, VS Code, Gemini CLI and Cline.
+
+- **+** Covers publishing, search, comments, likes, favorites and profiles as MCP tools
+- **+** Prebuilt binaries for macOS arm64, Windows x64 and Linux x64, plus Docker images
+- **+** Optional Bearer token auth via AUTH_TOKEN and optional proxy via XHS_PROXY
+- **+** README gives config snippets for Claude Code, Cursor, VS Code, Gemini CLI and Cline
+- **−** Automates the web UI, so site changes or risk controls can break posting
+- **−** One account cannot stay logged in on other web clients without kicking the MCP session
+- **−** No prebuilt binary for macOS Intel or Linux ARM64
+- **−** Auth is off by default; the noVNC GUI image has no password and must not be public
+
+<sub>no GPU · Docker + Compose · Needs Headless browser (about 150MB, auto-downloaded on first run), Xiaohongshu account · port 18060 · [Repo](https://github.com/xpzouying/xiaohongshu-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xiaohongshu-mcp/)</sub>
 
 <a name="mcp-atlassian"></a>
 ### #&#8288;7 [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · MIT · Nov 2026</sub>
@@ -184,26 +184,8 @@ Wraps 42 Korean Ministry of Government Legislation (법제처) Open APIs into 10
 
 <sub>no GPU · Docker · Needs 법제처 Open API (OC key), Node.js 20.19+, taxlaw.nts.go.kr · [Repo](https://github.com/chrisryugj/korean-law-mcp) · [📖 Docs ↗](https://github.com/chrisryugj/korean-law-mcp/blob/main/docs/API.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/korean-law-mcp/)</sub>
 
-<a name="letsfg"></a>
-### #&#8288;11 [letsfg](https://github.com/letsfg/letsfg) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
-
-**Flight and hotel search and booking for AI agents via MCP, CLI and API.**
-
-LetsFG is a hosted flight and hotel search and booking service that agents reach through a remote MCP server (https://letsfg.co/mcp), a Python/npm SDK and CLI, or a bearer-token HTTP API. Search runs on LetsFG's servers and is free after a one-tap connect. Booking holds the fare on a card and captures it once a PNR exists. The SDKs rank results locally.
-
-- **+** Remote MCP endpoint works in Claude, ChatGPT, Cursor and Windsurf without a local install
-- **+** Free search; booking holds the fare and captures only after a real airline PNR
-- **+** Covers hotels as well as flights, with cabin class filter and CLI search
-- **+** Free sandbox endpoints in the Developer API simulate booking end to end
-- **−** Search and booking engine runs on LetsFG servers and is not self-hostable
-- **−** Needs a hosted account token; booking requires a payment method via Revolut
-- **−** Developer API is paid after 200 free searches per booking, then $0.01 each
-- **−** Price-saving claims come from the vendor's own five-route comparison on one day
-
-<sub>no GPU · Docker + Compose · Needs letsfg.co hosted API, Revolut payment setup for booking · [Repo](https://github.com/letsfg/letsfg) · [▶️ Demo ↗](https://letsfg.co) · [📖 Docs ↗](https://letsfg.co/developers/api/docs) · [🌐 Site ↗](https://letsfg.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letsfg/)</sub>
-
 <a name="mcp"></a>
-### #&#8288;12 [microsoft/mcp](https://github.com/microsoft/mcp) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Nov 2026</sub>
+### #&#8288;11 [microsoft/mcp](https://github.com/microsoft/mcp) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · MIT · Nov 2026</sub>
 
 **Monorepo for Microsoft's Azure and Fabric MCP servers, written in C#.**
 
@@ -221,7 +203,7 @@ Holds the shared libraries, test frameworks and build pipelines for Microsoft's 
 <sub>no GPU · Docker · Needs Azure subscription, Microsoft Fabric · [Repo](https://github.com/microsoft/mcp) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/azure-mcp-server/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp/)</sub>
 
 <a name="supergateway"></a>
-### #&#8288;13 [supergateway](https://github.com/supercorp-ai/supergateway) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+### #&#8288;12 [supergateway](https://github.com/supercorp-ai/supergateway) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
 
 **Bridges MCP servers between stdio, SSE, WebSocket and Streamable HTTP.**
 
@@ -237,6 +219,24 @@ Supergateway is a TypeScript CLI that wraps an MCP server and exposes it over a 
 - **−** Combined-server entries go one level deep and do not support tasks yet
 
 <sub>no GPU · Docker · Needs Node.js (or standalone executable) · port 8000 · [Repo](https://github.com/supercorp-ai/supergateway) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/supergateway/)</sub>
+
+<a name="letsfg"></a>
+### #&#8288;13 [letsfg](https://github.com/letsfg/letsfg) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · Nov 2026</sub>
+
+**Flight and hotel search and booking for AI agents via MCP, CLI and API.**
+
+LetsFG is a hosted flight and hotel search and booking service that agents reach through a remote MCP server (https://letsfg.co/mcp), a Python/npm SDK and CLI, or a bearer-token HTTP API. Search runs on LetsFG's servers and is free after a one-tap connect. Booking holds the fare on a card and captures it once a PNR exists. The SDKs rank results locally.
+
+- **+** Remote MCP endpoint works in Claude, ChatGPT, Cursor and Windsurf without a local install
+- **+** Free search; booking holds the fare and captures only after a real airline PNR
+- **+** Covers hotels as well as flights, with cabin class filter and CLI search
+- **+** Free sandbox endpoints in the Developer API simulate booking end to end
+- **−** Search and booking engine runs on LetsFG servers and is not self-hostable
+- **−** Needs a hosted account token; booking requires a payment method via Revolut
+- **−** Developer API is paid after 200 free searches per booking, then $0.01 each
+- **−** Price-saving claims come from the vendor's own five-route comparison on one day
+
+<sub>no GPU · Docker + Compose · Needs letsfg.co hosted API, Revolut payment setup for booking · [Repo](https://github.com/letsfg/letsfg) · [▶️ Demo ↗](https://letsfg.co) · [📖 Docs ↗](https://letsfg.co/developers/api/docs) · [🌐 Site ↗](https://letsfg.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/letsfg/)</sub>
 
 <a name="toolhive"></a>
 ### #&#8288;14 [toolhive](https://github.com/stacklok/toolhive) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · Apache-2.0 · Nov 2026</sub>
@@ -382,26 +382,8 @@ MaverickMCP exposes Yahoo Finance data (via yfinance) to MCP clients such as Cla
 
 <sub>no GPU · Docker + Compose · Needs Python 3.12+, uv, Yahoo Finance (yfinance), SQLite, Redis (optional), PostgreSQL (optional), Exa or SearXNG (optional, research) · Models: anthropic, openai, openrouter, openai_compatible · port 8003 · [Repo](https://github.com/wshobson/maverick-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/maverick-mcp/)</sub>
 
-<a name="tradingview-mcp"></a>
-### #&#8288;22 [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
-
-**MCP server for market data, technical analysis and backtesting across stocks and crypto.**
-
-Python MCP server exposing 39 tools to MCP clients such as Claude, Cursor, ChatGPT and Copilot. It covers screeners, technical indicators, multi-timeframe analysis, Yahoo Finance prices, news and sentiment via Marketaux, and backtesting with 9 strategies plus walk-forward validation. It uses public market data endpoints and needs no TradingView account; a paid hosted version, TradingMCP, is also offered.
-
-- **+** 39 tools covering screeners, indicators, multi-timeframe analysis and news in one server
-- **+** Backtesting with 9 strategies, walk-forward split and overfitting verdict
-- **+** No TradingView account or API key needed; installs via pip or uvx
-- **+** Retry, 60s cache and TA throttle reduce TradingView rate-limit errors
-- **−** Depends on unofficial public endpoints, so data can be delayed, incomplete or break
-- **−** News and sentiment need a Marketaux key; free tier is 100 requests/day
-- **−** In-chat interactive charts are only in the paid hosted version
-- **−** Informational only: no trade execution, and outputs are not financial advice
-
-<sub>no GPU · Docker + Compose · Needs Python 3.10-3.13, uv, Marketaux API key (optional), Yahoo Finance, TradingView public endpoints · [Repo](https://github.com/atilaahmettaner/tradingview-mcp) · [📖 Docs ↗](https://tradingmcp.ai/docs) · [🌐 Site ↗](https://tradingmcp.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tradingview-mcp/)</sub>
-
 <a name="biomcp"></a>
-### #&#8288;23 [biomcp](https://github.com/genomoncology/biomcp) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 685 · MIT · Nov 2026</sub>
+### #&#8288;22 [biomcp](https://github.com/genomoncology/biomcp) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 685 · MIT · Nov 2026</sub>
 
 **CLI and MCP server for querying biomedical databases like PubMed and ClinVar.**
 
@@ -419,7 +401,7 @@ BioMCP is a Rust CLI with one command grammar (search, get, pivot helpers, enric
 <sub>no GPU · Docker · Needs Upstream public biomedical APIs, Optional API keys: NCBI, Semantic Scholar, OpenFDA, NCI, OncoKB, DisGeNET, AlphaGenome · port 8080 · [Repo](https://github.com/genomoncology/biomcp) · [📖 Docs ↗](https://biomcp.org/) · [🌐 Site ↗](https://biomcp.org/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/biomcp/)</sub>
 
 <a name="mcpproxy-go"></a>
-### #&#8288;24 [mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 434 · MIT · Nov 2026</sub>
+### #&#8288;23 [mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 435 · MIT · Nov 2026</sub>
 
 **MCP proxy that federates many MCP servers behind one quarantined endpoint.**
 
@@ -437,7 +419,7 @@ MCPProxy is a Go single-binary proxy between an AI client and many upstream MCP 
 <sub>no GPU · Docker · Needs Docker (optional, for security scanners and server isolation) · port 8080 · [Repo](https://github.com/smart-mcp-proxy/mcpproxy-go) · [📖 Docs ↗](https://docs.mcpproxy.app/) · [🌐 Site ↗](https://mcpproxy.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcpproxy-go/)</sub>
 
 <a name="blockrun-mcp"></a>
-### #&#8288;25 [blockrun-mcp](https://github.com/blockrunai/blockrun-mcp) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 391 · MIT · Nov 2026</sub>
+### #&#8288;24 [blockrun-mcp](https://github.com/blockrunai/blockrun-mcp) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 391 · MIT · Nov 2026</sub>
 
 **MCP server for market data, search, media and Polymarket trades, paid per call.**
 
@@ -454,8 +436,26 @@ Stdio MCP server, run via npx, that exposes 19 tools to Claude Code, Codex CLI, 
 
 <sub>no GPU · Docker · Needs Node.js >=20.19, BlockRun API (api.blockrun.ai), USDC wallet (Solana, Base or Arc) or BlockRun API key · Models: 91 hosted LLMs via BlockRun · [Repo](https://github.com/blockrunai/blockrun-mcp) · [🌐 Site ↗](https://user.blockrun.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/blockrun-mcp/)</sub>
 
+<a name="tradingview-mcp"></a>
+### #&#8288;25 [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · MIT · Nov 2026</sub>
+
+**MCP server for market data, technical analysis and backtesting across stocks and crypto.**
+
+Python MCP server exposing 39 tools to MCP clients such as Claude, Cursor, ChatGPT and Copilot. It covers screeners, technical indicators, multi-timeframe analysis, Yahoo Finance prices, news and sentiment via Marketaux, and backtesting with 9 strategies plus walk-forward validation. It uses public market data endpoints and needs no TradingView account; a paid hosted version, TradingMCP, is also offered.
+
+- **+** 39 tools covering screeners, indicators, multi-timeframe analysis and news in one server
+- **+** Backtesting with 9 strategies, walk-forward split and overfitting verdict
+- **+** No TradingView account or API key needed; installs via pip or uvx
+- **+** Retry, 60s cache and TA throttle reduce TradingView rate-limit errors
+- **−** Depends on unofficial public endpoints, so data can be delayed, incomplete or break
+- **−** News and sentiment need a Marketaux key; free tier is 100 requests/day
+- **−** In-chat interactive charts are only in the paid hosted version
+- **−** Informational only: no trade execution, and outputs are not financial advice
+
+<sub>no GPU · Docker + Compose · Needs Python 3.10-3.13, uv, Marketaux API key (optional), Yahoo Finance, TradingView public endpoints · [Repo](https://github.com/atilaahmettaner/tradingview-mcp) · [📖 Docs ↗](https://tradingmcp.ai/docs) · [🌐 Site ↗](https://tradingmcp.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tradingview-mcp/)</sub>
+
 <a name="mcp-server-excel"></a>
-### #&#8288;26 [mcp-server-excel](https://github.com/sbroenne/mcp-server-excel) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 962 · MIT · Nov 2026</sub>
+### #&#8288;26 [mcp-server-excel](https://github.com/sbroenne/mcp-server-excel) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 965 · MIT · Nov 2026</sub>
 
 **MCP server and CLI that drive the real Microsoft Excel app via COM.**
 
@@ -508,26 +508,8 @@ MCPVault is a stdio MCP server that gives clients such as Claude Desktop, Claude
 
 <sub>no GPU · Needs Node.js >= 22.12.0, Obsidian vault (local directory), MCP-compatible client · [Repo](https://github.com/bitbonsai/mcpvault) · [🌐 Site ↗](https://mcpvault.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcpvault/)</sub>
 
-<a name="open-seo-mcp-skills"></a>
-### #&#8288;29 [open-seo-mcp-skills](https://github.com/ryze-ai-adgent/open-seo-mcp-skills) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
-
-**Claude skills for SEO and AI-visibility work via the hosted Ryze MCP.**
-
-Eight Markdown skills for Claude (seo-audit, keyword-research, rank-tracking, competitor-gap, backlink-check, ai-visibility, content-brief, seo-vs-ads), installable as a Claude Code plugin or copied into ~/.claude/skills. They call tools on the hosted Ryze MCP connector, which reads your Search Console, GA4 and Google Ads data, plus DataForSEO for competitor and backlink data. The MCP server itself is not in this repo.
-
-- **+** Rankings and traffic come from your own Search Console and GA4, not scraped estimates
-- **+** Skills are plain Markdown under MIT, so they can be edited or pasted into other clients
-- **+** Covers audits, rank movers, competitor gaps, backlinks and GA4 AI-referral reports
-- **+** Installs with three claude CLI commands or a manual copy to ~/.claude/skills
-- **−** Every skill depends on the hosted Ryze connector, which is not part of this repo
-- **−** Competitor and backlink data goes through DataForSEO via Ryze; pricing terms are not documented here
-- **−** README is largely promotional, with comparison claims against other tools that are not substantiated
-- **−** Tool availability varies by workspace, so skills rely on fallbacks
-
-<sub>no GPU · Needs Ryze MCP connector (connector.get-ryze.ai/mcp), Google Search Console, Google Analytics 4, Google Ads, DataForSEO (via Ryze), Claude Code or other MCP client · Models: Claude · [Repo](https://github.com/ryze-ai-adgent/open-seo-mcp-skills) · [📖 Docs ↗](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-seo-mcp-skills/)</sub>
-
 <a name="ms-365-mcp-server"></a>
-### #&#8288;30 [ms-365-mcp-server](https://github.com/softeria/ms-365-mcp-server) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+### #&#8288;29 [ms-365-mcp-server](https://github.com/softeria/ms-365-mcp-server) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
 
 **MCP server exposing 300+ Microsoft Graph endpoints for Outlook, Teams and OneDrive.**
 
@@ -544,8 +526,26 @@ TypeScript MCP server that maps each tool 1-to-1 to a Microsoft Graph endpoint, 
 
 <sub>no GPU · Docker · Needs Node.js >= 20, Microsoft 365 account, Azure app registration (custom or GCC High use) · [Repo](https://github.com/softeria/ms-365-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ms-365-mcp-server/)</sub>
 
+<a name="open-seo-mcp-skills"></a>
+### #&#8288;30 [open-seo-mcp-skills](https://github.com/ryze-ai-adgent/open-seo-mcp-skills) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
+
+**Claude skills for SEO and AI-visibility work via the hosted Ryze MCP.**
+
+Eight Markdown skills for Claude (seo-audit, keyword-research, rank-tracking, competitor-gap, backlink-check, ai-visibility, content-brief, seo-vs-ads), installable as a Claude Code plugin or copied into ~/.claude/skills. They call tools on the hosted Ryze MCP connector, which reads your Search Console, GA4 and Google Ads data, plus DataForSEO for competitor and backlink data. The MCP server itself is not in this repo.
+
+- **+** Rankings and traffic come from your own Search Console and GA4, not scraped estimates
+- **+** Skills are plain Markdown under MIT, so they can be edited or pasted into other clients
+- **+** Covers audits, rank movers, competitor gaps, backlinks and GA4 AI-referral reports
+- **+** Installs with three claude CLI commands or a manual copy to ~/.claude/skills
+- **−** Every skill depends on the hosted Ryze connector, which is not part of this repo
+- **−** Competitor and backlink data goes through DataForSEO via Ryze; pricing terms are not documented here
+- **−** README is largely promotional, with comparison claims against other tools that are not substantiated
+- **−** Tool availability varies by workspace, so skills rely on fallbacks
+
+<sub>no GPU · Needs Ryze MCP connector (connector.get-ryze.ai/mcp), Google Search Console, Google Analytics 4, Google Ads, DataForSEO (via Ryze), Claude Code or other MCP client · Models: Claude · [Repo](https://github.com/ryze-ai-adgent/open-seo-mcp-skills) · [📖 Docs ↗](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-seo-mcp-skills/)</sub>
+
 <a name="oracle3-prediction-market-agent"></a>
-### #&#8288;31 [oracle3-prediction-market-agent](https://github.com/yichengyang-ethan/oracle3-prediction-market-agent) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (60) (each out of 100, weighted). Click for how we rank.") · ⭐ 571 · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [oracle3-prediction-market-agent](https://github.com/yichengyang-ethan/oracle3-prediction-market-agent) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (60) (each out of 100, weighted). Click for how we rank.") · ⭐ 573 · Apache-2.0 · Nov 2026</sub>
 
 **MCP server and Python engine for prediction-market research on Kalshi and Polymarket.**
 
@@ -598,26 +598,8 @@ Python MCP server built on FastMCP that lets an agent run GAQL queries, read res
 
 <sub>no GPU · Docker · Needs Google Ads API, Google Cloud project, OAuth client or Application Default Credentials, pipx, Redis or Firestore (optional) · port 8080 · [Repo](https://github.com/googleads/google-ads-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/google-ads-mcp/)</sub>
 
-<a name="financemcp"></a>
-### #&#8288;34 [financemcp](https://github.com/guangxiangdebizi/financemcp) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 874 · MIT · Nov 2026</sub>
-
-**MCP server for stock, fund, macro and crypto data with source routing.**
-
-FinanceMCP exposes 19 MCP tools for A-share, HK and US equities, indexes, funds, bonds, futures, macro series, news and crypto candles. Requests are routed across Tushare, Qveris, Twingly and Binance with automatic fallback, and each result is labelled with the actual data source. It runs over stdio via npx or as a Streamable HTTP server, and computes MACD, RSI, KDJ, BOLL and MA locally.
-
-- **+** Each result names the data source and shows the fallback route when one occurred
-- **+** Per-request source priority via X-Finance-Source-Priority header; HTTP keys isolated per request
-- **+** Binance candles and Baidu news work without any API key
-- **+** tools/list is trimmed to the tools the supplied credentials can actually serve
-- **−** Most tools need a Tushare token, which is gated by account points
-- **−** Official hosted endpoint is offline; HTTP use requires self-deployment
-- **−** README is mainly Chinese, and most tool coverage is China A-share focused
-- **−** Qveris calls may consume credits; Twingly news needs a paid key
-
-<sub>no GPU · Docker · Needs Node.js 20+, Tushare Pro token, Qveris API key (optional), Twingly API key (optional), Binance public API · port 3000 · [Repo](https://github.com/guangxiangdebizi/financemcp) · [📖 Docs ↗](https://github.com/guangxiangdebizi/FinanceMCP/blob/main/README_EN.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/financemcp/)</sub>
-
 <a name="jacobian"></a>
-### #&#8288;35 [jacobian](https://github.com/morluto/jacobian) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 377 · MIT · Nov 2026</sub>
+### #&#8288;34 [jacobian](https://github.com/morluto/jacobian) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 378 · MIT · Nov 2026</sub>
 
 **MCP server exposing typed math operations that agents can search and run.**
 
@@ -635,7 +617,7 @@ Jacobian is an MCP server with a library of narrowly scoped mathematical operati
 <sub>no GPU · Docker · Needs Python 3.12 or 3.13, uv (uvx), Node.js 20.17+ (for npx setup), Singular (optional), QEPCAD (optional) · [Repo](https://github.com/morluto/jacobian) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jacobian/)</sub>
 
 <a name="alpaca-mcp-server"></a>
-### #&#8288;36 [alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Nov 2026</sub>
+### #&#8288;35 [alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Nov 2026</sub>
 
 **MCP server exposing Alpaca trading and market data tools to AI assistants.**
 
@@ -653,7 +635,7 @@ Python MCP server, built on FastMCP and Alpaca's OpenAPI specs, that lets client
 <sub>no GPU · Docker · Needs Alpaca Trading API keys, Python 3.10+, uv, MCP client · [Repo](https://github.com/alpacahq/alpaca-mcp-server) · [📖 Docs ↗](https://docs.alpaca.markets/docs/getting-started) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/alpaca-mcp-server/)</sub>
 
 <a name="open-websearch"></a>
-### #&#8288;37 [open-websearch](https://github.com/aas-ee/open-websearch) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;36 [open-websearch](https://github.com/aas-ee/open-websearch) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Nov 2026</sub>
 
 **Keyless web search and page fetching over MCP, CLI or local HTTP.**
 
@@ -671,7 +653,7 @@ open-websearch scrapes results from engines such as Bing, DuckDuckGo, Brave, Exa
 <sub>no GPU · Docker + Compose · Needs Node.js, Playwright (optional) · port 3000 · [Repo](https://github.com/aas-ee/open-websearch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-websearch/)</sub>
 
 <a name="brave-search-mcp-server"></a>
-### #&#8288;38 [brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
+### #&#8288;37 [brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
 
 **MCP server exposing Brave Search web, news, image, video and place search.**
 
@@ -689,7 +671,7 @@ TypeScript MCP server that wraps the Brave Search API as tools: web, local, plac
 <sub>no GPU · Docker + Compose · Needs Brave Search API key, Node.js 22+ (for local build) · port 8080 · [Repo](https://github.com/brave/brave-search-mcp-server) · [🌐 Site ↗](https://brave.com/search/api/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/brave-search-mcp-server/)</sub>
 
 <a name="yutu"></a>
-### #&#8288;39 [yutu](https://github.com/eat-pray-ai/yutu) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 736 · Apache-2.0 · Nov 2026</sub>
+### #&#8288;38 [yutu](https://github.com/eat-pray-ai/yutu) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 736 · Apache-2.0 · Nov 2026</sub>
 
 **YouTube API CLI, MCP server and built-in agent for managing channels.**
 
@@ -707,7 +689,7 @@ yutu is a Go CLI that wraps the YouTube Data API with subcommands for videos, pl
 <sub>no GPU · Docker · Needs Google Cloud project with YouTube Data API v3, OAuth client credentials (client_secret.json), LLM API key (agent mode only) · Models: Google Gemini, OpenAI-compatible (OpenAI, DeepSeek, Ollama, vLLM), Anthropic · port 8216 · [Repo](https://github.com/eat-pray-ai/yutu) · [▶️ Demo ↗](https://asciinema.org/a/wXIHU4ciFBAKrHfaFNkMoIs12) · [🌐 Site ↗](https://yutu.ifor.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yutu/)</sub>
 
 <a name="duckduckgo-mcp-server"></a>
-### #&#8288;40 [duckduckgo-mcp-server](https://github.com/nickclyde/duckduckgo-mcp-server) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Sep 2026</sub>
+### #&#8288;39 [duckduckgo-mcp-server](https://github.com/nickclyde/duckduckgo-mcp-server) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Sep 2026</sub>
 
 **MCP server for DuckDuckGo web search and webpage text fetching.**
 
@@ -725,7 +707,7 @@ Python MCP server exposing three tools: search (DuckDuckGo), fetch_content (page
 <sub>no GPU · Docker · Needs DuckDuckGo (html.duckduckgo.com), uv, curl_cffi (optional, [browser] extra) · port 8000 · [Repo](https://github.com/nickclyde/duckduckgo-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/duckduckgo-mcp-server/)</sub>
 
 <a name="ros-mcp-server"></a>
-### #&#8288;41 [ros-mcp-server](https://github.com/robotmcp/ros-mcp-server) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;40 [ros-mcp-server](https://github.com/robotmcp/ros-mcp-server) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Sep 2026</sub>
 
 **MCP server that lets LLMs control and inspect ROS and ROS 2 robots.**
 
@@ -741,6 +723,24 @@ Python MCP server that connects to a robot through the rosbridge node. An MCP cl
 - **−** No Docker image or compose file provided
 
 <sub>no GPU · Needs rosbridge, ROS or ROS 2, Python 3.10+ · Models: Claude, GPT, Gemini, any MCP client · [Repo](https://github.com/robotmcp/ros-mcp-server) · [▶️ Demo ↗](https://youtu.be/Yy1loJAn9sA) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ros-mcp-server/)</sub>
+
+<a name="fetch-mcp"></a>
+### #&#8288;41 [fetch-mcp](https://github.com/zcaceres/fetch-mcp) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 835 · MIT · Nov 2026</sub>
+
+**MCP server that fetches web pages as HTML, Markdown, text, JSON or transcripts.**
+
+A TypeScript MCP server exposing six tools: fetch_html, fetch_markdown, fetch_txt, fetch_json, fetch_readable (Mozilla Readability extraction to Markdown) and fetch_youtube_transcript. Output is paginated with max_length and start_index, and requests can use custom headers or a proxy. Private and localhost addresses are blocked. The same functions are also available as an mcp-fetch CLI.
+
+- **+** Readability tool strips navigation and ads, returning article content as Markdown
+- **+** SSRF protection blocks private/localhost addresses and DNS rebinding
+- **+** Runs with npx mcp-fetch-server; same tools usable as a CLI
+- **+** Pagination, custom headers, proxy and 10 MB response cap are configurable
+- **−** Default output limit of 5000 characters truncates most pages unless raised
+- **−** No JavaScript rendering mentioned, so script-heavy pages may return incomplete content
+- **−** YouTube transcripts fall back to page extraction when yt-dlp is not installed
+- **−** No tagged releases on the repository
+
+<sub>no GPU · Needs Node.js (npx), yt-dlp (optional) · [Repo](https://github.com/zcaceres/fetch-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fetch-mcp/)</sub>
 
 <a name="meta-ads-mcp"></a>
 ### #&#8288;42 [meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: fair (57) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · custom license · Oct 2026</sub>
@@ -760,8 +760,26 @@ MCP server that lets Claude, Cursor, ChatGPT or any MCP client create and update
 
 <sub>no GPU · Docker · Needs Pipeboard account (hosted), Meta Ads account, Meta Developer App (local install) · Models: Claude, ChatGPT, Perplexity, Cursor, any MCP client · [Repo](https://github.com/pipeboard-co/meta-ads-mcp) · [🌐 Site ↗](https://pipeboard.co) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meta-ads-mcp/)</sub>
 
+<a name="financemcp"></a>
+### #&#8288;43 [financemcp](https://github.com/guangxiangdebizi/financemcp) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 875 · MIT · Nov 2026</sub>
+
+**MCP server for stock, fund, macro and crypto data with source routing.**
+
+FinanceMCP exposes 19 MCP tools for A-share, HK and US equities, indexes, funds, bonds, futures, macro series, news and crypto candles. Requests are routed across Tushare, Qveris, Twingly and Binance with automatic fallback, and each result is labelled with the actual data source. It runs over stdio via npx or as a Streamable HTTP server, and computes MACD, RSI, KDJ, BOLL and MA locally.
+
+- **+** Each result names the data source and shows the fallback route when one occurred
+- **+** Per-request source priority via X-Finance-Source-Priority header; HTTP keys isolated per request
+- **+** Binance candles and Baidu news work without any API key
+- **+** tools/list is trimmed to the tools the supplied credentials can actually serve
+- **−** Most tools need a Tushare token, which is gated by account points
+- **−** Official hosted endpoint is offline; HTTP use requires self-deployment
+- **−** README is mainly Chinese, and most tool coverage is China A-share focused
+- **−** Qveris calls may consume credits; Twingly news needs a paid key
+
+<sub>no GPU · Docker · Needs Node.js 20+, Tushare Pro token, Qveris API key (optional), Twingly API key (optional), Binance public API · port 3000 · [Repo](https://github.com/guangxiangdebizi/financemcp) · [📖 Docs ↗](https://github.com/guangxiangdebizi/FinanceMCP/blob/main/README_EN.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/financemcp/)</sub>
+
 <a name="mcp-obsidian"></a>
-### #&#8288;43 [mcp-obsidian](https://github.com/markuspfundstein/mcp-obsidian) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · MIT · Aug 2026</sub>
+### #&#8288;44 [mcp-obsidian](https://github.com/markuspfundstein/mcp-obsidian) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · MIT · Aug 2026</sub>
 
 **MCP server that reads and edits Obsidian notes via the Local REST API plugin.**
 
@@ -779,7 +797,7 @@ Python MCP server that lets an MCP client such as Claude Desktop list, read, sea
 <sub>no GPU · Docker + Compose · Needs Obsidian, obsidian-local-rest-api plugin, Python >= 3.11, uv · [Repo](https://github.com/markuspfundstein/mcp-obsidian) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-obsidian/)</sub>
 
 <a name="wenyan-mcp"></a>
-### #&#8288;44 [wenyan-mcp](https://github.com/caol64/wenyan-mcp) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;45 [wenyan-mcp](https://github.com/caol64/wenyan-mcp) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Sep 2026</sub>
 
 **MCP server that renders Markdown and publishes it to WeChat Official Account drafts.**
 
@@ -797,7 +815,7 @@ Wenyan MCP exposes the Wenyan Markdown typesetting engine as MCP tools, so a cli
 <sub>no GPU · Docker · Needs Node.js, WeChat Official Account API credentials (WECHAT_APP_ID, WECHAT_APP_SECRET), Wenyan Server (optional, for remote mode) · [Repo](https://github.com/caol64/wenyan-mcp) · [📖 Docs ↗](https://yuzhi.tech/docs/wenyan/upload) · [🌐 Site ↗](https://wenyan.yuzhi.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wenyan-mcp/)</sub>
 
 <a name="agent-trade-kit"></a>
-### #&#8288;45 [agent-trade-kit](https://github.com/okx/agent-trade-kit) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 520 · MIT · Nov 2026</sub>
+### #&#8288;46 [agent-trade-kit](https://github.com/okx/agent-trade-kit) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 520 · MIT · Nov 2026</sub>
 
 **MCP server and CLI that let AI clients trade and query an OKX account.**
 
@@ -815,7 +833,7 @@ Provides an MCP server (okx-trade-mcp) and a CLI (okx-trade-cli) that expose 170
 <sub>no GPU · Needs Node.js >= 18, OKX API credentials · Models: Any MCP-compatible client (Claude Desktop, Cursor, Claude Code, VS Code) · [Repo](https://github.com/okx/agent-trade-kit) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-trade-kit/)</sub>
 
 <a name="mcp-server-mysql"></a>
-### #&#8288;46 [mcp-server-mysql](https://github.com/benborla/mcp-server-mysql) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (41) · Freshness: active (92) · Maintenance: weak (4) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Jul 2026</sub>
+### #&#8288;47 [mcp-server-mysql](https://github.com/benborla/mcp-server-mysql) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (41) · Freshness: active (92) · Maintenance: weak (4) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Jul 2026</sub>
 
 **MCP server that lets LLMs inspect and query MySQL databases.**
 
@@ -832,26 +850,8 @@ Exposes a MySQL database to MCP clients such as Claude Code and Claude Desktop t
 
 <sub>no GPU · Docker · Needs Node.js 20+, MySQL 5.7+ (8.0+ recommended) · Models: Claude Code, Claude Desktop, Any MCP client · [Repo](https://github.com/benborla/mcp-server-mysql) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-server-mysql/)</sub>
 
-<a name="mcp-pandoc"></a>
-### #&#8288;47 [mcp-pandoc](https://github.com/vivekvells/mcp-pandoc) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (8) · Freshness: active (97) · Maintenance: weak (17) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 588 · MIT · Aug 2026</sub>
-
-**MCP server that converts documents between formats using pandoc.**
-
-An MCP server that exposes a single `convert-contents` tool, which calls pandoc to convert text or files between markdown, html, docx, odt, rst, latex, epub, ipynb and txt, and writes pdf and pptx. It supports reference documents for docx/odt/pptx styling, YAML defaults files and pandoc filters. It runs over stdio, typically launched with `uvx mcp-pandoc` from an MCP client such as Claude Desktop.
-
-- **+** Writes docx, odt, pptx with a reference document for custom styling
-- **+** Accepts pandoc defaults files and filters for reusable conversion settings
-- **+** Launches with `uvx mcp-pandoc`, no separate server process or port
-- **+** Test suite covers the bidirectional conversion matrix
-- **−** PDF and PPTX are write-only; pandoc cannot read PDF, and pptx input is not offered
-- **−** PDF output needs a TeX Live install (xelatex) on the host
-- **−** Requires a separately installed pandoc; no minimum version is declared
-- **−** Advanced formats need a full output_file path; no filenames are generated
-
-<sub>no GPU · Docker · Needs pandoc, uv, TeX Live (for PDF output) · [Repo](https://github.com/vivekvells/mcp-pandoc) · [▶️ Demo ↗](https://youtu.be/vN3VOb0rygM) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-pandoc/)</sub>
-
 <a name="opennews-mcp"></a>
-### #&#8288;48 [opennews-mcp](https://github.com/6551team/opennews-mcp) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (46) · Freshness: active (97) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Aug 2026</sub>
+### #&#8288;48 [opennews-mcp](https://github.com/6551team/opennews-mcp) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (46) · Freshness: active (96) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Aug 2026</sub>
 
 **MCP server exposing crypto and financial news, signals and filings to AI assistants.**
 
@@ -869,7 +869,7 @@ Python MCP server that wraps the hosted 6551 API (ai.6551.io) and gives assistan
 <sub>no GPU · Needs 6551 API (ai.6551.io), OPENNEWS_TOKEN, uv · [Repo](https://github.com/6551team/opennews-mcp) · [🌐 Site ↗](https://6551.io/mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opennews-mcp/)</sub>
 
 <a name="opentabs"></a>
-### #&#8288;49 [opentabs](https://github.com/opentabs-dev/opentabs) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (17) · Freshness: active (89) · Maintenance: weak (10) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · MIT · Jul 2026</sub>
+### #&#8288;49 [opentabs](https://github.com/opentabs-dev/opentabs) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (17) · Freshness: active (88) · Maintenance: weak (8) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · MIT · Jul 2026</sub>
 
 **MCP server that lets AI call web APIs through your logged-in Chrome session.**
 
@@ -904,8 +904,26 @@ Python MCP server that lets an AI assistant look up companies by CIK, retrieve 1
 
 <sub>no GPU · Docker · Needs SEC EDGAR, Docker or Python 3.11+ · port 9870 · [Repo](https://github.com/stefanoamorelli/sec-edgar-mcp) · [🌐 Site ↗](https://sec-edgar-mcp.amorelli.tech/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sec-edgar-mcp/)</sub>
 
+<a name="mcp-pandoc"></a>
+### #&#8288;51 [mcp-pandoc](https://github.com/vivekvells/mcp-pandoc) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (8) · Freshness: active (97) · Maintenance: weak (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 587 · MIT · Aug 2026</sub>
+
+**MCP server that converts documents between formats using pandoc.**
+
+An MCP server that exposes a single `convert-contents` tool, which calls pandoc to convert text or files between markdown, html, docx, odt, rst, latex, epub, ipynb and txt, and writes pdf and pptx. It supports reference documents for docx/odt/pptx styling, YAML defaults files and pandoc filters. It runs over stdio, typically launched with `uvx mcp-pandoc` from an MCP client such as Claude Desktop.
+
+- **+** Writes docx, odt, pptx with a reference document for custom styling
+- **+** Accepts pandoc defaults files and filters for reusable conversion settings
+- **+** Launches with `uvx mcp-pandoc`, no separate server process or port
+- **+** Test suite covers the bidirectional conversion matrix
+- **−** PDF and PPTX are write-only; pandoc cannot read PDF, and pptx input is not offered
+- **−** PDF output needs a TeX Live install (xelatex) on the host
+- **−** Requires a separately installed pandoc; no minimum version is declared
+- **−** Advanced formats need a full output_file path; no filenames are generated
+
+<sub>no GPU · Docker · Needs pandoc, uv, TeX Live (for PDF output) · [Repo](https://github.com/vivekvells/mcp-pandoc) · [▶️ Demo ↗](https://youtu.be/vN3VOb0rygM) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-pandoc/)</sub>
+
 <a name="terminator"></a>
-### #&#8288;51 [terminator](https://github.com/mediar-ai/terminator) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (28) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Jun 2026</sub>
+### #&#8288;52 [terminator](https://github.com/mediar-ai/terminator) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (28) · Freshness: recent (73) · Maintenance: weak (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Jun 2026</sub>
 
 **MCP server and SDKs that let AI control Windows desktop apps.**
 
@@ -923,7 +941,7 @@ Terminator is a Rust project that drives Windows applications through the access
 <sub>Needs Node.js (npx), Chrome extension for browser automation, Windows · [Repo](https://github.com/mediar-ai/terminator) · [🌐 Site ↗](https://t8r.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/terminator/)</sub>
 
 <a name="mcp-server-youtube-transcript"></a>
-### #&#8288;52 [mcp-server-youtube-transcript](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 610 · MIT · Nov 2026</sub>
+### #&#8288;53 [mcp-server-youtube-transcript](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 610 · MIT · Nov 2026</sub>
 
 **MCP server that fetches YouTube video transcripts for AI assistants.**
 
@@ -941,7 +959,7 @@ A TypeScript MCP server run over stdio via npx. Its get_transcript tool takes a 
 <sub>no GPU · Docker · Needs Node.js 18+, TwelveLabs API key (optional, for analyze_video) · Models: TwelveLabs Pegasus 1.2, TwelveLabs Pegasus 1.5 · [Repo](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-server-youtube-transcript/)</sub>
 
 <a name="yahoo-finance-mcp"></a>
-### #&#8288;53 [yahoo-finance-mcp](https://github.com/alex2yang97/yahoo-finance-mcp) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 372 · MIT · Sep 2026</sub>
+### #&#8288;54 [yahoo-finance-mcp](https://github.com/alex2yang97/yahoo-finance-mcp) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 372 · MIT · Sep 2026</sub>
 
 **MCP server for Yahoo Finance stock, financials and options data.**
 
@@ -959,7 +977,7 @@ Python MCP server built on yfinance that gives assistants nine tools: historical
 <sub>no GPU · Docker · Needs Yahoo Finance (via yfinance), uv, Python 3.14.6+ · [Repo](https://github.com/alex2yang97/yahoo-finance-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yahoo-finance-mcp/)</sub>
 
 <a name="slack-mcp-server"></a>
-### #&#8288;54 [slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (35) · Freshness: recent (72) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
+### #&#8288;55 [slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (35) · Freshness: recent (72) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
 
 **Slack workspace MCP server for reading, searching and posting messages.**
 
@@ -977,7 +995,7 @@ Go MCP server that exposes Slack to MCP clients over Stdio, SSE or HTTP. It prov
 <sub>no GPU · Docker + Compose · Needs Slack workspace, Slack OAuth or browser session tokens · [Repo](https://github.com/korotovsky/slack-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/slack-mcp-server/)</sub>
 
 <a name="mcp-massive"></a>
-### #&#8288;55 [mcp_massive](https://github.com/massive-com/mcp_massive) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (5) · Freshness: active (98) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 405 · MIT · Oct 2026</sub>
+### #&#8288;56 [mcp_massive](https://github.com/massive-com/mcp_massive) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (5) · Freshness: active (98) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 405 · MIT · Oct 2026</sub>
 
 **MCP server exposing the Massive.com financial data API via search, call and SQL tools.**
 
@@ -993,24 +1011,6 @@ Python MCP server for the Massive.com market data API. Instead of one tool per e
 - **−** Tied to one vendor's API, not a general financial data server
 
 <sub>no GPU · Docker + Compose · Needs Massive.com API key, Python 3.12+, uv 0.4.0+ · Models: Any MCP client (Claude Code, Claude Desktop) · [Repo](https://github.com/massive-com/mcp_massive) · [▶️ Demo ↗](https://mcp.massive.com) · [📖 Docs ↗](https://massive.com/docs) · [🌐 Site ↗](https://massive.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcp-massive/)</sub>
-
-<a name="evm-mcp-server"></a>
-### #&#8288;56 [evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (2) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 381 · MIT · Jun 2026</sub>
-
-**MCP server for reading and writing to 60+ EVM chains, with ENS support.**
-
-TypeScript MCP server built on viem that lets agents query blocks, transactions, balances and contracts on 34 EVM mainnets and 26 testnets. It also sends native, ERC20, ERC721 and ERC1155 transfers, signs messages and EIP-712 data, and fetches ABIs through the Etherscan v2 API. It runs over stdio or HTTP with SSE, and accepts ENS names wherever an address is expected.
-
-- **+** Covers 60+ EVM networks behind one tool interface, with ENS names accepted for addresses
-- **+** Auto-fetches contract ABIs via Etherscan v2, so contract calls need no ABI up front
-- **+** Runs through npx in stdio mode or as an HTTP/SSE server
-- **+** Wallet can be set from a private key or a BIP-39 mnemonic with HD account index
-- **−** Private key or mnemonic sits in an environment variable for write and signing tools
-- **−** HTTP mode binds 0.0.0.0:3001, hardcoded in source, with no auth described
-- **−** README states 22 tools in one place and 25 in another
-- **−** Default chain and server host/port can only be changed by editing source files
-
-<sub>no GPU · Needs Bun 1.0+ or Node.js 20+, Etherscan API key (optional, for ABI fetching), EVM RPC endpoints · port 3001 · [Repo](https://github.com/mcpdotdirect/evm-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evm-mcp-server/)</sub>
 
 <a name="metatrader-mcp-server"></a>
 ### #&#8288;57 [metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (14) · Freshness: slowing (31) · Maintenance: weak (0) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 859 · MIT · Mar 2026</sub>
@@ -1030,22 +1030,22 @@ Python bridge that exposes MetaTrader 5 account info, market data, order placeme
 
 <sub>no GPU · Needs MetaTrader 5 terminal, MT5 trading account, Python 3.10+ · Models: Claude Desktop, Claude Code, Open WebUI · port 8080 · [Repo](https://github.com/ariadng/metatrader-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metatrader-mcp-server/)</sub>
 
-<a name="fetch-mcp"></a>
-### #&#8288;58 [fetch-mcp](https://github.com/zcaceres/fetch-mcp) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: niche (13) · Freshness: slowing (38) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 836 · MIT · Mar 2026</sub>
+<a name="evm-mcp-server"></a>
+### #&#8288;58 [evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (2) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 381 · MIT · Jun 2026</sub>
 
-**MCP server that fetches web pages as HTML, Markdown, text, JSON or transcripts.**
+**MCP server for reading and writing to 60+ EVM chains, with ENS support.**
 
-A TypeScript MCP server exposing six tools: fetch_html, fetch_markdown, fetch_txt, fetch_json, fetch_readable (Mozilla Readability extraction to Markdown) and fetch_youtube_transcript. Output is paginated with max_length and start_index, and requests can use custom headers or a proxy. Private and localhost addresses are blocked. The same functions are also available as an mcp-fetch CLI.
+TypeScript MCP server built on viem that lets agents query blocks, transactions, balances and contracts on 34 EVM mainnets and 26 testnets. It also sends native, ERC20, ERC721 and ERC1155 transfers, signs messages and EIP-712 data, and fetches ABIs through the Etherscan v2 API. It runs over stdio or HTTP with SSE, and accepts ENS names wherever an address is expected.
 
-- **+** Readability tool strips navigation and ads, returning article content as Markdown
-- **+** SSRF protection blocks private/localhost addresses and DNS rebinding
-- **+** Runs with npx mcp-fetch-server; same tools usable as a CLI
-- **+** Pagination, custom headers, proxy and 10 MB response cap are configurable
-- **−** Default output limit of 5000 characters truncates most pages unless raised
-- **−** No JavaScript rendering mentioned, so script-heavy pages may return incomplete content
-- **−** YouTube transcripts fall back to page extraction when yt-dlp is not installed
-- **−** No tagged releases on the repository
+- **+** Covers 60+ EVM networks behind one tool interface, with ENS names accepted for addresses
+- **+** Auto-fetches contract ABIs via Etherscan v2, so contract calls need no ABI up front
+- **+** Runs through npx in stdio mode or as an HTTP/SSE server
+- **+** Wallet can be set from a private key or a BIP-39 mnemonic with HD account index
+- **−** Private key or mnemonic sits in an environment variable for write and signing tools
+- **−** HTTP mode binds 0.0.0.0:3001, hardcoded in source, with no auth described
+- **−** README states 22 tools in one place and 25 in another
+- **−** Default chain and server host/port can only be changed by editing source files
 
-<sub>no GPU · Needs Node.js (npx), yt-dlp (optional) · [Repo](https://github.com/zcaceres/fetch-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fetch-mcp/)</sub>
+<sub>no GPU · Needs Bun 1.0+ or Node.js 20+, Etherscan API key (optional, for ABI fetching), EVM RPC endpoints · port 3001 · [Repo](https://github.com/mcpdotdirect/evm-mcp-server) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evm-mcp-server/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
