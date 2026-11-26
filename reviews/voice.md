@@ -131,7 +131,7 @@ Converts ebooks (epub, mobi, pdf, txt and about 20 other formats, with OCR for i
 <sub>RAM ≥ 2 GB · GPU optional · Docker + Compose · Needs Docker (optional), Homebrew on macOS (auto-installed), Scoop on Windows (auto-installed) · Models: XTTSv2, Bark, Fairseq, VITS, Tacotron2 · port 7860 · [Repo](https://github.com/drewthomasson/ebook2audiobook) · [▶️ Demo ↗](https://huggingface.co/spaces/drewThomasson/ebook2audiobook) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ebook2audiobook/)</sub>
 
 <a name="sherpa-onnx"></a>
-### #&#8288;8 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;8 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **Local speech recognition, TTS, diarization and VAD runtime on ONNX.**
 
@@ -148,26 +148,8 @@ sherpa-onnx runs speech-to-text (streaming and non-streaming), text-to-speech, s
 
 <sub>GPU optional · Needs ONNX Runtime · Models: Zipformer, Paraformer, Whisper, SenseVoice, Moonshine · [Repo](https://github.com/k2-fsa/sherpa-onnx) · [▶️ Demo ↗](https://huggingface.co/spaces/k2-fsa/automatic-speech-recognition) · [📖 Docs ↗](https://k2-fsa.github.io/sherpa/onnx/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sherpa-onnx/)</sub>
 
-<a name="pyvideotrans"></a>
-### #&#8288;9 [pyvideotrans](https://github.com/jianchang512/pyvideotrans) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · GPL-3.0 · Nov 2026</sub>
-
-**Video translation and AI dubbing pipeline with ASR, subtitle translation and TTS.**
-
-pyVideoTrans translates videos between languages by chaining speech recognition, subtitle translation, speech synthesis and audio-video merging. It runs as a PySide6 desktop GUI, a CLI, or a Gradio WebUI, and works with local models (Faster-Whisper, Ollama, F5-TTS) or online APIs. Pipeline stages can be paused for manual proofreading, and speaker diarization allows different dubbing voices per speaker.
-
-- **+** Full pipeline in one tool: ASR, translation, TTS and video merge
-- **+** Mixes local engines (Faster-Whisper, Ollama) with many commercial APIs
-- **+** Pause and edit between recognition, translation and dubbing stages
-- **+** GUI, CLI for batch jobs, WebUI, and a prebuilt Windows exe
-- **−** GPU acceleration is NVIDIA only; AMD needs the Whisper.NET route
-- **−** Windows GPU use requires manually installing CUDA 12.8 and cuDNN 9.11
-- **−** WebUI is an optional extra and Docker image must be built locally
-- **−** GPL-3.0 license; README lists no RAM or VRAM requirements
-
-<sub>GPU optional · Docker · Needs FFmpeg, Python 3.10, uv, CUDA 12.8 and cuDNN 9.11 (NVIDIA GPU only) · Models: Faster-Whisper, WhisperX, OpenAI Whisper, Ollama, DeepSeek · port 7860 · [Repo](https://github.com/jianchang512/pyvideotrans) · [📖 Docs ↗](https://pyvideotrans.com) · [🌐 Site ↗](https://pyvideotrans.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyvideotrans/)</sub>
-
 <a name="speech-to-speech"></a>
-### #&#8288;10 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [Speech-to-Speech](https://github.com/huggingface/speech-to-speech) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · Apache-2.0 · Nov 2026</sub>
 
 **Local voice agent pipeline with an OpenAI Realtime-compatible server.**
 
@@ -183,6 +165,24 @@ Runs a cascaded voice pipeline (Silero VAD, Parakeet TDT, Qwen3.5-4B, Qwen3-TTS)
 - **−** LLM proxy has no authentication or throttling; needs a trusted network or gateway
 
 <sub>RAM ≥ 16 GB · GPU optional · Docker + Compose · Needs PortAudio and libsndfile (Ubuntu), NVIDIA Container Toolkit (Docker), llama.cpp server (Docker compose) · Models: Qwen3.5-4B, Parakeet TDT, Qwen3-TTS, Whisper, Kokoro-82M · port 8765 · [Repo](https://github.com/huggingface/speech-to-speech) · [📖 Docs ↗](https://github.com/huggingface/speech-to-speech/blob/main/docs/configuration.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/speech-to-speech/)</sub>
+
+<a name="pyvideotrans"></a>
+### #&#8288;10 [pyvideotrans](https://github.com/jianchang512/pyvideotrans) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · GPL-3.0 · Nov 2026</sub>
+
+**Video translation and AI dubbing pipeline with ASR, subtitle translation and TTS.**
+
+pyVideoTrans translates videos between languages by chaining speech recognition, subtitle translation, speech synthesis and audio-video merging. It runs as a PySide6 desktop GUI, a CLI, or a Gradio WebUI, and works with local models (Faster-Whisper, Ollama, F5-TTS) or online APIs. Pipeline stages can be paused for manual proofreading, and speaker diarization allows different dubbing voices per speaker.
+
+- **+** Full pipeline in one tool: ASR, translation, TTS and video merge
+- **+** Mixes local engines (Faster-Whisper, Ollama) with many commercial APIs
+- **+** Pause and edit between recognition, translation and dubbing stages
+- **+** GUI, CLI for batch jobs, WebUI, and a prebuilt Windows exe
+- **−** GPU acceleration is NVIDIA only; AMD needs the Whisper.NET route
+- **−** Windows GPU use requires manually installing CUDA 12.8 and cuDNN 9.11
+- **−** WebUI is an optional extra and Docker image must be built locally
+- **−** GPL-3.0 license; README lists no RAM or VRAM requirements
+
+<sub>GPU optional · Docker · Needs FFmpeg, Python 3.10, uv, CUDA 12.8 and cuDNN 9.11 (NVIDIA GPU only) · Models: Faster-Whisper, WhisperX, OpenAI Whisper, Ollama, DeepSeek · port 7860 · [Repo](https://github.com/jianchang512/pyvideotrans) · [📖 Docs ↗](https://pyvideotrans.com) · [🌐 Site ↗](https://pyvideotrans.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyvideotrans/)</sub>
 
 <a name="whisperlivekit"></a>
 ### #&#8288;11 [whisperlivekit](https://github.com/quentinfuxa/whisperlivekit) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · Apache-2.0 · Nov 2026</sub>
@@ -433,7 +433,7 @@ edge-tts calls Microsoft Edge's online text-to-speech service from Python code o
 <sub>no GPU · Needs Microsoft Edge online TTS service, mpv (edge-playback, non-Windows) · Models: Microsoft Edge neural voices (hosted) · [Repo](https://github.com/rany2/edge-tts) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/edge-tts/)</sub>
 
 <a name="xiaozhi-esp32-server"></a>
-### #&#8288;25 [xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;25 [xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **Backend server for xiaozhi-esp32 voice devices with ASR, LLM and TTS pipeline.**
 
@@ -951,26 +951,8 @@ TypeWhisper is a native Swift menu bar app for macOS 14+ that transcribes speech
 
 <sub>RAM ≥ 8 GB · GPU optional · Needs macOS 14.0+, Groq, OpenAI or xAI API keys (optional, for cloud engines) · Models: WhisperKit, Parakeet, Qwen3 ASR, Voxtral, Granite Speech · [Repo](https://github.com/typewhisper/typewhisper-mac) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/typewhisper-mac/)</sub>
 
-<a name="minutes"></a>
-### #&#8288;54 [minutes](https://github.com/silverstein/minutes) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
-
-**Local meeting recorder that stores Markdown transcripts and exposes them to MCP clients.**
-
-Minutes records and transcribes meetings, calls, voice memos and dictation on-device, saving each as a Markdown file with YAML frontmatter in ~/meetings/. A Rust CLI (60 commands), a desktop app, and an MCP server (34 tools) let Claude Code, Codex, Cursor or other MCP clients search that history. Summaries and agent queries use a cloud provider only if you choose one.
-
-- **+** Transcription and speaker processing run on-device; audio stays local
-- **+** Plain Markdown with YAML frontmatter works with Obsidian, grep and Logseq
-- **+** MCP server with 34 tools, plus CLI, TypeScript SDK and Claude Code plugin
-- **+** MIT licensed, with a stated no-paid-tier commitment for this repo
-- **−** Cloud summarizers or agents receive meeting text once you authorize them
-- **−** Linux support is a prebuilt CLI for x86-64 Ubuntu 24.04; older distros build from source
-- **−** Opt-in automatic call recording is documented only for Teams and Zoom on macOS
-- **−** MCP setup recommends Node.js 22 as an extra dependency
-
-<sub>Needs Node.js 22 (for MCP server), Ollama (optional, dictation local edits) · Models: Local transcription, Ollama, Cloud summarizers (optional) · [Repo](https://github.com/silverstein/minutes) · [📖 Docs ↗](https://github.com/silverstein/minutes/blob/main/docs/features.md) · [🌐 Site ↗](https://useminutes.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minutes/)</sub>
-
 <a name="fish-speech"></a>
-### #&#8288;55 [fish-speech](https://github.com/fishaudio/fish-speech) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (92) · Freshness: recent (70) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Oct 2026</sub>
+### #&#8288;54 [fish-speech](https://github.com/fishaudio/fish-speech) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (92) · Freshness: recent (70) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Oct 2026</sub>
 
 **Expressive multi-speaker text-to-speech models with voice cloning.**
 
@@ -986,6 +968,24 @@ Fish Speech is the code and weights for Fish Audio's TTS models: Drama 3 (35B-A3
 - **−** README recommends SGLang-Omni or vLLM-Omni for efficient serving
 
 <sub>Docker + Compose · Needs PyTorch, Hugging Face model weights · Models: Drama 3 (35B-A3B), S2-Pro (4B) · [Repo](https://github.com/fishaudio/fish-speech) · [▶️ Demo ↗](https://fish.audio/) · [📖 Docs ↗](https://speech.fish.audio/install/) · [🌐 Site ↗](https://fish.audio/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fish-speech/)</sub>
+
+<a name="minutes"></a>
+### #&#8288;55 [minutes](https://github.com/silverstein/minutes) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
+
+**Local meeting recorder that stores Markdown transcripts and exposes them to MCP clients.**
+
+Minutes records and transcribes meetings, calls, voice memos and dictation on-device, saving each as a Markdown file with YAML frontmatter in ~/meetings/. A Rust CLI (60 commands), a desktop app, and an MCP server (34 tools) let Claude Code, Codex, Cursor or other MCP clients search that history. Summaries and agent queries use a cloud provider only if you choose one.
+
+- **+** Transcription and speaker processing run on-device; audio stays local
+- **+** Plain Markdown with YAML frontmatter works with Obsidian, grep and Logseq
+- **+** MCP server with 34 tools, plus CLI, TypeScript SDK and Claude Code plugin
+- **+** MIT licensed, with a stated no-paid-tier commitment for this repo
+- **−** Cloud summarizers or agents receive meeting text once you authorize them
+- **−** Linux support is a prebuilt CLI for x86-64 Ubuntu 24.04; older distros build from source
+- **−** Opt-in automatic call recording is documented only for Teams and Zoom on macOS
+- **−** MCP setup recommends Node.js 22 as an extra dependency
+
+<sub>Needs Node.js 22 (for MCP server), Ollama (optional, dictation local edits) · Models: Local transcription, Ollama, Cloud summarizers (optional) · [Repo](https://github.com/silverstein/minutes) · [📖 Docs ↗](https://github.com/silverstein/minutes/blob/main/docs/features.md) · [🌐 Site ↗](https://useminutes.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minutes/)</sub>
 
 <a name="sokuji"></a>
 ### #&#8288;56 [sokuji](https://github.com/kizuna-ai-lab/sokuji) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Nov 2026</sub>
@@ -1077,8 +1077,26 @@ Abogen turns ePub, PDF, text, markdown and subtitle files into speech with the K
 
 <sub>GPU optional · Compose · Needs espeak-ng, PyTorch · Models: Kokoro-82M, Supertonic TTS · port 8808 · [Repo](https://github.com/denizsafak/abogen) · [▶️ Demo ↗](https://github.com/user-attachments/assets/094ba3df-7d66-494a-bc31-0e4b41d0b865) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/abogen/)</sub>
 
+<a name="amical"></a>
+### #&#8288;61 [amical](https://github.com/amicalhq/amical) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
+
+**Push-to-talk dictation app for macOS and Windows with local Whisper and Parakeet.**
+
+Amical is an Electron desktop app that transcribes speech and inserts the text at the cursor in any application. It runs Whisper and Parakeet v3 models locally through whisper.cpp, with Metal on macOS and Vulkan on Windows. Optional formatting can use Ollama, an OpenAI-compatible server such as LM Studio, or a hosted provider like OpenRouter with your own key.
+
+- **+** Transcribes offline after a one-time model download; no account required
+- **+** Choice of Parakeet v3 and Whisper models from ~78 MB to ~3.1 GB
+- **+** Optional LLM formatting via Ollama, LM Studio or OpenRouter
+- **+** Vocabulary, snippets, notes and history alongside dictation
+- **−** No Linux support; the app has no Linux native helper yet
+- **−** Local speech models require macOS 15 or later
+- **−** Parakeet v3 covers only 25 European languages
+- **−** Building from source needs CMake, Swift or .NET toolchains and submodules
+
+<sub>GPU optional · Needs Ollama (optional), LM Studio or OpenAI-compatible server (optional), OpenRouter (optional) · Models: Whisper (Tiny to Large v3 Turbo), Parakeet v3, Ollama, OpenAI-compatible APIs · [Repo](https://github.com/amicalhq/amical) · [📖 Docs ↗](https://amical.ai/docs) · [🌐 Site ↗](https://amical.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/amical/)</sub>
+
 <a name="openreader"></a>
-### #&#8288;61 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 598 · MIT · Nov 2026</sub>
+### #&#8288;62 [OpenReader](https://github.com/richardr1126/openreader) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 599 · MIT · Nov 2026</sub>
 
 **Text-to-speech reader for EPUB, PDF, TXT, MD and DOCX with read-along highlighting.**
 
@@ -1095,7 +1113,7 @@ OpenReader is a Next.js document reader that narrates EPUB, PDF, TXT, MD and DOC
 <sub>GPU optional · Docker · Needs NATS JetStream, SeaweedFS or S3-compatible storage, SQLite or Postgres · Models: Kokoro, KittenTTS, Orpheus, Supertonic, OpenAI TTS · [Repo](https://github.com/richardr1126/openreader) · [📖 Docs ↗](https://docs.openreader.richardr.dev/) · [🌐 Site ↗](https://openreader.richardr.dev/download) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openreader/)</sub>
 
 <a name="sensevoice"></a>
-### #&#8288;62 [sensevoice](https://github.com/qwenaudio/sensevoice) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Sep 2026</sub>
+### #&#8288;63 [sensevoice](https://github.com/qwenaudio/sensevoice) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.8k · MIT · Sep 2026</sub>
 
 **Multilingual speech recognition model with emotion and audio-event tags.**
 
@@ -1113,7 +1131,7 @@ SenseVoice is a speech model that does ASR, spoken language ID, speech emotion r
 <sub>GPU optional · Docker + Compose · Needs funasr, ffmpeg, FSMN-VAD, CAM++ (diarization only) · Models: SenseVoiceSmall, ONNX, Libtorch, GGUF · port 50000 · [Repo](https://github.com/qwenaudio/sensevoice) · [▶️ Demo ↗](https://huggingface.co/spaces/FunAudioLLM/SenseVoice) · [📖 Docs ↗](https://github.com/modelscope/FunASR/blob/main/docs/tutorial/README.md) · [🌐 Site ↗](https://www.funasr.com/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sensevoice/)</sub>
 
 <a name="porcupine"></a>
-### #&#8288;63 [porcupine](https://github.com/picovoice/porcupine) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (52) · Freshness: active (86) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;64 [porcupine](https://github.com/picovoice/porcupine) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (52) · Freshness: active (86) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · Apache-2.0 · Nov 2026</sub>
 
 **On-device wake word detection engine with SDKs for many platforms.**
 
@@ -1131,7 +1149,7 @@ Porcupine is a wake word engine that runs a neural network on-device to detect o
 <sub>no GPU · Needs Picovoice AccessKey (Picovoice Console) · Models: Porcupine keyword files (.ppn), porcupine_params.pv model · [Repo](https://github.com/picovoice/porcupine) · [▶️ Demo ↗](https://picovoice.ai/demos/lamp/) · [🌐 Site ↗](https://picovoice.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/porcupine/)</sub>
 
 <a name="tensorflowasr"></a>
-### #&#8288;64 [tensorflowasr](https://github.com/tensorspeech/tensorflowasr) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;65 [tensorflowasr](https://github.com/tensorspeech/tensorflowasr) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · Nov 2026</sub>
 
 **Train and run speech recognition models in TensorFlow 2, with TFLite export.**
 
@@ -1147,24 +1165,6 @@ TensorFlowASR implements ASR architectures in TensorFlow 2: Conformer, ContextNe
 - **−** Pretrained model results live in per-example folders, not the main README
 
 <sub>GPU optional · Docker + Compose · Needs TensorFlow, tensorflow-text, uv · Models: Conformer, Streaming Conformer, ContextNet, RNN Transducer, DeepSpeech2 · [Repo](https://github.com/tensorspeech/tensorflowasr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tensorflowasr/)</sub>
-
-<a name="elevenlabs-python"></a>
-### #&#8288;65 [elevenlabs-python](https://github.com/elevenlabs/elevenlabs-python) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.2k · no license · Nov 2026</sub>
-
-**Official Python SDK for the ElevenLabs speech, voice and agents API.**
-
-Python client for the hosted ElevenLabs HTTP API, with sync and async clients. It covers text-to-speech (including streaming), voice search and cloning, and ElevenAgents conversational agents, with helpers to define agent workflows and tools in code. It calls ElevenLabs cloud models and needs an API key; nothing runs locally.
-
-- **+** Sync ElevenLabs and async AsyncElevenLabs clients, plus streaming text-to-speech
-- **+** Agent workflows and tools defined as chained code, validated by build() and storable as JSON
-- **+** @client_tool builds a tool schema from a typed function; check_client_tools() flags schema drift
-- **+** Installs with pip install elevenlabs; README has runnable snippets for each feature
-- **−** Requires the hosted ElevenLabs service and an API key; models cannot be self-hosted
-- **−** No license detected in the repository metadata
-- **−** SDK is generated by Fern, so much of the API surface is generated code
-- **−** Changing a shared client tool schema affects already-deployed clients immediately
-
-<sub>no GPU · Needs ElevenLabs API key, ElevenLabs cloud API · Models: eleven_v4, eleven_v4_turbo, eleven_multilingual_v2, eleven_flash_v2_5, scribe_v2 · [Repo](https://github.com/elevenlabs/elevenlabs-python) · [📖 Docs ↗](https://elevenlabs.io/docs/api-reference) · [🌐 Site ↗](https://elevenlabs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/elevenlabs-python/)</sub>
 
 <a name="retrieval-based-voice-conversion-webui"></a>
 ### #&#8288;66 [retrieval-based-voice-conversion-webui](https://github.com/rvc-project/retrieval-based-voice-conversion-webui) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: widely used (93) · Freshness: active (94) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · MIT · Aug 2026</sub>
@@ -1202,8 +1202,44 @@ OmniVoice is a diffusion language model-style TTS model covering 600+ languages.
 
 <sub>GPU optional · Needs PyTorch, torchaudio, Whisper (auto-transcribes reference audio), FlashInfer (optional) · Models: k2-fsa/OmniVoice (Hugging Face) · port 8001 · [Repo](https://github.com/k2-fsa/omnivoice) · [▶️ Demo ↗](https://huggingface.co/spaces/k2-fsa/OmniVoice) · [🌐 Site ↗](https://zhu-han.github.io/omnivoice) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/omnivoice/)</sub>
 
+<a name="elevenlabs-python"></a>
+### #&#8288;68 [elevenlabs-python](https://github.com/elevenlabs/elevenlabs-python) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (37) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 3.2k · no license · Nov 2026</sub>
+
+**Official Python SDK for the ElevenLabs speech, voice and agents API.**
+
+Python client for the hosted ElevenLabs HTTP API, with sync and async clients. It covers text-to-speech (including streaming), voice search and cloning, and ElevenAgents conversational agents, with helpers to define agent workflows and tools in code. It calls ElevenLabs cloud models and needs an API key; nothing runs locally.
+
+- **+** Sync ElevenLabs and async AsyncElevenLabs clients, plus streaming text-to-speech
+- **+** Agent workflows and tools defined as chained code, validated by build() and storable as JSON
+- **+** @client_tool builds a tool schema from a typed function; check_client_tools() flags schema drift
+- **+** Installs with pip install elevenlabs; README has runnable snippets for each feature
+- **−** Requires the hosted ElevenLabs service and an API key; models cannot be self-hosted
+- **−** No license detected in the repository metadata
+- **−** SDK is generated by Fern, so much of the API surface is generated code
+- **−** Changing a shared client tool schema affects already-deployed clients immediately
+
+<sub>no GPU · Needs ElevenLabs API key, ElevenLabs cloud API · Models: eleven_v4, eleven_v4_turbo, eleven_multilingual_v2, eleven_flash_v2_5, scribe_v2 · [Repo](https://github.com/elevenlabs/elevenlabs-python) · [📖 Docs ↗](https://elevenlabs.io/docs/api-reference) · [🌐 Site ↗](https://elevenlabs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/elevenlabs-python/)</sub>
+
+<a name="crisperwhisper"></a>
+### #&#8288;69 [crisperwhisper](https://github.com/nyrahealth/crisperwhisper) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · custom license · Nov 2026</sub>
+
+**Whisper-based speech recognition with verbatim or clean output and word-level timings.**
+
+CrisperWhisper 2.0 is a Python package around fine-tuned Whisper models. It transcribes audio either verbatim (fillers, repetitions, stutters, vocal events) or in a cleaned "intended" form, with word-level timestamps. It can also add real disfluencies to an existing clean transcript and handles long audio by conditioning each window on prior text. Inference runs on CTranslate2 (NVIDIA GPU, speculative decoding) or plain PyTorch (CPU, macOS, Windows).
+
+- **+** Verbatim and intended transcripts selectable per call, with a single-pass dual mode on ct2
+- **+** Reports about 30 ms mean word-boundary error on TIMIT, lowest in its own comparison table
+- **+** Verbatimize inserts real disfluencies into a trusted clean transcript
+- **+** Four model sizes and a PyTorch backend, so CPU, macOS and Windows work
+- **−** Standard weights are non-commercial research only; commercial use needs a separate license
+- **−** Pro models, which add hotword boosting, are commercial-license only
+- **−** Forced aligner for the most precise timings supports English only
+- **−** Benchmark rankings come from the authors' own benchmark
+
+<sub>GPU optional · Needs CTranslate2, PyTorch, Transformers, Hugging Face model hub · Models: CrisperWhisper 2.0 large, CrisperWhisper 2.0 turbo, CrisperWhisper 2.0 medium, CrisperWhisper 2.0 small, Pro variants (commercial license) · [Repo](https://github.com/nyrahealth/crisperwhisper) · [▶️ Demo ↗](https://www.nyra-labs.com/crisperwhisper) · [📖 Docs ↗](https://github.com/nyrahealth/crisperwhisper/blob/main/DOCS.md) · [🌐 Site ↗](https://www.nyra-labs.com/crisperwhisper) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crisperwhisper/)</sub>
+
 <a name="montreal-forced-aligner"></a>
-### #&#8288;68 [montreal-forced-aligner](https://github.com/montrealcorpustools/montreal-forced-aligner) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
+### #&#8288;70 [montreal-forced-aligner](https://github.com/montrealcorpustools/montreal-forced-aligner) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: fair (68) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
 
 **Command-line forced aligner that maps speech audio to word and phone timings.**
 
@@ -1220,7 +1256,7 @@ Montreal Forced Aligner is a Python command-line tool that aligns speech dataset
 <sub>Docker · Needs conda, Kaldi, Pynini, OpenFst · Models: Kaldi acoustic models, MFA pretrained models · [Repo](https://github.com/montrealcorpustools/montreal-forced-aligner) · [📖 Docs ↗](http://montreal-forced-aligner.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/montreal-forced-aligner/)</sub>
 
 <a name="chattts"></a>
-### #&#8288;69 [chattts](https://github.com/2noise/chattts) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (94) · Freshness: recent (60) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · AGPL-3.0 · Apr 2026</sub>
+### #&#8288;71 [chattts](https://github.com/2noise/chattts) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (94) · Freshness: recent (60) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · AGPL-3.0 · Apr 2026</sub>
 
 **Text-to-speech model for dialogue, with laughter and pause control.**
 
@@ -1238,7 +1274,7 @@ ChatTTS is a Python text-to-speech model trained for conversational speech in En
 <sub>GPU optional · Needs PyTorch, torchaudio, vLLM (optional, Linux only) · Models: ChatTTS 40k-hour base model (Hugging Face) · [Repo](https://github.com/2noise/chattts) · [▶️ Demo ↗](https://colab.research.google.com/github/2noise/ChatTTS/blob/main/examples/ipynb/colab.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chattts/)</sub>
 
 <a name="whisper"></a>
-### #&#8288;70 [whisper](https://github.com/openai/whisper) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (99) · Freshness: recent (72) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 114k · MIT · Aug 2026</sub>
+### #&#8288;72 [whisper](https://github.com/openai/whisper) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (99) · Freshness: recent (72) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 114k · MIT · Aug 2026</sub>
 
 **Multilingual speech recognition and translation model with Python and CLI interfaces.**
 
@@ -1256,7 +1292,7 @@ Whisper is a Transformer sequence-to-sequence model for speech recognition, spee
 <sub>GPU optional · Needs ffmpeg, PyTorch, tiktoken, Rust (if no prebuilt tiktoken wheel) · Models: tiny, base, small, medium, large · [Repo](https://github.com/openai/whisper) · [📖 Docs ↗](https://github.com/openai/whisper/blob/main/model-card.md) · [🌐 Site ↗](https://openai.com/blog/whisper) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisper/)</sub>
 
 <a name="cosyvoice"></a>
-### #&#8288;71 [cosyvoice](https://github.com/qwenaudio/cosyvoice) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (87) · Freshness: recent (65) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · May 2026</sub>
+### #&#8288;73 [cosyvoice](https://github.com/qwenaudio/cosyvoice) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (87) · Freshness: recent (65) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · Apache-2.0 · May 2026</sub>
 
 **Zero-shot multilingual text-to-speech with voice cloning and streaming output.**
 
@@ -1273,26 +1309,8 @@ CosyVoice is an LLM-based text-to-speech system from the FunAudioLLM team. Fun-C
 
 <sub>Docker · Needs Python 3.10, conda, sox, vLLM (optional), TensorRT-LLM (optional), ttsfrd (optional) · Models: Fun-CosyVoice3-0.5B-2512, CosyVoice2-0.5B, CosyVoice-300M, CosyVoice-300M-SFT, CosyVoice-300M-Instruct · port 50000 · [Repo](https://github.com/qwenaudio/cosyvoice) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cosyvoice/)</sub>
 
-<a name="voice-pro"></a>
-### #&#8288;72 [voice-pro](https://github.com/abus-aikorea/voice-pro) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (78) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · GPL-3.0 · Jul 2026</sub>
-
-**Gradio web app for transcribing, translating and dubbing video with voice cloning.**
-
-Voice-Pro is a Windows-oriented Gradio web UI that downloads YouTube media with yt-dlp, separates vocals with Demucs, transcribes with Whisper variants, translates, and re-voices with TTS. Voice cloning uses F5-TTS, E2-TTS and CosyVoice; Edge-TTS and kokoro cover standard synthesis. The README says development is paused, and only Windows with an NVIDIA GPU is verified.
-
-- **+** Covers download, vocal separation, ASR, translation and TTS in one UI
-- **+** Zero-shot cloning via F5-TTS, E2-TTS and CosyVoice, including Fun-CosyVoice3
-- **+** uv installer keeps everything in installer_files/; no CUDA Toolkit or admin rights needed
-- **+** Translates subtitle files (ASS, SSA, SRT) and supports live recognition and translation
-- **−** README states development and updates are not possible for the time being
-- **−** Only Windows with an NVIDIA GPU is verified; Mac and Linux are untested
-- **−** No Docker or compose files; install is via start.bat
-- **−** Free Google translation endpoint can rate-limit; Azure needs your own keys
-
-<sub>GPU optional · Needs ffmpeg (auto-downloaded by start.bat), yt-dlp, uv, Azure TTS/Translator (optional) · Models: Whisper, Faster-Whisper, Whisper-Timestamped, F5-TTS, E2-TTS · README: alternative to ElevenLabs · [Repo](https://github.com/abus-aikorea/voice-pro) · [📖 Docs ↗](https://deepwiki.com/abus-aikorea/voice-pro) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/voice-pro/)</sub>
-
 <a name="vosk-api"></a>
-### #&#8288;73 [vosk-api](https://github.com/alphacep/vosk-api) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (80) · Freshness: recent (70) · Maintenance: weak (28) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;74 [vosk-api](https://github.com/alphacep/vosk-api) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (80) · Freshness: recent (70) · Maintenance: weak (29) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Oct 2026</sub>
 
 **Offline speech recognition toolkit with streaming API and many language bindings.**
 
@@ -1309,8 +1327,26 @@ Vosk is an offline speech recognition toolkit covering 20+ languages and dialect
 
 <sub>Models: Vosk offline speech recognition models (20+ languages) · [Repo](https://github.com/alphacep/vosk-api) · [📖 Docs ↗](https://alphacephei.com/vosk) · [🌐 Site ↗](https://alphacephei.com/vosk) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vosk-api/)</sub>
 
+<a name="voice-pro"></a>
+### #&#8288;75 [voice-pro](https://github.com/abus-aikorea/voice-pro) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (78) · Freshness: active (88) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · GPL-3.0 · Jul 2026</sub>
+
+**Gradio web app for transcribing, translating and dubbing video with voice cloning.**
+
+Voice-Pro is a Windows-oriented Gradio web UI that downloads YouTube media with yt-dlp, separates vocals with Demucs, transcribes with Whisper variants, translates, and re-voices with TTS. Voice cloning uses F5-TTS, E2-TTS and CosyVoice; Edge-TTS and kokoro cover standard synthesis. The README says development is paused, and only Windows with an NVIDIA GPU is verified.
+
+- **+** Covers download, vocal separation, ASR, translation and TTS in one UI
+- **+** Zero-shot cloning via F5-TTS, E2-TTS and CosyVoice, including Fun-CosyVoice3
+- **+** uv installer keeps everything in installer_files/; no CUDA Toolkit or admin rights needed
+- **+** Translates subtitle files (ASS, SSA, SRT) and supports live recognition and translation
+- **−** README states development and updates are not possible for the time being
+- **−** Only Windows with an NVIDIA GPU is verified; Mac and Linux are untested
+- **−** No Docker or compose files; install is via start.bat
+- **−** Free Google translation endpoint can rate-limit; Azure needs your own keys
+
+<sub>GPU optional · Needs ffmpeg (auto-downloaded by start.bat), yt-dlp, uv, Azure TTS/Translator (optional) · Models: Whisper, Faster-Whisper, Whisper-Timestamped, F5-TTS, E2-TTS · README: alternative to ElevenLabs · [Repo](https://github.com/abus-aikorea/voice-pro) · [📖 Docs ↗](https://deepwiki.com/abus-aikorea/voice-pro) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/voice-pro/)</sub>
+
 <a name="audio8-tts"></a>
-### #&#8288;74 [audio8_tts](https://github.com/edge0-ai/audio8_tts) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (31) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;76 [audio8_tts](https://github.com/edge0-ai/audio8_tts) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (31) · Freshness: active (100) · Maintenance: patchy (45) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Nov 2026</sub>
 
 **Compact zero-shot voice-cloning text-to-speech models, 0.6B and 0.1B.**
 
@@ -1328,7 +1364,7 @@ Audio8 TTS provides two families of text-to-speech models with zero-shot voice c
 <sub>GPU optional · Needs Python 3.10+, PyTorch (via requirements.txt), llama.cpp (patched, for GGUF), SGLang Omni (optional serving), ONNX Runtime (CPU path) · Models: Audio8-TTS-Realistic-Air 0.6B, Audio8-TTS-Preview 0.6B, Audio8-TTS-Preview 0.1B, GGUF F32, ONNX INT8 · [Repo](https://github.com/edge0-ai/audio8_tts) · [▶️ Demo ↗](https://edge0-ai.github.io/Audio8_TTS/realistic-0.6b/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/audio8-tts/)</sub>
 
 <a name="rhvoice"></a>
-### #&#8288;75 [rhvoice](https://github.com/rhvoice/rhvoice) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-2.0 · Nov 2026</sub>
+### #&#8288;77 [rhvoice](https://github.com/rhvoice/rhvoice) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-2.0 · Nov 2026</sub>
 
 **Offline statistical speech synthesizer with SAPI5, Speech Dispatcher and Android support.**
 
@@ -1346,7 +1382,7 @@ RHVoice is a C++ text-to-speech engine that uses HTS-based statistical parametri
 <sub>no GPU · Needs HTS, SAPI5, Speech Dispatcher, NVDA · Models: HTS statistical parametric voices · [Repo](https://github.com/rhvoice/rhvoice) · [▶️ Demo ↗](https://data2data.ru/tts/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rhvoice/)</sub>
 
 <a name="emotivoice"></a>
-### #&#8288;76 [emotivoice](https://github.com/netease-youdao/emotivoice) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;78 [emotivoice](https://github.com/netease-youdao/emotivoice) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.5k · Apache-2.0 · Sep 2026</sub>
 
 **Text-to-speech engine with emotion and style prompts, English and Chinese.**
 
@@ -1364,7 +1400,7 @@ EmotiVoice synthesizes speech in English and Chinese from over 2000 voices, with
 <sub>GPU required · Docker · Needs Docker, NVIDIA container toolkit, PyTorch, Streamlit, FastAPI, Git LFS · Models: PromptTTS-based acoustic model with HiFi-GAN vocoder, SimBERT Chinese · port 8501 · [Repo](https://github.com/netease-youdao/emotivoice) · [▶️ Demo ↗](https://replicate.com/bramhooimeijer/emotivoice) · [📖 Docs ↗](https://github.com/netease-youdao/EmotiVoice/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/emotivoice/)</sub>
 
 <a name="wenet"></a>
-### #&#8288;77 [wenet](https://github.com/wenet-e2e/wenet) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (53) · Freshness: recent (70) · Maintenance: fair (51) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;79 [wenet](https://github.com/wenet-e2e/wenet) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (53) · Freshness: recent (70) · Maintenance: fair (51) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.3k · Apache-2.0 · Oct 2026</sub>
 
 **Speech recognition toolkit for training and deploying ASR models.**
 
@@ -1382,7 +1418,7 @@ WeNet is a PyTorch toolkit for end-to-end speech recognition, with training reci
 <sub>GPU optional · Needs PyTorch, torchaudio, sox, conda, CUDA 12.1 (recommended for training), cmake 3.14+ (runtime build) · Models: paraformer, firered, wenetspeech, whisper-large-v3, whisper-large-v3-turbo · [Repo](https://github.com/wenet-e2e/wenet) · [▶️ Demo ↗](https://huggingface.co/spaces/wenet/wenet_demo) · [📖 Docs ↗](https://wenet-e2e.github.io/wenet) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wenet/)</sub>
 
 <a name="elatoai"></a>
-### #&#8288;78 [elatoai](https://github.com/akdeb/elatoai) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: patchy (48) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · custom license · Nov 2026</sub>
+### #&#8288;80 [elatoai](https://github.com/akdeb/elatoai) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: patchy (48) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · custom license · Nov 2026</sub>
 
 **Firmware and servers for realtime voice AI on ESP32 devices and toys.**
 
@@ -1400,7 +1436,7 @@ ElatoAI connects an ESP32-S3 running Arduino/PlatformIO firmware to speech-to-sp
 <sub>no GPU · Needs Supabase, Deno Edge or Cloudflare Workers, Vercel, ESP32-S3, Voice provider API key · Models: OpenAI Realtime, Gemini Live, xAI Grok Voice Agent, ElevenLabs Conversational AI, Hume EVI-4 · [Repo](https://github.com/akdeb/elatoai) · [▶️ Demo ↗](https://www.youtube.com/watch?v=o1eIAwVll5I) · [📖 Docs ↗](https://www.elatoai.com/docs) · [🌐 Site ↗](https://elatoai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/elatoai/)</sub>
 
 <a name="breeze-tts"></a>
-### #&#8288;79 [breeze-tts](https://github.com/breezeblue-ai/breeze-tts) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;81 [breeze-tts](https://github.com/breezeblue-ai/breeze-tts) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
 
 **Open-weight English and Chinese TTS with voice cloning, design and streaming.**
 
@@ -1418,7 +1454,7 @@ Breeze TTS 2 is a PyTorch text-to-speech model with inference code. It supports 
 <sub>GPU required · Docker · Needs Python 3.10+, PyTorch, CUDA-capable NVIDIA GPU, Breeze TTS 2 checkpoint (Hugging Face) · Models: Breeze TTS 2 (safetensors checkpoint) · port 7860 · [Repo](https://github.com/breezeblue-ai/breeze-tts) · [🌐 Site ↗](https://breezeblue.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/breeze-tts/)</sub>
 
 <a name="silero-models"></a>
-### #&#8288;80 [silero-models](https://github.com/snakers4/silero-models) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · custom license · Oct 2026</sub>
+### #&#8288;82 [silero-models](https://github.com/snakers4/silero-models) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.2k · custom license · Oct 2026</sub>
 
 **Pretrained PyTorch text-to-speech models for Russian, CIS and Indic languages.**
 
@@ -1436,7 +1472,7 @@ Silero Models provides pretrained TTS models loaded through torch.hub or the `si
 <sub>GPU optional · Needs PyTorch · Models: PyTorch TTS models, SSML · [Repo](https://github.com/snakers4/silero-models) · [📖 Docs ↗](https://github.com/snakers4/silero-models/wiki/SSML) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/silero-models/)</sub>
 
 <a name="opensuperwhisper"></a>
-### #&#8288;81 [opensuperwhisper](https://github.com/starmel/opensuperwhisper) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (37) · Freshness: active (93) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Sep 2026</sub>
+### #&#8288;83 [opensuperwhisper](https://github.com/starmel/opensuperwhisper) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (37) · Freshness: active (93) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Sep 2026</sub>
 
 **macOS dictation app that transcribes with Whisper or Parakeet models.**
 
@@ -1454,7 +1490,7 @@ OpenSuperWhisper is a Swift macOS app that records audio and transcribes it with
 <sub>Needs macOS on Apple Silicon (ARM64) · Models: Whisper (whisper.cpp .bin), Parakeet (FluidAudio) · [Repo](https://github.com/starmel/opensuperwhisper) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opensuperwhisper/)</sub>
 
 <a name="dsnote"></a>
-### #&#8288;82 [dsnote](https://github.com/mkiol/dsnote) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MPL-2.0 · Nov 2026</sub>
+### #&#8288;84 [dsnote](https://github.com/mkiol/dsnote) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MPL-2.0 · Nov 2026</sub>
 
 **Offline speech-to-text, text-to-speech and translation notes app for Linux.**
 
@@ -1471,8 +1507,26 @@ Speech Note is a Linux and Sailfish OS desktop app for dictating, reading aloud 
 
 <sub>Needs Flatpak · Models: Whisper, Faster Whisper, Vosk, Coqui STT, april-asr · [Repo](https://github.com/mkiol/dsnote) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsnote/)</sub>
 
+<a name="auk"></a>
+### #&#8288;85 [auk](https://github.com/tencent-hunyuan/auk) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · custom license · Nov 2026</sub>
+
+**1.5B speech model for TTS, speech editing, enhancement and separation.**
+
+AuK is a 1.5B speech foundation model from Tencent Hunyuan that handles zero-shot and instruction TTS, content, acoustic and paralinguistic editing, enhancement and source separation through one natural-language instruction interface. It ships as a Python package with an `auk-infer` CLI, a Gradio demo, ComfyUI nodes and a Python API, in a base variant and a 4-step distilled AuK-Flash variant. It needs Qwen2.5-Omni-3B as a separate encoder.
+
+- **+** One instruction interface covers TTS, editing, enhancement and separation tasks
+- **+** AuK-Flash uses 4 fixed steps with CFG=0 for faster generation
+- **+** Runs via CLI, Gradio, ComfyUI, vLLM-Omni, SGLang-Omni, audio.cpp GGUF and MLX
+- **+** Fine-tuning and distillation pipelines included; weights on Hugging Face and ModelScope
+- **−** Peak VRAM about 25 GiB in bf16; CPU offload lowers it to about 17 GiB
+- **−** Requires a separate Qwen2.5-Omni-3B download; Qwen3-Omni is not supported
+- **−** Prompt Enhancer needs an external OpenAI-compatible LLM API
+- **−** License not identified by detection (NOASSERTION); no tagged release
+
+<sub>GPU required · Needs PyTorch, Qwen2.5-Omni-3B, Gradio (optional), OpenAI-compatible LLM (Prompt Enhancer, optional), SenseVoiceSmall or Tencent Cloud ASR (optional) · Models: AuK, AuK-Flash, Qwen2.5-Omni-3B · port 7860 · [Repo](https://github.com/tencent-hunyuan/auk) · [▶️ Demo ↗](https://huggingface.co/spaces/tencent/AuK) · [🌐 Site ↗](https://auk-project.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/auk/)</sub>
+
 <a name="xiaozhi-esp32-server-java"></a>
-### #&#8288;83 [xiaozhi-esp32-server-java](https://github.com/joey-zhou/xiaozhi-esp32-server-java) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (6) · Freshness: active (97) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
+### #&#8288;86 [xiaozhi-esp32-server-java](https://github.com/joey-zhou/xiaozhi-esp32-server-java) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (6) · Freshness: active (97) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Nov 2026</sub>
 
 **Java backend and admin console for Xiaozhi ESP32 voice devices.**
 
@@ -1490,7 +1544,7 @@ Java server for Xiaozhi ESP32 hardware, split into two Spring Boot processes: an
 <sub>Compose · Needs MySQL 8.0, Redis 7, Qdrant, JDK 21 (source build), Node 22 (source build) · Models: OpenAI, Zhipu AI, Xunfei Spark, Volcengine Ark, Ollama · port 8084 · [Repo](https://github.com/joey-zhou/xiaozhi-esp32-server-java) · [📖 Docs ↗](https://github.com/joey-zhou/xiaozhi-esp32-server-java/blob/main/docs/DOCKER.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xiaozhi-esp32-server-java/)</sub>
 
 <a name="chatterbox"></a>
-### #&#8288;84 [chatterbox](https://github.com/resemble-ai/chatterbox) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: widely used (90) · Freshness: recent (71) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · MIT · Nov 2026</sub>
+### #&#8288;87 [chatterbox](https://github.com/resemble-ai/chatterbox) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: widely used (90) · Freshness: recent (71) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · MIT · Nov 2026</sub>
 
 **Open text-to-speech models with zero-shot voice cloning in 23+ languages.**
 
@@ -1508,7 +1562,7 @@ Chatterbox is a family of Python text-to-speech models from Resemble AI that clo
 <sub>GPU optional · Needs PyTorch, torchaudio, Hugging Face model weights · Models: Chatterbox-Turbo 350M, Chatterbox-Nano 110M, Chatterbox-Multilingual V3 500M, Single Language Pack (6 finetunes), Chatterbox 500M English · [Repo](https://github.com/resemble-ai/chatterbox) · [▶️ Demo ↗](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS) · [🌐 Site ↗](https://resemble.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatterbox/)</sub>
 
 <a name="nomily-app"></a>
-### #&#8288;85 [nomily-app](https://github.com/nomily-ai/nomily-app) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · custom license · Nov 2026</sub>
+### #&#8288;88 [nomily-app](https://github.com/nomily-ai/nomily-app) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · custom license · Nov 2026</sub>
 
 **Voice recorder companion that transcribes and summarizes with your own API keys.**
 
@@ -1526,7 +1580,7 @@ Nomily AI is a bring-your-own-key voice recording workflow for the Vobot V05E BL
 <sub>Needs Azure Speech or local faster-whisper-compatible ASR endpoint, LLM provider API key or Ollama, ffmpeg and Python 3.10+ (local ASR server), Vobot V05E recorder (optional) · Models: Azure Speech, faster-whisper, OpenAI, Anthropic, Gemini · [Repo](https://github.com/nomily-ai/nomily-app) · [▶️ Demo ↗](https://geekis.com/demo/) · [📖 Docs ↗](https://github.com/nomily-ai/nomily-app/blob/main/examples/local-asr-server/README.md) · [🌐 Site ↗](https://geekis.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nomily-app/)</sub>
 
 <a name="epub-to-audiobook"></a>
-### #&#8288;86 [epub_to_audiobook](https://github.com/p0n1/epub_to_audiobook) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Oct 2026</sub>
+### #&#8288;89 [epub_to_audiobook](https://github.com/p0n1/epub_to_audiobook) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Oct 2026</sub>
 
 **Converts EPUB books to per-chapter MP3 audiobooks using cloud or local TTS.**
 
@@ -1544,7 +1598,7 @@ Command-line tool, with a Gradio web UI, that splits an EPUB into chapters and r
 <sub>no GPU · Docker + Compose · Needs Azure Speech key (Azure TTS), OpenAI API key (OpenAI TTS), Piper executable and voice models (Piper), Audiobookshelf (optional) · Models: Azure TTS, OpenAI TTS, Edge TTS, Piper, Kokoro (via OpenAI-compatible endpoint) · port 7860 · [Repo](https://github.com/p0n1/epub_to_audiobook) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/epub-to-audiobook/)</sub>
 
 <a name="gpt-sovits"></a>
-### #&#8288;87 [GPT-SoVITS](https://github.com/rvc-boss/gpt-sovits) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26 · MIT · Nov 2026</sub>
+### #&#8288;90 [GPT-SoVITS](https://github.com/rvc-boss/gpt-sovits) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: fair (62) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 33 · MIT · Nov 2026</sub>
 
 **Few-shot voice cloning and TTS with a training web UI.**
 
@@ -1562,7 +1616,7 @@ Clones a voice from a 5-second sample (zero-shot) or fine-tunes GPT and SoVITS m
 <sub>GPU optional · Docker + Compose · Needs ffmpeg · Models: GPT-SoVITS v1-v5 pretrained models, UVR5 vocal separation models, Faster Whisper large-v3 (ASR), FunASR Paraformer (Chinese ASR) · [Repo](https://github.com/rvc-boss/gpt-sovits) · [▶️ Demo ↗](https://lj1995-gpt-sovits-proplus.hf.space/) · [📖 Docs ↗](https://rentry.co/GPT-SoVITS-guide#/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-sovits/)</sub>
 
 <a name="moss-tts-nano"></a>
-### #&#8288;88 [moss-tts-nano](https://github.com/openmoss/moss-tts-nano) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (50) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;91 [moss-tts-nano](https://github.com/openmoss/moss-tts-nano) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (50) · Freshness: active (100) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
 
 **0.1B multilingual text-to-speech model with voice cloning that runs on CPU.**
 
@@ -1579,26 +1633,8 @@ MOSS-TTS-Nano is a 0.1B-parameter autoregressive TTS model (audio tokenizer plus
 
 <sub>GPU optional · Needs Python 3.12, PyTorch, ONNX Runtime, pynini, WeTextProcessing · Models: MOSS-TTS-Nano (0.1B, Hugging Face), MOSS-TTS-Nano-100M-ONNX, MOSS-Audio-Tokenizer-Nano · port 18083 · [Repo](https://github.com/openmoss/moss-tts-nano) · [▶️ Demo ↗](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTS-Nano) · [🌐 Site ↗](https://openmoss.github.io/MOSS-TTS-Nano-Demo/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/moss-tts-nano/)</sub>
 
-<a name="auk"></a>
-### #&#8288;89 [auk](https://github.com/tencent-hunyuan/auk) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (12) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · custom license · Nov 2026</sub>
-
-**1.5B speech model for TTS, speech editing, enhancement and separation.**
-
-AuK is a 1.5B speech foundation model from Tencent Hunyuan that handles zero-shot and instruction TTS, content, acoustic and paralinguistic editing, enhancement and source separation through one natural-language instruction interface. It ships as a Python package with an `auk-infer` CLI, a Gradio demo, ComfyUI nodes and a Python API, in a base variant and a 4-step distilled AuK-Flash variant. It needs Qwen2.5-Omni-3B as a separate encoder.
-
-- **+** One instruction interface covers TTS, editing, enhancement and separation tasks
-- **+** AuK-Flash uses 4 fixed steps with CFG=0 for faster generation
-- **+** Runs via CLI, Gradio, ComfyUI, vLLM-Omni, SGLang-Omni, audio.cpp GGUF and MLX
-- **+** Fine-tuning and distillation pipelines included; weights on Hugging Face and ModelScope
-- **−** Peak VRAM about 25 GiB in bf16; CPU offload lowers it to about 17 GiB
-- **−** Requires a separate Qwen2.5-Omni-3B download; Qwen3-Omni is not supported
-- **−** Prompt Enhancer needs an external OpenAI-compatible LLM API
-- **−** License not identified by detection (NOASSERTION); no tagged release
-
-<sub>GPU required · Needs PyTorch, Qwen2.5-Omni-3B, Gradio (optional), OpenAI-compatible LLM (Prompt Enhancer, optional), SenseVoiceSmall or Tencent Cloud ASR (optional) · Models: AuK, AuK-Flash, Qwen2.5-Omni-3B · port 7860 · [Repo](https://github.com/tencent-hunyuan/auk) · [▶️ Demo ↗](https://huggingface.co/spaces/tencent/AuK) · [🌐 Site ↗](https://auk-project.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/auk/)</sub>
-
 <a name="irodori-tts"></a>
-### #&#8288;90 [irodori-tts](https://github.com/aratako/irodori-tts) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
+### #&#8288;92 [irodori-tts](https://github.com/aratako/irodori-tts) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: patchy (43) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
 
 **Japanese flow-matching TTS with voice cloning and caption-based voice design.**
 
@@ -1614,42 +1650,6 @@ Training and inference code for Irodori-TTS, a Japanese text-to-speech model tha
 - **−** v4-Large is described as forthcoming; v1 checkpoints are incompatible with v2 and later
 
 <sub>GPU optional · Needs uv, PyTorch, Hugging Face Hub, DACVAE, SilentCipher · Models: Irodori-TTS-v4.1-Small, Irodori-TTS-v4.1-Small-MF, Irodori-TTS-v4.1-Small-Quantized, Irodori-TTS v2/v3 checkpoints, safetensors · port 7860 · [Repo](https://github.com/aratako/irodori-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/Aratako/Irodori-TTS-v4.1-Small-Demo) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/irodori-tts/)</sub>
-
-<a name="amical"></a>
-### #&#8288;91 [amical](https://github.com/amicalhq/amical) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (11) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Oct 2026</sub>
-
-**Push-to-talk dictation app for macOS and Windows with local Whisper and Parakeet.**
-
-Amical is an Electron desktop app that transcribes speech and inserts the text at the cursor in any application. It runs Whisper and Parakeet v3 models locally through whisper.cpp, with Metal on macOS and Vulkan on Windows. Optional formatting can use Ollama, an OpenAI-compatible server such as LM Studio, or a hosted provider like OpenRouter with your own key.
-
-- **+** Transcribes offline after a one-time model download; no account required
-- **+** Choice of Parakeet v3 and Whisper models from ~78 MB to ~3.1 GB
-- **+** Optional LLM formatting via Ollama, LM Studio or OpenRouter
-- **+** Vocabulary, snippets, notes and history alongside dictation
-- **−** No Linux support; the app has no Linux native helper yet
-- **−** Local speech models require macOS 15 or later
-- **−** Parakeet v3 covers only 25 European languages
-- **−** Building from source needs CMake, Swift or .NET toolchains and submodules
-
-<sub>GPU optional · Needs Ollama (optional), LM Studio or OpenAI-compatible server (optional), OpenRouter (optional) · Models: Whisper (Tiny to Large v3 Turbo), Parakeet v3, Ollama, OpenAI-compatible APIs · [Repo](https://github.com/amicalhq/amical) · [📖 Docs ↗](https://amical.ai/docs) · [🌐 Site ↗](https://amical.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/amical/)</sub>
-
-<a name="crisperwhisper"></a>
-### #&#8288;92 [crisperwhisper](https://github.com/nyrahealth/crisperwhisper) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (7) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · custom license · Sep 2026</sub>
-
-**Whisper-based speech recognition with verbatim or clean output and word-level timings.**
-
-CrisperWhisper 2.0 is a Python package around fine-tuned Whisper models. It transcribes audio either verbatim (fillers, repetitions, stutters, vocal events) or in a cleaned "intended" form, with word-level timestamps. It can also add real disfluencies to an existing clean transcript and handles long audio by conditioning each window on prior text. Inference runs on CTranslate2 (NVIDIA GPU, speculative decoding) or plain PyTorch (CPU, macOS, Windows).
-
-- **+** Verbatim and intended transcripts selectable per call, with a single-pass dual mode on ct2
-- **+** Reports about 30 ms mean word-boundary error on TIMIT, lowest in its own comparison table
-- **+** Verbatimize inserts real disfluencies into a trusted clean transcript
-- **+** Four model sizes and a PyTorch backend, so CPU, macOS and Windows work
-- **−** Standard weights are non-commercial research only; commercial use needs a separate license
-- **−** Pro models, which add hotword boosting, are commercial-license only
-- **−** Forced aligner for the most precise timings supports English only
-- **−** Benchmark rankings come from the authors' own benchmark
-
-<sub>GPU optional · Needs CTranslate2, PyTorch, Transformers, Hugging Face model hub · Models: CrisperWhisper 2.0 large, CrisperWhisper 2.0 turbo, CrisperWhisper 2.0 medium, CrisperWhisper 2.0 small, Pro variants (commercial license) · [Repo](https://github.com/nyrahealth/crisperwhisper) · [▶️ Demo ↗](https://www.nyra-labs.com/crisperwhisper) · [📖 Docs ↗](https://github.com/nyrahealth/crisperwhisper/blob/main/DOCS.md) · [🌐 Site ↗](https://www.nyra-labs.com/crisperwhisper) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/crisperwhisper/)</sub>
 
 <a name="whisper-diarization"></a>
 ### #&#8288;93 [whisper-diarization](https://github.com/mahmoudashraf97/whisper-diarization) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (55) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · BSD-2-Clause · Aug 2026</sub>
@@ -1670,7 +1670,7 @@ A Python pipeline that transcribes audio with Whisper and labels the speaker of 
 <sub>GPU optional · Needs Python >= 3.10, ffmpeg, Cython, NVIDIA NeMo, Demucs, ctc-forced-aligner · Models: Whisper (default medium.en), Faster Whisper, NeMo MarbleNet, NeMo TitaNet · [Repo](https://github.com/mahmoudashraf97/whisper-diarization) · [▶️ Demo ↗](https://colab.research.google.com/github/MahmoudAshraf97/whisper-diarization/blob/main/Whisper_Transcription_%2B_NeMo_Diarization.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisper-diarization/)</sub>
 
 <a name="moss-transcribe-diarize"></a>
-### #&#8288;94 [moss-transcribe-diarize](https://github.com/openmoss/moss-transcribe-diarize) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;94 [moss-transcribe-diarize](https://github.com/openmoss/moss-transcribe-diarize) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Oct 2026</sub>
 
 **Speech model that transcribes multi-speaker audio with speaker labels and timestamps.**
 
@@ -1724,7 +1724,7 @@ Qwen3-TTS is a family of 0.6B and 1.7B text-to-speech models from Qwen, with a P
 <sub>GPU required · Needs PyTorch, FlashAttention 2 (recommended), Hugging Face Transformers, soundfile · Models: Qwen3-TTS-12Hz-1.7B-VoiceDesign, Qwen3-TTS-12Hz-1.7B-CustomVoice, Qwen3-TTS-12Hz-1.7B-Base, Qwen3-TTS-12Hz-0.6B-CustomVoice, Qwen3-TTS-12Hz-0.6B-Base · port 8000 · [Repo](https://github.com/qwenlm/qwen3-tts) · [▶️ Demo ↗](https://huggingface.co/spaces/Qwen/Qwen3-TTS) · [🌐 Site ↗](https://qwen.ai/blog?id=qwen3tts-0115) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwen3-tts/)</sub>
 
 <a name="fireredtts3"></a>
-### #&#8288;97 [fireredtts3](https://github.com/fireredteam/fireredtts3) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;97 [fireredtts3](https://github.com/fireredteam/fireredtts3) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Sep 2026</sub>
 
 **Multilingual zero-shot voice cloning, voice design and speech editing TTS models.**
 
@@ -1795,8 +1795,26 @@ ASRT is a Chinese speech recognition system. A DCNN+CTC acoustic model maps audi
 
 <sub>RAM ≥ 16 GB · GPU optional · Docker · Needs TensorFlow 2.5+, Python 3.9+, Flask, Waitress, grpcio, CUDA 11.2 and cuDNN 8.1 for GPU training · Models: DCNN+CTC acoustic models 24, 25, 251, 251bn, pinyin-to-text statistical language model · port 20001 · [Repo](https://github.com/nl8590687/asrt_speechrecognition) · [▶️ Demo ↗](https://www.ailemon.net/asrt/demo) · [📖 Docs ↗](https://wiki.ailemon.net/docs/asrt-doc) · [🌐 Site ↗](https://www.ailemon.net/asrt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/asrt-speechrecognition/)</sub>
 
+<a name="diffsinger"></a>
+### #&#8288;101 [diffsinger](https://github.com/moonintheriver/diffsinger) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (51) · Freshness: recent (61) · Maintenance: weak (20) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Jul 2026</sub>
+
+**Official PyTorch code for DiffSinger singing synthesis and DiffSpeech TTS.**
+
+Research implementation of the AAAI-2022 DiffSinger paper: a shallow diffusion acoustic model that generates mel-spectrograms for singing voice synthesis, plus DiffSpeech for text-to-speech. It covers PopCS and OpenCpop pipelines (cascade, end-to-end, PNDM-accelerated) with NSF-HiFiGAN or HiFiGAN vocoders. Training and inference run from Python scripts documented per pipeline.
+
+- **+** Several SVS pipelines: PopCS, OpenCpop cascade, end-to-end, and PNDM variants
+- **+** Includes DiffSpeech for TTS on LJSpeech alongside singing synthesis
+- **+** Hugging Face Spaces demos for both SVS and TTS
+- **+** MIT license with official code matching the paper
+- **−** Pinned to Python 3.8, torch 1.9 and CUDA 10.2/11.4 requirements files
+- **−** Last release is January 2022; README updates stop at September 2022
+- **−** No Docker image or packaged app; research-style scripts and dataset prep
+- **−** Training depends on external datasets such as OpenCpop and LJSpeech
+
+<sub>Needs Python 3.8, PyTorch 1.9, PyTorch Lightning, OpenCpop dataset, LJSpeech dataset · Models: DiffSinger, DiffSpeech, FFT-Singer, NSF-HiFiGAN, HiFiGAN · [Repo](https://github.com/moonintheriver/diffsinger) · [▶️ Demo ↗](https://huggingface.co/spaces/Silentlin/DiffSinger) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diffsinger/)</sub>
+
 <a name="scriberr"></a>
-### #&#8288;101 [scriberr](https://github.com/rishikanthc/scriberr) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (36) · Freshness: active (86) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Sep 2026</sub>
+### #&#8288;102 [scriberr](https://github.com/rishikanthc/scriberr) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (36) · Freshness: active (86) · Maintenance: weak (10) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Sep 2026</sub>
 
 **Offline audio transcription server with speaker diarization and LLM chat.**
 
@@ -1814,7 +1832,7 @@ Scriberr is a self-hosted web app, written in Go, that transcribes audio and vid
 <sub>GPU optional · Docker + Compose · Needs Docker or Homebrew, uv, SQLite, Ollama or OpenAI-compatible API (optional, for chat) · Models: NVIDIA Parakeet, NVIDIA Canary, Whisper, PyAnnote (diarization), Ollama · port 8080 · [Repo](https://github.com/rishikanthc/scriberr) · [🌐 Site ↗](https://scriberr.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scriberr/)</sub>
 
 <a name="obs-localvocal"></a>
-### #&#8288;102 [obs-localvocal](https://github.com/royshil/obs-localvocal) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (13) · Freshness: active (97) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · GPL-2.0 · Nov 2026</sub>
+### #&#8288;103 [obs-localvocal](https://github.com/royshil/obs-localvocal) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (13) · Freshness: active (97) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · GPL-2.0 · Nov 2026</sub>
 
 **OBS plugin for real-time local speech transcription and caption translation.**
 
@@ -1832,7 +1850,7 @@ LocalVocal is an OBS Studio plugin that transcribes audio in real time with whis
 <sub>GPU optional · Needs OBS Studio, MSVC runtime (Windows), CUDA toolkit 12.8+ (NVIDIA builds), Vulkan runtime/SDK (optional) · Models: Whisper GGML, CTranslate2 NMT, CoreML encoder · [Repo](https://github.com/royshil/obs-localvocal) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obs-localvocal/)</sub>
 
 <a name="megatts3"></a>
-### #&#8288;103 [megatts3](https://github.com/bytedance/megatts3) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (56) · Freshness: recent (73) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;104 [megatts3](https://github.com/bytedance/megatts3) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: popular (56) · Freshness: recent (73) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Jun 2026</sub>
 
 **Zero-shot Chinese and English voice-cloning TTS with a 0.45B diffusion transformer.**
 
@@ -1850,7 +1868,7 @@ MegaTTS 3 is ByteDance's PyTorch implementation of a latent diffusion transforme
 <sub>GPU optional · Docker · Needs Python 3.10, PyTorch 2.6.0, Gradio, ffmpeg, WeTextProcessing · Models: MegaTTS3 checkpoints (Hugging Face, Google Drive), Qwen2.5-0.5B G2P, WaveVAE · port 7860 · [Repo](https://github.com/bytedance/megatts3) · [▶️ Demo ↗](https://huggingface.co/spaces/ByteDance/MegaTTS3) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/megatts3/)</sub>
 
 <a name="willow"></a>
-### #&#8288;104 [willow](https://github.com/heywillow/willow) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: known (36) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;105 [willow](https://github.com/heywillow/willow) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: known (36) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Aug 2026</sub>
 
 **Voice assistant for dedicated hardware, paired with a self-hosted inference server.**
 
@@ -1866,7 +1884,7 @@ Willow is a C project for voice assistant hardware, with users receiving physica
 <sub>Docker · Needs Willow Inference Server · [Repo](https://github.com/heywillow/willow) · [📖 Docs ↗](https://heywillow.io) · [🌐 Site ↗](https://heywillow.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/willow/)</sub>
 
 <a name="ekho"></a>
-### #&#8288;105 [ekho](https://github.com/hgneng/ekho) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (5) · Freshness: recent (70) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-2.0 · Nov 2026</sub>
+### #&#8288;106 [ekho](https://github.com/hgneng/ekho) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (5) · Freshness: recent (70) · Maintenance: fair (56) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · GPL-2.0 · Nov 2026</sub>
 
 **Chinese text-to-speech engine using recorded Mandarin voice files.**
 
@@ -1883,7 +1901,7 @@ Ekho is a Chinese text-to-speech engine from the eGuideDog project, forked from 
 <sub>Docker · Needs Ekho voice data files · Models: pinyin voice files (pinyin.index, pinyin.voice) · [Repo](https://github.com/hgneng/ekho) · [📖 Docs ↗](http://eguidedog.net/doc/doc_make_new_voice_cn.php) · [🌐 Site ↗](http://www.eguidedog.net/ekho.php) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ekho/)</sub>
 
 <a name="paddlespeech"></a>
-### #&#8288;106 [paddlespeech](https://github.com/paddlepaddle/paddlespeech) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (77) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;107 [paddlespeech](https://github.com/paddlepaddle/paddlespeech) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (77) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Jun 2026</sub>
 
 **Speech toolkit on PaddlePaddle for ASR, TTS, translation and speaker verification.**
 
@@ -1901,7 +1919,7 @@ PaddleSpeech is a Python toolkit built on PaddlePaddle that covers speech recogn
 <sub>GPU optional · Docker · Needs paddlepaddle, python>=3.8, gcc>=4.8.5 · Models: Whisper large v3 and turbo, wav2vec2, HuBERT, WavLM, U2/U2++ conformer · port 8090 · [Repo](https://github.com/paddlepaddle/paddlespeech) · [▶️ Demo ↗](https://huggingface.co/spaces/KPatrick/PaddleSpeechTTS) · [📖 Docs ↗](https://paddlespeech.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paddlespeech/)</sub>
 
 <a name="luxtts"></a>
-### #&#8288;107 [luxtts](https://github.com/ysharma3501/luxtts) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (54) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;108 [luxtts](https://github.com/ysharma3501/luxtts) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (54) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · Jun 2026</sub>
 
 **Text-to-speech model with voice cloning and 48 kHz output.**
 
@@ -1919,7 +1937,7 @@ LuxTTS is a ZipVoice-based text-to-speech model that clones a voice from a short
 <sub>GPU optional · Needs Python, Hugging Face model YatharthS/LuxTTS, librosa, soundfile · Models: LuxTTS (ZipVoice-based, 4-step distilled), 48 kHz vocoder · [Repo](https://github.com/ysharma3501/luxtts) · [▶️ Demo ↗](https://huggingface.co/spaces/YatharthS/LuxTTS) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/luxtts/)</sub>
 
 <a name="whisper-timestamped"></a>
-### #&#8288;108 [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (33) · Freshness: recent (78) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;109 [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (33) · Freshness: recent (78) · Maintenance: weak (13) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · AGPL-3.0 · Sep 2026</sub>
 
 **Whisper extension that adds word-level timestamps and confidence to transcripts.**
 
@@ -1937,7 +1955,7 @@ whisper-timestamped extends the openai-whisper Python package to output start/en
 <sub>GPU optional · Docker · Needs python3, ffmpeg, openai-whisper, torch, onnxruntime (VAD), torchaudio (VAD), transformers (HF models), matplotlib (plots) · Models: OpenAI Whisper models, Hugging Face fine-tuned Whisper models, local Whisper model folders · [Repo](https://github.com/linto-ai/whisper-timestamped) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisper-timestamped/)</sub>
 
 <a name="speaches"></a>
-### #&#8288;109 [Speaches](https://github.com/speaches-ai/speaches) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (43) · Freshness: recent (54) · Maintenance: weak (10) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Apr 2026</sub>
+### #&#8288;110 [Speaches](https://github.com/speaches-ai/speaches) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (43) · Freshness: recent (54) · Maintenance: weak (10) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · MIT · Apr 2026</sub>
 
 **OpenAI-compatible STT and TTS server with faster-whisper, Kokoro and Piper.**
 
@@ -1953,24 +1971,6 @@ Exposes OpenAI-style audio endpoints: streaming transcription and translation th
 - **−** Streaming transcription demo is marked TODO in the README
 
 <sub>GPU optional · Docker + Compose · Models: faster-whisper (CTranslate2 Whisper), Kokoro, Piper · [Repo](https://github.com/speaches-ai/speaches) · [📖 Docs ↗](https://speaches.ai/) · [🌐 Site ↗](https://speaches.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/speaches/)</sub>
-
-<a name="chatterbox-tts-server"></a>
-### #&#8288;110 [chatterbox-tts-server](https://github.com/devnen/chatterbox-tts-server) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (8) · Freshness: recent (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · May 2026</sub>
-
-**OpenAI-compatible TTS server and web UI for Resemble AI's Chatterbox models.**
-
-FastAPI server that wraps the Chatterbox TTS family (Original, Multilingual with 23 languages, and the 350M-parameter Turbo) behind an OpenAI-compatible speech API and a web UI. It adds zero-shot voice cloning from .wav or .mp3 references, predefined voices, a seed parameter, and sentence-based chunking for long texts such as audiobooks. Runs on CUDA, ROCm, Apple MPS or CPU.
-
-- **+** Hot-swaps Original, Multilingual and Turbo engines from a UI dropdown without restart
-- **+** Voice cloning from a reference file, plus predefined voices and a fixed seed for repeatable output
-- **+** Chunks long text and joins the audio, so whole books can go in one request
-- **+** Supports CUDA, ROCm, Apple MPS and CPU, with separate Docker compose files per GPU stack
-- **−** Python 3.10 is required; 3.11+ may fail on missing wheels
-- **−** Only serves Chatterbox models, no other TTS engines
-- **−** Streaming output is opt-in on /tts and not the default
-- **−** Installation depends on pinned torch and CUDA variants chosen per GPU generation
-
-<sub>GPU optional · Docker + Compose · Needs PyTorch, FastAPI, Docker (optional) · Models: Chatterbox Original (0.5B), Chatterbox Multilingual (23 languages), Chatterbox Turbo (350M) · port 8004 · [Repo](https://github.com/devnen/chatterbox-tts-server) · [▶️ Demo ↗](https://colab.research.google.com/github/devnen/Chatterbox-TTS-Server/blob/main/Chatterbox_TTS_Colab_Demo.ipynb) · [📖 Docs ↗](https://github.com/devnen/Chatterbox-TTS-Server/blob/main/README_Colab.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatterbox-tts-server/)</sub>
 
 <a name="mockingbird"></a>
 ### #&#8288;111 [mockingbird](https://github.com/babysor/mockingbird) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: widely used (93) · Freshness: quiet (25) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 37k · custom license · Mar 2026</sub>
@@ -2061,26 +2061,8 @@ Bert-VITS2 is a text-to-speech training and inference codebase that pairs the VI
 
 <sub>Models: VITS2, multilingual BERT · [Repo](https://github.com/fishaudio/bert-vits2) · [▶️ Demo ↗](https://www.bilibili.com/video/BV18E421371Q) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bert-vits2/)</sub>
 
-<a name="diffsinger"></a>
-### #&#8288;116 [diffsinger](https://github.com/moonintheriver/diffsinger) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (51) · Freshness: recent (61) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Jul 2026</sub>
-
-**Official PyTorch code for DiffSinger singing synthesis and DiffSpeech TTS.**
-
-Research implementation of the AAAI-2022 DiffSinger paper: a shallow diffusion acoustic model that generates mel-spectrograms for singing voice synthesis, plus DiffSpeech for text-to-speech. It covers PopCS and OpenCpop pipelines (cascade, end-to-end, PNDM-accelerated) with NSF-HiFiGAN or HiFiGAN vocoders. Training and inference run from Python scripts documented per pipeline.
-
-- **+** Several SVS pipelines: PopCS, OpenCpop cascade, end-to-end, and PNDM variants
-- **+** Includes DiffSpeech for TTS on LJSpeech alongside singing synthesis
-- **+** Hugging Face Spaces demos for both SVS and TTS
-- **+** MIT license with official code matching the paper
-- **−** Pinned to Python 3.8, torch 1.9 and CUDA 10.2/11.4 requirements files
-- **−** Last release is January 2022; README updates stop at September 2022
-- **−** No Docker image or packaged app; research-style scripts and dataset prep
-- **−** Training depends on external datasets such as OpenCpop and LJSpeech
-
-<sub>Needs Python 3.8, PyTorch 1.9, PyTorch Lightning, OpenCpop dataset, LJSpeech dataset · Models: DiffSinger, DiffSpeech, FFT-Singer, NSF-HiFiGAN, HiFiGAN · [Repo](https://github.com/moonintheriver/diffsinger) · [▶️ Demo ↗](https://huggingface.co/spaces/Silentlin/DiffSinger) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diffsinger/)</sub>
-
 <a name="patter"></a>
-### #&#8288;117 [patter](https://github.com/patterai/patter) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (3) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Aug 2026</sub>
+### #&#8288;116 [patter](https://github.com/patterai/patter) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: niche (3) · Freshness: active (99) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Aug 2026</sub>
 
 **SDK that connects an AI voice agent to phone calls via Twilio, Telnyx or Plivo.**
 
@@ -2098,7 +2080,7 @@ Patter is a Python and TypeScript SDK that runs the agent loop for phone calls, 
 <sub>no GPU · Docker + Compose · Needs Twilio, Telnyx or Plivo account, LLM/STT/TTS provider API keys, Cloudflare quick tunnel or ngrok · Models: OpenAI, Anthropic, Google Gemini, Groq, Cerebras · [Repo](https://github.com/patterai/patter) · [📖 Docs ↗](https://docs.getpatter.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/patter/)</sub>
 
 <a name="misotts"></a>
-### #&#8288;118 [misotts](https://github.com/misolabsai/misotts) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (38) · Freshness: recent (71) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Jun 2026</sub>
+### #&#8288;117 [misotts](https://github.com/misolabsai/misotts) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (38) · Freshness: recent (71) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Jun 2026</sub>
 
 **8B-parameter English text-to-dialogue speech model with voice cloning from prompt audio.**
 
@@ -2115,26 +2097,8 @@ Miso TTS 8B is an RVQ Transformer, inspired by Sesame CSM, that generates Mimi a
 
 <sub>RAM ≥ 20 GB · GPU required · Needs PyTorch, torchaudio, Hugging Face Hub, Mimi codec, SilentCipher (sony/silentcipher), Llama 3.2 tokenizer, uv · Models: Miso TTS 8B (MisoLabs/MisoTTS), bfloat16, float32 · [Repo](https://github.com/misolabsai/misotts) · [▶️ Demo ↗](https://misolabs.ai) · [🌐 Site ↗](https://misolabs.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/misotts/)</sub>
 
-<a name="wespeaker"></a>
-### #&#8288;119 [wespeaker](https://github.com/wenet-e2e/wespeaker) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (7) · Freshness: recent (70) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Sep 2026</sub>
-
-**Speaker embedding training and verification toolkit with diarization recipes.**
-
-WeSpeaker is a PyTorch toolkit for training speaker embedding models and using them for speaker verification and diarization. It ships recipes for VoxCeleb, CNCeleb, NIST SRE16 and VoxConverse, plus a pip package and CLI for extracting embeddings, scoring similarity and diarizing audio with pretrained models. A runtime directory covers deployment, including MNN inference.
-
-- **+** Recipes for VoxCeleb, CNCeleb, SRE16 and VoxConverse with published EER/minDCF results
-- **+** Pip package and CLI cover embedding, similarity and diarization with pretrained models
-- **+** Supports many architectures and frontends: ResNet, ECAPA-TDNN, ERes2Net, WavLM, Whisper encoder
-- **+** Active development: U³-xi and ReDimNet2 models added in 2026
-- **−** Last tagged release is from 2023-07; pip install pulls from the git master branch
-- **−** Speaker tasks only; no speech recognition or synthesis
-- **−** Dev setup is involved: pinned torch, sox, and a torchnet build workaround
-- **−** README badges list Python 3.8 and 3.9 only
-
-<sub>GPU optional · Needs PyTorch, torchaudio, sox · Models: ResNet, ECAPA-TDNN, ERes2Net, Res2Net, SimAM_ResNet · [Repo](https://github.com/wenet-e2e/wespeaker) · [▶️ Demo ↗](https://huggingface.co/spaces/wenet/wespeaker_demo) · [📖 Docs ↗](http://wenet.org.cn/wespeaker) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wespeaker/)</sub>
-
 <a name="amphion"></a>
-### #&#8288;120 [amphion](https://github.com/open-mmlab/amphion) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (71) · Freshness: slowing (30) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Mar 2026</sub>
+### #&#8288;118 [amphion](https://github.com/open-mmlab/amphion) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (71) · Freshness: slowing (30) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Mar 2026</sub>
 
 **PyTorch toolkit for training and running speech, singing and audio generation models.**
 
@@ -2151,8 +2115,26 @@ Amphion is a research toolkit with recipes and pretrained checkpoints for text-t
 
 <sub>Docker · Needs PyTorch · Models: FastSpeech2, VITS, VALL-E, NaturalSpeech2, MaskGCT · [Repo](https://github.com/open-mmlab/amphion) · [▶️ Demo ↗](https://huggingface.co/spaces/amphion/maskgct) · [📖 Docs ↗](https://github.com/open-mmlab/Amphion/blob/main/egs/tts/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/amphion/)</sub>
 
+<a name="wespeaker"></a>
+### #&#8288;119 [wespeaker](https://github.com/wenet-e2e/wespeaker) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (7) · Freshness: recent (70) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Sep 2026</sub>
+
+**Speaker embedding training and verification toolkit with diarization recipes.**
+
+WeSpeaker is a PyTorch toolkit for training speaker embedding models and using them for speaker verification and diarization. It ships recipes for VoxCeleb, CNCeleb, NIST SRE16 and VoxConverse, plus a pip package and CLI for extracting embeddings, scoring similarity and diarizing audio with pretrained models. A runtime directory covers deployment, including MNN inference.
+
+- **+** Recipes for VoxCeleb, CNCeleb, SRE16 and VoxConverse with published EER/minDCF results
+- **+** Pip package and CLI cover embedding, similarity and diarization with pretrained models
+- **+** Supports many architectures and frontends: ResNet, ECAPA-TDNN, ERes2Net, WavLM, Whisper encoder
+- **+** Active development: U³-xi and ReDimNet2 models added in 2026
+- **−** Last tagged release is from 2023-07; pip install pulls from the git master branch
+- **−** Speaker tasks only; no speech recognition or synthesis
+- **−** Dev setup is involved: pinned torch, sox, and a torchnet build workaround
+- **−** README badges list Python 3.8 and 3.9 only
+
+<sub>GPU optional · Needs PyTorch, torchaudio, sox · Models: ResNet, ECAPA-TDNN, ERes2Net, Res2Net, SimAM_ResNet · [Repo](https://github.com/wenet-e2e/wespeaker) · [▶️ Demo ↗](https://huggingface.co/spaces/wenet/wespeaker_demo) · [📖 Docs ↗](http://wenet.org.cn/wespeaker) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wespeaker/)</sub>
+
 <a name="gpa"></a>
-### #&#8288;121 [gpa](https://github.com/autoark/gpa) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: known (35) · Freshness: recent (65) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · May 2026</sub>
+### #&#8288;120 [gpa](https://github.com/autoark/gpa) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: known (35) · Freshness: recent (65) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · May 2026</sub>
 
 **Single autoregressive audio model for speech recognition and voice-cloning TTS.**
 
@@ -2168,6 +2150,24 @@ GPA is a 0.6B-parameter autoregressive transformer that handles both ASR and TTS
 - **−** TTS speaker similarity is below most listed open models, e.g. 63.5 on test-en
 
 <sub>GPU optional · Needs PyTorch, Hugging Face, ONNX Runtime · Models: PyTorch, Hugging Face, ONNX, vLLM, llama.cpp · [Repo](https://github.com/autoark/gpa) · [▶️ Demo ↗](https://autoark.github.io/GPA/) · [📖 Docs ↗](https://github.com/autoark/gpa/blob/main/GPA_1.5/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpa/)</sub>
+
+<a name="chatterbox-tts-server"></a>
+### #&#8288;121 [chatterbox-tts-server](https://github.com/devnen/chatterbox-tts-server) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (9) · Freshness: recent (74) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · May 2026</sub>
+
+**OpenAI-compatible TTS server and web UI for Resemble AI's Chatterbox models.**
+
+FastAPI server that wraps the Chatterbox TTS family (Original, Multilingual with 23 languages, and the 350M-parameter Turbo) behind an OpenAI-compatible speech API and a web UI. It adds zero-shot voice cloning from .wav or .mp3 references, predefined voices, a seed parameter, and sentence-based chunking for long texts such as audiobooks. Runs on CUDA, ROCm, Apple MPS or CPU.
+
+- **+** Hot-swaps Original, Multilingual and Turbo engines from a UI dropdown without restart
+- **+** Voice cloning from a reference file, plus predefined voices and a fixed seed for repeatable output
+- **+** Chunks long text and joins the audio, so whole books can go in one request
+- **+** Supports CUDA, ROCm, Apple MPS and CPU, with separate Docker compose files per GPU stack
+- **−** Python 3.10 is required; 3.11+ may fail on missing wheels
+- **−** Only serves Chatterbox models, no other TTS engines
+- **−** Streaming output is opt-in on /tts and not the default
+- **−** Installation depends on pinned torch and CUDA variants chosen per GPU generation
+
+<sub>GPU optional · Docker + Compose · Needs PyTorch, FastAPI, Docker (optional) · Models: Chatterbox Original (0.5B), Chatterbox Multilingual (23 languages), Chatterbox Turbo (350M) · port 8004 · [Repo](https://github.com/devnen/chatterbox-tts-server) · [▶️ Demo ↗](https://colab.research.google.com/github/devnen/Chatterbox-TTS-Server/blob/main/Chatterbox_TTS_Colab_Demo.ipynb) · [📖 Docs ↗](https://github.com/devnen/Chatterbox-TTS-Server/blob/main/README_Colab.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatterbox-tts-server/)</sub>
 
 <a name="dia"></a>
 ### #&#8288;122 [dia](https://github.com/nari-labs/dia) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: widely used (84) · Freshness: quiet (0) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Nov 2025</sub>
@@ -2313,26 +2313,8 @@ Takes an existing SRT subtitle file, translates it with Google Cloud or DeepL, t
 
 <sub>no GPU · Needs ffmpeg, Google Cloud, Azure, DeepL or Eleven Labs API keys, rubberband (optional) · Models: Azure TTS, Google Cloud TTS, Eleven Labs, Google Translate, DeepL · [Repo](https://github.com/thiojoe/auto-synced-translated-dubs) · [📖 Docs ↗](https://github.com/ThioJoe/Auto-Synced-Translated-Dubs/wiki/Instructions:-Obtaining-an-API-Key) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/auto-synced-translated-dubs/)</sub>
 
-<a name="vibevoice-comfyui"></a>
-### #&#8288;130 [vibevoice-comfyui](https://github.com/enemyx-net/vibevoice-comfyui) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (10) · Freshness: slowing (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Feb 2026</sub>
-
-**ComfyUI custom nodes for VibeVoice text-to-speech with voice cloning.**
-
-Wraps Microsoft's VibeVoice TTS model as ComfyUI nodes for single-speaker and multi-speaker (up to 4, [N]: labels) speech generation. It supports voice cloning from reference audio, LoRA adapters, 4-bit/8-bit quantization, automatic text chunking and wrapper-specific [pause:ms] tags. Models and the Qwen2.5-1.5B tokenizer must be downloaded manually into ComfyUI/models/vibevoice/.
-
-- **+** Multi-speaker dialogue with up to 4 voices, each optionally cloned from a reference sample
-- **+** Quantized options: Large-Q8 needs ~12GB VRAM, Large-Q4 ~8GB, per the README
-- **+** Supports LoRA adapters with per-component toggles and strength control
-- **+** Runs on CUDA, CPU and Apple Silicon (MPS); embeds VibeVoice code
-- **−** Since v1.6.0 models and tokenizer must be downloaded and placed manually
-- **−** Pause tags split text into chunks, which can hurt prosody across boundaries
-- **−** LoRA tested only with transformers 4.51.3; newer versions not guaranteed
-- **−** Dynamic 4-bit/8-bit LLM quantization requires CUDA; full Large model needs ~20GB VRAM
-
-<sub>GPU optional · Needs ComfyUI, transformers>=4.51.3, Qwen2.5-1.5B tokenizer · Models: VibeVoice-1.5B, VibeVoice-Large, VibeVoice-Large-Q8, VibeVoice-Large-Q4, LoRA adapters · [Repo](https://github.com/enemyx-net/vibevoice-comfyui) · [▶️ Demo ↗](https://www.youtube.com/watch?v=fIBMepIBKhI) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vibevoice-comfyui/)</sub>
-
 <a name="whisper-webui"></a>
-### #&#8288;131 [whisper-webui](https://github.com/jhj0517/whisper-webui) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: known (33) · Freshness: quiet (20) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;130 [whisper-webui](https://github.com/jhj0517/whisper-webui) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: known (33) · Freshness: quiet (20) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Dec 2025</sub>
 
 **Gradio web UI for generating subtitles with Whisper models.**
 
@@ -2350,7 +2332,7 @@ Whisper-WebUI is a Gradio browser interface that transcribes audio from files, Y
 <sub>GPU optional · Docker + Compose · Needs FFmpeg, Python 3.10-3.12, Hugging Face token (diarization), DeepL API key (optional translation) · Models: openai/whisper, faster-whisper, insanely-fast-whisper, NLLB, pyannote · port 7860 · [Repo](https://github.com/jhj0517/whisper-webui) · [▶️ Demo ↗](https://colab.research.google.com/github/jhj0517/Whisper-WebUI/blob/master/notebook/whisper-webui.ipynb) · [📖 Docs ↗](https://github.com/jhj0517/Whisper-WebUI/wiki/Command-Line-Arguments) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisper-webui/)</sub>
 
 <a name="fireredasr"></a>
-### #&#8288;132 [fireredasr](https://github.com/fireredteam/fireredasr) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (22) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;131 [fireredasr](https://github.com/fireredteam/fireredasr) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (22) · Freshness: slowing (33) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Feb 2026</sub>
 
 **Mandarin, dialect and English speech recognition models with Python inference code.**
 
@@ -2367,26 +2349,8 @@ FireRedASR provides two speech recognition models, an 1.1B attention encoder-dec
 
 <sub>Needs Python 3.10, ffmpeg, Qwen2-7B-Instruct (for LLM variant), Hugging Face model weights · Models: FireRedASR-AED-L, FireRedASR-LLM-L, Qwen2-7B-Instruct · [Repo](https://github.com/fireredteam/fireredasr) · [▶️ Demo ↗](https://huggingface.co/spaces/FireRedTeam/FireRedASR) · [🌐 Site ↗](https://fireredteam.github.io/demos/firered_asr/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fireredasr/)</sub>
 
-<a name="outetts"></a>
-### #&#8288;133 [outetts](https://github.com/edwko/outetts) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (7) · Freshness: quiet (30) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Mar 2026</sub>
-
-**Python text-to-speech library with voice cloning from a reference clip.**
-
-OuteTTS is a Python library that runs the OuteAI text-to-speech models (1.0 in 0.6B and 1B sizes) and clones a voice from a reference audio clip saved as a reusable speaker profile. It runs on llama.cpp bindings, llama.cpp server, Transformers, ExLlamaV2 or experimental vLLM, with batched async modes for throughput. Output is saved as WAV.
-
-- **+** Multiple backends: llama.cpp (CPU, CUDA, ROCm, Vulkan, Metal), Transformers, ExLlamaV2, vLLM
-- **+** Voice cloning from a reference clip, saved as a reusable JSON speaker profile
-- **+** Batched async backends for 1.0 models, with RTF benchmarks on an L40S
-- **+** Required sampler settings and 64-token repetition window are applied automatically
-- **−** Only one default English speaker ships; other voices need your own reference audio
-- **−** Cloned voice keeps the reference accent when speaking other languages
-- **−** Recommended single generation is about 42 seconds (about 8,192 tokens), less with a long reference
-- **−** GPU builds of llama.cpp require setting CMAKE_ARGS at install time
-
-<sub>GPU optional · Needs llama-cpp-python, transformers, DAC (Descript Audio Codec) · Models: OuteTTS 1.0 1B, OuteTTS 1.0 0.6B, OuteTTS 0.2, OuteTTS 0.3 · [Repo](https://github.com/edwko/outetts) · [📖 Docs ↗](https://github.com/edwko/OuteTTS/blob/main/docs/interface_usage.md) · [🌐 Site ↗](https://www.outeai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/outetts/)</sub>
-
 <a name="vits-simple-api"></a>
-### #&#8288;134 [vits-simple-api](https://github.com/artrajz/vits-simple-api) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (3) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · AGPL-3.0 · May 2026</sub>
+### #&#8288;132 [vits-simple-api](https://github.com/artrajz/vits-simple-api) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: niche (3) · Freshness: slowing (44) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · AGPL-3.0 · May 2026</sub>
 
 **HTTP API and web UI for VITS-family text-to-speech models.**
 
@@ -2404,7 +2368,7 @@ Wraps VITS, Bert-VITS2, GPT-SoVITS, HuBert-soft VITS and W2V2 emotional VITS mod
 <sub>GPU optional · Docker + Compose · Needs Python 3.10, PyTorch, Docker (optional), CUDA (for GPU) · Models: VITS, Bert-VITS2, GPT-SoVITS, HuBert-soft VITS, W2V2-VITS · port 23456 · [Repo](https://github.com/artrajz/vits-simple-api) · [▶️ Demo ↗](https://huggingface.co/spaces/Artrajz/vits-simple-api) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vits-simple-api/)</sub>
 
 <a name="chattts-colab"></a>
-### #&#8288;135 [chattts_colab](https://github.com/6drf21e/chattts_colab) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: known (31) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.6k · no license · May 2026</sub>
+### #&#8288;133 [chattts_colab](https://github.com/6drf21e/chattts_colab) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: known (31) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.6k · no license · May 2026</sub>
 
 **Gradio web UI for ChatTTS with voice sampling and multi-role reading.**
 
@@ -2422,7 +2386,7 @@ A Gradio web UI built on ChatTTS for text-to-speech. It adds streaming output, b
 <sub>Needs ChatTTS, Gradio, Conda, Hugging Face model download · Models: ChatTTS · [Repo](https://github.com/6drf21e/chattts_colab) · [▶️ Demo ↗](https://colab.research.google.com/github/6drf21e/ChatTTS_colab/blob/main/chattts_webui_mix.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chattts-colab/)</sub>
 
 <a name="ims-toucan"></a>
-### #&#8288;136 [ims-toucan](https://github.com/digitalphonetics/ims-toucan) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (25) · Freshness: quiet (15) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;134 [ims-toucan](https://github.com/digitalphonetics/ims-toucan) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (25) · Freshness: quiet (15) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Jan 2026</sub>
 
 **Text-to-speech toolkit for training and running TTS in 7000+ languages.**
 
@@ -2439,8 +2403,44 @@ IMS Toucan is a PyTorch toolkit from the University of Stuttgart for training, f
 
 <sub>GPU optional · Needs Python 3.10, PyTorch, espeak-ng, libsndfile1, ffmpeg, libportaudio2, Hugging Face (model download) · Models: ToucanTTS, FastSpeech 2, HiFi-GAN, Matcha-TTS style flow-matching PostNet · [Repo](https://github.com/digitalphonetics/ims-toucan) · [▶️ Demo ↗](https://huggingface.co/spaces/Flux9665/MassivelyMultilingualTTS) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ims-toucan/)</sub>
 
+<a name="vibevoice-comfyui"></a>
+### #&#8288;135 [vibevoice-comfyui](https://github.com/enemyx-net/vibevoice-comfyui) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (10) · Freshness: slowing (31) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Feb 2026</sub>
+
+**ComfyUI custom nodes for VibeVoice text-to-speech with voice cloning.**
+
+Wraps Microsoft's VibeVoice TTS model as ComfyUI nodes for single-speaker and multi-speaker (up to 4, [N]: labels) speech generation. It supports voice cloning from reference audio, LoRA adapters, 4-bit/8-bit quantization, automatic text chunking and wrapper-specific [pause:ms] tags. Models and the Qwen2.5-1.5B tokenizer must be downloaded manually into ComfyUI/models/vibevoice/.
+
+- **+** Multi-speaker dialogue with up to 4 voices, each optionally cloned from a reference sample
+- **+** Quantized options: Large-Q8 needs ~12GB VRAM, Large-Q4 ~8GB, per the README
+- **+** Supports LoRA adapters with per-component toggles and strength control
+- **+** Runs on CUDA, CPU and Apple Silicon (MPS); embeds VibeVoice code
+- **−** Since v1.6.0 models and tokenizer must be downloaded and placed manually
+- **−** Pause tags split text into chunks, which can hurt prosody across boundaries
+- **−** LoRA tested only with transformers 4.51.3; newer versions not guaranteed
+- **−** Dynamic 4-bit/8-bit LLM quantization requires CUDA; full Large model needs ~20GB VRAM
+
+<sub>GPU optional · Needs ComfyUI, transformers>=4.51.3, Qwen2.5-1.5B tokenizer · Models: VibeVoice-1.5B, VibeVoice-Large, VibeVoice-Large-Q8, VibeVoice-Large-Q4, LoRA adapters · [Repo](https://github.com/enemyx-net/vibevoice-comfyui) · [▶️ Demo ↗](https://www.youtube.com/watch?v=fIBMepIBKhI) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vibevoice-comfyui/)</sub>
+
+<a name="outetts"></a>
+### #&#8288;136 [outetts](https://github.com/edwko/outetts) <sub>score [11](../README.md#-how-we-rank "Score 11/100. Adoption: niche (7) · Freshness: quiet (30) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Mar 2026</sub>
+
+**Python text-to-speech library with voice cloning from a reference clip.**
+
+OuteTTS is a Python library that runs the OuteAI text-to-speech models (1.0 in 0.6B and 1B sizes) and clones a voice from a reference audio clip saved as a reusable speaker profile. It runs on llama.cpp bindings, llama.cpp server, Transformers, ExLlamaV2 or experimental vLLM, with batched async modes for throughput. Output is saved as WAV.
+
+- **+** Multiple backends: llama.cpp (CPU, CUDA, ROCm, Vulkan, Metal), Transformers, ExLlamaV2, vLLM
+- **+** Voice cloning from a reference clip, saved as a reusable JSON speaker profile
+- **+** Batched async backends for 1.0 models, with RTF benchmarks on an L40S
+- **+** Required sampler settings and 64-token repetition window are applied automatically
+- **−** Only one default English speaker ships; other voices need your own reference audio
+- **−** Cloned voice keeps the reference accent when speaking other languages
+- **−** Recommended single generation is about 42 seconds (about 8,192 tokens), less with a long reference
+- **−** GPU builds of llama.cpp require setting CMAKE_ARGS at install time
+
+<sub>GPU optional · Needs llama-cpp-python, transformers, DAC (Descript Audio Codec) · Models: OuteTTS 1.0 1B, OuteTTS 1.0 0.6B, OuteTTS 0.2, OuteTTS 0.3 · [Repo](https://github.com/edwko/outetts) · [📖 Docs ↗](https://github.com/edwko/OuteTTS/blob/main/docs/interface_usage.md) · [🌐 Site ↗](https://www.outeai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/outetts/)</sub>
+
 <a name="soprano"></a>
-### #&#8288;137 [soprano](https://github.com/ekwek1/soprano) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (13) · Freshness: quiet (18) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;137 [soprano](https://github.com/ekwek1/soprano) <sub>score [9](../README.md#-how-we-rank "Score 9/100. Adoption: niche (12) · Freshness: quiet (18) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Jan 2026</sub>
 
 **80M-parameter English text-to-speech model with streaming and CPU support.**
 
