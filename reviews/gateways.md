@@ -113,7 +113,7 @@ FreeLLMAPI serves one OpenAI-compatible /v1 endpoint, plus Anthropic Messages, G
 <sub>no GPU · Docker + Compose · Needs Node.js 20+, SQLite, Provider API keys, Docker (optional) · Models: OpenAI-compatible APIs, Anthropic Messages API, Gemini API, Ollama API (opt-in) · port 3001 · [Repo](https://github.com/tashfeenahmed/freellmapi) · [📖 Docs ↗](https://github.com/tashfeenahmed/freellmapi/blob/main/docs/en/README.md) · [🌐 Site ↗](https://freellmapi.co/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/freellmapi/)</sub>
 
 <a name="experiential"></a>
-### #&#8288;7 [experiential](https://github.com/experientiallabs/experiential) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;7 [experiential](https://github.com/experientiallabs/experiential) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Nov 2026</sub>
 
 **OpenAI-compatible LLM gateway with per-user budgets and traffic-trained routers.**
 
@@ -131,7 +131,7 @@ Experiential runs a local gateway that exposes hosted, BYOK and local models thr
 <sub>no GPU · Needs Tinker (for model fine-tuning), Provider API keys (OpenAI, Anthropic, Gemini, Azure, Bedrock, Fireworks, OpenRouter) · Models: OpenAI-compatible API, Anthropic Messages API (hosted), hosted models, BYOK models, local models · port 8000 · [Repo](https://github.com/experientiallabs/experiential) · [📖 Docs ↗](https://platform.experientiallabs.ai/docs) · [🌐 Site ↗](https://platform.experientiallabs.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/experiential/)</sub>
 
 <a name="llm-gateway"></a>
-### #&#8288;8 [llm-gateway](https://github.com/mnfst/llm-gateway) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Nov 2026</sub>
+### #&#8288;8 [llm-gateway](https://github.com/mnfst/llm-gateway) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.7k · MIT · Nov 2026</sub>
 
 **OpenAI-compatible gateway routing requests across providers, subscriptions, local models.**
 
@@ -184,7 +184,7 @@ Opik records traces of LLM calls and multi-step agent runs through Python and Ty
 <sub>no GPU · Compose · Needs Docker Compose, Kubernetes and Helm (optional) · Models: Provider-agnostic via SDK, OpenTelemetry and integrations (Google ADK, Autogen, AG2, Flowise) · port 5173 · [Repo](https://github.com/comet-ml/opik) · [📖 Docs ↗](https://www.comet.com/docs/opik/) · [🌐 Site ↗](https://www.comet.com/site/products/opik/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/opik/)</sub>
 
 <a name="promptfoo"></a>
-### #&#8288;11 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · MIT · Nov 2026</sub>
+### #&#8288;11 [promptfoo](https://github.com/promptfoo/promptfoo) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 28k · MIT · Nov 2026</sub>
 
 **CLI and library for evaluating and red-teaming LLM apps.**
 
@@ -202,7 +202,7 @@ Promptfoo runs prompt and model evaluations from a config file, compares provide
 <sub>no GPU · Docker · Needs Node.js, LLM provider API keys · Models: OpenAI, Anthropic, Azure, Bedrock, Ollama · [Repo](https://github.com/promptfoo/promptfoo) · [📖 Docs ↗](https://www.promptfoo.dev/docs/) · [🌐 Site ↗](https://www.promptfoo.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/promptfoo/)</sub>
 
 <a name="phoenix"></a>
-### #&#8288;12 [arize-ai/phoenix](https://github.com/arize-ai/phoenix) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
+### #&#8288;12 [arize-ai/phoenix](https://github.com/arize-ai/phoenix) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · custom license · Nov 2026</sub>
 
 **LLM tracing, evaluation and prompt management built on OpenTelemetry.**
 
@@ -220,7 +220,7 @@ Phoenix collects OpenTelemetry/OpenInference traces from LLM applications and pr
 <sub>no GPU · Docker + Compose · Compose runs PostgreSQL · Models: OpenAI, Anthropic, Google GenAI, AWS Bedrock, OpenRouter · [Repo](https://github.com/arize-ai/phoenix) · [📖 Docs ↗](https://arize.com/docs/phoenix/) · [🌐 Site ↗](https://phoenix.arize.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/phoenix/)</sub>
 
 <a name="ragas"></a>
-### #&#8288;13 [ragas](https://github.com/vibrantlabsai/ragas) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [ragas](https://github.com/vibrantlabsai/ragas) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
 
 **Python library for scoring LLM and RAG application outputs with metrics.**
 
@@ -292,7 +292,7 @@ Bifrost is a Go AI gateway that fronts 23+ providers (OpenAI, Anthropic, Bedrock
 <sub>no GPU · Models: OpenAI, Anthropic, AWS Bedrock, Google Vertex, Azure, Cerebras, Cohere, Mistral, Ollama, Groq and more · port 8080 · [Repo](https://github.com/maximhq/bifrost) · [📖 Docs ↗](https://docs.getbifrost.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bifrost/)</sub>
 
 <a name="treg"></a>
-### #&#8288;17 [treg](https://github.com/superdesigndev/treg) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.6k · custom license · Nov 2026</sub>
+### #&#8288;17 [treg](https://github.com/superdesigndev/treg) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (71) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.7k · custom license · Nov 2026</sub>
 
 **Tool registry proxy giving agents one token for a priced API catalog.**
 
@@ -310,7 +310,7 @@ treg is a proxy and CLI that lets an agent call a catalog of third-party endpoin
 <sub>no GPU · Needs uv, tmux, Node 22.12+ (dashboard build), SQLite, PostHog (CLI telemetry, optional) · port 18790 · [Repo](https://github.com/superdesigndev/treg) · [📖 Docs ↗](https://treg.to/llms.txt) · [🌐 Site ↗](https://treg.to) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/treg/)</sub>
 
 <a name="agenta"></a>
-### #&#8288;18 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · custom license · Nov 2026</sub>
+### #&#8288;18 [Agenta](https://github.com/agenta-ai/agenta) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · custom license · Nov 2026</sub>
 
 **Shared team workspace for building and running chat-built agents.**
 
@@ -539,26 +539,8 @@ OptiLLM is a Python proxy that exposes an OpenAI-compatible chat completions end
 
 <sub>GPU optional · Docker + Compose · Needs OpenAI-compatible API or LiteLLM provider, spaCy (privacy plugin), Selenium and Chrome (web_search plugin) · Models: OpenAI, Azure OpenAI, Cerebras, Anthropic, Google Gemini · port 8000 · [Repo](https://github.com/algorithmicsuperintelligence/optillm) · [▶️ Demo ↗](https://huggingface.co/spaces/codelion/optillm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/optillm/)</sub>
 
-<a name="semantic-router"></a>
-### #&#8288;31 [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
-
-**Policy-driven router that selects or combines models behind one API endpoint.**
-
-vLLM Semantic Router sits between an agent harness and several configured model backends (local, private, cloud) and selects or combines models for each call based on a user-defined policy. Clients call one inference endpoint with a public model ID such as `vllm-sr/auto`. Policy can weigh quality, latency and cost, and keep calls within approved locations. Written in Go.
-
-- **+** One endpoint (vllm-sr/auto) fronts many local, private and cloud backends
-- **+** Policy can set quality, latency and cost priorities and location limits
-- **+** Publishes its own routing models on Hugging Face and a hallucination detection endpoint
-- **+** Hosted playground available; Apache-2.0 with recent commits and releases
-- **−** README gives no RAM, GPU or port requirements
-- **−** Install is a curl-to-bash script; other methods documented only externally
-- **−** README is mostly news and links; configuration details live on the docs site
-- **−** Does not run the agent loop or tools; needs a separate agent harness
-
-<sub>Docker · Models: local, private and cloud backends · [Repo](https://github.com/vllm-project/semantic-router) · [📖 Docs ↗](https://vllm-sr.ai/docs/intro/) · [🌐 Site ↗](https://vllm-sr.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-router/)</sub>
-
 <a name="switchyard"></a>
-### #&#8288;32 [switchyard](https://github.com/nvidia-nemo/switchyard) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [switchyard](https://github.com/nvidia-nemo/switchyard) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Nov 2026</sub>
 
 **Rust library that routes each agent request to an efficient or capable model.**
 
@@ -576,7 +558,7 @@ Switchyard is a Rust routing library (libsy) that decides which model handles ea
 <sub>Docker · Needs Rust toolchain, Python 3 (NeMo Relay plugin source build) · Models: OpenAI-compatible APIs, Anthropic-compatible APIs · [Repo](https://github.com/nvidia-nemo/switchyard) · [📖 Docs ↗](https://nvidia-nemo.github.io/Switchyard/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/switchyard/)</sub>
 
 <a name="plano"></a>
-### #&#8288;33 [Plano](https://github.com/katanemo/plano) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;32 [Plano](https://github.com/katanemo/plano) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · Apache-2.0 · Oct 2026</sub>
 
 **Envoy-based data plane that routes, traces and guards agent traffic.**
 
@@ -592,6 +574,24 @@ Plano is an Envoy-based proxy for agentic apps: a YAML file declares agents (HTT
 - **−** No port or resource guidance beyond example listeners
 
 <sub>no GPU · Docker · Needs Plano-Orchestrator routing model (hosted or local) · Models: OpenAI, Anthropic and other providers configured as model_providers · [Repo](https://github.com/katanemo/plano) · [📖 Docs ↗](https://docs.planoai.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/plano/)</sub>
+
+<a name="semantic-router"></a>
+### #&#8288;33 [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
+
+**Policy-driven router that selects or combines models behind one API endpoint.**
+
+vLLM Semantic Router sits between an agent harness and several configured model backends (local, private, cloud) and selects or combines models for each call based on a user-defined policy. Clients call one inference endpoint with a public model ID such as `vllm-sr/auto`. Policy can weigh quality, latency and cost, and keep calls within approved locations. Written in Go.
+
+- **+** One endpoint (vllm-sr/auto) fronts many local, private and cloud backends
+- **+** Policy can set quality, latency and cost priorities and location limits
+- **+** Publishes its own routing models on Hugging Face and a hallucination detection endpoint
+- **+** Hosted playground available; Apache-2.0 with recent commits and releases
+- **−** README gives no RAM, GPU or port requirements
+- **−** Install is a curl-to-bash script; other methods documented only externally
+- **−** README is mostly news and links; configuration details live on the docs site
+- **−** Does not run the agent loop or tools; needs a separate agent harness
+
+<sub>Docker · Models: local, private and cloud backends · [Repo](https://github.com/vllm-project/semantic-router) · [📖 Docs ↗](https://vllm-sr.ai/docs/intro/) · [🌐 Site ↗](https://vllm-sr.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/semantic-router/)</sub>
 
 <a name="agentgateway"></a>
 ### #&#8288;34 [agentgateway](https://github.com/agentgateway/agentgateway) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · Apache-2.0 · Nov 2026</sub>
@@ -682,7 +682,7 @@ OpenLIT is a self-hosted dashboard plus Python and TypeScript SDKs that auto-ins
 <sub>GPU optional · Compose · Needs ClickHouse, Docker Compose · Models: OpenAI, Anthropic, Ollama, vLLM, Amazon Bedrock · port 3000 · [Repo](https://github.com/openlit/openlit) · [📖 Docs ↗](https://docs.openlit.io/) · [🌐 Site ↗](https://openlit.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openlit/)</sub>
 
 <a name="trulens"></a>
-### #&#8288;39 [trulens](https://github.com/truera/trulens) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
+### #&#8288;39 [trulens](https://github.com/truera/trulens) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: known (41) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · MIT · Nov 2026</sub>
 
 **Tracing and LLM-judge evaluation for agents and RAG apps on OpenTelemetry.**
 
@@ -736,7 +736,7 @@ mcpo runs an MCP server (stdio, SSE or Streamable HTTP) and serves its tools as 
 <sub>no GPU · Docker · Needs Python 3.11+, uv (optional), the MCP server being proxied · port 8000 · [Repo](https://github.com/open-webui/mcpo) · [📖 Docs ↗](https://docs.openwebui.com/features/extensibility/plugin/tools/openapi-servers/mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mcpo/)</sub>
 
 <a name="lmnr"></a>
-### #&#8288;42 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;42 [Laminar](https://github.com/lmnr-ai/lmnr) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · Apache-2.0 · Nov 2026</sub>
 
 **Observability platform for AI agents with tracing, evals and SQL-queryable traces.**
 
@@ -986,7 +986,7 @@ Harvey LAB is a dataset of 2,010 legal tasks across 24 practice areas plus contr
 <sub>Needs pandoc >= 3.5 (for .docx grading), uv · [Repo](https://github.com/harveyai/harvey-labs) · [🌐 Site ↗](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/harvey-labs/)</sub>
 
 <a name="traceroot"></a>
-### #&#8288;56 [traceroot](https://github.com/traceroot-ai/traceroot) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · custom license · Nov 2026</sub>
+### #&#8288;56 [traceroot](https://github.com/traceroot-ai/traceroot) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · custom license · Nov 2026</sub>
 
 **LLM tracing, detectors and evals that feed fixes back to your coding agent.**
 
