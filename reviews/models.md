@@ -366,20 +366,20 @@ InsightFace is a 2D and 3D face analysis toolbox built on PyTorch and MXNet. It 
 <a name="lingbot-map"></a>
 ### #&#8288;21 [lingbot-map](https://github.com/robbyant/lingbot-map) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 19k · Apache-2.0 · Nov 2026</sub>
 
-**Feed-forward streaming 3D reconstruction and camera pose model for video.**
+**Feed-forward streaming 3D reconstruction model from video or image sequences.**
 
-LingBot-Map is a PyTorch model, the Geometric Context Transformer, that reconstructs 3D point clouds and camera poses from a video or image folder in a streaming fashion. It uses paged KV cache attention via FlashInfer, with an SDPA fallback, and the README reports about 20 FPS at 518×378 over sequences beyond 10,000 frames. It ships an interactive viser viewer, a windowed mode for long inputs, and an offline renderer that produces flythrough MP4s.
+LingBot-Map is a Geometric Context Transformer that predicts camera poses and dense point clouds from a video or image folder in a streaming, feed-forward pass. It uses paged KV cache attention (FlashInfer, with an SDPA fallback) and reports about 20 FPS at 518×378 on sequences over 10,000 frames. The repo includes a viser browser viewer, a windowed mode for long inputs, an offline MP4 flythrough renderer, and evaluation scripts.
 
-- **+** Streaming inference reported at ~20 FPS on 518×378 over sequences above 10,000 frames
-- **+** Windowed mode and keyframe interval handle very long videos, e.g. a ~25,000-frame demo
-- **+** Includes evaluation scripts for KITTI and Oxford Spires, plus an interactive viser viewer
-- **+** Checkpoints on Hugging Face and ModelScope under Apache-2.0
-- **−** Quality degrades when the KV cache holds more than 320 views, so long videos need tuning
-- **−** Offline renderer needs Kaolin, ffmpeg and a manually built CUDA extension
-- **−** Pinned to PyTorch 2.8.0 with CUDA 12.8 for prebuilt Kaolin wheels
-- **−** No GPU memory figures stated; low-VRAM use points to a third-party fork
+- **+** Streaming inference with paged KV cache; README reports ~20 FPS at 518×378 on 10,000+ frames
+- **+** Windowed mode and keyframe interval handle sequences up to ~25,000 frames
+- **+** Includes viser browser viewer, offline MP4 renderer and benchmark scripts
+- **+** Apache-2.0 code with checkpoints on Hugging Face and ModelScope
+- **−** Trained with RoPE on 320 views; longer sequences need keyframes or windowed mode
+- **−** Pose collapse is possible beyond the training distance range without state resets
+- **−** Offline renderer needs Kaolin, ffmpeg and hand-built CUDA extensions
+- **−** README points to LingBot-Map 2.0 as the newer model in a separate repo
 
-<sub>GPU required · Needs PyTorch 2.8.0 (CUDA 12.8), FlashInfer (recommended, SDPA fallback), viser, onnxruntime, NVIDIA Kaolin (offline renderer), ffmpeg (offline renderer), open3d (offline renderer) · Models: lingbot-map checkpoint (.pt), lingbot-map-stage1 checkpoint · port 8080 · [Repo](https://github.com/robbyant/lingbot-map) · [🌐 Site ↗](https://technology.robbyant.com/lingbot-map) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lingbot-map/)</sub>
+<sub>GPU required · Needs PyTorch 2.8.0 (CUDA 12.8), FlashInfer, onnxruntime, viser, Kaolin (offline renderer), ffmpeg (offline renderer), open3d (offline renderer) · Models: lingbot-map checkpoint (.pt), lingbot-map-stage1 checkpoint · port 8080 · [Repo](https://github.com/robbyant/lingbot-map) · [🌐 Site ↗](https://technology.robbyant.com/lingbot-map) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lingbot-map/)</sub>
 
 <a name="esm"></a>
 ### #&#8288;22 [esm](https://github.com/biohub/esm) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · custom license · Nov 2026</sub>
@@ -954,7 +954,7 @@ Matrix-Game is Skywork AI's series of interactive world models. Version 4.0 keep
 <sub>GPU required · Needs Hugging Face model weights and game assets, SageAttention (optional) · Models: Matrix-Game 4.0 fps-castle, Matrix-Game 4.0 fps-egypt, Matrix-Game 4.0 driving_game · [Repo](https://github.com/skyworkai/matrix-game) · [🌐 Site ↗](https://matrix-game-v4-0.github.io/page/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/matrix-game/)</sub>
 
 <a name="index-translate"></a>
-### #&#8288;54 [index-translate](https://github.com/bilibili/index-translate) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;54 [index-translate](https://github.com/bilibili/index-translate) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Nov 2026</sub>
 
 **Open translation models for text, images and speech across 150 languages.**
 

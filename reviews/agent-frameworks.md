@@ -915,8 +915,26 @@ AgentScope Java 2.0 is a JDK 17+ library for building agents on a ReAct core. It
 
 <sub>no GPU · Needs JDK 17+, Maven, Redis (optional), MySQL (optional), PostgreSQL (optional), Docker or Kubernetes (optional sandbox) · Models: DashScope, OpenAI, Anthropic, Gemini, Ollama · [Repo](https://github.com/agentscope-ai/agentscope-java) · [📖 Docs ↗](https://java.agentscope.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentscope-java/)</sub>
 
+<a name="eve"></a>
+### #&#8288;52 [vercel/eve](https://github.com/vercel/eve) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
+
+**TypeScript framework for durable agents defined as files in an agent/ directory.**
+
+eve is a TypeScript framework where an agent is defined by a conventional directory: instructions.md, typed tools, on-demand skills, message channels (HTTP, Slack, Discord) and cron schedules. It scaffolds with `npx eve@latest init` and picks models by AI Gateway model ID. Web Chat can be added with Vercel sign-in, and `eve deploy` publishes the agent.
+
+- **+** Agent layout is plain files: instructions.md, tools/, skills/, channels/, schedules/
+- **+** Tools are typed functions defined with defineTool and Zod input schemas
+- **+** Built-in channels for HTTP, Slack and Discord, plus cron schedules
+- **+** Package ships its docs in node_modules/eve/docs for coding agents
+- **−** Models are selected by AI Gateway model ID, tying setup to that gateway
+- **−** Web Chat sign-in and deploy flow are built around Vercel projects
+- **−** No Docker or compose files provided for self-hosting
+- **−** Local model support is not described in the README
+
+<sub>no GPU · Needs Node.js and npm, Vercel AI Gateway, Vercel project (for Web Chat and deploy) · Models: AI Gateway model IDs (e.g. openai/gpt-5.6-terra) · [Repo](https://github.com/vercel/eve) · [📖 Docs ↗](https://eve.dev/docs) · [🌐 Site ↗](https://eve.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eve/)</sub>
+
 <a name="ten-framework"></a>
-### #&#8288;52 [ten-framework](https://github.com/ten-framework/ten-framework) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Nov 2026</sub>
+### #&#8288;53 [ten-framework](https://github.com/ten-framework/ten-framework) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · custom license · Nov 2026</sub>
 
 **Framework for building real-time voice and multimodal conversational agents.**
 
@@ -934,7 +952,7 @@ TEN is a framework for real-time multimodal conversational agents, built from ex
 <sub>RAM ≥ 4 GB · no GPU · Needs Docker, Node.js 18, Agora App ID and Certificate, OpenAI API key, Deepgram API key, ElevenLabs API key · Models: OpenAI, Deepgram, ElevenLabs · port 3000 · [Repo](https://github.com/ten-framework/ten-framework) · [📖 Docs ↗](https://theten.ai/docs) · [🌐 Site ↗](https://theten.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ten-framework/)</sub>
 
 <a name="copilot-sdk"></a>
-### #&#8288;53 [copilot-sdk](https://github.com/github/copilot-sdk) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;54 [copilot-sdk](https://github.com/github/copilot-sdk) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **SDKs that embed the GitHub Copilot CLI agent runtime in your own apps.**
 
@@ -952,7 +970,7 @@ Official SDKs for Python, TypeScript, Go, .NET, Java and Rust that drive the Cop
 <sub>no GPU · Needs GitHub Copilot CLI, GitHub Copilot subscription or BYOK API key · Models: Models available via Copilot CLI, BYOK: OpenAI, BYOK: Microsoft Foundry, BYOK: Anthropic · [Repo](https://github.com/github/copilot-sdk) · [📖 Docs ↗](https://github.com/github/copilot-sdk/blob/main/docs/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/copilot-sdk/)</sub>
 
 <a name="mobilerun"></a>
-### #&#8288;54 [mobilerun](https://github.com/droidrun/mobilerun) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Nov 2026</sub>
+### #&#8288;55 [mobilerun](https://github.com/droidrun/mobilerun) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Nov 2026</sub>
 
 **LLM agent framework that taps, swipes and types on Android and iOS devices.**
 
@@ -968,24 +986,6 @@ Mobilerun drives Android and iOS devices from natural-language tasks through a C
 - **−** Hosted devices and fleet features are in the paid Mobilerun Cloud, not the framework
 
 <sub>no GPU · Docker · Needs ADB, Mobilerun Portal app, Android device or iOS device/simulator, LLM provider API or Ollama · Models: OpenAI, Anthropic, Gemini, xAI, Ollama · [Repo](https://github.com/droidrun/mobilerun) · [📖 Docs ↗](https://docs.mobilerun.ai) · [🌐 Site ↗](https://mobilerun.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mobilerun/)</sub>
-
-<a name="eve"></a>
-### #&#8288;55 [vercel/eve](https://github.com/vercel/eve) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · Apache-2.0 · Nov 2026</sub>
-
-**TypeScript framework for durable agents defined as files in an agent/ directory.**
-
-eve is a TypeScript framework where an agent is defined by a conventional directory: instructions.md, typed tools, on-demand skills, message channels (HTTP, Slack, Discord) and cron schedules. It scaffolds with `npx eve@latest init` and picks models by AI Gateway model ID. Web Chat can be added with Vercel sign-in, and `eve deploy` publishes the agent.
-
-- **+** Agent layout is plain files: instructions.md, tools/, skills/, channels/, schedules/
-- **+** Tools are typed functions defined with defineTool and Zod input schemas
-- **+** Built-in channels for HTTP, Slack and Discord, plus cron schedules
-- **+** Package ships its docs in node_modules/eve/docs for coding agents
-- **−** Models are selected by AI Gateway model ID, tying setup to that gateway
-- **−** Web Chat sign-in and deploy flow are built around Vercel projects
-- **−** No Docker or compose files provided for self-hosting
-- **−** Local model support is not described in the README
-
-<sub>no GPU · Needs Node.js and npm, Vercel AI Gateway, Vercel project (for Web Chat and deploy) · Models: AI Gateway model IDs (e.g. openai/gpt-5.6-terra) · [Repo](https://github.com/vercel/eve) · [📖 Docs ↗](https://eve.dev/docs) · [🌐 Site ↗](https://eve.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/eve/)</sub>
 
 <a name="langchain4j"></a>
 ### #&#8288;56 [langchain4j](https://github.com/langchain4j/langchain4j) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · Apache-2.0 · Nov 2026</sub>
@@ -1365,7 +1365,7 @@ Agent S takes a natural-language task, reads the screen, and completes it by cli
 <sub>GPU optional · Needs Tesseract (pytesseract), Grounding model endpoint (UI-TARS-1.5-7B), LLM API key (OpenAI, Anthropic, etc.) · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Open Router · [Repo](https://github.com/simular-ai/agent-s) · [▶️ Demo ↗](https://cloud.simular.ai/) · [🌐 Site ↗](https://www.simular.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agent-s/)</sub>
 
 <a name="vision-agents"></a>
-### #&#8288;77 [vision-agents](https://github.com/getstream/vision-agents) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;77 [vision-agents](https://github.com/getstream/vision-agents) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.2k · Apache-2.0 · Nov 2026</sub>
 
 **Python framework for real-time voice and video agents with vision models.**
 
@@ -3875,7 +3875,7 @@ MLE-bench is the code behind the paper evaluating AI agents on ML engineering. I
 <sub>RAM ≥ 440 GB · GPU optional · Needs Kaggle API credentials, Git-LFS, Docker · [Repo](https://github.com/openai/mle-bench) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mle-bench/)</sub>
 
 <a name="browserai"></a>
-### #&#8288;217 [browserai](https://github.com/sauravpanda/browserai) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (9) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Apr 2026</sub>
+### #&#8288;217 [browserai](https://github.com/sauravpanda/browserai) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (10) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Apr 2026</sub>
 
 **TypeScript SDK for running LLMs, speech and audio models in the browser.**
 

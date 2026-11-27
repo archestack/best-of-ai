@@ -842,7 +842,7 @@ Python reference implementation of agentic RAG built on LangGraph. It indexes PD
 <sub>Needs Qdrant, Ollama, LangGraph, LangChain, Langfuse (optional), RAGAS (optional) · Models: Ollama (granite4.1:8b default), OpenAI, Anthropic, Google Gemini, Qwen3-Embedding-0.6B embeddings · [Repo](https://github.com/giovannipasq/agentic-rag-for-dummies) · [▶️ Demo ↗](https://colab.research.google.com/github/GiovanniPasq/agentic-rag-for-dummies/blob/main/notebooks/agentic_rag.ipynb) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-rag-for-dummies/)</sub>
 
 <a name="genai-showcase"></a>
-### #&#8288;48 [genai-showcase](https://github.com/mongodb-developer/genai-showcase) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
+### #&#8288;48 [genai-showcase](https://github.com/mongodb-developer/genai-showcase) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (45) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · MIT · Nov 2026</sub>
 
 **MongoDB's notebooks, apps and workshops for building RAG and agents.**
 
@@ -1743,7 +1743,7 @@ A set of four Jupyter notebooks, with matching code in src/email_assistant, that
 <sub>no GPU · Needs OpenAI API, LangSmith, LangGraph, Gmail API, Agent Inbox, Python 3.11+ · Models: OpenAI · [Repo](https://github.com/langchain-ai/agents-from-scratch) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agents-from-scratch/)</sub>
 
 <a name="pytorch-cpp"></a>
-### #&#8288;99 [pytorch-cpp](https://github.com/prabhuomkar/pytorch-cpp) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Nov 2026</sub>
+### #&#8288;99 [pytorch-cpp](https://github.com/prabhuomkar/pytorch-cpp) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Nov 2026</sub>
 
 **C++ LibTorch ports of the PyTorch tutorials, from basics to GANs.**
 
@@ -2222,7 +2222,7 @@ A course of Jupyter notebooks (00 to 18) where you implement RL algorithms yours
 <sub>GPU optional · Docker + Compose · Needs Docker, Git, Python 3.13, LLM API key (optional, for AI Companion) · Models: Gemini, OpenAI, Anthropic, Groq · port 8080 · [Repo](https://github.com/alessiodm/drl-zh) · [🌐 Site ↗](https://drlzh.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/drl-zh/)</sub>
 
 <a name="frontier-evals"></a>
-### #&#8288;126 [frontier-evals](https://github.com/openai/frontier-evals) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Oct 2026</sub>
+### #&#8288;126 [frontier-evals](https://github.com/openai/frontier-evals) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Oct 2026</sub>
 
 **Eval code for paper replication, freelance coding and smart contract security.**
 

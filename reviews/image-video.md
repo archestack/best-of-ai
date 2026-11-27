@@ -1582,7 +1582,7 @@ Code2Video takes a knowledge point such as "Linear transformations and matrices"
 <sub>Needs Manim Community v0.19.0, LLM API (Claude-4-Opus recommended), Gemini API key (VLM critic), IconFinder API key (optional) · Models: Claude-4-Opus, gemini-2.5-pro-preview-05-06 · [Repo](https://github.com/showlab/code2video) · [🌐 Site ↗](https://showlab.github.io/Code2Video/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/code2video/)</sub>
 
 <a name="helios"></a>
-### #&#8288;89 [helios](https://github.com/pku-yuangroup/helios) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (28) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;89 [helios](https://github.com/pku-yuangroup/helios) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · Apache-2.0 · Nov 2026</sub>
 
 **14B video model generating minute-long clips from text, images or video.**
 
@@ -2390,7 +2390,7 @@ MatAnyone (CVPR 2025) extracts alpha and foreground videos of a person from a vi
 <sub>Needs Conda, Python 3.8, FFmpeg (Gradio demo), SAM / SAM2 (demo masks) · Models: matanyone.pth (PyTorch), Hugging Face PeiqingYang/MatAnyone · [Repo](https://github.com/pq-yang/matanyone) · [▶️ Demo ↗](https://huggingface.co/spaces/PeiqingYang/MatAnyone) · [🌐 Site ↗](https://pq-yang.github.io/projects/MatAnyone/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/matanyone/)</sub>
 
 <a name="magictime"></a>
-### #&#8288;134 [magictime](https://github.com/pku-yuangroup/magictime) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (4) · Freshness: slowing (37) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;134 [magictime](https://github.com/pku-yuangroup/magictime) <sub>score [12](../README.md#-how-we-rank "Score 12/100. Adoption: niche (5) · Freshness: slowing (37) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Mar 2026</sub>
 
 **Text-to-video model that generates time-lapse clips of growth, baking and melting.**
 

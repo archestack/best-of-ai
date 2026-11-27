@@ -1024,8 +1024,26 @@ Dodaios is a Python desktop app, also runnable as a browser-only server, that co
 
 <sub>GPU optional · Docker + Compose · Needs Python 3.11-3.14, Git, Claude Code or Codex CLI (for coding work) · Models: Claude, OpenAI, Gemini, Ollama · [Repo](https://github.com/dodaios/dodaios) · [📖 Docs ↗](https://github.com/Dodaios/Dodaios/blob/main/docs/feature-tour.md) · [🌐 Site ↗](https://dodaios.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dodaios/)</sub>
 
+<a name="openmuse"></a>
+### #&#8288;58 [openmuse](https://github.com/copilotkit/openmuse) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Nov 2026</sub>
+
+**Personal agent with browser, terminal and durable tasks for mobile and web.**
+
+OpenMuse is a personal-agent app built on CopilotKit React Native (Expo) with a Hono API, a SQL-leased task worker and a Playwright Chromium worker with persistent profiles. The agent can browse, fill PDFs, search the web and optionally run commands in a Docker Linux container. Gmail and Calendar writes require a stored review first. The README labels it alpha.
+
+- **+** Take-control console lets you continue the agent's Chromium session yourself
+- **+** Tasks support pause, resume, retry and approvals; SQL leases recover interrupted work
+- **+** Each Gmail or Calendar write needs its own stored review; credentials encrypted at rest
+- **+** Embedded PGlite by default, so no separate database for local use
+- **−** Needs a CopilotKit Intelligence project key in every mode; that service is not MIT-licensed
+- **−** Alpha: live Google accounts and open-ended reasoning need extra configuration
+- **−** Single owner behind a shared access key; not multi-tenant
+- **−** Terminal container has no network and a 30-second command limit; no graphical desktop
+
+<sub>no GPU · Needs CopilotKit Intelligence API key, Node 24, pnpm 11.19.0, Playwright Chromium, Docker (optional, Linux computer), Google OAuth client (optional), Parallel Search MCP (web search) · Models: OpenAI, Anthropic, Google · port 8081 · [Repo](https://github.com/copilotkit/openmuse) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmuse/)</sub>
+
 <a name="ouroboros"></a>
-### #&#8288;58 [razzant/ouroboros](https://github.com/razzant/ouroboros) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
+### #&#8288;59 [razzant/ouroboros](https://github.com/razzant/ouroboros) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
 
 **Self-modifying desktop AI agent with persistent memory and subagent swarm.**
 
@@ -1043,7 +1061,7 @@ Ouroboros is a general-purpose agent that keeps identity, memory and history acr
 <sub>GPU optional · Docker · Needs Git (AppImage only), Remote model API key, Codex account, or local GGUF model, Claudexor (bundled) · Models: OpenRouter, Codex account, Local GGUF, Remote provider APIs · [Repo](https://github.com/razzant/ouroboros) · [🌐 Site ↗](https://ouroboros-agent.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ouroboros/)</sub>
 
 <a name="piclaw"></a>
-### #&#8288;59 [piclaw](https://github.com/rcarmo/piclaw) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 922 · MIT · Nov 2026</sub>
+### #&#8288;60 [piclaw](https://github.com/rcarmo/piclaw) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 922 · MIT · Nov 2026</sub>
 
 **Single-user browser workspace for a coding agent with files and terminal.**
 
@@ -1059,24 +1077,6 @@ PiClaw is a self-hosted web workspace built on the Pi Coding Agent. It combines 
 - **−** Windows portable release and Bun repository install are experimental
 
 <sub>no GPU · Docker + Compose · Needs Docker or Bun, model provider or local OpenAI-compatible server · Models: Pi provider credentials, OpenAI-compatible local servers, llama.cpp, Azure OpenAI (image generation) · port 8080 · [Repo](https://github.com/rcarmo/piclaw) · [📖 Docs ↗](https://github.com/rcarmo/piclaw/blob/main/docs/README.md) · [🌐 Site ↗](https://rcarmo.github.io/piclaw-addons/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/piclaw/)</sub>
-
-<a name="openmuse"></a>
-### #&#8288;60 [openmuse](https://github.com/copilotkit/openmuse) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Nov 2026</sub>
-
-**Personal agent with browser, terminal and durable tasks for mobile and web.**
-
-OpenMuse is a personal-agent app built on CopilotKit React Native (Expo) with a Hono API, a SQL-leased task worker and a Playwright Chromium worker with persistent profiles. The agent can browse, fill PDFs, search the web and optionally run commands in a Docker Linux container. Gmail and Calendar writes require a stored review first. The README labels it alpha.
-
-- **+** Take-control console lets you continue the agent's Chromium session yourself
-- **+** Tasks support pause, resume, retry and approvals; SQL leases recover interrupted work
-- **+** Each Gmail or Calendar write needs its own stored review; credentials encrypted at rest
-- **+** Embedded PGlite by default, so no separate database for local use
-- **−** Needs a CopilotKit Intelligence project key in every mode; that service is not MIT-licensed
-- **−** Alpha: live Google accounts and open-ended reasoning need extra configuration
-- **−** Single owner behind a shared access key; not multi-tenant
-- **−** Terminal container has no network and a 30-second command limit; no graphical desktop
-
-<sub>no GPU · Needs CopilotKit Intelligence API key, Node 24, pnpm 11.19.0, Playwright Chromium, Docker (optional, Linux computer), Google OAuth client (optional), Parallel Search MCP (web search) · Models: OpenAI, Anthropic, Google · port 8081 · [Repo](https://github.com/copilotkit/openmuse) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmuse/)</sub>
 
 <a name="browserkitten"></a>
 ### #&#8288;61 [browserkitten](https://github.com/player-yn/browserkitten) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Nov 2026</sub>
@@ -1618,7 +1618,7 @@ OpenClaw Studio is a web dashboard that connects to an OpenClaw Gateway over a s
 <sub>no GPU · Needs Node.js 20.9+, OpenClaw Gateway, SQLite (better-sqlite3), Tailscale (optional) · port 3000 · [Repo](https://github.com/grp06/openclaw-studio) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-studio/)</sub>
 
 <a name="phoneclaw"></a>
-### #&#8288;91 [phoneclaw](https://github.com/kellyvv/phoneclaw) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (4) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;91 [phoneclaw](https://github.com/kellyvv/phoneclaw) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (5) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Aug 2026</sub>
 
 **iOS app running Gemma 4 and MiniCPM-V on-device with native iPhone skills.**
 
