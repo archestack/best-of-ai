@@ -26016,14 +26016,14 @@ entries:
     confidence: 0.8
     facts:
       stars: 7793
-      license: null
+      license: MIT
       last_commit: 2026-11-26
       last_release: 2026-11-26
       has_docker: true
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 77
+    score: 87
   - id: vllm-omni
     repo: vllm-project/vllm-omni
     name: vllm-omni
@@ -49792,14 +49792,14 @@ entries:
     confidence: 0.8
     facts:
       stars: 5220
-      license: null
+      license: MIT
       last_commit: 2026-10-24
       last_release: 2026-06-05
       has_docker: true
       has_compose: false
       is_template: false
       language: Python
-    score: 45
+    score: 55
   - id: grobid
     repo: grobidorg/grobid
     name: grobid
@@ -70772,14 +70772,14 @@ entries:
     confidence: 0.85
     facts:
       stars: 3196
-      license: null
+      license: MIT
       last_commit: 2026-11-24
       last_release: 2026-11-24
       has_docker: false
       has_compose: false
       is_template: false
       language: Python
-    score: 60
+    score: 70
   - id: seekdb
     repo: oceanbase/seekdb
     name: seekdb
@@ -104019,14 +104019,14 @@ entries:
     confidence: 0.6
     facts:
       stars: 2066
-      license: null
+      license: MIT
       last_commit: 2026-11-01
       last_release: null
       has_docker: false
       has_compose: false
       is_template: false
       language: Python
-    score: 45
+    score: 55
   - id: mlforecast
     repo: nixtla/mlforecast
     name: mlforecast
@@ -104486,14 +104486,14 @@ entries:
     confidence: 0.7
     facts:
       stars: 1332
-      license: null
+      license: Apache-2.0
       last_commit: 2026-10-27
       last_release: null
       has_docker: true
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 49
   - id: kernelbench
     repo: scalingintelligence/kernelbench
     name: kernelbench
