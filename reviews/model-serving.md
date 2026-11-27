@@ -1602,7 +1602,7 @@ A fork of llama.cpp that serves GGUF models through llama-server, with a built-i
 <sub>GPU optional · Docker · Needs CMake, CUDA Toolkit (for GPU builds) · Models: GGUF, DeepSeek-V3/V4, Qwen3/3.5, GLM-4.5/5, Gemma3/4 · port 8080 · [Repo](https://github.com/ikawrakow/ik_llama.cpp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ik-llama-cpp/)</sub>
 
 <a name="airunner"></a>
-### #&#8288;90 [airunner](https://github.com/capsize-games/airunner) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;90 [airunner](https://github.com/capsize-games/airunner) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Nov 2026</sub>
 
 **Headless Python service serving local LLM, speech and image models over HTTP.**
 
@@ -2088,7 +2088,7 @@ RTP-LLM is an LLM inference engine built by Alibaba's Foundation Model Inference
 <sub>GPU required · Models: HuggingFace models, SafeTensors, PyTorch, Megatron, GPTQ · [Repo](https://github.com/alibaba/rtp-llm) · [📖 Docs ↗](https://rtp-llm.ai/build/en/start/install.html) · [🌐 Site ↗](https://rtp-llm.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/rtp-llm/)</sub>
 
 <a name="mllm"></a>
-### #&#8288;117 [mllm](https://github.com/ubiquitouslearning/mllm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (11) · Freshness: active (91) · Maintenance: weak (17) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Sep 2026</sub>
+### #&#8288;117 [mllm](https://github.com/ubiquitouslearning/mllm) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (12) · Freshness: active (91) · Maintenance: weak (17) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Sep 2026</sub>
 
 **C++ inference engine for running multimodal LLMs on phones and edge devices.**
 

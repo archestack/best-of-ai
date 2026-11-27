@@ -558,7 +558,7 @@ Applio converts the voice in an audio clip to another voice and includes model t
 <sub>Docker + Compose · Needs Gradio, TensorBoard · [Repo](https://github.com/iahispano/applio) · [▶️ Demo ↗](https://applio.org/playground) · [📖 Docs ↗](https://docs.applio.org) · [🌐 Site ↗](https://applio.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/applio/)</sub>
 
 <a name="voiceink"></a>
-### #&#8288;32 [voiceink](https://github.com/beingpax/voiceink) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · custom license · Nov 2026</sub>
+### #&#8288;32 [voiceink](https://github.com/beingpax/voiceink) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · custom license · Nov 2026</sub>
 
 **Native macOS dictation app using local speech-to-text models.**
 
@@ -897,8 +897,26 @@ RealtimeTTS is a Python text-to-speech library that takes strings, generators or
 
 <sub>GPU optional · Docker · Needs PortAudio, mpv (some engines), NVIDIA driver (Qwen GPU mode) · Models: Qwen3-TTS, Inflect, Coqui XTTS, Kokoro, Piper · port 8080 · [Repo](https://github.com/koljab/realtimetts) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/realtimetts/)</sub>
 
+<a name="vieneu-tts"></a>
+### #&#8288;51 [vieneu-tts](https://github.com/pnnbao97/vieneu-tts) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Nov 2026</sub>
+
+**Vietnamese text-to-speech with voice cloning and an OpenAI-compatible streaming API.**
+
+VieNeu-TTS is a Vietnamese (and bilingual Vietnamese-English) TTS model with a Python SDK, a Gradio web UI and an API server exposing POST /v1/audio/speech. v3 Turbo outputs 48 kHz audio, ships 25 preset voices, clones a voice from a 3–8 s clip, and runs on CPU via ONNX Runtime or on CUDA via PyTorch. LoRA fine-tuning is supported; the newer v4 is proprietary and only available through vieneu.io.
+
+- **+** Torch-free CPU install via ONNX Runtime; RTF about 0.5 on a 12th-gen Core i5
+- **+** OpenAI-compatible /v1/audio/speech with streaming; first audio about 115 ms on RTX 3060
+- **+** Voice cloning from a 3–8 s clip with automatic denoising, plus 25 preset voices
+- **+** LoRA fine-tuning on a single consumer GPU; v3 Nano option for weak CPUs
+- **−** Focused on Vietnamese; the README describes no other languages beyond English
+- **−** Newer v4 with closer cloning fidelity is proprietary and API-only
+- **−** Dubbing, Lecture, Tiktok Reel and Audiobook features are only in the official app
+- **−** int8 CPU mode needs VNNI support and can produce garbled audio on older CPUs
+
+<sub>GPU optional · Docker + Compose · Needs ONNX Runtime, PyTorch (GPU path), uv · Models: VieNeu-TTS v3 Turbo, VieNeu-TTS v3 Nano, VieNeu-TTS v2, VieNeu-TTS v1 · port 7860 · [Repo](https://github.com/pnnbao97/vieneu-tts) · [▶️ Demo ↗](https://colab.research.google.com/drive/1b9PO-lcGZX9pEkEwQmu8MfhSnjxKrALW?usp=sharing) · [🌐 Site ↗](https://www.vieneu.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vieneu-tts/)</sub>
+
 <a name="typewhisper-mac"></a>
-### #&#8288;51 [typewhisper-mac](https://github.com/typewhisper/typewhisper-mac) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;52 [typewhisper-mac](https://github.com/typewhisper/typewhisper-mac) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-3.0 · Nov 2026</sub>
 
 **macOS menu bar dictation with local or cloud speech-to-text and workflows.**
 
@@ -916,7 +934,7 @@ TypeWhisper is a native Swift menu bar app for macOS 14+ that transcribes speech
 <sub>RAM ≥ 8 GB · GPU optional · Needs macOS 14.0+, Groq, OpenAI or xAI API keys (optional, for cloud engines) · Models: WhisperKit, Parakeet, Qwen3 ASR, Voxtral, Granite Speech · [Repo](https://github.com/typewhisper/typewhisper-mac) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/typewhisper-mac/)</sub>
 
 <a name="minutes"></a>
-### #&#8288;52 [minutes](https://github.com/silverstein/minutes) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
+### #&#8288;53 [minutes](https://github.com/silverstein/minutes) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
 
 **Local meeting recorder that stores Markdown transcripts and exposes them to MCP clients.**
 
@@ -934,7 +952,7 @@ Minutes records and transcribes meetings, calls, voice memos and dictation on-de
 <sub>Needs Node.js 22 (for MCP server), Ollama (optional, dictation local edits) · Models: Local transcription, Ollama, Cloud summarizers (optional) · [Repo](https://github.com/silverstein/minutes) · [📖 Docs ↗](https://github.com/silverstein/minutes/blob/main/docs/features.md) · [🌐 Site ↗](https://useminutes.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minutes/)</sub>
 
 <a name="fish-speech"></a>
-### #&#8288;53 [fish-speech](https://github.com/fishaudio/fish-speech) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (92) · Freshness: recent (70) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Oct 2026</sub>
+### #&#8288;54 [fish-speech](https://github.com/fishaudio/fish-speech) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (92) · Freshness: recent (70) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Oct 2026</sub>
 
 **Expressive multi-speaker text-to-speech models with voice cloning.**
 
@@ -952,7 +970,7 @@ Fish Speech is the code and weights for Fish Audio's TTS models: Drama 3 (35B-A3
 <sub>Docker + Compose · Needs PyTorch, Hugging Face model weights · Models: Drama 3 (35B-A3B), S2-Pro (4B) · [Repo](https://github.com/fishaudio/fish-speech) · [▶️ Demo ↗](https://fish.audio/) · [📖 Docs ↗](https://speech.fish.audio/install/) · [🌐 Site ↗](https://fish.audio/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fish-speech/)</sub>
 
 <a name="whisperx"></a>
-### #&#8288;54 [whisperx](https://github.com/m-bain/whisperx) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (89) · Freshness: active (99) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · BSD-2-Clause · Nov 2026</sub>
+### #&#8288;55 [whisperx](https://github.com/m-bain/whisperx) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (89) · Freshness: active (99) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 26k · BSD-2-Clause · Nov 2026</sub>
 
 **Batched Whisper transcription with word timestamps and speaker diarization.**
 
@@ -968,24 +986,6 @@ WhisperX is a Python CLI and library that transcribes audio with Whisper through
 - **−** Each language needs its own wav2vec2 alignment model; untested languages need manual choice
 
 <sub>GPU optional · Needs CUDA toolkit 12.8 (GPU only), ffmpeg, Hugging Face token (diarization), pyannote-audio, faster-whisper · Models: Whisper (large-v2, large-v3, medium, small, base), wav2vec2 alignment models, pyannote speaker-diarization-community-1, silero-vad · [Repo](https://github.com/m-bain/whisperx) · [▶️ Demo ↗](https://replicate.com/victor-upmeet/whisperx) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/whisperx/)</sub>
-
-<a name="vieneu-tts"></a>
-### #&#8288;55 [vieneu-tts](https://github.com/pnnbao97/vieneu-tts) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (44) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Nov 2026</sub>
-
-**Vietnamese text-to-speech with voice cloning and an OpenAI-compatible streaming API.**
-
-VieNeu-TTS is a Vietnamese (and bilingual Vietnamese-English) TTS model with a Python SDK, a Gradio web UI and an API server exposing POST /v1/audio/speech. v3 Turbo outputs 48 kHz audio, ships 25 preset voices, clones a voice from a 3–8 s clip, and runs on CPU via ONNX Runtime or on CUDA via PyTorch. LoRA fine-tuning is supported; the newer v4 is proprietary and only available through vieneu.io.
-
-- **+** Torch-free CPU install via ONNX Runtime; RTF about 0.5 on a 12th-gen Core i5
-- **+** OpenAI-compatible /v1/audio/speech with streaming; first audio about 115 ms on RTX 3060
-- **+** Voice cloning from a 3–8 s clip with automatic denoising, plus 25 preset voices
-- **+** LoRA fine-tuning on a single consumer GPU; v3 Nano option for weak CPUs
-- **−** Focused on Vietnamese; the README describes no other languages beyond English
-- **−** Newer v4 with closer cloning fidelity is proprietary and API-only
-- **−** Dubbing, Lecture, Tiktok Reel and Audiobook features are only in the official app
-- **−** int8 CPU mode needs VNNI support and can produce garbled audio on older CPUs
-
-<sub>GPU optional · Docker + Compose · Needs ONNX Runtime, PyTorch (GPU path), uv · Models: VieNeu-TTS v3 Turbo, VieNeu-TTS v3 Nano, VieNeu-TTS v2, VieNeu-TTS v1 · port 7860 · [Repo](https://github.com/pnnbao97/vieneu-tts) · [▶️ Demo ↗](https://colab.research.google.com/drive/1b9PO-lcGZX9pEkEwQmu8MfhSnjxKrALW?usp=sharing) · [🌐 Site ↗](https://www.vieneu.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vieneu-tts/)</sub>
 
 <a name="tts-webui"></a>
 ### #&#8288;56 [tts-webui](https://github.com/rsxdalv/tts-webui) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Nov 2026</sub>
@@ -1760,7 +1760,7 @@ FireRedTTS3 is PyTorch code and pretrained weights for text-to-speech. The Base 
 <sub>Needs PyTorch, torchaudio, wetext, FastText lid.176 (optional), OpenAI-compatible LLM API for LLM TN (optional), Gradio (demo) · Models: FireRedTTS3-Base, FireRedTTS3-Instruct · port 7860 · [Repo](https://github.com/fireredteam/fireredtts3) · [▶️ Demo ↗](https://fireredteam.github.io/demos/firered_tts_3/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/fireredtts3/)</sub>
 
 <a name="qwen3-tts"></a>
-### #&#8288;99 [qwen3-tts](https://github.com/qwenlm/qwen3-tts) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (80) · Freshness: slowing (40) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;99 [qwen3-tts](https://github.com/qwenlm/qwen3-tts) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (80) · Freshness: slowing (40) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Mar 2026</sub>
 
 **Open-weight multilingual text-to-speech models with voice cloning and voice design.**
 
@@ -2187,26 +2187,8 @@ Miso TTS 8B is an RVQ Transformer, inspired by Sesame CSM, that generates Mimi a
 
 <sub>RAM ≥ 20 GB · GPU required · Needs PyTorch, torchaudio, Hugging Face Hub, Mimi codec, SilentCipher (sony/silentcipher), Llama 3.2 tokenizer, uv · Models: Miso TTS 8B (MisoLabs/MisoTTS), bfloat16, float32 · [Repo](https://github.com/misolabsai/misotts) · [▶️ Demo ↗](https://misolabs.ai) · [🌐 Site ↗](https://misolabs.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/misotts/)</sub>
 
-<a name="amphion"></a>
-### #&#8288;123 [amphion](https://github.com/open-mmlab/amphion) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (72) · Freshness: slowing (30) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Mar 2026</sub>
-
-**PyTorch toolkit for training and running speech, singing and audio generation models.**
-
-Amphion is a research toolkit with recipes and pretrained checkpoints for text-to-speech, voice conversion, accent conversion, singing voice conversion and text-to-audio. It includes models such as FastSpeech2, VITS, VALL-E, MaskGCT, Vevo and DualCodec, plus several vocoders and evaluation metrics. It also ships the Emilia multilingual speech dataset and its preprocessing pipeline.
-
-- **+** Covers TTS, VC, AC, SVC and TTA in one codebase with per-task recipes
-- **+** Includes many vocoders (HiFi-GAN, BigVGAN, DiffWave, WaveNet) and evaluation metrics
-- **+** Pretrained checkpoints on Hugging Face and ModelScope, including MaskGCT, Vevo and Metis
-- **+** Releases the Emilia dataset (over 200k hours with Emilia-Large) and its preprocessing pipeline
-- **−** Research-oriented; no packaged end-user app or server API in the README
-- **−** Last tagged release is 2024-02-23, though commits continue
-- **−** Text-to-music is listed as still in development
-- **−** Emilia original data is CC BY-NC 4.0, unlike the MIT code
-
-<sub>Docker · Needs PyTorch · Models: FastSpeech2, VITS, VALL-E, NaturalSpeech2, MaskGCT · [Repo](https://github.com/open-mmlab/amphion) · [▶️ Demo ↗](https://huggingface.co/spaces/amphion/maskgct) · [📖 Docs ↗](https://github.com/open-mmlab/Amphion/blob/main/egs/tts/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/amphion/)</sub>
-
 <a name="wespeaker"></a>
-### #&#8288;124 [wespeaker](https://github.com/wenet-e2e/wespeaker) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (11) · Freshness: recent (70) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;123 [wespeaker](https://github.com/wenet-e2e/wespeaker) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (11) · Freshness: recent (70) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Sep 2026</sub>
 
 **Speaker embedding training and verification toolkit with diarization recipes.**
 
@@ -2222,6 +2204,24 @@ WeSpeaker is a PyTorch toolkit for training speaker embedding models and using t
 - **−** README badges list Python 3.8 and 3.9 only
 
 <sub>GPU optional · Needs PyTorch, torchaudio, sox · Models: ResNet, ECAPA-TDNN, ERes2Net, Res2Net, SimAM_ResNet · [Repo](https://github.com/wenet-e2e/wespeaker) · [▶️ Demo ↗](https://huggingface.co/spaces/wenet/wespeaker_demo) · [📖 Docs ↗](http://wenet.org.cn/wespeaker) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wespeaker/)</sub>
+
+<a name="amphion"></a>
+### #&#8288;124 [amphion](https://github.com/open-mmlab/amphion) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: popular (72) · Freshness: slowing (30) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Mar 2026</sub>
+
+**PyTorch toolkit for training and running speech, singing and audio generation models.**
+
+Amphion is a research toolkit with recipes and pretrained checkpoints for text-to-speech, voice conversion, accent conversion, singing voice conversion and text-to-audio. It includes models such as FastSpeech2, VITS, VALL-E, MaskGCT, Vevo and DualCodec, plus several vocoders and evaluation metrics. It also ships the Emilia multilingual speech dataset and its preprocessing pipeline.
+
+- **+** Covers TTS, VC, AC, SVC and TTA in one codebase with per-task recipes
+- **+** Includes many vocoders (HiFi-GAN, BigVGAN, DiffWave, WaveNet) and evaluation metrics
+- **+** Pretrained checkpoints on Hugging Face and ModelScope, including MaskGCT, Vevo and Metis
+- **+** Releases the Emilia dataset (over 200k hours with Emilia-Large) and its preprocessing pipeline
+- **−** Research-oriented; no packaged end-user app or server API in the README
+- **−** Last tagged release is 2024-02-23, though commits continue
+- **−** Text-to-music is listed as still in development
+- **−** Emilia original data is CC BY-NC 4.0, unlike the MIT code
+
+<sub>Docker · Needs PyTorch · Models: FastSpeech2, VITS, VALL-E, NaturalSpeech2, MaskGCT · [Repo](https://github.com/open-mmlab/amphion) · [▶️ Demo ↗](https://huggingface.co/spaces/amphion/maskgct) · [📖 Docs ↗](https://github.com/open-mmlab/Amphion/blob/main/egs/tts/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/amphion/)</sub>
 
 <a name="gpa"></a>
 ### #&#8288;125 [gpa](https://github.com/autoark/gpa) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: known (38) · Freshness: recent (65) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · May 2026</sub>

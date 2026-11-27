@@ -1404,7 +1404,7 @@ Agentset is a TypeScript/Next.js platform for building RAG applications. It hand
 <sub>Needs Supabase, Prisma, Trigger.dev, Bun · Models: model-agnostic LLMs, embedding models, configurable vector DBs · [Repo](https://github.com/agentset-ai/agentset) · [📖 Docs ↗](https://docs.agentset.ai) · [🌐 Site ↗](https://agentset.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentset/)</sub>
 
 <a name="jonex"></a>
-### #&#8288;79 [jonex](https://github.com/yuezhiai/jonex) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
+### #&#8288;79 [jonex](https://github.com/yuezhiai/jonex) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · custom license · Nov 2026</sub>
 
 **Ontology-backed knowledge search over parsed documents, audio and video.**
 
@@ -1584,7 +1584,7 @@ Chatchat answers questions over your own files by splitting, embedding and retri
 <sub>GPU optional · Docker + Compose · Needs Xinference, Ollama, LocalAI, FastChat or One API, FAISS (default vector store), SQLite (default database) · Models: GLM-4-Chat, Qwen2-Instruct, Llama3, bge-large-zh-v1.5, qwen-vl-chat · [Repo](https://github.com/chatchat-space/langchain-chatchat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/langchain-chatchat/)</sub>
 
 <a name="autoflow"></a>
-### #&#8288;89 [autoflow](https://github.com/pingcap/autoflow) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (37) · Freshness: recent (70) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;89 [autoflow](https://github.com/pingcap/autoflow) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: known (38) · Freshness: recent (70) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Nov 2026</sub>
 
 **Graph RAG knowledge base with conversational search, built on TiDB Vector.**
 
