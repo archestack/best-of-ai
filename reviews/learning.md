@@ -5,7 +5,7 @@ Courses, cookbooks and guides with runnable code, for learning to build with AI.
 <sub>🌐 Also on the web: [Learning and cookbooks on archestack.com](https://archestack.com/best-of-ai/learning/), each project on its own page.</sub>
 
 <a name="ai-engineering-from-scratch"></a>
-### 🥇 [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 81k · MIT · Nov 2026</sub>
+### 🥇 [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) <sub>score [92](../README.md#-how-we-rank "Score 92/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 81k · MIT · Nov 2026</sub>
 
 **Free curriculum of 542 coding lessons on building AI systems from scratch.**
 
@@ -182,8 +182,24 @@ Official code for the book Build a Large Language Model (From Scratch). Jupyter 
 
 <sub>GPU optional · Needs PyTorch, Jupyter, Ollama (optional, chapter 7 evaluation) · Models: GPT-2, Llama 3.2, Qwen3, Gemma 3, Olmo 3 · [Repo](https://github.com/rasbt/llms-from-scratch) · [📖 Docs ↗](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) · [🌐 Site ↗](http://mng.bz/orYv) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llms-from-scratch/)</sub>
 
+<a name="openai-cookbook"></a>
+### #&#8288;11 [openai-cookbook](https://github.com/openai/openai-cookbook) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 78k · MIT · Nov 2026</sub>
+
+**Runnable notebooks and guides for common tasks with the OpenAI API.**
+
+A collection of example code and guides, mostly Python Jupyter notebooks, showing how to accomplish common tasks with the OpenAI API. It is published as a browsable site at cookbook.openai.com. Running the examples requires an OpenAI account and an OPENAI_API_KEY environment variable.
+
+- **+** Maintained by OpenAI, so examples track the official API
+- **+** Examples are runnable notebooks, mostly Python, with a searchable website
+- **+** MIT license permits reuse of the code
+- **−** Requires a paid-capable OpenAI account and API key to run examples
+- **−** Tied to OpenAI's API; local models are not the focus
+- **−** No installable package or app, only notebooks and guides
+
+<sub>no GPU · Needs OpenAI API key · Models: OpenAI API models · [Repo](https://github.com/openai/openai-cookbook) · [📖 Docs ↗](https://platform.openai.com/docs/introduction) · [🌐 Site ↗](https://cookbook.openai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai-cookbook/)</sub>
+
 <a name="machine-learning-for-trading"></a>
-### #&#8288;11 [machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Nov 2026</sub>
+### #&#8288;12 [machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 22k · MIT · Nov 2026</sub>
 
 **Code for the book on ML trading strategies, with nine case studies.**
 
@@ -201,7 +217,7 @@ Companion code for Stefan Jansen's Machine Learning for Trading, 3rd edition: 27
 <sub>Compose · Needs Docker, Interactive Brokers, Alpaca, QuantConnect · Models: XGBoost, LightGBM, CatBoost, PyTorch · [Repo](https://github.com/stefan-jansen/machine-learning-for-trading) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/machine-learning-for-trading/)</sub>
 
 <a name="ai-infra-book"></a>
-### #&#8288;12 [ai-infra-book](https://github.com/bojieli/ai-infra-book) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;13 [ai-infra-book](https://github.com/bojieli/ai-infra-book) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.4k · Apache-2.0 · Nov 2026</sub>
 
 **A quantitative book on AI infrastructure design, with calculation tools.**
 
@@ -217,22 +233,6 @@ This repository holds an open-source book (Chinese original, plus English, Tradi
 - **−** PDF build requires Pandoc, XeLaTeX and fonts, no Docker setup provided
 
 <sub>GPU optional · Needs Git LFS, Pandoc, XeLaTeX · Models: Qwen3-8B · port 8000 · [Repo](https://github.com/bojieli/ai-infra-book) · [▶️ Demo ↗](https://bojieli.github.io/ai-infra-book/) · [📖 Docs ↗](https://github.com/bojieli/ai-infra-book/blob/main/manuscripts/README.md) · [🌐 Site ↗](https://bojieli.github.io/ai-infra-book/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-infra-book/)</sub>
-
-<a name="openai-cookbook"></a>
-### #&#8288;13 [openai-cookbook](https://github.com/openai/openai-cookbook) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 78k · MIT · Nov 2026</sub>
-
-**Runnable notebooks and guides for common tasks with the OpenAI API.**
-
-A collection of example code and guides, mostly Python Jupyter notebooks, showing how to accomplish common tasks with the OpenAI API. It is published as a browsable site at cookbook.openai.com. Running the examples requires an OpenAI account and an OPENAI_API_KEY environment variable.
-
-- **+** Maintained by OpenAI, so examples track the official API
-- **+** Examples are runnable notebooks, mostly Python, with a searchable website
-- **+** MIT license permits reuse of the code
-- **−** Requires a paid-capable OpenAI account and API key to run examples
-- **−** Tied to OpenAI's API; local models are not the focus
-- **−** No installable package or app, only notebooks and guides
-
-<sub>no GPU · Needs OpenAI API key · Models: OpenAI API models · [Repo](https://github.com/openai/openai-cookbook) · [📖 Docs ↗](https://platform.openai.com/docs/introduction) · [🌐 Site ↗](https://cookbook.openai.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openai-cookbook/)</sub>
 
 <a name="genai-agents"></a>
 ### #&#8288;14 [genai_agents](https://github.com/nirdiamant/genai_agents) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 25k · custom license · Nov 2026</sub>
@@ -468,7 +468,7 @@ Hello-Agents is a 16-chapter Chinese-language course from the Datawhale communit
 <sub>Needs LLM API access · Models: OpenAI-compatible APIs · [Repo](https://github.com/datawhalechina/hello-agents) · [📖 Docs ↗](https://datawhalechina.github.io/hello-agents/) · [🌐 Site ↗](https://datawhalechina.github.io/hello-agents/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hello-agents/)</sub>
 
 <a name="agentguide"></a>
-### #&#8288;27 [agentguide](https://github.com/adongwanai/agentguide) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · CC-BY-4.0 · Nov 2026</sub>
+### #&#8288;27 [agentguide](https://github.com/adongwanai/agentguide) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · CC-BY-4.0 · Nov 2026</sub>
 
 **Chinese-language study guide and interview prep for AI agent engineering roles.**
 
@@ -646,7 +646,7 @@ A Chinese-language course repository covering LLM basics, Coze and Dify low-code
 <sub>GPU optional · Needs Python 3.10-3.13, Qwen/DeepSeek API keys or Ollama, Docker, MySQL, Qdrant, Elasticsearch · Models: Qwen, DeepSeek, Ollama local models, vLLM, Xinference · [Repo](https://github.com/didilili/ai-agents-from-zero) · [📖 Docs ↗](https://didilili.github.io/ai-agents-from-zero/#/) · [🌐 Site ↗](https://didilili.github.io/ai-agents-from-zero/#/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-agents-from-zero/)</sub>
 
 <a name="agents-course"></a>
-### #&#8288;37 [agents-course](https://github.com/huggingface/agents-course) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: weak (24) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;37 [agents-course](https://github.com/huggingface/agents-course) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: weak (25) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · Apache-2.0 · Nov 2026</sub>
 
 **Free Hugging Face course on building agents with smolagents, LlamaIndex, LangGraph.**
 
@@ -859,7 +859,7 @@ A collection of Jupyter notebooks, JavaScript and Python apps, self-paced worksh
 <sub>Needs MongoDB Atlas · [Repo](https://github.com/mongodb-developer/genai-showcase) · [📖 Docs ↗](https://github.com/mongodb/docs-notebooks) · [🌐 Site ↗](https://www.mongodb.com/resources/use-cases/artificial-intelligence?utm_campaign=ai_learning_hub&utm_source=github&utm_medium=referral) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/genai-showcase/)</sub>
 
 <a name="ai-system-design-guide"></a>
-### #&#8288;49 [ai-system-design-guide](https://github.com/ombharatiya/ai-system-design-guide) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Nov 2026</sub>
+### #&#8288;49 [ai-system-design-guide](https://github.com/ombharatiya/ai-system-design-guide) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (49) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.6k · MIT · Nov 2026</sub>
 
 **Markdown guide to AI system design, RAG, agents and interview prep.**
 
@@ -1477,26 +1477,8 @@ A collection of Python implementations of well-known ML papers, each written in 
 
 <sub>[Repo](https://github.com/maximevandegar/papers-in-100-lines-of-code) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/papers-in-100-lines-of-code/)</sub>
 
-<a name="bullshit-benchmark"></a>
-### #&#8288;84 [bullshit-benchmark](https://github.com/petergpt/bullshit-benchmark) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
-
-**Benchmark testing whether LLMs push back on nonsense questions.**
-
-BullshitBench scores how models respond to questions built on invalid premises: clear pushback, partial challenge, or accepted nonsense. A three-judge panel (Claude Sonnet 4.6, GPT-5.2, Gemini 3.1 Pro Preview) grades responses. V1 has 55 questions across 204 model/reasoning variants; V2 has 100 questions across 13 nonsense techniques and 266 variants. Results are published as a static dashboard plus CSV and JSONL data.
-
-- **+** Published question sets, manifests and leaderboard CSVs for V1 and V2
-- **+** Static dashboard runs locally with python http.server, no build or API keys
-- **+** Three-judge panel with documented handling of missing judge votes and refusals
-- **+** Compares reasoning levels, labs and release dates across 266 V2 variants
-- **−** Does not measure how often models wrongly reject valid questions
-- **−** Running your own evaluations needs paid provider API keys
-- **−** Grading relies on LLM judges, which are also among the benchmarked models
-- **−** V2 covers only software, finance, legal, medical and physics domains
-
-<sub>no GPU · Needs Python 3, Paid provider APIs (only for running new evaluations) · Models: Claude Sonnet 4.6 (judge), GPT-5.2 (judge), Gemini 3.1 Pro Preview (judge) · port 8795 · [Repo](https://github.com/petergpt/bullshit-benchmark) · [▶️ Demo ↗](https://petergpt.github.io/bullshit-benchmark/) · [📖 Docs ↗](https://github.com/petergpt/bullshit-benchmark/blob/main/docs/TECHNICAL.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bullshit-benchmark/)</sub>
-
 <a name="ai-infra-engineer-learning"></a>
-### #&#8288;85 [ai-infra-engineer-learning](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
+### #&#8288;84 [ai-infra-engineer-learning](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
 
 **Ten-module course and three projects for AI infrastructure engineering.**
 
@@ -1513,8 +1495,26 @@ A self-paced curriculum for AI infrastructure engineers, with 10 lesson modules 
 
 <sub>GPU optional · Needs Python 3.9+, Docker, Kubernetes, Cloud accounts (AWS, GCP, Azure) · [Repo](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-infra-engineer-learning/)</sub>
 
+<a name="bullshit-benchmark"></a>
+### #&#8288;85 [bullshit-benchmark](https://github.com/petergpt/bullshit-benchmark) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
+
+**Benchmark testing whether LLMs push back on nonsense questions.**
+
+BullshitBench scores how models respond to questions built on invalid premises: clear pushback, partial challenge, or accepted nonsense. A three-judge panel (Claude Sonnet 4.6, GPT-5.2, Gemini 3.1 Pro Preview) grades responses. V1 has 55 questions across 204 model/reasoning variants; V2 has 100 questions across 13 nonsense techniques and 266 variants. Results are published as a static dashboard plus CSV and JSONL data.
+
+- **+** Published question sets, manifests and leaderboard CSVs for V1 and V2
+- **+** Static dashboard runs locally with python http.server, no build or API keys
+- **+** Three-judge panel with documented handling of missing judge votes and refusals
+- **+** Compares reasoning levels, labs and release dates across 266 V2 variants
+- **−** Does not measure how often models wrongly reject valid questions
+- **−** Running your own evaluations needs paid provider API keys
+- **−** Grading relies on LLM judges, which are also among the benchmarked models
+- **−** V2 covers only software, finance, legal, medical and physics domains
+
+<sub>no GPU · Needs Python 3, Paid provider APIs (only for running new evaluations) · Models: Claude Sonnet 4.6 (judge), GPT-5.2 (judge), Gemini 3.1 Pro Preview (judge) · port 8795 · [Repo](https://github.com/petergpt/bullshit-benchmark) · [▶️ Demo ↗](https://petergpt.github.io/bullshit-benchmark/) · [📖 Docs ↗](https://github.com/petergpt/bullshit-benchmark/blob/main/docs/TECHNICAL.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bullshit-benchmark/)</sub>
+
 <a name="langchain-course"></a>
-### #&#8288;86 [langchain-course](https://github.com/emarco177/langchain-course) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;86 [langchain-course](https://github.com/emarco177/langchain-course) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
 
 **Course code for building LangChain and LangGraph agents in Python.**
 
@@ -1690,7 +1690,7 @@ Example code and exercise solutions for the 2017 first edition of Aurélien Gér
 <sub>GPU optional · Docker + Compose · Needs Anaconda or Miniconda, git, Jupyter, TensorFlow 1, Scikit-Learn · [Repo](https://github.com/ageron/handson-ml) · [▶️ Demo ↗](https://colab.research.google.com/github/ageron/handson-ml/blob/master/) · [🌐 Site ↗](https://homl.info/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/handson-ml/)</sub>
 
 <a name="machine-learning-examples"></a>
-### #&#8288;96 [machine_learning_examples](https://github.com/lazyprogrammer/machine_learning_examples) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 8.9k · no license · Nov 2026</sub>
+### #&#8288;96 [machine_learning_examples](https://github.com/lazyprogrammer/machine_learning_examples) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 9.0k · no license · Nov 2026</sub>
 
 **Python code for Lazy Programmer's online machine learning courses.**
 
@@ -1886,7 +1886,7 @@ A collection of Jupyter notebooks and Python scripts that accompany Marktechpost
 <sub>GPU optional · Needs Google Colab, OpenAI API, Gemini API, Groq API · Models: OpenAI, Gemini, Groq, Claude, GLM-5 · [Repo](https://github.com/marktechpost-ai-media-inc/ai-agents-projects-tutorials) · [🌐 Site ↗](https://www.marktechpost.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-agents-projects-tutorials/)</sub>
 
 <a name="llm-master"></a>
-### #&#8288;107 [llm-master](https://github.com/youngyangyang04/llm-master) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
+### #&#8288;107 [llm-master](https://github.com/youngyangyang04/llm-master) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Nov 2026</sub>
 
 **Chinese-language study roadmap and articles for LLM application development.**
 
@@ -2222,7 +2222,7 @@ A course of Jupyter notebooks (00 to 18) where you implement RL algorithms yours
 <sub>GPU optional · Docker + Compose · Needs Docker, Git, Python 3.13, LLM API key (optional, for AI Companion) · Models: Gemini, OpenAI, Anthropic, Groq · port 8080 · [Repo](https://github.com/alessiodm/drl-zh) · [🌐 Site ↗](https://drlzh.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/drl-zh/)</sub>
 
 <a name="frontier-evals"></a>
-### #&#8288;126 [frontier-evals](https://github.com/openai/frontier-evals) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Oct 2026</sub>
+### #&#8288;126 [frontier-evals](https://github.com/openai/frontier-evals) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Oct 2026</sub>
 
 **Eval code for paper replication, freelance coding and smart contract security.**
 

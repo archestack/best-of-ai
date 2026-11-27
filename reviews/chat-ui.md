@@ -131,7 +131,7 @@ Web front-end for Nous Research's Hermes Agent, written in Python with vanilla J
 <sub>Docker + Compose · Needs Hermes Agent, Python 3 · Models: OpenAI, Anthropic, Google, DeepSeek, Nous Portal · port 8787 · [Repo](https://github.com/nesquena/hermes-webui) · [📖 Docs ↗](https://github.com/nesquena/hermes-webui/blob/master/docs/onboarding.md) · [🌐 Site ↗](https://get-hermes.ai/setup/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hermes-webui/)</sub>
 
 <a name="sillytavern"></a>
-### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;8 [SillyTavern](https://github.com/sillytavern/sillytavern) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · AGPL-3.0 · Nov 2026</sub>
 
 **Local chat front end for role-play across many LLM backends.**
 
@@ -203,7 +203,7 @@ Ekko Studio (formerly Hermes Web UI) is an Electron desktop app and self-hosted 
 <sub>no GPU · Docker + Compose · Needs Node.js (npm install), Hermes Agent (npm installs discover an existing install), Coding-agent CLIs installed on the host, pnpm (DSH native plugins) · Models: OpenAI-compatible providers, OpenAI Codex, Claude, GitHub Copilot, Nous Portal · [Repo](https://github.com/ekkolearnai/ekko-studio) · [📖 Docs ↗](https://ekkostudio.xyz/#/docs/getting-started) · [🌐 Site ↗](https://ekkostudio.xyz) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ekko-studio/)</sub>
 
 <a name="chatgptbox"></a>
-### #&#8288;12 [chatgptbox](https://github.com/chatgptbox-dev/chatgptbox) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
+### #&#8288;12 [chatgptbox](https://github.com/chatgptbox-dev/chatgptbox) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Nov 2026</sub>
 
 **Browser extension that adds an LLM chat panel and selection tools to any page.**
 
@@ -274,7 +274,7 @@ Jupyter AI adds a chat panel to JupyterLab that talks to external agents over th
 <sub>Needs JupyterLab, An ACP-compatible agent (e.g. Claude, Codex, Gemini, OpenCode) · Models: Claude, Codex, GitHub Copilot, Gemini, Goose · [Repo](https://github.com/jupyterlab/jupyter-ai) · [📖 Docs ↗](https://jupyter-ai.readthedocs.io/en/stable/getting-started.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jupyter-ai/)</sub>
 
 <a name="chat-ollama"></a>
-### #&#8288;16 [chat-ollama](https://github.com/sugarforever/chat-ollama) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
+### #&#8288;16 [chat-ollama](https://github.com/sugarforever/chat-ollama) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Nov 2026</sub>
 
 **Self-hosted chat app with knowledge bases and MCP tools on SQLite.**
 
@@ -327,8 +327,26 @@ DEEIX Chat is a Go backend serving a static Next.js chat UI and admin console fr
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL + pgvector (optional), Redis (optional), S3-compatible storage (optional), Apache Tika / Docling / OCR (optional) · Models: OpenAI, Anthropic, Google/Gemini, xAI, OpenRouter · port 8080 · [Repo](https://github.com/deeix-ai/deeix-chat) · [📖 Docs ↗](https://deeix.com/docs/deeix-chat/quickstart) · [🌐 Site ↗](https://deeix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeix-chat/)</sub>
 
+<a name="nextchat"></a>
+### #&#8288;19 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: widely used (97) · Freshness: recent (75) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+
+**Web and desktop chat client for OpenAI, Claude, Gemini and other model APIs.**
+
+NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, Anthropic, Google, DeepSeek, Baidu, ByteDance, Alibaba and others) and to self-hosted backends such as LocalAI and RWKV-Runner. Chat history is stored in the browser, with optional sync via UpStash or WebDAV. It runs as a Vercel or Docker deployment on port 3000 and as a Tauri desktop client, with prompt templates (masks), plugins, artifacts and optional MCP support.
+
+- **+** Supports many providers via env vars, including Azure, Anthropic, Gemini, DeepSeek and SiliconFlow
+- **+** Chat data stays in the browser by default; no database required
+- **+** Deploys via one-click Vercel or a single Docker container
+- **+** Also ships a Tauri desktop client of about 5MB for Linux, Windows and macOS
+- **−** Access control is a shared password list (CODE), not per-user accounts
+- **−** Admin panel, permissions, knowledge base and auditing are only in the paid Enterprise Edition
+- **−** Local knowledge base is unchecked on the roadmap
+- **−** Last release is 2025-07-29; README docs partly Chinese-only or marked deprecated
+
+<sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
+
 <a name="geekai"></a>
-### #&#8288;19 [geekai](https://github.com/yangjian102621/geekai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;20 [geekai](https://github.com/yangjian102621/geekai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
 
 **Multi-user web app for AI chat, image, music and video generation with billing.**
 
@@ -346,7 +364,7 @@ GeekAI is a Go (Gin) backend with a Vue 3 front end that wraps chat models and t
 <sub>Compose · Needs MySQL, Redis, Object storage (Qiniu, Aliyun OSS, Tencent COS or Minio) · Models: ChatGPT, Claude, MidJourney, DALL-E, Nano-Banana · [Repo](https://github.com/yangjian102621/geekai) · [▶️ Demo ↗](https://chat.geekai.me) · [📖 Docs ↗](https://docs.geekai.me) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/geekai/)</sub>
 
 <a name="risuai"></a>
-### #&#8288;20 [risuai](https://github.com/kwaroran/risuai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;21 [risuai](https://github.com/kwaroran/risuai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-3.0 · Nov 2026</sub>
 
 **Roleplay-oriented chat client for many LLM APIs, with lorebooks and regex scripts.**
 
@@ -362,24 +380,6 @@ Risuai is a Svelte and Tauri chat application for character-based conversations,
 - **−** Does not run models itself; needs an external API or backend
 
 <sub>no GPU · Docker + Compose · Needs LLM API or backend (OpenAI, Claude, Gemini, Ooba, etc.) · Models: OpenAI, Claude, Gemini, DeepInfra, Ooba · port 6001 · [Repo](https://github.com/kwaroran/risuai) · [▶️ Demo ↗](https://risuai.net) · [📖 Docs ↗](https://github.com/kwaroran/Risuai/wiki) · [🌐 Site ↗](https://risuai.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/risuai/)</sub>
-
-<a name="nextchat"></a>
-### #&#8288;21 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (97) · Freshness: recent (75) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
-
-**Web and desktop chat client for OpenAI, Claude, Gemini and other model APIs.**
-
-NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, Anthropic, Google, DeepSeek, Baidu, ByteDance, Alibaba and others) and to self-hosted backends such as LocalAI and RWKV-Runner. Chat history is stored in the browser, with optional sync via UpStash or WebDAV. It runs as a Vercel or Docker deployment on port 3000 and as a Tauri desktop client, with prompt templates (masks), plugins, artifacts and optional MCP support.
-
-- **+** Supports many providers via env vars, including Azure, Anthropic, Gemini, DeepSeek and SiliconFlow
-- **+** Chat data stays in the browser by default; no database required
-- **+** Deploys via one-click Vercel or a single Docker container
-- **+** Also ships a Tauri desktop client of about 5MB for Linux, Windows and macOS
-- **−** Access control is a shared password list (CODE), not per-user accounts
-- **−** Admin panel, permissions, knowledge base and auditing are only in the paid Enterprise Edition
-- **−** Local knowledge base is unchecked on the roadmap
-- **−** Last release is 2025-07-29; README docs partly Chinese-only or marked deprecated
-
-<sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
 
 <a name="generative-ai-use-cases"></a>
 ### #&#8288;22 [generative-ai-use-cases](https://github.com/aws-samples/generative-ai-use-cases) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT-0 · Nov 2026</sub>
@@ -471,8 +471,26 @@ Chuanhu Chat is a Python and Gradio web interface for hosted APIs (OpenAI, Azure
 
 <sub>GPU optional · Docker · Needs Python, Gradio, API keys for hosted providers · Models: OpenAI, Azure OpenAI, Google Gemini, Claude, DeepSeek · [Repo](https://github.com/gaizhenbiao/chuanhuchatgpt) · [▶️ Demo ↗](https://huggingface.co/spaces/JohnSmith9982/ChuanhuChatGPT) · [📖 Docs ↗](https://github.com/GaiZhenbiao/ChuanhuChatGPT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chuanhuchatgpt/)</sub>
 
+<a name="lollms-webui"></a>
+### #&#8288;27 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: known (47) · Freshness: recent (70) · Maintenance: patchy (48) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
+
+**Web UI for chatting with local and API LLMs, plus image and music generation.**
+
+LoLLMs WebUI is a Python web interface that connects to many LLM backends (GGUF, ExLlamaV2, Hugging Face, Ollama, vLLM, OpenAI, Anthropic, OpenRouter and others) through installable bindings. It adds selectable personalities, local discussion storage, image, video and music generation, and prompt routing across models by cost or speed. The README says the project has minimal support and will be replaced by the newer lollms project.
+
+- **+** Many bindings: GGUF, ExLlamaV2, Hugging Face, Ollama, vLLM, OpenAI, Anthropic, OpenRouter, Gemini, Groq
+- **+** Covers text, image, video and music generation in one UI
+- **+** Smart routing can pick a model per prompt by cost or speed
+- **+** Install via scripts, manual venv or Docker; chats kept in a local database
+- **−** Maintainer states minimal support; being replaced by the separate lollms project
+- **−** No built-in user authentication; remote use needs a tunnel and headless mode
+- **−** Last release is 2024-11-11, though commits continue
+- **−** README gives no hardware requirements and no docs link
+
+<sub>GPU optional · Docker + Compose · Needs Python 3.11, git submodules · Models: GGUF/GGML, ExLlamaV2, Hugging Face, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
+
 <a name="better-chatbot"></a>
-### #&#8288;27 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+### #&#8288;28 [better-chatbot](https://github.com/keinsaasforever/better-chatbot) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (56) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
 
 **Self-hosted chat UI with agents, MCP tools, workflows and pgvector document search.**
 
@@ -489,7 +507,7 @@ keinsaas Navigator Community Edition (formerly better-chatbot) is a Next.js chat
 <sub>no GPU · Docker + Compose · Needs Postgres with pgvector, Vercel AI Gateway (AI_GATEWAY_API_KEY), Supabase (file uploads, optional), Redis (optional), Inngest (optional), E2B (optional), Exa (optional), AssemblyAI (optional), Composio (optional) · Models: Vercel AI Gateway (Anthropic, OpenAI, Google, Mistral, xAI, DeepSeek, Moonshot), Ollama, LM Studio, OpenAI-compatible endpoints, TensorX · port 3000 · [Repo](https://github.com/keinsaasforever/better-chatbot) · [📖 Docs ↗](https://github.com/keinsaasforever/better-chatbot/blob/main/docs/self-hosting.md) · [🌐 Site ↗](https://keinsaas.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/better-chatbot/)</sub>
 
 <a name="g0dm0d3"></a>
-### #&#8288;28 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (73) · Freshness: active (84) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · AGPL-3.0 · Jul 2026</sub>
+### #&#8288;29 [g0dm0d3](https://github.com/elder-plinius/g0dm0d3) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (73) · Freshness: active (84) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · AGPL-3.0 · Jul 2026</sub>
 
 **Browser chat UI that races many models and scores their responses.**
 
@@ -505,24 +523,6 @@ G0DM0D3 is a single-file HTML chat interface that sends one prompt to many model
 - **−** Racing up to 60 models multiplies API cost across providers
 
 <sub>GPU optional · Docker + Compose · Needs OpenRouter, Venice, Ollama, Cloudflare Pages (telemetry), Hugging Face (telemetry) · Models: OpenRouter models, Venice models, OpenAI-compatible local servers, Ollama, LM Studio · port 8000 · [Repo](https://github.com/elder-plinius/g0dm0d3) · [▶️ Demo ↗](https://godmod3.ai) · [📖 Docs ↗](https://github.com/elder-plinius/G0DM0D3/blob/main/API.md) · [🌐 Site ↗](https://godmod3.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/g0dm0d3/)</sub>
-
-<a name="lollms-webui"></a>
-### #&#8288;29 [LoLLMs WebUI](https://github.com/parisneo/lollms-webui) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: known (47) · Freshness: recent (70) · Maintenance: patchy (42) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Oct 2026</sub>
-
-**Web UI for chatting with local and API LLMs, plus image and music generation.**
-
-LoLLMs WebUI is a Python web interface that connects to many LLM backends (GGUF, ExLlamaV2, Hugging Face, Ollama, vLLM, OpenAI, Anthropic, OpenRouter and others) through installable bindings. It adds selectable personalities, local discussion storage, image, video and music generation, and prompt routing across models by cost or speed. The README says the project has minimal support and will be replaced by the newer lollms project.
-
-- **+** Many bindings: GGUF, ExLlamaV2, Hugging Face, Ollama, vLLM, OpenAI, Anthropic, OpenRouter, Gemini, Groq
-- **+** Covers text, image, video and music generation in one UI
-- **+** Smart routing can pick a model per prompt by cost or speed
-- **+** Install via scripts, manual venv or Docker; chats kept in a local database
-- **−** Maintainer states minimal support; being replaced by the separate lollms project
-- **−** No built-in user authentication; remote use needs a tunnel and headless mode
-- **−** Last release is 2024-11-11, though commits continue
-- **−** README gives no hardware requirements and no docs link
-
-<sub>GPU optional · Docker + Compose · Needs Python 3.11, git submodules · Models: GGUF/GGML, ExLlamaV2, Hugging Face, Ollama, vLLM · port 9600 · [Repo](https://github.com/parisneo/lollms-webui) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lollms-webui/)</sub>
 
 <a name="ptero"></a>
 ### #&#8288;30 [ptero](https://github.com/ptero-ai/ptero) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
@@ -632,8 +632,26 @@ ChatAny is a web chat client forked from ChatGPT-Next-Web that adds an image gen
 
 <sub>no GPU · Docker + Compose · Needs midjourney-proxy (for Midjourney), OpenAI-compatible API · Models: OpenAI API, Midjourney (via proxy), Stable Image Ultra, Stable Image Core, Stable Diffusion 3 · port 3000 · [Repo](https://github.com/chatanyteam/chatany) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chatany/)</sub>
 
+<a name="aidea-server"></a>
+### #&#8288;36 [aidea-server](https://github.com/mylxsw/aidea-server) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (17) · Freshness: recent (70) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.8k · no license · Oct 2026</sub>
+
+**Go backend for the AIdea mobile chat and image-generation app.**
+
+Go server that backs the AIdea client app, wrapping multiple LLM and image-generation providers behind one chat-stream interface. It also exposes an OpenAI-compatible API for third-party clients, with billing, payment, SMS and rate-limiting modules built in. Data access goes through the author's Eloquent ORM (MySQL), and the code includes a Redis package and a task queue.
+
+- **+** Exposes an OpenAI-compatible API usable by any client that speaks that protocol
+- **+** Includes user accounts, coin-based billing, payments and rate limiting in the codebase
+- **+** Wraps several chat and image model providers behind one chat-stream interface
+- **+** MIT license, with example config, nginx and systemd files in the repo
+- **−** README says code comments and technical documentation are limited
+- **−** Built for the separate AIdea client app; no web UI in this repo
+- **−** Integrations lean on Chinese services (Alipay, Aliyun, Tencent, Qiniu, Youdao)
+- **−** Last release is April 2024; no docker compose file in this repo
+
+<sub>Docker · Needs MySQL, Redis, Qiniu Cloud Storage · Models: OpenAI-compatible API, multiple hosted LLM providers, image generation models · [Repo](https://github.com/mylxsw/aidea-server) · [▶️ Demo ↗](https://aidea.aicode.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aidea-server/)</sub>
+
 <a name="aidea"></a>
-### #&#8288;36 [aidea](https://github.com/mylxsw/aidea) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: popular (56) · Freshness: quiet (25) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
+### #&#8288;37 [aidea](https://github.com/mylxsw/aidea) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: popular (56) · Freshness: quiet (25) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Mar 2026</sub>
 
 **Flutter client for chatting with LLMs and generating images.**
 
@@ -650,7 +668,7 @@ AIdea is a Flutter app for mobile, macOS and Windows that gives one interface to
 <sub>Docker · Needs aidea-server (Go backend) · [Repo](https://github.com/mylxsw/aidea) · [📖 Docs ↗](https://github.com/mylxsw/aidea-server/blob/main/docs/deploy.md) · [🌐 Site ↗](https://aidea.aicode.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aidea/)</sub>
 
 <a name="tavernai-v1"></a>
-### #&#8288;37 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (29) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
+### #&#8288;38 [tavernai-v1](https://github.com/tavernai/tavernai-v1) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (29) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Jun 2026</sub>
 
 **Legacy Node.js chat and story frontend for Kobold, OpenAI, Claude.**
 
@@ -666,23 +684,5 @@ TavernAI v1 is a Node.js web frontend for character chat and story writing. It c
 - **−** Install links point to Node.js 20 and 21 builds
 
 <sub>no GPU · Docker + Compose · Needs Node.js, A model backend (KoboldAI, Oobabooga, OpenAI, NovelAI, Claude or Ollama) · Models: KoboldAI, KoboldCpp, Horde, Oobabooga Text Generation Web UI, OpenAI · [Repo](https://github.com/tavernai/tavernai-v1) · [📖 Docs ↗](https://github.com/TavernAI/TavernAI/wiki/How-to-install) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tavernai-v1/)</sub>
-
-<a name="aidea-server"></a>
-### #&#8288;38 [aidea-server](https://github.com/mylxsw/aidea-server) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (17) · Freshness: recent (70) · Maintenance: weak (21) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.8k · no license · Oct 2026</sub>
-
-**Go backend for the AIdea mobile chat and image-generation app.**
-
-Go server that backs the AIdea client app, wrapping multiple LLM and image-generation providers behind one chat-stream interface. It also exposes an OpenAI-compatible API for third-party clients, with billing, payment, SMS and rate-limiting modules built in. Data access goes through the author's Eloquent ORM (MySQL), and the code includes a Redis package and a task queue.
-
-- **+** Exposes an OpenAI-compatible API usable by any client that speaks that protocol
-- **+** Includes user accounts, coin-based billing, payments and rate limiting in the codebase
-- **+** Wraps several chat and image model providers behind one chat-stream interface
-- **+** MIT license, with example config, nginx and systemd files in the repo
-- **−** README says code comments and technical documentation are limited
-- **−** Built for the separate AIdea client app; no web UI in this repo
-- **−** Integrations lean on Chinese services (Alipay, Aliyun, Tencent, Qiniu, Youdao)
-- **−** Last release is April 2024; no docker compose file in this repo
-
-<sub>Docker · Needs MySQL, Redis, Qiniu Cloud Storage · Models: OpenAI-compatible API, multiple hosted LLM providers, image generation models · [Repo](https://github.com/mylxsw/aidea-server) · [▶️ Demo ↗](https://aidea.aicode.cc) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aidea-server/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
