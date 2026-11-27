@@ -417,7 +417,7 @@ Cog builds a Docker image from a cog.yaml file and a Python class that defines a
 <sub>GPU optional · Needs Docker, Docker Buildx · Models: PyTorch, TensorFlow, arbitrary Python models · port 5000 · [Repo](https://github.com/replicate/cog) · [🌐 Site ↗](https://cog.run) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cog/)</sub>
 
 <a name="mlx-lm"></a>
-### #&#8288;24 [mlx-lm](https://github.com/ml-explore/mlx-lm) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Nov 2026</sub>
+### #&#8288;24 [mlx-lm](https://github.com/ml-explore/mlx-lm) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (80) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Nov 2026</sub>
 
 **Python package and CLI for running and fine-tuning LLMs on Apple silicon with MLX.**
 
@@ -1117,7 +1117,7 @@ Project Maya is an inference engine with custom GGUF quants for GLM-5.3, GLM-5.3
 <sub>RAM ≥ 56 GB · GPU required · Docker · Needs NVMe SSD · Models: GLM-5.3, GLM-5.3-Flash, DeepSeek-V4.1-Flash-1017, MiniMax-M3.1-Flash, Hy4-Flash · port 8080 · [Repo](https://github.com/mw00/project-maya) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/project-maya/)</sub>
 
 <a name="tokenspeed"></a>
-### #&#8288;63 [tokenspeed](https://github.com/lightseekorg/tokenspeed) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
+### #&#8288;63 [tokenspeed](https://github.com/lightseekorg/tokenspeed) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · MIT · Nov 2026</sub>
 
 **LLM inference engine with a C++ scheduler and pluggable kernels for agentic workloads.**
 
@@ -1189,7 +1189,7 @@ DwarfStar (ds4) is a C inference engine targeted at DeepSeek V4 Flash and PRO, G
 <sub>RAM ≥ 64 GB · GPU required · Needs Metal, CUDA or ROCm backend, Project-built GGUF model files, Fast local SSD for streaming and Engram tables · Models: DeepSeek V4 Flash, DeepSeek V4.1 Flash, DeepSeek V4 PRO, GLM 5.2, GLM 5.3 · port 8000 · [Repo](https://github.com/antirez/ds4) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ds4/)</sub>
 
 <a name="ramalama"></a>
-### #&#8288;67 [ramalama](https://github.com/containers/ramalama) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Nov 2026</sub>
+### #&#8288;67 [ramalama](https://github.com/containers/ramalama) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · MIT · Nov 2026</sub>
 
 **CLI that runs and serves AI models in rootless Podman or Docker containers.**
 
@@ -1800,7 +1800,7 @@ Chitu is a Python inference framework for large language models, aimed at produc
 <sub>GPU optional · Docker · Models: DeepSeek-R1 671B, Qwen, GLM, Kimi · [Repo](https://github.com/thu-pacman/chitu) · [📖 Docs ↗](https://github.com/thu-pacman/chitu/blob/HEAD/docs/zh/DEVELOPMENT.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chitu/)</sub>
 
 <a name="bitnet"></a>
-### #&#8288;101 [bitnet](https://github.com/microsoft/bitnet) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (93) · Freshness: active (88) · Maintenance: weak (1) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 43k · MIT · Jul 2026</sub>
+### #&#8288;101 [bitnet](https://github.com/microsoft/bitnet) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (94) · Freshness: active (88) · Maintenance: weak (1) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 43k · MIT · Jul 2026</sub>
 
 **Inference framework for 1.58-bit ternary LLMs on CPU and GPU.**
 
@@ -1890,7 +1890,7 @@ Rust crates with Python bindings that convert Messages, Chat Completions and Res
 <sub>no GPU · Needs OpenCV (image preprocessing), Python 3.10+ (bindings) · Models: DeepSeek-V4-Pro, DeepSeek-V4.1-Flash · port 7778 · [Repo](https://github.com/deepseek-ai/deepseek-recipe) · [📖 Docs ↗](https://docs.rs/deepseek-recipe) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepseek-recipe/)</sub>
 
 <a name="beta9"></a>
-### #&#8288;106 [beta9](https://github.com/beam-cloud/beta9) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (16) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;106 [beta9](https://github.com/beam-cloud/beta9) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (17) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · AGPL-3.0 · Nov 2026</sub>
 
 **Serverless Python runtime for GPU inference, background jobs and sandboxes.**
 
@@ -2106,7 +2106,7 @@ mllm is a C++ inference engine that runs LLMs and vision-language models on Arm 
 <sub>GPU optional · Docker · Needs QNN SDK (for QNN backend), Python (build tasks), Go (mllm-cli, Android server) · Models: mllm format, PyTorch, SafeTensors, Qwen3, Qwen3-VL · [Repo](https://github.com/ubiquitouslearning/mllm) · [📖 Docs ↗](https://ubiquitouslearning.github.io/mllm/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mllm/)</sub>
 
 <a name="mini-sglang"></a>
-### #&#8288;118 [mini-sglang](https://github.com/sgl-project/mini-sglang) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (55) · Freshness: recent (63) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · MIT · May 2026</sub>
+### #&#8288;118 [mini-sglang](https://github.com/sgl-project/mini-sglang) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (55) · Freshness: recent (62) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.7k · MIT · May 2026</sub>
 
 **Compact SGLang reimplementation for serving LLMs, in about 5,000 lines of Python.**
 
@@ -2124,7 +2124,7 @@ Mini-SGLang is a compact Python reimplementation of SGLang. It serves Hugging Fa
 <sub>GPU required · Docker · Needs NVIDIA CUDA Toolkit, FlashInfer, sgl-kernel, uv · Models: Hugging Face models, Qwen3, Llama 3.1, ModelScope download · port 1919 · [Repo](https://github.com/sgl-project/mini-sglang) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mini-sglang/)</sub>
 
 <a name="seldon-core"></a>
-### #&#8288;119 [seldon-core](https://github.com/seldonio/seldon-core) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (51) · Freshness: slowing (30) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Jan 2026</sub>
+### #&#8288;119 [seldon-core](https://github.com/seldonio/seldon-core) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: popular (51) · Freshness: quiet (30) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Jan 2026</sub>
 
 **Kubernetes framework for serving ML models and Kafka-connected pipelines.**
 
@@ -2196,7 +2196,7 @@ PicoLM is a from-scratch LLM inference engine in about 2,500 lines of C11 that r
 <sub>no GPU · Needs libc, libm, libpthread · Models: GGUF v2/v3, LLaMA architecture, TinyLlama 1.1B, Llama 2 7B, Phi-2 · [Repo](https://github.com/rightnow-ai/picolm) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/picolm/)</sub>
 
 <a name="deepstream-yolo"></a>
-### #&#8288;123 [deepstream-yolo](https://github.com/marcoslucianops/deepstream-yolo) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (21) · Freshness: quiet (22) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
+### #&#8288;123 [deepstream-yolo](https://github.com/marcoslucianops/deepstream-yolo) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (21) · Freshness: quiet (21) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
 
 **NVIDIA DeepStream configs and GPU parsers for running YOLO and DETR detectors.**
 

@@ -814,7 +814,7 @@ Cairn searches for a path from an origin to a goal by having agent workers read 
 <sub>no GPU · Docker + Compose · Needs Docker (not needed in local mode), Python >= 3.12, uv, Claude Code, Codex or Pi CLI/LLM endpoints · Models: Claude Code, Codex, Pi · port 8000 · [Repo](https://github.com/oritera/cairn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cairn/)</sub>
 
 <a name="pwnagotchi"></a>
-### #&#8288;46 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (79) · Freshness: recent (68) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
+### #&#8288;46 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (79) · Freshness: recent (67) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
 
 **WiFi handshake-capturing agent that tunes its attacks with reinforcement learning.**
 
@@ -868,7 +868,7 @@ AI Beat ships two Go command-line tools. PromptBeat generates adversarial cases,
 <sub>no GPU · Needs Node.js 22.22.2 (PromptBeat), promptfoo 0.121.9 (PromptBeat), LLM provider API for attacker and judge models · Models: OpenAI-compatible endpoints, HTTP agent targets, Codex, Claude Code, OpenCode · [Repo](https://github.com/tophant-ai/aibeat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aibeat/)</sub>
 
 <a name="textattack"></a>
-### #&#8288;49 [textattack](https://github.com/qdata/textattack) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (48) · Freshness: active (97) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Aug 2026</sub>
+### #&#8288;49 [textattack](https://github.com/qdata/textattack) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (48) · Freshness: active (96) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Aug 2026</sub>
 
 **Python framework for adversarial attacks, augmentation and training of NLP models.**
 
@@ -922,7 +922,7 @@ hackingBuddyGPT is a Python framework for writing LLM-driven security-testing ag
 <sub>no GPU · Docker · Needs Python 3.13+, uv, litellm, tmux (local shell mode), Ollama or LLM API key · Models: OpenAI, OpenRouter, Anthropic, Azure, Ollama · [Repo](https://github.com/ipa-lab/hackingbuddygpt) · [📖 Docs ↗](https://docs.hackingbuddy.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hackingbuddygpt/)</sub>
 
 <a name="superagent"></a>
-### #&#8288;52 [superagent](https://github.com/superagent-ai/superagent) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (69) · Freshness: recent (78) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
+### #&#8288;52 [superagent](https://github.com/superagent-ai/superagent) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (69) · Freshness: recent (77) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
 
 **SDK that blocks prompt injections and redacts PII in AI agent apps.**
 
@@ -1011,26 +1011,8 @@ PentesterFlow is a TypeScript terminal agent for authorized penetration testing.
 
 <sub>GPU optional · Needs Ollama or LM Studio (for local models), Burp Suite with companion integration (optional), Hosted LLM API key (optional) · Models: Ollama, LM Studio, OpenAI-compatible, Anthropic, Gemini · port 9999 · [Repo](https://github.com/pentesterflow/agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentesterflow-agent/)</sub>
 
-<a name="guardian-cli"></a>
-### #&#8288;57 [guardian-cli](https://github.com/zakirkun/guardian-cli) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (29) · Freshness: recent (77) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · custom license · Jun 2026</sub>
-
-**Python CLI that runs LLM-planned pentest workflows over 50 security tools.**
-
-Guardian is a Python 3.11+ CLI that uses planner, tool-selector, analyst and reporter agents to drive security tools such as nmap, nuclei, sqlmap and ffuf through YAML DAG workflows. It supports OpenAI, Claude, Gemini, OpenRouter, Requesty, Ollama and OpenAI-compatible endpoints. Findings are linked to tool executions and can be exported as Markdown, HTML, JSON, SARIF, DefectDojo or Slack.
-
-- **+** Supports 7 LLM providers including local Ollama and OpenAI-compatible endpoints
-- **+** Findings link to the originating tool execution, with raw output kept as evidence
-- **+** Scope checks, confirmation gate for intrusive tools, and safe mode on by default
-- **+** Exports SARIF, DefectDojo and Slack; workflows resume from the last completed step
-- **−** Wraps external tools that must be installed separately; coverage depends on what is present
-- **−** README is inconsistent on tool count: 50 in features, 19 in the architecture diagram
-- **−** License is reported as NOASSERTION while the README badge says MIT
-- **−** Debate and visual triage add LLM token cost; vision needs a vision-capable provider
-
-<sub>no GPU · Docker + Compose · Needs Python 3.11+, LLM provider API key or Ollama, nmap, nuclei, httpx and other security tools (optional), Playwright with Chromium (visual triage) · Models: OpenAI, Anthropic Claude, Google Gemini, OpenRouter, Requesty · [Repo](https://github.com/zakirkun/guardian-cli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/guardian-cli/)</sub>
-
 <a name="cybergym"></a>
-### #&#8288;58 [cybergym](https://github.com/sunblaze-ucb/cybergym) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;57 [cybergym](https://github.com/sunblaze-ucb/cybergym) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: weak (18) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Aug 2026</sub>
 
 **Benchmark for AI agents reproducing real vulnerabilities with PoC inputs.**
 
@@ -1046,6 +1028,24 @@ CyberGym is an evaluation framework that gives an agent a vulnerable codebase fr
 - **−** Evaluates agents only; not a pentest tool for your own apps
 
 <sub>Needs Docker, Git LFS, 7z, Squid (firewall), Hugging Face dataset · port 8666 · [Repo](https://github.com/sunblaze-ucb/cybergym) · [🌐 Site ↗](https://cybergym.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cybergym/)</sub>
+
+<a name="guardian-cli"></a>
+### #&#8288;58 [guardian-cli](https://github.com/zakirkun/guardian-cli) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (29) · Freshness: recent (76) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · custom license · Jun 2026</sub>
+
+**Python CLI that runs LLM-planned pentest workflows over 50 security tools.**
+
+Guardian is a Python 3.11+ CLI that uses planner, tool-selector, analyst and reporter agents to drive security tools such as nmap, nuclei, sqlmap and ffuf through YAML DAG workflows. It supports OpenAI, Claude, Gemini, OpenRouter, Requesty, Ollama and OpenAI-compatible endpoints. Findings are linked to tool executions and can be exported as Markdown, HTML, JSON, SARIF, DefectDojo or Slack.
+
+- **+** Supports 7 LLM providers including local Ollama and OpenAI-compatible endpoints
+- **+** Findings link to the originating tool execution, with raw output kept as evidence
+- **+** Scope checks, confirmation gate for intrusive tools, and safe mode on by default
+- **+** Exports SARIF, DefectDojo and Slack; workflows resume from the last completed step
+- **−** Wraps external tools that must be installed separately; coverage depends on what is present
+- **−** README is inconsistent on tool count: 50 in features, 19 in the architecture diagram
+- **−** License is reported as NOASSERTION while the README badge says MIT
+- **−** Debate and visual triage add LLM token cost; vision needs a vision-capable provider
+
+<sub>no GPU · Docker + Compose · Needs Python 3.11+, LLM provider API key or Ollama, nmap, nuclei, httpx and other security tools (optional), Playwright with Chromium (visual triage) · Models: OpenAI, Anthropic Claude, Google Gemini, OpenRouter, Requesty · [Repo](https://github.com/zakirkun/guardian-cli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/guardian-cli/)</sub>
 
 <a name="pentest-copilot"></a>
 ### #&#8288;59 [pentest-copilot](https://github.com/bugbasesecurity/pentest-copilot) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (21) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Aug 2026</sub>
@@ -1066,7 +1066,7 @@ Pentest Copilot is a TypeScript web app where an LLM agent runs commands on a Ka
 <sub>RAM ≥ 8 GB · no GPU · Compose · Needs Docker Compose, MongoDB, Redis, Kali Linux box (built-in container or SSH), Burp Suite (optional) · Models: OpenAI, Anthropic, Google, Mistral, OpenAI-compatible endpoints · port 3000 · [Repo](https://github.com/bugbasesecurity/pentest-copilot) · [▶️ Demo ↗](https://www.youtube.com/watch?v=L0bjYzuICWo) · [📖 Docs ↗](https://github.com/bugbasesecurity/pentest-copilot/wiki/Home) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentest-copilot/)</sub>
 
 <a name="hackgpt"></a>
-### #&#8288;60 [hackgpt](https://github.com/nodatafound/hackgpt) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (8) · Freshness: active (94) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.2k · no license · Aug 2026</sub>
+### #&#8288;60 [hackgpt](https://github.com/nodatafound/hackgpt) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: niche (8) · Freshness: active (94) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.2k · no license · Aug 2026</sub>
 
 **Jupyter notebooks and scripts that send security inputs to OpenAI models.**
 
@@ -1083,7 +1083,7 @@ hackGPT is a set of Jupyter notebooks and Python scripts (PwnAI.py, PwnAI_bulk.p
 <sub>no GPU · Needs OpenAI API key, Jupyter Notebook, Python 3 · Models: OpenAI · [Repo](https://github.com/nodatafound/hackgpt) · [▶️ Demo ↗](https://hackgpt.com) · [🌐 Site ↗](https://hackgpt.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hackgpt/)</sub>
 
 <a name="promptmap"></a>
-### #&#8288;61 [promptmap](https://github.com/utkusen/promptmap) <sub>score [3](../README.md#-how-we-rank "Score 3/100. Adoption: niche (9) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Dec 2025</sub>
+### #&#8288;61 [promptmap](https://github.com/utkusen/promptmap) <sub>score [3](../README.md#-how-we-rank "Score 3/100. Adoption: niche (9) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Dec 2025</sub>
 
 **Prompt injection scanner for LLM apps, using a second LLM to judge results.**
 

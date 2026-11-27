@@ -362,26 +362,8 @@ Paperclip is a Node.js server with a React UI that orchestrates external agents 
 
 <sub>no GPU · Docker + Compose · Needs Node.js, External agent runtimes (Claude Code, Codex, etc.) · Models: Claude Code, Codex, Cursor, Gemini CLI, OpenCode · [Repo](https://github.com/paperclipai/paperclip) · [📖 Docs ↗](https://docs.paperclip.ing) · [🌐 Site ↗](https://paperclip.ing) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/paperclip/)</sub>
 
-<a name="ax"></a>
-### #&#8288;21 [google/ax](https://github.com/google/ax) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Nov 2026</sub>
-
-**Kubectl-style orchestrator for running sandboxed agent tasks in a cluster.**
-
-AX is a declarative control plane that runs agent workloads as Task, Workspace, Model and Gateway manifests (ax.io/v1alpha1), applied with a kubectl-like `ax` CLI. It uses Agent Substrate for sandboxed execution, suspend/resume checkpoints, egress policy and credential injection. It runs locally on Kind or on an existing Kubernetes cluster, and the README warns of breaking changes before a stable release.
-
-- **+** Declarative Task, Workspace, Model and Gateway manifests with kubectl-shaped CLI verbs
-- **+** Suspend and resume checkpoints an agent so it continues where it stopped
-- **+** Gateway rules restrict reachable hosts and inject credentials without exposing them to the agent
-- **+** `ax promote` moves a task from local Kind to a remote cluster unchanged
-- **−** Heavy development; README warns of major breaking changes before a stable release
-- **−** Depends on Agent Substrate and a Kubernetes cluster (Kind locally)
-- **−** You supply or pick an agent image; AX does not include its own agent logic
-- **−** Memory, multi-task coordination and session management are listed as future goals
-
-<sub>Docker · Needs Kubernetes, Agent Substrate, Kind (local mode) · Models: Google Gemini (Model kind, provider google) · port 8080 · [Repo](https://github.com/google/ax) · [📖 Docs ↗](https://github.com/google/ax/blob/main/docs/concepts.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ax/)</sub>
-
 <a name="openresearch"></a>
-### #&#8288;22 [openresearch](https://github.com/alphaxiv/openresearch) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · MIT · Nov 2026</sub>
+### #&#8288;21 [openresearch](https://github.com/alphaxiv/openresearch) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.6k · MIT · Nov 2026</sub>
 
 **Desktop app and CLI that runs research agents with experiment tracking.**
 
@@ -397,6 +379,24 @@ OpenResearch is a desktop app and `orx` CLI that wraps coding agents (Claude Cod
 - **−** Managed compute and email updates need an openresearch.sh account
 
 <sub>Needs Git for Windows (Windows), a coding agent such as Claude Code, Codex or OpenCode · Models: Claude Code, Codex, OpenCode, Cursor, Google Antigravity · port 4791 · [Repo](https://github.com/alphaxiv/openresearch) · [📖 Docs ↗](https://openresearch.sh/docs) · [🌐 Site ↗](https://openresearch.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openresearch/)</sub>
+
+<a name="ax"></a>
+### #&#8288;22 [google/ax](https://github.com/google/ax) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (91) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · Apache-2.0 · Nov 2026</sub>
+
+**Kubectl-style orchestrator for running sandboxed agent tasks in a cluster.**
+
+AX is a declarative control plane that runs agent workloads as Task, Workspace, Model and Gateway manifests (ax.io/v1alpha1), applied with a kubectl-like `ax` CLI. It uses Agent Substrate for sandboxed execution, suspend/resume checkpoints, egress policy and credential injection. It runs locally on Kind or on an existing Kubernetes cluster, and the README warns of breaking changes before a stable release.
+
+- **+** Declarative Task, Workspace, Model and Gateway manifests with kubectl-shaped CLI verbs
+- **+** Suspend and resume checkpoints an agent so it continues where it stopped
+- **+** Gateway rules restrict reachable hosts and inject credentials without exposing them to the agent
+- **+** `ax promote` moves a task from local Kind to a remote cluster unchanged
+- **−** Heavy development; README warns of major breaking changes before a stable release
+- **−** Depends on Agent Substrate and a Kubernetes cluster (Kind locally)
+- **−** You supply or pick an agent image; AX does not include its own agent logic
+- **−** Memory, multi-task coordination and session management are listed as future goals
+
+<sub>Docker · Needs Kubernetes, Agent Substrate, Kind (local mode) · Models: Google Gemini (Model kind, provider google) · port 8080 · [Repo](https://github.com/google/ax) · [📖 Docs ↗](https://github.com/google/ax/blob/main/docs/concepts.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ax/)</sub>
 
 <a name="rocketride-server"></a>
 ### #&#8288;23 [rocketride-server](https://github.com/rocketride-org/rocketride-server) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · MIT · Nov 2026</sub>
@@ -2014,7 +2014,7 @@ FAROS is a FastAPI and React workbench that chains literature retrieval, researc
 <sub>Needs Python 3.11+, Node.js 18+, Docker (code sandbox), latexmk, XeLaTeX, LLM API endpoint · Models: OpenAI, Anthropic, DeepSeek, Moonshot, Zhipu · port 5176 · [Repo](https://github.com/opennswm-lab/faros) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/faros/)</sub>
 
 <a name="data-infra-cube-studio"></a>
-### #&#8288;113 [data-infra/cube-studio](https://github.com/data-infra/cube-studio) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · custom license · Oct 2026</sub>
+### #&#8288;113 [data-infra/cube-studio](https://github.com/data-infra/cube-studio) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (30) · Freshness: active (100) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · custom license · Oct 2026</sub>
 
 **Kubernetes MLOps platform for pipelines, training, serving and LLM gateway.**
 
@@ -2104,7 +2104,7 @@ BrainPilot is a human-in-the-loop research system for neuroscience. A PI agent p
 <sub>no GPU · Docker + Compose · Needs Node.js >= 22, Model provider API key, Docker (optional, for sandbox) · Models: Anthropic Messages, OpenAI Completions, OpenAI Responses, Azure OpenAI Responses · [Repo](https://github.com/neuroaihub/brainpilot) · [▶️ Demo ↗](https://brainpilot.chat) · [📖 Docs ↗](https://brainpilot.chat/docs) · [🌐 Site ↗](https://brainpilot.chat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/brainpilot/)</sub>
 
 <a name="edict"></a>
-### #&#8288;118 [edict](https://github.com/cft0808/edict) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (82) · Freshness: recent (59) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+### #&#8288;118 [edict](https://github.com/cft0808/edict) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (82) · Freshness: recent (58) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
 
 **Multi-agent pipeline on OpenClaw with a mandatory review stage and live dashboard.**
 
@@ -2247,26 +2247,8 @@ ALTA runs four specialist LLM Scouts that research market opportunities. Each th
 
 <sub>Needs PostgreSQL, Redis, Docker/OrbStack, Node.js 22+, Python 3.12, uv, Rust toolchain, Codex App Server · Models: Codex App Server sessions, configurable models per agent role · [Repo](https://github.com/kyky2347/alta) · [📖 Docs ↗](https://github.com/kyky2347/ALTA/blob/main/docs/architecture/overview.md) · [🌐 Site ↗](https://alta.silment.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/alta/)</sub>
 
-<a name="ii-agent"></a>
-### #&#8288;126 [ii-agent](https://github.com/intelligent-internet/ii-agent) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (39) · Freshness: recent (71) · Maintenance: weak (6) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Aug 2026</sub>
-
-**General-purpose agent that builds apps, slides and research reports from prompts.**
-
-II-Agent is a Python backend with a web frontend that runs an agent for building websites and mobile apps, generating slides, storybooks, images and video, and doing multi-step research. It uses your own API keys for OpenAI, Anthropic or Google models, and connects to apps such as Gmail, Slack, GitHub and Notion. Setup runs Postgres, Redis and MinIO alongside the backend and frontend.
-
-- **+** Bring-your-own-key config via .env JSON or YAML; OpenAI, Anthropic, Google, Vertex AI, Azure
-- **+** Covers apps, slides, documents, research and media generation in one agent
-- **+** Full stack runs via make dev-all or a Docker Compose target (make stack)
-- **+** Apache-2.0 licensed, with custom skills and app integrations
-- **−** Needs Postgres, Redis and MinIO plus Docker, uv and Node.js; heavier than a single binary
-- **−** Last tagged release is July 2025, so installs track the main branch
-- **−** Self-host needs several config files (.env, frontend/.env, model_configs.yaml)
-- **−** Self-hosted model support is only mentioned, with no setup steps in the README
-
-<sub>no GPU · Docker + Compose · Needs Docker, uv, Node.js, PostgreSQL, Redis, MinIO · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Azure · port 1420 · [Repo](https://github.com/intelligent-internet/ii-agent) · [▶️ Demo ↗](https://agent.ii.inc/) · [📖 Docs ↗](https://intelligent-internet.github.io/ii-agent-prod/) · [🌐 Site ↗](https://ii.inc/web/blog/post/ii-agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ii-agent/)</sub>
-
 <a name="firered-openstoryline"></a>
-### #&#8288;127 [firered-openstoryline](https://github.com/fireredteam/firered-openstoryline) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (42) · Freshness: active (90) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;126 [firered-openstoryline](https://github.com/fireredteam/firered-openstoryline) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (42) · Freshness: active (89) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · Apache-2.0 · Jul 2026</sub>
 
 **Chat-driven video editor that finds media, writes scripts, adds music and voiceover.**
 
@@ -2282,6 +2264,24 @@ FireRed-OpenStoryline is a Python agent that edits videos through natural-langua
 - **−** Setup needs Conda, downloaded model and resource archives, and a separately started MCP server
 
 <sub>Docker · Needs Python 3.11+, FFmpeg, MoviePy, LangChain, Conda, third-party LLM API keys, third-party AIGC video service (AI transitions) · port 8005 · [Repo](https://github.com/fireredteam/firered-openstoryline) · [▶️ Demo ↗](https://fireredteam-firered-openstoryline.hf.space/) · [🌐 Site ↗](https://fireredteam.github.io/demos/firered_openstoryline/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/firered-openstoryline/)</sub>
+
+<a name="ii-agent"></a>
+### #&#8288;127 [ii-agent](https://github.com/intelligent-internet/ii-agent) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (39) · Freshness: recent (70) · Maintenance: weak (6) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.4k · Apache-2.0 · Aug 2026</sub>
+
+**General-purpose agent that builds apps, slides and research reports from prompts.**
+
+II-Agent is a Python backend with a web frontend that runs an agent for building websites and mobile apps, generating slides, storybooks, images and video, and doing multi-step research. It uses your own API keys for OpenAI, Anthropic or Google models, and connects to apps such as Gmail, Slack, GitHub and Notion. Setup runs Postgres, Redis and MinIO alongside the backend and frontend.
+
+- **+** Bring-your-own-key config via .env JSON or YAML; OpenAI, Anthropic, Google, Vertex AI, Azure
+- **+** Covers apps, slides, documents, research and media generation in one agent
+- **+** Full stack runs via make dev-all or a Docker Compose target (make stack)
+- **+** Apache-2.0 licensed, with custom skills and app integrations
+- **−** Needs Postgres, Redis and MinIO plus Docker, uv and Node.js; heavier than a single binary
+- **−** Last tagged release is July 2025, so installs track the main branch
+- **−** Self-host needs several config files (.env, frontend/.env, model_configs.yaml)
+- **−** Self-hosted model support is only mentioned, with no setup steps in the README
+
+<sub>no GPU · Docker + Compose · Needs Docker, uv, Node.js, PostgreSQL, Redis, MinIO · Models: OpenAI, Anthropic, Google Gemini, Vertex AI, Azure · port 1420 · [Repo](https://github.com/intelligent-internet/ii-agent) · [▶️ Demo ↗](https://agent.ii.inc/) · [📖 Docs ↗](https://intelligent-internet.github.io/ii-agent-prod/) · [🌐 Site ↗](https://ii.inc/web/blog/post/ii-agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ii-agent/)</sub>
 
 <a name="cultivation-world-simulator"></a>
 ### #&#8288;128 [cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (23) · Freshness: active (97) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · custom license · Aug 2026</sub>
@@ -2302,7 +2302,7 @@ A simulation game in which each cultivator is an independent LLM agent with pers
 <sub>GPU optional · Docker + Compose · Needs Python 3.10+, Node.js 18+, LLM provider or Ollama · Models: DeepSeek, MiniMax, Ollama, custom LLM API · port 8123 · [Repo](https://github.com/4thfever/cultivation-world-simulator) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cultivation-world-simulator/)</sub>
 
 <a name="ai-trader"></a>
-### #&#8288;129 [ai-trader](https://github.com/hkuds/ai-trader) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: widely used (86) · Freshness: recent (72) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 23k · no license · Jun 2026</sub>
+### #&#8288;129 [ai-trader](https://github.com/hkuds/ai-trader) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: widely used (86) · Freshness: recent (71) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 23k · no license · Jun 2026</sub>
 
 **Trading platform where AI agents publish signals, discuss, and copy trades.**
 
@@ -2410,7 +2410,7 @@ Runs LLM-based traders that place perpetual futures orders on Hyperliquid (testn
 <sub>no GPU · Docker + Compose · Needs Docker, PostgreSQL, Hyperliquid or Binance Futures account, OpenAI-compatible LLM API · Models: Deepseek, OpenAI GPT-5/o1/GPT-4o, Claude via compatible endpoints, Any OpenAI-compatible API · port 8802 · [Repo](https://github.com/hammergpt/hyper-alpha-arena) · [📖 Docs ↗](https://www.akooi.com/docs/) · [🌐 Site ↗](https://www.akooi.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hyper-alpha-arena/)</sub>
 
 <a name="aiagents-stock"></a>
-### #&#8288;135 [aiagents-stock](https://github.com/oficcejo/aiagents-stock) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (21) · Freshness: active (80) · Maintenance: patchy (50) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.1k · no license · Oct 2026</sub>
+### #&#8288;135 [aiagents-stock](https://github.com/oficcejo/aiagents-stock) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (21) · Freshness: recent (80) · Maintenance: patchy (50) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 2.1k · no license · Oct 2026</sub>
 
 **Streamlit app where AI analyst agents research A-share, HK and US stocks.**
 
@@ -2428,7 +2428,7 @@ Streamlit app that runs six LLM analyst roles (technical, fundamental, fund flow
 <sub>no GPU · Docker + Compose · Needs DeepSeek or OpenAI-compatible API key, Node.js 16+ (pywencai), Playwright Chromium, SQLite, Tushare token (optional), MiniQMT (optional) · Models: DeepSeek, Qwen, GPT-4o, OpenAI-compatible APIs, OrcaRouter · port 8503 · [Repo](https://github.com/oficcejo/aiagents-stock) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aiagents-stock/)</sub>
 
 <a name="agixt"></a>
-### #&#8288;136 [agixt](https://github.com/josh-xt/agixt) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (37) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Jun 2026</sub>
+### #&#8288;136 [agixt](https://github.com/josh-xt/agixt) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (37) · Freshness: recent (73) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Jun 2026</sub>
 
 **Python agent platform with 40+ built-in extensions and multi-provider support.**
 
@@ -2518,7 +2518,7 @@ A ComfyUI custom node pack that adds LLM nodes: API and local model loaders, too
 <sub>GPU optional · Needs ComfyUI, ComfyUI-Manager, Python pip requirements, llama-cpp-python (for GGUF), ollama (optional) · Models: OpenAI-compatible APIs, ollama, llama.cpp, Azure OpenAI, aisuite (Claude, AWS, Vertex, Hugging Face) · [Repo](https://github.com/heshengtao/comfyui_llm_party) · [📖 Docs ↗](https://github.com/heshengtao/Let-LLM-party) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/comfyui-llm-party/)</sub>
 
 <a name="instill-core"></a>
-### #&#8288;141 [instill-core](https://github.com/instill-ai/instill-core) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (24) · Freshness: recent (56) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · May 2026</sub>
+### #&#8288;141 [instill-core](https://github.com/instill-ai/instill-core) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (24) · Freshness: recent (55) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · custom license · May 2026</sub>
 
 **Self-hosted platform for AI pipelines, document ingestion and model deployment.**
 
@@ -2536,7 +2536,7 @@ Instill Core bundles four parts: Pipeline (AI-first APIs and workflows built fro
 <sub>GPU optional · Docker + Compose · Needs Docker Engine v25+, Docker Compose v2+, yq (Windows via WSL2) · port 3000 · [Repo](https://github.com/instill-ai/instill-core) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/instill-core/)</sub>
 
 <a name="ai-scientist-v2"></a>
-### #&#8288;142 [ai-scientist-v2](https://github.com/sakanaai/ai-scientist-v2) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: popular (63) · Freshness: quiet (8) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · custom license · Dec 2025</sub>
+### #&#8288;142 [ai-scientist-v2](https://github.com/sakanaai/ai-scientist-v2) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: popular (63) · Freshness: quiet (8) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · custom license · Dec 2025</sub>
 
 **Agentic tree-search pipeline that generates ML experiments and writes research papers.**
 

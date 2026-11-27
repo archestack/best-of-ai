@@ -634,7 +634,7 @@ YouDub Desktop is an Electron app that imports a local video or a YouTube/Bilibi
 <sub>Needs FFmpeg, yt-dlp, Node.js, Python, Whisper, Demucs, NLTK Punkt, LLM translation provider · Models: Whisper, Qwen alignment, Demucs · [Repo](https://github.com/liuzhao1225/youdub-webui) · [📖 Docs ↗](https://github.com/liuzhao1225/YouDub-webui/blob/main/docs/upgrade.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/youdub-webui/)</sub>
 
 <a name="chaterm"></a>
-### #&#8288;36 [chaterm](https://github.com/chaterm/chaterm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · custom license · Nov 2026</sub>
+### #&#8288;36 [chaterm](https://github.com/chaterm/chaterm) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (39) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · custom license · Nov 2026</sub>
 
 **AI-native SSH terminal that plans and runs ops tasks across servers and Kubernetes.**
 
@@ -1066,7 +1066,7 @@ Electron desktop app with a Go backend and React frontend that aggregates A-shar
 <sub>no GPU · Needs LLM API key, Xueqiu/Taoguba login for article sync, Hermes or Codex runtime (bundled) · Models: OpenAI, DeepSeek, Qwen, Moonshot, Anthropic · [Repo](https://github.com/jundizhou/easy-stock) · [📖 Docs ↗](https://github.com/jundizhou/easy-stock/blob/main/docs/user-guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/easy-stock/)</sub>
 
 <a name="beav"></a>
-### #&#8288;60 [beav](https://github.com/jamailar/beav) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · custom license · Nov 2026</sub>
+### #&#8288;60 [beav](https://github.com/jamailar/beav) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: healthy (87) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · custom license · Nov 2026</sub>
 
 **Desktop workspace for social-media creators: research, drafting, image and video editing.**
 
@@ -1155,26 +1155,8 @@ Open Cowork is an Electron app for Windows and macOS that runs an agent over a c
 
 <sub>no GPU · Needs Node.js 18+ (build from source), WSL2 (Windows, optional), Lima (macOS, optional), LLM API key · Models: Claude, OpenAI-compatible APIs, OpenRouter, GLM, MiniMax · [Repo](https://github.com/opencoworkai/open-cowork) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-cowork/)</sub>
 
-<a name="enchanted"></a>
-### #&#8288;65 [enchanted](https://github.com/gluonfield/enchanted) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (58) · Freshness: active (87) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
-
-**Native iOS, macOS and visionOS chat client for Ollama servers.**
-
-Enchanted is a Swift app for macOS, iOS and visionOS that connects to an Ollama server (v0.1.14 or later) and gives a ChatGPT-style interface to your own models. It supports image attachments, voice prompts, read-aloud, Markdown rendering and a macOS Spotlight-style panel. Conversation history is stored on the device. The README says the same author's newer project, Jaz, is the next iteration.
-
-- **+** Native Swift app covering macOS, iOS and visionOS
-- **+** Conversation history stored on the device
-- **+** Image attachments, voice prompts, read-aloud and custom system prompt
-- **+** macOS Spotlight panel (Ctrl+Cmd+K) with reusable prompt templates
-- **−** Only talks to Ollama; no other backends are documented
-- **−** Needs your own Ollama server, reachable from the phone
-- **−** Local-server setup relies on an ngrok tunnel, per the README
-- **−** README points to Jaz as the new iteration of the project
-
-<sub>Needs Ollama v0.1.14 or later, ngrok (to expose a local Ollama server) · Models: Ollama models (Llama 2, Mistral, Vicuna, Starling) · [Repo](https://github.com/gluonfield/enchanted) · [▶️ Demo ↗](https://www.youtube.com/watch?v=zW3roZ_vM5Q) · [🌐 Site ↗](https://apps.apple.com/gb/app/enchanted-llm/id6474268307) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/enchanted/)</sub>
-
 <a name="sidekick"></a>
-### #&#8288;66 [sidekick](https://github.com/johnbean393/sidekick) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (41) · Freshness: active (100) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Sep 2026</sub>
+### #&#8288;65 [sidekick](https://github.com/johnbean393/sidekick) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (41) · Freshness: active (100) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Sep 2026</sub>
 
 **macOS app for chatting with local GGUF models over your files and websites.**
 
@@ -1192,7 +1174,7 @@ Sidekick is a native Swift macOS app that runs GGUF models through a built-in ll
 <sub>RAM ≥ 8 GB · GPU optional · Models: GGUF (llama.cpp), OpenAI-compatible APIs · [Repo](https://github.com/johnbean393/sidekick) · [📖 Docs ↗](https://johnbean393.github.io/Sidekick/Markdown/gettingStarted/) · [🌐 Site ↗](https://johnbean393.github.io/Sidekick/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sidekick/)</sub>
 
 <a name="maid"></a>
-### #&#8288;67 [maid](https://github.com/mobile-artificial-intelligence/maid) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (34) · Freshness: active (93) · Maintenance: fair (52) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · MIT · Oct 2026</sub>
+### #&#8288;66 [maid](https://github.com/mobile-artificial-intelligence/maid) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (34) · Freshness: active (93) · Maintenance: fair (52) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · MIT · Oct 2026</sub>
 
 **Android app for chatting with on-device GGUF models or remote APIs.**
 
@@ -1210,7 +1192,7 @@ Maid is a React Native Android app that runs GGUF models on-device through llama
 <sub>Needs llama.cpp, Hugging Face (model downloads) · Models: GGUF, OpenAI, Anthropic, Mistral, DeepSeek · [Repo](https://github.com/mobile-artificial-intelligence/maid) · [📖 Docs ↗](https://github.com/Mobile-Artificial-Intelligence/maid/releases/latest) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/maid/)</sub>
 
 <a name="portable-local-studio"></a>
-### #&#8288;68 [portable-local-studio](https://github.com/techjarves/portable-local-studio) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Nov 2026</sub>
+### #&#8288;67 [portable-local-studio](https://github.com/techjarves/portable-local-studio) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Nov 2026</sub>
 
 **Offline web UI for local image generation, LLM chat, Whisper and Kokoro TTS.**
 
@@ -1228,7 +1210,7 @@ Portable AI Studio is a self-contained web UI, served on port 1420, that wraps s
 <sub>GPU optional · Needs Node.js 22 (bundled portable), stable-diffusion.cpp, llama.cpp, whisper.cpp, kokoro-js · Models: Stable Diffusion 1.5 (.safetensors, .ckpt), SDXL single-file checkpoints, GGUF LLMs (llama.cpp), whisper.cpp .bin, Kokoro-82M ONNX · port 1420 · [Repo](https://github.com/techjarves/portable-local-studio) · [▶️ Demo ↗](https://youtu.be/yeFvP3SWMak) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/portable-local-studio/)</sub>
 
 <a name="knowledge"></a>
-### #&#8288;69 [knowledge](https://github.com/robroyce/knowledge) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;68 [knowledge](https://github.com/robroyce/knowledge) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Oct 2026</sub>
 
 **Desktop app for saving, organizing and chatting with websites and documents.**
 
@@ -1244,8 +1226,26 @@ Knowledge is a desktop app with a built-in Chromium browser for saving web pages
 
 <sub>[Repo](https://github.com/robroyce/knowledge) · [📖 Docs ↗](https://github.com/KnowledgeCanvas/knowledge/wiki/Getting-Started) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/knowledge/)</sub>
 
+<a name="enchanted"></a>
+### #&#8288;69 [enchanted](https://github.com/gluonfield/enchanted) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (58) · Freshness: active (87) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.0k · Apache-2.0 · Jul 2026</sub>
+
+**Native iOS, macOS and visionOS chat client for Ollama servers.**
+
+Enchanted is a Swift app for macOS, iOS and visionOS that connects to an Ollama server (v0.1.14 or later) and gives a ChatGPT-style interface to your own models. It supports image attachments, voice prompts, read-aloud, Markdown rendering and a macOS Spotlight-style panel. Conversation history is stored on the device. The README says the same author's newer project, Jaz, is the next iteration.
+
+- **+** Native Swift app covering macOS, iOS and visionOS
+- **+** Conversation history stored on the device
+- **+** Image attachments, voice prompts, read-aloud and custom system prompt
+- **+** macOS Spotlight panel (Ctrl+Cmd+K) with reusable prompt templates
+- **−** Only talks to Ollama; no other backends are documented
+- **−** Needs your own Ollama server, reachable from the phone
+- **−** Local-server setup relies on an ngrok tunnel, per the README
+- **−** README points to Jaz as the new iteration of the project
+
+<sub>Needs Ollama v0.1.14 or later, ngrok (to expose a local Ollama server) · Models: Ollama models (Llama 2, Mistral, Vicuna, Starling) · [Repo](https://github.com/gluonfield/enchanted) · [▶️ Demo ↗](https://www.youtube.com/watch?v=zW3roZ_vM5Q) · [🌐 Site ↗](https://apps.apple.com/gb/app/enchanted-llm/id6474268307) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/enchanted/)</sub>
+
 <a name="5ire"></a>
-### #&#8288;70 [5ire](https://github.com/nanbingxyz/5ire) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (55) · Freshness: active (94) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · custom license · Nov 2026</sub>
+### #&#8288;70 [5ire](https://github.com/nanbingxyz/5ire) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (55) · Freshness: active (94) · Maintenance: weak (26) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · custom license · Nov 2026</sub>
 
 **Desktop chat app and MCP client with local knowledge base.**
 
@@ -1388,26 +1388,8 @@ AI Dev Gallery is a WinUI app for Windows developers that runs more than 25 inte
 
 <sub>RAM ≥ 16 GB · GPU optional · Needs Windows 10 1809+, Visual Studio 2022 (to build), Windows App SDK · Models: Hugging Face models, GitHub models, Microsoft Foundry on Windows APIs · [Repo](https://github.com/microsoft/ai-dev-gallery) · [📖 Docs ↗](https://learn.microsoft.com/windows/ai/overview) · [🌐 Site ↗](http://aka.ms/ai-dev-gallery-store) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-dev-gallery/)</sub>
 
-<a name="minecontext"></a>
-### #&#8288;78 [minecontext](https://github.com/volcengine/minecontext) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (56) · Freshness: recent (61) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · May 2026</sub>
-
-**Desktop app that screenshots your screen and generates summaries and to-dos.**
-
-MineContext is an Electron desktop app with a Python FastAPI backend that captures periodic screenshots, interprets them with a vision-language model, and stores the results in SQLite and ChromaDB. It generates daily and weekly summaries, to-dos and activity records in the background, and offers chat over the collected context. Models come from Doubao, OpenAI, or any OpenAI-compatible endpoint, including local ones such as LM Studio.
-
-- **+** Data stored locally by default; works with any OpenAI-compatible local model endpoint
-- **+** Installers for macOS (.dmg) and Windows (.exe); macOS builds are Apple-notarized
-- **+** Backend debug page shows token usage and lets you edit task intervals and system prompts
-- **+** Backend runs standalone via `uv run opencontext start` with a YAML config
-- **−** Only screenshots and note editing are marked done; file upload, link upload, meetings are planned
-- **−** Needs a vision-language model and an embedding model; recommended setup uses Doubao cloud API
-- **−** Screenshots are sent to the configured model provider unless a local model is used
-- **−** First run installs the backend environment, taking about two minutes
-
-<sub>Needs SQLite, ChromaDB, uv, Doubao, OpenAI or OpenAI-compatible API · Models: Doubao, OpenAI, OpenAI-compatible local models (LM Studio) · port 1733 · [Repo](https://github.com/volcengine/minecontext) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minecontext/)</sub>
-
 <a name="open-interface"></a>
-### #&#8288;79 [open-interface](https://github.com/ambersahdev/open-interface) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (33) · Freshness: recent (70) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;78 [open-interface](https://github.com/ambersahdev/open-interface) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (33) · Freshness: recent (70) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · GPL-3.0 · Nov 2026</sub>
 
 **Desktop app that drives your mouse and keyboard from LLM screenshot feedback.**
 
@@ -1423,6 +1405,24 @@ Open Interface is a Python desktop app that sends a goal and a screenshot to an 
 - **−** Acts directly on your desktop; README mentions no sandboxing of actions
 
 <sub>no GPU · Needs OpenAI or Gemini API key, or an OpenAI-compatible LLM endpoint, Python 3.12+ (script mode), tkinter · Models: GPT-4o, Google Gemini, OpenAI-compatible APIs (e.g. Llava) · [Repo](https://github.com/ambersahdev/open-interface) · [🌐 Site ↗](https://AmberSah.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-interface/)</sub>
+
+<a name="minecontext"></a>
+### #&#8288;79 [minecontext](https://github.com/volcengine/minecontext) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: popular (56) · Freshness: recent (61) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.6k · Apache-2.0 · May 2026</sub>
+
+**Desktop app that screenshots your screen and generates summaries and to-dos.**
+
+MineContext is an Electron desktop app with a Python FastAPI backend that captures periodic screenshots, interprets them with a vision-language model, and stores the results in SQLite and ChromaDB. It generates daily and weekly summaries, to-dos and activity records in the background, and offers chat over the collected context. Models come from Doubao, OpenAI, or any OpenAI-compatible endpoint, including local ones such as LM Studio.
+
+- **+** Data stored locally by default; works with any OpenAI-compatible local model endpoint
+- **+** Installers for macOS (.dmg) and Windows (.exe); macOS builds are Apple-notarized
+- **+** Backend debug page shows token usage and lets you edit task intervals and system prompts
+- **+** Backend runs standalone via `uv run opencontext start` with a YAML config
+- **−** Only screenshots and note editing are marked done; file upload, link upload, meetings are planned
+- **−** Needs a vision-language model and an embedding model; recommended setup uses Doubao cloud API
+- **−** Screenshots are sent to the configured model provider unless a local model is used
+- **−** First run installs the backend environment, taking about two minutes
+
+<sub>Needs SQLite, ChromaDB, uv, Doubao, OpenAI or OpenAI-compatible API · Models: Doubao, OpenAI, OpenAI-compatible local models (LM Studio) · port 1733 · [Repo](https://github.com/volcengine/minecontext) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/minecontext/)</sub>
 
 <a name="aisuperdomain"></a>
 ### #&#8288;80 [aisuperdomain](https://github.com/win4r/aisuperdomain) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (19) · Freshness: recent (70) · Maintenance: patchy (35) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · Apache-2.0 · Nov 2026</sub>
@@ -1497,7 +1497,7 @@ Electron desktop chat client with a Node/Express backend that runs the Claude Ag
 <sub>no GPU · Needs Anthropic API key, Composio API key, Opencode API key (optional), Node.js, Electron · Models: Claude (Claude Agent SDK), Opencode SDK models · port 3001 · [Repo](https://github.com/composio-community/open-claude-cowork) · [📖 Docs ↗](https://docs.composio.dev/tool-router/overview) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-claude-cowork/)</sub>
 
 <a name="dive"></a>
-### #&#8288;84 [dive](https://github.com/openagentplatform/dive) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (16) · Freshness: active (93) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Jul 2026</sub>
+### #&#8288;84 [dive](https://github.com/openagentplatform/dive) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (16) · Freshness: active (93) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Jul 2026</sub>
 
 **Desktop MCP host that connects function-calling LLMs to MCP tools.**
 
@@ -1569,7 +1569,7 @@ Tauri 2 desktop app that captures system audio or microphone input, transcribes 
 <sub>GPU optional · Needs Soniox API key, OpenAI API key, Alibaba DashScope API key, Edge TTS / Google Cloud TTS / ElevenLabs (optional) · Models: Soniox, OpenAI gpt-realtime-translate, qwen3-livetranslate-flash-realtime, MLX Whisper + Gemma · [Repo](https://github.com/phuc-nt/my-translator) · [📖 Docs ↗](https://github.com/phuc-nt/my-translator/blob/main/docs/installation_guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/my-translator/)</sub>
 
 <a name="uncensored-local-ai-multiplatform"></a>
-### #&#8288;88 [uncensored-local-ai-multiplatform](https://github.com/techjarves/uncensored-local-ai-multiplatform) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (13) · Freshness: active (97) · Maintenance: weak (9) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.7k · no license · Nov 2026</sub>
+### #&#8288;88 [uncensored-local-ai-multiplatform](https://github.com/techjarves/uncensored-local-ai-multiplatform) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: niche (14) · Freshness: active (97) · Maintenance: weak (9) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.7k · no license · Nov 2026</sub>
 
 **Flutter phone app that runs GGUF models on-device with a local OpenAI API.**
 
@@ -1587,7 +1587,7 @@ A Flutter app for Android and iOS that runs GGUF models on-device through llama.
 <sub>Needs Flutter SDK (build from source), llama.cpp · Models: GGUF · port 4891 · [Repo](https://github.com/techjarves/uncensored-local-ai-multiplatform) · [▶️ Demo ↗](https://youtu.be/2Pnv68iHIaQ) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/uncensored-local-ai-multiplatform/)</sub>
 
 <a name="llamachat"></a>
-### #&#8288;89 [llamachat](https://github.com/alexrozanski/llamachat) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (8) · Freshness: recent (52) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Jun 2026</sub>
+### #&#8288;89 [llamachat](https://github.com/alexrozanski/llamachat) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (8) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Jun 2026</sub>
 
 **Native macOS app for chatting with LLaMA, Alpaca and GPT4All models.**
 
@@ -1605,7 +1605,7 @@ LlamaChat is a SwiftUI macOS app that runs LLaMA, Alpaca and GPT4All models loca
 <sub>Needs macOS 13 Ventura, llama.cpp, llama.swift, Sparkle · Models: LLaMA, Alpaca, GPT4All, .pth, .ggml · [Repo](https://github.com/alexrozanski/llamachat) · [🌐 Site ↗](https://llamachat.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/llamachat/)</sub>
 
 <a name="llmfarm"></a>
-### #&#8288;90 [llmfarm](https://github.com/guinmoon/llmfarm) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (21) · Freshness: quiet (17) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
+### #&#8288;90 [llmfarm](https://github.com/guinmoon/llmfarm) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (21) · Freshness: quiet (16) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Jan 2026</sub>
 
 **iOS and macOS app for running llama.cpp-based LLMs on-device.**
 

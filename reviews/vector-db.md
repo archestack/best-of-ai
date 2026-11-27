@@ -200,26 +200,8 @@ Infinity is a C++ database that runs hybrid search over dense vectors, sparse ve
 
 <sub>no GPU · Models: dense embeddings, sparse embeddings, tensors, ColBERT reranking · [Repo](https://github.com/infiniflow/infinity) · [📖 Docs ↗](https://infiniflow.org/docs/dev/category/get-started) · [🌐 Site ↗](https://infiniflow.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/infinity/)</sub>
 
-<a name="chroma"></a>
-### #&#8288;12 [Chroma](https://github.com/chroma-core/chroma) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (89) · Freshness: active (98) · Maintenance: patchy (35) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
-
-**Embedding database with a four-function API for Python and JavaScript.**
-
-Chroma is an embedding database with a four-function API (create collection, add, query, get) that tokenizes, embeds and indexes documents itself or accepts your own vectors, with metadata and document filters. It runs in-memory or persisted from the Python or JavaScript client, or as a server via chroma run; the repo ships a Dockerfile and compose file. Chroma Cloud is the hosted serverless version.
-
-- **+** Four-function API: create collection, add, query, get
-- **+** Handles tokenization, embedding and indexing; own vectors optional
-- **+** Python and JavaScript clients; chroma run for client-server mode
-- **+** Weekly tagged releases on Mondays with hotfixes in between
-- **−** README is thin: no port, resource or auth guidance
-- **−** Hosted Chroma Cloud is the headline; self-hosting detail lives in docs
-- **−** Row-based API marked coming soon
-- **−** No multi-user auth described in the README
-
-<sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
-
 <a name="pgvector"></a>
-### #&#8288;13 [pgvector](https://github.com/pgvector/pgvector) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Nov 2026</sub>
+### #&#8288;12 [pgvector](https://github.com/pgvector/pgvector) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Nov 2026</sub>
 
 **Postgres extension for exact and approximate vector similarity search.**
 
@@ -235,6 +217,24 @@ pgvector adds vector, halfvec, bit and sparsevec column types to Postgres 13+, w
 - **−** Scaling beyond one Postgres node is not covered; README points to quantization instead
 
 <sub>no GPU · Docker · Needs PostgreSQL 13+ · [Repo](https://github.com/pgvector/pgvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvector/)</sub>
+
+<a name="chroma"></a>
+### #&#8288;13 [Chroma](https://github.com/chroma-core/chroma) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (89) · Freshness: active (98) · Maintenance: patchy (35) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · Apache-2.0 · Nov 2026</sub>
+
+**Embedding database with a four-function API for Python and JavaScript.**
+
+Chroma is an embedding database with a four-function API (create collection, add, query, get) that tokenizes, embeds and indexes documents itself or accepts your own vectors, with metadata and document filters. It runs in-memory or persisted from the Python or JavaScript client, or as a server via chroma run; the repo ships a Dockerfile and compose file. Chroma Cloud is the hosted serverless version.
+
+- **+** Four-function API: create collection, add, query, get
+- **+** Handles tokenization, embedding and indexing; own vectors optional
+- **+** Python and JavaScript clients; chroma run for client-server mode
+- **+** Weekly tagged releases on Mondays with hotfixes in between
+- **−** README is thin: no port, resource or auth guidance
+- **−** Hosted Chroma Cloud is the headline; self-hosting detail lives in docs
+- **−** Row-based API marked coming soon
+- **−** No multi-user auth described in the README
+
+<sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
 
 <a name="vespa"></a>
 ### #&#8288;14 [Vespa](https://github.com/vespa-engine/vespa) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · Apache-2.0 · Nov 2026</sub>
@@ -507,7 +507,7 @@ VectorDBBench (VDBBench) runs repeatable insertion, vector search, filtered sear
 <sub>no GPU · Docker · Needs Python >= 3.11, Target vector database to benchmark · [Repo](https://github.com/zilliztech/vectordbbench) · [🌐 Site ↗](https://zilliz.com/vdbbench-leaderboard) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vectordbbench/)</sub>
 
 <a name="deeplake"></a>
-### #&#8288;29 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (69) · Freshness: recent (66) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;29 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (69) · Freshness: recent (65) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
 
 **Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
 

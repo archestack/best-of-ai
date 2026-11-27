@@ -327,26 +327,8 @@ DEEIX Chat is a Go backend serving a static Next.js chat UI and admin console fr
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL + pgvector (optional), Redis (optional), S3-compatible storage (optional), Apache Tika / Docling / OCR (optional) · Models: OpenAI, Anthropic, Google/Gemini, xAI, OpenRouter · port 8080 · [Repo](https://github.com/deeix-ai/deeix-chat) · [📖 Docs ↗](https://deeix.com/docs/deeix-chat/quickstart) · [🌐 Site ↗](https://deeix.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeix-chat/)</sub>
 
-<a name="nextchat"></a>
-### #&#8288;19 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: widely used (97) · Freshness: recent (75) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
-
-**Web and desktop chat client for OpenAI, Claude, Gemini and other model APIs.**
-
-NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, Anthropic, Google, DeepSeek, Baidu, ByteDance, Alibaba and others) and to self-hosted backends such as LocalAI and RWKV-Runner. Chat history is stored in the browser, with optional sync via UpStash or WebDAV. It runs as a Vercel or Docker deployment on port 3000 and as a Tauri desktop client, with prompt templates (masks), plugins, artifacts and optional MCP support.
-
-- **+** Supports many providers via env vars, including Azure, Anthropic, Gemini, DeepSeek and SiliconFlow
-- **+** Chat data stays in the browser by default; no database required
-- **+** Deploys via one-click Vercel or a single Docker container
-- **+** Also ships a Tauri desktop client of about 5MB for Linux, Windows and macOS
-- **−** Access control is a shared password list (CODE), not per-user accounts
-- **−** Admin panel, permissions, knowledge base and auditing are only in the paid Enterprise Edition
-- **−** Local knowledge base is unchecked on the roadmap
-- **−** Last release is 2025-07-29; README docs partly Chinese-only or marked deprecated
-
-<sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
-
 <a name="geekai"></a>
-### #&#8288;20 [geekai](https://github.com/yangjian102621/geekai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;19 [geekai](https://github.com/yangjian102621/geekai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (45) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.7k · Apache-2.0 · Sep 2026</sub>
 
 **Multi-user web app for AI chat, image, music and video generation with billing.**
 
@@ -364,7 +346,7 @@ GeekAI is a Go (Gin) backend with a Vue 3 front end that wraps chat models and t
 <sub>Compose · Needs MySQL, Redis, Object storage (Qiniu, Aliyun OSS, Tencent COS or Minio) · Models: ChatGPT, Claude, MidJourney, DALL-E, Nano-Banana · [Repo](https://github.com/yangjian102621/geekai) · [▶️ Demo ↗](https://chat.geekai.me) · [📖 Docs ↗](https://docs.geekai.me) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/geekai/)</sub>
 
 <a name="risuai"></a>
-### #&#8288;21 [risuai](https://github.com/kwaroran/risuai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;20 [risuai](https://github.com/kwaroran/risuai) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · GPL-3.0 · Nov 2026</sub>
 
 **Roleplay-oriented chat client for many LLM APIs, with lorebooks and regex scripts.**
 
@@ -380,6 +362,24 @@ Risuai is a Svelte and Tauri chat application for character-based conversations,
 - **−** Does not run models itself; needs an external API or backend
 
 <sub>no GPU · Docker + Compose · Needs LLM API or backend (OpenAI, Claude, Gemini, Ooba, etc.) · Models: OpenAI, Claude, Gemini, DeepInfra, Ooba · port 6001 · [Repo](https://github.com/kwaroran/risuai) · [▶️ Demo ↗](https://risuai.net) · [📖 Docs ↗](https://github.com/kwaroran/Risuai/wiki) · [🌐 Site ↗](https://risuai.net) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/risuai/)</sub>
+
+<a name="nextchat"></a>
+### #&#8288;21 [NextChat](https://github.com/chatgptnextweb/nextchat) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: widely used (97) · Freshness: recent (75) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+
+**Web and desktop chat client for OpenAI, Claude, Gemini and other model APIs.**
+
+NextChat is a Next.js chat front-end that talks to hosted APIs (OpenAI, Azure, Anthropic, Google, DeepSeek, Baidu, ByteDance, Alibaba and others) and to self-hosted backends such as LocalAI and RWKV-Runner. Chat history is stored in the browser, with optional sync via UpStash or WebDAV. It runs as a Vercel or Docker deployment on port 3000 and as a Tauri desktop client, with prompt templates (masks), plugins, artifacts and optional MCP support.
+
+- **+** Supports many providers via env vars, including Azure, Anthropic, Gemini, DeepSeek and SiliconFlow
+- **+** Chat data stays in the browser by default; no database required
+- **+** Deploys via one-click Vercel or a single Docker container
+- **+** Also ships a Tauri desktop client of about 5MB for Linux, Windows and macOS
+- **−** Access control is a shared password list (CODE), not per-user accounts
+- **−** Admin panel, permissions, knowledge base and auditing are only in the paid Enterprise Edition
+- **−** Local knowledge base is unchecked on the roadmap
+- **−** Last release is 2025-07-29; README docs partly Chinese-only or marked deprecated
+
+<sub>no GPU · Docker + Compose · Needs OpenAI or other LLM API key, Node.js >= 18, Docker >= 20 (optional), UpStash (optional, chat sync) · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 3000 · [Repo](https://github.com/chatgptnextweb/nextchat) · [▶️ Demo ↗](https://app.nextchat.club) · [🌐 Site ↗](https://nextchat.club) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nextchat/)</sub>
 
 <a name="generative-ai-use-cases"></a>
 ### #&#8288;22 [generative-ai-use-cases](https://github.com/aws-samples/generative-ai-use-cases) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT-0 · Nov 2026</sub>
@@ -543,7 +543,7 @@ Ptero is a PHP and JavaScript chat front-end that lets users pick between severa
 <sub>no GPU · Needs WordPress, PHP, hosted model API (ModelRunner, minirouter) · [Repo](https://github.com/ptero-ai/ptero) · [▶️ Demo ↗](https://ptero.pro) · [📖 Docs ↗](https://docs.ptero.pro/) · [🌐 Site ↗](https://ptero.pro) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ptero/)</sub>
 
 <a name="claraverse"></a>
-### #&#8288;31 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (38) · Freshness: active (94) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
+### #&#8288;31 [ClaraVerse](https://github.com/claraverse-space/claraverse) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: known (38) · Freshness: active (93) · Maintenance: weak (8) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · custom license · Aug 2026</sub>
 
 **Private AI workspace with chat, agent crews, workflows and Telegram.**
 
@@ -579,7 +579,7 @@ GPT Academic is a Python Gradio app that sends text to OpenAI, Azure, Qwen, GLM,
 <sub>GPU optional · Docker + Compose · Needs Python 3.9-3.11, Gradio, LaTeX (for LaTeX plugins), Docker (optional) · Models: OpenAI GPT, Azure, Qwen, ChatGLM, GLM4 · [Repo](https://github.com/binary-husky/gpt_academic) · [▶️ Demo ↗](https://huggingface.co/spaces/qingxu98/gpt-academic) · [📖 Docs ↗](https://github.com/binary-husky/gpt_academic/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gpt-academic/)</sub>
 
 <a name="chatgpt-web"></a>
-### #&#8288;33 [chatgpt-web](https://github.com/chatgpt-web-dev/chatgpt-web) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (20) · Freshness: slowing (48) · Maintenance: weak (20) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Mar 2026</sub>
+### #&#8288;33 [chatgpt-web](https://github.com/chatgpt-web-dev/chatgpt-web) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (20) · Freshness: slowing (47) · Maintenance: weak (20) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Mar 2026</sub>
 
 **Multi-user ChatGPT web UI with MongoDB-backed history, admin panel and usage limits.**
 

@@ -935,7 +935,7 @@ Observer runs micro-agents in a loop of sensors, model, then JavaScript. Sensors
 <sub>Docker + Compose · Needs llama.cpp (bundled in desktop app), Whisper via transformers.js for audio, Telegram, Discord, Pushover, WhatsApp, SMS (optional notification channels) · Models: GGUF+mmproj, OpenAI-compatible endpoints, Ollama, llama.cpp, vLLM · [Repo](https://github.com/roy3838/observer) · [▶️ Demo ↗](https://app.observer-ai.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/observer/)</sub>
 
 <a name="picoclaw"></a>
-### #&#8288;53 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (88) · Freshness: active (98) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
+### #&#8288;53 [PicoClaw](https://github.com/sipeed/picoclaw) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: widely used (88) · Freshness: active (97) · Maintenance: patchy (31) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 30k · MIT · Aug 2026</sub>
 
 **Go assistant agent that runs in under 20 MB on $10 boards.**
 
@@ -1079,7 +1079,7 @@ OpenMuse is a personal-agent app built on CopilotKit React Native (Expo) with a 
 <sub>no GPU · Needs CopilotKit Intelligence API key, Node 24, pnpm 11.19.0, Playwright Chromium, Docker (optional, Linux computer), Google OAuth client (optional), Parallel Search MCP (web search) · Models: OpenAI, Anthropic, Google · port 8081 · [Repo](https://github.com/copilotkit/openmuse) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openmuse/)</sub>
 
 <a name="browserkitten"></a>
-### #&#8288;61 [browserkitten](https://github.com/player-yn/browserkitten) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (30) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Nov 2026</sub>
+### #&#8288;61 [browserkitten](https://github.com/player-yn/browserkitten) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Nov 2026</sub>
 
 **Chrome side-panel agent that reads and acts in your signed-in tabs.**
 
@@ -1493,7 +1493,7 @@ Node.js CLI (`wb`) that logs into WeChat by QR code through Wechaty and replies 
 <sub>no GPU · Docker · Needs Node.js >= 18, Wechaty, OpenCLI wx-cli, lark-cli, Pi agent · Models: ChatGPT, DeepSeek, Ollama, Claude, Kimi · port 3000 · [Repo](https://github.com/wangrongding/wechat-bot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wechat-bot/)</sub>
 
 <a name="open-llm-vtuber"></a>
-### #&#8288;84 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (80) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
+### #&#8288;84 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (80) · Freshness: slowing (50) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
 
 **Voice-chat AI companion with a Live2D avatar and desktop pet mode.**
 
@@ -1511,7 +1511,7 @@ Open-LLM-VTuber is a Python server with web and desktop clients for real-time vo
 <sub>GPU optional · Docker · Needs uv, ffmpeg · Models: Ollama, OpenAI-compatible, Gemini, Claude, Mistral · [Repo](https://github.com/open-llm-vtuber/open-llm-vtuber) · [📖 Docs ↗](https://open-llm-vtuber.github.io/docs/quick-start) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-llm-vtuber/)</sub>
 
 <a name="moltworker"></a>
-### #&#8288;85 [moltworker](https://github.com/cloudflare/moltworker) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (72) · Freshness: slowing (45) · Maintenance: weak (11) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;85 [moltworker](https://github.com/cloudflare/moltworker) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (72) · Freshness: slowing (44) · Maintenance: weak (11) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Mar 2026</sub>
 
 **Cloudflare Worker that runs the OpenClaw assistant inside a Cloudflare Sandbox container.**
 
@@ -1547,7 +1547,7 @@ MetaClaw is a local proxy between a personal agent (OpenClaw, CoPaw, IronClaw, P
 <sub>no GPU · Needs OpenAI-compatible LLM API, Tinker, MinT or Weaver (RL mode only), Google Calendar (optional) · Models: OpenAI-compatible APIs, Anthropic /v1/messages, Kimi, Qwen, OpenAI · port 30000 · [Repo](https://github.com/aiming-lab/metaclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metaclaw/)</sub>
 
 <a name="agent"></a>
-### #&#8288;87 [stakpak/agent](https://github.com/stakpak/agent) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (22) · Freshness: active (87) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;87 [stakpak/agent](https://github.com/stakpak/agent) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (22) · Freshness: active (86) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · Apache-2.0 · Jul 2026</sub>
 
 **Rust DevOps agent that runs on your servers with secret redaction and guardrails.**
 
@@ -1600,7 +1600,7 @@ DeepBot is an Electron and TypeScript desktop assistant where each tab is an iso
 <sub>no GPU · Docker + Compose · Needs Node.js 20+, pnpm 10.23+, Python 3.11+, Tavily (web search), markitdown (document analysis) · Models: Qwen, OpenAI, Claude · [Repo](https://github.com/kevinluosl/deepbot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepbot/)</sub>
 
 <a name="openclaw-studio"></a>
-### #&#8288;90 [openclaw-studio](https://github.com/grp06/openclaw-studio) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (25) · Freshness: recent (76) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jun 2026</sub>
+### #&#8288;90 [openclaw-studio](https://github.com/grp06/openclaw-studio) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (25) · Freshness: recent (75) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jun 2026</sub>
 
 **Web dashboard for managing OpenClaw agents, chat, approvals and cron jobs.**
 
@@ -1636,7 +1636,7 @@ PhoneClaw is a Swift iOS app (iOS 17+) that runs Gemma 4 E2B/E4B via LiteRT-LM a
 <sub>GPU optional · Needs Xcode 16, CocoaPods, Ollama (optional, Mac Gateway) · Models: Gemma 4 E2B, Gemma 4 E4B, MiniCPM-V 4.6, LiteRT-LM (.litertlm) · port 18080 · [Repo](https://github.com/kellyvv/phoneclaw) · [🌐 Site ↗](https://kellyvv.github.io/PhoneClaw/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/phoneclaw/)</sub>
 
 <a name="openclaw-china-docker"></a>
-### #&#8288;92 [openclaw-china-docker](https://github.com/justlovemaki/openclaw-china-docker) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: known (45) · Freshness: recent (51) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · GPL-3.0 · Apr 2026</sub>
+### #&#8288;92 [openclaw-china-docker](https://github.com/justlovemaki/openclaw-china-docker) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: known (45) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.7k · GPL-3.0 · Apr 2026</sub>
 
 **OpenClaw image preloaded with Feishu, DingTalk, QQ and WeCom chat plugins.**
 
@@ -1689,7 +1689,7 @@ FreeTodo is a todo app with a FastAPI backend (SQLite and ChromaDB) and a Next.j
 <sub>GPU optional · Needs Python 3.12, uv, Node.js 20+, pnpm, SQLite, ChromaDB · port 3001 · [Repo](https://github.com/freeu-group/freetodo) · [📖 Docs ↗](https://freeyou.club/lifetrace/introduction.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/freetodo/)</sub>
 
 <a name="chatgpt-telegram-bot"></a>
-### #&#8288;95 [chatgpt-telegram-bot](https://github.com/yym68686/chatgpt-telegram-bot) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (4) · Freshness: slowing (48) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Apr 2026</sub>
+### #&#8288;95 [chatgpt-telegram-bot](https://github.com/yym68686/chatgpt-telegram-bot) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (4) · Freshness: slowing (47) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Apr 2026</sub>
 
 **Telegram bot that chats with OpenAI-compatible APIs, with search and file Q&A.**
 
@@ -1725,7 +1725,7 @@ Phantom is a Bun/TypeScript agent that runs on a dedicated machine, talks to use
 <sub>GPU optional · Docker + Compose · Needs Qdrant, Ollama (embedding model), SQLite, Docker, Slack (optional), Resend (optional, email) · Models: Anthropic Claude, Z.AI GLM, OpenRouter, Ollama, vLLM · port 3100 · [Repo](https://github.com/ghostwright/phantom) · [📖 Docs ↗](https://github.com/ghostwright/phantom/tree/main/docs) · [🌐 Site ↗](https://ghostwright.dev/phantom) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/phantom/)</sub>
 
 <a name="open-health"></a>
-### #&#8288;97 [open-health](https://github.com/openhealthforall/open-health) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: known (48) · Freshness: quiet (10) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · AGPL-3.0 · Jan 2026</sub>
+### #&#8288;97 [open-health](https://github.com/openhealthforall/open-health) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: known (48) · Freshness: quiet (10) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · AGPL-3.0 · Jan 2026</sub>
 
 **Web app that parses personal health records and chats about them with an LLM.**
 

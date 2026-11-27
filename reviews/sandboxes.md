@@ -418,7 +418,7 @@ E2B Code Interpreter lets an app start isolated cloud sandboxes and run AI-gener
 <sub>no GPU · Needs E2B account and API key (E2B_API_KEY) · [Repo](https://github.com/e2b-dev/code-interpreter) · [📖 Docs ↗](https://docs.e2b.dev/) · [🌐 Site ↗](https://e2b.dev/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/code-interpreter/)</sub>
 
 <a name="browser-use-web-ui"></a>
-### #&#8288;24 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: widely used (81) · Freshness: recent (51) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
+### #&#8288;24 [Browser Use Web UI](https://github.com/browser-use/web-ui) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: widely used (81) · Freshness: recent (50) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · May 2026</sub>
 
 **Gradio UI for running browser-use agents with your own Chrome.**
 
