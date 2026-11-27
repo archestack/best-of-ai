@@ -3,13 +3,13 @@
 <h3 align="center">Open-source AI, ranked. 🏆</h3>
 <p align="center">AI apps, agents and models you run, and the parts to build with. Paid never moves a rank.</p>
 <p align="center">
-  <img alt="projects" src="https://img.shields.io/badge/2352_projects-ff6b6b?style=for-the-badge" />
+  <img alt="projects" src="https://img.shields.io/badge/2353_projects-ff6b6b?style=for-the-badge" />
   <img alt="stars" src="https://img.shields.io/badge/27.7M_stars_combined-ffd166?style=for-the-badge" />
   <img alt="categories" src="https://img.shields.io/badge/21_categories-5ac4bf?style=for-the-badge" />
-  <img alt="updated" src="https://img.shields.io/badge/updated-2026--11--26-8ac926?style=for-the-badge" />
+  <img alt="updated" src="https://img.shields.io/badge/updated-2026--11--27-8ac926?style=for-the-badge" />
 </p>
 
-<p align="center">Best of Open-Source AI is a ranked list of 2,352 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-26 (UTC).</sub></p>
+<p align="center">Best of Open-Source AI is a ranked list of 2,353 open-source AI projects: chat apps and assistants, desktop apps, agent platforms and frameworks, workflow automation, RAG, memory, model serving, open models, training, image, video and voice, vector databases, gateways, observability, sandboxes, data tools, MCP servers and learning material. Each entry has strengths, weaknesses, specs and a score from public GitHub signals. <sub>Updated 2026-11-27 (UTC).</sub></p>
 
 > [!TIP]
 > 🔎 **Every project fact-checked** on GitHub before it is listed &nbsp;·&nbsp; ✍️ Every entry has strengths **and** weaknesses &nbsp;·&nbsp; ▶️ **Demo links** so you can try before you deploy
@@ -23,7 +23,7 @@
 
 ## 🔥 Top 10 right now
 
-<sub>2352 projects ranked in 21 categories · data from 2026-11-26 · re-ranked twice a day</sub>
+<sub>2353 projects ranked in 21 categories · data from 2026-11-26 · re-ranked twice a day</sub>
 
 <sub>**How to read it:** rank 🥇🥈🥉 then #&#8288;4, #&#8288;5… (equal scores: more stars first) · ▲▼ places moved in the last month, 🆕 new this month · score out of 100 sets the order: hover it to see what it is made of, or read [how we rank](#-how-we-rank) · click a project name for its review · ↗ opens another site (Cmd/Ctrl-click for a new tab)</sub>
 
@@ -113,7 +113,7 @@
 |---|--:|---|
 | No GPU needed | 521 | [career-ops](reviews/assistants.md#career-ops) · [ai-job-search](reviews/assistants.md#ai-job-search) · [n8n](reviews/automation.md#n8n) · [OmniRoute](reviews/gateways.md#omniroute) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [servers](reviews/mcp-servers.md#servers) |
 | A GPU helps, not required | 401 | [voicestudio](reviews/voice.md#voicestudio) · [openhuman](reviews/assistants.md#openhuman) · [llama.cpp](reviews/model-serving.md#llama-cpp) · [handy](reviews/voice.md#handy) · [frigate](reviews/image-video.md#frigate) · [screenpipe](reviews/desktop-apps.md#screenpipe) |
-| Needs a GPU | 126 | [strata](reviews/model-serving.md#strata) · [modular](reviews/model-serving.md#modular) · [omlx](reviews/model-serving.md#omlx) · [tensorrt-llm](reviews/model-serving.md#tensorrt-llm) · [freetoken](reviews/model-serving.md#freetoken) · [vllm-omni](reviews/model-serving.md#vllm-omni) |
+| Needs a GPU | 127 | [strata](reviews/model-serving.md#strata) · [modular](reviews/model-serving.md#modular) · [omlx](reviews/model-serving.md#omlx) · [tensorrt-llm](reviews/model-serving.md#tensorrt-llm) · [freetoken](reviews/model-serving.md#freetoken) · [vllm-omni](reviews/model-serving.md#vllm-omni) |
 | A Mac or another arm64 machine | 483 | [voicestudio](reviews/voice.md#voicestudio) · [hindsight](reviews/memory.md#hindsight) · [openhuman](reviews/assistants.md#openhuman) · [OmniRoute](reviews/gateways.md#omniroute) · [daily_stock_analysis](reviews/agent-platforms.md#daily-stock-analysis) · [Lightpanda](reviews/sandboxes.md#lightpanda) |
 
 ## 🗂️ All categories
@@ -127,7 +127,7 @@
 - 🔁 [Workflow automation with AI](#-workflow-automation-with-ai) · 5
 - 📚 [RAG, knowledge and search](#-rag-knowledge-and-search) · 106
 - 🎙️ [Voice](#%EF%B8%8F-voice) · 146
-- 🎨 [Image and video](#-image-and-video) · 138
+- 🎨 [Image and video](#-image-and-video) · 139
 - 🔐 [Security](#-security) · 61
 
 **🧱 Build with it**
@@ -362,7 +362,7 @@ Speech-to-text, text-to-speech, voice agents and meeting tools that run locally.
 
 ## 🎨 Image and video
 
-Generation UIs and pipelines for images and video, usually around diffusion models. <sub>138 ranked · [📝 all reviews](reviews/image-video.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/image-video/)</sub>
+Generation UIs and pipelines for images and video, usually around diffusion models. <sub>139 ranked · [📝 all reviews](reviews/image-video.md) · [🌐 on archestack.com](https://archestack.com/best-of-ai/image-video/)</sub>
 
 **frigate leads with 94**, ahead of autoclip (91) and toonflow-app (90).
 
@@ -373,13 +373,13 @@ Generation UIs and pipelines for images and video, usually around diffusion mode
 | 🥉 | ▲1 | **[toonflow-app](reviews/image-video.md#toonflow-app "Review: strengths, weaknesses, specs")**<br><sub>AI short-drama and comic video studio with infinite canvas and 3D previs</sub><br><sub>🐳 Docker · MIT · GPU optional · [📖 Docs ↗](https://qcn7xdsqgc4z.feishu.cn/docx/RXFqdgR2Xo0dXZxGfd0cZCGgnwf) · [🌐 Site ↗](https://api.toonflow.net/)</sub> | [90](#-how-we-rank "Score 90/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 23k |
 | #&#8288;4 | ▼1 | **[InvokeAI](reviews/image-video.md#invokeai "Review: strengths, weaknesses, specs")**<br><sub>Web UI for diffusion image generation with inpainting canvas and node workflows</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://invoke.ai/start-here/installation/) · [🌐 Site ↗](https://invoke.ai/)</sub> | [89](#-how-we-rank "Score 89/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 29k |
 | #&#8288;5 | ▼4 | **[MoneyPrinterTurbo](reviews/image-video.md#moneyprinterturbo "Review: strengths, weaknesses, specs")**<br><sub>Generates short videos from a topic, with script, footage, voiceover and subtitles</sub><br><sub>🐳 Docker · MIT · GPU optional</sub> | [87](#-how-we-rank "Score 87/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") | 146k |
-| #&#8288;6 | 🆕 | **[arcreel](reviews/image-video.md#arcreel "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted workbench that turns novels or scripts into short videos</sub><br><sub>🐳 Docker · AGPL-3.0 · [📖 Docs ↗](https://docs.arc-reel.com/guide/getting-started) · [🌐 Site ↗](https://docs.arc-reel.com/)</sub> | [87](#-how-we-rank "Score 87/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 6.8k |
+| #&#8288;6 | 🆕 | **[arcreel](reviews/image-video.md#arcreel "Review: strengths, weaknesses, specs")**<br><sub>Self-hosted workbench that turns novels or scripts into short videos</sub><br><sub>🐳 Docker · AGPL-3.0 · [📖 Docs ↗](https://docs.arc-reel.com/guide/getting-started) · [🌐 Site ↗](https://docs.arc-reel.com/)</sub> | [87](#-how-we-rank "Score 87/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 6.8k |
 | #&#8288;7 | ▼5 | **[ComfyUI](reviews/image-video.md#comfyui "Review: strengths, weaknesses, specs")**<br><sub>Node-graph editor for running diffusion image, video, audio and 3D workflows</sub><br><sub>GPL-3.0 · GPU optional · [📖 Docs ↗](https://docs.comfy.org/) · [🌐 Site ↗](https://www.comfy.org/)</sub> | [86](#-how-we-rank "Score 86/100. Adoption: widely used (100) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 149k |
 | #&#8288;8 | 🆕 | **[civitai](reviews/image-video.md#civitai "Review: strengths, weaknesses, specs")**<br><sub>Source of the Civitai site for sharing Stable Diffusion models</sub><br><sub>🐳 Docker · Apache-2.0 · [▶️ Demo ↗](https://civitai.com/) · [🌐 Site ↗](https://civitai.com/)</sub> | [86](#-how-we-rank "Score 86/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 7.3k |
 | #&#8288;9 | ▼4 | **[banana-slides](reviews/image-video.md#banana-slides "Review: strengths, weaknesses, specs")**<br><sub>AI slide generator that renders pages with image models and exports PPTX</sub><br><sub>🐳 Docker · AGPL-3.0 · [▶️ Demo ↗](https://bananaslides.online/) · [📖 Docs ↗](https://docs.bananaslides.online/) · [🌐 Site ↗](https://bananaslides.online/)</sub> | [85](#-how-we-rank "Score 85/100. Adoption: widely used (84) · Freshness: active (91) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 16k |
 | #&#8288;10 | ▼2 | **[stable-diffusion.cpp](reviews/image-video.md#stable-diffusion-cpp "Review: strengths, weaknesses, specs")**<br><sub>C/C++ inference for Stable Diffusion, Flux, Qwen-Image and Wan video models</sub><br><sub>🐳 Docker · MIT · GPU optional</sub> | [85](#-how-we-rank "Score 85/100. Adoption: popular (70) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") | 8.1k |
 
-<sub>Top 10 of 138. [See all 138, ranked, with reviews →](reviews/image-video.md)</sub>
+<sub>Top 10 of 139. [See all 139, ranked, with reviews →](reviews/image-video.md)</sub>
 
 <details><summary>💡 How to choose</summary>
 

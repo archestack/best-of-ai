@@ -489,7 +489,7 @@ Open Brain is a guide and contribution repo for building a personal memory store
 <sub>no GPU · Needs Supabase, PostgreSQL with pgvector, Slack or Discord, AI gateway · Models: MCP clients: Claude, ChatGPT, Cursor, Claude Code · [Repo](https://github.com/natebjones-projects/ob1) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ob1/)</sub>
 
 <a name="m-flow"></a>
-### #&#8288;28 [m_flow](https://github.com/flowelement-xinliuyuansu/m_flow) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (48) · Freshness: active (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;28 [m_flow](https://github.com/flowelement-xinliuyuansu/m_flow) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (48) · Freshness: active (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Aug 2026</sub>
 
 **Graph-based memory engine that scores retrieval by evidence paths.**
 
@@ -579,7 +579,7 @@ MemMachine stores and retrieves agent memory across sessions through a REST API,
 <sub>Docker + Compose · Needs Neo4j, SQL database · Models: OpenAI, Anthropic, Bedrock, Ollama · port 8080 · [Repo](https://github.com/memmachine/memmachine) · [📖 Docs ↗](https://docs.memmachine.ai) · [🌐 Site ↗](https://memmachine.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memmachine/)</sub>
 
 <a name="voicemem"></a>
-### #&#8288;33 [voicemem](https://github.com/xzf-thu/voicemem) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (30) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;33 [voicemem](https://github.com/xzf-thu/voicemem) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (30) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.9k · Apache-2.0 · Sep 2026</sub>
 
 **Memory engine for voice agents that retrieves while the user is still speaking.**
 
@@ -741,7 +741,7 @@ MemoryOS is a Python library that stores agent conversations in short-term, mid-
 <sub>GPU optional · Docker · Needs OpenAI-compatible LLM API, ChromaDB (optional variant) · Models: OpenAI, Anthropic, Deepseek-R1, Qwen3, vLLM · [Repo](https://github.com/bai-lab/memoryos) · [▶️ Demo ↗](https://baijia.online/memoryos/) · [📖 Docs ↗](https://bai-lab.github.io/MemoryOS/docs) · [🌐 Site ↗](https://baijia.online/memoryos/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/memoryos/)</sub>
 
 <a name="memobase"></a>
-### #&#8288;42 [memobase](https://github.com/memodb-io/memobase) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: known (32) · Freshness: quiet (17) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;42 [memobase](https://github.com/memodb-io/memobase) <sub>score [14](../README.md#-how-we-rank "Score 14/100. Adoption: known (32) · Freshness: quiet (16) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Jan 2026</sub>
 
 **User-profile memory backend for LLM apps with event timeline.**
 

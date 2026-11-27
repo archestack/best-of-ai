@@ -923,7 +923,7 @@ Terminator is a Rust project that drives Windows applications through the access
 <sub>Needs Node.js (npx), Chrome extension for browser automation, Windows · [Repo](https://github.com/mediar-ai/terminator) · [🌐 Site ↗](https://t8r.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/terminator/)</sub>
 
 <a name="mcp-pandoc"></a>
-### #&#8288;52 [mcp-pandoc](https://github.com/vivekvells/mcp-pandoc) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (8) · Freshness: active (97) · Maintenance: weak (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 587 · MIT · Aug 2026</sub>
+### #&#8288;52 [mcp-pandoc](https://github.com/vivekvells/mcp-pandoc) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (8) · Freshness: active (96) · Maintenance: weak (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 587 · MIT · Aug 2026</sub>
 
 **MCP server that converts documents between formats using pandoc.**
 
@@ -977,7 +977,7 @@ Python MCP server built on yfinance that gives assistants nine tools: historical
 <sub>no GPU · Docker · Needs Yahoo Finance (via yfinance), uv, Python 3.14.6+ · [Repo](https://github.com/alex2yang97/yahoo-finance-mcp) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/yahoo-finance-mcp/)</sub>
 
 <a name="slack-mcp-server"></a>
-### #&#8288;55 [slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (39) · Freshness: recent (72) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
+### #&#8288;55 [slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) <sub>score [34](../README.md#-how-we-rank "Score 34/100. Adoption: known (39) · Freshness: recent (71) · Maintenance: weak (3) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
 
 **Slack workspace MCP server for reading, searching and posting messages.**
 

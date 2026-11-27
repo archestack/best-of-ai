@@ -1131,26 +1131,8 @@ GLM-OCR is a 0.9B-parameter document OCR model (CogViT encoder, GLM-0.5B decoder
 
 <sub>GPU optional · Needs vLLM or SGLang or Ollama (self-hosted), PP-DocLayout-V3, Zhipu MaaS API (cloud mode) · Models: zai-org/GLM-OCR (BF16) · port 5002 · [Repo](https://github.com/zai-org/glm-ocr) · [📖 Docs ↗](https://docs.z.ai/guides/vlm/glm-ocr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/glm-ocr/)</sub>
 
-<a name="jina-reader"></a>
-### #&#8288;64 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (74) · Freshness: recent (64) · Maintenance: weak (6) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
-
-**Converts any URL or search query into LLM-friendly markdown.**
-
-Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page with headless Chrome or curl-impersonate, parses PDFs and Office files, and returns markdown, text, HTML, screenshots or JSON controlled by request headers (engine, timeout, token limits). The ghcr.io image bundles Chrome, LibreOffice and CJK fonts, serves HTTP/1.1 on 8081 and h2c on 8080, and runs stateless or with S3-compatible caching.
-
-- **+** Prebuilt image with Chrome, LibreOffice and CJK fonts; stateless by default
-- **+** Fine-grained headers: x-respond-timing, x-max-tokens, x-token-budget, x-target-selector
-- **+** Optional VLM captions for images without alt text
-- **+** Semantic markdown chunking by heading or block level
-- **−** Hosted proxy pool, rate limiting and MongoDB storage layer are not in the OSS branch
-- **−** Needs non-redistributable assets (MaxMind GeoLite2, Source Han Sans) fetched at build
-- **−** Last commit May 2026; the SaaS resync was April 2026
-- **−** Default h2c port 8080 needs --http2-prior-knowledge from curl; use 8081 otherwise
-
-<sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jina-reader/)</sub>
-
 <a name="tesseract-js"></a>
-### #&#8288;65 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (91) · Freshness: recent (60) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
+### #&#8288;64 [tesseract.js](https://github.com/naptha/tesseract.js) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: widely used (91) · Freshness: recent (60) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · Apache-2.0 · May 2026</sub>
 
 **JavaScript OCR library that runs Tesseract in the browser and Node.js.**
 
@@ -1166,6 +1148,24 @@ Tesseract.js wraps a WebAssembly port of the Tesseract OCR engine and extracts t
 - **−** Breaking API changes across v4, v5 and v6 complicate upgrades
 
 <sub>no GPU · Docker · Needs Node.js 16+ (v7, server use), tesseract.js-core (WebAssembly port of Tesseract) · Models: Tesseract traineddata language files · [Repo](https://github.com/naptha/tesseract.js) · [▶️ Demo ↗](http://tesseract.projectnaptha.com/) · [📖 Docs ↗](https://github.com/naptha/tesseract.js/blob/master/docs/api.md) · [🌐 Site ↗](https://tesseract.projectnaptha.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tesseract-js/)</sub>
+
+<a name="jina-reader"></a>
+### #&#8288;65 [Jina Reader](https://github.com/jina-ai/reader) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: popular (74) · Freshness: recent (64) · Maintenance: weak (6) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · May 2026</sub>
+
+**Converts any URL or search query into LLM-friendly markdown.**
+
+Open-source branch of the service behind r.jina.ai and s.jina.ai: fetches a page with headless Chrome or curl-impersonate, parses PDFs and Office files, and returns markdown, text, HTML, screenshots or JSON controlled by request headers (engine, timeout, token limits). The ghcr.io image bundles Chrome, LibreOffice and CJK fonts, serves HTTP/1.1 on 8081 and h2c on 8080, and runs stateless or with S3-compatible caching.
+
+- **+** Prebuilt image with Chrome, LibreOffice and CJK fonts; stateless by default
+- **+** Fine-grained headers: x-respond-timing, x-max-tokens, x-token-budget, x-target-selector
+- **+** Optional VLM captions for images without alt text
+- **+** Semantic markdown chunking by heading or block level
+- **−** Hosted proxy pool, rate limiting and MongoDB storage layer are not in the OSS branch
+- **−** Needs non-redistributable assets (MaxMind GeoLite2, Source Han Sans) fetched at build
+- **−** Last commit May 2026; the SaaS resync was April 2026
+- **−** Default h2c port 8080 needs --http2-prior-knowledge from curl; use 8081 otherwise
+
+<sub>no GPU · Docker + Compose · Needs Headless Chrome and LibreOffice (bundled in image), S3-compatible bucket (optional cache), VLM endpoint for image captions (optional) · port 8081 · [Repo](https://github.com/jina-ai/reader) · [▶️ Demo ↗](https://jina.ai/reader#demo) · [📖 Docs ↗](https://r.jina.ai/docs) · [🌐 Site ↗](https://jina.ai/reader) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jina-reader/)</sub>
 
 <a name="keybert"></a>
 ### #&#8288;66 [keybert](https://github.com/maartengr/keybert) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (47) · Freshness: recent (70) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.2k · MIT · Nov 2026</sub>
@@ -1204,7 +1204,7 @@ Official Python SDK for the hosted Tavily API. It wraps search, content extracti
 <sub>no GPU · Needs Tavily API (hosted), Tavily API key (except keyless search/extract) · [Repo](https://github.com/tavily-ai/tavily-python) · [📖 Docs ↗](https://docs.tavily.com/sdk/python/reference) · [🌐 Site ↗](https://tavily.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/tavily-python/)</sub>
 
 <a name="anakin"></a>
-### #&#8288;68 [anakin](https://github.com/anakin-inc/anakin) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (43) · Freshness: active (92) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;68 [anakin](https://github.com/anakin-inc/anakin) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (43) · Freshness: active (91) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · AGPL-3.0 · Aug 2026</sub>
 
 **Self-hosted scraping API that returns LLM-ready markdown or JSON.**
 
@@ -1258,7 +1258,7 @@ ExtractThinker is a Python library that loads documents (PDF, images, tables, sp
 <sub>GPU optional · Docker + Compose · Needs LLM provider API or Ollama, libmagic, pypdf (for PDFs) · Models: Ollama local models, Hosted LLM providers via EXTRACT_THINKER_MODEL · [Repo](https://github.com/enoch3712/extractthinker) · [📖 Docs ↗](https://enoch3712.github.io/ExtractThinker/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/extractthinker/)</sub>
 
 <a name="olmocr"></a>
-### #&#8288;71 [olmocr](https://github.com/allenai/olmocr) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (83) · Freshness: recent (54) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;71 [olmocr](https://github.com/allenai/olmocr) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (83) · Freshness: recent (53) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · Apache-2.0 · Mar 2026</sub>
 
 **PDF and image to Markdown converter built on a 7B vision-language model.**
 
@@ -1384,7 +1384,7 @@ JSON2YOLO is a set of Python scripts that convert COCO detection, segmentation a
 <sub>no GPU · Needs Python 3.8+, ultralytics (for convert_coco) · Models: COCO JSON, LabelMe JSON, Labelbox JSON, YOLO format · [Repo](https://github.com/ultralytics/json2yolo) · [📖 Docs ↗](https://docs.ultralytics.com/reference/data/converter) · [🌐 Site ↗](https://www.ultralytics.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/json2yolo/)</sub>
 
 <a name="doccano"></a>
-### #&#8288;78 [doccano](https://github.com/doccano/doccano) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: popular (71) · Freshness: slowing (32) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
+### #&#8288;78 [doccano](https://github.com/doccano/doccano) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: popular (71) · Freshness: slowing (31) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Jan 2026</sub>
 
 **Web-based text annotation tool for labeling NLP datasets.**
 
@@ -1420,7 +1420,7 @@ DeepKE is a PyTorch toolkit that trains and runs models for named entity recogni
 <sub>Docker · Needs PyTorch, transformers, hydra-core, wandb (optional) · Models: BERT-style encoders, W2NER, LightNER, KnowPrompt, PRGC · [Repo](https://github.com/zjunlp/deepke) · [▶️ Demo ↗](http://deepke.zjukg.cn/) · [📖 Docs ↗](https://zjunlp.github.io/DeepKE/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepke/)</sub>
 
 <a name="cleanlab"></a>
-### #&#8288;80 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (73) · Freshness: slowing (31) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;80 [cleanlab](https://github.com/cleanlab/cleanlab) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (73) · Freshness: slowing (30) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · Apache-2.0 · Jan 2026</sub>
 
 **Python library that finds label errors and outliers in ML datasets.**
 
@@ -1456,7 +1456,7 @@ Kubric generates semi-realistic synthetic videos of multiple objects, using pybu
 <sub>Docker · Needs Blender 2.93, pybullet, Docker · [Repo](https://github.com/google-research/kubric) · [📖 Docs ↗](https://kubric.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/kubric/)</sub>
 
 <a name="fastdup"></a>
-### #&#8288;82 [fastdup](https://github.com/visual-layer/fastdup) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (20) · Freshness: recent (69) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · custom license · Aug 2026</sub>
+### #&#8288;82 [fastdup](https://github.com/visual-layer/fastdup) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (20) · Freshness: recent (68) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · custom license · Aug 2026</sub>
 
 **Python library that finds duplicates, outliers and mislabels in image datasets.**
 
@@ -1492,7 +1492,7 @@ Scattertext is a Python library that scores which words and phrases are characte
 <sub>no GPU · Needs Python 3.11+, spacy (optional), gensim (optional), empath (optional), umap-learn (optional), jieba (optional), flashtext (optional), astropy (optional) · [Repo](https://github.com/jasonkessler/scattertext) · [▶️ Demo ↗](https://jasonkessler.github.io/demo_compact.html) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scattertext/)</sub>
 
 <a name="fg-data-synthetic"></a>
-### #&#8288;84 [fg-data-synthetic](https://github.com/data-centric-ai-community/fg-data-synthetic) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (14) · Freshness: recent (65) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Apr 2026</sub>
+### #&#8288;84 [fg-data-synthetic](https://github.com/data-centric-ai-community/fg-data-synthetic) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (15) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Apr 2026</sub>
 
 **Python library for synthetic tabular and time-series data using GANs and Gaussian Mixture.**
 
@@ -1528,7 +1528,7 @@ Diffgram is a self-installed platform for storing AI data (schemas, blobs, predi
 <sub>Compose · [Repo](https://github.com/diffgram/diffgram) · [📖 Docs ↗](https://diffgram.readme.io/docs) · [🌐 Site ↗](https://diffgram.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diffgram/)</sub>
 
 <a name="video-analyzer"></a>
-### #&#8288;86 [video-analyzer](https://github.com/byjlw/video-analyzer) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (13) · Freshness: recent (61) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;86 [video-analyzer](https://github.com/byjlw/video-analyzer) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (13) · Freshness: recent (60) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · Apache-2.0 · Apr 2026</sub>
 
 **CLI that describes videos using key frames, a vision LLM and Whisper.**
 
@@ -1546,7 +1546,7 @@ Extracts key frames from a video with OpenCV, transcribes audio with Whisper, an
 <sub>RAM ≥ 16 GB · GPU optional · Needs Python 3.11+, FFmpeg, Ollama, OpenCV, Whisper · Models: Llama 3.2 Vision 11B (Ollama), OpenAI-compatible APIs (OpenRouter, OpenAI), Whisper · [Repo](https://github.com/byjlw/video-analyzer) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/video-analyzer/)</sub>
 
 <a name="blenderproc"></a>
-### #&#8288;87 [blenderproc](https://github.com/dlr-rm/blenderproc) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (43) · Freshness: quiet (11) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Jan 2026</sub>
+### #&#8288;87 [blenderproc](https://github.com/dlr-rm/blenderproc) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: known (43) · Freshness: quiet (10) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · GPL-3.0 · Jan 2026</sub>
 
 **Python pipeline for rendering synthetic training images with Blender.**
 
@@ -1618,7 +1618,7 @@ A React frontend and FastAPI backend that wrap the DeepSeek-OCR model from Huggi
 <sub>RAM ≥ 16 GB · GPU required · Compose · Needs Docker Compose, NVIDIA Container Toolkit, NVIDIA driver · Models: deepseek-ai/DeepSeek-OCR · port 3000 · [Repo](https://github.com/rdumasia303/deepseek_ocr_app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepseek-ocr-app/)</sub>
 
 <a name="libpostal"></a>
-### #&#8288;91 [libpostal](https://github.com/openvenues/libpostal) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: popular (52) · Freshness: quiet (3) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Dec 2025</sub>
+### #&#8288;91 [libpostal](https://github.com/openvenues/libpostal) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: popular (52) · Freshness: quiet (2) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.9k · MIT · Dec 2025</sub>
 
 **C library for parsing and normalizing street addresses worldwide.**
 

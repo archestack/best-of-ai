@@ -238,7 +238,7 @@ Ragas is a Python package for evaluating LLM applications. It ships pre-built an
 <sub>no GPU · Needs LLM provider API (OpenAI in example) · Models: OpenAI, LangChain · [Repo](https://github.com/vibrantlabsai/ragas) · [📖 Docs ↗](https://docs.ragas.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ragas/)</sub>
 
 <a name="clawrouter"></a>
-### #&#8288;14 [clawrouter](https://github.com/blockrunai/clawrouter) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · MIT · Nov 2026</sub>
+### #&#8288;14 [clawrouter](https://github.com/blockrunai/clawrouter) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.7k · MIT · Nov 2026</sub>
 
 **Local LLM router that picks the cheapest capable model per request.**
 
@@ -789,7 +789,7 @@ cost-xray captures the real API traffic from Claude Code and Codex through a loc
 <sub>no GPU · Needs mitmproxy, Claude Code or Codex, systemd (optional, Linux) · Models: Claude Code (Anthropic wire), Codex (OpenAI Responses wire) · [Repo](https://github.com/tigerless-labs/cost-xray) · [🌐 Site ↗](https://tigerless.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cost-xray/)</sub>
 
 <a name="gomodel"></a>
-### #&#8288;45 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
+### #&#8288;45 [GoModel](https://github.com/enterpilot/gomodel) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
 
 **Go LLM gateway with OpenAI and Anthropic-compatible APIs, caching and budgets.**
 
@@ -1183,7 +1183,7 @@ LiveBench is a Python benchmark harness that runs LLMs through 18 tasks in 6 cat
 <sub>no GPU · Needs Python, Docker (agentic coding tasks), tmux (parallel mode), vLLM (optional, for local models) · Models: OpenAI-compatible APIs, Anthropic, Cohere, Mistral, Together · [Repo](https://github.com/livebench/livebench) · [🌐 Site ↗](https://livebench.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/livebench/)</sub>
 
 <a name="evals"></a>
-### #&#8288;67 [evals](https://github.com/openai/evals) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (87) · Freshness: recent (51) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
+### #&#8288;67 [evals](https://github.com/openai/evals) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: widely used (87) · Freshness: recent (50) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 20k · custom license · Apr 2026</sub>
 
 **Python framework and registry for evaluating LLMs and LLM-based systems.**
 
@@ -1201,7 +1201,7 @@ Runs evals against OpenAI models and LLM-built systems, using a registry of exis
 <sub>no GPU · Needs OpenAI API key, Git-LFS, Snowflake (optional) · Models: OpenAI models, custom completion functions · [Repo](https://github.com/openai/evals) · [📖 Docs ↗](https://platform.openai.com/docs/guides/evals) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/evals/)</sub>
 
 <a name="openclaw-bot-review"></a>
-### #&#8288;68 [openclaw-bot-review](https://github.com/xmanrui/openclaw-bot-review) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (19) · Freshness: active (90) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
+### #&#8288;68 [openclaw-bot-review](https://github.com/xmanrui/openclaw-bot-review) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (19) · Freshness: active (89) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Jul 2026</sub>
 
 **Web dashboard for monitoring OpenClaw agents, models, sessions and token usage.**
 
@@ -1237,7 +1237,7 @@ AgentOps is a Python SDK plus a dashboard and API backend that records agent run
 <sub>no GPU · Needs AgentOps API key (hosted dashboard) · Models: OpenAI, Anthropic, Mistral, Cohere, LiteLLM · [Repo](https://github.com/agentops-ai/agentops) · [🌐 Site ↗](https://agentops.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentops/)</sub>
 
 <a name="terminal-bench-1"></a>
-### #&#8288;70 [terminal-bench-1](https://github.com/harbor-framework/terminal-bench-1) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (26) · Freshness: active (83) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;70 [terminal-bench-1](https://github.com/harbor-framework/terminal-bench-1) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (26) · Freshness: active (82) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Jul 2026</sub>
 
 **Benchmark of about 100 terminal tasks with a harness for testing LLM agents.**
 
@@ -1255,7 +1255,7 @@ Terminal-Bench is a dataset of command-line tasks plus an execution harness that
 <sub>no GPU · Docker + Compose · Needs Docker, uv · Models: anthropic/claude-3-7-latest (README example) · [Repo](https://github.com/harbor-framework/terminal-bench-1) · [📖 Docs ↗](https://www.tbench.ai/docs) · [🌐 Site ↗](https://www.tbench.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/terminal-bench-1/)</sub>
 
 <a name="coai"></a>
-### #&#8288;71 [CoAI](https://github.com/coaidev/coai) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (74) · Freshness: slowing (39) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
+### #&#8288;71 [CoAI](https://github.com/coaidev/coai) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (74) · Freshness: slowing (38) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · Mar 2026</sub>
 
 **Multi-user chat site plus OpenAI-compatible proxy with billing.**
 
@@ -1327,7 +1327,7 @@ One Hub is a Go fork of one-api that proxies requests to providers such as OpenA
 <sub>no GPU · Docker + Compose · Compose runs Redis, MySQL · Models: OpenAI, Azure OpenAI, Anthropic, Gemini, Amazon Bedrock · [Repo](https://github.com/martialbe/one-hub) · [▶️ Demo ↗](https://one-hub.xiao5.info/) · [📖 Docs ↗](https://one-hub-doc.vercel.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/one-hub/)</sub>
 
 <a name="openclaw-control-center"></a>
-### #&#8288;75 [openclaw-control-center](https://github.com/tianyidatascience/openclaw-control-center) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (44) · Freshness: recent (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Apr 2026</sub>
+### #&#8288;75 [openclaw-control-center](https://github.com/tianyidatascience/openclaw-control-center) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: known (44) · Freshness: slowing (50) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Apr 2026</sub>
 
 **Local dashboard for monitoring and coordinating an existing OpenClaw agent setup.**
 
@@ -1363,7 +1363,7 @@ PinchBench runs 53 real-world tasks (calendar scheduling, email triage, research
 <sub>Docker · Needs OpenClaw, uv, Python 3.10+, OpenRouter API key (default provider) · Models: OpenRouter, Anthropic, OpenAI, Kilo Gateway · [Repo](https://github.com/pinchbench/skill) · [🌐 Site ↗](https://pinchbench.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/skill/)</sub>
 
 <a name="prompttools"></a>
-### #&#8288;77 [prompttools](https://github.com/hegelai/prompttools) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: known (32) · Freshness: quiet (20) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;77 [prompttools](https://github.com/hegelai/prompttools) <sub>score [15](../README.md#-how-we-rank "Score 15/100. Adoption: known (32) · Freshness: quiet (19) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Feb 2026</sub>
 
 **Python library for testing prompts, LLMs and vector databases in notebooks.**
 

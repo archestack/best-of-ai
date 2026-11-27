@@ -1494,7 +1494,7 @@ React and TypeScript app that parses EPUB and PDF files, extracts chapters, and 
 <sub>no GPU · Docker + Compose · Needs Google Gemini or OpenAI API key, Node.js 20+, pnpm 9+, Rust (desktop build only) · Models: Google Gemini, OpenAI GPT · port 5173 · [Repo](https://github.com/ssshooter/ebook-to-mindmap) · [▶️ Demo ↗](https://ebook2me-next.mind-elixir.com/) · [🌐 Site ↗](https://app.mind-elixir.com/zh/ebook-to-mindmap) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ebook-to-mindmap/)</sub>
 
 <a name="embedanything"></a>
-### #&#8288;84 [embedanything](https://github.com/starlightsearch/embedanything) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;84 [embedanything](https://github.com/starlightsearch/embedanything) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: patchy (32) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · Apache-2.0 · Nov 2026</sub>
 
 **Rust embedding pipeline that ingests files and streams vectors to a vector database.**
 
@@ -1548,7 +1548,7 @@ ktx is a TypeScript CLI that ingests warehouse metadata, dbt/Looker/Metabase mod
 <sub>no GPU · Needs Node.js/npm, LLM provider API or local Claude Code/Codex sign-in, SQL warehouse, Embeddings provider · Models: Anthropic API, Google Vertex AI, AI Gateway, Claude Code session, Codex · [Repo](https://github.com/kaelio/ktx) · [📖 Docs ↗](https://docs.kaelio.com/ktx/docs/) · [🌐 Site ↗](https://www.kaelio.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ktx/)</sub>
 
 <a name="swirl-search"></a>
-### #&#8288;87 [swirl-search](https://github.com/swirlai/swirl-search) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (39) · Freshness: active (85) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Jun 2026</sub>
+### #&#8288;87 [swirl-search](https://github.com/swirlai/swirl-search) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (39) · Freshness: active (84) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.0k · Apache-2.0 · Jun 2026</sub>
 
 **Federated search and RAG that queries your apps live, without copying data.**
 
@@ -1619,7 +1619,7 @@ AtomSpace is OpenCog's in-memory knowledge representation database. It stores im
 <sub>no GPU · [Repo](https://github.com/opencog/atomspace) · [📖 Docs ↗](https://wiki.opencog.org/w/AtomSpace) · [🌐 Site ↗](https://wiki.opencog.org/w/AtomSpace) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/atomspace/)</sub>
 
 <a name="rag-web-ui"></a>
-### #&#8288;91 [rag-web-ui](https://github.com/rag-web-ui/rag-web-ui) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: known (42) · Freshness: recent (59) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Apr 2026</sub>
+### #&#8288;91 [rag-web-ui](https://github.com/rag-web-ui/rag-web-ui) <sub>score [30](../README.md#-how-we-rank "Score 30/100. Adoption: known (42) · Freshness: recent (58) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Apr 2026</sub>
 
 **Knowledge-base Q&A web app with FastAPI backend and Next.js frontend.**
 
@@ -1655,7 +1655,7 @@ DeepBI is a data analysis platform where an LLM answers questions about connecte
 <sub>RAM ≥ 2 GB · Docker + Compose · Needs Redis, PostgreSQL 16, Python 3.8 · port 8338 · [Repo](https://github.com/deepinsight-ai/deepbi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepbi/)</sub>
 
 <a name="videorag"></a>
-### #&#8288;93 [videorag](https://github.com/hkuds/videorag) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: known (44) · Freshness: slowing (41) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Mar 2026</sub>
+### #&#8288;93 [videorag](https://github.com/hkuds/videorag) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: known (44) · Freshness: slowing (40) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · custom license · Mar 2026</sub>
 
 **Desktop app and algorithm for question answering over very long videos.**
 
@@ -1673,7 +1673,7 @@ Vimo is an Electron desktop app backed by a Python VideoRAG server. It indexes v
 <sub>GPU required · Needs Python, Electron, Conda, ImageBind, nano-graphrag, LightRAG · Models: MiniCPM-o, MiniCPM-V, ImageBind · [Repo](https://github.com/hkuds/videorag) · [▶️ Demo ↗](https://www.youtube.com/watch?v=D5vsxcp4QZI) · [🌐 Site ↗](https://arxiv.org/abs/2502.01549) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/videorag/)</sub>
 
 <a name="memfree"></a>
-### #&#8288;94 [memfree](https://github.com/memfreeme/memfree) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (11) · Freshness: active (81) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Jul 2026</sub>
+### #&#8288;94 [memfree](https://github.com/memfreeme/memfree) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: niche (11) · Freshness: active (80) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Jul 2026</sub>
 
 **AI search engine over your bookmarks, files and the web, plus a UI page generator.**
 
@@ -1727,7 +1727,7 @@ MetaScreener screens titles and abstracts for systematic reviews by sending each
 <sub>no GPU · Docker · Needs OpenRouter API key, Python 3.11+, Tesseract OCR · Models: DeepSeek V3, Qwen 3, Kimi K2.5, Llama 4 Maverick, GLM 5 · port 8000 · [Repo](https://github.com/chaokunhong/metascreener) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/metascreener/)</sub>
 
 <a name="kernel-memory"></a>
-### #&#8288;97 [kernel-memory](https://github.com/dluc/kernel-memory) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (26) · Freshness: slowing (49) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Jun 2026</sub>
+### #&#8288;97 [kernel-memory](https://github.com/dluc/kernel-memory) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: niche (26) · Freshness: slowing (49) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Jun 2026</sub>
 
 **.NET RAG service that ingests documents and answers questions with citations.**
 
@@ -1763,7 +1763,7 @@ R2R is a retrieval-augmented generation server built around a RESTful API, with 
 <sub>Compose · Needs OpenAI API key (default in quick start), Postgres (full mode via Docker Compose) · Models: OpenAI, Anthropic · port 7272 · [Repo](https://github.com/sciphi-ai/r2r) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/r2r/)</sub>
 
 <a name="unblink"></a>
-### #&#8288;99 [unblink](https://github.com/zapdos-labs/unblink) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (11) · Freshness: slowing (37) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Mar 2026</sub>
+### #&#8288;99 [unblink](https://github.com/zapdos-labs/unblink) <sub>score [18](../README.md#-how-we-rank "Score 18/100. Adoption: niche (12) · Freshness: slowing (37) · Maintenance: weak (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Mar 2026</sub>
 
 **Camera monitoring with VLM frame summaries, chat and video search.**
 
@@ -1780,7 +1780,7 @@ Unblink is a camera monitoring app written in Go. A node on your local network p
 <sub>Docker + Compose · Needs PostgreSQL, go2rtc · Models: Qwen3-VL · [Repo](https://github.com/zapdos-labs/unblink) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/unblink/)</sub>
 
 <a name="maestro"></a>
-### #&#8288;100 [murtaza-nasir/maestro](https://github.com/murtaza-nasir/maestro) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (10) · Freshness: slowing (47) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
+### #&#8288;100 [murtaza-nasir/maestro](https://github.com/murtaza-nasir/maestro) <sub>score [17](../README.md#-how-we-rank "Score 17/100. Adoption: niche (10) · Freshness: slowing (46) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Apr 2026</sub>
 
 **Multi-agent research platform that writes long reports from documents and web.**
 
@@ -1852,7 +1852,7 @@ HuixiangDou builds a knowledge base from documents (pdf, word, excel, ppt, html,
 <sub>GPU optional · Needs Hugging Face login (BCE embedding model), faiss, LLM API or vLLM server, apt packages (antiword, tesseract-ocr, poppler-utils, ffmpeg) · Models: DeepSeek, InternLM, GLM, KIMI, StepFun · port 23333 · [Repo](https://github.com/internlm/huixiangdou) · [▶️ Demo ↗](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web) · [📖 Docs ↗](https://huixiangdou.readthedocs.io/en/latest/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/huixiangdou/)</sub>
 
 <a name="rocketnotes"></a>
-### #&#8288;104 [rocketnotes](https://github.com/fynnfluegge/rocketnotes) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (10) · Freshness: quiet (22) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;104 [rocketnotes](https://github.com/fynnfluegge/rocketnotes) <sub>score [13](../README.md#-how-we-rank "Score 13/100. Adoption: niche (10) · Freshness: quiet (21) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Feb 2026</sub>
 
 **Markdown note-taking app with AI chat, semantic search and agentic filing.**
 
