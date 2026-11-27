@@ -58,7 +58,7 @@ Meilisearch is a search engine with a RESTful API for full-text, semantic and hy
 <sub>no GPU · Docker · Models: embedding models for semantic search (providers unknown) · port 7700 · [Repo](https://github.com/meilisearch/meilisearch) · [▶️ Demo ↗](https://where2watch.meilisearch.com/) · [📖 Docs ↗](https://www.meilisearch.com/docs) · [🌐 Site ↗](https://www.meilisearch.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/meilisearch/)</sub>
 
 <a name="leann"></a>
-### #&#8288;4 [leann](https://github.com/startrail-org/leann) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
+### #&#8288;4 [leann](https://github.com/startrail-org/leann) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (82) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Nov 2026</sub>
 
 **Vector index that recomputes embeddings on demand instead of storing them.**
 
@@ -76,7 +76,7 @@ LEANN is a Python vector database that uses graph-based selective recomputation 
 <sub>GPU optional · Docker · Needs uv, Python 3.10-3.14, Ollama or OpenAI-compatible API (optional) · Models: HuggingFace, Ollama, OpenAI-compatible APIs, Anthropic, sentence-transformers · [Repo](https://github.com/startrail-org/leann) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leann/)</sub>
 
 <a name="helix-db"></a>
-### #&#8288;5 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;5 [HelixDB](https://github.com/helixdb/helix-db) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · Apache-2.0 · Nov 2026</sub>
 
 **Graph database with built-in vector and BM25 search, written in Rust.**
 
@@ -146,26 +146,8 @@ Weaviate is a Go vector database that stores objects with their vectors and serv
 
 <sub>no GPU · Docker + Compose · Needs optional embedding inference container (e.g. model2vec) or external embedding APIs · Models: OpenAI, Cohere, HuggingFace, Google and other integrated model providers, local model2vec (minishlab/potion-base-32M), precomputed vectors · port 8080 · [Repo](https://github.com/weaviate/weaviate) · [▶️ Demo ↗](https://elysia.weaviate.io) · [📖 Docs ↗](https://docs.weaviate.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/weaviate/)</sub>
 
-<a name="zvec"></a>
-### #&#8288;9 [zvec](https://github.com/alibaba/zvec) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
-
-**In-process vector database with dense, sparse, full-text and hybrid search.**
-
-Zvec is a C++ vector database that embeds into the application process as a library, with no separate server. It stores dense and sparse vectors with a write-ahead log, and combines vector similarity, full-text search and structured filters in one query. SDKs exist for Python, Node.js, Go, Rust, Java and Dart/Flutter.
-
-- **+** Runs in-process with no server; pip install zvec and query a local path
-- **+** Dense and sparse vectors, full-text search and filters combine in one query
-- **+** Write-ahead logging keeps data durable across process crash or power loss
-- **+** Official SDKs for six languages; runs on Linux, macOS, Windows, Android and iOS
-- **−** Writes are single-process exclusive; only reads can be shared across processes
-- **−** In-process design: no built-in network server or clustering described
-- **−** Uniform quantization with a shared min/max range can reduce recall
-- **−** Benchmark figures live only in linked docs and a chart, not in the README text
-
-<sub>no GPU · Models: dense embeddings, sparse embeddings · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
-
 <a name="lance"></a>
-### #&#8288;10 [lance-format/lance](https://github.com/lance-format/lance) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;9 [lance-format/lance](https://github.com/lance-format/lance) <sub>score [79](../README.md#-how-we-rank "Score 79/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.4k · Apache-2.0 · Nov 2026</sub>
 
 **Columnar table format for multimodal AI data with vector and full-text search.**
 
@@ -181,6 +163,24 @@ Lance is a file format, table format and catalog spec written in Rust, with Pyth
 - **−** Performance claims such as 100x vs Parquet come from the project's own benchmarks
 
 <sub>Compose · [Repo](https://github.com/lance-format/lance) · [📖 Docs ↗](https://lance.org) · [🌐 Site ↗](https://lance.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/lance/)</sub>
+
+<a name="zvec"></a>
+### #&#8288;10 [zvec](https://github.com/alibaba/zvec) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · Apache-2.0 · Nov 2026</sub>
+
+**In-process vector database with dense, sparse, full-text and hybrid search.**
+
+Zvec is a C++ vector database that embeds into the application process as a library, with no separate server. It stores dense and sparse vectors with a write-ahead log, and combines vector similarity, full-text search and structured filters in one query. SDKs exist for Python, Node.js, Go, Rust, Java and Dart/Flutter.
+
+- **+** Runs in-process with no server; pip install zvec and query a local path
+- **+** Dense and sparse vectors, full-text search and filters combine in one query
+- **+** Write-ahead logging keeps data durable across process crash or power loss
+- **+** Official SDKs for six languages; runs on Linux, macOS, Windows, Android and iOS
+- **−** Writes are single-process exclusive; only reads can be shared across processes
+- **−** In-process design: no built-in network server or clustering described
+- **−** Uniform quantization with a shared min/max range can reduce recall
+- **−** Benchmark figures live only in linked docs and a chart, not in the README text
+
+<sub>no GPU · Models: dense embeddings, sparse embeddings · [Repo](https://github.com/alibaba/zvec) · [📖 Docs ↗](https://zvec.org/en/docs/db/) · [🌐 Site ↗](https://zvec.org/en/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/zvec/)</sub>
 
 <a name="infinity"></a>
 ### #&#8288;11 [infiniflow/infinity](https://github.com/infiniflow/infinity) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: known (47) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · Apache-2.0 · Nov 2026</sub>
@@ -219,7 +219,7 @@ Chroma is an embedding database with a four-function API (create collection, add
 <sub>no GPU · Docker + Compose · Models: built-in embedding or user-supplied vectors · [Repo](https://github.com/chroma-core/chroma) · [📖 Docs ↗](https://docs.trychroma.com/) · [🌐 Site ↗](https://www.trychroma.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chroma/)</sub>
 
 <a name="pgvector"></a>
-### #&#8288;13 [pgvector](https://github.com/pgvector/pgvector) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (86) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Nov 2026</sub>
+### #&#8288;13 [pgvector](https://github.com/pgvector/pgvector) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · custom license · Nov 2026</sub>
 
 **Postgres extension for exact and approximate vector similarity search.**
 
@@ -255,7 +255,7 @@ Vespa is a serving platform that indexes vectors, tensors, text and structured d
 <sub>no GPU · Models: machine-learned ranking models evaluated in Vespa · [Repo](https://github.com/vespa-engine/vespa) · [📖 Docs ↗](https://docs.vespa.ai) · [🌐 Site ↗](https://vespa.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vespa/)</sub>
 
 <a name="seekdb"></a>
-### #&#8288;15 [seekdb](https://github.com/oceanbase/seekdb) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [seekdb](https://github.com/oceanbase/seekdb) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · Apache-2.0 · Nov 2026</sub>
 
 **MySQL-compatible database with hybrid vector and full-text search and forkable databases.**
 
@@ -291,7 +291,7 @@ USearch is a header-only C++20 library for approximate nearest-neighbor search o
 <sub>GPU optional · [Repo](https://github.com/unum-cloud/usearch) · [📖 Docs ↗](https://github.com/unum-cloud/USearch/blob/main/include/usearch/dense/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/usearch/)</sub>
 
 <a name="turbovec"></a>
-### #&#8288;17 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: patchy (37) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
+### #&#8288;17 [turbovec](https://github.com/ryancodrai/turbovec) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
 
 **In-process quantized vector index for Python and Rust using TurboQuant.**
 
@@ -309,7 +309,7 @@ turbovec is a library that stores embeddings at 2 or 4 bits per dimension using 
 <sub>no GPU · [Repo](https://github.com/ryancodrai/turbovec) · [📖 Docs ↗](https://github.com/RyanCodrai/turbovec/blob/main/docs/api.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/turbovec/)</sub>
 
 <a name="diskann"></a>
-### #&#8288;18 [diskann](https://github.com/microsoft/diskann) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Nov 2026</sub>
+### #&#8288;18 [diskann](https://github.com/microsoft/diskann) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · MIT · Nov 2026</sub>
 
 **Rust vector indexing library with pluggable storage providers and real-time updates.**
 
@@ -326,8 +326,26 @@ DiskANN3 is a Rust library for approximate nearest neighbor search. You implemen
 
 <sub>no GPU · Needs Garnet (optional, for Garnet provider) · [Repo](https://github.com/microsoft/diskann) · [📖 Docs ↗](https://github.com/microsoft/DiskANN/wiki/DiskANN-Project-and-Research-Overview-(2018%E2%80%90present)) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/diskann/)</sub>
 
+<a name="jvector"></a>
+### #&#8288;19 [jvector](https://github.com/datastax/jvector) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
+
+**Java graph-based vector index combining HNSW layers with DiskANN's Vamana.**
+
+JVector is an embeddable Java library for approximate nearest neighbor search. It builds a multi-layer graph that borrows HNSW's hierarchy and uses Vamana within each layer, with upper layers in memory and the bottom layer on disk. Searches run in two passes: compressed vectors (PQ, BQ or fused PQ) in memory first, then full float32 or NVQ vectors from disk.
+
+- **+** Index construction scales with core count via nonblocking concurrency control
+- **+** Can build larger-than-memory indexes using two-pass search during construction
+- **+** Multiple quantization options: PQ with anisotropic weighting, BQ, fused PQ, NVQ
+- **+** Multirelease jar works from Java 11 code and uses SIMD on newer JVMs
+- **−** Library only; no standalone server or network API is described
+- **−** Native Highway SIMD provider bundled only for Linux x86-64 and AArch64
+- **−** Native SIMD needs Java 22+ with incubator Vector module and JVM flags
+- **−** Building native library requires g++ 11+, Meson, Ninja and a git submodule
+
+<sub>no GPU · Needs Java 11+ (Java 20+ for Vector API, 22+ for native SIMD), Maven, g++ 11+, Meson, Ninja (native build only) · [Repo](https://github.com/datastax/jvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jvector/)</sub>
+
 <a name="ngt"></a>
-### #&#8288;19 [ngt](https://github.com/ngt-labs/ngt) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;20 [ngt](https://github.com/ngt-labs/ngt) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Nov 2026</sub>
 
 **C++ library and CLI for approximate nearest neighbor vector search.**
 
@@ -345,7 +363,7 @@ NGT is a C++ library with command-line tools (ngt, qbg) for approximate nearest 
 <sub>no GPU · Needs CMake, BLAS, LAPACK, OpenMP · Models: float32, float16, uint8 vectors, scalar quantization, product quantization · [Repo](https://github.com/ngt-labs/ngt) · [📖 Docs ↗](https://github.com/NGT-labs/NGT/wiki) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ngt/)</sub>
 
 <a name="hnswlib"></a>
-### #&#8288;20 [hnswlib](https://github.com/nmslib/hnswlib) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (53) · Freshness: active (95) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;21 [hnswlib](https://github.com/nmslib/hnswlib) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: popular (54) · Freshness: active (95) · Maintenance: fair (55) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · Apache-2.0 · Sep 2026</sub>
 
 **Header-only C++ library for approximate nearest neighbor search with HNSW graphs.**
 
@@ -362,44 +380,8 @@ Hnswlib implements the HNSW graph index for approximate nearest neighbor search 
 
 <sub>no GPU · [Repo](https://github.com/nmslib/hnswlib) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hnswlib/)</sub>
 
-<a name="jvector"></a>
-### #&#8288;21 [jvector](https://github.com/datastax/jvector) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Nov 2026</sub>
-
-**Java graph-based vector index combining HNSW layers with DiskANN's Vamana.**
-
-JVector is an embeddable Java library for approximate nearest neighbor search. It builds a multi-layer graph that borrows HNSW's hierarchy and uses Vamana within each layer, with upper layers in memory and the bottom layer on disk. Searches run in two passes: compressed vectors (PQ, BQ or fused PQ) in memory first, then full float32 or NVQ vectors from disk.
-
-- **+** Index construction scales with core count via nonblocking concurrency control
-- **+** Can build larger-than-memory indexes using two-pass search during construction
-- **+** Multiple quantization options: PQ with anisotropic weighting, BQ, fused PQ, NVQ
-- **+** Multirelease jar works from Java 11 code and uses SIMD on newer JVMs
-- **−** Library only; no standalone server or network API is described
-- **−** Native Highway SIMD provider bundled only for Linux x86-64 and AArch64
-- **−** Native SIMD needs Java 22+ with incubator Vector module and JVM flags
-- **−** Building native library requires g++ 11+, Meson, Ninja and a git submodule
-
-<sub>no GPU · Needs Java 11+ (Java 20+ for Vector API, 22+ for native SIMD), Maven, g++ 11+, Meson, Ninja (native build only) · [Repo](https://github.com/datastax/jvector) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/jvector/)</sub>
-
-<a name="qdrant-client"></a>
-### #&#8288;22 [qdrant-client](https://github.com/qdrant/qdrant-client) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Oct 2026</sub>
-
-**Python sync and async client for the Qdrant vector search engine.**
-
-Python SDK for Qdrant with type definitions for the whole API, over REST or gRPC, in sync and async (AsyncQdrantClient) form. It adds helpers such as upload_collection for batched uploads, and a local mode (":memory:" or a disk path) that runs the same API without a server. Embeddings can be created through FastEmbed locally or through Qdrant Cloud inference.
-
-- **+** Local mode runs the same API in memory or on disk, with no server, for tests and CI
-- **+** Sync and async clients, with both REST and gRPC supported
-- **+** Type hints cover all API methods and models
-- **+** Optional FastEmbed extra creates embeddings on CPU or GPU during upload and query
-- **−** Client only; a Qdrant server or Qdrant Cloud is needed beyond local mode
-- **−** Cloud-hosted inference is available only on paid Qdrant Cloud plans
-- **−** fastembed and fastembed-gpu extras are mutually exclusive in one environment
-- **−** Python only; other languages need separate clients
-
-<sub>GPU optional · Needs Qdrant server (optional, local mode needs none), FastEmbed (optional), orjson (optional) · Models: sentence-transformers/all-MiniLM-L6-v2 (via FastEmbed, example) · [Repo](https://github.com/qdrant/qdrant-client) · [📖 Docs ↗](https://qdrant.tech/documentation/) · [🌐 Site ↗](https://qdrant.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qdrant-client/)</sub>
-
 <a name="attu"></a>
-### #&#8288;23 [attu](https://github.com/zilliztech/attu) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (34) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
+### #&#8288;22 [attu](https://github.com/zilliztech/attu) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · custom license · Sep 2026</sub>
 
 **Management UI for Milvus clusters with data browsing, search and an AI agent.**
 
@@ -416,8 +398,26 @@ Attu is a management console for Milvus vector databases. One instance connects 
 
 <sub>no GPU · Needs Milvus 2.6.0+ or 3.x, or Zilliz Cloud, SQLite (bundled), Node.js 24.x (standalone server package) · Models: OpenAI, Anthropic Claude, DeepSeek, Google Gemini, OpenRouter · port 3000 · [Repo](https://github.com/zilliztech/attu) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/attu/)</sub>
 
+<a name="qdrant-client"></a>
+### #&#8288;23 [qdrant-client](https://github.com/qdrant/qdrant-client) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Oct 2026</sub>
+
+**Python sync and async client for the Qdrant vector search engine.**
+
+Python SDK for Qdrant with type definitions for the whole API, over REST or gRPC, in sync and async (AsyncQdrantClient) form. It adds helpers such as upload_collection for batched uploads, and a local mode (":memory:" or a disk path) that runs the same API without a server. Embeddings can be created through FastEmbed locally or through Qdrant Cloud inference.
+
+- **+** Local mode runs the same API in memory or on disk, with no server, for tests and CI
+- **+** Sync and async clients, with both REST and gRPC supported
+- **+** Type hints cover all API methods and models
+- **+** Optional FastEmbed extra creates embeddings on CPU or GPU during upload and query
+- **−** Client only; a Qdrant server or Qdrant Cloud is needed beyond local mode
+- **−** Cloud-hosted inference is available only on paid Qdrant Cloud plans
+- **−** fastembed and fastembed-gpu extras are mutually exclusive in one environment
+- **−** Python only; other languages need separate clients
+
+<sub>GPU optional · Needs Qdrant server (optional, local mode needs none), FastEmbed (optional), orjson (optional) · Models: sentence-transformers/all-MiniLM-L6-v2 (via FastEmbed, example) · [Repo](https://github.com/qdrant/qdrant-client) · [📖 Docs ↗](https://qdrant.tech/documentation/) · [🌐 Site ↗](https://qdrant.tech) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qdrant-client/)</sub>
+
 <a name="pgvectorscale"></a>
-### #&#8288;24 [pgvectorscale](https://github.com/timescale/pgvectorscale) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · PostgreSQL · Oct 2026</sub>
+### #&#8288;24 [pgvectorscale](https://github.com/timescale/pgvectorscale) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (33) · Freshness: active (100) · Maintenance: fair (65) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · PostgreSQL · Oct 2026</sub>
 
 **PostgreSQL extension adding a StreamingDiskANN vector index on top of pgvector.**
 
@@ -435,7 +435,7 @@ pgvectorscale is a Rust extension (built with PGRX) that adds a StreamingDiskANN
 <sub>no GPU · Needs PostgreSQL, pgvector, Rust toolchain (source build) · [Repo](https://github.com/timescale/pgvectorscale) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pgvectorscale/)</sub>
 
 <a name="sptag"></a>
-### #&#8288;25 [sptag](https://github.com/microsoft/sptag) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (49) · Freshness: active (100) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
+### #&#8288;25 [sptag](https://github.com/microsoft/sptag) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (50) · Freshness: active (100) · Maintenance: patchy (40) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Sep 2026</sub>
 
 **C++ library for approximate nearest neighbor search over large vector sets.**
 
@@ -453,7 +453,7 @@ SPTAG is a Microsoft Research and Bing library for approximate nearest neighbor 
 <sub>Docker · Needs swig >= 4.0.2, cmake >= 3.12.0, boost >= 1.67.0, SPDK (optional), RocksDB (optional) · [Repo](https://github.com/microsoft/sptag) · [📖 Docs ↗](https://github.com/microsoft/SPTAG/blob/master/docs/GettingStart.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sptag/)</sub>
 
 <a name="vald"></a>
-### #&#8288;26 [vald](https://github.com/vdaas/vald) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;26 [vald](https://github.com/vdaas/vald) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Nov 2026</sub>
 
 **Distributed approximate nearest neighbor vector search engine for Kubernetes.**
 
@@ -471,7 +471,7 @@ Vald is a distributed dense-vector search engine written in Go that uses the NGT
 <sub>no GPU · Needs Kubernetes 1.19+, Helm, AVX2-capable CPUs · [Repo](https://github.com/vdaas/vald) · [📖 Docs ↗](https://vald.vdaas.org/docs/tutorial/get-started) · [🌐 Site ↗](https://vald.vdaas.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vald/)</sub>
 
 <a name="pymilvus"></a>
-### #&#8288;27 [pymilvus](https://github.com/milvus-io/pymilvus) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;27 [pymilvus](https://github.com/milvus-io/pymilvus) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · Nov 2026</sub>
 
 **Official Python client for the Milvus vector database.**
 
@@ -489,7 +489,7 @@ PyMilvus is the Python SDK for talking to a Milvus server, installed with pip on
 <sub>no GPU · Docker · Needs Milvus server · [Repo](https://github.com/milvus-io/pymilvus) · [📖 Docs ↗](https://milvus.io/api-reference/pymilvus/v2.6.x/About.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pymilvus/)</sub>
 
 <a name="vectordbbench"></a>
-### #&#8288;28 [vectordbbench](https://github.com/zilliztech/vectordbbench) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+### #&#8288;28 [vectordbbench](https://github.com/zilliztech/vectordbbench) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
 
 **Benchmark tool for comparing vector databases on insert, search and full-text workloads.**
 
@@ -507,7 +507,7 @@ VectorDBBench (VDBBench) runs repeatable insertion, vector search, filtered sear
 <sub>no GPU · Docker · Needs Python >= 3.11, Target vector database to benchmark · [Repo](https://github.com/zilliztech/vectordbbench) · [🌐 Site ↗](https://zilliz.com/vdbbench-leaderboard) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vectordbbench/)</sub>
 
 <a name="deeplake"></a>
-### #&#8288;29 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (69) · Freshness: recent (65) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;29 [deeplake](https://github.com/activeloopai/deeplake) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (70) · Freshness: recent (65) · Maintenance: weak (27) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · Apache-2.0 · May 2026</sub>
 
 **Serverless database for vectors and raw AI data, with versioning and ML dataloaders.**
 
@@ -525,7 +525,7 @@ Deep Lake is a Python-installed database that stores embeddings alongside raw da
 <sub>no GPU · Needs Python (pip install deeplake), Deep Lake App account for full features, Optional S3/GCP/Azure storage · Models: PyTorch, TensorFlow, LangChain, LlamaIndex · [Repo](https://github.com/activeloopai/deeplake) · [📖 Docs ↗](https://docs.deeplake.ai/) · [🌐 Site ↗](https://www.deeplake.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deeplake/)</sub>
 
 <a name="sqlite-vec"></a>
-### #&#8288;30 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (66) · Freshness: recent (69) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · May 2026</sub>
+### #&#8288;30 [sqlite-vec](https://github.com/asg017/sqlite-vec) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (67) · Freshness: recent (69) · Maintenance: weak (2) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · Apache-2.0 · May 2026</sub>
 
 **Vector search extension for SQLite, written in pure C.**
 
@@ -543,7 +543,7 @@ sqlite-vec adds vec0 virtual tables to SQLite for storing float, int8 and binary
 <sub>no GPU · Needs SQLite · Models: float vectors, int8 vectors, binary vectors · [Repo](https://github.com/asg017/sqlite-vec) · [📖 Docs ↗](https://alexgarcia.xyz/sqlite-vec/installation.html) · [🌐 Site ↗](https://alexgarcia.xyz/sqlite-vec/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sqlite-vec/)</sub>
 
 <a name="ann-benchmarks"></a>
-### #&#8288;31 [ann-benchmarks](https://github.com/erikbern/ann-benchmarks) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (55) · Freshness: active (82) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Jul 2026</sub>
+### #&#8288;31 [ann-benchmarks](https://github.com/erikbern/ann-benchmarks) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (56) · Freshness: active (82) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Jul 2026</sub>
 
 **Benchmark harness comparing approximate nearest neighbor libraries on recall versus speed.**
 
@@ -561,7 +561,7 @@ ANN-Benchmarks runs approximate nearest neighbor algorithms, each built in its o
 <sub>GPU optional · Needs Docker, Python 3.10 · Models: HDF5 datasets · [Repo](https://github.com/erikbern/ann-benchmarks) · [🌐 Site ↗](http://ann-benchmarks.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ann-benchmarks/)</sub>
 
 <a name="dingo"></a>
-### #&#8288;32 [dingo](https://github.com/dingodb/dingo) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (15) · Freshness: recent (70) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Sep 2026</sub>
+### #&#8288;32 [dingo](https://github.com/dingodb/dingo) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (16) · Freshness: recent (70) · Maintenance: patchy (34) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · Sep 2026</sub>
 
 **Distributed database with SQL, MySQL protocol and scalar-vector hybrid search.**
 
@@ -579,7 +579,7 @@ DingoDB is a distributed database written in Java that stores tables and vectors
 <sub>Docker + Compose · Needs Dingo-Store · [Repo](https://github.com/dingodb/dingo) · [📖 Docs ↗](https://dingodb.readthedocs.io/en/latest/) · [🌐 Site ↗](https://www.datacanvas.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dingo/)</sub>
 
 <a name="nmslib"></a>
-### #&#8288;33 [nmslib](https://github.com/nmslib/nmslib) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: known (39) · Freshness: quiet (12) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;33 [nmslib](https://github.com/nmslib/nmslib) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: known (40) · Freshness: quiet (12) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Jan 2026</sub>
 
 **Approximate nearest-neighbor search library for metric and non-metric spaces.**
 
