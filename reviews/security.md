@@ -23,7 +23,7 @@ Shannon reads a target app's source, builds a queue of candidate attack paths, t
 <sub>no GPU · Docker + Compose · Needs Docker, Node.js 22+, LLM provider credentials · Models: Anthropic, OpenAI, xAI, AWS Bedrock, Ollama · [Repo](https://github.com/keygraphhq/shannon) · [📖 Docs ↗](https://github.com/KeygraphHQ/shannon-action) · [🌐 Site ↗](https://keygraph.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/shannon/)</sub>
 
 <a name="ai-infra-guard"></a>
-### 🥈 [ai-infra-guard](https://github.com/tencent/ai-infra-guard) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Nov 2026</sub>
+### 🥈 [ai-infra-guard](https://github.com/tencent/ai-infra-guard) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · Apache-2.0 · Nov 2026</sub>
 
 **Red-teaming platform for AI infra CVEs, MCP servers, agent skills and jailbreaks.**
 
@@ -77,7 +77,7 @@ iFixAi runs an agent against a simulated version of your business, sends it requ
 <sub>no GPU · Needs Python 3.10+, LLM judge API key (OpenAI, Anthropic, Gemini, Azure, Bedrock, OpenRouter) · Models: OpenAI-compatible agent endpoints, OpenAI, Anthropic, Gemini, Azure · [Repo](https://github.com/ifixai-ai/ifixai) · [📖 Docs ↗](https://github.com/ifixai-ai/iFixAi/tree/main/docs) · [🌐 Site ↗](https://www.ifixai.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ifixai/)</sub>
 
 <a name="aisoc"></a>
-### #&#8288;5 [aisoc](https://github.com/beenuar/aisoc) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Nov 2026</sub>
+### #&#8288;5 [aisoc](https://github.com/beenuar/aisoc) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (99) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.3k · MIT · Nov 2026</sub>
 
 **Self-hosted SOC that detects threats and investigates alerts with auditable AI agents.**
 
@@ -113,7 +113,7 @@ Strix runs LLM-driven pentest agents against a local codebase, repository URL, l
 <sub>no GPU · Docker · Needs Docker, LLM API key or local LLM endpoint, Caido, Nuclei, Playwright · Models: OpenAI, Anthropic, Google Vertex AI, AWS Bedrock, Azure · [Repo](https://github.com/usestrix/strix) · [📖 Docs ↗](https://docs.strix.ai) · [🌐 Site ↗](https://strix.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/strix/)</sub>
 
 <a name="failproofai"></a>
-### #&#8288;7 [failproofai](https://github.com/failproofai/failproofai) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · custom license · Nov 2026</sub>
+### #&#8288;7 [failproofai](https://github.com/failproofai/failproofai) <sub>score [84](../README.md#-how-we-rank "Score 84/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · custom license · Nov 2026</sub>
 
 **Policy enforcement and run tracing for coding agent CLIs and gateways.**
 
@@ -149,7 +149,7 @@ BLA (npm package bla-agents) is a TypeScript CLI and MCP server that rewrites re
 <sub>no GPU · Needs Node.js ^22.23.4 or >=24, Wabt (optional, red-team suite), tshark (optional, red-team suite) · Models: Safetensors, GGUF · [Repo](https://github.com/qybaihe/bla) · [📖 Docs ↗](https://bla.tools/guides/) · [🌐 Site ↗](https://bla.tools/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bla/)</sub>
 
 <a name="nvidia-nemo-guardrails"></a>
-### #&#8288;9 [nvidia-nemo/guardrails](https://github.com/nvidia-nemo/guardrails) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · custom license · Nov 2026</sub>
+### #&#8288;9 [nvidia-nemo/guardrails](https://github.com/nvidia-nemo/guardrails) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.6k · custom license · Nov 2026</sub>
 
 **Programmable input, output and dialog guardrails for LLM applications.**
 
@@ -167,7 +167,7 @@ Python library that sits between application code and the LLM and applies input,
 <sub>Docker · Needs Python 3.10-3.13, LLM provider such as OpenAI or NIM · Models: OpenAI GPT-3.5/GPT-4, LLaMa-2, Falcon, Vicuna, Mosaic · [Repo](https://github.com/nvidia-nemo/guardrails) · [📖 Docs ↗](https://docs.nvidia.com/nemo/guardrails) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nvidia-nemo-guardrails/)</sub>
 
 <a name="redamon"></a>
-### #&#8288;10 [redamon](https://github.com/samugit83/redamon) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Nov 2026</sub>
+### #&#8288;10 [redamon](https://github.com/samugit83/redamon) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Nov 2026</sub>
 
 **Self-hosted AI pentest agent with Neo4j attack-surface graph and auto-fix PRs.**
 
@@ -203,7 +203,7 @@ PentAGI takes a target and goal in plain language. A team of specialized agents 
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose, PostgreSQL with pgvector, Neo4j and Graphiti (optional), Langfuse (optional) · Models: OpenAI, Anthropic, Google Gemini, AWS Bedrock, Ollama · [Repo](https://github.com/vxcontrol/pentagi) · [🌐 Site ↗](https://vxcontrol.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentagi/)</sub>
 
 <a name="garak"></a>
-### #&#8288;12 [garak](https://github.com/nvidia/garak) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (82) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;12 [garak](https://github.com/nvidia/garak) <sub>score [80](../README.md#-how-we-rank "Score 80/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Command-line scanner that probes LLMs for jailbreaks, leakage and injection.**
 
@@ -221,7 +221,7 @@ garak runs a library of probes against a target LLM (Hugging Face, OpenAI, Bedro
 <sub>GPU optional · Needs Python 3.11-3.14, API keys for hosted targets (OpenAI, Replicate, Cohere, Groq, NIM, Bedrock) · Models: Hugging Face, OpenAI, AWS Bedrock, Replicate, Cohere · [Repo](https://github.com/nvidia/garak) · [📖 Docs ↗](https://docs.garak.ai/) · [🌐 Site ↗](https://garak.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/garak/)</sub>
 
 <a name="artex-global"></a>
-### #&#8288;13 [artex-global](https://github.com/jiwoochris/artex-global) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;13 [artex-global](https://github.com/jiwoochris/artex-global) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · AGPL-3.0 · Nov 2026</sub>
 
 **Autonomous penetration-testing system using LLM planner and worker agents.**
 
@@ -238,26 +238,8 @@ ARTEX runs a planner and several worker agents that break a pentest goal into ta
 
 <sub>no GPU · Docker + Compose · Needs PostgreSQL, Anthropic or OpenAI-compatible LLM API, Docker Compose (optional) · Models: Anthropic Claude (default claude-opus-4-8), OpenAI gpt-4o, OpenAI-compatible endpoints · port 8787 · [Repo](https://github.com/jiwoochris/artex-global) · [📖 Docs ↗](https://github.com/jiwoochris/artex-global/blob/main/docs/defense-en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/artex-global/)</sub>
 
-<a name="pyrit"></a>
-### #&#8288;14 [pyrit](https://github.com/microsoft/pyrit) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · MIT · Nov 2026</sub>
-
-**AI red teaming toolkit for scanning generative AI models and applications.**
-
-PyRIT is a Microsoft AI Red Team toolkit for finding security and safety weaknesses in generative AI systems. It offers a command-line scanner for repeatable assessments, a browser GUI called CoPyRIT, and a Python framework for building custom attack workflows, including adaptive multi-turn attacks. Targets include many hosted and local model providers as well as full applications over HTTP, WebSockets or Playwright.
-
-- **+** Three interfaces: CLI scanner, CoPyRIT browser GUI, and extensible Python framework
-- **+** Connects to OpenAI, Anthropic, Bedrock, Vertex AI, Ollama, Hugging Face and more
-- **+** Can test whole applications via HTTP, WebSocket or Playwright browser targets
-- **+** Maintained by the Microsoft AI Red Team; MIT licensed with recent commits
-- **−** Extra providers beyond built-in ones need the optional LiteLLM adapter
-- **−** Feature availability varies by target and model
-- **−** No Docker or compose setup shipped in the repo
-- **−** Requires API keys or secrets configured per provider
-
-<sub>Docker + Compose · Needs Model provider API keys, Playwright (optional, browser targets), LiteLLM (optional adapter) · Models: OpenAI, Anthropic, Azure OpenAI, Microsoft Foundry, Azure Machine Learning · [Repo](https://github.com/microsoft/pyrit) · [📖 Docs ↗](https://microsoft.github.io/PyRIT/latest/code/framework/) · [🌐 Site ↗](https://microsoft.github.io/PyRIT/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyrit/)</sub>
-
 <a name="cyberstrike"></a>
-### #&#8288;15 [cyberstrike](https://github.com/cyberstrikeus/cyberstrike) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;14 [cyberstrike](https://github.com/cyberstrikeus/cyberstrike) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: fair (79) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.8k · AGPL-3.0 · Nov 2026</sub>
 
 **Terminal agent that runs LLM-driven web penetration tests and writes reports.**
 
@@ -274,8 +256,26 @@ CyberStrike is a TypeScript CLI that drives an LLM through reconnaissance, vulne
 
 <sub>no GPU · Needs Node.js/npm, LLM provider account or local model server · Models: Anthropic Claude, OpenAI GPT, Google Gemini, Amazon Bedrock, Azure OpenAI · [Repo](https://github.com/cyberstrikeus/cyberstrike) · [▶️ Demo ↗](https://app.cyberstrike.io) · [📖 Docs ↗](https://docs.cyberstrike.io) · [🌐 Site ↗](https://cyberstrike.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cyberstrike/)</sub>
 
+<a name="pyrit"></a>
+### #&#8288;15 [pyrit](https://github.com/microsoft/pyrit) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.2k · MIT · Nov 2026</sub>
+
+**AI red teaming toolkit for scanning generative AI models and applications.**
+
+PyRIT is a Microsoft AI Red Team toolkit for finding security and safety weaknesses in generative AI systems. It offers a command-line scanner for repeatable assessments, a browser GUI called CoPyRIT, and a Python framework for building custom attack workflows, including adaptive multi-turn attacks. Targets include many hosted and local model providers as well as full applications over HTTP, WebSockets or Playwright.
+
+- **+** Three interfaces: CLI scanner, CoPyRIT browser GUI, and extensible Python framework
+- **+** Connects to OpenAI, Anthropic, Bedrock, Vertex AI, Ollama, Hugging Face and more
+- **+** Can test whole applications via HTTP, WebSocket or Playwright browser targets
+- **+** Maintained by the Microsoft AI Red Team; MIT licensed with recent commits
+- **−** Extra providers beyond built-in ones need the optional LiteLLM adapter
+- **−** Feature availability varies by target and model
+- **−** No Docker or compose setup shipped in the repo
+- **−** Requires API keys or secrets configured per provider
+
+<sub>Docker + Compose · Needs Model provider API keys, Playwright (optional, browser targets), LiteLLM (optional adapter) · Models: OpenAI, Anthropic, Azure OpenAI, Microsoft Foundry, Azure Machine Learning · [Repo](https://github.com/microsoft/pyrit) · [📖 Docs ↗](https://microsoft.github.io/PyRIT/latest/code/framework/) · [🌐 Site ↗](https://microsoft.github.io/PyRIT/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pyrit/)</sub>
+
 <a name="cyberstrikeai"></a>
-### #&#8288;16 [cyberstrikeai](https://github.com/aipentest/cyberstrikeai) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (77) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;16 [cyberstrikeai](https://github.com/aipentest/cyberstrikeai) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (78) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.9k · Apache-2.0 · Oct 2026</sub>
 
 **AI agent platform for authorized penetration testing.**
 
@@ -293,7 +293,7 @@ CyberStrikeAI is a Go-based platform that turns natural-language intent into gov
 <sub>Needs Go 1.25+, Python 3.10+, OpenAI-compatible API, nmap, metasploit, sqlmap, nuclei, SQLite · Models: OpenAI-compatible models (e.g. GPT-4o, DeepSeek, Qwen) · port 8080 · [Repo](https://github.com/aipentest/cyberstrikeai) · [📖 Docs ↗](https://github.com/aipentest/cyberstrikeai/blob/main/docs/en-US/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cyberstrikeai/)</sub>
 
 <a name="t3mp3st"></a>
-### #&#8288;17 [t3mp3st](https://github.com/elder-plinius/t3mp3st) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;17 [t3mp3st](https://github.com/elder-plinius/t3mp3st) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.2k · AGPL-3.0 · Sep 2026</sub>
 
 **Multi-agent offensive-security framework driven by your coding agent or local model.**
 
@@ -311,7 +311,7 @@ T3MP3ST runs a recon, exploit and report kill chain against authorized targets f
 <sub>GPU optional · Docker + Compose · Needs Node.js/npm, git, Docker (optional), Ollama or OpenAI-compatible server (optional) · Models: Claude Code, Codex, Hermes, OpenCode, Oh My Pi · port 3333 · [Repo](https://github.com/elder-plinius/t3mp3st) · [📖 Docs ↗](https://github.com/elder-plinius/T3MP3ST/blob/main/docs/GETTING_STARTED.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/t3mp3st/)</sub>
 
 <a name="vulnclaw"></a>
-### #&#8288;18 [vulnclaw](https://github.com/netw0rknoob/vulnclaw) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Oct 2026</sub>
+### #&#8288;18 [vulnclaw](https://github.com/netw0rknoob/vulnclaw) <sub>score [76](../README.md#-how-we-rank "Score 76/100. Adoption: popular (58) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.0k · MIT · Oct 2026</sub>
 
 **LLM agent CLI that runs penetration tests from natural-language prompts.**
 
@@ -328,26 +328,8 @@ VulnClaw is a Python CLI and agent that takes a target and a plain-language goal
 
 <sub>no GPU · Docker + Compose · Needs Python 3.10+, LLM API key or Ollama, Node.js 18+ (Web UI build, npx MCP servers), nmap (optional), Burp Suite Professional (optional), Chrome (optional) · Models: OpenAI, Anthropic, MiniMax, DeepSeek, Zhipu · port 7788 · [Repo](https://github.com/netw0rknoob/vulnclaw) · [🌐 Site ↗](https://unclecheng-li.github.io/vulnclaw.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/vulnclaw/)</sub>
 
-<a name="dsh-infinite-gen-5"></a>
-### #&#8288;19 [dsh-infinite-gen-5](https://github.com/minglink/dsh-infinite-gen-5) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Nov 2026</sub>
-
-**Reverse-engineering plugin for DeepSeek Harness using Ghidra, x64dbg and Unicorn.**
-
-IG5 is a plugin for DeepSeek Harness (DSH) that exposes 43 reverse-engineering tools and 8 workflow skills to an agent. It combines Ghidra static analysis, x64dbg native debugging and Unicorn single-function emulation with HTTP/HTTPS capture, XOR/AES candidate search and protocol framing. Thirteen modify or execute tools require host approval before running. Ships as a self-contained Windows x64 package.
-
-- **+** Bundles Ghidra, JDK, Python and x64dbg in the Windows package; no commercial IDA needed
-- **+** 13 mutating or executing tools gated by host approval, with undo and audit log
-- **+** Per-function dossier combines pseudocode, CFG, call graph and stack frame from one revision
-- **+** Default Core 8 toolset keeps the tool surface small; Full 43 is opt-in
-- **−** Requires an existing DeepSeek Harness install, pinned to >=0.2.0-rc.1 <0.3.0-0
-- **−** Full support only on Windows x64; macOS is Ghidra static only and experimental
-- **−** CC BY-NC-SA 4.0 license forbids commercial use
-- **−** README is heavy on self-promotion; star and fork counts there differ from detected 2,745
-
-<sub>Needs DeepSeek Harness (@deepseek-ai/dsh >=0.2.0-rc.1 <0.3.0-0), Ghidra, x64dbg, Unicorn, PowerShell · [Repo](https://github.com/minglink/dsh-infinite-gen-5) · [📖 Docs ↗](https://github.com/Minglink/dsh-infinite-gen-5/blob/master/docs/CAPABILITIES.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-infinite-gen-5/)</sub>
-
 <a name="agentic-bug-hunter"></a>
-### #&#8288;20 [agentic-bug-hunter](https://github.com/awarexone/agentic-bug-hunter) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Nov 2026</sub>
+### #&#8288;19 [agentic-bug-hunter](https://github.com/awarexone/agentic-bug-hunter) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · MIT · Nov 2026</sub>
 
 **Bug bounty CLI that runs recon, hunting, validation and report writing with LLMs.**
 
@@ -364,8 +346,26 @@ Python CLI (`bughunter`) and Claude Code plugin that drives a bug bounty workflo
 
 <sub>GPU optional · Needs subfinder, httpx, nuclei, katana, ffuf, nmap, Ollama or a cloud LLM API key · Models: Ollama, Groq, DeepSeek, Claude API, OpenAI · [Repo](https://github.com/awarexone/agentic-bug-hunter) · [📖 Docs ↗](https://github.com/awarexone/Agentic-Bug-Hunter/blob/main/docs/mcp.md) · [🌐 Site ↗](https://www.awarexone.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-bug-hunter/)</sub>
 
+<a name="dsh-infinite-gen-5"></a>
+### #&#8288;20 [dsh-infinite-gen-5](https://github.com/minglink/dsh-infinite-gen-5) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (63) · Freshness: active (100) · Maintenance: fair (69) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.8k · custom license · Nov 2026</sub>
+
+**Reverse-engineering plugin for DeepSeek Harness using Ghidra, x64dbg and Unicorn.**
+
+IG5 is a plugin for DeepSeek Harness (DSH) that exposes 43 reverse-engineering tools and 8 workflow skills to an agent. It combines Ghidra static analysis, x64dbg native debugging and Unicorn single-function emulation with HTTP/HTTPS capture, XOR/AES candidate search and protocol framing. Thirteen modify or execute tools require host approval before running. Ships as a self-contained Windows x64 package.
+
+- **+** Bundles Ghidra, JDK, Python and x64dbg in the Windows package; no commercial IDA needed
+- **+** 13 mutating or executing tools gated by host approval, with undo and audit log
+- **+** Per-function dossier combines pseudocode, CFG, call graph and stack frame from one revision
+- **+** Default Core 8 toolset keeps the tool surface small; Full 43 is opt-in
+- **−** Requires an existing DeepSeek Harness install, pinned to >=0.2.0-rc.1 <0.3.0-0
+- **−** Full support only on Windows x64; macOS is Ghidra static only and experimental
+- **−** CC BY-NC-SA 4.0 license forbids commercial use
+- **−** README is heavy on self-promotion; star and fork counts there differ from detected 2,745
+
+<sub>Needs DeepSeek Harness (@deepseek-ai/dsh >=0.2.0-rc.1 <0.3.0-0), Ghidra, x64dbg, Unicorn, PowerShell · [Repo](https://github.com/minglink/dsh-infinite-gen-5) · [📖 Docs ↗](https://github.com/Minglink/dsh-infinite-gen-5/blob/master/docs/CAPABILITIES.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dsh-infinite-gen-5/)</sub>
+
 <a name="raptor"></a>
-### #&#8288;21 [raptor](https://github.com/gadievron/raptor) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (57) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2026</sub>
+### #&#8288;21 [raptor](https://github.com/gadievron/raptor) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.1k · custom license · Nov 2026</sub>
 
 **Security research framework chaining scanners, LLM triage, PoC and patch generation.**
 
@@ -383,7 +383,7 @@ RAPTOR is a Python framework built on Claude Code that runs Semgrep and CodeQL s
 <sub>Needs Claude Code, Semgrep, CodeQL, uv, Python 3.13+, Node.js 18+, Docker (optional) · Models: Claude (Claude Code or Anthropic API), other providers, local models · [Repo](https://github.com/gadievron/raptor) · [📖 Docs ↗](https://github.com/gadievron/raptor/blob/main/docs/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/raptor/)</sub>
 
 <a name="openappa"></a>
-### #&#8288;22 [openappa](https://github.com/archestra-ai/openappa) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
+### #&#8288;22 [openappa](https://github.com/archestra-ai/openappa) <sub>score [72](../README.md#-how-we-rank "Score 72/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Nov 2026</sub>
 
 **Deterministic information-flow policy checks on agent tool calls.**
 
@@ -401,7 +401,7 @@ OpenAPPA sits between an agent and its tools and checks each tool call against t
 <sub>no GPU · Docker · [Repo](https://github.com/archestra-ai/openappa) · [📖 Docs ↗](https://openappa.com/how-it-works) · [🌐 Site ↗](https://openappa.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openappa/)</sub>
 
 <a name="pentest-swarm-ai"></a>
-### #&#8288;23 [pentest-swarm-ai](https://github.com/armur-ai/pentest-swarm-ai) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (50) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;23 [pentest-swarm-ai](https://github.com/armur-ai/pentest-swarm-ai) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · AGPL-3.0 · Nov 2026</sub>
 
 **Autonomous API and web-app pentester using concurrent agents on a shared blackboard.**
 
@@ -419,7 +419,7 @@ Pentest Swarm AI is a Go CLI that runs many LLM agents against a target. They co
 <sub>GPU optional · Docker + Compose · Needs Docker (for bundled labs), Postgres with pgvector (blackboard), LLM provider or Ollama/LM Studio · Models: Claude, OpenAI-compatible, Together AI, Gemini, Ollama · port 7777 · [Repo](https://github.com/armur-ai/pentest-swarm-ai) · [📖 Docs ↗](https://armur-ai.github.io/Pentest-Swarm-AI/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentest-swarm-ai/)</sub>
 
 <a name="neurosploit"></a>
-### #&#8288;24 [neurosploit](https://github.com/joasasantos/neurosploit) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
+### #&#8288;24 [neurosploit](https://github.com/joasasantos/neurosploit) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
 
 **Autonomous pentest harness in Rust that validates findings across models.**
 
@@ -436,26 +436,8 @@ NeuroSploit is a Rust CLI that runs a pentest end to end: recon, selection from 
 
 <sub>no GPU · Compose · Needs Rust toolchain (source build), Node.js/npm (web console), Neo4j (optional), nmap, nuclei, ffuf and other pentest tools, Typst (PDF export) · Models: anthropic, openai, gemini, azure, xai · port 3000 · [Repo](https://github.com/joasasantos/neurosploit) · [📖 Docs ↗](https://neurosploitai.github.io/docs.html) · [🌐 Site ↗](https://neurosploitai.github.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/neurosploit/)</sub>
 
-<a name="seep-reverse-lab"></a>
-### #&#8288;25 [seep-reverse-lab](https://github.com/angusdevgo/seep-reverse-lab) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · GPL-3.0 · Nov 2026</sub>
-
-**Agent-driven reverse engineering workbench with 38 MCP tools.**
-
-Wraps Radare2, JADX, Apktool, Frida and a custom Windows PE engine behind 38 MCP tools, with an orchestrator that classifies platform and task type to drive autonomous APK/PE/web analysis, patching and Frida hook generation. It ships a 294-entry field-journal knowledge base and 14 desensitized case studies, plus prompt layers meant to stop the underlying LLM refusing security-audit tasks. Install paths exist for a 'Pi Agent' and DeepSeek Harness via an npm plugin, with ~657MB of toolchains bundled for offline use.
-
-- **+** 38 MCP tools unify Radare2, JADX, Apktool, Frida and a PE engine behind one API
-- **+** Fully offline after setup: toolchains pre-bundled, no network dependency
-- **+** Token-budget modes (fold/summary) cut decompile output by up to 90%
-- **+** 294 field journals plus 14 desensitized industrial cases as a searchable KB
-- **−** No Docker or Compose support; install is via PowerShell/npm scripts only
-- **−** Heavily Windows-oriented (PE engine, install.ps1) with less parity on Linux/macOS
-- **−** Includes explicit prompt-engineering layers built to bypass model safety refusals
-- **−** 881MB footprint with hardcoded relative paths noted in the repo layout
-
-<sub>no GPU · Needs Radare2, JADX, Apktool, Frida, IDA Pro (optional) · [Repo](https://github.com/angusdevgo/seep-reverse-lab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/seep-reverse-lab/)</sub>
-
 <a name="xalgorix"></a>
-### #&#8288;26 [xalgorix](https://github.com/xalgorix/xalgorix) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;25 [xalgorix](https://github.com/xalgorix/xalgorix) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Nov 2026</sub>
 
 **Autonomous AI pentest agent that re-exploits each finding before reporting it.**
 
@@ -473,7 +455,7 @@ Xalgorix is a Go and TypeScript agent that runs a 22-phase penetration testing m
 <sub>GPU optional · Docker + Compose · Needs LLM provider API key or Ollama, Interactsh server (public default), Docker (optional) · Models: OpenAI, Anthropic, DeepSeek, Gemini, Groq · port 9137 · [Repo](https://github.com/xalgorix/xalgorix) · [📖 Docs ↗](https://docs.xalgorix.com/) · [🌐 Site ↗](https://www.xalgorix.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/xalgorix/)</sub>
 
 <a name="hol-guard"></a>
-### #&#8288;27 [hol-guard](https://github.com/hashgraph-online/hol-guard) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: niche (4) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;26 [hol-guard](https://github.com/hashgraph-online/hol-guard) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Nov 2026</sub>
 
 **Local policy layer that reviews AI agent shell, file, package and MCP actions.**
 
@@ -490,8 +472,26 @@ HOL Guard hooks into coding agents such as Codex, Claude Code, Cursor and Gemini
 
 <sub>no GPU · Docker · Needs Python 3.10+, pipx · [Repo](https://github.com/hashgraph-online/hol-guard) · [📖 Docs ↗](https://github.com/hashgraph-online/hol-guard/blob/main/docs/guard/get-started.md) · [🌐 Site ↗](https://hol.org/guard/activate) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hol-guard/)</sub>
 
+<a name="seep-reverse-lab"></a>
+### #&#8288;27 [seep-reverse-lab](https://github.com/angusdevgo/seep-reverse-lab) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (72) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.3k · GPL-3.0 · Nov 2026</sub>
+
+**Agent-driven reverse engineering workbench with 38 MCP tools.**
+
+Wraps Radare2, JADX, Apktool, Frida and a custom Windows PE engine behind 38 MCP tools, with an orchestrator that classifies platform and task type to drive autonomous APK/PE/web analysis, patching and Frida hook generation. It ships a 294-entry field-journal knowledge base and 14 desensitized case studies, plus prompt layers meant to stop the underlying LLM refusing security-audit tasks. Install paths exist for a 'Pi Agent' and DeepSeek Harness via an npm plugin, with ~657MB of toolchains bundled for offline use.
+
+- **+** 38 MCP tools unify Radare2, JADX, Apktool, Frida and a PE engine behind one API
+- **+** Fully offline after setup: toolchains pre-bundled, no network dependency
+- **+** Token-budget modes (fold/summary) cut decompile output by up to 90%
+- **+** 294 field journals plus 14 desensitized industrial cases as a searchable KB
+- **−** No Docker or Compose support; install is via PowerShell/npm scripts only
+- **−** Heavily Windows-oriented (PE engine, install.ps1) with less parity on Linux/macOS
+- **−** Includes explicit prompt-engineering layers built to bypass model safety refusals
+- **−** 881MB footprint with hardcoded relative paths noted in the repo layout
+
+<sub>no GPU · Needs Radare2, JADX, Apktool, Frida, IDA Pro (optional) · [Repo](https://github.com/angusdevgo/seep-reverse-lab) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/seep-reverse-lab/)</sub>
+
 <a name="pentest-ai"></a>
-### #&#8288;28 [pentest-ai](https://github.com/0xsteph/pentest-ai) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (32) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
+### #&#8288;28 [pentest-ai](https://github.com/0xsteph/pentest-ai) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (35) · Freshness: active (100) · Maintenance: fair (75) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
 
 **AI-driven pentest and bug-bounty tool that verifies findings with exploit oracles.**
 
@@ -509,7 +509,7 @@ Pentest-AI connects an AI client or local model to a web-application pentest wor
 <sub>GPU optional · Docker + Compose · Needs Python 3.10-3.14, pipx, MCP-capable AI client or Ollama, optional scanner binaries · Models: Claude Code, Codex, Ollama (tool-calling models), cloud model providers · [Repo](https://github.com/0xsteph/pentest-ai) · [📖 Docs ↗](https://github.com/0xSteph/pentest-ai/tree/main/docs) · [🌐 Site ↗](https://pentestai.xyz/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentest-ai/)</sub>
 
 <a name="attackgen"></a>
-### #&#8288;29 [attackgen](https://github.com/mrwadams/attackgen) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (15) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Nov 2026</sub>
+### #&#8288;29 [attackgen](https://github.com/mrwadams/attackgen) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: fair (78) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Nov 2026</sub>
 
 **Generates incident response tabletop scenarios from MITRE ATT&CK and ATLAS data.**
 
@@ -527,7 +527,7 @@ AttackGen is a Streamlit app that builds incident response exercise scenarios fr
 <sub>no GPU · Docker + Compose · Needs LLM provider API or OpenAI-compatible endpoint, LiteLLM, LangSmith (optional) · Models: OpenAI, Anthropic, Google, Mistral, Groq · [Repo](https://github.com/mrwadams/attackgen) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/attackgen/)</sub>
 
 <a name="scopeweaver"></a>
-### #&#8288;30 [scopeweaver](https://github.com/cskwork/scopeweaver) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (9) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;30 [scopeweaver](https://github.com/cskwork/scopeweaver) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: niche (12) · Freshness: active (100) · Maintenance: healthy (98) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · AGPL-3.0 · Nov 2026</sub>
 
 **Multi-agent LLM penetration-testing system with Go backend and Next.js UI.**
 
@@ -545,7 +545,7 @@ ScopeWeaver runs LLM agents that explore targets, record assets and save confirm
 <sub>no GPU · Docker + Compose · Needs PostgreSQL, LLM provider (Anthropic, OpenAI, Ollama or other) · Models: Anthropic, OpenAI, GLM (Z.ai), Ollama (native), OpenCode SDK bridge · port 8787 · [Repo](https://github.com/cskwork/scopeweaver) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/scopeweaver/)</sub>
 
 <a name="agentic-security"></a>
-### #&#8288;31 [agentic_security](https://github.com/msoedov/agentic_security) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (36) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;31 [agentic_security](https://github.com/msoedov/agentic_security) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (38) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · Apache-2.0 · Nov 2026</sub>
 
 **Jailbreak and prompt-injection scanner for LLM apps, with a CI gate.**
 
@@ -563,7 +563,7 @@ Agentic Security sends jailbreak, prompt-injection, multimodal and fuzzed attack
 <sub>no GPU · Needs Python 3.15+, Hugging Face datasets · Models: Any HTTP endpoint, OpenAI, Claude, Gemini, Azure OpenAI · port 8718 · [Repo](https://github.com/msoedov/agentic_security) · [📖 Docs ↗](https://agentic-security.vercel.app) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-security/)</sub>
 
 <a name="cybermes"></a>
-### #&#8288;32 [cybermes](https://github.com/zyrexnn/cybermes) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;32 [cybermes](https://github.com/zyrexnn/cybermes) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Nov 2026</sub>
 
 **Bug bounty automation with a Go MCP server and 200+ security playbooks.**
 
@@ -580,7 +580,7 @@ Cybermes runs authorized recon and vulnerability research either as a standalone
 <sub>Docker + Compose · Needs Go 1.22+, Python 3.11+, subfinder, httpx, katana, ffuf, nuclei, sqlmap, Node.js (npx) for cybermes-mcp · [Repo](https://github.com/zyrexnn/cybermes) · [📖 Docs ↗](https://github.com/Zyrexnn/Cybermes/tree/main/docs) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cybermes/)</sub>
 
 <a name="open-kritt"></a>
-### #&#8288;33 [open-kritt](https://github.com/kritt-ai/open-kritt) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: known (42) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;33 [open-kritt](https://github.com/kritt-ai/open-kritt) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (43) · Freshness: active (100) · Maintenance: fair (59) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · AGPL-3.0 · Oct 2026</sub>
 
 **Workflow builder that runs AI agents in parallel to find code vulnerabilities.**
 
@@ -598,7 +598,7 @@ open·kritt splits vulnerability research into small prompt steps, runs them acr
 <sub>no GPU · Compose · Needs Docker with Docker Compose, Node.js 20+, Git, Model provider login or API key, GitHub token (optional, private repos) · Models: Codex, Claude Code, Grok Build, OpenAI, Anthropic · port 5173 · [Repo](https://github.com/kritt-ai/open-kritt) · [📖 Docs ↗](https://docs.kritt.ai) · [🌐 Site ↗](https://kritt.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-kritt/)</sub>
 
 <a name="pentestcode"></a>
-### #&#8288;34 [pentestcode](https://github.com/s0ld13rr/pentestcode) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
+### #&#8288;34 [pentestcode](https://github.com/s0ld13rr/pentestcode) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Nov 2026</sub>
 
 **Terminal pentesting agent with parallel subagents and shared engagement state.**
 
@@ -616,7 +616,7 @@ PentestCode is a hard fork of OpenCode rebuilt for offensive security. A lead ag
 <sub>no GPU · Needs LLM provider API or Ollama, nmap and other pentest tools · Models: Anthropic, OpenAI, Google, Azure, AWS Bedrock · [Repo](https://github.com/s0ld13rr/pentestcode) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentestcode/)</sub>
 
 <a name="nebula"></a>
-### #&#8288;35 [berylliumsec/nebula](https://github.com/berylliumsec/nebula) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (7) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · BSD-2-Clause · Nov 2026</sub>
+### #&#8288;35 [berylliumsec/nebula](https://github.com/berylliumsec/nebula) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · BSD-2-Clause · Nov 2026</sub>
 
 **Pentest workbench with AI agents, Kali containers and an intercepting browser.**
 
@@ -634,7 +634,7 @@ Nebula groups a penetration-testing engagement into one Project: assets, Kali te
 <sub>GPU optional · Docker + Compose · Needs Docker or Podman, Kali container, OpenVPN (optional), Chromium via Playwright, OpenAI API key (optional, for Voice) · Models: Claude, OpenRouter, Ollama, vLLM, Codex harness · [Repo](https://github.com/berylliumsec/nebula) · [📖 Docs ↗](https://github.com/BerylliumSec/nebula/blob/main/docs/README.md) · [🌐 Site ↗](https://berylliumsec.github.io/nebula-apt/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nebula/)</sub>
 
 <a name="stride-gpt"></a>
-### #&#8288;36 [stride-gpt](https://github.com/mrwadams/stride-gpt) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
+### #&#8288;36 [stride-gpt](https://github.com/mrwadams/stride-gpt) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Nov 2026</sub>
 
 **STRIDE threat model and attack tree generator driven by LLMs.**
 
@@ -652,7 +652,7 @@ STRIDE GPT generates STRIDE threat models, attack trees, DREAD scores, mitigatio
 <sub>no GPU · Docker + Compose · Needs LLM provider API key or LM Studio server, LiteLLM, Streamlit · Models: OpenAI, Anthropic, Google Gemini, Mistral, Groq · [Repo](https://github.com/mrwadams/stride-gpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/stride-gpt/)</sub>
 
 <a name="sapper-v2"></a>
-### #&#8288;37 [sapper-v2](https://github.com/n1neman/sapper-v2) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (44) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Nov 2026</sub>
+### #&#8288;37 [sapper-v2](https://github.com/n1neman/sapper-v2) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (61) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Nov 2026</sub>
 
 **Multi-agent harness for autonomous CTF-style penetration testing.**
 
@@ -670,7 +670,7 @@ sapper-v2 runs a commander agent that dispatches generals, soldiers and scouts a
 <sub>Docker · Needs tmux, Agent CLI such as Claude Code or Codex, Model gateway and API keys, Competition platform API (BENCHMARK_BASE_URL), Docker (optional, Kali image) · Models: GLM-5.3, DeepSeek V4.1 Flash, Claude Sonnet, any model via agent CLI · [Repo](https://github.com/n1neman/sapper-v2) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/sapper-v2/)</sub>
 
 <a name="dark-moon"></a>
-### #&#8288;38 [dark-moon](https://github.com/ascit31/dark-moon) <sub>score [61](../README.md#-how-we-rank "Score 61/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;38 [dark-moon](https://github.com/ascit31/dark-moon) <sub>score [62](../README.md#-how-we-rank "Score 62/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · AGPL-3.0 · Nov 2026</sub>
 
 **Autonomous AI pentesting agents that exploit and document findings on your infrastructure.**
 
@@ -687,26 +687,8 @@ DarkMoon is a CLI that takes a target, dispatches around 50 specialist agents ac
 
 <sub>GPU optional · Docker + Compose · Needs Docker, Docker Compose, LLM API key or local model · Models: Anthropic, OpenAI, OpenRouter, Azure OpenAI, Ollama · [Repo](https://github.com/ascit31/dark-moon) · [📖 Docs ↗](https://docs.dark-moon.org) · [🌐 Site ↗](https://dark-moon.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dark-moon/)</sub>
 
-<a name="adr"></a>
-### #&#8288;39 [adr](https://github.com/uber/adr) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (37) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Oct 2026</sub>
-
-**Discovery, telemetry and LLM-based threat detection for enterprise coding agents.**
-
-ADR is Uber's security system for AI agents. The repo includes an endpoint inventory of AI tools, a sensor that normalizes telemetry from agents such as Claude Code, Cursor, Codex and Copilot CLI, and a dual-agent detector evaluated on ADR-Bench (304 tasks, 134 MCP servers). The prevention component and the offline Explorer red-teaming engine are not included.
-
-- **+** Deployed in production at Uber; paper accepted at MLSys 2026
-- **+** Sensor covers Claude Code, Cursor, Codex, Copilot CLI, Gemini CLI on macOS, Linux, Windows
-- **+** Includes reproducible benchmark: 304 tasks, 134 MCP servers, figure scripts
-- **+** Two-tier detector: high-recall triage, then deeper agentic review of suspicious sessions
-- **−** Prevention component is not in the open-source release
-- **−** Offline ADR Explorer red-teaming engine is not included
-- **−** Default detector needs Anthropic and OpenAI API keys
-- **−** Benchmark fixtures are synthetic, so results may not match real environments
-
-<sub>no GPU · Needs uv, Anthropic API, OpenAI API · Models: Anthropic, OpenAI, LlamaFirewall · [Repo](https://github.com/uber/adr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adr/)</sub>
-
 <a name="clawsec"></a>
-### #&#8288;40 [clawsec](https://github.com/prompt-security/clawsec) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (5) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;39 [clawsec](https://github.com/prompt-security/clawsec) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · AGPL-3.0 · Nov 2026</sub>
 
 **Security skills and signed advisory feed for OpenClaw-family agent runtimes.**
 
@@ -724,7 +706,7 @@ ClawSec is a set of security skills for agent runtimes (OpenClaw, NanoClaw, Herm
 <sub>no GPU · Needs Node.js, npx skills, OpenClaw, NanoClaw, Hermes or Picoclaw · [Repo](https://github.com/prompt-security/clawsec) · [📖 Docs ↗](https://github.com/prompt-security/clawsec/blob/main/wiki/INDEX.md) · [🌐 Site ↗](https://clawsec.prompt.security) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawsec/)</sub>
 
 <a name="pentestagent"></a>
-### #&#8288;41 [pentestagent](https://github.com/gh05tcrew/pentestagent) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Nov 2026</sub>
+### #&#8288;40 [pentestagent](https://github.com/gh05tcrew/pentestagent) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Nov 2026</sub>
 
 **Terminal pentesting agent with crew mode and MCP client and server.**
 
@@ -741,26 +723,26 @@ PentestAgent is a Python TUI that drives an LLM through terminal, browser, notes
 
 <sub>no GPU · Docker + Compose · Needs Python 3.10+, LLM API key (OpenAI, Anthropic or other LiteLLM provider), Playwright Chromium, Docker (optional), Tavily API key (optional, web_search) · Models: OpenAI, Anthropic, LiteLLM-supported providers, OpenAI-compatible endpoints · port 8080 · [Repo](https://github.com/gh05tcrew/pentestagent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentestagent/)</sub>
 
-<a name="reconmap"></a>
-### #&#8288;42 [reconmap](https://github.com/reconmap/reconmap) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · MIT · Nov 2026</sub>
+<a name="adr"></a>
+### #&#8288;41 [adr](https://github.com/uber/adr) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: known (39) · Freshness: active (100) · Maintenance: fair (54) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · Apache-2.0 · Oct 2026</sub>
 
-**AI-assisted pentest scanning, triage and reporting across many engagements.**
+**Discovery, telemetry and LLM-based threat detection for enterprise coding agents.**
 
-Reconmap takes a target (URL, domain, IP or repo), has an LLM pick and order tools from a command catalog, and runs them through Go runners on your own machines. Output is parsed (SARIF, CycloneDX, Nmap, Testssl, Subfinder, others via an LLM parser), triaged for severity and false positives, and exported to Word, Markdown or HTML. It also has an MCP server.
+ADR is Uber's security system for AI agents. The repo includes an endpoint inventory of AI tools, a sensor that normalizes telemetry from agents such as Claude Code, Cursor, Codex and Copilot CLI, and a dual-agent detector evaluated on ADR-Bench (304 tasks, 134 MCP servers). The prevention component and the offline Explorer red-teaming engine are not included.
 
-- **+** Runners execute commands on your own machines and return output to the server
-- **+** Built-in parsers for SARIF, CycloneDX, Nmap, Testssl and Subfinder, plus LLM fallback
-- **+** Works with Ollama for local inference or OpenAI-compatible endpoints
-- **+** Multi-project, multi-user with Keycloak SSO; includes MCP server and rmap CLI
-- **−** Needs PostgreSQL, Redis and Keycloak alongside the API and dashboard
-- **−** Multi-component stack (.NET API, React, Go runner and CLI) is heavier to operate
-- **−** Triage and planning quality depends on the chosen LLM
-- **−** Report export lists only Word, Markdown and HTML
+- **+** Deployed in production at Uber; paper accepted at MLSys 2026
+- **+** Sensor covers Claude Code, Cursor, Codex, Copilot CLI, Gemini CLI on macOS, Linux, Windows
+- **+** Includes reproducible benchmark: 304 tasks, 134 MCP servers, figure scripts
+- **+** Two-tier detector: high-recall triage, then deeper agentic review of suspicious sessions
+- **−** Prevention component is not in the open-source release
+- **−** Offline ADR Explorer red-teaming engine is not included
+- **−** Default detector needs Anthropic and OpenAI API keys
+- **−** Benchmark fixtures are synthetic, so results may not match real environments
 
-<sub>GPU optional · Compose · Needs PostgreSQL, Redis, Keycloak, Docker Compose · Models: Ollama, Azure OpenAI, OpenRouter, OpenAI-compatible endpoints · port 5500 · [Repo](https://github.com/reconmap/reconmap) · [▶️ Demo ↗](https://reconmap.com/overview/live-demo/) · [📖 Docs ↗](https://reconmap.com) · [🌐 Site ↗](https://reconmap.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/reconmap/)</sub>
+<sub>no GPU · Needs uv, Anthropic API, OpenAI API · Models: Anthropic, OpenAI, LlamaFirewall · [Repo](https://github.com/uber/adr) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adr/)</sub>
 
 <a name="akto"></a>
-### #&#8288;43 [akto](https://github.com/akto-api-security/akto) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
+### #&#8288;42 [akto](https://github.com/akto-api-security/akto) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: fair (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Nov 2026</sub>
 
 **Discovers, red-teams and guards AI agents, MCP servers and LLM apps.**
 
@@ -776,6 +758,24 @@ Akto is a security platform for AI agents with two products. Atlas inventories a
 - **−** Unclear which listed features are in the MIT code versus the hosted product
 
 <sub>Compose · Needs EDR/MDM or proxy (Atlas), Cloud environments (Argus) · Models: Ollama, vLLM, AWS Bedrock, Databricks · [Repo](https://github.com/akto-api-security/akto) · [📖 Docs ↗](https://ai-security-docs.akto.io) · [🌐 Site ↗](https://www.akto.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/akto/)</sub>
+
+<a name="reconmap"></a>
+### #&#8288;43 [reconmap](https://github.com/reconmap/reconmap) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · MIT · Nov 2026</sub>
+
+**AI-assisted pentest scanning, triage and reporting across many engagements.**
+
+Reconmap takes a target (URL, domain, IP or repo), has an LLM pick and order tools from a command catalog, and runs them through Go runners on your own machines. Output is parsed (SARIF, CycloneDX, Nmap, Testssl, Subfinder, others via an LLM parser), triaged for severity and false positives, and exported to Word, Markdown or HTML. It also has an MCP server.
+
+- **+** Runners execute commands on your own machines and return output to the server
+- **+** Built-in parsers for SARIF, CycloneDX, Nmap, Testssl and Subfinder, plus LLM fallback
+- **+** Works with Ollama for local inference or OpenAI-compatible endpoints
+- **+** Multi-project, multi-user with Keycloak SSO; includes MCP server and rmap CLI
+- **−** Needs PostgreSQL, Redis and Keycloak alongside the API and dashboard
+- **−** Multi-component stack (.NET API, React, Go runner and CLI) is heavier to operate
+- **−** Triage and planning quality depends on the chosen LLM
+- **−** Report export lists only Word, Markdown and HTML
+
+<sub>GPU optional · Compose · Needs PostgreSQL, Redis, Keycloak, Docker Compose · Models: Ollama, Azure OpenAI, OpenRouter, OpenAI-compatible endpoints · port 5500 · [Repo](https://github.com/reconmap/reconmap) · [▶️ Demo ↗](https://reconmap.com/overview/live-demo/) · [📖 Docs ↗](https://reconmap.com) · [🌐 Site ↗](https://reconmap.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/reconmap/)</sub>
 
 <a name="pentestgpt"></a>
 ### #&#8288;44 [pentestgpt](https://github.com/greydgl/pentestgpt) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (89) · Freshness: recent (75) · Maintenance: weak (6) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 17k · MIT · Jul 2026</sub>
@@ -796,7 +796,7 @@ PentestGPT runs a staged pipeline against a target IP or URL, using Claude Code 
 <sub>no GPU · Docker + Compose · Needs Python 3.12+, uv, Claude Code CLI, Codex CLI, Langfuse (telemetry, can be disabled) · Models: Claude, OpenAI, Google Gemini, DeepSeek, xAI Grok · [Repo](https://github.com/greydgl/pentestgpt) · [🌐 Site ↗](https://pentestgpt.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentestgpt/)</sub>
 
 <a name="purplellama"></a>
-### #&#8288;45 [purplellama](https://github.com/meta-llama/purplellama) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
+### #&#8288;45 [purplellama](https://github.com/meta-llama/purplellama) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: popular (61) · Freshness: active (100) · Maintenance: weak (23) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · custom license · Nov 2026</sub>
 
 **Meta's safety classifiers and cybersecurity benchmarks for LLM inputs, outputs and code.**
 
@@ -814,7 +814,7 @@ Purple Llama is an umbrella repo from Meta with input/output safeguards and secu
 <sub>Models: Llama Guard 3-8B, Llama Guard 3-1B, Llama Guard 3-11B-vision, Llama Guard 2, Llama Guard · [Repo](https://github.com/meta-llama/purplellama) · [📖 Docs ↗](https://github.com/meta-llama/llama-recipes) · [🌐 Site ↗](https://ai.meta.com/llama/purple-llama) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/purplellama/)</sub>
 
 <a name="hexstrike-ai"></a>
-### #&#8288;46 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (87) · Freshness: active (91) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
+### #&#8288;46 [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: widely used (87) · Freshness: active (90) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 14k · MIT · Aug 2026</sub>
 
 **MCP server that lets AI clients drive 150+ pentesting tools.**
 
@@ -832,7 +832,7 @@ HexStrike AI runs a Python Flask-style server (hexstrike_server.py, default port
 <sub>GPU optional · Needs Python 3.8+, nmap, nuclei, sqlmap and other security tools, Chrome/Chromium with chromedriver, MCP-compatible client · Models: Claude, GPT, Copilot, any MCP-compatible client · port 8888 · [Repo](https://github.com/0x4m4/hexstrike-ai) · [🌐 Site ↗](https://overthetop.ae/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hexstrike-ai/)</sub>
 
 <a name="adversarial-robustness-toolbox"></a>
-### #&#8288;47 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (69) · Freshness: recent (73) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
+### #&#8288;47 [adversarial-robustness-toolbox](https://github.com/trusted-ai/adversarial-robustness-toolbox) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (70) · Freshness: recent (73) · Maintenance: patchy (38) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.3k · MIT · Nov 2026</sub>
 
 **Python library for attacking and defending ML models against adversarial threats.**
 
@@ -850,7 +850,7 @@ ART is a Python library for evaluating and hardening machine learning models aga
 <sub>GPU optional · Docker · Models: TensorFlow, Keras, PyTorch, scikit-learn, XGBoost · [Repo](https://github.com/trusted-ai/adversarial-robustness-toolbox) · [📖 Docs ↗](https://adversarial-robustness-toolbox.readthedocs.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/adversarial-robustness-toolbox/)</sub>
 
 <a name="modeltrace"></a>
-### #&#8288;48 [modeltrace](https://github.com/xqy2006/modeltrace) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (38) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+### #&#8288;48 [modeltrace](https://github.com/xqy2006/modeltrace) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: known (40) · Freshness: active (100) · Maintenance: patchy (39) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
 
 **Identifies which GPT or Claude model sits behind an API by output fingerprint.**
 
@@ -868,7 +868,7 @@ ModelTrace sends three long-integer generation challenges to a model and extract
 <sub>no GPU · Needs Python, OpenAI-compatible or Anthropic Messages API for the model under test · Models: gpt-5.4, gpt-5.5, gpt-6 series, gpt-6.1 series, gpt-6.2 series · port 7860 · [Repo](https://github.com/xqy2006/modeltrace) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/modeltrace/)</sub>
 
 <a name="cairn"></a>
-### #&#8288;49 [cairn](https://github.com/oritera/cairn) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (68) · Freshness: active (98) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;49 [cairn](https://github.com/oritera/cairn) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (69) · Freshness: active (98) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.1k · AGPL-3.0 · Sep 2026</sub>
 
 **Blackboard-based multi-agent engine for AI penetration testing and CTF solving.**
 
@@ -886,7 +886,7 @@ Cairn searches for a path from an origin to a goal by having agent workers read 
 <sub>no GPU · Docker + Compose · Needs Docker (not needed in local mode), Python >= 3.12, uv, Claude Code, Codex or Pi CLI/LLM endpoints · Models: Claude Code, Codex, Pi · port 8000 · [Repo](https://github.com/oritera/cairn) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cairn/)</sub>
 
 <a name="deepteam"></a>
-### #&#8288;50 [deepteam](https://github.com/confident-ai/deepteam) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (48) · Freshness: active (83) · Maintenance: patchy (37) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;50 [deepteam](https://github.com/confident-ai/deepteam) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (50) · Freshness: active (83) · Maintenance: patchy (37) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.1k · Apache-2.0 · Nov 2026</sub>
 
 **Red teaming framework that attacks LLM apps and scores vulnerabilities.**
 
@@ -904,7 +904,7 @@ DeepTeam generates adversarial prompts (jailbreaks, prompt injection, multi-turn
 <sub>no GPU · Needs DeepEval, OpenAI API key or other DeepEval-supported LLM · Models: OpenAI, custom models via DeepEval · [Repo](https://github.com/confident-ai/deepteam) · [🌐 Site ↗](https://www.trydeepteam.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/deepteam/)</sub>
 
 <a name="aibeat"></a>
-### #&#8288;51 [aibeat](https://github.com/tophant-ai/aibeat) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.4k · no license · Oct 2026</sub>
+### #&#8288;51 [aibeat](https://github.com/tophant-ai/aibeat) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.4k · no license · Oct 2026</sub>
 
 **Security evaluation of LLMs, RAG apps and agents, with trace evidence.**
 
@@ -922,7 +922,7 @@ AI Beat ships two Go command-line tools. PromptBeat generates adversarial cases,
 <sub>no GPU · Needs Node.js 22.22.2 (PromptBeat), promptfoo 0.121.9 (PromptBeat), LLM provider API for attacker and judge models · Models: OpenAI-compatible endpoints, HTTP agent targets, Codex, Claude Code, OpenCode · [Repo](https://github.com/tophant-ai/aibeat) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/aibeat/)</sub>
 
 <a name="pwnagotchi"></a>
-### #&#8288;52 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (80) · Freshness: recent (67) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
+### #&#8288;52 [pwnagotchi](https://github.com/evilsocket/pwnagotchi) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (81) · Freshness: recent (67) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.3k · custom license · Aug 2026</sub>
 
 **WiFi handshake-capturing agent that tunes its attacks with reinforcement learning.**
 
@@ -940,7 +940,7 @@ Pwnagotchi runs an A2C reinforcement-learning agent (LSTM policy with MLP featur
 <sub>Needs bettercap, hashcat · Models: A2C (stable-baselines, MlpLstmPolicy) · [Repo](https://github.com/evilsocket/pwnagotchi) · [📖 Docs ↗](https://www.pwnagotchi.ai) · [🌐 Site ↗](https://pwnagotchi.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pwnagotchi/)</sub>
 
 <a name="textattack"></a>
-### #&#8288;53 [textattack](https://github.com/qdata/textattack) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (52) · Freshness: active (96) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Aug 2026</sub>
+### #&#8288;53 [textattack](https://github.com/qdata/textattack) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (54) · Freshness: active (96) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.5k · MIT · Aug 2026</sub>
 
 **Python framework for adversarial attacks, augmentation and training of NLP models.**
 
@@ -958,7 +958,7 @@ TextAttack is a Python library and `textattack` CLI that runs published adversar
 <sub>GPU optional · Needs Python 3.6+, pip · Models: BERT, DistilBERT, LSTM, T5, Keras models · [Repo](https://github.com/qdata/textattack) · [📖 Docs ↗](https://textattack.readthedocs.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/textattack/)</sub>
 
 <a name="pentest-ai-agents"></a>
-### #&#8288;54 [pentest-ai-agents](https://github.com/0xsteph/pentest-ai-agents) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (43) · Freshness: active (97) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Aug 2026</sub>
+### #&#8288;54 [pentest-ai-agents](https://github.com/0xsteph/pentest-ai-agents) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: known (45) · Freshness: active (96) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Aug 2026</sub>
 
 **Claude Code subagents for pentesting, from recon to reporting.**
 
@@ -976,7 +976,7 @@ A set of Claude Code subagent definition files, each covering one pentest area s
 <sub>no GPU · Docker · Needs Claude Code, nmap, nuclei, sqlmap and other CLI pentest tools (optional, via install.sh --tools), SQLite · Models: Claude · [Repo](https://github.com/0xsteph/pentest-ai-agents) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentest-ai-agents/)</sub>
 
 <a name="numbat"></a>
-### #&#8288;55 [numbat](https://github.com/perplexityai/numbat) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (8) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;55 [numbat](https://github.com/perplexityai/numbat) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · Apache-2.0 · Oct 2026</sub>
 
 **Endpoint monitor that detects and optionally blocks risky AI coding agent actions.**
 
@@ -994,7 +994,7 @@ numbat watches desktop, CLI, IDE and gateway AI agents through local hooks, plug
 <sub>no GPU · Needs Go 1.26.10+ (only for go install or building from source) · [Repo](https://github.com/perplexityai/numbat) · [📖 Docs ↗](https://github.com/perplexityai/numbat/blob/main/docs/cli.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/numbat/)</sub>
 
 <a name="hackingbuddygpt"></a>
-### #&#8288;56 [hackingbuddygpt](https://github.com/ipa-lab/hackingbuddygpt) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: niche (19) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Oct 2026</sub>
+### #&#8288;56 [hackingbuddygpt](https://github.com/ipa-lab/hackingbuddygpt) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: patchy (36) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Oct 2026</sub>
 
 **Python framework for building LLM pentesting agents with SSH and shell targets.**
 
@@ -1012,7 +1012,7 @@ hackingBuddyGPT is a Python framework for writing LLM-driven security-testing ag
 <sub>no GPU · Docker · Needs Python 3.13+, uv, litellm, tmux (local shell mode), Ollama or LLM API key · Models: OpenAI, OpenRouter, Anthropic, Azure, Ollama · [Repo](https://github.com/ipa-lab/hackingbuddygpt) · [📖 Docs ↗](https://docs.hackingbuddy.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hackingbuddygpt/)</sub>
 
 <a name="superagent"></a>
-### #&#8288;57 [superagent](https://github.com/superagent-ai/superagent) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (71) · Freshness: recent (77) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
+### #&#8288;57 [superagent](https://github.com/superagent-ai/superagent) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (72) · Freshness: recent (77) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.9k · MIT · Aug 2026</sub>
 
 **SDK that blocks prompt injections and redacts PII in AI agent apps.**
 
@@ -1029,26 +1029,26 @@ Superagent is a TypeScript and Python SDK (package `safety-agent`) with a guard 
 
 <sub>Needs Superagent API key (superagent.sh) · Models: OpenAI, Anthropic, Google, Groq, Bedrock · [Repo](https://github.com/superagent-ai/superagent) · [📖 Docs ↗](https://docs.superagent.sh) · [🌐 Site ↗](https://superagent.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/superagent/)</sub>
 
-<a name="luan1aoagent"></a>
-### #&#8288;58 [luan1aoagent](https://github.com/sanmuzzzzz/luan1aoagent) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Nov 2026</sub>
+<a name="agentic-radar"></a>
+### #&#8288;58 [agentic-radar](https://github.com/splx-ai/agentic-radar) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: niche (4) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Nov 2026</sub>
 
-**Autonomous pentest agent with a planner, executor, observer and evidence graph.**
+**Static scanner and runtime tester for agentic workflow code.**
 
-LuaN1aoAgent v2 is a TypeScript rewrite that runs authorized penetration tests with three roles. A Planner maintains a task graph, an Executor runs tools in a sandbox, and an Observer supervises and projects evidence into a reasoning graph. Events and large outputs persist to SQLite and content-addressed artifacts, and it runs from a CLI with a TUI and a local web workbench against any OpenAI-compatible LLM API.
+Agentic Radar is a Python CLI that statically scans agent code (LangGraph, CrewAI, n8n, OpenAI Agents, Autogen) and writes an HTML report with a workflow graph, tools, MCP servers and a vulnerability table mapped to OWASP LLM and agentic frameworks. A separate `test` command runs OpenAI Agents workflows against adversarial inputs such as prompt injection and PII leakage, judged by an LLM oracle.
 
-- **+** Confirmed vulnerability and exploit graph nodes cannot be written without evidence references
-- **+** Per-task Docker executor with dropped capabilities and a scope-enforcing gateway on a private network
-- **+** Session state in SQLite plus JSONL audit logs; unfinished runs resume with --resume
-- **+** Works with any OpenAI-compatible endpoint; supports Agent Skills and a SOCKS5 egress proxy
-- **−** Requires Node.js 25+; Windows is not validated as a release target
-- **−** Executor can run shell commands, so it needs an isolated host or VM
-- **−** v1 benchmark results do not apply to v2; no v2 benchmarks published yet
-- **−** No Docker image or compose file; executor and network images are built locally
+- **+** Static scan runs locally; source code is not sent anywhere
+- **+** Covers five frameworks: LangGraph, CrewAI, n8n, OpenAI Agents, Autogen
+- **+** Detects MCP servers and maps findings to OWASP LLM Top 10
+- **+** Custom YAML tests and a sample GitHub Actions workflow for CI
+- **−** Runtime `test` command supports only OpenAI Agents
+- **−** Prompt hardening and `test` need an OpenAI or Azure OpenAI API key
+- **−** Prompt hardening sends detected system prompts to an external LLM
+- **−** Prompt hardening is not available for LangGraph or n8n
 
-<sub>no GPU · Needs Node.js 25+, Docker (recommended), OpenAI-compatible LLM API, Brave Search API (optional), NVD API key (optional) · Models: OpenAI-compatible Chat Completions, OpenAI Responses API (optional) · [Repo](https://github.com/sanmuzzzzz/luan1aoagent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/luan1aoagent/)</sub>
+<sub>no GPU · Needs Python, pip, OPENAI_API_KEY or AZURE_OPENAI_API_KEY (test, prompt hardening), crewai-tools (optional, Python >=3.10 and <3.13) · Models: OpenAI, Azure OpenAI · [Repo](https://github.com/splx-ai/agentic-radar) · [▶️ Demo ↗](https://agentic-radar.neocities.org/) · [📖 Docs ↗](https://github.com/splx-ai/agentic-radar) · [🌐 Site ↗](https://splx.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-radar/)</sub>
 
 <a name="buttercup"></a>
-### #&#8288;59 [buttercup](https://github.com/trailofbits/buttercup) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (31) · Freshness: recent (76) · Maintenance: weak (20) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;59 [buttercup](https://github.com/trailofbits/buttercup) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: known (33) · Freshness: recent (76) · Maintenance: weak (20) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · AGPL-3.0 · Sep 2026</sub>
 
 **Automated fuzzing and LLM-based patching of C and Java OSS-Fuzz projects.**
 
@@ -1065,8 +1065,26 @@ Buttercup is Trail of Bits' Cyber Reasoning System from DARPA AIxCC. It runs an 
 
 <sub>RAM ≥ 16 GB · no GPU · Needs Docker Desktop or Colima, OpenAI, Anthropic or Google API key, OSS-Fuzz, SigNoz, LangFuse (optional) · Models: OpenAI, Anthropic, Google · port 31323 · [Repo](https://github.com/trailofbits/buttercup) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/buttercup/)</sub>
 
+<a name="luan1aoagent"></a>
+### #&#8288;60 [luan1aoagent](https://github.com/sanmuzzzzz/luan1aoagent) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · AGPL-3.0 · Nov 2026</sub>
+
+**Autonomous pentest agent with a planner, executor, observer and evidence graph.**
+
+LuaN1aoAgent v2 is a TypeScript rewrite that runs authorized penetration tests with three roles. A Planner maintains a task graph, an Executor runs tools in a sandbox, and an Observer supervises and projects evidence into a reasoning graph. Events and large outputs persist to SQLite and content-addressed artifacts, and it runs from a CLI with a TUI and a local web workbench against any OpenAI-compatible LLM API.
+
+- **+** Confirmed vulnerability and exploit graph nodes cannot be written without evidence references
+- **+** Per-task Docker executor with dropped capabilities and a scope-enforcing gateway on a private network
+- **+** Session state in SQLite plus JSONL audit logs; unfinished runs resume with --resume
+- **+** Works with any OpenAI-compatible endpoint; supports Agent Skills and a SOCKS5 egress proxy
+- **−** Requires Node.js 25+; Windows is not validated as a release target
+- **−** Executor can run shell commands, so it needs an isolated host or VM
+- **−** v1 benchmark results do not apply to v2; no v2 benchmarks published yet
+- **−** No Docker image or compose file; executor and network images are built locally
+
+<sub>no GPU · Needs Node.js 25+, Docker (recommended), OpenAI-compatible LLM API, Brave Search API (optional), NVD API key (optional) · Models: OpenAI-compatible Chat Completions, OpenAI Responses API (optional) · [Repo](https://github.com/sanmuzzzzz/luan1aoagent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/luan1aoagent/)</sub>
+
 <a name="airecon"></a>
-### #&#8288;60 [airecon](https://github.com/pikpikcu/airecon) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (3) · Freshness: active (95) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Nov 2026</sub>
+### #&#8288;61 [airecon](https://github.com/pikpikcu/airecon) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (7) · Freshness: active (95) · Maintenance: patchy (46) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Nov 2026</sub>
 
 **Autonomous pentest agent with Kali sandbox, Caido integration and a terminal UI.**
 
@@ -1083,8 +1101,26 @@ AIRecon runs a RECON, ANALYSIS, EXPLOIT, REPORT pipeline against a target, using
 
 <sub>GPU optional · Needs Docker 20.10+, Python 3.12+, OpenAI-compatible LLM gateway, git, curl · Models: OpenAI-compatible, Anthropic, Ollama, vLLM, LiteLLM · [Repo](https://github.com/pikpikcu/airecon) · [📖 Docs ↗](https://pikpikcu.github.io/airecon/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/airecon/)</sub>
 
+<a name="clawvault"></a>
+### #&#8288;62 [clawvault](https://github.com/tophant-ai/clawvault) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (5) · Freshness: active (97) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MIT · Aug 2026</sub>
+
+**Local proxy and hooks that scan agent traffic for secrets and injections.**
+
+ClawVault is a Python security layer for OpenClaw and Claude Code. It runs a transparent proxy (port 8765) and an OpenAI-compatible adapter that detect secrets, PII, prompt injection and dangerous commands, then allow, block or sanitize. A web dashboard on port 8766 shows the audit log, per-agent config and token budgets, with events stored in SQLite.
+
+- **+** Claude Code UserPromptSubmit and PreToolUse hooks; installer backs up settings and is idempotent
+- **+** Sanitize mode swaps secrets for placeholders so the upstream provider never sees originals
+- **+** Three guard modes (strict, interactive, permissive) plus daily and monthly token budgets
+- **+** Dashboard with audit log and SQLite storage; no external database required
+- **−** File-side monitoring and generative policy orchestration are still marked in progress
+- **−** Adapter sanitize flow does not restore placeholders in model responses
+- **−** Local OpenClaw session and transcript files may still hold the original input
+- **−** No Docker or Compose files; install is pip or shell scripts
+
+<sub>no GPU · Needs Python 3.10+, OpenClaw, SQLite · Models: OpenAI-compatible providers, Anthropic API · port 8766 · [Repo](https://github.com/tophant-ai/clawvault) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/clawvault/)</sub>
+
 <a name="pentesterflow-agent"></a>
-### #&#8288;61 [pentesterflow/agent](https://github.com/pentesterflow/agent) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (22) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;63 [pentesterflow/agent](https://github.com/pentesterflow/agent) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Aug 2026</sub>
 
 **Terminal agent that runs scoped pentests with analyst approval and writes findings.**
 
@@ -1101,8 +1137,26 @@ PentesterFlow is a TypeScript terminal agent for authorized penetration testing.
 
 <sub>GPU optional · Needs Ollama or LM Studio (for local models), Burp Suite with companion integration (optional), Hosted LLM API key (optional) · Models: Ollama, LM Studio, OpenAI-compatible, Anthropic, Gemini · port 9999 · [Repo](https://github.com/pentesterflow/agent) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentesterflow-agent/)</sub>
 
+<a name="medusa"></a>
+### #&#8288;64 [pantheon-security/medusa](https://github.com/pantheon-security/medusa) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (2) · Freshness: active (83) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · AGPL-3.0 · Jun 2026</sub>
+
+**Static security scanner for AI agents, MCP servers, LLM apps and AI editor configs.**
+
+MEDUSA is a Python CLI that scans code and config with built-in rules, covering prompt injection, MCP tool poisoning, poisoned AI editor files (.cursorrules, CLAUDE.md, mcp.json) and known CVEs. It can scan a remote repo with `medusa scan --git`, and `medusa secrets scan` finds leaked API keys in AI chat and shell histories, with interactive redaction. Reports export as JSON, HTML, Markdown or SARIF.
+
+- **+** Installs with pip and scans with built-in rules; external linters are optional
+- **+** Vets remote repos for poisoned AI editor configs before cloning, across 28+ file types
+- **+** Secrets purge makes a byte-identical backup first and refuses if the file changed
+- **+** Exports JSON, HTML, Markdown and SARIF; multi-core scanning and content-hash cache
+- **−** AGPL-3.0 license may restrict use inside proprietary or hosted products
+- **−** Many language scanners need external linters (bandit, eslint, etc.) for full coverage
+- **−** Pattern-based detection; the README gives no false-positive or accuracy figures
+- **−** Pattern counts (40,000+) are self-reported, with no independent benchmark cited
+
+<sub>no GPU · Docker · Needs Python 3.10+, optional linters: bandit, eslint, shellcheck, optional modelscan · [Repo](https://github.com/pantheon-security/medusa) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/medusa/)</sub>
+
 <a name="agentic-soc-platform"></a>
-### #&#8288;62 [agentic-soc-platform](https://github.com/funnywolf/agentic-soc-platform) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: minimal (30) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.2k · no license · Sep 2026</sub>
+### #&#8288;65 [agentic-soc-platform](https://github.com/funnywolf/agentic-soc-platform) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: patchy (47) · Agent-ready: minimal (30) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.2k · no license · Sep 2026</sub>
 
 **AI-assisted SOC platform that turns SIEM alerts into investigated cases.**
 
@@ -1119,7 +1173,7 @@ Agentic SOC Platform ingests alerts from Splunk, ELK and webhooks, extracts IOCs
 <sub>Compose · Needs Splunk, ELK · [Repo](https://github.com/funnywolf/agentic-soc-platform) · [📖 Docs ↗](https://asp.viperrtp.com/asp/quick-start/deployment/) · [🌐 Site ↗](https://asp.viperrtp.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/agentic-soc-platform/)</sub>
 
 <a name="autocve"></a>
-### #&#8288;63 [autocve](https://github.com/larlarua/autocve) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · AGPL-3.0 · Sep 2026</sub>
+### #&#8288;66 [autocve](https://github.com/larlarua/autocve) <sub>score [39](../README.md#-how-we-rank "Score 39/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: weak (16) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · AGPL-3.0 · Sep 2026</sub>
 
 **Multi-agent source code auditor that finds vulnerabilities and drafts CVE reports.**
 
@@ -1136,7 +1190,7 @@ AutoCVE imports a repository and runs an Orchestrator that coordinates Recon, Sc
 <sub>Docker + Compose · Needs Docker Compose, PostgreSQL, LLM API · port 3000 · [Repo](https://github.com/larlarua/autocve) · [📖 Docs ↗](https://github.com/larlarua/AutoCVE/blob/main/docs/USER_GUIDE.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/autocve/)</sub>
 
 <a name="guardian-cli"></a>
-### #&#8288;64 [guardian-cli](https://github.com/zakirkun/guardian-cli) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: known (34) · Freshness: recent (76) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · custom license · Jun 2026</sub>
+### #&#8288;67 [guardian-cli](https://github.com/zakirkun/guardian-cli) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: known (36) · Freshness: recent (76) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · custom license · Jun 2026</sub>
 
 **Python CLI that runs LLM-planned pentest workflows over 50 security tools.**
 
@@ -1154,7 +1208,7 @@ Guardian is a Python 3.11+ CLI that uses planner, tool-selector, analyst and rep
 <sub>no GPU · Docker + Compose · Needs Python 3.11+, LLM provider API key or Ollama, nmap, nuclei, httpx and other security tools (optional), Playwright with Chromium (visual triage) · Models: OpenAI, Anthropic Claude, Google Gemini, OpenRouter, Requesty · [Repo](https://github.com/zakirkun/guardian-cli) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/guardian-cli/)</sub>
 
 <a name="pentest-copilot"></a>
-### #&#8288;65 [pentest-copilot](https://github.com/bugbasesecurity/pentest-copilot) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (26) · Freshness: active (95) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Aug 2026</sub>
+### #&#8288;68 [pentest-copilot](https://github.com/bugbasesecurity/pentest-copilot) <sub>score [37](../README.md#-how-we-rank "Score 37/100. Adoption: niche (28) · Freshness: active (94) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Aug 2026</sub>
 
 **Autonomous pentest agent that drives a Kali box and Burp Suite.**
 
@@ -1172,7 +1226,7 @@ Pentest Copilot is a TypeScript web app where an LLM agent runs commands on a Ka
 <sub>RAM ≥ 8 GB · no GPU · Compose · Needs Docker Compose, MongoDB, Redis, Kali Linux box (built-in container or SSH), Burp Suite (optional) · Models: OpenAI, Anthropic, Google, Mistral, OpenAI-compatible endpoints · port 3000 · [Repo](https://github.com/bugbasesecurity/pentest-copilot) · [▶️ Demo ↗](https://www.youtube.com/watch?v=L0bjYzuICWo) · [📖 Docs ↗](https://github.com/bugbasesecurity/pentest-copilot/wiki/Home) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/pentest-copilot/)</sub>
 
 <a name="cybergym"></a>
-### #&#8288;66 [cybergym](https://github.com/sunblaze-ucb/cybergym) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Aug 2026</sub>
+### #&#8288;69 [cybergym](https://github.com/sunblaze-ucb/cybergym) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (3) · Freshness: active (99) · Maintenance: weak (17) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · Apache-2.0 · Aug 2026</sub>
 
 **Benchmark for AI agents reproducing real vulnerabilities with PoC inputs.**
 
@@ -1190,7 +1244,7 @@ CyberGym is an evaluation framework that gives an agent a vulnerable codebase fr
 <sub>Needs Docker, Git LFS, 7z, Squid (firewall), Hugging Face dataset · port 8666 · [Repo](https://github.com/sunblaze-ucb/cybergym) · [🌐 Site ↗](https://cybergym.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cybergym/)</sub>
 
 <a name="hackgpt"></a>
-### #&#8288;67 [hackgpt](https://github.com/nodatafound/hackgpt) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (10) · Freshness: active (94) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.2k · no license · Aug 2026</sub>
+### #&#8288;70 [hackgpt](https://github.com/nodatafound/hackgpt) <sub>score [32](../README.md#-how-we-rank "Score 32/100. Adoption: niche (13) · Freshness: active (93) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Penalty: no license. Click for how we rank.") · ⭐ 1.2k · no license · Aug 2026</sub>
 
 **Jupyter notebooks and scripts that send security inputs to OpenAI models.**
 
@@ -1207,7 +1261,7 @@ hackGPT is a set of Jupyter notebooks and Python scripts (PwnAI.py, PwnAI_bulk.p
 <sub>no GPU · Needs OpenAI API key, Jupyter Notebook, Python 3 · Models: OpenAI · [Repo](https://github.com/nodatafound/hackgpt) · [▶️ Demo ↗](https://hackgpt.com) · [🌐 Site ↗](https://hackgpt.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/hackgpt/)</sub>
 
 <a name="ai-captcha-bypass"></a>
-### #&#8288;68 [ai-captcha-bypass](https://github.com/aydinnyunus/ai-captcha-bypass) <sub>score [23](../README.md#-how-we-rank "Score 23/100. Adoption: niche (12) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · custom license · May 2026</sub>
+### #&#8288;71 [ai-captcha-bypass](https://github.com/aydinnyunus/ai-captcha-bypass) <sub>score [24](../README.md#-how-we-rank "Score 24/100. Adoption: niche (15) · Freshness: recent (64) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · custom license · May 2026</sub>
 
 **Python CLI that solves CAPTCHAs with GPT-4o or Gemini through Selenium.**
 
@@ -1225,7 +1279,7 @@ A command-line script that drives Firefox with Selenium, screenshots a CAPTCHA, 
 <sub>no GPU · Needs Python 3.7+, Mozilla Firefox, Selenium, OpenAI API key or Google Gemini API key · Models: OpenAI GPT-4o, Google Gemini 2.5 Pro, Google Gemini 2.5 Flash · [Repo](https://github.com/aydinnyunus/ai-captcha-bypass) · [📖 Docs ↗](https://aydinnyunus.github.io/2025/12/08/ai-captcha-bypass/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-captcha-bypass/)</sub>
 
 <a name="promptmap"></a>
-### #&#8288;69 [promptmap](https://github.com/utkusen/promptmap) <sub>score [5](../README.md#-how-we-rank "Score 5/100. Adoption: niche (16) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Dec 2025</sub>
+### #&#8288;72 [promptmap](https://github.com/utkusen/promptmap) <sub>score [6](../README.md#-how-we-rank "Score 6/100. Adoption: niche (19) · Freshness: quiet (1) · Maintenance: weak (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · GPL-3.0 · Dec 2025</sub>
 
 **Prompt injection scanner for LLM apps, using a second LLM to judge results.**
 
