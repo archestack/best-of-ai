@@ -74,26 +74,8 @@ Okou is a workspace agent you @mention in Slack or chat to do work across connec
 
 <sub>Docker · Needs Slack · Models: Anthropic, OpenAI, DeepSeek, Google · [Repo](https://github.com/okou-ai/okou) · [🌐 Site ↗](https://www.okou.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/okou/)</sub>
 
-<a name="openoutreach"></a>
-### #&#8288;5 [openoutreach](https://github.com/eracle/openoutreach) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · GPL-3.0 · Nov 2026</sub>
-
-**CLI that finds B2B leads from a product description and emails them.**
-
-OpenOutreach is a Python CLI that takes a product description and target market, discovers matching people through BetterContact's Lead Finder, and has an LLM qualify each one with a written reason. It then buys verified work emails for the leads that pass a confidence gate and sends openers from your own SMTP/IMAP mailbox. It orchestrates two separate packages, OpenOutFind and OpenOutSend, and can also export leads as CSV.
-
-- **+** No list upload needed; input is a product description and target market
-- **+** Each lead exports with a written reason for the fit verdict
-- **+** CSV columns match Instantly and Smartlead importers without mapping
-- **+** Discovery is free; credits are spent only on verified work emails
-- **−** Depends on BetterContact, a paid third-party data provider, for discovery and emails
-- **−** Learning loop is stated to be not yet shown to beat random picking
-- **−** Needs an LLM API key and a mailbox app password before first run
-- **−** README says Apache 2.0 while detected license is GPL-3.0
-
-<sub>no GPU · Needs BetterContact API key, SMTP/IMAP mailbox with app password, uv · Models: OpenAI, Anthropic, OpenAI-compatible endpoints · [Repo](https://github.com/eracle/openoutreach) · [🌐 Site ↗](https://openoutreach.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openoutreach/)</sub>
-
 <a name="bytechef"></a>
-### #&#8288;6 [bytechef](https://github.com/bytechefhq/bytechef) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: niche (10) · Freshness: active (100) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · custom license · Oct 2026</sub>
+### #&#8288;5 [bytechef](https://github.com/bytechefhq/bytechef) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: niche (10) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · custom license · Nov 2026</sub>
 
 **Visual workflow automation with AI agent steps and 250+ connectors.**
 
@@ -109,6 +91,24 @@ ByteChef is a Java workflow automation platform where an AI Agent component runs
 - **−** Agent skills and evaluations are not yet released
 
 <sub>no GPU · Docker + Compose · Needs Docker, PostgreSQL (pgvector for knowledge base) · Models: OpenAI, Anthropic, Azure OpenAI, Amazon Bedrock, Google Gemini · port 8080 · [Repo](https://github.com/bytechefhq/bytechef) · [📖 Docs ↗](https://docs.bytechef.io) · [🌐 Site ↗](https://www.bytechef.io) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/bytechef/)</sub>
+
+<a name="openoutreach"></a>
+### #&#8288;6 [openoutreach](https://github.com/eracle/openoutreach) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: known (50) · Freshness: active (100) · Maintenance: fair (58) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.9k · GPL-3.0 · Nov 2026</sub>
+
+**CLI that finds B2B leads from a product description and emails them.**
+
+OpenOutreach is a Python CLI that takes a product description and target market, discovers matching people through BetterContact's Lead Finder, and has an LLM qualify each one with a written reason. It then buys verified work emails for the leads that pass a confidence gate and sends openers from your own SMTP/IMAP mailbox. It orchestrates two separate packages, OpenOutFind and OpenOutSend, and can also export leads as CSV.
+
+- **+** No list upload needed; input is a product description and target market
+- **+** Each lead exports with a written reason for the fit verdict
+- **+** CSV columns match Instantly and Smartlead importers without mapping
+- **+** Discovery is free; credits are spent only on verified work emails
+- **−** Depends on BetterContact, a paid third-party data provider, for discovery and emails
+- **−** Learning loop is stated to be not yet shown to beat random picking
+- **−** Needs an LLM API key and a mailbox app password before first run
+- **−** README says Apache 2.0 while detected license is GPL-3.0
+
+<sub>no GPU · Needs BetterContact API key, SMTP/IMAP mailbox with app password, uv · Models: OpenAI, Anthropic, OpenAI-compatible endpoints · [Repo](https://github.com/eracle/openoutreach) · [🌐 Site ↗](https://openoutreach.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openoutreach/)</sub>
 
 <a name="flyto-core"></a>
 ### #&#8288;7 [flyto-core](https://github.com/flytohub/flyto-core) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 484 · Apache-2.0 · Nov 2026</sub>
