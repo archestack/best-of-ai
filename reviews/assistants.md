@@ -4,26 +4,8 @@ Personal AI assistants you run yourself and talk to through chat apps, with memo
 
 <sub>🌐 Also on the web: [Assistants on archestack.com](https://archestack.com/best-of-ai/assistants/), each project on its own page.</sub>
 
-<a name="career-ops"></a>
-### 🥇 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · MIT · Nov 2026</sub>
-
-**Job-search agent that scores listings, tailors CVs and drafts applications.**
-
-Runs inside an AI coding CLI (Claude Code, Codex, OpenCode, Qwen and others). You paste a job URL or description, and it checks the posting is live, scores fit against your CV, and generates an ATS PDF CV, cover letter and draft answers. It never submits applications or sends email, and keeps data on your machine.
-
-- **+** Drafts only: no auto-submit, and no mail transport in the code
-- **+** No telemetry or backend; CV goes only to the AI provider you choose
-- **+** Covers evaluation, tailored PDF CV, cover letter, contact drafts, tracker and interview prep
-- **+** Portal scanner preconfigured for 100+ companies across Ashby, Greenhouse, Lever and Wellfound
-- **−** Needs a separate AI CLI and provider; it does not run models itself
-- **−** README says early runs are rough until it learns your profile
-- **−** In-code check on CV rewording cannot catch every altered claim
-- **−** PDF output needs Playwright Chromium; non-Debian Linux needs manual libraries
-
-<sub>no GPU · Docker + Compose · Needs Node.js, An AI coding CLI (Claude Code, Codex, OpenCode, Qwen), Playwright Chromium (PDF generation) · Models: Claude Code, Codex, OpenCode, Qwen, local models (see docs/RUNNING_ON_A_BUDGET.md) · [Repo](https://github.com/career-ops-hq/career-ops) · [📖 Docs ↗](https://github.com/career-ops-hq/career-ops/blob/main/docs/SETUP.md) · [🌐 Site ↗](https://career-ops.org/manifesto?utm_source=readme) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/career-ops/)</sub>
-
 <a name="ai-job-search"></a>
-### 🥈 [ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 74k · MIT · Nov 2026</sub>
+### 🥇 [ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) <sub>score [97](../README.md#-how-we-rank "Score 97/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 74k · MIT · Nov 2026</sub>
 
 **Claude Code workflow that searches job boards and drafts tailored CVs and cover letters.**
 
@@ -39,6 +21,24 @@ A Claude Code project you fork and fill in with your profile. Slash commands (/s
 - **−** A public fork exposes personal data in tracked files; a private repo is needed
 
 <sub>no GPU · Needs Claude Code, Python 3.10+, Bun, LaTeX (lualatex, xelatex), pypdf or poppler (optional) · Models: Claude (via Claude Code) · [Repo](https://github.com/ai-job-search-dev/ai-job-search) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ai-job-search/)</sub>
+
+<a name="career-ops"></a>
+### 🥈 [career-ops](https://github.com/career-ops-hq/career-ops) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 85k · MIT · Nov 2026</sub>
+
+**Job-search agent that scores listings, tailors CVs and drafts applications.**
+
+Runs inside an AI coding CLI (Claude Code, Codex, OpenCode, Qwen and others). You paste a job URL or description, and it checks the posting is live, scores fit against your CV, and generates an ATS PDF CV, cover letter and draft answers. It never submits applications or sends email, and keeps data on your machine.
+
+- **+** Drafts only: no auto-submit, and no mail transport in the code
+- **+** No telemetry or backend; CV goes only to the AI provider you choose
+- **+** Covers evaluation, tailored PDF CV, cover letter, contact drafts, tracker and interview prep
+- **+** Portal scanner preconfigured for 100+ companies across Ashby, Greenhouse, Lever and Wellfound
+- **−** Needs a separate AI CLI and provider; it does not run models itself
+- **−** README says early runs are rough until it learns your profile
+- **−** In-code check on CV rewording cannot catch every altered claim
+- **−** PDF output needs Playwright Chromium; non-Debian Linux needs manual libraries
+
+<sub>no GPU · Docker + Compose · Needs Node.js, An AI coding CLI (Claude Code, Codex, OpenCode, Qwen), Playwright Chromium (PDF generation) · Models: Claude Code, Codex, OpenCode, Qwen, local models (see docs/RUNNING_ON_A_BUDGET.md) · [Repo](https://github.com/career-ops-hq/career-ops) · [📖 Docs ↗](https://github.com/career-ops-hq/career-ops/blob/main/docs/SETUP.md) · [🌐 Site ↗](https://career-ops.org/manifesto?utm_source=readme) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/career-ops/)</sub>
 
 <a name="openhuman"></a>
 ### 🥉 [openhuman](https://github.com/tinyhumansai/openhuman) <sub>score [96](../README.md#-how-we-rank "Score 96/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (100) (each out of 100, weighted). Click for how we rank.") · ⭐ 43k · GPL-3.0 · Nov 2026</sub>
@@ -253,7 +253,7 @@ CowAgent is a Python agent that plans tasks, runs built-in tools (file I/O, bash
 <sub>no GPU · Docker + Compose · Needs LLM provider API key or custom endpoint · Models: Claude, OpenAI, Gemini, DeepSeek, Qwen · port 9899 · [Repo](https://github.com/zhayujie/cowagent) · [📖 Docs ↗](https://docs.cowagent.ai/intro/index) · [🌐 Site ↗](https://cowagent.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cowagent/)</sub>
 
 <a name="rakazo"></a>
-### #&#8288;15 [rakazo](https://github.com/elie222/rakazo) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;15 [rakazo](https://github.com/elie222/rakazo) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Self-hosted AI assistant with persistent bots on sandboxed computers.**
 
@@ -289,7 +289,7 @@ QM is a self-hosted agent for teams, reachable from Slack and a web UI. Each per
 <sub>Docker · Needs Postgres, Node 24.15+, Slack (optional), Cloud account (Fly or AWS target) · Models: Multiple providers via Pi, Model gateway routing · [Repo](https://github.com/yc-software/qm) · [📖 Docs ↗](https://labs.ycombinator.com/qm/) · [🌐 Site ↗](https://labs.ycombinator.com/qm/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qm/)</sub>
 
 <a name="obsidian-copilot"></a>
-### #&#8288;17 [obsidian-copilot](https://github.com/logancyang/obsidian-copilot) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;17 [obsidian-copilot](https://github.com/logancyang/obsidian-copilot) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · AGPL-3.0 · Nov 2026</sub>
 
 **Obsidian plugin that runs OpenCode, Claude Code and Codex agents on your vault.**
 
@@ -307,7 +307,7 @@ Copilot for Obsidian is a community plugin that adds an Agent chat to Obsidian, 
 <sub>GPU optional · Needs Obsidian, OpenCode, Claude Code or Codex (via @agentclientprotocol/codex-acp) · Models: OpenCode-reported models, Claude Code, Codex, OpenAI-compatible providers, local models · [Repo](https://github.com/logancyang/obsidian-copilot) · [📖 Docs ↗](https://github.com/logancyang/obsidian-copilot/blob/master/docs/index.md) · [🌐 Site ↗](https://www.obsidiancopilot.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/obsidian-copilot/)</sub>
 
 <a name="rowboat"></a>
-### #&#8288;18 [rowboat](https://github.com/rowboatlabs/rowboat) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (77) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;18 [rowboat](https://github.com/rowboatlabs/rowboat) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: fair (76) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · Apache-2.0 · Nov 2026</sub>
 
 **Group-chat workspace for people and AI agents, plus a desktop assistant.**
 
@@ -378,7 +378,7 @@ QwenPaw is a Python assistant you run yourself, with a web Console on port 8088.
 <sub>GPU optional · Docker + Compose · Needs Python 3.11-3.13, Docker (optional), Ollama or LM Studio (optional) · Models: QwenPaw-Flash (2B/4B/9B/35B-A3B/27B), Ollama, LM Studio, 14+ cloud providers · port 8088 · [Repo](https://github.com/agentscope-ai/qwenpaw) · [▶️ Demo ↗](https://platform.agentscope.io/) · [📖 Docs ↗](https://qwenpaw.agentscope.io/docs/channels) · [🌐 Site ↗](https://qwenpaw.agentscope.io/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/qwenpaw/)</sub>
 
 <a name="octop"></a>
-### #&#8288;22 [octop](https://github.com/tencentcloud/octop) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Nov 2026</sub>
+### #&#8288;22 [octop](https://github.com/tencentcloud/octop) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 13k · MIT · Nov 2026</sub>
 
 **Multi-user, multi-agent assistant for web, CLI and chat apps like Telegram.**
 
@@ -431,7 +431,7 @@ OpenAgent is a Go application that combines a chat front-end, a document knowled
 <sub>no GPU · Docker + Compose · Compose runs MySQL · Models: OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, DeepSeek · port 14000 · [Repo](https://github.com/the-open-agent/openagent) · [▶️ Demo ↗](https://demo.openagentai.org) · [📖 Docs ↗](https://www.openagentai.org) · [🌐 Site ↗](https://www.openagentai.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openagent/)</sub>
 
 <a name="mika"></a>
-### #&#8288;25 [mika](https://github.com/wangzan101/mika) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;25 [mika](https://github.com/wangzan101/mika) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · Apache-2.0 · Nov 2026</sub>
 
 **Android assistant that operates phone apps and the web from one sentence.**
 
@@ -449,7 +449,7 @@ Mika is a Kotlin Android app that takes a plain-language request and carries it 
 <sub>no GPU · Needs Android 11+ (12+ for phone control), Model provider API key or account sign-in, Wireless debugging pairing for app control · Models: OpenAI, Anthropic, Gemini, xAI, Mistral · [Repo](https://github.com/wangzan101/mika) · [📖 Docs ↗](https://github.com/wangzan101/Mika/blob/main/docs/README.en.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mika/)</sub>
 
 <a name="ds-bot"></a>
-### #&#8288;26 [ds-bot](https://github.com/fei2411/ds-bot) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.1k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;26 [ds-bot](https://github.com/fei2411/ds-bot) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (88) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Nov 2026</sub>
 
 **Desktop app and DeepSeek Harness plugin for bots that collaborate in group chats.**
 
@@ -521,7 +521,7 @@ Leon is a TypeScript personal assistant that runs from source on macOS, Linux or
 <sub>Needs Node.js >= 24, pnpm · Models: local models, remote models · port 5366 · [Repo](https://github.com/leon-ai/leon) · [🌐 Site ↗](https://getleon.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/leon/)</sub>
 
 <a name="nod"></a>
-### #&#8288;30 [nod](https://github.com/n8n-io/nod) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.3k · Apache-2.0 · Nov 2026</sub>
+### #&#8288;30 [nod](https://github.com/n8n-io/nod) <sub>score [78](../README.md#-how-we-rank "Score 78/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (90) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · Apache-2.0 · Nov 2026</sub>
 
 **Personal agent with its own browser and Linux workspace that asks before acting.**
 
@@ -665,7 +665,7 @@ Operit is a Kotlin Android app that connects cloud or local models to device too
 <sub>GPU optional · Needs Android 8.0+ (API 26), ARM64 device, Shizuku or Root (optional, for automation) · Models: OpenAI Chat/Responses, Anthropic, Gemini, MNN, GGUF (llama.cpp) · [Repo](https://github.com/aaswordman/operit) · [📖 Docs ↗](https://operit.app/) · [🌐 Site ↗](https://operit.app/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/operit/)</sub>
 
 <a name="orkas"></a>
-### #&#8288;38 [orkas](https://github.com/orkas-ai/orkas) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.0k · MIT · Nov 2026</sub>
+### #&#8288;38 [orkas](https://github.com/orkas-ai/orkas) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: fair (80) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 8.1k · MIT · Nov 2026</sub>
 
 **Desktop app where a Commander agent delegates to specialist and CLI agents.**
 
@@ -1025,7 +1025,7 @@ Ouroboros is a general-purpose agent that keeps identity, memory and history acr
 <sub>GPU optional · Docker · Needs Git (AppImage only), Remote model API key, Codex account, or local GGUF model, Claudexor (bundled) · Models: OpenRouter, Codex account, Local GGUF, Remote provider APIs · [Repo](https://github.com/razzant/ouroboros) · [🌐 Site ↗](https://ouroboros-agent.ai/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/ouroboros/)</sub>
 
 <a name="dodaios"></a>
-### #&#8288;58 [dodaios](https://github.com/dodaios/dodaios) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 462 · Apache-2.0 · Nov 2026</sub>
+### #&#8288;58 [dodaios](https://github.com/dodaios/dodaios) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (1) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 463 · Apache-2.0 · Nov 2026</sub>
 
 **Desktop chat that briefs, launches and monitors multiple coding agents.**
 
@@ -1204,26 +1204,8 @@ OpenAkita is a Python assistant that runs multiple cooperating agents and can us
 
 <sub>no GPU · Docker + Compose · Needs Python 3.11+, LLM provider API key · Models: Anthropic, OpenAI, DeepSeek, Qwen, Kimi · [Repo](https://github.com/openakita/openakita) · [📖 Docs ↗](https://openakita.ai/docs) · [🌐 Site ↗](https://openakita.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openakita/)</sub>
 
-<a name="invisible-dots"></a>
-### #&#8288;68 [invisible_dots](https://github.com/feder-cr/invisible_dots) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 63 · MIT · Nov 2026</sub>
-
-**Agents that each work in their own VM with an anti-detection Firefox.**
-
-Each "Dot" is an agent with its own hardware-accelerated Linux desktop VM (QEMU with KVM or Windows Hypervisor Platform) and a persistent disk. It browses with a patched Firefox that keeps separate logins per identity, writes its own notes and skills, and runs queued tasks and recurring automations. It is reachable through a web UI, CLI, HTTP API, Telegram and optional WhatsApp, takes an OpenRouter key for models, and is marked alpha.
-
-- **+** Each agent gets an isolated VM with desktop, terminal, files and persistent disk
-- **+** Per-tool allow/ask/deny permissions; pending approvals persist in an Inbox across restarts
-- **+** Accepts user-declared MCP servers, with their keys kept out of the config
-- **+** State survives a restart or kill -9, and cut-short tool calls are never rerun
-- **−** Marked alpha in the README
-- **−** Needs x86-64 hardware virtualization plus Node 24+, Go 1.25+ and Git
-- **−** Source-build install only; no Docker or compose files
-- **−** Setup documents only an OpenRouter key; local models are not mentioned
-
-<sub>no GPU · Needs Node 24+, Go 1.25+, Git, QEMU, KVM or Windows Hypervisor Platform, OpenRouter API key · Models: OpenRouter · port 3000 · [Repo](https://github.com/feder-cr/invisible_dots) · [📖 Docs ↗](https://github.com/oss-invisible/dots/blob/main/docs/guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/invisible-dots/)</sub>
-
 <a name="goutoujunshi"></a>
-### #&#8288;69 [goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Sep 2026</sub>
+### #&#8288;68 [goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: weak (22) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 10k · MIT · Sep 2026</sub>
 
 **Codex Skill that analyzes relationship chats and suggests concrete next steps.**
 
@@ -1241,7 +1223,7 @@ Goutoujunshi is a Codex Skill for dating and relationship advice, covering attra
 <sub>Needs Codex-compatible AI assistant, ChatLab (optional) · [Repo](https://github.com/shengjidaguai-china/goutoujunshi) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/goutoujunshi/)</sub>
 
 <a name="cog-second-brain"></a>
-### #&#8288;70 [cog-second-brain](https://github.com/huytieu/cog-second-brain) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Oct 2026</sub>
+### #&#8288;69 [cog-second-brain](https://github.com/huytieu/cog-second-brain) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: fair (52) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Oct 2026</sub>
 
 **Markdown second brain operated by agent skills in Claude Code, Cursor and others.**
 
@@ -1259,7 +1241,7 @@ COG is a repo of 43 agent skills, plus 6 worker and 4 verifier agents, that oper
 <sub>no GPU · Needs Claude Code, Cursor, Gemini CLI, Codex or another markdown-reading agent, Git, Obsidian (optional), GitHub CLI (gh) for team skills, Linear, Slack, PostHog MCP (optional) · Models: Claude (Sonnet workers, Opus lead), Gemini via Gemini CLI, OpenAI Codex · [Repo](https://github.com/huytieu/cog-second-brain) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/cog-second-brain/)</sub>
 
 <a name="k-dense-byok"></a>
-### #&#8288;71 [k-dense-byok](https://github.com/k-dense-ai/k-dense-byok) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Oct 2026</sub>
+### #&#8288;70 [k-dense-byok](https://github.com/k-dense-ai/k-dense-byok) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (74) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Oct 2026</sub>
 
 **Local AI research assistant with lab notebook, provenance tracking and 177 science skills.**
 
@@ -1277,7 +1259,7 @@ K-Dense BYOK is a locally run app whose agent, Kady, analyzes datasets, searches
 <sub>GPU optional · Needs OpenRouter or other model provider key, Ollama (optional, local models), Modal (optional, robustness runs) · Models: OpenRouter, Anthropic, OpenAI, Google Gemini, xAI · [Repo](https://github.com/k-dense-ai/k-dense-byok) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/k-dense-byok/)</sub>
 
 <a name="redplanethq-core"></a>
-### #&#8288;72 [redplanethq/core](https://github.com/redplanethq/core) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · custom license · Nov 2026</sub>
+### #&#8288;71 [redplanethq/core](https://github.com/redplanethq/core) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: niche (29) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.0k · custom license · Nov 2026</sub>
 
 **Self-hosted assistant with knowledge-graph memory, tasks, and coding-agent delegation.**
 
@@ -1295,7 +1277,7 @@ CORE is a self-hosted assistant that indexes email, meetings, GitHub, Linear and
 <sub>RAM ≥ 8 GB · no GPU · Docker · Needs Docker 20.10+, Docker Compose 2.20+, Node.js/npm (CLI install) · Models: Configurable AI provider and API key, Claude subscription, Codex subscription · port 3033 · [Repo](https://github.com/redplanethq/core) · [▶️ Demo ↗](https://www.youtube.com/watch?v=7y_kt_UTYQs) · [📖 Docs ↗](https://docs.getcore.me) · [🌐 Site ↗](https://getcore.me) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/redplanethq-core/)</sub>
 
 <a name="wechat-intelligence-hub"></a>
-### #&#8288;73 [wechat-intelligence-hub](https://github.com/rion-wu-tech/wechat-intelligence-hub) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · AGPL-3.0 · Nov 2026</sub>
+### #&#8288;72 [wechat-intelligence-hub](https://github.com/rion-wu-tech/wechat-intelligence-hub) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: known (40) · Freshness: active (100) · Maintenance: fair (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.8k · AGPL-3.0 · Nov 2026</sub>
 
 **Turns local WeChat history into daily reports, follow-ups and commitments.**
 
@@ -1313,7 +1295,7 @@ Read-only toolkit that indexes a user's own local WeChat databases and produces 
 <sub>Needs Codex, SQLCipher, Zstandard, Pandoc (HTML reports), nh3 (HTML sanitizing), Local WeChat database and key material · [Repo](https://github.com/rion-wu-tech/wechat-intelligence-hub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wechat-intelligence-hub/)</sub>
 
 <a name="gptdiscord"></a>
-### #&#8288;74 [gptdiscord](https://github.com/kav-k/gptdiscord) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
+### #&#8288;73 [gptdiscord](https://github.com/kav-k/gptdiscord) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (25) · Freshness: active (100) · Maintenance: fair (63) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Nov 2026</sub>
 
 **Discord bot for OpenAI chat, image generation, web search and document Q&A.**
 
@@ -1331,7 +1313,7 @@ GPTDiscord is a Python Discord bot that exposes OpenAI chat (including vision an
 <sub>no GPU · Docker + Compose · Needs Discord bot token, OpenAI API key, FFmpeg, Qdrant (optional), Pinecone (optional), E2B (optional), Replicate (optional), DeepL (optional) · Models: OpenAI Chat Completions models, GPT Image, OpenAI-compatible endpoints via OPENAI_BASE_URL · [Repo](https://github.com/kav-k/gptdiscord) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/gptdiscord/)</sub>
 
 <a name="openclaw-android"></a>
-### #&#8288;75 [openclaw-android](https://github.com/aidanpark/openclaw-android) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Oct 2026</sub>
+### #&#8288;74 [openclaw-android](https://github.com/aidanpark/openclaw-android) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (64) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Oct 2026</sub>
 
 **Installer and Android app for running the OpenClaw assistant on a phone.**
 
@@ -1349,7 +1331,7 @@ Runs the OpenClaw gateway on Android by installing only the glibc dynamic linker
 <sub>no GPU · Needs Termux (F-Droid) or Claw APK, Node.js 24 (glibc, installed by script), ~2GB free storage · port 18789 · [Repo](https://github.com/aidanpark/openclaw-android) · [🌐 Site ↗](https://myopenclawhub.com) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-android/)</sub>
 
 <a name="talorys"></a>
-### #&#8288;76 [talorys](https://github.com/rociiu/talorys) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
+### #&#8288;75 [talorys](https://github.com/rociiu/talorys) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (73) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · MIT · Nov 2026</sub>
 
 **Single-user personal AI assistant that runs in your own Cloudflare account.**
 
@@ -1367,7 +1349,7 @@ Talorys is a personal assistant deployed with one npx command into your Cloudfla
 <sub>no GPU · Needs Cloudflare account, Cloudflare Pages, Cloudflare Workers, Durable Objects (SQLite), Workers AI, Node.js 22+ · Models: @cf/zai-org/glm-4.7-flash (Workers AI) · [Repo](https://github.com/rociiu/talorys) · [📖 Docs ↗](https://github.com/rociiu/talorys/blob/main/docs/deployment.md) · [🌐 Site ↗](https://rociiu.github.io/talorys/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/talorys/)</sub>
 
 <a name="khoj"></a>
-### #&#8288;77 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (92) · Freshness: active (87) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
+### #&#8288;76 [Khoj](https://github.com/khoj-ai/khoj) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (92) · Freshness: active (87) · Maintenance: weak (4) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · AGPL-3.0 · Aug 2026</sub>
 
 **Personal assistant that chats with your documents and the web.**
 
@@ -1385,7 +1367,7 @@ Khoj answers questions from the web and your files (PDF, Markdown, org-mode, Wor
 <sub>Docker + Compose · Compose runs PostgreSQL, SearXNG · Models: llama3, qwen, gemma, mistral, OpenAI GPT · [Repo](https://github.com/khoj-ai/khoj) · [▶️ Demo ↗](https://app.khoj.dev) · [📖 Docs ↗](https://docs.khoj.dev) · [🌐 Site ↗](https://khoj.dev) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/khoj/)</sub>
 
 <a name="openduet"></a>
-### #&#8288;78 [openduet](https://github.com/copilotkit/openduet) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
+### #&#8288;77 [openduet](https://github.com/copilotkit/openduet) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (53) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.2k · MIT · Nov 2026</sub>
 
 **Proactive personal agent with its own browser, morning brief and approval prompts.**
 
@@ -1403,7 +1385,7 @@ OpenDuet is a self-hosted personal agent built on OpenBot and CopilotKit. It rea
 <sub>no GPU · Needs Docker, Bun 1.3+, Node (npx), Postgres, CopilotKit Intelligence project, Model API key · Models: OpenAI, Anthropic, OpenAI-compatible endpoints · port 3010 · [Repo](https://github.com/copilotkit/openduet) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openduet/)</sub>
 
 <a name="poco-claw"></a>
-### #&#8288;79 [poco-claw](https://github.com/poco-ai/poco-claw) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Sep 2026</sub>
+### #&#8288;78 [poco-claw](https://github.com/poco-ai/poco-claw) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: patchy (44) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Sep 2026</sub>
 
 **Self-hosted web workspace running Claude Code agents in isolated containers.**
 
@@ -1421,7 +1403,7 @@ Poco is a Next.js and FastAPI web app that runs Claude Code-style agent tasks in
 <sub>no GPU · Docker + Compose · Needs Docker, mem0 · Models: Claude Code · port 3000 · [Repo](https://github.com/poco-ai/poco-claw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/poco-claw/)</sub>
 
 <a name="shell-gpt"></a>
-### #&#8288;80 [shell_gpt](https://github.com/ther1d/shell_gpt) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (78) · Freshness: active (83) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Jul 2026</sub>
+### #&#8288;79 [shell_gpt](https://github.com/ther1d/shell_gpt) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (78) · Freshness: active (83) · Maintenance: weak (8) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Jul 2026</sub>
 
 **Command-line tool that generates shell commands and code from LLM prompts.**
 
@@ -1439,7 +1421,7 @@ ShellGPT installs as `sgpt` via pip and sends prompts from arguments or stdin to
 <sub>no GPU · Docker · Needs OpenAI API key or a local backend such as Ollama, Python and pip · Models: OpenAI GPT models, Ollama (via LiteLLM) · [Repo](https://github.com/ther1d/shell_gpt) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/shell-gpt/)</sub>
 
 <a name="spacebot"></a>
-### #&#8288;81 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (35) · Freshness: active (98) · Maintenance: weak (29) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Sep 2026</sub>
+### #&#8288;80 [Spacebot](https://github.com/spacedriveapp/spacebot) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (35) · Freshness: active (98) · Maintenance: weak (29) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · custom license · Sep 2026</sub>
 
 **Multi-user agent harness for Discord, Slack and Telegram communities.**
 
@@ -1457,7 +1439,7 @@ Spacebot is a Rust agent server built for many concurrent users: channel process
 <sub>no GPU · Docker · Models: OpenAI-compatible, Anthropic-compatible, Ollama, Azure OpenAI, Gemini · [Repo](https://github.com/spacedriveapp/spacebot) · [📖 Docs ↗](https://docs.spacebot.sh) · [🌐 Site ↗](https://spacebot.sh) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/spacebot/)</sub>
 
 <a name="nullhub"></a>
-### #&#8288;82 [nullhub](https://github.com/nullclaw/nullhub) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Oct 2026</sub>
+### #&#8288;81 [nullhub](https://github.com/nullclaw/nullhub) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (18) · Freshness: active (100) · Maintenance: patchy (30) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Oct 2026</sub>
 
 **Management hub for installing and supervising NullClaw ecosystem components.**
 
@@ -1475,7 +1457,7 @@ NullHub is a single Zig binary with an embedded Svelte web UI that installs, con
 <sub>no GPU · Docker · Needs curl, tar, npm (build only), Zig 0.16.0 (build only) · port 19800 · [Repo](https://github.com/nullclaw/nullhub) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nullhub/)</sub>
 
 <a name="dicio-android"></a>
-### #&#8288;83 [dicio-android](https://github.com/dicioteam/dicio-android) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · GPL-3.0 · Oct 2026</sub>
+### #&#8288;82 [dicio-android](https://github.com/dicioteam/dicio-android) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: niche (17) · Freshness: active (100) · Maintenance: patchy (49) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · GPL-3.0 · Oct 2026</sub>
 
 **On-device Android voice assistant with wake word and skill-based commands.**
 
@@ -1493,7 +1475,7 @@ Dicio is an Android voice assistant that matches spoken input against sentence p
 <sub>no GPU · Needs Vosk, OpenWakeWord, OpenWeatherMap, Genius, DuckDuckGo, Lingva · Models: Vosk STT models, OpenWakeWord .tflite · [Repo](https://github.com/dicioteam/dicio-android) · [📖 Docs ↗](https://dicio.stypox.org/adding_skill.html) · [🌐 Site ↗](https://dicio.stypox.org) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dicio-android/)</sub>
 
 <a name="mimiclaw"></a>
-### #&#8288;84 [mimiclaw](https://github.com/memovai/mimiclaw) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (59) · Freshness: active (94) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Oct 2026</sub>
+### #&#8288;83 [mimiclaw](https://github.com/memovai/mimiclaw) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (59) · Freshness: active (94) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Oct 2026</sub>
 
 **C firmware that runs a Telegram-controlled AI agent on an ESP32-S3 board.**
 
@@ -1511,7 +1493,7 @@ MimiClaw is ESP-IDF firmware that turns an ESP32-S3 board with 16 MB flash and 8
 <sub>no GPU · Needs ESP32-S3 board (16 MB flash, 8 MB PSRAM), ESP-IDF v5.5+, Telegram bot token, Anthropic or OpenAI API key, Tavily or Brave Search API key (optional) · Models: Anthropic Claude, OpenAI GPT · port 18789 · [Repo](https://github.com/memovai/mimiclaw) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/mimiclaw/)</sub>
 
 <a name="wechat-bot"></a>
-### #&#8288;85 [wechat-bot](https://github.com/wangrongding/wechat-bot) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (77) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Sep 2026</sub>
+### #&#8288;84 [wechat-bot](https://github.com/wangrongding/wechat-bot) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (77) · Freshness: recent (70) · Maintenance: weak (7) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 12k · MIT · Sep 2026</sub>
 
 **Wechaty bot that routes WeChat, Lark, Telegram and WhatsApp chats to LLMs.**
 
@@ -1528,25 +1510,8 @@ Node.js CLI (`wb`) that logs into WeChat by QR code through Wechaty and replies 
 
 <sub>no GPU · Docker · Needs Node.js >= 18, Wechaty, OpenCLI wx-cli, lark-cli, Pi agent · Models: ChatGPT, DeepSeek, Ollama, Claude, Kimi · port 3000 · [Repo](https://github.com/wangrongding/wechat-bot) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/wechat-bot/)</sub>
 
-<a name="openloomi"></a>
-### #&#8288;86 [openloomi](https://github.com/melandlabs/openloomi) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: niche (3) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · Sep 2026</sub>
-
-**Desktop attention agent that surfaces work decisions from connected tools.**
-
-OpenLoomi is a Tauri desktop app (TypeScript, Rust) that runs a resident agent named Loomi. It pulls commits, issues, emails and docs from connected tools into a memory layer, then raises reminders and decision cards, including a 9 AM to-do and 6 PM recap. It also answers inside Telegram, WhatsApp, iMessage, QQ and Lark/Feishu, and ships skills and plugins for Claude Code, Codex, OpenCode, Hermes and OpenClaw.
-
-- **+** Installers for macOS (Intel, Apple Silicon), Windows and Linux (.deb, .rpm, x64 and ARM64)
-- **+** Chat connectors for Telegram, WhatsApp, iMessage, QQ and Lark/Feishu
-- **+** Skills and marketplace plugins let Claude Code and Codex reuse its memory and connectors
-- **+** Local-first storage with AES-256 encryption and access logs, per the README
-- **−** README calls it early-stage software and asks users to report what is broken
-- **−** Screen-context features require granting access to your screen and many work accounts
-- **−** Building from source needs Node.js 22+, pnpm 9+ and Rust 1.75+
-
-<sub>Needs Node.js 22+ (build), pnpm 9+ (build), Rust 1.75+ (build) · [Repo](https://github.com/melandlabs/openloomi) · [📖 Docs ↗](https://openloomi.ai/docs) · [🌐 Site ↗](https://openloomi.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openloomi/)</sub>
-
 <a name="open-llm-vtuber"></a>
-### #&#8288;87 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (81) · Freshness: slowing (50) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
+### #&#8288;85 [open-llm-vtuber](https://github.com/open-llm-vtuber/open-llm-vtuber) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: widely used (81) · Freshness: slowing (50) · Maintenance: weak (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 15k · custom license · May 2026</sub>
 
 **Voice-chat AI companion with a Live2D avatar and desktop pet mode.**
 
@@ -1562,6 +1527,41 @@ Open-LLM-VTuber is a Python server with web and desktop clients for real-time vo
 - **−** License is NOASSERTION; bundled Live2D sample models carry separate terms for commercial use
 
 <sub>GPU optional · Docker · Needs uv, ffmpeg · Models: Ollama, OpenAI-compatible, Gemini, Claude, Mistral · [Repo](https://github.com/open-llm-vtuber/open-llm-vtuber) · [📖 Docs ↗](https://open-llm-vtuber.github.io/docs/quick-start) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/open-llm-vtuber/)</sub>
+
+<a name="openloomi"></a>
+### #&#8288;86 [openloomi](https://github.com/melandlabs/openloomi) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (3) · Freshness: active (100) · Maintenance: patchy (41) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.0k · Apache-2.0 · Sep 2026</sub>
+
+**Desktop attention agent that surfaces work decisions from connected tools.**
+
+OpenLoomi is a Tauri desktop app (TypeScript, Rust) that runs a resident agent named Loomi. It pulls commits, issues, emails and docs from connected tools into a memory layer, then raises reminders and decision cards, including a 9 AM to-do and 6 PM recap. It also answers inside Telegram, WhatsApp, iMessage, QQ and Lark/Feishu, and ships skills and plugins for Claude Code, Codex, OpenCode, Hermes and OpenClaw.
+
+- **+** Installers for macOS (Intel, Apple Silicon), Windows and Linux (.deb, .rpm, x64 and ARM64)
+- **+** Chat connectors for Telegram, WhatsApp, iMessage, QQ and Lark/Feishu
+- **+** Skills and marketplace plugins let Claude Code and Codex reuse its memory and connectors
+- **+** Local-first storage with AES-256 encryption and access logs, per the README
+- **−** README calls it early-stage software and asks users to report what is broken
+- **−** Screen-context features require granting access to your screen and many work accounts
+- **−** Building from source needs Node.js 22+, pnpm 9+ and Rust 1.75+
+
+<sub>Needs Node.js 22+ (build), pnpm 9+ (build), Rust 1.75+ (build) · [Repo](https://github.com/melandlabs/openloomi) · [📖 Docs ↗](https://openloomi.ai/docs) · [🌐 Site ↗](https://openloomi.ai) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openloomi/)</sub>
+
+<a name="invisible-dots"></a>
+### #&#8288;87 [invisible_dots](https://github.com/feder-cr/invisible_dots) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: niche (0) · Freshness: active (100) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 55 · MIT · Nov 2026</sub>
+
+**Agents that each work in their own VM with an anti-detection Firefox.**
+
+Each "Dot" is an agent with its own hardware-accelerated Linux desktop VM (QEMU with KVM or Windows Hypervisor Platform) and a persistent disk. It browses with a patched Firefox that keeps separate logins per identity, writes its own notes and skills, and runs queued tasks and recurring automations. It is reachable through a web UI, CLI, HTTP API, Telegram and optional WhatsApp, takes an OpenRouter key for models, and is marked alpha.
+
+- **+** Each agent gets an isolated VM with desktop, terminal, files and persistent disk
+- **+** Per-tool allow/ask/deny permissions; pending approvals persist in an Inbox across restarts
+- **+** Accepts user-declared MCP servers, with their keys kept out of the config
+- **+** State survives a restart or kill -9, and cut-short tool calls are never rerun
+- **−** Marked alpha in the README
+- **−** Needs x86-64 hardware virtualization plus Node 24+, Go 1.25+ and Git
+- **−** Source-build install only; no Docker or compose files
+- **−** Setup documents only an OpenRouter key; local models are not mentioned
+
+<sub>no GPU · Needs Node 24+, Go 1.25+, Git, QEMU, KVM or Windows Hypervisor Platform, OpenRouter API key · Models: OpenRouter · port 3000 · [Repo](https://github.com/feder-cr/invisible_dots) · [📖 Docs ↗](https://github.com/oss-invisible/dots/blob/main/docs/guide.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/invisible-dots/)</sub>
 
 <a name="moltworker"></a>
 ### #&#8288;88 [moltworker](https://github.com/cloudflare/moltworker) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (73) · Freshness: slowing (44) · Maintenance: weak (11) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.9k · Apache-2.0 · Mar 2026</sub>
@@ -1707,7 +1707,7 @@ A Docker image and compose setup that bundles OpenClaw with IM channel plugins f
 <sub>no GPU · Docker + Compose · Needs Docker, Docker Compose, LLM API (OpenAI or Claude protocol) · Models: OpenAI-compatible API, Claude API · [Repo](https://github.com/justlovemaki/openclaw-china-docker) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/openclaw-china-docker/)</sub>
 
 <a name="paperdebugger"></a>
-### #&#8288;96 [paperdebugger](https://github.com/paperdebugger/paperdebugger) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (17) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · AGPL-3.0 · Jul 2026</sub>
+### #&#8288;96 [paperdebugger](https://github.com/paperdebugger/paperdebugger) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (16) · Freshness: recent (74) · Maintenance: weak (0) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · AGPL-3.0 · Jul 2026</sub>
 
 **Chrome extension that adds an AI writing and review assistant to Overleaf.**
 

@@ -578,26 +578,8 @@ DingoDB is a distributed database written in Java that stores tables and vectors
 
 <sub>Docker + Compose · Needs Dingo-Store · [Repo](https://github.com/dingodb/dingo) · [📖 Docs ↗](https://dingodb.readthedocs.io/en/latest/) · [🌐 Site ↗](https://www.datacanvas.com/) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/dingo/)</sub>
 
-<a name="chromem-go"></a>
-### #&#8288;33 [chromem-go](https://github.com/philippgille/chromem-go) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (2) · Freshness: recent (70) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MPL-2.0 · Sep 2026</sub>
-
-**Embeddable Go vector database with a Chroma-like API.**
-
-chromem-go is a Go library that stores documents and embeddings in memory, with optional persistence to gob files. It runs inside your process, so RAG or semantic search needs no separate database. It creates embeddings through hosted providers or local Ollama and LocalAI, and queries use exhaustive cosine similarity.
-
-- **+** Zero third-party Go dependencies; embedded like SQLite, no server to run
-- **+** Built-in embedding functions for OpenAI, Azure, Vertex AI, Cohere, Mistral, Jina, Ollama, LocalAI
-- **+** Reported 40 ms for 100,000 documents on a 2020 laptop CPU
-- **+** Whole-DB export and import, with optional gzip and AES-GCM encryption
-- **−** Exhaustive search only; no ANN index yet, so query time grows linearly
-- **−** Metadata filters are exact match only; no $and or $or operators
-- **−** Beta status; breaking changes possible before v1.0.0
-- **−** Text documents only; last release was 2024-09-01
-
-<sub>no GPU · Models: OpenAI, Azure OpenAI, GCP Vertex AI, Cohere, Mistral · [Repo](https://github.com/philippgille/chromem-go) · [📖 Docs ↗](https://pkg.go.dev/github.com/philippgille/chromem-go) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chromem-go/)</sub>
-
 <a name="nmslib"></a>
-### #&#8288;34 [nmslib](https://github.com/nmslib/nmslib) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (41) · Freshness: quiet (11) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Jan 2026</sub>
+### #&#8288;33 [nmslib](https://github.com/nmslib/nmslib) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (41) · Freshness: quiet (11) · Maintenance: patchy (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.6k · Apache-2.0 · Jan 2026</sub>
 
 **Approximate nearest-neighbor search library for metric and non-metric spaces.**
 
@@ -613,5 +595,23 @@ NMSLIB is a C++ similarity search library with Python bindings and an Apache Thr
 - **−** Query server requires Apache Thrift 0.12, an old version
 
 <sub>Needs Apache Thrift 0.12 (query server only) · [Repo](https://github.com/nmslib/nmslib) · [📖 Docs ↗](https://github.com/nmslib/nmslib/blob/master/manual/README.md) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/nmslib/)</sub>
+
+<a name="chromem-go"></a>
+### #&#8288;34 [chromem-go](https://github.com/philippgille/chromem-go) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (2) · Freshness: recent (70) · Maintenance: weak (11) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.1k · MPL-2.0 · Sep 2026</sub>
+
+**Embeddable Go vector database with a Chroma-like API.**
+
+chromem-go is a Go library that stores documents and embeddings in memory, with optional persistence to gob files. It runs inside your process, so RAG or semantic search needs no separate database. It creates embeddings through hosted providers or local Ollama and LocalAI, and queries use exhaustive cosine similarity.
+
+- **+** Zero third-party Go dependencies; embedded like SQLite, no server to run
+- **+** Built-in embedding functions for OpenAI, Azure, Vertex AI, Cohere, Mistral, Jina, Ollama, LocalAI
+- **+** Reported 40 ms for 100,000 documents on a 2020 laptop CPU
+- **+** Whole-DB export and import, with optional gzip and AES-GCM encryption
+- **−** Exhaustive search only; no ANN index yet, so query time grows linearly
+- **−** Metadata filters are exact match only; no $and or $or operators
+- **−** Beta status; breaking changes possible before v1.0.0
+- **−** Text documents only; last release was 2024-09-01
+
+<sub>no GPU · Models: OpenAI, Azure OpenAI, GCP Vertex AI, Cohere, Mistral · [Repo](https://github.com/philippgille/chromem-go) · [📖 Docs ↗](https://pkg.go.dev/github.com/philippgille/chromem-go) · [📊 Score breakdown ↗](https://archestack.com/best-of-ai/projects/chromem-go/)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai/issues/new/choose).</sub>
